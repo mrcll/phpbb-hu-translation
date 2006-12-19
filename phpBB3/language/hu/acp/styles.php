@@ -4,7 +4,7 @@
 * acp_styles [English]
 *
 * @package language
-* @version $Id: styles.php,v 1.1 2006-12-13 20:17:57 fberci Exp $
+* @version $Id: styles.php,v 1.2 2006-12-19 18:57:18 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -354,7 +354,7 @@ $lang = array_merge($lang, array(
 	'STYLE_NAME'				=> 'Style name',
 	'STYLE_TEMPLATE'			=> 'Template',
 	'STYLE_THEME'				=> 'Theme',
-	'STYLE_USED_BY'				=> 'Used by',
+	'STYLE_USED_BY'				=> 'Used by (including robots)',
 
 	'TEMPLATE_ADDED'			=> 'Template set added and stored on filesystem.',
 	'TEMPLATE_ADDED_DB'			=> 'Template set added and stored in database.',

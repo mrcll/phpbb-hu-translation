@@ -4,7 +4,7 @@
 * install [English]
 *
 * @package language
-* @version $Id: install.php,v 1.1 2006-12-13 20:17:57 fberci Exp $
+* @version $Id: install.php,v 1.2 2006-12-19 18:57:18 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -61,18 +61,22 @@ $lang = array_merge($lang, array(
 	'CONFIG_RETRY'				=> 'Retry',
 	'CONTACT_EMAIL_CONFIRM'		=> 'Confirm contact email',
 	'CONTINUE_CONVERT'			=> 'Continue conversion',
+	'CONTINUE_CONVERT_BODY'		=> 'A previous conversion attempt has been determined. You are now able to choose between starting a new conversion or continuing the conversion.',
 	'CONTINUE_LAST'				=> 'Continue last statements',
+	'CONTINUE_OLD_CONVERSION'	=> 'Continue previously started conversion',
 	'CONVERT'					=> 'Convert',
 	'CONVERT_COMPLETE'			=> 'Conversion completed',
 	'CONVERT_COMPLETE_EXPLAIN'	=> 'You have now successfully converted your board to phpBB 3.0. You can now login and <a href="../">access your forum</a>. Remember that help on using phpBB is available online via the <a href="http://www.phpbb.com/support/documentation/3.0/">Userguide</a> and the <a href="http://www.phpbb.com/phpBB/viewforum.php?f=46">Beta support forum</a>',
 	'CONVERT_INTRO'				=> 'Welcome to the phpBB Unified Convertor Framework',
 	'CONVERT_INTRO_BODY'		=> 'From here, you are able to import data from other (installed) forum systems. The list below shows all the conversion modules currently available. If there is no convertor shown in this list for the forum software you wish to convert from, please check our website where further conversion modules may be available for download.',
+	'CONVERT_NEW_CONVERSION'	=> 'New conversion',
 	'CONVERT_NOT_EXIST'			=> 'The specified convertor does not exist',
 	'CONVERT_SETTINGS_VERIFIED'	=> 'The information you entered has been verified. To start the conversion progress, push the button below to begin',
 
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'FTP Upload for Attachments is enabled at the old board. Please copy all Attachment files to a directory accessible, disable ftp uploading and make sure a valid upload dir is specified. If you have done this, restart the convertor.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'There is no configuration information available for the conversion.',
 	'CONV_ERROR_FORUM_ACCESS'			=> 'Unable to get forum access information.',
+	'CONV_ERROR_FORUM_MAPPING'			=> 'The forum mapping information is missing.',
 	'CONV_ERROR_GET_CATEGORIES'			=> 'Unable to get categories.',
 	'CONV_ERROR_GET_CONFIG'				=> 'Could not retrieve your forum configuration.',
 	'CONV_ERROR_COULD_NOT_READ'			=> 'Unable to access/read "%s".',
@@ -88,13 +92,14 @@ $lang = array_merge($lang, array(
 	'CONV_ERROR_NO_GROUP'				=> 'Group "%1$s" could not be found in %2$s.',
 	'CONV_ERROR_NO_RANKS_PATH'			=> 'Note to developer: you must specify $convertor[\'ranks_path\'] to use %s.',
 	'CONV_ERROR_NO_SMILIES_PATH'		=> 'Note to developer: you must specify $convertor[\'smilies_path\'] to use %s.',
-	'CONV_ERROR_NO_UPLOAD_DIR'			=> 'Note to developer: you must specify $convertor[\'upload_dir\'] to use %s.',
+	'CONV_ERROR_NO_UPLOAD_DIR'			=> 'Note to developer: you must specify $convertor[\'upload_path\'] to use %s.',
 	'CONV_ERROR_PERM_SETTING'			=> 'Unable to insert/update permission setting.',
 	'CONV_ERROR_PM_COUNT'				=> 'Unable to select folder pm count.',
 	'CONV_ERROR_REPLACE_CATEGORY'		=> 'Unable to insert new forum replacing old category.',
 	'CONV_ERROR_REPLACE_FORUM'			=> 'Unable to insert new forum replacing old forum.',
 	'CONV_ERROR_USER_ACCESS'			=> 'Unable to get user authentication information.',
 	'CONV_ERROR_WRONG_GROUP'			=> 'Wrong group "%1$s" defined in %2$s.',
+	'CONV_SAVED_MESSAGES'				=> 'Saved Messages',
 
 	'COULD_NOT_COPY'			=> 'Could not copy file <strong>%1$s</strong> to <strong>%2$s</strong><br /><br />Please check that the target directory exists and is writable by the webserver',
 	'COULD_NOT_FIND_PATH'		=> 'Could not find path to your former forum. Please check your settings and try again.<br />» Specified source path was %s',
@@ -209,6 +214,18 @@ $lang = array_merge($lang, array(
 	'INST_ERR_USER_TOO_SHORT'	=> 'The username you entered is too short. The minimum length is 3 characters.',
 	'INVALID_PRIMARY_KEY'		=> 'Invalid primary key : %s',
 
+	// mbstring
+	'MBSTRING_CHECK'			=> 'mbstring Extension Check',
+	'MBSTRING_CHECK_EXPLAIN'	=> 'mbstring is a PHP extension that provides multibyte string functions. Certain features of mbstring are not compatible with phpBB and must be disabled',
+	'MBSTRING_FUNC_OVERLOAD' => 'Function overloading',
+	'MBSTRING_FUNC_OVERLOAD_EXPLAIN' => 'mbstring.func_overload must be set to either 0 or 4',
+	'MBSTRING_ENCODING_TRANSLATION' => 'Transparent character encoding',
+	'MBSTRING_ENCODING_TRANSLATION_EXPLAIN' => 'mbstring.encoding_translation must be set to 0',
+	'MBSTRING_HTTP_INPUT' => 'HTTP input character conversion',
+	'MBSTRING_HTTP_INPUT_EXPLAIN' => 'mbstring.http_input must be set to pass',
+	'MBSTRING_HTTP_OUTPUT' => 'HTTP output character conversion',
+	'MBSTRING_HTTP_OUTPUT_EXPLAIN' => 'mbstring.http_output must be set to pass',
+
 	'MAKE_FOLDER_WRITABLE'		=> 'Please make sure that this folder exists and is writable by the webserver then try again:<br />»<strong>%s</strong>',
 	'MAKE_FOLDERS_WRITABLE'		=> 'Please make sure that these folders exist and are writable by the webserver then try again:<br />»<strong>%s</strong>',
 
@@ -225,7 +242,7 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT'				=> 'PCRE UTF-8 Support',
 	'PCRE_UTF_SUPPORT_EXPLAIN'		=> 'phpBB will <strong>not</strong> run if your PHP installation is not compiled with UTF-8 support in the PCRE extension',
 	'PHP_OPTIONAL_MODULE'			=> 'Optional Modules',
-	'PHP_OPTIONAL_MODULE_EXPLAIN'	=> '<strong>Optional</strong> - These modules or applications are optional, you do not need these to use phpBB 3.0. However if you do have them they will will enable greater functionality.',
+	'PHP_OPTIONAL_MODULE_EXPLAIN'	=> '<strong>Optional</strong> - These modules or applications are optional, you do not need these to use phpBB 3.0. However if you have them available they will enable greater functionality.',
 	'PHP_SUPPORTED_DB'				=> 'Supported Databases',
 	'PHP_SUPPORTED_DB_EXPLAIN'		=> '<strong>Required</strong> - You must have support for at least one compatible database within PHP. If no database modules are shown as available you should contact your hosting provider or review the relevant PHP installation documentation for advice.',
 	'PHP_REGISTER_GLOBALS'			=> 'PHP setting <var>register_globals</var> is disabled',
@@ -247,7 +264,7 @@ $lang = array_merge($lang, array(
 	'RETRY_WRITE_EXPLAIN'		=> 'If you wish you can change the permissions on config.php to allow phpBB to write to it. Should you wish to do that you can click Retry below to try again. Remember to return the permissions on config.php after phpBB has finished installation.',
 
 	'SCRIPT_PATH'				=> 'Script path',
-	'SCRIPT_PATH_EXPLAIN'		=> 'The path where phpBB is located relative to the domain name',
+	'SCRIPT_PATH_EXPLAIN'		=> 'The path where phpBB is located relative to the domain name, e.g. <samp>/phpBB3</samp>',
 	'SELECT_LANG'				=> 'Select language',
 	'SERVER_CONFIG'				=> 'Server Configuration',
 	'SOFTWARE'					=> 'Forum Software',
@@ -265,7 +282,7 @@ $lang = array_merge($lang, array(
 	'STAGE_REQUIREMENTS'		=> 'Requirements',
 	'STAGE_SETTINGS'			=> 'Settings',
 	'STARTING_CONVERT'			=> 'Starting Conversion Process',
-	'STEP_PERCENT_COMPLETED'	=> 'Step <strong>%d</strong> of <strong>%d</strong>: %d%% completed',
+	'STEP_PERCENT_COMPLETED'	=> 'Step <strong>%d</strong> of <strong>%d</strong>',
 	'SUB_INTRO'					=> 'Introduction',
 	'SUB_LICENSE'				=> 'License',
 	'SUB_SUPPORT'				=> 'Support',
@@ -274,7 +291,7 @@ $lang = array_merge($lang, array(
 	'SUPPORT_BODY'				=> 'During the beta phase a minimal level of support will be given at <a href="http://www.phpbb.com/phpBB/viewforum.php?f=46">the phpBB 3.0 Beta support forum</a>. We will provide answers to general setup questions, configuration problems and support for determining common problems mostly related to bugs. We will not support modifications, custom code/style additions or any users using the beta packages within a live environment.</p><p>For additional assistance, please refer to our <a href="http://www.phpbb.com/support/documentation/3.0/quickstart/">Quick Start Guide</a>.</p><p>To ensure you stay up to date with the latest news and releases, why not <a href="http://www.phpbb.com/support/">subscribe to our mailing list</a>',
 	'SYNC_FORUMS'				=> 'Starting to sync forums',
 	'SYNC_TOPICS'				=> 'Starting to sync topics',
-	'SYNC_TOPIC_ID'				=> 'Synchronising topics from topic_id $1%s to $2%s',
+	'SYNC_TOPIC_ID'				=> 'Synchronising topics from topic_id %1$s to %2$s',
 
 	'TABLES_MISSING'			=> 'Could not find these tables<br />» <strong>%s</strong>.',
 	'TABLE_PREFIX'				=> 'Prefix for tables in database',
@@ -285,6 +302,7 @@ $lang = array_merge($lang, array(
 	'UNABLE_WRITE_LOCK'			=> 'Unable to write lock file',
 	'UNAVAILABLE'				=> 'Unavailable',
 	'UNWRITEABLE'				=> 'Unwriteable',
+	'UPDATE_TOPICS_POSTED'		=> 'Generating topics posted informations',
 
 	'VERSION'					=> 'Version',
 
@@ -294,18 +312,21 @@ $lang = array_merge($lang, array(
 
 // Updater
 $lang = array_merge($lang, array(
-	'ALL_FILES_UP_TO_DATE'		=> 'All files are up to date with the latest phpBB version. You may want to run the database update tool now.',
+	'ALL_FILES_UP_TO_DATE'		=> 'All files are up to date with the latest phpBB version. You should now <a href="../ucp.php?mode=login">login to your board</a> and check if everything is working fine. Do not forget to delete, rename or move your install directory!',
 	'ARCHIVE_FILE'				=> 'Source file within archive',
 
-	'BACK'		=> 'Back',
+	'BACK'				=> 'Back',
+	'BINARY_FILE'		=> 'Binary file',
 
 	'CHECK_FILES'					=> 'Check files',
 	'CHECK_FILES_AGAIN'				=> 'Check files again',
 	'CHECK_FILES_EXPLAIN'			=> 'Within the next step all files will be checked against the update files - this can take a while if this is the first file check.',
 	'CHECK_FILES_UP_TO_DATE'		=> 'According to your database your version is up to date. You may want to proceed with the file check to make sure all files are really up to date with the latest phpBB version.',
+	'CHECK_UPDATE_DATABASE'			=> 'Continue update process',
 	'COLLECTED_INFORMATION'			=> 'Information on collected files',
 	'COLLECTED_INFORMATION_EXPLAIN'	=> 'The list below shows information about the files needing an update. Please read the information in front of every status block to see what they mean and what you may need to do to perform a successful update.',
-	'COMPLETE_LOGIN_TO_BOARD'		=> 'You should now <a href="../ucp.php?mode=login">login to your board</a> and check if everything is working fine. Don’t forget to delete, rename or move your install directory!',
+	'COMPLETE_LOGIN_TO_BOARD'		=> 'You should now <a href="../ucp.php?mode=login">login to your board</a> and check if everything is working fine. Do not forget to delete, rename or move your install directory!',
+	'CONTINUE_INLINE_UPDATE'		=> 'The database update was successful. Now please close this window and continue the update process as explained.',
 	'CURRENT_FILE'					=> 'Current original file',
 	'CURRENT_VERSION'				=> 'Current version',
 
@@ -356,13 +377,14 @@ $lang = array_merge($lang, array(
 	'LOGIN_UPDATE_EXPLAIN'	=> 'In order to update your installation you need to login first.',
 
 	'MAPPING_FILE_STRUCTURE'	=> 'To ease the upload here are the file locations which map your phpBB installation.',
-	'MERGE_MOD_FILE_OPTION'		=> 'Use modified file code on final merge',
-	'MERGE_NEW_FILE_OPTION'		=> 'Use new file code on final merge',
+	'MERGE_NO_MERGE_NEW_OPTION'	=> 'Do not merge - use new file',
+	'MERGE_NO_MERGE_MOD_OPTION'	=> 'Do not merge - use currently installed file',
+	'MERGE_MOD_FILE_OPTION'		=> 'Merge differences and use modified code within conflicting block',
+	'MERGE_NEW_FILE_OPTION'		=> 'Merge differences and use new file code within conflicting block',
 	'MERGE_SELECT_ERROR'		=> 'Conflicting file merge modes are not correctly selected.',
 
 	'NEW_FILE'						=> 'New updated file',
 	'NO_AUTH_UPDATE'				=> 'Not authorized to update',
-	'NO_DATABASE_UPDATE_NEEDED'		=> 'All of your files seem to be up to date. Since you are already running the latest version you do not need to update your database.',
 	'NO_ERRORS'						=> 'No errors',
 	'NO_UPDATE_FILES'				=> 'Not updating the following files',
 	'NO_UPDATE_FILES_EXPLAIN'		=> 'The following files are new or modified but the directory they normally reside in could not be found on your installation. If this list contains files to other directories than language/ or styles/ than you may have modified your directory structure and the update may be incomplete.',
@@ -377,7 +399,7 @@ $lang = array_merge($lang, array(
 	'OLD_UPDATE_FILES'		=> 'Update files are out of date. The update files found are for updating from phpBB %1$s to phpBB %2$s but the latest version of phpBB is %3$s.',
 
 	'PERFORM_DATABASE_UPDATE'			=> 'Perform database update',
-	'PERFORM_DATABASE_UPDATE_EXPLAIN'	=> 'Below you will find a link to the database update script. This script needs to be run seperatly because updating the database might result in unexpected behaviour if you are logged in. The database update can take a while, so please do not stop the execution if it only seems to hang. After you clicked the link and the update finished you can close this window too.',
+	'PERFORM_DATABASE_UPDATE_EXPLAIN'	=> 'Below you will find a link to the database update script. This script needs to be run seperatly because updating the database might result in unexpected behaviour if you are logged in. The database update can take a while, so please do not stop the execution if it seems to hang. After you performed the database update, close the database update window and continue the update process.',
 	'PREVIOUS_VERSION'					=> 'Previous version',
 	'PROGRESS'							=> 'Progress',
 
@@ -388,6 +410,7 @@ $lang = array_merge($lang, array(
 	'SELECT_DOWNLOAD_FORMAT'	=> 'Select download archive format',
 	'SELECT_FTP_SETTINGS'		=> 'Select FTP Settings',
 	'SHOW_DIFF_CONFLICT'		=> 'Show differences/conflicts',
+	'SHOW_DIFF_FINAL'			=> 'Show resulting file',
 	'SHOW_DIFF_MODIFIED'		=> 'Show merged differences',
 	'SHOW_DIFF_NEW'				=> 'Show file contents',
 	'SHOW_DIFF_NEW_CONFLICT'	=> 'Show differences',
@@ -408,11 +431,12 @@ $lang = array_merge($lang, array(
 
 	'UPDATE_COMPLETED'				=> 'Update completed',
 	'UPDATE_DATABASE'				=> 'Update database',
+	'UPDATE_DATABASE_EXPLAIN'		=> 'Within the next step the database will be updated.',
 	'UPDATE_DATABASE_SCHEMA'		=> 'Updating database schema',
 	'UPDATE_FILES'					=> 'Update files',
 	'UPDATE_FILES_NOTICE'			=> 'Please make sure you have updated your board files too, this file is only updating your database.',
 	'UPDATE_INSTALLATION'			=> 'Update phpBB Installation',
-	'UPDATE_INSTALLATION_EXPLAIN'	=> 'With this option, it is possible to update your phpBB installation to the latest version.<br />During the process all of your files will be checked for their integrity. You are able to review all differences and files before the update.<br /><br />The file update itself can be done in two different ways.</p><h2>Manual Update</h2><p>With this update you only download your personal set of changed files to make sure you do not lose your file modifications you may have done. After you downloaded this package you need to manually upload the files to their correct position under your phpBB root directory. Once done, you are able to do the file check stage again to see if you moved the files to their correct location. If everything is correctly updated you will be forwarded to the database updater.</p><h2>Automatic Update with FTP</h2><p>This method is similar to the first one but without the need to download the changed files and uploading them on your own. This will be done for you. In order to use this method you need to know your FTP login details since you will be asked for them. Once finished you will be redirected to the file check again to make sure everything got updated correctly. If so, you will be forwarded to the database updater.',
+	'UPDATE_INSTALLATION_EXPLAIN'	=> 'With this option, it is possible to update your phpBB installation to the latest version.<br />During the process all of your files will be checked for their integrity. You are able to review all differences and files before the update.<br /><br />The file update itself can be done in two different ways.</p><h2>Manual Update</h2><p>With this update you only download your personal set of changed files to make sure you do not lose your file modifications you may have done. After you downloaded this package you need to manually upload the files to their correct position under your phpBB root directory. Once done, you are able to do the file check stage again to see if you moved the files to their correct location.</p><h2>Automatic Update with FTP</h2><p>This method is similar to the first one but without the need to download the changed files and uploading them on your own. This will be done for you. In order to use this method you need to know your FTP login details since you will be asked for them. Once finished you will be redirected to the file check again to make sure everything got updated correctly.<br /><br />',
 	'UPDATE_INSTRUCTIONS'			=> '
 
 		<h1>Release announcement</h1>
@@ -426,17 +450,16 @@ $lang = array_merge($lang, array(
 		<p>The recommended way of updating your installation only takes the following steps:</p>
 
 		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li>Go to the <a href="http://www.phpbb.com/downloads.php" title="http://www.phpbb.com/downloads.php">phpBB.com downloads page</a> and download the correct archive. If you are unsure you can <a href="%2$s" title="%2$s">download the correct archive directly</a> as a zip file.<br /><br /></li>
-			<li>Unpack the archive<br /><br /></li>
+			<li>Go to the <a href="http://www.phpbb.com/downloads.php" title="http://www.phpbb.com/downloads.php">phpBB.com downloads page</a> and download the correct "phpBB Update Package" archive.<br /><br /></li>
+			<li>Unpack the archive.<br /><br /></li>
 			<li>Upload the complete uncompressed install folder to your phpBB root directory (where your config.php file is).<br /><br /></li>
 		</ul>
 
-		<p>Once uploaded your board will be offline for normal users.<br /><br />
-		<strong><a href="%3$s" title="%3$s">Now start the update process by pointing your browser to the install folder</a>.</strong><br />
+		<p>Once uploaded your board will be offline for normal users due to the install directory you uploaded now present.<br /><br />
+		<strong><a href="%2$s" title="%2$s">Now start the update process by pointing your browser to the install folder</a>.</strong><br />
 		<br />
-		You will then be guided through the update process. The update is complete after the database update script has been completed successfully - this is the last step within the udpate process.
+		You will then be guided through the update process. You will be notified after the update is complete.
 		</p>
-
 	',
 	'UPDATE_METHOD'					=> 'Update method',
 	'UPDATE_METHOD_EXPLAIN'			=> 'You are now able to choose your preferred update method. Using the FTP Upload will present you with a form you need to enter your FTP account details into. With this method the files will be automatically moved to the new location and backups of the old files being created by appending .bak to the filename. If you choose to download the modified files you are able to unpack and upload them to their correct location manually later.',
@@ -447,6 +470,8 @@ $lang = array_merge($lang, array(
 	'UPDATING_TO_LATEST_STABLE'		=> 'Updating database to latest stable release',
 	'UPDATED_VERSION'				=> 'Updated version',
 	'UPLOAD_METHOD'					=> 'Upload method',
+
+	'UPDATE_DB_SUCCESS'				=> 'Database update was successful',
 
 	'VERSION_CHECK'				=> 'Version Check',
 	'VERSION_CHECK_EXPLAIN'		=> 'Checks to see if the version of phpBB you are currently running is up to date.',

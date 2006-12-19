@@ -4,7 +4,7 @@
 * ucp [English]
 *
 * @package language
-* @version $Id: ucp.php,v 1.1 2006-12-13 20:17:57 fberci Exp $
+* @version $Id: ucp.php,v 1.2 2006-12-19 18:57:18 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -245,14 +245,14 @@ $lang = array_merge($lang, array(
 
 	'MARK_IMPORTANT'				=> 'Mark as important',
 	'MARKED_MESSAGE'				=> 'Marked message',
-	'MAX_FOLDER_REACHED'			=> 'Maximum number of allowed user defined folder reached',
+	'MAX_FOLDER_REACHED'			=> 'Maximum number of allowed user defined folders reached',
 	'MESSAGE_BY_AUTHOR'				=> 'by',
 	'MESSAGE_COLOURS'				=> 'Message colours',
 	'MESSAGE_DELETED'				=> 'Message successfully deleted',
 	'MESSAGE_HISTORY'				=> 'Message history',
 	'MESSAGE_REMOVED_FROM_OUTBOX'	=> 'This message has been removed by it’s author before it was delivered',
 	'MESSAGE_SENT_ON'				=> 'on',
-	'MESSAGE_STORED'				=> 'Your message has been sent successfully',
+	'MESSAGE_STORED'				=> 'This message has been sent successfully',
 	'MESSAGE_TO'					=> 'To',
 	'MESSAGES_DELETED'				=> 'Messages successfully deleted',
 	'MOVE_DELETED_MESSAGES_TO'		=> 'Move messages from removed folder to',
@@ -321,6 +321,7 @@ $lang = array_merge($lang, array(
 	'PASS_TYPE_ANY_EXPLAIN'		=> 'Must be between %1$d and %2$d characters.',
 	'PASS_TYPE_CASE_EXPLAIN'	=> 'Password must be between %1$d and %2$d chars long and must be mixed case',
 	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'Password must be between %1$d and %2$d chars long and must contain symbols',
+	'PASSWORD'					=> 'Password',
 	'PASSWORD_ACTIVATED'		=> 'Your new password has been activated',
 	'PASSWORD_UPDATED'			=> 'Your password has been sent successfully to your original email address.',
 	'PERMISSIONS_RESTORED'		=> 'Successfully restored original permissions.',

@@ -4,7 +4,7 @@
 * posting [English]
 *
 * @package language
-* @version $Id: posting.php,v 1.1 2006-12-13 20:17:57 fberci Exp $
+* @version $Id: posting.php,v 1.2 2006-12-19 18:57:18 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *

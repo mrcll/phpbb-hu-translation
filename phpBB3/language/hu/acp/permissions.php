@@ -4,7 +4,7 @@
 * acp_permissions [English]
 *
 * @package language
-* @version $Id: permissions.php,v 1.1 2006-12-13 20:17:57 fberci Exp $
+* @version $Id: permissions.php,v 1.2 2006-12-19 18:57:18 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -144,6 +144,29 @@ $lang = array_merge($lang, array(
 	'ROLE_ASSIGNED_TO'				=> 'Users/Groups assigned to %s',
 	'ROLE_DELETED'					=> 'Role successfully removed.',
 	'ROLE_DESCRIPTION'				=> 'Role description',
+
+	'ROLE_ADMIN_FORUM'			=> 'Forum Admin',
+	'ROLE_ADMIN_FULL'			=> 'Full Admin',
+	'ROLE_ADMIN_STANDARD'		=> 'Standard Admin',
+	'ROLE_ADMIN_USERGROUP'		=> 'User and Groups Admin',
+	'ROLE_FORUM_BOT'			=> 'Bot Access',
+	'ROLE_FORUM_FULL'			=> 'Full Access',
+	'ROLE_FORUM_LIMITED'		=> 'Limited Access',
+	'ROLE_FORUM_LIMITED_POLLS'	=> 'Limited Access + Polls',
+	'ROLE_FORUM_NOACCESS'		=> 'No Access',
+	'ROLE_FORUM_ONQUEUE'		=> 'On Moderation Queue',
+	'ROLE_FORUM_POLLS'			=> 'Standard Access + Polls',
+	'ROLE_FORUM_READONLY'		=> 'Read Only Access',
+	'ROLE_FORUM_STANDARD'		=> 'Standard Access',
+	'ROLE_MOD_FULL'				=> 'Full Moderator',
+	'ROLE_MOD_QUEUE'			=> 'Queue Moderator',
+	'ROLE_MOD_SIMPLE'			=> 'Simple Moderator',
+	'ROLE_MOD_STANDARD'			=> 'Standard Moderator',
+	'ROLE_USER_FULL'			=> 'All Features',
+	'ROLE_USER_LIMITED'			=> 'Limited Features',
+	'ROLE_USER_NOAVATAR'		=> 'No Avatar',
+	'ROLE_USER_NOPM'			=> 'No Private Messages',
+	'ROLE_USER_STANDARD'		=> 'Standard Features',
 
 	'ROLE_DESCRIPTION_ADMIN_FORUM'			=> 'Can access the forum management and forum permission settings.',
 	'ROLE_DESCRIPTION_ADMIN_FULL'			=> 'Has access to all admin functions of this forum.<br />Not recommended.',

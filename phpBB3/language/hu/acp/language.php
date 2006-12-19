@@ -4,7 +4,7 @@
 * acp_language [English]
 *
 * @package language
-* @version $Id: language.php,v 1.1 2006-12-13 20:17:57 fberci Exp $
+* @version $Id: language.php,v 1.2 2006-12-19 18:57:18 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 	'LANGUAGE_PACK_LOCALNAME'			=> 'Local name',
 	'LANGUAGE_PACK_NAME'				=> 'Name',
 	'LANGUAGE_PACK_NOT_EXIST'			=> 'The selected language pack does not exist.',
-	'LANGUAGE_PACK_USED_BY'				=> 'Used by',
+	'LANGUAGE_PACK_USED_BY'				=> 'Used by (including robots)',
 	'LANGUAGE_VARIABLE'					=> 'Language Variable',
 	'LANG_AUTHOR'						=> 'Language Pack Author',
 	'LANG_ENGLISH_NAME'					=> 'English name',

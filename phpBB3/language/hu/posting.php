@@ -4,7 +4,7 @@
 * posting [English]
 *
 * @package language
-* @version $Id: posting.php,v 1.1 2006-12-13 20:17:57 fberci Exp $
+* @version $Id: posting.php,v 1.2 2006-12-19 18:57:18 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -61,7 +61,6 @@ $lang = array_merge($lang, array(
 	'CANNOT_EDIT_POST_LOCKED'	=> 'This post has been locked. You can no longer edit that post.',
 	'CANNOT_EDIT_TIME'			=> 'You can no longer edit or delete that post',
 	'CANNOT_POST_ANNOUNCE'		=> 'Sorry but you cannot post announcements.',
-	'CANNOT_POST_NEWS'			=> 'Sorry but you cannot post news topics.',
 	'CANNOT_POST_STICKY'		=> 'Sorry but you cannot post sticky topics.',
 	'CHANGE_TOPIC_TO'			=> 'Change topic type to',
 	'CLOSE_TAGS'				=> 'Close tags',
@@ -119,7 +118,7 @@ $lang = array_merge($lang, array(
 	'MAX_IMG_WIDTH_EXCEEDED'	=> 'Your images may only be up to %1$d pixels wide.',
 
 	'MESSAGE_BODY_EXPLAIN'		=> 'Enter your message here, it may contain no more than <strong>%d</strong> characters.',
-	'MESSAGE_DELETED'			=> 'Your message has been deleted successfully',
+	'MESSAGE_DELETED'			=> 'This message has been deleted successfully',
 	'MORE_SMILIES'				=> 'View more smilies',
 
 	'NOTIFY_REPLY'				=> 'Send me an email when a reply is posted',
@@ -128,7 +127,6 @@ $lang = array_merge($lang, array(
 	'NO_POLL_TITLE'				=> 'You have to enter a poll title',
 	'NO_POST'					=> 'The requested post does not exist.',
 	'NO_POST_MODE'				=> 'No post mode specified',
-	'NO_TOPIC_ICON'				=> 'None',
 
 	'PARTIAL_UPLOAD'			=> 'The uploaded file was only partially uploaded',
 	'PHP_SIZE_NA'				=> 'The attachment’s filesize is too large.<br />Could not determine the maximum size defined by PHP in php.ini.',
@@ -147,17 +145,17 @@ $lang = array_merge($lang, array(
 	'POSTED_ATTACHMENTS'		=> 'Posted attachments',
 	'POST_CONFIRMATION'			=> 'Confirmation of post',
 	'POST_CONFIRM_EXPLAIN'		=> 'To prevent automated posts the board administrator requires you to enter a confirmation code. The code is displayed in the image you should see below. If you are visually impaired or cannot otherwise read this code please contact the %sBoard Administrator%s.',
-	'POST_DELETED'				=> 'Your message has been deleted successfully',
-	'POST_EDITED'				=> 'Your message has been edited successfully',
-	'POST_EDITED_MOD'			=> 'Your message has been edited but requires approval',
+	'POST_DELETED'				=> 'This message has been deleted successfully',
+	'POST_EDITED'				=> 'This message has been edited successfully',
+	'POST_EDITED_MOD'			=> 'This message has been edited but requires approval',
 	'POST_GLOBAL'				=> 'Global',
 	'POST_ICON'					=> 'Post icon',
 	'POST_NORMAL'				=> 'Normal',
 	'POST_REPLY'				=> 'Post a reply',
 	'POST_REVIEW'				=> 'Post review',
 	'POST_REVIEW_EXPLAIN'		=> 'At least one new post has been made to this topic. You may wish to review your post in light of this.',
-	'POST_STORED'				=> 'Your message has been posted successfully',
-	'POST_STORED_MOD'			=> 'Your message has been saved but requires approval',
+	'POST_STORED'				=> 'This message has been posted successfully',
+	'POST_STORED_MOD'			=> 'This message has been saved but requires approval',
 	'POST_TOPIC'				=> 'Post a new topic',
 	'POST_TOPIC_AS'				=> 'Post topic as',
 	'PROGRESS_BAR'				=> 'Progress bar',

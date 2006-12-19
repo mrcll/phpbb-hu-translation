@@ -4,7 +4,7 @@
 * memberlist [English]
 *
 * @package language
-* @version $Id: memberlist.php,v 1.1 2006-12-13 20:17:57 fberci Exp $
+* @version $Id: memberlist.php,v 1.2 2006-12-19 18:57:18 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -92,7 +92,6 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'The board administrator requires you to be registered and logged in to view profiles.',
 
 	'MORE_THAN'				=> 'More than',
-	'MSNM'					=> 'MSNM',
 
 	'NO_EMAIL'				=> 'You are not permitted to send email to this user.',
 	'NO_VIEW_USERS'			=> 'You are not authorised to view the member list or profiles.',

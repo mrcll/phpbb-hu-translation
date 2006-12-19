@@ -4,7 +4,7 @@
 * acp_attachments [English]
 *
 * @package language
-* @version $Id: attachments.php,v 1.1 2006-12-13 20:17:57 fberci Exp $
+* @version $Id: attachments.php,v 1.2 2006-12-19 18:57:18 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 	'ATTACH_ORPHAN_URL'					=> 'Orphan attachments',
 	'ATTACH_POST_ID'					=> 'Post ID',
 	'ATTACH_QUOTA'						=> 'Total attachment quota',
-	'ATTACH_QUOTA_EXPLAIN'				=> 'Maximum drive space available for attachments in total, 0 is unlimited.',
+	'ATTACH_QUOTA_EXPLAIN'				=> 'Maximum drive space available for attachments for the whole board, with 0 being unlimited.',
 	'ATTACH_TO_POST'					=> 'Attach file to post',
 
 	'CAT_FLASH_FILES'			=> 'Flash Files',
@@ -94,7 +94,7 @@ $lang = array_merge($lang, array(
 	'GROUP_NAME'			=> 'Group name',
 
 	'IMAGE_LINK_SIZE'			=> 'Image link dimensions',
-	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Display image attachment as link if image is larger than this, set to 0px by 0px to disable.',
+	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Display image attachment as an inline text link if image is larger than this, set to 0px by 0px to disable.',
 	'IMAGICK_PATH'				=> 'Imagemagick path',
 	'IMAGICK_PATH_EXPLAIN'		=> 'Full path to the imagemagick convert application, e.g. <samp>/usr/bin/</samp>',
 
@@ -102,7 +102,7 @@ $lang = array_merge($lang, array(
 	'MAX_ATTACHMENTS_PM'			=> 'Max attachments per message',
 	'MAX_EXTGROUP_FILESIZE'			=> 'Maximum filesize',
 	'MAX_IMAGE_SIZE'				=> 'Maximum image dimensions',
-	'MAX_IMAGE_SIZE_EXPLAIN'		=> 'Maximum size of image attachments, 0px by 0px disables image attachments.',
+	'MAX_IMAGE_SIZE_EXPLAIN'		=> 'Maximum size of image attachments, set to 0px by 0px to disable dimension checking.',
 	'MAX_THUMB_WIDTH'				=> 'Maximum thumbnail width in pixel',
 	'MAX_THUMB_WIDTH_EXPLAIN'		=> 'A generated thumbnail will not exceed the width set here',
 	'MIN_THUMB_FILESIZE'			=> 'Minimum thumbnail filesize',
@@ -124,14 +124,14 @@ $lang = array_merge($lang, array(
 	'ORDER_ALLOW_DENY'		=> 'Allow',
 	'ORDER_DENY_ALLOW'		=> 'Deny',
 
-	'REMOVE_ALLOWED_IPS'		=> 'Remove or un-exclude allowed IPs/hostnames',
-	'REMOVE_DISALLOWED_IPS'		=> 'Remove or un-exclude disallowed IPs/hostnames',
+	'REMOVE_ALLOWED_IPS'		=> 'Remove or un-exclude <em>allowed</em> IPs/hostnames',
+	'REMOVE_DISALLOWED_IPS'		=> 'Remove or un-exclude <em>disallowed</em> IPs/hostnames',
 
 	'SEARCH_IMAGICK'				=> 'Search for Imagemagick',
 	'SECURE_ALLOW_DENY'				=> 'Allow/Deny list',
-	'SECURE_ALLOW_DENY_EXPLAIN'		=> 'Allow or Deny the list of addresses, this setting only applies to downloading files',
+	'SECURE_ALLOW_DENY_EXPLAIN'		=> 'Change the default behaviour when secure downloads are enabled of the Allow/Deny list to that of a <strong>whitelist</strong> (Allow) or a <strong>blacklist</strong> (Deny)',
 	'SECURE_DOWNLOADS'				=> 'Enable secure downloads',
-	'SECURE_DOWNLOADS_EXPLAIN'		=> 'With this option enabled, downloads are limited to IP’s/hostnames you defined.',
+	'SECURE_DOWNLOADS_EXPLAIN'		=> 'With this option enabled, downloads are limited to IP’s/hostnames you define.',
 	'SECURE_DOWNLOAD_NOTICE'		=> 'Secure Downloads are not enabled. The settings below will be applied after enabling secure downloads.',
 	'SECURE_DOWNLOAD_UPDATE_SUCCESS'=> 'The IP list has been updated successfully.',
 	'SECURE_EMPTY_REFERRER'			=> 'Allow empty referrer',
