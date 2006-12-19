@@ -4,7 +4,7 @@
 * acp_board [English]
 *
 * @package language
-* @version $Id: board.php,v 1.1 2006-12-13 20:17:57 fberci Exp $
+* @version $Id: board.php,v 1.2 2006-12-19 18:57:18 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -18,7 +18,9 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-// DEVELOPERS PLEASE NOTE 
+// DEVELOPERS PLEASE NOTE
+//
+// All language files should use UTF-8 as their encoding and the files must not contain a BOM.
 //
 // Placeholders can now contain order information, e.g. instead of
 // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
@@ -47,7 +49,7 @@ $lang = array_merge($lang, array(
 	'SYSTEM_DST'					=> 'Enable Daylight Savings Time',
 	'SYSTEM_TIMEZONE'				=> 'System timezone',
 	'WARNINGS_EXPIRE'				=> 'Warning duration',
-	'WARNINGS_EXPIRE_EXPLAIN'		=> 'Number of days after it is issued before a warning will expire from a user’s record',
+	'WARNINGS_EXPIRE_EXPLAIN'		=> 'Number of days that will elapse before the warning will automatically expire from a user’s record',
 ));
 
 // Board Features
@@ -115,7 +117,7 @@ $lang = array_merge($lang, array(
 	'BOXES_MAX_EXPLAIN'			=> 'By default users may create this many personal folders for private messages.',
 	'ENABLE_PM_ICONS'			=> 'Enable use of topic icons in private messages',
 	'FULL_FOLDER_ACTION'		=> 'Full folder default action',
-	'FULL_FOLDER_ACTION_EXPLAIN'=> 'Default Action to take if a user’s folder is full and if the users folder action set is not applicable. For the “sent messages” folder the default action is always deleting old messages.',
+	'FULL_FOLDER_ACTION_EXPLAIN'=> 'Default action to take if a user’s folder is full assuming the user’s folder action, if set at all, is not applicable. The only exception is for the “Sent messages” folder where the default action is always to delete old messages.',
 	'HOLD_NEW_MESSAGES'			=> 'Hold new messages',
 	'PM_EDIT_TIME'				=> 'Limit editing time',
 	'PM_EDIT_TIME_EXPLAIN'		=> 'Limits the time available to edit a private message not already delivered, zero equals infinity',
@@ -247,7 +249,7 @@ $lang = array_merge($lang, array(
 	'LIMIT_LOAD_EXPLAIN'			=> 'If the 1 minute system load exceeds this value the board will go offline, 1.0 equals ~100% utilisation of one processor. This only functions on UNIX based servers.',
 	'LIMIT_SESSIONS'				=> 'Limit sessions',
 	'LIMIT_SESSIONS_EXPLAIN'		=> 'If the number of sessions exceeds this value within a one minute period the board will go offline. Set to 0 for unlimited sessions.',
-	'LOAD_CPF_MEMBERLIST'			=> 'Display custom profile fields in memberlist',
+	'LOAD_CPF_MEMBERLIST'			=> 'Allow styles to display custom profile fields in memberlist',
 	'LOAD_CPF_VIEWPROFILE'			=> 'Display custom profile fields in user profiles',
 	'LOAD_CPF_VIEWTOPIC'			=> 'Display custom profile fields on viewtopic',
 	'LOAD_USER_ACTIVITY'			=> 'Show users activity',
@@ -279,16 +281,21 @@ $lang = array_merge($lang, array(
 
 	'APACHE_SETUP_BEFORE_USE'	=> 'You have to setup apache authentication before you switch phpBB to this authentication method. Keep in mind that the username you use for apache authentication has to be the same as your phpBB username.',
 
-	'LDAP_DN'					=> 'LDAP base <var>dn</var>',
-	'LDAP_DN_EXPLAIN'			=> 'This is the Distinguished Name, locating the user information, e.g. <samp>o=My Company,c=US</samp>',
-	'LDAP_EMAIL'				=> 'LDAP email attribute',
-	'LDAP_EMAIL_EXPLAIN'		=> 'Set this to the name of your user entry email attribute (if one exists) in order to automatically set the email address for new users. Leaving this empty results in empty email address for users who log in for the first time.',
-	'LDAP_NO_EMAIL'				=> 'The specified email attribute does not exist.',
-	'LDAP_NO_IDENTITY'			=> 'Could not find a login identity for %s',
-	'LDAP_SERVER'				=> 'LDAP server name',
-	'LDAP_SERVER_EXPLAIN'		=> 'If using LDAP this is the name or IP address of the server.',
-	'LDAP_UID'					=> 'LDAP <var>uid</var>',
-	'LDAP_UID_EXPLAIN'			=> 'This is the key under which to search for a given login identity, e.g. <var>uid</var>, <var>sn</var>, etc.',
+	'LDAP_DN'						=> 'LDAP base <var>dn</var>',
+	'LDAP_DN_EXPLAIN'				=> 'This is the Distinguished Name, locating the user information, e.g. <samp>o=My Company,c=US</samp>',
+	'LDAP_EMAIL'					=> 'LDAP email attribute',
+	'LDAP_EMAIL_EXPLAIN'			=> 'Set this to the name of your user entry email attribute (if one exists) in order to automatically set the email address for new users. Leaving this empty results in empty email address for users who log in for the first time.',
+	'LDAP_INCORRECT_USER_PASSWORD'	=> 'Binding to LDAP server failed with specified user/password.',
+	'LDAP_NO_EMAIL'					=> 'The specified email attribute does not exist.',
+	'LDAP_NO_IDENTITY'				=> 'Could not find a login identity for %s',
+	'LDAP_PASSWORD'					=> 'LDAP password',
+	'LDAP_PASSWORD_EXPLAIN'			=> 'Leave blank to use anonymous access. Else fill in the password for the above user. <strong>WARNING:</strong> This password will be stored as plain text in the database visible to everybody who can access your database.',
+	'LDAP_SERVER'					=> 'LDAP server name',
+	'LDAP_SERVER_EXPLAIN'			=> 'If using LDAP this is the name or IP address of the server.',
+	'LDAP_UID'						=> 'LDAP <var>uid</var>',
+	'LDAP_UID_EXPLAIN'				=> 'This is the key under which to search for a given login identity, e.g. <var>uid</var>, <var>sn</var>, etc.',
+	'LDAP_USER'						=> 'LDAP user',
+	'LDAP_USER_EXPLAIN'				=> 'Leave blank to use anonymous access. If filled in phpBB will connect to the LDAP server as the specified user.',
 ));
 
 // Server Settings
@@ -303,6 +310,8 @@ $lang = array_merge($lang, array(
 	'PATH_SETTINGS'				=> 'Path settings',
 	'RANKS_PATH'				=> 'Rank image storage path',
 	'RANKS_PATH_EXPLAIN'		=> 'Path under your phpBB root dir, e.g. <samp>images/ranks</samp>',
+	'SCRIPT_PATH'				=> 'Script path',
+	'SCRIPT_PATH_EXPLAIN'		=> 'The path where phpBB is located relative to the domain name, e.g. <samp>/phpBB3</samp>',
 	'SEND_ENCODING'				=> 'Send encoding',
 	'SEND_ENCODING_EXPLAIN'		=> 'Send the file encoding from phpBB via HTTP overriding the webserver configuration',
 	'SERVER_NAME'				=> 'Domain name',
@@ -337,6 +346,8 @@ $lang = array_merge($lang, array(
 	'EMAIL_CHECK_MX_EXPLAIN'		=> 'If enabled, the email domain provided on registration and profile changes is checked for a valid MX record.',
 	'FORCE_PASS_CHANGE'				=> 'Force password change',
 	'FORCE_PASS_CHANGE_EXPLAIN'		=> 'Require user to change their password after a set number of days or zero to disable.',
+	'FORWARDED_FOR_VALID'			=> 'Validated X_FORWARDED_FOR header',
+	'FORWARDED_FOR_VALID_EXPLAIN'	=> 'Sessions will only be continued if the sent X_FORWARDED_FOR header equals the one sent with the previous request. Bans will be checked against IPs in X_FORWARDED_FOR too.',
 	'IP_VALID'						=> 'Session IP validation',
 	'IP_VALID_EXPLAIN'				=> 'Determines how much of the users IP is used to validate a session; <samp>All</samp> compares the complete address, <samp>A.B.C</samp> the first x.x.x, <samp>A.B</samp> the first x.x, <samp>None</samp> disables checking.',
 	'MAX_LOGIN_ATTEMPTS'			=> 'Maximum number of login attempts',

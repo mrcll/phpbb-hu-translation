@@ -4,7 +4,7 @@
 * common [English]
 *
 * @package language
-* @version $Id: common.php,v 1.1 2006-12-13 20:17:57 fberci Exp $
+* @version $Id: common.php,v 1.2 2006-12-19 18:57:18 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -271,7 +271,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_CONFIRMATION'				=> 'Confirmation of login',
 	'LOGIN_CONFIRM_EXPLAIN'				=> 'To prevent brute forcing accounts the board administrator requires you to enter a confirmation code after a maximum amount of failed logins. The code is displayed in the image you should see below. If you are visually impaired or cannot otherwise read this code please contact the %sBoard Administrator%s.',
 	'LOGIN_ERROR_ATTEMPTS'				=> 'You exceeded the maximum allowed number of login attempts. In addition to your username and password you now also have to enter the confirm code from the image you see below.',
-	'LOGIN_ERROR_EXTERNAL_AUTH_APACHE'	=> 'You have not been authenticated by apache.',
+	'LOGIN_ERROR_EXTERNAL_AUTH_APACHE'	=> 'You have not been authenticated by Apache.',
 	'LOGIN_ERROR_PASSWORD'				=> 'You have specified an incorrect password. Please check your password and try again. If you continue to have problems please contact the %sBoard Administrator%s.',
 	'LOGIN_ERROR_USERNAME'				=> 'You have specified an incorrect username. Please check your username and try again. If you continue to have problems please contact the %sBoard Administrator%s.',
 	'LOGIN_FORUM'						=> 'To view or post in this forum you must enter its password.',
@@ -299,6 +299,7 @@ $lang = array_merge($lang, array(
 	'MODERATORS'			=> 'Moderators',
 	'MONTH'					=> 'Month',
 	'MOVE'					=> 'Move',
+	'MSNM'					=> 'MSNM/WLM',	
 
 	'NA'						=> 'N/A',
 	'NEWEST_USER'				=> 'Our newest member <strong>%s%s%s</strong>',
@@ -443,17 +444,18 @@ $lang = array_merge($lang, array(
 	'RULES_VOTE_CANNOT'			=> 'You <strong>cannot</strong> vote in polls in this forum',
 
 	'SEARCH'					=> 'Search',
+	'SEARCH_MINI'				=> 'Search…',
 	'SEARCH_ADV'				=> 'Advanced search',
 	'SEARCH_ADV_EXPLAIN'		=> 'View the advanced search options',
 	'SEARCH_KEYWORDS'			=> 'Search for keywords',
 	'SEARCHING_FORUMS'			=> 'Searching forums',
 	'SEARCH_ACTIVE_TOPICS'		=> 'View active topics',
 	'SEARCH_FOR'				=> 'Search for',
-	'SEARCH_FORUM'				=> 'Search this forum',	
+	'SEARCH_FORUM'				=> 'Search this forum…',	
 	'SEARCH_NEW'				=> 'View new posts',
 	'SEARCH_POSTS_BY'			=> 'Search posts by',
 	'SEARCH_SELF'				=> 'View your posts',
-	'SEARCH_TOPIC'				=> 'Search this topic',
+	'SEARCH_TOPIC'				=> 'Search this topic…',
 	'SEARCH_UNANSWERED'			=> 'View unanswered posts',
 	'SECONDS'					=> 'Seconds',
 	'SELECT'					=> 'Select',
@@ -570,7 +572,7 @@ $lang = array_merge($lang, array(
 	'USER_POST'				=> '%d Post',
 	'USER_POSTS'			=> '%d Posts',
 	'USERS'					=> 'Users',
-	'USE_PERMISSIONS'		=> 'Test out users permissions',
+	'USE_PERMISSIONS'		=> 'Test out user’s permissions',
 
 	'VIEWED'					=> 'Viewed',
 	'VIEWING_FAQ'				=> 'Viewing FAQ',

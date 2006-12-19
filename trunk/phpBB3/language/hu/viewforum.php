@@ -4,7 +4,7 @@
 * viewforum [English]
 *
 * @package language
-* @version $Id: viewforum.php,v 1.1 2006-12-13 20:17:57 fberci Exp $
+* @version $Id: viewforum.php,v 1.2 2006-12-19 18:57:18 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -41,8 +41,8 @@ $lang = array_merge($lang, array(
 
 	'LOGIN_NOTIFY_FORUM'	=> 'You have been notified about this forum, please login to view it.',
 
-	'MARK_TOPICS_READ'		=> 'Mark Topics Read',
-	'MOVED_TOPIC'			=> 'Moved Topic',
+	'MARK_TOPICS_READ'		=> 'Mark topics read',
+	'MOVED_TOPIC'			=> 'Moved topic',
 
 	'NEW_POSTS_HOT'			=> 'New posts [ Popular ]',
 	'NEW_POSTS_LOCKED'		=> 'New posts [ Locked ]',

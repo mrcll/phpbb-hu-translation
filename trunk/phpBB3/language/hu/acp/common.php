@@ -4,7 +4,7 @@
 * acp common [English]
 *
 * @package language
-* @version $Id: common.php,v 1.1 2006-12-13 20:17:57 fberci Exp $
+* @version $Id: common.php,v 1.2 2006-12-19 18:57:18 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -19,6 +19,8 @@ if (empty($lang) || !is_array($lang))
 }
 
 // DEVELOPERS PLEASE NOTE
+//
+// All language files should use UTF-8 as their encoding and the files must not contain a BOM.
 //
 // Placeholders can now contain order information, e.g. instead of
 // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
@@ -183,7 +185,7 @@ $lang = array_merge($lang, array(
 	'ACP_VIEW_ADMIN_PERMISSIONS'		=> 'View administrative permissions',
 	'ACP_VIEW_FORUM_MOD_PERMISSIONS'	=> 'View forum moderation permissions',
 	'ACP_VIEW_FORUM_PERMISSIONS'		=> 'View forum-based permissions',
-	'ACP_VIEW_GLOBAL_MOD_PERMISSIONS'	=> 'View global moderatoration permissions',
+	'ACP_VIEW_GLOBAL_MOD_PERMISSIONS'	=> 'View global moderation permissions',
 	'ACP_VIEW_USER_PERMISSIONS'			=> 'View user-based permissions',
 	
 	'ACP_WORDS'					=> 'Word censoring',
@@ -217,8 +219,6 @@ $lang = array_merge($lang, array(
 	'ENABLE'				=> 'Enable',
 	'EXPORT_DOWNLOAD'		=> 'Download',
 	'EXPORT_STORE'			=> 'Store',
-
-	'FORUM_INDEX'			=> 'Forum index',
 
 	'GENERAL_OPTIONS'		=> 'General options',
 	'GENERAL_SETTINGS'		=> 'General settings',
@@ -271,6 +271,8 @@ $lang = array_merge($lang, array(
 // PHP info
 $lang = array_merge($lang, array(
 	'ACP_PHP_INFO_EXPLAIN'	=> 'This page lists information on the version of PHP installed on this server. It includes details of loaded modules, available variables and default settings. This information may be useful when diagnosing problems. Please be aware that some hosting companies will limit what information is displayed here for security reasons. You are advised to not give out any details on this page except when asked by support or other Team Member on the support forums.',
+
+	'NO_PHPINFO_AVAILABLE'	=> 'The PHP informations are unable to be determined. Phpinfo() has been disabled for security reasons.',
 ));
 
 // Logs
@@ -508,7 +510,7 @@ $lang = array_merge($lang, array(
 	'LOG_INSTALL_CONVERTED'	=> '<strong>Converted from %1$s to phpBB %2$s</strong>',
 	'LOG_INSTALL_INSTALLED'	=> '<strong>Installed phpBB %s</strong>',
 
-	'LOG_IP_BROWSER_CHECK'	=> '<strong>Session IP/browser check failed</strong><br />»User IP "<em>%1$s</em>" checked against session IP "<em>%2$s</em>" and user browser string "<em>%3$s</em>" checked against session browser string "<em>%4$s</em>".',
+	'LOG_IP_BROWSER_FORWARDED_CHECK'	=> '<strong>Session IP/browser/X_FORWARDED_FOR check failed</strong><br />»User IP "<em>%1$s</em>" checked against session IP "<em>%2$s</em>", user browser string "<em>%3$s</em>" checked against session browser string "<em>%4$s</em>" and user X_FORWARDED_FOR string "<em>%5$s</em>" checked against session X_FORWARDED_FOR string "<em>%6$s</em>".',
 
 	'LOG_JAB_CHANGED'			=> '<strong>Jabber account changed</strong>',
 	'LOG_JAB_PASSCHG'			=> '<strong>Jabber password changed</strong>',
@@ -589,6 +591,9 @@ $lang = array_merge($lang, array(
 	'LOG_THEME_EDIT_ADD'		=> '<strong>Edited theme <em>%1$s</em></strong><br />» Added class <em>%2$s</em>',
 	'LOG_THEME_EXPORT'			=> '<strong>Exported theme</strong><br />» %s',
 	'LOG_THEME_REFRESHED'		=> '<strong>Refreshed theme</strong><br />» %s',
+
+	'LOG_UPDATE_DATABASE'	=> '<strong>Updated Database from version %1$s to version %2$s</strong>',
+	'LOG_UPDATE_PHPBB'		=> '<strong>Updated phpBB from version %1$s to version %2$s</strong>',
 
 	'LOG_USER_ACTIVE'		=> '<strong>User activated</strong><br />» %s',
 	'LOG_USER_BAN_USER'		=> '<strong>Banned User via user management</strong> for reason "<em>%1$s</em>"<br />» %2$s',

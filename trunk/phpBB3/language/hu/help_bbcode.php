@@ -4,7 +4,7 @@
 * help_bbcode [English]
 *
 * @package language
-* @version $Id: help_bbcode.php,v 1.1 2006-12-13 20:17:57 fberci Exp $
+* @version $Id: help_bbcode.php,v 1.2 2006-12-19 18:57:18 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -96,7 +96,7 @@ $help = array(
 	),
 	array(
 		0 => 'Can I add my own tags?',
-		1 => 'No, I am afraid not directly in phpBB 2.0. We are looking at offering customisable BBCode tags for the next major version'
+		1 => 'If you are an administrator on this board and have the proper permissions, you can add further BBCodes through the Custom BBCodes section.'
 	)
 );
 

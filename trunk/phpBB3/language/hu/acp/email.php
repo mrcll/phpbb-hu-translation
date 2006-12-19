@@ -4,7 +4,7 @@
 * acp_email [English]
 *
 * @package language
-* @version $Id: email.php,v 1.1 2006-12-13 20:17:57 fberci Exp $
+* @version $Id: email.php,v 1.2 2006-12-19 18:57:18 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -30,7 +30,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-// Bot settings
+// Email settings
 $lang = array_merge($lang, array(
 	'ACP_MASS_EMAIL_EXPLAIN'		=> 'Here you can email a message to either all of your users or all users of a specific group.  To do this, an email will be sent out to the administrative email address supplied, with a blind carbon copy sent to all recipients. If you are emailing a large group of people please be patient after submitting and do not stop the page halfway through. It is normal for a mass emailing to take a long time, you will be notified when the script has completed',
 	'ALL_USERS'						=> 'All users',
@@ -38,8 +38,8 @@ $lang = array_merge($lang, array(
 	'COMPOSE'				=> 'Compose',
 
 	'EMAIL_SEND_ERROR'		=> 'There were one or more errors while sending the email. Please check the %sError Log%s for detailed error messages.',
-	'EMAIL_SENT'			=> 'Your message has been sent.',
-	'EMAIL_SENT_QUEUE'		=> 'Your message has been queued for sending.',
+	'EMAIL_SENT'			=> 'This message has been sent.',
+	'EMAIL_SENT_QUEUE'		=> 'This message has been queued for sending.',
 
 	'LOG_SESSION'			=> 'Log mail session to critical log',
 
