@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.3 2006-12-23 20:39:06 fberci Exp $
+* @version $Id: common.php,v 1.4 2006-12-23 20:45:18 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 	'AGE'							=> 'Kor',
 	'AIM'							=> 'AIM',
 	'ALLOWED'						=> 'Engedélyezett',
-	'ALL_FILES'						=> 'Összes fájl', //? Valószínűleg az összes elég lenne - majd meglátjuk
+	'ALL_FILES'						=> 'Összes állomány', //? Valószínűleg az összes elég lenne - majd meglátjuk
 	'ALL_FORUMS'					=> 'Összes fórum', //?
 	'ALL_MESSAGES'					=> 'Összes üzenet', //?
 	'ALL_POSTS'						=> 'Összes hozzászólás', //?
@@ -71,14 +71,14 @@ $lang = array_merge($lang, array(
 	'AUTH_NO_PROFILE_CREATED'		=> 'Nem sikerült létrezhoni a felhasználói profilt.', //?? "Creating a user profile failed" - hol van használva?
 	'AVATAR_DISALLOWED_EXTENSION'	=> 'A %s kiterjesztés nem engedélyezett.',
 	'AVATAR_EMPTY_REMOTE_DATA'		=> 'Nem sikerült feltölteni az avatart, a külső forrás hibás.',
-	'AVATAR_INVALID_FILENAME'		=> 'Hibás fájlnév: %s',
+	'AVATAR_INVALID_FILENAME'		=> 'Hibás állománynév: %s',
 	'AVATAR_NOT_UPLOADED'			=> 'Nem sikerült feltölteni az avatart.',
-	'AVATAR_NO_SIZE'				=> 'Nem sikerült meghatározni a belinkelt avatar szélességét és magasságát, kérjük add meg manuálisan.',
+	'AVATAR_NO_SIZE'				=> 'Nem sikerült meghatározni a belinkelt avatar szélességét és magasságát, kérjük add meg kézzel.',
 	'AVATAR_PARTIAL_UPLOAD'			=> 'Az avatart csak részben sikerült feltölteni.',
-	'AVATAR_PHP_SIZE_NA'			=> 'Az avatar fájl mérete túl nagy.<br />Nem sikerült megállapítani a PHP php.ini-jében meghatározott maximum méretet.',
-	'AVATAR_PHP_SIZE_OVERRUN'		=> 'Az avatar fájl mérete túl nagy, a maximum feltölthető méret %d MB.<br />Kérjük vedd figyelembe, hogy ez a php.ini-ben van meghatározva ezért nem írható felül.',
+	'AVATAR_PHP_SIZE_NA'			=> 'Az avatar állomány mérete túl nagy.<br />Nem sikerült megállapítani a PHP php.ini-jében meghatározott maximum méretet.',
+	'AVATAR_PHP_SIZE_OVERRUN'		=> 'Az avatar állomány mérete túl nagy, a maximum feltölthető méret %d MB.<br />Kérjük vedd figyelembe, hogy ez a php.ini-ben van meghatározva ezért nem írható felül.',
 	'AVATAR_URL_INVALID'			=> 'A megadott URL hibás.',
-	'AVATAR_URL_NOT_FOUND'			=> 'A megadott fájl nem található.',
+	'AVATAR_URL_NOT_FOUND'			=> 'A megadott állomány nem található.',
 	'AVATAR_WRONG_FILESIZE'			=> 'Az avatarnak 0 és %1d %2s között kell lennie.',
 	'AVATAR_WRONG_SIZE'				=> 'Az avatarnak legalább %1$d pixel szélesnek és %2$d pixel magasnak, valamint legfeljebb %3$d pixel szélesnek és 4$d pixel magasnak kell lennie. A megadott avatar %5$d pixel széles, és %6$d pixel magas.', //? Az avatar szélessége 5 és 10 pixel között kell, (hogy) mozogjon...
 
@@ -132,7 +132,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_POSTS'			=> 'Hozzászólások megjelenítése', //?
 	'DISPLAY_TOPICS'		=> 'Témák megjelenítése', //?
 	'DOWNLOADED'			=> 'Letöltve',
-	'DOWNLOADING_FILE'		=> 'Fájl letöltése',
+	'DOWNLOADING_FILE'		=> 'Állomány letöltése',
 	'DOWNLOAD_COUNT'		=> '%d alkalommal.',
 	'DOWNLOAD_COUNTS'		=> '%d alkalommal.',
 	'DOWNLOAD_NONE'			=> '0 alkalommal.',
@@ -316,7 +316,7 @@ $lang = array_merge($lang, array(
 	'NOT_AUTHORIZED'			=> 'Nincs jogosultságod hozzáférni ehhez a területhez.', //? nyelvtan
 	'NOT_WATCHING_FORUM'		=> 'Sikeresen leiratkoztál a fórumról.',
 	'NOT_WATCHING_TOPIC'		=> 'Sikeresen leiratkoztál a témáról.',
-	'NO_ACCESS_ATTACHMENT'		=> 'Nincs jogosultságod hozzáférni ehhez a fájlhoz.',
+	'NO_ACCESS_ATTACHMENT'		=> 'Nincs jogosultságod hozzáférni ehhez az állományhoz.',
 	'NO_ACTION'					=> 'Nem adtál meg semmilyen teendőt.', //?
 	'NO_ADMINISTRATORS'			=> 'A fórumnak nincs adminisztrátora.',
 	'NO_AUTH_ADMIN'				=> 'Nincsenek adminisztrátori jogosultságaid, ezért nem férhetsz hozzá az adminisztrátori vezérlőpulthoz.',
