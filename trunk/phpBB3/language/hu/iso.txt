@@ -1,3 +1,3 @@
-English [GB]
-English [GB]
-phpBB Group
+Hungarian [HU]
+Magyar [HU]
+Magyar phpBB Közösség
