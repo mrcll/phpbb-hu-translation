@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.4 2006-12-23 20:45:18 fberci Exp $
+* @version $Id: common.php,v 1.5 2006-12-23 20:50:41 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -339,7 +339,7 @@ $lang = array_merge($lang, array(
 	'NO_NEW_MESSAGES'			=> 'Nincs új üzenet.',
 	'NO_NEW_PM'					=> '<strong>0</strong> új üzenet',
 	'NO_NEW_POSTS'				=> 'Nincs új hozzászólás.',
-	'NO_ONLINE_USERS'			=> 'Nincsenek regisztrált felhasználók.',
+	'NO_ONLINE_USERS'			=> 'nincsenek',
 	'NO_POSTS'					=> 'Nincsenek hozzászólások.',
 	'NO_POSTS_TIME_FRAME'		=> 'Nincsenek a kiválasztott időtartamon belüli hozzászólások a témában.',
 	'NO_SUCH_SEARCH_MODULE'		=> 'A megadott keresési mechanizmus nem létezik.', //? "The specified search backend doesn’t exist" - Nem tudom mit jelent - csupán megérzésből írtam valamit :)
