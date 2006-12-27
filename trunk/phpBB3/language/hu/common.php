@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.9 2006-12-27 17:02:03 fberci Exp $
+* @version $Id: common.php,v 1.10 2006-12-27 17:07:41 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -715,14 +715,14 @@ $lang = array_merge($lang, array(
 		'-12'	=> '[UTC - 12] Baker-szigeti idő',
 		'-11'	=> '[UTC - 11] Niue-i idő, szamoai zónaidő',
 		'-10'	=> '[UTC - 10] hawaii-aleuti zónaidő, Cook-szigeteki idő',
-		'-9.5'	=> '[UTC - 9:30] Marquise-szigeteki idő', //? (egyébként a franciából vettem, mert az az eredeti latin)
+		'-9.5'	=> '[UTC - 9,5] Marquise-szigeteki idő', //? (egyébként a franciából vettem, mert az az eredeti latin)
 		'-9'	=> '[UTC - 9] alaszkai zónaidő, Gambier-szigeteki idő',
 		'-8'	=> '[UTC - 8] csendes-óceáni zónaidő',
 		'-7'	=> '[UTC - 7] sziklás-hegységi zónaidő',
 		'-6'	=> '[UTC - 6] közép zónaidő', //? ez aztán nem könnyű...
 		'-5'	=> '[UTC - 5] keleti zónaidő',
 		'-4'	=> '[UTC - 4] atlanti zónaidő', //? ez is egy kicsit fura
-		'-3.5'	=> '[UTC - 3:30] newfoundlandi zónaidő',
+		'-3.5'	=> '[UTC - 3,5] newfoundlandi zónaidő',
 		'-3'	=> '[UTC - 3] amazoni zónaidő, közép-grönlandi idő',
 		'-2'	=> '[UTC - 2] Fernando de Noronha-i idő Time, dél-georgiai és dél-szendvics-szigeteki idő',
 		'-1'	=> '[UTC - 1] Azores-szigeteki zónaidő, zöld-foki-szigeteki idő, kelet-grönlandi idő', //? Azores magyar kiejtése
@@ -730,25 +730,25 @@ $lang = array_merge($lang, array(
 		'1'		=> '[UTC + 1] közép-európai idő, nyugat-afrikai idő',
 		'2'		=> '[UTC + 2] kelet-európai idő, közép-afrikai idő',
 		'3'		=> '[UTC + 3] moszkvai zónaidő, kelet-afrikai idő',
-		'3.5'	=> '[UTC + 3:30] iráni zónaidő',
+		'3.5'	=> '[UTC + 3,5] iráni zónaidő',
 		'4'		=> '[UTC + 4] gulfi zónaidő, szamarai zónaidő', //? s?
 		'4.5'	=> '[UTC + 4:30] afganisztáni idő',
 		'5'		=> '[UTC + 5] pakisztáni zónaidő, yekaterinburgi zónaidő',
-		'5.5'	=> '[UTC + 5:30] indiai zónaidő, Sri Lanka-i idő',
-		'5.75'	=> '[UTC + 5:45] nepáli idő',
+		'5.5'	=> '[UTC + 5,5] indiai zónaidő, Sri Lanka-i idő',
+		'5.75'	=> '[UTC + 5,75] nepáli idő',
 		'6'		=> '[UTC + 6] bangladesi idő, bhutani idő, novoszibirszk zónaidő',
-		'6.5'	=> '[UTC + 6:30] kókusz-szigeteki idő, myanmari idő',
+		'6.5'	=> '[UTC + 6,5] kókusz-szigeteki idő, myanmari idő',
 		'7'		=> '[UTC + 7] indokínai idő, krasznojarszki zónaidő',
 		'8'		=> '[UTC + 8] kínai zónaidő, nyugat-ausztráliai zónaidő, irkutszki zónaidő',
-		'8.75'	=> '[UTC + 8:45] délkelet-nyugat-ausztráliai zónaidő', //? - ez meg mi??
+		'8.75'	=> '[UTC + 8,75] délkelet-nyugat-ausztráliai zónaidő', //? - ez meg mi??
 		'9'		=> '[UTC + 9] japán zónaidő, koreai zónaidő, csitai zónaidő',
-		'9.5'	=> '[UTC + 9:30] közép-ausztráliai zónaidő', //? ausztráliai központi zónaidő??
+		'9.5'	=> '[UTC + 9,5] közép-ausztráliai zónaidő', //? ausztráliai központi zónaidő??
 		'10'	=> '[UTC + 10] kelet-ausztráliai zónaidő, vlagyivosztoki zónaidő',
-		'10.5'	=> '[UTC + 10:30] Lord Howe-i zónaidő',
+		'10.5'	=> '[UTC + 10,5] Lord Howe-i zónaidő',
 		'11'	=> '[UTC + 11] Salamon-szigeteki idő, magadáni zónaidő',
-		'11.5'	=> '[UTC + 11:30] Norfolk-szigeti idő',
+		'11.5'	=> '[UTC + 11,5] Norfolk-szigeti idő',
 		'12'	=> '[UTC + 12] új-zélandi idő, Fidzsi-szigeteki idő, kamcsatkai zónaidő',
-		'12.75'	=> '[UTC + 12:45] Chatham-szigeteki idő',
+		'12.75'	=> '[UTC + 12,75] Chatham-szigeteki idő',
 		'13'	=> '[UTC + 13] tongai idő, Phoenix-szigeteki idő',
 		'14'	=> '[UTC + 14] Line-szigeti idő',
 	),
