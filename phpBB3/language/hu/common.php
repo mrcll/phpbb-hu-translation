@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.7 2006-12-27 00:06:40 fberci Exp $
+* @version $Id: common.php,v 1.8 2006-12-27 12:02:40 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -65,7 +65,7 @@ $lang = array_merge($lang, array(
 	'AND'							=> 'és',
 	'ARE_WATCHING_FORUM'			=> 'Sikeresen feliratkoztál erre a fórumra.',
 	'ARE_WATCHING_TOPIC'			=> 'Sikeresen feliratkoztál erre a témára.',
-	'ASCENDING'						=> 'Növekvő',
+	'ASCENDING'						=> 'Növekvő', //? 'Növekvő sorrend'?
 	'ATTACHMENTS'					=> 'Csatolmányok',
 	'AUTHOR'						=> 'Szerző',
 	'AUTH_NO_PROFILE_CREATED'		=> 'Nem sikerült létrezhoni a felhasználói profilt.', //?? "Creating a user profile failed" - hol van használva?
@@ -106,7 +106,7 @@ $lang = array_merge($lang, array(
 	'CLICK_VIEW_PRIVMSG'	=> '%sBejövő fiók megtekintése%s',
 	'CLOSE_WINDOW'			=> 'Ablak bezárása',
 	'COLOUR_SWATCH'			=> 'Szín kiválasztása',
-	'CONFIRM'				=> 'Megerősítés', //? pl. gombok felirat (!) - pl. post details (mcp)
+	'CONFIRM'				=> 'Elküld', //? pl. gombok felirat (!) - pl. post details (mcp) -- jobb mint a megerősítés...?
 	'CONFIRM_CODE'			=> 'Megerősítő kód',
 	'CONFIRM_CODE_EXPLAIN'	=> 'Add meg a képen látható kódot. A kis- és nagybetűk nem számítanak, valamint nincs nulla.',
 	'CONFIRM_CODE_WRONG'	=> 'A megadott megerősítő kód hibás.',
@@ -124,7 +124,7 @@ $lang = array_merge($lang, array(
 	'DELETE_MARKED'			=> 'Kijelöltek törlése',
 	'DELETE_POST'			=> 'Hozzászólás törlése',
 	'DELIMITER'				=> 'Elválasztó', //? határolójel
-	'DESCENDING'			=> 'Csökkenő',
+	'DESCENDING'			=> 'Csökkenő', //? 'Csökkenő sorrend'?
 	'DISABLED'				=> 'Kikapcsolva',
 	'DISPLAY'				=> 'Megjelenítés',
 	'DISPLAY_GUESTS'		=> 'Vendégek megjelenítése',
@@ -250,7 +250,7 @@ $lang = array_merge($lang, array(
 
 	'JABBER'				=> 'Jabber',
 	'JOINED'				=> 'Csatlakozott',
-	'JUMP_PAGE'				=> 'Add meg annak az oldalnak a számát, ahová menni szeretnél.',
+	'JUMP_PAGE'				=> 'Add meg annak az oldalnak a számát, ahová menni szeretnél',
 	'JUMP_TO'				=> 'Ugrás',
 	'JUMP_TO_PAGE'			=> 'Kattints ide egy fel nem sorolt oldalra való ugráshoz.',
 
@@ -338,8 +338,8 @@ $lang = array_merge($lang, array(
 	'NO_MODERATORS'				=> 'A fórumnak nincsenek moderátorai.',
 	'NO_NEW_MESSAGES'			=> 'Nincs új üzenet.',
 	'NO_NEW_PM'					=> '<strong>0</strong> új üzenet',
-	'NO_NEW_POSTS'				=> 'Nincs új hozzászólás.',
-	'NO_ONLINE_USERS'			=> 'nincsenek',
+	'NO_NEW_POSTS'				=> 'Nincs új hozzászólás',
+	'NO_ONLINE_USERS'			=> '0 regisztrált', //? regisztrált felhasználó vs regisztrált
 	'NO_POSTS'					=> 'Nincsenek hozzászólások.',
 	'NO_POSTS_TIME_FRAME'		=> 'Nincsenek a kiválasztott időtartamon belüli hozzászólások a témában.',
 	'NO_SUCH_SEARCH_MODULE'		=> 'A megadott keresési mechanizmus nem létezik.', //? "The specified search backend doesn’t exist" - Nem tudom mit jelent - csupán megérzésből írtam valamit :)
@@ -365,7 +365,7 @@ $lang = array_merge($lang, array(
 	'PAGE_OF'				=> 'Oldal: <strong>%1$d</strong> / <strong>%2$d</strong>',
 	'PASSWORD'				=> 'Jelszó',
 	'PLAY_QUICKTIME_FILE'	=> 'Quicktime állomány lejátszása',
-	'PM'					=> 'PÖ',
+	'PM'					=> 'PÜ',
 	'POSTING_MESSAGE'		=> 'Üzenet küldése %s',
 	'POST'					=> 'Hozzászólás',
 	'POST_ANNOUNCEMENT'		=> 'Közlemény',
@@ -599,7 +599,7 @@ $lang = array_merge($lang, array(
 	'VIEW_TOPIC_STICKY'			=> 'Kiemelt: ',
 	'VISIT_WEBSITE'				=> 'Honlap meglátogatása',
 
-	'WARNINGS'			=> 'Figyelmeztetése',
+	'WARNINGS'			=> 'Figyelmeztetések',
 	'WARN_USER'			=> 'Felhasználó figyelmeztetése', //? figyelmeztetése elég lenne - túl hosszú...
 	'WELCOME_SUBJECT'	=> 'Üdvözlünk a %s fórumán!', //??
 	'WEBSITE'			=> 'Honlap',
