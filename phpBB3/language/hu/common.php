@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.11 2006-12-28 14:50:45 fberci Exp $
+* @version $Id: common.php,v 1.12 2007-01-16 14:39:40 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -50,8 +50,8 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_NOT_ACTIVATED'			=> 'Az azonosítód még nem aktiváltuk.',
 	'ACP'							=> 'Adminisztrátori vezérlőpult',
 	'ACTIVE'						=> 'aktív',
-	'ACTIVE_ERROR'					=> 'Inaktív felhasználónevet adtál meg. Kérjük aktiváld az azonosítód, és próbálkozz újra. Ha továbbra is problémáid lennének, lépj kapcsolatba az adminisztrátorral.', //? - problémáid <> gondjaid
-	'ADMINISTRATOR'					=> 'Adminisztártor',
+	'ACTIVE_ERROR'					=> 'Inaktív felhasználónevet adtál meg. Kérjük aktiváld az azonosítód, és próbálkozz újra. Ha továbbra is gondjaid lennének, lépj kapcsolatba az adminisztrátorral.', //? - problémáid <> gondjaid
+	'ADMINISTRATOR'					=> 'Adminisztrátor',
 	'ADMINISTRATORS'				=> 'Adminisztrátorok',
 	'AGE'							=> 'Kor',
 	'AIM'							=> 'AIM',
@@ -80,14 +80,14 @@ $lang = array_merge($lang, array(
 	'AVATAR_URL_INVALID'			=> 'A megadott URL hibás.',
 	'AVATAR_URL_NOT_FOUND'			=> 'A megadott állomány nem található.',
 	'AVATAR_WRONG_FILESIZE'			=> 'Az avatarnak 0 és %1d %2s között kell lennie.',
-	'AVATAR_WRONG_SIZE'				=> 'Az avatarnak legalább %1$d pixel szélesnek és %2$d pixel magasnak, valamint legfeljebb %3$d pixel szélesnek és 4$d pixel magasnak kell lennie. A megadott avatar %5$d pixel széles, és %6$d pixel magas.', //? Az avatar szélessége 5 és 10 pixel között kell, (hogy) mozogjon...
+	'AVATAR_WRONG_SIZE'				=> 'Az avatar szélességének %1$d és %3$d pixel között, magasságának %2$d és %4$d pixel között kell lennie. A megadott avatar %5$d pixel széles, és %6$d pixel magas.', //? 'Az avatarnak legalább %1$d pixel szélesnek és %2$d pixel magasnak, valamint legfeljebb %3$d pixel szélesnek és 4$d pixel magasnak kell lennie.'
 
 	'BACK_TO_TOP'			=> 'Vissza az elejére',
 	'BACK_TO_PREV'			=> 'Vissza az előző oldalra',
-	'BAN_TRIGGERED_BY_EMAIL'=> 'Ki lettél tiltva az e-mail címed alapján.', //? "This ban has been issued on your email address." - hol fordul elő
-	'BAN_TRIGGERED_BY_IP'	=> 'Ki lettél tiltva az IP-címed alapján.', //?
-	'BAN_TRIGGERED_BY_USER'	=> 'Ki lettél tiltva a felhasználóneved alapján.', //?
-	'BBCODE_GUIDE'			=> 'BBCode kalauz',
+	'BAN_TRIGGERED_BY_EMAIL'=> 'Az e-mail címed alapján tiltottak ki.', //? "This ban has been issued on your email address." - hol fordul elő
+	'BAN_TRIGGERED_BY_IP'	=> 'Az IP-címed alapján tiltottak ki.', //?
+	'BAN_TRIGGERED_BY_USER'	=> 'A felhasználóneved alapján tiltottak ki.', //?
+	'BBCODE_GUIDE'			=> 'BBCode ismertető', //? útmutató
 	'BCC'					=> 'Titkos másolat',
 	'BIRTHDAYS'				=> 'Születésnaposok',
 	'BOARD_BAN_PERM'		=> '<strong>Tartósan</strong> kitiltottak erről a fórumról.<br /><br />További információért lépj kapcsolatba a %2$sfórum adminisztátorával%3$s.', //? (tartósan - permanently)
@@ -95,7 +95,7 @@ $lang = array_merge($lang, array(
 	'BOARD_BAN_TIME'		=> '<strong>%1$s</strong>-ig kitiltottak erről a fórumról.<br /><br />További információért lépj kapcsolatba a %2$sfórum adminisztátorával%3$s.',
 	'BOARD_DISABLE'			=> 'A fórum jelenleg nem elérhető.', //?
 	'BOARD_DISABLED'		=> 'A fórum ideiglenesen szünetel.', //?
-	'BOARD_UNAVAILABLE'		=> 'A fórum ideiglenesen nem elérhető, kérlek próbálkozz pár perc múlva.', //?
+	'BOARD_UNAVAILABLE'		=> 'A fórum ideiglenesen nem elérhető, kérlek próbálkozz újra pár perc múlva.', //?
 	'BROWSING_FORUM_GUEST'	=> 'Jelenlévő fórumozók: %1$s és %2$d vendég',
 	'BROWSING_FORUM_GUESTS'	=> 'Jelenlévő fórumozók: %1$s és %2$d vendég',
 	'BYTES'					=> 'bájt',
@@ -113,7 +113,7 @@ $lang = array_merge($lang, array(
 	'CONGRATULATIONS'		=> 'Gratulálunk:',
 	'CONNECTION_FAILED'		=> 'Sikertelen kapcsolódási kísérlet',
 	'CONNECTION_SUCCESS'	=> 'Sikerült csatlakozni!',
-	'COOKIES_DELETED'		=> 'Sikeresen töröltük a fórum sütijeit.', //? sütik - cookie
+	'COOKIES_DELETED'		=> 'A fórum sütijei törlésre kerültek.', //? sütik - cookie
 	'CURRENT_TIME'			=> 'Pontos idő: %s',
 
 	'DAY'					=> 'nap',
@@ -169,22 +169,22 @@ $lang = array_merge($lang, array(
 	'FORUM_CAT'				=> 'Fórum kategória',
 	'FORUM_INDEX'			=> 'Kezdőlap',
 	'FORUM_LINK'			=> 'Fórum link',
-	'FORUM_LOCATION'		=> 'Fórum helye', //?!
+	'FORUM_LOCATION'		=> 'Tevékenység', //?! viewonline - csak írtam valamit, hogy ne felejtsem el
 	'FORUM_LOCKED'			=> 'Lezárt fórum',
 	'FORUM_RULES'			=> 'Fórum szabályzat',
 	'FORUM_RULES_LINK'		=> 'Kattints ide a fórum szabályzat megtekintéséhez',
-	'FROM'					=> 'Küldő:', //??!
+	'FROM'					=> 'Feladó:', //??!
 
 	'FTP_FSOCK_HOST'				=> 'FTP hoszt',
-	'FTP_FSOCK_HOST_EXPLAIN'		=> 'Az oldalad eléréséhez használt FTP szerver.', //?
+	'FTP_FSOCK_HOST_EXPLAIN'		=> 'Az oldalad eléréséhez használt FTP kiszolgáló.', //?
 	'FTP_FSOCK_PASSWORD'			=> 'FTP jelszó',
 	'FTP_FSOCK_PASSWORD_EXPLAIN'	=> 'Az FTP felhasználónévhez tartozó jelszó.',
 	'FTP_FSOCK_PORT'				=> 'FTP port',
 	'FTP_FSOCK_PORT_EXPLAIN'		=> 'AZ FTP szerver portja.',
 	'FTP_FSOCK_ROOT_PATH'			=> 'PhpBB elérési út',
 	'FTP_FSOCK_ROOT_PATH_EXPLAIN'	=> 'A phpBB elérési útja az FTP gyökérkönyvtárától (ami alapból megnyílik).',
-	'FTP_FSOCK_TIMEOUT'				=> 'FTP várakozási limit',
-	'FTP_FSOCK_TIMEOUT_EXPLAIN'		=> 'Legfeljebb ennyi másodpercet fog várni a rendszer a válaszra a szervertől.',
+	'FTP_FSOCK_TIMEOUT'				=> 'FTP időtúllépés',
+	'FTP_FSOCK_TIMEOUT_EXPLAIN'		=> 'Legfeljebb ennyit fog várni a rendszer a válaszra a szervertől másodpercben megadva.',
 	'FTP_FSOCK_USERNAME'			=> 'FTP felhasználónév',
 	'FTP_FSOCK_USERNAME_EXPLAIN'	=> 'A szerverhez való csatlakozáshoz használt felhasználónév.',
 
@@ -197,7 +197,7 @@ $lang = array_merge($lang, array(
 	'FTP_ROOT_PATH'				=> 'PhpBB elérési út',
 	'FTP_ROOT_PATH_EXPLAIN'		=> 'A phpBB elérési útja az FTP gyökérkönyvtárától (ami alapból megnyílik).',
 	'FTP_TIMEOUT'				=> 'FTP várakozási limit',
-	'FTP_TIMEOUT_EXPLAIN'		=> 'Legfeljebb ennyi másodpercet fog várni a rendszer a válaszra a szervertől.',
+	'FTP_TIMEOUT_EXPLAIN'		=> 'Legfeljebb ennyit fog várni a rendszer a válaszra a szervertől másodpercben megadva.',
 	'FTP_USERNAME'				=> 'FTP felhasználónév',
 	'FTP_USERNAME_EXPLAIN'		=> 'A szerverhez való csatlakozáshoz használt felhasználónév.',
 
@@ -258,7 +258,7 @@ $lang = array_merge($lang, array(
 	'KB'					=> 'KB',
 
 	'LAST_POST'							=> 'Utolsó hozzászólás',
-	'LAST_UPDATED'						=> 'Utoljára frissítve',
+	'LAST_UPDATED'						=> 'Legutóbb frissített',
 	'LAST_VISIT'						=> 'Utolsó látogatás',
 	'LDAP_NO_LDAP_EXTENSION'			=> 'Az LDAP kiterjesztés nem elérhető.',
 	'LDAP_NO_SERVER_CONNECTION'			=> 'Nem sikerült csatlakozni az LDAP szerverhez.',
@@ -273,10 +273,10 @@ $lang = array_merge($lang, array(
 	'LOGIN_CONFIRM_EXPLAIN'				=> 'Az azonosítók feltörésének megakadályozása érdekében egy bizonyos számú sikertelen belépési kísérlet után meg kell adnod egy megerősítő kódot. A kód az alábbi képen található. Ha látási (vagy egyéb) problémák folytán nem tudnád elolvasni a kódot, vedd fel a kapcsolatot a %sfórum adminisztrátorával%s.',
 	'LOGIN_ERROR_ATTEMPTS'				=> 'Túllépted az engedélyezett belépési kísérletek számát. Ezért a felhasználóneved és a jelszavad mellett most meg kell adnod az alábbi képen látható megerősítő kódot is.',
 	'LOGIN_ERROR_EXTERNAL_AUTH_APACHE'	=> 'Az Apache-nak nem sikerült azonosítania téged.', //? - kicsit jobb megfogalmazás kéne (bár az angol se túl jó)
-	'LOGIN_ERROR_PASSWORD'				=> 'Rossz jelszót adtál meg. Ellenőrizd le a jelszavad, majd próbálkozz újra. Ha továbbra is problémáid lennének, lépj kapcsolatba a %sfórum adminisztrátorával%s.',
-	'LOGIN_ERROR_USERNAME'				=> 'Rossz felhasználónevet adtál meg. Ellenőrizd le a felhasználónevet, majd próbálkozz újra. Ha továbbra is problémáid lennének, lépj kapcsolatba a %sfórum adminisztrátorával%s.',
-	'LOGIN_FORUM'						=> 'A fórum megtekintéséhez vagy a hozzászóláshoz benne, meg kell adnod a jelszavát.', //?
-	'LOGIN_INFO'						=> 'A belépéshez regisztrált felhasználónak kell lenned. A regisztráció csupán néhány másodpercet vesz igénybe, de számos előnnyel jár. Az adminisztrátor például így tud plusz jogosultságokat adni. A belépés előtt győződj meg róla, hogy elfogadod a felhasználási feltételeinket, valamint egyetértesz az adatvédelmi elveinkkel. Kérjük olvasd el a fórumok szabályzatát is!', //? ensure
+	'LOGIN_ERROR_PASSWORD'				=> 'Rossz jelszót adtál meg. Ellenőrizd le a jelszavad, majd próbálkozz újra. Ha továbbra is gondjaid lennének, lépj kapcsolatba a %sfórum adminisztrátorával%s.',
+	'LOGIN_ERROR_USERNAME'				=> 'Rossz felhasználónevet adtál meg. Ellenőrizd le a felhasználónevet, majd próbálkozz újra. Ha továbbra is gondjaid lennének, lépj kapcsolatba a %sfórum adminisztrátorával%s.',
+	'LOGIN_FORUM'						=> 'A fórum megtekintéséhez vagy a hozzászóláshoz, meg kell adnod a jelszavát.', //?
+	'LOGIN_INFO'						=> 'A belépéshez regisztrált felhasználónak kell lenned. A regisztráció csupán néhány másodpercet vesz igénybe, de számos előnnyel jár. Az adminisztrátor például így tud külön jogosultságokat adni. A belépés előtt győződj meg róla, hogy elfogadod a felhasználási feltételeinket, valamint egyetértesz az adatvédelmi elveinkkel. Kérjük olvasd el a fórumok szabályzatát is!', //? ensure
 	'LOGIN_VIEWFORUM'					=> 'Csak reigsztrált felhasználók tekinthetik meg ezt a fórumot.',
 	'LOGIN_EXPLAIN_EDIT'				=> 'Csak reigsztrált felhasználók szerkeszthetik a hozzászólásaikat ebben a fórumban.',
 	'LOGOUT'							=> 'Kilépés',
@@ -314,11 +314,11 @@ $lang = array_merge($lang, array(
 	'NEVER'						=> 'Soha',
 	'NO'						=> 'Nem',
 	'NOT_ALLOWED_MANAGE_GROUP'	=> 'Nincs jogosultságod a csoport adminisztrátori vezérlőpultról való kezeléséhez.', //?
-	'NOT_AUTHORIZED'			=> 'Nincs jogosultságod hozzáférni ehhez a területhez.', //? nyelvtan
+	'NOT_AUTHORIZED'			=> 'Nincs jogosultságod ezen terület eléréséhez.', //?
 	'NOT_WATCHING_FORUM'		=> 'Sikeresen leiratkoztál a fórumról.',
 	'NOT_WATCHING_TOPIC'		=> 'Sikeresen leiratkoztál a témáról.',
 	'NO_ACCESS_ATTACHMENT'		=> 'Nincs jogosultságod hozzáférni ehhez az állományhoz.',
-	'NO_ACTION'					=> 'Nincs semmilyen teendőt.', //?
+	'NO_ACTION'					=> 'Nincs semmilyen teendő.', //?
 	'NO_ADMINISTRATORS'			=> 'A fórumnak nincs adminisztrátora.',
 	'NO_AUTH_ADMIN'				=> 'Nincsenek adminisztrátori jogosultságaid, ezért nem férhetsz hozzá az adminisztrátori vezérlőpulthoz.',
 	'NO_AUTH_ADMIN_USER_DIFFER'	=> 'Nem azonosíthatod magad egy másik felhasználóként.',
@@ -326,7 +326,7 @@ $lang = array_merge($lang, array(
 	'NO_CONNECT_TO_SMTP_HOST'	=> 'Nem sikerült csatlakozni az SMTP szerverhez: %s : %s',
 	'NO_BIRTHDAYS'				=> 'Ma senkinek sincs születésnapja.', //? Ma senki sem ünnepli a születésnapját
 	'NO_EMAIL_MESSAGE'			=> 'Az e-mail üzenet üres.',
-	'NO_EMAIL_RESPONSE_CODE'	=> 'Nem jött válasz a e-mail szervertől.', //?
+	'NO_EMAIL_RESPONSE_CODE'	=> 'Nem jött válasz a e-mail szervertől.', //? 'Nem sikerült lekérdezni az e-mail kiszolgáló visszaigazoló kódjait.!
 	'NO_EMAIL_SUBJECT'			=> 'Nem adtad meg az e-mail témáját.',
 	'NO_FORUM'					=> 'A kiválasztott fórum nem létezik.',
 	'NO_FORUMS'					=> 'Nincsenek fórumok.', //?
@@ -340,11 +340,11 @@ $lang = array_merge($lang, array(
 	'NO_NEW_MESSAGES'			=> 'Nincs új üzenet.',
 	'NO_NEW_PM'					=> '<strong>0</strong> új üzenet',
 	'NO_NEW_POSTS'				=> 'Nincsenek új hozzászólások',
-	'NO_ONLINE_USERS'			=> '0 regisztrált', //? regisztrált felhasználó vs regisztrált
-	'NO_POSTS'					=> 'Nincsenek hozzászólások.',
+	'NO_ONLINE_USERS'			=> 'nincs regisztrált felhasználó', //? regisztrált felhasználó vs regisztrált
+	'NO_POSTS'					=> 'Nincsenek hozzászólások', //? a . nem kell (pl. főoldal -> utolsó hozzászólás)
 	'NO_POSTS_TIME_FRAME'		=> 'Nincsenek a kiválasztott időtartamon belüli hozzászólások a témában.',
 	'NO_SUCH_SEARCH_MODULE'		=> 'A megadott keresési mechanizmus nem létezik.', //? "The specified search backend doesn’t exist" - Nem tudom mit jelent - csupán megérzésből írtam valamit :)
-	'NO_SUPPORTED_AUTH_METHODS'	=> 'Nincsen támogatott azonosítási mód.', //?
+	'NO_SUPPORTED_AUTH_METHODS'	=> 'Nincsen támogatott azonosítási eljárás.', //?
 	'NO_TOPIC'					=> 'A keresett téma nem létezik.',
 	'NO_TOPICS'					=> 'A fórum nem tartalmaz témákat, illetve hozzászólásokat.',
 	'NO_TOPICS_TIME_FRAME'		=> 'A fórum nem tartalmaz témákat a megadott időtartamon belül.',
@@ -361,7 +361,7 @@ $lang = array_merge($lang, array(
 	'ONLINE_USERS_TOTAL'		=> 'Jelenleg <strong>%d</strong> felhasználó van jelen: ',
 	'ONLINE_USERS_ZERO_TOTAL'	=> 'Jelenleg <strong>0</strong> felhasználó van jelen: ',
 	'ONLINE_USER_TOTAL'			=> 'Jelenleg <strong>%d</strong> felhasználó van jelen: ',
-	'OPTIONS'					=> 'Beállítások', //?
+	'OPTIONS'					=> 'Opciók', //? Valahol teendőt is jelent (pl. konvertáló), nincs jobb ötletem... :( (lehetőségek)
 
 	'PAGE_OF'				=> 'Oldal: <strong>%1$d</strong> / <strong>%2$d</strong>',
 	'PASSWORD'				=> 'Jelszó',
@@ -423,9 +423,9 @@ $lang = array_merge($lang, array(
 	'RESET'						=> 'Töröl',
 	'RESTORE_PERMISSIONS'		=> 'Jogosultságok visszaállítása',
 	'RETURN_INDEX'				=> '%sVissza a kezdőlapra%s',
-	'RETURN_FORUM'				=> '%sVissza a legutóbbi fórumhoz %s', //?? "Return to the forum last visited" Vissza a legutóbb meglátogatott fórumhoz??
+	'RETURN_FORUM'				=> '%sVissza a legutóbb látogatott fórumhoz %s', //?? "Return to the forum last visited" Vissza a legutóbb meglátogatott fórumhoz??
 	'RETURN_PAGE'				=> '%sVissza az előző oldalra%s',
-	'RETURN_TOPIC'				=> '%sVissza a legutóbbi témához%s',
+	'RETURN_TOPIC'				=> '%sVissza a legutóbb látogatott témához%s',
 	'RETURN_TO'					=> 'Vissza:', //? "Return to"
 	//? Az "ebben a fórumban" helyett nem kéne inkább az állítmánynak megfelelően ragozni ezt?
 	'RULES_ATTACH_CAN'			=> '<strong>Küldhetsz</strong> csatolmányokat ebben a fórumban.', //?
@@ -490,7 +490,7 @@ $lang = array_merge($lang, array(
 	'SUBMIT'					=> 'Elküld',
 
 	'TERMS_USE'			=> 'Felhasználási feltételek',
-	'TEST_CONNECTION'	=> 'Kapcsolat tesztelése', //? ellenőrzés, próba?
+	'TEST_CONNECTION'	=> 'Kapcsolat ellenőrzése', //? tesztelése, próba?
 	'THE_TEAM'			=> 'A csapat', //? valami jó kis kifejezés kéne... - fenntartók, vezetők stb.
 	'TIME'				=> 'Idő', //?
 
@@ -535,7 +535,7 @@ $lang = array_merge($lang, array(
 	'TOPIC_ICON'		=> 'Téma ikon',
 	'TOPIC_LOCKED'		=> 'A témát lezárták, nem szerkesztheted a hozzászólásaid, és nem küldhetsz új hozzászólást.', //? passzívot kéne használni?
 	'TOPIC_MOVED'		=> 'Áthelyezett téma',
-	'TOPIC_REVIEW'		=> 'Téma előnézet', //? Na, erre is jöhetne egy jobb kifejezés...
+	'TOPIC_REVIEW'		=> 'Téma áttekintése', //? Na, erre is jöhetne egy jobb kifejezés...
 	'TOPIC_TITLE'		=> 'Téma címe',
 	'TOPIC_UNAPPROVED'	=> 'Jóváhagyatlan téma', // passzív, vagy még beszúrása?
 	'TOTAL_ATTACHMENTS'	=> 'Csatolmány(ok)',
@@ -578,7 +578,7 @@ $lang = array_merge($lang, array(
 
 	'VIEWED'					=> 'Megtekintve',
 	'VIEWING_FAQ'				=> 'Gy.i.k. megtekintése',
-	'VIEWING_MEMBERS'			=> 'Felhasználói adatok megtekintése',
+	'VIEWING_MEMBERS'			=> 'Taglista megtekintése',
 	'VIEWING_ONLINE'			=> 'Jelenlévők listájának megtekintése',
 	'VIEWING_MEMBER_PROFILE'	=> 'Felhasználó profiljának megtekintése',
 	'VIEWING_UCP'				=> 'Felhasználói vezérlőpult megtekintése',
@@ -726,7 +726,7 @@ $lang = array_merge($lang, array(
 		'-3.5'	=> '[UTC - 3,5] newfoundlandi zónaidő',
 		'-3'	=> '[UTC - 3] amazoni zónaidő, közép-grönlandi idő',
 		'-2'	=> '[UTC - 2] Fernando de Noronha-i, dél-georgiai és dél-szendvics-szigeteki idő',
-		'-1'	=> '[UTC - 1] Azores-szigeteki zónaidő, zöld-foki-szigeteki idő, kelet-grönlandi idő', //? Azores magyar kiejtése
+		'-1'	=> '[UTC - 1] azori-szigeteki zónaidő, zöld-foki-szigeteki idő, kelet-grönlandi idő', //? Azores magyar kiejtése
 		'0'		=> '[UTC] nyugat-európai idő, greenwichi középidő',
 		'1'		=> '[UTC + 1] közép-európai idő, nyugat-afrikai idő',
 		'2'		=> '[UTC + 2] kelet-európai idő, közép-afrikai idő',
@@ -756,18 +756,13 @@ $lang = array_merge($lang, array(
 
 	// The value is only an example and will get replaced by the current time on view
 	'dateformats'	=> array(
-		'|Y.m.d.| H:i'			=> '2005.01.10. 17:54 [Relatív napok]',
-		'Y.m.d. H:i'			=> '2005.01.10. 17:54',
-		'|Y.m.d. D|, G:i'		=> '2005.01.10. Hétf., 17:54 [Relatív napok]',
-		'Y.m.d. D, G:i'			=> '2005.01.10. Hétf., 17:54',
-		'Y. M d. G:i'			=> '2006. Jan. 10. 17:54',
-		'Y. F j. l, G:i'		=> '2006. December 27. Szerda, 16:08',
-		'|Y. M j. l|, G:i'		=> '2006. Dec. 27. Szerda 1:16 [Relatív napok]',
-		'Y. M j. l, G:i'		=> '2006. Dec. 27. Szerda 1:16',
-		'|Y. M d., l| G:i '		=> '2006. Dec. 27. Szerda 1:16',
-		'|Y. M d., D| G:i '		=> '2006. Dec. 27. Szerda 1:16',
-		'|Y.m.d., l| G:i '		=> '2006. Dec. 27. Szerda 1:16',
-		'|Y.m.d., D| G:i '		=> '2006. Dec. 27. Szerda 1:16',
+		'|Y.m.d.| H:i'			=> '2006.12.28. 20:58 [Relatív napok]',
+		'Y.m.d. H:i'			=> '2006.12.28. 20:58',
+		'|Y.m.d., D| H:i'		=> '2006.12.28. szer., 20:58 [Relatív napok]',
+		'|Y. M d.| H:i'			=> '2006. dec. 28. 20:58 [Relatív napok]',
+		'|Y. F d.| H:i'			=> '2006. december 28. 20:58 [Relatív napok]',
+		'|Y. M d., D| H:i'		=> '2006. dec. 28., szer. 20:58 [Relatív napok]',
+		'|Y. F d., l| H:i'		=> '2006. december 28., szerda 20:58 [Relatív napok]',
 	),
 
 	// The default dateformat which will be used on new installs in this language
