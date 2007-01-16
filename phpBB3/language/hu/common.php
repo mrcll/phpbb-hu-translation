@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.12 2007-01-16 14:39:40 fberci Exp $
+* @version $Id: common.php,v 1.13 2007-01-16 18:58:29 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -103,6 +103,8 @@ $lang = array_merge($lang, array(
 	'CANCEL'				=> 'Mégsem',
 	'CHANGE'				=> 'Változtatás', //?!
 	'CHANGE_FONT_SIZE'		=> 'Betűméret megváltoztatása',
+	'CHANGING_PREFERENCES'	=> 'Fórum beállítások megváltoztatása',
+	'CHANGING_PROFILE'		=> 'Profil megváltoztatása',
 	'CLICK_VIEW_PRIVMSG'	=> '%sBejövő fiók megtekintése%s',
 	'CLOSE_WINDOW'			=> 'Ablak bezárása',
 	'COLOUR_SWATCH'			=> 'Szín kiválasztása',
@@ -174,6 +176,7 @@ $lang = array_merge($lang, array(
 	'FORUM_RULES'			=> 'Fórum szabályzat',
 	'FORUM_RULES_LINK'		=> 'Kattints ide a fórum szabályzat megtekintéséhez',
 	'FROM'					=> 'Feladó:', //??!
+	'FSOCK_DISABLED'		=> 'Nem sikerült végrehajtani a műveletet, mivel az fsock funkciók nincsenek engedélyezve, vagy az elérni kívánt szerver nem található.',
 
 	'FTP_FSOCK_HOST'				=> 'FTP hoszt',
 	'FTP_FSOCK_HOST_EXPLAIN'		=> 'Az oldalad eléréséhez használt FTP kiszolgáló.', //?
@@ -241,7 +244,7 @@ $lang = array_merge($lang, array(
 	'IMAGE_FILETYPE_INVALID'	=> 'A %d kiterjesztésű %s MIME típusú kép nem támogatott.',
 	'IMAGE_FILETYPE_MISMATCH'	=> 'Nem stimmel a kép kiterjesztése: %1$s helyett %2$s.',
 	'IN'						=> 'tartalmazza', //? (pm filter)
-	'INDEX'						=> 'Kezdőlap',
+	'INDEX'						=> 'Kezdőlap megtekintése', //? remélem jó
 	'INFORMATION'				=> 'Információ',
 	'INTERESTS'					=> 'Érdeklődési kör',
 	'INVALID_DIGEST_CHALLENGE'	=> 'Hibás feltárási kérés', //??? "Invalid digest challenge"
@@ -364,10 +367,12 @@ $lang = array_merge($lang, array(
 	'OPTIONS'					=> 'Opciók', //? Valahol teendőt is jelent (pl. konvertáló), nincs jobb ötletem... :( (lehetőségek)
 
 	'PAGE_OF'				=> 'Oldal: <strong>%1$d</strong> / <strong>%2$d</strong>',
+	'PAGINATION_SEPERATOR'	=> ', ',
 	'PASSWORD'				=> 'Jelszó',
 	'PLAY_QUICKTIME_FILE'	=> 'Quicktime állomány lejátszása',
 	'PM'					=> 'PÜ',
 	'POSTING_MESSAGE'		=> 'Üzenet küldése %s',
+	'POSTING_PRIVATE_MESSAGE'	=> 'Privát üzenet küldése',
 	'POST'					=> 'Hozzászólás',
 	'POST_ANNOUNCEMENT'		=> 'Közlemény',
 	'POST_STICKY'			=> 'Kiemelt',
@@ -382,7 +387,8 @@ $lang = array_merge($lang, array(
 	'POST_DETAILS'			=> 'Hozzászólás adatai',
 	'POST_NEW_TOPIC'		=> 'Új téma nyitása',
 	'POST_PCT'				=> 'Az összes hozzászólás %.2f%%-a',
-	'POST_PCT_ACTIVE'		=> 'A hozzászólásaid %.2f%%-a',
+	'POST_PCT_ACTIVE'		=> 'A felhasználó hozzászólásainak %.2f%%-a',
+	'POST_PCT_ACTIVE_OWN'	=> 'A hozzászólásaid %.2f%%-a',
 	'POST_REPORTED'			=> 'Kattints ide a jelentés megtekintéséhez',
 	'POST_SUBJECT'			=> 'Hozzászólás témája',
 	'POST_TIME'				=> 'Elküldés ideje',
@@ -397,6 +403,7 @@ $lang = array_merge($lang, array(
 
 	'READING_FORUM'				=> 'Fórum megtekintése: %s',
 	'READING_GLOBAL_ANNOUNCE'	=> 'Általános közlemény megtekintése',
+	'READING_LINK'				=> 'Link megtekintése: %s', //? követése?
 	'READING_TOPIC'				=> 'Téma megtekintése a %s fórumban',
 	'READ_PROFILE'				=> 'Profil',
 	'REASON'					=> 'Ok',
@@ -580,6 +587,9 @@ $lang = array_merge($lang, array(
 	'VIEWING_FAQ'				=> 'Gy.i.k. megtekintése',
 	'VIEWING_MEMBERS'			=> 'Taglista megtekintése',
 	'VIEWING_ONLINE'			=> 'Jelenlévők listájának megtekintése',
+	'VIEWING_MCP'				=> 'Moderátori vezérlőpult megtekintése',
+	'VIEWING_PRIVATE_MESSAGES'	=> 'Privát üzenetek megtekintése',
+	'VIEWING_REGISTER'			=> 'Regisztrálás a fórumra',
 	'VIEWING_MEMBER_PROFILE'	=> 'Felhasználó profiljának megtekintése',
 	'VIEWING_UCP'				=> 'Felhasználói vezérlőpult megtekintése',
 	'VIEWS'						=> 'Megtekintve', //?
@@ -756,13 +766,13 @@ $lang = array_merge($lang, array(
 
 	// The value is only an example and will get replaced by the current time on view
 	'dateformats'	=> array(
-		'|Y.m.d.| H:i'			=> '2006.12.28. 20:58 [Relatív napok]',
-		'Y.m.d. H:i'			=> '2006.12.28. 20:58',
-		'|Y.m.d., D| H:i'		=> '2006.12.28. szer., 20:58 [Relatív napok]',
-		'|Y. M d.| H:i'			=> '2006. dec. 28. 20:58 [Relatív napok]',
-		'|Y. F d.| H:i'			=> '2006. december 28. 20:58 [Relatív napok]',
-		'|Y. M d., D| H:i'		=> '2006. dec. 28., szer. 20:58 [Relatív napok]',
-		'|Y. F d., l| H:i'		=> '2006. december 28., szerda 20:58 [Relatív napok]',
+		'|Y.m.d.| H:i'			=> '2007.01.01. 13:37 [Relatív napok]',
+		'Y.m.d. H:i'			=> '2007.01.01. 13:37',
+		'|Y.m.d., D| H:i'		=> '2007.01.01. szer., 13:37 [Relatív napok]',
+		'|Y. M j.| G:i'			=> '2007. jan. 1. 13:37 [Relatív napok]',
+		'|Y. F j.| G:i'			=> '2007. január 1. 13:37 [Relatív napok]',
+		'|Y. M j., D| G:i'		=> '2007. jan. 1., szer. 13:37 [Relatív napok]',
+		'|Y. F j., l| G:i'		=> '2007. január 1., szerda 13:37 [Relatív napok]',
 	),
 
 	// The default dateformat which will be used on new installs in this language
