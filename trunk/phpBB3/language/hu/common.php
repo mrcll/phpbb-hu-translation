@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.13 2007-01-16 18:58:29 fberci Exp $
+* @version $Id: common.php,v 1.14 2007-01-20 20:50:24 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -160,7 +160,7 @@ $lang = array_merge($lang, array(
 	'FILENAME'				=> 'Állomány neve',
 	'FILESIZE'				=> 'Állomány mérete',
 	'FILEDATE'				=> 'Állomány feltöltve', //? dátuma?
-	'FILE_COMMENT'			=> 'Megjegyzés', //?!
+	'FILE_COMMENT'			=> 'Magyarázat', //?! megjegyzés?
 	'FILE_NOT_FOUND'		=> 'A keresett állomány nem található.',
 	'FIND_USERNAME'			=> 'Felhasználó keresése',
 	'FOLDER'				=> 'Fiók',
@@ -243,7 +243,7 @@ $lang = array_merge($lang, array(
 	'IMAGE'						=> 'Kép',
 	'IMAGE_FILETYPE_INVALID'	=> 'A %d kiterjesztésű %s MIME típusú kép nem támogatott.',
 	'IMAGE_FILETYPE_MISMATCH'	=> 'Nem stimmel a kép kiterjesztése: %1$s helyett %2$s.',
-	'IN'						=> 'tartalmazza', //? (pm filter)
+	'IN'						=> 'Fórum:', //?
 	'INDEX'						=> 'Kezdőlap megtekintése', //? remélem jó
 	'INFORMATION'				=> 'Információ',
 	'INTERESTS'					=> 'Érdeklődési kör',
