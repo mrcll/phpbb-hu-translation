@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.14 2007-01-20 20:50:24 fberci Exp $
+* @version $Id: common.php,v 1.15 2007-01-21 14:38:54 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -33,8 +33,6 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'TRANSLATION_INFO'	=> 'Magyar fordítás &copy; <a href="http://phpbb.hu/">Magyar phpBB Közösség</a>',
 	'DIRECTION'			=> 'ltr',
-	'LEFT'				=> 'left',
-	'RIGHT'				=> 'right',
 	'DATE_FORMAT'		=> '|Y.m.d.|',
 	'USER_LANG'			=> 'hu-hu',
 
@@ -624,7 +622,7 @@ $lang = array_merge($lang, array(
 	'WRONG_DATA_WEBSITE'		=> 'A honlap címének egy rendes URL-nek kell lennie (a protokollal együtt). Például: http://www.pelda.hu/.', //?
 
 	'YEAR'				=> 'év', //?
-	'YES'				=> 'Igen', // kisbetű?
+	'YES'				=> 'Igen',
 	'YIM'				=> 'YIM',	
 	'YOU_LAST_VISIT'	=> 'Legutolsó látogatás: %s',
 	'YOU_NEW_PM'		=> 'Új privát üzeneted érkezett.', //? "A new private message is waiting for you in your Inbox" az érkezett fiókba...
