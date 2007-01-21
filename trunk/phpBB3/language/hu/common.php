@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.15 2007-01-21 14:38:54 fberci Exp $
+* @version $Id: common.php,v 1.16 2007-01-21 18:20:14 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -369,7 +369,7 @@ $lang = array_merge($lang, array(
 	'PASSWORD'				=> 'Jelszó',
 	'PLAY_QUICKTIME_FILE'	=> 'Quicktime állomány lejátszása',
 	'PM'					=> 'PÜ',
-	'POSTING_MESSAGE'		=> 'Üzenet küldése %s',
+	'POSTING_MESSAGE'		=> 'Üzenet küldése a %s fórumban',
 	'POSTING_PRIVATE_MESSAGE'	=> 'Privát üzenet küldése',
 	'POST'					=> 'Hozzászólás',
 	'POST_ANNOUNCEMENT'		=> 'Közlemény',
@@ -399,7 +399,7 @@ $lang = array_merge($lang, array(
 	'PRIVATE_MESSAGING'		=> 'Privát üzenetek', //? "Private messaging" - hol van használva
 	'PROFILE'				=> 'Felhasználói vezérlőpult',
 
-	'READING_FORUM'				=> 'Fórum megtekintése: %s',
+	'READING_FORUM'				=> '%s fórum megtekintése',
 	'READING_GLOBAL_ANNOUNCE'	=> 'Általános közlemény megtekintése',
 	'READING_LINK'				=> 'Link megtekintése: %s', //? követése?
 	'READING_TOPIC'				=> 'Téma megtekintése a %s fórumban',
@@ -420,7 +420,7 @@ $lang = array_merge($lang, array(
 	'REPLIES'					=> 'Válaszok',
 	'REPLY_WITH_QUOTE'			=> 'Hozzászólás az előzmény idézésével',
 	'REPLYING_GLOBAL_ANNOUNCE'	=> 'Válasz írása egy általános közleményre',
-	'REPLYING_MESSAGE'			=> 'Válasz írása a %s fórumba',
+	'REPLYING_MESSAGE'			=> 'Válasz írása a %s fórumban',
 	'REPORT_BY'					=> 'Jelentés küldője', //? Hol használják?
 	'REPORT_POST'				=> 'Hozzászólás jelentése',
 	'REPORTING_POST'			=> 'Hozzászólás jelentése',
