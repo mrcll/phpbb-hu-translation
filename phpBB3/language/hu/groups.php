@@ -4,7 +4,7 @@
 * groups [English]
 *
 * @package language
-* @version $Id: groups.php,v 1.2 2006-12-19 18:57:18 fberci Exp $
+* @version $Id: groups.php,v 1.3 2007-01-28 20:32:48 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -42,7 +42,7 @@ $lang = array_merge($lang, array(
 	'GROUP_DESC'						=> 'Group description',
 	'GROUP_HIDDEN'						=> 'Hidden',
 	'GROUP_INFORMATION'					=> 'Usergroup information', 
-	'GROUP_IS_CLOSED'					=> 'This is a closed group, new members cannot automatically join.',
+	'GROUP_IS_CLOSED'					=> 'This is a closed group, where new members cannot automatically join and only upon invitation of a group leader.',
 	'GROUP_IS_FREE'						=> 'This is a freely open group, all new members are welcome.', 
 	'GROUP_IS_HIDDEN'					=> 'This is a hidden group, only members of this group can view its membership.',
 	'GROUP_IS_OPEN'						=> 'This is an open group, members can apply to join.',

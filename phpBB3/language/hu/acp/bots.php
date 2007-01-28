@@ -4,7 +4,7 @@
 * acp_bots [English]
 *
 * @package language
-* @version $Id: bots.php,v 1.2 2006-12-19 18:57:18 fberci Exp $
+* @version $Id: bots.php,v 1.3 2007-01-28 20:32:47 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 	'BOT_LANG_EXPLAIN'	=> 'The language presented to the bot as it browses.',
 	'BOT_LAST_VISIT'	=> 'Last visit',
 	'BOT_IP'			=> 'Bot IP address',
-	'BOT_IP_EXPLAIN'	=> 'Partial matches are allowed, seperate addresses with a comma.',
+	'BOT_IP_EXPLAIN'	=> 'Partial matches are allowed, separate addresses with a comma.',
 	'BOT_NAME'			=> 'Bot name',
 	'BOT_NAME_EXPLAIN'	=> 'Used only for your own information.',
 	'BOT_NEVER'			=> 'Never',

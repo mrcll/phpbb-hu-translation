@@ -4,7 +4,7 @@
 * posting [English]
 *
 * @package language
-* @version $Id: posting.php,v 1.2 2006-12-19 18:57:18 fberci Exp $
+* @version $Id: posting.php,v 1.3 2007-01-28 20:32:49 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -104,7 +104,7 @@ $lang = array_merge($lang, array(
 
 	'LOAD'						=> 'Load',
 	'LOAD_DRAFT'				=> 'Load draft',
-	'LOAD_DRAFT_EXPLAIN'		=> 'Here you are able to select the draft you want to continue writing. Your current post will be canceled, all current post contents will be deleted. View, edit and delete drafts within your User Control Panel.',
+	'LOAD_DRAFT_EXPLAIN'		=> 'Here you are able to select the draft you want to continue writing. Your current post will be cancelled, all current post contents will be deleted. View, edit and delete drafts within your User Control Panel.',
 	'LOGIN_EXPLAIN_BUMP'		=> 'You need to login in order to bump topics within this forum.',
 	'LOGIN_EXPLAIN_DELETE'		=> 'You need to login in order to delete posts within this forum.',
 	'LOGIN_EXPLAIN_POST'		=> 'You need to login in order to post within this forum.',
@@ -124,13 +124,14 @@ $lang = array_merge($lang, array(
 	'NOTIFY_REPLY'				=> 'Send me an email when a reply is posted',
 	'NOT_UPLOADED'				=> 'File could not be uploaded.',
 	'NO_DELETE_POLL_OPTIONS'	=> 'You cannot delete existing poll options',
+	'NO_PM_ICON'				=> 'No PM icon',
 	'NO_POLL_TITLE'				=> 'You have to enter a poll title',
 	'NO_POST'					=> 'The requested post does not exist.',
 	'NO_POST_MODE'				=> 'No post mode specified',
 
 	'PARTIAL_UPLOAD'			=> 'The uploaded file was only partially uploaded',
 	'PHP_SIZE_NA'				=> 'The attachment’s filesize is too large.<br />Could not determine the maximum size defined by PHP in php.ini.',
-	'PHP_SIZE_OVERRUN'			=> 'The attachment’s filesize is too large, the maximum upload size is %d MB.<br />Please note this is set in php.ini and cannot be overriden.',
+	'PHP_SIZE_OVERRUN'			=> 'The attachment’s filesize is too large, the maximum upload size is %d MB.<br />Please note this is set in php.ini and cannot be overridden.',
 	'PLACE_INLINE'				=> 'Place inline',
 	'POLL_DELETE'				=> 'Delete poll',
 	'POLL_FOR'					=> 'Run poll for',
@@ -164,7 +165,7 @@ $lang = array_merge($lang, array(
 
 	'SAVE'						=> 'Save',
 	'SAVE_DATE'					=> 'Saved at',
-	'SAVE_DRAFT'				=> 'Save Draft',
+	'SAVE_DRAFT'				=> 'Save draft',
 	'SAVE_DRAFT_CONFIRM'		=> 'Please note that saved drafts only include the subject and the message, any other element will be removed. Do you want to save your draft now?',
 	'SMILIES'					=> 'Smilies',
 	'SMILIES_ARE_OFF'			=> 'Smilies are <em>OFF</em>',
@@ -179,12 +180,12 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_ATTACHMENTS'		=> 'Cannot add another attachment, %d is the maxmimum.',
 	'TOO_MANY_CHARS'			=> 'Your message contains too many characters.',
 	'TOO_MANY_POLL_OPTIONS'		=> 'You have tried to enter too many poll options',
-	'TOO_MANY_SMILIES'			=> 'Your message contains too many smilies. A maximum of %d smilies are allowed.',
-	'TOO_MANY_URLS'				=> 'Your message contains too many urls. A maximum of %d urls are allowed.',
-	'TOO_MANY_USER_OPTIONS'		=> 'You cannot specify more Options per User than existing poll options',
+	'TOO_MANY_SMILIES'			=> 'Your message contains too many smilies. The maximum number of smilies allowed is %d.',
+	'TOO_MANY_URLS'				=> 'Your message contains too many URLs. The maximum number of URLs allowed is %d.',
+	'TOO_MANY_USER_OPTIONS'		=> 'You cannot specify more options per user than existing poll options',
 	'TOPIC_BUMPED'				=> 'Topic has been bumped successfully',
 
-	'UNAUTHORISED_BBCODE'		=> 'You cannot use certain bbcodes: ',
+	'UNAUTHORISED_BBCODE'		=> 'You cannot use certain BBCodes: %s',
 	'UNGLOBALISE_EXPLAIN'		=> 'To switch this topic back from being global to a normal topic, you need to select the forum you wish this topic to be displayed.',
 	'UPDATE_COMMENT'			=> 'Update comment',
 	'URL_INVALID'				=> 'The URL you specified is invalid.',
