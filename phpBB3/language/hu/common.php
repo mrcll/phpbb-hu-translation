@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.16 2007-01-21 18:20:14 fberci Exp $
+* @version $Id: common.php,v 1.17 2007-01-28 20:28:32 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -106,11 +106,13 @@ $lang = array_merge($lang, array(
 	'CLICK_VIEW_PRIVMSG'	=> '%sBejövő fiók megtekintése%s',
 	'CLOSE_WINDOW'			=> 'Ablak bezárása',
 	'COLOUR_SWATCH'			=> 'Szín kiválasztása',
+	'COMMA_SEPARATOR'		=> ', ', // Used in pagination and secret yet-to-be-release style, use localised comma if appropiate, eg: Ideographic or Arabic
 	'CONFIRM'				=> 'Elküld', //? pl. gombok felirat (!) - pl. post details (mcp) -- jobb mint a megerősítés...?
 	'CONFIRM_CODE'			=> 'Megerősítő kód',
 	'CONFIRM_CODE_EXPLAIN'	=> 'Add meg a képen látható kódot. A kis- és nagybetűk nem számítanak, valamint nincs nulla.',
 	'CONFIRM_CODE_WRONG'	=> 'A megadott megerősítő kód hibás.',
-	'CONGRATULATIONS'		=> 'Gratulálunk:',
+	'CONFIRM_OPERATION'		=> 'Biztosan végre akarod hajtani ezt a műveletet?',
+	'CONGRATULATIONS'		=> 'Gratulálunk',
 	'CONNECTION_FAILED'		=> 'Sikertelen kapcsolódási kísérlet',
 	'CONNECTION_SUCCESS'	=> 'Sikerült csatlakozni!',
 	'COOKIES_DELETED'		=> 'A fórum sütijei törlésre kerültek.', //? sütik - cookie
@@ -365,7 +367,6 @@ $lang = array_merge($lang, array(
 	'OPTIONS'					=> 'Opciók', //? Valahol teendőt is jelent (pl. konvertáló), nincs jobb ötletem... :( (lehetőségek)
 
 	'PAGE_OF'				=> 'Oldal: <strong>%1$d</strong> / <strong>%2$d</strong>',
-	'PAGINATION_SEPERATOR'	=> ', ',
 	'PASSWORD'				=> 'Jelszó',
 	'PLAY_QUICKTIME_FILE'	=> 'Quicktime állomány lejátszása',
 	'PM'					=> 'PÜ',
@@ -406,6 +407,7 @@ $lang = array_merge($lang, array(
 	'READ_PROFILE'				=> 'Profil',
 	'REASON'					=> 'Ok',
 	'RECORD_ONLINE_USERS'		=> 'A legtöbb felhasználó (<strong>%1$s</strong> fő) %2$s-kor tartózkodott itt.',
+	'REDIRECT'					=> 'Átirányítás',
 	'REDIRECTS'					=> 'Átirányítások száma',
 	'REGISTER'					=> 'Regisztráció',
 	'REGISTERED_USERS'			=> 'Regisztrált felhasználók:',
