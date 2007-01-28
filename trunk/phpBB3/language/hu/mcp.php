@@ -4,7 +4,7 @@
 * mcp [English]
 *
 * @package language
-* @version $Id: mcp.php,v 1.2 2006-12-19 18:57:18 fberci Exp $
+* @version $Id: mcp.php,v 1.3 2007-01-28 20:32:49 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -64,6 +64,7 @@ $lang = array_merge($lang, array(
 	'DELETE_REPORT_CONFIRM'		=> 'Are you sure you want to delete the selected report?',
 	'DELETE_REPORTS'			=> 'Delete reports',
 	'DELETE_REPORTS_CONFIRM'	=> 'Are you sure you want to delete the selected reports?',
+	'DELETE_SHADOW_TOPIC'		=> 'Delete shadow topic',
 	'DELETE_TOPICS'				=> 'Delete selected topics',
 	'DELETE_TOPICS_CONFIRM'		=> 'Are you sure you want to delete these topics?',
 	'DELETE_TOPIC_CONFIRM'		=> 'Are you sure you want to delete this topic?',
@@ -92,9 +93,9 @@ $lang = array_merge($lang, array(
 	'FORUM_STATUS'			=> 'Forum status',
 	'FORUM_STYLE'			=> 'Forum style',
 
-	'GLOBAL_ANNOUNCEMENT'	=> 'Global Announcement',
+	'GLOBAL_ANNOUNCEMENT'	=> 'Global announcement',
 
-	'IP_INFO'				=> 'IP Information',
+	'IP_INFO'				=> 'IP address information',
 	'IPS_POSTED_FROM'		=> 'IP addresses this user has posted from',
 
 	'LATEST_LOGS'				=> 'Latest 5 logged actions',
@@ -126,7 +127,7 @@ $lang = array_merge($lang, array(
 	'MCP_ADD'						=> 'Add a warning',
 
 	'MCP_BAN'					=> 'Banning',
-	'MCP_BAN_EMAILS'			=> 'Ban Emails',
+	'MCP_BAN_EMAILS'			=> 'Ban emails',
 	'MCP_BAN_IPS'				=> 'Ban IPs',
 	'MCP_BAN_USERNAMES'			=> 'Ban Usernames',
 
@@ -140,22 +141,22 @@ $lang = array_merge($lang, array(
 	'MCP_MAIN_FRONT'				=> 'Front page',
 	'MCP_MAIN_POST_DETAILS'			=> 'Post details',
 	'MCP_MAIN_TOPIC_VIEW'			=> 'View topic',
-	'MCP_MAKE_ANNOUNCEMENT'			=> 'Make Announcement',
-	'MCP_MAKE_ANNOUNCEMENT_CONFIRM'	=> 'Are you sure you want to change this topic to an Announcement?',
-	'MCP_MAKE_ANNOUNCEMENTS'		=> 'Make Announcements',
-	'MCP_MAKE_ANNOUNCEMENTS_CONFIRM'=> 'Are you sure you want to change the selected topics to Announcements?',
-	'MCP_MAKE_GLOBAL'				=> 'Make Global Announcement',
-	'MCP_MAKE_GLOBAL_CONFIRM'		=> 'Are you sure you want to change this topic to a Global Announcement?',
-	'MCP_MAKE_GLOBALS'				=> 'Make Global Announcements',
-	'MCP_MAKE_GLOBALS_CONFIRM'		=> 'Are you sure you want to change the selected topics to Global Announcements?',
-	'MCP_MAKE_STICKY'				=> 'Make Sticky',
-	'MCP_MAKE_STICKY_CONFIRM'		=> 'Are you sure you want to change this topic to a Sticky?',
-	'MCP_MAKE_STICKIES'				=> 'Make Stickies',
-	'MCP_MAKE_STICKIES_CONFIRM'		=> 'Are you sure you want to change the selected topics to Stickies?',
-	'MCP_MAKE_NORMAL'				=> 'Make Standard Topic',
-	'MCP_MAKE_NORMAL_CONFIRM'		=> 'Are you sure you want to change this topic to a Standard Topic?',
-	'MCP_MAKE_NORMALS'				=> 'Make Standard Topics',
-	'MCP_MAKE_NORMALS_CONFIRM'		=> 'Are you sure you want to change the selected topics to Standard Topics?',
+	'MCP_MAKE_ANNOUNCEMENT'			=> 'Modify to “Announcement”',
+	'MCP_MAKE_ANNOUNCEMENT_CONFIRM'	=> 'Are you sure you want to change this topic to an “Announcement”?',
+	'MCP_MAKE_ANNOUNCEMENTS'		=> 'Modify to “Announcements”',
+	'MCP_MAKE_ANNOUNCEMENTS_CONFIRM'=> 'Are you sure you want to change the selected topics to “Announcements”?',
+	'MCP_MAKE_GLOBAL'				=> 'Modify to “Global announcement”',
+	'MCP_MAKE_GLOBAL_CONFIRM'		=> 'Are you sure you want to change this topic to a “Global announcement”?',
+	'MCP_MAKE_GLOBALS'				=> 'Modify to “Global announcements”',
+	'MCP_MAKE_GLOBALS_CONFIRM'		=> 'Are you sure you want to change the selected topics to “Global announcements”?',
+	'MCP_MAKE_STICKY'				=> 'Modify to “Sticky”',
+	'MCP_MAKE_STICKY_CONFIRM'		=> 'Are you sure you want to change this topic to a “Sticky”?',
+	'MCP_MAKE_STICKIES'				=> 'Modify to “Stickie”s',
+	'MCP_MAKE_STICKIES_CONFIRM'		=> 'Are you sure you want to change the selected topics to “Stickies”?',
+	'MCP_MAKE_NORMAL'				=> 'Modify to “Standard Topic”',
+	'MCP_MAKE_NORMAL_CONFIRM'		=> 'Are you sure you want to change this topic to a “Standard Topic”?',
+	'MCP_MAKE_NORMALS'				=> 'Modify to “Standard Topics”',
+	'MCP_MAKE_NORMALS_CONFIRM'		=> 'Are you sure you want to change the selected topics to “Standard Topics”?',
 
 	'MCP_NOTES'						=> 'User notes',
 	'MCP_NOTES_FRONT'				=> 'Front page',
@@ -186,7 +187,7 @@ $lang = array_merge($lang, array(
 	'MERGE_POSTS'			=> 'Merge posts',
 	'MERGE_POSTS_CONFIRM'	=> 'Are you sure you want to merge the selected posts?',
 	'MERGE_TOPIC_EXPLAIN'	=> 'Using the form below you can merge selected posts into another topic. These posts will not be reordered and will appear as if the users posted them to the new topic.<br />Please enter the destination topic id or click on the "Select" button to search for one',
-	'MERGE_TOPIC_ID'		=> 'Destination topic id',
+	'MERGE_TOPIC_ID'		=> 'Destination topic identification number',
 	'MODERATE_FORUM'		=> 'Moderate forum',
 	'MOD_OPTIONS'			=> 'Moderator options',
 	'MORE_INFO'				=> 'Further information',
@@ -208,7 +209,8 @@ $lang = array_merge($lang, array(
 	'NO_POST'						=> 'You have to select a post in order to warn the user for a post',
 	'NO_POST_REPORT'				=> 'This post was not reported.',
 	'NO_POST_SELECTED'				=> 'You must select at least one post to perform this action',
-	'NO_REASON_DISAPPROVAL'			=> 'Please give an appropiate reason for disapproval',
+	'NO_REASON_DISAPPROVAL'			=> 'Please give an appropriate reason for disapproval',
+	'NO_REPORTS'					=> 'No reports',	
 	'NO_TOPIC_ICON'					=> 'None',
 	'NO_TOPIC_SELECTED'				=> 'You must select at least one topic to perform this action',
 
@@ -261,6 +263,7 @@ $lang = array_merge($lang, array(
 	'RETURN_POST'				=> '%sReturn to the post%s',
 	'RETURN_QUEUE'				=> '%sReturn to the queue%s',
 	'RETURN_REPORTS'			=> '%sReturn to the reports%s',
+	'RETURN_TOPIC_SIMPLE'		=> '%sReturn to the topic%s',
 
 	'SEARCH_POSTS_BY_USER'				=> 'Search posts by',
 	'SELECT_ACTION'						=> 'Select desired action',
@@ -331,7 +334,7 @@ $lang = array_merge($lang, array(
 	'WARNED_USERS'			=> 'Warned users',
 	'WARNED_USERS_EXPLAIN'	=> 'This is a list of users with unexpired warnings issued to them',
 	'WARNING_PM_BODY'		=> 'The following is a warning which has been issued to you by an administrator or moderator of this site.[quote]%s[/quote]',
-	'WARNING_PM_SUBJECT'	=> 'Board Warning Issued',
+	'WARNING_PM_SUBJECT'	=> 'Board warning issued',
 	'WARNING_POST_DEFAULT'	=> 'This is a warning regarding the following post made by you: %s',
 	'WARNINGS_ZERO_TOTAL'	=> 'No warnings exists',
 

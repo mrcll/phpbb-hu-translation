@@ -4,7 +4,7 @@
 * acp_database [English]
 *
 * @package language
-* @version $Id: database.php,v 1.2 2006-12-19 18:57:18 fberci Exp $
+* @version $Id: database.php,v 1.3 2007-01-28 20:32:47 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
