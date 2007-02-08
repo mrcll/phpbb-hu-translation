@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.17 2007-01-28 20:28:32 fberci Exp $
+* @version $Id: common.php,v 1.18 2007-02-08 20:27:21 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -173,8 +173,8 @@ $lang = array_merge($lang, array(
 	'FORUM_LINK'			=> 'Fórum link',
 	'FORUM_LOCATION'		=> 'Tevékenység', //?! viewonline - csak írtam valamit, hogy ne felejtsem el
 	'FORUM_LOCKED'			=> 'Lezárt fórum',
-	'FORUM_RULES'			=> 'Fórum szabályzat',
-	'FORUM_RULES_LINK'		=> 'Kattints ide a fórum szabályzat megtekintéséhez',
+	'FORUM_RULES'			=> 'Fórum szabályzok',
+	'FORUM_RULES_LINK'		=> 'Kattints ide a fórum szabályainak megtekintéséhez',
 	'FROM'					=> 'Feladó:', //??!
 	'FSOCK_DISABLED'		=> 'Nem sikerült végrehajtani a műveletet, mivel az fsock funkciók nincsenek engedélyezve, vagy az elérni kívánt szerver nem található.',
 
