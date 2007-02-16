@@ -1,10 +1,10 @@
 <?php
 /** 
 *
-* viewtopic [English]
+* viewtopic [Hungarian]
 *
 * @package language
-* @version $Id: viewtopic.php,v 1.3 2007-01-28 20:32:49 fberci Exp $
+* @version $Id: viewtopic.php,v 1.4 2007-02-16 17:47:46 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -31,77 +31,77 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ATTACHMENT'						=> 'Attachment',
-	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'The attachments feature has been disabled',
+	'ATTACHMENT'						=> 'Csatolmány',
+	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'A csatolmány funkciók nem elérhetők.', //? ki lettek kapcsolva
 
-	'BOOKMARK_ADDED'		=> 'Bookmarked topic successfully.',
-	'BOOKMARK_REMOVED'		=> 'Removed bookmarked topic successfully.',
-	'BOOKMARK_TOPIC'		=> 'Bookmark topic',
-	'BOOKMARK_TOPIC_REMOVE'	=> 'Remove from bookmarks',
-	'BUMPED_BY'				=> 'Last bumped by %1$s on %2$s',
-	'BUMP_TOPIC'			=> 'Bump topic',
+	'BOOKMARK_ADDED'		=> 'A téma sikeresen hozzáadásra került a kedvencekhez.',
+	'BOOKMARK_REMOVED'		=> 'A téma sikeresen eltávolításra került a kedvencekből.',
+	'BOOKMARK_TOPIC'		=> 'Hozzáadás a kedvencekhez',
+	'BOOKMARK_TOPIC_REMOVE'	=> 'Törlés a kedvencekből',
+	'BUMPED_BY'				=> 'Utoljára %1$s ugrasztotta előre %2$s-kor.', //? bump - na ennek ki tud egy magyar megfelelőt?
+	'BUMP_TOPIC'			=> 'Előreugrasztás', //? 'Téma előreugrasztása'
 
-	'CODE'					=> 'Code',
+	'CODE'					=> 'Kód',
 
-	'DELETE_TOPIC'			=> 'Delete topic',
-	'DOWNLOAD_NOTICE'		=> 'You do not have the required permissions to view the files attached to this post.',
+	'DELETE_TOPIC'			=> 'Téma törlése',
+	'DOWNLOAD_NOTICE'		=> 'Nincs meg a kellő jogosultságod a hozzászóláshoz csatolt állományok megtekintéséhez.',
 
-	'EDITED_TIMES_TOTAL'	=> 'Last edited by %1$s on %2$s, edited %3$d times in total',
-	'EDITED_TIME_TOTAL'		=> 'Last edited by %1$s on %2$s, edited %3$d time in total',
-	'EMAIL_TOPIC'			=> 'Email friend',
-	'ERROR_NO_ATTACHMENT'	=> 'The selected attachment does not exist anymore',
+	'EDITED_TIMES_TOTAL'	=> 'A hozzászólást %3$d alkalommal szerkesztették, utoljára %1$s %2$s-kor.', //? 'Utoljára %1$s szerkesztette %2$s-kor; szerkesztések száma: %3$d.'
+	'EDITED_TIME_TOTAL'		=> 'A hozzászólást %3$d alkalommal szerkesztették, utoljára %1$s %2$s-kor.',
+	'EMAIL_TOPIC'			=> 'Barát értesítése e-mailben',
+	'ERROR_NO_ATTACHMENT'	=> 'A csatolmány már nem létezik.',
 
-	'FILE_NOT_FOUND_404'	=> 'The file <strong>%s</strong> does not exist.',
-	'FORK_TOPIC'			=> 'Copy topic',
+	'FILE_NOT_FOUND_404'	=> 'A <strong>%s</strong> fájl nem létezik.',
+	'FORK_TOPIC'			=> 'Téma másolása',
 
-	'LINKAGE_FORBIDDEN'		=> 'You are not authorised to view, download or link from/to this site.',
-	'LOGIN_NOTIFY_TOPIC'	=> 'You have been notified about this topic, please login to view it.',
-	'LOGIN_VIEWTOPIC'		=> 'The board administrator requires you to be registered and logged in to view this topic.',
+	'LINKAGE_FORBIDDEN'		=> 'Nem vagy jogosult az oldalt megtekinteni, letölteni róla vagy linkelni rá.', //? fogalmam sincs...
+	'LOGIN_NOTIFY_TOPIC'	=> 'Értesítve lettél erről a témáról. Lépj be, hogy megtekinthesd.',
+	'LOGIN_VIEWTOPIC'		=> 'A téma megtekintéséhez regisztráltnak és belépve kell lenned.', //? ragozás...
 
-	'MAKE_ANNOUNCE'				=> 'Change to “Announcement”',
-	'MAKE_GLOBAL'				=> 'Change to “Global”',
-	'MAKE_NORMAL'				=> 'Change to “Standard Topic”',
-	'MAKE_STICKY'				=> 'Change to “Sticky”',
-	'MAX_OPTIONS_SELECT'		=> 'You may select up to <strong>%d</strong> options',
-	'MAX_OPTION_SELECT'			=> 'You may select <strong>1</strong> option',
-	'MISSING_INLINE_ATTACHMENT'	=> 'The attachment <strong>%s</strong> is no longer available',
-	'MOVE_TOPIC'				=> 'Move topic',
+	'MAKE_ANNOUNCE'				=> 'Közleménnyé tétel',
+	'MAKE_GLOBAL'				=> 'Általános közleménnyé tétel',
+	'MAKE_NORMAL'				=> 'Normál témává tétel',
+	'MAKE_STICKY'				=> 'Kiemeltté tétel',
+	'MAX_OPTIONS_SELECT'		=> '<strong>%d</strong> választási lehetőségre szavazhatsz.',
+	'MAX_OPTION_SELECT'			=> '<strong>1</strong> választási lehetőségre szavazhatsz.',
+	'MISSING_INLINE_ATTACHMENT'	=> 'A <strong>%s</strong> csatolmány már nem érhető el.',
+	'MOVE_TOPIC'				=> 'Téma áthelyezése',
 
-	'NO_ATTACHMENT_SELECTED'=> 'You haven’t selected an attachment to download or view.',
-	'NO_NEWER_TOPICS'		=> 'There are no newer topics in this forum',
-	'NO_OLDER_TOPICS'		=> 'There are no older topics in this forum',
-	'NO_UNREAD_POSTS'		=> 'There are no new unread posts for this topic.',
-	'NO_VOTE_OPTION'		=> 'You must specify an option when voting.',
-	'NO_VOTES'				=> 'No votes',
+	'NO_ATTACHMENT_SELECTED'=> 'Nem választottál ki csatolmányt a letöltéshez vagy megtekintéshez.',
+	'NO_NEWER_TOPICS'		=> 'Nincs újabb téma a fórumban.',
+	'NO_OLDER_TOPICS'		=> 'Nincs régebbi téma a fórumban.',
+	'NO_UNREAD_POSTS'		=> 'Nincs új olvasatlan hozzászólás a témában.',
+	'NO_VOTE_OPTION'		=> 'A szavazáshoz meg kell adnod egy választási lehetőséget.',
+	'NO_VOTES'				=> 'Nincsenek szavazatok.', //? "No votes"
 
-	'POLL_ENDED_AT'			=> 'Poll ended at %s',
-	'POLL_RUN_TILL'			=> 'Poll runs till %s',
-	'POLL_VOTED_OPTION'		=> 'You voted for this option',
-	'PRINT_TOPIC'			=> 'Print view',
+	'POLL_ENDED_AT'			=> 'A szavazás %s-kor befejeződött.',
+	'POLL_RUN_TILL'			=> 'A szavazás %s-ig van érvényben.',
+	'POLL_VOTED_OPTION'		=> 'Erre a lehetőségre szavaztál',
+	'PRINT_TOPIC'			=> 'Nyomtatóbarát verzió',
 
-	'QUICK_MOD'				=> 'Quick-mod tools',
-	'QUOTE'					=> 'Quote',
+	'QUICK_MOD'				=> 'Gyors moderátori eszközök', //??
+	'QUOTE'					=> 'Idézet',
 
-	'REPLY_TO_TOPIC'		=> 'Reply to topic',
-	'RETURN_POST'			=> '%sReturn to the post%s',
+	'REPLY_TO_TOPIC'		=> 'Hozzászólás a témához',
+	'RETURN_POST'			=> '%sVissza a hozzászóláshoz%s',
 
-	'SUBMIT_VOTE'			=> 'Submit vote',
+	'SUBMIT_VOTE'			=> 'Szavazat elküldése', //? szavazás?
 
-	'TOTAL_VOTES'			=> 'Total votes',
+	'TOTAL_VOTES'			=> 'Szavazatok száma',
 
-	'UNLOCK_TOPIC'			=> 'Unlock topic',
+	'UNLOCK_TOPIC'			=> 'Téma megnyitása',
 
-	'VIEW_INFO'				=> 'Post details',
-	'VIEW_NEXT_TOPIC'		=> 'Next topic',
-	'VIEW_PREVIOUS_TOPIC'	=> 'Previous topic',
-	'VIEW_RESULTS'			=> 'View results',
-	'VIEW_TOPIC_POST'		=> '1 post',
-	'VIEW_TOPIC_POSTS'		=> '%d posts',
-	'VIEW_UNREAD_POST'		=> 'First unread post',
-	'VISIT_WEBSITE'			=> 'WWW',
-	'VOTE_SUBMITTED'		=> 'Your vote has been cast',
+	'VIEW_INFO'				=> 'Hozzászólás adatai',
+	'VIEW_NEXT_TOPIC'		=> 'Következő téma',
+	'VIEW_PREVIOUS_TOPIC'	=> 'Előző téma',
+	'VIEW_RESULTS'			=> 'Eredmény megtekintése',
+	'VIEW_TOPIC_POST'		=> '1 hozzászólás',
+	'VIEW_TOPIC_POSTS'		=> '%d hozzászólás',
+	'VIEW_UNREAD_POST'		=> 'Első olvasatlan hozzászólás',
+	'VISIT_WEBSITE'			=> 'Honlap',
+	'VOTE_SUBMITTED'		=> 'A szavazatod sikeresen eltárolásra került.',
 
-	'WROTE'					=> 'wrote',
+	'WROTE'					=> 'írta',
 ));
 
 ?>
