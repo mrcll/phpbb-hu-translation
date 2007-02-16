@@ -1,10 +1,10 @@
 <?php
 /** 
 *
-* viewforum [English]
+* viewforum [Hungarian]
 *
 * @package language
-* @version $Id: viewforum.php,v 1.3 2007-01-28 20:32:49 fberci Exp $
+* @version $Id: viewforum.php,v 1.4 2007-02-16 17:47:46 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -31,32 +31,32 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACTIVE_TOPICS'			=> 'Active topics',
-	'ANNOUNCEMENTS'			=> 'Announcements',
+	'ACTIVE_TOPICS'			=> 'Aktív témák', //?
+	'ANNOUNCEMENTS'			=> 'Közlemények',
 
-	'FORUM_PERMISSIONS'		=> 'Forum permissions',
+	'FORUM_PERMISSIONS'		=> 'Fórum jogosultságok',
 
-	'ICON_ANNOUNCEMENT'		=> 'Announcement',
-	'ICON_STICKY'			=> 'Sticky',
+	'ICON_ANNOUNCEMENT'		=> 'Közlemény',
+	'ICON_STICKY'			=> 'Kiemelt',
 
-	'LOGIN_NOTIFY_FORUM'	=> 'You have been notified about this forum, please login to view it.',
+	'LOGIN_NOTIFY_FORUM'	=> 'Értesítést kaptál erről a fórumról. Lépj be, hogy megtekinthesd.', //? "You have been notified about this forum, please login to view it."
 
-	'MARK_TOPICS_READ'		=> 'Mark topics read',
-	'MOVED_TOPIC'			=> 'Moved topic',
+	'MARK_TOPICS_READ'		=> 'Témák megjelölése olvasottként',
+	'MOVED_TOPIC'			=> 'Áthelyezett téma', //? Árnyék?
 
-	'NEW_POSTS_HOT'			=> 'New posts [ Popular ]',
-	'NEW_POSTS_LOCKED'		=> 'New posts [ Locked ]',
-	'NO_NEW_POSTS_HOT'		=> 'No new posts [ Popular ]',
-	'NO_NEW_POSTS_LOCKED'	=> 'No new posts [ Locked ]',
-	'NO_READ_ACCESS'		=> 'You do not have the required permissions to read topics within this forum.',
+	'NEW_POSTS_HOT'			=> 'Új hozzászólások [ népszerű ]', //? zárójelek?
+	'NEW_POSTS_LOCKED'		=> 'Új hozzászólások [ lezárt ]',
+	'NO_NEW_POSTS_HOT'		=> 'Nincsenek új hozzászólások [ népszerű ]',
+	'NO_NEW_POSTS_LOCKED'	=> 'Nincsenek új hozzászólások [ lezárt ]',
+	'NO_READ_ACCESS'		=> 'Nincs meg a kellő jogosultságod a fórumbeli témák olvasásához.',
 
-	'POST_FORUM_LOCKED'		=> 'Forum is locked',
+	'POST_FORUM_LOCKED'		=> 'A fórum le van zárva.',
 
-	'TOPICS_MARKED'			=> 'The topics for this forum have now been marked read',
+	'TOPICS_MARKED'			=> 'A fórumbeli témákat sikeresen megjelöltük olvasottként.', //? Itt jobb lenne a megjelölted (vagy bármi más), de ez akkor nem illeszkedne a többihez
 
-	'VIEW_FORUM'			=> 'View forum',
-	'VIEW_FORUM_TOPIC'		=> '1 topic',
-	'VIEW_FORUM_TOPICS'		=> '%d topics',
+	'VIEW_FORUM'			=> 'Fórum megtekintése',
+	'VIEW_FORUM_TOPIC'		=> '1 téma',
+	'VIEW_FORUM_TOPICS'		=> '%d téma',
 ));
 
 ?>

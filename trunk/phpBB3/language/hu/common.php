@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.19 2007-02-10 10:15:19 fberci Exp $
+* @version $Id: common.php,v 1.20 2007-02-16 17:47:46 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -487,10 +487,10 @@ $lang = array_merge($lang, array(
 	'SPLIT_TOPIC'				=> 'Téma szétválasztása',
 	'SQL_ERROR_OCCURRED'		=> 'SQL hiba lépett fel az oldal generálása közben. Ha a probléma továbbra is fennálna, lépj kapcsolatba a %sfórum adminisztrátorával%s.', //? készítése? (magyarosabb, de furább)
 	'STATISTICS'				=> 'Statisztika',
-	'START_WATCHING_FORUM'		=> 'Feliratkozás a fórumra',
-	'START_WATCHING_TOPIC'		=> 'Feliratkozás a témára',
-	'STOP_WATCHING_FORUM'		=> 'Leiratkozás a fórumról',
-	'STOP_WATCHING_TOPIC'		=> 'Leiratkozás a témáról',
+	'START_WATCHING_FORUM'		=> 'Feliratkozás', //? 'Feliratkozás a fórumra'
+	'START_WATCHING_TOPIC'		=> 'Feliratkozás', //? 'Feliratkozás a témára'
+	'STOP_WATCHING_FORUM'		=> 'Leiratkozás', //? 'Leiratkozás a fórumról'
+	'STOP_WATCHING_TOPIC'		=> 'Leiratkozás', //? 'Leiratkozás a témáról'
 	'SUBFORUM'					=> 'Alfórum',
 	'SUBFORUMS'					=> 'Alfórumok',
 	'SUBJECT'					=> 'Téma',
