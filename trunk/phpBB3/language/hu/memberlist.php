@@ -4,7 +4,7 @@
 * memberlist [Hungarian]
 *
 * @package language
-* @version $Id: memberlist.php,v 1.4 2007-02-17 10:52:37 fberci Exp $
+* @version $Id: memberlist.php,v 1.5 2007-02-17 20:00:46 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -86,10 +86,10 @@ $lang = array_merge($lang, array(
 	'LESS_THAN'					=> 'Kevesebb, mint',
 	'LIST_USER'					=> '1 felhasználó',
 	'LIST_USERS'				=> '%d felhasználó',
-	'LOGIN_EXPLAIN_LEADERS'		=> 'A csapat megtekintéséhez regisztráltnak és belépve kell lenned.', //?
-	'LOGIN_EXPLAIN_MEMBERLIST'	=> 'A taglista megtekintéséhez regisztráltnak és belépve kell lenned.', //?
-	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'Felhasználók kereséséhez regisztráltnak és belépve kell lenned.', //?
-	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'Egy felhasználó profiljának megtekintéséhez regisztráltnak és belépve kell lenned.', //?
+	'LOGIN_EXPLAIN_LEADERS'		=> 'A csapat megtekintéséhez be kell jelentkezned.',
+	'LOGIN_EXPLAIN_MEMBERLIST'	=> 'A taglista megtekintéséhez be kell jelentkezned.',
+	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'Felhasználók kereséséhez be kell jelentkezned.',
+	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'Egy felhasználó profiljának megtekintéséhez be kell jelentkezned.',
 
 	'MORE_THAN'				=> 'Több, mint',
 

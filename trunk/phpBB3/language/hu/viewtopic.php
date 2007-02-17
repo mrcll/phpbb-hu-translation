@@ -4,7 +4,7 @@
 * viewtopic [Hungarian]
 *
 * @package language
-* @version $Id: viewtopic.php,v 1.4 2007-02-16 17:47:46 fberci Exp $
+* @version $Id: viewtopic.php,v 1.5 2007-02-17 20:00:46 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 
 	'LINKAGE_FORBIDDEN'		=> 'Nem vagy jogosult az oldalt megtekinteni, letölteni róla vagy linkelni rá.', //? fogalmam sincs...
 	'LOGIN_NOTIFY_TOPIC'	=> 'Értesítve lettél erről a témáról. Lépj be, hogy megtekinthesd.',
-	'LOGIN_VIEWTOPIC'		=> 'A téma megtekintéséhez regisztráltnak és belépve kell lenned.', //? ragozás...
+	'LOGIN_VIEWTOPIC'		=> 'A téma megtekintéséhez be kell jelentkezned.',
 
 	'MAKE_ANNOUNCE'				=> 'Közleménnyé tétel',
 	'MAKE_GLOBAL'				=> 'Általános közleménnyé tétel',
