@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.20 2007-02-16 17:47:46 fberci Exp $
+* @version $Id: common.php,v 1.21 2007-02-17 10:52:37 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -394,7 +394,7 @@ $lang = array_merge($lang, array(
 	'POST_UNAPPROVED'		=> 'A hozzászólás jóváhagyásra vár.',
 	'PREVIEW'				=> 'Előnézet',
 	'PREVIOUS'				=> 'Előző',
-	'PRIVACY'				=> 'Adatvédelmi elveink',
+	'PRIVACY'				=> 'Adatvédelmi nyilatkozat',
 	'PRIVATE_MESSAGE'		=> 'Privát üzenet',
 	'PRIVATE_MESSAGES'		=> 'Privát üzenetek',
 	'PRIVATE_MESSAGING'		=> 'Privát üzenetek', //? "Private messaging" - hol van használva
