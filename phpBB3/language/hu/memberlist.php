@@ -1,10 +1,10 @@
 <?php
 /** 
 *
-* memberlist [English]
+* memberlist [Hungarian]
 *
 * @package language
-* @version $Id: memberlist.php,v 1.3 2007-01-28 20:32:49 fberci Exp $
+* @version $Id: memberlist.php,v 1.4 2007-02-17 10:52:37 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -31,101 +31,101 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ABOUT_USER'			=> 'Profile',
-	'ACTIVE_IN_FORUM'		=> 'Most active forum',
-	'ACTIVE_IN_TOPIC'		=> 'Most active topic',
-	'ADD_FOE'				=> 'Add foe',
-	'ADD_FRIEND'			=> 'Add friend',
-	'AFTER'					=> 'After',	
+	'ABOUT_USER'			=> 'Profil',
+	'ACTIVE_IN_FORUM'		=> 'Legaktívabb fórum', //? 'Legaktívabb fóruma'?
+	'ACTIVE_IN_TOPIC'		=> 'Legaktívabb téma',
+	'ADD_FOE'				=> 'Hozzáadás az ellenségekhez',
+	'ADD_FRIEND'			=> 'Hozzáadás a barátokhoz',
+	'AFTER'					=> 'Később, mint', //?
 
-	'BEFORE'				=> 'Before',
+	'BEFORE'				=> 'Korábban, mint', //?
 
-	'CC_EMAIL'				=> 'Send a copy of this email to yourself',
-	'CONTACT_USER'			=> 'Contact',
+	'CC_EMAIL'				=> 'Másolat küldése magadnak',
+	'CONTACT_USER'			=> 'Kapcsolat',
 
-	'DEST_LANG'				=> 'Language',
-	'DEST_LANG_EXPLAIN'		=> 'Select an appropriate language (if available) for the recipient of this message.',
+	'DEST_LANG'				=> 'Nyelv',
+	'DEST_LANG_EXPLAIN'		=> 'Válassz ki egy az üzenet címzettjének megfelelő nyelvet (ha elérhető).',
 
-	'EMAIL_BODY_EXPLAIN'	=> 'This message will be sent as plain text, do not include any HTML or BBCode. The return address for this message will be set to your email address.',
-	'EMAIL_DISABLED'		=> 'Sorry but all email related functions have been disabled.',
-	'EMAIL_SENT'			=> 'The email has been sent.',
-	'EMAIL_TOPIC_EXPLAIN'	=> 'This message will be sent as plain text, do not include any HTML or BBCode. Please note that the topic information is already included in the message. The return address for this message will be set to your email address.',
-	'EMPTY_ADDRESS_EMAIL'	=> 'You must provide a valid email address for the recipient.',
-	'EMPTY_MESSAGE_EMAIL'	=> 'You must enter a message to be emailed.',
-	'EMPTY_NAME_EMAIL'		=> 'You must enter the real name of the recipient.',
-	'EMPTY_SUBJECT_EMAIL'	=> 'You must specify a subject for the email.',
-	'EQUAL_TO'				=> 'Equal to',
+	'EMAIL_BODY_EXPLAIN'	=> 'Az üzenet sima szövegként kerül elküldésre, ne használj HTML-t vagy BBCode-ot. Az üzenet válaszcíme a te e-mail címed lesz.',
+	'EMAIL_DISABLED'		=> 'Sajnáljuk, de az e-mailküldéssel kapcsolatos funkciók kikapcsolásra kerültek.', //?
+	'EMAIL_SENT'			=> 'Az e-mail sikeresen elküldésre került.',
+	'EMAIL_TOPIC_EXPLAIN'	=> 'Az üzenet sima szövegként kerül elküldésre, ne használj HTML-t vagy BBCode-ot. Kérjük vedd figyelembe, hogy az üzenet már tartalmazza a témával kapcsolatos információkat. Az üzenet válaszcíme a te e-mail címed lesz.',
+	'EMPTY_ADDRESS_EMAIL'	=> 'Meg kell adnod a címzett valódi e-mail címét.',
+	'EMPTY_MESSAGE_EMAIL'	=> 'Nem küldhetsz üres üzenetet.',
+	'EMPTY_NAME_EMAIL'		=> 'Meg kell adnod a címzett valódi nevét.',
+	'EMPTY_SUBJECT_EMAIL'	=> 'Meg kell adnod az e-mail témáját.',
+	'EQUAL_TO'				=> 'Annyi, mint', //?
 
-	'FIND_USERNAME_EXPLAIN'	=> 'Use this form to search for specific members. You do not need to fill out all fields. To match partial data use * as a wildcard. When entering dates use the format <kbd>YYYY-MM-DD</kbd>, e.g. <samp>2004-02-29</samp>. Use the mark checkboxes to select one or more usernames (several usernames may be accepted depending on the form itself) and click the Select Marked button to return to the previous form.',
-	'FLOOD_EMAIL_LIMIT'		=> 'You cannot send another email at this time. Please try again later.',
+	'FIND_USERNAME_EXPLAIN'	=> 'Ennek az űrlapnak a segítségével konkrét felhasználókra kereshetsz rá. Nem kell az összes mezőt kitöltened. A részleges szavakhoz használd a * jokerkaraktert. A dátumokat <kbd>ÉÉÉÉ-HH-NN</kbd> formában add meg (például <samp>2004-02-29</samp>). Használd a jelölőnégyzeteket egy vagy több felhasználó kiválasztásához (az űrlaptól függ, hányat választhatsz ki), majd kattints a kijelöltek kiválasztása gombra, hogy visszatérj az előző űrlaphoz.', //? YYYY-MM-DD '... konkrét felhasználókat kereshetsz (meg) ...'
+	'FLOOD_EMAIL_LIMIT'		=> 'Most nem küldhetsz több e-mailt. Kérjük próbálkozz később.',
 
-	'GROUP_LEADER'			=> 'Group leader',
+	'GROUP_LEADER'			=> 'Csoportvezető',
 
-	'HIDE_MEMBER_SEARCH'	=> 'Hide member search',
+	'HIDE_MEMBER_SEARCH'	=> 'Felhasználó keresésének elrejtése', //?
 
-	'IM_ADD_CONTACT'		=> 'Add Contact',
-	'IM_AIM'				=> 'Please note that you need AOL Instant Messenger installed to use this.',
+	'IM_ADD_CONTACT'		=> 'Felvétel a kapcsolatok közé', //??
+	'IM_AIM'				=> 'Kérjük vedd figyelembe, hogy ennek használatához szükséged van az AOL Instant Messenger programra.', //?
 	'IM_AIM_EXPRESS'		=> 'AIM Express',
-	'IM_DOWNLOAD_APP'		=> 'Download application',
-	'IM_ICQ'				=> 'Please note that users may have selected to not receive unsolicited instant messages.',
-	'IM_JABBER'				=> 'Please note that users may have selected to not receive unsolicited instant messages.',
-	'IM_JABBER_SUBJECT'		=> 'This is an automated message please do not reply! Message from user %1$s at %2$s',
-	'IM_MESSAGE'			=> 'Your message',
-	'IM_MSNM'				=> 'Please note that you need Windows Messenger installed to use this.',
-	'IM_MSNM_BROWSER'		=> 'Your browser does not support this.',
-	'IM_MSNM_CONNECT'		=> 'MSNM is not connected.\nYou have to connect to MSNM to continue.',		
-	'IM_NAME'				=> 'Your Name',
-	'IM_NO_JABBER'			=> 'Sorry, direct messaging of Jabber users is not supported on this server. You will need a Jabber client installed on your system to contact the recipient above.',
-	'IM_RECIPIENT'			=> 'Recipient',
-	'IM_SEND'				=> 'Send message',
-	'IM_SEND_MESSAGE'		=> 'Send message',
-	'IM_SENT_JABBER'		=> 'Your message to %1$s has been sent successfully.',
-	'IM_USER'				=> 'Send an instant message',
+	'IM_DOWNLOAD_APP'		=> 'Alkalmazás letöltése',
+	'IM_ICQ'				=> 'Kérjük vedd figyelembe, hogy a felhasználók lehet, hogy beállították, hogy ne kapjanak kéretlen üzeneteket.', //? hogy...
+	'IM_JABBER'				=> 'Kérjük vedd figyelembe, hogy a felhasználók lehet, hogy beállították, hogy ne kapjanak kéretlen üzeneteket.',
+	'IM_JABBER_SUBJECT'		=> 'Ez egy automatikus üzenet, kérjük ne válaszolj! Üzenet %1$s felhasználótól %2$s-kor',
+	'IM_MESSAGE'			=> 'Az üzeneted',
+	'IM_MSNM'				=> 'Kérjük vedd figyelembe, hogy ennek használatához szükséged van a Windows Messenger programra.', //?
+	'IM_MSNM_BROWSER'		=> 'Sajnos a böngésződ nem támogatja ezt.',
+	'IM_MSNM_CONNECT'		=> 'Az MSNM nem csatlakozott.\nKapcsolódnod kell az MSNM-hez a folytatáshoz.', //???
+	'IM_NAME'				=> 'Neved',
+	'IM_NO_JABBER'			=> 'Sajnos ezen a szerveren a direkt üzenetek nem támogatottak. A címzettel való kapcsolatba lépéshez szükséged lesz egy Jabber kliensre.', //?
+	'IM_RECIPIENT'			=> 'Címzett',
+	'IM_SEND'				=> 'Üzenet elküldése',
+	'IM_SEND_MESSAGE'		=> 'Üzenet küldése',
+	'IM_SENT_JABBER'		=> 'Az üzeneted sikeresen elküldésre került %1$snek.',
+	'IM_USER'				=> 'Azonnali üzenet küldése', //?
 	
-	'LAST_ACTIVE'				=> 'Last active',
-	'LESS_THAN'					=> 'Less than',
-	'LIST_USER'					=> '1 user',
-	'LIST_USERS'				=> '%d users',
-	'LOGIN_EXPLAIN_LEADERS'		=> 'The board administrator requires you to be registered and logged in to view the team listing.',
-	'LOGIN_EXPLAIN_MEMBERLIST'	=> 'The board administrator requires you to be registered and logged in to access the memberlist.',
-	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'The board administrator requires you to be registered and logged in to search users.',
-	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'The board administrator requires you to be registered and logged in to view profiles.',
+	'LAST_ACTIVE'				=> 'Utoljára aktív',
+	'LESS_THAN'					=> 'Kevesebb, mint',
+	'LIST_USER'					=> '1 felhasználó',
+	'LIST_USERS'				=> '%d felhasználó',
+	'LOGIN_EXPLAIN_LEADERS'		=> 'A csapat megtekintéséhez regisztráltnak és belépve kell lenned.', //?
+	'LOGIN_EXPLAIN_MEMBERLIST'	=> 'A taglista megtekintéséhez regisztráltnak és belépve kell lenned.', //?
+	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'Felhasználók kereséséhez regisztráltnak és belépve kell lenned.', //?
+	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'Egy felhasználó profiljának megtekintéséhez regisztráltnak és belépve kell lenned.', //?
 
-	'MORE_THAN'				=> 'More than',
+	'MORE_THAN'				=> 'Több, mint',
 
-	'NO_EMAIL'				=> 'You are not permitted to send email to this user.',
-	'NO_VIEW_USERS'			=> 'You are not authorised to view the member list or profiles.',
+	'NO_EMAIL'				=> 'Nem küldhetsz e-mailt ennek a felhasználónak.',
+	'NO_VIEW_USERS'			=> 'Nincs jogosultságod a taglista vagy a felhasználók profiljainak megtekintéséhez.',
 
-	'ORDER'					=> 'Order',
-	'OTHER'					=> 'Other',
+	'ORDER'					=> 'Sorrend',
+	'OTHER'					=> 'Más',
 
-	'POST_IP'				=> 'Posted from IP/domain',
+	'POST_IP'				=> 'IP/domain, melyről írt', //??
 
-	'RANK'					=> 'Rank',
-	'REAL_NAME'				=> 'Recipient name',
-	'RECIPIENT'				=> 'Recipient',
-	'REMOVE_FOE'			=> 'Remove foe',
-	'REMOVE_FRIEND'			=> 'Remove friend',
+	'RANK'					=> 'Rang',
+	'REAL_NAME'				=> 'Címzett neve',
+	'RECIPIENT'				=> 'Címzett',
+	'REMOVE_FOE'			=> 'Törlés az ellenségek közül',
+	'REMOVE_FRIEND'			=> 'Törlés a barátok közül',
 
-	'SEARCH_USER_POSTS'		=> 'Search user’s posts',
-	'SELECT_MARKED'			=> 'Select marked',
-	'SELECT_SORT_METHOD'	=> 'Select sort method',
-	'SEND_IM'				=> 'Instant messaging',
-	'SEND_MESSAGE'			=> 'Message',
-	'SORT_EMAIL'			=> 'Email',
-	'SORT_LAST_ACTIVE'		=> 'Last active',
-	'SORT_POST_COUNT'		=> 'Post count',
+	'SEARCH_USER_POSTS'		=> 'Felhasználó hozzászólásainak megtekintése', //? elvileg keresés
+	'SELECT_MARKED'			=> 'Kijelöltek kiválasztása',
+	'SELECT_SORT_METHOD'	=> 'Rendezés',
+	'SEND_IM'				=> 'Azonnali üzenetküldés', //?
+	'SEND_MESSAGE'			=> 'Üzenet küldése',
+	'SORT_EMAIL'			=> 'E-mail',
+	'SORT_LAST_ACTIVE'		=> 'Utolsó aktivitás időpontja', //?
+	'SORT_POST_COUNT'		=> 'Hozzászólások száma',
 
-	'USERNAME_BEGINS_WITH'	=> 'Username begins with',
-	'USER_ADMIN'			=> 'Administrate user',
-	'USER_FORUM'			=> 'User statistics',
+	'USERNAME_BEGINS_WITH'	=> 'Felhasználónév kezdőbetűje',
+	'USER_ADMIN'			=> 'Felhasználó kezelése', //? administrate
+	'USER_FORUM'			=> 'Statisztika',
 	'USER_ONLINE'			=> 'Online',
-	'USER_PRESENCE'			=> 'Forum presence',
+	'USER_PRESENCE'			=> 'Jelenlét a fórumban',
 
-	'VIEWING_PROFILE'		=> 'Viewing profile - %s',
-	'VISITED'				=> 'Last visited',
+	'VIEWING_PROFILE'		=> 'Profil megtekintése: %s',
+	'VISITED'				=> 'Utolsó látogatás',
 
-	'WWW'					=> 'Website',
+	'WWW'					=> 'Honlap',
 ));
 
 ?>
