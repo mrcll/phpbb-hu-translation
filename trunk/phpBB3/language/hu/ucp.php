@@ -4,7 +4,7 @@
 * ucp [Hungarian]
 *
 * @package language
-* @version $Id: ucp.php,v 1.5 2007-02-21 21:20:01 fberci Exp $
+* @version $Id: ucp.php,v 1.6 2007-02-23 22:18:14 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -39,16 +39,14 @@ $lang = array_merge($lang, array(
 	Beleegyezel, hogy nem küldesz semmilyen sértegető, obszcén, vulgáris, rágalmazó, gyűlöletkeltő, támadó, közízlést sértő vagy bármely más olyan tartalmat, mely sérti a hazádban, a fórumot kiszolgáló szerver országában érvényben lévő vagy a nemzetközi törvényt. A fentiek megsértése azonnali és végleges kitiltáshoz vezethet az internet szolgáltatód értesítésével együtt, ha ezt szükségesnek tartjuk. Az összes hozzászóláshoz tartozó IP-címet tároljuk a feltételek betartatásának érdekében. Elfogadod, hogy a fórum fenntartóinak jogukban áll eltávolítani, szerkeszteni a hozzászólásaid, vagy lezárni az általad nyitott témákat, amennyiben úgy ítélik meg, hogy ez szükséges. Mint felhasználó, elfogadod, hogy bármely adat, melyet megadsz, tárolásra kerül a fórum adatbázisában. Ezek az információk semmilyen módon nem kerülnek ki egy harmadik félhez, de a fórum fenntartói nem tudnak felelősséget vállalni az adatokért egy esetleges „hacker-támadás” esetén.
 	',
 
-	'PRIVACY_POLICY'		=> 'Ez a nyilatkozat tartalmazza, hogy a „%1$s” fórum (a továbbiakban „mi”, „a fórum”, „%1$s”, „%2$s”) és a phpBB hogyan kezeli az oldal használata során begyűjtött információkat.
+	'PRIVACY_POLICY'		=> 'Ezen nyilatkozat írja le, hogy a phpBB és a „%1$s” fórum (a továbbiakban „mi”, „a fórum”, „%1$s”, „%2$s”) üzemeltetői hogyan kezelik a fórum használata közben keletkező információkat.
 	<br />
-	Két módon gyűjtünk információkat. Egyrészt azzal, hogy felkeresed a fórumot, a phpBB szoftver néhány úgynevezett sütit készít (kis szöveges állományok, melyeket a böngésződ letölt az ideiglenes állományok könyvtárába). Az első két süti csupán egy felhasználói és egy munkamenet azonosítót tartalmaz, melyeket a phpBB generál automatikusan. A harmadik süti akkor jön létre, amikor a fórumot böngészed - ebben kerül tárolásra melyik témákat olvastad, így javítva a felhasználói élményt.
+	Ezen információk két módon jönnek létre. Egyrészt automatikusan: azzal, hogy felkeresed a fórumot, a phpBB ún. sütiket generál (kis szöveges állományok, melyeket a böngésződ letölt az ideiglenes állományok könyvtárába). Ezen sütik olyan fontos adatokat tartalmaznak, melyek a fórum használatához feltétlenül szükségesek. Ilyen információt tárol az első két süti: a felhasználói azonosítót, illetve egy névtelen munkamenet azonosítót, amit a rendszer a böngésződhöz rendel. A harmadik süti akkor jön létre, amikor a fórumot böngészed - ebben kerül tárolásra melyik témákat olvastad, így javítva a felhasználói élményt. A „%1$s” oldal böngészése során a phpBB-n kívül más szoftverek is létrehozhatnak sütiket, ezeket azonban nem tárgyalja ez a dokumentum, ugyanis csak a phpBB által generált oldalakkal foglalkozik.
 	<br />
-	A „%1$s” oldal böngészése során a phpBB-n kívül más szoftverek is létrehozhatnak sütiket, ezeket azonban nem tárgyalja ez a dokumentum, ugyanis csak a phpBB által generált oldalakkal foglalkozik. Másrészt az általad megadott információkat is tároljuk. Ezek közé tartozik a vendégként való hozzászólás, a regisztrálás a fórumon, valamint hozzászólás küldése bejelentkezett állapotban.
+	A másik mód, ami tárolásra kerülő információt generál, az maga az interakció: például ha vendégként, vagy regisztrált tagként hozzászólást írsz, vagy regisztrálsz. Ez utóbbi folyamat során meg kell adnod egy egyedien azonosítható nevet („a felhasználói neved”), egy, a belépéshez használt személyes jelszót („a jelszavad”), illetve egy valós e-mail címet („az e-mail címed”). Az általad létrehozott azonosítót azon ország adatvédelmi törvényei védelmezik, melyben a fórum szervere található. A regisztráció során megadott egyéb adatok kötelezősége az adott fórum adminisztrátorainak döntésétől függ. Lehetőséged van rá, hogy megválaszd, milyen információk jelenjenek meg rólad nyilvánosan a profilodban. Ezen felül ki-, illetve bekapcsolhatod a számodra küldött automatikus leveleket.
 	<br />
-	A felhasználói azonosítód mindenképp tartalmazni fog egy egyedien azonosítható nevet („a felhasználóneved”), egy a belépéshez használt személyes jelszót („a jelszavad”) és egy saját valós e-mail címet („az e-mail címed”). Az azonosítód adatait annak az országnak az adatvédelmi törvényei védelmezik, melyben a fórum szervere található. A felhasználóneveden, a jelszavadon és az e-mail címeden kívül minden egyéb más mező kitöltésének kötelezősége a fórum adminisztrátoraitól függ. Mindenesetre megválaszthatod, hogy milyen információk jelenjenek meg rólad nyilvánosan a profilodban. Továbbá ki-, illetve bekapcsolhatod az automatikus levelek küldését.
-	<br />
-	A jelszavad biztonságos módon, egyirányúan kódolva tároljuk. Mindazonáltal nem ajánljuk, hogy több weboldalon is ugyanazt a jelszót használd. Az azonosítódhoz csak a jelszavaddal férhetsz hozzá, így kérjük őrizd gondosan, és ne add ki senkinek se, mégha az adott személy az oldallal, vagy a phpBB-vel van kapcsolatban. Ha elfelejteted volna a jelszavad, használd az „Elfelejtettem a jelszavam” funkciót. A rendszer kérni fogja a felhasználóneved és az e-mail címed, majd generálni fog egy új jelszót, így újra használhatod az azonosítód.<br />
-	', //? Van mit javítani...
+	A jelszavad biztonságosan, egyirányúan kódolva tároljuk. Javasoljuk, hogy teljesen egyedi jelszavat használj! Ezen jelszóval férhetsz hozzá a fórumos azonosítódhoz, így kérjük, gondosan kezeld. Semmilyen körülmények közt ne add ki harmadik személynek, mégha az az oldal üzemeltetője is, vagy ha a phpBB-vel kapcsolatban kérik! Amennyiben elfelejted a jelszavad, használd az "Elfelejtettem a jelszavam" funkciót. A rendszer kérni fogja a felhasználóneved és az e-mail címed, majd generálni fog egy új jelszót, így újra használhatod az azonosítód.
+	',
 ));
 
 // Common language entries
