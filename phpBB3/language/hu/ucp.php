@@ -4,7 +4,7 @@
 * ucp [Hungarian]
 *
 * @package language
-* @version $Id: ucp.php,v 1.6 2007-02-23 22:18:14 fberci Exp $
+* @version $Id: ucp.php,v 1.7 2007-03-03 21:02:44 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -51,75 +51,75 @@ $lang = array_merge($lang, array(
 
 // Common language entries
 $lang = array_merge($lang, array(
-	'ACCOUNT_ACTIVE'				=> 'Your account has now been activated. Thank you for registering',
-	'ACCOUNT_ACTIVE_ADMIN'			=> 'The account has now been activated',
-	'ACCOUNT_ADDED'					=> 'Thank you for registering, your account has been created. You may now login with your username and password',
-	'ACCOUNT_COPPA'					=> 'Your account has been created but has to be approved, please check your email for details.',
-	'ACCOUNT_INACTIVE'				=> 'Your account has been created. However, this forum requires account activation, an activation key has been sent to the email address you provided. Please check your email for further information',
-	'ACCOUNT_INACTIVE_ADMIN'		=> 'Your account has been created. However, this forum requires account activation by the administrator. An email has been sent to them and you will be informed when your account has been activated',
-	'ACTIVATION_EMAIL_SENT'			=> 'The activation email has been sent to your email address',
-	'ADD'							=> 'Add',
-	'ADD_BCC'						=> 'Add [BCC]',
-	'ADD_FOES'						=> 'Add new foes',
-	'ADD_FOES_EXPLAIN'				=> 'You may enter several usernames each on a different line',
-	'ADD_FOLDER'					=> 'Add folder',
-	'ADD_FRIENDS'					=> 'Add new friends',
-	'ADD_FRIENDS_EXPLAIN'			=> 'You may enter several usernames each on a different line',
-	'ADD_NEW_RULE'					=> 'Add new rule',
-	'ADD_RULE'						=> 'Add rule',
-	'ADD_TO'						=> 'Add [To]',
-	'ADMIN_EMAIL'					=> 'Administrators can email me information',
-	'AGREE'							=> 'I agree to these terms',
-	'ALLOW_PM'						=> 'Allow users to send you private messages',
-	'ALLOW_PM_EXPLAIN'				=> 'Note that administrators and moderators will always be able to send you messages.',
-	'ALREADY_ACTIVATED'				=> 'You have already activated your account',
-	'ATTACHMENTS_EXPLAIN'			=> 'This is a list of attachments you have made in posts to this forum.',
-	'ATTACHMENTS_DELETED'			=> 'Attachments successfully deleted.',
-	'ATTACHMENT_DELETED'			=> 'Attachment successfully deleted.',
-	'AVATAR_CATEGORY'				=> 'Category',
-	'AVATAR_EXPLAIN'				=> 'Maximum dimensions; width %1$d pixels, height %2$d pixels, filesize %3$dkB.',
-	'AVATAR_GALLERY'				=> 'Local gallery',
-	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'Could not upload avatar to %s',
-	'AVATAR_PAGE'					=> 'Page',
+	'ACCOUNT_ACTIVE'				=> 'Az azonosítód aktiválása megtörtént. Köszönjük, hogy regisztráltál.',
+	'ACCOUNT_ACTIVE_ADMIN'			=> 'Az azonosító aktiválása megtörtént.',
+	'ACCOUNT_ADDED'					=> 'Köszönjük, hogy regisztráltál, az azonosítód elkészült. Most már beléphetsz a felhasználóneveddel és a jelszavaddal.',
+	'ACCOUNT_COPPA'					=> 'Az azonosítód elkészült, azonban jóváhagyásra vár. További információkért kérjük nézd meg az e-mail fiókod.',
+	'ACCOUNT_INACTIVE'				=> 'Az azonosítód elkészült, azonban hogy használni tudd, aktiválnod kell. Az aktivációs kulcsot elküldtük az e-mail címedre. További információkért kérjük nézd meg az e-mail fiókod.',
+	'ACCOUNT_INACTIVE_ADMIN'		=> 'Az azonosítód elkészült, azonban hogy használni tudd, az adminisztrátornak aktiválnia kell. Az adminisztrátort értesítettük, amint aktiválja az azonosítód, értesíteni fogunk.', //? szóismétlés
+	'ACTIVATION_EMAIL_SENT'			=> 'Az aktivációs e-mail sikeresen elküldésre került az e-mail címedre.',
+	'ADD'							=> 'Hozzáad',
+	'ADD_BCC'						=> 'Hozzáad [titkos másolat]', //? + titkos másolat
+	'ADD_FOES'						=> 'Új ellenségek felvétele', //? kell az új?
+	'ADD_FOES_EXPLAIN'				=> 'Több felhasználónevet is megadhatsz külön sorba írva őket.',
+	'ADD_FOLDER'					=> 'Mappa hozzáadása',
+	'ADD_FRIENDS'					=> 'Új barátok felvétele', //? kell az új?
+	'ADD_FRIENDS_EXPLAIN'			=> 'Több felhasználónevet is megadhatsz külön sorba írva őket.',
+	'ADD_NEW_RULE'					=> 'Új szűrő létrehozása', //? kell az új?
+	'ADD_RULE'						=> 'Szűrő létrehozása',
+	'ADD_TO'						=> 'Hozzáad [címzett]', //? + címzett
+	'ADMIN_EMAIL'					=> 'Információs e-mailek fogadása adminisztrátoroktól',
+	'AGREE'							=> 'Elfogadom a feltételeket',
+	'ALLOW_PM'						=> 'Privát üzenetek fogadása felhasználóktól',
+	'ALLOW_PM_EXPLAIN'				=> 'Kérjük vedd figyelembe, hogy az adminisztrátorok és a moderátorok mindig fognak tudni küldeni neked privát üzenetet.',
+	'ALREADY_ACTIVATED'				=> 'Az azonosítód aktiválása már korábban megtörtént.',
+	'ATTACHMENTS_EXPLAIN'			=> 'Ez a lista az ebbe fórumba küldött csatolmányaidat tartalmazza.', //? nem tudom hol szerpel => értelmét se pontosan - "This is a list of attachments you have made in posts to this forum."
+	'ATTACHMENTS_DELETED'			=> 'A csatolmányok sikeresen törlésre kerültek.', //? sikeresen törlésrere kerültek??
+	'ATTACHMENT_DELETED'			=> 'A csatolmány sikeresen törlésre került.', //? sikeresen törlésre kerültek??
+	'AVATAR_CATEGORY'				=> 'Kategória',
+	'AVATAR_EXPLAIN'				=> 'Maximális méret: szélesség %1$d pixel, magasság %2$d pixel, állomány mérete %3$d KB.',
+	'AVATAR_GALLERY'				=> 'Helyi galéria', //?
+	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'Nem sikerült feltölteni az avatart a következő helyre: %s',
+	'AVATAR_PAGE'					=> 'Oldal', //?
 
-	'BACK_TO_DRAFTS'			=> 'Back to saved drafts',
-	'BACK_TO_LOGIN'				=> 'Back to login screen',
-	'BIRTHDAY'					=> 'Birthday',
-	'BIRTHDAY_EXPLAIN'			=> 'Setting a year will list your age when it is your birthday.',
-	'BOARD_DATE_FORMAT'			=> 'My date format',
-	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'The syntax used is identical to the PHP <a href="http://www.php.net/date">date()</a> function',
-	'BOARD_DST'					=> 'Daylight Saving Time is in effect',
-	'BOARD_LANGUAGE'			=> 'My language',
-	'BOARD_STYLE'				=> 'My board style',
-	'BOARD_TIMEZONE'			=> 'My timezone',
-	'BOOKMARKS'					=> 'Bookmarks',
-	'BOOKMARKS_EXPLAIN'			=> 'You can bookmark topics for future reference. Select the checkbox for any bookmark you wish to delete, then press the <em>Remove marked bookmarks</em> button.',
-	'BOOKMARKS_DISABLED'		=> 'Bookmarks are disabled on this board',
-	'BOOKMARKS_REMOVED'			=> 'Bookmarks removed successfully',
+	'BACK_TO_DRAFTS'			=> 'Vissza az elmentett piszkozatokhoz',
+	'BACK_TO_LOGIN'				=> 'Vissza a belépéshez',
+	'BIRTHDAY'					=> 'Születésnap',
+	'BIRTHDAY_EXPLAIN'			=> 'Ha megadod a születési éved, a születésnapodkor látszani fog a korod is.',
+	'BOARD_DATE_FORMAT'			=> 'Dátum formátum',
+	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'A szintakszis megegyezik a PHP <a href="http://hu.php.net/manual/hu/function.date.php">date()</a> függvényéjével.', //? fogalmazás
+	'BOARD_DST'					=> 'Nyári időszámítás érvényben',
+	'BOARD_LANGUAGE'			=> 'Nyelv',
+	'BOARD_STYLE'				=> 'Kinézet', //? nem végleges...
+	'BOARD_TIMEZONE'			=> 'Időzóna',
+	'BOOKMARKS'					=> 'Kedvencek',
+	'BOOKMARKS_EXPLAIN'			=> 'Felvehetsz témákat a kedvenceid közé, hogy aztán később felkeresd őket. Ha törölni szeretnél egy témát a kedvencekből, jelöld be a jelölőnyégyzetét, majd kattints a <em>kijelölt kedvencek törlése</em> gombra.', //? Első mondat második fele kicsit mást jelent: "You can bookmark topics for future reference."
+	'BOOKMARKS_DISABLED'		=> 'A kedvencek funkció nem elérhető ezen a fórumon.',
+	'BOOKMARKS_REMOVED'			=> 'A megjelölt témák sikeresen törlésre kerültek a kedvencekből.',
 
-	'CANNOT_EDIT_MESSAGE_TIME'	=> 'You can no longer edit or delete that message',
-	'CANNOT_MOVE_TO_SAME_FOLDER'=> 'Messages can not be moved to the folder you want to remove.',
-	'CANNOT_RENAME_FOLDER'		=> 'This folder can not be renamed.',
-	'CANNOT_REMOVE_FOLDER'		=> 'This folder can not be removed.',
-	'CHANGE_DEFAULT_GROUP'		=> 'Change default group',
-	'CHANGE_PASSWORD'			=> 'Change password',
-	'CLICK_RETURN_FOLDER'		=> '%1$sReturn to your “%3$s” folder%2$s',
-	'CONFIRMATION'				=> 'Confirmation of registration',
-	'CONFIRM_CHANGES'			=> 'Confirm changes',	
-	'CONFIRM_EMAIL'				=> 'Confirm email address',
-	'CONFIRM_EMAIL_EXPLAIN'		=> 'You only need to specify this if you are changing your email address.',
-	'CONFIRM_EXPLAIN'			=> 'To prevent automated registrations the board administrator requires you to enter a confirmation code. The code is displayed in the image you should see below. If you are visually impaired or cannot otherwise read this code please contact the %sBoard Administrator%s.',
-	'CONFIRM_PASSWORD'			=> 'Confirm password',
-	'CONFIRM_PASSWORD_EXPLAIN'	=> 'You only need to confirm your password if you changed it above',
-	'COPPA_BIRTHDAY'			=> 'To continue with the registration procedure please tell us when you were born.',
-	'COPPA_COMPLIANCE'			=> 'COPPA compliance',
-	'COPPA_EXPLAIN'				=> 'Please note that clicking submit will create your account. However it cannot be activated until a parent or guardian approves your registration. You will be emailed a copy of the necessary form with details of where to send it.',
-	'CREATE_FOLDER'				=> 'Add folder…',
-	'CURRENT_IMAGE'				=> 'Current image',
-	'CURRENT_PASSWORD'			=> 'Current password',
-	'CURRENT_PASSWORD_EXPLAIN'	=> 'You must confirm your current password if you wish to change it, alter your email address or username.',
-	'CUR_PASSWORD_ERROR'		=> 'The current password you entered is incorrect.',
-	'CUSTOM_DATEFORMAT'			=> 'Custom…',
+	'CANNOT_EDIT_MESSAGE_TIME'	=> 'Már nem szerkesztethed vagy törölheted az üzenetet.', //? az üzenet = that message
+	'CANNOT_MOVE_TO_SAME_FOLDER'=> 'Az üzenetek nem helyezhetők át abba a mappába, amelyet épp törölni szeretnél.',
+	'CANNOT_RENAME_FOLDER'		=> 'Ez a mappa nem átnevezhető.',
+	'CANNOT_REMOVE_FOLDER'		=> 'Ez a mappa nem áthelyezhető.',
+	'CHANGE_DEFAULT_GROUP'		=> 'Elsődleges csoport megváltoztatása',
+	'CHANGE_PASSWORD'			=> 'Jelszó megváltoztatása',
+	'CLICK_RETURN_FOLDER'		=> '%1$sVissza a „%3$s” mappához%2$s',
+	'CONFIRMATION'				=> 'Regisztráció megerősítése',
+	'CONFIRM_CHANGES'			=> 'Változtatások megerősítése',	
+	'CONFIRM_EMAIL'				=> 'E-mail cím megerősítése',
+	'CONFIRM_EMAIL_EXPLAIN'		=> 'Csak akkor kell megadnod, ha meg szeretnéd változtatni az e-mail címed.',
+	'CONFIRM_EXPLAIN'			=> 'A robot regisztrációk megakadályozása érdekében, meg kell adnod egy megerősítő kódot. A kód az alábbi képen szerepel. Ha látási vagy egyéb problémák miatt nem tudod elolvasni a kódot, lépj kapcsolatba az %sfórum adminisztrátorával%s.',
+	'CONFIRM_PASSWORD'			=> 'Jelszó megerősítése',
+	'CONFIRM_PASSWORD_EXPLAIN'	=> 'Csak akkor kell megadnod, ha meg szeretnéd változtatni a jelszavad.',
+	'COPPA_BIRTHDAY'			=> 'A regisztráció folytatásához kérjük add meg, mikor születtél.',
+	'COPPA_COMPLIANCE'			=> 'COPPA egyeztetés', //?? complience - mondjuk úgyse hasznája senki :)
+	'COPPA_EXPLAIN'				=> 'Kérjük vedd figyelembe, hogy az elküld gombra kattintva elkészül az azonosítód, azonban addig nem lesz aktiválva, míg egy szülőd vagy gondviselőd jóvá nem hagyja a regisztrációd. E-mailben elküldjük a megfelelő űrlapot, illetve, hogy hova küldd vissza.',
+	'CREATE_FOLDER'				=> 'Mappa létrehozása…',
+	'CURRENT_IMAGE'				=> 'Jelenlegi kép',
+	'CURRENT_PASSWORD'			=> 'Jelenlegi jelszó',
+	'CURRENT_PASSWORD_EXPLAIN'	=> 'Meg kell adnod a jelenlegi jelszavad, ha meg szeretnéd változtatni a jelszavad, az e-mail címed vagy a felhasználóneved.',
+	'CUR_PASSWORD_ERROR'		=> 'A megadott jelenlegi jelszó hibás.',
+	'CUSTOM_DATEFORMAT'			=> 'Egyéni…',
 
 	'DEFAULT_ACTION'			=> 'Default action',
 	'DEFAULT_ACTION_EXPLAIN'	=> 'This action will be triggered if none of the above is applicable',
