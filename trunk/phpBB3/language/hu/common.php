@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.21 2007-02-17 10:52:37 fberci Exp $
+* @version $Id: common.php,v 1.22 2007-03-03 21:02:44 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -99,7 +99,7 @@ $lang = array_merge($lang, array(
 	'BYTES'					=> 'bájt',
 
 	'CANCEL'				=> 'Mégsem',
-	'CHANGE'				=> 'Változtatás', //?!
+	'CHANGE'				=> 'Változtat', //? ha néhány helyen nem jó így, akkor visszaalakítjuk változtatássá (a többi hasonló gombfelirattal együtt?)
 	'CHANGE_FONT_SIZE'		=> 'Betűméret megváltoztatása',
 	'CHANGING_PREFERENCES'	=> 'Fórum beállítások megváltoztatása',
 	'CHANGING_PROFILE'		=> 'Profil megváltoztatása',
@@ -109,7 +109,7 @@ $lang = array_merge($lang, array(
 	'COMMA_SEPARATOR'		=> ', ', // Used in pagination and secret yet-to-be-release style, use localised comma if appropiate, eg: Ideographic or Arabic
 	'CONFIRM'				=> 'Elküld', //? pl. gombok felirat (!) - pl. post details (mcp) -- jobb mint a megerősítés...?
 	'CONFIRM_CODE'			=> 'Megerősítő kód',
-	'CONFIRM_CODE_EXPLAIN'	=> 'Add meg a képen látható kódot. A kis- és nagybetűk nem számítanak, valamint nincs nulla.',
+	'CONFIRM_CODE_EXPLAIN'	=> 'Add meg a képen látható kódot. A kis- vagy nagybetűk nem számítanak, valamint nincs nulla.',
 	'CONFIRM_CODE_WRONG'	=> 'A megadott megerősítő kód hibás.',
 	'CONFIRM_OPERATION'		=> 'Biztosan végre akarod hajtani ezt a műveletet?',
 	'CONGRATULATIONS'		=> 'Gratulálunk',
@@ -169,7 +169,7 @@ $lang = array_merge($lang, array(
 	'FORUMS'				=> 'Fórumok',
 	'FORUMS_MARKED'			=> 'Minden fórumot megjelelöltünk olvasottként.',
 	'FORUM_CAT'				=> 'Fórum kategória',
-	'FORUM_INDEX'			=> 'Kezdőlap',
+	'FORUM_INDEX'			=> 'Fórum kezdőlap',
 	'FORUM_LINK'			=> 'Fórum link',
 	'FORUM_LOCATION'		=> 'Tevékenység', //?! viewonline - csak írtam valamit, hogy ne felejtsem el
 	'FORUM_LOCKED'			=> 'Lezárt fórum',
@@ -429,7 +429,7 @@ $lang = array_merge($lang, array(
 	'RESEND_ACTIVATION'			=> 'Aktivációs e-mail újraküldése',
 	'RESET'						=> 'Töröl',
 	'RESTORE_PERMISSIONS'		=> 'Jogosultságok visszaállítása',
-	'RETURN_INDEX'				=> '%sVissza a kezdőlapra%s',
+	'RETURN_INDEX'				=> '%sVissza a fórum kezdőlapra%s',
 	'RETURN_FORUM'				=> '%sVissza a legutóbb látogatott fórumhoz %s', //?? "Return to the forum last visited" Vissza a legutóbb meglátogatott fórumhoz??
 	'RETURN_PAGE'				=> '%sVissza az előző oldalra%s',
 	'RETURN_TOPIC'				=> '%sVissza a legutóbb látogatott témához%s',
