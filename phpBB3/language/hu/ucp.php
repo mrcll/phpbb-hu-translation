@@ -4,7 +4,7 @@
 * ucp [Hungarian]
 *
 * @package language
-* @version $Id: ucp.php,v 1.7 2007-03-03 21:02:44 fberci Exp $
+* @version $Id: ucp.php,v 1.8 2007-03-04 21:14:32 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -121,36 +121,36 @@ $lang = array_merge($lang, array(
 	'CUR_PASSWORD_ERROR'		=> 'A megadott jelenlegi jelszó hibás.',
 	'CUSTOM_DATEFORMAT'			=> 'Egyéni…',
 
-	'DEFAULT_ACTION'			=> 'Default action',
-	'DEFAULT_ACTION_EXPLAIN'	=> 'This action will be triggered if none of the above is applicable',
-	'DEFAULT_ADD_SIG'			=> 'Attach my signature by default',
-	'DEFAULT_BBCODE'			=> 'Enable BBCode by default',
-	'DEFAULT_NOTIFY'			=> 'Notify me upon replies by default',
-	'DEFAULT_SMILIES'			=> 'Enable smilies by default',
-	'DEFINED_RULES'				=> 'Defined rules',
-	'DELETED_TOPIC'				=> 'Topic has been removed',
-	'DELETE_ATTACHMENT'			=> 'Delete attachment',
-	'DELETE_ATTACHMENTS'		=> 'Delete attachments',
-	'DELETE_ATTACHMENT_CONFIRM'	=> 'Are you sure you want to delete this attachment?',
-	'DELETE_ATTACHMENTS_CONFIRM'=> 'Are you sure you want to delete these attachments?',
-	'DELETE_AVATAR'				=> 'Delete image',
-	'DELETE_COOKIES_CONFIRM'	=> 'Are you sure you want to delete all cookies set by this board?',
-	'DELETE_MARKED_PM'			=> 'Delete marked messages',
-	'DELETE_MARKED_PM_CONFIRM'	=> 'Are you sure you want to delete all marked messages?',
-	'DELETE_OLDEST_MESSAGES'	=> 'Delete oldest messages',
-	'DELETE_MESSAGE'			=> 'Delete message',
-	'DELETE_MESSAGE_CONFIRM'	=> 'Are you sure you want to delete this private message?',
-	'DELETE_MESSAGES_IN_FOLDER'	=> 'Delete all messages within removed folder',
-	'DELETE_RULE'				=> 'Delete rule',
-	'DELETE_RULE_CONFIRM'		=> 'Are you sure you want to delete this rule?',
-	'DEMOTE_SELECTED'			=> 'Demote selected',
-	'DISABLE_CENSORS'			=> 'Enable word censoring',
-	'DISPLAY_GALLERY'			=> 'Display gallery',
-	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'The entered email domain has no valid MX record.',
-	'DOWNLOADS'					=> 'Downloads',
-	'DRAFTS_DELETED'			=> 'All selected drafts were successfully deleted.',
-	'DRAFTS_EXPLAIN'			=> 'Here you can view, edit and delete your saved drafts.',
-	'DRAFT_UPDATED'				=> 'Draft successfully updated.',
+	'DEFAULT_ACTION'			=> 'Alapértelmezett viselkedés', //? alapértelmezett? művelet, viselkedés
+	'DEFAULT_ACTION_EXPLAIN'	=> 'Ez fog történni, ha a fenti műveletek közül egyik sem alkalmazható. ', //? végrehajtható
+	'DEFAULT_ADD_SIG'			=> 'Aláírás csatolása alapból', //? alapból...
+	'DEFAULT_BBCODE'			=> 'BBCode bekapcsolása alapból',
+	'DEFAULT_NOTIFY'			=> 'Értesítés a válaszokról alapból',
+	'DEFAULT_SMILIES'			=> 'Emotikonok bekapcsolása alapból', //? emotikonokat bekapcsolni?
+	'DEFINED_RULES'				=> 'Szűrők', //? "Defined rules" - 'Létező szűrők'
+	'DELETED_TOPIC'				=> 'A téma törölve lett.', //? nem tudom hol használják, így csak a passzívot lehet használni
+	'DELETE_ATTACHMENT'			=> 'Csatolmány törlése',
+	'DELETE_ATTACHMENTS'		=> 'Csatolmányok törlése',
+	'DELETE_ATTACHMENT_CONFIRM'	=> 'Biztosan törölni akarod ezt a csatolmányt?',
+	'DELETE_ATTACHMENTS_CONFIRM'=> 'Biztosan törölni akarod ezeket a csatolmányokat?',
+	'DELETE_AVATAR'				=> 'Kép törlése',
+	'DELETE_COOKIES_CONFIRM'	=> 'Biztosan törölni akarod a fórum által létrehozott sütiket?', //? beállított, készített, küldött
+	'DELETE_MARKED_PM'			=> 'Kijelölt üzenetek törlése',
+	'DELETE_MARKED_PM_CONFIRM'	=> 'Biztosan törölni akarod az összes kijelölt üzenetet?',
+	'DELETE_OLDEST_MESSAGES'	=> 'Legrégebbi üzenetek törlése',
+	'DELETE_MESSAGE'			=> 'Üzenet törlése',
+	'DELETE_MESSAGE_CONFIRM'	=> 'Biztosan törölni akarod ezt a privát üzenetet?',
+	'DELETE_MESSAGES_IN_FOLDER'	=> 'A törölt mappában lévő összes üzenet törlése', //? kisbetű (van egy és előtte, de távol)?
+	'DELETE_RULE'				=> 'Szűrő törlése',
+	'DELETE_RULE_CONFIRM'		=> 'Biztosan törölni akarod ezt a szűrőt?',
+	'DEMOTE_SELECTED'			=> 'Visszalépés a kijelöltekben', //?? = lemond a csoportvezetőségről
+	'DISABLE_CENSORS'			=> 'Szavak cenzúrázásának bekapcsolása',
+	'DISPLAY_GALLERY'			=> 'Galéria megjelenítése',
+	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'A megadott e-mail domainhez nem tartozik érvényes MX bejegyzés.', //? érvényes? "valid" - valós, létező?
+	'DOWNLOADS'					=> 'Letöltések száma', //? remélem csak ilyen értelemben használják...
+	'DRAFTS_DELETED'			=> 'Az összes piszkozat sikeresen törlésre került.',
+	'DRAFTS_EXPLAIN'			=> 'Itt megtekintheted, szerkesztheted és törölheted az elmentett piszkozataidat.',
+	'DRAFT_UPDATED'				=> 'A piszkozat sikeresen frissítésre került.', //? "Draft successfully updated."
 
 	'EDIT_DRAFT_EXPLAIN'		=> 'Here you are able to edit your draft. Drafts do not contain attachment and poll information.',
 	'EMAIL_BANNED_EMAIL'		=> 'The email address you entered is not allowed to be used.',
