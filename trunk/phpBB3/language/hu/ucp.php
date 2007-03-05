@@ -4,7 +4,7 @@
 * ucp [Hungarian]
 *
 * @package language
-* @version $Id: ucp.php,v 1.8 2007-03-04 21:14:32 fberci Exp $
+* @version $Id: ucp.php,v 1.9 2007-03-05 20:56:34 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -90,7 +90,7 @@ $lang = array_merge($lang, array(
 	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'A szintakszis megegyezik a PHP <a href="http://hu.php.net/manual/hu/function.date.php">date()</a> függvényéjével.', //? fogalmazás
 	'BOARD_DST'					=> 'Nyári időszámítás érvényben',
 	'BOARD_LANGUAGE'			=> 'Nyelv',
-	'BOARD_STYLE'				=> 'Kinézet', //? nem végleges...
+	'BOARD_STYLE'				=> 'Megjelenés',
 	'BOARD_TIMEZONE'			=> 'Időzóna',
 	'BOOKMARKS'					=> 'Kedvencek',
 	'BOOKMARKS_EXPLAIN'			=> 'Felvehetsz témákat a kedvenceid közé, hogy aztán később felkeresd őket. Ha törölni szeretnél egy témát a kedvencekből, jelöld be a jelölőnyégyzetét, majd kattints a <em>kijelölt kedvencek törlése</em> gombra.', //? Első mondat második fele kicsit mást jelent: "You can bookmark topics for future reference."
@@ -152,96 +152,96 @@ $lang = array_merge($lang, array(
 	'DRAFTS_EXPLAIN'			=> 'Itt megtekintheted, szerkesztheted és törölheted az elmentett piszkozataidat.',
 	'DRAFT_UPDATED'				=> 'A piszkozat sikeresen frissítésre került.', //? "Draft successfully updated."
 
-	'EDIT_DRAFT_EXPLAIN'		=> 'Here you are able to edit your draft. Drafts do not contain attachment and poll information.',
-	'EMAIL_BANNED_EMAIL'		=> 'The email address you entered is not allowed to be used.',
-	'EMAIL_INVALID_EMAIL'		=> 'The email address you entered is invalid.',
-	'EMAIL_REMIND'				=> 'This must be the email address you supplied when registering.',
-	'EMAIL_TAKEN_EMAIL'			=> 'The entered email address is already in use',
-	'EMPTY_DRAFT'				=> 'You must enter a message to submit your changes',
-	'EMPTY_DRAFT_TITLE'			=> 'You must enter a draft title',
-	'EXPORT_AS_XML'				=> 'Export as XML',
-	'EXPORT_AS_CSV'				=> 'Export as CSV',
-	'EXPORT_AS_CSV_EXCEL'		=> 'Export as CSV (Excel)',
-	'EXPORT_AS_TXT'				=> 'Export as TXT',
-	'EXPORT_AS_MSG'				=> 'Export as MSG',
-	'EXPORT_FOLDER'				=> 'Export folder',
+	'EDIT_DRAFT_EXPLAIN'		=> 'Itt szerkesztheted a piszkozatodat. A piszkozatokhoz nem kapcsolható csatolmány, illetve szavazás.', //? "Here you are able to edit your draft. Drafts do not contain attachment and poll information." - ' A piszkozatok nem tartalmaznak csatolmányokat, illetve szavazási információkat.'
+	'EMAIL_BANNED_EMAIL'		=> 'A megadott e-mail cím használata nem engedélyezett.',
+	'EMAIL_INVALID_EMAIL'		=> 'A megadott e-mail cím hibás.',
+	'EMAIL_REMIND'				=> 'Az az e-mail cím, melyet a regisztrációkor megadtál.',
+	'EMAIL_TAKEN_EMAIL'			=> 'A megadott e-mail cím már használatban van.', //? "is already in use" - 'már használja valaki' - valaki..., valószínűleg ő maga
+	'EMPTY_DRAFT'				=> 'Az üzenet nem lehet üres.',
+	'EMPTY_DRAFT_TITLE'			=> 'Meg kell adnod az üzenet témáját.',
+	'EXPORT_AS_XML'				=> 'Kimentés XML-ként', //? 'Kimentés x-ként'
+	'EXPORT_AS_CSV'				=> 'Kimentés CSV-ként',
+	'EXPORT_AS_CSV_EXCEL'		=> 'Kimentés CSV-ként (Excel)',
+	'EXPORT_AS_TXT'				=> 'Kimentés TXT-ként',
+	'EXPORT_AS_MSG'				=> 'Kimentés MSG-ként',
+	'EXPORT_FOLDER'				=> 'Mappa kimentése',
 
-	'FIELD_REQUIRED'					=> 'The field “%s” must be completed.',
-	'FIELD_TOO_SHORT'					=> 'The field “%1$s” is too short, a minimum of %2$d characters is required.',
-	'FIELD_TOO_LONG'					=> 'The field “%1$s” is too long, a maximum of %2$d characters is allowed.',
-	'FIELD_TOO_SMALL'					=> 'The value of “%1$s” is too small, a minimum value of %2$d is required.',
-	'FIELD_TOO_LARGE'					=> 'The value of “%1$s” is too large, a maximum value of %2$d is allowed.',
-	'FIELD_INVALID_CHARS_NUMBERS_ONLY'	=> 'The field “%s” has invalid characters, only numbers are allowed.',
-	'FIELD_INVALID_CHARS_ALPHA_ONLY'	=> 'The field “%s” has invalid characters, only alphanumeric characters are allowed.',
-	'FIELD_INVALID_CHARS_SPACERS_ONLY'	=> 'The field “%s” has invalid characters, only alphanumeric, space or -+_[] characters are allowed.',
-	'FIELD_INVALID_DATE'				=> 'The field “%s” has an invalid date.',
+	'FIELD_REQUIRED'					=> 'A „%s” mezőt nem hagyhatod üresen.',
+	'FIELD_TOO_SHORT'					=> 'A „%1$s” mező tartalma túl rövid, legalább %2$d karakter hosszúnak kell lennie.',
+	'FIELD_TOO_LONG'					=> 'A „%1$s” mező tartalma túl hosszú, legfeljebb %2$d karakter engedélyezett.',
+	'FIELD_TOO_SMALL'					=> 'A „%1$s” mező értéke túl kicsi, legalább %2$d-nek kell lennie.',
+	'FIELD_TOO_LARGE'					=> 'A „%1$s” mező értéke túl nagy, legfeljebb %2$d engedélyezett.', //? kell lennie? - nyelvtan
+	'FIELD_INVALID_CHARS_NUMBERS_ONLY'	=> 'A „%1$s” mező hibás karaktereket tartalmaz, csak számok engedélyezettek.', //? hibás (invalid)?
+	'FIELD_INVALID_CHARS_ALPHA_ONLY'	=> 'A „%1$s” mező hibás karaktereket tartalmaz, csak alfanumerikus karakterek használata engedélyezett.',
+	'FIELD_INVALID_CHARS_SPACERS_ONLY'	=> 'A „%1$s” mező hibás karaktereket tartalmaz, csak alfanumerikus karakterek, szóköz és a -+_[] jel használata engedélyezett.', //? 'jelek'? jelek elválasztása?
+	'FIELD_INVALID_DATE'				=> 'A „%1$s” mező érvénytelen dátumot tartalmaz.',
 
-	'FOE_MESSAGE'				=> 'Message from foe',
-	'FOES_EXPLAIN'				=> 'Foes are users which will be ignored by default. Posts by these users will not be fully visible and personal messages will not be permitted. Please note that you cannot ignore moderators or administrators.',
-	'FOES_UPDATED'				=> 'Your foes list has been updated successfully',
-	'FOLDER_ADDED'				=> 'Folder successfully added',
-	'FOLDER_MESSAGE_STATUS'		=> '%1$d from %2$d messages stored',
-	'FOLDER_NAME_EXIST'			=> 'Folder <strong>%s</strong> already exist',
-	'FOLDER_OPTIONS'			=> 'Folder options',
-	'FOLDER_RENAMED'			=> 'Folder successfully renamed',
-	'FOLDER_REMOVED'			=> 'Folder successfully removed',
-	'FOLDER_STATUS_MSG'			=> 'Folder is %1$d%% full (%2$d from %3$d messages stored)',
-	'FORWARD_PM'				=> 'Forward PM',
-	'FORCE_PASSWORD_EXPLAIN'	=> 'Before you may continue browsing the board you are required to change your password',
-	'FRIEND_MESSAGE'			=> 'Message from friend',
-	'FRIENDS'					=> 'Friends',
-	'FRIENDS_EXPLAIN'			=> 'Friends enable you quick access to members you communicate with frequently. If the template has relevant support any posts made by a friend may be highlighted.',
+	'FOE_MESSAGE'				=> 'Üzenet ellenségtől',
+	'FOES_EXPLAIN'				=> 'Az ellenségek olyan felhasználók, akik alapból mellőzésre kerülnek. A hozzászólásaik nem teljesen jelennek meg, és nem küldhetnek neked privát üzenetet. Kérjük vedd figyelembe, hogy nem mellőzhetsz egy moderátort vagy egy adminisztrátort.', //? mellőzésre kerülnek :)
+	'FOES_UPDATED'				=> 'Az ellenségeid listája sikeresen frissítésre került.',
+	'FOLDER_ADDED'				=> 'A mappa sikeresen hozzáadásra került.',
+	'FOLDER_MESSAGE_STATUS'		=> '%1$d / %2$d üzenet', //? "%1$d from %2$d messages stored" - gondolom mennyire van tele
+	'FOLDER_NAME_EXIST'			=> 'A <strong>%s</strong> már létezik.',
+	'FOLDER_OPTIONS'			=> 'Mappa beállítások',
+	'FOLDER_RENAMED'			=> 'A mappa sikeresen átnevezésre került.',
+	'FOLDER_REMOVED'			=> 'A mappa sikeresen törlésre került.',
+	'FOLDER_STATUS_MSG'			=> 'A %1$d%% mappa megtelt (%2$d / %3$d üzenet)', //? 'tele van'?
+	'FORWARD_PM'				=> 'PÜ továbbítása',
+	'FORCE_PASSWORD_EXPLAIN'	=> 'Mielőtt továbbléphetnél a fórumon, meg kell változtatnod a jelszavad. ',
+	'FRIEND_MESSAGE'			=> 'Üzenet baráttól',
+	'FRIENDS'					=> 'Barátok',
+	'FRIENDS_EXPLAIN'			=> 'A barátok funkció segítségével könnyen elérheted azokat a felhasználókat, akikkel gyakran lépsz kapcsolatba.Ha a sablon támogatja, a barátok hozzászólásai kiemelve szerepelhetnek.', //? hozzáférhetsz...
 	'FRIENDS_OFFLINE'			=> 'Offline',
 	'FRIENDS_ONLINE'			=> 'Online',
-	'FRIENDS_UPDATED'			=> 'Your friends list has been updated successfully',
-	'FULL_FOLDER_OPTION_CHANGED'=> 'The action to take when a folder is full have been changed successfully',
-	'FWD_ORIGINAL_MESSAGE'		=> '-------- Original Message --------',
-	'FWD_SUBJECT'				=> 'Subject: %s',
-	'FWD_DATE'					=> 'Date: %s',
-	'FWD_FROM'					=> 'From: %s',
-	'FWD_TO'					=> 'To: %s',
+	'FRIENDS_UPDATED'			=> 'A barátaid listája sikeresen frissítésre került.',
+	'FULL_FOLDER_OPTION_CHANGED'=> 'Az egy mappa megtelése esetén végrehajtandó műveletet sikeresen megváltoztatásra került.', //? Nem teljesen ugyanaz, mint ami a magyarázatban van...
+	'FWD_ORIGINAL_MESSAGE'		=> '-------- Eredeti üzenet --------',
+	'FWD_SUBJECT'				=> 'Téma: %s',
+	'FWD_DATE'					=> 'Dátum: %s',
+	'FWD_FROM'					=> 'Feladó: %s',
+	'FWD_TO'					=> 'Címzett: %s',
 
-	'GLOBAL_ANNOUNCEMENT'		=> 'Global announcement',
+	'GLOBAL_ANNOUNCEMENT'		=> 'Globális közlemény', //? Általános?
 
-	'HIDE_ONLINE'				=> 'Hide my online status',
-	'HOLD_NEW_MESSAGES'			=> 'Do not accept new messages (New messages will be held back until enough space is available)',
-	'HOLD_NEW_MESSAGES_SHORT'	=> 'New messages will be held back',
+	'HIDE_ONLINE'				=> 'Jelenlét elrejtése',
+	'HOLD_NEW_MESSAGES'			=> 'Üzenetek fogadásának visszautasítása (az új üzenetek vissza lesznek tartva, amíg elegnedő hely nem lesz)',
+	'HOLD_NEW_MESSAGES_SHORT'	=> 'Új üzenetek visszatartása',
 
-	'IF_FOLDER_FULL'			=> 'If folder is full',
-	'IMPORTANT_NEWS'			=> 'Important announcements',
-	'INVALID_CHARS_USERNAME'	=> 'The username contains forbidden characters.',
-	'INVALID_CHARS_NEW_PASSWORD'=> 'The password does not contain the required characters.',
-	'ITEMS_REQUIRED'			=> 'The items marked with * are required profile fields and need to be filled out',
+	'IF_FOLDER_FULL'			=> 'Ha a mappa megtelt',
+	'IMPORTANT_NEWS'			=> 'Fontos közlemények',
+	'INVALID_CHARS_USERNAME'	=> 'A felhasználónév nem engedélyezett karakterket tartalmaz.',
+	'INVALID_CHARS_NEW_PASSWORD'=> 'A jelszó nem tartalmazza a szükséges karaktereket.',
+	'ITEMS_REQUIRED'			=> 'A *-gal megjelölt mezők kitöltése kötelező.',
 
-	'JOIN_SELECTED'				=> 'Join selected',
+	'JOIN_SELECTED'				=> 'Csatlakozás a kijelöltekhez',
 
-	'LANGUAGE'					=> 'Language',
-	'LINK_REMOTE_AVATAR'		=> 'Link off-site',
-	'LINK_REMOTE_AVATAR_EXPLAIN'=> 'Enter the URL of the location containing the avatar image you wish to link to.',
-	'LINK_REMOTE_SIZE'			=> 'Avatar dimensions',
-	'LINK_REMOTE_SIZE_EXPLAIN'	=> 'Specify the width and height of the avatar, leave blank to attempt automatic verification.',
-	'LOGIN_EXPLAIN_UCP'			=> 'Please login in order to access the User Control Panel',
-	'LOGIN_REDIRECT'			=> 'You have been successfully logged in.',
-	'LOGOUT_REDIRECT'			=> 'You have been successfully logged out.',
+	'LANGUAGE'					=> 'Nyelv',
+	'LINK_REMOTE_AVATAR'		=> 'Linkelés az oldalon kívülről',
+	'LINK_REMOTE_AVATAR_EXPLAIN'=> 'Add meg a linkelendő avatar kép URL-jét (webcímét).', //? "Enter the URL of the location containing the avatar image you wish to link to."
+	'LINK_REMOTE_SIZE'			=> 'Avatar mérete',
+	'LINK_REMOTE_SIZE_EXPLAIN'	=> 'Add meg az avatar szélességét és magasságát, vagy hagyd üresen a mezőket, hogy ezeket a fórum automatikusan próbálja meg megállapítani.',
+	'LOGIN_EXPLAIN_UCP'			=> 'A felhasználói vezérlőpult megtekintéséhez be kell jelentkezned.',
+	'LOGIN_REDIRECT'			=> 'Sikeresen beléptél.',
+	'LOGOUT_REDIRECT'			=> 'Sikeresen kiléptél.',
 
-	'MARK_IMPORTANT'				=> 'Mark as important',
-	'MARKED_MESSAGE'				=> 'Marked message',
-	'MAX_FOLDER_REACHED'			=> 'Maximum number of allowed user defined folders reached',
-	'MESSAGE_BY_AUTHOR'				=> 'by',
-	'MESSAGE_COLOURS'				=> 'Message colours',
-	'MESSAGE_DELETED'				=> 'Message successfully deleted',
-	'MESSAGE_HISTORY'				=> 'Message history',
-	'MESSAGE_REMOVED_FROM_OUTBOX'	=> 'This message has been removed by it’s author before it was delivered',
-	'MESSAGE_SENT_ON'				=> 'on',
-	'MESSAGE_STORED'				=> 'This message has been sent successfully',
-	'MESSAGE_TO'					=> 'To',
-	'MESSAGES_DELETED'				=> 'Messages successfully deleted',
+	'MARK_IMPORTANT'				=> 'Megjelölés fontosként',
+	'MARKED_MESSAGE'				=> 'Fontosként megjelölt üzenet', //?
+	'MAX_FOLDER_REACHED'			=> 'Elérted a maximálisan létrehozható felhasználói mappák limitjét.',
+	'MESSAGE_BY_AUTHOR'				=> 'Feladó:', //? ha jól néztem, sehol nem használják
+	'MESSAGE_COLOURS'				=> 'Üzenet jelölések', //? "Message colours"
+	'MESSAGE_DELETED'				=> 'Az üzenet sikeresen törlésre került',
+	'MESSAGE_HISTORY'				=> 'Előzmények',
+	'MESSAGE_REMOVED_FROM_OUTBOX'	=> 'Ezt az üzenetet a feladója törölte, mielőtt megérkezett volna.',
+	'MESSAGE_SENT_ON'				=> 'Dátum:', //?
+	'MESSAGE_STORED'				=> 'Az üzenet sikeresen elküldésre került.',
+	'MESSAGE_TO'					=> 'Címzett',
+	'MESSAGES_DELETED'				=> 'Az üzenet sikeresen törlésre került.',
 	'MOVE_DELETED_MESSAGES_TO'		=> 'Move messages from removed folder to',
-	'MOVE_DOWN'						=> 'Move down',
-	'MOVE_MARKED_TO_FOLDER'			=> 'Move marked to %s',
-	'MOVE_PM_ERROR'					=> 'An error occurred while moving the messages to the new folder, only %1d from %2d messages were moved.',
-	'MOVE_TO_FOLDER'				=> 'Move to folder',
-	'MOVE_UP'						=> 'Move up',
+	'MOVE_DOWN'						=> 'Lejjebb', //? "Move down"
+	'MOVE_MARKED_TO_FOLDER'			=> 'Kijelöltek áthelyezése: %s', //?
+	'MOVE_PM_ERROR'					=> 'Hiba lépett fel az üzenetek áthelyezése közben, csak a %1d és a %2d közötti üzeneteket sikerült áthelyezni.',
+	'MOVE_TO_FOLDER'				=> 'Áthelyezés', //? "Move to folder"
+	'MOVE_UP'						=> 'Feljebb',
 
 	'NEW_EMAIL_ERROR'				=> 'The email addresses you entered do not match.',
 	'NEW_FOLDER_NAME'				=> 'New folder name',
