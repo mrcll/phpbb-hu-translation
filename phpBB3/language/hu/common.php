@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.22 2007-03-03 21:02:44 fberci Exp $
+* @version $Id: common.php,v 1.23 2007-03-05 20:56:34 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -143,9 +143,9 @@ $lang = array_merge($lang, array(
 	'EMAIL'								=> 'E-mail',
 	'EMAIL_ADDRESS'						=> 'E-mail cím',
 	'EMAIL_SMTP_ERROR_RESPONSE'			=> 'Problémába ütköztünk egy levél elküldése során a <strong>%1$s.</strong> sorban. Válasz: %2$s',
-	'EMPTY_SUBJECT'						=> 'Új téma indításához meg kell adnod a címét.',
+	'EMPTY_SUBJECT'						=> 'Meg kell adnod a témát.', //? figyelem! pü-nél és új témánál is!
 	'ENABLED'							=> 'Bekapcsolva',
-	'ENCLOSURE'							=> 'Enclosure(!)', //???
+	'ENCLOSURE'							=> 'Körülhatárolójel', //? Pl. pü-k exportálásnál csv-be, mivel 
 	'ERR_CHANGING_DIRECTORY'			=> 'Nem sikerült megváltoztatni a könyvtárat.',
 	'ERR_CONNECTING_SERVER'				=> 'Nem sikerült csatlakozni a szerverhez.',
 	'ERR_UNABLE_TO_LOGIN'				=> 'Hiba a belépéskor. Rossz felhasználónév vagy jelszó.',
