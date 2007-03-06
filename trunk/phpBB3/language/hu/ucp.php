@@ -4,7 +4,7 @@
 * ucp [Hungarian]
 *
 * @package language
-* @version $Id: ucp.php,v 1.9 2007-03-05 20:56:34 fberci Exp $
+* @version $Id: ucp.php,v 1.10 2007-03-06 20:43:50 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -207,7 +207,7 @@ $lang = array_merge($lang, array(
 	'HOLD_NEW_MESSAGES'			=> 'Üzenetek fogadásának visszautasítása (az új üzenetek vissza lesznek tartva, amíg elegnedő hely nem lesz)',
 	'HOLD_NEW_MESSAGES_SHORT'	=> 'Új üzenetek visszatartása',
 
-	'IF_FOLDER_FULL'			=> 'Ha a mappa megtelt',
+	'IF_FOLDER_FULL'			=> 'Mappa megtelése esetén',
 	'IMPORTANT_NEWS'			=> 'Fontos közlemények',
 	'INVALID_CHARS_USERNAME'	=> 'A felhasználónév nem engedélyezett karakterket tartalmaz.',
 	'INVALID_CHARS_NEW_PASSWORD'=> 'A jelszó nem tartalmazza a szükséges karaktereket.',
@@ -236,37 +236,37 @@ $lang = array_merge($lang, array(
 	'MESSAGE_STORED'				=> 'Az üzenet sikeresen elküldésre került.',
 	'MESSAGE_TO'					=> 'Címzett',
 	'MESSAGES_DELETED'				=> 'Az üzenet sikeresen törlésre került.',
-	'MOVE_DELETED_MESSAGES_TO'		=> 'Move messages from removed folder to',
+	'MOVE_DELETED_MESSAGES_TO'		=> 'Töröltmappabeli üzenetek áthelyezése:',
 	'MOVE_DOWN'						=> 'Lejjebb', //? "Move down"
 	'MOVE_MARKED_TO_FOLDER'			=> 'Kijelöltek áthelyezése: %s', //?
 	'MOVE_PM_ERROR'					=> 'Hiba lépett fel az üzenetek áthelyezése közben, csak a %1d és a %2d közötti üzeneteket sikerült áthelyezni.',
 	'MOVE_TO_FOLDER'				=> 'Áthelyezés', //? "Move to folder"
 	'MOVE_UP'						=> 'Feljebb',
 
-	'NEW_EMAIL_ERROR'				=> 'The email addresses you entered do not match.',
-	'NEW_FOLDER_NAME'				=> 'New folder name',
-	'NEW_PASSWORD'					=> 'New password',
-	'NEW_PASSWORD_ERROR'			=> 'The passwords you entered do not match.',
-	'NOTIFY_METHOD'					=> 'Notification method',
-	'NOTIFY_METHOD_BOTH'			=> 'Both',
-	'NOTIFY_METHOD_EMAIL'			=> 'Email only',
-	'NOTIFY_METHOD_EXPLAIN'			=> 'Method for sending messages sent via this board.',
-	'NOTIFY_METHOD_IM'				=> 'Jabber only',
-	'NOTIFY_ON_PM'					=> 'Notify me on new private messages',
-	'NOT_ADDED_FRIENDS_ANONYMOUS'	=> 'You cannot add the anonymous user to your friends list.',
-	'NOT_ADDED_FRIENDS_FOES'		=> 'You cannot add users to your friends list who are on your foes list',
-	'NOT_ADDED_FRIENDS_SELF'		=> 'You cannot add yourself to the friends list',
-	'NOT_ADDED_FOES_MOD_ADMIN'		=> 'You cannot add administrators and moderators to your foes list.',
-	'NOT_ADDED_FOES_ANONYMOUS'		=> 'You cannot add the anonymous user to your foes list.',
-	'NOT_ADDED_FOES_FRIENDS'		=> 'You cannot add users to your foes list who are on your friends list.',
-	'NOT_ADDED_FOES_SELF'			=> 'You cannot add yourself to the foes list.',
-	'NOT_AGREE'						=> 'I do not agree to these terms',
-	'NOT_ENOUGH_SPACE_FOLDER'		=> 'The destination folder “%s” seems to be full. The requested action has not been taken.',
-	'NOT_MOVED_MESSAGE'				=> 'You have 1 private message currently on hold because of full folder.',
-	'NOT_MOVED_MESSAGES'			=> 'You have %d private messages currently on hold because of full folder.',
-	'NO_ACTION_MODE'				=> 'No message action specified.',
-	'NO_AUTHOR'						=> 'No author defined for this message',
-	'NO_AVATAR_CATEGORY'			=> 'None',
+	'NEW_EMAIL_ERROR'				=> 'A megadott e-mail címek nem egyeznek meg.',
+	'NEW_FOLDER_NAME'				=> 'Mappa új neve',
+	'NEW_PASSWORD'					=> 'Új jelszó',
+	'NEW_PASSWORD_ERROR'			=> 'A megadott jelszavak nem egyeznek meg.',
+	'NOTIFY_METHOD'					=> 'Értesítés módja',
+	'NOTIFY_METHOD_BOTH'			=> 'Mindkettő',
+	'NOTIFY_METHOD_EMAIL'			=> 'Csak e-mail',
+	'NOTIFY_METHOD_EXPLAIN'			=> 'A fórumon keresztül küldött üzenetek milyen módon kerüljenek elküldésre.',
+	'NOTIFY_METHOD_IM'				=> 'Csak jabber',
+	'NOTIFY_ON_PM'					=> 'Értesítés új privát üzenetről',
+	'NOT_ADDED_FRIENDS_ANONYMOUS'	=> 'A vendég felhasználót nem adhatod veheted fel a barátaid listájára.',
+	'NOT_ADDED_FRIENDS_FOES'		=> 'Nem vehetsz fel a barátaid listájára olyan felhaszálókat, akik ellenségként jelöltél meg.',
+	'NOT_ADDED_FRIENDS_SELF'		=> 'Nem veheted fel saját magad a barátaid listájára.',
+	'NOT_ADDED_FOES_MOD_ADMIN'		=> 'Nem vehetesz fel adminisztárotokat és moderátorokat az ellenségeid listájára.',
+	'NOT_ADDED_FOES_ANONYMOUS'		=> 'Nem veheted fel a vendég felhasználót az ellenségeid listájára.',
+	'NOT_ADDED_FOES_FRIENDS'		=> 'Nem vehetsz fel az ellenségeid listájára olyan felhaszálókat, akiket már felvettél a barátaid listájára.',
+	'NOT_ADDED_FOES_SELF'			=> 'Nem veheted fel saját magad az ellenségeid listájára.',
+	'NOT_AGREE'						=> 'Nem fogadom el a feltételeket',
+	'NOT_ENOUGH_SPACE_FOLDER'		=> 'A célmappa („%s”) teli van. A végrehajtani kívánt művelet nem került elvégzésre.',
+	'NOT_MOVED_MESSAGE'				=> 'Teli mappa miatt jelenleg 1 privát üzenet van visszatartva.', //?
+	'NOT_MOVED_MESSAGES'			=> 'Teli mappa miatt jelenleg %d privát üzenet van visszatartva.',
+	'NO_ACTION_MODE'				=> 'Nem adtál meg semmilyen teendőt.',
+	'NO_AUTHOR'						=> 'Az üzenethez nem tartozik feladó.', //? "No author defined for this message"
+	'NO_AVATAR_CATEGORY'			=> 'Nincs',
 
 	'NO_AUTH_DELETE_MESSAGE'		=> 'You are not authorised to delete private messages.',
 	'NO_AUTH_EDIT_MESSAGE'			=> 'You are not authorised to edit private messages.',
