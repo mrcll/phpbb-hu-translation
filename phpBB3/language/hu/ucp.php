@@ -4,7 +4,7 @@
 * ucp [Hungarian]
 *
 * @package language
-* @version $Id: ucp.php,v 1.10 2007-03-06 20:43:50 fberci Exp $
+* @version $Id: ucp.php,v 1.11 2007-03-07 21:05:50 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -268,35 +268,35 @@ $lang = array_merge($lang, array(
 	'NO_AUTHOR'						=> 'Az üzenethez nem tartozik feladó.', //? "No author defined for this message"
 	'NO_AVATAR_CATEGORY'			=> 'Nincs',
 
-	'NO_AUTH_DELETE_MESSAGE'		=> 'You are not authorised to delete private messages.',
-	'NO_AUTH_EDIT_MESSAGE'			=> 'You are not authorised to edit private messages.',
-	'NO_AUTH_FORWARD_MESSAGE'		=> 'You are not authorised to forward private messages.',
-	'NO_AUTH_GROUP_MESSAGE'			=> 'You are not authorised to send private messages to groups.',
-	'NO_AUTH_READ_MESSAGE'			=> 'You are not authorised to read private messages.',
-	'NO_AUTH_READ_REMOVED_MESSAGE'	=> 'You are not able to read this message because it was removed by the author.',
-	'NO_AUTH_SEND_MESSAGE'			=> 'You are not authorised sending private messages.',
-	'NO_AUTH_SIGNATURE'				=> 'You are not authorised to define a signature',
+	'NO_AUTH_DELETE_MESSAGE'		=> 'Nincs jogosultságod privát üzenetek törléséhez.',
+	'NO_AUTH_EDIT_MESSAGE'			=> 'Nincs jogosultságod privát üzenetek szerkesztéséhez.',
+	'NO_AUTH_FORWARD_MESSAGE'		=> 'Nincs jogosultságod privát üzenetek továbbításához.',
+	'NO_AUTH_GROUP_MESSAGE'			=> 'Nincs jogosultságod privát üzenet küldéséhez csoportok részére.',
+	'NO_AUTH_READ_MESSAGE'			=> 'Nincs jogosultságod privát üzenetek megtekintéséhez.',
+	'NO_AUTH_READ_REMOVED_MESSAGE'	=> 'Ezt az üzenetet nem tudod elolvasni, mivel a küldője törölte.',
+	'NO_AUTH_SEND_MESSAGE'			=> 'Nincs jogosultságod privát üzenetek küldéséhez.',
+	'NO_AUTH_SIGNATURE'				=> 'Nincs jogosultságod aláírás megadásához.',
 
-	'NO_BCC_RECIPIENT'			=> 'None',
-	'NO_BOOKMARKS'				=> 'You have no bookmarks',
-	'NO_BOOKMARKS_SELECTED'		=> 'You have selected no bookmarks',
-	'NO_EMAIL_USER'				=> 'The email/username information submitted could not be found',
-	'NO_FOES'					=> 'No foes currently defined',
-	'NO_FRIENDS'				=> 'No friends currently defined',
-	'NO_FRIENDS_OFFLINE'		=> 'No friends offline',
-	'NO_FRIENDS_ONLINE'			=> 'No friends online',
-	'NO_GROUP_SELECTED'			=> 'No group specified',
-	'NO_IMPORTANT_NEWS'			=> 'No important announcements present',
-	'NO_MESSAGE'				=> 'Private message could not be found',
-	'NO_NEW_FOLDER_NAME'		=> 'You have to specify a new folder name',
-	'NO_NEWER_PM'				=> 'No newer messages',
-	'NO_OLDER_PM'				=> 'No older messages',
-	'NO_RECIPIENT'				=> 'No recipient defined',
-	'NO_RULES_DEFINED'			=> 'No rules defined',
-	'NO_SAVED_DRAFTS'			=> 'No drafts saved',
-	'NO_TO_RECIPIENT'			=> 'None',
-	'NO_WATCHED_FORUMS'			=> 'You are not watching any forums.',
-	'NO_WATCHED_TOPICS'			=> 'You are not watching any topics.',
+	'NO_BCC_RECIPIENT'			=> 'Nincs',
+	'NO_BOOKMARKS'				=> 'Nincsenek kedvenceid.',
+	'NO_BOOKMARKS_SELECTED'		=> 'Nem választottál ki egy kedvencet sem.',
+	'NO_EMAIL_USER'				=> 'Nem található a megadott e-mail címhez és felhasználónévhez tartozó azonosító.',
+	'NO_FOES'					=> 'Jelenleg üres az ellenségeid listája.', //? "No foes currently defined" - ide valami az eredetire jobban hasonlító szöveg kéne
+	'NO_FRIENDS'				=> 'Jelenleg üres a barátaid listája.',
+	'NO_FRIENDS_OFFLINE'		=> 'Nincs offline barátod.',
+	'NO_FRIENDS_ONLINE'			=> 'Nincs online barátod.',
+	'NO_GROUP_SELECTED'			=> 'Nem adtál meg csoportot.',
+	'NO_IMPORTANT_NEWS'			=> 'Jelenleg nincs fontos közlemény.',
+	'NO_MESSAGE'				=> 'A privát üzenet nem található.',
+	'NO_NEW_FOLDER_NAME'		=> 'Meg kell adnod a mappa új nevét.',
+	'NO_NEWER_PM'				=> 'Nincsenek újabb üzenetek.',
+	'NO_OLDER_PM'				=> 'Nincsenek régebbi üzenetek.',
+	'NO_RECIPIENT'				=> 'Nem adtál meg címzettet.',
+	'NO_RULES_DEFINED'			=> 'Nincsenek szűrők.',
+	'NO_SAVED_DRAFTS'			=> 'Nincsenek piszkozatok.',
+	'NO_TO_RECIPIENT'			=> 'Nincs',
+	'NO_WATCHED_FORUMS'			=> 'Nem iratkoztál fel egy fórumra se.', //? a se-s megfogalmazás helyett valami más ékne
+	'NO_WATCHED_TOPICS'			=> 'Nem iratkoztál fel egy témára se.',
 
 	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'Password must be between %1$d and %2$d chars long and must contain alphanumerics',
 	'PASS_TYPE_ANY_EXPLAIN'		=> 'Must be between %1$d and %2$d characters.',
