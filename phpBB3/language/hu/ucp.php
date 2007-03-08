@@ -4,7 +4,7 @@
 * ucp [Hungarian]
 *
 * @package language
-* @version $Id: ucp.php,v 1.11 2007-03-07 21:05:50 fberci Exp $
+* @version $Id: ucp.php,v 1.12 2007-03-08 16:47:22 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -204,7 +204,7 @@ $lang = array_merge($lang, array(
 	'GLOBAL_ANNOUNCEMENT'		=> 'Globális közlemény', //? Általános?
 
 	'HIDE_ONLINE'				=> 'Jelenlét elrejtése',
-	'HOLD_NEW_MESSAGES'			=> 'Üzenetek fogadásának visszautasítása (az új üzenetek vissza lesznek tartva, amíg elegnedő hely nem lesz)',
+	'HOLD_NEW_MESSAGES'			=> 'Üzenetek fogadásának visszautasítása (az új üzenetek vissza lesznek tartva, amíg elegendő hely nem lesz)',
 	'HOLD_NEW_MESSAGES_SHORT'	=> 'Új üzenetek visszatartása',
 
 	'IF_FOLDER_FULL'			=> 'Mappa megtelése esetén',
@@ -298,36 +298,36 @@ $lang = array_merge($lang, array(
 	'NO_WATCHED_FORUMS'			=> 'Nem iratkoztál fel egy fórumra se.', //? a se-s megfogalmazás helyett valami más ékne
 	'NO_WATCHED_TOPICS'			=> 'Nem iratkoztál fel egy témára se.',
 
-	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'Password must be between %1$d and %2$d chars long and must contain alphanumerics',
-	'PASS_TYPE_ANY_EXPLAIN'		=> 'Must be between %1$d and %2$d characters.',
-	'PASS_TYPE_CASE_EXPLAIN'	=> 'Password must be between %1$d and %2$d chars long and must be mixed case',
-	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'Password must be between %1$d and %2$d chars long and must contain symbols',
-	'PASSWORD'					=> 'Password',
-	'PASSWORD_ACTIVATED'		=> 'Your new password has been activated',
-	'PASSWORD_UPDATED'			=> 'Your password has been sent successfully to your original email address.',
-	'PERMISSIONS_RESTORED'		=> 'Successfully restored original permissions.',
-	'PERMISSIONS_TRANSFERRED'	=> 'Successfully transferred permissions from <strong>%s</strong>, you are now able to browse the forum with the users permissions.<br />Please note that admin permissions were not transferred. You are able to revert to your permission set at any time.',
-	'PM_DISABLED'				=> 'Private messaging has been disabled on this board',
-	'PM_FROM'					=> 'From',
-	'PM_FROM_REMOVED_AUTHOR'	=> 'This message was sent by a user no longer registered.',
-	'PM_ICON'					=> 'PM icon',
-	'PM_INBOX'					=> 'Inbox',
-	'PM_OUTBOX'					=> 'Outbox',
-	'PM_SENTBOX'				=> 'Sent messages',
-	'PM_SUBJECT'				=> 'Message subject',
-	'PM_TO'						=> 'Send to',
-	'POPUP_ON_PM'				=> 'Pop up window on new private message',
-	'POST_EDIT_PM'				=> 'Edit message',
-	'POST_FORWARD_PM'			=> 'Forward message',
-	'POST_NEW_PM'				=> 'Post message',
-	'POST_PM_LOCKED'			=> 'Private messaging is locked',
-	'POST_PM_POST'				=> 'Quote post',
-	'POST_QUOTE_PM'				=> 'Quote message',
-	'POST_REPLY_PM'				=> 'Reply to message',
-	'PRINT_PM'					=> 'Print view',
-	'PREFERENCES_UPDATED'		=> 'Your preferences have been updated.',
-	'PROFILE_INFO_NOTICE'		=> 'Please note that this information will be viewable to other members. Be careful when including any personal details. Any fields marked with a * must be completed.',
-	'PROFILE_UPDATED'			=> 'Your profile has been updated.',
+	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'A jelszó hosszának %1$d és %2$d karakter között kell lennie, szerepelnie kell benne kis- és nagybetűknek egyaránt, valamint tartalmaznia kell számokat.',
+	'PASS_TYPE_ANY_EXPLAIN'		=> 'A hosszának %1$d és %2$d karakter között kell lennie.', //?
+	'PASS_TYPE_CASE_EXPLAIN'	=> 'A jelszó hosszának %1$d és %2$d karakter között kell lennie, valamint szerepelnie kell benne kis- és nagybetűknek egyaránt.',
+	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'A jelszó hosszának %1$d és %2$d karakter között kell lennie, valamint tartalmaznia kell speciális karaktereket.', //? symbols = speciális karakterek? gondolom...
+	'PASSWORD'					=> 'Jelszó',
+	'PASSWORD_ACTIVATED'		=> 'Az új jelszavad aktiválásra került.',
+	'PASSWORD_UPDATED'			=> 'A jelszavad elküldésre került az e-mail címedre.',
+	'PERMISSIONS_RESTORED'		=> 'Az eredeti jogosultságok sikeresen visszaállításra kerültek.', //? eredeti?
+	'PERMISSIONS_TRANSFERRED'	=> '<strong>%s</strong> jogosultságai sikeresen átadásra kerültek, most a felhasználó jogosultságaival böngészheted a fórumot.<br />Kérjük vedd figyelembe, hogy az adminisztrátori jogosultságok nem kerültek átadásra. Az eredeti jogosultságaidat bármikor visszaállíthatod.', //? "Successfully transferred permissions from <strong>%s</strong>, you are now able to browse the forum with the users permissions." - hát ez nagyon nem sikerült
+	'PM_DISABLED'				=> 'A privát üzenet részleg ki lett kapcsolva ezen a fórumon.',
+	'PM_FROM'					=> 'Feladó',
+	'PM_FROM_REMOVED_AUTHOR'	=> 'Az üzenetet egy már nem regisztrált felhasználó küldte.',
+	'PM_ICON'					=> 'PÜ ikon',
+	'PM_INBOX'					=> 'Bejövő', //? 'Bejövő üzenetek'?
+	'PM_OUTBOX'					=> 'Kimenő',
+	'PM_SENTBOX'				=> 'Elküldött',
+	'PM_SUBJECT'				=> 'Téma',
+	'PM_TO'						=> 'Címzett:', //? "send to" - pl. kettőspont?
+	'POPUP_ON_PM'				=> 'Felugró ablak új privát üzenet érkezésekor',
+	'POST_EDIT_PM'				=> 'Üzenet szerkesztése',
+	'POST_FORWARD_PM'			=> 'Üzenet továbbítása',
+	'POST_NEW_PM'				=> 'Üzenet küldése',
+	'POST_PM_LOCKED'			=> 'A privát üzenetküldés le van zárva.', //??!
+	'POST_PM_POST'				=> 'Hozzászólás idézése',
+	'POST_QUOTE_PM'				=> 'Üzenet idézése',
+	'POST_REPLY_PM'				=> 'Válasz az üzenetre',
+	'PRINT_PM'					=> 'Nyomtatóbarát verzió',
+	'PREFERENCES_UPDATED'		=> 'A beállításaid sikeresen frissítésre kerültek.', //? preferences
+	'PROFILE_INFO_NOTICE'		=> 'Kérjük vedd figyelembe, hogy ezek az információk láthatóak lesznek a többi felhasználó számára. Légy óvatos bármilyen személyes adat megadásánál. A *-gal megjelölt mezők kitöltése kötelező.',
+	'PROFILE_UPDATED'			=> 'A profilod sikeresen frissítésre került.',
 
 	'RECIPIENT'							=> 'Recipient',
 	'RECIPIENTS'						=> 'Recipients',
