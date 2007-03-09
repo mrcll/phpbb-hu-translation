@@ -4,7 +4,7 @@
 * ucp [Hungarian]
 *
 * @package language
-* @version $Id: ucp.php,v 1.12 2007-03-08 16:47:22 fberci Exp $
+* @version $Id: ucp.php,v 1.13 2007-03-09 21:40:49 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -93,7 +93,7 @@ $lang = array_merge($lang, array(
 	'BOARD_STYLE'				=> 'Megjelenés',
 	'BOARD_TIMEZONE'			=> 'Időzóna',
 	'BOOKMARKS'					=> 'Kedvencek',
-	'BOOKMARKS_EXPLAIN'			=> 'Felvehetsz témákat a kedvenceid közé, hogy aztán később felkeresd őket. Ha törölni szeretnél egy témát a kedvencekből, jelöld be a jelölőnyégyzetét, majd kattints a <em>kijelölt kedvencek törlése</em> gombra.', //? Első mondat második fele kicsit mást jelent: "You can bookmark topics for future reference."
+	'BOOKMARKS_EXPLAIN'			=> 'Felvehetsz témákat a kedvenceid közé, hogy aztán később felkeresd őket. Ha törölni szeretnél egy témát a kedvencekből, jelöld be a jelölőnyégyzetét, majd kattints a <em>Kijelölt kedvencek törlése</em> gombra.', //? Első mondat második fele kicsit mást jelent: "You can bookmark topics for future reference."
 	'BOOKMARKS_DISABLED'		=> 'A kedvencek funkció nem elérhető ezen a fórumon.',
 	'BOOKMARKS_REMOVED'			=> 'A megjelölt témák sikeresen törlésre kerültek a kedvencekből.',
 
@@ -113,7 +113,7 @@ $lang = array_merge($lang, array(
 	'CONFIRM_PASSWORD_EXPLAIN'	=> 'Csak akkor kell megadnod, ha meg szeretnéd változtatni a jelszavad.',
 	'COPPA_BIRTHDAY'			=> 'A regisztráció folytatásához kérjük add meg, mikor születtél.',
 	'COPPA_COMPLIANCE'			=> 'COPPA egyeztetés', //?? complience - mondjuk úgyse hasznája senki :)
-	'COPPA_EXPLAIN'				=> 'Kérjük vedd figyelembe, hogy az elküld gombra kattintva elkészül az azonosítód, azonban addig nem lesz aktiválva, míg egy szülőd vagy gondviselőd jóvá nem hagyja a regisztrációd. E-mailben elküldjük a megfelelő űrlapot, illetve, hogy hova küldd vissza.',
+	'COPPA_EXPLAIN'				=> 'Kérjük vedd figyelembe, hogy az elküld gombra kattintva elkészül az azonosítód, azonban addig nem lesz aktiválva, míg egy szülőd vagy gondviselőd jóvá nem hagyja a regisztrációd. E-mailben elküldjük a megfelelő űrlapot, illetve a címet, hogy hova küldd vissza.',
 	'CREATE_FOLDER'				=> 'Mappa létrehozása…',
 	'CURRENT_IMAGE'				=> 'Jelenlegi kép',
 	'CURRENT_PASSWORD'			=> 'Jelenlegi jelszó',
@@ -143,7 +143,7 @@ $lang = array_merge($lang, array(
 	'DELETE_MESSAGES_IN_FOLDER'	=> 'A törölt mappában lévő összes üzenet törlése', //? kisbetű (van egy és előtte, de távol)?
 	'DELETE_RULE'				=> 'Szűrő törlése',
 	'DELETE_RULE_CONFIRM'		=> 'Biztosan törölni akarod ezt a szűrőt?',
-	'DEMOTE_SELECTED'			=> 'Visszalépés a kijelöltekben', //?? = lemond a csoportvezetőségről
+	'DEMOTE_SELECTED'			=> 'Lemondás a csoportvezetőségről', //? visszalépés...
 	'DISABLE_CENSORS'			=> 'Szavak cenzúrázásának bekapcsolása',
 	'DISPLAY_GALLERY'			=> 'Galéria megjelenítése',
 	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'A megadott e-mail domainhez nem tartozik érvényes MX bejegyzés.', //? érvényes? "valid" - valós, létező?
@@ -213,7 +213,7 @@ $lang = array_merge($lang, array(
 	'INVALID_CHARS_NEW_PASSWORD'=> 'A jelszó nem tartalmazza a szükséges karaktereket.',
 	'ITEMS_REQUIRED'			=> 'A *-gal megjelölt mezők kitöltése kötelező.',
 
-	'JOIN_SELECTED'				=> 'Csatlakozás a kijelöltekhez',
+	'JOIN_SELECTED'				=> 'Csatlakozás',
 
 	'LANGUAGE'					=> 'Nyelv',
 	'LINK_REMOTE_AVATAR'		=> 'Linkelés az oldalon kívülről',
@@ -307,7 +307,7 @@ $lang = array_merge($lang, array(
 	'PASSWORD_UPDATED'			=> 'A jelszavad elküldésre került az e-mail címedre.',
 	'PERMISSIONS_RESTORED'		=> 'Az eredeti jogosultságok sikeresen visszaállításra kerültek.', //? eredeti?
 	'PERMISSIONS_TRANSFERRED'	=> '<strong>%s</strong> jogosultságai sikeresen átadásra kerültek, most a felhasználó jogosultságaival böngészheted a fórumot.<br />Kérjük vedd figyelembe, hogy az adminisztrátori jogosultságok nem kerültek átadásra. Az eredeti jogosultságaidat bármikor visszaállíthatod.', //? "Successfully transferred permissions from <strong>%s</strong>, you are now able to browse the forum with the users permissions." - hát ez nagyon nem sikerült
-	'PM_DISABLED'				=> 'A privát üzenet részleg ki lett kapcsolva ezen a fórumon.',
+	'PM_DISABLED'				=> 'A privát üzenet részleg ki lett kapcsolva ezen a fórumon.', //?
 	'PM_FROM'					=> 'Feladó',
 	'PM_FROM_REMOVED_AUTHOR'	=> 'Az üzenetet egy már nem regisztrált felhasználó küldte.',
 	'PM_ICON'					=> 'PÜ ikon',
@@ -326,98 +326,98 @@ $lang = array_merge($lang, array(
 	'POST_REPLY_PM'				=> 'Válasz az üzenetre',
 	'PRINT_PM'					=> 'Nyomtatóbarát verzió',
 	'PREFERENCES_UPDATED'		=> 'A beállításaid sikeresen frissítésre kerültek.', //? preferences
-	'PROFILE_INFO_NOTICE'		=> 'Kérjük vedd figyelembe, hogy ezek az információk láthatóak lesznek a többi felhasználó számára. Légy óvatos bármilyen személyes adat megadásánál. A *-gal megjelölt mezők kitöltése kötelező.',
+	'PROFILE_INFO_NOTICE'		=> 'Kérjük vedd figyelembe, hogy ezek az információk láthatóak lesznek a többi felhasználó számára. Légy óvatos bármilyen személyes adat megadásánál. A *-gal megjelölt mezők kitöltése kötelező.', //? "Be careful when including any personal details."
 	'PROFILE_UPDATED'			=> 'A profilod sikeresen frissítésre került.',
 
-	'RECIPIENT'							=> 'Recipient',
-	'RECIPIENTS'						=> 'Recipients',
-	'REGISTRATION'						=> 'Registration',
-	'RELATIVE_DAYS'						=> 'Relative days',
-	'RELEASE_MESSAGES'					=> '%sRelease all on-hold messages%s… they will be re-sorted into the appropriate folder if enough space is made available.',
-	'REMOVE_ADDRESS'					=> 'Remove address',
-	'REMOVE_SELECTED_BOOKMARKS'			=> 'Remove selected bookmarks',
-	'REMOVE_SELECTED_BOOKMARKS_CONFIRM'	=> 'Are you sure you want to delete all selected bookmarks?',
-	'REMOVE_BOOKMARK_MARKED'			=> 'Remove marked bookmarks',
-	'REMOVE_FOLDER'						=> 'Remove folder',
-	'REMOVE_FOLDER_CONFIRM'				=> 'Are you sure you want to remove this folder?',
-	'RENAME'							=> 'Rename',
-	'RENAME_FOLDER'						=> 'Rename folder',
-	'REPLIED_MESSAGE'					=> 'Replied to message',
-	'RESIGN_SELECTED'					=> 'Resign selected',
-	'RETURN_FOLDER'						=> '%1$sReturn to previous folder%2$s',
-	'RETURN_UCP'						=> '%sReturn to the User Control Panel%s',
-	'RULE_ADDED'						=> 'Rule successfully added',
-	'RULE_ALREADY_DEFINED'				=> 'This rule was defined previously',
-	'RULE_DELETED'						=> 'Rule successfully removed',
-	'RULE_NOT_DEFINED'					=> 'Rule not correctly specified',
-	'RULE_REMOVED_MESSAGE'				=> 'One private message had been removed due to private message filters.',
-	'RULE_REMOVED_MESSAGES'				=> '%d private messages were removed due to private message filters.',
+	'RECIPIENT'							=> 'Címzett',
+	'RECIPIENTS'						=> 'Címzettek',
+	'REGISTRATION'						=> 'Regisztráció',
+	'RELATIVE_DAYS'						=> 'relatív napok', //?
+	'RELEASE_MESSAGES'					=> '%sVisszatartott üzenetek kiengedése%s: ha elegendő hely szabaddá válik visszakerülnek az eredeti mappájukba.', //? "sRelease all on-hold messages%s… they will be re-sorted into the appropriate folder if enough space is made available."
+	'REMOVE_ADDRESS'					=> 'Cím törlése', //? nem találtam sehol, hogy használva lenne
+	'REMOVE_SELECTED_BOOKMARKS'			=> 'Kiválasztott kedvencek törlése',
+	'REMOVE_SELECTED_BOOKMARKS_CONFIRM'	=> 'Biztosan törölni akarod a kiválasztott témákat a kedvencekből?',
+	'REMOVE_BOOKMARK_MARKED'			=> 'Kijelölt kedvencek törlése',
+	'REMOVE_FOLDER'						=> 'Mappa törlése',
+	'REMOVE_FOLDER_CONFIRM'				=> 'Biztosan törölni akarod ezt a mappát?',
+	'RENAME'							=> 'Átnevezés',
+	'RENAME_FOLDER'						=> 'Mappa átnevezése',
+	'REPLIED_MESSAGE'					=> 'Megválaszolt üzenet', //? meg?
+	'RESIGN_SELECTED'					=> 'Kilépés', //? csoportból
+	'RETURN_FOLDER'						=> '%1$sVissza az előző mappához%2$s',
+	'RETURN_UCP'						=> '%sVissza a felhasználói vezérlőpulthoz%s',
+	'RULE_ADDED'						=> 'A szűrő sikeresen létrehozásra került.',
+	'RULE_ALREADY_DEFINED'				=> 'Már van egy ilyen szűrő.',
+	'RULE_DELETED'						=> 'A szűrő sikeresen törlésre került.',
+	'RULE_NOT_DEFINED'					=> 'A szűrőt nem helyesen adtad meg.', //? "Rule not correctly specified"
+	'RULE_REMOVED_MESSAGE'				=> 'Egy privát üzenet törlésre került a szűrők következtében.', //? "One private message had been removed due to private message filters."
+	'RULE_REMOVED_MESSAGES'				=> '%d privát üzenet törlésre került a szűrők következtében.',
 
-	'SAME_PASSWORD_ERROR'		=> 'The new password you entered is the same as your current password',
-	'SEARCH_YOUR_POSTS'			=> 'Show your posts',
-	'SEND_PASSWORD'				=> 'Send password',
-	'SENT_AT'					=> 'Sent at',
-	'SHOW_EMAIL'				=> 'Users can contact me by email',
-	'SIGNATURE_EXPLAIN'			=> 'This is a block of text that can be added to posts you make. There is a %d character limit',
-	'SIGNATURE_PREVIEW'			=> 'Your signature will appear like this in posts',
-	'SIGNATURE_TOO_LONG'		=> 'Your signature is too long.',
-	'SORT'						=> 'Sort',
-	'SORT_COMMENT'				=> 'File comment',
-	'SORT_DOWNLOADS'			=> 'Downloads',
-	'SORT_EXTENSION'			=> 'Extension',
-	'SORT_FILENAME'				=> 'Filename',
-	'SORT_POST_TIME'			=> 'Post time',
-	'SORT_SIZE'					=> 'Filesize',
+	'SAME_PASSWORD_ERROR'		=> 'A megadott új jelszó megegyezik a jelenlegi jelszavaddal.',
+	'SEARCH_YOUR_POSTS'			=> 'Saját hozzászólások megtekintése',
+	'SEND_PASSWORD'				=> 'Jelszó elküldése',
+	'SENT_AT'					=> 'Elküldve',
+	'SHOW_EMAIL'				=> 'E-mailek fogadása felhasználóktól', //? "Users can contact me by email"
+	'SIGNATURE_EXPLAIN'			=> 'Ez egy szöveg, melyet automatikusan hozzáfűzhetsz a hozzászólásaidhoz. Legfeljebb %d karakter hosszú lehet.',
+	'SIGNATURE_PREVIEW'			=> 'Így fog megjelenni az aláírásod a hozzászólásaidban',
+	'SIGNATURE_TOO_LONG'		=> 'Az aláírásod túl hosszú.',
+	'SORT'						=> 'Rendezés', //?
+	'SORT_COMMENT'				=> 'Magyarázat',
+	'SORT_DOWNLOADS'			=> 'Letöltések száma', //? száma?
+	'SORT_EXTENSION'			=> 'Kiterjesztés',
+	'SORT_FILENAME'				=> 'Állomány neve',
+	'SORT_POST_TIME'			=> 'Feltöltés ideje',
+	'SORT_SIZE'					=> 'Állomány mérete',
 
-	'TIMEZONE'					=> 'Timezone',
-	'TO'						=> 'To',
-	'TOO_MANY_RECIPIENTS'		=> 'Too many recipients',
-	'TOO_MANY_REGISTERS'		=> 'You have exceeded the maximum number of registration attempts for this session. Please try again later.',
+	'TIMEZONE'					=> 'Időzóna',
+	'TO'						=> 'Címzett',
+	'TOO_MANY_RECIPIENTS'		=> 'Túl sok címzettet adtál meg.',
+	'TOO_MANY_REGISTERS'		=> 'Túllépted a legfeljebb engedélyezett regisztrációkísérletek számát. Kérjük próbálkozz később.',
 
-	'UCP'						=> 'User Control Panel',
-	'UCP_ACTIVATE'				=> 'Activate account',
-	'UCP_ADMIN_ACTIVATE'		=> 'Please note that you will need to enter a valid email address before your account is activated. The administrator will review your account and if approved you will receive an email at the address you specified.',
+	'UCP'						=> 'Felhasználói vezérlőpult',
+	'UCP_ACTIVATE'				=> 'Azonosító aktiválása',
+	'UCP_ADMIN_ACTIVATE'		=> 'Kérjük vedd figyelembe, hogy egy valós e-mail címet kell megadnod, hogy az azonosítód aktiválva lehessen. Az adminisztrátor át fogja nézni az azonosítód, és ha jóváhagyja, kapni fogsz egy e-mailt a megadott címre.', //? "Please note that you will need to enter a valid email address before your account is activated. The administrator will review your account and if approved you will receive an email at the address you specified."
 	'UCP_AIM'					=> 'AOL Instant Messenger',
-	'UCP_ATTACHMENTS'			=> 'Attachments',
-	'UCP_COPPA_BEFORE'			=> 'Before %s',
-	'UCP_COPPA_ON_AFTER'		=> 'On or after %s',
-	'UCP_EMAIL_ACTIVATE'		=> 'Please note that you will need to enter a valid email address before your account is activated. You will receive an email at the address you provide that contains an account activation link.',
-	'UCP_ICQ'					=> 'ICQ number',
-	'UCP_JABBER'				=> 'Jabber address',
+	'UCP_ATTACHMENTS'			=> 'Csatolmányok',
+	'UCP_COPPA_BEFORE'			=> '%s előtt',
+	'UCP_COPPA_ON_AFTER'		=> '%s-én, vagy utána',
+	'UCP_EMAIL_ACTIVATE'		=> 'Kérjük vedd figyelembe, hogy egy valós e-mail címet kell megadnod, hogy az azonosítód aktiválva lehessen. A regisztráció után kapni fogsz egy e-mailt a megadott címre, amely tartalmazni fogja az aktivációs linket.',
+	'UCP_ICQ'					=> 'ICQ azonosító',
+	'UCP_JABBER'				=> 'Jabber azonosító',
 
-	'UCP_MAIN'					=> 'Overview',
-	'UCP_MAIN_ATTACHMENTS'		=> 'Manage attachments',
-	'UCP_MAIN_BOOKMARKS'		=> 'Manage bookmarks',
-	'UCP_MAIN_DRAFTS'			=> 'Manage drafts',
-	'UCP_MAIN_FRONT'			=> 'Front page',
-	'UCP_MAIN_SUBSCRIBED'		=> 'Manage subscriptions',
+	'UCP_MAIN'					=> 'Áttekintés',
+	'UCP_MAIN_ATTACHMENTS'		=> 'Csatolmányok kezelése', //? kell a kezelése?? (szerintem nem annyira...)
+	'UCP_MAIN_BOOKMARKS'		=> 'Kedvencek kezelése',
+	'UCP_MAIN_DRAFTS'			=> 'Piszkozatok kezelése',
+	'UCP_MAIN_FRONT'			=> 'Kezdőlap', //? "Front page"
+	'UCP_MAIN_SUBSCRIBED'		=> 'Feliratkozások kezelése',
 
 	'UCP_MSNM'					=> 'MSN Messenger',
-	'UCP_NO_ATTACHMENTS'		=> 'You have posted no files',
+	'UCP_NO_ATTACHMENTS'		=> 'Nem töltöttél fel csatolmányt a fórumra.', //? "You have posted no files"
 
-	'UCP_PREFS'					=> 'Forum preferences',
-	'UCP_PREFS_PERSONAL'		=> 'Edit global settings',
-	'UCP_PREFS_POST'			=> 'Edit posting defaults',
-	'UCP_PREFS_VIEW'			=> 'Edit display options',
+	'UCP_PREFS'					=> 'Fórum beállítások',
+	'UCP_PREFS_PERSONAL'		=> 'Általános beállítások szerkesztése', //? kell a szerkesztése?? - és a beállítások?
+	'UCP_PREFS_POST'			=> 'Hozzászólás beállítások szerkesztése', //?
+	'UCP_PREFS_VIEW'			=> 'Megjelenítési beállítások szerkesztése',
 	
-	'UCP_PM'					=> 'Private messages',
-	'UCP_PM_COMPOSE'			=> 'Compose message',
-	'UCP_PM_DRAFTS'				=> 'Manage PM drafts',
-	'UCP_PM_OPTIONS'			=> 'Edit options',
-	'UCP_PM_POPUP'				=> 'Private messages',
-	'UCP_PM_POPUP_TITLE'		=> 'Private message popup',
-	'UCP_PM_UNREAD'				=> 'Unread messages',
-	'UCP_PM_VIEW'				=> 'View messages',
+	'UCP_PM'					=> 'Privát üzenetek',
+	'UCP_PM_COMPOSE'			=> 'Üzenet írása',
+	'UCP_PM_DRAFTS'				=> 'PÜ piszkozatok kezelése',
+	'UCP_PM_OPTIONS'			=> 'Beállítások szerkesztése',
+	'UCP_PM_POPUP'				=> 'Privát üzenetek',
+	'UCP_PM_POPUP_TITLE'		=> 'Privát üzenet felugró ablak',
+	'UCP_PM_UNREAD'				=> 'Olvasatlan üzenet',
+	'UCP_PM_VIEW'				=> 'Üzenetek megtekintése',
 
-	'UCP_PROFILE'				=> 'Profile',
-	'UCP_PROFILE_AVATAR'		=> 'Edit avatar',
-	'UCP_PROFILE_PROFILE_INFO'	=> 'Edit profile',
-	'UCP_PROFILE_REG_DETAILS'	=> 'Edit account settings',
-	'UCP_PROFILE_SIGNATURE'		=> 'Edit signature',
+	'UCP_PROFILE'				=> 'Profil',
+	'UCP_PROFILE_AVATAR'		=> 'Avatar szerkesztése',
+	'UCP_PROFILE_PROFILE_INFO'	=> 'Profil szerkesztése',
+	'UCP_PROFILE_REG_DETAILS'	=> 'Azonosító beállítások szerkesztése', //? "Edit account settings"
+	'UCP_PROFILE_SIGNATURE'		=> 'Aláírás szerkesztése',
 
-	'UCP_USERGROUPS'			=> 'Usergroups',
-	'UCP_USERGROUPS_MEMBER'		=> 'Edit memberships',
-	'UCP_USERGROUPS_MANAGE'		=> 'Manage groups',
+	'UCP_USERGROUPS'			=> 'Csoportok',
+	'UCP_USERGROUPS_MEMBER'		=> 'Tagságok szerkesztése',
+	'UCP_USERGROUPS_MANAGE'		=> 'Csoportok kezelése',
 
 	'UCP_REGISTER_DISABLE'			=> 'Creating a new account is currently not possible.',
 	'UCP_REMIND'					=> 'Send password',
