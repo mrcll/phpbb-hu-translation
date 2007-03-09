@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.23 2007-03-05 20:56:34 fberci Exp $
+* @version $Id: common.php,v 1.24 2007-03-09 21:40:49 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -458,14 +458,14 @@ $lang = array_merge($lang, array(
 	'SEARCH_ADV_EXPLAIN'		=> 'Részletes keresés beállításainak megtekintése', //?
 	'SEARCH_KEYWORDS'			=> 'Kulcsszavak', //? Jobb, mint a keresés kulcsszavakra, nem?
 	'SEARCHING_FORUMS'			=> 'Fórumok keresése',
-	'SEARCH_ACTIVE_TOPICS'		=> 'Aktív témák megtekintése',
+	'SEARCH_ACTIVE_TOPICS'		=> 'Aktív témák',
 	'SEARCH_FOR'				=> 'Keresés',
 	'SEARCH_FORUM'				=> 'Keresés a fórumban…', //? "Search this forum…" - mellesleg hol használják?
-	'SEARCH_NEW'				=> 'Új hozzászólások megtekintése',
+	'SEARCH_NEW'				=> 'Új hozzászólások',
 	'SEARCH_POSTS_BY'			=> 'Hozzászólások keresése:', //??
-	'SEARCH_SELF'				=> 'Saját hozzászólások megtekintése',
+	'SEARCH_SELF'				=> 'Saját hozzászólások',
 	'SEARCH_TOPIC'				=> 'Keresés a témában…',
-	'SEARCH_UNANSWERED'			=> 'Megválaszolatlan hozzászólások megtekintése',
+	'SEARCH_UNANSWERED'			=> 'Megválaszolatlan hozzászólások',
 	'SECONDS'					=> 'másodperc',
 	'SELECT'					=> 'Kiválasztás',
 	'SELECT_DESTINATION_FORUM'	=> 'Adj meg egy célfórumot.',
