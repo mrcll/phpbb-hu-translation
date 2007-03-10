@@ -4,7 +4,7 @@
 * ucp [Hungarian]
 *
 * @package language
-* @version $Id: ucp.php,v 1.13 2007-03-09 21:40:49 fberci Exp $
+* @version $Id: ucp.php,v 1.14 2007-03-10 14:10:13 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -144,7 +144,7 @@ $lang = array_merge($lang, array(
 	'DELETE_RULE'				=> 'Szűrő törlése',
 	'DELETE_RULE_CONFIRM'		=> 'Biztosan törölni akarod ezt a szűrőt?',
 	'DEMOTE_SELECTED'			=> 'Lemondás a csoportvezetőségről', //? visszalépés...
-	'DISABLE_CENSORS'			=> 'Szavak cenzúrázásának bekapcsolása',
+	'DISABLE_CENSORS'			=> 'Szavak cenzúrázása',
 	'DISPLAY_GALLERY'			=> 'Galéria megjelenítése',
 	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'A megadott e-mail domainhez nem tartozik érvényes MX bejegyzés.', //? érvényes? "valid" - valós, létező?
 	'DOWNLOADS'					=> 'Letöltések száma', //? remélem csak ilyen értelemben használják...
@@ -173,7 +173,7 @@ $lang = array_merge($lang, array(
 	'FIELD_TOO_LARGE'					=> 'A „%1$s” mező értéke túl nagy, legfeljebb %2$d engedélyezett.', //? kell lennie? - nyelvtan
 	'FIELD_INVALID_CHARS_NUMBERS_ONLY'	=> 'A „%1$s” mező hibás karaktereket tartalmaz, csak számok engedélyezettek.', //? hibás (invalid)?
 	'FIELD_INVALID_CHARS_ALPHA_ONLY'	=> 'A „%1$s” mező hibás karaktereket tartalmaz, csak alfanumerikus karakterek használata engedélyezett.',
-	'FIELD_INVALID_CHARS_SPACERS_ONLY'	=> 'A „%1$s” mező hibás karaktereket tartalmaz, csak alfanumerikus karakterek, szóköz és a -+_[] jel használata engedélyezett.', //? 'jelek'? jelek elválasztása?
+	'FIELD_INVALID_CHARS_SPACERS_ONLY'	=> 'A „%1$s” mező hibás karaktereket tartalmaz, csak alfanumerikus karakterek, szóköz és -+_[] jelek használata engedélyezett.', //? 'jel'? jelek elválasztása?
 	'FIELD_INVALID_DATE'				=> 'A „%1$s” mező érvénytelen dátumot tartalmaz.',
 
 	'FOE_MESSAGE'				=> 'Üzenet ellenségtől',
@@ -230,7 +230,7 @@ $lang = array_merge($lang, array(
 	'MESSAGE_BY_AUTHOR'				=> 'Feladó:', //? ha jól néztem, sehol nem használják
 	'MESSAGE_COLOURS'				=> 'Üzenet jelölések', //? "Message colours"
 	'MESSAGE_DELETED'				=> 'Az üzenet sikeresen törlésre került',
-	'MESSAGE_HISTORY'				=> 'Előzmények',
+	'MESSAGE_HISTORY'				=> 'Kapcsolódó üzenetek',
 	'MESSAGE_REMOVED_FROM_OUTBOX'	=> 'Ezt az üzenetet a feladója törölte, mielőtt megérkezett volna.',
 	'MESSAGE_SENT_ON'				=> 'Dátum:', //?
 	'MESSAGE_STORED'				=> 'Az üzenet sikeresen elküldésre került.',
@@ -419,104 +419,104 @@ $lang = array_merge($lang, array(
 	'UCP_USERGROUPS_MEMBER'		=> 'Tagságok szerkesztése',
 	'UCP_USERGROUPS_MANAGE'		=> 'Csoportok kezelése',
 
-	'UCP_REGISTER_DISABLE'			=> 'Creating a new account is currently not possible.',
-	'UCP_REMIND'					=> 'Send password',
-	'UCP_RESEND'					=> 'Send activation email',
-	'UCP_WELCOME'					=> 'Welcome to the User Control Panel. From here you can monitor, view and update your profile, preferences, subscribed forums and topics. You can also send messages to other users (if permitted). Please ensure you read any announcements before continuing.',
+	'UCP_REGISTER_DISABLE'			=> 'Jelenleg nem lehet létrehozni új azonosítót.',
+	'UCP_REMIND'					=> 'Jelszó elküldése',
+	'UCP_RESEND'					=> 'Aktivációs e-mail elküldése',
+	'UCP_WELCOME'					=> 'Köszöntünk a felhasználói vezérlőpulton! Itt megtekintheted, illetve megváltoztathatod a profilodat, a fórum beállításaidat és a feliratkozásaidat. Privát üzenetet is küldhetsz más felhasználóknak (ha engedélyezve van). Mielőtt továbblépnél, kérünk győződj meg róla, hogy elolvastad a közleményeket.', //? Légy köszöntve a felhasználói vezérlőpulton! üdvözlünk? "Welcome to the User Control Panel. From here you can monitor, view and update your profile, preferences, subscribed forums and topics. You can also send messages to other users (if permitted). Please ensure you read any announcements before continuing."
 	'UCP_YIM'						=> 'Yahoo Messenger',
-	'UCP_ZEBRA'						=> 'Friends &amp; Foes',
-	'UCP_ZEBRA_FOES'				=> 'Manage foes',
-	'UCP_ZEBRA_FRIENDS'				=> 'Manage friends',
-	'UNKNOWN_FOLDER'				=> 'Unknown folder',
-	'UNWATCH_MARKED'				=> 'Unwatch marked',
-	'UPLOAD_AVATAR_FILE'			=> 'Upload from your machine',
-	'UPLOAD_AVATAR_URL'				=> 'Upload from a URL',
-	'UPLOAD_AVATAR_URL_EXPLAIN'		=> 'Enter the URL of the location containing the image, it will be copied to this site.',
-	'USERNAME_ALPHA_ONLY_EXPLAIN'	=> 'Username must be between %1$d and %2$d chars long and use only alphanumeric characters',
-	'USERNAME_ALPHA_SPACERS_EXPLAIN'=> 'Username must be between %1$d and %2$d chars long and use alphanumeric, space or -+_[] characters.',
-	'USERNAME_ASCII_EXPLAIN'		=> 'Username must be between %1$d and %2$d chars long and use only ASCII characters, so no special symbols',
-	'USERNAME_LETTER_NUM_EXPLAIN'	=> 'Username must be between %1$d and %2$d chars long and use only letter or number characters',
-	'USERNAME_LETTER_NUM_SPACERS_EXPLAIN'=> 'Username must be between %1$d and %2$d chars long and use letter, number, space or -+_[] characters.',
-	'USERNAME_CHARS_ANY_EXPLAIN'	=> 'Length must be between %1$d and %2$d characters.',
-	'USERNAME_TAKEN_USERNAME'		=> 'The username you entered is already in use, please select an alternative.',
-	'USERNAME_DISALLOWED_USERNAME'	=> 'The username you entered has been banned.',
-	'USER_NOT_FOUND_OR_INACTIVE'	=> 'The usernames you specified could either not be found or are not activated users.',
+	'UCP_ZEBRA'						=> 'Barátok és ellenségek',
+	'UCP_ZEBRA_FOES'				=> 'Ellenségek kezelése',
+	'UCP_ZEBRA_FRIENDS'				=> 'Barátok kezelése',
+	'UNKNOWN_FOLDER'				=> 'Ismeretlen mappa',
+	'UNWATCH_MARKED'				=> 'Leiratkozás a kijelöltekről',
+	'UPLOAD_AVATAR_FILE'			=> 'Feltöltés a számítógépről',
+	'UPLOAD_AVATAR_URL'				=> 'Feltöltés webcímről',
+	'UPLOAD_AVATAR_URL_EXPLAIN'		=> 'Add meg a kép URL-jét (webcímét), a kép átmásolásra kerül erre az oldalra.',
+	'USERNAME_ALPHA_ONLY_EXPLAIN'	=> 'A felhasználónév hosszának %1$d és %2$d karakter között kell lennie, és csak alfanumerikus karaktereket tartalmazhat.', //? ez egy phpBB beli bug? - mindenesetre maradt az eredeti angol szöveg
+	'USERNAME_ALPHA_SPACERS_EXPLAIN'=> 'A felhasználónév hosszának %1$d és %2$d karakter között kell lennie, valamint csak alfanumerikus karaktereket, szóközt és -+_[] jeleket tartalmazhat.',
+	'USERNAME_ASCII_EXPLAIN'		=> 'A felhasználónév hosszának %1$d és %2$d karakter között kell lennie, valamint csak ASCII karaktereket tartalmazhat, tehát ékezetes betűket és szimbólumokat nem.',
+	'USERNAME_LETTER_NUM_EXPLAIN'	=> 'A felhasználónév hosszának %1$d és %2$d karakter között kell lennie, valamint csak betűket és számokat tartalmazhat.',
+	'USERNAME_LETTER_NUM_SPACERS_EXPLAIN'=> 'A felhasználónév hosszának %1$d és %2$d karakter között kell lennie, valamint csak betűket, számokat, szóközt és -+_[] jeleket tartmazhat.',
+	'USERNAME_CHARS_ANY_EXPLAIN'	=> 'A hosszának %1$d és %2$d karakter között kell lennie.',
+	'USERNAME_TAKEN_USERNAME'		=> 'A megadott felhasználónév már használatban van, kérünk válassz másikat.',
+	'USERNAME_DISALLOWED_USERNAME'	=> 'A megadott felhasználónév le lett tiltva.',
+	'USER_NOT_FOUND_OR_INACTIVE'	=> 'A megadott felhasználónévek nem találhatók, vagy még nem aktivált felhsználók.', //?
 
-	'VIEW_AVATARS'				=> 'Display avatars',
-	'VIEW_EDIT'					=> 'View/Edit',
-	'VIEW_FLASH'				=> 'Display Flash animations',
-	'VIEW_IMAGES'				=> 'Display images within posts',
-	'VIEW_NEXT_HISTORY'			=> 'Next PM in history',
-	'VIEW_NEXT_PM'				=> 'Next PM',
-	'VIEW_PM'					=> 'View message',
-	'VIEW_PM_INFO'				=> 'Message details',
-	'VIEW_PM_MESSAGE'			=> '1 message',
-	'VIEW_PM_MESSAGES'			=> '%d messages',
-	'VIEW_PREVIOUS_HISTORY'		=> 'Previous PM in history',
-	'VIEW_PREVIOUS_PM'			=> 'Previous PM',
-	'VIEW_SIGS'					=> 'Display signatures',
-	'VIEW_SMILIES'				=> 'Display smilies as images',
-	'VIEW_TOPICS_DAYS'			=> 'Display topics from previous days',
-	'VIEW_TOPICS_DIR'			=> 'Display topic order direction',
-	'VIEW_TOPICS_KEY'			=> 'Display topics ordering by',
-	'VIEW_POSTS_DAYS'			=> 'Display posts from previous days',
-	'VIEW_POSTS_DIR'			=> 'Display post order direction',
-	'VIEW_POSTS_KEY'			=> 'Display posts ordering by',
+	'VIEW_AVATARS'				=> 'Avatarok megjelenítése',
+	'VIEW_EDIT'					=> 'Megtekintés/szerkesztés',
+	'VIEW_FLASH'				=> 'Flash animációk megjelenítése',
+	'VIEW_IMAGES'				=> 'Képek megjelenítése a hozzászólásokban',
+	'VIEW_NEXT_HISTORY'			=> 'Következő kapcsolódó PÜ', //? kapcsolódó PÜ?
+	'VIEW_NEXT_PM'				=> 'Következő PÜ',
+	'VIEW_PM'					=> 'Üzenet megtekintése',
+	'VIEW_PM_INFO'				=> 'Üzenet adatok',
+	'VIEW_PM_MESSAGE'			=> '1 üzenet',
+	'VIEW_PM_MESSAGES'			=> '%d üzenet',
+	'VIEW_PREVIOUS_HISTORY'		=> 'Előző kapcsolódó PÜ',
+	'VIEW_PREVIOUS_PM'			=> 'Előző PÜ',
+	'VIEW_SIGS'					=> 'Aláírások megjelenítése',
+	'VIEW_SMILIES'				=> 'Emotikonok megjelenítése képként',
+	'VIEW_TOPICS_DAYS'			=> 'Témák megjelenítése a következő időszakból', //? kimondom: utálom a 'következőt'
+	'VIEW_TOPICS_DIR'			=> 'Témák rendezésének iránya',
+	'VIEW_TOPICS_KEY'			=> 'Témák rendezése a következő szerint', //?
+	'VIEW_POSTS_DAYS'			=> 'Hozzászólások megjelenítése a következő időszakból', //?
+	'VIEW_POSTS_DIR'			=> 'Hozzászólások rendezésének iránya',
+	'VIEW_POSTS_KEY'			=> 'Hozzászólások rendezése a következő szerint', //?
 
-	'WATCHED_EXPLAIN'			=> 'Below is a list of forums and topics you are subscribed to. You will be notified of new posts in either. To unsubscribe mark the forum or topic and then press the <em>Unwatch marked</em> button.',
-	'WATCHED_FORUMS'			=> 'Watched forums',
-	'WATCHED_TOPICS'			=> 'Watched topics',
-	'WRONG_ACTIVATION'			=> 'The activation key you supplied does not match any in the database',
+	'WATCHED_EXPLAIN'			=> 'Az alábbi lista azokat a fórumokat, illetve témákat tartalmazza, melyekre feliratkoztál. Az ezekbe érkező új hozzászólásokról értesítést kapsz. A leiratkozáshoz jelöld ki a fórumot vagy a témát, majd kattints a <em>Leiratkozás a kijelöltekről</em> gombra.',
+	'WATCHED_FORUMS'			=> 'Figyelt fórumok',
+	'WATCHED_TOPICS'			=> 'Figyelt témák',
+	'WRONG_ACTIVATION'			=> 'A megadott aktivációs kulcs nem egyezik meg az adatbázisban lévővel.',
 
-	'YOUR_DETAILS'				=> 'Your activity',
-	'YOUR_FOES'					=> 'Your foes',
-	'YOUR_FOES_EXPLAIN'			=> 'To remove usernames select them and click submit',
-	'YOUR_FRIENDS'				=> 'Your friends',
-	'YOUR_FRIENDS_EXPLAIN'		=> 'To remove usernames select them and click submit',
-	'YOUR_WARNINGS'				=> 'Your warning level',
+	'YOUR_DETAILS'				=> 'Fórumbeli aktivitásod', //? 'Aktivitásod'??
+	'YOUR_FOES'					=> 'Ellenségeid',
+	'YOUR_FOES_EXPLAIN'			=> 'Hogy törölj egy felhasználót válaszd ki, majd kattints az elküld gombra.', //?
+	'YOUR_FRIENDS'				=> 'Barátaid',
+	'YOUR_FRIENDS_EXPLAIN'		=> 'Hogy törölj egy felhasználót válaszd ki, majd kattints az elküld gombra.', //?
+	'YOUR_WARNINGS'				=> 'Figyelmeztetési szint', //?
 
 	'PM_ACTION' => array(
-		'PLACE_INTO_FOLDER'	=> 'Place into folder',
-		'MARK_AS_READ'		=> 'Mark as read',
-		'MARK_AS_IMPORTANT'	=> 'Mark message',
-		'DELETE_MESSAGE'	=> 'Delete message'
+		'PLACE_INTO_FOLDER'	=> 'áthelyezés',
+		'MARK_AS_READ'		=> 'megjelölés olvasottként',
+		'MARK_AS_IMPORTANT'	=> 'megjelölés fontosként',
+		'DELETE_MESSAGE'	=> 'törlés'
 	),
 	'PM_CHECK' => array(
-		'SUBJECT'	=> 'Subject',
-		'SENDER'	=> 'Sender',
-		'MESSAGE'	=> 'Message',
-		'STATUS'	=> 'Message status',
-		'TO'		=> 'Sent To'
+		'SUBJECT'	=> 'Ha a téma',
+		'SENDER'	=> 'Ha a küldő',
+		'MESSAGE'	=> 'Ha az üzenet',
+		'STATUS'	=> 'Ha az üzenet állapota',
+		'TO'		=> 'Ha a címzett'
 	),
 	'PM_RULE' => array(
-		'IS_LIKE'		=> 'is like',
-		'IS_NOT_LIKE'	=> 'is not like',
-		'IS'			=> 'is',
-		'IS_NOT'		=> 'is not',
-		'BEGINS_WITH'	=> 'begins with',
-		'ENDS_WITH'		=> 'ends with',
-		'IS_FRIEND'		=> 'is friend',
-		'IS_FOE'		=> 'is foe',
-		'IS_USER'		=> 'is user',
-		'IS_GROUP'		=> 'is in usergroup',
-		'ANSWERED'		=> 'answered',
-		'FORWARDED'		=> 'forwarded',
-		'TO_GROUP'		=> 'to my default usergroup',
-		'TO_ME'			=> 'to me'
+		'IS_LIKE'		=> 'hasonlít a következőre:',
+		'IS_NOT_LIKE'	=> 'nem hasonlít a következőre:',
+		'IS'			=> 'a következő:',
+		'IS_NOT'		=> 'nem a következő:',
+		'BEGINS_WITH'	=> 'a következővel kezdődik:',
+		'ENDS_WITH'		=> 'a következővel végződik:',
+		'IS_FRIEND'		=> 'a barátom',
+		'IS_FOE'		=> 'az ellenségem',
+		'IS_USER'		=> 'a következő felhasználó:',
+		'IS_GROUP'		=> 'a következő csoport tagja:',
+		'ANSWERED'		=> 'megválaszolt',
+		'FORWARDED'		=> 'továbbküldött',
+		'TO_GROUP'		=> 'az elsődleges csoportom',
+		'TO_ME'			=> 'én vagyok'
 	),
 
 
-	'GROUPS_EXPLAIN'	=> 'Usergroups enable board admins to better administer users. By default you will be placed in a specific group, this is your default group. This group defines how you may appear to other users, for example your username colouration, avatar, rank, etc. Depending on whether the administrator allows it you may be allowed to change your default group. You may also be placed in or allowed to join other groups. Some groups may give you extra rights to view content or increase your capabilities in other areas.',
-	'GROUP_LEADER'		=> 'Leaderships',
-	'GROUP_MEMBER'		=> 'Memberships',
-	'GROUP_PENDING'		=> 'Pending memberships',
-	'GROUP_NONMEMBER'	=> 'Non-memberships',
-	'GROUP_DETAILS'		=> 'Group details',
+	'GROUPS_EXPLAIN'	=> 'A csoportok lehetővé teszik az adminisztrátorok számára, hogy könnyebben kezelhessék a felhasználókat. Alapból egy meghatározott csoport tagja leszel, ez az elsődleges csoportod. Ez a csoport határozza meg, hogy hogyan jelensz meg más felhasználók számára, például a felhasználóneved színét, az avatarod, a rangod stb. Attól függően, hogy az adminisztrátor engedélyezi-e, megváltoztathatod az elsődleges csoportodat. Fel is vehetnek egy másik csoportba, vagy lehetőséget biztosíthatnak, hogy csatlakozz. A csoportokkal plusz jogok is járhatnak.',
+	'GROUP_LEADER'		=> 'Vezetőségi tagságok', //?
+	'GROUP_MEMBER'		=> 'Tagságok',
+	'GROUP_PENDING'		=> 'Függő tagásgok',
+	'GROUP_NONMEMBER'	=> 'Egyéb csoportok',
+	'GROUP_DETAILS'		=> 'Csoport adatok',
 
-	'NO_LEADER'		=> 'No group leaderships',
-	'NO_MEMBER'		=> 'No group memberships',
-	'NO_PENDING'	=> 'No pending memberships',
-	'NO_NONMEMBER'	=> 'No non-member groups',
+	'NO_LEADER'		=> 'Nem vagy egy csoportnak se a vezetője.', //?
+	'NO_MEMBER'		=> 'Nem vagy egy csoportnak se a tagja.', //?
+	'NO_PENDING'	=> 'Nincsenek függő csoporttagságok.', //?
+	'NO_NONMEMBER'	=> 'Nincs olyan csoport, melynek nem vagy a tagja.', //?
 ));
 
 ?>
