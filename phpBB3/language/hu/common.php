@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.24 2007-03-09 21:40:49 fberci Exp $
+* @version $Id: common.php,v 1.25 2007-03-10 14:10:13 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -103,11 +103,11 @@ $lang = array_merge($lang, array(
 	'CHANGE_FONT_SIZE'		=> 'Betűméret megváltoztatása',
 	'CHANGING_PREFERENCES'	=> 'Fórum beállítások megváltoztatása',
 	'CHANGING_PROFILE'		=> 'Profil megváltoztatása',
-	'CLICK_VIEW_PRIVMSG'	=> '%sBejövő fiók megtekintése%s',
+	'CLICK_VIEW_PRIVMSG'	=> '%sBejövő mappa megtekintése%s',
 	'CLOSE_WINDOW'			=> 'Ablak bezárása',
 	'COLOUR_SWATCH'			=> 'Szín kiválasztása',
 	'COMMA_SEPARATOR'		=> ', ', // Used in pagination and secret yet-to-be-release style, use localised comma if appropiate, eg: Ideographic or Arabic
-	'CONFIRM'				=> 'Elküld', //? pl. gombok felirat (!) - pl. post details (mcp) -- jobb mint a megerősítés...?
+	'CONFIRM'				=> 'Megerősítés',
 	'CONFIRM_CODE'			=> 'Megerősítő kód',
 	'CONFIRM_CODE_EXPLAIN'	=> 'Add meg a képen látható kódot. A kis- vagy nagybetűk nem számítanak, valamint nincs nulla.',
 	'CONFIRM_CODE_WRONG'	=> 'A megadott megerősítő kód hibás.',
@@ -163,7 +163,7 @@ $lang = array_merge($lang, array(
 	'FILE_COMMENT'			=> 'Magyarázat', //?! megjegyzés?
 	'FILE_NOT_FOUND'		=> 'A keresett állomány nem található.',
 	'FIND_USERNAME'			=> 'Felhasználó keresése',
-	'FOLDER'				=> 'Fiók',
+	'FOLDER'				=> 'Mappa',
 	'FORGOT_PASS'			=> 'Elfelejtettem a jelszavam',
 	'FORUM'					=> 'Fórum',
 	'FORUMS'				=> 'Fórumok',
@@ -239,12 +239,12 @@ $lang = array_merge($lang, array(
 
 	'ICQ'						=> 'ICQ',
 	'ICQ_STATUS'				=> 'ICQ állapot',	
-	'IF'						=> 'Ha',
+	'IF'						=> 'Feltétel',
 	'IMAGE'						=> 'Kép',
 	'IMAGE_FILETYPE_INVALID'	=> 'A %d kiterjesztésű %s MIME típusú kép nem támogatott.',
 	'IMAGE_FILETYPE_MISMATCH'	=> 'Nem stimmel a kép kiterjesztése: %1$s helyett %2$s.',
 	'IN'						=> 'Fórum:', //?
-	'INDEX'						=> 'Kezdőlap megtekintése', //? remélem jó
+	'INDEX'						=> 'Fórum kezdőlap megtekintése',
 	'INFORMATION'				=> 'Információ',
 	'INTERESTS'					=> 'Érdeklődési kör',
 	'INVALID_DIGEST_CHALLENGE'	=> 'Hibás feltárási kérés', //??? "Invalid digest challenge"
@@ -627,7 +627,7 @@ $lang = array_merge($lang, array(
 	'YES'				=> 'Igen',
 	'YIM'				=> 'YIM',	
 	'YOU_LAST_VISIT'	=> 'Legutolsó látogatás: %s',
-	'YOU_NEW_PM'		=> 'Új privát üzeneted érkezett.', //? "A new private message is waiting for you in your Inbox" az érkezett fiókba...
+	'YOU_NEW_PM'		=> 'Új privát üzeneted érkezett.', //? "A new private message is waiting for you in your Inbox" a bejövő mappádba...
 	'YOU_NEW_PMS'		=> 'Új privát üzeneteid érkeztek.',
 	'YOU_NO_NEW_PM'		=> 'Nincs új privát üzeneted.',
 
