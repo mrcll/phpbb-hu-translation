@@ -4,7 +4,7 @@
 * ucp [Hungarian]
 *
 * @package language
-* @version $Id: ucp.php,v 1.15 2007-03-10 22:05:04 fberci Exp $
+* @version $Id: ucp.php,v 1.16 2007-03-12 21:34:40 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -41,7 +41,7 @@ $lang = array_merge($lang, array(
 
 	'PRIVACY_POLICY'		=> 'Ezen nyilatkozat írja le, hogy a phpBB és a „%1$s” fórum (a továbbiakban „mi”, „a fórum”, „%1$s”, „%2$s”) üzemeltetői hogyan kezelik a fórum használata közben keletkező információkat.
 	<br />
-	Ezen információk két módon jönnek létre. Egyrészt automatikusan: azzal, hogy felkeresed a fórumot, a phpBB ún. sütiket generál (kis szöveges állományok, melyeket a böngésződ letölt az ideiglenes állományok könyvtárába). Ezen sütik olyan fontos adatokat tartalmaznak, melyek a fórum használatához feltétlenül szükségesek. Ilyen információt tárol az első két süti: a felhasználói azonosítót, illetve egy névtelen munkamenet azonosítót, amit a rendszer a böngésződhöz rendel. A harmadik süti akkor jön létre, amikor a fórumot böngészed - ebben kerül tárolásra melyik témákat olvastad, így javítva a felhasználói élményt. A „%1$s” oldal böngészése során a phpBB-n kívül más szoftverek is létrehozhatnak sütiket, ezeket azonban nem tárgyalja ez a dokumentum, ugyanis csak a phpBB által generált oldalakkal foglalkozik.
+	Ezen információk két módon jönnek létre. Egyrészt automatikusan: azzal, hogy felkeresed a fórumot, a phpBB ún. sütiket hoz létre (kis szöveges állományok, melyeket a böngésződ letölt az ideiglenes állományok könyvtárába). Ezen sütik olyan fontos adatokat tartalmaznak, melyek a fórum használatához feltétlenül szükségesek. Ilyen információt tárol az első két süti: a felhasználói azonosítót, illetve egy névtelen munkamenet azonosítót, amit a rendszer a böngésződhöz rendel. A harmadik süti akkor jön létre, amikor a fórumot böngészed - ebben kerül tárolásra melyik témákat olvastad, így javítva a felhasználói élményt. A „%1$s” oldal böngészése során a phpBB-n kívül más szoftverek is létrehozhatnak sütiket, ezeket azonban nem tárgyalja ez a dokumentum, ugyanis csak a phpBB által létrehozott oldalakkal foglalkozik.
 	<br />
 	A másik mód, ami tárolásra kerülő információt generál, az maga az interakció: például ha vendégként vagy regisztrált tagként hozzászólást írsz vagy regisztrálsz. Ez utóbbi folyamat során meg kell adnod egy egyedien azonosítható nevet („a felhasználói neved”), egy, a belépéshez használt személyes jelszót („a jelszavad”), illetve egy valós e-mail címet („az e-mail címed”). Az általad létrehozott azonosítót azon ország adatvédelmi törvényei védelmezik, melyben a fórum szervere található. A regisztráció során megadott egyéb adatok kötelezősége az adott fórum adminisztrátorainak döntésétől függ. Lehetőséged van rá, hogy megválaszd, milyen információk jelenjenek meg rólad nyilvánosan a profilodban. Ezen felül ki-, illetve bekapcsolhatod a számodra küldött automatikus leveleket.
 	<br />
@@ -58,8 +58,8 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_INACTIVE'				=> 'Az azonosítód elkészült, azonban hogy használni tudd, aktiválnod kell. Az aktivációs kulcsot elküldtük az e-mail címedre. További információkért kérjük nézd meg az e-mail fiókod.',
 	'ACCOUNT_INACTIVE_ADMIN'		=> 'Az azonosítód elkészült, azonban hogy használni tudd, az adminisztrátornak aktiválnia kell. Az adminisztrátort értesítettük, amint aktiválja az azonosítód, értesíteni fogunk.', //? szóismétlés
 	'ACTIVATION_EMAIL_SENT'			=> 'Az aktivációs e-mail sikeresen elküldésre került az e-mail címedre.',
-	'ADD'							=> 'Hozzáad',
-	'ADD_BCC'						=> 'Hozzáad [titkos másolat]', //? + titkos másolat
+	'ADD'							=> 'Hozzáadás',
+	'ADD_BCC'						=> 'Hozzáadás [titkos másolat]', //? + titkos másolat
 	'ADD_FOES'						=> 'Új ellenségek felvétele', //? kell az új?
 	'ADD_FOES_EXPLAIN'				=> 'Több felhasználónevet is megadhatsz külön sorba írva őket.',
 	'ADD_FOLDER'					=> 'Mappa hozzáadása',
@@ -67,7 +67,7 @@ $lang = array_merge($lang, array(
 	'ADD_FRIENDS_EXPLAIN'			=> 'Több felhasználónevet is megadhatsz külön sorba írva őket.',
 	'ADD_NEW_RULE'					=> 'Új szűrő létrehozása', //? kell az új?
 	'ADD_RULE'						=> 'Szűrő létrehozása',
-	'ADD_TO'						=> 'Hozzáad [címzett]', //? + címzett
+	'ADD_TO'						=> 'Hozzáadás [címzett]', //? + címzett
 	'ADMIN_EMAIL'					=> 'Információs e-mailek fogadása adminisztrátoroktól',
 	'AGREE'							=> 'Elfogadom a feltételeket',
 	'ALLOW_PM'						=> 'Privát üzenetek fogadása felhasználóktól',
