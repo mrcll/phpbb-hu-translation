@@ -1,10 +1,10 @@
 <?php
 /** 
 *
-* posting [English]
+* posting [Hungarian]
 *
 * @package language
-* @version $Id: posting.php,v 1.3 2007-01-28 20:32:49 fberci Exp $
+* @version $Id: posting.php,v 1.4 2007-03-14 21:35:34 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -31,85 +31,85 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ADD_ATTACHMENT'			=> 'Upload attachment',
-	'ADD_ATTACHMENT_EXPLAIN'	=> 'If you wish to attach one or more files enter the details below',
-	'ADD_FILE'					=> 'Add the file',
-	'ADD_POLL'					=> 'Poll creation',
-	'ADD_POLL_EXPLAIN'			=> 'If you do not want to add a poll to your topic leave the fields blank',
-	'ALREADY_DELETED'			=> 'Sorry but this message is already deleted.',
-	'ATTACH_QUOTA_REACHED'		=> 'Sorry, the board attachment quota has been reached.',
-	'ATTACH_SIG'				=> 'Attach a signature (signatures can be altered via the UCP)',
+	'ADD_ATTACHMENT'			=> 'Csatolmány feltöltése',
+	'ADD_ATTACHMENT_EXPLAIN'	=> 'Ha szeretnél állományokat csatolni a hozzászólásodhoz, töltsd ki az alábbi mezőket.', //?
+	'ADD_FILE'					=> 'Állomány hozzáadása',
+	'ADD_POLL'					=> 'Szavazás készítése', //? készítés, hozzáadás stb.?
+	'ADD_POLL_EXPLAIN'			=> 'Ha nem szeretnél szavazást csatolni a témához, hagyd üresen az alábbi mezőket.',
+	'ALREADY_DELETED'			=> 'Az üzenet már törölve lett.',
+	'ATTACH_QUOTA_REACHED'		=> 'A fórum csatolmányainak mérete elérte a limitet.', //?? "Sorry, the board attachment quota has been reached."
+	'ATTACH_SIG'				=> 'Aláírás hozzáadása (az aláírásod a felhasználói vezérlőpultban változtathatod meg)',
 
-	'BBCODE_B_HELP'				=> 'Bold text: [b]text[/b]  (alt+b)',
-	'BBCODE_C_HELP'				=> 'Code display: [code]code[/code]  (alt+c)',
-	'BBCODE_E_HELP'				=> 'List: Add list element',
-	'BBCODE_F_HELP'				=> 'Font size: [size=x-small]small text[/size]',
-	'BBCODE_IS_OFF'				=> '%sBBCode%s is <em>OFF</em>',
-	'BBCODE_IS_ON'				=> '%sBBCode%s is <em>ON</em>',
-	'BBCODE_I_HELP'				=> 'Italic text: [i]text[/i]  (alt+i)',
-	'BBCODE_L_HELP'				=> 'List: [list]text[/list]  (alt+l)',
-	'BBCODE_O_HELP'				=> 'Ordered list: [list=]text[/list]  (alt+o)',
-	'BBCODE_P_HELP'				=> 'Insert image: [img]http://image_url[/img]  (alt+p)',
-	'BBCODE_Q_HELP'				=> 'Quote text: [quote]text[/quote]  (alt+q)',
-	'BBCODE_S_HELP'				=> 'Font color: [color=red]text[/color]  Tip: you can also use color=#FF0000',
-	'BBCODE_U_HELP'				=> 'Underline text: [u]text[/u]  (alt+u)',
-	'BBCODE_W_HELP'				=> 'Insert URL: [url]http://url[/url] or [url=http://url]URL text[/url]  (alt+w)',
-	'BBCODE_D_HELP'				=> 'Flash: [flash=width,height]http://url[/flash]  (alt+d)',
-	'BUMP_ERROR'				=> 'You cannot bump this topic so soon after the last post.',
+	'BBCODE_B_HELP'				=> 'Félkövér: [b]szöveg[/b]',
+	'BBCODE_C_HELP'				=> 'Kód: [code]kód[/code]',
+	'BBCODE_E_HELP'				=> 'Lista: lista elem hozzáadása',
+	'BBCODE_F_HELP'				=> 'Betűméret: [size=100]normál méretű szöveg[/size]',
+	'BBCODE_IS_OFF'				=> '%sBBCode%s <em>kikapcsolva</em>',
+	'BBCODE_IS_ON'				=> '%sBBCode%s <em>bekapcsolva</em>',
+	'BBCODE_I_HELP'				=> 'Dőlt: [i]szöveg[/i]',
+	'BBCODE_L_HELP'				=> 'Lista: [list]szöveg[/list]',
+	'BBCODE_O_HELP'				=> 'Rendezett lista: [list=]szöveg[/list]',
+	'BBCODE_P_HELP'				=> 'Kép: [img]http://kep_url[/img]',
+	'BBCODE_Q_HELP'				=> 'Idézet: [quote]szöveg[/quote]',
+	'BBCODE_S_HELP'				=> 'Betűszín: [color=red]szöveg[/color]  tipp: color=#FF0000 formában is megadhatod a színt',
+	'BBCODE_U_HELP'				=> 'Aláhúzás: [u]szöveg[/u]',
+	'BBCODE_W_HELP'				=> 'Link: [url]http://url[/url] vagy [url=http://url]link szöveg[/url]',
+	'BBCODE_D_HELP'				=> 'Flash: [flash=szélesség,magasság]http://url[/flash]',
+	'BUMP_ERROR'				=> 'Nem ugraszthatod előre a témát, mivel az utolsó hozzászólást nemrég került elküldésre.',
 
-	'CANNOT_DELETE_REPLIED'		=> 'Sorry but you may only delete posts which have not been replied to.',
-	'CANNOT_EDIT_POST_LOCKED'	=> 'This post has been locked. You can no longer edit that post.',
-	'CANNOT_EDIT_TIME'			=> 'You can no longer edit or delete that post',
-	'CANNOT_POST_ANNOUNCE'		=> 'Sorry but you cannot post announcements.',
-	'CANNOT_POST_STICKY'		=> 'Sorry but you cannot post sticky topics.',
-	'CHANGE_TOPIC_TO'			=> 'Change topic type to',
-	'CLOSE_TAGS'				=> 'Close tags',
-	'CURRENT_TOPIC'				=> 'Current topic',
+	'CANNOT_DELETE_REPLIED'		=> 'Csak olyan hozzászólást törölhetsz, melyre még nem érekezett válasz.',
+	'CANNOT_EDIT_POST_LOCKED'	=> 'A hozzászólás lezárásra került. Már nem szerkesztheted ezt a hozzászólást.',
+	'CANNOT_EDIT_TIME'			=> 'Már nem szerkesztetheted, illetve törölheted a hozzászólást.',
+	'CANNOT_POST_ANNOUNCE'		=> 'Nem küldhetsz közleményt.',
+	'CANNOT_POST_STICKY'		=> 'Nem küldhetsz kiemelt témát.',
+	'CHANGE_TOPIC_TO'			=> 'Téma típusának megváltoztatása', //? "Change topic type to" - topic type: téma típus??
+	'CLOSE_TAGS'				=> 'Tagek lezárása',
+	'CURRENT_TOPIC'				=> 'Jelenlegi téma', //? aktuális?
 
-	'DELETE_FILE'				=> 'Delete file',
-	'DELETE_MESSAGE'			=> 'Delete message',
-	'DELETE_MESSAGE_CONFIRM'	=> 'Are you sure you want to delete this message?',
-	'DELETE_OWN_POSTS'			=> 'Sorry but you can only delete your own posts.',
-	'DELETE_POST_CONFIRM'		=> 'Are you sure you want to delete this message?',
-	'DELETE_POST_WARN'			=> 'Once deleted the post cannot be recovered',
-	'DISABLE_BBCODE'			=> 'Disable BBCode',
-	'DISABLE_MAGIC_URL'			=> 'Do not automatically parse URLs',
-	'DISABLE_SMILIES'			=> 'Disable smilies',
-	'DISALLOWED_EXTENSION'		=> 'The extension %s is not allowed',
-	'DRAFT_LOADED'				=> 'Draft loaded into posting area, you may want to finish your post now.<br />Your draft will be deleted after submitting this post.',
-	'DRAFT_SAVED'				=> 'Draft successfully saved.',
-	'DRAFT_TITLE'				=> 'Draft title',
+	'DELETE_FILE'				=> 'Csatolmány törlése',
+	'DELETE_MESSAGE'			=> 'Üzenet törlése',
+	'DELETE_MESSAGE_CONFIRM'	=> 'Biztosan törölni akarod ezt az üzenetet?',
+	'DELETE_OWN_POSTS'			=> 'Csak a saját hozzászólásaidat törölheted.',
+	'DELETE_POST_CONFIRM'		=> 'Biztosan törölni akarod ezt a hozzászólást?',
+	'DELETE_POST_WARN'			=> 'Törlés után a hozzászólás nem visszaállítható.',
+	'DISABLE_BBCODE'			=> 'BBCode kikapcsolása',
+	'DISABLE_MAGIC_URL'			=> 'Url-ek automatikus linkké alakításának kikapcsolása', //? "Do not automatically parse URLs" 'Automatikus URL-feldolgozás kikapcsolása' webcímek?
+	'DISABLE_SMILIES'			=> 'Emotikonok kikapcsolása',
+	'DISALLOWED_EXTENSION'		=> 'A %s kiterjesztés nem engedélyezett.',
+	'DRAFT_LOADED'				=> 'A piszkozat sikeresen betöltésre került, most már befejezheted az üzenetedet.<br />Miután elküldted ezt az üzenetet, a piszkozat törlésre kerül.',
+	'DRAFT_SAVED'				=> 'A piszkozat sikeresen elmentésre került.',
+	'DRAFT_TITLE'				=> 'Piszkozat címe',
 
-	'EDIT_REASON'				=> 'Reason for editing this post',
-	'EMPTY_FILEUPLOAD'			=> 'The uploaded file is empty',
-	'EMPTY_MESSAGE'				=> 'You must enter a message when posting.',
-	'EMPTY_REMOTE_DATA'			=> 'File could not be uploaded, please try uploading the file manually.',
+	'EDIT_REASON'				=> 'Hozzászólás szerkesztésének oka',
+	'EMPTY_FILEUPLOAD'			=> 'A feltöltött állomány üres.',
+	'EMPTY_MESSAGE'				=> 'Az üzenet nem lehet üres.',
+	'EMPTY_REMOTE_DATA'			=> 'Nem sikerült feltölteni az állományt, próbáld meg feltölteni kézzel.',
 
-	'FLASH_IS_OFF'				=> '[flash] is <em>OFF</em>',
-	'FLASH_IS_ON'				=> '[flash] is <em>ON</em>',
-	'FLOOD_ERROR'				=> 'You cannot make another post so soon after your last.',
-	'FONT_COLOR'				=> 'Font color',
-	'FONT_HUGE'					=> 'Huge',
-	'FONT_LARGE'				=> 'Large',
-	'FONT_NORMAL'				=> 'Normal',
-	'FONT_SIZE'					=> 'Font size',
-	'FONT_SMALL'				=> 'Small',
-	'FONT_TINY'					=> 'Tiny',
+	'FLASH_IS_OFF'				=> '[flash] <em>kikapcsolva</em>',
+	'FLASH_IS_ON'				=> '[flash] <em>bekapcsolva</em>',
+	'FLOOD_ERROR'				=> 'Most nem küldhetsz újabb hozzászólást, mivel nemrég küldtél egyet.',
+	'FONT_COLOR'				=> 'Betűszín',
+	'FONT_HUGE'					=> 'óriási',
+	'FONT_LARGE'				=> 'nagy',
+	'FONT_NORMAL'				=> 'normál',
+	'FONT_SIZE'					=> 'Betűméret',
+	'FONT_SMALL'				=> 'kicsi',
+	'FONT_TINY'					=> 'apró',
 
-	'GENERAL_UPLOAD_ERROR'		=> 'Could not upload attachment to %s',
+	'GENERAL_UPLOAD_ERROR'		=> 'Nem sikerült feltölteni a csatolmányt a következő helyre: %s',
 
-	'IMAGES_ARE_OFF'			=> '[img] is <em>OFF</em>',
-	'IMAGES_ARE_ON'				=> '[img] is <em>ON</em>',
-	'INVALID_FILENAME'			=> '%s is an invalid filename',
+	'IMAGES_ARE_OFF'			=> '[img] <em>kikapcsolva</em>',
+	'IMAGES_ARE_ON'				=> '[img] <em>bekapcsolva</em>',
+	'INVALID_FILENAME'			=> 'A %s érvénytelen állománynév. ', //? "%s is an invalid filename" - nem létező (valószínűleg ez a jelentése...)?
 
-	'LOAD'						=> 'Load',
-	'LOAD_DRAFT'				=> 'Load draft',
-	'LOAD_DRAFT_EXPLAIN'		=> 'Here you are able to select the draft you want to continue writing. Your current post will be cancelled, all current post contents will be deleted. View, edit and delete drafts within your User Control Panel.',
-	'LOGIN_EXPLAIN_BUMP'		=> 'You need to login in order to bump topics within this forum.',
-	'LOGIN_EXPLAIN_DELETE'		=> 'You need to login in order to delete posts within this forum.',
-	'LOGIN_EXPLAIN_POST'		=> 'You need to login in order to post within this forum.',
-	'LOGIN_EXPLAIN_QUOTE'		=> 'You need to login in order to quote posts within this forum.',
-	'LOGIN_EXPLAIN_REPLY'		=> 'You need to login in order to reply to topics within this forum.',
+	'LOAD'						=> 'Betöltés',
+	'LOAD_DRAFT'				=> 'Piszkozat betöltése',
+	'LOAD_DRAFT_EXPLAIN'		=> 'Itt kiválaszthatod, hogy melyik piszkozatot szeretnéd folytatni. A jelenlegi hozzászólásod elvetésre, a tartalma törlésre kerül. A piszkozataidat a felhasználói vezérlőpultban tudod megtekinteni, szerkeszteni, illetve törölni.',
+	'LOGIN_EXPLAIN_BUMP'		=> 'Egy téma előreugrasztásához be kell jelentkezned ebben a fórumban.', //? egy?; szórend
+	'LOGIN_EXPLAIN_DELETE'		=> 'Egy hozzászólás törléséhez be kell jelentkezned ebben a fórumban.',
+	'LOGIN_EXPLAIN_POST'		=> 'Új téma küldéséhez be kell jelentkezned ebben a fórumban.',
+	'LOGIN_EXPLAIN_QUOTE'		=> 'Egy hozzászólás idézéséhez be kell jelentkezned ebben a fórumban.',
+	'LOGIN_EXPLAIN_REPLY'		=> 'Hozzászólás küldéséhez be kell jelentkezned ebben a fórumban.',
 
 	'MAX_FONT_SIZE_EXCEEDED'	=> 'You may only use fonts up to size %1$d.',
 	'MAX_FLASH_HEIGHT_EXCEEDED'	=> 'Your flash files may only be up to %1$d pixels high.',

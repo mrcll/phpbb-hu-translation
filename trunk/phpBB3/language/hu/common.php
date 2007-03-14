@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.27 2007-03-10 22:05:03 fberci Exp $
+* @version $Id: common.php,v 1.28 2007-03-14 21:35:34 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -271,7 +271,7 @@ $lang = array_merge($lang, array(
 	'LOCK_POST_EXPLAIN'					=> 'A felhasználó nem fogja tudni szerkeszteni a hozzászólást.',
 	'LOCK_TOPIC'						=> 'Téma lezárása',
 	'LOGIN'								=> 'Belépés',
-	'LOGIN_CHECK_PM'					=> 'Privát üzeneteid olvasásához lépj be',
+	'LOGIN_CHECK_PM'					=> 'Privát üzeneteid olvasásához lépj be.',
 	'LOGIN_CONFIRMATION'				=> 'Belépés megerősítése',
 	'LOGIN_CONFIRM_EXPLAIN'				=> 'Az azonosítók feltörésének megakadályozása érdekében egy bizonyos számú sikertelen belépési kísérlet után meg kell adnod egy megerősítő kódot. A kód az alábbi képen található. Ha látási (vagy egyéb) problémák folytán nem tudnád elolvasni a kódot, vedd fel a kapcsolatot a %sfórum adminisztrátorával%s.',
 	'LOGIN_ERROR_ATTEMPTS'				=> 'Túllépted az engedélyezett belépési kísérletek számát. Ezért a felhasználóneved és a jelszavad mellett most meg kell adnod az alábbi képen látható megerősítő kódot is.',
