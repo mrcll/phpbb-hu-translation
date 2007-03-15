@@ -1,10 +1,10 @@
 <?php
 /** 
 *
-* search [English]
+* search [Hungarian]
 *
 * @package language
-* @version $Id: search.php,v 1.3 2007-01-28 20:32:49 fberci Exp $
+* @version $Id: search.php,v 1.4 2007-03-15 21:01:18 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -31,36 +31,36 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ALL_AVAILABLE'			=> 'All available',
-	'ALL_RESULTS'			=> 'All results',
+	'ALL_AVAILABLE'			=> 'összes',
+	'ALL_RESULTS'			=> 'Összes találat',
 
-	'DISPLAY_RESULTS'		=> 'Display results as',
+	'DISPLAY_RESULTS'		=> 'Találatok megjelenítése',
 
-	'FOUND_SEARCH_MATCH'		=> 'Search found %d match',
-	'FOUND_SEARCH_MATCHES'		=> 'Search found %d matches',
-	'FOUND_MORE_SEARCH_MATCHES'	=> 'Search found more than %d matches',
+	'FOUND_SEARCH_MATCH'		=> '%d találat',
+	'FOUND_SEARCH_MATCHES'		=> '%d találat',
+	'FOUND_MORE_SEARCH_MATCHES'	=> 'Több, mint %d találat',
 
-	'GLOBAL'				=> 'Global announcement',
+	'GLOBAL'				=> 'Globális közlemény',
 
-	'IGNORED_TERMS'			=> 'ignored',
-	'IGNORED_TERMS_EXPLAIN'	=> 'The following words in your search query were ignored: <strong>%s</strong>',
+	'IGNORED_TERMS'			=> 'mellõzött',
+	'IGNORED_TERMS_EXPLAIN'	=> 'A következõ szavak mellõzésre kerültek a keresési kifejzésbõl: <strong>%s</strong>',
 
-	'JUMP_TO_POST'			=> 'Jump to post',
+	'JUMP_TO_POST'			=> 'Ugrás a hozzászóláshoz',
 
-	'NO_KEYWORDS'			=> 'You must specify at least one word to search for. Each word must consist of at least %d characters and must not contain more than %d characters excluding wildcards.',
-	'NO_RECENT_SEARCHES'	=> 'No searches have been carried out recently',
-	'NO_SEARCH'				=> 'Sorry but you are not permitted to use the search system.',
-	'NO_SEARCH_RESULTS'		=> 'No suitable matches were found.',
-	'NO_SEARCH_TIME'		=> 'Sorry but you cannot use search at this time. Please try again in a few minutes.',
-	'WORD_IN_NO_POST'		=> 'No posts were found because the word <strong>%s</strong> is not contained in any post.',
-	'WORDS_IN_NO_POST'		=> 'No posts were found because the words <strong>%s</strong> are not contained in any post.',
+	'NO_KEYWORDS'			=> 'Legalább egy keresendõ szót meg kell adnod. Minden szónak legalább %d és legfeljebb %d karakterbõl kell állnia a helyettesítõ jeleket nem számítva.', //? helyettesítõ jel: *
+	'NO_RECENT_SEARCHES'	=> 'Nincs nemrégi keresés.', //? "No searches have been carried out recently" - jobb megfogalmazás kéne!
+	'NO_SEARCH'				=> 'Sajnos számodra nem engedélyezett a keresõ használata.',
+	'NO_SEARCH_RESULTS'		=> 'Nincs a keresési feltéleknek megfelelõ találat.', //? "No suitable matches were found."
+	'NO_SEARCH_TIME'		=> 'Most nem használhatod a keresõt. Kérjük próbálkozz újra pár percen belül.',
+	'WORD_IN_NO_POST'		=> 'Nincs találat, mivel a <strong>%s</strong> szót nem tartalmazza egy hozzászólás sem.',
+	'WORDS_IN_NO_POST'		=> 'Nincs találat, mivel a <strong>%s</strong> szavakat nem tartalmazza egy hozzászólás sem.',
 
-	'POST_CHARACTERS'		=> 'characters of posts',
+	'POST_CHARACTERS'		=> 'karakterének megjelenítése',
 
-	'RECENT_SEARCHES'		=> 'Recent searches',
-	'RESULT_DAYS'			=> 'Limit results to previous',
-	'RESULT_SORT'			=> 'Sort results by',
-	'RETURN_FIRST'			=> 'Return first',
+	'RECENT_SEARCHES'		=> 'Nemrégi keresések',
+	'RESULT_DAYS'			=> 'Idõtartam', //??
+	'RESULT_SORT'			=> 'Találatok rendezése',
+	'RETURN_FIRST'			=> 'Hozzászólások elsõ',
 
 	'SEARCHED_FOR'				=> 'Search term used',
 	'SEARCHED_TOPIC'			=> 'Searched topic',

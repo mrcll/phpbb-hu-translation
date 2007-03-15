@@ -1,10 +1,10 @@
 <?php
 /** 
 *
-* groups [English]
+* groups [Hungarian]
 *
 * @package language
-* @version $Id: groups.php,v 1.3 2007-01-28 20:32:48 fberci Exp $
+* @version $Id: groups.php,v 1.4 2007-03-15 21:01:18 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -31,58 +31,58 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ALREADY_DEFAULT_GROUP'	=> 'The selected group is already your default group',
-	'ALREADY_IN_GROUP'		=> 'You are already a member of the selected group',
+	'ALREADY_DEFAULT_GROUP'	=> 'A kiválasztott csoport már az elsődleges csoportod.', //?
+	'ALREADY_IN_GROUP'		=> 'Már tagja vagy a kiválasztott csoportnak.',
 
-	'CHANGED_DEFAULT_GROUP'	=> 'Successfully changed default group',
+	'CHANGED_DEFAULT_GROUP'	=> 'Az elsődleges csoport sikeresen megváltoztatásra került.',
 	
-	'GROUP_AVATAR'						=> 'Group avatar', 
-	'GROUP_CHANGE_DEFAULT'				=> 'Are you sure you want to change your default membership to the group “%s”?',
-	'GROUP_CLOSED'						=> 'Closed',
-	'GROUP_DESC'						=> 'Group description',
-	'GROUP_HIDDEN'						=> 'Hidden',
-	'GROUP_INFORMATION'					=> 'Usergroup information', 
-	'GROUP_IS_CLOSED'					=> 'This is a closed group, where new members cannot automatically join and only upon invitation of a group leader.',
-	'GROUP_IS_FREE'						=> 'This is a freely open group, all new members are welcome.', 
-	'GROUP_IS_HIDDEN'					=> 'This is a hidden group, only members of this group can view its membership.',
-	'GROUP_IS_OPEN'						=> 'This is an open group, members can apply to join.',
-	'GROUP_IS_SPECIAL'					=> 'This is a special group, special groups are managed by the board administrators.', 
-	'GROUP_JOIN'						=> 'Join group',
-	'GROUP_JOIN_CONFIRM'				=> 'Are you sure you want to join the selected group?',
-	'GROUP_JOIN_PENDING'				=> 'Request to join group',
-	'GROUP_JOIN_PENDING_CONFIRM'		=> 'Are you sure you want to request joining the selected group?',
-	'GROUP_JOINED'						=> 'Successfully joined selected group',
-	'GROUP_JOINED_PENDING'				=> 'Successfully requested group membership. Please wait for a group leader to approve your membership.',
-	'GROUP_LIST'						=> 'Manage users',
-	'GROUP_MEMBERS'						=> 'Group members',
-	'GROUP_NAME'						=> 'Group name',
-	'GROUP_OPEN'						=> 'Open',
-	'GROUP_RANK'						=> 'Group rank', 
-	'GROUP_RESIGN_MEMBERSHIP'			=> 'Resign group membership',
-	'GROUP_RESIGN_MEMBERSHIP_CONFIRM'	=> 'Are you sure you want to resign your membership from the selected group?',
-	'GROUP_RESIGN_PENDING'				=> 'Resign a pending group membership',
-	'GROUP_RESIGN_PENDING_CONFIRM'		=> 'Are you sure you want to resign your pending membership from the selected group?',
-	'GROUP_RESIGNED_MEMBERSHIP'			=> 'You were successfully removed from the selected group',
-	'GROUP_RESIGNED_PENDING'			=> 'Your pending membership was successfully removed from the selected group',
-	'GROUP_TYPE'						=> 'Group type',
-	'GROUP_UNDISCLOSED'					=> 'Hidden group',
-	'FORUM_UNDISCLOSED'					=> 'Moderating hidden forum(s)',
+	'GROUP_AVATAR'						=> 'Csoport avatar', 
+	'GROUP_CHANGE_DEFAULT'				=> 'Biztosan meg akarod változtatni az elsődleges csoportodat a „%s” csoportra?',
+	'GROUP_CLOSED'						=> 'Zárt',
+	'GROUP_DESC'						=> 'Csoport leírás',
+	'GROUP_HIDDEN'						=> 'Rejtett',
+	'GROUP_INFORMATION'					=> 'Csoport információ', 
+	'GROUP_IS_CLOSED'					=> 'Ez egy zárt csoport: új tagok nem tudnak automatikusan csatlakozni, csak a csoportvezető meghívására.',
+	'GROUP_IS_FREE'						=> 'Ez egy teljesen nyitott csoport: minden új tagot szívesen látnak.', //? 
+	'GROUP_IS_HIDDEN'					=> 'Ez egy rejtett csoport: csak a csoport tagjai látják.',
+	'GROUP_IS_OPEN'						=> 'Ez egy nyitott csoport: felhasználók kérhetik a felvételüket.',
+	'GROUP_IS_SPECIAL'					=> 'Ez egy speciális csoport: a speciális csoportokat az adminisztrátor kezeli.', 
+	'GROUP_JOIN'						=> 'Csatlakozás a csoporthoz',
+	'GROUP_JOIN_CONFIRM'				=> 'Biztosan csatlakozni akarsz a kiválasztott csoporthoz?',
+	'GROUP_JOIN_PENDING'				=> 'Tagság kérelmezése',
+	'GROUP_JOIN_PENDING_CONFIRM'		=> 'Biztosan kérni akarod a felvételed a kiválsztott csoportba?',
+	'GROUP_JOINED'						=> 'Sikeresen csatlakoztál a kiválasztott csoporthoz.',
+	'GROUP_JOINED_PENDING'				=> 'Sikeresen kérelmezted a feléveteled a csoportba. Kérjük várj, míg egy csoportvezető elfogadja a jelentkezésed.',
+	'GROUP_LIST'						=> 'Felhasználók kezelése',
+	'GROUP_MEMBERS'						=> 'Csoporttagok',
+	'GROUP_NAME'						=> 'Csoport neve',
+	'GROUP_OPEN'						=> 'Nyitott',
+	'GROUP_RANK'						=> 'Csoport rang', 
+	'GROUP_RESIGN_MEMBERSHIP'			=> 'Lemondás a csoporttagságról',
+	'GROUP_RESIGN_MEMBERSHIP_CONFIRM'	=> 'Biztosan le akarod mondani a csoporttagságod a kviálasztott csoportban?',
+	'GROUP_RESIGN_PENDING'				=> 'Függő csoporttagság lemondása',
+	'GROUP_RESIGN_PENDING_CONFIRM'		=> 'Biztosan le akarod mondani a függő csoporttagságod a kiválasztott csoportban?',
+	'GROUP_RESIGNED_MEMBERSHIP'			=> 'Sikeresen törlésre kerültél a kiválasztott csoportból.',
+	'GROUP_RESIGNED_PENDING'			=> 'A függő csoporttagságod sikeresen törlésre került a kiválasztott csoportból.',
+	'GROUP_TYPE'						=> 'Csoport típusa',
+	'GROUP_UNDISCLOSED'					=> 'Rejtett csoport',
+	'FORUM_UNDISCLOSED'					=> 'Rejtett fórum(ok) moderálása',
 
-	'LOGIN_EXPLAIN_GROUP'	=> 'You need to login to view group details',
+	'LOGIN_EXPLAIN_GROUP'	=> 'A csoport adataianak megtekintéséhez be kell jelentkezned.', //? a csoport?
 
-	'NO_LEADERS'					=> 'You are not a leader of any group',
-	'NOT_LEADER_OF_GROUP'			=> 'The requested operation cannot be taken because you are not a leader of the selected group.',
-	'NOT_MEMBER_OF_GROUP'			=> 'The requested operation cannot be taken because you are not a member of the selected group.',
-	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'You are not allowed to resign from your default group.',
+	'NO_LEADERS'					=> 'Nem vagy egy csoport vezetője sem.',
+	'NOT_LEADER_OF_GROUP'			=> 'A kért művelet nem végezhető el, mivel nem vagy a kiválasztott csoport vezetője.',
+	'NOT_MEMBER_OF_GROUP'			=> 'A kért művelet nem végezhető el, mivel nem vagy a kiválasztott csoport tagja.',
+	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'Nem mondhatsz le a csoporttagságodról az elsődleges csoportodban.',
 	
-	'PRIMARY_GROUP'		=> 'Primary group',
+	'PRIMARY_GROUP'		=> 'Elsődleges csoport',
 
-	'REMOVE_SELECTED'		=> 'Remove selected',
+	'REMOVE_SELECTED'		=> 'Kiválasztottak törlése',
 
-	'USER_GROUP_CHANGE'			=> 'From “%1$s” group to “%2$s”',
-	'USER_GROUP_DEMOTE'			=> 'Demote leadership',
-	'USER_GROUP_DEMOTE_CONFIRM'	=> 'Are you sure you want to demote as group leader from the selected group?',
-	'USER_GROUP_DEMOTED'		=> 'Successfully demoted your leadership.',
+	'USER_GROUP_CHANGE'			=> '„%1$s” csoportról „%2$s” csoportra',
+	'USER_GROUP_DEMOTE'			=> 'Lemondás a csoportvezetőségről',
+	'USER_GROUP_DEMOTE_CONFIRM'	=> 'Biztosan le akarsz mondani a csoportvezetőségről a kiválasztott csoportban?',
+	'USER_GROUP_DEMOTED'		=> 'Sikeresen lemondtál a csoportvezetőségről.',
 ));
 
 ?>

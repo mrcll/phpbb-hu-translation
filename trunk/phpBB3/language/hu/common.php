@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.28 2007-03-14 21:35:34 fberci Exp $
+* @version $Id: common.php,v 1.29 2007-03-15 21:01:18 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -31,7 +31,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> 'Magyar fordítás &copy; <a href="http://phpbb.hu/">Magyar phpBB Közösség</a>',
+	'TRANSLATION_INFO'	=> 'Magyar fordítás © <a href="http://phpbb.hu/">Magyar phpBB Közösség</a>',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|Y.m.d.|',
 	'USER_LANG'			=> 'hu-hu',
