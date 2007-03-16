@@ -4,7 +4,7 @@
 * posting [Hungarian]
 *
 * @package language
-* @version $Id: posting.php,v 1.5 2007-03-15 21:01:18 fberci Exp $
+* @version $Id: posting.php,v 1.6 2007-03-16 10:25:23 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -63,7 +63,7 @@ $lang = array_merge($lang, array(
 	'CANNOT_POST_ANNOUNCE'		=> 'Nem küldhetsz közleményt.',
 	'CANNOT_POST_STICKY'		=> 'Nem küldhetsz kiemelt témát.',
 	'CHANGE_TOPIC_TO'			=> 'Téma típusának megváltoztatása', //? "Change topic type to" - topic type: téma típus??
-	'CLOSE_TAGS'				=> 'Tagek lezárása',
+	'CLOSE_TAGS'				=> 'Címkék lezárása', //? "Close tags"
 	'CURRENT_TOPIC'				=> 'Jelenlegi téma', //? aktuális?
 
 	'DELETE_FILE'				=> 'Csatolmány törlése',
