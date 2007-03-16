@@ -4,7 +4,7 @@
 * search [Hungarian]
 *
 * @package language
-* @version $Id: search.php,v 1.4 2007-03-15 21:01:18 fberci Exp $
+* @version $Id: search.php,v 1.5 2007-03-16 10:25:23 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -31,63 +31,63 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ALL_AVAILABLE'			=> '�sszes',
-	'ALL_RESULTS'			=> '�sszes tal�lat',
+	'ALL_AVAILABLE'			=> 'összes',
+	'ALL_RESULTS'			=> 'Összes találat',
 
-	'DISPLAY_RESULTS'		=> 'Tal�latok megjelen�t�se',
+	'DISPLAY_RESULTS'		=> 'Találatok megjelenítése',
 
-	'FOUND_SEARCH_MATCH'		=> '%d tal�lat',
-	'FOUND_SEARCH_MATCHES'		=> '%d tal�lat',
-	'FOUND_MORE_SEARCH_MATCHES'	=> 'T�bb, mint %d tal�lat',
+	'FOUND_SEARCH_MATCH'		=> '%d találat',
+	'FOUND_SEARCH_MATCHES'		=> '%d találat',
+	'FOUND_MORE_SEARCH_MATCHES'	=> 'Több, mint %d találat',
 
-	'GLOBAL'				=> 'Glob�lis k�zlem�ny',
+	'GLOBAL'				=> 'Globális közlemény',
 
-	'IGNORED_TERMS'			=> 'mell�z�tt',
-	'IGNORED_TERMS_EXPLAIN'	=> 'A k�vetkez� szavak mell�z�sre ker�ltek a keres�si kifejz�sb�l: <strong>%s</strong>',
+	'IGNORED_TERMS'			=> 'mellőzött',
+	'IGNORED_TERMS_EXPLAIN'	=> 'A következő szavak mellőzésre kerültek a keresési kifejzésből: <strong>%s</strong>',
 
-	'JUMP_TO_POST'			=> 'Ugr�s a hozz�sz�l�shoz',
+	'JUMP_TO_POST'			=> 'Ugrás a hozzászóláshoz',
 
-	'NO_KEYWORDS'			=> 'Legal�bb egy keresend� sz�t meg kell adnod. Minden sz�nak legal�bb %d �s legfeljebb %d karakterb�l kell �llnia a helyettes�t� jeleket nem sz�m�tva.', //? helyettes�t� jel: *
-	'NO_RECENT_SEARCHES'	=> 'Nincs nemr�gi keres�s.', //? "No searches have been carried out recently" - jobb megfogalmaz�s k�ne!
-	'NO_SEARCH'				=> 'Sajnos sz�modra nem enged�lyezett a keres� haszn�lata.',
-	'NO_SEARCH_RESULTS'		=> 'Nincs a keres�si felt�leknek megfelel� tal�lat.', //? "No suitable matches were found."
-	'NO_SEARCH_TIME'		=> 'Most nem haszn�lhatod a keres�t. K�rj�k pr�b�lkozz �jra p�r percen bel�l.',
-	'WORD_IN_NO_POST'		=> 'Nincs tal�lat, mivel a <strong>%s</strong> sz�t nem tartalmazza egy hozz�sz�l�s sem.',
-	'WORDS_IN_NO_POST'		=> 'Nincs tal�lat, mivel a <strong>%s</strong> szavakat nem tartalmazza egy hozz�sz�l�s sem.',
+	'NO_KEYWORDS'			=> 'Legalább egy keresendő szót meg kell adnod. Minden szónak legalább %d és legfeljebb %d karakterből kell állnia a helyettesítő jeleket nem számítva.', //? helyettesítő jel: *
+	'NO_RECENT_SEARCHES'	=> 'Nincs nemrégi keresés.', //? "No searches have been carried out recently" - jobb megfogalmazás kéne!
+	'NO_SEARCH'				=> 'Sajnos számodra nem engedélyezett a kereső használata.',
+	'NO_SEARCH_RESULTS'		=> 'Nincs a keresési feltéleknek megfelelő találat.', //? "No suitable matches were found."
+	'NO_SEARCH_TIME'		=> 'Most nem használhatod a keresőt. Kérjük próbálkozz újra pár percen belül.',
+	'WORD_IN_NO_POST'		=> 'Nincs találat, mivel a <strong>%s</strong> szót nem tartalmazza egy hozzászólás sem.',
+	'WORDS_IN_NO_POST'		=> 'Nincs találat, mivel a <strong>%s</strong> szavakat nem tartalmazza egy hozzászólás sem.',
 
-	'POST_CHARACTERS'		=> 'karakter�nek megjelen�t�se',
+	'POST_CHARACTERS'		=> 'karakterének megjelenítése',
 
-	'RECENT_SEARCHES'		=> 'Nemr�gi keres�sek',
-	'RESULT_DAYS'			=> 'Id�tartam', //??
-	'RESULT_SORT'			=> 'Tal�latok rendez�se',
-	'RETURN_FIRST'			=> 'Hozz�sz�l�sok els�',
+	'RECENT_SEARCHES'		=> 'Nemrégi keresések',
+	'RESULT_DAYS'			=> 'Időtartam', //??
+	'RESULT_SORT'			=> 'Találatok rendezése',
+	'RETURN_FIRST'			=> 'Hozzászólások első',
 
-	'SEARCHED_FOR'				=> 'Search term used',
-	'SEARCHED_TOPIC'			=> 'Searched topic',
-	'SEARCH_ALL_TERMS'			=> 'Search for all terms or use query as entered',
-	'SEARCH_ANY_TERMS'			=> 'Search for any terms',
-	'SEARCH_AUTHOR'				=> 'Search for author',
-	'SEARCH_AUTHOR_EXPLAIN'		=> 'Use * as a wildcard for partial matches',
-	'SEARCH_FIRST_POST'			=> 'First post of topics only',
-	'SEARCH_FORUMS'				=> 'Search in forums',
-	'SEARCH_FORUMS_EXPLAIN'		=> 'Select the forum or forums you wish to search in. For speed all subforums can be searched by selecting the parent and setting enable search subforums below.',
-	'SEARCH_IN_RESULTS'			=> 'Search these results',
-	'SEARCH_KEYWORDS_EXPLAIN'	=> 'Place <strong>+</strong> in front of a word which must be found and <strong>-</strong> in front of a word which must not be found. Put a list of words separated by <strong>|</strong> into brackets if only one of the words must be found. Use * as a wildcard for partial matches.',
-	'SEARCH_MSG_ONLY'			=> 'Message text only',
-	'SEARCH_OPTIONS'			=> 'Search options',
-	'SEARCH_QUERY'				=> 'Search query',
-	'SEARCH_SUBFORUMS'			=> 'Search subforums',
-	'SEARCH_TITLE_MSG'			=> 'Post subjects and message text',
-	'SEARCH_TITLE_ONLY'			=> 'Topic titles only',
-	'SEARCH_WITHIN'				=> 'Search within',
-	'SORT_ASCENDING'			=> 'Ascending',
-	'SORT_AUTHOR'				=> 'Author',
-	'SORT_DESCENDING'			=> 'Descending',
-	'SORT_FORUM'				=> 'Forum',
-	'SORT_POST_SUBJECT'			=> 'Post subject',
-	'SORT_TIME'					=> 'Post time',
+	'SEARCHED_FOR'				=> 'Keresett kifejezés', //?
+	'SEARCHED_TOPIC'			=> 'Keresett téma',
+	'SEARCH_ALL_TERMS'			=> 'Keresés az összes szóra, vagy a keresési kifejezés pontos használata', //?? "Search for all terms or use query as entered"
+	'SEARCH_ANY_TERMS'			=> 'Keresés bármely szóra',
+	'SEARCH_AUTHOR'				=> 'Szerző',
+	'SEARCH_AUTHOR_EXPLAIN'		=> 'Részleges szavakhoz használd a * jokerkaraktert.',
+	'SEARCH_FIRST_POST'			=> 'Témák első hozzászólása',
+	'SEARCH_FORUMS'				=> 'Fórumok', //? 'Keresett fórumok'
+	'SEARCH_FORUMS_EXPLAIN'		=> 'Válaszd ki azokat a fórumokat, melyben keresni szeretnél. Ha az alfórumokban is keresni szeretnél, gyorsabb ha itt csak a szülő fórumot választod ki, és igenre állítod a keresés az alfórumokban beállítást.', //?
+	'SEARCH_IN_RESULTS'			=> 'Keresés a találatokban',
+	'SEARCH_KEYWORDS_EXPLAIN'	=> 'Írj „<strong>+</strong>”-t a keresett, valamint „<strong>-</strong>”-t a kizárandó  szavak elé. Ha több szóból csak egy megtalálása is elég, készíts ezekből a szavakból egy „<strong>|</strong>” jellel elválasztott listát, és rakd az egészet zárójelek közé. Részleges szavakhoz használd a * jokerkaraktert.', //? "Place <strong>+</strong> in front of a word which must be found and <strong>-</strong> in front of a word which must not be found. Put a list of words separated by <strong>|</strong> into brackets if only one of the words must be found. Use * as a wildcard for partial matches."
+	'SEARCH_MSG_ONLY'			=> 'Üzenetek szövege',
+	'SEARCH_OPTIONS'			=> 'Keresési beállítások',
+	'SEARCH_QUERY'				=> 'Keresési feltételek',
+	'SEARCH_SUBFORUMS'			=> 'Keresés az 	alfórumokban',
+	'SEARCH_TITLE_MSG'			=> 'Hozzászólások témája és üzenetek szövege',
+	'SEARCH_TITLE_ONLY'			=> 'Témák címe',
+	'SEARCH_WITHIN'				=> 'Keresés tárgya', //??
+	'SORT_ASCENDING'			=> 'Növekvő sorrend',
+	'SORT_AUTHOR'				=> 'Szerző',
+	'SORT_DESCENDING'			=> 'Csökkenő sorrend',
+	'SORT_FORUM'				=> 'Fórum',
+	'SORT_POST_SUBJECT'			=> 'Hozzászólás témája',
+	'SORT_TIME'					=> 'Elküldés időpontja',
 
-	'TOO_FEW_AUTHOR_CHARS'	=> 'You must specify at least %d characters of the authors name.',
+	'TOO_FEW_AUTHOR_CHARS'	=> 'A szerző nevéből legalább %d karaktert meg kell adnod.',
 ));
 
 ?>

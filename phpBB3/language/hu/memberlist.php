@@ -4,7 +4,7 @@
 * memberlist [Hungarian]
 *
 * @package language
-* @version $Id: memberlist.php,v 1.5 2007-02-17 20:00:46 fberci Exp $
+* @version $Id: memberlist.php,v 1.6 2007-03-16 10:25:23 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 	'EMPTY_SUBJECT_EMAIL'	=> 'Meg kell adnod az e-mail témáját.',
 	'EQUAL_TO'				=> 'Annyi, mint', //?
 
-	'FIND_USERNAME_EXPLAIN'	=> 'Ennek az űrlapnak a segítségével konkrét felhasználókra kereshetsz rá. Nem kell az összes mezőt kitöltened. A részleges szavakhoz használd a * jokerkaraktert. A dátumokat <kbd>ÉÉÉÉ-HH-NN</kbd> formában add meg (például <samp>2004-02-29</samp>). Használd a jelölőnégyzeteket egy vagy több felhasználó kiválasztásához (az űrlaptól függ, hányat választhatsz ki), majd kattints a kijelöltek kiválasztása gombra, hogy visszatérj az előző űrlaphoz.', //? YYYY-MM-DD '... konkrét felhasználókat kereshetsz (meg) ...'
+	'FIND_USERNAME_EXPLAIN'	=> 'Ennek az űrlapnak a segítségével konkrét felhasználókra kereshetsz rá. Nem kell az összes mezőt kitöltened. Részleges szavakhoz használd a * jokerkaraktert. A dátumokat <kbd>ÉÉÉÉ-HH-NN</kbd> formában add meg (például <samp>2004-02-29</samp>). Használd a jelölőnégyzeteket egy vagy több felhasználó kiválasztásához (az űrlaptól függ, hányat választhatsz ki), majd kattints a kijelöltek kiválasztása gombra, hogy visszatérj az előző űrlaphoz.', //? YYYY-MM-DD '... konkrét felhasználókat kereshetsz (meg) ...'
 	'FLOOD_EMAIL_LIMIT'		=> 'Most nem küldhetsz több e-mailt. Kérjük próbálkozz később.',
 
 	'GROUP_LEADER'			=> 'Csoportvezető',
