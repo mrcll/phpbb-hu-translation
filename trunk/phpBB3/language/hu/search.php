@@ -4,7 +4,7 @@
 * search [Hungarian]
 *
 * @package language
-* @version $Id: search.php,v 1.5 2007-03-16 10:25:23 fberci Exp $
+* @version $Id: search.php,v 1.6 2007-03-19 21:41:32 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 	'JUMP_TO_POST'			=> 'Ugrás a hozzászóláshoz',
 
 	'NO_KEYWORDS'			=> 'Legalább egy keresendő szót meg kell adnod. Minden szónak legalább %d és legfeljebb %d karakterből kell állnia a helyettesítő jeleket nem számítva.', //? helyettesítő jel: *
-	'NO_RECENT_SEARCHES'	=> 'Nincs nemrégi keresés.', //? "No searches have been carried out recently" - jobb megfogalmazás kéne!
+	'NO_RECENT_SEARCHES'	=> 'Nem történt keresés a közelmúltban.',
 	'NO_SEARCH'				=> 'Sajnos számodra nem engedélyezett a kereső használata.',
 	'NO_SEARCH_RESULTS'		=> 'Nincs a keresési feltéleknek megfelelő találat.', //? "No suitable matches were found."
 	'NO_SEARCH_TIME'		=> 'Most nem használhatod a keresőt. Kérjük próbálkozz újra pár percen belül.',
@@ -57,7 +57,7 @@ $lang = array_merge($lang, array(
 
 	'POST_CHARACTERS'		=> 'karakterének megjelenítése',
 
-	'RECENT_SEARCHES'		=> 'Nemrégi keresések',
+	'RECENT_SEARCHES'		=> 'Legutóbbi keresések',
 	'RESULT_DAYS'			=> 'Időtartam', //??
 	'RESULT_SORT'			=> 'Találatok rendezése',
 	'RETURN_FIRST'			=> 'Hozzászólások első',

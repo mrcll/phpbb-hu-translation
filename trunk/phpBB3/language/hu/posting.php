@@ -4,7 +4,7 @@
 * posting [Hungarian]
 *
 * @package language
-* @version $Id: posting.php,v 1.6 2007-03-16 10:25:23 fberci Exp $
+* @version $Id: posting.php,v 1.7 2007-03-19 21:41:32 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -37,7 +37,7 @@ $lang = array_merge($lang, array(
 	'ADD_POLL'					=> 'Szavazás készítése', //? készítés, hozzáadás stb.?
 	'ADD_POLL_EXPLAIN'			=> 'Ha nem szeretnél szavazást csatolni a témához, hagyd üresen az alábbi mezőket.',
 	'ALREADY_DELETED'			=> 'Az üzenet már törölve lett.',
-	'ATTACH_QUOTA_REACHED'		=> 'A fórum csatolmányainak mérete elérte a limitet.', //?? "Sorry, the board attachment quota has been reached."
+	'ATTACH_QUOTA_REACHED'		=> 'Megtelt a fórum csatolmányainak fenntartott terület.', //?? "Sorry, the board attachment quota has been reached."
 	'ATTACH_SIG'				=> 'Aláírás hozzáadása (az aláírásod a felhasználói vezérlőpultban változtathatod meg)',
 
 	'BBCODE_B_HELP'				=> 'Félkövér: [b]szöveg[/b]',
@@ -73,7 +73,7 @@ $lang = array_merge($lang, array(
 	'DELETE_POST_CONFIRM'		=> 'Biztosan törölni akarod ezt a hozzászólást?',
 	'DELETE_POST_WARN'			=> 'Törlés után a hozzászólás nem visszaállítható.',
 	'DISABLE_BBCODE'			=> 'BBCode kikapcsolása',
-	'DISABLE_MAGIC_URL'			=> 'Url-ek automatikus linkké alakításának kikapcsolása', //? "Do not automatically parse URLs" 'Automatikus URL-feldolgozás kikapcsolása' webcímek?
+	'DISABLE_MAGIC_URL'			=> 'Webcímek automatikus linkké alakításának kikapcsolása', //? "Do not automatically parse URLs" 'Automatikus URL-feldolgozás kikapcsolása' webcímek?
 	'DISABLE_SMILIES'			=> 'Emotikonok kikapcsolása',
 	'DISALLOWED_EXTENSION'		=> 'A %s kiterjesztés nem engedélyezett.',
 	'DRAFT_LOADED'				=> 'A piszkozat sikeresen betöltésre került, most már befejezheted az üzenetet.<br />Miután elküldted ezt az üzenetet, a piszkozat törlésre kerül.',
@@ -112,8 +112,8 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_REPLY'		=> 'Hozzászólás küldéséhez be kell jelentkezned ebben a fórumban.',
 
 	'MAX_FONT_SIZE_EXCEEDED'	=> 'Legfeljebb %1$d nagyságú betűket használhatsz.',
-	'MAX_FLASH_HEIGHT_EXCEEDED'	=> 'Legfeljebb %1$d pixel magas flasht illeszthetsz be a hozzászólásodba.', //? 'A hozzászólásod legfeljebb %$1d pixel magas flasht tartalmazhat.' vagy 'Nem küldhetsz %$1d pixelnél magasabb flasht.'
-	'MAX_FLASH_WIDTH_EXCEEDED'	=> 'Legfeljebb %1$d pixel széles flasht illeszthetsz be a hozzászólásodba.',
+	'MAX_FLASH_HEIGHT_EXCEEDED'	=> 'Legfeljebb %1$d pixel magas flasht animációt illeszthetsz be a hozzászólásodba.', //? 'A hozzászólásod legfeljebb %$1d pixel magas flasht tartalmazhat.' vagy 'Nem küldhetsz %$1d pixelnél magasabb flasht.'
+	'MAX_FLASH_WIDTH_EXCEEDED'	=> 'Legfeljebb %1$d pixel széles flasht animációt illeszthetsz be a hozzászólásodba.',
 	'MAX_IMG_HEIGHT_EXCEEDED'	=> 'Legfeljebb %1$d pixel magas képet illeszthetsz be a hozzászólásodba.',
 	'MAX_IMG_WIDTH_EXCEEDED'	=> 'Legfeljebb %1$d pixel széles képet illeszthetsz be a hozzászólásodba.',
 

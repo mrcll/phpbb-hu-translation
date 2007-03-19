@@ -4,7 +4,7 @@
 * search_ignore_words [Hungarian]
 *
 * @package language
-* @version $Id: search_ignore_words.php,v 1.3 2007-03-17 11:33:37 fberci Exp $
+* @version $Id: search_ignore_words.php,v 1.4 2007-03-19 21:41:32 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -141,6 +141,7 @@ $words = array(
 	'egyéb',
 	'egyebek',
 	'egyebet',
+	'egyébként',
 	'egyedül',
 	'egyelőre',
 	'egyes',
@@ -208,6 +209,7 @@ $words = array(
 	'értünk',
 	'és',
 	'esetben',
+	'esetleg',
 	'ettől',
 	'év',
 	'évben',
@@ -263,12 +265,15 @@ $words = array(
 	'harminc',
 	'három',
 	'hat',
+	'hát',
 	'hátha',
 	'hatodik',
 	'hatodikat',
 	'hatot',
 	'hátulsó',
 	'hatvan',
+	'hello',
+	'helló',
 	'helyett',
 	'hét',
 	'hetedik',
@@ -322,6 +327,7 @@ $words = array(
 	'kellene',
 	'kellett',
 	'kelljen',
+	'kéne',
 	'képest',
 	'kérem',
 	'keressünk',
@@ -377,6 +383,7 @@ $words = array(
 	'kívül',
 	'korábban',
 	'körül',
+	'köszi',
 	'köszönhetően',
 	'köszönöm',
 	'közben',
@@ -681,7 +688,8 @@ $words = array(
 	'szerintük',
 	'szerintünk',
 	'szervusz',
-	'szinte',
+	'szia',
+	'sziasztok',
 	'szíves',
 	'szívesen',
 	'szíveskedjék',
