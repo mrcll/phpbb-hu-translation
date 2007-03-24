@@ -1,10 +1,10 @@
 <?php
 /** 
 *
-* mcp [English]
+* mcp [Hungarian]
 *
 * @package language
-* @version $Id: mcp.php,v 1.3 2007-01-28 20:32:49 fberci Exp $
+* @version $Id: mcp.php,v 1.4 2007-03-24 22:39:35 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -31,132 +31,132 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACTION'				=> 'Action',
-	'ADD_FEEDBACK'			=> 'Add feedback',
-	'ADD_FEEDBACK_EXPLAIN'	=> 'If you would like to add a report on this please fill out the following form. Only use plain text; HTML, BBCode, etc. are not permitted.',
-	'ADD_WARNING'			=> 'Add warning',
-	'ADD_WARNING_EXPLAIN'	=> 'To send a warning to this user please fill out the following form. Only use plain text; HTML, BBCode, etc. are not permitted.',
-	'ALL_ENTRIES'			=> 'All entries',
-	'ALL_NOTES_DELETED'		=> 'Successfully removed all user notes',
-	'ALL_REPORTS'			=> 'All reports',
-	'ALREADY_REPORTED'		=> 'This post has already been reported',
-	'ALREADY_WARNED'		=> 'A warning has already been issued for this post',
-	'APPROVE'				=> 'Approve',
-	'APPROVE_POST'			=> 'Approve post',
-	'APPROVE_POST_CONFIRM'	=> 'Are you sure you want to approve this post?',
-	'APPROVE_POSTS'			=> 'Approve posts',
-	'APPROVE_POSTS_CONFIRM'	=> 'Are you sure you want to approve the selected posts?',
+	'ACTION'				=> 'Művelet', //?
+	'ADD_FEEDBACK'			=> 'Feljegyzés hozzáadása', //? fejlegyzés? hozzáadás?
+	'ADD_FEEDBACK_EXPLAIN'	=> 'Ha hozzá szeretnél adni egy feljegyzést, töltsd ki az alábbi űrlapot. Csak sima szöveget írj, a HTML, BBCode stb. nem engedélyezett.', //?? "If you would like to add a report on this please fill out the following form. Only use plain text; HTML, BBCode, etc. are not permitted."
+	'ADD_WARNING'			=> 'Felhasználó figyelmeztetése', //? 'Figyelmeztetés', 'Figyelmeztetés hozzáadása'
+	'ADD_WARNING_EXPLAIN'	=> 'Ha figyelmezetetni szeretnéd ezt a felhasználót, töltsd ki az alábbi űrlpoat. Csak sima szöveget írj, a HTML, BBCode stb. nem engedélyezett.',
+	'ALL_ENTRIES'			=> 'Összes bejegyzés', //?
+	'ALL_NOTES_DELETED'		=> 'Az összes felhasználói megjegyzés sikeresen törlésre került.', //? "Successfully removed all user notes"
+	'ALL_REPORTS'			=> 'Összes jelentés',
+	'ALREADY_REPORTED'		=> 'A hozzászólás már jelentették.',
+	'ALREADY_WARNED'		=> 'Egy figyelmeztetés már kiosztásra került ennek a hozzászólásnak kapcsán.', //? kiosztás? "A warning has already been issued for this post"
+	'APPROVE'				=> 'Jóváhagyás',
+	'APPROVE_POST'			=> 'Hozzászólás jóváhagyása',
+	'APPROVE_POST_CONFIRM'	=> 'Biztosan jóvá akarod hagyni a kiválasztott hozzászólást?',
+	'APPROVE_POSTS'			=> 'Hozzászólások jóváhagyása',
+	'APPROVE_POSTS_CONFIRM'	=> 'Biztosan jóvá akarod hagyni a kiválasztott hozzászólásokat?',
 
-	'CANNOT_MOVE_SAME_FORUM'=> 'You cannot move a topic to the forum it’s already in',
-	'CANNOT_WARN_ANONYMOUS'	=> 'You cannot warn unregistered guest users',
-	'CANNOT_WARN_SELF'		=> 'You cannot warn yourself',
-	'CAN_LEAVE_BLANK'		=> 'This can be left blank.',
-	'CHANGE_POSTER'			=> 'Change poster',
-	'CLOSE_REPORT'			=> 'Close report',
-	'CLOSE_REPORT_CONFIRM'	=> 'Are you sure you want to close the selected report?',
-	'CLOSE_REPORTS'			=> 'Close reports',
-	'CLOSE_REPORTS_CONFIRM'	=> 'Are you sure you want to close the selected reports?',
+	'CANNOT_MOVE_SAME_FORUM'=> 'Egy témát nem helyezhetsz át abba a fórumba, amiben jelenleg van.',
+	'CANNOT_WARN_ANONYMOUS'	=> 'Nem tudod figyelmeztetni a nem regisztrált (vendég) felhasználókat.',
+	'CANNOT_WARN_SELF'		=> 'Nem figyelmeztetheted saját magad.',
+	'CAN_LEAVE_BLANK'		=> 'Ez üresen hagyható.',
+	'CHANGE_POSTER'			=> 'Küldő megváltoztatása',
+	'CLOSE_REPORT'			=> 'Jelentés lezárása',
+	'CLOSE_REPORT_CONFIRM'	=> 'Biztosan le akarod zárni a kiválasztott jelentést?',
+	'CLOSE_REPORTS'			=> 'Jelentések lezárása',
+	'CLOSE_REPORTS_CONFIRM'	=> 'Biztosan le akarod zárni a kiválasztott jelentéseket?',
 
-	'DELETE_POSTS'				=> 'Delete posts',
-	'DELETE_POSTS_CONFIRM'		=> 'Are you sure you want to delete these posts?',
-	'DELETE_POST_CONFIRM'		=> 'Are you sure you want to delete this post?',
-	'DELETE_REPORT'				=> 'Delete report',
-	'DELETE_REPORT_CONFIRM'		=> 'Are you sure you want to delete the selected report?',
-	'DELETE_REPORTS'			=> 'Delete reports',
-	'DELETE_REPORTS_CONFIRM'	=> 'Are you sure you want to delete the selected reports?',
-	'DELETE_SHADOW_TOPIC'		=> 'Delete shadow topic',
-	'DELETE_TOPICS'				=> 'Delete selected topics',
-	'DELETE_TOPICS_CONFIRM'		=> 'Are you sure you want to delete these topics?',
-	'DELETE_TOPIC_CONFIRM'		=> 'Are you sure you want to delete this topic?',
-	'DISAPPROVE'				=> 'Disapprove',
-	'DISAPPROVE_REASON'			=> 'Reason for disapproval',
-	'DISAPPROVE_POST'			=> 'Disapprove post',
-	'DISAPPROVE_POST_CONFIRM'	=> 'Are you sure you want to disapprove this post?',
-	'DISAPPROVE_POSTS'			=> 'Disapprove posts',
-	'DISAPPROVE_POSTS_CONFIRM'	=> 'Are you sure you want to disapprove the selected posts?',
-	'DISPLAY_LOG'				=> 'Display entries from previous',
-	'DISPLAY_OPTIONS'			=> 'Display options',
+	'DELETE_POSTS'				=> 'Hozzászólások törlése',
+	'DELETE_POSTS_CONFIRM'		=> 'Biztosan törölni akarod ezeket a hozzászólásokat?',
+	'DELETE_POST_CONFIRM'		=> 'Biztosan törölni akarod ezt a hozzászólást?',
+	'DELETE_REPORT'				=> 'Jelentés törlése',
+	'DELETE_REPORT_CONFIRM'		=> 'Biztosan törölni akarod a kiválasztott jelentést?',
+	'DELETE_REPORTS'			=> 'Jelentések törlése',
+	'DELETE_REPORTS_CONFIRM'	=> 'Biztosan törölni akarod a kiválasztott jelentéseket?',
+	'DELETE_SHADOW_TOPIC'		=> 'Árnyék téma törlése',
+	'DELETE_TOPICS'				=> 'Kiválasztott témák törlése',
+	'DELETE_TOPICS_CONFIRM'		=> 'Biztosan törölni akarod ezeket a témákat?',
+	'DELETE_TOPIC_CONFIRM'		=> 'Biztosan törölni akarod ezt a témát?',
+	'DISAPPROVE'				=> 'Elutasítás', //?
+	'DISAPPROVE_REASON'			=> 'Elutasítás oka',
+	'DISAPPROVE_POST'			=> 'Hozzászólás elutasítása',
+	'DISAPPROVE_POST_CONFIRM'	=> 'Biztosan el akarod utasítani ezt a hozzászólást?',
+	'DISAPPROVE_POSTS'			=> 'Hozzászólások elutasítása',
+	'DISAPPROVE_POSTS_CONFIRM'	=> 'Biztosan el akarod utasítani a kiválasztott hozzászólásokat?',
+	'DISPLAY_LOG'				=> 'Bejegyzések megjelenítése',
+	'DISPLAY_OPTIONS'			=> 'Megjelenítés beállítások', //??
 
-	'EMPTY_REPORT'					=> 'You must enter a description when selecting this reason',
-	'EMPTY_TOPICS_REMOVED_WARNING'	=> 'Please note that one or several topics have been removed from the database because they were or become empty',
+	'EMPTY_REPORT'					=> 'Ezen ok kiválasztásánál nem hagyatod üresen a leírást.',
+	'EMPTY_TOPICS_REMOVED_WARNING'	=> 'Egy vagy több téma törlésre került az adatbázisból, mivel üressé vált.', //? Eredetileg please note van, de ez eg üzenet
 
-	'FEEDBACK'				=> 'Feedback',
-	'FORK'					=> 'Fork',
-	'FORK_TOPIC'			=> 'Fork topic',
-	'FORK_TOPIC_CONFIRM'	=> 'Are you sure you want to copy this topic?',
-	'FORK_TOPICS'			=> 'Fork selected topics',
-	'FORK_TOPICS_CONFIRM'	=> 'Are you sure you want to copy the selected topics?',
-	'FORUM_DESC'			=> 'Description',
-	'FORUM_NAME'			=> 'Forum name',
-	'FORUM_NOT_EXIST'		=> 'The forum you selected does not exist',
-	'FORUM_NOT_POSTABLE'	=> 'The forum you selected cannot be posted to',
-	'FORUM_STATUS'			=> 'Forum status',
-	'FORUM_STYLE'			=> 'Forum style',
+	'FEEDBACK'				=> 'Feljegyzések', //?
+	'FORK'					=> 'Elágaztatás', //? = másolás
+	'FORK_TOPIC'			=> 'Téma elágaztatása',
+	'FORK_TOPIC_CONFIRM'	=> 'Biztosan meg akarod kettőzni ezt a témát?', //? eredetileg másolni (copy)
+	'FORK_TOPICS'			=> 'Kiválasztott témák elágaztatása',
+	'FORK_TOPICS_CONFIRM'	=> 'Biztosan meg akarod kettőzni a kiválasztott témákat?',
+	'FORUM_DESC'			=> 'Leírás',
+	'FORUM_NAME'			=> 'Fórum neve', //? cím?
+	'FORUM_NOT_EXIST'		=> 'A kiválasztott fórum nem létezik.',
+	'FORUM_NOT_POSTABLE'	=> 'A kiválasztott fórumba nem lehet hozzászólást küldeni.',
+	'FORUM_STATUS'			=> 'Fórum állapta', //?
+	'FORUM_STYLE'			=> 'Fórum megjelenése', //?
 
-	'GLOBAL_ANNOUNCEMENT'	=> 'Global announcement',
+	'GLOBAL_ANNOUNCEMENT'	=> 'Globális közlemény',
 
-	'IP_INFO'				=> 'IP address information',
-	'IPS_POSTED_FROM'		=> 'IP addresses this user has posted from',
+	'IP_INFO'				=> 'IP-cím adatok',
+	'IPS_POSTED_FROM'		=> 'Felhasználó IP-címei, melyekről hozzászólást küldött', //?
 
-	'LATEST_LOGS'				=> 'Latest 5 logged actions',
-	'LATEST_REPORTED'			=> 'Latest 5 reports',
-	'LATEST_UNAPPROVED'			=> 'Latest 5 posts awaiting for approval',
-	'LATEST_WARNING_TIME'		=> 'Latest warning issued',
-	'LATEST_WARNINGS'			=> 'Latest 5 warnings',
-	'LEAVE_SHADOW'				=> 'Leave shadow topic in place',
-	'LIST_REPORT'				=> '1 report',
-	'LIST_REPORTS'				=> '%d reports',
-	'LOCK'						=> 'Lock',
-	'LOCK_POST_POST'			=> 'Lock post',
-	'LOCK_POST_POST_CONFIRM'	=> 'Are you sure you want to prevent editing this post?',
-	'LOCK_POST_POSTS'			=> 'Lock selected posts',
-	'LOCK_POST_POSTS_CONFIRM'	=> 'Are you sure you want to prevent editing the selected posts?',
-	'LOCK_TOPIC_CONFIRM'		=> 'Are you sure you want to lock this topic?',
-	'LOCK_TOPICS'				=> 'Lock selected topics',
-	'LOCK_TOPICS_CONFIRM'		=> 'Are you sure you want to lock all selected topics?',
-	'LOGS_CURRENT_TOPIC'		=> 'Currently viewing logs of:',
-	'LOGIN_EXPLAIN_MCP'			=> 'To moderate this forum you must login.',
-	'LOGVIEW_VIEWTOPIC'			=> 'View topic',
-	'LOGVIEW_VIEWLOGS'			=> 'View topic log',
-	'LOGVIEW_VIEWFORUM'			=> 'View forum',
-	'LOOKUP_ALL'				=> 'Look up all IPs',
-	'LOOKUP_IP'					=> 'Look up IP',
+	'LATEST_LOGS'				=> 'Legutóbbi 5 naplózott művelet', //? "Latest 5 logged actions" naplózott-feljegyzett?
+	'LATEST_REPORTED'			=> 'Legutóbbi 5 jelentés',
+	'LATEST_UNAPPROVED'			=> 'Legutóbbi 5 jóváhagyásra váró hozzászólás',
+	'LATEST_WARNING_TIME'		=> 'Legutóbbi figyelmeztetések',
+	'LATEST_WARNINGS'			=> 'Legutóbbi 5 figyelmeztetés',
+	'LEAVE_SHADOW'				=> 'Árnyék téma hagyása a régi fórumban',
+	'LIST_REPORT'				=> '1 jelentés',
+	'LIST_REPORTS'				=> '%d jelentés',
+	'LOCK'						=> 'Lezárás',
+	'LOCK_POST_POST'			=> 'Hozzászólás lezárása',
+	'LOCK_POST_POST_CONFIRM'	=> 'Biztosan azt akarod, hogy ne lehessen szerkeszteni ezt a hozzászólást?',
+	'LOCK_POST_POSTS'			=> 'Kiválasztott hozzászólások lezárása',
+	'LOCK_POST_POSTS_CONFIRM'	=> 'Biztosan azt akarod, hogy ne lehessen szerkeszteni a kiválasztott hozzászólásokat?',
+	'LOCK_TOPIC_CONFIRM'		=> 'Biztosan le akarod zárni ezt a témát?',
+	'LOCK_TOPICS'				=> 'Kiválasztott témák lezárása',
+	'LOCK_TOPICS_CONFIRM'		=> 'Biztosan le akarod zárni az összes kiválasztott témát?',
+	'LOGS_CURRENT_TOPIC'		=> 'Téma napló bejegyzéseinek megtekintése:', //? "Currently viewing logs of"
+	'LOGIN_EXPLAIN_MCP'			=> 'A fórum moderálásához be kell jelentkezned.',
+	'LOGVIEW_VIEWTOPIC'			=> 'Téma megtekintése',
+	'LOGVIEW_VIEWLOGS'			=> 'Téma naplójának megtekintése', //?
+	'LOGVIEW_VIEWFORUM'			=> 'Fórum megtekintése',
+	'LOOKUP_ALL'				=> 'Összes IP keresése',
+	'LOOKUP_IP'					=> 'IP keresése',
 
-	'MARKED_NOTES_DELETED'		=> 'Successfully removed all marked user notes',
+	'MARKED_NOTES_DELETED'		=> 'A megjelelölt felhasználói feljegyzések sikeresen törlésre kerültek.',
 
-	'MCP_ADD'						=> 'Add a warning',
+	'MCP_ADD'						=> 'Figyelmeztetés', //? "Add a warning"
 
-	'MCP_BAN'					=> 'Banning',
-	'MCP_BAN_EMAILS'			=> 'Ban emails',
-	'MCP_BAN_IPS'				=> 'Ban IPs',
-	'MCP_BAN_USERNAMES'			=> 'Ban Usernames',
+	'MCP_BAN'					=> 'Kitiltások',
+	'MCP_BAN_EMAILS'			=> 'E-mail címek kitiltása',
+	'MCP_BAN_IPS'				=> 'IP-címek kitiltása',
+	'MCP_BAN_USERNAMES'			=> 'Felhasználók kitiltása',
 
-	'MCP_LOGS'						=> 'Moderator logs',
-	'MCP_LOGS_FRONT'				=> 'Front page',
-	'MCP_LOGS_FORUM_VIEW'			=> 'Forum logs',
-	'MCP_LOGS_TOPIC_VIEW'			=> 'Topic logs',
+	'MCP_LOGS'						=> 'Moderátori napló',
+	'MCP_LOGS_FRONT'				=> 'Kezdőlap',
+	'MCP_LOGS_FORUM_VIEW'			=> 'Fórumok naplója', //?
+	'MCP_LOGS_TOPIC_VIEW'			=> 'Témák naplója', //?
 
-	'MCP_MAIN'						=> 'Main',
-	'MCP_MAIN_FORUM_VIEW'			=> 'View forum',
-	'MCP_MAIN_FRONT'				=> 'Front page',
-	'MCP_MAIN_POST_DETAILS'			=> 'Post details',
-	'MCP_MAIN_TOPIC_VIEW'			=> 'View topic',
-	'MCP_MAKE_ANNOUNCEMENT'			=> 'Modify to “Announcement”',
-	'MCP_MAKE_ANNOUNCEMENT_CONFIRM'	=> 'Are you sure you want to change this topic to an “Announcement”?',
-	'MCP_MAKE_ANNOUNCEMENTS'		=> 'Modify to “Announcements”',
-	'MCP_MAKE_ANNOUNCEMENTS_CONFIRM'=> 'Are you sure you want to change the selected topics to “Announcements”?',
-	'MCP_MAKE_GLOBAL'				=> 'Modify to “Global announcement”',
-	'MCP_MAKE_GLOBAL_CONFIRM'		=> 'Are you sure you want to change this topic to a “Global announcement”?',
-	'MCP_MAKE_GLOBALS'				=> 'Modify to “Global announcements”',
-	'MCP_MAKE_GLOBALS_CONFIRM'		=> 'Are you sure you want to change the selected topics to “Global announcements”?',
-	'MCP_MAKE_STICKY'				=> 'Modify to “Sticky”',
-	'MCP_MAKE_STICKY_CONFIRM'		=> 'Are you sure you want to change this topic to a “Sticky”?',
-	'MCP_MAKE_STICKIES'				=> 'Modify to “Stickie”s',
-	'MCP_MAKE_STICKIES_CONFIRM'		=> 'Are you sure you want to change the selected topics to “Stickies”?',
-	'MCP_MAKE_NORMAL'				=> 'Modify to “Standard Topic”',
-	'MCP_MAKE_NORMAL_CONFIRM'		=> 'Are you sure you want to change this topic to a “Standard Topic”?',
-	'MCP_MAKE_NORMALS'				=> 'Modify to “Standard Topics”',
-	'MCP_MAKE_NORMALS_CONFIRM'		=> 'Are you sure you want to change the selected topics to “Standard Topics”?',
+	'MCP_MAIN'						=> 'Általános', //?
+	'MCP_MAIN_FORUM_VIEW'			=> 'Fórum megtektintése',
+	'MCP_MAIN_FRONT'				=> 'Kezdőlap',
+	'MCP_MAIN_POST_DETAILS'			=> 'Hozzászólás adatok',
+	'MCP_MAIN_TOPIC_VIEW'			=> 'Téma megtekintése',
+	'MCP_MAKE_ANNOUNCEMENT'			=> 'Közleménnyé tétel',
+	'MCP_MAKE_ANNOUNCEMENT_CONFIRM'	=> 'Biztosan közleménnyé akarod tenni ezt a témát?',
+	'MCP_MAKE_ANNOUNCEMENTS'		=> 'Közleménnyé tétel',
+	'MCP_MAKE_ANNOUNCEMENTS_CONFIRM'=> 'Biztosan közleményekké akarod tenni a kiválasztott témákat?',
+	'MCP_MAKE_GLOBAL'				=> 'Globális közleménnyé tétel',
+	'MCP_MAKE_GLOBAL_CONFIRM'		=> 'Biztosan globális közleménnyé akarod tenni ezt a témát?',
+	'MCP_MAKE_GLOBALS'				=> 'Globális közleménnyé tétel',
+	'MCP_MAKE_GLOBALS_CONFIRM'		=> 'Biztosan globális közleményekké akarod tenni a kiválasztott témákat?',
+	'MCP_MAKE_STICKY'				=> 'Kiemeltté tétel',
+	'MCP_MAKE_STICKY_CONFIRM'		=> 'Biztosan kiemeltté akarod tenni ezt a témát?',
+	'MCP_MAKE_STICKIES'				=> 'Kiemeltté tétel',
+	'MCP_MAKE_STICKIES_CONFIRM'		=> 'Biztosan kiemeltté akarod tenni a kiválasztott témákat?',
+	'MCP_MAKE_NORMAL'				=> 'Normáli témává tétel',
+	'MCP_MAKE_NORMAL_CONFIRM'		=> 'Biztosan normál témává akarod tenni ezt a témát?',
+	'MCP_MAKE_NORMALS'				=> 'Normál témává tétel',
+	'MCP_MAKE_NORMALS_CONFIRM'		=> 'Biztosan normál témává akarod tenni a kiválsztott témákat?',
 
 	'MCP_NOTES'						=> 'User notes',
 	'MCP_NOTES_FRONT'				=> 'Front page',

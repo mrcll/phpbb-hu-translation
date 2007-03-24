@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.29 2007-03-15 21:01:18 fberci Exp $
+* @version $Id: common.php,v 1.30 2007-03-24 22:39:35 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -109,7 +109,7 @@ $lang = array_merge($lang, array(
 	'COMMA_SEPARATOR'		=> ', ', // Used in pagination and secret yet-to-be-release style, use localised comma if appropiate, eg: Ideographic or Arabic
 	'CONFIRM'				=> 'Megerősítés',
 	'CONFIRM_CODE'			=> 'Megerősítő kód',
-	'CONFIRM_CODE_EXPLAIN'	=> 'Add meg a képen látható kódot. A kis- vagy nagybetűk nem számítanak, valamint nincs nulla.',
+	'CONFIRM_CODE_EXPLAIN'	=> 'Gépeld be a képen látható kódot. A kis- vagy nagybetűk nem számítanak, valamint nincs nulla.',
 	'CONFIRM_CODE_WRONG'	=> 'A megadott megerősítő kód hibás.',
 	'CONFIRM_OPERATION'		=> 'Biztosan végre akarod hajtani ezt a műveletet?',
 	'CONGRATULATIONS'		=> 'Gratulálunk',
@@ -154,7 +154,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION'							=> 'Kiterjesztés',
 	'EXTENSION_DISABLED_AFTER_POSTING'	=> 'A <b>%s</b> kiterjesztés deaktiválva lett, ezért a csatolmány nem kerül megjelenítésre.',
 
-	'FAQ'					=> 'Gy.i.k.',
+	'FAQ'					=> 'GYIK',
 	'FAQ_EXPLAIN'			=> 'Gyakran ismételt kérdések',
 
 	'FILENAME'				=> 'Állomány neve',
@@ -423,7 +423,7 @@ $lang = array_merge($lang, array(
 	'REPLY_WITH_QUOTE'			=> 'Hozzászólás az előzmény idézésével',
 	'REPLYING_GLOBAL_ANNOUNCE'	=> 'Válasz írása egy általános közleményre',
 	'REPLYING_MESSAGE'			=> 'Válasz írása a %s fórumban',
-	'REPORT_BY'					=> 'Jelentés küldője',
+	'REPORT_BY'					=> 'Felhasználó',
 	'REPORT_POST'				=> 'Hozzászólás jelentése',
 	'REPORTING_POST'			=> 'Hozzászólás jelentése',
 	'RESEND_ACTIVATION'			=> 'Aktivációs e-mail újraküldése',
