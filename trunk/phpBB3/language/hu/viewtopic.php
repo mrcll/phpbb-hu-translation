@@ -4,7 +4,7 @@
 * viewtopic [Hungarian]
 *
 * @package language
-* @version $Id: viewtopic.php,v 1.5 2007-02-17 20:00:46 fberci Exp $
+* @version $Id: viewtopic.php,v 1.6 2007-03-24 22:39:35 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -59,7 +59,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_VIEWTOPIC'		=> 'A téma megtekintéséhez be kell jelentkezned.',
 
 	'MAKE_ANNOUNCE'				=> 'Közleménnyé tétel',
-	'MAKE_GLOBAL'				=> 'Általános közleménnyé tétel',
+	'MAKE_GLOBAL'				=> 'Globális közleménnyé tétel',
 	'MAKE_NORMAL'				=> 'Normál témává tétel',
 	'MAKE_STICKY'				=> 'Kiemeltté tétel',
 	'MAX_OPTIONS_SELECT'		=> '<strong>%d</strong> választási lehetőségre szavazhatsz.',
