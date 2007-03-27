@@ -4,7 +4,7 @@
 * mcp [Hungarian]
 *
 * @package language
-* @version $Id: mcp.php,v 1.5 2007-03-26 19:27:54 fberci Exp $
+* @version $Id: mcp.php,v 1.6 2007-03-27 19:12:18 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -162,14 +162,14 @@ $lang = array_merge($lang, array(
 	'MCP_NOTES_FRONT'				=> 'Kezdőlap',
 	'MCP_NOTES_USER'				=> 'Felhasználói adatok', //?
 
-	'MCP_REPORTS'					=> 'Jelentett hozzászólások',
+	'MCP_REPORTS'					=> 'Jelentett hozzászólások', //? 'Jelentések' - ez nem jobb?
 	'MCP_REPORT_DETAILS'			=> 'Részletes jelentés', //?
 	'MCP_REPORTS_CLOSED'			=> 'Lezárt jelentések',
 	'MCP_REPORTS_CLOSED_EXPLAIN'	=> 'Ez a lista azokat a jelentéseket tartalmazza, melyek már megoldásra kerültek.', //? megoldás?
 	'MCP_REPORTS_OPEN'				=> 'Nyitott jelentések',
 	'MCP_REPORTS_OPEN_EXPLAIN'		=> 'Ez a lista azokat a jelentéseket tartalmazza, melyek még megoldásra várnak.', //?
 
-	'MCP_QUEUE'								=> 'Moderálandók', //?????????? 'Moderációs sor'??? 'Moderálásra váró elemek'??
+	'MCP_QUEUE'								=> 'Moderálandók', //?????????? 'Moderációs sor'??? 'Moderálásra váró elemek'?? 'Átnézendők'
 	'MCP_QUEUE_APPROVE_DETAILS'				=> 'Hozzászólás adatok', //?? "Approve details"
 	'MCP_QUEUE_UNAPPROVED_POSTS'			=> 'Jóváhagyásra váró hozzászólások',
 	'MCP_QUEUE_UNAPPROVED_POSTS_EXPLAIN'	=> 'Ez a lista azokat a hozzászólásokat tartalmazza, melyek egyelőre nem láthatók a felhasználók számára, mivel még nem kerültek jóváhagyásra.', //?
@@ -184,38 +184,38 @@ $lang = array_merge($lang, array(
 	'MCP_WARN_POST'			=> 'Figyelmeztetés egy bizonyos hozzászólásért', //? "Warn for specific post" meghatározott?
 	'MCP_WARN_USER'			=> 'Felhasználó figyelmeztetése',
 
-	'MERGE_POSTS'			=> 'Merge posts',
-	'MERGE_POSTS_CONFIRM'	=> 'Are you sure you want to merge the selected posts?',
-	'MERGE_TOPIC_EXPLAIN'	=> 'Using the form below you can merge selected posts into another topic. These posts will not be reordered and will appear as if the users posted them to the new topic.<br />Please enter the destination topic id or click on the "Select" button to search for one',
-	'MERGE_TOPIC_ID'		=> 'Destination topic identification number',
-	'MODERATE_FORUM'		=> 'Moderate forum',
-	'MOD_OPTIONS'			=> 'Moderator options',
-	'MORE_INFO'				=> 'Further information',
-	'MOST_WARNINGS'			=> 'Users with most warnings',
-	'MOVE_TOPIC_CONFIRM'	=> 'Are you sure you want to move the topic into a new forum?',
-	'MOVE_TOPICS'			=> 'Move selected topics',
-	'MOVE_TOPICS_CONFIRM'	=> 'Are you sure you want to move the selected topics into a new forum?',
+	'MERGE_POSTS'			=> 'Hozzászólások áthelyezése',
+	'MERGE_POSTS_CONFIRM'	=> 'Biztosan át akarod helyezni a kiválasztott hozzászólásokat?',
+	'MERGE_TOPIC_EXPLAIN'	=> 'Az alábbi űrlap segítségével hozzászólásokat helyezhetsz át egy másik témába. A hozzászólások nem lesznek újrarendezve, úgy fognak megjelenni, mintha eleve oda küldték volna őket.<br />Add meg céltéma azonosítóját, vagy kattints a „Téma kiválasztása” gombra, hogy megkeresd a témát.', //? újrarendezve
+	'MERGE_TOPIC_ID'		=> 'Céltéma azonosító szám',
+	'MODERATE_FORUM'		=> 'Fórum moderálása',
+	'MOD_OPTIONS'			=> 'Moderálási lehetőségek', //?? (hozzászólás adatainál) 'Moderáció lehetőségek' ???
+	'MORE_INFO'				=> 'További információ',
+	'MOST_WARNINGS'			=> 'Legtöbb figyelmeztetéssel rendelkező felhasználók', //? "Users with most warnings" 'Legtöbbet figyelmeztett felhasználók' valami rövidebb kéne... (+ a jelentése is jó legyen)
+	'MOVE_TOPIC_CONFIRM'	=> 'Biztosan át akarod helyezni ezt a témát egy új fórumba?',
+	'MOVE_TOPICS'			=> 'Kiválasztott témák áthelyezése',
+	'MOVE_TOPICS_CONFIRM'	=> 'Biztosan át akarod helyezni a kiválasztott témákat egy új fórumba?',
 
-	'NOTIFY_POSTER_APPROVAL'		=> 'Notify poster about approval?',
-	'NOTIFY_POSTER_DISAPPROVAL'		=> 'Notify poster about disapproval?',
-	'NOTIFY_USER_WARN'				=> 'Notify user about warning?',
-	'NOT_MODERATOR'					=> 'You are not a moderator of this forum',
-	'NO_DESTINATION_FORUM'			=> 'Please select a forum for destination',
+	'NOTIFY_POSTER_APPROVAL'		=> 'Küldő értesítése a jóváhagyásról', //? kérdőjel a végükre (első 3)?
+	'NOTIFY_POSTER_DISAPPROVAL'		=> 'Küldő értesítése az elutasításról',
+	'NOTIFY_USER_WARN'				=> 'Felhasználó értesítése a figyelmeztetésről',
+	'NOT_MODERATOR'					=> 'Nem vagy a fórum moderátora.',
+	'NO_DESTINATION_FORUM'			=> 'Kérünk válaszd ki a céltémát.', //? kérünk? "Please select a forum for destination"
 	'NO_DESTINATION_FORUM_FOUND'	=> 'There is no destination forum available.',
-	'NO_ENTRIES'					=> 'No log entries for this period',
-	'NO_FEEDBACK'					=> 'No feedback exists for this user',
-	'NO_FINAL_TOPIC_SELECTED'		=> 'You have to select a destination topic for merging posts',
-	'NO_MATCHES_FOUND'				=> 'No matches found',
-	'NO_POST'						=> 'You have to select a post in order to warn the user for a post',
-	'NO_POST_REPORT'				=> 'This post was not reported.',
-	'NO_POST_SELECTED'				=> 'You must select at least one post to perform this action',
-	'NO_REASON_DISAPPROVAL'			=> 'Please give an appropriate reason for disapproval',
-	'NO_REPORTS'					=> 'No reports',	
-	'NO_TOPIC_ICON'					=> 'None',
-	'NO_TOPIC_SELECTED'				=> 'You must select at least one topic to perform this action',
+	'NO_ENTRIES'					=> 'Ebben az időtartamban nincs napló bejegyzés.', //? "No log entries for this period" nyelvtan-fogalmazás-értelem
+	'NO_FEEDBACK'					=> 'Nem tartozik feljegyzés ehhez a felhasználóhoz.',
+	'NO_FINAL_TOPIC_SELECTED'		=> 'Hozzászólások áthelyezésénél meg kell adnod egy céltémát.',
+	'NO_MATCHES_FOUND'				=> 'Nincs találat', //?? "No matches found"
+	'NO_POST'						=> 'Ki kell választanod egy hozzászólást, hogy figyelmeztethesd a felhasználót egy hozzászólásáért.', //? Furán hangzik, de nagyjából erről van szó... :)
+	'NO_POST_REPORT'				=> 'Ezt a hozzászólást nem jelentették.',
+	'NO_POST_SELECTED'				=> 'Legalább egy hozzászólást ki kell választanod, hogy elvégezhesd ezt a műveletet.', //? végrehajthasd?
+	'NO_REASON_DISAPPROVAL'			=> 'Kérünk adj meg egy megfelelő okot az elutasításra.', //?? appropriate??
+	'NO_REPORTS'					=> 'Nincsenek jelentések.',	
+	'NO_TOPIC_ICON'					=> 'nincs', //? nagybetű?
+	'NO_TOPIC_SELECTED'				=> 'Legalább egy témát ki kell választanod, hogy elvégezhesd ezt a műveletet.', //? végrehajthasd?
 
-	'ONLY_TOPIC'			=> 'Only topic "%s"',
-	'OTHER_USERS'			=> 'Users posting from this IP',
+	'ONLY_TOPIC'			=> 'Csak a "%s" téma', //? témából stb.? (Moderálandóknál)
+	'OTHER_USERS'			=> 'Más felhasználók, akik erről az IP-ről küldtek hozzászólást', //? kicsit hosszú...
 
 	'POSTER'					=> 'Poster',
 	'POSTS_APPROVED_SUCCESS'	=> 'The selected posts have been approved',

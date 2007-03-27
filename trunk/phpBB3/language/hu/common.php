@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.30 2007-03-24 22:39:35 fberci Exp $
+* @version $Id: common.php,v 1.31 2007-03-27 19:12:18 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -467,7 +467,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_UNANSWERED'			=> 'Megválaszolatlan hozzászólások',
 	'SECONDS'					=> 'másodperc',
 	'SELECT'					=> 'Kiválasztás',
-	'SELECT_DESTINATION_FORUM'	=> 'Adj meg egy célfórumot.',
+	'SELECT_DESTINATION_FORUM'	=> 'Kérünk válaszd ki a célfórumot.',
 	'SELECT_FORUM'				=> 'Fórum kiválasztása',
 	'SEND_EMAIL'				=> 'E-mail küldése',
 	'SEND_PRIVATE_MESSAGE'		=> 'Privát üzenet küldése',
