@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.31 2007-03-27 19:12:18 fberci Exp $
+* @version $Id: common.php,v 1.32 2007-03-29 17:45:21 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -391,7 +391,7 @@ $lang = array_merge($lang, array(
 	'POST_REPORTED'			=> 'Kattints ide a jelentés megtekintéséhez',
 	'POST_SUBJECT'			=> 'Hozzászólás témája',
 	'POST_TIME'				=> 'Elküldés ideje',
-	'POST_UNAPPROVED'		=> 'A hozzászólás jóváhagyásra vár.',
+	'POST_UNAPPROVED'		=> 'A hozzászólás jóváhagyásra vár',
 	'PREVIEW'				=> 'Előnézet',
 	'PREVIOUS'				=> 'Előző',
 	'PRIVACY'				=> 'Adatvédelmi nyilatkozat',
