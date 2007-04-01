@@ -4,7 +4,7 @@
 * mcp [Hungarian]
 *
 * @package language
-* @version $Id: mcp.php,v 1.7 2007-03-29 17:45:21 fberci Exp $
+* @version $Id: mcp.php,v 1.8 2007-04-01 15:42:01 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -180,7 +180,7 @@ $lang = array_merge($lang, array(
 
 	'MCP_WARN'				=> 'Figyelmeztetések',
 	'MCP_WARN_FRONT'		=> 'Kezdőlap',
-	'MCP_WARN_LIST'			=> 'Figyelmeztetések listája', //? nem inkább figyelmeztettek listája?
+	'MCP_WARN_LIST'			=> 'Figyelmeztetések listája', //? nem inkább figyelmeztetettek listája?
 	'MCP_WARN_POST'			=> 'Figyelmeztetés egy bizonyos hozzászólásért', //? "Warn for specific post" meghatározott?
 	'MCP_WARN_USER'			=> 'Felhasználó figyelmeztetése',
 
@@ -219,7 +219,7 @@ $lang = array_merge($lang, array(
 
 	'POSTER'					=> 'Küldő',
 	'POSTS_APPROVED_SUCCESS'	=> 'A kiválasztott hozzászólások jóváhagyásra kerültek.',
-	'POSTS_DELETED_SUCCESS'		=> 'A kiválasztott hozzászólások sikeresen törlésre kerültek az adatbázisból.',
+	'POSTS_DELETED_SUCCESS'		=> 'A kiválasztott hozzászólások sikeresen eltávolításra kerültek az adatbázisból.',
 	'POSTS_DISAPPROVED_SUCCESS'	=> 'A kiválasztott hozzászólások elutasításra kerültek.',
 	'POSTS_LOCKED_SUCCESS'		=> 'A kiválasztott hozzászólások sikeresen lezárásra kerültek.',
 	'POSTS_MERGED_SUCCESS'		=> 'A kiválasztott hozzászólások áthelyezésre kerültek.',
@@ -227,7 +227,7 @@ $lang = array_merge($lang, array(
 	'POSTS_PER_PAGE'			=> 'Hozzászólások oldalanként',
 	'POSTS_PER_PAGE_EXPLAIN'	=> 'Állítsd 0-ra az összes megjelenítéséhez.', //? "(Set to 0 to view all posts)" - forma?
 	'POST_APPROVED_SUCCESS'		=> 'A kiválasztott hozzászólás jóváhagyásra került.',
-	'POST_DELETED_SUCCESS'		=> 'A kiválasztott hozzászólás sikeresen törlésre került az adatbázisból.',
+	'POST_DELETED_SUCCESS'		=> 'A kiválasztott hozzászólás sikeresen eltávolításra került az adatbázisból.',
 	'POST_DISAPPROVED_SUCCESS'	=> 'A kiválasztott hozzászólás elutasításra került.',
 	'POST_LOCKED_SUCCESS'		=> 'A hozzászólás sikeresen lezárásra került.',
 	'POST_NOT_EXIST'			=> 'A kért hozzászólás nem létezik.', //? kért?? (requested)
@@ -288,7 +288,7 @@ $lang = array_merge($lang, array(
 
 	'THIS_POST_IP'				=> 'Hozzászóláshoz tartozó IP', //? 'Hozzászólás IP-je'
 	'TOPICS_APPROVED_SUCCESS'	=> 'A kiválasztott témák jóváhagyásra kerültek.',
-	'TOPICS_DELETED_SUCCESS'	=> 'A kiválasztott témák sikeresen törlésre kerültek az adatbázisból.',
+	'TOPICS_DELETED_SUCCESS'	=> 'A kiválasztott témák sikeresen eltávolításra kerültek az adatbázisból.',
 	'TOPICS_DISAPPROVED_SUCCESS'=> 'A kiválasztott témák elutasításra kerültek.',
 	'TOPICS_FORKED_SUCCESS'		=> 'A kiválasztott témák sikeresen meg lettek kettőzve.', //? a kerültek itt nagyon nem hangzik jól... nem?
 	'TOPICS_LOCKED_SUCCESS'		=> 'A kiválasztott témák lezárásra kerültek.',
@@ -297,7 +297,7 @@ $lang = array_merge($lang, array(
 	'TOPICS_TYPE_CHANGED'		=> 'A téma típusok sikeresen megváltoztatásra kerültek.',
 	'TOPICS_UNLOCKED_SUCCESS'	=> 'A kiválasztott témák sikeresen megnyitásra kerültek.',
 	'TOPIC_APPROVED_SUCCESS'	=> 'A kiválasztott téma jóváhagyásra került.',
-	'TOPIC_DELETED_SUCCESS'		=> 'A kiválasztott téma sikeresen törlésre került az adatbázisból.',
+	'TOPIC_DELETED_SUCCESS'		=> 'A kiválasztott téma sikeresen eltávolításra került az adatbázisból.',
 	'TOPIC_DISAPPROVED_SUCCESS'	=> 'A kiválasztott téma elutasításra került.',
 	'TOPIC_FORKED_SUCCESS'		=> 'A kiválasztott téma sikeresen meg lett kettőzve.', //?
 	'TOPIC_LOCKED_SUCCESS'		=> 'A kiválasztott téma lezárásra került.',
@@ -331,7 +331,7 @@ $lang = array_merge($lang, array(
 
 	'VIEW_DETAILS'			=> 'Részletek megtekintése', //? a korábbi adatok stb. probléma
 
-	'WARNED_USERS'			=> 'Figyelmeztett felhasználók',
+	'WARNED_USERS'			=> 'Figyelmeztetett felhasználók',
 	'WARNED_USERS_EXPLAIN'	=> 'Az alábbi lista azokat a felhasználókat tartalmazza, akik nem lejáró figyelmeztetésben részesültek.',
 	'WARNING_PM_BODY'		=> 'A következő figyelmeztetésben részesültél egy adminisztrátor vagy egy moderátor által:[quote]%s[/quote]', //? "The following is a warning which has been issued to you by an administrator or moderator of this site.[quote]%s[/quote]" hagyjuk a passzívot, legyen egyszerű?
 	'WARNING_PM_SUBJECT'	=> 'Figyelmeztetés',

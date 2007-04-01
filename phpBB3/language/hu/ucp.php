@@ -4,7 +4,7 @@
 * ucp [Hungarian]
 *
 * @package language
-* @version $Id: ucp.php,v 1.17 2007-03-15 21:01:18 fberci Exp $
+* @version $Id: ucp.php,v 1.18 2007-04-01 15:42:01 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -471,9 +471,9 @@ $lang = array_merge($lang, array(
 
 	'YOUR_DETAILS'				=> 'Fórumbeli aktivitásod', //? 'Aktivitásod'??
 	'YOUR_FOES'					=> 'Ellenségeid',
-	'YOUR_FOES_EXPLAIN'			=> 'Hogy törölj egy felhasználót, válaszd ki, majd kattints az elküld gombra.', //?
+	'YOUR_FOES_EXPLAIN'			=> 'Hogy eltávolíts egy felhasználót, válaszd ki, majd kattints az elküld gombra.', //?
 	'YOUR_FRIENDS'				=> 'Barátaid',
-	'YOUR_FRIENDS_EXPLAIN'		=> 'Hogy törölj egy felhasználót válaszd ki, majd kattints az elküld gombra.', //?
+	'YOUR_FRIENDS_EXPLAIN'		=> 'Hogy eltávolíts egy felhasználót válaszd ki, majd kattints az elküld gombra.', //?
 	'YOUR_WARNINGS'				=> 'Figyelmeztetési szint', //?
 
 	'PM_ACTION' => array(

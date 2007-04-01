@@ -4,7 +4,7 @@
 * groups [Hungarian]
 *
 * @package language
-* @version $Id: groups.php,v 1.4 2007-03-15 21:01:18 fberci Exp $
+* @version $Id: groups.php,v 1.5 2007-04-01 15:42:01 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -62,7 +62,7 @@ $lang = array_merge($lang, array(
 	'GROUP_RESIGN_MEMBERSHIP_CONFIRM'	=> 'Biztosan le akarod mondani a csoporttagságod a kviálasztott csoportban?',
 	'GROUP_RESIGN_PENDING'				=> 'Függő csoporttagság lemondása',
 	'GROUP_RESIGN_PENDING_CONFIRM'		=> 'Biztosan le akarod mondani a függő csoporttagságod a kiválasztott csoportban?',
-	'GROUP_RESIGNED_MEMBERSHIP'			=> 'Sikeresen törlésre kerültél a kiválasztott csoportból.',
+	'GROUP_RESIGNED_MEMBERSHIP'			=> 'Sikeresen eltávolításra kerültél a kiválasztott csoportból.',
 	'GROUP_RESIGNED_PENDING'			=> 'A függő csoporttagságod sikeresen törlésre került a kiválasztott csoportból.',
 	'GROUP_TYPE'						=> 'Csoport típusa',
 	'GROUP_UNDISCLOSED'					=> 'Rejtett csoport',
