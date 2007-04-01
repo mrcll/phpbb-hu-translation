@@ -4,7 +4,7 @@
 * install [English]
 *
 * @package language
-* @version $Id: install.php,v 1.3 2007-01-28 20:32:49 fberci Exp $
+* @version $Id: install.php,v 1.4 2007-04-01 16:11:52 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -46,7 +46,7 @@ $lang = array_merge($lang, array(
 	'BEGIN_CONVERT'					=> 'Begin conversion',
 	'BLANK_PREFIX_FOUND'			=> 'A scan of your tables has shown a valid installation using no table prefix.',
 	'BOARD_NOT_INSTALLED'			=> 'No installation found',
-	'BOARD_NOT_INSTALLED_EXPLAIN'	=> 'To perform a conversion you need to have a default installation of phpBB3. Please note that for a conversion the new installation and the old installation need to reside within the same database. You may now want to <a href="%s">perform an installation</a>.',
+	'BOARD_NOT_INSTALLED_EXPLAIN'	=> 'The phpBB Unified Convertor Framework requires a default installation of phpBB3 to function, please <a href="%s">proceed by first installing phpBB3</a>.',
 
 	'CATEGORY'					=> 'Category',
 	'CACHE_STORE'				=> 'Cache type',
@@ -54,9 +54,13 @@ $lang = array_merge($lang, array(
 	'CAT_CONVERT'				=> 'Convert',
 	'CAT_INSTALL'				=> 'Install',
 	'CAT_OVERVIEW'				=> 'Overview',
+	'CAT_UPDATE'				=> 'Update',
 	'CHANGE'					=> 'Change',
 	'CHECK_TABLE_PREFIX'		=> 'Please check your table prefix and try again.',
 	'CLEAN_VERIFY'				=> 'Cleaning up and verifying the final structure',
+	'COLLIDING_CLEAN_USERNAME'	=> '<strong>%s</strong> is the clean username for:',
+	'COLLIDING_USERNAMES_FOUND'	=> 'Colliding usernames were found on your old board. In order to complete the conversion please delete or rename these users so that there is only one user on your old board for each clean username.',
+	'COLLIDING_USER'			=> '» user id: <strong>%d</strong> username: <strong>%s</strong> (%d posts)',
 	'CONFIG_CONVERT'			=> 'Converting the configuration',
 	'CONFIG_FILE_UNABLE_WRITE'	=> 'It was not possible to write the configuration file. Alternative methods for this file to be created are presented below',
 	'CONFIG_FILE_WRITTEN'		=> 'The configuration file has been written. You may now proceed to the next step of the installation',
@@ -74,7 +78,8 @@ $lang = array_merge($lang, array(
 	'CONVERT_INTRO_BODY'		=> 'From here, you are able to import data from other (installed) forum systems. The list below shows all the conversion modules currently available. If there is no convertor shown in this list for the forum software you wish to convert from, please check our website where further conversion modules may be available for download.',
 	'CONVERT_NEW_CONVERSION'	=> 'New conversion',
 	'CONVERT_NOT_EXIST'			=> 'The specified convertor does not exist',
-	'CONVERT_SETTINGS_VERIFIED'	=> 'The information you entered has been verified. To start the conversion progress, push the button below to begin',
+	'CONVERT_SETTINGS_VERIFIED'	=> 'The information you entered has been verified. To start the conversion process, push the button below to begin.',
+	'CONV_ERR_FATAL'					=> 'Fatal conversion error',
 
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'FTP upload for attachments is enabled at the old board. Please disable the FTP upload option and make sure a valid upload directory is specified, then copy all attachment files to this new web accessible directory. Once you have done this, restart the convertor.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'There is no configuration information available for the conversion.',
@@ -123,7 +128,7 @@ $lang = array_merge($lang, array(
 	'DB_USERNAME'				=> 'Database username',
 	'DB_TEST'					=> 'Test connection',
 	'DEFAULT_LANG'				=> 'Default board language',
-	'DEFAULT_PREFIX_IS'			=> 'The convertor was not able to find tables with the specified prefix. Please make sure you have the old within the same database as your phpBB 3.0.x installation. The default table prefix for %1$s is <strong>%2$s</strong>',
+	'DEFAULT_PREFIX_IS'			=> 'The convertor was not able to find tables with the specified prefix. Please make sure you have entered the correct details for the forum you are converting from. The default table prefix for %1$s is <strong>%2$s</strong>',
 	'DEV_NO_TEST_FILE'			=> 'No value has been specified for the test_file variable in the convertor. If you are a user of this convertor, you should not be seeing this error, please report this message to the convertor author. If you are a convertor author, you must specify the name of a file which exists in the source forum to allow the path to it to be verified.',
 	'DIRECTORIES_AND_FILES'		=> 'Directory and file setup',
 	'DISABLE_KEYS'				=> 'Disabling keys',
@@ -169,8 +174,13 @@ $lang = array_merge($lang, array(
 	
 	'INITIAL_CONFIG'			=> 'Basic configuration',
 	'INITIAL_CONFIG_EXPLAIN'	=> 'Now that install has determined your server can run phpBB you need to supply some specific information. If you do not know how to connect to your database please contact your hosting provider (in the first instance) or use the phpBB support forums. When entering data please ensure you check it thoroughly before continuing.',
-	'INSTALL_CONGRATS'			=> 'Congratulations',
-	'INSTALL_CONGRATS_EXPLAIN'	=> 'You have now successfully installed phpBB 3.0. Clicking the button below will take you to your Administration Control Panel (ACP). Take some time to examine the options available to you. Remember that help is available online via the <a href="http://www.phpbb.com/support/documentation/3.0/">Userguide</a> and the <a href="http://www.phpbb.com/phpBB/viewforum.php?f=46">Beta support forum</a>, see the %sREADME%s for further information.<br /><br /><strong>Please now delete, move or rename the install directory before you use your forum. If this directory is still present, only the Administration Control Panel (ACP) will be accessible.</strong>',
+	'INSTALL_CONGRATS'			=> 'Congratulations!',
+	'INSTALL_CONGRATS_EXPLAIN'	=> '
+		<p>You have now successfully installed phpBB %1$s. From here, you have two options as to what to do with your newly installed phpBB3:</p>
+		<h2>Convert an existing forum to phpBB3</h2>
+		<p>The phpBB Unified Convertor Framework supports the conversion of phpBB 2.0.x and other forum systems to phpBB3. If you have an existing forum that you wish to convert, please <a href="%2$s">proceed on to the convertor</a>.</p>
+		<h2>Go live with your phpBB3!</h2>
+		<p>Clicking the button below will take you to your Administration Control Panel (ACP). Take some time to examine the options available to you. Remember that help is available online via the <a href="http://www.phpbb.com/support/documentation/3.0/">Userguide</a> and the <a href="http://www.phpbb.com/phpBB/viewforum.php?f=46">Beta support forum</a>, see the <a href="%3$s">README</a> for further information.</p><p><strong>Please now delete, move or rename the install directory before you use your forum. If this directory is still present, only the Administration Control Panel (ACP) will be accessible.</strong></p>',
 	'INSTALL_INTRO'				=> 'Welcome to Installation',
 	'INSTALL_INTRO_BODY'		=> 'With this option, it is possible to install phpBB onto your server.</p><p>In order to proceed, you will need the following information on hand:</p>
 	<ul>
@@ -219,7 +229,7 @@ $lang = array_merge($lang, array(
 
 	// mbstring
 	'MBSTRING_CHECK'						=> '<samp>mbstring</samp> extension check',
-	'MBSTRING_CHECK_EXPLAIN'				=> '<samp>mbstring</samp> is a PHP extension that provides multibyte string functions. Certain features of mbstring are not compatible with phpBB and must be disabled.',
+	'MBSTRING_CHECK_EXPLAIN'				=> '<strong>Required</strong> - <samp>mbstring</samp> is a PHP extension that provides multibyte string functions. Certain features of mbstring are not compatible with phpBB and must be disabled.',
 	'MBSTRING_FUNC_OVERLOAD'				=> 'Function overloading',
 	'MBSTRING_FUNC_OVERLOAD_EXPLAIN'		=> '<var>mbstring.func_overload</var> must be set to either 0 or 4',
 	'MBSTRING_ENCODING_TRANSLATION'			=> 'Transparent character encoding',
@@ -257,7 +267,7 @@ $lang = array_merge($lang, array(
 	'POST_ID'						=> 'Post ID',
 	'PREFIX_FOUND'					=> 'A scan of your tables has shown a valid installation using <strong>%s</strong> as table prefix.',
 	'PREPROCESS_STEP'				=> 'Executing pre-processing functions/queries',
-	'PRE_CONVERT_COMPLETE'			=> 'All pre-conversion steps have successfully been completed. You may now begin the actual conversion process.',
+	'PRE_CONVERT_COMPLETE'			=> 'All pre-conversion steps have successfully been completed. You may now begin the actual conversion process. Please note that you may have to manually adjust several things. After conversion, especially check the permissions assigned, rebuild your search index if necessary and also make sure files got copied correctly, for example avatars and smilies.',
 	'PROCESS_LAST'					=> 'Processing last statements',
 
 	'REFRESH_PAGE'				=> 'Refresh page to continue conversion',
@@ -331,7 +341,7 @@ $lang = array_merge($lang, array(
 	'COLLECTED_INFORMATION'			=> 'Information on collected files',
 	'COLLECTED_INFORMATION_EXPLAIN'	=> 'The list below shows information about the files needing an update. Please read the information in front of every status block to see what they mean and what you may need to do to perform a successful update.',
 	'COMPLETE_LOGIN_TO_BOARD'		=> 'You should now <a href="../ucp.php?mode=login">login to your board</a> and check if everything is working fine. Do not forget to delete, rename or move your install directory!',
-	'CONTINUE_INLINE_UPDATE'		=> 'The database update was successful. Now please close this window and continue the update process as explained.',
+	'CONTINUE_UPDATE_NOW'			=> 'Continue the update process now',
 	'CURRENT_FILE'					=> 'Current original file',
 	'CURRENT_VERSION'				=> 'Current version',
 
@@ -372,6 +382,7 @@ $lang = array_merge($lang, array(
 
 	'INCOMPATIBLE_UPDATE_FILES'		=> 'The update files found are incompatible with your installed version. Your installed version is %1$s and the update file is for updating phpBB %2$s to %3$s.',
 	'INCOMPLETE_UPDATE_FILES'		=> 'The update files are incomplete',
+	'INLINE_UPDATE_SUCCESSFUL'		=> 'The database update was successful. Now you need to continue the update process.',
 
 	'LATEST_VERSION'		=> 'Latest version',
 	'LINE'					=> 'Line',
@@ -389,7 +400,7 @@ $lang = array_merge($lang, array(
 	'MERGE_SELECT_ERROR'		=> 'Conflicting file merge modes are not correctly selected.',
 
 	'NEW_FILE'						=> 'New updated file',
-	'NO_AUTH_UPDATE'				=> 'Not authorized to update',
+	'NO_AUTH_UPDATE'				=> 'Not authorised to update',
 	'NO_ERRORS'						=> 'No errors',
 	'NO_UPDATE_FILES'				=> 'Not updating the following files',
 	'NO_UPDATE_FILES_EXPLAIN'		=> 'The following files are new or modified but the directory they normally reside in could not be found on your installation. If this list contains files to other directories than language/ or styles/ than you may have modified your directory structure and the update may be incomplete.',
