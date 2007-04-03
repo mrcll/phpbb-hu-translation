@@ -1,11 +1,11 @@
-Subject: Inactive account reminder
+Subject: Felhasználó inaktivitási figyelmeztetés
 
-Hello {USERNAME},
+Üdvözlünk {USERNAME},
 
-On {REGISTER_DATE} you registered a new account at "{SITENAME}". To date you have not activated this account which is a prerequisite for forum login. For your convenience the activation link is repeated below.
+Az "{SITENAME}" oldalon, {REGISTER_DATE}-kor egy felhasználói fiókot regisztráltál. Azóta sem aktiváltad a felhasználói fiókot, mely elõkövetelménye, hogy be tudj jelentkezni a fórumba. Segítségedre, az aktiválás linkét megtalálod ebben a levélben:
 
 {U_ACTIVATE}
 
-Thank you for registering at "{SITENAME}", we look forward to your participation.
+Köszönjük, hogy regisztráltál a "{SITENAME}" oldalon, továbbra is szívesen vesszük a közremûködésed.
 
 {EMAIL_SIG}

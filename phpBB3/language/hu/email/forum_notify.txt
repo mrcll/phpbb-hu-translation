@@ -1,12 +1,12 @@
-Subject: Forum post notification - "{FORUM_NAME}"
+Subject: Fórumfigyelés figyelmeztetés- "{FORUM_NAME}"
 
-Hello {USERNAME},
+Üdvözlünk, {USERNAME},
 
-You are receiving this notification because you are watching the forum, "{FORUM_NAME}" at "{SITENAME}". This forum has received a new reply to the topic "{TOPIC_TITLE}" since your last visit. You can use the following link to view this topic, no more notifications will be sent until you visit the topic.
+Ezt az üzenetet azért kapod, mert a, "{SITENAME}" oldalon, a "{FORUM_NAME}" fórum figyelését kérted . Ebbe a fórumba, legutóbbi látogatásod óta új hozzászólás érkezett, méghozzá a "{TOPIC_TITLE}" topicba. A következõ linkre kattintva eljuthatsz az új hozzászólást tartalmazó topicba, mindazonáltal újabb figyelmeztetést nem fogsz kapni, míg meg nem látogatod a fórumot.
 
 {U_NEWEST_POST}
 
-If you no longer wish to watch this forum you can either click the "Unsubscribe forum" link found in the forum above, or by clicking the following link:
+Amennyiben továbbra nem szándékozol figyelni a fórumot, kattints a "Leiratkozás a fórumról" linkre, melyet a fenti oldalon találsz, vagy egyszerûen kattints a következõ linkre:
 
 {U_STOP_WATCHING_FORUM}
 

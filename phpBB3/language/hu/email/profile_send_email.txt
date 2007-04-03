@@ -1,13 +1,13 @@
 
-Hello {TO_USERNAME},
+Üdvözlünk {TO_USERNAME},
 
-The following is an email sent to you by {FROM_USERNAME} via your account on "{SITENAME}". If this message is spam, contains abusive or other comments you find offensive please contact the webmaster of the board at the following address:
+A következõ üzenetet a "{SITENAME}" fórumról {FROM_USERNAME} küldte neked. Amennyiben ez az üzenet kéretlen levél, sértõ vagy egyéb támadó megjegyzéseket tartalmaz számodra, kérünk, hogy lépj kapcsolatba az oldal adminisztrátorával a következõ e-mail címen:
 
 {BOARD_CONTACT}
 
-Include this full email (particularly the headers). Please note that the reply address to this email has been set to that of {FROM_USERNAME}.
+Idézd ezt az üzenetet (különösen ügyelve a fejlécre). Amennyiben válaszolsz erre az üzenetre, azt {FROM_USERNAME} fogja megkapni, mivel ennek az e-mailnek a válaszcímzettje az õ e-mail címe.
 
-Message sent to you follows
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Az üzenet, ami neked szól a következõ:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 {MESSAGE}

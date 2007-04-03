@@ -1,17 +1,17 @@
-Subject: New password activation
+Subject: Új jelszó aktiválás
 
-Hello {USERNAME}
+Üdvözlünk {USERNAME}
 
-You are receiving this notification because you have (or someone pretending to be you has) requested a new password be sent for your account on "{SITENAME}". If you did not request this notification then please ignore it, if you keep receiving it please contact the board administrator.
+Azért kapod ezt az üzenetet, mert te (vagy avalki, a te nevedben) új jelszót kért a "{SITENAME}" oldalon levõ felhasználói fiókodhoz. Amennyiben nem te kérted ezt az üzenetet, úgy hagyd figyelmen kívül. Amennyiben továbbra is hasonlókat kapsz, vedd fel a kapcsolatot az oldal adminisztrátorával.
 
-To use the new password you need to activate it. To do this click the link provided below.
+Ahhoz, hogy használni tudd az új jelszót, aktiválod kell, ehhez kattints az alábbi linkre.
 
 {U_ACTIVATE}
 
-If successful you will be able to login using the following password:
+Siker esetén már csak az új jelszavaddal tudod használni a felhasználói fiókod.
 
-Password: {PASSWORD}
+Jelszavad: {PASSWORD}
 
-You can of course change this password yourself via the profile page. If you have any difficulties please contact the board administrator.
+Természetesen ezt a jelszót meg tudod változtatni a profilodban. Amennyiben bármiféle problémád adódik, vedd fel a kapcsolatot az oldal adminisztrátorával.
 
 {EMAIL_SIG}

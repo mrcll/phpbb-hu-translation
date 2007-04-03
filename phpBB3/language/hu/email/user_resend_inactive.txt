@@ -1,20 +1,19 @@
-Subject: Welcome to "{SITENAME}" - {U_BOARD}
+Subject: Üdvözlünk a "{SITENAME}" oldal - {U_BOARD} fórumán!
 
 {WELCOME_MSG}
 
-Please keep this email for your records. Your account information is as follows:
+Kérünk, tartsd meg ezt az üzenetet a továbbiakban. A felhasználói fiókod adatai a következõek:
 
 ----------------------------
-Username: {USERNAME}
+Felhasználónév: {USERNAME}
 ----------------------------
 
-Your password has been encrypted in our database. Should you forget your password you can request a new one which will be activated in the same way as this account.
+A jelszavad titkosítva tárolja az adatbázis. Amennyiben megfeledkezel róla, újat kérhetsz, de azt ugyanilyan módon ismét aktiválnod kell majd..
 
-Your account is currently inactive. You cannot use it until you visit the following link:
+A felhasználói fiókodat a következõ linkre kattintva aktiválhatod:
 
 {U_ACTIVATE}
 
-
-Thank you for registering.
+Köszönjük a rgisztrációt.
 
 {EMAIL_SIG}

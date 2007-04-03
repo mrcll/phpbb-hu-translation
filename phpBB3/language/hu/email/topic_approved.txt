@@ -1,10 +1,10 @@
-Subject: Topic approved - "{TOPIC_TITLE}"
+Subject: Topik elfogadva (megnyitva?) - "{TOPIC_TITLE}"
 
-Hello {USERNAME},
+Üdvözlünk {USERNAME},
 
-You are receiving this notification because your topic "{TOPIC_TITLE}" at "{SITENAME}" was approved by a moderator or administrator.
+Ezt az üzenetet azért kapod, mert a, "{SITENAME}" oldalon, a "{TOPIC_TITLE} topicot, melyet te nyitottál, elfogadta egy moderátor vagy adminisztrátor.
 
-If you want to view the topic, click the following link:
+A topicot megnézheted, amennyiben a következõ linkre kattintasz:
 {U_VIEW_TOPIC}
 
 

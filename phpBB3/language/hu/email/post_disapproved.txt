@@ -1,10 +1,10 @@
-Subject: Post disapproved - "{POST_SUBJECT}"
+Subject: Hozzászólásod elutasításra került - "{POST_SUBJECT}"
 
-Hello {USERNAME},
+Üdvözlünk {USERNAME},
 
-You are receiving this notification because your post "{POST_SUBJECT}" at "{SITENAME}" was disapproved by a moderator or administrator.
+Ezt az üzenetet azért kapod, mert a hozzászólásod, melynek témája "{POST_SUBJECT}" a "{SITENAME}" oldalon elutasításra került egy adminisztrátor vagy moderátor által.
 
-The following reason was given for the disapproval:
+Az elutasításra a következõ az indok:
 
 {REASON}
 

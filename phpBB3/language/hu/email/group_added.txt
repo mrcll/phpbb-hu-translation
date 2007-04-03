@@ -1,11 +1,11 @@
-Subject: You have been added to this usergroup
+Subject: Sikeresen csatlakoztál egy felhasználói csoporthoz
 
-Congratulations,
+Gratulálunk,
 
-You have been added to the "{GROUP_NAME}" group on "{SITENAME}".
-This action was done by a group leader or the site administrator, contact them for more information.
+Sikeresen a "{GROUP_NAME}" csoport tagja lettél a "{SITENAME}" oldalon.
+Ezt a fórum adminisztrátorának, vagy a csoport vezetõjének köszönheted. További információért fordult hozzájuk.
 
-You can view your groups information here:
+A csoport információit a következõ linkre kattintva érheted el:
 {U_GROUP}
 
 {EMAIL_SIG}
