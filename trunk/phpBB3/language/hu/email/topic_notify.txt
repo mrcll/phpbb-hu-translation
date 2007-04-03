@@ -1,17 +1,16 @@
-Subject: Topic reply notification - "{TOPIC_TITLE}"
+Subject: Topikfigyelõ üzenet - "{TOPIC_TITLE}"
 
-Hello {USERNAME},
+Üdvözlünk {USERNAME},
 
-You are receiving this notification because you are watching the topic, "{TOPIC_TITLE}" at "{SITENAME}". This topic has received a reply since your last visit. You can use the following link to view the replies made, no more notifications will be sent until you visit the topic.
+Ezt az üzenetet azért kapod, mert a, "{SITENAME}" oldalon, a "{TOPIC_TITLE} topik, figyelését kérted. Új üzenet érkezett a topikba a legutóbbi látogatásod óta. A következõ linkre kattintva megtekintheted az azóta született hozzászólásokat, több üzenetet válaszokról nem fogsz kapni a következõ látogatásodig.
 
-If you want to view the newest post made since your last visit, click the following link:
-{U_NEWEST_POST}
+A legutóbbi látogatásod ta született hozzászólások megtekintéséhet kattints a következõ linkre:
+{U_VIEW_TOPIC}
 
-If you want to view the topic, click the following link:
-{U_TOPIC}
+A topik megtekintéséhez, kattints a következõ linkre:
+{U_VIEW_TOPIC}
 
-If you no longer wish to watch this topic you can either click the "Stop watching this topic" link found at the bottom of the topic above, or by clicking the following link:
-
+Amennyiben nem szeretnél több topikfigyelõ üzenetet kapni, kattints a "Topikfigyelés kikapcsolása" linkre, melyet a topic alján találsz, vagy egyszerûen kattints a következõ linkre:
 {U_STOP_WATCHING_TOPIC}
 
 {EMAIL_SIG}

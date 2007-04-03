@@ -1,8 +1,8 @@
-Subject: Reactivate your account
+Subject: Felhasználói fiók újraaktiválása
 
-Hello {USERNAME},
+Üdvözlünk {USERNAME},
 
-Your account on "{SITENAME}" has been deactivated, most likely due to changes made to your profile. In order to reactivate your account you must click on the link below:
+Felhasználói fiókod a "{SITENAME}" oldalon deaktiválásra került, valószínûleg a profilodban történt változások miatt. Ahhoz, hogy újra aktív legyen a fiókod, kattints a következõ linkre:
 
 {U_ACTIVATE}
 

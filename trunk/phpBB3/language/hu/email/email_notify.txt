@@ -1,16 +1,16 @@
-Subject: "{SITENAME}" - Email a friend
+Subject: "{SITENAME}" - E-mail a barátodtól.
 
-Hello {TO_USERNAME},
+Üdvözlünk {TO_USERNAME},
 
-This email was sent from "{SITENAME}" by {FROM_USERNAME} who thought you may be interested in the following topic:
+Ezt az e-mailt a "{SITENAME}" fórumról {FROM_USERNAME} küldte neked, mert azt gondolta, a következõ téma érdekelni fog:
 
 {TOPIC_NAME}
 
-You can find it at:
+A következõ linken megtalálod a témát:
 
 {U_TOPIC}
 
-A message from {FROM_USERNAME} may also be included below. Please note that this message has not been seen or approved by the board administrators. If you wish to complain about having received this email please contact the board administrator at {BOARD_CONTACT}. Please quote the message headers when contacting this address.
+{FROM_USERNAME} kommentárt is fûzött a levélhez, amit alább olvashatsz. Kérjük, vedd figyelembe, hogy a következõ üznetetet nem látta a fórum adminisztrátora. Ha problémát jelent számodra ezen üzenet tartalma, lépj kapcsolatba a fórum adminisztrátorával a következõ címen: {BOARD_CONTACT}. Kérünk, idézd az alábbi üzenetet is, különös tekintettel a fejlécre, ha kapcsolatba lépsz.
 
 ----------
 

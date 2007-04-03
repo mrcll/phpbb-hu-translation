@@ -1,13 +1,13 @@
-Subject: Activate user account
+Subject: Azonosító aktiválása
 
-Hello,
+Üdvözlünk,
 
-The account owned by "{USERNAME}" has been deactivated or newly created, you should check the details of this user (if required) and handle it appropriately.
+A "{USERNAME}" nevû azonosító, deaktiválásra került, vagy újonnan lett nyitva. Ellenõrizheted a felhasználó által megadott adatokat (amennyiben szükséges) majd megteheted a szükséges lépéseket.
 
-Use this link to view the user's profile:
+A következõ linkre kattintva a felhasználó profiljába jutsz:
 {U_USER_DETAILS}
 
-Use this link to activate the account:
+A következõ link aktiválja az azonosítót:
 {U_ACTIVATE}
 
 

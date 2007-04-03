@@ -1,42 +1,42 @@
-Subject: Welcome to "{SITENAME}" - {U_BOARD}
+Subject: Üdvözlünk a  "{SITENAME}" - {U_BOARD} fórumán!
 
 {WELCOME_MSG}
 
-In compliance with the COPPA act your account is currently inactive.
+A COPPA szabályainak értelmében az azonosítód jelenleg inaktív.
 
-Please print this message out and have your parent or guardian sign and date it. Then fax it to:
+Nyomtasd ki az alábbi üzenetet, és kérd meg a szüleidet vagy gondviselõdet, hogy írja alá, majd küldje el faxon az alábbi FAX-számra:
 
 {FAX_INFO}
 
-OR mail it to:
+vagy küldje el postai levélben a következõ postacímre:
 
 {MAIL_INFO}
 
------------------------------- CUT HERE ------------------------------
-Permission to participate at "{SITENAME}"
+------------------------------ PERFORÁCIÓ ------------------------------
+Engedély a "{SITENAME}" fórumához történõ csatlakozáshoz
 
-Username: {USERNAME}
-Email: {EMAIL_ADDRESS}
+Felhasználónév: {USERNAME}
+E-mail: {EMAIL_ADDRESS}
 
-I HAVE REVIEWED THE INFORMATION PROVIDED BY MY CHILD AND HEREBY GRANT PERMISSION TO "{SITENAME}" TO STORE THIS INFORMATION. 
-I UNDERSTAND THIS INFORMATION CAN BE CHANGED AT ANY TIME BY ENTERING A PASSWORD. 
-I UNDERSTAND THAT I MAY REQUEST FOR THIS INFORMATION TO BE REMOVED FROM "{SITENAME}" AT ANY TIME.
-
-
-Parent or guardian 
-(print your name here): _____________________
-
-(sign here): __________________ 
-
-Date: _______________
-
------------------------------- CUT HERE ------------------------------
+ELLENÕRIZTEM A GONDVISELETEMBEN LEVÕ FIATALKORÚ ÁLTAL MEGADOTT INFORMÁCIÓKAT, ÉS HOZZÁJÁRULOK, HOGY AZ ADATOKAT A "{SITENAME}" FÓRUMON TÁROLJÁK.
+ELFOGADOM, HOGY EZEKET AZ ADATOKAT EGY JELSZÓ BEÍRÁSÁVAL BÁRMIKOR MEG LEHET VÁLTOZTATNI.
+ELFOGADOM, HOGY EZEK AZ ADATOK BÁRMIKOR TÖRÖLHETÕEK A "{SITENAME}" FÓRUMBÓL. 
 
 
-Once the administrator has received the above form via fax or regular mail your account will be activated.
+Szülõ vagy Gondviselõ
+(olvasható név): _____________________
 
-Please do not forget your password as it has been encrypted in our database and we cannot retrieve it for you. However, should you forget your password you can request a new one which will be activated in the same way as this account.
+(aláírás): __________________ 
 
-Thank you for registering.
+Dátum: _______________
+
+------------------------------ PERFORÁCIÓ ------------------------------
+
+
+Amint az adminisztrátorok megkapták a fenti engedélyt faxon vagy postán, az azonosító engedélyezve lesz.
+
+A jelszót ne felejtsd el, mert az adatbázisunkban kódolva szerepel, így nincs mód a késõbbiekben a kiderítésére. Ha esetleg mégis elfelejtenéd, akkor a belépési oldalon új jelszót kell igényelned, amelyet hasonlóképpen aktiválni kell használat elõtt, mint most.
+
+Köszönjük a regisztrálást!
 
 {EMAIL_SIG}

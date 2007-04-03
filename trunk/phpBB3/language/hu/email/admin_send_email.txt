@@ -1,12 +1,12 @@
 
-The following is an email sent to you by an administrator of "{SITENAME}". If this message is spam, contains abusive or other comments you find offensive please contact the webmaster of the board at the following address:
+A következõ üzenetet a "{SITENAME}" fórum adminisztrátora küldte neked. Amennyiben ez az üzenet kéretlen levél, sértõ vagy egyéb támadó megjegyzéseket tartalmaz számodra, kérünk, hogy lépj kapcsolatba az oldal adminisztrátorával a következõ e-mail címen:
 
 {CONTACT_EMAIL}
 
-Include this full email (particularly the headers). 
+Idézd ezt az üzenetet (különösen ügyelve a fejlécre). 
 
-Message sent to you follows:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Az üzenet, ami neked szól a következõ:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 {MESSAGE}
 

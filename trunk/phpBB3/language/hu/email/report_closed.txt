@@ -1,8 +1,7 @@
-Subject: Report closed - "{POST_SUBJECT}"
+Subject: Jelentés lezárva - "{POST_SUBJECT}"
 
-Hello {USERNAME},
+Üdvözlünk {USERNAME},
 
-You are receiving this notification because the report you filed on the post "{POST_SUBJECT}" in "{TOPIC_TITLE}" at "{SITENAME}" was handled by a moderator or by an administrator. The report was afterwards closed. If you have further questions contact {CLOSER_NAME} with a personal message.
-
+Ezt az üzenetet azért kapod, mert a, "{SITENAME}" oldalon, a "{POST_SUBJECT}" hozzászólást a "{TOPIC_TITLE} topicban jelnetetted az adminisztrátorok és moderátorok felé. A jelentésed kezeése befejezõdött, s ezzel lezárult. Amennyiben további kérdéseid vannak, felteheted õket a topik bezárójának, aki nem más, mint {CLOSER_NAME}, privát üzenetben.
 
 {EMAIL_SIG}

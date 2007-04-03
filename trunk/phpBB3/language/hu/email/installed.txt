@@ -1,20 +1,20 @@
-Subject: phpBB installed
+Subject: phpBB telepítve
 
-Congratulations,
+Gratulálunk,
 
-You have successfully installed phpBB on your server.
+Sikeresen telepítettél egy phpBB fórumot a szervereden.
 
-This email contains important information on your installation that you should keep safe. The password has been encrypted in the database and cannot be recovered, although you can request a new password should you lose this one
+Ez az e-mail fontos információkat tartalmaz az épp telepített fórumról, õrizd meg gondosan. A jelszót ne felejtsd el, mert az adatbázisunkban kódolva szerepel, így nincs mód a késõbbiekben a kiderítésére. Ha esetleg mégis elfelejtenéd, akkor a belépési oldalon új jelszót kell igényelned.
 
 ----------------------------
-Username: {USERNAME}
-Password: {PASSWORD}
+Felhasználónév: {USERNAME}
+Jelszó: {PASSWORD}
 
-Board URL: {U_BOARD}
+Fórum URL: {U_BOARD}
 ----------------------------
 
-Useful information on your phpBB installation can be found in the docs folder of your installation and on phpBB.com's support page - http://www.phpbb.com/support/
+További hasznos információkat és dokumentációt találsz a fórumod "docs" könyvtárában, vagy a phpBB.com felhasználói segítségnyújtási oldalán a következõ linken - http://www.phpbb.com/support/
 
-In order to keep the board safe and secure, it is highly recommended that you keep current with software releases which can be easily done by subscribing to phpBB.com's mailing list, located at the above URL.
+Annak érdekében, hogy a fórumod biztonságos legyen, kimondottan javasolt, hogy a további szoftver-frissítésekrõl tájékozódj, melyet könnyen megtehetsz, ha regisztrálsz a phpbb.com hírlevelére. Ezt megteheted a fenti linken.
 
 {EMAIL_SIG}
