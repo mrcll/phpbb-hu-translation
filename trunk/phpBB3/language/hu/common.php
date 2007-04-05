@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.32 2007-03-29 17:45:21 fberci Exp $
+* @version $Id: common.php,v 1.33 2007-04-05 19:14:44 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -34,7 +34,7 @@ $lang = array_merge($lang, array(
 	'TRANSLATION_INFO'	=> 'Magyar fordítás © <a href="http://phpbb.hu/">Magyar phpBB Közösség</a>',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|Y.m.d.|',
-	'USER_LANG'			=> 'hu-hu',
+	'USER_LANG'			=> 'hu',
 
 	'1_DAY'			=> '1 nap',
 	'1_MONTH'		=> '1 hónap',
@@ -279,7 +279,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_ERROR_PASSWORD'				=> 'Rossz jelszót adtál meg. Ellenőrizd le a jelszavad, majd próbálkozz újra. Ha továbbra is gondjaid lennének, lépj kapcsolatba a %sfórum adminisztrátorával%s.',
 	'LOGIN_ERROR_USERNAME'				=> 'Rossz felhasználónevet adtál meg. Ellenőrizd le a felhasználónevet, majd próbálkozz újra. Ha továbbra is gondjaid lennének, lépj kapcsolatba a %sfórum adminisztrátorával%s.',
 	'LOGIN_FORUM'						=> 'A fórum megtekintéséhez vagy a hozzászóláshoz, meg kell adnod a jelszavát.', //?
-	'LOGIN_INFO'						=> 'A belépéshez regisztrált felhasználónak kell lenned. A regisztráció csupán néhány másodpercet vesz igénybe, de számos előnnyel jár, az adminisztrátor például így tud külön jogosultságokat adni. A belépés előtt győződj meg róla, hogy elfogadod a felhasználási feltételeinket, valamint egyetértesz az adatvédelmi elveinkkel. Kérjük olvasd el a fórumok szabályzatát is!',
+	'LOGIN_INFO'						=> 'A belépéshez regisztrált felhasználónak kell lenned. A regisztráció csupán néhány másodpercet vesz igénybe, de számos előnnyel jár, az adminisztrátor például így tud külön jogosultságokat adni. A belépés előtt győződj meg róla, hogy elfogadod a felhasználási feltételeinket, valamint egyetértesz az adatvédelmi nyilatkozatunkkal. Kérjük olvasd el a fórumok szabályzatát is!',
 	'LOGIN_VIEWFORUM'					=> 'Csak reigsztrált felhasználók tekinthetik meg ezt a fórumot.',
 	'LOGIN_EXPLAIN_EDIT'				=> 'Csak reigsztrált felhasználók szerkeszthetik a hozzászólásaikat ebben a fórumban.',
 	'LOGOUT'							=> 'Kilépés',
