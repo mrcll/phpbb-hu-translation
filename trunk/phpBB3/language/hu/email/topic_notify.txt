@@ -1,16 +1,15 @@
-Subject: Topikfigyelõ üzenet - "{TOPIC_TITLE}"
+Subject: Témafigyelés figyelmeztetés- "{FORUM_NAME}"
 
-Üdvözlünk {USERNAME},
+Üdvözlünk, {USERNAME}!
 
-Ezt az üzenetet azért kapod, mert a, "{SITENAME}" oldalon, a "{TOPIC_TITLE} topik, figyelését kérted. Új üzenet érkezett a topikba a legutóbbi látogatásod óta. A következõ linkre kattintva megtekintheted az azóta született hozzászólásokat, több üzenetet válaszokról nem fogsz kapni a következõ látogatásodig.
-
-A legutóbbi látogatásod ta született hozzászólások megtekintéséhet kattints a következõ linkre:
+Ezt az e-mailt azért kapod, mert a "{SITENAME}" oldalon, a "{TOPIC_TITLE} téma, figyelését kérted. Ebbe a témába, legutóbbi látogatásod óta új hozzászólás érkezett. A következõ linkre kattintva megtekintheted az azóta született hozzászólásokat, több üzenetet válaszokról nem fogsz kapni a következõ látogatásodig.
 {U_VIEW_TOPIC}
 
-A topik megtekintéséhez, kattints a következõ linkre:
+A téma megtekintéséhez, kattints a következõ linkre:
 {U_VIEW_TOPIC}
 
-Amennyiben nem szeretnél több topikfigyelõ üzenetet kapni, kattints a "Topikfigyelés kikapcsolása" linkre, melyet a topic alján találsz, vagy egyszerûen kattints a következõ linkre:
+Amennyiben a továbbiakban nem szándékozol figyelni a témát, kattints a "Leiratkozás a témáról" linkre, melyet a fenti oldalon találsz, vagy egyszerûen kattints a következõ linkre:
+
 {U_STOP_WATCHING_TOPIC}
 
 {EMAIL_SIG}

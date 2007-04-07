@@ -1,16 +1,14 @@
 Subject: "{SITENAME}" - E-mail a barátodtól.
 
-Üdvözlünk {TO_USERNAME},
+Üdvözlünk, {USERNAME}!
 
-Ezt az e-mailt a "{SITENAME}" fórumról {FROM_USERNAME} küldte neked, mert azt gondolta, a következõ téma érdekelni fog:
+Ezt az e-mailt a "{SITENAME}" fórumról {FROM_USERNAME} küldte neked, mert azt gondolta, a következõ téma érdekelni fog: {TOPIC_NAME}
 
-{TOPIC_NAME}
-
-A következõ linken megtalálod a témát:
+A következõ linkre kattintva megtnézheted a témát:
 
 {U_TOPIC}
 
-{FROM_USERNAME} kommentárt is fûzött a levélhez, amit alább olvashatsz. Kérjük, vedd figyelembe, hogy a következõ üznetetet nem látta a fórum adminisztrátora. Ha problémát jelent számodra ezen üzenet tartalma, lépj kapcsolatba a fórum adminisztrátorával a következõ címen: {BOARD_CONTACT}. Kérünk, idézd az alábbi üzenetet is, különös tekintettel a fejlécre, ha kapcsolatba lépsz.
+{FROM_USERNAME} kommentárt is fûzött a levélhez, amit alább olvashatsz. Kérjük, vedd figyelembe, hogy a következõ üznetetet nem látta a fórum adminisztrátora. Ha problémát jelent számodra ezen üzenet tartalma, lépj kapcsolatba a fórum adminisztrátorával a következõ címen: {BOARD_CONTACT}. Amennyiben kapcsolatba lépsz, kérjük, idézd ezt az e-mailt is, különös tekintettel a fejlécre.
 
 ----------
 

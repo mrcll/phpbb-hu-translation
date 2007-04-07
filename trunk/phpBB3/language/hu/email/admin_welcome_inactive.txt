@@ -1,15 +1,15 @@
-Subject: Regisztráció a "{SITENAME}" - {U_BOARD} fórumán.
+Subject: Regisztráció a "{SITENAME}" oldal {U_BOARD} fórumán.
 
 {WELCOME_MSG}
 
-Õrizd meg ezt a levelet, mert elképzelhetõ, hogy a késõbbiekben szükséged lesz rá. A fórumhoz tartozó azonosító információi:
+Õrizd meg ezt az e-mailt, mert elképzelhetõ, hogy a késõbbiekben szükséged lesz rá. A fórumhoz tartozó azonosító információi:
 
 ----------------------------
 Felhasználónév: {USERNAME}
 Jelszó: {PASSWORD}
 ----------------------------
 
-Az azonosítód jelenleg inaktív, a használatba vétel elõtt a fórum adminisztrátorának aktiválnia kell. Egy üzenet fog errõl értesíteni, amint megtörtént.
+Az felhasználói azonosítód jelenleg inaktív, használatba vétele elõtt a fórum adminisztrátorának aktiválnia kell. Egy e-mail értesítõt fogsz errõl kapni, amint megtörtént.
 
 A jelszót ne felejtsd el, mert az adatbázisunkban kódolva szerepel, így nincs mód a késõbbiekben a kiderítésére. Ha esetleg mégis elfelejtenéd, akkor a belépési oldalon új jelszót kell igényelned, amelyet hasonlóképpen aktiválni kell használat elõtt, mint most.
 
