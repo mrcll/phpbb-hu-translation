@@ -1,15 +1,14 @@
-Subject: Új privát üzeneted érkezett
+Subject: Privát üzenet figyelmeztetés- "{FORUM_NAME}"
 
-Üdvözlünk {USERNAME},
+Üdvözlünk, {USERNAME}!
 
-Új privát üzenetet kaptál, melynek feladója "{AUTHOR_NAME}", a "{SITENAME}" oldalon. Az üzenet témája:
-
+A "{SITENAME}" oldalon új privát üzenetet kaptál, melynek feladója "{AUTHOR_NAME}". Az üzenet témája:
 {SUBJECT}
 
-Az üzeneted megtekintéséhez kattints a következõ linkre:
+A következõ linkre kattintva megtekintheted az érkezett üzeneteket:
 
 {U_INBOX}
 
-Ezt az üzenetet azért kaptad, mert beállítottad, hogy ilyen eseményrõl értesülni szeretnél. Emlékezz rá, hogy bármikor kikapcsolhatod az ilyen értesítéseket a fórumon levõ profilodban.
+Ezt az e-mailt azért kaptad, mert beállítottad, hogy privát üzenet érkezésérõl értesülni szeretnél. Emlékezz rá, hogy bármikor kikapcsolhatod az ilyen értesítéseket a fórumon levõ felhasználói vezérlõpultban.
 
 {EMAIL_SIG}

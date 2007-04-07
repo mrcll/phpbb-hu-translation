@@ -1,12 +1,12 @@
 Subject: Fórumfigyelés figyelmeztetés- "{FORUM_NAME}"
 
-Üdvözlünk, {USERNAME},
+Üdvözlünk, {USERNAME}!
 
-Ezt az üzenetet azért kapod, mert a, "{SITENAME}" oldalon, a "{FORUM_NAME}" fórum figyelését kérted . Ebbe a fórumba, legutóbbi látogatásod óta új hozzászólás érkezett, méghozzá a "{TOPIC_TITLE}" topicba. A következõ linkre kattintva eljuthatsz az új hozzászólást tartalmazó topicba, mindazonáltal újabb figyelmeztetést nem fogsz kapni, míg meg nem látogatod a fórumot.
+Ezt az e-mailt azért kapod, mert a "{SITENAME}" oldalon, a "{FORUM_NAME}" fórum figyelését kérted. Ebbe a fórumba, legutóbbi látogatásod óta új hozzászólás érkezett, méghozzá a "{TOPIC_TITLE}" témába. A következõ linkre kattintva eljuthatsz az új hozzászólást tartalmazó témába, mindazonáltal újabb figyelmeztetést nem fogsz kapni, míg meg nem látogatod a fórumot.
 
 {U_NEWEST_POST}
 
-Amennyiben továbbra nem szándékozol figyelni a fórumot, kattints a "Leiratkozás a fórumról" linkre, melyet a fenti oldalon találsz, vagy egyszerûen kattints a következõ linkre:
+Amennyiben a továbbiakban nem szándékozol figyelni a fórumot, kattints a "Leiratkozás a fórumról" linkre, melyet a fenti oldalon találsz, vagy egyszerûen kattints a következõ linkre:
 
 {U_STOP_WATCHING_FORUM}
 
