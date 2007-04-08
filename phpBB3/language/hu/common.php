@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.33 2007-04-05 19:14:44 fberci Exp $
+* @version $Id: common.php,v 1.34 2007-04-08 22:49:10 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -625,7 +625,7 @@ $lang = array_merge($lang, array(
 	'YEAR'				=> 'év',
 	'YES'				=> 'Igen',
 	'YIM'				=> 'YIM',	
-	'YOU_LAST_VISIT'	=> 'Legutolsó látogatás: %s',
+	'YOU_LAST_VISIT'	=> 'Utolsó látogatás: %s',
 	'YOU_NEW_PM'		=> 'Új privát üzeneted érkezett.',
 	'YOU_NEW_PMS'		=> 'Új privát üzeneteid érkeztek.',
 	'YOU_NO_NEW_PM'		=> 'Nincs új privát üzeneted.',

@@ -4,7 +4,7 @@
 * install [Hungarian]
 *
 * @package language
-* @version $Id: install.php,v 1.5 2007-04-05 19:14:44 fberci Exp $
+* @version $Id: install.php,v 1.6 2007-04-08 22:49:10 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -44,9 +44,9 @@ $lang = array_merge($lang, array(
 	'AVAILABLE_CONVERTORS'		=> 'Elérhető konvertálók', //? elérhető
 
 	'BEGIN_CONVERT'					=> 'Konvertálás elkezdése', //? konverzió, megkezdés
-	'BLANK_PREFIX_FOUND'			=> 'Az adatbázis tábláid azt mutatják, hogy van már egy telepített phpBB-d, mely nem használ tábla előtagot.', //? "A scan of your tables has shown a valid installation using no table prefix."
+	'BLANK_PREFIX_FOUND'			=> 'Az adatbázistábláid azt mutatják, hogy már van egy telepített phpBB-d, mely nem használ tábla előtagot.', //? "A scan of your tables has shown a valid installation using no table prefix."
 	'BOARD_NOT_INSTALLED'			=> 'Nem található telepített phpBB.',
-	'BOARD_NOT_INSTALLED_EXPLAIN'	=> 'Az Egyesített phpBB Konvertáló Keretrendszer működéséhez szükség van egy telepített phpBB3-ra, kérjük először <a href="%s">telepítsd a phpBB3-at</a>.', //? "phpBB Unified Convertor Framework"
+	'BOARD_NOT_INSTALLED_EXPLAIN'	=> 'A phpBB Egyesített Konvertáló Keretrendszer működéséhez szükség van egy telepített phpBB3-ra, kérjük először <a href="%s">telepítsd a phpBB3-at</a>.', //? "phpBB Unified Convertor Framework"
 
 	'CATEGORY'					=> 'Kategória',
 	'CACHE_STORE'				=> 'Gyorsítótár típusa', //? "Cache type" 'Gyorsítótárazás típusa' 'Gyorsítótárazás módja' 'Gyorsítótár-fajta' stb. (egy egész rendszerről, működésről van szó)
@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 	'CAT_OVERVIEW'				=> 'Áttekintés',
 	'CAT_UPDATE'				=> 'Frissítés',
 	'CHANGE'					=> 'Változtatás',
-	'CHECK_TABLE_PREFIX'		=> 'Kérjük ellenőrizd le az adatbázis előtagot, és próbálkozz újra.',
+	'CHECK_TABLE_PREFIX'		=> 'Kérjük ellenőrizd le az adatbázis-előtagot, és próbálkozz újra.',
 	'CLEAN_VERIFY'				=> 'Végleges struktúra rendbe tétele és ellenőrzése', //? "Cleaning up and verifying the final structure"
 	'COLLIDING_CLEAN_USERNAME'	=> 'A <strong>%s</strong> egyszerűsített felhasználónév a következő felhasználókhoz tartozik:', //? "<strong>%s</strong> is the clean username for:"
 	'COLLIDING_USERNAMES_FOUND'	=> 'A régi fórumodon ütköző felhasználónevek fordultak elő. Kérjük töröld, vagy nevezd át ezeket a felhasználókat, hogy minden egyszerűsített felhasználónévhez csak egy felhasználó tartozzon.', //? clean username = egyszerűsített?
@@ -64,25 +64,25 @@ $lang = array_merge($lang, array(
 	'CONFIG_CONVERT'			=> 'Konfiguráció konvertálása', //? "Converting the configuration" - configuration?
 	'CONFIG_FILE_UNABLE_WRITE'	=> 'Nem sikerült kiírni a konfigurációs állományt. Alább találod ezen állomány létrehozásának alternatív módjait.',
 	'CONFIG_FILE_WRITTEN'		=> 'A konfigurációs állomány kiírásra került. Továbbléphetsz a telepítés következő lépésére.', //? "_Most_már_ továbbléphetsz..."
-	'CONFIG_PHPBB_EMPTY'		=> 'A phpBB 3 "%s" konfigurációs változója üres.', //? "The phpBB3 config variable for "%s" is empty." jelentés/értelem, fogalmazás
+	'CONFIG_PHPBB_EMPTY'		=> 'A phpBB3 "%s" konfigurációs változója üres.', //? "The phpBB3 config variable for "%s" is empty." jelentés/értelem, fogalmazás
 	'CONFIG_RETRY'				=> 'Újra', //??
 	'CONTACT_EMAIL_CONFIRM'		=> 'Kapcsolat e-mail cím megerősítés', //? kapcsolat e-mail
 	'CONTINUE_CONVERT'			=> 'Konvertálás folytatása',
-	'CONTINUE_CONVERT_BODY'		=> 'Egy korábbi nem befejezett konverzió lett észlelve. Választhatsz, hogy vagy ezt folytatod, vagy egy újat kezdesz.',
+	'CONTINUE_CONVERT_BODY'		=> 'Egy korábbi nem befejezett konverzió lett észlelve. Választhatsz, hogy ezt folytatod, vagy egy újat kezdesz.',
 	'CONTINUE_LAST'				=> 'Végső műveletek folytatása', //?? "Continue last statements" statement? egyáltalán hol használják?
 	'CONTINUE_OLD_CONVERSION'	=> 'Korábban megkezdett konverzió folytatása', //?
 	'CONVERT'					=> 'Konvertálás',
 	'CONVERT_COMPLETE'			=> 'Konvertálás befejeződött',
 	'CONVERT_COMPLETE_EXPLAIN'	=> 'Sikeresen átkonvertáltad a fórumod phpBB 3.0-sra. Most már bejelentkezhetsz, és <a href="../">hozzáférhetsz a fórumodhoz</a>. Ne feledkezz meg róla, hogy a phpBB-vel kapcsolatban segítséget nyújt az angol <a href="http://www.phpbb.com/support/documentation/3.0/">Felhasználói kézikönyv</a> és a <a href="http://www.phpbb.com/phpBB/viewforum.php?f=46">phpbb.com megfelelő fóruma</a>.', //? 'hozzáfér' - 'használatba vesz' TODO - magyar lokalizálás
-	'CONVERT_INTRO'				=> 'Üdvözlünk az Egytesített phpBB Konvertáló Keretrendszerben!',
+	'CONVERT_INTRO'				=> 'Üdvözlünk a phpBB Egytesített Konvertáló Keretrendszerben!',
 	'CONVERT_INTRO_BODY'		=> 'Itt adatokat importálhatsz másik (telepített) fórumrendszerekből. Az alábbi lista tartalmazza az elérhető konvertálókat. Ha a listában nem szerepel a kívánt fórumszoftverről konvertáló modul, látogass el a phpBB weboldalára, ahonnan lehet, hogy letöltheted.', //?
 	'CONVERT_NEW_CONVERSION'	=> 'Új konvertálás',
 	'CONVERT_NOT_EXIST'			=> 'A megadott konvertáló nem létezik.',
 	'CONVERT_SETTINGS_VERIFIED'	=> 'A megadott információk leellenőrzésre kerültek. A koverzió megkezdéséhez nyomd meg az alábbi gombot.', //? verify
 	'CONV_ERR_FATAL'					=> 'Súlyos konvertálási hiba', //? végzetes?
 
-	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'A régi fórumon engedélyezve volt az FTP-n keresztüli csatolmányfeltöltés. Kérjük kapcsold ki az FTP feltöltést, bizonyosodj meg róla, hogy egy helyes feltöltési könyvtár került megadásra, majd másold át az összes csatolmány állományt az új webről is elérhető könyvtárba. Ha végeztél ezzel, indítsd újra a konvertálót.', //? igazából nem teljesen értem...
-	'CONV_ERROR_CONFIG_EMPTY'			=> 'Nincs elérhető konfigurációs információ a konvertáláshoz.', //?? "http://www.glumbert.com/media/supermarket"
+	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'A régi fórumon engedélyezve volt az FTP-n keresztüli csatolmányfeltöltés. Kérjük kapcsold ki az FTP feltöltést, bizonyosodj meg róla, hogy helyes feltöltési könyvtár került megadásra, majd másold át az összes csatolmány állományt az új, webről is elérhető könyvtárba. Ha végeztél ezzel, indítsd újra a konvertálót.', //? igazából nem teljesen értem...
+	'CONV_ERROR_CONFIG_EMPTY'			=> 'Nincs elérhető konfigurációs információ a konvertáláshoz.', //?? "There is no configuration information available for the conversion."
 	'CONV_ERROR_FORUM_ACCESS'			=> 'Nem sikerült lekérdezni a fórum hozzáférési jogosultságokat.', //? "Unable to get forum access information." ezt jelenti? lekérdezni/megkapni
 	'CONV_ERROR_GET_CATEGORIES'			=> 'Nem sikerült lekérdezni a kategóriákat.', //? "Unable to get categories."
 	'CONV_ERROR_GET_CONFIG'				=> 'Nem sikerült lekérdezni a fórum konfigurációját.',
@@ -112,20 +112,20 @@ $lang = array_merge($lang, array(
 	'COULD_NOT_FIND_PATH'		=> 'Nem sikerült megtalálni az elérési utat az eredeti fórumodhoz. Kérjük ellenőrizd le a beállításokat, és próbálkozz újra.<br />» Megadott elérési út: %s', //? "Could not find path to your former forum. Please check your settings and try again.<br />» Specified source path was %s" szó szerrinti fordítás, de a 'nem jó az elérési út stb.' valószínűleg jobb lenne
 
 	'DBMS'						=> 'Adatbázis típusa',
-	'DB_CONFIG'					=> 'Adatbázis konfiguráció',
-	'DB_CONNECTION'				=> 'Adatbázis kapcsolat',
+	'DB_CONFIG'					=> 'Adatbázis-konfiguráció',
+	'DB_CONNECTION'				=> 'Adatbázis-kapcsolat',
 	'DB_ERR_INSERT'				=> 'Hiba <code>INSERT</code> parancs végrehajtása közben.', //?
 	'DB_ERR_LAST'				=> 'Hiba a <var>query_last</var> végrehajtása közben.',
 	'DB_ERR_QUERY_FIRST'		=> 'Hiba a <var>query_first</var> végrahjtása közben.',
 	'DB_ERR_QUERY_FIRST_TABLE'	=> 'Hiba a <var>query_first</var> végrahjtása közben, %s ("%s")', //??
 	'DB_ERR_SELECT'				=> 'Hiba <code>SELECT</code> lekérdezés végrehajtása közben.',
-	'DB_HOST'					=> 'Adatbázis szerver hosztneve vagy DSN', //? biztos, hogy egybeírják; nem 'DSN-je'?
+	'DB_HOST'					=> 'Adatbázisszerver hosztneve vagy DSN', //? biztos, hogy egybeírják; nem 'DSN-je'?
 	'DB_HOST_EXPLAIN'			=> 'A DSN az angol Data Source Name rövidítése, csak ODBC telepítéskor érdekes.', //? érdekes, lényeges
 	'DB_NAME'					=> 'Adatbázis neve',
-	'DB_PASSWORD'				=> 'Adatbázis jelszó',
-	'DB_PORT'					=> 'Adatbázis szerver portja',
+	'DB_PASSWORD'				=> 'Adatbázisjelszó',
+	'DB_PORT'					=> 'Adatbázisszerver portja',
 	'DB_PORT_EXPLAIN'			=> 'Hagyd üresen, hacsak nem tudod, hogy a szerver egy nem szabványos porton üzemel.',
-	'DB_USERNAME'				=> 'Adatbázis felhasználónév',
+	'DB_USERNAME'				=> 'Adatbázis-felhasználónév',
 	'DB_TEST'					=> 'Kapcsolat tesztelése',
 	'DEFAULT_LANG'				=> 'Fórum alapértelmezett nyelve', //? alapértelmezett?
 	'DEFAULT_PREFIX_IS'			=> 'A kovertáló nem talált táblákat a megadott előtaggal. Kérünk győződj meg róla, hogy helyesen adtad meg az eredeti fórum adatait. A %1$s alapértelmezett tábla előtagja <strong>%2$s</strong>.', //?
@@ -184,9 +184,9 @@ $lang = array_merge($lang, array(
 	'INSTALL_INTRO'				=> 'Üdvözlünk a telepítőben', //? "Welcome to Installation" 'Üdvözlünk a telepítésnél'
 	'INSTALL_INTRO_BODY'		=> 'Ezen menüpont segítségével feltelepítheted a phpBB-t a szerveredre.</p><p>A folytatás során szükséged lesz a következő információkra:</p>
 	<ul>
-	<li>az adatbázis szerver hosztnevére,</li>
+	<li>az adatbázisszerver hosztnevére,</li>
 	<li>az adatbázis nevére,</li>
-	<li>az adatbázis felhasználónévre és az ehhez tartozó jelszóra.</li>
+	<li>az adatbázis-felhasználónévre és az ehhez tartozó jelszóra.</li>
 	</ul>
 	<p>További bevezető szöveg…', //? TODO fogalmazás menüpont???
 	'INSTALL_INTRO_NEXT'		=> 'A telepítés megkezdéséhez nyomd meg az alábbi gombot.',
@@ -194,34 +194,34 @@ $lang = array_merge($lang, array(
 	'INSTALL_NEXT'				=> 'Következő lépés', //? stage =! lépés
 	'INSTALL_NEXT_FAIL'			=> 'Néhány teszt nem volt sikeres. Mielőtt továbbléphetnél a következő lépésre, ezeket a problémákat meg kell oldanod. A hibák hiányos telepítéshez vezethetnek.', //?? főleg utolsó mondat ("Failure to do so may result in an incomplete installation.")
 	'INSTALL_NEXT_PASS'			=> 'Minden szükséges teszt sikeres volt, továbbléphetsz a következő lépésre. Ha megváltoztattál volna valamit, és újra szeretnéd tesztelni a beállításokat, azt is megteheted.',
-	'INSTALL_PANEL'				=> 'Telepítő', //? "Installation Panel" frissítésnél és konvertálásnál is ez van...
+	'INSTALL_PANEL'				=> 'Telepítő rendszer', //? "Installation Panel" frissítésnél és konvertálásnál is ez van...
 	'INSTALL_SEND_CONFIG'		=> 'Sajnos a phpBB nem tudta kiírni a konfigurációs információkat közvetlenül a config.php-be. Ez azért lehet, mert ez az állomány vagy nem létezik, vagy nem írható. A config.php létrehozására több lehetőséged van, melyeket az alábbi lista sorol fel.', //? "A number of options will be listed below enabling you to complete installation of config.php."
 	'INSTALL_START'				=> 'Telepítés megkezdése',
 	'INSTALL_TEST'				=> 'Tesztelés újra', //? "Test again" 'Új teszt'
 	'INST_ERR'					=> 'Telepítési hiba',
 	'INST_ERR_DB_CONNECT'		=> 'Nem sikerült csatlakozni az adatbázishoz. A hibaüzenetet lásd alább.', //? a második mondat kell?
-	'INST_ERR_DB_FORUM_PATH'	=> 'A megadott adatbázis állomány a fórum könyvtárán belül van. Ezt az állományt egy webről nem elérhető könyvtárba kell raknod.', //? "The database file specified is within your forum directory tree. You should put this file in a non web-accessible location" könyvtárfáján belül?
+	'INST_ERR_DB_FORUM_PATH'	=> 'A megadott adatbázis-állomány a fórum könyvtárán belül van. Ezt az állományt egy webről nem elérhető könyvtárba kell raknod.', //? "The database file specified is within your forum directory tree. You should put this file in a non web-accessible location" könyvtárfáján belül?
 	'INST_ERR_DB_NO_ERROR'		=> 'Nincs hibaüzenet.',
 	'INST_ERR_DB_NO_MYSQLI'		=> 'A szerveren lévő MySQL nem kompatibilis a kiválasztott „MySQL MySQLi kiterjesztéssel” csatolakozási móddal. Kérjük a „MySQL”-t válaszd ki.', //?
 	'INST_ERR_DB_NO_SQLITE'		=> 'Az SQLite kiterjesztés verziója túl régi, frissíteni kell legalább a 2.8.2-es verzióra.',
 	'INST_ERR_DB_NO_ORACLE'		=> 'A szerveren lévő Oracle verziója megköveteli, hogy a <var>NLS_CHARACTERSET</var> paraméter <var>UTF8</var>-ra legyen állítva. Frissítsd az Oracle verzióját legalább 9.2-esre, vagy változtasd meg a paraméter értékét.',
 	'INST_ERR_DB_NO_FIREBIRD'	=> 'A szerveren lévő Firebird verziója régebbi, mint 2.0, kérünk frissíts egy újabb verzióra. ', //? régebbi, mint 2.0??
 	'INST_ERR_DB_NO_FIREBIRD_PS'=> 'A kiválasztott Firebird adatbázis „page size” értéke kisebb, mint 8192, legalább ennyinek kell lennie.',
-	'INST_ERR_DB_NO_POSTGRES'	=> 'A kiválasztott adatbázis nem <var>UNICODE</var> vagy <var>UTF8</var> karakterkódolással került létrehozásra. Próbáld meg a telepítést egy <var>UNICODE</var> vagy <var>UTF8</var> karakterkódolású adatbázissalú. ', //? "The database you have selected was not created in <var>UNICODE</var> or <var>UTF8</var> encoding. Try installing with a database in <var>UNICODE</var> or <var>UTF8</var> encoding" próbáld meg a telepítést??
+	'INST_ERR_DB_NO_POSTGRES'	=> 'A kiválasztott adatbázis nem <var>UNICODE</var> vagy <var>UTF8</var> karakterkódolással került létrehozásra. Próbáld meg a telepítést egy <var>UNICODE</var> vagy <var>UTF8</var> karakterkódolású adatbázissal. ', //? "The database you have selected was not created in <var>UNICODE</var> or <var>UTF8</var> encoding. Try installing with a database in <var>UNICODE</var> or <var>UTF8</var> encoding" próbáld meg a telepítést??
 	'INST_ERR_DB_NO_NAME'		=> 'Nem adatad meg az adatbázis nevét.',
 	'INST_ERR_EMAIL_INVALID'	=> 'A megadott e-mail cím hibás.',
 	'INST_ERR_EMAIL_MISMATCH'	=> 'A megadott e-mail címek nem egyeznek meg.',
 	'INST_ERR_FATAL'			=> 'Súlyos telepítési hiba', //? fatális?
-	'INST_ERR_FATAL_DB'			=> 'Egy súlyos és nem helyreállítható adatbázis hiba lépett fel. Lehet, hogy azért mert, az adatbázis felhasználónak nincs jogosultsága néhány művelet elvégzéséhez (<code>CREATE TABLES</code>, <code>INSERT</code> stb.). További információkat alább találhatsz. Lépj kapcsolatba a hoszting szolgáltatóddal, és/vagy fordulj a phpBB-t támogató fórumokhoz.', //? "A fatal and unrecoverable database error has occurred. This may be because the specified user does not have appropriate rights to <code>CREATE TABLES</code> or <code>INSERT</code> data, etc. Further information may be given below. Please contact your hosting provider in the first instance or the support forums of phpBB for further assistance." unrecoverable - nem javítható/helyreállítható
+	'INST_ERR_FATAL_DB'			=> 'Egy súlyos és nem helyreállítható adatbázishiba lépett fel. Lehet, hogy azért mert, az adatbázis-felhasználónak nincs jogosultsága néhány művelet elvégzéséhez (<code>CREATE TABLES</code>, <code>INSERT</code> stb.). További információkat alább találhatsz. Lépj kapcsolatba a hoszting szolgáltatóddal, és/vagy fordulj a phpBB-t támogató fórumokhoz.', //? "A fatal and unrecoverable database error has occurred. This may be because the specified user does not have appropriate rights to <code>CREATE TABLES</code> or <code>INSERT</code> data, etc. Further information may be given below. Please contact your hosting provider in the first instance or the support forums of phpBB for further assistance." unrecoverable - nem javítható/helyreállítható
 	'INST_ERR_FTP_PATH'			=> 'Nem sikerült elérni a megadott könyvtárat, kérjük ellenőrizd le az elérési utat.', //? "Could not change to the given directory, please check the path." elérni a könyvtárat?
 	'INST_ERR_FTP_LOGIN'		=> 'Nem sikerült belépni az FTP szerverre, ellenőrizd le a megadott felhasználónevet és jelszót.',
 	'INST_ERR_MISSING_DATA'		=> 'A blokkban található összes mezőt ki kell töltened.', //? blokk, tömb
-	'INST_ERR_NO_DB'			=> 'Nem sikerült betölteni a megadott adatbázis típushoz tartozó PHP modult.',
+	'INST_ERR_NO_DB'			=> 'Nem sikerült betölteni a megadott adatbázistípushoz tartozó PHP modult.',
 	'INST_ERR_PASSWORD_MISMATCH'	=> 'A negadott jelszavak nem egyeznek meg.',
 	'INST_ERR_PASSWORD_TOO_LONG'	=> 'A megadott jelszó túl hosszú, legfeljebb 30 karakter lehet.',
 	'INST_ERR_PASSWORD_TOO_SHORT'	=> 'A megadott jelszó túl rövid, legalább 6 karakternek kell lennie.',
 	'INST_ERR_PREFIX'			=> 'Már léteznek táblák a megadott előtaggal, kérünk válassz egy másikat.',
-	'INST_ERR_PREFIX_INVALID'	=> 'A megadott adatbázis előtag nem megfelelő az adatbázisnak. Kérünk változtasd meg, például próbáld meg eltávolítani a jelenlegiből a kötőjeleket és az ehhez hasonló karaktereket.',
+	'INST_ERR_PREFIX_INVALID'	=> 'A megadott adatbázis-előtag nem megfelelő az adatbázis-kezelő rendszernek. Kérjük változtasd meg, például próbáld meg eltávolítani a jelenlegiből a kötőjeleket és az ehhez hasonló karaktereket.',
 	'INST_ERR_PREFIX_TOO_LONG'	=> 'A meagdott tábla előtag túl hosszú, legfeljebb %d karakter lehet.',
 	'INST_ERR_USER_TOO_LONG'	=> 'A megadott felhasználónév túl hosszú, legfeljebb 20 karakter lehet.',
 	'INST_ERR_USER_TOO_SHORT'	=> 'A megadott felhasználónév túl rövid, legalább 3 karakternek kell lennie.',
@@ -249,7 +249,7 @@ $lang = array_merge($lang, array(
 	'NO_CONVERTORS'				=> 'Nincs elérhető kovnertáló.', //? "No convertors are available for use" használható
 	'NO_CONVERT_SPECIFIED'		=> 'Nem került konvertáló kiválasztásra.', //? "No convertor specified"
 	'NO_LOCATION'				=> 'Nem sikerült meghatározni a helyét. Ha tudod, hogy az Imagemagick telepítve van, később megadhatod az elérési helyét az adminisztrátori vezérlőpultban.', //? elérési hely stb.
-	'NO_TABLES_FOUND'			=> 'Nem taláhatók adatbázis táblák.',
+	'NO_TABLES_FOUND'			=> 'Nem taláhatók adatbázistáblák.',
 // TODO: Write some explanatory introduction text
 	'OVERVIEW_BODY'					=> 'Ide valami szép kis szöveg jön, de már csak ha kijött az RC (addig úgyse lesz használva)…</p><p>Ez a telepítőrendszer végigvezet a phpBB telepítésének, más fórumszoftverről való konvertálásnak vagy a legújabb verzióra való frissítésnek folyamatán. További információt az egyes lehetőségekről a fenti menü megfelelő elemére kattintva kaphatsz.
 	', //? TODO "installation system"? nyelvtan? "This installation system will guide you through the process of installing phpBB, converting from a different software package or updating to the latest version of phpBB. For more information on each option, select it from the menu above."
@@ -258,7 +258,7 @@ $lang = array_merge($lang, array(
 	'PHP_OPTIONAL_MODULE'			=> 'Opcionális modulok', //? erre is van valamilyen magyar kifejezés...
 	'PHP_OPTIONAL_MODULE_EXPLAIN'	=> '<strong>Opcionális</strong> – Ezek a modulok vagy alkalmazások opcionálisak. Azonban ha elérhetők, extra funkciók használata válik lehetségessé.',
 	'PHP_SUPPORTED_DB'				=> 'Támogatott adatbázisok',
-	'PHP_SUPPORTED_DB_EXPLAIN'		=> '<strong>Szükséges</strong> – A PHP-dnak legalább egy adatbázist támogatnia kell az alább felsoroltak közül. Ha egy adatbázis modul sem elérhető, lépj kapcsolatba a hoszting szolgáltatóddal, vagy nézd át a megfelelő PHP telepítési dokumentációt tanácsért.', //? compatible => alább felsoroltak közül; hoszting; tanácsért? - fogalmazás
+	'PHP_SUPPORTED_DB_EXPLAIN'		=> '<strong>Szükséges</strong> – A PHP-dnak legalább egy adatbázist támogatnia kell az alább felsoroltak közül. Ha egy adatbázismodul sem elérhető, lépj kapcsolatba a hoszting szolgáltatóddal, vagy nézd át a megfelelő PHP telepítési dokumentációt tanácsért.', //? compatible => alább felsoroltak közül; hoszting; tanácsért? - fogalmazás
 	'PHP_REGISTER_GLOBALS'			=> '<var>register_globals</var> PHP beállítás kikapcsolva',
 	'PHP_REGISTER_GLOBALS_EXPLAIN'	=> 'A phpBB akkor is működni fog, ha ez a beállítás be van kapcsolva, azonban biztonsági szempontból ajánlott a kikapcsolása.',
 	'PHP_SAFE_MODE'					=> 'Biztonságos mód', //? ennek ez a magyar fordítása?
@@ -266,7 +266,7 @@ $lang = array_merge($lang, array(
 	'PHP_SETTINGS_EXPLAIN'			=> '<strong>Szükséges</strong> – A phpBB telepítéséhez legalább 4.3.3-as verziójú PHP-vel kell rendelkezned. Ha alább megjelenik a <var>biztonságos mód</var> felirat, akkor a PHP ebben módban fut. Ez korlátozásokkal jár a távoli adminisztrációhoz hasonló funkciók terén.', //? Szükséges a szöveg elején... távoli adminisztráció...
 	'PHP_VERSION_REQD'				=> 'PHP verzió >= 4.3.3',
 	'POST_ID'						=> 'Hozzászólás azonosító', //? ID?
-	'PREFIX_FOUND'					=> 'Az adatbázis tábláid azt mutatják, hogy van már egy telepített phpBB-d, melynek a tábla előtagja <strong>%s</strong>.',
+	'PREFIX_FOUND'					=> 'Az adatbázistábláid azt mutatják, hogy van már egy telepített phpBB-d, melynek a tábla előtagja <strong>%s</strong>.',
 	'PREPROCESS_STEP'				=> 'Függvények/parancsok előfeldolgozásának végrehajtása', //? " Executing pre-processing functions/queries"
 	'PRE_CONVERT_COMPLETE'			=> 'Az előfedlgozó lépések sikeresen végrehajtásra kerültek. Most már elkezdtheted a tényleges konvertálást. Kérjük vedd figyelembe, hogy néhány dolgot, lehet hogy neked kell majd kézzel beállítanod. A konvertálás után különösen is ellenőrizd le a jogosultságokat, ha szükséges építsd újra a kereső indexet, és ellenőrizd le, hogy az állományok sikeresen átmásolásra kerültek-e (például avatarok, emotikonok).', //? adjust - helyrehoz, beállít, igazít; rebuild search index; correctly - helyesen, pontosan, gond nélkül, (sikeresen)
 	'PROCESS_LAST'					=> 'Végső műveletek végrehajtása', //? "Processing last statements" befejező?
@@ -289,9 +289,9 @@ $lang = array_merge($lang, array(
 	'STAGE_ADVANCED'			=> 'Haladó beállítások', //? nagyon nem szeretem a haladó szót, ide más kéne! 'További', 'Speciális' stb.
 	'STAGE_ADVANCED_EXPLAIN'	=> 'Ezeket a beállításokat csak akkor add meg, ha biztosan tudod, hogy az alap beállítástól valami eltérőre van szükséged. Ha nem vagy benne biztos, lépj tovább a következő lépésre, ezeket a beállításokat később az adminisztrátori vezérlőpultról is megváltoztathatod.', //? "The settings on this page are only necessary to set if you know that you require something different from the default. If you are unsure, just proceed to the next page, as these settings can be altered from the Administration Control Panel later."
 	'STAGE_CONFIG_FILE'			=> 'Konfigurációs állomány', //?
-	'STAGE_CREATE_TABLE'		=> 'Adatbázis táblák létrehozása',
-	'STAGE_CREATE_TABLE_EXPLAIN'	=> 'A phpBB 3.0 adatbázis táblái sikeresen létrehozásra kerültek bennük néhány kezdeti adattal. Lépj tovább a következő oldalra, hogy befejezd a phpBB telepítését.', //? "The database tables used by phpBB 3.0 have been created and populated with some initial data. Proceed to the next screen to finish installing phpBB." 'A phpBB telepítésének befejezéséhez lépj tovább a köv. ...' 'A phpBB 3.0 adatbázis táblái sikeresen létrehozásra kerültek, és feltöltésre kerültek néhány kezdeti adattal.' stb. adat!, kezdeti, néhány
-	'STAGE_DATABASE'			=> 'Adatbázis adatok', //? 'Adatbázis beállítások'
+	'STAGE_CREATE_TABLE'		=> 'Adatbázistáblák létrehozása',
+	'STAGE_CREATE_TABLE_EXPLAIN'	=> 'A phpBB 3.0 adatbázistáblái sikeresen létrehozásra kerültek bennük néhány kezdeti adattal. Lépj tovább a következő oldalra, hogy befejezd a phpBB telepítését.', //? "The database tables used by phpBB 3.0 have been created and populated with some initial data. Proceed to the next screen to finish installing phpBB." 'A phpBB telepítésének befejezéséhez lépj tovább a köv. ...' 'A phpBB 3.0 adatbázis táblái sikeresen létrehozásra kerültek, és feltöltésre kerültek néhány kezdeti adattal.' stb. adat!, kezdeti, néhány
+	'STAGE_DATABASE'			=> 'Adatbázisadatok', //? 'Adatbázis beállítások'
 	'STAGE_FINAL'				=> 'Befejező lépés',
 	'STAGE_INTRO'				=> 'Bevezető', //? 'Bevezetés'
 	'STAGE_IN_PROGRESS'			=> 'Konvertálás folyamatban',
@@ -328,40 +328,40 @@ $lang = array_merge($lang, array(
 
 // Updater
 $lang = array_merge($lang, array(
-	'ALL_FILES_UP_TO_DATE'		=> 'All files are up to date with the latest phpBB version. You should now <a href="../ucp.php?mode=login">login to your board</a> and check if everything is working fine. Do not forget to delete, rename or move your install directory!',
-	'ARCHIVE_FILE'				=> 'Source file within archive',
+	'ALL_FILES_UP_TO_DATE'		=> 'Az összes állomány megfelel a legújabb verziójú phpBB csomagnak. <a href="../ucp.php?mode=login">Lépj be a fórumon</a>, és ellenőrizd le, hogy minden rendesen működik-e. Ne felejtsd el törölni, átnevezni vagy áthelyezni az install könyvtárat!', //? naprakész; hol használják - frissítésre került?
+	'ARCHIVE_FILE'				=> 'Csomagbeli forrásállomány', //??? "Source file within archive" hasonló - szövegezés/megfogalmazás (wording) korántsem tökéletes
 
-	'BACK'				=> 'Back',
-	'BINARY_FILE'		=> 'Binary file',
+	'BACK'				=> 'Vissza',
+	'BINARY_FILE'		=> 'Bináris állomány',
 
-	'CHECK_FILES'					=> 'Check files',
-	'CHECK_FILES_AGAIN'				=> 'Check files again',
-	'CHECK_FILES_EXPLAIN'			=> 'Within the next step all files will be checked against the update files - this can take a while if this is the first file check.',
-	'CHECK_FILES_UP_TO_DATE'		=> 'According to your database your version is up to date. You may want to proceed with the file check to make sure all files are really up to date with the latest phpBB version.',
-	'CHECK_UPDATE_DATABASE'			=> 'Continue update process',
-	'COLLECTED_INFORMATION'			=> 'Information on collected files',
-	'COLLECTED_INFORMATION_EXPLAIN'	=> 'The list below shows information about the files needing an update. Please read the information in front of every status block to see what they mean and what you may need to do to perform a successful update.',
-	'COMPLETE_LOGIN_TO_BOARD'		=> 'You should now <a href="../ucp.php?mode=login">login to your board</a> and check if everything is working fine. Do not forget to delete, rename or move your install directory!',
-	'CONTINUE_UPDATE_NOW'			=> 'Continue the update process now',
-	'CURRENT_FILE'					=> 'Current original file',
-	'CURRENT_VERSION'				=> 'Current version',
+	'CHECK_FILES'					=> 'Állományok összevetése', //? leellenőrzése
+	'CHECK_FILES_AGAIN'				=> 'Állományok összevetése újra',
+	'CHECK_FILES_EXPLAIN'			=> 'A következő lépésben az összes állomány összevetésre kerül a frissítési állományokkal – ez eltarthat egy ideig, ha ez az első összevetés.', //? frissítési: frissítő, friss stb.?
+	'CHECK_FILES_UP_TO_DATE'		=> 'Az adatbázisban lévő információk szerint a legújabb verziót használod. Most tanácsos az állományok összevetésével folytatnod, hogy megbizonyosodj róla, hogy tényleg a legújabb verzióját futtatod a phpBB-nek.',//? "According to your database your version is up to date. You may want to proceed with the file check to make sure all files are really up to date with the latest phpBB version."
+	'CHECK_UPDATE_DATABASE'			=> 'Frissítési folyamat folytatása', //? "Continue update process"
+	'COLLECTED_INFORMATION'			=> 'Információk az összegyűjtött állományokról', //? "Information on collected files" _összegyűjtött_, kiválogatott, összeszedett, _frissítésre_váró_, frissítndő, elavult, régi; azokról a fájlokról van szó, melyek benne vannak a frissítő csomagban (tehát elvileg az összeset frissíteni kell - de ez pl. a frissítés közben módosulhat)
+	'COLLECTED_INFORMATION_EXPLAIN'	=> 'Az alábbi lista információkat tartalmaz a frissítendő állományokról. Olvasd el a blokkok előtti magyarázó szöveget, hogy tudd milyen állományok tartoznak oda, és mit kell ezekkel tenned a sikeres frissítéshez.', //? "The list below shows information about the files needing an update. Please read the information in front of every status block to see what they mean and what you may need to do to perform a successful update."
+	'COMPLETE_LOGIN_TO_BOARD'		=> 'Most lépj be a fórumra, és ellenőrizd le, hogy minden rendesen működik-e. Ne felejtsd el törölni, átnevezni vagy áthelyezni az install könyvtárat!',
+	'CONTINUE_UPDATE_NOW'			=> 'Frissítési folyamat folytatása most',
+	'CURRENT_FILE'					=> 'Jelenlegi eredeti állomány',
+	'CURRENT_VERSION'				=> 'Jelenlegi verzió',
 
-	'DATABASE_TYPE'						=> 'Database type',
-	'DATABASE_UPDATE_INFO_OLD'			=> 'The database update file within the install directory is outdated. Please make sure you uploaded the correct version of the file.',
-	'DESTINATION'						=> 'Destination file',
-	'DIFF_INLINE'						=> 'Inline',
-	'DIFF_RAW'							=> 'Raw unified diff',
-	'DIFF_SEP_EXPLAIN'					=> 'End of current file / Begin of new updated file',
+	'DATABASE_TYPE'						=> 'Adatbázis típusa',
+	'DATABASE_UPDATE_INFO_OLD'			=> 'Az install könyvtárban található adatbázis-frissítő állomány nem a legújabb. Kérünk győződj meg róla, hogy a jó verzióját töltötted fel az állománynak.', //? "The database update file within the install directory is outdated. Please make sure you uploaded the correct version of the file."
+	'DESTINATION'						=> 'Célállomány',
+	'DIFF_INLINE'						=> '', //? "Inline" állományközi, sorközi, hagyjuk az eredetit (aki ezt használja, úgyis tudja mit csinál)?
+	'DIFF_RAW'							=> 'Raw unified diff', //?
+	'DIFF_SEP_EXPLAIN'					=> 'Jelenlegi állomány vége / Új frissített állomány kezdődik', //?
 	'DIFF_SIDE_BY_SIDE'					=> 'Side by Side',
 	'DIFF_UNIFIED'						=> 'Unified diff',
-	'DO_NOT_UPDATE'						=> 'Do not update this file',
-	'DONE'								=> 'Done',
-	'DOWNLOAD'							=> 'Download',
-	'DOWNLOAD_AS'						=> 'Download as',
-	'DOWNLOAD_UPDATE_METHOD'			=> 'Download modified files archive',
-	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'Once downloaded you should unpack the archive. You will find the modified files you need to upload to your phpBB root directory within it. Please upload the files to their respective locations then. After you have uploaded all files, please check the files again with the other button below.',
+	'DO_NOT_UPDATE'						=> 'Állomány frissítésének kihagyása', //? "Do not update this file"
+	'DONE'								=> 'Kész', //???
+	'DOWNLOAD'							=> 'Letöltés',
+	'DOWNLOAD_AS'						=> 'Tömörítés', //? "Download as" az angol nem ez, de gyakorlatilag ezt jelenti
+	'DOWNLOAD_UPDATE_METHOD'			=> 'Megváltoztatott állományokat tartalmazó csomag letöltése',
+	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'Miután letöltötted a csomagot, tömörítsd ki. A csomagban található megváltoztatott állományokat töltsd fel a phpBB-d gyökérkönyvtárába, a megfelelő helyükre. Miután feltöltötted az összes állományt, vesd össze újra az állományokat a másik alábbi gomb segítségével.',
 
-	'ERROR'		=> 'Error',
+	'ERROR'		=> 'Hiba',
 
 	'FILE_ALREADY_UP_TO_DATE'		=> 'File is already up to date',
 	'FILE_DIFF_NOT_ALLOWED'			=> 'File not allowed to be diffed',
