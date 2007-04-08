@@ -4,7 +4,7 @@
 * ucp [Hungarian]
 *
 * @package language
-* @version $Id: ucp.php,v 1.18 2007-04-01 15:42:01 fberci Exp $
+* @version $Id: ucp.php,v 1.19 2007-04-08 13:30:13 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -181,11 +181,11 @@ $lang = array_merge($lang, array(
 	'FOES_UPDATED'				=> 'Az ellenségeid listája sikeresen frissítésre került.',
 	'FOLDER_ADDED'				=> 'A mappa sikeresen hozzáadásra került.',
 	'FOLDER_MESSAGE_STATUS'		=> '%1$d / %2$d üzenet', //? "%1$d from %2$d messages stored" - gondolom mennyire van tele
-	'FOLDER_NAME_EXIST'			=> 'A <strong>%s</strong> már létezik.',
+	'FOLDER_NAME_EXIST'			=> '<strong>%s</strong> nevű mappa már létezik.',
 	'FOLDER_OPTIONS'			=> 'Mappa beállítások',
 	'FOLDER_RENAMED'			=> 'A mappa sikeresen átnevezésre került.',
 	'FOLDER_REMOVED'			=> 'A mappa sikeresen törlésre került.',
-	'FOLDER_STATUS_MSG'			=> 'A %1$d%% mappa megtelt (%2$d / %3$d üzenet)', //? 'tele van'?
+	'FOLDER_STATUS_MSG'			=> 'A mappa %1$d%%-a telt meg (%2$d / %3$d üzenet).', //? 'tele van'?
 	'FORWARD_PM'				=> 'PÜ továbbítása',
 	'FORCE_PASSWORD_EXPLAIN'	=> 'Mielőtt továbbléphetnél a fórumon, meg kell változtatnod a jelszavad. ',
 	'FRIEND_MESSAGE'			=> 'Üzenet baráttól',
