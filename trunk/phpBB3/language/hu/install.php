@@ -4,7 +4,7 @@
 * install [Hungarian]
 *
 * @package language
-* @version $Id: install.php,v 1.7 2007-04-09 09:54:22 fberci Exp $
+* @version $Id: install.php,v 1.8 2007-04-09 14:19:05 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -68,7 +68,7 @@ $lang = array_merge($lang, array(
 	'CONFIG_RETRY'				=> 'Újra', //??
 	'CONTACT_EMAIL_CONFIRM'		=> 'Kapcsolat e-mail cím megerősítés', //? kapcsolat e-mail
 	'CONTINUE_CONVERT'			=> 'Konvertálás folytatása',
-	'CONTINUE_CONVERT_BODY'		=> 'Egy korábbi nem befejezett konverzió lett észlelve. Választhatsz, hogy ezt folytatod, vagy egy újat kezdesz.',
+	'CONTINUE_CONVERT_BODY'		=> 'Észlelve lett egy korábbi, nem befejezett konverzió. Választhatsz, hogy ezt folytatod, vagy egy újat kezdesz.',
 	'CONTINUE_LAST'				=> 'Végső műveletek folytatása', //?? "Continue last statements" statement? egyáltalán hol használják?
 	'CONTINUE_OLD_CONVERSION'	=> 'Korábban megkezdett konverzió folytatása', //?
 	'CONVERT'					=> 'Konvertálás',
@@ -78,7 +78,7 @@ $lang = array_merge($lang, array(
 	'CONVERT_INTRO_BODY'		=> 'Itt adatokat importálhatsz másik (telepített) fórumrendszerekből. Az alábbi lista tartalmazza az elérhető konvertálókat. Ha a listában nem szerepel a kívánt fórumszoftverről konvertáló modul, látogass el a phpBB weboldalára, ahonnan lehet, hogy letöltheted.', //?
 	'CONVERT_NEW_CONVERSION'	=> 'Új konvertálás',
 	'CONVERT_NOT_EXIST'			=> 'A megadott konvertáló nem létezik.',
-	'CONVERT_SETTINGS_VERIFIED'	=> 'A megadott információk leellenőrzésre kerültek. A koverzió megkezdéséhez nyomd meg az alábbi gombot.', //? verify
+	'CONVERT_SETTINGS_VERIFIED'	=> 'A megadott információk leellenőrzésre kerültek. A konvertálás elkezdéséhez nyomd meg az alábbi gombot.', //? verify
 	'CONV_ERR_FATAL'					=> 'Súlyos konvertálási hiba', //? végzetes?
 
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'A régi fórumon engedélyezve volt az FTP-n keresztüli csatolmányfeltöltés. Kérjük kapcsold ki az FTP feltöltést, bizonyosodj meg róla, hogy helyes feltöltési könyvtár került megadásra, majd másold át az összes csatolmány állományt az új, webről is elérhető könyvtárba. Ha végeztél ezzel, indítsd újra a konvertálót.', //? igazából nem teljesen értem...
@@ -144,7 +144,7 @@ $lang = array_merge($lang, array(
 	'DLL_POSTGRES'				=> 'PostgreSQL 7.x/8.x',
 	'DLL_SQLITE'				=> 'SQLite',
 	'DLL_XML'					=> 'XML támogatás [ Jabber ]',
-	'DLL_ZLIB'					=> 'zlib tömörítés támogatás [ gz, .tar.gz, .zip ]', //? nem egybe írják?
+	'DLL_ZLIB'					=> 'Zlib tömörítés támogatás [ gz, .tar.gz, .zip ]', //? nem egybe írják?
 	'DL_CONFIG'					=> 'Konfiguráció letöltése', //?
 	'DL_CONFIG_EXPLAIN'			=> 'Letöltheted a teljes conifg.php-t a saját számítógépedre. Ezután fel kell töltened ezt az állományt kézzel a phpBB gyökérkönyvtárába, felülírva a már létező config.php-t. Ne feledkezz meg róla, hogy az állományt ASCII módban töltsd fel (ha ezt nem tudod hogyan teheted meg, nézd meg az FTP programod dokumentációját). Ha felöltötted a config.php-t, kattints a „Kész” gombra, hogy továbblépj a következő lépésre.', //?
 	'DL_DOWNLOAD'				=> 'Letöltés',
@@ -153,7 +153,7 @@ $lang = array_merge($lang, array(
 	'ENABLE_KEYS'				=> 'Kulcsok újra bekapcsolása… Ez eltarthat egy ideig.', //? bekapcsolás??
 
 	'FILES_OPTIONAL'			=> 'Opcionális könyvtárak és állományok',
-	'FILES_OPTIONAL_EXPLAIN'	=> '<strong>Opcionális</strong> – Ezen könyvtárak, állományok, illetve jogosultságbeállítások megléte nem feltétlenül szükséges. A telepítő rendszer különböző módokon megpróbálja majd helyettesíteni őket, azonban a meglétük felgyorsítja a telepítést.', //? helyettesíteni???
+	'FILES_OPTIONAL_EXPLAIN'	=> '<strong>Opcionális</strong> – Ezen könyvtárak, állományok, illetve jogosultságbeállítások megléte nem feltétlenül szükséges. A telepítőrendszer különböző módokon megpróbálja majd helyettesíteni őket, azonban a meglétük felgyorsítja a telepítést.', //? helyettesíteni???
 	'FILES_REQUIRED'			=> 'Könyvtárak és állományok',
 	'FILES_REQUIRED_EXPLAIN'	=> '<strong>Szükséges</strong> – A phpBB-nek a helyes működéshez hozzá kell tudnia férnie, illetve tudnia kell írnia néhány állományba vagy könyvtárba. Ha a „Nem található” feliratot látod, akkor létre kell hoznod a megfelelő állományt vagy könyvtárat. Ha a „Nem írható” feliratot látod, akkor meg kell változtatnod az adott állomány vagy könyvtár jogosultságát, hogy a phpBB írni tudjon bele.',
 	'FILLING_TABLE'				=> '<strong>%s</strong> tábla feltöltése',
@@ -178,9 +178,9 @@ $lang = array_merge($lang, array(
 	'INSTALL_CONGRATS_EXPLAIN'	=> '
 		<p>Sikeresen telepítetted a phpBB %1$s-t. Most két dolgot tehetesz az újonnan telepített phpBB3-addal:</p>
 		<h2>Már meglévő fórum átkonvertálása</h2>
-		<p>A phpBB Egyesített Konvertáló Keretrendszer segítségével át lehet konvertálni phpBB 2.0.x-es és más fórumrendszert használó fórumokat phpBB3-assá. Ha át szeretnél konvertálni egy már meglévő fórumot, <a href="%2$s">lépj tovább a konvertálóhoz.</a>.</p>
+		<p>A phpBB Egyesített Konvertáló Keretrendszer segítségével át lehet konvertálni phpBB 2.0.x-es és más fórummotort használó fórumokat phpBB3-assá. Ha át szeretnél konvertálni egy már meglévő fórumot, <a href="%2$s">lépj tovább a konvertálóhoz</a>.</p>
 		<h2>phpBB3 használatva vétele</h2>
-		<p>Az alábbi gombra kattintva az adminisztrátori vezérlőpultra jutsz. Szánj rá egy kis időt, és vizsgáld meg a beállítási lehetőségeket. Ne feledkezz meg róla, hogy a phpBB-vel kapcsolatban segítséget nyújt az angol <a href="http://www.phpbb.com/support/documentation/3.0/">Felhasználói kézikönyv</a> és a <a href="http://www.phpbb.com/phpBB/viewforum.php?f=46">phpbb.com megfelelő fóruma</a>, további információkat a <a href="%3$s">README/a>-ben találsz.</p><p><strong>Most kérjük töröld, helyezd át, vagy nevezd át az install könyvtárat, mert amíg ez a könyvtár létezik, csak az adminisztrátori vezérlőpult lesz elérhető.</strong></p>', //? teljes átfogalmazás... TODO (béta)
+		<p>Az alábbi gombra kattintva az adminisztrátori vezérlőpultra jutsz. Szánj rá egy kis időt, és vizsgáld meg a beállítási lehetőségeket. Ne feledkezz meg róla, hogy a phpBB-vel kapcsolatban segítséget nyújt az angol <a href="http://www.phpbb.com/support/documentation/3.0/">Felhasználói kézikönyv</a> és a <a href="http://www.phpbb.com/phpBB/viewforum.php?f=46">phpbb.com megfelelő fóruma</a>; további információkat a <a href="%3$s">README</a>-ben találsz.</p><p><strong>Most kérjük töröld, helyezd át, vagy nevezd át az install könyvtárat, mert amíg ez a könyvtár létezik, csak az adminisztrátori vezérlőpult lesz elérhető.</strong></p>', //? teljes átfogalmazás... TODO (béta)
 	'INSTALL_INTRO'				=> 'Üdvözlünk a telepítőben', //? "Welcome to Installation" 'Üdvözlünk a telepítésnél'
 	'INSTALL_INTRO_BODY'		=> 'Ezen menüpont segítségével feltelepítheted a phpBB-t a szerveredre.</p><p>A folytatás során szükséged lesz a következő információkra:</p>
 	<ul>
@@ -256,26 +256,26 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT'				=> 'PCRE UTF-8 támogatás',
 	'PCRE_UTF_SUPPORT_EXPLAIN'		=> 'A phpBB <strong>nem</strong> fog működni, ha a PHP a PCRE kiterjesztés UTF-8 támogatása nélkül került fordításra.', //? fogalmazás...
 	'PHP_OPTIONAL_MODULE'			=> 'Opcionális modulok', //? erre is van valamilyen magyar kifejezés...
-	'PHP_OPTIONAL_MODULE_EXPLAIN'	=> '<strong>Opcionális</strong> – Ezek a modulok vagy alkalmazások opcionálisak. Azonban ha elérhetők, extra funkciók használata válik lehetségessé.',
+	'PHP_OPTIONAL_MODULE_EXPLAIN'	=> '<strong>Opcionális</strong> – Ezek a modulok vagy alkalmazások opcionálisak. Azonban ha elérhetők, extra funkciók használata válik lehetségessé velük.',
 	'PHP_SUPPORTED_DB'				=> 'Támogatott adatbázisok',
 	'PHP_SUPPORTED_DB_EXPLAIN'		=> '<strong>Szükséges</strong> – A PHP-dnak legalább egy adatbázist támogatnia kell az alább felsoroltak közül. Ha egy adatbázismodul sem elérhető, lépj kapcsolatba a hoszting szolgáltatóddal, vagy nézd át a megfelelő PHP telepítési dokumentációt tanácsért.', //? compatible => alább felsoroltak közül; hoszting; tanácsért? - fogalmazás
 	'PHP_REGISTER_GLOBALS'			=> '<var>register_globals</var> PHP beállítás kikapcsolva',
 	'PHP_REGISTER_GLOBALS_EXPLAIN'	=> 'A phpBB akkor is működni fog, ha ez a beállítás be van kapcsolva, azonban biztonsági szempontból ajánlott a kikapcsolása.',
 	'PHP_SAFE_MODE'					=> 'Biztonságos mód', //? ennek ez a magyar fordítása?
 	'PHP_SETTINGS'					=> 'PHP verzió és beállítások',
-	'PHP_SETTINGS_EXPLAIN'			=> '<strong>Szükséges</strong> – A phpBB telepítéséhez legalább 4.3.3-as verziójú PHP-vel kell rendelkezned. Ha alább megjelenik a <var>biztonságos mód</var> felirat, akkor a PHP ebben módban fut. Ez korlátozásokkal jár a távoli adminisztrációhoz hasonló funkciók terén.', //? Szükséges a szöveg elején... távoli adminisztráció...
+	'PHP_SETTINGS_EXPLAIN'			=> '<strong>Szükséges</strong> – A phpBB telepítéséhez legalább 4.3.3-as verziójú PHP-val kell rendelkezned. Ha alább megjelenik a <var>biztonságos mód</var> felirat, akkor a PHP ebben a módban fut. Ez korlátozásokkal jár a távoli adminisztrációhoz hasonló funkciók terén.', //? Szükséges a szöveg elején... távoli adminisztráció...
 	'PHP_VERSION_REQD'				=> 'PHP verzió >= 4.3.3',
 	'POST_ID'						=> 'Hozzászólás azonosító', //? ID?
 	'PREFIX_FOUND'					=> 'Az adatbázistábláid azt mutatják, hogy van már egy telepített phpBB-d, melynek a tábla előtagja <strong>%s</strong>.',
 	'PREPROCESS_STEP'				=> 'Függvények/parancsok előfeldolgozásának végrehajtása', //? " Executing pre-processing functions/queries"
-	'PRE_CONVERT_COMPLETE'			=> 'Az előfedlgozó lépések sikeresen végrehajtásra kerültek. Most már elkezdtheted a tényleges konvertálást. Kérjük vedd figyelembe, hogy néhány dolgot, lehet hogy neked kell majd kézzel beállítanod. A konvertálás után különösen is ellenőrizd le a jogosultságokat, ha szükséges építsd újra a kereső indexet, és ellenőrizd le, hogy az állományok sikeresen átmásolásra kerültek-e (például avatarok, emotikonok).', //? adjust - helyrehoz, beállít, igazít; rebuild search index; correctly - helyesen, pontosan, gond nélkül, (sikeresen)
+	'PRE_CONVERT_COMPLETE'			=> 'Az előfeldolgozó lépések sikeresen végrehajtásra kerültek. Most már elkezdtheted a tényleges konvertálást. Kérjük vedd figyelembe, hogy néhány dolgot, lehet hogy neked kell majd kézzel beállítanod. A konvertálás után különösen is ellenőrizd le a jogosultságokat, ha szükséges építsd újra a kereső indexet, és ellenőrizd le, hogy az állományok sikeresen átmásolásra kerültek-e (például avatarok, emotikonok).', //? adjust - helyrehoz, beállít, igazít; rebuild search index; correctly - helyesen, pontosan, gond nélkül, (sikeresen)
 	'PROCESS_LAST'					=> 'Végső műveletek végrehajtása', //? "Processing last statements" befejező?
 
 	'REFRESH_PAGE'				=> 'Automatikus továbblépés', //? "Refresh page to continue conversion"
-	'REFRESH_PAGE_EXPLAIN'		=> 'Ha igenre állítod, a konvertáló egy lépés befejezése után mindig újratölti az oldalt, ezzel továbblépve a következő lépésre. Ha most konvertálsz az első alkalommal, és csak tesztelni szeretnél, előre tájékozódni az esetlegesen felmerülő hibákról, ajánljuk, hogy állítsd ezt a beállítást nemre.',
+	'REFRESH_PAGE_EXPLAIN'		=> 'Ha igenre állítod, a konvertáló egy lépés befejezése után mindig újratölti az oldalt, ezzel továbblépve a következő lépésre. Ha most konvertálsz az első alkalommal, és csak tesztelni szeretnél, illetve előre tájékozódni az esetlegesen felmerülő hibákról, ajánljuk, hogy állítsd ezt a beállítást nemre.',
 //	'REQUIRED'					=> 'Required',
 	'REQUIREMENTS_TITLE'		=> 'Telepítési követelmények', //? "Installation compatibility" nem volt jó ötletem az angol verzióra, úgyhogy ez lett a cím :)
-	'REQUIREMENTS_EXPLAIN'		=> 'A phpBB telepítése előtt még lefuttatunk néhány tesztet a szerveren, hogy meggyőződjünk, biztosan sikeresen telepíteni és üzemeltetni tudod a phpBB-t. Kérjük nézd át alaposan az eredményeket, és ne lépj tovább addig, amíg az összes szükséges teszt sikeres nem lesz. Ha opcionális tesztekhez kapcsolódó funkciókat is használni szeretnél, győződj meg arról is, hogy a megfelelő opcionális tesztek is sikeresek.',
+	'REQUIREMENTS_EXPLAIN'		=> 'A phpBB telepítése előtt még lefuttatunk néhány tesztet a szerveren, hogy meggyőződjünk, biztosan sikeresen tudod telepíteni és üzemeltetni a phpBB-t. Kérjük nézd át alaposan az eredményeket, és ne lépj tovább addig, amíg az összes szükséges teszt sikeres nem lesz. Ha opcionális tesztekhez kapcsolódó funkciókat is használni szeretnél, győződj meg arról is, hogy a megfelelő opcionális tesztek is sikeresek.',
 	'RETRY_WRITE'				=> 'Konfiguráció kiírásának újra megpróbálása', //? "Retry writing config"
 	'RETRY_WRITE_EXPLAIN'		=> 'Megváltoztathatod a config.php jogosultságait, hogy a phpBB írni tudja azt. Ezután kattints az Újra gombra. Miután befejezted a phpBB telepítését, ne felejtsd el a config.php jogosultságait visszaállítani.', //? "If you wish you can change the permissions on config.php to allow phpBB to write to it. Should you wish to do that you can click Retry below to try again. Remember to return the permissions on config.php after phpBB has finished installation."
 
@@ -284,17 +284,17 @@ $lang = array_merge($lang, array(
 	'SELECT_LANG'				=> 'Nyelv kiválasztása',
 	'SERVER_CONFIG'				=> 'Szerver beállítások', // "Server configuration" konfiguráció
 	'SOFTWARE'					=> 'Fórumszoftver', //? külön?
-	'SPECIFY_OPTIONS'			=> 'Konvertálási beállítások megadása', //? hol? megadása kell?
+	'SPECIFY_OPTIONS'			=> 'Konvertálás beállításainak megadása', //? hol? megadása kell?
 	'STAGE_ADMINISTRATOR'		=> 'Adminisztrátor adatok', //? 'Adminisztrátor adatai'
 	'STAGE_ADVANCED'			=> 'Haladó beállítások', //? nagyon nem szeretem a haladó szót, ide más kéne! 'További', 'Speciális' stb.
-	'STAGE_ADVANCED_EXPLAIN'	=> 'Ezeket a beállításokat csak akkor add meg, ha biztosan tudod, hogy az alap beállítástól valami eltérőre van szükséged. Ha nem vagy benne biztos, lépj tovább a következő lépésre, ezeket a beállításokat később az adminisztrátori vezérlőpultról is megváltoztathatod.', //? "The settings on this page are only necessary to set if you know that you require something different from the default. If you are unsure, just proceed to the next page, as these settings can be altered from the Administration Control Panel later."
+	'STAGE_ADVANCED_EXPLAIN'	=> 'Ezeket a beállításokat csak akkor add meg, ha biztosan tudod, hogy az alap beállítástól valami eltérőre van szükséged. Ha nem vagy benne biztos, lépj tovább a következő lépésre, ezeket később az adminisztrátori vezérlőpultról is megváltoztathatod.', //? "The settings on this page are only necessary to set if you know that you require something different from the default. If you are unsure, just proceed to the next page, as these settings can be altered from the Administration Control Panel later."
 	'STAGE_CONFIG_FILE'			=> 'Konfigurációs állomány', //?
 	'STAGE_CREATE_TABLE'		=> 'Adatbázistáblák létrehozása',
-	'STAGE_CREATE_TABLE_EXPLAIN'	=> 'A phpBB 3.0 adatbázistáblái sikeresen létrehozásra kerültek bennük néhány kezdeti adattal. Lépj tovább a következő oldalra, hogy befejezd a phpBB telepítését.', //? "The database tables used by phpBB 3.0 have been created and populated with some initial data. Proceed to the next screen to finish installing phpBB." 'A phpBB telepítésének befejezéséhez lépj tovább a köv. ...' 'A phpBB 3.0 adatbázis táblái sikeresen létrehozásra kerültek, és feltöltésre kerültek néhány kezdeti adattal.' stb. adat!, kezdeti, néhány
-	'STAGE_DATABASE'			=> 'Adatbázisadatok', //? 'Adatbázis beállítások'
+	'STAGE_CREATE_TABLE_EXPLAIN'	=> 'A phpBB 3.0 adatbázistáblái sikeresen létrehozásra kerültek, bennük néhány kezdeti adattal. Lépj tovább a következő oldalra, hogy befejezd a phpBB telepítését.', //? "The database tables used by phpBB 3.0 have been created and populated with some initial data. Proceed to the next screen to finish installing phpBB." 'A phpBB telepítésének befejezéséhez lépj tovább a köv. ...' 'A phpBB 3.0 adatbázis táblái sikeresen létrehozásra kerültek, és feltöltésre kerültek néhány kezdeti adattal.' stb. adat!, kezdeti, néhány
+	'STAGE_DATABASE'			=> 'Adatbázis adatok', //? 'Adatbázis beállítások'
 	'STAGE_FINAL'				=> 'Befejező lépés',
 	'STAGE_INTRO'				=> 'Bevezető', //? 'Bevezetés'
-	'STAGE_IN_PROGRESS'			=> 'Konvertálás folyamatban',
+	'STAGE_IN_PROGRESS'			=> 'Konvertálás…', //? 'Konvertálás folyamatban'
 	'STAGE_REQUIREMENTS'		=> 'Követelmények',
 	'STAGE_SETTINGS'			=> 'Beállítások',
 	'STARTING_CONVERT'			=> 'Konvertálás elkezdése',
@@ -304,7 +304,7 @@ $lang = array_merge($lang, array(
 	'SUB_SUPPORT'				=> 'Támogatás',
 	'SUCCESSFUL_CONNECT'		=> 'Sikeres kapcsolódás',
 // TODO: Write some text on obtaining support
-	'SUPPORT_BODY'				=> 'A béta fázis alatt csupán minimális támogatás érhető el a <a href="http://www.phpbb.com/phpBB/viewforum.php?f=46">phpBB.com megfelelő fórumában</a>. Ez a támogatás általános telepítési kérdések megválaszolására, konfigurációs, illetve hibákkal kapcsolatos problémák megoldására terjed ki. Nem foglalja magában viszont a modok, egyedi kód/megjelenés változtatások, illetve élesben üzemeltett fórumok támogatását.</p><p>Segítséget találhatsz az <a href="http://www.phpbb.com/support/documentation/3.0/quickstart/">angol gyorstalpalóban</a> is.</p><p>Hogy mindig azonnal értesülj a phpBB frissítéseiről, <a href="http://www.phpbb.com/support/">iratkozz fel a hírlevelünkre</a>.', //? TODO fogalmazás (bár úgyis változik)
+	'SUPPORT_BODY'				=> 'A béta fázis alatt csupán minimális támogatás érhető el a <a href="http://www.phpbb.com/phpBB/viewforum.php?f=46">phpBB.com megfelelő fórumában</a>. Ez a támogatás általános telepítési kérdések megválaszolására, konfigurációs, illetve hibákkal kapcsolatos problémák megoldására terjed ki. Nem foglalja magában viszont a modok, egyedi kód/megjelenés változtatások, illetve élő környezetben üzemeltett fórumok támogatását.</p><p>Segítséget találhatsz az <a href="http://www.phpbb.com/support/documentation/3.0/quickstart/">angol gyorstalpalóban</a> is.</p><p>Hogy mindig azonnal értesülj a phpBB frissítéseiről, <a href="http://www.phpbb.com/support/">iratkozz fel a hírlevelünkre</a>.', //? TODO fogalmazás (bár úgyis változik)
 	'SYNC_FORUMS'				=> 'Fórumok szinkronizációjának megkezdése', //? elkezdés - kell egyáltalán ez a szó (tesztelni kell)
 	'SYNC_TOPICS'				=> 'Témák szinkronizációjának megkezdése',
 	'SYNC_TOPIC_ID'				=> 'Témák szinkronizálása; <var>topic_id</var>: %1$s – %2$s', //? mínusz jel jobban mutatna?
@@ -406,7 +406,7 @@ $lang = array_merge($lang, array(
 	'NO_UPDATE_FILES'				=> 'Következő állományok frissítésének kihagyása',
 	'NO_UPDATE_FILES_EXPLAIN'		=> 'A következő, új vagy módosított állományok könyvtára, melyben elvileg lenniük kéne, nem található. Ha az alábbi lista olyan állományokat is tartalmaz, melyek nem a language/ vagy a styles/ könyvtárban vannak, akkor valószínűleg módosítottad a könyvtárszerkezeted, a frissítés pedig nem biztos, hogy teljes lesz.',
 	'NO_UPDATE_FILES_OUTDATED'		=> 'Nem található érvényes frissítési könyvtár, kérünk győződj meg róla, hogy feltöltötted a szükséges állományokat.<br /><br />A phpBB-d valószínűleg <strong>nem</strong> a legújabb verziójú. A jelenlegi %1$s verziójú phpBB-dhez elérhető frissítés, látogasd meg a <a href="http://www.phpbb.com/downloads/" rel="external">http://www.phpbb.com/downloads/</a> weboldalt a %2$s verzióról %3$s verzióra való frissítő csomag letöltéséhez.', //?
-	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'A phpBB-d a legújabb verziójú. Nincs szükség a frissítő futtatására. Ha le szeretnéd ellenőrizni a phpBB-d állományait, győződj meg róla, hogy feltöltötted a helyes frissítő állományokat.', //?
+	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'A phpBB-d a legújabb verziójú. Nincs szükség a frissítő futtatására. Ha le szeretnéd ellenőrizni a phpBB-d állományait, győződj meg róla, hogy feltöltötted a megfelelő frissítő állományokat.', //?
 	'NO_UPDATE_INFO'				=> 'Nem található az információ a frissítő állományról.',
 	'NO_UPDATES_REQUIRED'			=> 'Nincs szükség frissítésre.',
 	'NO_VISIBLE_CHANGES'			=> 'Nincs látható változás.',
@@ -494,8 +494,8 @@ $lang = array_merge($lang, array(
 	'VERSION_CHECK_EXPLAIN'		=> 'Itt leellenőrzésre kerül, hogy a jelenleg futó phpBB a legfrissebb-e.', //?
 	'VERSION_NOT_UP_TO_DATE'	=> 'A phpBB-d verziója nem a legújabb. Kérjük folytasd a frissítési folyamatot.',
 	'VERSION_NOT_UP_TO_DATE_ACP'=> 'A phpBB-d verziója nem a legújabb.<br />Alább találsz egy linket az új verziót bejelentő közleményre és instrukciókat a frissítés elvégzéséhez.', //?
-	'VERSION_UP_TO_DATE'		=> 'A phpBB-d a legfrissebb verziójú, nem elérhető hozzá frissítés. Mindenesetre  továbbléphetsz, és leellenőrizheted az állományokat.', //?
-	'VERSION_UP_TO_DATE_ACP'	=> 'A phpBB-d a legfrissebb verziójú, nem elérhető hozzá frissítés. Nem kell frissítened a fórumod.',
+	'VERSION_UP_TO_DATE'		=> 'A phpBB-d a legfrissebb verziójú, nem érhető el hozzá frissítés. Mindenesetre  továbbléphetsz, és leellenőrizheted az állományokat.', //?
+	'VERSION_UP_TO_DATE_ACP'	=> 'A phpBB-d a legfrissebb verziójú, nem érhető el hozzá frissítés. Nem kell frissítened a fórumod.',
 	'VIEWING_FILE_CONTENTS'		=> 'Állomány tartalmának megtekintése', //? "Viewing file contents" 'Állomány-tartalom'
 	'VIEWING_FILE_DIFF'			=> 'Állománykülönbségek megtekintése', //? "Viewing file differences" 'Különbségek megtekintése'
 
