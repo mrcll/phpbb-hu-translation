@@ -4,7 +4,7 @@
 * install [Hungarian]
 *
 * @package language
-* @version $Id: install.php,v 1.6 2007-04-08 22:49:10 fberci Exp $
+* @version $Id: install.php,v 1.7 2007-04-09 09:54:22 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -194,7 +194,7 @@ $lang = array_merge($lang, array(
 	'INSTALL_NEXT'				=> 'Következő lépés', //? stage =! lépés
 	'INSTALL_NEXT_FAIL'			=> 'Néhány teszt nem volt sikeres. Mielőtt továbbléphetnél a következő lépésre, ezeket a problémákat meg kell oldanod. A hibák hiányos telepítéshez vezethetnek.', //?? főleg utolsó mondat ("Failure to do so may result in an incomplete installation.")
 	'INSTALL_NEXT_PASS'			=> 'Minden szükséges teszt sikeres volt, továbbléphetsz a következő lépésre. Ha megváltoztattál volna valamit, és újra szeretnéd tesztelni a beállításokat, azt is megteheted.',
-	'INSTALL_PANEL'				=> 'Telepítő rendszer', //? "Installation Panel" frissítésnél és konvertálásnál is ez van...
+	'INSTALL_PANEL'				=> 'Telepítőrendszer', //? "Installation Panel" frissítésnél és konvertálásnál is ez van...
 	'INSTALL_SEND_CONFIG'		=> 'Sajnos a phpBB nem tudta kiírni a konfigurációs információkat közvetlenül a config.php-be. Ez azért lehet, mert ez az állomány vagy nem létezik, vagy nem írható. A config.php létrehozására több lehetőséged van, melyeket az alábbi lista sorol fel.', //? "A number of options will be listed below enabling you to complete installation of config.php."
 	'INSTALL_START'				=> 'Telepítés megkezdése',
 	'INSTALL_TEST'				=> 'Tesztelés újra', //? "Test again" 'Új teszt'
@@ -337,7 +337,7 @@ $lang = array_merge($lang, array(
 	'CHECK_FILES'					=> 'Állományok összevetése', //? leellenőrzése
 	'CHECK_FILES_AGAIN'				=> 'Állományok összevetése újra',
 	'CHECK_FILES_EXPLAIN'			=> 'A következő lépésben az összes állomány összevetésre kerül a frissítési állományokkal – ez eltarthat egy ideig, ha ez az első összevetés.', //? frissítési: frissítő, friss stb.?
-	'CHECK_FILES_UP_TO_DATE'		=> 'Az adatbázisban lévő információk szerint a legújabb verziót használod. Most tanácsos az állományok összevetésével folytatnod, hogy megbizonyosodj róla, hogy tényleg a legújabb verzióját futtatod a phpBB-nek.',//? "According to your database your version is up to date. You may want to proceed with the file check to make sure all files are really up to date with the latest phpBB version."
+	'CHECK_FILES_UP_TO_DATE'		=> 'Az adatbázisban lévő információk szerint a legújabb verziót használod. Most tanácsos továbblépned az állományok összevetéséhez, hogy megbizonyosodj róla, hogy tényleg a legújabb verzióját futtatod a phpBB-nek.',//? "According to your database your version is up to date. You may want to proceed with the file check to make sure all files are really up to date with the latest phpBB version."
 	'CHECK_UPDATE_DATABASE'			=> 'Frissítési folyamat folytatása', //? "Continue update process"
 	'COLLECTED_INFORMATION'			=> 'Információk az összegyűjtött állományokról', //? "Information on collected files" _összegyűjtött_, kiválogatott, összeszedett, _frissítésre_váró_, frissítndő, elavult, régi; azokról a fájlokról van szó, melyek benne vannak a frissítő csomagban (tehát elvileg az összeset frissíteni kell - de ez pl. a frissítés közben módosulhat)
 	'COLLECTED_INFORMATION_EXPLAIN'	=> 'Az alábbi lista információkat tartalmaz a frissítendő állományokról. Olvasd el a blokkok előtti magyarázó szöveget, hogy tudd milyen állományok tartoznak oda, és mit kell ezekkel tenned a sikeres frissítéshez.', //? "The list below shows information about the files needing an update. Please read the information in front of every status block to see what they mean and what you may need to do to perform a successful update."
@@ -363,143 +363,143 @@ $lang = array_merge($lang, array(
 
 	'ERROR'		=> 'Hiba',
 
-	'FILE_ALREADY_UP_TO_DATE'		=> 'File is already up to date',
-	'FILE_DIFF_NOT_ALLOWED'			=> 'File not allowed to be diffed',
-	'FILE_USED'						=> 'Information used from',			// Single file
-	'FILES_CONFLICT'				=> 'Conflict files',
-	'FILES_CONFLICT_EXPLAIN'		=> 'The following files are modified and do not represent the original files from the old version. phpBB determined that these files create conflicts if they are tried to be merged. Please investigate the conflicts and try to manually resolve them or continue the update choosing the preferred merging method. If you resolve the conflicts manually check the files again after you modified the them. You are also able to choose between the preferred merge method for every file. The first one will result in a file where the conflicting lines from your old file will be lost, the other one will result in loosing the changes from the newer file.',
-	'FILES_MODIFIED'				=> 'Modified files',
-	'FILES_MODIFIED_EXPLAIN'		=> 'The following files are modified and do not represent the original files from the old version. The updated file will be a merge between your modifications and the new file.',
-	'FILES_NEW'						=> 'New files',
-	'FILES_NEW_EXPLAIN'				=> 'The following files currently do not exist within your installation.',
-	'FILES_NEW_CONFLICT'			=> 'New conflicting files',
-	'FILES_NEW_CONFLICT_EXPLAIN'	=> 'The following files are new within the latest version but it has been determined that there is already a file with the same name within the same position. This file will be overwritten by the new file.',
-	'FILES_NOT_MODIFIED'			=> 'Not modified files',
-	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'The following files were not modified and represent the original phpBB files from the version you want to update from.',
-	'FILES_UP_TO_DATE'				=> 'Already updated files',
-	'FILES_UP_TO_DATE_EXPLAIN'		=> 'The following files are already up to date and do not need to be updated.',
-	'FTP_SETTINGS'					=> 'FTP settings',
-	'FTP_UPDATE_METHOD'				=> 'FTP upload',
+	'FILE_ALREADY_UP_TO_DATE'		=> 'Az állomány már a legújabb verziójú', //? "File is already up to date"
+	'FILE_DIFF_NOT_ALLOWED'			=> 'Ezen az állományon nem végezhető diff.', //? "File not allowed to be diffed"
+	'FILE_USED'						=> 'Információ a következő állományból',			// Single file //??? "Information used from"
+	'FILES_CONFLICT'				=> 'Ütközéseket tartalmazó állományok',
+	'FILES_CONFLICT_EXPLAIN'		=> 'A következő állományok korábban módosítva lettek, és nem teljesen egyeznek meg a régiverzió-beli állománnyal. Az egyesítésük során ütközés lép fel. Kérünk járj utána ezeknek az ütközéseknek, és próbáld meg megoldani őket kézzel, vagy folytasd a frissítést a kívánt egyesítési mód kiválasztásával. Ha saját magad oldod meg az ütközések problémáját, miután megváltoztattad az állományokat, vesd őket össze újra. Emellett választhatsz különböző egyesítési módok közül is. Az első használata következtében az új állományban a régi állomány ütköző sorai nem lesznek megtalálhatók, míg a második használatakor az új állomány változásai vesznek el.',
+	'FILES_MODIFIED'				=> 'Módosított állományok',
+	'FILES_MODIFIED_EXPLAIN'		=> 'A következő állományok korábban módosítva lettek, és nem teljesen egyeznek meg a régiverzió-beli állománnyal. A frissített állomány a saját módosításaid és az új állomány egyesítése lesz.', //? egyesítés - összefésülés
+	'FILES_NEW'						=> 'Új állományok',
+	'FILES_NEW_EXPLAIN'				=> 'A következő állományok jelenleg nem léteznek a phpBB-dben.',
+	'FILES_NEW_CONFLICT'			=> 'Új ütköző állományok',
+	'FILES_NEW_CONFLICT_EXPLAIN'	=> 'A következő állományok a legújabb verzióban jelentek meg, de megállapításra került, hogy ezen új állomány helyén neked már van egy ilyen nevű állományod. Ezek az állományok felülírásra kerülnek az új állományokkal.', //? megállapításra került - kell?
+	'FILES_NOT_MODIFIED'			=> 'Nem megváltoztatott állományok',
+	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'A következő állományok nem lettek módosítva, megegyeznek a phpBB azon verziójú állományaival, melyről frissíteni szeretnél.',
+	'FILES_UP_TO_DATE'				=> 'Már frissített állományok',
+	'FILES_UP_TO_DATE_EXPLAIN'		=> 'A követekző állományok már a legújabb verziójúak, ezért nem kell frissíteni őket.',
+	'FTP_SETTINGS'					=> 'FTP beállítások',
+	'FTP_UPDATE_METHOD'				=> 'FTP feltöltés',
 
-	'INCOMPATIBLE_UPDATE_FILES'		=> 'The update files found are incompatible with your installed version. Your installed version is %1$s and the update file is for updating phpBB %2$s to %3$s.',
-	'INCOMPLETE_UPDATE_FILES'		=> 'The update files are incomplete',
-	'INLINE_UPDATE_SUCCESSFUL'		=> 'The database update was successful. Now you need to continue the update process.',
+	'INCOMPATIBLE_UPDATE_FILES'		=> 'A talált frissítő állományok nem megfelelőek a phpBB-d verziójának. A jelenlegi phpBB-d verziója %1$s, a frissítő állományok pedig %2$s verzióról %3$s verzióra való frissítésre szolgálnak.',
+	'INCOMPLETE_UPDATE_FILES'		=> 'A frissítő állományok hiányosak.',
+	'INLINE_UPDATE_SUCCESSFUL'		=> 'Az adatbázis-frissítés sikeres volt. Most folytasd a frissítési folyamatot.', //? "The database update was successful. Now you need to continue the update process."
 
-	'LATEST_VERSION'		=> 'Latest version',
-	'LINE'					=> 'Line',
-	'LINE_ADDED'			=> 'Added',
-	'LINE_MODIFIED'			=> 'Modified',
-	'LINE_REMOVED'			=> 'Removed',
-	'LINE_UNMODIFIED'		=> 'Unmodified',
-	'LOGIN_UPDATE_EXPLAIN'	=> 'In order to update your installation you need to login first.',
+	'LATEST_VERSION'		=> 'Legfrissebb verzió',
+	'LINE'					=> 'Sor',
+	'LINE_ADDED'			=> 'Hozzáadva',
+	'LINE_MODIFIED'			=> 'Módosítva',
+	'LINE_REMOVED'			=> 'Eltávolítva',
+	'LINE_UNMODIFIED'		=> 'Változatlan',
+	'LOGIN_UPDATE_EXPLAIN'	=> 'A phpBB frissítéséhez először be kell jelentkezned.',
 
-	'MAPPING_FILE_STRUCTURE'	=> 'To ease the upload here are the file locations which map your phpBB installation.',
-	'MERGE_NO_MERGE_NEW_OPTION'	=> 'Do not merge - use new file',
-	'MERGE_NO_MERGE_MOD_OPTION'	=> 'Do not merge - use currently installed file',
-	'MERGE_MOD_FILE_OPTION'		=> 'Merge differences and use modified code within conflicting block',
-	'MERGE_NEW_FILE_OPTION'		=> 'Merge differences and use new file code within conflicting block',
-	'MERGE_SELECT_ERROR'		=> 'Conflicting file merge modes are not correctly selected.',
+	'MAPPING_FILE_STRUCTURE'	=> 'A feltöltés megkönnyítésének érdekébel alább szerepelnek a feltöltendő fájlok a helyükkel együtt, ahová fel kell őket töltened.', //? "To ease the upload here are the file locations which map your phpBB installation."
+	'MERGE_NO_MERGE_NEW_OPTION'	=> 'Nincs egyesítés – új állomány használata', //? 'Nincs egyesítés' - ???
+	'MERGE_NO_MERGE_MOD_OPTION'	=> 'Nincs egyesítés – jelenlegi telepített állomány használata',
+	'MERGE_MOD_FILE_OPTION'		=> 'Állományok egyesítése, ütköző részben a módosított kód használata',
+	'MERGE_NEW_FILE_OPTION'		=> 'Állományok egyesítése, ütköző részben az új állomány kódjának használata',
+	'MERGE_SELECT_ERROR'		=> 'Az ütközéseket tartalmazó állományok egyesítési módja nincs helyesen kiválasztva.', //?
 
-	'NEW_FILE'						=> 'New updated file',
-	'NO_AUTH_UPDATE'				=> 'Not authorised to update',
-	'NO_ERRORS'						=> 'No errors',
-	'NO_UPDATE_FILES'				=> 'Not updating the following files',
-	'NO_UPDATE_FILES_EXPLAIN'		=> 'The following files are new or modified but the directory they normally reside in could not be found on your installation. If this list contains files to other directories than language/ or styles/ than you may have modified your directory structure and the update may be incomplete.',
-	'NO_UPDATE_FILES_OUTDATED'		=> 'No valid update directory was found, please make sure you uploaded the relevant files.<br /><br />Your installation does <strong>not</strong> seem to be up to date. Updates are available for your version of phpBB %1$s, please visit <a href="http://www.phpbb.com/downloads.php" rel="external">http://www.phpbb.com/downloads.php</a> to obtain the correct package to update from Version %2$s to Version %3$s.',
-	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'Your version is up to date. There is no need to run the update tool. If you want to make an integrity check on your files make sure you uploaded the correct update files.',
-	'NO_UPDATE_INFO'				=> 'Update file information could not be found.',
-	'NO_UPDATES_REQUIRED'			=> 'No updates required',
-	'NO_VISIBLE_CHANGES'			=> 'No visible changes',
-	'NOTICE'						=> 'Notice',
-	'NUM_CONFLICTS'					=> 'Number of conflicts',
+	'NEW_FILE'						=> 'Új frissített állomány',
+	'NO_AUTH_UPDATE'				=> 'Nincs jogosultságod a frissítéshez.',
+	'NO_ERRORS'						=> 'Nincs hiba',
+	'NO_UPDATE_FILES'				=> 'Következő állományok frissítésének kihagyása',
+	'NO_UPDATE_FILES_EXPLAIN'		=> 'A következő, új vagy módosított állományok könyvtára, melyben elvileg lenniük kéne, nem található. Ha az alábbi lista olyan állományokat is tartalmaz, melyek nem a language/ vagy a styles/ könyvtárban vannak, akkor valószínűleg módosítottad a könyvtárszerkezeted, a frissítés pedig nem biztos, hogy teljes lesz.',
+	'NO_UPDATE_FILES_OUTDATED'		=> 'Nem található érvényes frissítési könyvtár, kérünk győződj meg róla, hogy feltöltötted a szükséges állományokat.<br /><br />A phpBB-d valószínűleg <strong>nem</strong> a legújabb verziójú. A jelenlegi %1$s verziójú phpBB-dhez elérhető frissítés, látogasd meg a <a href="http://www.phpbb.com/downloads/" rel="external">http://www.phpbb.com/downloads/</a> weboldalt a %2$s verzióról %3$s verzióra való frissítő csomag letöltéséhez.', //?
+	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'A phpBB-d a legújabb verziójú. Nincs szükség a frissítő futtatására. Ha le szeretnéd ellenőrizni a phpBB-d állományait, győződj meg róla, hogy feltöltötted a helyes frissítő állományokat.', //?
+	'NO_UPDATE_INFO'				=> 'Nem található az információ a frissítő állományról.',
+	'NO_UPDATES_REQUIRED'			=> 'Nincs szükség frissítésre.',
+	'NO_VISIBLE_CHANGES'			=> 'Nincs látható változás.',
+	'NOTICE'						=> 'Észrevétel', //? megjegyzés, figyelmeztetés, értesítés
+	'NUM_CONFLICTS'					=> 'Ütközések száma',
 
-	'OLD_UPDATE_FILES'		=> 'Update files are out of date. The update files found are for updating from phpBB %1$s to phpBB %2$s but the latest version of phpBB is %3$s.',
+	'OLD_UPDATE_FILES'		=> 'A frissítő állományok elavultak. A phpBB %1$s verzióról %2$s verzióra való frissítésre szolgálnak, de a phpBB legújabb verziója a %3$s.',
 
-	'PERFORM_DATABASE_UPDATE'			=> 'Perform database update',
-	'PERFORM_DATABASE_UPDATE_EXPLAIN'	=> 'Below you will find a link to the database update script. This script needs to be run seperatly because updating the database might result in unexpected behaviour if you are logged in. The database update can take a while, so please do not stop the execution if it seems to hang. After you performed the database update, close the database update window and continue the update process.',
-	'PREVIOUS_VERSION'					=> 'Previous version',
-	'PROGRESS'							=> 'Progress',
+	'PERFORM_DATABASE_UPDATE'			=> 'Adatbázisfrissítés végrehajtása',
+	'PERFORM_DATABASE_UPDATE_EXPLAIN'	=> 'Alább találsz egy linket az adatbázisfrissítő szkriptre. Ezt külön kell futtatni, mivel nem várható viselkedés léphet fel, ha ezt belépve teszed. Az adatbázisfrissítés eltarthat egy ideig, tehát kérjük ne állítsd le a szkript futattását, akkor se ha az megakadni látszik. Miután elvégezted az adatbázisfrissítést, zárd be az ablakot, és folytasd a frissítési folyamatot.',
+	'PREVIOUS_VERSION'					=> 'Előző verzó',
+	'PROGRESS'							=> 'Haladás', //?
 
-	'RESULT'					=> 'Result',
-	'RUN_DATABASE_SCRIPT'		=> 'Update my database now',
+	'RESULT'					=> 'Eredmény',
+	'RUN_DATABASE_SCRIPT'		=> 'Adatbázis frissítése most',
 
-	'SELECT_DIFF_MODE'			=> 'Select diff mode',
-	'SELECT_DOWNLOAD_FORMAT'	=> 'Select download archive format',
-	'SELECT_FTP_SETTINGS'		=> 'Select FTP settings',
-	'SHOW_DIFF_CONFLICT'		=> 'Show differences/conflicts',
-	'SHOW_DIFF_FINAL'			=> 'Show resulting file',
-	'SHOW_DIFF_MODIFIED'		=> 'Show merged differences',
-	'SHOW_DIFF_NEW'				=> 'Show file contents',
-	'SHOW_DIFF_NEW_CONFLICT'	=> 'Show differences',
-	'SHOW_DIFF_NOT_MODIFIED'	=> 'Show differences',
-	'SOME_QUERIES_FAILED'		=> 'Some queries failed, the statements and errors are listing below',
+	'SELECT_DIFF_MODE'			=> 'Diff mód kiválasztása', //? maradjon az angol nem?
+	'SELECT_DOWNLOAD_FORMAT'	=> 'Letöltendő csomag formátumának kiválasztása', //? "Select download archive format"
+	'SELECT_FTP_SETTINGS'		=> 'FTP beállítások megadása',
+	'SHOW_DIFF_CONFLICT'		=> 'Különbségek/ütközések megjelenítése',
+	'SHOW_DIFF_FINAL'			=> 'Eredmény megjelenítése', //? "Show resulting file"
+	'SHOW_DIFF_MODIFIED'		=> 'Különbségek egyesítésének megjelenítése', //? "Show merged differences	"
+	'SHOW_DIFF_NEW'				=> 'Állomány tartalmának megjelenítése',
+	'SHOW_DIFF_NEW_CONFLICT'	=> 'Különbségek megjelenítése', //? "Show differences"
+	'SHOW_DIFF_NOT_MODIFIED'	=> 'Különbségek megjelenítése', //? "Show differences"
+	'SOME_QUERIES_FAILED'		=> 'Néhány parancs nem járt sikerrel, az SQL lekéréseket és a hibaüzeneteket megtalálod alább.',
 	'SQL'						=> 'SQL',
-	'SQL_FAILURE_EXPLAIN'		=> 'This is probably nothing to worry about, update will continue. Should this fail to complete you may need to seek help at our support forums. See <a href="../docs/README.html">README</a> for details on how to obtain advice.',
-	'STAGE_FILE_CHECK'			=> 'Check files',
-	'STAGE_UPDATE_DB'			=> 'Update database',
-	'STAGE_UPDATE_FILES'		=> 'Update files',
-	'STAGE_VERSION_CHECK'		=> 'Version check',
-	'STATUS_CONFLICT'			=> 'Modified file producing conflicts',
-	'STATUS_MODIFIED'			=> 'Modified file',
-	'STATUS_NEW'				=> 'New file',
-	'STATUS_NEW_CONFLICT'		=> 'Conflicting new file',
-	'STATUS_NOT_MODIFIED'		=> 'Not modified file',
-	'STATUS_UP_TO_DATE'			=> 'Already updated file',
+	'SQL_FAILURE_EXPLAIN'		=> 'Valószínűleg nincs gond, a frissítés folytatódni fog. Amennyiben mégsem, kérj segítséget a phpBB-t támogató fórumokban. További infomrációért a támogatással kapcsolatban lásd a <a href="../docs/README.html">README</a>-t.', //?? "This is probably nothing to worry about, update will continue. Should this fail to complete you may need to seek help at our support forums. See <a href="../docs/README.html">README</a> for details on how to obtain advice."
+	'STAGE_FILE_CHECK'			=> 'Állományok összevetése',
+	'STAGE_UPDATE_DB'			=> 'Adatbázis frissítése',
+	'STAGE_UPDATE_FILES'		=> 'Állományok frissítése',
+	'STAGE_VERSION_CHECK'		=> 'Verzió leellenőrzése', //? le?
+	'STATUS_CONFLICT'			=> 'Ütközéseket eredményező módosított állomány',
+	'STATUS_MODIFIED'			=> 'Módosított állomány',
+	'STATUS_NEW'				=> 'Új állomány',
+	'STATUS_NEW_CONFLICT'		=> 'Ütköző új állomány',
+	'STATUS_NOT_MODIFIED'		=> 'Nem módosított állomány',
+	'STATUS_UP_TO_DATE'			=> 'Már frissített állomány',
 
-	'UPDATE_COMPLETED'				=> 'Update completed',
-	'UPDATE_DATABASE'				=> 'Update database',
-	'UPDATE_DATABASE_EXPLAIN'		=> 'Within the next step the database will be updated.',
-	'UPDATE_DATABASE_SCHEMA'		=> 'Updating database schema',
-	'UPDATE_FILES'					=> 'Update files',
-	'UPDATE_FILES_NOTICE'			=> 'Please make sure you have updated your board files too, this file is only updating your database.',
-	'UPDATE_INSTALLATION'			=> 'Update phpBB installation',
-	'UPDATE_INSTALLATION_EXPLAIN'	=> 'With this option, it is possible to update your phpBB installation to the latest version.<br />During the process all of your files will be checked for their integrity. You are able to review all differences and files before the update.<br /><br />The file update itself can be done in two different ways.</p><h2>Manual Update</h2><p>With this update you only download your personal set of changed files to make sure you do not lose your file modifications you may have done. After you downloaded this package you need to manually upload the files to their correct position under your phpBB root directory. Once done, you are able to do the file check stage again to see if you moved the files to their correct location.</p><h2>Automatic Update with FTP</h2><p>This method is similar to the first one but without the need to download the changed files and uploading them on your own. This will be done for you. In order to use this method you need to know your FTP login details since you will be asked for them. Once finished you will be redirected to the file check again to make sure everything got updated correctly.<br /><br />',
+	'UPDATE_COMPLETED'				=> 'Frissítés befejezve',
+	'UPDATE_DATABASE'				=> 'Adatbázis frissítése',
+	'UPDATE_DATABASE_EXPLAIN'		=> 'A következő lépésben az adatbázis kerül frissítésre.',
+	'UPDATE_DATABASE_SCHEMA'		=> 'Adatbázis-szerkezet frissítése',
+	'UPDATE_FILES'					=> 'Állományok frissítése',
+	'UPDATE_FILES_NOTICE'			=> 'Kérünk győződj meg róla, hogy a phpBB állományait is frissítetted, ez az állomány csak az adatbázist frissíti.',
+	'UPDATE_INSTALLATION'			=> 'PhpBB frissítése',
+	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Itt frissíteheted a phpBB-d a legújabb verzióra.<br />A frissítési folyamat során minden állomány leellenőrzésre kerül. A tényleges frissítés előtt minden különbséget átnézhetsz.<br /><br />Maga, az állományok frissítése, két módon végezhető el.</p><h2>Kézi frissítés</h2><p>Ezen frissítési mód használatakor csak a saját megváltozott állományaidat töltöd le, hogy meggyőződj róla, hogy nem vesztesz el semmilyen módosítást, melyet csinálhattál. Miután letöltötted ezt a csomagot, a benne lévő állományokat fel kell töltened a phpBB-d gyökérkönyvtárába a megfelelő helyükre. Ezután még egyszer összevetheted az állományokat, hogy leellenőrizd, hogy a megfelelő helyre töltötted fel őket.</p><h2>Automatikus frissítés FTP-vel</h2><p>Ez a frissítési mód hasonló az előbbihez, azonban ennél nem kell saját magadnak letöltened, majd feltöltened a megváltoztatott állományokat – ezt megteszi a phpBB. Ezen mód használatához ismerned kell az FTP-belépéshez szükséges dolgokat, mivel egy űrlapon meg kell adnod ezeket. Miután ezt befejezted, átirányításra kerülsz az állományok összevetéséhez, hogy meggyőződj róla, hogy minden sikersen frissítésre került.<br /><br />', //?
 	'UPDATE_INSTRUCTIONS'			=> '
 
-		<h1>Release announcement</h1>
+		<h1>Verziómegjelenési közlemény</h1>
 
-		<p>Please read <a href="%1$s" title="%1$s">the release announcement for the latest version</a> before you continue your update process, it may contain useful information. It also contains full download links as well as the change log.</p>
+		<p>Kérjük olvasd el <a href="%1$s" title="%1$s">a legfrissebb verziót bejelentő közleményt</a> a frissítési folyamat folytatása előtt, mivel hasznos információkat tartalmazhat. A változtatások listája, és közvetlen linkek a letöltésre mindenképpen szerepelnek benne.</p>
 
 		<br />
 
-		<h1>How to update your installation</h1>
+		<h1>Frissítés módja</h1>
 
-		<p>The recommended way of updating your installation only takes the following steps:</p>
+		<p>A javasolt frissítési mód mindössze a következő lépésekből áll:</p>
 
 		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li>Go to the <a href="http://www.phpbb.com/downloads.php" title="http://www.phpbb.com/downloads.php">phpBB.com downloads page</a> and download the correct "phpBB Update Package" archive.<br /><br /></li>
-			<li>Unpack the archive.<br /><br /></li>
-			<li>Upload the complete uncompressed install folder to your phpBB root directory (where your config.php file is).<br /><br /></li>
+			<li>Menj a <a href="http://www.phpbb.com/downloads/" title="http://www.phpbb.com/downloads/">phpBB.com letöltések oldalára</a>, és töltsd le a megfelelő phpBB frissítő csomagot.<br /><br /></li>
+			<li>Csomagold ki a csomagot.<br /><br /></li>
+			<li>A kicsomagolt csomag install könyvtárát töltsd fel a phpBB-d gyökérkönyvtárába (ahol a config.php található).<br /><br /></li>
 		</ul>
 
-		<p>Once uploaded your board will be offline for normal users due to the install directory you uploaded now present.<br /><br />
-		<strong><a href="%2$s" title="%2$s">Now start the update process by pointing your browser to the install folder</a>.</strong><br />
+		<p>Miután feltöltötted a normál felhasználók nem tudják majd elérni a fórumot, mivel létezni fog a feltöltött install könyvtár.<br /><br />
+		<strong><a href="%2$s" title="%2$s">Most kezdd el a telepítési folyamatot, az install könyvtárba lépéssel.</a>.</strong><br />
 		<br />
-		You will then be guided through the update process. You will be notified after the update is complete.
+		Ezután végigvezetésre kerülsz a frissítési folyamaton. A frissítés végeztével értesítésve leszel.
 		</p>
-	',
-	'UPDATE_METHOD'					=> 'Update method',
-	'UPDATE_METHOD_EXPLAIN'			=> 'You are now able to choose your preferred update method. Using the FTP upload will present you with a form you need to enter your FTP account details into. With this method the files will be automatically moved to the new location and backups of the old files being created by appending .bak to the filename. If you choose to download the modified files you are able to unpack and upload them to their correct location manually later.',
-	'UPDATE_SUCCESS'				=> 'Update was successful',
-	'UPDATE_SUCCESS_EXPLAIN'		=> 'Successfully updated all files. The next step involves checking all files again to make sure the files got updated correctly.',
-	'UPDATE_VERSION_OPTIMIZE'		=> 'Updating version and optimizing tables',
-	'UPDATING_DATA'					=> 'Updating data',
-	'UPDATING_TO_LATEST_STABLE'		=> 'Updating database to latest stable release',
-	'UPDATED_VERSION'				=> 'Updated version',
-	'UPLOAD_METHOD'					=> 'Upload method',
+	', //? "Release announcement" - Verziómegjelenési közlemény - mi van (el sem hiszem, hogy ilyet leírtam...)?
+	'UPDATE_METHOD'					=> 'Frissítési mód',
+	'UPDATE_METHOD_EXPLAIN'			=> 'Most kiválaszthatod a kívánt frissítési módot. Ha az FTP feltöltést választod, egy űrlap fog mejelenni, ahol meg kell adnod az FTP-csatlakozához szükséges adatokat. Ezen mód használatakor az állományok automatikusan áthelyezésre kerülnek az új helyükre, és a régi állományokról biztonsági másolat készül az állományok nevéhez való .bak kiterjesztés hozzáfűzésével. Ha a módosított fájlok letöltését választod, ki kell csomagolnod a letöltött csomagot, majd kézzel feltöltened a tartalmát a megfelelő helyre.',
+	'UPDATE_SUCCESS'				=> 'Sikeres frissítés',
+	'UPDATE_SUCCESS_EXPLAIN'		=> 'Minden állomány sikeresen frissítésre került. A következő lépésben az összes állomány újra leellenőrzésre került, hogy megbizonyosodj róla, hogy az összes állomány sikeresen frissítve lett. ',
+	'UPDATE_VERSION_OPTIMIZE'		=> 'Verziószám frissítése és táblák optimalizálása',
+	'UPDATING_DATA'					=> 'Adatok frissítése',
+	'UPDATING_TO_LATEST_STABLE'		=> 'Adatbázis frissítés az utolsó stabil kiadásra',
+	'UPDATED_VERSION'				=> 'Frissített verzió', //?
+	'UPLOAD_METHOD'					=> 'Feltöltési mód',
 
-	'UPDATE_DB_SUCCESS'				=> 'Database update was successful',
+	'UPDATE_DB_SUCCESS'				=> 'Sikeres adatbázis-frissítés',
 
-	'VERSION_CHECK'				=> 'Version check',
-	'VERSION_CHECK_EXPLAIN'		=> 'Checks to see if the version of phpBB you are currently running is up to date.',
-	'VERSION_NOT_UP_TO_DATE'	=> 'Your version of phpBB is not up to date. Please continue the update process.',
-	'VERSION_NOT_UP_TO_DATE_ACP'=> 'Your version of phpBB is not up to date.<br />Below you will find a link to the release announcement for the latest version as well as instructions on how to perform the update.',
-	'VERSION_UP_TO_DATE'		=> 'Your installation is up to date, no updates are available for your version of phpBB. You may want to continue anyway to perform a file validity check.',
-	'VERSION_UP_TO_DATE_ACP'	=> 'Your installation is up to date, no updates are available for your version of phpBB. You do not need to update your installation.',
-	'VIEWING_FILE_CONTENTS'		=> 'Viewing file contents',
-	'VIEWING_FILE_DIFF'			=> 'Viewing file differences',
+	'VERSION_CHECK'				=> 'Verzió leellenőrzés',
+	'VERSION_CHECK_EXPLAIN'		=> 'Itt leellenőrzésre kerül, hogy a jelenleg futó phpBB a legfrissebb-e.', //?
+	'VERSION_NOT_UP_TO_DATE'	=> 'A phpBB-d verziója nem a legújabb. Kérjük folytasd a frissítési folyamatot.',
+	'VERSION_NOT_UP_TO_DATE_ACP'=> 'A phpBB-d verziója nem a legújabb.<br />Alább találsz egy linket az új verziót bejelentő közleményre és instrukciókat a frissítés elvégzéséhez.', //?
+	'VERSION_UP_TO_DATE'		=> 'A phpBB-d a legfrissebb verziójú, nem elérhető hozzá frissítés. Mindenesetre  továbbléphetsz, és leellenőrizheted az állományokat.', //?
+	'VERSION_UP_TO_DATE_ACP'	=> 'A phpBB-d a legfrissebb verziójú, nem elérhető hozzá frissítés. Nem kell frissítened a fórumod.',
+	'VIEWING_FILE_CONTENTS'		=> 'Állomány tartalmának megtekintése', //? "Viewing file contents" 'Állomány-tartalom'
+	'VIEWING_FILE_DIFF'			=> 'Állománykülönbségek megtekintése', //? "Viewing file differences" 'Különbségek megtekintése'
 
-	'WRONG_INFO_FILE_FORMAT'	=> 'Wrong info file format',
+	'WRONG_INFO_FILE_FORMAT'	=> 'Hibás információsállomány-formátum',
 ));
 
 ?>
