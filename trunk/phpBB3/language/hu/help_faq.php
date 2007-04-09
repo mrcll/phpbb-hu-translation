@@ -1,10 +1,10 @@
 <?php
 /** 
 *
-* help_faq [English]
+* help_faq [Hungarian]
 *
 * @package language
-* @version $Id: help_faq.php,v 1.4 2007-04-09 21:45:16 fberci Exp $
+* @version $Id: help_faq.php,v 1.5 2007-04-09 21:53:42 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -28,19 +28,19 @@
 $help = array(
 	array(
 		0 => '--',
-		1 => 'Login and Registration Issues'
+		1 => 'Belépési és regisztrációs kérdések'
 	),
 	array(
-		0 => 'Why can’t I login?',
-		1 => 'There are several reasons why this could occur. First, ensure your username and password are correct. If they are, contact the board owner to make sure you haven’t been banned. It is also possible the website owner has a configuration error on their end, and they would need to fix it.'
+		0 => 'Miért nem tudok beléni?',
+		1 => 'Ennek számos oka lehet. Ellőször is ellenőrizd, hogy jól adtad-e meg a felhasználóneved és a jelszavad. Ha igen, lépj kapcsolatba a fórum adminisztrátorával, hogy meggyőződj róla, nem lettél kitiltva. Az is lehetséges, hogy a weboldal üzemeltetőjének oldalán lépett fel valamilyen konfigurációs hiba, melyet javítaniuk kell.'
 	),
 	array(
-		0 => 'Why do I need to register at all?',
-		1 => 'You may not have to, it is up to the administrator of the board as to whether you need to register in order to post messages. However; registration will give you access to additional features not available to guest users such as definable avatar images, private messaging, emailing of fellow users, usergroup subscription, etc. It only takes a few moments to register so it is recommended you do so.'
+		0 => 'Miért kell egyáltalán regisztrálnom?',
+		1 => 'A regisztráció nem feltétlenül kötelező, a fórum adminisztrátorán múlik, hogy megköveteli-e hozzászólások küldéséhez. Mindemellett a regisztrációval plusz lehetőségek is elérhetővé válnak a számodra, mint például avatar használata, privát üzenetek, illetve e-mailek küldése, csatlakozás csoportokhoz stb. A regisztráció csupán néhány másodpercet vesz igénybe, így javasoljuk, hogy tedd meg.'
 	),
 	array(
-		0 => 'Why do I get logged off automatically?',
-		1 => 'If you do not check the <em>Log me in automatically</em> box when you login the board will only keep you logged in for a preset time. This prevents misuse of your account by anyone else. To stay logged in check the box during login, this is not recommended if you access the board from a shared computer, e.g. library, internet cafe, university computer lab, etc. If you do not see this check box, it means your administrator has disabled this feature.'
+		0 => 'Miért kerülök kiléptetésre automatikusan?', //? 'Miért lép ki automatikusan a rendszerből?'
+		1 => 'Ha belépéskor nem jelölöd be az <em>Automatikus bejelentkezés</em> opciót, a rendszer csak egy előre meghatározott ideig hagy belépve. Ez a viselkedés meggátolja az azonosítóddal való visszaélést. A tartós belépve maradáshoz jelöld be az említett opciót. Ezen funkció használata nem ajánlott, ha nyilvános helyről használod a fórumot, például könyvtárból, internetkávézóból vagy egyetemi laborból. Ha nem látod a jelölőnégyzeted, az adminisztrátor valószínűleg kikapcsolta ezt a funkciót.'
 	),
 	array(
 		0 => 'How do I prevent my username appearing in the online user listings?',
