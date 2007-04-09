@@ -4,7 +4,7 @@
 * help_faq [English]
 *
 * @package language
-* @version $Id: help_faq.php,v 1.3 2007-01-28 20:32:49 fberci Exp $
+* @version $Id: help_faq.php,v 1.4 2007-04-09 21:45:16 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -188,7 +188,7 @@ $help = array(
 	),
 	array(
 		0 => 'What are sticky topics?',
-		1 => 'Sticky topics appear below any announcements in viewforum and only on the first page. They are often quite important so you should read them where possible. As with announcements the board administrator determines what permissions are required to post sticky topics in each forum.'
+		1 => 'Sticky topics appear below any announcements within the forum and only on the first page. They are often quite important so you should read them where possible. As with announcements the board administrator determines what permissions are required to post sticky topics in each forum.'
 	),
 	array(
 		0 => 'What are locked topics?',
