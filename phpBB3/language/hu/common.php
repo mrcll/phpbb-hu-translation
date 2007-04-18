@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.35 2007-04-09 14:19:05 fberci Exp $
+* @version $Id: common.php,v 1.36 2007-04-18 19:30:46 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -80,7 +80,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_WRONG_FILESIZE'			=> 'Az avatarnak 0 és %1d %2s között kell lennie.',
 	'AVATAR_WRONG_SIZE'				=> 'Az avatar szélességének %1$d és %3$d pixel között, magasságának %2$d és %4$d pixel között kell lennie. A megadott avatar %5$d pixel széles, és %6$d pixel magas.',
 
-	'BACK_TO_TOP'			=> 'Vissza az elejére',
+	'BACK_TO_TOP'			=> 'Vissza a tetejére',
 	'BACK_TO_PREV'			=> 'Vissza az előző oldalra',
 	'BAN_TRIGGERED_BY_EMAIL'=> 'Az e-mail címed alapján tiltottak ki.',
 	'BAN_TRIGGERED_BY_IP'	=> 'Az IP-címed alapján tiltottak ki.',
@@ -336,7 +336,7 @@ $lang = array_merge($lang, array(
 	'NO_GROUP'					=> 'A keresett csoport nem létezik.',
 	'NO_GROUP_MEMBERS'			=> 'A csoportnak jelenleg nincsenek tagjai.',
 	'NO_IPS_DEFINED'			=> 'Nincs ilyen IP-cím vagy hoszt.',
-	'NO_MEMBERS'				=> 'Nincs a keresési feltételeknek megfelelő felahsználó.',
+	'NO_MEMBERS'				=> 'Nincs a keresési feltételeknek megfelelő felhasználó.',
 	'NO_MESSAGES'				=> 'Nincsenek üzenetek.',
 	'NO_MODE'					=> 'Nem adtál meg módot.',
 	'NO_MODERATORS'				=> 'A fórumnak nincsenek moderátorai.',
@@ -597,8 +597,8 @@ $lang = array_merge($lang, array(
 	'VIEW_LATEST_POST'			=> 'Utolsó hozzászólás megtekintése',
 	'VIEW_NEWEST_POST'			=> 'Első olvasatlan hozzászólás megtekintése',
 	'VIEW_NOTES'				=> 'Feljegyzések megtekintése',
-	'VIEW_ONLINE_TIME'			=> 'A fenti adatok az elmúlt %d perc alapján készültek.',
-	'VIEW_ONLINE_TIMES'			=> 'A fenti adatok az elmúlt %d perc alapján készültek.',
+	'VIEW_ONLINE_TIME'			=> 'Az adatok az elmúlt %d perc alapján készültek.',
+	'VIEW_ONLINE_TIMES'			=> 'Az adatok az elmúlt %d perc alapján készültek.',
 	'VIEW_TOPIC'				=> 'Téma megtekintése',
 	'VIEW_TOPIC_ANNOUNCEMENT'	=> 'Közlemény: ',
 	'VIEW_TOPIC_GLOBAL'			=> 'Általános közlemény: ',
