@@ -4,7 +4,7 @@
 * ucp [Hungarian]
 *
 * @package language
-* @version $Id: ucp.php,v 1.19 2007-04-08 13:30:13 fberci Exp $
+* @version $Id: ucp.php,v 1.20 2007-04-18 19:30:46 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -60,11 +60,11 @@ $lang = array_merge($lang, array(
 	'ACTIVATION_EMAIL_SENT'			=> 'Az aktivációs e-mail sikeresen elküldésre került az e-mail címedre.',
 	'ADD'							=> 'Hozzáadás',
 	'ADD_BCC'						=> 'Hozzáadás [titkos másolat]', //? + titkos másolat
-	'ADD_FOES'						=> 'Új ellenségek felvétele', //? kell az új?
-	'ADD_FOES_EXPLAIN'				=> 'Több felhasználónevet is megadhatsz külön sorba írva őket.',
+	'ADD_FOES'						=> 'Új haragosok felvétele', //? kell az új?
+	'ADD_FOES_EXPLAIN'				=> 'Több felhasználónevet is megadhatsz mindegyiket külön sorba írva.',
 	'ADD_FOLDER'					=> 'Mappa hozzáadása',
 	'ADD_FRIENDS'					=> 'Új barátok felvétele', //? kell az új?
-	'ADD_FRIENDS_EXPLAIN'			=> 'Több felhasználónevet is megadhatsz külön sorba írva őket.',
+	'ADD_FRIENDS_EXPLAIN'			=> 'Több felhasználónevet is megadhatsz mindegyiket külön sorba írva.',
 	'ADD_NEW_RULE'					=> 'Új szűrő létrehozása', //? kell az új?
 	'ADD_RULE'						=> 'Szűrő létrehozása',
 	'ADD_TO'						=> 'Hozzáadás [címzett]', //? + címzett
@@ -176,9 +176,9 @@ $lang = array_merge($lang, array(
 	'FIELD_INVALID_CHARS_SPACERS_ONLY'	=> 'A „%1$s” mező hibás karaktereket tartalmaz, csak alfanumerikus karakterek, szóköz és -+_[] jelek használata engedélyezett.', //? 'jel'? jelek elválasztása?
 	'FIELD_INVALID_DATE'				=> 'A „%1$s” mező érvénytelen dátumot tartalmaz.',
 
-	'FOE_MESSAGE'				=> 'Üzenet ellenségtől',
-	'FOES_EXPLAIN'				=> 'Az ellenségek olyan felhasználók, akik alapból mellőzésre kerülnek. A hozzászólásaik nem teljesen jelennek meg, és nem küldhetnek neked privát üzenetet. Kérjük vedd figyelembe, hogy nem mellőzhetsz egy moderátort vagy egy adminisztrátort.', //? mellőzésre kerülnek :)
-	'FOES_UPDATED'				=> 'Az ellenségeid listája sikeresen frissítésre került.',
+	'FOE_MESSAGE'				=> 'Üzenet haragostól',
+	'FOES_EXPLAIN'				=> 'A haragosok olyan felhasználók, akik alapból mellőzésre kerülnek. A hozzászólásaik nem teljesen jelennek meg, és nem küldhetnek neked privát üzenetet. Kérjük vedd figyelembe, hogy nem mellőzhetsz egy moderátort vagy egy adminisztrátort.', //? mellőzésre kerülnek :)
+	'FOES_UPDATED'				=> 'A haragosaid listája sikeresen frissítésre került.',
 	'FOLDER_ADDED'				=> 'A mappa sikeresen hozzáadásra került.',
 	'FOLDER_MESSAGE_STATUS'		=> '%1$d / %2$d üzenet', //? "%1$d from %2$d messages stored" - gondolom mennyire van tele
 	'FOLDER_NAME_EXIST'			=> '<strong>%s</strong> nevű mappa már létezik.',
@@ -254,12 +254,12 @@ $lang = array_merge($lang, array(
 	'NOTIFY_METHOD_IM'				=> 'Csak jabber',
 	'NOTIFY_ON_PM'					=> 'Értesítés új privát üzenetről',
 	'NOT_ADDED_FRIENDS_ANONYMOUS'	=> 'A vendég felhasználót nem adhatod veheted fel a barátaid listájára.',
-	'NOT_ADDED_FRIENDS_FOES'		=> 'Nem vehetsz fel a barátaid listájára olyan felhaszálókat, akik ellenségként jelöltél meg.',
+	'NOT_ADDED_FRIENDS_FOES'		=> 'Nem vehetsz fel a barátaid listájára olyan felhaszálókat, akiket haragosként jelöltél meg.',
 	'NOT_ADDED_FRIENDS_SELF'		=> 'Nem veheted fel saját magad a barátaid listájára.',
-	'NOT_ADDED_FOES_MOD_ADMIN'		=> 'Nem vehetesz fel adminisztárotokat és moderátorokat az ellenségeid listájára.',
-	'NOT_ADDED_FOES_ANONYMOUS'		=> 'Nem veheted fel a vendég felhasználót az ellenségeid listájára.',
-	'NOT_ADDED_FOES_FRIENDS'		=> 'Nem vehetsz fel az ellenségeid listájára olyan felhaszálókat, akiket már felvettél a barátaid listájára.',
-	'NOT_ADDED_FOES_SELF'			=> 'Nem veheted fel saját magad az ellenségeid listájára.',
+	'NOT_ADDED_FOES_MOD_ADMIN'		=> 'Nem vehetesz fel adminisztárotokat és moderátorokat a haragosaid listájára.',
+	'NOT_ADDED_FOES_ANONYMOUS'		=> 'Nem veheted fel a vendég felhasználót a haragosaid listájára.',
+	'NOT_ADDED_FOES_FRIENDS'		=> 'Nem vehetsz fel a haragosaid listájára olyan felhaszálókat, akiket már felvettél a barátaid listájára.',
+	'NOT_ADDED_FOES_SELF'			=> 'Nem veheted fel saját magad a haragosaid listájára.',
 	'NOT_AGREE'						=> 'Nem fogadom el a feltételeket',
 	'NOT_ENOUGH_SPACE_FOLDER'		=> 'A célmappa („%s”) teli van. A végrehajtani kívánt művelet nem került elvégzésre.',
 	'NOT_MOVED_MESSAGE'				=> 'Teli mappa miatt jelenleg 1 privát üzenet van visszatartva.', //?
@@ -281,7 +281,7 @@ $lang = array_merge($lang, array(
 	'NO_BOOKMARKS'				=> 'Nincsenek kedvenceid.',
 	'NO_BOOKMARKS_SELECTED'		=> 'Nem választottál ki egy kedvencet sem.',
 	'NO_EMAIL_USER'				=> 'Nem található a megadott e-mail címhez és felhasználónévhez tartozó azonosító.',
-	'NO_FOES'					=> 'Jelenleg üres az ellenségeid listája.', //? "No foes currently defined" - ide valami az eredetire jobban hasonlító szöveg kéne
+	'NO_FOES'					=> 'Jelenleg üres a haragosaid listája.', //? "No foes currently defined" - ide valami az eredetire jobban hasonlító szöveg kéne
 	'NO_FRIENDS'				=> 'Jelenleg üres a barátaid listája.',
 	'NO_FRIENDS_OFFLINE'		=> 'Nincs offline barátod.',
 	'NO_FRIENDS_ONLINE'			=> 'Nincs online barátod.',
@@ -289,8 +289,8 @@ $lang = array_merge($lang, array(
 	'NO_IMPORTANT_NEWS'			=> 'Jelenleg nincs fontos közlemény.',
 	'NO_MESSAGE'				=> 'A privát üzenet nem található.',
 	'NO_NEW_FOLDER_NAME'		=> 'Meg kell adnod a mappa új nevét.',
-	'NO_NEWER_PM'				=> 'Nincsenek újabb üzenetek.',
-	'NO_OLDER_PM'				=> 'Nincsenek régebbi üzenetek.',
+	'NO_NEWER_PM'				=> 'Nincs újabb üzenet.',
+	'NO_OLDER_PM'				=> 'Nincs régebbi üzenet.',
 	'NO_RECIPIENT'				=> 'Nem adtál meg címzettet.',
 	'NO_RULES_DEFINED'			=> 'Nincsenek szűrők.',
 	'NO_SAVED_DRAFTS'			=> 'Nincsenek piszkozatok.',
@@ -424,8 +424,8 @@ $lang = array_merge($lang, array(
 	'UCP_RESEND'					=> 'Aktivációs e-mail elküldése',
 	'UCP_WELCOME'					=> 'Köszöntünk a felhasználói vezérlőpulton! Itt megtekintheted, illetve megváltoztathatod a profilodat, a fórum beállításaidat és a feliratkozásaidat. Privát üzenetet is küldhetsz más felhasználóknak (ha engedélyezve van). Mielőtt továbblépnél, kérünk győződj meg róla, hogy elolvastad a közleményeket.', //? Légy köszöntve a felhasználói vezérlőpulton! üdvözlünk? "Welcome to the User Control Panel. From here you can monitor, view and update your profile, preferences, subscribed forums and topics. You can also send messages to other users (if permitted). Please ensure you read any announcements before continuing."
 	'UCP_YIM'						=> 'Yahoo Messenger',
-	'UCP_ZEBRA'						=> 'Barátok és ellenségek',
-	'UCP_ZEBRA_FOES'				=> 'Ellenségek kezelése',
+	'UCP_ZEBRA'						=> 'Barátok és haragosok',
+	'UCP_ZEBRA_FOES'				=> 'Haragosok kezelése',
 	'UCP_ZEBRA_FRIENDS'				=> 'Barátok kezelése',
 	'UNKNOWN_FOLDER'				=> 'Ismeretlen mappa',
 	'UNWATCH_MARKED'				=> 'Leiratkozás a kijelöltekről',
@@ -470,10 +470,10 @@ $lang = array_merge($lang, array(
 	'WRONG_ACTIVATION'			=> 'A megadott aktivációs kulcs nem egyezik meg az adatbázisban lévővel.',
 
 	'YOUR_DETAILS'				=> 'Fórumbeli aktivitásod', //? 'Aktivitásod'??
-	'YOUR_FOES'					=> 'Ellenségeid',
+	'YOUR_FOES'					=> 'Haragosaid',
 	'YOUR_FOES_EXPLAIN'			=> 'Hogy eltávolíts egy felhasználót, válaszd ki, majd kattints az elküld gombra.', //?
 	'YOUR_FRIENDS'				=> 'Barátaid',
-	'YOUR_FRIENDS_EXPLAIN'		=> 'Hogy eltávolíts egy felhasználót válaszd ki, majd kattints az elküld gombra.', //?
+	'YOUR_FRIENDS_EXPLAIN'		=> 'Hogy eltávolíts egy felhasználót, válaszd ki, majd kattints az elküld gombra.', //?
 	'YOUR_WARNINGS'				=> 'Figyelmeztetési szint', //?
 
 	'PM_ACTION' => array(
@@ -497,7 +497,7 @@ $lang = array_merge($lang, array(
 		'BEGINS_WITH'	=> 'a következővel kezdődik:',
 		'ENDS_WITH'		=> 'a következővel végződik:',
 		'IS_FRIEND'		=> 'a barátom',
-		'IS_FOE'		=> 'az ellenségem',
+		'IS_FOE'		=> 'a haragosom',
 		'IS_USER'		=> 'a következő felhasználó:',
 		'IS_GROUP'		=> 'a következő csoport tagja:',
 		'ANSWERED'		=> 'megválaszolt',
