@@ -4,7 +4,7 @@
 * help_faq [Hungarian]
 *
 * @package language
-* @version $Id: help_faq.php,v 1.5 2007-04-09 21:53:42 fberci Exp $
+* @version $Id: help_faq.php,v 1.6 2007-04-19 19:28:20 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -32,7 +32,7 @@ $help = array(
 	),
 	array(
 		0 => 'Miért nem tudok beléni?',
-		1 => 'Ennek számos oka lehet. Ellőször is ellenőrizd, hogy jól adtad-e meg a felhasználóneved és a jelszavad. Ha igen, lépj kapcsolatba a fórum adminisztrátorával, hogy meggyőződj róla, nem lettél kitiltva. Az is lehetséges, hogy a weboldal üzemeltetőjének oldalán lépett fel valamilyen konfigurációs hiba, melyet javítaniuk kell.'
+		1 => 'Ennek számos oka lehet. Először is ellenőrizd, hogy jól adtad-e meg a felhasználóneved és a jelszavad. Ha igen, lépj kapcsolatba a fórum adminisztrátorával, hogy meggyőződj róla, nem lettél kitiltva. Az is lehetséges, hogy a weboldal üzemeltetőjének oldalán lépett fel valamilyen konfigurációs hiba, melyet javítaniuk kéne.' //? talán átírhatnánk az értelmét...
 	),
 	array(
 		0 => 'Miért kell egyáltalán regisztrálnom?',
@@ -43,32 +43,32 @@ $help = array(
 		1 => 'Ha belépéskor nem jelölöd be az <em>Automatikus bejelentkezés</em> opciót, a rendszer csak egy előre meghatározott ideig hagy belépve. Ez a viselkedés meggátolja az azonosítóddal való visszaélést. A tartós belépve maradáshoz jelöld be az említett opciót. Ezen funkció használata nem ajánlott, ha nyilvános helyről használod a fórumot, például könyvtárból, internetkávézóból vagy egyetemi laborból. Ha nem látod a jelölőnégyzeted, az adminisztrátor valószínűleg kikapcsolta ezt a funkciót.'
 	),
 	array(
-		0 => 'How do I prevent my username appearing in the online user listings?',
-		1 => 'Within the UCP under “Forum preferences” you will find an option <em>Hide your online status</em>, if you enable this option with <samp>Yes</samp>, you’ll only appear to the administrators, moderators or yourself. You will be counted as a hidden user.'
+		0 => 'Hogyan tudom megakadályozni, hogy mások lássák, mikor vagyok jelen?',
+		1 => 'A Felhasználói vezérlőpultban a „Fórum beállítások” menüpont alatt található a „Jelenlét elrejtése” beállítás. Ha ezt <samp>Igen</samp>re állítod, csak az adminisztrátorok, a moderátorok, illetve saját magad fogod látni, hogy jelen vagy-e.' //? _egy_ beállítás
 	),
 	array(
-		0 => 'I’ve lost my password!',
-		1 => 'Don’t panic! While your password cannot be retrieved, it can be reset. To do this go to the login page and click <em>I’ve forgotten my password</em>, follow the instructions and you should be able to log in again in no time.'
+		0 => 'Elfelejtettem a jelszavamat!',
+		1 => 'Semmi pánik! A jelszavad ugyan nem lehet utólag kideríteni, de lehetőséged van új készítésére. Ehhez menj a belépés oldalra, majd kattints az <em>Elfelejtettem a jelszavam</em> linkre. Kövesd az utasításokat, és rövid belül újra be kell tudnod lépned.'
 	),
 	array(
-		0 => 'I registered but cannot login!',
-		1 => 'Firstly check your are entering the correct username and password. If they are okay then one of two things may have happened. If COPPA support is enabled and you clicked the <em>I am under 13 years old</em> link while registering then you will have to follow the instructions you received. If this is not the case then does your account need activating? Some boards will require all new registrations be activated, either by yourself or by the administrator before you can logon. When you registered it would have told you whether activation was required. If you were sent an email then follow the instructions, if you did not receive the email then are you sure your email address is valid? One reason activation is used is to reduce the possibility of <em>rogue</em> users abusing the board anonymously. If you are sure the email address you used is valid then try contacting the board administrator.'
+		0 => 'Regisztráltam, de mégsem tudok belépni',
+		1 => 'Először is ellenőrizd le, hogy helyesen adtad-e meg a felhasználóneved és a jelszavad. Ha igen, akkor két dolog történhetett. Amennyiben a COPPA-támogatás be van kapcsolva, és a regisztráció során a <em>13 évesnél fiatalabb vagyok</em> linkre kattintottál, követned kell a kapott utasításokat. Ha nem ez a helyzet, akkor valószínű, hogy aktiválnod kell az azonosítód. Számos fórum megköveteli, hogy az új azonosítók aktiválásra kerüljenek, mielőtt használatba lehetne venni őket. Ezt vagy az adminisztrátornak vagy a felhasználónak kell megtennie. Mindenesetre a regisztrációnál elvileg tájékoztatásra kerültél, hogy szükséges-e az azonosító aktiválása. Ha kaptál egy e-mailt, akkor kövesd az utasításait, ha nem, lehet, hogy rossz e-mail címet adtál meg. Az aktiváció megkövetelésének egyik célja a <em>rosszindulatú</em> felhasználók névtelen rongálásának megakadályozása. Ha biztos vagy benne, hogy helyes e-mail címet adtál meg, próbálj meg kapcsolatba lépni a fórum adminisztrátorával.' // Ezt is át kéne írni, angolból lett fordítva - és ez eléggé látszik is rajta
 	),
 	array(
-		0 => 'I registered in the past but cannot login any more?!',
-		1 => 'The most likely reasons for this are; you entered an incorrect username or password (check the email you were sent when you first registered) or the administrator has deleted your account for some reason. If it is the later case then perhaps you did not post anything? It is usual for boards to periodically remove users who have not posted anything so as to reduce the size of the database. Try registering again and get involved in discussions.'
+		0 => 'Korábban regisztráltam magam, azonban már nem tudok belépni?!',
+		1 => 'Ennek a leggyakoribb oka, hogy hibás felhasználónevet vagy jelszót adtál meg (ezekkel az adatokkal kapcsolatban nézd meg az e-mailt, melyet a regisztrációkor kaptál), vagy az adminisztrátor valamilyen okból kifolyólag törölte az azonosítód. Ez utóbbinak egy lehetséges oka, hogy nem küldtél egy hozzászólást se. Néhány fórumon ugyanis szokás, hogy bizonyos időközönként eltávolítják az olyan felhasználókat, akik nem küldtek hozzászólást, hogy csökkentsék az adatbázis méretét. Próbálj meg újra regisztrálni, és bekapcsolódni a beszélgetésekbe.'
 	),
 	array(
-		0 => 'What is COPPA?',
-		1 => 'COPPA, or Child Online Privacy and Protection Act of 1998 is a law in the United States that requires website that can potentially collect information from minors under the age of 13 to have written parental consent, or some other method of the legal guardians acknowledging they are allowing the collection of personally identifiable information from a minor under the age of 13. If you are unsure if this applies to you as someone trying to register, or to the website you are trying to register on, contact legal counsel for assistance. Please note that the phpBB Team cannot provide legal advice and are not the point of contact for legal concerns of any kind, except as outlined below.',
+		0 => 'Mi az a COPPA?',
+		1 => 'A COPPA, vagyis az 1998-as „Child Online Privacy and Protection Act” (gyerekek online adatvédelméről intézkedő törvény) egy egyesült állomokbeli törvény, mely megköveteli a honlapoktól, hogy írásos szülői vagy gondviselői beleegyezéssel rendelkezzenek 13 éven aluli személyektől való adatgyűjtéshez. Ez a törvény csak az Amerikai Egyesült Államokban lévő szervereken működő fórumokra érvényes, tehát Magyarországon nem. Ha nem vagy biztos benne, hogy ez a törvény vonatkozik-e rád, vagy a fórumra, melyre regisztrálsz, kérj jogi segítséget. Kérjük tartsd szem előtt, hogy a phpBB csapat nem tud jogi tanácsot adni, és az alább leírtakon kívül semmilyen aggály esetén sem hozzájuk kell fordulni.', //? az első mondatot kicsit leegyszerűsítettem - úgy se lényegesek a részletek
 	),
 	array(
-		0 => 'Why can’t I register?',
-		1 => 'It is possible the website owner has banned your IP address or disallowed the username you are attempting to register. The website owner could have also disabled registration to prevent new visitors from signing up. Contact the board administrator for assistance.',
+		0 => 'Miért nem tudok regisztrálni?',
+		1 => 'Lehet, hogy a weboldal tulajdonosa letiltotta az IP-címed vagy a regisztrálni kívánt felhasználónevet. Az is előfordulhat, hogy a regisztráció kikapcsolásra került, hogy ne tudjanak új felhasználók regisztrálni. További segítségért lépj kapcsolatba a fórum adminisztrátorával.',
 	),
 	array(
-		0 => 'What does the “Delete all board cookies” do?',
-		1 => 'Delete all board cookies deletes the cookies created by phpBB3 which keeps you authenticated and logged into the board, and also provides functions such as read tracking if set by the board owner.',
+		0 => 'Mit csinál a „Fórum sütik törlése”?',
+		1 => 'Ez a funkció törli az összes phpBB3 által küldött sütit. A sütik feladata az azonosítás, illetve a beléptetés, valamint – ha a fórum tulajdonosa beállítota – a hozzászólások olvasottságának követése és ehhez hasonló funkciók.',
 	),
 	array(
 		0 => '--',
