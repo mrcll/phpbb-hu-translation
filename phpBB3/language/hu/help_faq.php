@@ -4,7 +4,7 @@
 * help_faq [Hungarian]
 *
 * @package language
-* @version $Id: help_faq.php,v 1.6 2007-04-19 19:28:20 fberci Exp $
+* @version $Id: help_faq.php,v 1.7 2007-04-22 19:11:52 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -36,7 +36,7 @@ $help = array(
 	),
 	array(
 		0 => 'Miért kell egyáltalán regisztrálnom?',
-		1 => 'A regisztráció nem feltétlenül kötelező, a fórum adminisztrátorán múlik, hogy megköveteli-e hozzászólások küldéséhez. Mindemellett a regisztrációval plusz lehetőségek is elérhetővé válnak a számodra, mint például avatar használata, privát üzenetek, illetve e-mailek küldése, csatlakozás csoportokhoz stb. A regisztráció csupán néhány másodpercet vesz igénybe, így javasoljuk, hogy tedd meg.'
+		1 => 'A regisztráció nem feltétlenül kötelező, a fórum adminisztrátorán múlik, hogy megköveteli-e hozzászólások küldéséhez. Mindemellett a regisztrációval plusz lehetőségek is elérhetővé válnak a számodra, mint például avatar használata, privát üzenetek, illetve e-mailek küldése, csatlakozás csoportokhoz stb. A regisztráció csupán néhány másodpercet vesz igénybe, így javasoljuk, hogy éljél vele.'
 	),
 	array(
 		0 => 'Miért kerülök kiléptetésre automatikusan?', //? 'Miért lép ki automatikusan a rendszerből?'
@@ -72,35 +72,35 @@ $help = array(
 	),
 	array(
 		0 => '--',
-		1 => 'User Preferences and settings'
+		1 => 'Felhasználói beállítások'
 	),
 	array(
-		0 => 'How do I change my settings?',
-		1 => 'All your settings (if you are registered) are stored in the database. To alter them click the <em>UCP</em> link (generally shown at the top of pages but this may not be the case). This will allow you to change all your settings and preferences.'
+		0 => 'Hogyan tudom megváltoztatni a beállításaimat?',
+		1 => 'Amennyiben regisztrált felhasználó vagy, minden beállításod az adatbázisban kerül tárolásra. Ezek megváltoztatásához kattins a <em>Felhasználói vezérlőpult</em> linkre (általában az oldal tetején található). Itt megváltoztathatod az összes beállításodat.'
 	),
 	array(
-		0 => 'The times are not correct!',
-		1 => 'Though there are rare occurrences of the website’s server having the wrong time, the times are probably correct. However; what you may be seeing are times displayed in a timezone different from the one you are in. If this is the case you should change your profile setting for the timezone to match your particular area, e.g. London, Paris, New York, Sydney, etc. Please note that changing the timezone, like most settings can only be done by registered users. So if you are not registered this is a good time to do so, if you pardon the pun!'
+		0 => 'Nem pontos az idő!',
+		1 => 'Habár ritkán előfordulnak olyan szerverek, melyeken nem pontos az idő, valószínűleg nem ez a helyzet. Feltehetően az időpontok más időzóna szerint kerülnek megjelenítésre, mint amiben vagy. Ez esetben változtasd meg az időzónád a tartózkodási helyednek megfelelően. Kérjük vedd figyelembe, hogy az időzónát – mint a legtöbb más felhasználói beállítást – csak regisztrált felhasználók változtathatják meg. Tehát ha még nem regisztráltál, ez egy jó alakalom, hogy megtedd.'
 	),
 	array(
-		0 => 'I changed the timezone and the time is still wrong!',
-		1 => 'If you are sure you have set the timezone correctly and the time is still different the most likely answer is daylight savings time (or summer time as it is known in the UK and other places). The board is not designed to handle the changeovers between standard and daylight time so during summer months the time may be an hour different from the real local time.'
+		0 => 'Megváltoztattam az időzónát, de még mindig pontatlan az idő!',
+		1 => 'Ha biztos vagy benne, hogy helyes időzónát adtál meg, és a nyári időszámítást is jól állítottad be, de az idő még mindig más, akkor a szerver órája pontatlan – ezt az adminisztrátoroknak javítaniuk kell majd.' //? adminisztrátoroknak javítaniuk kell majd??; más - pontatlan
 	),
 	array(
-		0 => 'My language is not in the list!',
-		1 => 'The most likely reasons for this are either the administrator did not install your language or someone has not translated this board into your language. Try asking the board administrator if they can install the language pack you need, if it does not exist then please feel free to create a new translation. More information can be found at the phpBB Group website (see link at bottom of pages).'
+		0 => 'A használni kívánt nyelv nincs a listában!',
+		1 => 'Ennek az az oka, hogy az adminisztrátor nem telepítette a megfelelő nyelvi csomagot, vagy hogy még nem készült fordítás a kívánt nyelvre. Kérd meg az adminisztrátort, hogy telepítse a nyelvi csomagot, amennyiben viszont még nem létezik, nyugodtan készítsd el a fordítást. További információért keresd fel a phpBB Csoport weboldalát (a link az oldal alján található).'
 	),
 	array(
-		0 => 'How do I show an image below my username?',
-		1 => 'There may be two images below a username when viewing posts. The first is an image associated with your rank, generally these take the form of stars or blocks indicating how many posts you have made or your status on the board. Below this may be a larger image known as an avatar, this is generally unique or personal to each user. It is up to the board administrator to enable avatars and they have a choice over the way in which avatars can be made available. If you are unable to use avatars then this is the decision of the board admin, you should ask them their reasons.'
+		0 => 'Hogyan jeleníthetek meg egy képet a nevem alatt?',
+		1 => 'A hozzászólások megtekintésénél a felhasználónév alatt két kép szerepelhet. Az első a rangot mutatja (ezek általában csillagok vagy más elemek formájában kerülnek megjelenítésre, a számuk mutatja mennyi hozzószólást küldtél eddig a fórumon, vagy hogy milyen státuszod van). Ez alatt lehet egy nagyobb kép, az avatar, mely a legtöbb felhasználónak egyedi és személyes. A fórum adminisztrátorától függ, hogy engedélyezett-e az avatarok használata, illetve milyen módot lehet megadni ezt a képet. Ha nem tudsz avatart használni, az az adminisztrátor döntése, tájékozódj nála az okokról.'
 	),
 	array(
-		0 => 'How do I change my rank?',
-		1 => 'In general you cannot directly change the wording of any rank (ranks appear below your username in topics and on your profile depending on the style used). Most boards use ranks to indicate the number of posts you have made and to identify certain users, e.g. moderators and administrators may have a special rank. Please do not abuse the board by posting unnecessarily just to increase your rank, you will probably find the moderator or administrator will simply lower your post count.'
+		0 => 'Hogyan tudom megváltoztatni a rangomat?',
+		1 => 'Általában a felhasználók nem tudják közvetlenül megváltoztatni a rangjukat. A legtöbb fórumon arra használják a rangokat, hogy jelezzék a felhasználó hozzászólásainak számát, illetve hogy megkülönböztessenek néhány felhasználót, mint például az adminisztrátorokat és a moderátorokat, akik speciális ranggal rendelkezhetnek. Kérünk ne szólj hozzá feleslegesen a témákhoz, csak hogy növeld a hozzászólásaid számát, hiszen valószínű, hogy ezt a moderátorok fel fogják fedezni, és egyszerűen csökkenteni fogják a hozzászólásaid számát.'
 	),
 	array(
-		0 => 'When I click the email link for a user it asks me to login?',
-		1 => 'Sorry but only registered users can send email to people via the built-in email form (if the admin has enabled this feature). This is to prevent malicious use of the email system by anonymous users.'
+		0 => 'Miért kell bejelentkeznem e-mail küldéséhez?',
+		1 => 'Csak regisztrált felhasználók küldhetnek e-mailt a beépített e-mail funkció segítségével (ha az adminisztrátor bekapcsolta ezt a lehetőséget). Ez a névtelen emberek nemkívánt leveleinek elkerülése végett van így. '
 	),
 	array(
 		0 => '--',
