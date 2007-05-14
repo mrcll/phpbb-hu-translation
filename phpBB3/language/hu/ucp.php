@@ -4,7 +4,7 @@
 * ucp [Hungarian]
 *
 * @package language
-* @version $Id: ucp.php,v 1.20 2007-04-18 19:30:46 fberci Exp $
+* @version $Id: ucp.php,v 1.21 2007-05-14 20:48:10 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -207,7 +207,7 @@ $lang = array_merge($lang, array(
 	'HOLD_NEW_MESSAGES'			=> 'Üzenetek fogadásának visszautasítása (az új üzenetek vissza lesznek tartva, amíg elegendő hely nem lesz)',
 	'HOLD_NEW_MESSAGES_SHORT'	=> 'Új üzenetek visszatartása',
 
-	'IF_FOLDER_FULL'			=> 'Mappa megtelése esetén',
+	'IF_FOLDER_FULL'			=> 'Művelet mappa megtelése esetén',
 	'IMPORTANT_NEWS'			=> 'Fontos közlemények',
 	'INVALID_CHARS_USERNAME'	=> 'A felhasználónév nem engedélyezett karakterket tartalmaz.',
 	'INVALID_CHARS_NEW_PASSWORD'=> 'A jelszó nem tartalmazza a szükséges karaktereket.',

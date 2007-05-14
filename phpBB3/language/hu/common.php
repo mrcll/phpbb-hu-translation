@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.36 2007-04-18 19:30:46 fberci Exp $
+* @version $Id: common.php,v 1.37 2007-05-14 20:48:09 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -154,7 +154,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION'							=> 'Kiterjesztés',
 	'EXTENSION_DISABLED_AFTER_POSTING'	=> 'A <b>%s</b> kiterjesztés deaktiválva lett, ezért a csatolmány nem kerül megjelenítésre.',
 
-	'FAQ'					=> 'GYIK',
+	'FAQ'					=> 'GyIK',
 	'FAQ_EXPLAIN'			=> 'Gyakran ismételt kérdések',
 
 	'FILENAME'				=> 'Állomány neve',
@@ -583,7 +583,7 @@ $lang = array_merge($lang, array(
 	'USE_PERMISSIONS'		=> 'Felhasználó jogosultságainak kipróbálása',
 
 	'VIEWED'					=> 'Megtekintve',
-	'VIEWING_FAQ'				=> 'Gy.i.k. megtekintése',
+	'VIEWING_FAQ'				=> 'GyIK megtekintése',
 	'VIEWING_MEMBERS'			=> 'Taglista megtekintése',
 	'VIEWING_ONLINE'			=> 'Jelenlévők listájának megtekintése',
 	'VIEWING_MCP'				=> 'Moderátori vezérlőpult megtekintése',
