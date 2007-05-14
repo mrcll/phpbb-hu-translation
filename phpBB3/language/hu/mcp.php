@@ -4,7 +4,7 @@
 * mcp [Hungarian]
 *
 * @package language
-* @version $Id: mcp.php,v 1.10 2007-05-14 20:48:10 fberci Exp $
+* @version $Id: mcp.php,v 1.11 2007-05-14 21:34:37 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -81,7 +81,7 @@ $lang = array_merge($lang, array(
 	'EMPTY_TOPICS_REMOVED_WARNING'	=> 'Egy vagy több téma törlésre került az adatbázisból, mivel üressé vált.', //? Eredetileg please note van, de ez eg üzenet
 
 	'FEEDBACK'				=> 'Feljegyzések', //?
-	'FORK'					=> 'Elágaztatás', //? = másolás
+	'FORK'					=> 'Elágaztatás', //? = másolás?
 	'FORK_TOPIC'			=> 'Téma elágaztatása',
 	'FORK_TOPIC_CONFIRM'	=> 'Biztosan meg akarod kettőzni ezt a témát?', //? eredetileg másolni (copy)
 	'FORK_TOPICS'			=> 'Kiválasztott témák elágaztatása',
@@ -108,9 +108,9 @@ $lang = array_merge($lang, array(
 	'LIST_REPORTS'				=> '%d jelentés',
 	'LOCK'						=> 'Lezárás',
 	'LOCK_POST_POST'			=> 'Hozzászólás lezárása',
-	'LOCK_POST_POST_CONFIRM'	=> 'Bztosan akarod, hogy ne lehessen szerkeszteni ezt a hozzászólást?',
+	'LOCK_POST_POST_CONFIRM'	=> 'Biztosan azt akarod, hogy ne lehessen szerkeszteni ezt a hozzászólást?',
 	'LOCK_POST_POSTS'			=> 'Kiválasztott hozzászólások lezárása',
-	'LOCK_POST_POSTS_CONFIRM'	=> 'Bztosan akarod, hogy ne lehessen szerkeszteni a kiválasztott hozzászólásokat?',
+	'LOCK_POST_POSTS_CONFIRM'	=> 'Biztosan azt akarod, hogy ne lehessen szerkeszteni a kiválasztott hozzászólásokat?',
 	'LOCK_TOPIC_CONFIRM'		=> 'Biztosan le akarod zárni ezt a témát?',
 	'LOCK_TOPICS'				=> 'Kiválasztott témák lezárása',
 	'LOCK_TOPICS_CONFIRM'		=> 'Biztosan le akarod zárni az összes kiválasztott témát?',
@@ -317,9 +317,9 @@ $lang = array_merge($lang, array(
 	'UNLOCK_POST'					=> 'Hozzászólás megnyitása',
 	'UNLOCK_POST_EXPLAIN'			=> 'Szerkeztés engedélyezése', //? kicsivel kéne, de míg így se passzol ahhoz a hosszú szöveghez, ami nyitott állapotban ott van
 	'UNLOCK_POST_POST'				=> 'Hozzászólás megnyitása',
-	'UNLOCK_POST_POST_CONFIRM'		=> 'Bztosan akarod, hogy lehessen szerkeszteni ezt a hozzászólást?',
+	'UNLOCK_POST_POST_CONFIRM'		=> 'Biztosan azt akarod, hogy lehessen szerkeszteni ezt a hozzászólást?',
 	'UNLOCK_POST_POSTS'				=> 'Kiválasztott hozzászólások lezárása',
-	'UNLOCK_POST_POSTS_CONFIRM'		=> 'Bztosan akarod, hogy lehessen szerkeszteni a kiválasztott hozzászólásokat?',
+	'UNLOCK_POST_POSTS_CONFIRM'		=> 'Biztosan azt akarod, hogy lehessen szerkeszteni a kiválasztott hozzászólásokat?',
 	'UNLOCK_TOPIC'					=> 'Téma megnyitása',
 	'UNLOCK_TOPIC_CONFIRM'			=> 'Biztosan meg akarod nyitni a témát?',
 	'UNLOCK_TOPICS'					=> 'Kiválsztott témák megnyitása',
