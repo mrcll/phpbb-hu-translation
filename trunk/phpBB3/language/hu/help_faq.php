@@ -4,7 +4,7 @@
 * help_faq [Hungarian]
 *
 * @package language
-* @version $Id: help_faq.php,v 1.7 2007-04-22 19:11:52 fberci Exp $
+* @version $Id: help_faq.php,v 1.8 2007-05-14 20:48:10 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -100,235 +100,239 @@ $help = array(
 	),
 	array(
 		0 => 'Miért kell bejelentkeznem e-mail küldéséhez?',
-		1 => 'Csak regisztrált felhasználók küldhetnek e-mailt a beépített e-mail funkció segítségével (ha az adminisztrátor bekapcsolta ezt a lehetőséget). Ez a névtelen emberek nemkívánt leveleinek elkerülése végett van így. '
+		1 => 'Csak regisztrált felhasználók küldhetnek e-mailt a beépített e-mail funkció segítségével (ha az adminisztrátor bekapcsolta ezt a lehetőséget). Ez a névtelen emberek nemkívánt leveleinek elkerülése végett szükséges. '
 	),
 	array(
 		0 => '--',
-		1 => 'Posting Issues'
+		1 => 'Hozzászólással kapcsolatos kérdések'
 	),
 	array(
-		0 => 'How do I post a topic in a forum?',
-		1 => 'To post a new topic in one of the forums, click the relevant button on either the forum or topic screens. You may need to register before you can post a message, the facilities available to you are listed at the bottom of the forum and topic screens (the <em>You can post new topics, You can vote in polls, etc.</em> list).'
+		0 => 'Hogyan készíthetek egy új témát egy fórumban?',
+		1 => 'Ha egy fórumban új témát szeretnél nyitni, kattints a megfelelő gombra a fórumban vagy annak egy témájában. Hozzászólás küldéséhez lehet, hogy előbb regisztrálnod kell. A jogosultságaidat a fórum vagy téma oldalak alján találod meg (<em>Nyithatsz új témákat, Szavazhatsz stb.</em>).'
 	),
 	array(
-		0 => 'How do I edit or delete a post?',
-		1 => 'Unless you are the board admin or forum moderator you can only edit or delete your own posts. You can edit a post (sometimes for only a limited time after it was made) by clicking the <em>edit</em> button for the relevant post. If someone has already replied to the post you will find a small piece of text output below the post when you return to the topic, which lists the number of times you edited it along with when. This will not appear if no one has replied, nor will not appear if moderators or administrators edit the post though they may leave a note as to why they’ve edited the post at their own disgression. Please note that normal users cannot delete a post once someone has replied.'
+		0 => 'Hogyan szerkeszthetek, illetve törölhetek egy hozzászólást?',
+		1 => 'Ha nem vagy adminisztrátor vagy moderátor, akkor csak azokat a hozzászólásokat szerkesztheted vagy törölheted, melyeket te küldtél. Egy hozzászólást (általában csak a beküldés utáni korlátozott időtartamban) a 	<em>szerkesztés</em> gombra kattintva tudsz szerkeszteni. Abban az esetben, ha valaki már válaszolt a hozzászólásodra, a hozzászólásod alatt egy apró szöveg fog megjelenni, mely jelzi, a hozzászólás hányszor és ki által került szerkesztésre. Ez nem fog megjelenni, ha még nem válaszolt senki, illetve ha egy moderátor vagy egy adminisztrátor szerkesztette a hozzászólásod, bár ők hagyhatnak egy megjegyzést jelezve a szerkesztést okát. Kérjük vedd figyelembe, hogy a normál felhasználók nem törölhetik a hozzászólásukat, miután már másvalaki válaszolt.'
 	),
 	array(
-		0 => 'How do I add a signature to my post?',
-		1 => 'To add a signature to a post you must first create one, this is done via your profile. Once created you can check the <em>Add Signature</em> box on the posting form to add your signature. You can also add a signature by default to all your posts by checking the appropriate radio box in your profile (you can still prevent a signature being added to individual posts by un-checking the add signature box on the posting form).'
+		0 => 'Hogyan csatolhatom az aláírásomat a hozzászólásomhoz?',
+		1 => 'A csatoláshoz először el kell készítened az aláírásod – ezt a felhasználói vezérlőpult profil részében teheted meg. Ezután a hozzászólás küldésénél csak jelöld be az <em>Aláírás hozzáadása</em> opciót. Az aláírás automatikusan is hozzáadható minden hozzászóláshoz, ehhez is a felhasználói vezérlőpultban kell megváltoztatnod a megfelelő beállítást (ettől függetlenül még hozzászólásonként kikapcsolható ez a funkció).'
 	),
 	array(
-		0 => 'How do I create a poll?',
-		1 => 'Creating a poll is easy, when you post a new topic (or edit the first post of a topic, if you have permission) you should see an <em>Add Poll</em> form below the main posting box (if you cannot see this then you probably do not have rights to create polls). You should enter a title for the poll and then at least two options (to set an option type in the poll question and click the <em>Add option</em> button. You can also set a time limit for the poll, 0 is an infinite poll. There will be a limit to the number of options you can list, this is set by the board administrator.'
+		0 => 'Hogyan készíthetek szavazást?',
+		1 => 'Szavazást készíteni egyszerű: amikor egy új témát nyitsz (vagy egy téma első hozzászólását szerkeszted), – ha rendelkezel a megfelelő jogosultságokkal – látnod kell a „Szavazás készítése” fület a fő üzenetküldő rész alatt (ha nem jelenik meg, valószínű, hogy nincs jogosultságod szavazás készítéséhez). Meg kell adnod a szavazás címét a „Szavazás kérdése” mezőbe, majd legalább két választási lehetőséget a „Választási lehetőségek” rubrikába (a felső határ az adminisztrátortól függ) mindegyiket egy új sorba írva. A „Felhasználónként válaszható lehetőségek” mező használatával megadhatod azt is, hogy egy felhasználó hány választási lehetőségre szavazhat; beállíthatsz egy időkorlátot (napokban megadva); és végül választhatsz, hogy lehetséges legyen-e a szavazatokat megváltoztatatni.'
 	),
 	array(
-		0 => 'How do I edit or delete a poll?',
-		1 => 'As with posts, polls can only be edited by the original poster, a moderator or board admin. To edit a poll click the first post in the topic (this always has the poll associated with it). If no one has cast a vote then users can delete the poll or edit any poll option, however if people have already placed votes only moderators or administrators can edit or delete it. This is to prevent people rigging polls by changing options mid-way through a poll'
+		0 => 'Hogyan szerkeszthetek vagy törölhetek egy szavazást?',
+		1 => 'A hozzászólásokhoz hasonlóan a szavazásokat is csak a készítő, egy moderátor vagy egy adminisztrátor szerkesztheti. Egy szavazás szerkesztéséhez menj a téma első hozzászólásához (mindig ehhez tartozik a szavazás), és kattints a <em>szerkeszt</em> gombra. Ha még senki sem szavazott, a készítő még törölheti a szavazást, vagy megváltoztathatja a választási lehetőségeket, de ha már érkeztek szavazatok, csak egy adminisztrátor vagy egy adminisztrátor törölheti vagy szerkesztheti a szavazást. Ez azért van, hogy ne lehesen spekulálni a szavazást a szavazási lehetőségek megváltoztatásával.'
 	),
 	array(
-		0 => 'Why can’t I access a forum?',
-		1 => 'Some forums may be limited to certain users or groups. To view, read, post, etc. you may need special authorization, only the forum moderator and board admin can grant this access, you should contact them.'
+		0 => 'Miért nem férek hozzá egy fórumhoz?',
+		1 => 'Néhány fórum lehet, hogy csak bizonyos felhasználók, illetve felhasználók számára érhető el. A fórum megtekintéséhez, olvasásához, hozzászólás küldéséhez speciális engedély kell, amelyet csak egy fórum moderátor és egy adminisztrátor adhat meg – ehhez lépj velük kapcsolatba.'
 	),
 	array(
-		0 => 'Why can’t I vote in polls?',
-		1 => 'Only registered users can vote in polls (so as to prevent spoofing of results). If you have registered and still cannot vote then you probably do not have appropriate access rights.'
+		0 => 'Miért nem tudok szavazni?',
+		1 => 'Csak regisztrált felhasználók vehetnek részt a szavazásokban (a többszöri szavazás elkerülése végett). Amennyiben regisztrált felhasználó vagy de mégsem tudsz szavazni, akkor valószínűleg nincs jogosultságod a szavazáshoz.'
 	),
 	array(
-		0 => 'Why can’t I add attachments?',
-		1 => 'The ability to add attachments can be done on a per forum, per group, or per user basis. The board administrator may not have allowed attachments to be added for the specific forum you are posting in, or perhaps only the administrator group can post attachments. Contact the board administrator if you are unsure about why you are unable to add attachments.'
+		0 => 'Miért nem tudok hozzáadni csatolmányokat?',
+		1 => 'A csatolmányok feltöltésének lehetősége meghatározható fórumokra, csoportokra és felhasználókra. Lehet, hogy az adminisztrátor nem engedélyezte csatolmányok hozzáadását a fórumba, melybe írni szeretnél, vagy talán csak az adminisztrátok küldhetnek csatolmányokat. Ha nem vagy biztos benne, miért nem tudsz csatolmányokat hozzáadni, lépj kapcsolatba az adminisztrátorral.' //? első mondat...
 	),
 	array(
-		0 => 'Why did I receive a warning?',
-		1 => 'Each board administrator has their own set of rules for their site. If they feel you have broken one of their rules, they may issue you a warning. Please note that this is the board administrator’s decision, and the phpBB Group does not have anything to do with the warning on the given site.'
+		0 => 'Miért kaptam figyelmeztetést?',
+		1 => 'Minden adminisztrátornak megvan a saját szabályzata az oldalára. Ha úgy érzik, megsértettél egy szabályt, figyelmeztethetnek téged. Kérjük vedd figyelembe, hogy ez a fórum adminisztrátorának döntése – a phpBB Groupnak semmi köze nincs a fórumokon kiosztott figyelmeztetésekhez.'
 	),
 	array(
-		0 => 'How can I report posts to a moderator?',
-		1 => 'If the board administrator has allowed it, go to the post you want to report and you should see a button that is for reporting posts. Clicking this will walk you through the steps necessary to report the post.'
+		0 => 'Hogyan jelenthetek egy hozzászólást a moderátoroknak?',
+		1 => 'Ha a fórum adminisztrátora engedélyezte a hozzászólások jelentését, a hozzászólások mellett látnod kell egy gombot, mely erre való. Ha erre kattintasz, végigkísérésre kerülsz a hozzászólás jelentéséhez szükséges lépéseken.'
 	),
 	array(
-		0 => 'What is the “Save” button for in topic posting?',
-		1 => 'This allows you to save messages to be completed and submitted at a later date. To reload them, go to the User Control Panel and follow the self explanatory options there.'
+		0 => 'Mire való az „Elmentés” gomb hozzászólás küldésénél?',
+		1 => 'Ezzel elmentheted a még nem befejezett üzeneted, majd később folytathatod, és elküldheted. Egy piszkozat betöltéséhez menj a felhasználói vezérlőpultra és kövesd a magukért beszélő lépéseket.' //? magukért beszélő lépések ("self explanatory options")
 	),
 	array(
-		0 => 'Why does my post need to be approved?',
-		1 => 'The board administrator may decide that the forum you are posting to needs to have posts reviewed first. It is also possible that the administrator has placed you in to a group of users whom he or she feels is a group that needs to have their posts reviewed before being submitted to the site. Please contact the board administrator for further details.'
+		0 => 'Miért kell a hozzászólásomat jóváhagynia egy moderátornak?',
+		1 => 'A fórum adminisztrátora beállíthatta, hogy a fórumban, melybe hozzászólást szeretnél küldeni, csak olyan hozzászólások jelenhetnek meg, melyeket egy moderátor átnézett. Az is lehet, hogy az adminisztrátor egy olyan csoportba helyezett téged, melynél úgy érzi, a csoport tagjainak hozzászólásait előbb egy moderátornak át kell néznie, mielőtt azok megjelenhetnének az oldalon. További információért kérünk lépj kapcsolatba a fórum adminisztrátorával.'
 	),
 	array(
-		0 => 'How do I bump my topic?',
-		1 => 'By clicking the “Bump topic” link when you are viewing it, you can “bump” the topic to the top of the forum on the first page. However, if you do not see this, then topic bumping is disabled. It is also possible to bump the topic simply by replying to it. However, be sure to follow the rules of the site you are visiting.'
-	),
-	array(
-		0 => '--',
-		1 => 'Formatting and Topic Types'
-	),
-	array(
-		0 => 'What is BBCode?',
-		1 => 'BBCode is a special implementation of HTML, whether you can use BBCode is determined by the administrator (you can also disable it on a per post basis from the posting form). BBCode itself is similar in style to HTML, tags are enclosed in square braces [ and ] rather than &lt; and &gt; and it offers greater control over what and how something is displayed. For more information on BBCode see the guide which can be accessed from the posting page.'
-	),
-	array(
-		0 => 'Can I use HTML?',
-		1 => 'No. It is not possible to post HTML on this board and have it rendered as HTML. Most formatting which can be carried out using HTML can also be applied using BBCode instead.'
-	),
-	array(
-		0 => 'What are Smilies?',
-		1 => 'Smilies, or Emoticons are small graphical images which can be used to express some feeling using a short code, e.g. :) means happy, :( means sad. The full list of emoticons can be seen via the posting form. Try not to overuse smilies though, they can quickly render a post unreadable and a moderator may decide to edit them out or remove the post altogether. The board administrator may also have set a limit to the number of such smilies you may use within a post.'
-	),
-	array(
-		0 => 'Can I post images?',
-		1 => 'Yes, images can be shown in your posts. However; if the administrator has allowed attachments, you may be able to upload the image to the board. Otherwise, you must link to an image stored on a publicly accessible web server, e.g. http://www.example.com/my-picture.gif. You cannot link to pictures stored on your own PC (unless it is a publicly accessible server) nor images stored behind authentication mechanisms, e.g. hotmail or yahoo mailboxes, password protected sites, etc. To display the image use the BBCode [img] tag.'
-	),
-	array(
-		0 => 'What are global announcements?',
-		1 => 'Global announcements contain important information and you should read them as soon as possible. Global announcements will appear at the top of every forum and also within your User Control Panel. Whether or not you can post a global announcement depends on the permissions required, these are set by the administrator.'
-	),
-	array(
-		0 => 'What are announcements?',
-		1 => 'Announcements often contain important information for the forum you are currently reading and you should read them as soon as possible. Announcements appear at the top of every page in the forum to which they are posted. As with global announcements, whether or not you can post an announcement depends on the permissions required, these are set by the administrator.'
-	),
-	array(
-		0 => 'What are sticky topics?',
-		1 => 'Sticky topics appear below any announcements within the forum and only on the first page. They are often quite important so you should read them where possible. As with announcements the board administrator determines what permissions are required to post sticky topics in each forum.'
-	),
-	array(
-		0 => 'What are locked topics?',
-		1 => 'Locked topics are set this way by either the forum moderator or board administrator. You cannot reply to locked topics and any poll it contained is automatically ended. Topics may be locked for many reasons.'
-	),
-	array(
-		0 => 'What are topic icons?',
-		1 => 'Topic icons are images which can be associated with posts to indicate their content. The ability to use topic icons depends on the permissions set by the administrator.'
+		0 => 'Hogyan ugraszthatok előre egy témát?',
+		1 => 'A téma megtekintésénél megjelenő „Téma előreugrasztása” linkre kattintva „előreugraszthatsz” egy témát a fórum tetejére, hogy a témák felsorolásánál elsőként jelenjen meg. Ha nem látod ezt a linket, akkor ez a funkció nincs bekapcsolva. Egy témát úgy is előreugraszhatsz, hogy küldesz bele egy hozzászólást – ennél viszont vigyázz az aktuális fórum szabályainak betartására.'
 	),
 	array(
 		0 => '--',
-		1 => 'User Levels and Groups'
+		1 => 'Formázás és téma típusok'
 	),
 	array(
-		0 => 'What are Administrators?',
-		1 => 'Administrators are people assigned the highest level of control over the entire board. These people can control all facets of board operation which includes setting permissions, banning users, creating usergroups or moderators, etc, dependant on the board founder and what permissions he or she has given the other administrators. They can also have full moderator capabilities in all the forums, depending on what the board founder has allowed.'
+		0 => 'Mi az a BBCode?',
+		1 => 'A BBCode a HTML nyelv egy speciális változata. A BBCode használatának engedélyezése az adminisztrátortól függ, de neked is lehetőséged van ki- vagy bekapcsolni a hozzászólásaidnál. A BBCode hasonló felépítésű, mint a HTML, kivéve hogy a címkék nem kacsacsőrök között („<” , ill. „>”), hanem szögletes zárójelben („[”, ill. „]”) vannak; és nagyobb teret enged a szöveg megformázásához. További információért lásd a BBCode útmutatót, melyet a hozzászólásküldő oldalról érhetsz el.'
 	),
 	array(
-		0 => 'What are Moderators?',
-		1 => 'Moderators are individuals (or groups of individuals) whose job it is to look after the running of the forums from day to day. They have the power to edit or delete posts and lock, unlock, move, delete and split topics in the forum they moderate. Generally moderators are there to prevent people going <em>off-topic</em> or posting abusive or offensive material.'
+		0 => 'Használhatok HTML-t?',
+		1 => 'Nem. Nem lehetséges HTML-t küldeni, majd azt HTML-ként is megjeleníteni. A legtöbb HTML-lel létrehozható formázás BBCode használatával is elérhető.'
 	),
 	array(
-		0 => 'What are Usergroups?',
-		1 => 'Usergroups are a way in which board administrators can group users. Each user can belong to several groups (this differs from most other boards) and each group can be assigned individual access rights. This makes it easy for administrators to set up several users as moderators of a forum, or to give them access to a private forum, etc.'
+		0 => 'Mik azok az emotikonok?',
+		1 => 'A smiley-k vagy másnéven emotikonok kis grafikák, melyekkel érzéseket lehet kifejezni. Például a :) vidámot/boldogot, a :( szomorút jelent. A használható emotikonok teljes listája megtalálható a hozzászólás küldésénél. Lehetőleg ne használj túl sok emotikont, mert nehezen lesz olvasható a hozzászólás, ezért pedig egy moderátor kiszerkesztheti őket, vagy akár az egész hozzászólást törlölheti. A fórum adminisztrátora beállíthat egy felső korlátot, melynél nem használhatsz több emotikont egy hozzászólásban.'
 	),
 	array(
-		0 => 'How do I join a Usergroup?',
-		1 => 'To join a Usergroup click the Usergroup link within your User Control Panel, you can then view all usergroups. Not all groups are <em>open access</em>, some may require approval to join, some are closed and some may even have hidden memberships. If the group is open then you can join it by clicking the appropriate button. If a group requires approval to join you may request to join it by clicking the appropriate button. The user group leader will need to approve your request, they may ask why you want to join the group. Please do not pester a group leader if they turn your request down, they will have their reasons.'
+		0 => 'Küldhetek képeket?',
+		1 => 'Igen, megjeleníthetsz képeket a hozzászólásaidban. Ha az adminisztrátor engedélyezte a csatolmányok hozzáadását, akkor a képet egyenesen a fórumra is feltöltheted. Ellenkező esetben a képet egy publikus, mindenki által elérhető szerveren kell tárolnod, és onnan belinkelned – például: http://www.akarmi.hu/en-kepem.gif. Nem tudsz belinkelni képeket a saját gépedről (hacsak nem kívülről is elérhető), azonosítást igénylő oldalakról (mint például freemail, gmail, yahoo postafiókok), jelszóval védett weblapokról stb. A kép megjelenítéséhez használd az [img] BBCode címkét.'
 	),
 	array(
-		0 => 'How do I become a Usergroup Leader?',
-		1 => 'When Usergroups are initially created by the board administrator, they also assign a Usergroup leader. If you are interested in creating a Usergroup then your first point of contact should be the administrator, try sending them a private message.'
+		0 => 'Mik azok a globális közlemények?',
+		1 => 'A globális közlemények fontos információkat tartalmaznak, ezért olvasd el őket, amilyen hamar csak tudod. Minden fórum tetején és a felhasználói vezérlőpultban is megjelennek. A jogosultságaidtól függ, hogy tudsz-e globális köleményt készíteni – ezt az adminisztrátor állítja be.'
 	),
 	array(
-		0 => 'Why do some Usergroups appear in a different colour?',
-		1 => 'It is possible for the board administrator to assign a colour to the members of a usergroup to make it easy to identify the members of this group.'
+		0 => 'Mik azok a közlemények?',
+		1 => 'A kölzemények gyakran fontos információkat tartalmaznak az adott fórummal kapcsolatban, ezért olvasd el őket, amilyen hamar csak tudod. A közlemények a fórum összes oldalán, felül jelennek meg. Hasonlóan a globális közleményekhez, attól függ, hogy küldhetsz-e közleményt, hogy milyen jogosultságokkal rendelkezel, ezt pedig az adminisztrátor állítja be. '
 	),
 	array(
-		0 => 'What is a “Default Usergroup”?',
-		1 => 'If you are a member of more than one usergroup, your default is used to determine which group colour and group rank should be shown for you by default. The board administrator may grant you permission to change your default usergroup via your User Control Panel.'
+		0 => 'Mik azok a kiemelt témák?',
+		1 => 'A kiemelt témák a közlemények alatt jelennek meg, de csak a fórum első oldalán. Gyakran elég fontosak, úgyhogy érdemes őket elolvasnod, ha lehetséges. Hasonlóan a közleményekhez a fórum adminisztrátorától függ, milyen jogosultsággal kell rendelkezned kiemelt témák készítéséhez.'
 	),
 	array(
-		0 => 'What is “The team” link?',
-		1 => 'This page provides you with a list of the board staff, including board administrators and moderators which includes details of which forums they moderate.'
+		0 => 'Mik azok a lezárt témák?',
+		1 => 'A témákat egy moderátor vagy egy adminisztrátor zárhatja le. Az ilyen témákba nem lehet hozzászólást küldeni vagy szavazni benne. Egy téma lezárásának több oka lehet.'
 	),
 	array(
-		0 => '--',
-		1 => 'Private Messaging'
-	),
-	array(
-		0 => 'I cannot send private messages!',
-		1 => 'There are three reasons for this; you are not registered and/or not logged on, the board administrator has disabled private messaging for the entire board, or the board administrator has prevented you from sending messages. If it is the latter case you should try asking the administrator why.'
-	),
-	array(
-		0 => 'I keep getting unwanted private messages!',
-		1 => 'You may block a user from sending you private messages by using message rules within your User Control Panel. If you are receiving abusive private messages from someone inform the board admin, they have the power to prevent a user from sending private messages at all.'
-	),
-	array(
-		0 => 'I have received a spamming or abusive email from someone on this board!',
-		1 => 'We are sorry to hear that. The email form feature of this board includes safeguards to try and track users who send such posts. You should email the board administrator with a full copy of the email you received, it is very important this include the headers (these list details of the user that sent the email). They can then take action.'
+		0 => 'Mik azok a téma ikonok?',
+		1 => 'A téma ikonok kis képek, melyeket társítani lehet hozzászólásokhoz jelképezve a tartalmukat. A téma ikonok használatának lehetősége az adminisztrátortól függ.'
 	),
 	array(
 		0 => '--',
-		1 => 'Friends and Foes'
+		1 => 'Felhasználói szintek és csoportok'
 	),
 	array(
-		0 => 'What is my Friends and Foes list?',
-		1 => 'You can use these lists to organise other members of the forum. Members added to your friends list will be listed within your User Control Panel for quick access to see their online status and to send them private messages. Subject to template support, posts from these users may also be highlighted. If you add a user to your foes list then any posts made by them will be hidden by default.'
+		0 => 'Kik azok az adminisztrátorok?',
+		1 => 'Az adminisztrátorok a fórum legmagasabb rangú és jogú felhasználói, ők üzemeltetik, és tartják karban. A fórum minden részletét szabályozhatják, például jogosultságokat adhatnak, kitilthatnak felhasználókat, csoportokat hozhatnak létre, moderátorokat nevezhetnek ki stb. attól függően, hogy a fórumalapító milyen jogosultságokat adott a többi adminisztrátornak. Teljesjogú moderátorok is lehetnek az összes fórumban.'
+	), // a második felét kicsit leegyszerűsítettem :) ("dependant on the board founder and what permissions he or she has given the other administrators. They can also have full moderator capabilities in all the forums, depending on what the board founder has allowed.")
+	array(
+		0 => 'Kik azok a moderátorok?',
+		1 => 'A moderátorok olyan különleges jogosultságokkal rendelkező felhasználók, akiknek az a feladata, hogy napról napra figyelemmel kövessék a fórumokat. Jogukban áll szerkeszteteni, törölni a hozzászólásokat, valamint lezárni, megnyitni, áthelyezni, törölni és szétválasztani a témákat az általuk moderált fórumban. Általánosságban a moderátorok azért vannak, hogy meggátolják a témába nem illő, sértegető vagy támadó hangvételű hozzászólások küldését. '
 	),
 	array(
-		0 => 'How can I add / remove users to my friends or foes list?',
-		1 => 'You can add users to your list in two ways. Within each user’s profile, there is a link to add them to either your friend or foe list. Alternatively from your User Control Panel, you can directly add users by entering their member name. You may also remove users from your list using the same page.'
+		0 => 'Mik azok a csoportok?',
+		1 => 'Az adminsztrátor felhasználói csoportok segítségével tudja csoportba rendezni a felhasználókat. Minden felhasználó több csoportba is tartozhat, és mindegyik csoporthoz egyéni hozzáférési jogosultságok rendelhetők. Ezzel az adminisztrátor könnyedén létrehozhat zártkörű fórumokat, moderátorrá tehet egyszerre több felhasználót stb.'
 	),
 	array(
-		0 => '--',
-		1 => 'Searching the Forums'
+		0 => 'Hogyan csatlakozhatok egy csoporthoz?',
+		1 => 'A felhasználói vezérlőpultban kattints a „Csoportok” linkre, ekkor látni fogod az összes csoportot. Nem az összes csoport <em>nyílt hozzáférésű</em>, néhánynál jóváhagyás szükséges a csatlakozáshoz, néhány zárt, néhány pedig rejtett. Ha a csoport nyitott, akkor a megfelelő gombra kattintva tudsz csatlakozni. Ezután a csoport vezetőjének jóvá kell hagynia a kérelmed – ennek kapcsán megkérdezhetnek, hogy miért szeretnél csatlakozni a csoporthoz. Kérjük ne zaklasd a csoportvezetőt, ha elutasítja a kérelmed, biztosan megvan az oka.'
 	),
 	array(
-		0 => 'How can I search the forum?',
-		1 => 'By entering a search term in the search box located on the index view, forum view or topic view. Advanced search can be accessed by clicking the “Search” link which is available on all pages on the forum.'
+		0 => 'Hogyan lehetek csoportvezető?',
+		1 => 'Amikor az adminsztrátor létrehoz egy csoportot, rögtön vezetőt is rendel hozzá. Ha szeretnél létrehozni egy csoportot, akkor lépj kapcsolatba az adminisztrátorral – például egy privát üzenet küldésével.'
 	),
 	array(
-		0 => 'Why does my search return no results?',
-		1 => 'Your search was probably too vague and included many common terms which are not indexed by phpBB3. Be more specific and use the options available within Advanced search.'
+		0 => 'Miért jelenik meg néhány csoport más színnel?',
+		1 => 'Az adminisztrátor színeket rendelhet egy csoport tagjaihoz, hogy könnyen azonosíthatók legyenek.'
 	),
 	array(
-		0 => 'Why does my search return a blank page!?',
-		1 => 'Your search returned too many results for the webserver to handle. Use Advanced search and be more specific in the terms used and forums that are to be searched.'
+		0 => 'Mi az az „elsődleges csoport”?',
+		1 => 'Ha több csoport tagja is vagy, akkor ez a csoport határozza meg, hogy milyen színnel jelenik meg a neved, és hogy alapból milyen csoport avatar jelenik meg nálad. Az adminisztrátor engedélyezheti, hogy megváltoztasd az elősődleges csoportodat a felhasználói vezérlőpultban.'
 	),
 	array(
-		0 => 'How do I search for members?',
-		1 => 'Go to the “Members” page and click the “Find a member” link. Once there, fill out the self explanatory options.'
-	),
-	array(
-		0 => 'How can I find my own posts and topics?',
-		1 => 'Your own posts can be retrieved either by clicking the “Search user’s posts” within the User Control Panel or via your own profile page. To search for your topics, use the Advanced search page and fill in the various options appropriately.'
-	),
-	array(
-		0 => '--',
-		1 => 'Topic Subscriptions and Bookmarks'
-	),
-	array(
-		0 => 'What is the difference between bookmarking and subscribing?',
-		1 => 'Bookmarking in phpBB3 is much like bookmarking in your web browser. You aren’t necessarily alerted when there’s an update, but you can later come back to the topic. To contrast that with subscribing, subscribing will notify you when there is an update to the topic or forum on the board via your preferred method or methods.'
-	),
-	array(
-		0 => 'How do I subscribe to specific forums or topics?',
-		1 => 'To subscribe to a specific forum, once you enter the forum, you will see a “Subscribe to forum” link. This will subscribe you to the forum just like you would for a topic. To subscribe to a topic, you can either reply to the topic and check the checkbox to subscribe or you can click the link that says subscribe to topic from within the topic itself.'
-	),
-	array(
-		0 => 'How do I remove my subscriptions?',
-		1 => 'To remove your subscriptions, you simply go to your User Control Panel, or UCP for short, and follow the links to your subscriptions.'
+		0 => 'Mi az az „A csapat” link?',
+		1 => 'Ezen az oldalon egy listát találhatsz a fórum üzemeltetőiről: az adminisztrátorokról és a moderátorokról (utóbbiaknál jelezve azt is, hogy melyik fórumot moderálják).'
 	),
 	array(
 		0 => '--',
-		1 => 'Attachments'
+		1 => 'Privát üzenetek'
 	),
 	array(
-		0 => 'What attachments are allowed on this board?',
-		1 => 'Each board administrator can allow or disallow certain attachment types. If you are unsure what is allowed to be uploaded, contact the board administrator for assistance.'
+		0 => 'Nem tudok privát üzenetet küldeni!',
+		1 => 'Ennek három oka lehet: nem regisztráltál, vagy nem vagy belépve; az adminisztrátor nem engedélyezte a fórumon privát üzenetek küldését; vagy az adminisztrátor nem engedélyezte neked, hogy privát üzenetet küldjél. Ha ez utóbbi eset áll fenn, kérdezd meg az adminisztrátort, mi ennek az oka.'
 	),
 	array(
-		0 => 'How do I find all my attachments?',
-		1 => 'To find your list of attachments that you have uploaded, go to your User Control Panel, or UCP, and follow the links to the attachments section.'
+		0 => 'Folyamatosan kéretlen üzeneteket kapok!',
+		1 => 'A felhasználói vezérlőpultban beállítható szűrők segítségével letilthatsz embereket, hogy ne tudjanak neked privát üzenetet küldeni. Ha sértegető üzeneteket kapsz valakitől, értesítsd az adminisztrátort, ő ugyanis meg tudja akadályozni, hogy a felhasználó egyáltalán küldhessen privát üzenetet.' //? utolsó mondatnak nyelvtanilag más az értelme, nem?
+	),
+	array(
+		0 => 'Kéretlen vagy sértegető e-mailt kaptam valakitől a fórumról!',
+		1 => 'Ezt sajnálattal halljuk. A fórum e-mail funkciója tartalmaz ezirányú óvintézkedéseket. Értesítsd a fórum adminisztrátorát, küldd el neki a kapott e-mail teljes másolatát is – fontos, hogy ez a fejlécet is tartalmazza (ebben szerepelnek az adatok az e-mail küldőjéről). Ő megteheti a szükséges lépéseket.'
 	),
 	array(
 		0 => '--',
-		1 => 'phpBB 3 Issues'
+		1 => 'Barátok és haragosok'
 	),
 	array(
-		0 => 'Who wrote this bulletin board?',
-		1 => 'This software (in its unmodified form) is produced, released and is copyright <a href="http://www.phpbb.com/">phpBB Group</a>. It is made available under the GNU General Public Licence and may be freely distributed, see link for more details'
+		0 => 'Mire való a „Barátok és haragosok” lista?',
+		1 => 'Ezen listák segítségével rendszerezheted a fórum többi tagját. A barátok listában szereplő felhasználók megjelennek a felhasználói vezérlőpultban, így gyorsan elérheted őket, küldhetsz nekik privát üzenetet, és láthatod, hogy éppen jelen vannak-e. A használt sablon támogatásától függően, a barátok hozzászólásai kiemelve szerepelhetnek. Ha egy felhasználót haragosként jelölsz meg, akkor a hozzászólásai alapból nem fognak megjelenni.'
 	),
 	array(
-		0 => 'Why isn’t X feature available?',
-		1 => 'This software was written by and licensed through phpBB Group. If you believe a feature needs to be added then please visit the phpbb.com website and see what phpBB Group have to say. Please do not post feature requests to the board at phpbb.com, the Group uses sourceforge to handle tasking of new features. Please read through the forums and see what, if any, our position may already be for a feature and then follow the procedure given there.'
+		0 => 'Hogyan adhatok hozzá, illetve távolíthatok el felhasználókat a barátok vagy haragosok listáról?',
+		1 => 'A listáidra két módon vehetsz fel felhasználókat. Minden felhasználó profiljában található egy link, melynek segítségével felveheted a barátaid vagy a haragosaid közé. Emellett a felhasználói vezérlőpultban is felvehetsz embereket, közvetlenül megadva a felhasználónevüket. Ugyanezen oldalon el is távolíthatsz felhasználókat a listáidról.'
 	),
 	array(
-		0 => 'Who do I contact about abusive and/or legal matters related to this board?',
-		1 => 'You should contact the administrator of this board. If you cannot find who this you should first contact one of the forum moderators and ask them who you should in turn contact. If still get no response you should contact the owner of the domain (do a whois lookup) or, if this is running on a free service (e.g. yahoo, free.fr, f2s.com, etc.), the management or abuse department of that service. Please note that phpBB Group has absolutely no control and cannot in any way be held liable over how, where or by whom this board is used. It is absolutely pointless contacting phpBB Group in relation to any legal (cease and desist, liable, defamatory comment, etc.) matter not directly related to the phpbb.com website or the discrete software of phpBB itself. If you do email phpBB Group about any third party use of this software then you should expect a terse response or no response at all.'
+		0 => '--',
+		1 => 'Keresés a fórumban'
+	),
+	array(
+		0 => 'Hogyan kereshetek a fórumban?',
+		1 => 'Írd be a keresendő kifejezést közvetlenül a keresődobozba, mely rendelkezésre áll a fórum kezdőlapon, egy fórumban vagy egy témában. A részletes keresést a „Keresés” linkre kattintva tudod elérni, mely a fórum összes oldalán elérhető. '
+	),
+	array(
+		0 => 'Miért nem ad vissza találatot a keresésem?',
+		1 => 'Valószínűleg a keresés túl általános volt, és sok gyakori szót tartalmazhatott, melyeket a phpBB3 nem indexel. Próbálj meg egy jobban körülhatárolt kifejezést megadni, és használd ki a részletes keresés lehetőségeit.' //? legyél pontosabb/határozotabb stb. (nem juotott eszember rá szó :oops)
+	),
+	array(
+		0 => 'A keresésem miért ad vissza üres oldalt!?',
+		1 => 'A keresésed olyan sok találatot adott vissza, hogy azt a webszerver már nem tudta kezelni. Használd a részletes keresést, jobban körülhatárolt kifejezést adj meg, és válaszd ki, hogy csak melyik fórumban szeretnél keresni.'
+	),
+	array(
+		0 => 'Hogyan kereshetek a tagok között?',
+		1 => 'Menj a „Taglista” oldalra, és kattints a „Felhasználó keresése” linkre. Ezután töltsd ki a megjelenő űrlapot.'
+	),
+	array(
+		0 => 'Hogyan találhatom meg a saját hozzászólásaimat és témáimat?',
+		1 => 'A saját hozzászólásaidhoz kétféleképpen férhetsz hozzá: vagy a felhasználói vezérlőpultban a „Saját hozzászólások megtekintése” linkre kattintva vagy a profilodon keresztül. A témáid eléréséhez használd a részletes keresést.'
+	),
+	array(
+		0 => '--',
+		1 => 'Téma feliratkozások és kedvencek'
+	),
+	array(
+		0 => 'Mi a különbség a feliratkozás és a kedvencekbe tétel között?',
+		1 => 'A phpBB3 kedvencek funkciója hasonlóan működik a böngésződéhez. Nem kerülsz értesítésre, ha frissül a tartalom, de később visszatérhetsz a témához. Feliratkozáskor, ezzel ellentétben, értesítésre kerülsz – a kívánt módon –, amikor a téma vagy a fórum frissül.'
+	),
+	array(
+		0 => 'Hogyan tudok feliratkozni egy fórumra vagy témára?',
+		1 => 'Egy fórumra úgy tudsz feliratkozni, hogy a fórum oldalán alul a „Feliratkozás a fórumra” linkre kattintasz. Ezzel úgyanúgy feliratkozásra kerülsz a fórumra, mintha egy témára tetted volna. Egy témára úgy is feliratkozhatsz, hogy hozzászólás küldésekor bejelölöd az „E-mail küldése új hozzászólás érkezésekor”, de hasonlóan a fórumra való feliratkozáshoz, a téma alján megjelenő linkre kattintva is ugyanezt éred el.'
+	),
+	array(
+		0 => 'Hogyan tudok leiratkozni?',
+		1 => 'A leiratkozáshoz menj a felhasználói vezérlőpultra, és kövesd a linkeket a feliratkozásaidhoz.' //?
+	),
+	array(
+		0 => '--',
+		1 => 'Csatolmányok'
+	),
+	array(
+		0 => 'Milyen csatolmányok engedélyezettek ezen a fórumon?',
+		1 => 'Az adminisztrátorok saját maguk állíthatják be, hogy milyen típusú csatolmányokat engedélyeznek. Ha nem vagy biztos benne, mi engedélyezett, lépj kapcsolatba az adminisztrátorral.'
+	),
+	array(
+		0 => 'Hogyan érem el a saját csatolmányaimat?',
+		1 => 'Az általad feltöltött csatolmányok eléréséhez, menj a felhasználói vezérlőpultra, és kövesd a linkeket a csatolmányok részhez.'
+	),
+	array(
+		0 => '--',
+		1 => 'phpBB 3 kérdések'
+	),
+	array(
+		0 => 'Ki készítette ezt a fórumot?',
+		1 => 'Ezt a szoftvert (eredeti formájában) a <a href="http://www.phpbb.com/">phpBB Group</a> készítette, adta ki, és gyakorolja a szerzői jogokat felette. A GNU General Public License alatt érhető el, és szabadon terjeszthető. További információért lásd a linket.'
+	),
+	array(
+		0 => 'Ki készítette ezt a magyar fordítást?',
+		1 => 'Ezt a magyar fordítást <a href="http://phpbb.hu/">Magyar phpBB Közösség</a> <a href="http://phpbb.hu/forditas">fordító</a> készítették: stb. stb. Ha bármilyen hibát találsz, a magyar fordítás javítása érdekében, kérjük jelezd a <a href="http://phpbb.hu/bugs">hibabejelentőkben</a>. stb. stb. :)<br />Emlékeztetőül: ez csak egy béta verzió, úgyhogy csak óvatosan! ;)'
+	),
+	array(
+		0 => 'Miért nem érhető el az X szolgáltatás?',
+		1 => 'Ezt a szoftvert a phpBB Group készítette, és licenceli. Ha úgy gondolod, hogy újabb szolgáltatások, funkciók szükségesek a fórumba, akkor látogasd meg a phpbb.com weboldalt, és olvasd el amit phpBB Group mond erről. Kérünk ne küldj kéréseket a phpbb.com fórumába, a fejlesztők a sourceforge oldalán várják az ötleteket. Emellett kérünk olvasd át a fórumot, mert lehet hogy már felmerült az ötlet, és a phpBB Group megfogalmazott ezzel kapcsolatban egy véleményt.' // ezt is lehetne javítani, meg az angol szövegnek megfelelőnek tenni...
+	),
+	array(
+		0 => 'Ki az illetékes a fórumon olvasható tartalommal kapcsolatban?',
+		1 => 'Sértő, illetve illegális tartalmak kapcsán elsősorban a fórum adminisztrátorát kell felkeresni. Ha ez nem lehetséges, akkor a weboldal tulajdonosát (ezt kiderítheted egy ún. „whois” kereséssel). Ha a fórum egy ingyenes tárhelyen található, akkor azt a szolgáltatót értesítsd. Kérjük vedd figyelembe, hogy a phpBB Group-nak semmilyen köze, hozzáférése vagy beleszólása nincs a fórumon olvasható tartalomhoz, ezért nem tehető semmilyen módon felelőssé amiatt, hogy ki mire használja ezt a fórumot.' // ez se "ugyanaz", mint az angol (~jogi szöveg ez is, az is :)
 	)
 );
 
