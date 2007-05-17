@@ -1,10 +1,10 @@
 <?php
 /** 
 *
-* help_bbcode [English]
+* help_bbcode [Hungarian]
 *
 * @package language
-* @version $Id: help_bbcode.php,v 1.3 2007-01-28 20:32:48 fberci Exp $
+* @version $Id: help_bbcode.php,v 1.4 2007-05-17 21:19:09 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -28,79 +28,79 @@
 $help = array(
 	array(
 		0 => '--',
-		1 => 'Introduction'
+		1 => 'Bevezető'
 	),
 	array(
-		0 => 'What is BBCode?',
-		1 => 'BBCode is a special implementation of HTML. Whether you can actually use BBCode in your posts on the forum is determined by the administrator. In addition you can disable BBCode on a per post basis via the posting form. BBCode itself is similar in style to HTML, tags are enclosed in square braces [ and ] rather than &lt; and &gt; and it offers greater control over what and how something is displayed. Depending on the template you are using you may find adding BBCode to your posts is made much easier through a clickable interface above the message area on the posting form. Even with this you may find the following guide useful.'
-	),
-	array(
-		0 => '--',
-		1 => 'Text Formatting'
-	),
-	array(
-		0 => 'How to create bold, italic and underlined text',
-		1 => 'BBCode includes tags to allow you to quickly change the basic style of your text. This is achieved in the following ways: <ul><li>To make a piece of text bold enclose it in <strong>[b][/b]</strong>, eg. <br /><br /><strong>[b]</strong>Hello<strong>[/b]</strong><br /><br />will become <strong>Hello</strong></li><li>For underlining use <strong>[u][/u]</strong>, for example:<br /><br /><strong>[u]</strong>Good Morning<strong>[/u]</strong><br /><br />becomes <u>Good Morning</u></li><li>To italicise text use <strong>[i][/i]</strong>, eg.<br /><br />This is <strong>[i]</strong>Great!<strong>[/i]</strong><br /><br />would give This is <i>Great!</i></li></ul>'
-	),
-	array(
-		0 => 'How to change the text colour or size',
-		1 => 'To alter the color or size of your text the following tags can be used. Keep in mind that how the output appears will depend on the viewers browser and system: <ul><li>Changing the colour of text is achieved by wrapping it in <strong>[color=][/color]</strong>. You can specify either a recognised colour name (eg. red, blue, yellow, etc.) or the hexadecimal triplet alternative, eg. #FFFFFF, #000000. For example, to create red text you could use:<br /><br /><strong>[color=red]</strong>Hello!<strong>[/color]</strong><br /><br />or<br /><br /><strong>[color=#FF0000]</strong>Hello!<strong>[/color]</strong><br /><br />will both output <span style="color:red">Hello!</span></li><li>Changing the text size is achieved in a similar way using <strong>[size=][/size]</strong>. This tag is dependent on the template the user has selected but the recommended format is a numerical value representing the text size in pixels, starting at 1 (so tiny you will not see it) through to 29 (very large). For example:<br /><br /><strong>[size=9]</strong>SMALL<strong>[/size]</strong><br /><br />will generally be <span style="font-size:9px;">SMALL</span><br /><br />whereas:<br /><br /><strong>[size=24]</strong>HUGE!<strong>[/size]</strong><br /><br />will be <span style="font-size:24px;">HUGE!</span></li></ul>'
-	),
-	array(
-		0 => 'Can I combine formatting tags?',
-		1 => 'Yes, of course you can, for example to get someones attention you may write:<br /><br /><strong>[size=18][color=red][b]</strong>LOOK AT ME!<strong>[/b][/color][/size]</strong><br /><br />this would output <span style="color:red;font-size:18px;"><strong>LOOK AT ME!</strong></span><br /><br />We don’t recommend you output lots of text that looks like this though! Remember it is up to you, the poster to ensure tags are closed correctly. For example the following is incorrect:<br /><br /><strong>[b][u]</strong>This is wrong<strong>[/b][/u]</strong>'
+		0 => 'Mi az a BBCode?',
+		1 => 'A BBCode a HTML nyelv egy speciális változata. A BBCode használatának engedélyezése az adminisztrátortól függ, de neked is lehetőséged van ki- vagy bekapcsolni a hozzászólásaidnál. A BBCode hasonló felépítésű, mint a HTML, kivéve hogy a címkék nem kacsacsőrök között („<” , ill. „>”), hanem szögletes zárójelben („[”, ill. „]”) vannak; és nagyobb teret enged a szöveg megformázásához. Hozzászólás küldésekor az üzenet mező fölött található BBCode panel nagyban megkönnyítheti a BBCode-ok használatát. Ezzel együtt az alábbi útmutatót valószínűleg hasznosnak fogod találni.'
 	),
 	array(
 		0 => '--',
-		1 => 'Quoting and outputting fixed-width text'
+		1 => 'Szövegformázás'
 	),
 	array(
-		0 => 'Quoting text in replies',
-		1 => 'There are two ways you can quote text, with a reference or without.<ul><li>When you utilise the Quote function to reply to a post on the board you should notice that the post text is added to the message window enclosed in a <strong>[quote=""][/quote]</strong> block. This method allows you to quote with a reference to a person or whatever else you choose to put! For example to quote a piece of text Mr. Blobby wrote you would enter:<br /><br /><strong>[quote="Mr. Blobby"]</strong>The text Mr. Blobby wrote would go here<strong>[/quote]</strong><br /><br />The resulting output will automatically add, Mr. Blobby wrote: before the actual text. Remember you <strong>must</strong> include the parenthesis "" around the name you are quoting, they are not optional.</li><li>The second method allows you to blindly quote something. To utilise this enclose the text in <strong>[quote][/quote]</strong> tags. When you view the message it will simply show, Quote: before the text itself.</li></ul>'
+		0 => 'Félkövér, dőlt, illetve aláhúzott szöveg készítése',
+		1 => 'A BBCode címkék segítségével könnyedén megváltoztathatod egy szöveg kinézetét. Ezt a következő képpen érheted el: <ul><li>Egy szövegrészlet félkövérré tételéhez zárd körül <strong>[b][/b]</strong> címkékkel. Például:<br /><br /><strong>[b]</strong>Hello<strong>[/b]</strong> <br /><br />eredménye: <strong>Hello</strong></li><li>Aláhúzáshoz használd az <strong>[u][/u]</strong> címkét. Például:<br /><br /><strong>[u]</strong>Jó reggelt!<strong>[/u]</strong><br /><br />így fog megjelenni: <span style="text-decoration: underline">Jó reggelt!</span></li><li>Egy szöveg dőlt betűssé tételéhez használd az <strong>[i][/i]</strong> címkét. Például:<br /><br /><strong>[i]</strong>Ez nagyszerű!<strong>[/i]</strong><br /><br />ezt eredményezi: <i>Ez nagyszerű!</i></li></ul>'
 	),
 	array(
-		0 => 'Outputting code or fixed width data',
-		1 => 'If you want to output a piece of code or in fact anything that requires a fixed width, eg. Courier type font you should enclose the text in <strong>[code][/code]</strong> tags, eg.<br /><br /><strong>[code]</strong>echo "This is some code";<strong>[/code]</strong><br /><br />All formatting used within <strong>[code][/code]</strong> tags is retained when you later view it.'
+		0 => 'Szöveg színének vagy méretének megválotztatása',
+		1 => 'Egy szövegrészlet színének vagy méretének megváltoztatásához a következő címkék használhatók. Vedd figyelembe, hogy a szöveg pontos megjelenése a látogató böngészőjétől és rendszerétől is függeni fog (például túl kis betűmérettel írt szöveg nem látszódhat).<ul><li>Egy szövegrészlet színét a <strong>[color=][/color]</strong> címkék használatával változtathatod meg. A színt megadhatod az angol nevével (pl. „red”, „blue”, „yellow”) vagy a hexadecimális kódjával, például: #FFFFFF, #000000. Piros szöveget például így tud készíteni: <br /><br /><strong>[color=red]</strong>Helló!<strong>[/color]</strong><br /><br />és<br /><br /><strong>[color=#FF0000]</strong>Helló!<strong>[/color]</strong><br /><br />eredménye is ez lesz: <span style="color:red">Helló!</span></li><li>A betűméretet is hasonlóan lehet megváltoztatni: a <strong>[size=][/size]</strong> címke segítségével. A szöveg méretét százalékban kell megadni: egy 20 és 200 közötti szám lehet, de az aktuális méret a sablontól függ. Például <br /><br /><strong>[size=30]</strong>KICSI<strong>[/size]</strong><br /><br />általánosan <span style="font-size:30%;">KICSI</span> lesz,<br /><br />ehhez hasonlóan:<br /><br /><strong>[size=200]</strong>ÓRIÁSI!<strong>[/size]</strong><br /><br /><span style="font-size:200%;">ÓRIÁSI!</span> lesz.</li></li></ul>'
 	),
 	array(
-		0 => '--',
-		1 => 'Generating lists'
-	),
-	array(
-		0 => 'Creating an Un-ordered list',
-		1 => 'BBCode supports two types of lists, unordered and ordered. They are essentially the same as their HTML equivalents. An unordered list ouputs each item in your list sequentially one after the other indenting each with a bullet character. To create an unordered list you use <strong>[list][/list]</strong> and define each item within the list using <strong>[*]</strong>. For example to list your favourite colours you could use:<br /><br /><strong>[list]</strong><br /><strong>[*]</strong>Red<br /><strong>[*]</strong>Blue<br /><strong>[*]</strong>Yellow<br /><strong>[/list]</strong><br /><br />This would generate the following list:<ul><li>Red</li><li>Blue</li><li>Yellow</li></ul>'
-	),
-	array(
-		0 => 'Creating an Ordered list',
-		1 => 'The second type of list, an ordered list gives you control over what is output before each item. To create an ordered list you use <strong>[list=1][/list]</strong> to create a numbered list or alternatively <strong>[list=a][/list]</strong> for an alphabetical list. As with the unordered list items are specified using <strong>[*]</strong>. For example:<br /><br /><strong>[list=1]</strong><br /><strong>[*]</strong>Go to the shops<br /><strong>[*]</strong>Buy a new computer<br /><strong>[*]</strong>Swear at computer when it crashes<br /><strong>[/list]</strong><br /><br />will generate the following:<ol type="1"><li>Go to the shops</li><li>Buy a new computer</li><li>Swear at computer when it crashes</li></ol>Whereas for an alphabetical list you would use:<br /><br /><strong>[list=a]</strong><br /><strong>[*]</strong>The first possible answer<br /><strong>[*]</strong>The second possible answer<br /><strong>[*]</strong>The third possible answer<br /><strong>[/list]</strong><br /><br />giving<ol type="a"><li>The first possible answer</li><li>The second possible answer</li><li>The third possible answer</li></ol>'
+		0 => 'Használhatok egyszerre többféle formázást?',
+		1 => 'Igen, természetesen kombinálhatod a címkéket. Például, ha fel akarod hívni valakinek a figyelmét:<br /><br /><strong>[size=18][color=red][b]</strong>OLVASS EL!<strong>[/b][/color][/size]</strong><br /><br />ezt eredményezi: <span style="color:red;font-size:18px;"><strong>OLVASS EL!</strong></span><br /><br />Ennek ellenére nem ajánlott, hogy egyszerre sok formázási eszközt használj, mivel ennek következtében a szöveg nehezen lesz olvasható. Kérünk ügyelj a címkék lezárásának sorrendjére. A következő példa hibás:<br /><br /><strong>[b][u]</strong>Ez így hibás!<strong>[/b][/u]</strong>'
 	),
 	array(
 		0 => '--',
-		1 => 'Creating Links'
+		1 => 'Idézés és kódok'
 	),
 	array(
-		0 => 'Linking to another site',
-		1 => 'phpBB BBCode supports a number of ways of creating URIs, Uniform Resource Indicators better known as URLs.<ul><li>The first of these uses the <strong>[url=][/url]</strong> tag, whatever you type after the = sign will cause the contents of that tag to act as a URL. For example to link to phpBB.com you could use:<br /><br /><strong>[url=http://www.phpbb.com/]</strong>Visit phpBB!<strong>[/url]</strong><br /><br />This would generate the following link, <a href="http://www.phpbb.com/" target="_blank">Visit phpBB!</a> You will notice the link opens in a new window so the user can continue browsing the forums if they wish.</li><li>If you want the URL itself displayed as the link you can do this by simply using:<br /><br /><strong>[url]</strong>http://www.phpbb.com/<strong>[/url]</strong><br /><br />This would generate the following link, <a href="http://www.phpbb.com/" target="_blank">http://www.phpbb.com/</a></li><li>Additionally phpBB features something called <i>Magic Links</i>, this will turn any syntactically correct URL into a link without you needing to specify any tags or even the leading http://. For example typing www.phpbb.com into your message will automatically lead to <a href="http://www.phpbb.com/" target="_blank">www.phpbb.com</a> being output when you view the message.</li><li>The same thing applies equally to email addresses, you can either specify an address explicitly for example:<br /><br /><strong>[email]</strong>no.one@domain.adr<strong>[/email]</strong><br /><br />which will output <a href="mailto:no.one@domain.adr">no.one@domain.adr</a> or you can just type no.one@domain.adr into your message and it will be automatically converted when you view.</li></ul>As with all the BBCode tags you can wrap URLs around any of the other tags such as <strong>[img][/img]</strong> (see next entry), <strong>[b][/b]</strong>, etc. As with the formatting tags it is up to you to ensure the correct open and close order is following, for example:<br /><br /><strong>[url=http://www.google.com/][img]</strong>http://www.google.com/intl/en_ALL/images/logo.gif<strong>[/url][/img]</strong><br /><br />is <u>not</u> correct which may lead to your post being deleted so take care.'
+		0 => 'Idézés',
+		1 => 'Két módon lehet idézni: megadva az idézet forrását, vagy nem.<ul><li>Ha egy hozzászólás mellett lévő „Idézés” gomra kattintva válaszolsz, akkor a hozzászólás szövege automatikusan hozzáadódik az üzenethez <strong>[quote=""][/quote]</strong> címkékbe zárva. Ezen módot használva megjelölheted az idézés forrását: egy felhsználót, egy webcímet vagy bármi mást. Ha például Pacák úrtól szeretnél idézni, a következőt írd:<br /><br /><strong>[quote="Pacák úr"]</strong>Ide jön a Pacák úr által írt szöveg.<strong>[/quote]</strong><br /><br />A beírt szöveg elé automatikusan odakerül, hogy „Pacák úr írta”. Ne felejtsd el, hogy <strong>kötelező</strong> idézőjelbe tenni a forrás megnevezését, ez nem tetszőleges.</li><li>A másik móddal csak simán idézni lehet egy szöveget, a forrás megadása nélkül. Ehhez foglald be a szöveget <strong>[quote][/quote]</strong> címkékbe. Az üzenet megtekintésénél láthatjuk, hogy csak egy sima „Idézet” felirat került a szöveg elé.</li></ul>'
 	),
 	array(
-		0 => '--',
-		1 => 'Showing images in posts'
-	),
-	array(
-		0 => 'Adding an image to a post',
-		1 => 'phpBB BBCode incorporates a tag for including images in your posts. Two very important things to remember when using this tag are; many users do not appreciate lots of images being shown in posts and secondly the image you display must already be available on the internet (it cannot exist only on your computer for example, unless you run a webserver!). To display an image you must surround the URL pointing to the image with <strong>[img][/img]</strong> tags. For example:<br /><br /><strong>[img]</strong>http://www.google.com/intl/en_ALL/images/logo.gif<strong>[/img]</strong><br /><br />As noted in the URL section above you can wrap an image in a <strong>[url][/url]</strong> tag if you wish, eg.<br /><br /><strong>[url=http://www.google.com/][img]</strong>http://www.google.com/intl/en_ALL/images/logo.gif<strong>[/img][/url]</strong><br /><br />would generate:<br /><br /><a href="http://www.google.com/" target="_blank"><img src="http://www.google.com/intl/en_ALL/images/logo.gif" alt="" /></a>'
-	),
-	array(
-		0 => 'Adding attachments into a post',
-		1 => 'Attachments can now be placed in any part of a post by using the new <strong>[attachment=][/attachment]</strong> BBCode, if the attachments functionality has been enabled by a board administrator &amp; if you are given the appropriate permissions to create attachments. Within the posting screen is a drop-down box for placing attachments inline.'
+		0 => 'Kódok és fix szélességet igénylő szövegek',
+		1 => 'Ha egy kódrészletet, vagy bármilyen fix szélességet igénylő szöveget szeretnél beilleszteni (például Courier betűtípussal), zárd körül a szöveget <strong>[code][/code]</strong> címkékkel. Például:<br /><br /><strong>[code]</strong>echo &quot;Ez valami kód.&quot;;<strong>[/code]</strong><br /><br /><strong>[code][/code]</strong> címkén belül nem használható más formázást, mivel ezeken belül szereplő más címkék nem kerülnek értelmezésre. Ha PHP kódot illesztesz be, használd a <strong>[code=php][/code]</strong> címkét a szintaxiskiemeléshez, hogy a kód könnyebben olvasható legyen.'
 	),
 	array(
 		0 => '--',
-		1 => 'Other matters'
+		1 => 'Listák készítése'
 	),
 	array(
-		0 => 'Can I add my own tags?',
-		1 => 'If you are an administrator on this board and have the proper permissions, you can add further BBCodes through the Custom BBCodes section.'
+		0 => 'Rendezetlen lista készítése',
+		1 => 'A BBCode két fajta listatípust támogat: rendezetlent és rendezettet. Lényegében ugyanazok, mint a HTML megfelelőjük. A rendezetlen listában az elemek sorrendben követik egymást, és mindegyik előtt egy pötty jelenik meg. Rendezetlen lista készítéséhez a <strong>[list][/list]</strong> címke használható, és minden elemet egy <strong>[*]</strong> címkével kell definiálni. Például így tudod felsorolni a kedvenc színeidet:<br /><br /><strong>[list]</strong><br /><strong>[*]</strong>piros<br /><strong>[*]</strong>kék<br /><strong>[*]</strong>sárga<br /><strong>[/list]</strong><br /><br />mely a következőképpen néz ki:<ul><li>piros</li><li>kék</li><li>sárga</li></ul>'
+	),
+	array(
+		0 => 'Rendezett lista készítése',
+		1 => 'A második típusú listánál, a rendezett listánál már azt is meghatározhatod, hogy mi kerüljön minden elem elé. Remdezett lista készítéséhez a <strong>[list=1][/list]</strong> címke használható – ez számozott lesz, de más paraméter megadásával betűkkel jelölt listát is készíthetsz (<strong>[list=a][/list]</strong>). A rendezetlen listához hasonlóan, az egyes elemeket itt is a <strong>[*]</strong> címke használatával kell definiálni. Például:<br /><br /><strong>[list=1]</strong><br /><strong>[*]</strong>elmenni a boltba<br /><strong>[*]</strong>új számítógépet vásárolni<br /><strong>[*]</strong>rácsapni a gépre, ha lefagy<br /><strong>[/list]</strong><br /><br />eredménye a következő:<ol style="list-style-type: arabic-numbers"><li>elmenni a boltba</li><li>új számítógépet vásárolni</li><li>rácsapni a gépre, ha lefagy</li></ol>Így néz ki egy betűkkel jelölt lista:<br /><br /><strong>[list=a]</strong><br /><strong>[*]</strong>az első lehetséges válasz<br /><strong>[*]</strong>a második lehetséges válasz<br /><strong>[*]</strong>a harmadik lehetséges válasz<br /><strong>[/list]</strong><br /><br />megjelenítve:<ol style="list-style-type: lower-alpha"><li>az első lehetséges válasz</li><li>a második lehetséges válasz</li><li>a harmadik lehetséges válasz</li></ol>'
+	),
+	array(
+		0 => '--',
+		1 => 'Hivatkozások készítése'
+	),
+	array(
+		0 => 'Hivatkozás egy másik weboldalra',
+		1 => 'A phpBB BBCode-ja több módot is biztosít hivatkozások készítésére. A hivatkozások egy URL-re („Universe Resource Locator” azaz webcímre) mutatnak.<ul><li>Az első mód az <strong>[url=][/url]</strong> címkék használata. Az URL-t az első címkében, az egyenlőségjel és a záró szögletes zárójel között kell megadni. Például a phpBB.com-ra így tudsz linkelni:<br /><br /><strong>[url=http://www.phpbb.com/]</strong>Látogasd meg a phpBB weboldalát!<strong>[/url]</strong><br /><br />a következő linket eredményezi: <a href="http://www.phpbb.com/">Látogasd meg a phpBB weboldalát!</a> A link a böngésző felhasználói beállításaitól függően nyílik meg ugyanabban vagy egy új ablakban.</li><li>Ha magát az URL-t szeretnéd, hogy megjelenjen linkként, használd a következő, nagyon egyszerű formát:<br /><br /><strong>[url]</strong>http://www.phpbb.com/<strong>[/url]</strong><br /><br />Ez a következő linket eredményezi: <a href="http://www.phpbb.com/">http://www.phpbb.com/</a></li><li>Mindemellett a phpBB rendelkezik egy olyan funkcióval is, mely automatikusan átalakítja a szintatikailag helyes URL-eket hivatkozásokká, anélkül hogy bármilyen BBCode-ot használnál, vagy egyáltalán odaírnád az URL elejére a kezdő http:// részt. Ha például az üzeneted tartalmazza, hogy www.phpbb.com, az <a href="http://www.phpbb.com/">www.phpbb.com</a>-ként fog megjelenni.</li><li>Ehhez hasonlóan történik az e-mail címek kezelése is; konkrétan megadhatsz egy címet, például:<br /><br /><strong>[email]</strong>nem.letezo@email.cim<strong>[/email]</strong><br /><br />mely <a href="mailto:nem.letezo@email.cim">nem.letezo@email.cim</a>-ként fog megjelenni, vagy csak egyszerűen beírhatod az üzenetedbe a nem.letezo@email.cim e-mail címet, és az automatikusan átkonvertálásra kerül.</li></ul>Hasonlóan a többi BBCode címkéhez, linkekkel is körülvehetsz más címkéket, például <strong>[img][/img]</strong> címkét (lásd a következő pontot), <strong>[b][/b]</strong>-t stb. Mint a formázó címkéknél, itt is ügyelni kell a címkék lezárásának helyes sorrendjére, például:<br /><br /><strong>[url=http://www.google.com/][img]</strong>http://www.google.com/intl/en_ALL/images/logo.gif<strong>[/url][/img]</strong><br /><br />ez <span style="text-decoration: underline">hibás</span>, amiért akár törökhetik a hozzászólásod.'
+	),
+	array(
+		0 => '--',
+		1 => 'Képek a hozzászólásokban'
+	),
+	array(
+		0 => 'Kép beszúrása hozzászólásba',
+		1 => 'A phpBB BBCode-ja lehetőséget nyújt képek beszúrására hozzászólásokba. Ezzel kapcsolatban két fontos dologot nem szabad elfelejteni: számos felhasználó nem szereti, ha egy hozzászólás túl sok képet tartalmaz, illetve ügyelni kell arra, hogy a beszúrandó kép elérhető legyen az interneten (nem elég ha a te számítógépeden van, hacsak nem fut egy webszerver a gépen!). Képet úgy lehet beszúrni, hogy a rá mutató URL-t <strong>[img][/img]</strong> címkékkel veszed körül. Például:<br /><br /><strong>[img]</strong>http://www.google.com/intl/en_ALL/images/logo.gif<strong>[/img]</strong><br /><br />Mint ahogy az a hivatkozások készítése részben szerepel, egy képet belefoglalhatsz egy <strong>[url][/url]</strong> címkébe is, például:<br /><br /><strong>[url=http://www.google.com/][img]</strong>http://www.google.com/intl/en_ALL/images/logo.gif<strong>[/img][/url]</strong><br /><br />ezt eredményezi:<br /><br /><a href="http://www.google.com/" target="_blank"><img src="http://www.google.com/intl/en_ALL/images/logo.gif" alt="" /></a>'
+	),
+	array(
+		0 => 'Csatolmányok fűzése hozzászólásokhoz',
+		1 => 'Az új <strong>[attachment=][/attachment]</strong> BBCode segítségével a csatolmányok már a hozzászólás bármely részébe beilleszthetők, ha az adminisztrátor bekapcsolta a csatolmányok funkciót, és megadta neked a szükséges jogosultságokat csatolmányok feltöltéséhez. A hozzászólásküldő űrlapon egy lenyíló menü segít a csatolmányok hozzászólásba való beillesztésében.'
+	),
+	array(
+		0 => '--',
+		1 => 'Egyéb kérdések'
+	),
+	array(
+		0 => 'Készíthetek saját címkéket?',
+		1 => 'Ha adminisztrátor vagy a fórumon, és megvan a megfelelő jogosultságod, az adminisztrátori vezérlőpult „Egyéni BBCode”-ok részén tudsz felvenni saját BBCode-okat.'
 	)
 );
 
