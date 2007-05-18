@@ -1,10 +1,10 @@
-Subject: Topik elutasítva - "{TOPIC_TITLE}"
+Subject: TÃ©ma elutasÃ­tva - "{TOPIC_TITLE}"
 
-Üdvözlünk {USERNAME},
+Kedves {USERNAME}!
 
-Ezt az üzenetet azért kapod, mert a, "{SITENAME}" oldalon, a "{TOPIC_TITLE} topicot, melyet te nyitottál, elutasította.
+Ezt az Ã¼zenetet azÃ©rt kapod, mert a "{SITENAME}" oldalon az Ã¡ltalad nyitott "{TOPIC_TITLE}" tÃ©mÃ¡t egy moderÃ¡tor vagy egy adminisztrÃ¡tor elutasÃ­totta.
 
-A következõ okot adta az elutasítésra:
+Az elutasÃ­tÃ¡s oka a kÃ¶vetkezÅ‘:
 {REASON}
 
 

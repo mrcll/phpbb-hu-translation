@@ -1,20 +1,20 @@
-Subject: phpBB telepítve
+Subject: phpBB telepÃ­tve
 
-Gratulálunk,
+GratulÃ¡lunk!
 
-Sikeresen telepítettél egy phpBB fórumot a szervereden.
+Sikeresen telepÃ­tetted a phpBB-t a szerveredre.
 
-Ez az e-mail fontos információkat tartalmaz az épp telepített fórumról, õrizd meg gondosan. A jelszót ne felejtsd el, mert az adatbázisunkban kódolva szerepel, így nincs mód a késõbbiekben a kiderítésére. Ha esetleg mégis elfelejtenéd, akkor a belépési oldalon új jelszót kell igényelned.
+Ez az e-mail fontos informÃ¡ciÃ³kat tartalmaz az Ã©pp telepÃ­tett fÃ³rumrÃ³l, gondosan Å‘rizd. A jelszÃ³t ne felejtsd el, mert az adatbÃ¡zisban kÃ³dolva szerepel, Ã­gy nincs mÃ³d a kÃ©sÅ‘bbiekben a kiderÃ­tÃ©sÃ©re. Ha esetleg mÃ©gis elfelejtenÃ©d, akkor a belÃ©pÃ©si oldalon Ãºj jelszÃ³t kell igÃ©nyelned.
 
 ----------------------------
-Felhasználónév: {USERNAME}
-Jelszó: {PASSWORD}
+FelhasznÃ¡lÃ³nÃ©v: {USERNAME}
+JelszÃ³: {PASSWORD}
 
-Fórum URL: {U_BOARD}
+FÃ³rum URL: {U_BOARD}
 ----------------------------
 
-További hasznos információkat és dokumentációt találsz a fórumod "docs" könyvtárában, vagy a phpBB.com felhasználói segítségnyújtási oldalán a következõ linken - http://www.phpbb.com/support/
+TovÃ¡bbi hasznos informÃ¡ciÃ³kat Ã©s dokumentÃ¡ciÃ³t talÃ¡lsz a fÃ³rumod "docs" kÃ¶nyvtÃ¡rÃ¡ban, vagy a phpBB.com felhasznÃ¡lÃ³i segÃ­tsÃ©gnyÃºjtÃ¡si oldalÃ¡n a kÃ¶vetkezÅ‘ linken: http://www.phpbb.com/support/
 
-Annak érdekében, hogy a fórumod biztonságos legyen, kimondottan javasolt, hogy a további szoftver-frissítésekrõl tájékozódj, melyet könnyen megtehetsz, ha regisztrálsz a phpbb.com hírlevelére. Ezt megteheted a fenti linken.
+Annak Ã©rdekÃ©ben, hogy a fÃ³rumod biztonsÃ¡gos legyen, kimondottan javasolt, hogy a tovÃ¡bbi szoftverfrissÃ­tÃ©sekrÅ‘l mindig hamar tÃ¡jÃ©kozÃ³dj, melyet kÃ¶nnyen megtehetsz, ha regisztrÃ¡lsz a phpBB.com hÃ­rlevelÃ©re. Ezt megteheted a fenti linken.
 
 {EMAIL_SIG}

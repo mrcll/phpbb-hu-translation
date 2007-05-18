@@ -1,13 +1,13 @@
-Subject: Azonosító aktiválása
+Subject: AzonosÃ­tÃ³ aktivÃ¡lÃ¡sa
 
-Üdvözlünk,
+ÃœdvÃ¶zlÃ¼nk!
 
-A "{USERNAME}" nevû azonosító deaktiválásra került, vagy újonnan lett nyitva. Ellenõrizheted a felhasználó által megadott adatokat (amennyiben hasznosnak tartod) majd megteheted a szükséges lépéseket.
+A "{USERNAME}" nevÅ± azonosÃ­tÃ³ deaktivÃ¡lÃ¡sra kerÃ¼lt, vagy Ãºjonnan lÃ©tre lett hozva. EllenÅ‘rizheted a felhasznÃ¡lÃ³ Ã¡ltal megadott adatokat (amennyiben szÃ¼ksÃ©gesnek tartod) majd megteheted a szÃ¼ksÃ©ges lÃ©pÃ©seket.
 
-A következõ linkre kattintva a felhasználó profiljába jutsz:
+A kÃ¶vetkezÅ‘ linkre kattintva a felhasznÃ¡lÃ³ profiljÃ¡ba jutsz:
 {U_USER_DETAILS}
 
-A következõ link aktiválja az azonosítót:
+A kÃ¶vetkezÅ‘ linkkel tudod aktivÃ¡lni az azonosÃ­tÃ³t:
 {U_ACTIVATE}
 
 

@@ -1,10 +1,10 @@
-Subject: Topik elfogadva (megnyitva?) - "{TOPIC_TITLE}"
+Subject: T√©ma j√≥v√°hagyva - "{TOPIC_TITLE}"
 
-‹dvˆzl¸nk {USERNAME},
+Kedves {USERNAME}!
 
-Ezt az ¸zenetet azÈrt kapod, mert a, "{SITENAME}" oldalon, a "{TOPIC_TITLE} topicot, melyet te nyitott·l, elfogadta egy moder·tor vagy adminisztr·tor.
+Ezt az √ºzenetet az√©rt kapod, mert a "{SITENAME}" oldalon az √°ltalad nyitott "{TOPIC_TITLE} t√©m√°t j√≥v√°hagyta egy moder√°tor vagy egy adminisztr√°tor.
 
-A topicot megnÈzheted, amennyiben a kˆvetkezı linkre kattintasz:
+A t√©m√°t megtekintheted a k√∂vetkez≈ë linkre kattintva:
 {U_VIEW_TOPIC}
 
 

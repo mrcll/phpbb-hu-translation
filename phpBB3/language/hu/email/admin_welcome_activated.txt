@@ -1,7 +1,7 @@
-Subject: Azonosítód aktiválásra került!
+Subject: AzonosÃ­tÃ³d aktivÃ¡lÃ¡sra kerÃ¼lt!
 
-Üdvözlünk, {USERNAME}!
+Kedves {USERNAME}!
 
-Az azonosítód "{SITENAME}" oldalon aktiválásra került, most már beléphetsz azzal a felhasználónévvel és jelszóval, melyet egy korábbi e-mail-ben kaptál.
+Az azonosÃ­tÃ³d a "{SITENAME}" oldalon aktivÃ¡lÃ¡sra kerÃ¼lt, most mÃ¡r belÃ©phetsz azzal a felhasznÃ¡lÃ³nÃ©vvel Ã©s jelszÃ³val, melyet egy korÃ¡bbi e-mailben kaptÃ¡l.
 
 {EMAIL_SIG}

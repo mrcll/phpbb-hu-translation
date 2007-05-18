@@ -1,11 +1,11 @@
-Subject: Sikeresen csatlakoztál egy felhasználói csoporthoz
+Subject: Sikeresen csatlakoztÃ¡l egy felhasznÃ¡lÃ³i csoporthoz
 
-Gratulálunk,
+GratulÃ¡lunk!
 
-Sikeresen a "{GROUP_NAME}" csoport tagja lettél a "{SITENAME}" oldalon.
-Ezt a fórum adminisztrátorának, vagy a csoport vezetõjének köszönheted. További információért fordult hozzájuk.
+A "{SITENAME}" oldalon hozzÃ¡adÃ¡sra kerÃ¼ltÃ©l a "{GROUP_NAME}" csoporthoz.
+Ezt a fÃ³rum adminisztrÃ¡torÃ¡nak, vagy a csoport vezetÅ‘jÃ©nek kÃ¶szÃ¶nheted. TovÃ¡bbi informÃ¡ciÃ³Ã©rt fordult hozzÃ¡juk.
 
-A csoport információit a következõ linkre kattintva érheted el:
+A csoport informÃ¡ciÃ³it a kÃ¶vetkezÅ‘ linkre kattintva Ã©rheted el:
 {U_GROUP}
 
 {EMAIL_SIG}

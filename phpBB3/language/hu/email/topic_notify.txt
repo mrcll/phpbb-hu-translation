@@ -1,14 +1,16 @@
-Subject: Témafigyelés figyelmeztetés- "{FORUM_NAME}"
+Subject: TÃ©mafigyelÃ©s Ã©rtesÃ­tÃ©s - "{FORUM_NAME}"
 
-Üdvözlünk, {USERNAME}!
+Kedves {USERNAME}!
 
-Ezt az e-mailt azért kapod, mert a "{SITENAME}" oldalon, a "{TOPIC_TITLE} téma, figyelését kérted. Ebbe a témába, legutóbbi látogatásod óta új hozzászólás érkezett. A következõ linkre kattintva megtekintheted az azóta született hozzászólásokat, több üzenetet válaszokról nem fogsz kapni a következõ látogatásodig.
+Ezt az e-mailt azÃ©rt kapod, mert a "{SITENAME}" oldalon, a "{TOPIC_TITLE}" tÃ©ma figyelÃ©sÃ©t kÃ©rted. A tÃ©mÃ¡ba a legutÃ³bbi lÃ¡togatÃ¡sod Ã³ta Ãºj hozzÃ¡szÃ³lÃ¡s Ã©rkezett. A kÃ¶vetkezÅ‘ linkre kattintva megtekintheted az azÃ³ta szÃ¼letett hozzÃ¡szÃ³lÃ¡sokat. TÃ¶bb Ã©rtesÃ­tÃ©st nem fogsz kapni, amÃ­g meg nem tekinted a tÃ©mÃ¡t.
+
+Az utolsÃ³ lÃ¡togatÃ¡s Ã³ta Ã©rkezett legrÃ©gebbi hozzÃ¡szÃ³lÃ¡s megtekintÃ©sÃ©hez kattints a kÃ¶vetkezÅ‘ linkre:
 {U_VIEW_TOPIC}
 
-A téma megtekintéséhez, kattints a következõ linkre:
+A tÃ©ma megtekintÃ©sÃ©hez kattints a kÃ¶vetkezÅ‘ linkre:
 {U_VIEW_TOPIC}
 
-Amennyiben a továbbiakban nem szándékozol figyelni a témát, kattints a "Leiratkozás a témáról" linkre, melyet a fenti oldalon találsz, vagy egyszerûen kattints a következõ linkre:
+Amennyiben a tovÃ¡bbiakban nem kÃ­vÃ¡nod figyelni a tÃ©mÃ¡t, kattints a "LeiratkozÃ¡s a tÃ©mÃ¡rÃ³l" linkre, melyet a fenti oldalon talÃ¡lsz, vagy egyszerÅ±en kattints a kÃ¶vetkezÅ‘ linkre:
 
 {U_STOP_WATCHING_TOPIC}
 

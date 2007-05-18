@@ -1,13 +1,13 @@
 
-Üdvözlünk {TO_USERNAME},
+Kedves {TO_USERNAME}!
 
-A következõ üzenetet a "{SITENAME}" fórumról {FROM_USERNAME} küldte neked. Amennyiben ez az üzenet kéretlen levél, sértõ vagy egyéb támadó megjegyzéseket tartalmaz számodra, kérünk, hogy lépj kapcsolatba az oldal adminisztrátorával a következõ e-mail címen:
+A kÃ¶vetkezÅ‘ Ã¼zenetet a "{SITENAME}" fÃ³rumrÃ³l {FROM_USERNAME} kÃ¼ldte neked. Amennyiben ez az Ã¼zenet kÃ©retlen levÃ©l, sÃ©rtÅ‘ vagy egyÃ©b tÃ¡madÃ³ megjegyzÃ©st tartalmaz szÃ¡modra, kÃ©rÃ¼nk lÃ©pj kapcsolatba az oldal adminisztrÃ¡torÃ¡val a kÃ¶vetkezÅ‘ e-mail cÃ­men:
 
 {BOARD_CONTACT}
 
-Idézd ezt az üzenetet. Amennyiben válaszolsz erre az üzenetre, azt {FROM_USERNAME} privát üzenetként fogja megkapni, mivel ennek az e-mailnek a válaszcímzettje az õ privát üzenet címe.
+IdÃ©zd ezt az Ã¼zenetet. KÃ©rjÃ¼k vedd figyelembe, hogy az Ã¼zenet kÃ¼ldÅ‘jÃ©nek a fÃ³rum IM azonosÃ­tÃ³ja kerÃ¼lt beÃ¡llÃ­tÃ¡sra.
 
-Az üzenet, ami neked szól a következõ:
+A neked szÃ³lÃ³ Ã¼zenet a kÃ¶vetkezÅ‘:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 {MESSAGE}

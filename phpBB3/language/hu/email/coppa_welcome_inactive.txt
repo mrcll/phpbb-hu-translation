@@ -1,44 +1,44 @@
-Subject: ‹dvˆzl¸nk a  "{SITENAME}" oldal {U_BOARD} fÛrum·n!
+Subject: √údv√∂zl√ºnk a "{SITENAME}" f√≥rumon ({U_BOARD})!
 
 {WELCOME_MSG}
 
-A COPPA szab·lyainak ÈrtelmÈben az azonosÌtÛd jelenleg inaktÌv.
+A COPPA szab√°lyainak √©rtelm√©ben az azonos√≠t√≥d jelenleg inakt√≠v.
 
-Nyomtasd ki az al·bbi ¸zenetet, Ès kÈrd meg a sz¸leidet vagy gondviselıdet, hogy Ìrja al·, majd k¸ldje el faxon az al·bbi FAX-sz·mra:
+Nyomtasd ki az al√°bbi √ºzenetet, √©s k√©rd meg egy sz√ºl≈ëdet vagy gondvisel≈ëdet, hogy √≠rja al√°, majd k√ºldje el faxon az al√°bbi FAX-sz√°mra:
 
 {FAX_INFO}
 
-vagy k¸ldje el postai levÈlben a kˆvetkezı postacÌmre:
+vagy k√ºldje el postai lev√©lben a k√∂vetkez≈ë postac√≠mre:
 
 {MAIL_INFO}
 
------------------------------- PERFOR¡CI” ------------------------------
-EngedÈly a "{SITENAME}" oldal fÛrum·hoz tˆrtÈnı csatlakoz·shoz.
+------------------------------ PERFOR√ÅCI√ì ------------------------------
+Enged√©ly a "{SITENAME}" oldal f√≥rum√°hoz t√∂rt√©n≈ë csatlakoz√°shoz.
 
 ----------------------------
-Felhaszn·lÛnÈv: {USERNAME}
-JelszÛ: {PASSWORD}
+Felhaszn√°l√≥n√©v: {USERNAME}
+Jelsz√≥: {PASSWORD}
 ----------------------------
 
-ELLEN’RIZTEM A GONDVISELETEMBEN LEV’ FIATALKOR⁄ ¡LTAL MEGADOTT INFORM¡CI”KAT, …S HOZZ¡J¡RULOK, HOGY AZ ¡LTALA MEGADOTT ADATOKAT A "{SITENAME}" OLDAL F”RUM¡N T¡ROLJ¡K.
-ELFOGADOM, HOGY EZEKET AZ ADATOKAT EGY JELSZ” BEÕR¡S¡VAL B¡RMIKOR MEG LEHET V¡LTOZTATNI.
-ELFOGADOM, HOGY EZEK AZ ADATOK B¡RMIKOR T÷R÷LHET’EK A "{SITENAME}" OLDAL F”RUM¡B”L. 
+ELLEN≈êRIZTEM A GONDVISELETEMBEN LEV≈ê FIATALKOR√ö √ÅLTAL MEGADOTT INFORM√ÅCI√ìKAT, √âS HOZZ√ÅJ√ÅRULOK, HOGY AZ √ÅLTALA MEGADOTT ADATOKAT A "{SITENAME}" OLDAL F√ìRUM√ÅN T√ÅROLJ√ÅK.
+ELFOGADOM, HOGY EZEKET AZ ADATOKAT EGY JELSZ√ì BE√çR√ÅS√ÅVAL B√ÅRMIKOR MEG LEHET V√ÅLTOZTATNI.
+ELFOGADOM, HOGY EZEK AZ ADATOK B√ÅRMIKOR T√ñR√ñLHET≈êEK A "{SITENAME}" OLDAL F√ìRUM√ÅB√ìL. 
 
 
-Sz¸lı vagy Gondviselı
-(olvashatÛ nÈv): _____________________
+Sz√ºl≈ë vagy gondvisel≈ë
+(olvashat√≥ n√©v): _____________________
 
-(al·Ìr·s): __________________ 
+(al√°√≠r√°s): __________________ 
 
-D·tum: _______________
+D√°tum: _______________
 
------------------------------- PERFOR¡CI” ------------------------------
+------------------------------ PERFOR√ÅCI√ì ------------------------------
 
 
-Amint az adminisztr·torok megkapt·k a fenti engedÈlyt faxon vagy post·n, az azonosÌtÛ engedÈlyezÈse elindlul.
+Amint az adminisztr√°torok megkapt√°k a fenti enged√©lyt faxon vagy post√°n, az azonos√≠t√≥ aktiv√°l√°sra ker√ºl.
 
-A jelszÛt ne felejtsd el, mert az adatb·zisunkban kÛdolva szerepel, Ìgy nincs mÛd a kÈsıbbiekben a kiderÌtÈsÈre. Ha esetleg mÈgis elfelejtenÈd, akkor a belÈpÈsi oldalon ˙j jelszÛt kell igÈnyelned, amelyet hasonlÛkÈppen aktiv·lni kell haszn·lat elıtt, mint most.
+A jelsz√≥t ne felejtsd el, mert az adatb√°zisunkban k√≥dolva szerepel, √≠gy nincs m√≥d a k√©s≈ëbbiekben a kider√≠t√©s√©re. Ha esetleg m√©gis elfelejten√©d, akkor a bel√©p√©si oldalon √∫j jelsz√≥t kell ig√©nyelned, amelyet hasonl√≥k√©ppen aktiv√°lni kell haszn√°lat el≈ëtt, mint most.
 
-Kˆszˆnj¸k a regisztr·ciÛt!
+K√∂sz√∂nj√ºk, hogy regisztr√°lt√°l!
 
 {EMAIL_SIG}

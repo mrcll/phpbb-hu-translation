@@ -1,8 +1,8 @@
-Subject: Felhasználói fiók újraaktiválása
+Subject: AktivÃ¡ld az azonosÃ­tÃ³d
 
-Üdvözlünk {USERNAME},
+Kedves {USERNAME}!
 
-Felhasználói fiókod a "{SITENAME}" oldalon deaktiválásra került, valószínûleg a profilodban történt változások miatt. Ahhoz, hogy újra aktív legyen a fiókod, kattints a következõ linkre:
+Az azonosÃ­tÃ³d a "{SITENAME}" oldalon inaktivÃ¡lÃ¡sra kerÃ¼lt, valÃ³szÃ­nÅ±leg a profilodban tÃ¶rtÃ©nt vÃ¡ltozÃ¡sok miatt. Ahhoz, hogy Ãºjra aktÃ­v legyen, kattints a kÃ¶vetkezÅ‘ linkre:
 
 {U_ACTIVATE}
 
