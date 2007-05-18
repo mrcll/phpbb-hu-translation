@@ -1,11 +1,11 @@
-Subject: Felhasználó inaktivitási figyelmeztetés
+Subject: InaktÃ­v azonosÃ­tÃ³ figyelmeztetÃ©s
 
-Üdvözlünk {USERNAME},
+Kedves {USERNAME}!
 
-Az "{SITENAME}" oldalon, {REGISTER_DATE}-kor egy felhasználói fiókot regisztráltál. Azóta sem aktiváltad a felhasználói fiókot, mely elõkövetelménye, hogy be tudj jelentkezni a fórumba. Segítségedre, az aktiválás linkét megtalálod ebben a levélben:
+A "{SITENAME}" oldalon {REGISTER_DATE}-kor regisztrÃ¡ltÃ¡l egy azonosÃ­tÃ³t. Ezt azÃ³ta sem aktivÃ¡ltad, mely kÃ¶vetelmÃ©ny, hogy be tudj jelentkezni a fÃ³rumba. Az azonosÃ­tÃ³d a kÃ¶vetkezÅ‘ linkre kattintva tudod aktivÃ¡lni:
 
 {U_ACTIVATE}
 
-Köszönjük, hogy regisztráltál a "{SITENAME}" oldalon, továbbra is szívesen vesszük a közremûködésed.
+KÃ¶szÃ¶njÃ¼k, hogy regisztrÃ¡ltÃ¡l a "{SITENAME}" oldalon, vÃ¡rjuk a kÃ¶zremÅ±kÃ¶dÃ©sed.
 
 {EMAIL_SIG}

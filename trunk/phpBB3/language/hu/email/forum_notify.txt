@@ -1,12 +1,12 @@
-Subject: Fórumfigyelés figyelmeztetés- "{FORUM_NAME}"
+Subject: FÃ³rumfigyelÃ©s Ã©rtesÃ­tÃ©s - "{FORUM_NAME}"
 
-Üdvözlünk, {USERNAME}!
+Kedves {USERNAME}!
 
-Ezt az e-mailt azért kapod, mert a "{SITENAME}" oldalon, a "{FORUM_NAME}" fórum figyelését kérted. Ebbe a fórumba, legutóbbi látogatásod óta új hozzászólás érkezett, méghozzá a "{TOPIC_TITLE}" témába. A következõ linkre kattintva eljuthatsz az új hozzászólást tartalmazó témába, mindazonáltal újabb figyelmeztetést nem fogsz kapni, míg meg nem látogatod a fórumot.
+Ezt az e-mailt azÃ©rt kapod, mert a "{SITENAME}" oldalon, a "{FORUM_NAME}" fÃ³rum figyelÃ©sÃ©t kÃ©rted. Ebbe a fÃ³rumba, legutÃ³bbi lÃ¡togatÃ¡sod Ã³ta Ãºj hozzÃ¡szÃ³lÃ¡s Ã©rkezett, a "{TOPIC_TITLE}" tÃ©mÃ¡ba. A kÃ¶vetkezÅ‘ linkre kattintva eljuthatsz az Ãºj hozzÃ¡szÃ³lÃ¡st tartalmazÃ³ tÃ©mÃ¡ba, mindazonÃ¡ltal Ãºjabb Ã©rtesÃ­tÃ©st nem fogsz kapni, mÃ­g meg nem lÃ¡togatod a fÃ³rumot.
 
 {U_NEWEST_POST}
 
-Amennyiben a továbbiakban nem szándékozol figyelni a fórumot, kattints a "Leiratkozás a fórumról" linkre, melyet a fenti oldalon találsz, vagy egyszerûen kattints a következõ linkre:
+Amennyiben a tovÃ¡bbiakban nem kÃ­vÃ¡nod figyelni a fÃ³rumot, kattints a "LeiratkozÃ¡s a fÃ³rumrÃ³l" linkre, melyet a fenti oldalon talÃ¡lsz, vagy egyszerÅ±en kattints a kÃ¶vetkezÅ‘ linkre:
 
 {U_STOP_WATCHING_FORUM}
 

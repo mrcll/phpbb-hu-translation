@@ -1,10 +1,10 @@
-Subject: Hozzászólásod elutasításra került - "{POST_SUBJECT}"
+Subject: HozzÃ¡szÃ³lÃ¡sod elutasÃ­tÃ¡sra kerÃ¼lt - "{POST_SUBJECT}"
 
-Üdvözlünk {USERNAME},
+Kedves {USERNAME}!
 
-Ezt az üzenetet azért kapod, mert a hozzászólásod, melynek témája "{POST_SUBJECT}" a "{SITENAME}" oldalon elutasításra került egy adminisztrátor vagy moderátor által.
+Ezt az Ã¼zenetet azÃ©rt kapod, mert a "{POST_SUBJECT}" tÃ©mÃ¡jÃº hozzÃ¡szÃ³lÃ¡sod a "{SITENAME}" oldalon elutasÃ­tÃ¡sra kerÃ¼lt egy adminisztrÃ¡tor vagy egy moderÃ¡tor Ã¡ltal.
 
-Az elutasításra a következõ az indok:
+Az elutasÃ­tÃ¡sra a kÃ¶vetkezÅ‘ az indok:
 
 {REASON}
 

@@ -1,19 +1,19 @@
-Subject: Üdvözlünk a "{SITENAME}" oldal - {U_BOARD} fórumán!
+Subject: ÃœdvÃ¶zlÃ¼nk a "{SITENAME}" fÃ³rumon ({U_BOARD})!
 
 {WELCOME_MSG}
 
-Kérünk, tartsd meg ezt az üzenetet a továbbiakban. A felhasználói fiókod adatai a következõek:
+KÃ©rÃ¼nk, tartsd meg ezt az Ã¼zenetet a tovÃ¡bbiakban. Az azonosÃ­tÃ³d adatai a kÃ¶vetkezÅ‘ek:
 
 ----------------------------
-Felhasználónév: {USERNAME}
+FelhasznÃ¡lÃ³nÃ©v: {USERNAME}
 ----------------------------
 
-A jelszavad titkosítva tárolja az adatbázis. Amennyiben megfeledkezel róla, újat kérhetsz, de azt ugyanilyan módon ismét aktiválnod kell majd..
+A jelszavad titkosÃ­tva kerÃ¼lt eltÃ¡rolÃ¡sra az adatbÃ¡zisban. Amennyiben megfeledkezel rÃ³la, Ãºjat kÃ©rhetsz, de azt ugyanilyan mÃ³don ismÃ©t aktivÃ¡lnod kell majd.
 
-A felhasználói fiókodat a következõ linkre kattintva aktiválhatod:
+Az azonosÃ­tÃ³d a kÃ¶vetkezÅ‘ linkre kattintva aktivÃ¡lhatod:
 
 {U_ACTIVATE}
 
-Köszönjük a rgisztrációt.
+KÃ¶szÃ¶njÃ¼k, hogy regisztrÃ¡ltÃ¡l!
 
 {EMAIL_SIG}

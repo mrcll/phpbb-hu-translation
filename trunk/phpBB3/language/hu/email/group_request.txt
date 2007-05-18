@@ -1,9 +1,9 @@
-Subject: Csoportodhoz csatlakoz·s kÈrÈse
+Subject: Csoportodhoz val√≥ csatlakoz√°si k√©relem
 
-Kedves {USERNAME},
+Kedves {USERNAME}!
 
-Egy felhaszn·lÛ jelezte, hogy csatlakozna a "{GROUP_NAME}" csoporthoz, melyet te moder·lsz a "{SITENAME}" oldalon.
-Hogy elfogadd, vagy elutasÌtsd a csatlakoz·si kÈrelmet, l·togass el a kˆvetkezı oldalra:
+Egy felhaszn√°l√≥ jelezte, hogy csatlakozni szeretne a "{SITENAME}" oldalon a "{GROUP_NAME}" csoporthoz, melynek te vagy a vezet≈ëje.
+A csatlakoz√°si k√©relem elfogad√°s√°hoz, l√°togass el a k√∂vetkez≈ë oldalra:
 
 {U_PENDING}
 

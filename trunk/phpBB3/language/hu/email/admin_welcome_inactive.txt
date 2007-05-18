@@ -1,18 +1,18 @@
-Subject: Regisztráció a "{SITENAME}" oldal {U_BOARD} fórumán.
+Subject: Köszönjük, hogy regisztráltál!
 
 {WELCOME_MSG}
 
-Õrizd meg ezt az e-mailt, mert elképzelhetõ, hogy a késõbbiekben szükséged lesz rá. A fórumhoz tartozó azonosító információi:
+Õrizd meg ezt az e-mailt, mert elképzelhetõ, hogy a késõbbiekben szükséged lesz rá. A fórumon létrehozott azonosító információi:
 
 ----------------------------
 Felhasználónév: {USERNAME}
 Jelszó: {PASSWORD}
 ----------------------------
 
-Az felhasználói azonosítód jelenleg inaktív, használatba vétele elõtt a fórum adminisztrátorának aktiválnia kell. Egy e-mail értesítõt fogsz errõl kapni, amint megtörtént.
+A felhasználói azonosítód jelenleg inaktív, használatba vétele elõtt a fórum adminisztrátorának aktiválnia kell. Amint megtörtént, egy másik értesítõt fogsz errõl kapni e-mailben.
 
 A jelszót ne felejtsd el, mert az adatbázisunkban kódolva szerepel, így nincs mód a késõbbiekben a kiderítésére. Ha esetleg mégis elfelejtenéd, akkor a belépési oldalon új jelszót kell igényelned, amelyet hasonlóképpen aktiválni kell használat elõtt, mint most.
 
-Köszönjük a regisztrációt!
+Köszönjük, hogy regisztráltál!
 
 {EMAIL_SIG}

@@ -1,7 +1,7 @@
-Subject: A felhasználói fiókod inaktíválták
+Subject: DeaktivÃ¡ltÃ¡k az azonosÃ­tÃ³d
 
-Üdvözlünk {USERNAME},
+Kedves {USERNAME}!
 
-Felhasználói fiókod a "{SITENAME}" oldalon deaktiválásra került, valószínûleg a profilodban történt változások miatt. Ahhoz, hogy újra aktív legyen a fiókod,egy adminisztrátornak aktiválnia kell azt. Egy újabb üzenetet fogsz errõl a tényrõl kapni, milyest az bekövetkezik.
+Az azonosÃ­tÃ³d a "{SITENAME}" oldalon deaktivÃ¡lÃ¡sra kerÃ¼lt, valÃ³szÃ­nÅ±leg a profilodban tÃ¶rtÃ©nt vÃ¡ltozÃ¡sok miatt. Ahhoz, hogy Ãºjra aktÃ­v legyen, egy adminisztrÃ¡tornak aktivÃ¡lnia kell azt. Amint ez megtÃ¶rtÃ©nik, kÃ¼ldÃ¼nk egy Ãºjabb Ã©rtesÃ­tÃ©st.
 
 {EMAIL_SIG}

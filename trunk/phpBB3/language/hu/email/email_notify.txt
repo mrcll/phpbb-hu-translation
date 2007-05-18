@@ -1,14 +1,14 @@
-Subject: "{SITENAME}" - E-mail a barátodtól.
+Subject: "{SITENAME}" - e-mail egy barÃ¡todtÃ³l
 
-Üdvözlünk, {USERNAME}!
+Kedves {USERNAME}!
 
-Ezt az e-mailt a "{SITENAME}" fórumról {FROM_USERNAME} küldte neked, mert azt gondolta, a következõ téma érdekelni fog: {TOPIC_NAME}
+Ezt az e-mailt a "{SITENAME}" fÃ³rumrÃ³l {FROM_USERNAME} kÃ¼ldte neked, mert azt gondolta, a kÃ¶vetkezÅ‘ tÃ©ma Ã©rdekelni fog: {TOPIC_NAME}
 
-A következõ linkre kattintva megtnézheted a témát:
+A kÃ¶vetkezÅ‘ linkre kattintva megtekintheted a tÃ©mÃ¡t:
 
 {U_TOPIC}
 
-{FROM_USERNAME} kommentárt is fûzött a levélhez, amit alább olvashatsz. Kérjük, vedd figyelembe, hogy a következõ üznetetet nem látta a fórum adminisztrátora. Ha problémát jelent számodra ezen üzenet tartalma, lépj kapcsolatba a fórum adminisztrátorával a következõ címen: {BOARD_CONTACT}. Amennyiben kapcsolatba lépsz, kérjük, idézd ezt az e-mailt is, különös tekintettel a fejlécre.
+{FROM_USERNAME} lehet, hogy megjegyzÃ©st is fÅ±zÃ¶tt a levÃ©lhez, amit alÃ¡bb olvashatsz. KÃ©rjÃ¼k, vedd figyelembe, hogy a kÃ¶vetkezÅ‘ Ã¼znetetet nem lÃ¡tta a fÃ³rum adminisztrÃ¡tora. Ha problÃ©mÃ¡t jelent szÃ¡modra ezen Ã¼zenet tartalma, lÃ©pj kapcsolatba a fÃ³rum adminisztrÃ¡torÃ¡val a kÃ¶vetkezÅ‘ cÃ­men: {BOARD_CONTACT}. Amennyiben kapcsolatba lÃ©psz, kÃ©rjÃ¼k, idÃ©zd ezt az e-mailt is, kÃ¼lÃ¶nÃ¶s tekintettel a fejlÃ©cre.
 
 ----------
 

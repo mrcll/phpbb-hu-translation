@@ -1,7 +1,7 @@
-Subject: Jelentés lezárva - "{POST_SUBJECT}"
+Subject: JelentÃ©s lezÃ¡rva - "{POST_SUBJECT}"
 
-Üdvözlünk {USERNAME},
+Kedves {USERNAME}!
 
-Ezt az üzenetet azért kapod, mert a, "{SITENAME}" oldalon, a "{POST_SUBJECT}" hozzászólást a "{TOPIC_TITLE} topicban jelnetetted az adminisztrátorok és moderátorok felé. A jelentésed kezeése befejezõdött, s ezzel lezárult. Amennyiben további kérdéseid vannak, felteheted õket a topik bezárójának, aki nem más, mint {CLOSER_NAME}, privát üzenetben.
+Ezt az Ã¼zenetet azÃ©rt kapod, mert a "{SITENAME}" oldalon, a "{POST_SUBJECT}" hozzÃ¡szÃ³lÃ¡st a "{TOPIC_TITLE} tÃ©mÃ¡ban jelentetted az adminisztrÃ¡torok Ã©s moderÃ¡torok felÃ©. A jelentÃ©sed kezelÃ©se befejezÅ‘dÃ¶tt, s ezzel lezÃ¡rult. Amennyiben tovÃ¡bbi kÃ©rdÃ©seid vannak, lÃ©pj kapcsolatba a jelentÃ©s lezÃ¡rÃ³jÃ¡val: {CLOSER_NAME}, privÃ¡t Ã¼zenetben.
 
 {EMAIL_SIG}

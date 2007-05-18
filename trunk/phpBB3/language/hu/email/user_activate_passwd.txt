@@ -1,17 +1,17 @@
-Subject: Új jelszó aktiválás
+Subject: Ãšj jelszÃ³ aktivÃ¡lÃ¡sa
 
-Üdvözlünk {USERNAME}
+Kedves {USERNAME}!
 
-Azért kapod ezt az üzenetet, mert te (vagy avalki, a te nevedben) új jelszót kért a "{SITENAME}" oldalon levõ felhasználói fiókodhoz. Amennyiben nem te kérted ezt az üzenetet, úgy hagyd figyelmen kívül. Amennyiben továbbra is hasonlókat kapsz, vedd fel a kapcsolatot az oldal adminisztrátorával.
+AzÃ©rt kapod ezt az Ã¼zenetet, mert te (vagy valaki a te nevedben) Ãºj jelszÃ³t kÃ©rt a "{SITENAME}" oldalon levÅ‘ azonosÃ­tÃ³dhoz. Ha nem te kÃ©rted ezt az Ã¼zenetet, Ãºgy hagyd figyelmen kÃ­vÃ¼l. Amennyiben tovÃ¡bbra is hasonlÃ³kat kapsz, vedd fel a kapcsolatot az oldal adminisztrÃ¡torÃ¡val.
 
-Ahhoz, hogy használni tudd az új jelszót, aktiválod kell, ehhez kattints az alábbi linkre.
+Ahhoz, hogy hasznÃ¡lni tudd az Ãºj jelszÃ³t, aktivÃ¡lod kell, ehhez kattints az alÃ¡bbi linkre.
 
 {U_ACTIVATE}
 
-Siker esetén már csak az új jelszavaddal tudod használni a felhasználói fiókod.
+Ha ez sikeres volt, az alÃ¡bbi jelszÃ³val tudsz majd belÃ©pni:
 
-Jelszavad: {PASSWORD}
+JelszÃ³: {PASSWORD}
 
-Természetesen ezt a jelszót meg tudod változtatni a profilodban. Amennyiben bármiféle problémád adódik, vedd fel a kapcsolatot az oldal adminisztrátorával.
+TermÃ©szetesen ezt a jelszÃ³t meg tudod vÃ¡ltoztatni a profilodban. Amennyiben bÃ¡rmifÃ©le problÃ©mÃ¡d adÃ³dik, vedd fel a kapcsolatot az oldal adminisztrÃ¡torÃ¡val.
 
 {EMAIL_SIG}

@@ -1,9 +1,9 @@
-Subject: Kérésed elfogadásra került
+Subject: KÃ©relmed elfogadÃ¡sra kerÃ¼lt
 
-Gratulálunk,
+GratulÃ¡lunk!
 
-Csatlakozási kérelmed a "{GROUP_NAME}" csoportba a "{SITENAME}" oldalon elfogadásra került.
-Kattints a következõ linke, hogy megtekintsd a csoporttagságod részleteit.
+A csatlakozÃ¡si kÃ©relmed a "{SITENAME}" oldalon a "{GROUP_NAME}" csoportba elfogadÃ¡sra kerÃ¼lt.
+Kattints a kÃ¶vetkezÅ‘ linke, hogy megtekintsd a csoporttagsÃ¡god rÃ©szleteit.
 
 {U_GROUP}
 

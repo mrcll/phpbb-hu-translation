@@ -1,13 +1,13 @@
-Subject: Hozzászólásod elfogadásra került - "{POST_SUBJECT}"
+Subject: HozzÃ¡szÃ³lÃ¡sod elfogadÃ¡sra kerÃ¼lt - "{POST_SUBJECT}"
 
-Üdvözlünk {USERNAME},
+Kedves {USERNAME}!
 
-Ezt az üzenetet azért kapod, mert a hozzászólásod, melynek témája "{POST_SUBJECT}" a "{SITENAME}" oldalon elfogadásra került egy adminisztrátor vagy moderátor által.
+Ezt az Ã¼zenetet azÃ©rt kapod, mert a "{POST_SUBJECT}" tÃ©mÃ¡jÃº hozzÃ¡szÃ³lÃ¡sod a "{SITENAME}" oldalon elfogadÃ¡sra kerÃ¼lt egy adminisztrÃ¡tor vagy egy moderÃ¡tor Ã¡ltal.
 
-Amennyiben meg szeretnéd nézni a hozzászólást, kattints a következõ linkre:
+Amennyiben meg szeretnÃ©d tekinteni a hozzÃ¡szÃ³lÃ¡st, kattints a kÃ¶vetkezÅ‘ linkre:
 {U_VIEW_POST}
 
-Amennyiben a topikot, melybe írtál szeretnéd megnézni, kattints a következõ linkre:
+Amennyiben meg szeretnÃ©d tekinteni a tÃ©mÃ¡t, melyhez hozzÃ¡szÃ³ltÃ¡l, kattints a kÃ¶vetkezÅ‘ linkre:
 {U_VIEW_TOPIC}
 
 
