@@ -2,7 +2,7 @@ Subject: Üdvözlünk a "{SITENAME}" fórumon ({U_BOARD})!
 
 {WELCOME_MSG}
 
-Kérjük, tartsd meg ezt az üzenetet. Az azonosítód adatai a következőek:
+Kérünk, tartsd meg ezt az üzenetet. Az azonosítód adatai a következőek:
 
 ----------------------------
 Felhasználónév: {USERNAME}

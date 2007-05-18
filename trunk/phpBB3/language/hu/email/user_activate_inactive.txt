@@ -1,4 +1,4 @@
-Subject: Deaktiválták az azonosítód
+Subject: Deaktivált azonosító
 
 Kedves {USERNAME}!
 
