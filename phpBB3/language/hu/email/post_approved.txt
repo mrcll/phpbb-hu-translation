@@ -1,8 +1,8 @@
-Subject: Hozzászólásod elfogadásra került - "{POST_SUBJECT}"
+Subject: Hozzászólásod jóváhagyásra került - "{POST_SUBJECT}"
 
 Kedves {USERNAME}!
 
-Ezt az üzenetet azért kapod, mert a "{POST_SUBJECT}" témájú hozzászólásod a "{SITENAME}" oldalon elfogadásra került egy adminisztrátor vagy egy moderátor által.
+Ezt az üzenetet azért kapod, mert a "{POST_SUBJECT}" témájú hozzászólásod a "{SITENAME}" oldalon jóváhagyásra került egy adminisztrátor vagy egy moderátor által.
 
 Amennyiben meg szeretnéd tekinteni a hozzászólást, kattints a következő linkre:
 {U_VIEW_POST}

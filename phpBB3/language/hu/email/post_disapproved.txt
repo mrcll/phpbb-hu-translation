@@ -4,7 +4,7 @@ Kedves {USERNAME}!
 
 Ezt az üzenetet azért kapod, mert a "{POST_SUBJECT}" témájú hozzászólásod a "{SITENAME}" oldalon elutasításra került egy adminisztrátor vagy egy moderátor által.
 
-Az elutasításra a következő az indok:
+Az elutasítás indoka a következő:
 
 {REASON}
 
