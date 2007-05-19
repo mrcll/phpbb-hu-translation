@@ -4,7 +4,7 @@
 * memberlist [Hungarian]
 *
 * @package language
-* @version $Id: memberlist.php,v 1.6 2007-03-16 10:25:23 fberci Exp $
+* @version $Id: memberlist.php,v 1.7 2007-05-19 13:43:36 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -69,7 +69,7 @@ $lang = array_merge($lang, array(
 	'IM_DOWNLOAD_APP'		=> 'Alkalmazás letöltése',
 	'IM_ICQ'				=> 'Kérjük vedd figyelembe, hogy a felhasználók lehet, hogy beállították, hogy ne kapjanak kéretlen üzeneteket.', //? hogy...
 	'IM_JABBER'				=> 'Kérjük vedd figyelembe, hogy a felhasználók lehet, hogy beállították, hogy ne kapjanak kéretlen üzeneteket.',
-	'IM_JABBER_SUBJECT'		=> 'Ez egy automatikus üzenet, kérjük ne válaszolj! Üzenet %1$s felhasználótól %2$s-kor',
+	'IM_JABBER_SUBJECT'		=> 'Ez egy automatikus üzenet, kérjük ne válaszolj! Üzenet %1$s felhasználótól %2$s-kor.',
 	'IM_MESSAGE'			=> 'Az üzeneted',
 	'IM_MSNM'				=> 'Kérjük vedd figyelembe, hogy ennek használatához szükséged van a Windows Messenger programra.', //?
 	'IM_MSNM_BROWSER'		=> 'Sajnos a böngésződ nem támogatja ezt.',
@@ -110,8 +110,13 @@ $lang = array_merge($lang, array(
 	'SEARCH_USER_POSTS'		=> 'Felhasználó hozzászólásainak megtekintése', //? elvileg keresés
 	'SELECT_MARKED'			=> 'Kijelöltek kiválasztása',
 	'SELECT_SORT_METHOD'	=> 'Rendezés',
+	'SEND_AIM_MESSAGE'		=> 'AIM üzenet küldése',
+	'SEND_ICQ_MESSAGE'		=> 'ICQ üzenet küldése',
 	'SEND_IM'				=> 'Azonnali üzenetküldés', //?
+	'SEND_JABBER_MESSAGE'	=> 'Jabber üzenet küldése',
 	'SEND_MESSAGE'			=> 'Üzenet küldése',
+	'SEND_MSNM_MESSAGE'		=> 'MSNM/WLM üzenet küldése',
+	'SEND_YIM_MESSAGE'		=> 'YIM üzenet küldése',
 	'SORT_EMAIL'			=> 'E-mail',
 	'SORT_LAST_ACTIVE'		=> 'Utolsó aktivitás időpontja', //?
 	'SORT_POST_COUNT'		=> 'Hozzászólások száma',

@@ -4,7 +4,7 @@
 * viewforum [Hungarian]
 *
 * @package language
-* @version $Id: viewforum.php,v 1.4 2007-02-16 17:47:46 fberci Exp $
+* @version $Id: viewforum.php,v 1.5 2007-05-19 13:43:36 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -42,7 +42,6 @@ $lang = array_merge($lang, array(
 	'LOGIN_NOTIFY_FORUM'	=> 'Értesítést kaptál erről a fórumról. Lépj be, hogy megtekinthesd.', //? "You have been notified about this forum, please login to view it."
 
 	'MARK_TOPICS_READ'		=> 'Témák megjelölése olvasottként',
-	'MOVED_TOPIC'			=> 'Áthelyezett téma', //? Árnyék?
 
 	'NEW_POSTS_HOT'			=> 'Új hozzászólások [ népszerű ]', //? zárójelek?
 	'NEW_POSTS_LOCKED'		=> 'Új hozzászólások [ lezárt ]',
@@ -52,7 +51,7 @@ $lang = array_merge($lang, array(
 
 	'POST_FORUM_LOCKED'		=> 'A fórum le van zárva.',
 
-	'TOPICS_MARKED'			=> 'A fórumbeli témákat sikeresen megjelöltük olvasottként.', //? Itt jobb lenne a megjelölted (vagy bármi más), de ez akkor nem illeszkedne a többihez
+	'TOPICS_MARKED'			=> 'A fórum témáit sikeresen megjelöltük olvasottként.', //? Itt jobb lenne a megjelölted (vagy bármi más), de ez akkor nem illeszkedne a többihez
 
 	'VIEW_FORUM'			=> 'Fórum megtekintése',
 	'VIEW_FORUM_TOPIC'		=> '1 téma',

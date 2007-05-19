@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.37 2007-05-14 20:48:09 fberci Exp $
+* @version $Id: common.php,v 1.38 2007-05-19 13:43:36 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -45,10 +45,11 @@ $lang = array_merge($lang, array(
 	'7_DAYS'		=> '7 nap',
 
 	'ACCOUNT_ALREADY_ACTIVATED'		=> 'Az azonosítód már aktiváltuk.',
+	'ACCOUNT_DEACTIVATED'			=> 'Az azonosítód kézzel deaktiválásra került, csak egy adminisztrátor tudja újraaktiválni.',
 	'ACCOUNT_NOT_ACTIVATED'			=> 'Az azonosítód még nem aktiváltuk.',
 	'ACP'							=> 'Adminisztrátori vezérlőpult',
 	'ACTIVE'						=> 'aktív',
-	'ACTIVE_ERROR'					=> 'Inaktív felhasználónevet adtál meg. Kérjük aktiváld az azonosítód, és próbálkozz újra. Ha továbbra is gondjaid lennének, lépj kapcsolatba az adminisztrátorral.',
+	'ACTIVE_ERROR'					=> 'A megadott felhasználónév jelenleg inkatív. Ha problémáid akadnának az azonosítód aktiválásával, lépj kapcsolatba a fórum adminisztrátorával.',
 	'ADMINISTRATOR'					=> 'Adminisztrátor',
 	'ADMINISTRATORS'				=> 'Adminisztrátorok',
 	'AGE'							=> 'Kor',
@@ -65,10 +66,12 @@ $lang = array_merge($lang, array(
 	'ARE_WATCHING_TOPIC'			=> 'Sikeresen feliratkoztál erre a témára.',
 	'ASCENDING'						=> 'Növekvő',
 	'ATTACHMENTS'					=> 'Csatolmányok',
+	'ATTACHED_IMAGE_NOT_IMAGE'		=> 'A csatolni próbált képállomány hibás.',
 	'AUTHOR'						=> 'Szerző',
 	'AUTH_NO_PROFILE_CREATED'		=> 'Nem sikerült létrezhoni a felhasználói profilt.',
-	'AVATAR_DISALLOWED_EXTENSION'	=> 'A %s kiterjesztés nem engedélyezett.',
-	'AVATAR_EMPTY_REMOTE_DATA'		=> 'Nem sikerült feltölteni az avatart, a külső forrás hibás.',
+	'AVATAR_DISALLOWED_EXTENSION'	=> 'Az állományt nem lehet megjeleníteni, mivel a <strong>%s</strong> kiterjesztés nem engedélyezett.',
+	'AVATAR_EMPTY_REMOTE_DATA'		=> 'Nem sikerült feltölteni az avatart, mivel a külső forrás hibásnak tűnik.',
+	'AVATAR_EMPTY_FILEUPLOAD'		=> 'A feltöltött avatar állomány üres.',
 	'AVATAR_INVALID_FILENAME'		=> 'Hibás állománynév: %s',
 	'AVATAR_NOT_UPLOADED'			=> 'Nem sikerült feltölteni az avatart.',
 	'AVATAR_NO_SIZE'				=> 'Nem sikerült meghatározni a belinkelt avatar szélességét és magasságát, kérjük add meg kézzel.',
@@ -78,7 +81,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_URL_INVALID'			=> 'A megadott URL hibás.',
 	'AVATAR_URL_NOT_FOUND'			=> 'A megadott állomány nem található.',
 	'AVATAR_WRONG_FILESIZE'			=> 'Az avatarnak 0 és %1d %2s között kell lennie.',
-	'AVATAR_WRONG_SIZE'				=> 'Az avatar szélességének %1$d és %3$d pixel között, magasságának %2$d és %4$d pixel között kell lennie. A megadott avatar %5$d pixel széles, és %6$d pixel magas.',
+	'AVATAR_WRONG_SIZE'				=> 'A megadott avatar %5$d pixel széles, és %6$d pixel magas. Az avatar szélességének %1$d és %3$d pixel között, magasságának %2$d és %4$d pixel között kell lennie.',
 
 	'BACK_TO_TOP'			=> 'Vissza a tetejére',
 	'BACK_TO_PREV'			=> 'Vissza az előző oldalra',
@@ -104,9 +107,10 @@ $lang = array_merge($lang, array(
 	'CHANGING_PREFERENCES'	=> 'Fórum beállítások megváltoztatása',
 	'CHANGING_PROFILE'		=> 'Profil megváltoztatása',
 	'CLICK_VIEW_PRIVMSG'	=> '%sBejövő mappa megtekintése%s',
+	'COLLAPSE_VIEW'			=> 'Összecsukott nézet', //? erre is kéne...
 	'CLOSE_WINDOW'			=> 'Ablak bezárása',
 	'COLOUR_SWATCH'			=> 'Szín kiválasztása',
-	'COMMA_SEPARATOR'		=> ', ', // Used in pagination and secret yet-to-be-release style, use localised comma if appropiate, eg: Ideographic or Arabic
+	'COMMA_SEPARATOR'		=> ', ', // Used in pagination of ACP & prosilver, use localised comma if appropriate, eg: Ideographic or Arabic
 	'CONFIRM'				=> 'Megerősítés',
 	'CONFIRM_CODE'			=> 'Megerősítő kód',
 	'CONFIRM_CODE_EXPLAIN'	=> 'Gépeld be a képen látható kódot. A kis- vagy nagybetűk nem számítanak, valamint nincs nulla.',
@@ -137,7 +141,10 @@ $lang = array_merge($lang, array(
 	'DOWNLOADING_FILE'		=> 'Állomány letöltése',
 	'DOWNLOAD_COUNT'		=> '%d alkalommal.',
 	'DOWNLOAD_COUNTS'		=> '%d alkalommal.',
-	'DOWNLOAD_NONE'			=> '0 alkalommal.',
+	'DOWNLOAD_COUNT_NONE'	=> 'Még senki sem töltötte le.',
+	'VIEWED_COUNT'			=> 'Megtekintve %d alkalommal.',
+	'VIEWED_COUNTS'			=> 'Megtekintve %d alkalommal.',
+	'VIEWED_COUNT_NONE'		=> 'Még senki sem tekintette meg.',
 
 	'EDIT_POST'							=> 'Hozzászólás szerkesztése',
 	'EMAIL'								=> 'E-mail',
@@ -148,9 +155,9 @@ $lang = array_merge($lang, array(
 	'ENCLOSURE'							=> 'Körülhatárolójel',
 	'ERR_CHANGING_DIRECTORY'			=> 'Nem sikerült megváltoztatni a könyvtárat.',
 	'ERR_CONNECTING_SERVER'				=> 'Nem sikerült csatlakozni a szerverhez.',
-	'ERR_UNABLE_TO_LOGIN'				=> 'Hiba a belépéskor. Rossz felhasználónév vagy jelszó.',
+	'ERR_UNABLE_TO_LOGIN'				=> 'A megadott felhasználói név vagy jelszó hibás.',
 	'ERR_WRONG_PATH_TO_PHPBB'			=> 'A megadott phpBB elérési útvonal feltehetőleg hibás.',
-	'EXPAND_VIEW'						=> 'Teljes nézet',
+	'EXPAND_VIEW'						=> 'Kinyitott nézet',
 	'EXTENSION'							=> 'Kiterjesztés',
 	'EXTENSION_DISABLED_AFTER_POSTING'	=> 'A <b>%s</b> kiterjesztés deaktiválva lett, ezért a csatolmány nem kerül megjelenítésre.',
 
@@ -176,7 +183,7 @@ $lang = array_merge($lang, array(
 	'FORUM_RULES'			=> 'Fórum szabályok',
 	'FORUM_RULES_LINK'		=> 'Kattints ide a fórum szabályainak megtekintéséhez',
 	'FROM'					=> 'Minta:',
-	'FSOCK_DISABLED'		=> 'Nem sikerült végrehajtani a műveletet, mivel az fsock funkciók nincsenek engedélyezve, vagy az elérni kívánt szerver nem található.',
+	'FSOCK_DISABLED'		=> 'Nem sikerült végrehajtani a műveletet, mivel az <var>fsockopen</var> függvény nincsenek engedélyezve, vagy az elérni kívánt szerver nem található.',
 
 	'FTP_FSOCK_HOST'				=> 'FTP hoszt',
 	'FTP_FSOCK_HOST_EXPLAIN'		=> 'Az oldalad eléréséhez használt FTP kiszolgáló.',
@@ -204,14 +211,14 @@ $lang = array_merge($lang, array(
 	'FTP_USERNAME'				=> 'FTP felhasználónév',
 	'FTP_USERNAME_EXPLAIN'		=> 'A szerverhez való csatlakozáshoz használt felhasználónév.',
 
+	'GENERAL_ERROR'				=> 'Általános hiba',
 	'GO'						=> 'Mehet',
 	'GOTO_PAGE'					=> 'Oldal',
 	'GROUP'						=> 'Csoport',
 	'GROUPS'					=> 'Csoportok',
-	'GROUP_ERR_DESC_LONG'		=> 'A csoport leírása túl hosszú.',
 	'GROUP_ERR_TYPE'			=> 'Helytelen csoport típust adtál meg.',
 	'GROUP_ERR_USERNAME'		=> 'Nem adtad meg a csoport nevét.',
-	'GROUP_ERR_USER_LONG'		=> 'A csoport neve túl hosszú.',
+	'GROUP_ERR_USER_LONG'		=> 'Egy csoport neve legfeljebb 60 karakter hosszú lehet. A megadott csoportnév túl hosszú.',
 	'GUEST'						=> 'Vendég',
 	'GUEST_USERS_ONLINE'		=> '%d vendég van jelen.',
 	'GUEST_USERS_TOTAL'			=> '%d vendég.',
@@ -277,6 +284,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_ERROR_ATTEMPTS'				=> 'Túllépted az engedélyezett belépési kísérletek számát. Ezért a felhasználóneved és a jelszavad mellett most meg kell adnod az alábbi képen látható megerősítő kódot is.',
 	'LOGIN_ERROR_EXTERNAL_AUTH_APACHE'	=> 'Az Apache szervernek nem sikerült azonosítania téged.',
 	'LOGIN_ERROR_PASSWORD'				=> 'Rossz jelszót adtál meg. Ellenőrizd le a jelszavad, majd próbálkozz újra. Ha továbbra is gondjaid lennének, lépj kapcsolatba a %sfórum adminisztrátorával%s.',
+	'LOGIN_ERROR_PASSWORD_CONVERT'		=> 'Nem sikerült átkonvertálni a jelszavad a fórum szoftverének frissítése során. Kérünk %igényelj egy új jelszót%s. Ha továbbra is problémáid lennének, lépj kapcsolatba a %sfórum adminisztrátorával%s.',
 	'LOGIN_ERROR_USERNAME'				=> 'Rossz felhasználónevet adtál meg. Ellenőrizd le a felhasználónevet, majd próbálkozz újra. Ha továbbra is gondjaid lennének, lépj kapcsolatba a %sfórum adminisztrátorával%s.',
 	'LOGIN_FORUM'						=> 'A fórum megtekintéséhez vagy a hozzászóláshoz, meg kell adnod a jelszavát.', //?
 	'LOGIN_INFO'						=> 'A belépéshez regisztrált felhasználónak kell lenned. A regisztráció csupán néhány másodpercet vesz igénybe, de számos előnnyel jár, az adminisztrátor például így tud külön jogosultságokat adni. A belépés előtt győződj meg róla, hogy elfogadod a felhasználási feltételeinket, valamint egyetértesz az adatvédelmi nyilatkozatunkkal. Kérjük olvasd el a fórumok szabályzatát is!',
@@ -293,6 +301,8 @@ $lang = array_merge($lang, array(
 	'MCP'					=> 'Moderátori vezérlőpult',
 	'MEMBERLIST'			=> 'Taglista',
 	'MEMBERLIST_EXPLAIN'	=> 'Felhasználók listájának megtekintése',
+	'MERGE'					=> 'Áthelyezés', //? ezt jelenti
+	'MERGE_POSTS'			=> 'Hozzászólások áthelyezése',
 	'MERGE_TOPIC'			=> 'Téma összevonása',
 	'MESSAGE'				=> 'Üzenet',
 	'MESSAGES'				=> 'üzenet',
@@ -316,17 +326,19 @@ $lang = array_merge($lang, array(
 	'NEXT'						=> 'Következő',
 	'NEVER'						=> 'Soha',
 	'NO'						=> 'Nem',
-	'NOT_ALLOWED_MANAGE_GROUP'	=> 'Nincs jogosultságod a csoport adminisztrátori vezérlőpultról való kezeléséhez.',
-	'NOT_AUTHORIZED'			=> 'Nincs jogosultságod ezen terület eléréséhez.',
+	'NOT_ALLOWED_MANAGE_GROUP'	=> 'Nincs jogosultságod a csoport kezeléséhez.',
+	'NOT_AUTHORISED'			=> 'Nincs jogosultságod hozzáférni ehhez a részhez.',
 	'NOT_WATCHING_FORUM'		=> 'Sikeresen leiratkoztál a fórumról.',
 	'NOT_WATCHING_TOPIC'		=> 'Sikeresen leiratkoztál a témáról.',
+	'NOTIFY_ADMIN'				=> 'Kérjük értesítsd a fórum adminisztrátorát vagy a webmestert.',
+	'NOTIFY_ADMIN_EMAIL'		=> 'Kérjük értesítsd a fórum adminisztrátorát vagy a webmestert: <a href="mailto:%1$s">%1$s</a>',
 	'NO_ACCESS_ATTACHMENT'		=> 'Nincs jogosultságod hozzáférni ehhez az állományhoz.',
 	'NO_ACTION'					=> 'Nincs semmilyen teendő.',
 	'NO_ADMINISTRATORS'			=> 'A fórumnak nincs adminisztrátora.',
-	'NO_AUTH_ADMIN'				=> 'Nincsenek adminisztrátori jogosultságaid, ezért nem férhetsz hozzá az adminisztrátori vezérlőpulthoz.',
+	'NO_AUTH_ADMIN'				=> 'Nem férhetsz hozzá az adminisztrátori vezérlőpulthoz, mivel nincs adminisztrátori jogosultságod.',
 	'NO_AUTH_ADMIN_USER_DIFFER'	=> 'Nem azonosíthatod magad egy másik felhasználóként.',
 	'NO_AUTH_OPERATION'			=> 'Nincs meg a megfelelő jogosultságod ezen művelet elvégzéséhez.',
-	'NO_CONNECT_TO_SMTP_HOST'	=> 'Nem sikerült csatlakozni az SMTP szerverhez: %s : %s',
+	'NO_CONNECT_TO_SMTP_HOST'	=> 'Nem sikerült csatlakozni az SMTP szerverhez: %1$s : %2$s',
 	'NO_BIRTHDAYS'				=> 'Ma senkinek sincs születésnapja.', 
 	'NO_EMAIL_MESSAGE'			=> 'Az e-mail üzenet üres.',
 	'NO_EMAIL_RESPONSE_CODE'	=> 'Nem jött válasz a e-mail szervertől.',
@@ -346,6 +358,7 @@ $lang = array_merge($lang, array(
 	'NO_ONLINE_USERS'			=> 'nincs regisztrált felhasználó',
 	'NO_POSTS'					=> 'Nincsenek hozzászólások',
 	'NO_POSTS_TIME_FRAME'		=> 'Nincsenek a kiválasztott időtartamon belüli hozzászólások a témában.',
+	'NO_SUBJECT'				=> 'Nincs téma',								// Used for posts having no subject defined but displayed within management pages.
 	'NO_SUCH_SEARCH_MODULE'		=> 'A megadott keresési mechanizmus nem létezik.',
 	'NO_SUPPORTED_AUTH_METHODS'	=> 'Nincsen támogatott azonosítási eljárás.',
 	'NO_TOPIC'					=> 'A keresett téma nem létezik.',
@@ -388,9 +401,11 @@ $lang = array_merge($lang, array(
 	'POST_PCT'				=> 'Az összes hozzászólás %.2f%%-a',
 	'POST_PCT_ACTIVE'		=> 'A felhasználó hozzászólásainak %.2f%%-a',
 	'POST_PCT_ACTIVE_OWN'	=> 'A hozzászólásaid %.2f%%-a',
+	'POST_REPLY'			=> 'Hozzászólás küldése',
 	'POST_REPORTED'			=> 'Kattints ide a jelentés megtekintéséhez',
 	'POST_SUBJECT'			=> 'Hozzászólás témája',
 	'POST_TIME'				=> 'Elküldés ideje',
+	'POST_TOPIC'			=> 'Új téma nyitása',
 	'POST_UNAPPROVED'		=> 'A hozzászólás jóváhagyásra vár',
 	'PREVIEW'				=> 'Előnézet',
 	'PREVIOUS'				=> 'Előző',
@@ -549,7 +564,7 @@ $lang = array_merge($lang, array(
 	'TOTAL_LOGS'		=> '%d bejegyzés',
 	'TOTAL_NO_PM'		=> 'Összesen 0 privát üzenet',
 	'TOTAL_PM'			=> 'Összesen 1 privát üzenet',
-	'TOTAL_PMS'			=> 'Összesen $d privát üzenet',
+	'TOTAL_PMS'			=> 'Összesen %d privát üzenet',
 	'TOTAL_POSTS'		=> 'Hozzászólások száma',
 	'TOTAL_POSTS_OTHER'	=> 'Hozzászólások száma: <strong>%d</strong>', 
 	'TOTAL_POSTS_ZERO'	=> 'Hozzászólások száma: <strong>0</strong>',
@@ -560,7 +575,7 @@ $lang = array_merge($lang, array(
 	'TOTAL_USERS_ZERO'	=> 'Felhasználók száma: <strong>0</strong>',
 	'TRACKED_PHP_ERROR'	=> 'PHP hibák: %s',
 
-	'UNABLE_GET_IMAGE_SIZE'	=> 'Nem sikerült hozzáférni a képhez, vagy az állomány valójában nem kép.',
+	'UNABLE_GET_IMAGE_SIZE'	=> 'Nem sikerült meghatározni a kép méretét.',
 	'UNABLE_TO_DELIVER_FILE'=> 'Nem sikerült elküldeni az állományt.',
 	'UNKNOWN_BROWSER'		=> 'Ismeretlen böngésző',
 	'UNMARK_ALL'			=> 'Összes kijelölésének megszüntetése',
@@ -582,6 +597,7 @@ $lang = array_merge($lang, array(
 	'USERS'					=> 'Felhasználók',
 	'USE_PERMISSIONS'		=> 'Felhasználó jogosultságainak kipróbálása',
 
+	'VARIANT_DATE_SEPARATOR'	=> ' / ',	// Used in date format dropdown, eg: "Today, 13:37 / 01 Jan 2007, 13:37" ... to join a relative date with calendar date
 	'VIEWED'					=> 'Megtekintve',
 	'VIEWING_FAQ'				=> 'GyIK megtekintése',
 	'VIEWING_MEMBERS'			=> 'Taglista megtekintése',
@@ -623,6 +639,7 @@ $lang = array_merge($lang, array(
 	'WRONG_DATA_WEBSITE'		=> 'A honlap címének egy rendes URL-nek kell lennie (a protokollal együtt). Például: http://www.pelda.hu/.', //?
 
 	'YEAR'				=> 'év',
+	'YEAR_MONTH_DAY'	=> '(ÉÉÉÉ-HH-NN)',
 	'YES'				=> 'Igen',
 	'YIM'				=> 'YIM',	
 	'YOU_LAST_VISIT'	=> 'Utolsó látogatás: %s',
@@ -668,7 +685,7 @@ $lang = array_merge($lang, array(
 		'Feb'		=> 'feb.',
 		'Mar'		=> 'márc.',
 		'Apr'		=> 'ápr.',
-		'May_short'	=> 'máj.',	// Short representation of "May". May_short used because in english the short and long date are the same for May.
+		'May_short'	=> 'máj.',	// Short representation of "May". May_short used because in English the short and long date are the same for May.
 		'Jun'		=> 'jún.',
 		'Jul'		=> 'júl.',
 		'Aug'		=> 'aug.',
@@ -718,7 +735,7 @@ $lang = array_merge($lang, array(
 		'12.75'	=> 'UTC + 12,75 óra',
 		'13'	=> 'UTC + 13 óra',
 		'14'	=> 'UTC + 14 óra',
-		'dst'	=> '[ NyI ]',
+		'dst'	=> '[ <abbr title="Nyári időszámítás">Nyi</abbr> ]',
 	),
 
 	'tz_zones'	=> array(

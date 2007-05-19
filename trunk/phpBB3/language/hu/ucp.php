@@ -4,7 +4,7 @@
 * ucp [Hungarian]
 *
 * @package language
-* @version $Id: ucp.php,v 1.21 2007-05-14 20:48:10 fberci Exp $
+* @version $Id: ucp.php,v 1.22 2007-05-19 13:43:36 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -53,8 +53,11 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACCOUNT_ACTIVE'				=> 'Az azonosítód aktiválása megtörtént. Köszönjük, hogy regisztráltál.',
 	'ACCOUNT_ACTIVE_ADMIN'			=> 'Az azonosító aktiválása megtörtént.',
+	'ACCOUNT_ACTIVE_PROFILE'		=> 'Az azonosítód sikeresen újraaktiválásra került..',
 	'ACCOUNT_ADDED'					=> 'Köszönjük, hogy regisztráltál, az azonosítód elkészült. Most már beléphetsz a felhasználóneveddel és a jelszavaddal.',
 	'ACCOUNT_COPPA'					=> 'Az azonosítód elkészült, azonban jóváhagyásra vár. További információkért kérjük nézd meg az e-mail fiókod.',
+	'ACCOUNT_EMAIL_CHANGED'			=> 'Az azonosítód beállításai sikeresen frissítésre kerültek, azonban újra kell aktiválnod az azonosítód, mivel megváltoztattad az e-mail címedet. Az akitációs kulcs elküldésre került a megadott új e-mail címre. További információért kérjük nézd meg az e-mail fiókod.',
+	'ACCOUNT_EMAIL_CHANGED_ADMIN'	=> 'Az azonosítód beállításai sikeresen frissítésre kerültek, azonban az adminisztrátornak újra kell aktiválnia az azonosítód, mivel megváltoztattad az e-mail címedet. Az adminisztrátor értesítésre került, és amint újraaktiválja az azonosítód téged is értesítünk.',
 	'ACCOUNT_INACTIVE'				=> 'Az azonosítód elkészült, azonban hogy használni tudd, aktiválnod kell. Az aktivációs kulcsot elküldtük az e-mail címedre. További információkért kérjük nézd meg az e-mail fiókod.',
 	'ACCOUNT_INACTIVE_ADMIN'		=> 'Az azonosítód elkészült, azonban hogy használni tudd, az adminisztrátornak aktiválnia kell. Az adminisztrátort értesítettük, amint aktiválja az azonosítód, értesíteni fogunk.', //? szóismétlés
 	'ACTIVATION_EMAIL_SENT'			=> 'Az aktivációs e-mail sikeresen elküldésre került az e-mail címedre.',
@@ -78,8 +81,9 @@ $lang = array_merge($lang, array(
 	'ATTACHMENT_DELETED'			=> 'A csatolmány sikeresen törlésre került.', //? sikeresen törlésre kerültek??
 	'AVATAR_CATEGORY'				=> 'Kategória',
 	'AVATAR_EXPLAIN'				=> 'Maximális méret: szélesség %1$d pixel, magasság %2$d pixel, állomány mérete %3$d KB.',
+	'AVATAR_FEATURES_DISABLED'		=> 'Az avatarok funkció jelenleg ki van kapcsolva.',
 	'AVATAR_GALLERY'				=> 'Helyi galéria', //?
-	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'Nem sikerült feltölteni az avatart a következő helyre: %s',
+	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'Nem sikerült feltölteni az avatart a következő helyre: %s.',
 	'AVATAR_PAGE'					=> 'Oldal', //?
 
 	'BACK_TO_DRAFTS'			=> 'Vissza az elmentett piszkozatokhoz',
@@ -164,7 +168,7 @@ $lang = array_merge($lang, array(
 	'EXPORT_AS_CSV_EXCEL'		=> 'Kimentés CSV-ként (Excel)',
 	'EXPORT_AS_TXT'				=> 'Kimentés TXT-ként',
 	'EXPORT_AS_MSG'				=> 'Kimentés MSG-ként',
-	'EXPORT_FOLDER'				=> 'Mappa kimentése',
+	'EXPORT_FOLDER'				=> 'Aktuális nézet kimentése', //? kell az aktuális?
 
 	'FIELD_REQUIRED'					=> 'A „%s” mezőt nem hagyhatod üresen.',
 	'FIELD_TOO_SHORT'					=> 'A „%1$s” mező tartalma túl rövid, legalább %2$d karakter hosszúnak kell lennie.',
@@ -177,7 +181,7 @@ $lang = array_merge($lang, array(
 	'FIELD_INVALID_DATE'				=> 'A „%1$s” mező érvénytelen dátumot tartalmaz.',
 
 	'FOE_MESSAGE'				=> 'Üzenet haragostól',
-	'FOES_EXPLAIN'				=> 'A haragosok olyan felhasználók, akik alapból mellőzésre kerülnek. A hozzászólásaik nem teljesen jelennek meg, és nem küldhetnek neked privát üzenetet. Kérjük vedd figyelembe, hogy nem mellőzhetsz egy moderátort vagy egy adminisztrátort.', //? mellőzésre kerülnek :)
+	'FOES_EXPLAIN'				=> 'A haragosok olyan felhasználók, akik alapból mellőzésre kerülnek. A hozzászólásaik nem teljesen jelennek meg, privát üzenetet azonban küldhetnek. Kérjük vedd figyelembe, hogy nem mellőzhetsz egy moderátort vagy egy adminisztrátort.', //? mellőzésre kerülnek :)
 	'FOES_UPDATED'				=> 'A haragosaid listája sikeresen frissítésre került.',
 	'FOLDER_ADDED'				=> 'A mappa sikeresen hozzáadásra került.',
 	'FOLDER_MESSAGE_STATUS'		=> '%1$d / %2$d üzenet', //? "%1$d from %2$d messages stored" - gondolom mennyire van tele
@@ -222,6 +226,7 @@ $lang = array_merge($lang, array(
 	'LINK_REMOTE_SIZE_EXPLAIN'	=> 'Add meg az avatar szélességét és magasságát, vagy hagyd üresen a mezőket, hogy ezeket a fórum automatikusan próbálja meg megállapítani.',
 	'LOGIN_EXPLAIN_UCP'			=> 'A felhasználói vezérlőpult megtekintéséhez be kell jelentkezned.',
 	'LOGIN_REDIRECT'			=> 'Sikeresen beléptél.',
+	'LOGOUT_FAILED'				=> 'Nem kerültél kiléptetésre, mivel a kérés nem felelt meg a munkamenetednek. Ha továbbra is problémáid lennének, kérüünk lépj kapcsolatba a fórum adminisztrátorával.',
 	'LOGOUT_REDIRECT'			=> 'Sikeresen kiléptél.',
 
 	'MARK_IMPORTANT'				=> 'Megjelölés fontosként',
@@ -291,6 +296,7 @@ $lang = array_merge($lang, array(
 	'NO_NEW_FOLDER_NAME'		=> 'Meg kell adnod a mappa új nevét.',
 	'NO_NEWER_PM'				=> 'Nincs újabb üzenet.',
 	'NO_OLDER_PM'				=> 'Nincs régebbi üzenet.',
+	'NO_PASSWORD_SUPPLIED'		=> 'Nem adtad meg a jelszavad.',
 	'NO_RECIPIENT'				=> 'Nem adtál meg címzettet.',
 	'NO_RULES_DEFINED'			=> 'Nincsenek szűrők.',
 	'NO_SAVED_DRAFTS'			=> 'Nincsenek piszkozatok.',
@@ -301,7 +307,7 @@ $lang = array_merge($lang, array(
 	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'A jelszó hosszának %1$d és %2$d karakter között kell lennie, szerepelnie kell benne kis- és nagybetűknek egyaránt, valamint tartalmaznia kell számokat.',
 	'PASS_TYPE_ANY_EXPLAIN'		=> 'A hosszának %1$d és %2$d karakter között kell lennie.', //?
 	'PASS_TYPE_CASE_EXPLAIN'	=> 'A jelszó hosszának %1$d és %2$d karakter között kell lennie, valamint szerepelnie kell benne kis- és nagybetűknek egyaránt.',
-	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'A jelszó hosszának %1$d és %2$d karakter között kell lennie, valamint tartalmaznia kell speciális karaktereket.', //? symbols = speciális karakterek? gondolom...
+	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'A jelszó hosszának %1$d és %2$d karakter között kell lennie, szerepelnie kell benne kis- és nagybetűknek egyaránt, valamint tartalmaznia kell számokat és speciális karaktereket is.', //? symbols = speciális karakterek? gondolom...
 	'PASSWORD'					=> 'Jelszó',
 	'PASSWORD_ACTIVATED'		=> 'Az új jelszavad aktiválásra került.',
 	'PASSWORD_UPDATED'			=> 'A jelszavad elküldésre került az e-mail címedre.',
@@ -312,10 +318,12 @@ $lang = array_merge($lang, array(
 	'PM_FROM_REMOVED_AUTHOR'	=> 'Az üzenetet egy már nem regisztrált felhasználó küldte.',
 	'PM_ICON'					=> 'PÜ ikon',
 	'PM_INBOX'					=> 'Bejövő', //? 'Bejövő üzenetek'?
+	'PM_NO_USERS'				=> 'A hozzáadni kívánt felhasználók nem léteznek.',
 	'PM_OUTBOX'					=> 'Kimenő',
 	'PM_SENTBOX'				=> 'Elküldött',
 	'PM_SUBJECT'				=> 'Téma',
 	'PM_TO'						=> 'Címzett:', //? "send to" - pl. kettőspont?
+	'PM_USERS_REMOVED_NO_PM'	=> 'Nem mindegyik felhasználót sikerült hozzáadni, mivel nem mindenki engedélyezte privát üzenetek fogadását.',
 	'POPUP_ON_PM'				=> 'Felugró ablak új privát üzenet érkezésekor',
 	'POST_EDIT_PM'				=> 'Üzenet szerkesztése',
 	'POST_FORWARD_PM'			=> 'Üzenet továbbítása',
@@ -326,7 +334,7 @@ $lang = array_merge($lang, array(
 	'POST_REPLY_PM'				=> 'Válasz az üzenetre',
 	'PRINT_PM'					=> 'Nyomtatóbarát verzió',
 	'PREFERENCES_UPDATED'		=> 'A beállításaid sikeresen frissítésre kerültek.', //? preferences
-	'PROFILE_INFO_NOTICE'		=> 'Kérjük vedd figyelembe, hogy ezek az információk láthatóak lesznek a többi felhasználó számára. Légy óvatos bármilyen személyes adat megadásánál. A *-gal megjelölt mezők kitöltése kötelező.', //? "Be careful when including any personal details."
+	'PROFILE_INFO_NOTICE'		=> 'Kérjük vedd figyelembe, hogy ezek az információk lehet, hogy láthatóak lesznek a többi felhasználó számára. Légy óvatos bármilyen személyes adat megadásánál. A *-gal megjelölt mezők kitöltése kötelező.', //? "Be careful when including any personal details."
 	'PROFILE_UPDATED'			=> 'A profilod sikeresen frissítésre került.',
 
 	'RECIPIENT'							=> 'Címzett',
@@ -403,7 +411,7 @@ $lang = array_merge($lang, array(
 	'UCP_PM'					=> 'Privát üzenetek',
 	'UCP_PM_COMPOSE'			=> 'Üzenet írása',
 	'UCP_PM_DRAFTS'				=> 'PÜ piszkozatok kezelése',
-	'UCP_PM_OPTIONS'			=> 'Beállítások szerkesztése',
+	'UCP_PM_OPTIONS'			=> 'Szűrők, mappák és beállítások',
 	'UCP_PM_POPUP'				=> 'Privát üzenetek',
 	'UCP_PM_POPUP_TITLE'		=> 'Privát üzenet felugró ablak',
 	'UCP_PM_UNREAD'				=> 'Olvasatlan üzenet',
@@ -439,7 +447,7 @@ $lang = array_merge($lang, array(
 	'USERNAME_LETTER_NUM_SPACERS_EXPLAIN'=> 'A felhasználónév hosszának %1$d és %2$d karakter között kell lennie, valamint csak betűket, számokat, szóközt és -+_[] jeleket tartmazhat.',
 	'USERNAME_CHARS_ANY_EXPLAIN'	=> 'A hosszának %1$d és %2$d karakter között kell lennie.',
 	'USERNAME_TAKEN_USERNAME'		=> 'A megadott felhasználónév már használatban van, kérünk válassz másikat.',
-	'USERNAME_DISALLOWED_USERNAME'	=> 'A megadott felhasználónév le lett tiltva.',
+	'USERNAME_DISALLOWED_USERNAME'	=> 'A megadott felhasználónév le lett tiltva vagy nem engedélyezett szót tartalmaz. Kérünk válassz egy másik nevet.',
 	'USER_NOT_FOUND_OR_INACTIVE'	=> 'A megadott felhasználónévek nem találhatók, vagy még nem aktivált felhsználók.', //?
 
 

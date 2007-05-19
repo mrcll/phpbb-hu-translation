@@ -4,7 +4,7 @@
 * install [Hungarian]
 *
 * @package language
-* @version $Id: install.php,v 1.8 2007-04-09 14:19:05 fberci Exp $
+* @version $Id: install.php,v 1.9 2007-05-19 13:43:36 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -167,7 +167,7 @@ $lang = array_merge($lang, array(
 	'FTP_CONFIG'				=> 'Konfiguráció átvitele FTP-n',
 	'FTP_CONFIG_EXPLAIN'		=> 'A phpBB észrevette az FTP modul elérhetőségét a szerveren. Megpróbálhatod így átmásolni a config.php-t. Ehhez meg kell adnod az alábbi információkat. Ne feledkezz meg róla, hogy ez a felhasználónév és jelszó a szerverhez tartozik! (Ha nem vagy biztos benne mik ezek, kérdezd meg a hoszting szolgáltatódat.)', //? "phpBB has detected the presence of the FTP module on this server. You may attempt to install your config.php via this if you wish. You will need to supply the information listed below. Remember your username and password are those to your server! (ask your hosting provider for details if you are unsure what these are)" létrehozni/átmásolni + fogalmazás
 	'FTP_PATH'					=> 'FTP elérési út',
-	'FTP_PATH_EXPLAIN'			=> 'Az elérési út a gyökérkönyvtáradtól a phpBB-hez, pl. htdocs/phpBB3/.',
+	'FTP_PATH_EXPLAIN'			=> 'Az elérési út a gyökérkönyvtáradtól a phpBB-hez, pl. <samp>htdocs/phpBB3/</samp>.',
 	'FTP_UPLOAD'				=> 'Feltöltés',
 
 	'GPL'						=> 'Általános Nyilvános Licenc', //? "General Public License" maradjon az eredeti angol (még nem igazán találkoztam a magyar megfelelőjével)?
@@ -182,13 +182,28 @@ $lang = array_merge($lang, array(
 		<h2>phpBB3 használatva vétele</h2>
 		<p>Az alábbi gombra kattintva az adminisztrátori vezérlőpultra jutsz. Szánj rá egy kis időt, és vizsgáld meg a beállítási lehetőségeket. Ne feledkezz meg róla, hogy a phpBB-vel kapcsolatban segítséget nyújt az angol <a href="http://www.phpbb.com/support/documentation/3.0/">Felhasználói kézikönyv</a> és a <a href="http://www.phpbb.com/phpBB/viewforum.php?f=46">phpbb.com megfelelő fóruma</a>; további információkat a <a href="%3$s">README</a>-ben találsz.</p><p><strong>Most kérjük töröld, helyezd át, vagy nevezd át az install könyvtárat, mert amíg ez a könyvtár létezik, csak az adminisztrátori vezérlőpult lesz elérhető.</strong></p>', //? teljes átfogalmazás... TODO (béta)
 	'INSTALL_INTRO'				=> 'Üdvözlünk a telepítőben', //? "Welcome to Installation" 'Üdvözlünk a telepítésnél'
-	'INSTALL_INTRO_BODY'		=> 'Ezen menüpont segítségével feltelepítheted a phpBB-t a szerveredre.</p><p>A folytatás során szükséged lesz a következő információkra:</p>
+	'INSTALL_INTRO_BODY'		=> 'Ezen menüpont segítségével feltelepítheted a phpBB-t a szerveredre.</p><p>A folytatás során szükséged lesz az adatbázis adatokra. Ha nem simered ezeket, lépj kapcsolatba a tárhelyszolgáltatóddal, és tájékozódj róluk. Ezen adatok nélkül nem tudsz továbblépni. A következőkre lesz szükséged:</p>
 	<ul>
-	<li>az adatbázisszerver hosztnevére,</li>
-	<li>az adatbázis nevére,</li>
-	<li>az adatbázis-felhasználónévre és az ehhez tartozó jelszóra.</li>
+		<li>az adatbázis típusára – milyen adatbázisrendszert fogsz használni;</li>
+		<li>az adatbázisszerver hosztnevére vagy DSN-jére – az adatbázisszerver címe, elérhetősége;</li>
+		<li>az adatbázisszerver portjára – milyen porton lehet csatlakozni az adatbázisszerverhez (az esetek nagy többségében ez nem szükséges);</li>
+		<li>az adatbázis nevére – az adatbázis neve a szerveren;</li>
+		<li>az adatbázis-felhasználónévre és az ehhez tartozó jelszóra – a kapcsolódáshoz szükséges adatok;</li>
 	</ul>
-	<p>További bevezető szöveg…', //? TODO fogalmazás menüpont???
+
+	<p><strong>Megjegyzés:</strong> ha SQLite-ot használsz, a DSN mezőben a teljes elérési utat add meg az adatbázishoz, valamint hagyd a felhasználónév és a jelszó mezőt üresen. Biztonsági szempontból fontos, hogy az adatbázis-állomány ne egy webről elérhető könyvtárban legyen tárolva.</p>
+
+	<p>A phpBB3 a következő adatbázisrendszereket támogatja:</p>
+	<ul>
+		<li>MySQL 3.23 vagy újabb (MySQLi is támogatott)</li>
+		<li>PostgreSQL 7.3+</li>
+		<li>SQLite 2.8.2+</li>
+		<li>Firebird 2.0+</li>
+		<li>MS SQL Server 2000 vagy újabb (közvetlenül ODBC-n keresztül)</li>
+		<li>Oracle</li>
+	</ul>
+
+	<p>A választásnál csak a szerver által támogatott adatbázisok kerülnek majd megjelenítésre.', //? TODO fogalmazás: menüpont???
 	'INSTALL_INTRO_NEXT'		=> 'A telepítés megkezdéséhez nyomd meg az alábbi gombot.',
 	'INSTALL_LOGIN'				=> 'Belépés',
 	'INSTALL_NEXT'				=> 'Következő lépés', //? stage =! lépés
@@ -202,7 +217,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_CONNECT'		=> 'Nem sikerült csatlakozni az adatbázishoz. A hibaüzenetet lásd alább.', //? a második mondat kell?
 	'INST_ERR_DB_FORUM_PATH'	=> 'A megadott adatbázis-állomány a fórum könyvtárán belül van. Ezt az állományt egy webről nem elérhető könyvtárba kell raknod.', //? "The database file specified is within your forum directory tree. You should put this file in a non web-accessible location" könyvtárfáján belül?
 	'INST_ERR_DB_NO_ERROR'		=> 'Nincs hibaüzenet.',
-	'INST_ERR_DB_NO_MYSQLI'		=> 'A szerveren lévő MySQL nem kompatibilis a kiválasztott „MySQL MySQLi kiterjesztéssel” csatolakozási móddal. Kérjük a „MySQL”-t válaszd ki.', //?
+	'INST_ERR_DB_NO_MYSQLI'		=> 'A szerveren lévő MySQL nem kompatibilis a kiválasztott „MySQL MySQLi kiterjesztéssel” csatlakozási móddal. Kérjük a „MySQL”-t válaszd ki.', //?
 	'INST_ERR_DB_NO_SQLITE'		=> 'Az SQLite kiterjesztés verziója túl régi, frissíteni kell legalább a 2.8.2-es verzióra.',
 	'INST_ERR_DB_NO_ORACLE'		=> 'A szerveren lévő Oracle verziója megköveteli, hogy a <var>NLS_CHARACTERSET</var> paraméter <var>UTF8</var>-ra legyen állítva. Frissítsd az Oracle verzióját legalább 9.2-esre, vagy változtasd meg a paraméter értékét.',
 	'INST_ERR_DB_NO_FIREBIRD'	=> 'A szerveren lévő Firebird verziója régebbi, mint 2.0, kérünk frissíts egy újabb verzióra. ', //? régebbi, mint 2.0??
@@ -251,10 +266,12 @@ $lang = array_merge($lang, array(
 	'NO_LOCATION'				=> 'Nem sikerült meghatározni a helyét. Ha tudod, hogy az Imagemagick telepítve van, később megadhatod az elérési helyét az adminisztrátori vezérlőpultban.', //? elérési hely stb.
 	'NO_TABLES_FOUND'			=> 'Nem taláhatók adatbázistáblák.',
 // TODO: Write some explanatory introduction text
-	'OVERVIEW_BODY'					=> 'Ide valami szép kis szöveg jön, de már csak ha kijött az RC (addig úgyse lesz használva)…</p><p>Ez a telepítőrendszer végigvezet a phpBB telepítésének, más fórumszoftverről való konvertálásnak vagy a legújabb verzióra való frissítésnek folyamatán. További információt az egyes lehetőségekről a fenti menü megfelelő elemére kattintva kaphatsz.
-	', //? TODO "installation system"? nyelvtan? "This installation system will guide you through the process of installing phpBB, converting from a different software package or updating to the latest version of phpBB. For more information on each option, select it from the menu above."
+	'OVERVIEW_BODY'					=> 'Üdvözlünk a phpBB a 2.0.x utáni következő generációjának, a phpBB 3.0-nak az első release candidate kiadásában! Ez a verzió már szélesebb körnek szánt, és a hibák megtalálását, illetve a problémás területek felfedezését hivatott szolgálni.</p><p>Kérjük olvasd el <a href="../docs/INSTALL.html">az angol nyelvű telepítési útmutatónkat</a> a phpBB3 telepítéséről.</p><p><strong style="text-transform: uppercase;">Megjegyzés:</strong> ez a kiadás <strong style="text-transform: uppercase;">még mindig nem végleges</strong>. Élesben való használathoz érdemes lehet kivárni a végleges kiadást.</p><p>Ez a telepítőrendszer végig fog vezetni a phpBB telepítésének, más fórumszoftverről való konvertálásnak vagy a legújabb verzióra való frissítésnek folyamatán. További információt az egyes lehetőségekről a fenti menü megfelelő elemére kattintva kaphatsz.', //? TODO "installation system"? nyelvtan? "This installation system will guide you through the process of installing phpBB, converting from a different software package or updating to the latest version of phpBB. For more information on each option, select it from the menu above."
+
 	'PCRE_UTF_SUPPORT'				=> 'PCRE UTF-8 támogatás',
 	'PCRE_UTF_SUPPORT_EXPLAIN'		=> 'A phpBB <strong>nem</strong> fog működni, ha a PHP a PCRE kiterjesztés UTF-8 támogatása nélkül került fordításra.', //? fogalmazás...
+	'PHP_GETIMAGESIZE_SUPPORT'			=> 'getimagesize() PHP függvény elérhető',
+	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> '<strong>Szükséges</strong> – A phpBB-nek a helyes működéshez szüksége van a getimagesize függvényre.',
 	'PHP_OPTIONAL_MODULE'			=> 'Opcionális modulok', //? erre is van valamilyen magyar kifejezés...
 	'PHP_OPTIONAL_MODULE_EXPLAIN'	=> '<strong>Opcionális</strong> – Ezek a modulok vagy alkalmazások opcionálisak. Azonban ha elérhetők, extra funkciók használata válik lehetségessé velük.',
 	'PHP_SUPPORTED_DB'				=> 'Támogatott adatbázisok',
@@ -264,6 +281,8 @@ $lang = array_merge($lang, array(
 	'PHP_SAFE_MODE'					=> 'Biztonságos mód', //? ennek ez a magyar fordítása?
 	'PHP_SETTINGS'					=> 'PHP verzió és beállítások',
 	'PHP_SETTINGS_EXPLAIN'			=> '<strong>Szükséges</strong> – A phpBB telepítéséhez legalább 4.3.3-as verziójú PHP-val kell rendelkezned. Ha alább megjelenik a <var>biztonságos mód</var> felirat, akkor a PHP ebben a módban fut. Ez korlátozásokkal jár a távoli adminisztrációhoz hasonló funkciók terén.', //? Szükséges a szöveg elején... távoli adminisztráció...
+	'PHP_URL_FOPEN_SUPPORT'			=> '<var>allow_url_fopen</var> PHP beállítás bekapcsolva',
+	'PHP_URL_FOPEN_SUPPORT_EXPLAIN'	=> '<strong>Opcionális</strong> – Ez a beállítás opcionális, bár a phpBB néhány funkciója, mint például a külső avatarok nem fog rendesen működni nélküle.',
 	'PHP_VERSION_REQD'				=> 'PHP verzió >= 4.3.3',
 	'POST_ID'						=> 'Hozzászólás azonosító', //? ID?
 	'PREFIX_FOUND'					=> 'Az adatbázistábláid azt mutatják, hogy van már egy telepített phpBB-d, melynek a tábla előtagja <strong>%s</strong>.',
@@ -304,7 +323,7 @@ $lang = array_merge($lang, array(
 	'SUB_SUPPORT'				=> 'Támogatás',
 	'SUCCESSFUL_CONNECT'		=> 'Sikeres kapcsolódás',
 // TODO: Write some text on obtaining support
-	'SUPPORT_BODY'				=> 'A béta fázis alatt csupán minimális támogatás érhető el a <a href="http://www.phpbb.com/phpBB/viewforum.php?f=46">phpBB.com megfelelő fórumában</a>. Ez a támogatás általános telepítési kérdések megválaszolására, konfigurációs, illetve hibákkal kapcsolatos problémák megoldására terjed ki. Nem foglalja magában viszont a modok, egyedi kód/megjelenés változtatások, illetve élő környezetben üzemeltett fórumok támogatását.</p><p>Segítséget találhatsz az <a href="http://www.phpbb.com/support/documentation/3.0/quickstart/">angol gyorstalpalóban</a> is.</p><p>Hogy mindig azonnal értesülj a phpBB frissítéseiről, <a href="http://www.phpbb.com/support/">iratkozz fel a hírlevelünkre</a>.', //? TODO fogalmazás (bár úgyis változik)
+	'SUPPORT_BODY'				=> 'A release candidate fázis alatt teljes támogatás elérhető a <a href="http://www.phpbb.com/phpBB/viewforum.php?f=46">phpBB.com megfelelő fórumában</a>. Ez a támogatás kiterjed telepítési kérdések megválaszolására, konfigurációs, illetve hibákkal kapcsolatos problémák megoldására. MOD-okról, illetve egyedi kód/megjelenés változtatásokról szóló társalgások is engedélyezettek.</p><p>Segítséget találhatsz az <a href="http://www.phpbb.com/support/documentation/3.0/quickstart/">angol gyorstalpalóban</a> is.</p><p>Hogy mindig azonnal értesülj a phpBB frissítéseiről, <a href="http://www.phpbb.com/support/">iratkozz fel a hírlevelünkre</a>.', //? TODO fogalmazás
 	'SYNC_FORUMS'				=> 'Fórumok szinkronizációjának megkezdése', //? elkezdés - kell egyáltalán ez a szó (tesztelni kell)
 	'SYNC_TOPICS'				=> 'Témák szinkronizációjának megkezdése',
 	'SYNC_TOPIC_ID'				=> 'Témák szinkronizálása; <var>topic_id</var>: %1$s – %2$s', //? mínusz jel jobban mutatna?
@@ -319,6 +338,7 @@ $lang = array_merge($lang, array(
 	'UNAVAILABLE'				=> 'Nem elérhető',
 	'UNWRITEABLE'				=> 'Nem írható',
 	'UPDATE_TOPICS_POSTED'		=> 'Téma információk generálása', //? "Generating topics posted informations" nem tudom mit jelent, nem tudom tulajdonképp mire is használják stb.
+	'UPDATE_TOPICS_POSTED_ERR'	=> 'Hiba lépett fel a téma információk generálása közben. A konvertálás befejezése után az adminisztrátori vezérlőpultban újra megpróbálhatod ezt a lépést.',
 
 	'VERSION'					=> 'Verzió',
 
