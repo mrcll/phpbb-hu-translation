@@ -4,7 +4,7 @@
 * memberlist [Hungarian]
 *
 * @package language
-* @version $Id: memberlist.php,v 1.7 2007-05-19 13:43:36 fberci Exp $
+* @version $Id: memberlist.php,v 1.8 2007-05-19 14:04:19 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -37,6 +37,8 @@ $lang = array_merge($lang, array(
 	'ADD_FOE'				=> 'Hozzáadás az ellenségekhez',
 	'ADD_FRIEND'			=> 'Hozzáadás a barátokhoz',
 	'AFTER'					=> 'Később, mint', //?
+
+	'ALL'					=> 'Összes',
 
 	'BEFORE'				=> 'Korábban, mint', //?
 

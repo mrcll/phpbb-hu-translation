@@ -4,7 +4,7 @@
 * ucp [Hungarian]
 *
 * @package language
-* @version $Id: ucp.php,v 1.22 2007-05-19 13:43:36 fberci Exp $
+* @version $Id: ucp.php,v 1.23 2007-05-19 14:04:19 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -168,7 +168,7 @@ $lang = array_merge($lang, array(
 	'EXPORT_AS_CSV_EXCEL'		=> 'Kimentés CSV-ként (Excel)',
 	'EXPORT_AS_TXT'				=> 'Kimentés TXT-ként',
 	'EXPORT_AS_MSG'				=> 'Kimentés MSG-ként',
-	'EXPORT_FOLDER'				=> 'Aktuális nézet kimentése', //? kell az aktuális?
+	'EXPORT_FOLDER'				=> 'Nézet kimentése',
 
 	'FIELD_REQUIRED'					=> 'A „%s” mezőt nem hagyhatod üresen.',
 	'FIELD_TOO_SHORT'					=> 'A „%1$s” mező tartalma túl rövid, legalább %2$d karakter hosszúnak kell lennie.',
