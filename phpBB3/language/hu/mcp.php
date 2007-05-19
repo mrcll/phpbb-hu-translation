@@ -4,7 +4,7 @@
 * mcp [Hungarian]
 *
 * @package language
-* @version $Id: mcp.php,v 1.11 2007-05-14 21:34:37 fberci Exp $
+* @version $Id: mcp.php,v 1.12 2007-05-19 13:43:36 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -32,6 +32,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACTION'				=> 'Művelet', //?
+	'ACTION_NOTE'			=> 'Művelet/megjegyzés', //???
 	'ADD_FEEDBACK'			=> 'Feljegyzés hozzáadása', //? fejlegyzés? hozzáadás?
 	'ADD_FEEDBACK_EXPLAIN'	=> 'Ha hozzá szeretnél adni egy feljegyzést, töltsd ki az alábbi űrlapot. Csak sima szöveget írj, HTML, BBCode stb. nem engedélyezett.', //?? "If you would like to add a report on this please fill out the following form. Only use plain text; HTML, BBCode, etc. are not permitted."
 	'ADD_WARNING'			=> 'Felhasználó figyelmeztetése', //? 'Figyelmeztetés', 'Figyelmeztetés hozzáadása'
@@ -81,10 +82,10 @@ $lang = array_merge($lang, array(
 	'EMPTY_TOPICS_REMOVED_WARNING'	=> 'Egy vagy több téma törlésre került az adatbázisból, mivel üressé vált.', //? Eredetileg please note van, de ez eg üzenet
 
 	'FEEDBACK'				=> 'Feljegyzések', //?
-	'FORK'					=> 'Elágaztatás', //? = másolás?
-	'FORK_TOPIC'			=> 'Téma elágaztatása',
+	'FORK'					=> 'Másolás',
+	'FORK_TOPIC'			=> 'Téma másolása',
 	'FORK_TOPIC_CONFIRM'	=> 'Biztosan meg akarod kettőzni ezt a témát?', //? eredetileg másolni (copy)
-	'FORK_TOPICS'			=> 'Kiválasztott témák elágaztatása',
+	'FORK_TOPICS'			=> 'Kiválasztott témák másolása',
 	'FORK_TOPICS_CONFIRM'	=> 'Biztosan meg akarod kettőzni a kiválasztott témákat?',
 	'FORUM_DESC'			=> 'Leírás',
 	'FORUM_NAME'			=> 'Fórum neve', //? cím?
@@ -162,6 +163,8 @@ $lang = array_merge($lang, array(
 	'MCP_NOTES_FRONT'				=> 'Kezdőlap',
 	'MCP_NOTES_USER'				=> 'Felhasználói adatok', //?
 
+	'MCP_POST_REPORTS'				=> 'Hozzászóláshoz kapcsolódó jelentések', //? nem csak kapcsolódó
+
 	'MCP_REPORTS'					=> 'Jelentett hozzászólások', //? 'Jelentések' - ez nem jobb?
 	'MCP_REPORT_DETAILS'			=> 'Részletes jelentés', //?
 	'MCP_REPORTS_CLOSED'			=> 'Lezárt jelentések',
@@ -188,7 +191,11 @@ $lang = array_merge($lang, array(
 	'MERGE_POSTS_CONFIRM'	=> 'Biztosan át akarod helyezni a kiválasztott hozzászólásokat?',
 	'MERGE_TOPIC_EXPLAIN'	=> 'Az alábbi űrlap segítségével hozzászólásokat helyezhetsz át egy másik témába. A hozzászólások nem lesznek újrarendezve, úgy fognak megjelenni, mintha eleve oda küldték volna őket.<br />Add meg céltéma azonosítóját, vagy kattints a „Téma kiválasztása” gombra, hogy megkeresd a témát.', //? újrarendezve
 	'MERGE_TOPIC_ID'		=> 'Céltéma azonosító szám',
+	'MERGE_TOPICS'			=> 'Témák összevonása',
+	'MERGE_TOPICS_CONFIRM'	=> 'Biztosan össze akarod vonni a kiválasztott témákat?',
 	'MODERATE_FORUM'		=> 'Fórum moderálása',
+	'MODERATE_TOPIC'		=> 'Téma moderálása',
+	'MODERATE_POST'			=> 'Hozzászólás moderálása',
 	'MOD_OPTIONS'			=> 'Moderálási lehetőségek', //?? (hozzászólás adatainál) 'Moderáció lehetőségek' ???
 	'MORE_INFO'				=> 'További információ',
 	'MOST_WARNINGS'			=> 'Legtöbb figyelmeztetéssel rendelkező felhasználók', //? "Users with most warnings" 'Legtöbbet figyelmeztett felhasználók' valami rövidebb kéne... (+ a jelentése is jó legyen)
@@ -210,12 +217,15 @@ $lang = array_merge($lang, array(
 	'NO_POST_REPORT'				=> 'Ezt a hozzászólást nem jelentették.',
 	'NO_POST_SELECTED'				=> 'Legalább egy hozzászólást ki kell választanod, hogy elvégezhesd ezt a műveletet.', //? végrehajthasd?
 	'NO_REASON_DISAPPROVAL'			=> 'Kérünk adj meg egy megfelelő okot az elutasításra.', //?? appropriate??
+	'NO_REPORT'						=> 'Nincs ilyen jelentés.', //? erre használják?
 	'NO_REPORTS'					=> 'Nincsenek jelentések.',	
+	'NO_REPORT_SELECTED'			=> 'Legalább egy jelentést ki kell választanod, hogy végrehajthasd ezt a műveletet.',
 	'NO_TOPIC_ICON'					=> 'nincs', //? nagybetű?
 	'NO_TOPIC_SELECTED'				=> 'Legalább egy témát ki kell választanod, hogy elvégezhesd ezt a műveletet.', //? végrehajthasd?
+	'NO_TOPICS_QUEUE'				=> 'Nincsenek témák.',
 
 	'ONLY_TOPIC'			=> 'Csak a "%s" téma', //? témából stb.? (Moderálandóknál)
-	'OTHER_USERS'			=> 'Más felhasználók, akik erről az IP-ről küldtek hozzászólást', //? kicsit hosszú...
+	'OTHER_USERS'			=> 'Más erről az IP-ről hozzászóló felhasználók',
 
 	'POSTER'					=> 'Küldő',
 	'POSTS_APPROVED_SUCCESS'	=> 'A kiválasztott hozzászólások jóváhagyásra kerültek.',
@@ -244,12 +254,12 @@ $lang = array_merge($lang, array(
 	'REPORTS_DELETED_SUCCESS'	=> 'A kiválasztott jelentések sikeresen törlésre kerültek.',
 	'REPORTS_TOTAL'				=> 'Összesen <strong>%d</strong> áttekintésre váró jelentés van.', //? "In total there are <strong>%d</strong> reports to review" áttekintendő? áttekintésre váró?  át_néz_endő? ---- az átnéz szó használata sokkal jobb lenne, nem?
 	'REPORTS_ZERO_TOTAL'		=> 'Nincs áttekintésre váró jelentés.', //? ua. feljebb
-	'REPORT_CLOSED'				=> 'A jelentés már korábban lezárásra került.',
+	'REPORT_CLOSED'				=> 'A jelentés már lezárásra került.',
 	'REPORT_CLOSED_SUCCESS'		=> 'A kiválasztott jelentés sikeresen lezárásra került.',
 	'REPORT_DELETED_SUCCESS'	=> 'A kiválasztott jelentés sikeresen törlésre került.',
 	'REPORT_DETAILS'			=> 'Jelentés részletek', //? jelentés részletek, részletes jelentés, jelentés adatai??
 	'REPORT_MESSAGE'			=> 'Üzenet jelentése', //? ezt se találom... (az eggyel alább lévővel együtt)
-	'REPORT_MESSAGE_EXPLAIN'	=> 'Ennek az űrlapnak a segítségével a kiválsztott üzenetet jelentheted a fórum adminisztrátorainak. A jelentés csak arra az esetre való, ha az üzenet megszegi a fórum szabályait.', //? "Use this form to report the selected message to the board administrators. Reporting should generally be used only if the message breaks forum ruless." 'Csak akkor jelents...'?
+	'REPORT_MESSAGE_EXPLAIN'	=> 'Ennek az űrlapnak a segítségével a kiválsztott üzenetet jelentheted. A jelentés csak arra az esetre való, ha az üzenet megszegi a fórum szabályait.', //? "Use this form to report the selected message to the board administrators. Reporting should generally be used only if the message breaks forum ruless." 'Csak akkor jelents...'?
 	'REPORT_NOTIFY'				=> 'Értesítés', //? "Notify me" az engem ebből kimaradt...
 	'REPORT_NOTIFY_EXPLAIN'		=> 'Kapjál-e értesítést, ha a jelentéssel foglalkoztak.', //? "Informs you when your report is dealt with" foglalkoznak?
 	'REPORT_POST_EXPLAIN'		=> 'Ennek az űrlapnak a segítségével a kiválsztott hozzászólást jelentheted a fórum adminisztrátorainak. A jelentés csak arra az esetre való, ha a hozzászólás megszegi a fórum szabályait.',
@@ -269,6 +279,7 @@ $lang = array_merge($lang, array(
 	'SELECT_ACTION'						=> 'Kívánt művelet kiválasztása', //? "Select desired action" valami jobb kéne ide, mert elég sok helyen szerepel
 	'SELECT_FORUM_GLOBAL_ANNOUNCEMENT'	=> 'Válaszd ki a fórumot, amelyikben szeretnéd, hogy ez a globális közlemény megjelenjen.',
 	'SELECT_FORUM_GLOBAL_ANNOUNCEMENTS'	=> 'A kiválasztott témák között legalább egy globális közlemény van. Válaszd ki a fórumot, amelyikben szeretnéd, hogy ezek megjelenjenek.',
+	'SELECT_MERGE'						=> 'Kiválasztás összevonáshoz/áthelyezéshez', //? most melyik - mindkettő?
 	'SELECT_TOPICS_FROM'				=> 'Fórum', //? "Select topics from" ez a legegyszerűbb, bár nem ezt jelenti
 	'SELECT_TOPIC'						=> 'Téma kiválsztása',
 	'SELECT_USER'						=> 'Felhasználó kiválasztása',
@@ -345,7 +356,7 @@ $lang = array_merge($lang, array(
 			'WAREZ'		=> 'Warez',
 			'SPAM'		=> 'Spam',
 			'OFF_TOPIC'	=> 'Off-topic', //? le kéne fordítani?
-			'OTHER'		=> 'Más' //? 'Egyéb'?
+			'OTHER'		=> 'Egyéb', //? 'Más'?
 		),
 		'DESCRIPTION' => array(
 			'WAREZ'		=> 'A hozzászólás linket tartalmaz illegális vagy kalóz szoftverre.', //? fogalmzás, szórend stb. kell pont?

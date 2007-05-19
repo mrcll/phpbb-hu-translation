@@ -4,7 +4,7 @@
 * acp_modules [English]
 *
 * @package language
-* @version $Id: modules.php,v 1.3 2007-01-28 20:32:48 fberci Exp $
+* @version $Id: modules.php,v 1.4 2007-05-19 13:43:35 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'DELETE_MODULE_CONFIRM'	=> 'Are you sure you want to remove this module?',
 
 	'EDIT_MODULE'			=> 'Edit module',
-	'EDIT_MODULE_EXPLAIN'	=> 'Here you are able to enter module specific settings',
+	'EDIT_MODULE_EXPLAIN'	=> 'Here you are able to enter module specific settings.',
 
 	'HIDDEN_MODULE'			=> 'Hidden module',
 

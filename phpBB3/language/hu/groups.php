@@ -4,7 +4,7 @@
 * groups [Hungarian]
 *
 * @package language
-* @version $Id: groups.php,v 1.5 2007-04-01 15:42:01 fberci Exp $
+* @version $Id: groups.php,v 1.6 2007-05-19 13:43:36 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -33,6 +33,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ALREADY_DEFAULT_GROUP'	=> 'A kiválasztott csoport már az elsődleges csoportod.', //?
 	'ALREADY_IN_GROUP'		=> 'Már tagja vagy a kiválasztott csoportnak.',
+	'ALREADY_IN_GROUP_PENDING'	=> 'Már kérelmezted a csatlakozást a csoporthoz.',
 
 	'CHANGED_DEFAULT_GROUP'	=> 'Az elsődleges csoport sikeresen megváltoztatásra került.',
 	
@@ -42,7 +43,7 @@ $lang = array_merge($lang, array(
 	'GROUP_DESC'						=> 'Csoport leírás',
 	'GROUP_HIDDEN'						=> 'Rejtett',
 	'GROUP_INFORMATION'					=> 'Csoport információ', 
-	'GROUP_IS_CLOSED'					=> 'Ez egy zárt csoport: új tagok nem tudnak automatikusan csatlakozni, csak a csoportvezető meghívására.',
+	'GROUP_IS_CLOSED'					=> 'Ez egy zárt csoport: új tagok csak a csoportvezető meghívására tudnak csatlakozni.',
 	'GROUP_IS_FREE'						=> 'Ez egy teljesen nyitott csoport: minden új tagot szívesen látnak.', //? 
 	'GROUP_IS_HIDDEN'					=> 'Ez egy rejtett csoport: csak a csoport tagjai látják.',
 	'GROUP_IS_OPEN'						=> 'Ez egy nyitott csoport: felhasználók kérhetik a felvételüket.',
@@ -72,7 +73,7 @@ $lang = array_merge($lang, array(
 
 	'NO_LEADERS'					=> 'Nem vagy egy csoport vezetője sem.',
 	'NOT_LEADER_OF_GROUP'			=> 'A kért művelet nem végezhető el, mivel nem vagy a kiválasztott csoport vezetője.',
-	'NOT_MEMBER_OF_GROUP'			=> 'A kért művelet nem végezhető el, mivel nem vagy a kiválasztott csoport tagja.',
+	'NOT_MEMBER_OF_GROUP'			=> 'A kért művelet nem végezhető el, mivel nem vagy a kiválasztott csoport tagja, vagy a csoporttagságod még nem lett jóváhagyva.',
 	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'Nem mondhatsz le a csoporttagságodról az elsődleges csoportodban.',
 	
 	'PRIMARY_GROUP'		=> 'Elsődleges csoport',

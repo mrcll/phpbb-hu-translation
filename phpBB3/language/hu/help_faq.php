@@ -4,7 +4,7 @@
 * help_faq [Hungarian]
 *
 * @package language
-* @version $Id: help_faq.php,v 1.8 2007-05-14 20:48:10 fberci Exp $
+* @version $Id: help_faq.php,v 1.9 2007-05-19 13:43:36 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -40,7 +40,7 @@ $help = array(
 	),
 	array(
 		0 => 'Miért kerülök kiléptetésre automatikusan?', //? 'Miért lép ki automatikusan a rendszerből?'
-		1 => 'Ha belépéskor nem jelölöd be az <em>Automatikus bejelentkezés</em> opciót, a rendszer csak egy előre meghatározott ideig hagy belépve. Ez a viselkedés meggátolja az azonosítóddal való visszaélést. A tartós belépve maradáshoz jelöld be az említett opciót. Ezen funkció használata nem ajánlott, ha nyilvános helyről használod a fórumot, például könyvtárból, internetkávézóból vagy egyetemi laborból. Ha nem látod a jelölőnégyzeted, az adminisztrátor valószínűleg kikapcsolta ezt a funkciót.'
+		1 => 'Ha belépéskor nem jelölöd be az <em>Automatikus bejelentkezés</em> opciót, a rendszer csak egy előre meghatározott ideig hagy belépve. Ez a viselkedés meggátolja az azonosítóddal való visszaélést. A tartós belépve maradáshoz jelöld be az említett opciót. Ezen funkció használata nem ajánlott, ha nyilvános helyről használod a fórumot, például könyvtárból, internetkávézóból vagy egyetemi laborból. Ha nem látod a jelölőnégyzeted, a fórumon valószínűleg nincs bekapcsolva ez a funkciót.'
 	),
 	array(
 		0 => 'Hogyan tudom megakadályozni, hogy mások lássák, mikor vagyok jelen?',
@@ -52,7 +52,7 @@ $help = array(
 	),
 	array(
 		0 => 'Regisztráltam, de mégsem tudok belépni',
-		1 => 'Először is ellenőrizd le, hogy helyesen adtad-e meg a felhasználóneved és a jelszavad. Ha igen, akkor két dolog történhetett. Amennyiben a COPPA-támogatás be van kapcsolva, és a regisztráció során a <em>13 évesnél fiatalabb vagyok</em> linkre kattintottál, követned kell a kapott utasításokat. Ha nem ez a helyzet, akkor valószínű, hogy aktiválnod kell az azonosítód. Számos fórum megköveteli, hogy az új azonosítók aktiválásra kerüljenek, mielőtt használatba lehetne venni őket. Ezt vagy az adminisztrátornak vagy a felhasználónak kell megtennie. Mindenesetre a regisztrációnál elvileg tájékoztatásra kerültél, hogy szükséges-e az azonosító aktiválása. Ha kaptál egy e-mailt, akkor kövesd az utasításait, ha nem, lehet, hogy rossz e-mail címet adtál meg. Az aktiváció megkövetelésének egyik célja a <em>rosszindulatú</em> felhasználók névtelen rongálásának megakadályozása. Ha biztos vagy benne, hogy helyes e-mail címet adtál meg, próbálj meg kapcsolatba lépni a fórum adminisztrátorával.' // Ezt is át kéne írni, angolból lett fordítva - és ez eléggé látszik is rajta
+		1 => 'Először is ellenőrizd le, hogy helyesen adtad-e meg a felhasználóneved és a jelszavad. Ha igen, akkor két dolog történhetett. Amennyiben a COPPA-támogatás be van kapcsolva, és a regisztráció során megadtad, hogy 13 évesnél fiatalabb vagy, követned kell a kapott utasításokat. Számos fórum megköveteli, hogy az új azonosítók aktiválásra kerüljenek, mielőtt használatba lehetne venni őket. Ezt vagy egy adminisztrátornak vagy a felhasználónak kell megtennie. Mindenesetre a regisztrációnál elvileg tájékoztatásra kerültél, hogy szükséges-e az azonosító aktiválása. Ha kaptál egy e-mailt, akkor kövesd az utasításait, ha nem, lehet, hogy rossz e-mail címet adtál meg, vagy a spamszűrőd kiszűrte. Ha biztos vagy benne, hogy helyes e-mail címet adtál meg, próbálj meg kapcsolatba lépni a fórum adminisztrátorával.' // Ezt is át kéne írni, angolból lett fordítva - és ez eléggé látszik is rajta
 	),
 	array(
 		0 => 'Korábban regisztráltam magam, azonban már nem tudok belépni?!',
@@ -60,7 +60,7 @@ $help = array(
 	),
 	array(
 		0 => 'Mi az a COPPA?',
-		1 => 'A COPPA, vagyis az 1998-as „Child Online Privacy and Protection Act” (gyerekek online adatvédelméről intézkedő törvény) egy egyesült állomokbeli törvény, mely megköveteli a honlapoktól, hogy írásos szülői vagy gondviselői beleegyezéssel rendelkezzenek 13 éven aluli személyektől való adatgyűjtéshez. Ez a törvény csak az Amerikai Egyesült Államokban lévő szervereken működő fórumokra érvényes, tehát Magyarországon nem. Ha nem vagy biztos benne, hogy ez a törvény vonatkozik-e rád, vagy a fórumra, melyre regisztrálsz, kérj jogi segítséget. Kérjük tartsd szem előtt, hogy a phpBB csapat nem tud jogi tanácsot adni, és az alább leírtakon kívül semmilyen aggály esetén sem hozzájuk kell fordulni.', //? az első mondatot kicsit leegyszerűsítettem - úgy se lényegesek a részletek
+		1 => 'A COPPA, vagyis az 1998-as „Child Online Privacy and Protection Act” (gyerekek online adatvédelméről intézkedő törvény) egy egyesült állomokbeli törvény, mely megköveteli a honlapoktól, hogy írásos szülői vagy gondviselői beleegyezéssel rendelkezzenek 13 éven aluli személyektől való adatgyűjtéshez. Ez a törvény csak az Amerikai Egyesült Államokban lévő szervereken működő fórumokra érvényes, tehát Magyarországon nem. Ha nem vagy biztos benne, hogy ez a törvény vonatkozik-e rád, vagy a fórumra, melyre regisztrálsz, kérj jogi segítséget. Kérjük tartsd szem előtt, hogy a phpBB csapatok nem tudnak jogi tanácsot adni, és az alább leírtakon kívül semmilyen aggály esetén sem hozzájuk kell fordulni.', //? az első mondatot kicsit leegyszerűsítettem - úgy se lényegesek a részletek
 	),
 	array(
 		0 => 'Miért nem tudok regisztrálni?',
@@ -80,7 +80,7 @@ $help = array(
 	),
 	array(
 		0 => 'Nem pontos az idő!',
-		1 => 'Habár ritkán előfordulnak olyan szerverek, melyeken nem pontos az idő, valószínűleg nem ez a helyzet. Feltehetően az időpontok más időzóna szerint kerülnek megjelenítésre, mint amiben vagy. Ez esetben változtasd meg az időzónád a tartózkodási helyednek megfelelően. Kérjük vedd figyelembe, hogy az időzónát – mint a legtöbb más felhasználói beállítást – csak regisztrált felhasználók változtathatják meg. Tehát ha még nem regisztráltál, ez egy jó alakalom, hogy megtedd.'
+		1 => 'Feltehetően az időpontok más időzóna szerint kerülnek megjelenítésre, mint amiben vagy. Ez esetben változtasd meg a felhasználói vezérlőpultban az időzónád a tartózkodási helyednek megfelelően. Kérjük vedd figyelembe, hogy az időzónát – mint a legtöbb más felhasználói beállítást – csak regisztrált felhasználók változtathatják meg. Tehát ha még nem regisztráltál, ez egy jó alakalom, hogy megtedd.'
 	),
 	array(
 		0 => 'Megváltoztattam az időzónát, de még mindig pontatlan az idő!',
@@ -92,7 +92,7 @@ $help = array(
 	),
 	array(
 		0 => 'Hogyan jeleníthetek meg egy képet a nevem alatt?',
-		1 => 'A hozzászólások megtekintésénél a felhasználónév alatt két kép szerepelhet. Az első a rangot mutatja (ezek általában csillagok vagy más elemek formájában kerülnek megjelenítésre, a számuk mutatja mennyi hozzószólást küldtél eddig a fórumon, vagy hogy milyen státuszod van). Ez alatt lehet egy nagyobb kép, az avatar, mely a legtöbb felhasználónak egyedi és személyes. A fórum adminisztrátorától függ, hogy engedélyezett-e az avatarok használata, illetve milyen módot lehet megadni ezt a képet. Ha nem tudsz avatart használni, az az adminisztrátor döntése, tájékozódj nála az okokról.'
+		1 => 'A hozzászólások megtekintésénél a felhasználónév alatt két kép szerepelhet. A használt megjelenéstől függően az első a rangot mutatja (ezek általában csillagok vagy más elemek formájában kerülnek megjelenítésre, a számuk mutatja mennyi hozzószólást küldtél eddig a fórumon, vagy hogy milyen státuszod van). Ez alatt lehet egy nagyobb kép, az avatar, mely a legtöbb felhasználónak egyedi és személyes. A fórum adminisztrátorától függ, hogy engedélyezett-e az avatarok használata, illetve milyen módot lehet megadni ezt a képet. Ha nem tudsz avatart beállítani, az az adminisztrátor döntése, tájékozódj nála az okokról.'
 	),
 	array(
 		0 => 'Hogyan tudom megváltoztatni a rangomat?',
@@ -124,7 +124,7 @@ $help = array(
 	),
 	array(
 		0 => 'Hogyan szerkeszthetek vagy törölhetek egy szavazást?',
-		1 => 'A hozzászólásokhoz hasonlóan a szavazásokat is csak a készítő, egy moderátor vagy egy adminisztrátor szerkesztheti. Egy szavazás szerkesztéséhez menj a téma első hozzászólásához (mindig ehhez tartozik a szavazás), és kattints a <em>szerkeszt</em> gombra. Ha még senki sem szavazott, a készítő még törölheti a szavazást, vagy megváltoztathatja a választási lehetőségeket, de ha már érkeztek szavazatok, csak egy adminisztrátor vagy egy adminisztrátor törölheti vagy szerkesztheti a szavazást. Ez azért van, hogy ne lehesen spekulálni a szavazást a szavazási lehetőségek megváltoztatásával.'
+		1 => 'A hozzászólásokhoz hasonlóan a szavazásokat is csak a készítő, egy moderátor vagy egy adminisztrátor szerkesztheti. Egy szavazás szerkesztéséhez menj a téma első hozzászólásához – mindig ehhez tartozik a szavazás, és kattints a <em>szerkeszt</em> gombra. Ha még senki sem szavazott, a készítő még törölheti a szavazást, vagy megváltoztathatja a választási lehetőségeket, de ha már érkeztt szavazat, csak egy adminisztrátor vagy egy adminisztrátor törölheti vagy szerkesztheti a szavazást. Így nem lehet spekulálni a szavazást a szavazási lehetőségek megváltoztatásával.'
 	),
 	array(
 		0 => 'Miért nem férek hozzá egy fórumhoz?',
@@ -136,7 +136,7 @@ $help = array(
 	),
 	array(
 		0 => 'Miért nem tudok hozzáadni csatolmányokat?',
-		1 => 'A csatolmányok feltöltésének lehetősége meghatározható fórumokra, csoportokra és felhasználókra. Lehet, hogy az adminisztrátor nem engedélyezte csatolmányok hozzáadását a fórumba, melybe írni szeretnél, vagy talán csak az adminisztrátok küldhetnek csatolmányokat. Ha nem vagy biztos benne, miért nem tudsz csatolmányokat hozzáadni, lépj kapcsolatba az adminisztrátorral.' //? első mondat...
+		1 => 'A csatolmányok feltöltésének lehetősége meghatározható fórumokra, csoportokra és felhasználókra. Lehet, hogy az adminisztrátor nem engedélyezte csatolmányok hozzáadását a fórumba, melybe írni szeretnél, vagy talán csak bizonoyos csoportok tagjai küldhetnek csatolmányokat. Ha nem vagy biztos benne, miért nem tudsz csatolmányokat hozzáadni, lépj kapcsolatba az adminisztrátorral.' //? első mondat...
 	),
 	array(
 		0 => 'Miért kaptam figyelmeztetést?',
@@ -156,7 +156,7 @@ $help = array(
 	),
 	array(
 		0 => 'Hogyan ugraszthatok előre egy témát?',
-		1 => 'A téma megtekintésénél megjelenő „Téma előreugrasztása” linkre kattintva „előreugraszthatsz” egy témát a fórum tetejére, hogy a témák felsorolásánál elsőként jelenjen meg. Ha nem látod ezt a linket, akkor ez a funkció nincs bekapcsolva. Egy témát úgy is előreugraszhatsz, hogy küldesz bele egy hozzászólást – ennél viszont vigyázz az aktuális fórum szabályainak betartására.'
+		1 => 'A téma megtekintésénél megjelenő „Téma előreugrasztása” linkre kattintva „előreugraszthatsz” egy témát a fórum tetejére, hogy a témák felsorolásánál elsőként jelenjen meg. Ha nem látod ezt a linket, akkor ez a funkció nincs bekapcsolva a fórumon, vagy még nem telt le az előugrasztáshoz szükséges idő. Egy témát úgy is előreugraszhatsz, hogy küldesz bele egy hozzászólást – ennél viszont vigyázz az aktuális fórum szabályainak betartására.'
 	),
 	array(
 		0 => '--',
@@ -188,11 +188,11 @@ $help = array(
 	),
 	array(
 		0 => 'Mik azok a kiemelt témák?',
-		1 => 'A kiemelt témák a közlemények alatt jelennek meg, de csak a fórum első oldalán. Gyakran elég fontosak, úgyhogy érdemes őket elolvasnod, ha lehetséges. Hasonlóan a közleményekhez a fórum adminisztrátorától függ, milyen jogosultsággal kell rendelkezned kiemelt témák készítéséhez.'
+		1 => 'A kiemelt témák a közlemények alatt jelennek meg a fórumokban, de csak az első oldalon. Gyakran elég fontosak, úgyhogy érdemes őket elolvasnod, ha lehetséges. Hasonlóan a közleményekhez a fórum adminisztrátorától függ, milyen jogosultsággal kell rendelkezned kiemelt témák készítéséhez.'
 	),
 	array(
 		0 => 'Mik azok a lezárt témák?',
-		1 => 'A témákat egy moderátor vagy egy adminisztrátor zárhatja le. Az ilyen témákba nem lehet hozzászólást küldeni vagy szavazni benne. Egy téma lezárásának több oka lehet.'
+		1 => 'A témákat egy moderátor vagy egy adminisztrátor zárhatja le. Az ilyen témákba nem lehet hozzászólást küldeni vagy szavazni benne. Egy téma lezárásának több oka lehet. Ha a fórum adminisztrátora megadta a szükséges jogosultságokat, lehetőséged lehet lezárni a saját témáidat.'
 	),
 	array(
 		0 => 'Mik azok a téma ikonok?',
@@ -204,15 +204,15 @@ $help = array(
 	),
 	array(
 		0 => 'Kik azok az adminisztrátorok?',
-		1 => 'Az adminisztrátorok a fórum legmagasabb rangú és jogú felhasználói, ők üzemeltetik, és tartják karban. A fórum minden részletét szabályozhatják, például jogosultságokat adhatnak, kitilthatnak felhasználókat, csoportokat hozhatnak létre, moderátorokat nevezhetnek ki stb. attól függően, hogy a fórumalapító milyen jogosultságokat adott a többi adminisztrátornak. Teljesjogú moderátorok is lehetnek az összes fórumban.'
+		1 => 'Az adminisztrátorok a fórum legmagasabb rangú és jogú tagjai, ők üzemeltetik, és tartják karban. A fórum minden részletét szabályozhatják, például jogosultságokat adhatnak, kitilthatnak felhasználókat, csoportokat hozhatnak létre, moderátorokat nevezhetnek ki stb. attól függően, hogy a fórumalapító milyen jogosultságokat adott a többi adminisztrátornak. Teljesjogú moderátorok is lehetnek az összes fórumban.'
 	), // a második felét kicsit leegyszerűsítettem :) ("dependant on the board founder and what permissions he or she has given the other administrators. They can also have full moderator capabilities in all the forums, depending on what the board founder has allowed.")
 	array(
 		0 => 'Kik azok a moderátorok?',
-		1 => 'A moderátorok olyan különleges jogosultságokkal rendelkező felhasználók, akiknek az a feladata, hogy napról napra figyelemmel kövessék a fórumokat. Jogukban áll szerkeszteteni, törölni a hozzászólásokat, valamint lezárni, megnyitni, áthelyezni, törölni és szétválasztani a témákat az általuk moderált fórumban. Általánosságban a moderátorok azért vannak, hogy meggátolják a témába nem illő, sértegető vagy támadó hangvételű hozzászólások küldését. '
+		1 => 'A moderátorok olyan különleges jogosultságokkal rendelkező tagok, akik napról napra figyelemmel követik a fórumokat. Jogukban áll szerkeszteteni, törölni a hozzászólásokat, valamint lezárni, megnyitni, áthelyezni, törölni és szétválasztani a témákat az általuk moderált fórumban. Általánosságban a moderátorok azért vannak, hogy meggátolják a témába nem illő, sértegető vagy támadó hangvételű hozzászólások küldését. '
 	),
 	array(
 		0 => 'Mik azok a csoportok?',
-		1 => 'Az adminsztrátor felhasználói csoportok segítségével tudja csoportba rendezni a felhasználókat. Minden felhasználó több csoportba is tartozhat, és mindegyik csoporthoz egyéni hozzáférési jogosultságok rendelhetők. Ezzel az adminisztrátor könnyedén létrehozhat zártkörű fórumokat, moderátorrá tehet egyszerre több felhasználót stb.'
+		1 => 'Az adminsztrátor felhasználói csoportok segítségével tudja csoportba rendezni a felhasználókat. Minden felhasználó több csoportba is tartozhat, és mindegyik csoporthoz saját jogosultságok rendelhetők. Ezzel az adminisztrátor könnyedén létrehozhat zártkörű fórumokat, moderátorrá tehet egyszerre több felhasználót stb.'
 	),
 	array(
 		0 => 'Hogyan csatlakozhatok egy csoporthoz?',
@@ -220,7 +220,7 @@ $help = array(
 	),
 	array(
 		0 => 'Hogyan lehetek csoportvezető?',
-		1 => 'Amikor az adminsztrátor létrehoz egy csoportot, rögtön vezetőt is rendel hozzá. Ha szeretnél létrehozni egy csoportot, akkor lépj kapcsolatba az adminisztrátorral – például egy privát üzenet küldésével.'
+		1 => 'Amikor egy adminsztrátor létrehoz egy csoportot, általában rögtön vezetőt is rendel hozzá. Ha szeretnél létrehozni egy csoportot, akkor lépj kapcsolatba egy adminisztrátorral – például egy privát üzenet küldésével.'
 	),
 	array(
 		0 => 'Miért jelenik meg néhány csoport más színnel?',
@@ -232,7 +232,7 @@ $help = array(
 	),
 	array(
 		0 => 'Mi az az „A csapat” link?',
-		1 => 'Ezen az oldalon egy listát találhatsz a fórum üzemeltetőiről: az adminisztrátorokról és a moderátorokról (utóbbiaknál jelezve azt is, hogy melyik fórumot moderálják).'
+		1 => 'Ezen az oldalon egy listát találhatsz a fórum üzemeltetőiről: az adminisztrátorokról és a moderátorokról (utóbbiaknál jelezve például azt is, hogy melyik fórumot moderálják).'
 	),
 	array(
 		0 => '--',
@@ -248,14 +248,14 @@ $help = array(
 	),
 	array(
 		0 => 'Kéretlen vagy sértegető e-mailt kaptam valakitől a fórumról!',
-		1 => 'Ezt sajnálattal halljuk. A fórum e-mail funkciója tartalmaz ezirányú óvintézkedéseket. Értesítsd a fórum adminisztrátorát, küldd el neki a kapott e-mail teljes másolatát is – fontos, hogy ez a fejlécet is tartalmazza (ebben szerepelnek az adatok az e-mail küldőjéről). Ő megteheti a szükséges lépéseket.'
+		1 => 'Ezt sajnálattal halljuk. A fórum e-mail funkciója tartalmaz ezirányú óvintézkedéseket. Értesítsd a fórum adminisztrátorát, küldd el neki a kapott e-mail teljes másolatát is – fontos, hogy ez a fejlécet is tartalmazza, ugyanis ebben szerepelnek az adatok az e-mail küldőjéről. Ő megteheti a szükséges lépéseket.'
 	),
 	array(
 		0 => '--',
 		1 => 'Barátok és haragosok'
 	),
 	array(
-		0 => 'Mire való a „Barátok és haragosok” lista?',
+		0 => 'Mire valók a barátok és haragosok listák?',
 		1 => 'Ezen listák segítségével rendszerezheted a fórum többi tagját. A barátok listában szereplő felhasználók megjelennek a felhasználói vezérlőpultban, így gyorsan elérheted őket, küldhetsz nekik privát üzenetet, és láthatod, hogy éppen jelen vannak-e. A használt sablon támogatásától függően, a barátok hozzászólásai kiemelve szerepelhetnek. Ha egy felhasználót haragosként jelölsz meg, akkor a hozzászólásai alapból nem fognak megjelenni.'
 	),
 	array(
@@ -267,8 +267,8 @@ $help = array(
 		1 => 'Keresés a fórumban'
 	),
 	array(
-		0 => 'Hogyan kereshetek a fórumban?',
-		1 => 'Írd be a keresendő kifejezést közvetlenül a keresődobozba, mely rendelkezésre áll a fórum kezdőlapon, egy fórumban vagy egy témában. A részletes keresést a „Keresés” linkre kattintva tudod elérni, mely a fórum összes oldalán elérhető. '
+		0 => 'Hogyan kereshetek egy fórumban?',
+		1 => 'Írd be a keresendő kifejezést közvetlenül a keresődobozba, mely rendelkezésre áll a fórum kezdőlapon, egy fórumban vagy egy témában. A részletes keresést a „Keresés” linkre kattintva tudod elérni, mely a fórum összes oldalán elérhető. Ennek a helye a használt megjelenéstől függ.'
 	),
 	array(
 		0 => 'Miért nem ad vissza találatot a keresésem?',
@@ -324,15 +324,15 @@ $help = array(
 	),
 	array(
 		0 => 'Ki készítette ezt a magyar fordítást?',
-		1 => 'Ezt a magyar fordítást <a href="http://phpbb.hu/">Magyar phpBB Közösség</a> <a href="http://phpbb.hu/forditas">fordító</a> készítették: stb. stb. Ha bármilyen hibát találsz, a magyar fordítás javítása érdekében, kérjük jelezd a <a href="http://phpbb.hu/bugs">hibabejelentőkben</a>. stb. stb. :)<br />Emlékeztetőül: ez csak egy béta verzió, úgyhogy csak óvatosan! ;)'
+		1 => 'A magyar fordítást <a href="http://phpbb.hu/">Magyar phpBB Közösség</a> <a href="http://phpbb.hu/forditas">fordító</a> készítik, és tartják karban. A fordítást Fodor Bertalan és Menyhárt Zsolt készítette Berentés Marcell és Joó Ádám közreműködésével. Ha bármilyen hibát találsz, kérjük jelezd a <a href="http://phpbb.hu/bugs">hibabejelentőnkben</a>.'
 	),
 	array(
 		0 => 'Miért nem érhető el az X szolgáltatás?',
-		1 => 'Ezt a szoftvert a phpBB Group készítette, és licenceli. Ha úgy gondolod, hogy újabb szolgáltatások, funkciók szükségesek a fórumba, akkor látogasd meg a phpbb.com weboldalt, és olvasd el amit phpBB Group mond erről. Kérünk ne küldj kéréseket a phpbb.com fórumába, a fejlesztők a sourceforge oldalán várják az ötleteket. Emellett kérünk olvasd át a fórumot, mert lehet hogy már felmerült az ötlet, és a phpBB Group megfogalmazott ezzel kapcsolatban egy véleményt.' // ezt is lehetne javítani, meg az angol szövegnek megfelelőnek tenni...
+		1 => 'Ezt a szoftvert a phpBB Group készítette, és licenceli. Ha úgy gondolod, hogy újabb szolgáltatások, funkciók szükségesek a fórumba, akkor látogasd meg a phpbb.com weboldalt, és olvasd el amit phpBB Group mond erről. Kérünk ne küldj kéréseket a phpbb.com fórumába, a fejlesztők a Sourceforge oldalán várják az ötleteket. Emellett kérünk olvasd át a fórumot, mert lehet hogy már felmerült az ötlet, és a phpBB Group megfogalmazott ezzel kapcsolatban egy véleményt.' // ezt is lehetne javítani, meg az angol szövegnek megfelelőnek tenni...
 	),
 	array(
 		0 => 'Ki az illetékes a fórumon olvasható tartalommal kapcsolatban?',
-		1 => 'Sértő, illetve illegális tartalmak kapcsán elsősorban a fórum adminisztrátorát kell felkeresni. Ha ez nem lehetséges, akkor a weboldal tulajdonosát (ezt kiderítheted egy ún. „whois” kereséssel). Ha a fórum egy ingyenes tárhelyen található, akkor azt a szolgáltatót értesítsd. Kérjük vedd figyelembe, hogy a phpBB Group-nak semmilyen köze, hozzáférése vagy beleszólása nincs a fórumon olvasható tartalomhoz, ezért nem tehető semmilyen módon felelőssé amiatt, hogy ki mire használja ezt a fórumot.' // ez se "ugyanaz", mint az angol (~jogi szöveg ez is, az is :)
+		1 => 'Sértő, illetve illegális tartalmak kapcsán az „A csapat” oldalon felsorolt adminisztrátorok közül kell egyet felkeresni. Ha nem kapsz választ, akkor a domain tulajdonosát (ezt kiderítheted egy ún. <a href="http://www.google.hu/search?q=whois&amp;meta=lr%3Dlang_hu">„whois  kereséssel”</a>). Ha a fórum egy ingyenes tárhelyen található, akkor azt a szolgáltatót értesítsd. Kérjük vedd figyelembe, hogy a phpBB Group-nak semmilyen köze, hozzáférése vagy beleszólása nincs a fórumon olvasható tartalomhoz, ezért nem tehető semmilyen módon felelőssé amiatt, hogy ki mire használja ezt a fórumot.' // ez se "ugyanaz", mint az angol (~jogi szöveg ez is, az is :)
 	)
 );
 

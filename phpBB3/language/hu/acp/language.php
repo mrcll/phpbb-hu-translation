@@ -4,7 +4,7 @@
 * acp_language [English]
 *
 * @package language
-* @version $Id: language.php,v 1.3 2007-01-28 20:32:48 fberci Exp $
+* @version $Id: language.php,v 1.4 2007-05-19 13:43:35 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -32,9 +32,9 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_FILES'						=> 'Admin language files',
-	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Here you are able to install/remove language packs',
+	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Here you are able to install/remove language packs.',
 
-	'EMAIL_FILES'			=> 'Email templates',
+	'EMAIL_FILES'			=> 'E-mail templates',
 
 	'FILE_CONTENTS'				=> 'File contents',
 	'FILE_FROM_STORAGE'			=> 'File from storage folder',
