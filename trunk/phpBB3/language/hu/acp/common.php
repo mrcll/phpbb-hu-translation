@@ -4,7 +4,7 @@
 * acp common [English]
 *
 * @package language
-* @version $Id: common.php,v 1.4 2007-05-19 13:43:35 fberci Exp $
+* @version $Id: common.php,v 1.5 2007-05-20 16:26:22 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -517,13 +517,14 @@ $lang = array_merge($lang, array(
 	'LOG_USERS_APPROVED'	=> '<strong>Users approved in usergroup</strong> %1$s<br />» %2$s',
 	'LOG_USERS_ADDED'		=> '<strong>Added new members to usergroup</strong> %1$s<br />» %2$s',
 
-	'LOG_IMAGESET_ADD_DB'		=> '<strong>Added new imageset to database</strong><br />» %s',
-	'LOG_IMAGESET_ADD_FS'		=> '<strong>Add new imageset on filesystem</strong><br />» %s',
-	'LOG_IMAGESET_DELETE'		=> '<strong>Deleted imageset</strong><br />» %s',
-	'LOG_IMAGESET_EDIT_DETAILS'	=> '<strong>Edited imageset details</strong><br />» %s',
-	'LOG_IMAGESET_EDIT'			=> '<strong>Edited imageset</strong><br />» %s',
-	'LOG_IMAGESET_EXPORT'		=> '<strong>Exported imageset</strong><br />» %s',
-	'LOG_IMAGESET_REFRESHED'	=> '<strong>Refreshed imageset</strong><br />» %s',
+	'LOG_IMAGESET_ADD_DB'			=> '<strong>Added new imageset to database</strong><br />» %s',
+	'LOG_IMAGESET_ADD_FS'			=> '<strong>Add new imageset on filesystem</strong><br />» %s',
+	'LOG_IMAGESET_DELETE'			=> '<strong>Deleted imageset</strong><br />» %s',
+	'LOG_IMAGESET_EDIT_DETAILS'		=> '<strong>Edited imageset details</strong><br />» %s',
+	'LOG_IMAGESET_EDIT'				=> '<strong>Edited imageset</strong><br />» %s',
+	'LOG_IMAGESET_EXPORT'			=> '<strong>Exported imageset</strong><br />» %s',
+	'LOG_IMAGESET_LANG_REFRESHED'	=> '<strong>Refreshed “%2$s” localisation of imageset</strong><br />» %1$s',
+	'LOG_IMAGESET_REFRESHED'		=> '<strong>Refreshed imageset</strong><br />» %s',
 
 	'LOG_INACTIVE_ACTIVATE'	=> '<strong>Activated inactive users</strong><br />» %s',
 	'LOG_INACTIVE_DELETE'	=> '<strong>Deleted inactive users</strong><br />» %s',

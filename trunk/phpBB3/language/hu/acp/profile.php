@@ -4,7 +4,7 @@
 * acp_profile [English]
 *
 * @package language
-* @version $Id: profile.php,v 1.4 2007-05-19 13:43:35 fberci Exp $
+* @version $Id: profile.php,v 1.5 2007-05-20 16:26:23 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -125,8 +125,8 @@ $lang = array_merge($lang, array(
 
 	'SAVE'							=> 'Save',
 	'SECOND_OPTION'					=> 'Second option',
-	'STEP_1_EXPLAIN_CREATE'			=> 'Here you can enter the first basic parameters of your new profile field. These information are needed for the second step where you are able to set remaining options and where you are able to preview and tweak your profile field further.',
-	'STEP_1_EXPLAIN_EDIT'			=> 'Here you can change the basic parameters of your profile field. The relevant options are re-calculated within the second step, where you are able to preview and test the changed settings.',
+	'STEP_1_EXPLAIN_CREATE'			=> 'Here you can enter the first basic parameters of your new profile field. This information is needed for the second step where you’ll be able to set remaining options and tweak your profile field further.',
+	'STEP_1_EXPLAIN_EDIT'			=> 'Here you can change the basic parameters of your profile field. The relevant options are re-calculated within the second step.',
 	'STEP_1_TITLE_CREATE'			=> 'Add profile field',
 	'STEP_1_TITLE_EDIT'				=> 'Edit profile field',
 	'STEP_2_EXPLAIN_CREATE'			=> 'Here you are able to define some common options you may want to adjust.',
