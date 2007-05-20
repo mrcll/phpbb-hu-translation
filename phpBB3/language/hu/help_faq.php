@@ -4,7 +4,7 @@
 * help_faq [Hungarian]
 *
 * @package language
-* @version $Id: help_faq.php,v 1.9 2007-05-19 13:43:36 fberci Exp $
+* @version $Id: help_faq.php,v 1.10 2007-05-20 16:26:23 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -56,19 +56,19 @@ $help = array(
 	),
 	array(
 		0 => 'Korábban regisztráltam magam, azonban már nem tudok belépni?!',
-		1 => 'Ennek a leggyakoribb oka, hogy hibás felhasználónevet vagy jelszót adtál meg (ezekkel az adatokkal kapcsolatban nézd meg az e-mailt, melyet a regisztrációkor kaptál), vagy az adminisztrátor valamilyen okból kifolyólag törölte az azonosítód. Ez utóbbinak egy lehetséges oka, hogy nem küldtél egy hozzászólást se. Néhány fórumon ugyanis szokás, hogy bizonyos időközönként eltávolítják az olyan felhasználókat, akik nem küldtek hozzászólást, hogy csökkentsék az adatbázis méretét. Próbálj meg újra regisztrálni, és bekapcsolódni a beszélgetésekbe.'
+		1 => 'Keresd elő a regisztrációkor kapott e-mailt, ellenőrizd le a felhasználóneved és a jelszavad, majd próbálkozz újra. Lehetséges, hogy az adminisztrátor valamilyen okból kifolyólag inaktiválta, vagy törölte az azonosítód. Ez utóbbinak egy lehetséges oka, hogy nem küldtél egy hozzászólást se. Néhány fórumon ugyanis szokás, hogy bizonyos időközönként eltávolítják az olyan felhasználókat, akik nem küldtek hozzászólást, hogy csökkentsék az adatbázis méretét. Próbálj meg újra regisztrálni, és bekapcsolódni a társalgásba.'
 	),
 	array(
 		0 => 'Mi az a COPPA?',
-		1 => 'A COPPA, vagyis az 1998-as „Child Online Privacy and Protection Act” (gyerekek online adatvédelméről intézkedő törvény) egy egyesült állomokbeli törvény, mely megköveteli a honlapoktól, hogy írásos szülői vagy gondviselői beleegyezéssel rendelkezzenek 13 éven aluli személyektől való adatgyűjtéshez. Ez a törvény csak az Amerikai Egyesült Államokban lévő szervereken működő fórumokra érvényes, tehát Magyarországon nem. Ha nem vagy biztos benne, hogy ez a törvény vonatkozik-e rád, vagy a fórumra, melyre regisztrálsz, kérj jogi segítséget. Kérjük tartsd szem előtt, hogy a phpBB csapatok nem tudnak jogi tanácsot adni, és az alább leírtakon kívül semmilyen aggály esetén sem hozzájuk kell fordulni.', //? az első mondatot kicsit leegyszerűsítettem - úgy se lényegesek a részletek
+		1 => 'A COPPA, vagyis az 1998-as „Child Online Privacy and Protection Act” (gyerekek online adatvédelméről intézkedő törvény) egy egyesült állomokbeli törvény, mely megköveteli a honlapoktól, hogy írásos szülői vagy gondviselői beleegyezéssel rendelkezzenek 13 éven aluli személyektől való adatgyűjtéshez. Ez a törvény csak az Amerikai Egyesült Államokban lévő szervereken működő fórumokra érvényes, tehát Magyarországon nem. Ha nem vagy biztos benne, hogy ez a törvény vonatkozik-e rád, vagy a fórumra, melyre regisztrálsz, kérj jogi segítséget. Kérjük tartsd szem előtt, hogy a phpBB Group nem tud jogi tanácsot adni, és az alább leírtakon kívül semmilyen aggály esetén sem hozzájuk kell fordulni.', //? az első mondatot kicsit leegyszerűsítettem - úgy se lényegesek a részletek
 	),
 	array(
 		0 => 'Miért nem tudok regisztrálni?',
-		1 => 'Lehet, hogy a weboldal tulajdonosa letiltotta az IP-címed vagy a regisztrálni kívánt felhasználónevet. Az is előfordulhat, hogy a regisztráció kikapcsolásra került, hogy ne tudjanak új felhasználók regisztrálni. További segítségért lépj kapcsolatba a fórum adminisztrátorával.',
+		1 => 'Lehet, hogy a weboldal tulajdonosa letiltotta az IP-címed vagy a regisztrálni kívánt felhasználónevet. Az is előfordulhat, hogy a regisztráció kikapcsolásra került, hogy ne tudjanak új felhasználók regisztrálni. További segítségért lépj kapcsolatba a fórum egyik adminisztrátorával.',
 	),
 	array(
 		0 => 'Mit csinál a „Fórum sütik törlése”?',
-		1 => 'Ez a funkció törli az összes phpBB3 által küldött sütit. A sütik feladata az azonosítás, illetve a beléptetés, valamint – ha a fórum tulajdonosa beállítota – a hozzászólások olvasottságának követése és ehhez hasonló funkciók.',
+		1 => 'Ez a funkció törli az összes phpBB3 által küldött sütit. A sütik feladata az azonosítás, illetve a beléptetés, valamint – ha a fórum tulajdonosa beállítota – a hozzászólások olvasottságának követése és ehhez hasonló funkciók. Ha problémáid vannak a belépéssel vagy a kilépéssel, a sütik törlése segíthet.',
 	),
 	array(
 		0 => '--',
@@ -84,7 +84,7 @@ $help = array(
 	),
 	array(
 		0 => 'Megváltoztattam az időzónát, de még mindig pontatlan az idő!',
-		1 => 'Ha biztos vagy benne, hogy helyes időzónát adtál meg, és a nyári időszámítást is jól állítottad be, de az idő még mindig más, akkor a szerver órája pontatlan – ezt az adminisztrátoroknak javítaniuk kell majd.' //? adminisztrátoroknak javítaniuk kell majd??; más - pontatlan
+		1 => 'Ha biztos vagy benne, hogy helyes időzónát adtál meg, és a nyári időszámítást is jól állítottad be, de az idő még mindig más, akkor a szerver órája pontatlan. Kérjük, értesíts erről egy adminisztrátort.'
 	),
 	array(
 		0 => 'A használni kívánt nyelv nincs a listában!',
@@ -92,11 +92,11 @@ $help = array(
 	),
 	array(
 		0 => 'Hogyan jeleníthetek meg egy képet a nevem alatt?',
-		1 => 'A hozzászólások megtekintésénél a felhasználónév alatt két kép szerepelhet. A használt megjelenéstől függően az első a rangot mutatja (ezek általában csillagok vagy más elemek formájában kerülnek megjelenítésre, a számuk mutatja mennyi hozzószólást küldtél eddig a fórumon, vagy hogy milyen státuszod van). Ez alatt lehet egy nagyobb kép, az avatar, mely a legtöbb felhasználónak egyedi és személyes. A fórum adminisztrátorától függ, hogy engedélyezett-e az avatarok használata, illetve milyen módot lehet megadni ezt a képet. Ha nem tudsz avatart beállítani, az az adminisztrátor döntése, tájékozódj nála az okokról.'
+		1 => 'A hozzászólások megtekintésénél a felhasználónév alatt két kép szerepelhet. A használt megjelenéstől függően az első a rangot mutatja (ezek általában csillagok vagy más elemek formájában kerülnek megjelenítésre, a számuk mutatja mennyi hozzószólást küldtél eddig a fórumon, vagy hogy milyen státuszod van). Ez alatt lehet egy nagyobb kép, az avatar, mely a legtöbb felhasználónak egyedi és személyes. A fórum adminisztrátorától függ, hogy engedélyezett-e az avatarok használata, illetve milyen módot lehet megadni ezt a képet. Ha nem tudsz avatart beállítani, lépj kapcsolatba egy adminisztrátorral, és tájékozódj nála az okokról.'
 	),
 	array(
-		0 => 'Hogyan tudom megváltoztatni a rangomat?',
-		1 => 'Általában a felhasználók nem tudják közvetlenül megváltoztatni a rangjukat. A legtöbb fórumon arra használják a rangokat, hogy jelezzék a felhasználó hozzászólásainak számát, illetve hogy megkülönböztessenek néhány felhasználót, mint például az adminisztrátorokat és a moderátorokat, akik speciális ranggal rendelkezhetnek. Kérünk ne szólj hozzá feleslegesen a témákhoz, csak hogy növeld a hozzászólásaid számát, hiszen valószínű, hogy ezt a moderátorok fel fogják fedezni, és egyszerűen csökkenteni fogják a hozzászólásaid számát.'
+		0 => 'Mi az a rang, hogyan tudom megváltoztatni a rangomat?',
+		1 => 'A rang, mely a felhasználók neve alatt jelenik meg, arra való, hogy mutassa, a felhasználó hozzászólásainak számát, illetve megkülöztessen egyes felhasználókat, például a moderátorokat és adminisztrátorokat. Általában a felhasználók nem tudják közvetlenül megváltoztatni a rangjukat, mivel azt az adminisztrátor állítja be. Kérünk, ne szólj hozzá feleslegesen a témákhoz, csak hogy növeld a hozzászólásaid számát, hiszen valószínű, hogy ezt a moderátorok fel fogják fedezni, és egyszerűen csökkenteni fogják a hozzászólásaid számát.'
 	),
 	array(
 		0 => 'Miért kell bejelentkeznem e-mail küldéséhez?',

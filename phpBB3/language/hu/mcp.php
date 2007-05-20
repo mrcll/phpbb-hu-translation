@@ -4,7 +4,7 @@
 * mcp [Hungarian]
 *
 * @package language
-* @version $Id: mcp.php,v 1.12 2007-05-19 13:43:36 fberci Exp $
+* @version $Id: mcp.php,v 1.13 2007-05-20 16:26:23 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *

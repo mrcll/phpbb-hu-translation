@@ -4,7 +4,7 @@
 * posting [English]
 *
 * @package language
-* @version $Id: posting.php,v 1.4 2007-05-19 13:43:35 fberci Exp $
+* @version $Id: posting.php,v 1.5 2007-05-20 16:26:23 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -181,7 +181,7 @@ $lang = array_merge($lang, array(
 
 // Ranks
 $lang = array_merge($lang, array(
-	'ACP_RANKS_EXPLAIN'		=> 'Using this form you can add, edit, view and delete ranks. You can also create custom ranks which can be applied to a user via the user management facility.',
+	'ACP_RANKS_EXPLAIN'		=> 'Using this form you can add, edit, view and delete ranks. You can also create special ranks which can be applied to a user via the user management facility.',
 	'ADD_RANK'				=> 'Add new rank',
 
 	'MUST_SELECT_RANK'		=> 'You must select a rank.',

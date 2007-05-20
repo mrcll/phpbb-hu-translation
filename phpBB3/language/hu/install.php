@@ -4,7 +4,7 @@
 * install [Hungarian]
 *
 * @package language
-* @version $Id: install.php,v 1.9 2007-05-19 13:43:36 fberci Exp $
+* @version $Id: install.php,v 1.10 2007-05-20 16:26:23 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -520,6 +520,58 @@ $lang = array_merge($lang, array(
 	'VIEWING_FILE_DIFF'			=> 'Állománykülönbségek megtekintése', //? "Viewing file differences" 'Különbségek megtekintése'
 
 	'WRONG_INFO_FILE_FORMAT'	=> 'Hibás információsállomány-formátum',
+));
+
+// Default database schema entries...
+$lang = array_merge($lang, array(
+	'CONFIG_BOARD_EMAIL_SIG'		=> 'Köszönettel: A csapat',
+	'CONFIG_SITE_DESC'				=> 'A fórumot leíró _rövid_ szöveg',
+	'CONFIG_SITENAME'				=> 'domained.hu',
+
+	'DEFAULT_INSTALL_POST'			=> 'Ez egy példa hozzászólás a frissen telepített phpBB3-madban. Ha gondolod, törölheted ezt a hozzászólást, ezt a témát és ezt a fórumot is, hiszen úgy tűnik, minden működik.',
+
+	'EXT_GROUP_ARCHIVES'			=> 'Archívumok',
+	'EXT_GROUP_DOCUMENTS'			=> 'Dokumentumok',
+	'EXT_GROUP_DOWNLOADABLE_FILES'	=> 'Letölthető állományok',
+	'EXT_GROUP_FLASH_FILES'			=> 'Flash állományok',
+	'EXT_GROUP_IMAGES'				=> 'Képek',
+	'EXT_GROUP_PLAIN_TEXT'			=> 'Sima szöveg',
+	'EXT_GROUP_QUICKTIME_MEDIA'		=> 'Quicktime média',
+	'EXT_GROUP_REAL_MEDIA'			=> 'Real média',
+	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Windows média',
+
+	'FORUMS_FIRST_CATEGORY'			=> 'Az első kategóriám',
+	'FORUMS_TEST_FORUM_DESC'		=> 'Ez csak egy teszt fórum.',
+	'FORUMS_TEST_FORUM_TITLE'		=> 'Teszt fórum 1.',
+
+	'RANKS_SITE_ADMIN_TITLE'		=> 'Adminisztrátor',
+
+	'SMILIES_ARROW'					=> 'nyíl',
+	'SMILIES_CONFUSED'				=> 'összezavarodott',
+	'SMILIES_COOL'					=> 'laza',
+	'SMILIES_CRYING'				=> 'sír vagy nagyon szomorú',
+	'SMILIES_EMARRASSED'			=> 'zavarban',
+	'SMILIES_EVIL'					=> 'gonosz vagy nagyon őrült',
+	'SMILIES_EXCLAMATION'			=> 'felkiáltás',
+	'SMILIES_GEEK'					=> 'geek', // még nem jöttem rá a pontos jelentésére, de az idő eléggé sürget ;)
+	'SMILIES_IDEA'					=> 'ötlet',
+	'SMILIES_LAUGHING'				=> 'nevet',
+	'SMILIES_MAD'					=> 'őrült',
+	'SMILIES_MR_GREEN'				=> 'Zöld úr',
+	'SMILIES_NEUTRAL'				=> 'semleges',
+	'SMILIES_QUESTION'				=> 'kérdés',
+	'SMILIES_RAZZ'					=> 'viccess',
+	'SMILIES_ROLLING_EYES'			=> 'forgó szemek',
+	'SMILIES_SAD'					=> 'szomorú',
+	'SMILIES_SHOCKED'				=> 'sokkolt',
+	'SMILIES_SMILE'					=> 'mosoly',
+	'SMILIES_SURPRISED'				=> 'meglepett',
+	'SMILIES_TWISTED_EVIL'			=> 'nagyon gonosz',
+	'SMILIES_UBER_GEEK'				=> 'nagyon geek', //? lásd fentebb
+	'SMILIES_VERY_HAPPY'			=> 'nagyon boldog',
+	'SMILIES_WINK'					=> 'kacsintás',
+
+	'TOPICS_TOPIC_TITLE'			=> 'Üdvözlünk a phpBB3-ban!',
 ));
 
 ?>
