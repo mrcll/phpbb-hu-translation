@@ -4,7 +4,7 @@
 * posting [Hungarian]
 *
 * @package language
-* @version $Id: posting.php,v 1.10 2007-05-20 16:26:23 fberci Exp $
+* @version $Id: posting.php,v 1.11 2007-05-27 11:21:40 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -159,7 +159,8 @@ $lang = array_merge($lang, array(
 	'POST_REVIEW'				=> 'Új hozzászólások áttekintése', //? "Post review"
 	'POST_REVIEW_EXPLAIN'		=> 'A témába legalább egy új hozzászólás érkezett. Ennek fényében érdemes átnézned a hozzászólásod.', //? "At least one new post has been made to this topic. You may wish to review your post in light of this."
 	'POST_STORED'				=> 'A hozzászólás sikeresen elküldésre került.',
-	'POST_STORED_MOD'			=> 'Az üzenet sikeresen szerkesztésre került, azonban egy moderátornak még jóvá kell hagynia mielőtt mindenki által megtekinthető lenne. Amint jóváhagyásra kerül, értesíteni fogunk.',
+	'POST_STORED_MOD'			=> 'Az üzenet sikeresen szerkesztésre került, azonban egy moderátornak még jóvá kell hagynia mielőtt mindenki által megtekinthető lenne. Amint jóváhag
+	yásra kerül, értesíteni fogunk.',
 	'POST_TOPIC_AS'				=> 'Téma típusa',
 	'PROGRESS_BAR'				=> 'Feltöltés állapota', //? "Progress bar"
 
