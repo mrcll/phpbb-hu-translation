@@ -4,7 +4,7 @@
 * ucp [Hungarian]
 *
 * @package language
-* @version $Id: ucp.php,v 1.25 2007-05-28 08:34:48 fberci Exp $
+* @version $Id: ucp.php,v 1.26 2007-05-28 08:56:47 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -194,7 +194,7 @@ $lang = array_merge($lang, array(
 	'FORCE_PASSWORD_EXPLAIN'	=> 'Mielőtt továbbléphetnél a fórumon, meg kell változtatnod a jelszavad. ',
 	'FRIEND_MESSAGE'			=> 'Üzenet baráttól',
 	'FRIENDS'					=> 'Barátok',
-	'FRIENDS_EXPLAIN'			=> 'A barátok funkció segítségével könnyen elérheted azokat a felhasználókat, akikkel gyakran lépsz kapcsolatba. Ha a sablon támogatja, a barátok hozzászólásai kiemelve szerepelhetnek.', //? hozzáférhetsz...
+	'FRIENDS_EXPLAIN'			=> 'A barátok funkció segítségével könnyen elérheted azokat a felhasználókat, akikkel gyakran lépsz kapcsolatba. Ha a használt megjelenés támogatja, a barátok hozzászólásai kiemelve szerepelhetnek.', //? hozzáférhetsz...
 	'FRIENDS_OFFLINE'			=> 'Offline',
 	'FRIENDS_ONLINE'			=> 'Online',
 	'FRIENDS_UPDATED'			=> 'A barátaid listája sikeresen frissítésre került.',

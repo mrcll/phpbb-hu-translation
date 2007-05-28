@@ -4,7 +4,7 @@
 * mcp [Hungarian]
 *
 * @package language
-* @version $Id: mcp.php,v 1.13 2007-05-20 16:26:23 fberci Exp $
+* @version $Id: mcp.php,v 1.14 2007-05-28 08:56:47 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -207,8 +207,8 @@ $lang = array_merge($lang, array(
 	'NOTIFY_POSTER_DISAPPROVAL'		=> 'Küldő értesítése az elutasításról',
 	'NOTIFY_USER_WARN'				=> 'Felhasználó értesítése a figyelmeztetésről',
 	'NOT_MODERATOR'					=> 'Nem vagy a fórum moderátora.',
-	'NO_DESTINATION_FORUM'			=> 'Kérünk válaszd ki a céltémát.', //? kérünk? "Please select a forum for destination"
-	'NO_DESTINATION_FORUM_FOUND'	=> 'There is no destination forum available.',
+	'NO_DESTINATION_FORUM'			=> 'Céltéma kiválasztása', //? kérünk? "Please select a forum for destination"
+	'NO_DESTINATION_FORUM_FOUND'	=> 'Nincs alkalmazható célfórum.', //? használható, elérhető?
 	'NO_ENTRIES'					=> 'Ebben az időtartamban nincs napló bejegyzés.', //? "No log entries for this period" nyelvtan-fogalmazás-értelem
 	'NO_FEEDBACK'					=> 'Nem tartozik feljegyzés ehhez a felhasználóhoz.',
 	'NO_FINAL_TOPIC_SELECTED'		=> 'Hozzászólások áthelyezésénél meg kell adnod egy céltémát.',

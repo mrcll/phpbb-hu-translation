@@ -4,7 +4,7 @@
 * help_faq [Hungarian]
 *
 * @package language
-* @version $Id: help_faq.php,v 1.10 2007-05-20 16:26:23 fberci Exp $
+* @version $Id: help_faq.php,v 1.11 2007-05-28 08:56:46 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -256,7 +256,7 @@ $help = array(
 	),
 	array(
 		0 => 'Mire valók a barátok és haragosok listák?',
-		1 => 'Ezen listák segítségével rendszerezheted a fórum többi tagját. A barátok listában szereplő felhasználók megjelennek a felhasználói vezérlőpultban, így gyorsan elérheted őket, küldhetsz nekik privát üzenetet, és láthatod, hogy éppen jelen vannak-e. A használt sablon támogatásától függően, a barátok hozzászólásai kiemelve szerepelhetnek. Ha egy felhasználót haragosként jelölsz meg, akkor a hozzászólásai alapból nem fognak megjelenni.'
+		1 => 'Ezen listák segítségével rendszerezheted a fórum többi tagját. A barátok listában szereplő felhasználók megjelennek a felhasználói vezérlőpultban, így gyorsan elérheted őket, küldhetsz nekik privát üzenetet, és láthatod, hogy éppen jelen vannak-e. A használt megjelenés támogatásától függően, a barátok hozzászólásai kiemelve szerepelhetnek. Ha egy felhasználót haragosként jelölsz meg, akkor a hozzászólásai alapból nem fognak megjelenni.'
 	),
 	array(
 		0 => 'Hogyan adhatok hozzá, illetve távolíthatok el felhasználókat a barátok vagy haragosok listáról?',
