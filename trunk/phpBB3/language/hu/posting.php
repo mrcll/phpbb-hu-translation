@@ -4,7 +4,7 @@
 * posting [Hungarian]
 *
 * @package language
-* @version $Id: posting.php,v 1.11 2007-05-27 11:21:40 fberci Exp $
+* @version $Id: posting.php,v 1.12 2007-05-28 08:56:47 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -169,7 +169,7 @@ $lang = array_merge($lang, array(
 	'SAVE'						=> 'Elmentés',
 	'SAVE_DATE'					=> 'Elmentve', //? "Saved at" 'Elmentés időpontja'
 	'SAVE_DRAFT'				=> 'Piszkozat elmentése',
-	'SAVE_DRAFT_CONFIRM'		=> 'Kérjük vedd figyelembe, hogy a piszkozatok csak a témát és az üzenetet tartalmazzák, minden más elem eltávolításra kerül. biztosan el akarod menteni a piszkozatot?', //? element = elem v. tartalom stb.?
+	'SAVE_DRAFT_CONFIRM'		=> 'Kérjük vedd figyelembe, hogy a piszkozatok csak a témát és az üzenetet tartalmazzák, minden más elem eltávolításra kerül. Biztosan el akarod menteni a piszkozatot?', //? element = elem v. tartalom stb.?
 	'SMILIES'					=> 'Emotikonok',
 	'SMILIES_ARE_OFF'			=> 'Emotikonok <em>kikapcsolva</em>',
 	'SMILIES_ARE_ON'			=> 'Emotikonok <em>bekapcsolva</em>',
@@ -189,7 +189,7 @@ $lang = array_merge($lang, array(
 	'TOPIC_BUMPED'				=> 'A téma sikeresen előugrasztásra került.',
 
 	'UNAUTHORISED_BBCODE'		=> 'Bizonyos BBCode-okat nem használhatsz: %s:',
-	'UNGLOBALISE_EXPLAIN'		=> 'Ahhoz, hogy a témát általános közlményből sima témává minősítsd vissza, ki kell választanod egy fórumot, amelyben a téma meg fog jelenni.', //?
+	'UNGLOBALISE_EXPLAIN'		=> 'Ahhoz, hogy a témát globális közleményből sima témává minősítsd vissza, ki kell választanod egy fórumot, amelyben a téma meg fog jelenni.', //?
 	'UPDATE_COMMENT'			=> 'Magyarázat frissítése',
 	'URL_INVALID'				=> 'A megadott URL hibás.',
 	'URL_NOT_FOUND'				=> 'A megadott állomány nem található.',
