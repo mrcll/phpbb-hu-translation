@@ -4,7 +4,7 @@
 * install [Hungarian]
 *
 * @package language
-* @version $Id: install.php,v 1.10 2007-05-20 16:26:23 fberci Exp $
+* @version $Id: install.php,v 1.11 2007-05-28 08:34:48 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -119,11 +119,11 @@ $lang = array_merge($lang, array(
 	'DB_ERR_QUERY_FIRST'		=> 'Hiba a <var>query_first</var> végrahjtása közben.',
 	'DB_ERR_QUERY_FIRST_TABLE'	=> 'Hiba a <var>query_first</var> végrahjtása közben, %s ("%s")', //??
 	'DB_ERR_SELECT'				=> 'Hiba <code>SELECT</code> lekérdezés végrehajtása közben.',
-	'DB_HOST'					=> 'Adatbázisszerver hosztneve vagy DSN', //? biztos, hogy egybeírják; nem 'DSN-je'?
+	'DB_HOST'					=> 'Adatbáziskiszolgáló hosztneve vagy DSN', //? biztos, hogy egybeírják; nem 'DSN-je'?
 	'DB_HOST_EXPLAIN'			=> 'A DSN az angol Data Source Name rövidítése, csak ODBC telepítéskor érdekes.', //? érdekes, lényeges
 	'DB_NAME'					=> 'Adatbázis neve',
 	'DB_PASSWORD'				=> 'Adatbázisjelszó',
-	'DB_PORT'					=> 'Adatbázisszerver portja',
+	'DB_PORT'					=> 'Adatbáziskiszolgáló portja',
 	'DB_PORT_EXPLAIN'			=> 'Hagyd üresen, hacsak nem tudod, hogy a szerver egy nem szabványos porton üzemel.',
 	'DB_USERNAME'				=> 'Adatbázis-felhasználónév',
 	'DB_TEST'					=> 'Kapcsolat tesztelése',
@@ -176,18 +176,18 @@ $lang = array_merge($lang, array(
 	'INITIAL_CONFIG_EXPLAIN'	=> 'Ahozz, hogy a phpBB működni tudjon, meg kell adnod néhány egyedi információt. Ha nem tudod, hogyan tudsz csatlakozni az adatábizodhoz, kérünk lépj kapcsolatba a hoszting szolgáltatóddal, vagy fordulj a phpBB-t támogató fórumokhoz. Mielőtt bármilyen adatot megadsz, kérünk alaposan győződj meg annak helyességéről.', //????? "Now that install has determined your server can run phpBB you need to supply some specific information. If you do not know how to connect to your database please contact your hosting provider (in the first instance) or use the phpBB support forums. When entering data please ensure you check it thoroughly before continuing." nincs értelme... vajon hol használhatják (szerintem sehol!)??
 	'INSTALL_CONGRATS'			=> 'Gratulálunk!',
 	'INSTALL_CONGRATS_EXPLAIN'	=> '
-		<p>Sikeresen telepítetted a phpBB %1$s-t. Most két dolgot tehetesz az újonnan telepített phpBB3-addal:</p>
+		<p>Sikeresen telepítetted a phpBB %1$s-t. Most két dolgot tehetsz az újonnan telepített phpBB3-maddal:</p>
 		<h2>Már meglévő fórum átkonvertálása</h2>
 		<p>A phpBB Egyesített Konvertáló Keretrendszer segítségével át lehet konvertálni phpBB 2.0.x-es és más fórummotort használó fórumokat phpBB3-assá. Ha át szeretnél konvertálni egy már meglévő fórumot, <a href="%2$s">lépj tovább a konvertálóhoz</a>.</p>
-		<h2>phpBB3 használatva vétele</h2>
+		<h2>A fórum használatva vétele</h2>
 		<p>Az alábbi gombra kattintva az adminisztrátori vezérlőpultra jutsz. Szánj rá egy kis időt, és vizsgáld meg a beállítási lehetőségeket. Ne feledkezz meg róla, hogy a phpBB-vel kapcsolatban segítséget nyújt az angol <a href="http://www.phpbb.com/support/documentation/3.0/">Felhasználói kézikönyv</a> és a <a href="http://www.phpbb.com/phpBB/viewforum.php?f=46">phpbb.com megfelelő fóruma</a>; további információkat a <a href="%3$s">README</a>-ben találsz.</p><p><strong>Most kérjük töröld, helyezd át, vagy nevezd át az install könyvtárat, mert amíg ez a könyvtár létezik, csak az adminisztrátori vezérlőpult lesz elérhető.</strong></p>', //? teljes átfogalmazás... TODO (béta)
 	'INSTALL_INTRO'				=> 'Üdvözlünk a telepítőben', //? "Welcome to Installation" 'Üdvözlünk a telepítésnél'
 	'INSTALL_INTRO_BODY'		=> 'Ezen menüpont segítségével feltelepítheted a phpBB-t a szerveredre.</p><p>A folytatás során szükséged lesz az adatbázis adatokra. Ha nem simered ezeket, lépj kapcsolatba a tárhelyszolgáltatóddal, és tájékozódj róluk. Ezen adatok nélkül nem tudsz továbblépni. A következőkre lesz szükséged:</p>
 	<ul>
 		<li>az adatbázis típusára – milyen adatbázisrendszert fogsz használni;</li>
-		<li>az adatbázisszerver hosztnevére vagy DSN-jére – az adatbázisszerver címe, elérhetősége;</li>
-		<li>az adatbázisszerver portjára – milyen porton lehet csatlakozni az adatbázisszerverhez (az esetek nagy többségében ez nem szükséges);</li>
-		<li>az adatbázis nevére – az adatbázis neve a szerveren;</li>
+		<li>az adatbáziskiszolgáló hosztnevére vagy DSN-jére – az adatbáziskiszolgáló címe, elérhetősége;</li>
+		<li>az adatbáziskiszolgáló portjára – milyen porton lehet csatlakozni az adatbáziskiszolgálóhoz (az esetek nagy többségében ez nem szükséges);</li>
+		<li>az adatbázis nevére – az adatbázis neve a kiszolgálón;</li>
 		<li>az adatbázis-felhasználónévre és az ehhez tartozó jelszóra – a kapcsolódáshoz szükséges adatok;</li>
 	</ul>
 
@@ -217,10 +217,10 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_CONNECT'		=> 'Nem sikerült csatlakozni az adatbázishoz. A hibaüzenetet lásd alább.', //? a második mondat kell?
 	'INST_ERR_DB_FORUM_PATH'	=> 'A megadott adatbázis-állomány a fórum könyvtárán belül van. Ezt az állományt egy webről nem elérhető könyvtárba kell raknod.', //? "The database file specified is within your forum directory tree. You should put this file in a non web-accessible location" könyvtárfáján belül?
 	'INST_ERR_DB_NO_ERROR'		=> 'Nincs hibaüzenet.',
-	'INST_ERR_DB_NO_MYSQLI'		=> 'A szerveren lévő MySQL nem kompatibilis a kiválasztott „MySQL MySQLi kiterjesztéssel” csatlakozási móddal. Kérjük a „MySQL”-t válaszd ki.', //?
+	'INST_ERR_DB_NO_MYSQLI'		=> 'A kiszolgálón lévő MySQL nem kompatibilis a kiválasztott „MySQL MySQLi kiterjesztéssel” csatlakozási móddal. Kérjük a „MySQL”-t válaszd ki.', //?
 	'INST_ERR_DB_NO_SQLITE'		=> 'Az SQLite kiterjesztés verziója túl régi, frissíteni kell legalább a 2.8.2-es verzióra.',
-	'INST_ERR_DB_NO_ORACLE'		=> 'A szerveren lévő Oracle verziója megköveteli, hogy a <var>NLS_CHARACTERSET</var> paraméter <var>UTF8</var>-ra legyen állítva. Frissítsd az Oracle verzióját legalább 9.2-esre, vagy változtasd meg a paraméter értékét.',
-	'INST_ERR_DB_NO_FIREBIRD'	=> 'A szerveren lévő Firebird verziója régebbi, mint 2.0, kérünk frissíts egy újabb verzióra. ', //? régebbi, mint 2.0??
+	'INST_ERR_DB_NO_ORACLE'		=> 'A kiszolgálón lévő Oracle verziója megköveteli, hogy a <var>NLS_CHARACTERSET</var> paraméter <var>UTF8</var>-ra legyen állítva. Frissítsd az Oracle verzióját legalább 9.2-esre, vagy változtasd meg a paraméter értékét.',
+	'INST_ERR_DB_NO_FIREBIRD'	=> 'A kiszolgálón lévő Firebird verziója régebbi, mint 2.0, kérünk frissíts egy újabb verzióra. ', //? régebbi, mint 2.0??
 	'INST_ERR_DB_NO_FIREBIRD_PS'=> 'A kiválasztott Firebird adatbázis „page size” értéke kisebb, mint 8192, legalább ennyinek kell lennie.',
 	'INST_ERR_DB_NO_POSTGRES'	=> 'A kiválasztott adatbázis nem <var>UNICODE</var> vagy <var>UTF8</var> karakterkódolással került létrehozásra. Próbáld meg a telepítést egy <var>UNICODE</var> vagy <var>UTF8</var> karakterkódolású adatbázissal. ', //? "The database you have selected was not created in <var>UNICODE</var> or <var>UTF8</var> encoding. Try installing with a database in <var>UNICODE</var> or <var>UTF8</var> encoding" próbáld meg a telepítést??
 	'INST_ERR_DB_NO_NAME'		=> 'Nem adatad meg az adatbázis nevét.',
@@ -511,7 +511,7 @@ $lang = array_merge($lang, array(
 	'UPDATE_DB_SUCCESS'				=> 'Sikeres adatbázis-frissítés',
 
 	'VERSION_CHECK'				=> 'Verzió leellenőrzés',
-	'VERSION_CHECK_EXPLAIN'		=> 'Itt leellenőrzésre kerül, hogy a jelenleg futó phpBB a legfrissebb-e.', //?
+	'VERSION_CHECK_EXPLAIN'		=> 'Itt ellenőrzésre kerül, hogy a jelenleg futó phpBB a legfrissebb-e.',
 	'VERSION_NOT_UP_TO_DATE'	=> 'A phpBB-d verziója nem a legújabb. Kérjük folytasd a frissítési folyamatot.',
 	'VERSION_NOT_UP_TO_DATE_ACP'=> 'A phpBB-d verziója nem a legújabb.<br />Alább találsz egy linket az új verziót bejelentő közleményre és instrukciókat a frissítés elvégzéséhez.', //?
 	'VERSION_UP_TO_DATE'		=> 'A phpBB-d a legfrissebb verziójú, nem érhető el hozzá frissítés. Mindenesetre  továbbléphetsz, és leellenőrizheted az állományokat.', //?
