@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.40 2007-05-20 20:42:42 fberci Exp $
+* @version $Id: common.php,v 1.41 2007-05-28 10:23:51 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -483,7 +483,7 @@ $lang = array_merge($lang, array(
 	'SECONDS'					=> 'másodperc',
 	'SELECT'					=> 'Kiválasztás',
 	'SELECT_ALL_CODE'			=> 'Teljes kiválasztása',
-	'SELECT_DESTINATION_FORUM'	=> 'Kérünk válaszd ki a célfórumot.',
+	'SELECT_DESTINATION_FORUM'	=> 'Célfórum kiválasztása',
 	'SELECT_FORUM'				=> 'Fórum kiválasztása',
 	'SEND_EMAIL'				=> 'E-mail küldése',
 	'SEND_PRIVATE_MESSAGE'		=> 'Privát üzenet küldése',
