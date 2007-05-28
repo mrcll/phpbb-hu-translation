@@ -4,7 +4,7 @@
 * mcp [Hungarian]
 *
 * @package language
-* @version $Id: mcp.php,v 1.14 2007-05-28 08:56:47 fberci Exp $
+* @version $Id: mcp.php,v 1.15 2007-05-28 10:23:51 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -154,7 +154,7 @@ $lang = array_merge($lang, array(
 	'MCP_MAKE_STICKY_CONFIRM'		=> 'Biztosan kiemeltté akarod tenni ezt a témát?',
 	'MCP_MAKE_STICKIES'				=> 'Kiemeltté tétel',
 	'MCP_MAKE_STICKIES_CONFIRM'		=> 'Biztosan kiemeltté akarod tenni a kiválasztott témákat?',
-	'MCP_MAKE_NORMAL'				=> 'Normáli témává tétel',
+	'MCP_MAKE_NORMAL'				=> 'Normál témává tétel',
 	'MCP_MAKE_NORMAL_CONFIRM'		=> 'Biztosan normál témává akarod tenni ezt a témát?',
 	'MCP_MAKE_NORMALS'				=> 'Normál témává tétel',
 	'MCP_MAKE_NORMALS_CONFIRM'		=> 'Biztosan normál témává akarod tenni a kiválsztott témákat?',
@@ -207,7 +207,7 @@ $lang = array_merge($lang, array(
 	'NOTIFY_POSTER_DISAPPROVAL'		=> 'Küldő értesítése az elutasításról',
 	'NOTIFY_USER_WARN'				=> 'Felhasználó értesítése a figyelmeztetésről',
 	'NOT_MODERATOR'					=> 'Nem vagy a fórum moderátora.',
-	'NO_DESTINATION_FORUM'			=> 'Céltéma kiválasztása', //? kérünk? "Please select a forum for destination"
+	'NO_DESTINATION_FORUM'			=> 'Kérünk válaszd ki a célfórumot.', //? kérünk? "Please select a forum for destination"
 	'NO_DESTINATION_FORUM_FOUND'	=> 'Nincs alkalmazható célfórum.', //? használható, elérhető?
 	'NO_ENTRIES'					=> 'Ebben az időtartamban nincs napló bejegyzés.', //? "No log entries for this period" nyelvtan-fogalmazás-értelem
 	'NO_FEEDBACK'					=> 'Nem tartozik feljegyzés ehhez a felhasználóhoz.',
@@ -317,7 +317,7 @@ $lang = array_merge($lang, array(
 	'TOPIC_RESYNC_SUCCESS'		=> 'A kiválasztott téma szinkronizálásra került.',
 	'TOPIC_SPLIT_SUCCESS'		=> 'A kiválasztott téma sikeresen szétválasztásra került.',
 	'TOPIC_TIME'				=> 'Témanyitás ideje', //? Eredetileg post time és topic time van, nálunk a post time-ból elküldés ideje lett, így kicsit félreérthető - az elküldés idejét meg kell változtani hozzászólás idejére?
-	'TOPIC_TYPE_CHANGED'		=> 'A téma típus sikeresn megváltoztatásra került',
+	'TOPIC_TYPE_CHANGED'		=> 'A téma típusa sikeresen megváltoztatásra került',
 	'TOPIC_UNLOCKED_SUCCESS'	=> 'A kiválasztott téma megnyitásra került.',
 	'TOTAL_WARNINGS'			=> 'Figyelmeztetések száma',
 
