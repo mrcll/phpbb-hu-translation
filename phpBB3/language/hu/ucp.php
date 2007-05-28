@@ -4,7 +4,7 @@
 * ucp [Hungarian]
 *
 * @package language
-* @version $Id: ucp.php,v 1.24 2007-05-20 16:26:23 fberci Exp $
+* @version $Id: ucp.php,v 1.25 2007-05-28 08:34:48 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -189,7 +189,7 @@ $lang = array_merge($lang, array(
 	'FOLDER_OPTIONS'			=> 'Mappa beállítások',
 	'FOLDER_RENAMED'			=> 'A mappa sikeresen átnevezésre került.',
 	'FOLDER_REMOVED'			=> 'A mappa sikeresen törlésre került.',
-	'FOLDER_STATUS_MSG'			=> 'A mappa %1$d%%-a telt meg (%2$d / %3$d üzenet).', //? 'tele van'?
+	'FOLDER_STATUS_MSG'			=> 'A mappa %1$d%%-a telt meg. (%2$d / %3$d üzenet)',
 	'FORWARD_PM'				=> 'PÜ továbbítása',
 	'FORCE_PASSWORD_EXPLAIN'	=> 'Mielőtt továbbléphetnél a fórumon, meg kell változtatnod a jelszavad. ',
 	'FRIEND_MESSAGE'			=> 'Üzenet baráttól',
