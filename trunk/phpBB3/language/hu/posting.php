@@ -4,7 +4,7 @@
 * posting [Hungarian]
 *
 * @package language
-* @version $Id: posting.php,v 1.13 2007-05-28 10:23:51 fberci Exp $
+* @version $Id: posting.php,v 1.14 2007-05-29 14:29:12 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -40,6 +40,7 @@ $lang = array_merge($lang, array(
 	'ATTACH_QUOTA_REACHED'		=> 'Megtelt a fórum csatolmányainak fenntartott terület.', //?? "Sorry, the board attachment quota has been reached."
 	'ATTACH_SIG'				=> 'Aláírás hozzáadása (az aláírásod a felhasználói vezérlőpultban változtathatod meg)',
 
+	'BBCODE_A_HELP'				=> 'Csatolmány beszúrása: [attachment=]állománynév.txt[/attachment]',
 	'BBCODE_B_HELP'				=> 'Félkövér: [b]szöveg[/b]',
 	'BBCODE_C_HELP'				=> 'Kód: [code]kód[/code]',
 	'BBCODE_E_HELP'				=> 'Lista: lista elem hozzáadása',
@@ -48,6 +49,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_IS_ON'				=> '%sBBCode%s <em>bekapcsolva</em>',
 	'BBCODE_I_HELP'				=> 'Dőlt: [i]szöveg[/i]',
 	'BBCODE_L_HELP'				=> 'Lista: [list]szöveg[/list]',
+	'BBCODE_LISTITEM_HELP'		=> 'Listaelem: [*]szöveg[/*]',
 	'BBCODE_O_HELP'				=> 'Rendezett lista: [list=]szöveg[/list]',
 	'BBCODE_P_HELP'				=> 'Kép: [img]http://kep_url[/img]',
 	'BBCODE_Q_HELP'				=> 'Idézet: [quote]szöveg[/quote]',
