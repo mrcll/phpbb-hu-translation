@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.41 2007-05-28 10:23:51 fberci Exp $
+* @version $Id: common.php,v 1.42 2007-05-29 14:29:12 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -74,10 +74,10 @@ $lang = array_merge($lang, array(
 	'AVATAR_EMPTY_FILEUPLOAD'		=> 'A feltöltött avatar állomány üres.',
 	'AVATAR_INVALID_FILENAME'		=> 'Hibás állománynév: %s',
 	'AVATAR_NOT_UPLOADED'			=> 'Nem sikerült feltölteni az avatart.',
-	'AVATAR_NO_SIZE'				=> 'Nem sikerült meghatározni a belinkelt avatar szélességét és magasságát, kérjük add meg kézzel.',
+	'AVATAR_NO_SIZE'				=> 'Nem sikerült meghatározni a belinkelt avatar szélességét és magasságát, kérjük, add meg kézzel.',
 	'AVATAR_PARTIAL_UPLOAD'			=> 'Az avatart csak részben sikerült feltölteni.',
 	'AVATAR_PHP_SIZE_NA'			=> 'Az avatar állomány mérete túl nagy.<br />Nem sikerült megállapítani a PHP php.ini-jében meghatározott maximum méretet.',
-	'AVATAR_PHP_SIZE_OVERRUN'		=> 'Az avatar állomány mérete túl nagy, a maximum feltölthető méret %d MB.<br />Kérjük vedd figyelembe, hogy ez a php.ini-ben van meghatározva ezért nem írható felül.',
+	'AVATAR_PHP_SIZE_OVERRUN'		=> 'Az avatar állomány mérete túl nagy, a maximum feltölthető méret %d MB.<br />Kérjük, vedd figyelembe, hogy ez a php.ini-ben van meghatározva ezért nem írható felül.',
 	'AVATAR_URL_INVALID'			=> 'A megadott URL hibás.',
 	'AVATAR_URL_NOT_FOUND'			=> 'A megadott állomány nem található.',
 	'AVATAR_WRONG_FILESIZE'			=> 'Az avatarnak 0 és %1d %2s között kell lennie.',
@@ -150,7 +150,8 @@ $lang = array_merge($lang, array(
 	'EMAIL'								=> 'E-mail',
 	'EMAIL_ADDRESS'						=> 'E-mail cím',
 	'EMAIL_SMTP_ERROR_RESPONSE'			=> 'Problémába ütköztünk egy levél elküldése során a <strong>%1$s.</strong> sorban. Válasz: %2$s',
-	'EMPTY_SUBJECT'						=> 'Meg kell adnod a témát.',
+	'EMPTY_SUBJECT'						=> 'Új téma indításához meg kell adnod a téma címét.',
+	'EMPTY_MESSAGE_SUBJECT'				=> 'Az üzenetnek meg kell adnod a tárgyát.',
 	'ENABLED'							=> 'Bekapcsolva',
 	'ENCLOSURE'							=> 'Körülhatárolójel',
 	'ERR_CHANGING_DIRECTORY'			=> 'Nem sikerült megváltoztatni a könyvtárat.',
@@ -284,10 +285,10 @@ $lang = array_merge($lang, array(
 	'LOGIN_ERROR_ATTEMPTS'				=> 'Túllépted az engedélyezett belépési kísérletek számát. Ezért a felhasználóneved és a jelszavad mellett most meg kell adnod az alábbi képen látható megerősítő kódot is.',
 	'LOGIN_ERROR_EXTERNAL_AUTH_APACHE'	=> 'Az Apache szervernek nem sikerült azonosítania téged.',
 	'LOGIN_ERROR_PASSWORD'				=> 'Rossz jelszót adtál meg. Ellenőrizd le a jelszavad, majd próbálkozz újra. Ha továbbra is gondjaid lennének, lépj kapcsolatba a %sfórum adminisztrátorával%s.',
-	'LOGIN_ERROR_PASSWORD_CONVERT'		=> 'Nem sikerült átkonvertálni a jelszavad a fórum szoftverének frissítése során. Kérünk %igényelj egy új jelszót%s. Ha továbbra is problémáid lennének, lépj kapcsolatba a %sfórum adminisztrátorával%s.',
+	'LOGIN_ERROR_PASSWORD_CONVERT'		=> 'Nem sikerült átkonvertálni a jelszavad a fórum szoftverének frissítése során. Kérünk, %igényelj egy új jelszót%s. Ha továbbra is problémáid lennének, lépj kapcsolatba a %sfórum adminisztrátorával%s.',
 	'LOGIN_ERROR_USERNAME'				=> 'Rossz felhasználónevet adtál meg. Ellenőrizd le a felhasználónevet, majd próbálkozz újra. Ha továbbra is gondjaid lennének, lépj kapcsolatba a %sfórum adminisztrátorával%s.',
 	'LOGIN_FORUM'						=> 'A fórum megtekintéséhez vagy a hozzászóláshoz, meg kell adnod a jelszavát.', //?
-	'LOGIN_INFO'						=> 'A belépéshez regisztrált felhasználónak kell lenned. A regisztráció csupán néhány másodpercet vesz igénybe, de számos előnnyel jár, az adminisztrátor például így tud külön jogosultságokat adni. A belépés előtt győződj meg róla, hogy elfogadod a felhasználási feltételeinket, valamint egyetértesz az adatvédelmi nyilatkozatunkkal. Kérjük olvasd el a fórumok szabályzatát is!',
+	'LOGIN_INFO'						=> 'A belépéshez regisztrált felhasználónak kell lenned. A regisztráció csupán néhány másodpercet vesz igénybe, de számos előnnyel jár, az adminisztrátor például így tud külön jogosultságokat adni. A belépés előtt győződj meg róla, hogy elfogadod a felhasználási feltételeinket, valamint egyetértesz az adatvédelmi nyilatkozatunkkal. Kérjük, olvasd el a fórumok szabályzatát is!',
 	'LOGIN_VIEWFORUM'					=> 'Csak reigsztrált felhasználók tekinthetik meg ezt a fórumot.',
 	'LOGIN_EXPLAIN_EDIT'				=> 'Csak reigsztrált felhasználók szerkeszthetik a hozzászólásaikat ebben a fórumban.',
 	'LOGOUT'							=> 'Kilépés',
@@ -330,8 +331,8 @@ $lang = array_merge($lang, array(
 	'NOT_AUTHORISED'			=> 'Nincs jogosultságod hozzáférni ehhez a részhez.',
 	'NOT_WATCHING_FORUM'		=> 'Sikeresen leiratkoztál a fórumról.',
 	'NOT_WATCHING_TOPIC'		=> 'Sikeresen leiratkoztál a témáról.',
-	'NOTIFY_ADMIN'				=> 'Kérjük értesítsd a fórum adminisztrátorát vagy a webmestert.',
-	'NOTIFY_ADMIN_EMAIL'		=> 'Kérjük értesítsd a fórum adminisztrátorát vagy a webmestert: <a href="mailto:%1$s">%1$s</a>',
+	'NOTIFY_ADMIN'				=> 'Kérjük, értesítsd a fórum adminisztrátorát vagy a webmestert.',
+	'NOTIFY_ADMIN_EMAIL'		=> 'Kérjük, értesítsd a fórum adminisztrátorát vagy a webmestert: <a href="mailto:%1$s">%1$s</a>',
 	'NO_ACCESS_ATTACHMENT'		=> 'Nincs jogosultságod hozzáférni ehhez az állományhoz.',
 	'NO_ACTION'					=> 'Nincs semmilyen teendő.',
 	'NO_ADMINISTRATORS'			=> 'A fórumnak nincs adminisztrátora.',
