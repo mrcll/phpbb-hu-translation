@@ -4,7 +4,7 @@
 * install [Hungarian]
 *
 * @package language
-* @version $Id: install.php,v 1.13 2007-05-29 14:29:12 fberci Exp $
+* @version $Id: install.php,v 1.14 2007-05-30 20:30:33 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -555,7 +555,7 @@ $lang = array_merge($lang, array(
 	'SMILIES_EMARRASSED'			=> 'zavarban',
 	'SMILIES_EVIL'					=> 'gonosz vagy nagyon őrült',
 	'SMILIES_EXCLAMATION'			=> 'felkiáltás',
-	'SMILIES_GEEK'					=> 'geek', // még nem jöttem rá a pontos jelentésére, de az idő eléggé sürget ;)
+	'SMILIES_GEEK'					=> 'kocka',
 	'SMILIES_IDEA'					=> 'ötlet',
 	'SMILIES_LAUGHING'				=> 'nevet',
 	'SMILIES_MAD'					=> 'őrült',
@@ -569,7 +569,7 @@ $lang = array_merge($lang, array(
 	'SMILIES_SMILE'					=> 'mosoly',
 	'SMILIES_SURPRISED'				=> 'meglepett',
 	'SMILIES_TWISTED_EVIL'			=> 'nagyon gonosz',
-	'SMILIES_UBER_GEEK'				=> 'nagyon geek', //? lásd fentebb
+	'SMILIES_UBER_GEEK'				=> 'durván kocka', //? über kocka? (nagyon?)
 	'SMILIES_VERY_HAPPY'			=> 'nagyon boldog',
 	'SMILIES_WINK'					=> 'kacsintás',
 

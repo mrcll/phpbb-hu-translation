@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.42 2007-05-29 14:29:12 fberci Exp $
+* @version $Id: common.php,v 1.43 2007-05-30 20:30:33 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -151,7 +151,7 @@ $lang = array_merge($lang, array(
 	'EMAIL_ADDRESS'						=> 'E-mail cím',
 	'EMAIL_SMTP_ERROR_RESPONSE'			=> 'Problémába ütköztünk egy levél elküldése során a <strong>%1$s.</strong> sorban. Válasz: %2$s',
 	'EMPTY_SUBJECT'						=> 'Új téma indításához meg kell adnod a téma címét.',
-	'EMPTY_MESSAGE_SUBJECT'				=> 'Az üzenetnek meg kell adnod a tárgyát.',
+	'EMPTY_MESSAGE_SUBJECT'				=> 'Az üzenetnek meg kell adnod a témáját.',
 	'ENABLED'							=> 'Bekapcsolva',
 	'ENCLOSURE'							=> 'Körülhatárolójel',
 	'ERR_CHANGING_DIRECTORY'			=> 'Nem sikerült megváltoztatni a könyvtárat.',
