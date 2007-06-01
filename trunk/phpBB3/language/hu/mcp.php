@@ -4,7 +4,7 @@
 * mcp [Hungarian]
 *
 * @package language
-* @version $Id: mcp.php,v 1.16 2007-06-01 14:21:20 fberci Exp $
+* @version $Id: mcp.php,v 1.17 2007-06-01 15:00:55 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -289,7 +289,7 @@ $lang = array_merge($lang, array(
 	'SORT_WARNINGS'						=> 'Figyelmeztetések', //? száma
 	'SPLIT_AFTER'						=> 'Szétválasztás a kiválsztott hozzászólástól',
 	'SPLIT_FORUM'						=> 'Új téma fóruma',
-	'SPLIT_POSTS'						=> 'Kiválsztott hozzászólások szétválasztása',
+	'SPLIT_POSTS'						=> 'Kiválasztott hozzászólások szétválasztása',
 	'SPLIT_SUBJECT'						=> 'Új téma címe',
 	'SPLIT_TOPIC_ALL'					=> 'Kiválasztott hozzászólások szétválasztása a témából', //?
 	'SPLIT_TOPIC_ALL_CONFIRM'			=> 'Biztosan szét akarod választani ezt a témát?', //?

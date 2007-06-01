@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.44 2007-06-01 14:21:20 fberci Exp $
+* @version $Id: common.php,v 1.45 2007-06-01 15:00:55 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -302,7 +302,7 @@ $lang = array_merge($lang, array(
 	'MCP'					=> 'Moderátori vezérlőpult',
 	'MEMBERLIST'			=> 'Taglista',
 	'MEMBERLIST_EXPLAIN'	=> 'Felhasználók listájának megtekintése',
-	'MERGE'					=> 'Áthelyezés', //? ezt jelenti
+	'MERGE'					=> 'Összevonás',
 	'MERGE_POSTS'			=> 'Hozzászólások áthelyezése',
 	'MERGE_TOPIC'			=> 'Téma összevonása',
 	'MESSAGE'				=> 'Üzenet',
