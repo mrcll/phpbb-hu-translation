@@ -4,7 +4,7 @@
 * groups [Hungarian]
 *
 * @package language
-* @version $Id: groups.php,v 1.7 2007-05-20 16:26:23 fberci Exp $
+* @version $Id: groups.php,v 1.8 2007-06-01 14:21:20 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -53,7 +53,7 @@ $lang = array_merge($lang, array(
 	'GROUP_JOIN_PENDING'				=> 'Tagság kérelmezése',
 	'GROUP_JOIN_PENDING_CONFIRM'		=> 'Biztosan kérni akarod a felvételed a kiválsztott csoportba?',
 	'GROUP_JOINED'						=> 'Sikeresen csatlakoztál a kiválasztott csoporthoz.',
-	'GROUP_JOINED_PENDING'				=> 'Sikeresen kérelmezted a feléveteled a csoportba. Kérjük várj, míg egy csoportvezető elfogadja a jelentkezésed.',
+	'GROUP_JOINED_PENDING'				=> 'Sikeresen kérelmezted a feléveteled a csoportba. Kérjük, várj, míg egy csoportvezető elfogadja a jelentkezésed.',
 	'GROUP_LIST'						=> 'Felhasználók kezelése',
 	'GROUP_MEMBERS'						=> 'Csoporttagok',
 	'GROUP_NAME'						=> 'Csoport neve',

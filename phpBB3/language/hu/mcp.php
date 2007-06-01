@@ -4,7 +4,7 @@
 * mcp [Hungarian]
 *
 * @package language
-* @version $Id: mcp.php,v 1.15 2007-05-28 10:23:51 fberci Exp $
+* @version $Id: mcp.php,v 1.16 2007-06-01 14:21:20 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -207,7 +207,7 @@ $lang = array_merge($lang, array(
 	'NOTIFY_POSTER_DISAPPROVAL'		=> 'Küldő értesítése az elutasításról',
 	'NOTIFY_USER_WARN'				=> 'Felhasználó értesítése a figyelmeztetésről',
 	'NOT_MODERATOR'					=> 'Nem vagy a fórum moderátora.',
-	'NO_DESTINATION_FORUM'			=> 'Kérünk válaszd ki a célfórumot.', //? kérünk? "Please select a forum for destination"
+	'NO_DESTINATION_FORUM'			=> 'Kérünk, válaszd ki a célfórumot.', //? kérünk? "Please select a forum for destination"
 	'NO_DESTINATION_FORUM_FOUND'	=> 'Nincs alkalmazható célfórum.', //? használható, elérhető?
 	'NO_ENTRIES'					=> 'Ebben az időtartamban nincs napló bejegyzés.', //? "No log entries for this period" nyelvtan-fogalmazás-értelem
 	'NO_FEEDBACK'					=> 'Nem tartozik feljegyzés ehhez a felhasználóhoz.',
@@ -216,7 +216,7 @@ $lang = array_merge($lang, array(
 	'NO_POST'						=> 'Ki kell választanod egy hozzászólást, hogy figyelmeztethesd a felhasználót egy hozzászólásáért.', //? Furán hangzik, de nagyjából erről van szó... :)
 	'NO_POST_REPORT'				=> 'Ezt a hozzászólást nem jelentették.',
 	'NO_POST_SELECTED'				=> 'Legalább egy hozzászólást ki kell választanod, hogy elvégezhesd ezt a műveletet.', //? végrehajthasd?
-	'NO_REASON_DISAPPROVAL'			=> 'Kérünk adj meg egy megfelelő okot az elutasításra.', //?? appropriate??
+	'NO_REASON_DISAPPROVAL'			=> 'Kérünk, adj meg egy megfelelő okot az elutasításra.', //?? appropriate??
 	'NO_REPORT'						=> 'Nincs ilyen jelentés.', //? erre használják?
 	'NO_REPORTS'					=> 'Nincsenek jelentések.',	
 	'NO_REPORT_SELECTED'			=> 'Legalább egy jelentést ki kell választanod, hogy végrehajthasd ezt a műveletet.',
@@ -362,7 +362,7 @@ $lang = array_merge($lang, array(
 			'WAREZ'		=> 'A hozzászólás linket tartalmaz illegális vagy kalóz szoftverre.', //? fogalmzás, szórend stb. kell pont?
 			'SPAM'		=> 'A hozzászólás egyetlen célja egy weboldal vagy egy termék reklámozása.',
 			'OFF_TOPIC'	=> 'A hozzászólás nem kapcsolódik a témához.',
-			'OTHER'		=> 'A hozzászólás nem tartozik semelyik másik kategóriába, kérjük töltsd ki a további információ mezőt.' //? idézőjelek a további információ köré (+ esetleg további információk)?
+			'OTHER'		=> 'A hozzászólás nem tartozik semelyik másik kategóriába, kérjük, töltsd ki a további információ mezőt.' //? idézőjelek a további információ köré (+ esetleg további információk)?
 		)
 	),
 ));
