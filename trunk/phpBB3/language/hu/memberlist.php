@@ -4,7 +4,7 @@
 * memberlist [Hungarian]
 *
 * @package language
-* @version $Id: memberlist.php,v 1.10 2007-05-29 14:29:12 fberci Exp $
+* @version $Id: memberlist.php,v 1.11 2007-06-01 14:21:20 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 	'EMAIL_BODY_EXPLAIN'	=> 'Az üzenet sima szövegként kerül elküldésre, ne használj HTML-t vagy BBCode-ot. Az üzenet válaszcíme a te e-mail címed lesz.',
 	'EMAIL_DISABLED'		=> 'Sajnáljuk, de az e-mailküldéssel kapcsolatos funkciók kikapcsolásra kerültek.', //?
 	'EMAIL_SENT'			=> 'Az e-mail sikeresen elküldésre került.',
-	'EMAIL_TOPIC_EXPLAIN'	=> 'Az üzenet sima szövegként kerül elküldésre, ne használj HTML-t vagy BBCode-ot. Kérjük vedd figyelembe, hogy az üzenet már tartalmazza a témával kapcsolatos információkat. Az üzenet válaszcíme a te e-mail címed lesz.',
+	'EMAIL_TOPIC_EXPLAIN'	=> 'Az üzenet sima szövegként kerül elküldésre, ne használj HTML-t vagy BBCode-ot. Kérjük, vedd figyelembe, hogy az üzenet már tartalmazza a témával kapcsolatos információkat. Az üzenet válaszcíme a te e-mail címed lesz.',
 	'EMPTY_ADDRESS_EMAIL'	=> 'Meg kell adnod a címzett valódi e-mail címét.',
 	'EMPTY_MESSAGE_EMAIL'	=> 'Nem küldhetsz üres üzenetet.',
 	'EMPTY_NAME_EMAIL'		=> 'Meg kell adnod a címzett valódi nevét.',
@@ -59,21 +59,21 @@ $lang = array_merge($lang, array(
 	'EQUAL_TO'				=> 'Annyi, mint', //?
 
 	'FIND_USERNAME_EXPLAIN'	=> 'Ennek az űrlapnak a segítségével konkrét felhasználókra kereshetsz rá. Nem kell az összes mezőt kitöltened. Részleges szavakhoz használd a * jokerkaraktert. A dátumokat <kbd>ÉÉÉÉ-HH-NN</kbd> formában add meg (például <samp>2004-02-29</samp>). Használd a jelölőnégyzeteket egy vagy több felhasználó kiválasztásához (az űrlaptól függ, hányat választhatsz ki), majd kattints a kijelöltek kiválasztása gombra, hogy visszatérj az előző űrlaphoz.', //? YYYY-MM-DD '... konkrét felhasználókat kereshetsz (meg) ...'
-	'FLOOD_EMAIL_LIMIT'		=> 'Most nem küldhetsz több e-mailt. Kérjük próbálkozz később.',
+	'FLOOD_EMAIL_LIMIT'		=> 'Most nem küldhetsz több e-mailt. Kérjük, próbálkozz később.',
 
 	'GROUP_LEADER'			=> 'Csoportvezető',
 
 	'HIDE_MEMBER_SEARCH'	=> 'Felhasználó keresésének elrejtése', //?
 
 	'IM_ADD_CONTACT'		=> 'Felvétel a kapcsolatok közé', //??
-	'IM_AIM'				=> 'Kérjük vedd figyelembe, hogy ennek használatához szükséged van az AOL Instant Messenger programra.', //?
+	'IM_AIM'				=> 'Kérjük, vedd figyelembe, hogy ennek használatához szükséged van az AOL Instant Messenger programra.', //?
 	'IM_AIM_EXPRESS'		=> 'AIM Express',
 	'IM_DOWNLOAD_APP'		=> 'Alkalmazás letöltése',
-	'IM_ICQ'				=> 'Kérjük vedd figyelembe, hogy a felhasználók lehet, hogy beállították, hogy ne kapjanak kéretlen üzeneteket.', //? hogy...
-	'IM_JABBER'				=> 'Kérjük vedd figyelembe, hogy a felhasználók lehet, hogy beállították, hogy ne kapjanak kéretlen üzeneteket.',
-	'IM_JABBER_SUBJECT'		=> 'Ez egy automatikus üzenet, kérjük ne válaszolj! Üzenet %1$s felhasználótól %2$s-kor.',
+	'IM_ICQ'				=> 'Kérjük, vedd figyelembe, hogy a felhasználók lehet, hogy beállították, hogy ne kapjanak kéretlen üzeneteket.', //? hogy...
+	'IM_JABBER'				=> 'Kérjük, vedd figyelembe, hogy a felhasználók lehet, hogy beállították, hogy ne kapjanak kéretlen üzeneteket.',
+	'IM_JABBER_SUBJECT'		=> 'Ez egy automatikus üzenet, kérjük, ne válaszolj! Üzenet %1$s felhasználótól %2$s-kor.',
 	'IM_MESSAGE'			=> 'Az üzeneted',
-	'IM_MSNM'				=> 'Kérjük vedd figyelembe, hogy ennek használatához szükséged van a Windows Messenger programra.', //?
+	'IM_MSNM'				=> 'Kérjük, vedd figyelembe, hogy ennek használatához szükséged van a Windows Messenger programra.', //?
 	'IM_MSNM_BROWSER'		=> 'Sajnos a böngésződ nem támogatja ezt.',
 	'IM_MSNM_CONNECT'		=> 'Az MSNM nem csatlakozott.\nKapcsolódnod kell az MSNM-hez a folytatáshoz.', //???
 	'IM_NAME'				=> 'Neved',

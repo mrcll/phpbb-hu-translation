@@ -4,7 +4,7 @@
 * help_faq [Hungarian]
 *
 * @package language
-* @version $Id: help_faq.php,v 1.11 2007-05-28 08:56:46 fberci Exp $
+* @version $Id: help_faq.php,v 1.12 2007-06-01 14:21:20 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -60,7 +60,7 @@ $help = array(
 	),
 	array(
 		0 => 'Mi az a COPPA?',
-		1 => 'A COPPA, vagyis az 1998-as „Child Online Privacy and Protection Act” (gyerekek online adatvédelméről intézkedő törvény) egy egyesült állomokbeli törvény, mely megköveteli a honlapoktól, hogy írásos szülői vagy gondviselői beleegyezéssel rendelkezzenek 13 éven aluli személyektől való adatgyűjtéshez. Ez a törvény csak az Amerikai Egyesült Államokban lévő szervereken működő fórumokra érvényes, tehát Magyarországon nem. Ha nem vagy biztos benne, hogy ez a törvény vonatkozik-e rád, vagy a fórumra, melyre regisztrálsz, kérj jogi segítséget. Kérjük tartsd szem előtt, hogy a phpBB Group nem tud jogi tanácsot adni, és az alább leírtakon kívül semmilyen aggály esetén sem hozzájuk kell fordulni.', //? az első mondatot kicsit leegyszerűsítettem - úgy se lényegesek a részletek
+		1 => 'A COPPA, vagyis az 1998-as „Child Online Privacy and Protection Act” (gyerekek online adatvédelméről intézkedő törvény) egy egyesült állomokbeli törvény, mely megköveteli a honlapoktól, hogy írásos szülői vagy gondviselői beleegyezéssel rendelkezzenek 13 éven aluli személyektől való adatgyűjtéshez. Ez a törvény csak az Amerikai Egyesült Államokban lévő szervereken működő fórumokra érvényes, tehát Magyarországon nem. Ha nem vagy biztos benne, hogy ez a törvény vonatkozik-e rád, vagy a fórumra, melyre regisztrálsz, kérj jogi segítséget. Kérjük, tartsd szem előtt, hogy a phpBB Group nem tud jogi tanácsot adni, és az alább leírtakon kívül semmilyen aggály esetén sem hozzájuk kell fordulni.', //? az első mondatot kicsit leegyszerűsítettem - úgy se lényegesek a részletek
 	),
 	array(
 		0 => 'Miért nem tudok regisztrálni?',
@@ -80,7 +80,7 @@ $help = array(
 	),
 	array(
 		0 => 'Nem pontos az idő!',
-		1 => 'Feltehetően az időpontok más időzóna szerint kerülnek megjelenítésre, mint amiben vagy. Ez esetben változtasd meg a felhasználói vezérlőpultban az időzónád a tartózkodási helyednek megfelelően. Kérjük vedd figyelembe, hogy az időzónát – mint a legtöbb más felhasználói beállítást – csak regisztrált felhasználók változtathatják meg. Tehát ha még nem regisztráltál, ez egy jó alakalom, hogy megtedd.'
+		1 => 'Feltehetően az időpontok más időzóna szerint kerülnek megjelenítésre, mint amiben vagy. Ez esetben változtasd meg a felhasználói vezérlőpultban az időzónád a tartózkodási helyednek megfelelően. Kérjük, vedd figyelembe, hogy az időzónát – mint a legtöbb más felhasználói beállítást – csak regisztrált felhasználók változtathatják meg. Tehát ha még nem regisztráltál, ez egy jó alakalom, hogy megtedd.'
 	),
 	array(
 		0 => 'Megváltoztattam az időzónát, de még mindig pontatlan az idő!',
@@ -112,7 +112,7 @@ $help = array(
 	),
 	array(
 		0 => 'Hogyan szerkeszthetek, illetve törölhetek egy hozzászólást?',
-		1 => 'Ha nem vagy adminisztrátor vagy moderátor, akkor csak azokat a hozzászólásokat szerkesztheted vagy törölheted, melyeket te küldtél. Egy hozzászólást (általában csak a beküldés utáni korlátozott időtartamban) a 	<em>szerkesztés</em> gombra kattintva tudsz szerkeszteni. Abban az esetben, ha valaki már válaszolt a hozzászólásodra, a hozzászólásod alatt egy apró szöveg fog megjelenni, mely jelzi, a hozzászólás hányszor és ki által került szerkesztésre. Ez nem fog megjelenni, ha még nem válaszolt senki, illetve ha egy moderátor vagy egy adminisztrátor szerkesztette a hozzászólásod, bár ők hagyhatnak egy megjegyzést jelezve a szerkesztést okát. Kérjük vedd figyelembe, hogy a normál felhasználók nem törölhetik a hozzászólásukat, miután már másvalaki válaszolt.'
+		1 => 'Ha nem vagy adminisztrátor vagy moderátor, akkor csak azokat a hozzászólásokat szerkesztheted vagy törölheted, melyeket te küldtél. Egy hozzászólást (általában csak a beküldés utáni korlátozott időtartamban) a 	<em>szerkesztés</em> gombra kattintva tudsz szerkeszteni. Abban az esetben, ha valaki már válaszolt a hozzászólásodra, a hozzászólásod alatt egy apró szöveg fog megjelenni, mely jelzi, a hozzászólás hányszor és ki által került szerkesztésre. Ez nem fog megjelenni, ha még nem válaszolt senki, illetve ha egy moderátor vagy egy adminisztrátor szerkesztette a hozzászólásod, bár ők hagyhatnak egy megjegyzést jelezve a szerkesztést okát. Kérjük, vedd figyelembe, hogy a normál felhasználók nem törölhetik a hozzászólásukat, miután már másvalaki válaszolt.'
 	),
 	array(
 		0 => 'Hogyan csatolhatom az aláírásomat a hozzászólásomhoz?',
@@ -140,7 +140,7 @@ $help = array(
 	),
 	array(
 		0 => 'Miért kaptam figyelmeztetést?',
-		1 => 'Minden adminisztrátornak megvan a saját szabályzata az oldalára. Ha úgy érzik, megsértettél egy szabályt, figyelmeztethetnek téged. Kérjük vedd figyelembe, hogy ez a fórum adminisztrátorának döntése – a phpBB Groupnak semmi köze nincs a fórumokon kiosztott figyelmeztetésekhez.'
+		1 => 'Minden adminisztrátornak megvan a saját szabályzata az oldalára. Ha úgy érzik, megsértettél egy szabályt, figyelmeztethetnek téged. Kérjük, vedd figyelembe, hogy ez a fórum adminisztrátorának döntése – a phpBB Groupnak semmi köze nincs a fórumokon kiosztott figyelmeztetésekhez.'
 	),
 	array(
 		0 => 'Hogyan jelenthetek egy hozzászólást a moderátoroknak?',
@@ -152,7 +152,7 @@ $help = array(
 	),
 	array(
 		0 => 'Miért kell a hozzászólásomat jóváhagynia egy moderátornak?',
-		1 => 'A fórum adminisztrátora beállíthatta, hogy a fórumban, melybe hozzászólást szeretnél küldeni, csak olyan hozzászólások jelenhetnek meg, melyeket egy moderátor átnézett. Az is lehet, hogy az adminisztrátor egy olyan csoportba helyezett téged, melynél úgy érzi, a csoport tagjainak hozzászólásait előbb egy moderátornak át kell néznie, mielőtt azok megjelenhetnének az oldalon. További információért kérünk lépj kapcsolatba a fórum adminisztrátorával.'
+		1 => 'A fórum adminisztrátora beállíthatta, hogy a fórumban, melybe hozzászólást szeretnél küldeni, csak olyan hozzászólások jelenhetnek meg, melyeket egy moderátor átnézett. Az is lehet, hogy az adminisztrátor egy olyan csoportba helyezett téged, melynél úgy érzi, a csoport tagjainak hozzászólásait előbb egy moderátornak át kell néznie, mielőtt azok megjelenhetnének az oldalon. További információért, kérünk, lépj kapcsolatba a fórum adminisztrátorával.'
 	),
 	array(
 		0 => 'Hogyan ugraszthatok előre egy témát?',
@@ -216,7 +216,7 @@ $help = array(
 	),
 	array(
 		0 => 'Hogyan csatlakozhatok egy csoporthoz?',
-		1 => 'A felhasználói vezérlőpultban kattints a „Csoportok” linkre, ekkor látni fogod az összes csoportot. Nem az összes csoport <em>nyílt hozzáférésű</em>, néhánynál jóváhagyás szükséges a csatlakozáshoz, néhány zárt, néhány pedig rejtett. Ha a csoport nyitott, akkor a megfelelő gombra kattintva tudsz csatlakozni. Ezután a csoport vezetőjének jóvá kell hagynia a kérelmed – ennek kapcsán megkérdezhetnek, hogy miért szeretnél csatlakozni a csoporthoz. Kérjük ne zaklasd a csoportvezetőt, ha elutasítja a kérelmed, biztosan megvan az oka.'
+		1 => 'A felhasználói vezérlőpultban kattints a „Csoportok” linkre, ekkor látni fogod az összes csoportot. Nem az összes csoport <em>nyílt hozzáférésű</em>, néhánynál jóváhagyás szükséges a csatlakozáshoz, néhány zárt, néhány pedig rejtett. Ha a csoport nyitott, akkor a megfelelő gombra kattintva tudsz csatlakozni. Ezután a csoport vezetőjének jóvá kell hagynia a kérelmed – ennek kapcsán megkérdezhetnek, hogy miért szeretnél csatlakozni a csoporthoz. Kérjük, ne zaklasd a csoportvezetőt, ha elutasítja a kérelmed, biztosan megvan az oka.'
 	),
 	array(
 		0 => 'Hogyan lehetek csoportvezető?',
@@ -324,15 +324,15 @@ $help = array(
 	),
 	array(
 		0 => 'Ki készítette ezt a magyar fordítást?',
-		1 => 'A magyar fordítást <a href="http://phpbb.hu/">Magyar phpBB Közösség</a> <a href="http://phpbb.hu/forditas">fordító</a> készítik, és tartják karban. A fordítást Fodor Bertalan és Menyhárt Zsolt készítette Berentés Marcell és Joó Ádám közreműködésével. Ha bármilyen hibát találsz, kérjük jelezd a <a href="http://phpbb.hu/bugs">hibabejelentőnkben</a>.'
+		1 => 'A magyar fordítást <a href="http://phpbb.hu/">Magyar phpBB Közösség</a> <a href="http://phpbb.hu/forditas">fordító</a> készítik, és tartják karban. A fordítást Fodor Bertalan és Menyhárt Zsolt készítette Berentés Marcell és Joó Ádám közreműködésével. Ha bármilyen hibát találsz, kérjük, jelezd a <a href="http://phpbb.hu/bugs">hibabejelentőnkben</a>.'
 	),
 	array(
 		0 => 'Miért nem érhető el az X szolgáltatás?',
-		1 => 'Ezt a szoftvert a phpBB Group készítette, és licenceli. Ha úgy gondolod, hogy újabb szolgáltatások, funkciók szükségesek a fórumba, akkor látogasd meg a phpbb.com weboldalt, és olvasd el amit phpBB Group mond erről. Kérünk ne küldj kéréseket a phpbb.com fórumába, a fejlesztők a Sourceforge oldalán várják az ötleteket. Emellett kérünk olvasd át a fórumot, mert lehet hogy már felmerült az ötlet, és a phpBB Group megfogalmazott ezzel kapcsolatban egy véleményt.' // ezt is lehetne javítani, meg az angol szövegnek megfelelőnek tenni...
+		1 => 'Ezt a szoftvert a phpBB Group készítette, és licenceli. Ha úgy gondolod, hogy újabb szolgáltatások, funkciók szükségesek a fórumba, akkor látogasd meg a phpbb.com weboldalt, és olvasd el amit phpBB Group mond erről. Kérünk, ne küldj kéréseket a phpbb.com fórumába, a fejlesztők a Sourceforge oldalán várják az ötleteket. Emellett kérünk, olvasd át a fórumot, mert lehet hogy már felmerült az ötlet, és a phpBB Group megfogalmazott ezzel kapcsolatban egy véleményt.' // ezt is lehetne javítani, meg az angol szövegnek megfelelőnek tenni...
 	),
 	array(
 		0 => 'Ki az illetékes a fórumon olvasható tartalommal kapcsolatban?',
-		1 => 'Sértő, illetve illegális tartalmak kapcsán az „A csapat” oldalon felsorolt adminisztrátorok közül kell egyet felkeresni. Ha nem kapsz választ, akkor a domain tulajdonosát (ezt kiderítheted egy ún. <a href="http://www.google.hu/search?q=whois&amp;meta=lr%3Dlang_hu">„whois  kereséssel”</a>). Ha a fórum egy ingyenes tárhelyen található, akkor azt a szolgáltatót értesítsd. Kérjük vedd figyelembe, hogy a phpBB Group-nak semmilyen köze, hozzáférése vagy beleszólása nincs a fórumon olvasható tartalomhoz, ezért nem tehető semmilyen módon felelőssé amiatt, hogy ki mire használja ezt a fórumot.' // ez se "ugyanaz", mint az angol (~jogi szöveg ez is, az is :)
+		1 => 'Sértő, illetve illegális tartalmak kapcsán az „A csapat” oldalon felsorolt adminisztrátorok közül kell egyet felkeresni. Ha nem kapsz választ, akkor a domain tulajdonosát (ezt kiderítheted egy ún. <a href="http://www.google.hu/search?q=whois&amp;meta=lr%3Dlang_hu">„whois  kereséssel”</a>). Ha a fórum egy ingyenes tárhelyen található, akkor azt a szolgáltatót értesítsd. Kérjük, vedd figyelembe, hogy a phpBB Group-nak semmilyen köze, hozzáférése vagy beleszólása nincs a fórumon olvasható tartalomhoz, ezért nem tehető semmilyen módon felelőssé amiatt, hogy ki mire használja ezt a fórumot.' // ez se "ugyanaz", mint az angol (~jogi szöveg ez is, az is :)
 	)
 );
 

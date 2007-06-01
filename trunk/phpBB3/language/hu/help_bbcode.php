@@ -4,7 +4,7 @@
 * help_bbcode [Hungarian]
 *
 * @package language
-* @version $Id: help_bbcode.php,v 1.4 2007-05-17 21:19:09 fberci Exp $
+* @version $Id: help_bbcode.php,v 1.5 2007-06-01 14:21:20 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -48,7 +48,7 @@ $help = array(
 	),
 	array(
 		0 => 'Használhatok egyszerre többféle formázást?',
-		1 => 'Igen, természetesen kombinálhatod a címkéket. Például, ha fel akarod hívni valakinek a figyelmét:<br /><br /><strong>[size=18][color=red][b]</strong>OLVASS EL!<strong>[/b][/color][/size]</strong><br /><br />ezt eredményezi: <span style="color:red;font-size:18px;"><strong>OLVASS EL!</strong></span><br /><br />Ennek ellenére nem ajánlott, hogy egyszerre sok formázási eszközt használj, mivel ennek következtében a szöveg nehezen lesz olvasható. Kérünk ügyelj a címkék lezárásának sorrendjére. A következő példa hibás:<br /><br /><strong>[b][u]</strong>Ez így hibás!<strong>[/b][/u]</strong>'
+		1 => 'Igen, természetesen kombinálhatod a címkéket. Például, ha fel akarod hívni valakinek a figyelmét:<br /><br /><strong>[size=18][color=red][b]</strong>OLVASS EL!<strong>[/b][/color][/size]</strong><br /><br />ezt eredményezi: <span style="color:red;font-size:18px;"><strong>OLVASS EL!</strong></span><br /><br />Ennek ellenére nem ajánlott, hogy egyszerre sok formázási eszközt használj, mivel ennek következtében a szöveg nehezen lesz olvasható. Kérünk, ügyelj a címkék lezárásának sorrendjére. A következő példa hibás:<br /><br /><strong>[b][u]</strong>Ez így hibás!<strong>[/b][/u]</strong>'
 	),
 	array(
 		0 => '--',
