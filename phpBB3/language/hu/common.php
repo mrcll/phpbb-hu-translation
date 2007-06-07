@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.45 2007-06-01 15:00:55 fberci Exp $
+* @version $Id: common.php,v 1.46 2007-06-07 18:09:47 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -107,7 +107,7 @@ $lang = array_merge($lang, array(
 	'CHANGING_PREFERENCES'	=> 'Fórum beállítások megváltoztatása',
 	'CHANGING_PROFILE'		=> 'Profil megváltoztatása',
 	'CLICK_VIEW_PRIVMSG'	=> '%sBejövő mappa megtekintése%s',
-	'COLLAPSE_VIEW'			=> 'Összecsukott nézet', //? erre is kéne...
+	'COLLAPSE_VIEW'			=> 'Összecsukás', //? erre is kéne...
 	'CLOSE_WINDOW'			=> 'Ablak bezárása',
 	'COLOUR_SWATCH'			=> 'Szín kiválasztása',
 	'COMMA_SEPARATOR'		=> ', ', // Used in pagination of ACP & prosilver, use localised comma if appropriate, eg: Ideographic or Arabic
@@ -158,7 +158,7 @@ $lang = array_merge($lang, array(
 	'ERR_CONNECTING_SERVER'				=> 'Nem sikerült csatlakozni a szerverhez.',
 	'ERR_UNABLE_TO_LOGIN'				=> 'A megadott felhasználói név vagy jelszó hibás.',
 	'ERR_WRONG_PATH_TO_PHPBB'			=> 'A megadott phpBB elérési útvonal feltehetőleg hibás.',
-	'EXPAND_VIEW'						=> 'Kinyitott nézet',
+	'EXPAND_VIEW'						=> 'Kinyitás',
 	'EXTENSION'							=> 'Kiterjesztés',
 	'EXTENSION_DISABLED_AFTER_POSTING'	=> 'A <b>%s</b> kiterjesztés deaktiválva lett, ezért a csatolmány nem kerül megjelenítésre.',
 
