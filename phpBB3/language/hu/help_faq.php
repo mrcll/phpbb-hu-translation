@@ -4,7 +4,11 @@
 * help_faq [Hungarian]
 *
 * @package language
-* @version $Id: help_faq.php,v 1.12 2007-06-01 14:21:20 fberci Exp $
+<<<<<<< help_faq.php
+* @version $Id: help_faq.php,v 1.13 2007-06-07 18:06:23 fberci Exp $
+=======
+* @version $Id: help_faq.php,v 1.13 2007-06-07 18:06:23 fberci Exp $
+>>>>>>> 1.12
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -108,19 +112,19 @@ $help = array(
 	),
 	array(
 		0 => 'Hogyan készíthetek egy új témát egy fórumban?',
-		1 => 'Ha egy fórumban új témát szeretnél nyitni, kattints a megfelelő gombra a fórumban vagy annak egy témájában. Hozzászólás küldéséhez lehet, hogy előbb regisztrálnod kell. A jogosultságaidat a fórum vagy téma oldalak alján találod meg (<em>Nyithatsz új témákat, Szavazhatsz stb.</em>).'
+		1 => 'Ha egy fórumban új témát szeretnél nyitni, kattints a megfelelő gombra a fórumban vagy annak egy témájában. Hozzászólás küldéséhez lehet, hogy előbb regisztrálnod kell. A jogosultságaidat a fórum vagy téma oldalak alján találod meg. Például: Nyithatsz új témákat, Szavazhatsz stb.'
 	),
 	array(
 		0 => 'Hogyan szerkeszthetek, illetve törölhetek egy hozzászólást?',
-		1 => 'Ha nem vagy adminisztrátor vagy moderátor, akkor csak azokat a hozzászólásokat szerkesztheted vagy törölheted, melyeket te küldtél. Egy hozzászólást (általában csak a beküldés utáni korlátozott időtartamban) a 	<em>szerkesztés</em> gombra kattintva tudsz szerkeszteni. Abban az esetben, ha valaki már válaszolt a hozzászólásodra, a hozzászólásod alatt egy apró szöveg fog megjelenni, mely jelzi, a hozzászólás hányszor és ki által került szerkesztésre. Ez nem fog megjelenni, ha még nem válaszolt senki, illetve ha egy moderátor vagy egy adminisztrátor szerkesztette a hozzászólásod, bár ők hagyhatnak egy megjegyzést jelezve a szerkesztést okát. Kérjük, vedd figyelembe, hogy a normál felhasználók nem törölhetik a hozzászólásukat, miután már másvalaki válaszolt.'
+		1 => 'Ha nem vagy adminisztrátor vagy moderátor, akkor csak azokat a hozzászólásokat szerkesztheted vagy törölheted, melyeket te küldtél. Egy hozzászólást a szerkesztés gombra kattintva tudsz szerkeszteni, általában csak a beküldés utáni korlátozott időtartamban. Abban az esetben, ha valaki már válaszolt a hozzászólásodra, a hozzászólásod alatt egy apró szöveg fog megjelenni, mely jelzi, a hozzászólás hányszor és ki által került szerkesztésre. Ez csak akkor fog megjelenni, ha utánad küldött már valaki egy hozzászólást, akkor nem, ha még nem válaszolt senki, illetve ha egy moderátor vagy egy adminisztrátor szerkesztette a hozzászólásod, bár ők hagyhatnak egy megjegyzést jelezve a szerkesztést okát. Kérjük, vedd figyelembe, hogy a normál felhasználók nem törölhetik a hozzászólásukat, miután már másvalaki válaszolt.'
 	),
 	array(
 		0 => 'Hogyan csatolhatom az aláírásomat a hozzászólásomhoz?',
-		1 => 'A csatoláshoz először el kell készítened az aláírásod – ezt a felhasználói vezérlőpult profil részében teheted meg. Ezután a hozzászólás küldésénél csak jelöld be az <em>Aláírás hozzáadása</em> opciót. Az aláírás automatikusan is hozzáadható minden hozzászóláshoz, ehhez is a felhasználói vezérlőpultban kell megváltoztatnod a megfelelő beállítást (ettől függetlenül még hozzászólásonként kikapcsolható ez a funkció).'
+		1 => 'A csatoláshoz először el kell készítened az aláírásod – ezt a felhasználói vezérlőpultban teheted meg. Ezután a hozzászólás küldésénél csak jelöld be az <em>Aláírás hozzáadása</em> opciót. Az aláírás automatikusan is hozzáadható minden hozzászóláshoz, ehhez is a felhasználói vezérlőpultban kell megváltoztatnod a megfelelő beállítást. Ha így teszel, az egyes hozzászólásoknál a küldéskor a megfelelő opció kikapcsolásával még mindig megadhatod, hogy ne kerüljön csatolásra az aláírásod.'
 	),
 	array(
 		0 => 'Hogyan készíthetek szavazást?',
-		1 => 'Szavazást készíteni egyszerű: amikor egy új témát nyitsz (vagy egy téma első hozzászólását szerkeszted), – ha rendelkezel a megfelelő jogosultságokkal – látnod kell a „Szavazás készítése” fület a fő üzenetküldő rész alatt (ha nem jelenik meg, valószínű, hogy nincs jogosultságod szavazás készítéséhez). Meg kell adnod a szavazás címét a „Szavazás kérdése” mezőbe, majd legalább két választási lehetőséget a „Választási lehetőségek” rubrikába (a felső határ az adminisztrátortól függ) mindegyiket egy új sorba írva. A „Felhasználónként válaszható lehetőségek” mező használatával megadhatod azt is, hogy egy felhasználó hány választási lehetőségre szavazhat; beállíthatsz egy időkorlátot (napokban megadva); és végül választhatsz, hogy lehetséges legyen-e a szavazatokat megváltoztatatni.'
+		1 => 'Amikor egy új témát nyitsz, vagy egy téma első hozzászólását szerkeszted, kattints a „Szavazás készítése” fülre az üzenet mező alatt. Ha nem látod ezt a fület, az azért lehet, mert nincs jogosultságod szavazás készítéséhez. Add meg a szavazás címét, majd legalább két választási lehetőséget mindegyiket új sorba írva. A „Felhasználónként válaszható lehetőségek” mező használatával megadhatod azt is, hogy egy felhasználó hány választási lehetőségre szavazhat; beállíthatsz a szavazásnak egy időkorlátot (napokban megadva); és végül választhatsz, hogy lehetséges legyen-e a szavazatokat megváltoztatatni.'
 	),
 	array(
 		0 => 'Hogyan szerkeszthetek vagy törölhetek egy szavazást?',
@@ -128,7 +132,7 @@ $help = array(
 	),
 	array(
 		0 => 'Miért nem férek hozzá egy fórumhoz?',
-		1 => 'Néhány fórum lehet, hogy csak bizonyos felhasználók, illetve felhasználók számára érhető el. A fórum megtekintéséhez, olvasásához, hozzászólás küldéséhez speciális engedély kell, amelyet csak egy fórum moderátor és egy adminisztrátor adhat meg – ehhez lépj velük kapcsolatba.'
+		1 => 'Néhány fórum lehet, hogy csak bizonyos felhasználók, illetve csoportok számára férhető hozzá. A fórum megtekintéséhez, olvasásához, benne hozzászólás küldéséhez stb. lehet, hogy speciális jogosultság kell. Lépj kapcsolatba egy moderátorral vagy egy adminisztrátorral, és kérelmezd a jogosultságot.'
 	),
 	array(
 		0 => 'Miért nem tudok szavazni?',
@@ -136,23 +140,23 @@ $help = array(
 	),
 	array(
 		0 => 'Miért nem tudok hozzáadni csatolmányokat?',
-		1 => 'A csatolmányok feltöltésének lehetősége meghatározható fórumokra, csoportokra és felhasználókra. Lehet, hogy az adminisztrátor nem engedélyezte csatolmányok hozzáadását a fórumba, melybe írni szeretnél, vagy talán csak bizonoyos csoportok tagjai küldhetnek csatolmányokat. Ha nem vagy biztos benne, miért nem tudsz csatolmányokat hozzáadni, lépj kapcsolatba az adminisztrátorral.' //? első mondat...
+		1 => 'A csatolmányok feltöltéséhez szükséges jogosultság megadható fórumokra, csoportokra vagy felhasználókra. Lehet, hogy az adminisztrátor nem engedélyezte csatolmányok hozzáadását a fórumba, melybe írni szeretnél, vagy talán csak bizonoyos csoportok tagjai küldhetnek csatolmányokat. Ha nem vagy biztos benne, miért nem tudsz csatolmányokat hozzáadni, lépj kapcsolatba az adminisztrátorral.' //? első mondat...
 	),
 	array(
 		0 => 'Miért kaptam figyelmeztetést?',
-		1 => 'Minden adminisztrátornak megvan a saját szabályzata az oldalára. Ha úgy érzik, megsértettél egy szabályt, figyelmeztethetnek téged. Kérjük, vedd figyelembe, hogy ez a fórum adminisztrátorának döntése – a phpBB Groupnak semmi köze nincs a fórumokon kiosztott figyelmeztetésekhez.'
+		1 => 'Minden adminisztrátornak megvan a saját szabályzata az oldalára. Ha megsértettél egy szabályt, figyelmeztethetnek téged. Kérjük, vedd figyelembe, hogy ez a fórum adminisztrátorának döntése – a phpBB Groupnak semmi köze nincs a fórumokon kiosztott figyelmeztetésekhez.'
 	),
 	array(
 		0 => 'Hogyan jelenthetek egy hozzászólást a moderátoroknak?',
-		1 => 'Ha a fórum adminisztrátora engedélyezte a hozzászólások jelentését, a hozzászólások mellett látnod kell egy gombot, mely erre való. Ha erre kattintasz, végigkísérésre kerülsz a hozzászólás jelentéséhez szükséges lépéseken.'
+		1 => 'Menj a hozzászóláshoz, melyet jelenteni szeretnél, és ha a fórum adminisztrátora engedélyezte, látnod kell egy gombot, mely erre való. Ha erre kattintasz, végigkísérésre kerülsz a hozzászólás jelentéséhez szükséges lépéseken.'
 	),
 	array(
 		0 => 'Mire való az „Elmentés” gomb hozzászólás küldésénél?',
-		1 => 'Ezzel elmentheted a még nem befejezett üzeneted, majd később folytathatod, és elküldheted. Egy piszkozat betöltéséhez menj a felhasználói vezérlőpultra és kövesd a magukért beszélő lépéseket.' //? magukért beszélő lépések ("self explanatory options")
+		1 => 'Ezzel elmentheted a még nem befejezett üzeneted, majd később folytathatod, és elküldheted. Egy piszkozat betöltéséhez menj a felhasználói vezérlőpultra és kövesd a maguktól értetődő lépéseket.' //? magukért beszélő lépések ("self explanatory options")
 	),
 	array(
 		0 => 'Miért kell a hozzászólásomat jóváhagynia egy moderátornak?',
-		1 => 'A fórum adminisztrátora beállíthatta, hogy a fórumban, melybe hozzászólást szeretnél küldeni, csak olyan hozzászólások jelenhetnek meg, melyeket egy moderátor átnézett. Az is lehet, hogy az adminisztrátor egy olyan csoportba helyezett téged, melynél úgy érzi, a csoport tagjainak hozzászólásait előbb egy moderátornak át kell néznie, mielőtt azok megjelenhetnének az oldalon. További információért, kérünk, lépj kapcsolatba a fórum adminisztrátorával.'
+		1 => 'A fórum adminisztrátora beállíthatta, hogy a fórumban, melybe hozzászólást szeretnél küldeni, csak olyan hozzászólások jelenhetnek meg, melyeket egy moderátor átnézett. Az is lehet, hogy az adminisztrátor egy olyan csoportba helyezett téged, akiknek a hozzászólásait át kell néznie egy moderátornak. További információért, lépj kapcsolatba a fórum adminisztrátorával.'
 	),
 	array(
 		0 => 'Hogyan ugraszthatok előre egy témát?',
@@ -164,7 +168,7 @@ $help = array(
 	),
 	array(
 		0 => 'Mi az a BBCode?',
-		1 => 'A BBCode a HTML nyelv egy speciális változata. A BBCode használatának engedélyezése az adminisztrátortól függ, de neked is lehetőséged van ki- vagy bekapcsolni a hozzászólásaidnál. A BBCode hasonló felépítésű, mint a HTML, kivéve hogy a címkék nem kacsacsőrök között („<” , ill. „>”), hanem szögletes zárójelben („[”, ill. „]”) vannak; és nagyobb teret enged a szöveg megformázásához. További információért lásd a BBCode útmutatót, melyet a hozzászólásküldő oldalról érhetsz el.'
+		1 => 'A BBCode a HTML nyelv egy speciális változata, mely nagy teret enged egy szövegrészlet megformázásához. A BBCode használatának engedélyezése az adminisztrátortól függ, de neked is lehetőséged van ki- vagy bekapcsolni a hozzászólásaidnál. A BBCode hasonló felépítésű, mint a HTML, kivéve hogy a címkék nem kacsacsőrök között („<” , ill. „>”), hanem szögletes zárójelben („[”, ill. „]”) vannak. További információért lásd a BBCode útmutatót, melyet a hozzászólásküldő oldalról érhetsz el.'
 	),
 	array(
 		0 => 'Használhatok HTML-t?',
@@ -176,27 +180,27 @@ $help = array(
 	),
 	array(
 		0 => 'Küldhetek képeket?',
-		1 => 'Igen, megjeleníthetsz képeket a hozzászólásaidban. Ha az adminisztrátor engedélyezte a csatolmányok hozzáadását, akkor a képet egyenesen a fórumra is feltöltheted. Ellenkező esetben a képet egy publikus, mindenki által elérhető szerveren kell tárolnod, és onnan belinkelned – például: http://www.akarmi.hu/en-kepem.gif. Nem tudsz belinkelni képeket a saját gépedről (hacsak nem kívülről is elérhető), azonosítást igénylő oldalakról (mint például freemail, gmail, yahoo postafiókok), jelszóval védett weblapokról stb. A kép megjelenítéséhez használd az [img] BBCode címkét.'
+		1 => 'Igen, megjeleníthetsz képeket a hozzászólásaidban. Azonban, ha az adminisztrátor engedélyezte a csatolmányok hozzáadását, akkor a képeket egyenesen a fórumra is feltöltheted. Ellenkező esetben a képeket egy publikus, mindenki által elérhető szerveren kell tárolnod, és onnan belinkelned – például: http://www.akarmi.hu/en-kepem.gif. Nem tudsz belinkelni képeket a saját gépedről (hacsak nem kívülről is elérhető), azonosítást igénylő oldalakról (mint például freemail, gmail, yahoo postafiókok), jelszóval védett weblapokról stb. A képek megjelenítéséhez használd az [img] BBCode címkét.'
 	),
 	array(
 		0 => 'Mik azok a globális közlemények?',
-		1 => 'A globális közlemények fontos információkat tartalmaznak, ezért olvasd el őket, amilyen hamar csak tudod. Minden fórum tetején és a felhasználói vezérlőpultban is megjelennek. A jogosultságaidtól függ, hogy tudsz-e globális köleményt készíteni – ezt az adminisztrátor állítja be.'
+		1 => 'A globális közlemények fontos információkat tartalmaznak, ezért olvasd el őket valahányszor, csak tudod. A felhasználói vezérlőpultban és minden fórum tetején jelennek meg. Globális közelemények küldéséhez az adminisztrátor adhat jogosultságot.'
 	),
 	array(
 		0 => 'Mik azok a közlemények?',
-		1 => 'A kölzemények gyakran fontos információkat tartalmaznak az adott fórummal kapcsolatban, ezért olvasd el őket, amilyen hamar csak tudod. A közlemények a fórum összes oldalán, felül jelennek meg. Hasonlóan a globális közleményekhez, attól függ, hogy küldhetsz-e közleményt, hogy milyen jogosultságokkal rendelkezel, ezt pedig az adminisztrátor állítja be. '
+		1 => 'A kölzemények gyakran fontos információkat tartalmaznak az adott fórummal kapcsolatban, ezért olvasd el őket valahányszor, csak tudod. A közlemények a fórum összes oldalán, felül jelennek meg. Hasonlóan a globális közleményekhez, közlemények küdéséhez is az adminisztrátor adhat jogosultságot.'
 	),
 	array(
 		0 => 'Mik azok a kiemelt témák?',
-		1 => 'A kiemelt témák a közlemények alatt jelennek meg a fórumokban, de csak az első oldalon. Gyakran elég fontosak, úgyhogy érdemes őket elolvasnod, ha lehetséges. Hasonlóan a közleményekhez a fórum adminisztrátorától függ, milyen jogosultsággal kell rendelkezned kiemelt témák készítéséhez.'
+		1 => 'A kiemelt témák a közlemények alatt jelennek meg a fórumokban, de csak az első oldalon. Gyakran elég fontosak, úgyhogy érdemes őket elolvasnod, ha lehetséges. Hasonlóan a globális és nem globális közleményekhez, kiemelt témák küldéséhez az adminisztrátor adhat jogosultságot.'
 	),
 	array(
 		0 => 'Mik azok a lezárt témák?',
-		1 => 'A témákat egy moderátor vagy egy adminisztrátor zárhatja le. Az ilyen témákba nem lehet hozzászólást küldeni vagy szavazni benne. Egy téma lezárásának több oka lehet. Ha a fórum adminisztrátora megadta a szükséges jogosultságokat, lehetőséged lehet lezárni a saját témáidat.'
+		1 => 'A lezárt témák olyan témák, melyekbe nem lehet hozzászólást küldeni vagy szavazni bennük. Egy téma lezárásának több oka lehet, és egy témát egy adminisztrátor vagy egy moderátor zárhat le. Ha a fórum adminisztrátora megadta a szükséges jogosultságokat, lehetőséged lehet lezárni a saját témáidat.'
 	),
 	array(
 		0 => 'Mik azok a téma ikonok?',
-		1 => 'A téma ikonok kis képek, melyeket társítani lehet hozzászólásokhoz jelképezve a tartalmukat. A téma ikonok használatának lehetősége az adminisztrátortól függ.'
+		1 => 'A téma ikonok kis képek, melyeket a küldő társít a hozzászólásához jelképezve annak tartalmát. A téma ikonok használatának lehetősége az adminisztrátortól függ.'
 	),
 	array(
 		0 => '--',
@@ -212,15 +216,15 @@ $help = array(
 	),
 	array(
 		0 => 'Mik azok a csoportok?',
-		1 => 'Az adminsztrátor felhasználói csoportok segítségével tudja csoportba rendezni a felhasználókat. Minden felhasználó több csoportba is tartozhat, és mindegyik csoporthoz saját jogosultságok rendelhetők. Ezzel az adminisztrátor könnyedén létrehozhat zártkörű fórumokat, moderátorrá tehet egyszerre több felhasználót stb.'
+		1 => 'A felhasználói csoportok segítségével felosztható a közösség olyan egységekre, melyeket az adminisztrátor könnyen kezelhet. Minden felhasználó több csoportba is tartozhat, és mindegyik csoporthoz saját jogosultságok rendelhetők. Ezzel az adminisztrátor könnyedén létrehozhat zártkörű fórumokat, moderátorrá tehet egyszerre több felhasználót stb.'
 	),
 	array(
-		0 => 'Hogyan csatlakozhatok egy csoporthoz?',
-		1 => 'A felhasználói vezérlőpultban kattints a „Csoportok” linkre, ekkor látni fogod az összes csoportot. Nem az összes csoport <em>nyílt hozzáférésű</em>, néhánynál jóváhagyás szükséges a csatlakozáshoz, néhány zárt, néhány pedig rejtett. Ha a csoport nyitott, akkor a megfelelő gombra kattintva tudsz csatlakozni. Ezután a csoport vezetőjének jóvá kell hagynia a kérelmed – ennek kapcsán megkérdezhetnek, hogy miért szeretnél csatlakozni a csoporthoz. Kérjük, ne zaklasd a csoportvezetőt, ha elutasítja a kérelmed, biztosan megvan az oka.'
+		0 => 'Hol látom a csoportokat, és hogyan csatlakozhatok egyhez?',
+		1 => 'A fórumon lévő csoportokat a felhasználói vezérlőpultban tekintheted meg a „Csoportok” linkre kattintva. Ha csatlakozni szeretnél egy csoporthoz, kattints a megfelelő gombra. Mindemellett nem az összes csoport <em>nyílt hozzáférésű</em>, néhánynál jóváhagyás szükséges a csatlakozáshoz, néhány zárt, néhány pedig egyenesen rejtett. Ha a csoport nyitott, akkor a megfelelő gombra kattintva tudsz csatlakozni. Ezután a csoport vezetőjének jóvá kell hagynia a kérelmed – ennek kapcsán megkérdezheti, hogy miért szeretnél csatlakozni a csoporthoz. Kérjük, ne zaklasd a csoportvezetőt, ha elutasítja a kérelmed, biztosan megvan az oka.'
 	),
 	array(
 		0 => 'Hogyan lehetek csoportvezető?',
-		1 => 'Amikor egy adminsztrátor létrehoz egy csoportot, általában rögtön vezetőt is rendel hozzá. Ha szeretnél létrehozni egy csoportot, akkor lépj kapcsolatba egy adminisztrátorral – például egy privát üzenet küldésével.'
+		1 => 'Amikor az adminisztrátor létrehoz egy csoportot, általában egy csoportvezető is kijelölésre kerül. Ha szeretnél létrehozni egy csoportot, akkor lépj kapcsolatba egy adminisztrátorral – például egy privát üzenet küldésével.'
 	),
 	array(
 		0 => 'Miért jelenik meg néhány csoport más színnel?',
@@ -240,15 +244,15 @@ $help = array(
 	),
 	array(
 		0 => 'Nem tudok privát üzenetet küldeni!',
-		1 => 'Ennek három oka lehet: nem regisztráltál, vagy nem vagy belépve; az adminisztrátor nem engedélyezte a fórumon privát üzenetek küldését; vagy az adminisztrátor nem engedélyezte neked, hogy privát üzenetet küldjél. Ha ez utóbbi eset áll fenn, kérdezd meg az adminisztrátort, mi ennek az oka.'
+		1 => 'Ennek három oka lehet: nem regisztráltál, vagy nem vagy belépve; az adminisztrátor nem engedélyezte a fórumon privát üzenetek küldését; vagy az adminisztrátor nem engedélyezte neked, hogy privát üzenetet küldjél. További információért lépj kapcsolatba egy adminisztrátorral.'
 	),
 	array(
 		0 => 'Folyamatosan kéretlen üzeneteket kapok!',
-		1 => 'A felhasználói vezérlőpultban beállítható szűrők segítségével letilthatsz embereket, hogy ne tudjanak neked privát üzenetet küldeni. Ha sértegető üzeneteket kapsz valakitől, értesítsd az adminisztrátort, ő ugyanis meg tudja akadályozni, hogy a felhasználó egyáltalán küldhessen privát üzenetet.' //? utolsó mondatnak nyelvtanilag más az értelme, nem?
+		1 => 'A felhasználói vezérlőpultban beállítható szűrők segítségével letilthatsz embereket, hogy ne tudjanak neked privát üzenetet küldeni. Ha sértegető üzeneteket kapsz valakitől, értesíts egy adminisztrátort, ő ugyanis beállíthatja, hogy egy felhasználó ne tudjon privát üzenetet küldeni.'
 	),
 	array(
 		0 => 'Kéretlen vagy sértegető e-mailt kaptam valakitől a fórumról!',
-		1 => 'Ezt sajnálattal halljuk. A fórum e-mail funkciója tartalmaz ezirányú óvintézkedéseket. Értesítsd a fórum adminisztrátorát, küldd el neki a kapott e-mail teljes másolatát is – fontos, hogy ez a fejlécet is tartalmazza, ugyanis ebben szerepelnek az adatok az e-mail küldőjéről. Ő megteheti a szükséges lépéseket.'
+		1 => 'Ezt sajnálattal halljuk. A fórum e-mail funkciója tartalmaz ezirányú óvintézkedéseket. Értesítsd a fórum adminisztrátorát, küldd el neki a kapott e-mail teljes másolatát is – fontos, hogy ez a fejlécet is tartalmazza, ugyanis ebben szerepelnek az adatok az e-mail küldőjéről. A fróum adminisztrátora megteheti a szükséges lépéseket.'
 	),
 	array(
 		0 => '--',
@@ -268,7 +272,7 @@ $help = array(
 	),
 	array(
 		0 => 'Hogyan kereshetek egy fórumban?',
-		1 => 'Írd be a keresendő kifejezést közvetlenül a keresődobozba, mely rendelkezésre áll a fórum kezdőlapon, egy fórumban vagy egy témában. A részletes keresést a „Keresés” linkre kattintva tudod elérni, mely a fórum összes oldalán elérhető. Ennek a helye a használt megjelenéstől függ.'
+		1 => 'Írd be a keresendő kifejezést közvetlenül a keresődobozba, mely rendelkezésre áll a fórum kezdőlapon, egy fórumban vagy egy témában. A részletes keresést a „Részletes keresés” linkre kattintva tudod elérni, mely a fórum összes oldalán elérhető. Ennek a helye a használt megjelenéstől függ.'
 	),
 	array(
 		0 => 'Miért nem ad vissza találatot a keresésem?',
@@ -276,11 +280,11 @@ $help = array(
 	),
 	array(
 		0 => 'A keresésem miért ad vissza üres oldalt!?',
-		1 => 'A keresésed olyan sok találatot adott vissza, hogy azt a webszerver már nem tudta kezelni. Használd a részletes keresést, jobban körülhatárolt kifejezést adj meg, és válaszd ki, hogy csak melyik fórumban szeretnél keresni.'
+		1 => 'A keresésed olyan sok találatot adott vissza, hogy azt a webszerver már nem tudta kezelni. Használd a „Részletes keresést”, jobban körülhatárolt kifejezést adj meg, és válaszd ki, hogy csak melyik fórumban szeretnél keresni.'
 	),
 	array(
 		0 => 'Hogyan kereshetek a tagok között?',
-		1 => 'Menj a „Taglista” oldalra, és kattints a „Felhasználó keresése” linkre. Ezután töltsd ki a megjelenő űrlapot.'
+		1 => 'Menj a „Taglista” oldalra, és kattints a „Felhasználó keresése” linkre.'
 	),
 	array(
 		0 => 'Hogyan találhatom meg a saját hozzászólásaimat és témáimat?',
