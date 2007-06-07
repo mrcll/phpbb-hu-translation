@@ -4,11 +4,7 @@
 * help_faq [Hungarian]
 *
 * @package language
-<<<<<<< help_faq.php
-* @version $Id: help_faq.php,v 1.13 2007-06-07 18:06:23 fberci Exp $
-=======
-* @version $Id: help_faq.php,v 1.13 2007-06-07 18:06:23 fberci Exp $
->>>>>>> 1.12
+* @version $Id: help_faq.php,v 1.14 2007-06-07 18:16:41 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
