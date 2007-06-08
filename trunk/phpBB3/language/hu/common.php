@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.46 2007-06-07 18:09:47 fberci Exp $
+* @version $Id: common.php,v 1.47 2007-06-08 12:34:16 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -285,7 +285,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_ERROR_ATTEMPTS'				=> 'Túllépted az engedélyezett belépési kísérletek számát. Ezért a felhasználóneved és a jelszavad mellett most meg kell adnod az alábbi képen látható megerősítő kódot is.',
 	'LOGIN_ERROR_EXTERNAL_AUTH_APACHE'	=> 'Az Apache szervernek nem sikerült azonosítania téged.',
 	'LOGIN_ERROR_PASSWORD'				=> 'Rossz jelszót adtál meg. Ellenőrizd le a jelszavad, majd próbálkozz újra. Ha továbbra is gondjaid lennének, lépj kapcsolatba a %sfórum adminisztrátorával%s.',
-	'LOGIN_ERROR_PASSWORD_CONVERT'		=> 'Nem sikerült átkonvertálni a jelszavad a fórum szoftverének frissítése során. Kérünk, %igényelj egy új jelszót%s. Ha továbbra is problémáid lennének, lépj kapcsolatba a %sfórum adminisztrátorával%s.',
+	'LOGIN_ERROR_PASSWORD_CONVERT'		=> 'Nem sikerült átkonvertálni a jelszavad a fórum szoftverének frissítése során. Kérünk, %sigényelj egy új jelszót%s. Ha továbbra is problémáid lennének, lépj kapcsolatba a %sfórum adminisztrátorával%s.',
 	'LOGIN_ERROR_USERNAME'				=> 'Rossz felhasználónevet adtál meg. Ellenőrizd le a felhasználónevet, majd próbálkozz újra. Ha továbbra is gondjaid lennének, lépj kapcsolatba a %sfórum adminisztrátorával%s.',
 	'LOGIN_FORUM'						=> 'A fórum megtekintéséhez vagy a hozzászóláshoz, meg kell adnod a jelszavát.', //?
 	'LOGIN_INFO'						=> 'A belépéshez regisztrált felhasználónak kell lenned. A regisztráció csupán néhány másodpercet vesz igénybe, de számos előnnyel jár, az adminisztrátor például így tud külön jogosultságokat adni. A belépés előtt győződj meg róla, hogy elfogadod a felhasználási feltételeinket, valamint egyetértesz az adatvédelmi nyilatkozatunkkal. Kérjük, olvasd el a fórumok szabályzatát is!',
