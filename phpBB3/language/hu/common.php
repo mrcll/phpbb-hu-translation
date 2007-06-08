@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.47 2007-06-08 12:34:16 fberci Exp $
+* @version $Id: common.php,v 1.48 2007-06-08 20:28:56 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -478,7 +478,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_FORUM'				=> 'Keresés a fórumban…',
 	'SEARCH_NEW'				=> 'Új hozzászólások',
 	'SEARCH_POSTS_BY'			=> 'Hozzászólások keresése:',
-	'SEARCH_SELF'				=> 'Saját hozzászólások',
+	'SEARCH_SELF'				=> 'Saját hozzászólásaim',
 	'SEARCH_TOPIC'				=> 'Keresés a témában…',
 	'SEARCH_UNANSWERED'			=> 'Megválaszolatlan hozzászólások',
 	'SECONDS'					=> 'másodperc',

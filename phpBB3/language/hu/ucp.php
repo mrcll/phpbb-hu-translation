@@ -4,7 +4,7 @@
 * ucp [Hungarian]
 *
 * @package language
-* @version $Id: ucp.php,v 1.27 2007-06-01 14:21:20 fberci Exp $
+* @version $Id: ucp.php,v 1.28 2007-06-08 20:28:56 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -81,7 +81,7 @@ $lang = array_merge($lang, array(
 	'ATTACHMENT_DELETED'			=> 'A csatolmány sikeresen törlésre került.', //? sikeresen törlésre kerültek??
 	'AVATAR_CATEGORY'				=> 'Kategória',
 	'AVATAR_EXPLAIN'				=> 'Maximális méret: szélesség %1$d pixel, magasság %2$d pixel, állomány mérete %3$d KB.',
-	'AVATAR_FEATURES_DISABLED'		=> 'Az avatarok funkció jelenleg ki van kapcsolva.',
+	'AVATAR_FEATURES_DISABLED'		=> 'Az avatar funkció jelenleg ki van kapcsolva.',
 	'AVATAR_GALLERY'				=> 'Helyi galéria', //?
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'Nem sikerült feltölteni az avatart a következő helyre: %s.',
 	'AVATAR_PAGE'					=> 'Oldal', //?
@@ -362,7 +362,7 @@ $lang = array_merge($lang, array(
 	'RULE_REMOVED_MESSAGES'				=> '%d privát üzenet törlésre került a szűrők következtében.',
 
 	'SAME_PASSWORD_ERROR'		=> 'A megadott új jelszó megegyezik a jelenlegi jelszavaddal.',
-	'SEARCH_YOUR_POSTS'			=> 'Saját hozzászólások megtekintése',
+	'SEARCH_YOUR_POSTS'			=> 'Saját hozzászólásaim megtekintése',
 	'SEND_PASSWORD'				=> 'Jelszó elküldése',
 	'SENT_AT'					=> 'Elküldve',
 	'SHOW_EMAIL'				=> 'E-mailek fogadása felhasználóktól', //? "Users can contact me by email"
@@ -430,7 +430,7 @@ $lang = array_merge($lang, array(
 	'UCP_REGISTER_DISABLE'			=> 'Jelenleg nem lehet létrehozni új azonosítót.',
 	'UCP_REMIND'					=> 'Jelszó elküldése',
 	'UCP_RESEND'					=> 'Aktivációs e-mail elküldése',
-	'UCP_WELCOME'					=> 'Köszöntünk a felhasználói vezérlőpulton! Itt megtekintheted, illetve megváltoztathatod a profilodat, a fórum beállításaidat és a feliratkozásaidat. Privát üzenetet is küldhetsz más felhasználóknak (ha engedélyezve van). Mielőtt továbblépnél, kérünk, győződj meg róla, hogy elolvastad a közleményeket.', //? Légy köszöntve a felhasználói vezérlőpulton! üdvözlünk? "Welcome to the User Control Panel. From here you can monitor, view and update your profile, preferences, subscribed forums and topics. You can also send messages to other users (if permitted). Please ensure you read any announcements before continuing."
+	'UCP_WELCOME'					=> 'Köszöntünk a felhasználói vezérlőpulton! Itt megtekintheted, illetve megváltoztathatod a profilodat, a fórum beállításaidat és a feliratkozásaidat. (Ha engedélyezett) privát üzenetet is küldhetsz más felhasználóknak. Mielőtt továbblépnél, kérünk, győződj meg róla, hogy elolvastad a közleményeket.', //? Légy köszöntve a felhasználói vezérlőpulton! üdvözlünk? "Welcome to the User Control Panel. From here you can monitor, view and update your profile, preferences, subscribed forums and topics. You can also send messages to other users (if permitted). Please ensure you read any announcements before continuing."
 	'UCP_YIM'						=> 'Yahoo Messenger',
 	'UCP_ZEBRA'						=> 'Barátok és haragosok',
 	'UCP_ZEBRA_FOES'				=> 'Haragosok kezelése',
@@ -515,7 +515,7 @@ $lang = array_merge($lang, array(
 	),
 
 
-	'GROUPS_EXPLAIN'	=> 'A csoportok lehetővé teszik az adminisztrátorok számára, hogy könnyebben kezelhessék a felhasználókat. Alapból egy meghatározott csoport tagja leszel, ez az elsődleges csoportod. Ez a csoport határozza meg, hogy hogyan jelensz meg más felhasználók számára, például a felhasználóneved színét, az avatarod, a rangod stb. Attól függően, hogy az adminisztrátor engedélyezi-e, megváltoztathatod az elsődleges csoportodat. Fel is vehetnek egy másik csoportba, vagy lehetőséget biztosíthatnak, hogy csatlakozz. A csoportokkal plusz jogok is járhatnak.',
+	'GROUPS_EXPLAIN'	=> 'A csoportok lehetővé teszik az adminisztrátorok számára, hogy könnyebben kezelhessék a felhasználókat. Alapból egy meghatározott csoport tagja leszel, ez az elsődleges csoportod. Ez a csoport határozza meg, hogy hogyan jelensz meg más felhasználók számára, például a felhasználóneved színét, az avatarodat, a rangodat stb. Attól függően, hogy az adminisztrátor engedélyezi-e, megváltoztathatod az elsődleges csoportodat. Fel is vehetnek egy másik csoportba, vagy lehetőséget biztosíthatnak, hogy csatlakozz. A csoportokkal plusz jogok is járhatnak.',
 	'GROUP_LEADER'		=> 'Vezetőségi tagságok', //?
 	'GROUP_MEMBER'		=> 'Tagságok',
 	'GROUP_PENDING'		=> 'Függő tagásgok',
