@@ -4,7 +4,7 @@
 * acp common [English]
 *
 * @package language
-* @version $Id: common.php,v 1.5 2007-05-20 16:26:22 fberci Exp $
+* @version $Id: common.php,v 1.6 2007-06-09 10:56:13 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -647,7 +647,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_DEL_AVATAR_USER'	=> '<strong>User avatar removed</strong>',
 	'LOG_USER_DEL_SIG_USER'		=> '<strong>User signature removed</strong>',
 	'LOG_USER_FEEDBACK'			=> '<strong>Added user feedback</strong><br />» %s',
-	'LOG_USER_GENERAL'			=> '%s',
+	'LOG_USER_GENERAL'			=> '<strong>Entry added:</strong><br />» %s',
 	'LOG_USER_INACTIVE_USER'	=> '<strong>User account de-activated</strong>',
 	'LOG_USER_LOCK'				=> '<strong>User locked own topic</strong><br />» %s',
 	'LOG_USER_MOVE_POSTS_USER'	=> '<strong>Moved all posts to forum</strong>» %s',
