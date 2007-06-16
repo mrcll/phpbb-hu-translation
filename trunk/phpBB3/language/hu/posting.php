@@ -4,7 +4,7 @@
 * posting [Hungarian]
 *
 * @package language
-* @version $Id: posting.php,v 1.15 2007-06-01 14:21:20 fberci Exp $
+* @version $Id: posting.php,v 1.16 2007-06-16 21:34:04 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -40,7 +40,6 @@ $lang = array_merge($lang, array(
 	'ATTACH_QUOTA_REACHED'		=> 'Megtelt a fórum csatolmányainak fenntartott terület.', //?? "Sorry, the board attachment quota has been reached."
 	'ATTACH_SIG'				=> 'Aláírás hozzáadása (az aláírásod a felhasználói vezérlőpultban változtathatod meg)',
 
-	'BBCODE_A_HELP'				=> 'Csatolmány beszúrása: [attachment=]állománynév.txt[/attachment]',
 	'BBCODE_B_HELP'				=> 'Félkövér: [b]szöveg[/b]',
 	'BBCODE_C_HELP'				=> 'Kód: [code]kód[/code]',
 	'BBCODE_E_HELP'				=> 'Lista: lista elem hozzáadása',
@@ -49,7 +48,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_IS_ON'				=> '%sBBCode%s <em>bekapcsolva</em>',
 	'BBCODE_I_HELP'				=> 'Dőlt: [i]szöveg[/i]',
 	'BBCODE_L_HELP'				=> 'Lista: [list]szöveg[/list]',
-	'BBCODE_LISTITEM_HELP'		=> 'Listaelem: [*]szöveg[/*]',
+ 	'BBCODE_LISTITEM_HELP'		=> 'Lista elem: [*]szöveg[/*]',
 	'BBCODE_O_HELP'				=> 'Rendezett lista: [list=]szöveg[/list]',
 	'BBCODE_P_HELP'				=> 'Kép: [img]http://kep_url[/img]',
 	'BBCODE_Q_HELP'				=> 'Idézet: [quote]szöveg[/quote]',
@@ -135,7 +134,7 @@ $lang = array_merge($lang, array(
 
 	'PARTIAL_UPLOAD'			=> 'A feltöltött állomány csak részben került feltöltésre.',
 	'PHP_SIZE_NA'				=> 'A csatolmány mérete túl nagy.<br />Nem sikerült megállapítani a PHP php.ini-jében meghatározott maximum méretét.', //?
-	'PHP_SIZE_OVERRUN'			=> 'A csatolmány mérete túl nagy. A maximum feltölthető méret %d MB.<br />Kérjük, vedd figyelembe, hogy ez a php.ini-ben van meghatározva, ezért nem felülírható.',
+	'PHP_SIZE_OVERRUN'			=> 'A csatolmány mérete túl nagy. A maximum feltölthető méret %d MB.<br />Kérjük vedd figyelembe, hogy ez a php.ini-ben van meghatározva, ezért nem felülírható.',
 	'PLACE_INLINE'				=> 'Beszúrás a hozzászólásba',
 	'POLL_DELETE'				=> 'Szavazás törlése',
 	'POLL_FOR'					=> 'Szavazás időtartama',
@@ -143,7 +142,9 @@ $lang = array_merge($lang, array(
 	'POLL_MAX_OPTIONS'			=> 'Felhasználónként válaszható lehetőségek', //? "Options per user"
 	'POLL_MAX_OPTIONS_EXPLAIN'	=> 'Egy felhasználó ennyi választási lehetőségre szavazhat.',
 	'POLL_OPTIONS'				=> 'Választási lehetőségek',
-	'POLL_OPTIONS_EXPLAIN'		=> 'Mindegyiket külön sorba írd. Legfeljebb <strong>%d</strong> választási lehetőséget adhatsz meg.',
+	'POLL_OPTIONS_EXPLAIN'		=> 'Írd mindegyiket külön sorba. Legfeljebb <strong>%d</strong> választási lehetőséget adhatsz meg.',
+ 	'POLL_OPTIONS_EDIT_EXPLAIN'	=> 'Place each option on a new line. You may enter up to <strong>%d</strong> options. If you remove or add options all previous votes will be reset.',
+ 	'POLL_OPTIONS_EDIT_EXPLAIN'	=> 'Írd mindegyiket külön sorba. Legfeljebb <strong>%d</strong> választási lehetőséget adhatsz meg. Ha eltávolítasz vagy hozzáadsz egy választási lehetőséget, az eddigi eredmény lenullázásra kerül.',
 	'POLL_QUESTION'				=> 'Szavazás kérdése',
 	'POLL_TITLE_TOO_LONG'		=> 'A szavzás kérdésének 100 karatkernél rövidebbnek kell lennie.',
 	'POLL_TITLE_COMP_TOO_LONG'	=> 'A feldolgozott szavazás kérdés túl hosszú, próbálj meg eltávolítani néhány BBCode-ot, illetve emotikont.',
@@ -161,8 +162,7 @@ $lang = array_merge($lang, array(
 	'POST_REVIEW'				=> 'Új hozzászólások áttekintése', //? "Post review"
 	'POST_REVIEW_EXPLAIN'		=> 'A témába legalább egy új hozzászólás érkezett. Ennek fényében érdemes átnézned a hozzászólásod.', //? "At least one new post has been made to this topic. You may wish to review your post in light of this."
 	'POST_STORED'				=> 'A hozzászólás sikeresen elküldésre került.',
-	'POST_STORED_MOD'			=> 'Az üzenet sikeresen szerkesztésre került, azonban egy moderátornak még jóvá kell hagynia mielőtt mindenki által megtekinthető lenne. Amint jóváhag
-	yásra kerül, értesíteni fogunk.',
+	'POST_STORED_MOD'			=> 'Az üzenet sikeresen szerkesztésre került, azonban egy moderátornak még jóvá kell hagynia mielőtt mindenki által megtekinthető lenne. Amint jóváhagyásra kerül, értesíteni fogunk.',
 	'POST_TOPIC_AS'				=> 'Téma típusa',
 	'PROGRESS_BAR'				=> 'Feltöltés állapota', //? "Progress bar"
 
@@ -171,7 +171,7 @@ $lang = array_merge($lang, array(
 	'SAVE'						=> 'Elmentés',
 	'SAVE_DATE'					=> 'Elmentve', //? "Saved at" 'Elmentés időpontja'
 	'SAVE_DRAFT'				=> 'Piszkozat elmentése',
-	'SAVE_DRAFT_CONFIRM'		=> 'Kérjük, vedd figyelembe, hogy a piszkozatok csak a témát és az üzenetet tartalmazzák, minden más elem eltávolításra kerül. Biztosan el akarod menteni a piszkozatot?', //? element = elem v. tartalom stb.?
+	'SAVE_DRAFT_CONFIRM'		=> 'Kérjük vedd figyelembe, hogy a piszkozatok csak a témát és az üzenetet tartalmazzák, minden más elem eltávolításra kerül. biztosan el akarod menteni a piszkozatot?', //? element = elem v. tartalom stb.?
 	'SMILIES'					=> 'Emotikonok',
 	'SMILIES_ARE_OFF'			=> 'Emotikonok <em>kikapcsolva</em>',
 	'SMILIES_ARE_ON'			=> 'Emotikonok <em>bekapcsolva</em>',
@@ -184,6 +184,9 @@ $lang = array_merge($lang, array(
 	'TOO_FEW_POLL_OPTIONS'		=> 'Legalább két választási lehetőséget meg kell adnod.',
 	'TOO_MANY_ATTACHMENTS'		=> 'Nem lehet újabb csatolmányt hozzáadni, %d a maximum.', //?
 	'TOO_MANY_CHARS'			=> 'Az üzenet túl hosszú.',
+ 	'TOO_MANY_CHARS_POST'		=> 'Your message contains %1$d characters. The maximum number of allowed characters is %2$d.',
+ 	'TOO_MANY_CHARS_POST'		=> 'Az üzeneted %1$d karaktert tartalmaz. Legfeljebb %2$d karakter hosszú lehet.',
+ 	'TOO_MANY_CHARS_SIG'		=> 'Az aláírásod %1$d karaktert tartalmaz. Legfeljebb %2$d karakter hosszú lehet.',
 	'TOO_MANY_POLL_OPTIONS'		=> 'Túl sok választási lehetőséget adtál meg.',
 	'TOO_MANY_SMILIES'			=> 'Az üzenet túl sok emotikont tartalmaz. Legfeljebb %d használható.',
 	'TOO_MANY_URLS'				=> 'Az üzenet túl sok linket tartalmaz. Legfeljebb %d lehet benne.', //? link =? url
@@ -191,7 +194,7 @@ $lang = array_merge($lang, array(
 	'TOPIC_BUMPED'				=> 'A téma sikeresen előugrasztásra került.',
 
 	'UNAUTHORISED_BBCODE'		=> 'Bizonyos BBCode-okat nem használhatsz: %s:',
-	'UNGLOBALISE_EXPLAIN'		=> 'Ahhoz, hogy a témát globális közleményből sima témává minősítsd vissza, ki kell választanod egy fórumot, amelyben a téma meg fog jelenni.', //?
+	'UNGLOBALISE_EXPLAIN'		=> 'Ahhoz, hogy a témát általános közlményből sima témává minősítsd vissza, ki kell választanod egy fórumot, amelyben a téma meg fog jelenni.', //?
 	'UPDATE_COMMENT'			=> 'Magyarázat frissítése',
 	'URL_INVALID'				=> 'A megadott URL hibás.',
 	'URL_NOT_FOUND'				=> 'A megadott állomány nem található.',

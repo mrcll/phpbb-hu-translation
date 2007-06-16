@@ -4,7 +4,7 @@
 * mcp [Hungarian]
 *
 * @package language
-* @version $Id: mcp.php,v 1.17 2007-06-01 15:00:55 fberci Exp $
+* @version $Id: mcp.php,v 1.18 2007-06-16 21:34:04 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -218,11 +218,11 @@ $lang = array_merge($lang, array(
 	'NO_POST_SELECTED'				=> 'Legalább egy hozzászólást ki kell választanod, hogy elvégezhesd ezt a műveletet.', //? végrehajthasd?
 	'NO_REASON_DISAPPROVAL'			=> 'Kérünk, adj meg egy megfelelő okot az elutasításra.', //?? appropriate??
 	'NO_REPORT'						=> 'Nincs ilyen jelentés.', //? erre használják?
-	'NO_REPORTS'					=> 'Nincsenek jelentések.',	
+	'NO_REPORTS'					=> 'Nincsenek ilyen jelentések.',	
 	'NO_REPORT_SELECTED'			=> 'Legalább egy jelentést ki kell választanod, hogy végrehajthasd ezt a műveletet.',
 	'NO_TOPIC_ICON'					=> 'nincs', //? nagybetű?
 	'NO_TOPIC_SELECTED'				=> 'Legalább egy témát ki kell választanod, hogy elvégezhesd ezt a műveletet.', //? végrehajthasd?
-	'NO_TOPICS_QUEUE'				=> 'Nincsenek témák.',
+	'NO_TOPICS_QUEUE'				=> 'Nincsenek jóváhagyásra váró témák.',
 
 	'ONLY_TOPIC'			=> 'Csak a "%s" téma', //? témából stb.? (Moderálandóknál)
 	'OTHER_USERS'			=> 'Más erről az IP-ről hozzászóló felhasználók',
@@ -326,7 +326,7 @@ $lang = array_merge($lang, array(
 	'UNAPPROVED_POST_TOTAL'			=> 'Összesen <strong>1</strong> jóváhagyásra váró hosszászólás van.',
 	'UNLOCK'						=> 'Megnyitás',
 	'UNLOCK_POST'					=> 'Hozzászólás megnyitása',
-	'UNLOCK_POST_EXPLAIN'			=> 'Szerkeztés engedélyezése', //? kicsivel kéne, de míg így se passzol ahhoz a hosszú szöveghez, ami nyitott állapotban ott van
+	'UNLOCK_POST_EXPLAIN'			=> 'Szerkesztés engedélyezése', //? kicsivel kéne, de míg így se passzol ahhoz a hosszú szöveghez, ami nyitott állapotban ott van
 	'UNLOCK_POST_POST'				=> 'Hozzászólás megnyitása',
 	'UNLOCK_POST_POST_CONFIRM'		=> 'Biztosan azt akarod, hogy lehessen szerkeszteni ezt a hozzászólást?',
 	'UNLOCK_POST_POSTS'				=> 'Kiválasztott hozzászólások lezárása',
@@ -346,7 +346,7 @@ $lang = array_merge($lang, array(
 	'WARNED_USERS_EXPLAIN'	=> 'Az alábbi lista azokat a felhasználókat tartalmazza, akik nem lejáró figyelmeztetésben részesültek.',
 	'WARNING_PM_BODY'		=> 'A következő figyelmeztetésben részesültél egy adminisztrátor vagy egy moderátor által:[quote]%s[/quote]', //? "The following is a warning which has been issued to you by an administrator or moderator of this site.[quote]%s[/quote]" hagyjuk a passzívot, legyen egyszerű?
 	'WARNING_PM_SUBJECT'	=> 'Figyelmeztetés',
-	'WARNING_POST_DEFAULT'	=> 'A következő hozzászólásod miatt figyelmeztetésben részesültél: %s', //? figyelmeztetésben részesültél vagy figyelmeztettek?
+	'WARNING_POST_DEFAULT'	=> 'A következő hozzászólásod miatt figyelmeztetésben részesültél: %s .', //? figyelmeztetésben részesültél vagy figyelmeztettek?
 	'WARNINGS_ZERO_TOTAL'	=> 'Nincs figyelmeztetés.',
 
 	'YOU_SELECTED_TOPIC'	=> 'A %d. számú témát választottad ki: %s', //? fogalmazás...

@@ -4,7 +4,7 @@
 * install [Hungarian]
 *
 * @package language
-* @version $Id: install.php,v 1.15 2007-06-01 14:21:20 fberci Exp $
+* @version $Id: install.php,v 1.16 2007-06-16 21:34:04 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -73,7 +73,7 @@ $lang = array_merge($lang, array(
 	'CONTINUE_OLD_CONVERSION'	=> 'Korábban megkezdett konverzió folytatása', //?
 	'CONVERT'					=> 'Konvertálás',
 	'CONVERT_COMPLETE'			=> 'Konvertálás befejeződött',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'Sikeresen átkonvertáltad a fórumod phpBB 3.0-sra. Most már bejelentkezhetsz, és <a href="../">hozzáférhetsz a fórumodhoz</a>. Ne feledkezz meg róla, hogy a phpBB-vel kapcsolatban segítséget nyújt az angol <a href="http://www.phpbb.com/support/documentation/3.0/">Felhasználói kézikönyv</a> és a <a href="http://www.phpbb.com/phpBB/viewforum.php?f=46">phpbb.com megfelelő fóruma</a>.', //? 'hozzáfér' - 'használatba vesz' TODO - magyar lokalizálás
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'Sikeresen átkonvertáltad a fórumod phpBB 3.0-sra. Most már bejelentkezhetsz, és <a href="../">hozzáférhetsz a fórumodhoz</a>. Mielőtt megnyitnád a fórumod az install könyvtár törlésével, kérünk, győződj meg róla, hogy az összes beállításod sikeresen átvételre került-e. Ne feledkezz meg róla, hogy a phpBB-vel kapcsolatban segítséget nyújt az angol <a href="http://www.phpbb.com/support/documentation/3.0/">felhasználói kézikönyv</a> és a <a href="http://www.phpbb.com/phpBB/viewforum.php?f=46">phpbb.com megfelelő fóruma</a>.', //? 'hozzáfér' - 'használatba vesz', megnyitnád, TODO - magyar lokalizálás
 	'CONVERT_INTRO'				=> 'Üdvözlünk a phpBB Egytesített Konvertáló Keretrendszerben!',
 	'CONVERT_INTRO_BODY'		=> 'Itt adatokat importálhatsz másik (telepített) fórumrendszerekből. Az alábbi lista tartalmazza az elérhető konvertálókat. Ha a listában nem szerepel a kívánt fórumszoftverről konvertáló modul, látogass el a phpBB weboldalára, ahonnan lehet, hogy letöltheted.', //?
 	'CONVERT_NEW_CONVERSION'	=> 'Új konvertálás',
@@ -106,6 +106,7 @@ $lang = array_merge($lang, array(
 	'CONV_ERROR_REPLACE_FORUM'			=> 'Nem sikerült beilleszteni egy régi fórumot helyettesítő új fórumot.',
 	'CONV_ERROR_USER_ACCESS'			=> 'Nem sikerült lekérdezni a felhasználóazonosítói információkat.', //?
 	'CONV_ERROR_WRONG_GROUP'			=> 'Rossz csoport („%1$s”) került meghatározásra a %2$s-ban.',
+ 	'CONV_OPTIONS_BODY'					=> 'Ezen az oldalon az eredeti fórum hozzáférési adatait kell megadni. Add meg a régi fórumod adatbázisának adatait, a konvertáló nem fog benne semmit se megváltoztatni. Az inkonzisztencia elkerülése végett az eredeti fórumot ki tanácsos kapcsolni a konvertálás idejére.',
 	'CONV_SAVED_MESSAGES'				=> 'Elmentett üzenetek', //? biztosan elmentett és nem feljegyzett?
 
 	'COULD_NOT_COPY'			=> 'Nem sikerült átmásolni a <strong>%1$s</strong> állományt a <strong>%2$s</strong> helyre.<br /><br />Kérjük, ellenőrizd le, hogy a célkönyvtár létezik, és írható a webszerver által.',
@@ -119,11 +120,11 @@ $lang = array_merge($lang, array(
 	'DB_ERR_QUERY_FIRST'		=> 'Hiba a <var>query_first</var> végrahjtása közben.',
 	'DB_ERR_QUERY_FIRST_TABLE'	=> 'Hiba a <var>query_first</var> végrahjtása közben, %s ("%s")', //??
 	'DB_ERR_SELECT'				=> 'Hiba <code>SELECT</code> lekérdezés végrehajtása közben.',
-	'DB_HOST'					=> 'Adatbáziskiszolgáló hosztneve vagy DSN', //? biztos, hogy egybeírják; nem 'DSN-je'?
+	'DB_HOST'					=> 'Adatbázisszerver hosztneve vagy DSN', //? biztos, hogy egybeírják; nem 'DSN-je'?
 	'DB_HOST_EXPLAIN'			=> 'A DSN az angol Data Source Name rövidítése, csak ODBC telepítéskor érdekes.', //? érdekes, lényeges
 	'DB_NAME'					=> 'Adatbázis neve',
 	'DB_PASSWORD'				=> 'Adatbázisjelszó',
-	'DB_PORT'					=> 'Adatbáziskiszolgáló portja',
+	'DB_PORT'					=> 'Adatbázisszerver portja',
 	'DB_PORT_EXPLAIN'			=> 'Hagyd üresen, hacsak nem tudod, hogy a szerver egy nem szabványos porton üzemel.',
 	'DB_USERNAME'				=> 'Adatbázis-felhasználónév',
 	'DB_TEST'					=> 'Kapcsolat tesztelése',
@@ -162,7 +163,7 @@ $lang = array_merge($lang, array(
 	'FORUM_ADDRESS'				=> 'Fórum webcíme',
 	'FORUM_ADDRESS_EXPLAIN'		=> 'Az eredeti fórumod URL-je, például <samp>http://www.pelda.hu/phpBB2/</samp>. Ha megadod, ez a régi cím lecserélésre kerül az új webcímre a hozzászólásokban, a privát üzenetekben és az aláírásokban.',
 	'FORUM_PATH'				=> 'Fórum elérési útja',
-	'FORUM_PATH_EXPLAIN'		=> 'Az eredeti fórum <strong>relatív</strong> elérési útja a <strong>jelenlegi phpBB-d gyökérkönyvtárához viszonyítva</strong>.',
+	'FORUM_PATH_EXPLAIN'		=> 'Az eredeti fórum <strong>relatív</strong> elérési útja a <strong>jelenlegi phpBB3-ad gyökérkönyvtárához viszonyítva</strong>.',
 	'FOUND'						=> 'Létezik',
 	'FTP_CONFIG'				=> 'Konfiguráció átvitele FTP-n',
 	'FTP_CONFIG_EXPLAIN'		=> 'A phpBB észrevette az FTP modul elérhetőségét a szerveren. Megpróbálhatod így átmásolni a config.php-t. Ehhez meg kell adnod az alábbi információkat. Ne feledkezz meg róla, hogy ez a felhasználónév és jelszó a szerverhez tartozik! (Ha nem vagy biztos benne mik ezek, kérdezd meg a tárhelyszolgáltatódat.)', //? "phpBB has detected the presence of the FTP module on this server. You may attempt to install your config.php via this if you wish. You will need to supply the information listed below. Remember your username and password are those to your server! (ask your hosting provider for details if you are unsure what these are)" létrehozni/átmásolni + fogalmazás
@@ -176,7 +177,7 @@ $lang = array_merge($lang, array(
 	'INITIAL_CONFIG_EXPLAIN'	=> 'Ahozz, hogy a phpBB működni tudjon, meg kell adnod néhány egyedi információt. Ha nem tudod, hogyan tudsz csatlakozni az adatábizodhoz, kérünk, lépj kapcsolatba a tárhelyszolgáltatóddal, vagy fordulj a phpBB-t támogató fórumokhoz. Mielőtt bármilyen adatot megadsz, kérünk, alaposan győződj meg annak helyességéről.', //????? "Now that install has determined your server can run phpBB you need to supply some specific information. If you do not know how to connect to your database please contact your hosting provider (in the first instance) or use the phpBB support forums. When entering data please ensure you check it thoroughly before continuing." nincs értelme... vajon hol használhatják (szerintem sehol!)??
 	'INSTALL_CONGRATS'			=> 'Gratulálunk!',
 	'INSTALL_CONGRATS_EXPLAIN'	=> '
-		<p>Sikeresen telepítetted a phpBB %1$s-t. Most két dolgot tehetsz az újonnan telepített phpBB3-maddal:</p>
+		<p>Sikeresen telepítetted a phpBB %1$s-t. Most két dolgot tehetesz az újonnan telepített phpBB3-addal:</p>
 		<h2>Már meglévő fórum átkonvertálása</h2>
 		<p>A phpBB Egyesített Konvertáló Keretrendszer segítségével át lehet konvertálni phpBB 2.0.x-es és más fórummotort használó fórumokat phpBB3-assá. Ha át szeretnél konvertálni egy már meglévő fórumot, <a href="%2$s">lépj tovább a konvertálóhoz</a>.</p>
 		<h2>A fórum használatva vétele</h2>
@@ -185,9 +186,9 @@ $lang = array_merge($lang, array(
 	'INSTALL_INTRO_BODY'		=> 'Ezen menüpont segítségével feltelepítheted a phpBB-t a szerveredre.</p><p>A folytatás során szükséged lesz az adatbázis adatokra. Ha nem simered ezeket, lépj kapcsolatba a tárhelyszolgáltatóddal, és tájékozódj róluk. Ezen adatok nélkül nem tudsz továbblépni. A következőkre lesz szükséged:</p>
 	<ul>
 		<li>az adatbázis típusára – milyen adatbázisrendszert fogsz használni;</li>
-		<li>az adatbáziskiszolgáló hosztnevére vagy DSN-jére – az adatbáziskiszolgáló címe, elérhetősége;</li>
-		<li>az adatbáziskiszolgáló portjára – milyen porton lehet csatlakozni az adatbáziskiszolgálóhoz (az esetek nagy többségében ez nem szükséges);</li>
-		<li>az adatbázis nevére – az adatbázis neve a kiszolgálón;</li>
+		<li>az adatbázisszerver hosztnevére vagy DSN-jére – az adatbázisszerver címe, elérhetősége;</li>
+		<li>az adatbázisszerver portjára – milyen porton lehet csatlakozni az adatbázisszerverhez (az esetek nagy többségében ez nem szükséges);</li>
+		<li>az adatbázis nevére – az adatbázis neve a szerveren;</li>
 		<li>az adatbázis-felhasználónévre és az ehhez tartozó jelszóra – a kapcsolódáshoz szükséges adatok;</li>
 	</ul>
 
@@ -219,7 +220,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_ERROR'		=> 'Nincs hibaüzenet.',
 	'INST_ERR_DB_NO_MYSQLI'		=> 'A kiszolgálón lévő MySQL nem kompatibilis a kiválasztott „MySQL MySQLi kiterjesztéssel” csatlakozási móddal. Kérjük, a „MySQL”-t válaszd ki.', //?
 	'INST_ERR_DB_NO_SQLITE'		=> 'Az SQLite kiterjesztés verziója túl régi, frissíteni kell legalább a 2.8.2-es verzióra.',
-	'INST_ERR_DB_NO_ORACLE'		=> 'A kiszolgálón lévő Oracle verziója megköveteli, hogy a <var>NLS_CHARACTERSET</var> paraméter <var>UTF8</var>-ra legyen állítva. Frissítsd az Oracle verzióját legalább 9.2-esre, vagy változtasd meg a paraméter értékét.',
+	'INST_ERR_DB_NO_ORACLE'		=> 'A szerveren lévő Oracle verziója megköveteli, hogy a <var>NLS_CHARACTERSET</var> paraméter <var>UTF8</var>-ra legyen állítva. Frissítsd az Oracle verzióját legalább 9.2-esre, vagy változtasd meg a paraméter értékét.',
 	'INST_ERR_DB_NO_FIREBIRD'	=> 'A kiszolgálón lévő Firebird verziója régebbi, mint 2.0, kérünk, frissíts egy újabb verzióra. ', //? régebbi, mint 2.0??
 	'INST_ERR_DB_NO_FIREBIRD_PS'=> 'A kiválasztott Firebird adatbázis „page size” értéke kisebb, mint 8192, legalább ennyinek kell lennie.',
 	'INST_ERR_DB_NO_POSTGRES'	=> 'A kiválasztott adatbázis nem <var>UNICODE</var> vagy <var>UTF8</var> karakterkódolással került létrehozásra. Próbáld meg a telepítést egy <var>UNICODE</var> vagy <var>UTF8</var> karakterkódolású adatbázissal. ', //? "The database you have selected was not created in <var>UNICODE</var> or <var>UTF8</var> encoding. Try installing with a database in <var>UNICODE</var> or <var>UTF8</var> encoding" próbáld meg a telepítést??
@@ -327,6 +328,8 @@ $lang = array_merge($lang, array(
 // TODO: Write some text on obtaining support
 	'SUPPORT_BODY'				=> 'A release candidate fázis alatt teljes támogatás elérhető a <a href="http://www.phpbb.com/phpBB/viewforum.php?f=46">phpBB.com megfelelő fórumában</a>. Ez a támogatás kiterjed telepítési kérdések megválaszolására, konfigurációs, illetve hibákkal kapcsolatos problémák megoldására. MOD-okról, illetve egyedi kód/megjelenés változtatásokról szóló társalgások is engedélyezettek.</p><p>Segítséget találhatsz az <a href="http://www.phpbb.com/support/documentation/3.0/quickstart/">angol gyorstalpalóban</a> is.</p><p>Hogy mindig azonnal értesülj a phpBB frissítéseiről, <a href="http://www.phpbb.com/support/">iratkozz fel a hírlevelünkre</a>.', //? TODO fogalmazás
 	'SYNC_FORUMS'				=> 'Fórumok szinkronizációjának megkezdése', //? elkezdés - kell egyáltalán ez a szó (tesztelni kell)
+ 	'SYNC_POST_COUNT'			=> 'Hozzászólásszámok szinkronizálása',
+ 	'SYNC_POST_COUNT_ID'		=> 'Hozzászólásszámok szinkronizálása; <var>entry</var> %1$s – %2$s.',
 	'SYNC_TOPICS'				=> 'Témák szinkronizációjának megkezdése',
 	'SYNC_TOPIC_ID'				=> 'Témák szinkronizálása; <var>topic_id</var>: %1$s – %2$s', //? mínusz jel jobban mutatna?
 
@@ -513,7 +516,7 @@ $lang = array_merge($lang, array(
 	'UPDATE_DB_SUCCESS'				=> 'Sikeres adatbázis-frissítés',
 
 	'VERSION_CHECK'				=> 'Verzió leellenőrzés',
-	'VERSION_CHECK_EXPLAIN'		=> 'Itt ellenőrzésre kerül, hogy a jelenleg futó phpBB a legfrissebb-e.',
+	'VERSION_CHECK_EXPLAIN'		=> 'Itt leellenőrzésre kerül, hogy a jelenleg futó phpBB a legfrissebb-e.', //?
 	'VERSION_NOT_UP_TO_DATE'	=> 'A phpBB-d verziója nem a legújabb. Kérjük, folytasd a frissítési folyamatot.',
 	'VERSION_NOT_UP_TO_DATE_ACP'=> 'A phpBB-d verziója nem a legújabb.<br />Alább találsz egy linket az új verziót bejelentő közleményre és instrukciókat a frissítés elvégzéséhez.', //?
 	'VERSION_UP_TO_DATE'		=> 'A phpBB-d a legfrissebb verziójú, nem érhető el hozzá frissítés. Mindenesetre  továbbléphetsz, és leellenőrizheted az állományokat.', //?
@@ -547,6 +550,10 @@ $lang = array_merge($lang, array(
 	'FORUMS_TEST_FORUM_TITLE'		=> 'Teszt fórum 1.',
 
 	'RANKS_SITE_ADMIN_TITLE'		=> 'Adminisztrátor',
+ 	'REPORT_WAREZ'					=> 'A hozzászólást linket tartalmaz illegális vagy kalóz szoftverre.',
+ 	'REPORT_SPAM'					=> 'A hozzászólás egyetlen célja egy weboldal vagy egy termék reklámozása.',
+ 	'REPORT_OFF_TOPIC'				=> 'A hozzászólás nem kapcsolódik a témához.',
+ 	'REPORT_OTHER'					=> 'A hozzászólás nem tartozik semelyik másik kategóriába, kérjük, töltsd ki a további információ mezőt.',
 
 	'SMILIES_ARROW'					=> 'nyíl',
 	'SMILIES_CONFUSED'				=> 'összezavarodott',

@@ -4,7 +4,7 @@
 * ucp [Hungarian]
 *
 * @package language
-* @version $Id: ucp.php,v 1.28 2007-06-08 20:28:56 fberci Exp $
+* @version $Id: ucp.php,v 1.29 2007-06-16 21:34:04 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -32,9 +32,9 @@ if (empty($lang) || !is_array($lang))
 
 // Privacy policy and T&C
 $lang = array_merge($lang, array(
-	'TERMS_OF_USE_CONTENT'	=> 'Azzal, hogy használod a „%1$s” fórumot (a továbbiakban „mi”, „a fórum”, „%1$s”, „%2$s”) elfogadod, hogy betartod az alábbi feltételeket. Ha nem fogadod el, kérjük, ne használd, illetve ne is keresd fel a fórumot. A feltételeket bármikor megváltoztathatjuk, és habár a lehető legtöbbet megtesszük, hogy értesítsünk a változásról, érdemes rendszeresen áttekinteni ezt az oldalt, mivel a fórum felhasználási feltételeinek megváltoztatása utáni további használatával beleegyezel az új feltételek betartásába.<br />
+	'TERMS_OF_USE_CONTENT'	=> 'Azzal, hogy használod a „%1$s” fórumot (a továbbiakban „mi”, „a fórum”, „%1$s”, „%2$s”) elfogadod, hogy betartod az alábbi feltételeket. Ha nem fogadod el, kérjük ne használd, illetve ne is keresd fel a fórumot. A feltételeket bármikor megváltoztathatjuk, és habár a lehető legtöbbet megtesszük, hogy értesítsünk a változásról, érdemes rendszeresen áttekinteni ezt az oldalt, mivel a fórum felhasználási feltételeinek megváltoztatása utáni további használatával beleegyezel az új feltételek betartásába.<br />
 	<br />
-	A fórumot a phpBB hajtja, mely egy a „<a href="http://www.gnu.org/licenses/gpl.html">General Public License</a>” (a továbbiakban „GPL”) licenc alatt kiadott fórumszoftver, és a <a href="http://www.phpbb.com/">www.phpbb.com</a>, valamint magyarul a <a href="http://phpbb.hu/">phpbb.hu</a> weboldalról tölthető le. A phpBB csak lehetőséget nyújt az internet alapú kommunikációra; a GPL licenc egyenesen megtiltja a szoftver készítőinek, hogy meghatározzák milyen tartalmakat, illetve magatartást engedélyeznek. További információért a phpBB-ről kérjük, látogasd meg a <a href="http://www.phpbb.com/">http://www.phpbb.com/</a> weboldalt.<br />
+	A fórumot a phpBB hajtja, mely egy a „<a href="http://www.gnu.org/licenses/gpl.html">General Public License</a>” (a továbbiakban „GPL”) licenc alatt kiadott fórumszoftver, és a <a href="http://www.phpbb.com/">www.phpbb.com</a>, valamint magyarul a <a href="http://phpbb.hu/">phpbb.hu</a> weboldalról tölthető le. A phpBB csak lehetőséget nyújt az internet alapú kommunikációra; a GPL licenc egyenesen megtiltja a szoftver készítőinek, hogy meghatározzák milyen tartalmakat, illetve magatartást engedélyeznek. További információért a phpBB-ről kérjük látogasd meg a <a href="http://www.phpbb.com/">http://www.phpbb.com/</a> weboldalt.<br />
 	<br />
 	Beleegyezel, hogy nem küldesz semmilyen sértegető, obszcén, vulgáris, rágalmazó, gyűlöletkeltő, támadó, közízlést sértő vagy bármely más olyan tartalmat, mely sérti a hazádban, a fórumot kiszolgáló szerver országában érvényben lévő vagy a nemzetközi törvényt. A fentiek megsértése azonnali és végleges kitiltáshoz vezethet az internet szolgáltatód értesítésével együtt, ha ezt szükségesnek tartjuk. Az összes hozzászóláshoz tartozó IP-címet tároljuk a feltételek betartatásának érdekében. Elfogadod, hogy a fórum fenntartóinak jogukban áll eltávolítani, szerkeszteni a hozzászólásaid vagy lezárni az általad nyitott témákat, amennyiben úgy ítélik meg, hogy ez szükséges. Mint felhasználó, elfogadod, hogy bármely adat, melyet megadsz, tárolásra kerül a fórum adatbázisában. Ezek az információk semmilyen módon nem kerülnek ki egy harmadik félhez, de a fórum fenntartói nem tudnak felelősséget vállalni az adatokért egy esetleges „hackertámadás” esetén.
 	',
@@ -55,10 +55,10 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_ACTIVE_ADMIN'			=> 'Az azonosító aktiválása megtörtént.',
 	'ACCOUNT_ACTIVE_PROFILE'		=> 'Az azonosítód sikeresen újraaktiválásra került..',
 	'ACCOUNT_ADDED'					=> 'Köszönjük, hogy regisztráltál, az azonosítód elkészült. Most már beléphetsz a felhasználóneveddel és a jelszavaddal.',
-	'ACCOUNT_COPPA'					=> 'Az azonosítód elkészült, azonban jóváhagyásra vár. További információkért kérjük, nézd meg az e-mail fiókod.',
-	'ACCOUNT_EMAIL_CHANGED'			=> 'Az azonosítód beállításai sikeresen frissítésre kerültek, azonban újra kell aktiválnod az azonosítód, mivel megváltoztattad az e-mail címedet. Az akitációs kulcs elküldésre került a megadott új e-mail címre. További információért kérjük, nézd meg az e-mail fiókod.',
+	'ACCOUNT_COPPA'					=> 'Az azonosítód elkészült, azonban jóváhagyásra vár. További információkért kérjük nézd meg az e-mail fiókod.',
+	'ACCOUNT_EMAIL_CHANGED'			=> 'Az azonosítód beállításai sikeresen frissítésre kerültek, azonban újra kell aktiválnod az azonosítód, mivel megváltoztattad az e-mail címedet. Az akitációs kulcs elküldésre került a megadott új e-mail címre. További információért kérjük nézd meg az e-mail fiókod.',
 	'ACCOUNT_EMAIL_CHANGED_ADMIN'	=> 'Az azonosítód beállításai sikeresen frissítésre kerültek, azonban az adminisztrátornak újra kell aktiválnia az azonosítód, mivel megváltoztattad az e-mail címedet. Az adminisztrátor értesítésre került, és amint újraaktiválja az azonosítód téged is értesítünk.',
-	'ACCOUNT_INACTIVE'				=> 'Az azonosítód elkészült, azonban hogy használni tudd, aktiválnod kell. Az aktivációs kulcsot elküldtük az e-mail címedre. További információkért kérjük, nézd meg az e-mail fiókod.',
+	'ACCOUNT_INACTIVE'				=> 'Az azonosítód elkészült, azonban hogy használni tudd, aktiválnod kell. Az aktivációs kulcsot elküldtük az e-mail címedre. További információkért kérjük nézd meg az e-mail fiókod.',
 	'ACCOUNT_INACTIVE_ADMIN'		=> 'Az azonosítód elkészült, azonban hogy használni tudd, az adminisztrátornak aktiválnia kell. Az adminisztrátort értesítettük, amint aktiválja az azonosítód, értesíteni fogunk.', //? szóismétlés
 	'ACTIVATION_EMAIL_SENT'			=> 'Az aktivációs e-mail sikeresen elküldésre került az e-mail címedre.',
 	'ADD'							=> 'Hozzáadás',
@@ -74,14 +74,14 @@ $lang = array_merge($lang, array(
 	'ADMIN_EMAIL'					=> 'Információs e-mailek fogadása adminisztrátoroktól',
 	'AGREE'							=> 'Elfogadom a feltételeket',
 	'ALLOW_PM'						=> 'Privát üzenetek fogadása felhasználóktól',
-	'ALLOW_PM_EXPLAIN'				=> 'Kérjük, vedd figyelembe, hogy az adminisztrátorok és a moderátorok mindig fognak tudni küldeni neked privát üzenetet.',
+	'ALLOW_PM_EXPLAIN'				=> 'Kérjük vedd figyelembe, hogy az adminisztrátorok és a moderátorok mindig fognak tudni küldeni neked privát üzenetet.',
 	'ALREADY_ACTIVATED'				=> 'Az azonosítód aktiválása már korábban megtörtént.',
 	'ATTACHMENTS_EXPLAIN'			=> 'Ez a lista az ebbe fórumba küldött csatolmányaidat tartalmazza.', //? nem tudom hol szerpel => értelmét se pontosan - "This is a list of attachments you have made in posts to this forum."
 	'ATTACHMENTS_DELETED'			=> 'A csatolmányok sikeresen törlésre kerültek.', //? sikeresen törlésrere kerültek??
 	'ATTACHMENT_DELETED'			=> 'A csatolmány sikeresen törlésre került.', //? sikeresen törlésre kerültek??
 	'AVATAR_CATEGORY'				=> 'Kategória',
 	'AVATAR_EXPLAIN'				=> 'Maximális méret: szélesség %1$d pixel, magasság %2$d pixel, állomány mérete %3$d KB.',
-	'AVATAR_FEATURES_DISABLED'		=> 'Az avatar funkció jelenleg ki van kapcsolva.',
+	'AVATAR_FEATURES_DISABLED'		=> 'Az avatarok funkció jelenleg ki van kapcsolva.',
 	'AVATAR_GALLERY'				=> 'Helyi galéria', //?
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'Nem sikerült feltölteni az avatart a következő helyre: %s.',
 	'AVATAR_PAGE'					=> 'Oldal', //?
@@ -115,9 +115,9 @@ $lang = array_merge($lang, array(
 	'CONFIRM_EXPLAIN'			=> 'A robot regisztrációk megakadályozása érdekében meg kell adnod egy megerősítő kódot. A kód az alábbi képen szerepel. Ha látási vagy egyéb problémák miatt nem tudod elolvasni a kódot, lépj kapcsolatba a %sfórum adminisztrátorával%s.',
 	'CONFIRM_PASSWORD'			=> 'Jelszó megerősítése',
 	'CONFIRM_PASSWORD_EXPLAIN'	=> 'Csak akkor kell megadnod, ha meg szeretnéd változtatni a jelszavad.',
-	'COPPA_BIRTHDAY'			=> 'A regisztráció folytatásához kérjük, add meg, mikor születtél.',
+	'COPPA_BIRTHDAY'			=> 'A regisztráció folytatásához kérjük add meg, mikor születtél.',
 	'COPPA_COMPLIANCE'			=> 'COPPA egyeztetés', //?? complience - mondjuk úgyse hasznája senki :)
-	'COPPA_EXPLAIN'				=> 'Kérjük, vedd figyelembe, hogy az elküld gombra kattintva elkészül az azonosítód, azonban addig nem lesz aktiválva, míg egy szülőd vagy gondviselőd jóvá nem hagyja a regisztrációd. E-mailben elküldjük a megfelelő űrlapot, illetve a címet, hogy hova küldd vissza.',
+	'COPPA_EXPLAIN'				=> 'Kérjük vedd figyelembe, hogy az elküld gombra kattintva elkészül az azonosítód, azonban addig nem lesz aktiválva, míg egy szülőd vagy gondviselőd jóvá nem hagyja a regisztrációd. E-mailben elküldjük a megfelelő űrlapot, illetve a címet, hogy hova küldd vissza.',
 	'CREATE_FOLDER'				=> 'Mappa létrehozása…',
 	'CURRENT_IMAGE'				=> 'Jelenlegi kép',
 	'CURRENT_PASSWORD'			=> 'Jelenlegi jelszó',
@@ -181,7 +181,7 @@ $lang = array_merge($lang, array(
 	'FIELD_INVALID_DATE'				=> 'A „%1$s” mező érvénytelen dátumot tartalmaz.',
 
 	'FOE_MESSAGE'				=> 'Üzenet haragostól',
-	'FOES_EXPLAIN'				=> 'A haragosok olyan felhasználók, akik alapból mellőzésre kerülnek. A hozzászólásaik nem teljesen jelennek meg, privát üzenetet azonban küldhetnek. Kérjük, vedd figyelembe, hogy nem mellőzhetsz egy moderátort vagy egy adminisztrátort.', //? mellőzésre kerülnek :)
+	'FOES_EXPLAIN'				=> 'A haragosok olyan felhasználók, akik alapból mellőzésre kerülnek. A hozzászólásaik nem teljesen jelennek meg, privát üzenetet azonban küldhetnek. Kérjük vedd figyelembe, hogy nem mellőzhetsz egy moderátort vagy egy adminisztrátort.', //? mellőzésre kerülnek :)
 	'FOES_UPDATED'				=> 'A haragosaid listája sikeresen frissítésre került.',
 	'FOLDER_ADDED'				=> 'A mappa sikeresen hozzáadásra került.',
 	'FOLDER_MESSAGE_STATUS'		=> '%1$d / %2$d üzenet', //? "%1$d from %2$d messages stored" - gondolom mennyire van tele
@@ -189,12 +189,12 @@ $lang = array_merge($lang, array(
 	'FOLDER_OPTIONS'			=> 'Mappa beállítások',
 	'FOLDER_RENAMED'			=> 'A mappa sikeresen átnevezésre került.',
 	'FOLDER_REMOVED'			=> 'A mappa sikeresen törlésre került.',
-	'FOLDER_STATUS_MSG'			=> 'A mappa %1$d%%-a telt meg. (%2$d / %3$d üzenet)',
+	'FOLDER_STATUS_MSG'			=> 'A mappa %1$d%%-a telt meg (%2$d / %3$d üzenet).', //? 'tele van'?
 	'FORWARD_PM'				=> 'PÜ továbbítása',
 	'FORCE_PASSWORD_EXPLAIN'	=> 'Mielőtt továbbléphetnél a fórumon, meg kell változtatnod a jelszavad. ',
 	'FRIEND_MESSAGE'			=> 'Üzenet baráttól',
 	'FRIENDS'					=> 'Barátok',
-	'FRIENDS_EXPLAIN'			=> 'A barátok funkció segítségével könnyen elérheted azokat a felhasználókat, akikkel gyakran lépsz kapcsolatba. Ha a használt megjelenés támogatja, a barátok hozzászólásai kiemelve szerepelhetnek.', //? hozzáférhetsz...
+	'FRIENDS_EXPLAIN'			=> 'A barátok funkció segítségével könnyen elérheted azokat a felhasználókat, akikkel gyakran lépsz kapcsolatba. Ha a sablon támogatja, a barátok hozzászólásai kiemelve szerepelhetnek.', //? hozzáférhetsz...
 	'FRIENDS_OFFLINE'			=> 'Offline',
 	'FRIENDS_ONLINE'			=> 'Online',
 	'FRIENDS_UPDATED'			=> 'A barátaid listája sikeresen frissítésre került.',
@@ -208,6 +208,8 @@ $lang = array_merge($lang, array(
 	'GLOBAL_ANNOUNCEMENT'		=> 'Globális közlemény', //? Általános?
 
 	'HIDE_ONLINE'				=> 'Jelenlét elrejtése',
+ 	'HIDE_ONLINE_EXPLAIN'		=> 'Changing this setting to "No" won\'t become effective until your next visit to the board.',
+ 	'HIDE_ONLINE_EXPLAIN'		=> 'Ha ezt nemre változtatod, a változtatás csak a következő látogatáskor fog érvénybe lépni.',
 	'HOLD_NEW_MESSAGES'			=> 'Üzenetek fogadásának visszautasítása (az új üzenetek vissza lesznek tartva, amíg elegendő hely nem lesz)',
 	'HOLD_NEW_MESSAGES_SHORT'	=> 'Új üzenetek visszatartása',
 
@@ -312,7 +314,7 @@ $lang = array_merge($lang, array(
 	'PASSWORD_ACTIVATED'		=> 'Az új jelszavad aktiválásra került.',
 	'PASSWORD_UPDATED'			=> 'A jelszavad elküldésre került az e-mail címedre.',
 	'PERMISSIONS_RESTORED'		=> 'Az eredeti jogosultságok sikeresen visszaállításra kerültek.', //? eredeti?
-	'PERMISSIONS_TRANSFERRED'	=> '<strong>%s</strong> jogosultságai sikeresen átadásra kerültek, most a felhasználó jogosultságaival böngészheted a fórumot.<br />Kérjük, vedd figyelembe, hogy az adminisztrátori jogosultságok nem kerültek átadásra. Az eredeti jogosultságaidat bármikor visszaállíthatod.', //? "Successfully transferred permissions from <strong>%s</strong>, you are now able to browse the forum with the users permissions." - hát ez nagyon nem sikerült
+	'PERMISSIONS_TRANSFERRED'	=> '<strong>%s</strong> jogosultságai sikeresen átadásra kerültek, most a felhasználó jogosultságaival böngészheted a fórumot.<br />Kérjük vedd figyelembe, hogy az adminisztrátori jogosultságok nem kerültek átadásra. Az eredeti jogosultságaidat bármikor visszaállíthatod.', //? "Successfully transferred permissions from <strong>%s</strong>, you are now able to browse the forum with the users permissions." - hát ez nagyon nem sikerült
 	'PM_DISABLED'				=> 'A privát üzenet részleg ki lett kapcsolva ezen a fórumon.', //?
 	'PM_FROM'					=> 'Feladó',
 	'PM_FROM_REMOVED_AUTHOR'	=> 'Az üzenetet egy már nem regisztrált felhasználó küldte.',
@@ -334,7 +336,7 @@ $lang = array_merge($lang, array(
 	'POST_REPLY_PM'				=> 'Válasz az üzenetre',
 	'PRINT_PM'					=> 'Nyomtatóbarát verzió',
 	'PREFERENCES_UPDATED'		=> 'A beállításaid sikeresen frissítésre kerültek.', //? preferences
-	'PROFILE_INFO_NOTICE'		=> 'Kérjük, vedd figyelembe, hogy ezek az információk lehet, hogy láthatóak lesznek a többi felhasználó számára. Légy óvatos bármilyen személyes adat megadásánál. A *-gal megjelölt mezők kitöltése kötelező.', //? "Be careful when including any personal details."
+	'PROFILE_INFO_NOTICE'		=> 'Kérjük vedd figyelembe, hogy ezek az információk lehet, hogy láthatóak lesznek a többi felhasználó számára. Légy óvatos bármilyen személyes adat megadásánál. A *-gal megjelölt mezők kitöltése kötelező.', //? "Be careful when including any personal details."
 	'PROFILE_UPDATED'			=> 'A profilod sikeresen frissítésre került.',
 
 	'RECIPIENT'							=> 'Címzett',
@@ -362,7 +364,7 @@ $lang = array_merge($lang, array(
 	'RULE_REMOVED_MESSAGES'				=> '%d privát üzenet törlésre került a szűrők következtében.',
 
 	'SAME_PASSWORD_ERROR'		=> 'A megadott új jelszó megegyezik a jelenlegi jelszavaddal.',
-	'SEARCH_YOUR_POSTS'			=> 'Saját hozzászólásaim megtekintése',
+	'SEARCH_YOUR_POSTS'			=> 'Saját hozzászólások megtekintése',
 	'SEND_PASSWORD'				=> 'Jelszó elküldése',
 	'SENT_AT'					=> 'Elküldve',
 	'SHOW_EMAIL'				=> 'E-mailek fogadása felhasználóktól', //? "Users can contact me by email"
@@ -380,16 +382,16 @@ $lang = array_merge($lang, array(
 	'TIMEZONE'					=> 'Időzóna',
 	'TO'						=> 'Címzett',
 	'TOO_MANY_RECIPIENTS'		=> 'Túl sok címzettet adtál meg.',
-	'TOO_MANY_REGISTERS'		=> 'Túllépted a legfeljebb engedélyezett regisztrációkísérletek számát. Kérjük, próbálkozz később.',
+	'TOO_MANY_REGISTERS'		=> 'Túllépted a legfeljebb engedélyezett regisztrációkísérletek számát. Kérjük próbálkozz később.',
 
 	'UCP'						=> 'Felhasználói vezérlőpult',
 	'UCP_ACTIVATE'				=> 'Azonosító aktiválása',
-	'UCP_ADMIN_ACTIVATE'		=> 'Kérjük, vedd figyelembe, hogy egy valós e-mail címet kell megadnod, hogy az azonosítód aktiválva lehessen. Az adminisztrátor át fogja nézni az azonosítód, és ha jóváhagyja, kapni fogsz egy e-mailt a megadott címre.', //? "Please note that you will need to enter a valid email address before your account is activated. The administrator will review your account and if approved you will receive an email at the address you specified."
+	'UCP_ADMIN_ACTIVATE'		=> 'Kérjük vedd figyelembe, hogy egy valós e-mail címet kell megadnod, hogy az azonosítód aktiválva lehessen. Az adminisztrátor át fogja nézni az azonosítód, és ha jóváhagyja, kapni fogsz egy e-mailt a megadott címre.', //? "Please note that you will need to enter a valid email address before your account is activated. The administrator will review your account and if approved you will receive an email at the address you specified."
 	'UCP_AIM'					=> 'AOL Instant Messenger',
 	'UCP_ATTACHMENTS'			=> 'Csatolmányok',
 	'UCP_COPPA_BEFORE'			=> '%s előtt',
 	'UCP_COPPA_ON_AFTER'		=> '%s-én, vagy utána',
-	'UCP_EMAIL_ACTIVATE'		=> 'Kérjük, vedd figyelembe, hogy egy valós e-mail címet kell megadnod, hogy az azonosítód aktiválva lehessen. A regisztráció után kapni fogsz egy e-mailt a megadott címre, amely tartalmazni fogja az aktivációs linket.',
+	'UCP_EMAIL_ACTIVATE'		=> 'Kérjük vedd figyelembe, hogy egy valós e-mail címet kell megadnod, hogy az azonosítód aktiválva lehessen. A regisztráció után kapni fogsz egy e-mailt a megadott címre, amely tartalmazni fogja az aktivációs linket.',
 	'UCP_ICQ'					=> 'ICQ azonosító',
 	'UCP_JABBER'				=> 'Jabber azonosító',
 
@@ -430,7 +432,7 @@ $lang = array_merge($lang, array(
 	'UCP_REGISTER_DISABLE'			=> 'Jelenleg nem lehet létrehozni új azonosítót.',
 	'UCP_REMIND'					=> 'Jelszó elküldése',
 	'UCP_RESEND'					=> 'Aktivációs e-mail elküldése',
-	'UCP_WELCOME'					=> 'Köszöntünk a felhasználói vezérlőpulton! Itt megtekintheted, illetve megváltoztathatod a profilodat, a fórum beállításaidat és a feliratkozásaidat. (Ha engedélyezett) privát üzenetet is küldhetsz más felhasználóknak. Mielőtt továbblépnél, kérünk, győződj meg róla, hogy elolvastad a közleményeket.', //? Légy köszöntve a felhasználói vezérlőpulton! üdvözlünk? "Welcome to the User Control Panel. From here you can monitor, view and update your profile, preferences, subscribed forums and topics. You can also send messages to other users (if permitted). Please ensure you read any announcements before continuing."
+	'UCP_WELCOME'					=> 'Köszöntünk a felhasználói vezérlőpulton! Itt megtekintheted, illetve megváltoztathatod a profilodat, a fórum beállításaidat és a feliratkozásaidat. Privát üzenetet is küldhetsz más felhasználóknak (ha engedélyezve van). Mielőtt továbblépnél, kérünk győződj meg róla, hogy elolvastad a közleményeket.', //? Légy köszöntve a felhasználói vezérlőpulton! üdvözlünk? "Welcome to the User Control Panel. From here you can monitor, view and update your profile, preferences, subscribed forums and topics. You can also send messages to other users (if permitted). Please ensure you read any announcements before continuing."
 	'UCP_YIM'						=> 'Yahoo Messenger',
 	'UCP_ZEBRA'						=> 'Barátok és haragosok',
 	'UCP_ZEBRA_FOES'				=> 'Haragosok kezelése',
@@ -446,8 +448,8 @@ $lang = array_merge($lang, array(
 	'USERNAME_LETTER_NUM_EXPLAIN'	=> 'A felhasználónév hosszának %1$d és %2$d karakter között kell lennie, valamint csak betűket és számokat tartalmazhat.',
 	'USERNAME_LETTER_NUM_SPACERS_EXPLAIN'=> 'A felhasználónév hosszának %1$d és %2$d karakter között kell lennie, valamint csak betűket, számokat, szóközt és -+_[] jeleket tartmazhat.',
 	'USERNAME_CHARS_ANY_EXPLAIN'	=> 'A hosszának %1$d és %2$d karakter között kell lennie.',
-	'USERNAME_TAKEN_USERNAME'		=> 'A megadott felhasználónév már használatban van, kérünk, válassz másikat.',
-	'USERNAME_DISALLOWED_USERNAME'	=> 'A megadott felhasználónév le lett tiltva vagy nem engedélyezett szót tartalmaz. Kérünk, válassz egy másik nevet.',
+	'USERNAME_TAKEN_USERNAME'		=> 'A megadott felhasználónév már használatban van, kérünk válassz másikat.',
+	'USERNAME_DISALLOWED_USERNAME'	=> 'A megadott felhasználónév le lett tiltva vagy nem engedélyezett szót tartalmaz. Kérünk válassz egy másik nevet.',
 	'USER_NOT_FOUND_OR_INACTIVE'	=> 'A megadott felhasználónévek nem találhatók, vagy még nem aktivált felhsználók.', //?
 
 
@@ -515,7 +517,7 @@ $lang = array_merge($lang, array(
 	),
 
 
-	'GROUPS_EXPLAIN'	=> 'A csoportok lehetővé teszik az adminisztrátorok számára, hogy könnyebben kezelhessék a felhasználókat. Alapból egy meghatározott csoport tagja leszel, ez az elsődleges csoportod. Ez a csoport határozza meg, hogy hogyan jelensz meg más felhasználók számára, például a felhasználóneved színét, az avatarodat, a rangodat stb. Attól függően, hogy az adminisztrátor engedélyezi-e, megváltoztathatod az elsődleges csoportodat. Fel is vehetnek egy másik csoportba, vagy lehetőséget biztosíthatnak, hogy csatlakozz. A csoportokkal plusz jogok is járhatnak.',
+	'GROUPS_EXPLAIN'	=> 'A csoportok lehetővé teszik az adminisztrátorok számára, hogy könnyebben kezelhessék a felhasználókat. Alapból egy meghatározott csoport tagja leszel, ez az elsődleges csoportod. Ez a csoport határozza meg, hogy hogyan jelensz meg más felhasználók számára, például a felhasználóneved színét, az avatarod, a rangod stb. Attól függően, hogy az adminisztrátor engedélyezi-e, megváltoztathatod az elsődleges csoportodat. Fel is vehetnek egy másik csoportba, vagy lehetőséget biztosíthatnak, hogy csatlakozz. A csoportokkal plusz jogok is járhatnak.',
 	'GROUP_LEADER'		=> 'Vezetőségi tagságok', //?
 	'GROUP_MEMBER'		=> 'Tagságok',
 	'GROUP_PENDING'		=> 'Függő tagásgok',
