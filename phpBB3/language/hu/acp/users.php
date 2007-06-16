@@ -1,12 +1,12 @@
 <?php
-/** 
+/**
 *
 * acp_users [English]
 *
 * @package language
-* @version $Id: users.php,v 1.5 2007-05-20 16:26:23 fberci Exp $
-* @copyright (c) 2005 phpBB Group 
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @version $Id: users.php,v 1.6 2007-06-16 21:34:04 fberci Exp $
+* @copyright (c) 2005 phpBB Group
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
 
@@ -111,6 +111,7 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_NORMAL'				=> 'Normal groups user is a member of',
 	'USER_GROUP_PENDING'			=> 'Groups user is in pending mode',
 	'USER_GROUP_SPECIAL'			=> 'Special groups user is a member of',
+	'USER_NO_ATTACHMENTS'			=> 'There are no attached files to display.',
 	'USER_OVERVIEW_UPDATED'			=> 'User details updated.',
 	'USER_POSTS_DELETED'			=> 'Successfully removed all posts made by this user.',
 	'USER_POSTS_MOVED'				=> 'Successfully moved users posts to target forum.',

@@ -4,7 +4,7 @@
 * acp_search [English]
 *
 * @package language
-* @version $Id: search.php,v 1.5 2007-05-20 16:26:23 fberci Exp $
+* @version $Id: search.php,v 1.6 2007-06-16 21:34:04 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *

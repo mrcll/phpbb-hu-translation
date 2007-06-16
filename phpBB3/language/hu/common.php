@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.48 2007-06-08 20:28:56 fberci Exp $
+* @version $Id: common.php,v 1.49 2007-06-16 21:34:04 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -151,7 +151,7 @@ $lang = array_merge($lang, array(
 	'EMAIL_ADDRESS'						=> 'E-mail cím',
 	'EMAIL_SMTP_ERROR_RESPONSE'			=> 'Problémába ütköztünk egy levél elküldése során a <strong>%1$s.</strong> sorban. Válasz: %2$s',
 	'EMPTY_SUBJECT'						=> 'Új téma indításához meg kell adnod a téma címét.',
-	'EMPTY_MESSAGE_SUBJECT'				=> 'Az üzenetnek meg kell adnod a témáját.',
+	'EMPTY_MESSAGE_SUBJECT'				=> 'Az üzenetnek meg kell adnod a témáját..',
 	'ENABLED'							=> 'Bekapcsolva',
 	'ENCLOSURE'							=> 'Körülhatárolójel',
 	'ERR_CHANGING_DIRECTORY'			=> 'Nem sikerült megváltoztatni a könyvtárat.',
@@ -288,7 +288,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_ERROR_PASSWORD_CONVERT'		=> 'Nem sikerült átkonvertálni a jelszavad a fórum szoftverének frissítése során. Kérünk, %sigényelj egy új jelszót%s. Ha továbbra is problémáid lennének, lépj kapcsolatba a %sfórum adminisztrátorával%s.',
 	'LOGIN_ERROR_USERNAME'				=> 'Rossz felhasználónevet adtál meg. Ellenőrizd le a felhasználónevet, majd próbálkozz újra. Ha továbbra is gondjaid lennének, lépj kapcsolatba a %sfórum adminisztrátorával%s.',
 	'LOGIN_FORUM'						=> 'A fórum megtekintéséhez vagy a hozzászóláshoz, meg kell adnod a jelszavát.', //?
-	'LOGIN_INFO'						=> 'A belépéshez regisztrált felhasználónak kell lenned. A regisztráció csupán néhány másodpercet vesz igénybe, de számos előnnyel jár, az adminisztrátor például így tud külön jogosultságokat adni. A belépés előtt győződj meg róla, hogy elfogadod a felhasználási feltételeinket, valamint egyetértesz az adatvédelmi nyilatkozatunkkal. Kérjük, olvasd el a fórumok szabályzatát is!',
+	'LOGIN_INFO'						=> 'A belépéshez regisztrált felhasználónak kell lenned. A regisztráció csupán néhány másodpercet vesz igénybe, de számos előnnyel jár, az adminisztrátor például így tud külön jogosultságokat adni. A regisztráció előtt győződj meg róla, hogy elfogadod a felhasználási feltételeinket, valamint egyetértesz az adatvédelmi nyilatkozatunkkal. Kérjük, olvasd el a fórumok szabályzatát is!',
 	'LOGIN_VIEWFORUM'					=> 'Csak reigsztrált felhasználók tekinthetik meg ezt a fórumot.',
 	'LOGIN_EXPLAIN_EDIT'				=> 'Csak reigsztrált felhasználók szerkeszthetik a hozzászólásaikat ebben a fórumban.',
 	'LOGOUT'							=> 'Kilépés',
@@ -324,7 +324,8 @@ $lang = array_merge($lang, array(
 	'NEW_PMS'					=> '<strong>%d</strong> új üzenet',
 	'NEW_POST'					=> 'Új hozzászólás',
 	'NEW_POSTS'					=> 'Új hozzászólások',
-	'NEXT'						=> 'Következő',
+	'NEXT'						=> 'Következő',		// Used in pagination
+	'NEXT_STEP'					=> 'Tovább',
 	'NEVER'						=> 'Soha',
 	'NO'						=> 'Nem',
 	'NOT_ALLOWED_MANAGE_GROUP'	=> 'Nincs jogosultságod a csoport kezeléséhez.',
@@ -409,7 +410,8 @@ $lang = array_merge($lang, array(
 	'POST_TOPIC'			=> 'Új téma nyitása',
 	'POST_UNAPPROVED'		=> 'A hozzászólás jóváhagyásra vár',
 	'PREVIEW'				=> 'Előnézet',
-	'PREVIOUS'				=> 'Előző',
+	'PREVIOUS'				=> 'Előző',		// Used in pagination
+ 	'PREVIOUS_STEP'			=> 'Vissza',
 	'PRIVACY'				=> 'Adatvédelmi nyilatkozat',
 	'PRIVATE_MESSAGE'		=> 'Privát üzenet',
 	'PRIVATE_MESSAGES'		=> 'Privát üzenetek',
@@ -483,10 +485,12 @@ $lang = array_merge($lang, array(
 	'SEARCH_UNANSWERED'			=> 'Megválaszolatlan hozzászólások',
 	'SECONDS'					=> 'másodperc',
 	'SELECT'					=> 'Kiválasztás',
+	'SELECT_ALL'				=> 'Teljes kiválasztása',
 	'SELECT_ALL_CODE'			=> 'Teljes kiválasztása',
 	'SELECT_DESTINATION_FORUM'	=> 'Célfórum kiválasztása',
 	'SELECT_FORUM'				=> 'Fórum kiválasztása',
 	'SEND_EMAIL'				=> 'E-mail küldése',
+ 	'SEND_EMAIL_USER'			=> 'E-mail küldése:',				// Used as: {L_SEND_EMAIL_USER} {USERNAME} -> E-mail UserX
 	'SEND_PRIVATE_MESSAGE'		=> 'Privát üzenet küldése',
 	'SETTINGS'					=> 'Beállítások',
 	'SIGNATURE'					=> 'Aláírás',
