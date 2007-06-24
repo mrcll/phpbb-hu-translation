@@ -4,7 +4,7 @@
 * acp_users [English]
 *
 * @package language
-* @version $Id: users.php,v 1.6 2007-06-16 21:34:04 fberci Exp $
+* @version $Id: users.php,v 1.7 2007-06-24 18:26:15 fberci Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -47,7 +47,7 @@ $lang = array_merge($lang, array(
 	'CANNOT_FORCE_REACT_YOURSELF'	=> 'You are not allowed to force reactivation of your own account.',
 	'CANNOT_REMOVE_ANONYMOUS'		=> 'You are not able to remove the guest user account.',
 	'CANNOT_REMOVE_YOURSELF'		=> 'You are not allowed to remove your own user account.',
-	'CANNOT_SET_FOUNDER_BOT'		=> 'You are not able to promote ignored users to be founders.',
+	'CANNOT_SET_FOUNDER_IGNORED'	=> 'You are not able to promote ignored users to be founders.',
 	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'You need to activate users before you promote them to founders, only activated users are able to be promoted.',
 	'CONFIRM_EMAIL_EXPLAIN'			=> 'You only need to specify this if you are changing the users e-mail address.',
 
