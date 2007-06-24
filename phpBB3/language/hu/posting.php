@@ -4,7 +4,7 @@
 * posting [Hungarian]
 *
 * @package language
-* @version $Id: posting.php,v 1.16 2007-06-16 21:34:04 fberci Exp $
+* @version $Id: posting.php,v 1.17 2007-06-24 18:26:15 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -40,6 +40,7 @@ $lang = array_merge($lang, array(
 	'ATTACH_QUOTA_REACHED'		=> 'Megtelt a fórum csatolmányainak fenntartott terület.', //?? "Sorry, the board attachment quota has been reached."
 	'ATTACH_SIG'				=> 'Aláírás hozzáadása (az aláírásod a felhasználói vezérlőpultban változtathatod meg)',
 
+	'BBCODE_A_HELP'				=> 'Beszúrt csatolmány: [attachment=]állománynév.kiterj[/attachment]', //? 'Hozzászólásba beszúrt csatolmány' "Inline uploaded attachment"
 	'BBCODE_B_HELP'				=> 'Félkövér: [b]szöveg[/b]',
 	'BBCODE_C_HELP'				=> 'Kód: [code]kód[/code]',
 	'BBCODE_E_HELP'				=> 'Lista: lista elem hozzáadása',
