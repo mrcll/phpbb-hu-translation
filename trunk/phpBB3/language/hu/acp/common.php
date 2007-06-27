@@ -1,12 +1,12 @@
 <?php
-/**
+/** 
 *
-* acp common [English]
+* acp common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.7 2007-06-16 21:34:04 fberci Exp $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @version $Id: common.php,v 1.8 2007-06-27 12:47:56 fberci Exp $
+* @copyright (c) 2005 phpBB Group 
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
 */
 
@@ -32,159 +32,159 @@ if (empty($lang) || !is_array($lang))
 
 // Common
 $lang = array_merge($lang, array(
-	'ACP_ADMINISTRATORS'		=> 'Administrators',
-	'ACP_ADMIN_LOGS'			=> 'Admin log',
-	'ACP_ADMIN_ROLES'			=> 'Admin roles',
-	'ACP_ATTACHMENTS'			=> 'Attachments',
-	'ACP_ATTACHMENT_SETTINGS'	=> 'Attachment settings',
-	'ACP_AUTH_SETTINGS'			=> 'Authentication',
-	'ACP_AUTOMATION'			=> 'Automation',
-	'ACP_AVATAR_SETTINGS'		=> 'Avatar settings',
+	'ACP_ADMINISTRATORS'		=> 'Adminisztrátorok',
+	'ACP_ADMIN_LOGS'			=> 'Adminisztrátori napló',
+	'ACP_ADMIN_ROLES'			=> 'Adminisztártori szerepek',
+	'ACP_ATTACHMENTS'			=> 'Csatolmányok',
+	'ACP_ATTACHMENT_SETTINGS'	=> 'Csatolmány beállítások',
+	'ACP_AUTH_SETTINGS'			=> 'Azonosítás', //? hitelesítéss
+	'ACP_AUTOMATION'			=> 'Automatizálás', //? 'Automatizáció'
+	'ACP_AVATAR_SETTINGS'		=> 'Avatar beállítások',
 
-	'ACP_BACKUP'				=> 'Backup',
-	'ACP_BAN'					=> 'Banning',
-	'ACP_BAN_EMAILS'			=> 'Ban e-mails',
-	'ACP_BAN_IPS'				=> 'Ban IPs',
-	'ACP_BAN_USERNAMES'			=> 'Ban usernames',
-	'ACP_BBCODES'				=> 'BBCodes',
-	'ACP_BOARD_CONFIGURATION'	=> 'Board configuration',
-	'ACP_BOARD_FEATURES'		=> 'Board features',
-	'ACP_BOARD_MANAGEMENT'		=> 'Board management',
-	'ACP_BOARD_SETTINGS'		=> 'Board settings',
-	'ACP_BOTS'					=> 'Spiders/Robots',
+	'ACP_BACKUP'				=> 'Kimentés',
+	'ACP_BAN'					=> 'Kitiltások', //? "Banning" használják egyáltalán valahol (milyen értelemben)?
+	'ACP_BAN_EMAILS'			=> 'E-mail címek kitiltása',
+	'ACP_BAN_IPS'				=> 'IP-címek kitiltása',
+	'ACP_BAN_USERNAMES'			=> 'Felhasználók kitiltása',
+	'ACP_BBCODES'				=> 'BBCode-ok',
+	'ACP_BOARD_CONFIGURATION'	=> 'Fórum konfiguráció', //? "Board configuration" 'Fórum beállítás'
+	'ACP_BOARD_FEATURES'		=> 'Fórum funkciók', // szolgáltatások?
+	'ACP_BOARD_MANAGEMENT'		=> 'Fórum kezelése', //? "Board management" használják egyáltalán valahol?
+	'ACP_BOARD_SETTINGS'		=> 'Fórum beállítások',
+	'ACP_BOTS'					=> '(Kereső)robotok', //?
 	
-	'ACP_CAPTCHA'				=> 'CAPTCHA',
+	'ACP_CAPTCHA'				=> 'Vizuális megerősítés', //? 'CAPTCHA'?
 
-	'ACP_CAT_DATABASE'			=> 'Database',
-	'ACP_CAT_DOT_MODS'			=> '.MODs',
-	'ACP_CAT_FORUMS'			=> 'Forums',
-	'ACP_CAT_GENERAL'			=> 'General',
-	'ACP_CAT_MAINTENANCE'		=> 'Maintenance',
-	'ACP_CAT_PERMISSIONS'		=> 'Permissions',
-	'ACP_CAT_POSTING'			=> 'Posting',
-	'ACP_CAT_STYLES'			=> 'Styles',
-	'ACP_CAT_SYSTEM'			=> 'System',
-	'ACP_CAT_USERGROUP'			=> 'Users and Groups',
-	'ACP_CAT_USERS'				=> 'Users',
-	'ACP_CLIENT_COMMUNICATION'	=> 'Client communication',
-	'ACP_COOKIE_SETTINGS'		=> 'Cookie settings',
-	'ACP_CRITICAL_LOGS'			=> 'Error log',
-	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'Custom profile fields',
+	'ACP_CAT_DATABASE'			=> 'Adatbázis',
+	'ACP_CAT_DOT_MODS'			=> '.MOD-ok',
+	'ACP_CAT_FORUMS'			=> 'Fórumok',
+	'ACP_CAT_GENERAL'			=> 'Általános',
+	'ACP_CAT_MAINTENANCE'		=> 'Karbantartás',
+	'ACP_CAT_PERMISSIONS'		=> 'Jogosultságok',
+	'ACP_CAT_POSTING'			=> 'Üzenetküldés', //? 'Hozzászólások', 'Üzenetek', 'Hozzászólásküldés', 'Üzenetküldés'
+	'ACP_CAT_STYLES'			=> 'Megjelenések',
+	'ACP_CAT_SYSTEM'			=> 'Rendszer',
+	'ACP_CAT_USERGROUP'			=> 'Felhasználók és csoportok',
+	'ACP_CAT_USERS'				=> 'Felhasználók',
+	'ACP_CLIENT_COMMUNICATION'	=> 'Kommunikáció a kliensekkel', //? 'Kapcsolat a kliensekkel', 'Kliens kommunikáció', 'Kommunikáció a kliensekkel'
+	'ACP_COOKIE_SETTINGS'		=> 'Süti beállítások',
+	'ACP_CRITICAL_LOGS'			=> 'Hibanapló',
+	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'Egyéni profil mezők',
 	
-	'ACP_DATABASE'				=> 'Database management',
-	'ACP_DISALLOW'				=> 'Disallow',
-	'ACP_DISALLOW_USERNAMES'	=> 'Disallow usernames',
+	'ACP_DATABASE'				=> 'Adatbázis-kezelés',
+	'ACP_DISALLOW'				=> 'Letiltás',
+	'ACP_DISALLOW_USERNAMES'	=> 'Felahsználónevek letiltása',
 	
-	'ACP_EMAIL_SETTINGS'		=> 'E-mail settings',
-	'ACP_EXTENSION_GROUPS'		=> 'Manage extension groups',
+	'ACP_EMAIL_SETTINGS'		=> 'E-mail beállítások',
+	'ACP_EXTENSION_GROUPS'		=> 'Kiterjesztés csoportok kezelése',
 	
-	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Forum based permissions',
-	'ACP_FORUM_LOGS'				=> 'Forum logs',
-	'ACP_FORUM_MANAGEMENT'			=> 'Forum management',
-	'ACP_FORUM_MODERATORS'			=> 'Forum moderators',
-	'ACP_FORUM_PERMISSIONS'			=> 'Forum permissions',
-	'ACP_FORUM_ROLES'				=> 'Forum roles',
+	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Fórum alapú jogosultságok', //?? "Forum based permissions" a jogosultságokhoz ki kell találni egy terminológiát
+	'ACP_FORUM_LOGS'				=> 'Fórumnapló', //? egybe?
+	'ACP_FORUM_MANAGEMENT'			=> 'Fórumok kezelése', //? használják?
+	'ACP_FORUM_MODERATORS'			=> 'Fórum moderátorok',
+	'ACP_FORUM_PERMISSIONS'			=> 'Fórum jogosultságok',
+	'ACP_FORUM_ROLES'				=> 'Fórum szerepek',
 
-	'ACP_GENERAL_CONFIGURATION'		=> 'General configuration',
-	'ACP_GENERAL_TASKS'				=> 'General tasks',
-	'ACP_GLOBAL_MODERATORS'			=> 'Global moderators',
-	'ACP_GLOBAL_PERMISSIONS'		=> 'Global permissions',
-	'ACP_GROUPS'					=> 'Groups',
-	'ACP_GROUPS_FORUM_PERMISSIONS'	=> 'Groups’ forum permissions',
-	'ACP_GROUPS_MANAGE'				=> 'Manage groups',
-	'ACP_GROUPS_MANAGEMENT'			=> 'Group management',
-	'ACP_GROUPS_PERMISSIONS'		=> 'Groups’ permissions',
+	'ACP_GENERAL_CONFIGURATION'		=> 'Általános konfiguráció', //? használják
+	'ACP_GENERAL_TASKS'				=> 'Általános dolgok', //?? "General tasks" 'Általános feladatok' 'Általános dolgok'
+	'ACP_GLOBAL_MODERATORS'			=> 'Globális moderátorok',
+	'ACP_GLOBAL_PERMISSIONS'		=> 'Globális jogosultságok',
+	'ACP_GROUPS'					=> 'Csoportok',
+	'ACP_GROUPS_FORUM_PERMISSIONS'	=> 'Csoportok fórum jogosultságai', //? "Groups’ forum permissions"
+	'ACP_GROUPS_MANAGE'				=> 'Csoportok kezelése',
+	'ACP_GROUPS_MANAGEMENT'			=> 'Csoport-kezelés',
+	'ACP_GROUPS_PERMISSIONS'		=> 'Csoportok jogosultságai',
 	
-	'ACP_ICONS'					=> 'Topic icons',
-	'ACP_ICONS_SMILIES'			=> 'Topic icons/smilies',
-	'ACP_IMAGESETS'				=> 'Imagesets',
-	'ACP_INACTIVE_USERS'		=> 'Inactive users',
-	'ACP_INDEX'					=> 'ACP index',
+	'ACP_ICONS'					=> 'Téma ikonok',
+	'ACP_ICONS_SMILIES'			=> 'Téma ikonok/emotikonok',
+	'ACP_IMAGESETS'				=> 'Képkészletek',
+	'ACP_INACTIVE_USERS'		=> 'Inaktív felhasználók',
+	'ACP_INDEX'					=> 'AVP kezdőlap',
 	
-	'ACP_JABBER_SETTINGS'		=> 'Jabber settings',
+	'ACP_JABBER_SETTINGS'		=> 'Jabber beállítások',
 	
-	'ACP_LANGUAGE'				=> 'Language management',
-	'ACP_LANGUAGE_PACKS'		=> 'Language packs',
-	'ACP_LOAD_SETTINGS'			=> 'Load settings',
-	'ACP_LOGGING'				=> 'Logging',
+	'ACP_LANGUAGE'				=> 'Nyelv-kezelés',
+	'ACP_LANGUAGE_PACKS'		=> 'Nyelvi csomagok',
+	'ACP_LOAD_SETTINGS'			=> 'Terhelés beállítások',
+	'ACP_LOGGING'				=> 'Naplózás',
 	
-	'ACP_MAIN'					=> 'ACP index',
-	'ACP_MANAGE_EXTENSIONS'		=> 'Manage extensions',
-	'ACP_MANAGE_FORUMS'			=> 'Manage forums',
-	'ACP_MANAGE_RANKS'			=> 'Manage ranks',
-	'ACP_MANAGE_REASONS'		=> 'Manage report/denial reasons',
-	'ACP_MANAGE_USERS'			=> 'Manage users',
-	'ACP_MASS_EMAIL'			=> 'Mass e-mail',
-	'ACP_MESSAGES'				=> 'Messages',
-	'ACP_MESSAGE_SETTINGS'		=> 'Private message settings',
-	'ACP_MODULE_MANAGEMENT'		=> 'Module management',
-	'ACP_MOD_LOGS'				=> 'Moderator log',
-	'ACP_MOD_ROLES'				=> 'Moderator roles',
+	'ACP_MAIN'					=> 'AVP kezdőlap',
+	'ACP_MANAGE_EXTENSIONS'		=> 'Kiterjesztések kezelése',
+	'ACP_MANAGE_FORUMS'			=> 'Fórumok kezelése',
+	'ACP_MANAGE_RANKS'			=> 'Rangok kezelése',
+	'ACP_MANAGE_REASONS'		=> 'Jelentés/visszautasítás okok kezelése',
+	'ACP_MANAGE_USERS'			=> 'Felhasználók kezelése',
+	'ACP_MASS_EMAIL'			=> 'Csoportos e-mail',
+	'ACP_MESSAGES'				=> 'Üzenetek',
+	'ACP_MESSAGE_SETTINGS'		=> 'Privát üzenet beállítások',
+	'ACP_MODULE_MANAGEMENT'		=> 'Modulok kezelése',
+	'ACP_MOD_LOGS'				=> 'Moderátori napló',
+	'ACP_MOD_ROLES'				=> 'Moderátori szerepek',
 	
-	'ACP_ORPHAN_ATTACHMENTS'	=> 'Orphaned attachments',
+	'ACP_ORPHAN_ATTACHMENTS'	=> 'Árva csatolmányok',
 	
-	'ACP_PERMISSIONS'			=> 'Permissions',
-	'ACP_PERMISSION_MASKS'		=> 'Permission masks',
-	'ACP_PERMISSION_ROLES'		=> 'Permission roles',
-	'ACP_PERMISSION_TRACE'		=> 'Permission trace',
-	'ACP_PHP_INFO'				=> 'PHP information',
-	'ACP_POST_SETTINGS'			=> 'Post settings',
-	'ACP_PRUNE_FORUMS'			=> 'Prune forums',
-	'ACP_PRUNE_USERS'			=> 'Prune users',
-	'ACP_PRUNING'				=> 'Pruning',
+	'ACP_PERMISSIONS'			=> 'Jogosultságok',
+	'ACP_PERMISSION_MASKS'		=> 'Effektív jogosultságok', //?? "Permission masks", 'Tényleges jogosultságok', 'Alkalmazott jogosultságok'
+	'ACP_PERMISSION_ROLES'		=> 'Jogosultság szerepek',
+	'ACP_PERMISSION_TRACE'		=> 'Jogosultság visszakövetés',
+	'ACP_PHP_INFO'				=> 'PHP információ',
+	'ACP_POST_SETTINGS'			=> 'Hozzászólás beállítások',
+	'ACP_PRUNE_FORUMS'			=> 'Fórumok automatikus tisztítása', //?? alternatívák a prune-re: 'tisztítás', 'tisztogatás', 'automatikus tisztítás', 'automatikus törlés', 'megnyirbálás', 'megtisztítás', 'gyomlálás', 'megnyesés' - egyre jobbak :D
+	'ACP_PRUNE_USERS'			=> 'Felhasználók automatikus tisztítása',
+	'ACP_PRUNING'				=> 'Automatikus tisztítás',
 	
-	'ACP_QUICK_ACCESS'			=> 'Quick access',
+	'ACP_QUICK_ACCESS'			=> 'Gyorsmenü',
 	
-	'ACP_RANKS'					=> 'Ranks',
-	'ACP_REASONS'				=> 'Report/denial reasons',
-	'ACP_REGISTER_SETTINGS'		=> 'User registration settings',
+	'ACP_RANKS'					=> 'Rangok',
+	'ACP_REASONS'				=> 'Jelentés/visszautasítás okok',
+	'ACP_REGISTER_SETTINGS'		=> 'Felhasználói regisztráció beállítások', //? kell a felhasználói? (nem)
 
-	'ACP_RESTORE'				=> 'Restore',
+	'ACP_RESTORE'				=> 'Visszaállítás',
 
-	'ACP_SEARCH'				=> 'Search configuration',
-	'ACP_SEARCH_INDEX'			=> 'Search index',
-	'ACP_SEARCH_SETTINGS'		=> 'Search settings',
+	'ACP_SEARCH'				=> 'Kereső konfiguráció',
+	'ACP_SEARCH_INDEX'			=> 'Kereső index',
+	'ACP_SEARCH_SETTINGS'		=> 'Kereső beállítások',
 
-	'ACP_SECURITY_SETTINGS'		=> 'Security settings',
-	'ACP_SERVER_CONFIGURATION'	=> 'Server configuration',
-	'ACP_SERVER_SETTINGS'		=> 'Server settings',
-	'ACP_SIGNATURE_SETTINGS'	=> 'Signature settings',
-	'ACP_SMILIES'				=> 'Smilies',
-	'ACP_STYLE_COMPONENTS'		=> 'Style components',
-	'ACP_STYLE_MANAGEMENT'		=> 'Style management',
-	'ACP_STYLES'				=> 'Styles',
+	'ACP_SECURITY_SETTINGS'		=> 'Biztonsági beállítások',
+	'ACP_SERVER_CONFIGURATION'	=> 'Szerver konfiguráció', //?
+	'ACP_SERVER_SETTINGS'		=> 'Szerver beállítások',
+	'ACP_SIGNATURE_SETTINGS'	=> 'Aláírás beállítások',
+	'ACP_SMILIES'				=> 'Emotikonok',
+	'ACP_STYLE_COMPONENTS'		=> 'Megjelenés alkotóelemek', //? 'összetevők', 'alkotóelemek', 'komponensek'
+	'ACP_STYLE_MANAGEMENT'		=> 'Megjelenések kezelése',
+	'ACP_STYLES'				=> 'Megjelenések',
 	
-	'ACP_TEMPLATES'				=> 'Templates',
-	'ACP_THEMES'				=> 'Themes',
+	'ACP_TEMPLATES'				=> 'Sablonok',
+	'ACP_THEMES'				=> 'Témák',
 	
-	'ACP_UPDATE'					=> 'Updating',
-	'ACP_USERS_FORUM_PERMISSIONS'	=> 'Users’ forum permissions',
-	'ACP_USERS_LOGS'				=> 'User logs',
-	'ACP_USERS_PERMISSIONS'			=> 'Users’ permissions',
-	'ACP_USER_ATTACH'				=> 'Attachments',
+	'ACP_UPDATE'					=> 'Frissítés',
+	'ACP_USERS_FORUM_PERMISSIONS'	=> 'Felhasználók fórum jogosultságai',
+	'ACP_USERS_LOGS'				=> 'Felhasználói napló',
+	'ACP_USERS_PERMISSIONS'			=> 'Felhasználók jogosultságai',
+	'ACP_USER_ATTACH'				=> 'Csatolmányok',
 	'ACP_USER_AVATAR'				=> 'Avatar',
-	'ACP_USER_FEEDBACK'				=> 'Feedback',
-	'ACP_USER_GROUPS'				=> 'Groups',
-	'ACP_USER_MANAGEMENT'			=> 'User management',
-	'ACP_USER_OVERVIEW'				=> 'Overview',
-	'ACP_USER_PERM'					=> 'Permissions',
-	'ACP_USER_PREFS'				=> 'Preferences',
-	'ACP_USER_PROFILE'				=> 'Profile',
-	'ACP_USER_RANK'					=> 'Rank',
-	'ACP_USER_ROLES'				=> 'User roles',
-	'ACP_USER_SECURITY'				=> 'User security',
-	'ACP_USER_SIG'					=> 'Signature',
+	'ACP_USER_FEEDBACK'				=> 'Feljegyzések',
+	'ACP_USER_GROUPS'				=> 'Csoportok',
+	'ACP_USER_MANAGEMENT'			=> 'Felhasználók kezelése', //?
+	'ACP_USER_OVERVIEW'				=> 'Áttekintés',
+	'ACP_USER_PERM'					=> 'Jogosultságok',
+	'ACP_USER_PREFS'				=> 'Beállítások',
+	'ACP_USER_PROFILE'				=> 'Profil',
+	'ACP_USER_RANK'					=> 'Rang',
+	'ACP_USER_ROLES'				=> 'Felhasználói szerepek',
+	'ACP_USER_SECURITY'				=> 'Felhasználói biztonság', //?? úgyse használják....
+	'ACP_USER_SIG'					=> 'Aláírás',
 
-	'ACP_VC_SETTINGS'					=> 'Visual confirmation settings',
-	'ACP_VC_CAPTCHA_DISPLAY'			=> 'CAPTCHA image preview',
-	'ACP_VERSION_CHECK'					=> 'Check for updates',
-	'ACP_VIEW_ADMIN_PERMISSIONS'		=> 'View administrative permissions',
-	'ACP_VIEW_FORUM_MOD_PERMISSIONS'	=> 'View forum moderation permissions',
-	'ACP_VIEW_FORUM_PERMISSIONS'		=> 'View forum-based permissions',
-	'ACP_VIEW_GLOBAL_MOD_PERMISSIONS'	=> 'View global moderation permissions',
-	'ACP_VIEW_USER_PERMISSIONS'			=> 'View user-based permissions',
+	'ACP_VC_SETTINGS'					=> 'Vizuális megerősítés beállítások',
+	'ACP_VC_CAPTCHA_DISPLAY'			=> 'CAPTCHA kép előnézet', //?
+	'ACP_VERSION_CHECK'					=> 'Frissítések keresése',
+	'ACP_VIEW_ADMIN_PERMISSIONS'		=> 'Adminisztrációs jogosultságok megtekintése', //? "View administrative permissions" 'Adminisztratív'
+	'ACP_VIEW_FORUM_MOD_PERMISSIONS'	=> 'Fórum moderátori jogosultságok megtekintése',
+	'ACP_VIEW_FORUM_PERMISSIONS'		=> 'Fórum alapú jogosultságok megtekintése',
+	'ACP_VIEW_GLOBAL_MOD_PERMISSIONS'	=> 'Globális moderátori jogosultságok megtekintése',
+	'ACP_VIEW_USER_PERMISSIONS'			=> 'Felhasználó alapú jogosultságok megtekintése', //?
 	
-	'ACP_WORDS'					=> 'Word censoring',
+	'ACP_WORDS'					=> 'Szócenzúra', //? "Word censoring" 'Szavak cenzúrázása'
 
 	'ACTION'				=> 'Action',
 	'ACTIONS'				=> 'Actions',
