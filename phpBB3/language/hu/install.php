@@ -4,7 +4,7 @@
 * install [Hungarian]
 *
 * @package language
-* @version $Id: install.php,v 1.17 2007-06-26 10:56:22 fberci Exp $
+* @version $Id: install.php,v 1.18 2007-06-28 23:11:16 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -179,8 +179,8 @@ $lang = array_merge($lang, array(
 	'INSTALL_CONGRATS_EXPLAIN'	=> '
 		<p>Sikeresen telepítetted a phpBB %1$s-t. Most két dolgot tehetesz az újonnan telepített phpBB3-addal:</p>
 		<h2>Már meglévő fórum átkonvertálása</h2>
-		<p>A phpBB Egyesített Konvertáló Keretrendszer segítségével át lehet konvertálni phpBB 2.0.x-es és más fórummotort használó fórumokat phpBB3-assá. Ha át szeretnél konvertálni egy már meglévő fórumot, <a href="%2$s">lépj tovább a konvertálóhoz</a>.</p>
-		<h2>A fórum használatva vétele</h2>
+		<p>A phpBB Egyesített Konvertáló Keretrendszer segítségével át lehet konvertálni phpBB 2.0.x-es vagy más fórummotort használó fórumokat phpBB3-assá. Ha át szeretnél konvertálni egy már meglévő fórumot, <a href="%2$s">lépj tovább a konvertálóhoz</a>.</p>
+		<h2>A fórum használatba vétele</h2>
 		<p>Az alábbi gombra kattintva az adminisztrátori vezérlőpultra jutsz. Szánj rá egy kis időt, és vizsgáld meg a beállítási lehetőségeket. Ne feledkezz meg róla, hogy a phpBB-vel kapcsolatban segítséget nyújt az angol <a href="http://www.phpbb.com/support/documentation/3.0/">Felhasználói kézikönyv</a> és a <a href="http://www.phpbb.com/phpBB/viewforum.php?f=46">phpbb.com megfelelő fóruma</a>; további információkat a <a href="%3$s">README</a>-ben találsz.</p><p><strong>Most kérjük, töröld, helyezd át, vagy nevezd át az install könyvtárat, mert amíg ez a könyvtár létezik, csak az adminisztrátori vezérlőpult lesz elérhető.</strong></p>', //? teljes átfogalmazás... TODO (béta)
 	'INSTALL_INTRO'				=> 'Üdvözlünk a telepítőben', //? "Welcome to Installation" 'Üdvözlünk a telepítésnél'
 	'INSTALL_INTRO_BODY'		=> 'Ezen menüpont segítségével feltelepítheted a phpBB-t a szerveredre.</p><p>A folytatás során szükséged lesz az adatbázis adatokra. Ha nem simered ezeket, lépj kapcsolatba a tárhelyszolgáltatóddal, és tájékozódj róluk. Ezen adatok nélkül nem tudsz továbblépni. A következőkre lesz szükséged:</p>
@@ -189,7 +189,7 @@ $lang = array_merge($lang, array(
 		<li>az adatbázisszerver hosztnevére vagy DSN-jére – az adatbázisszerver címe, elérhetősége;</li>
 		<li>az adatbázisszerver portjára – milyen porton lehet csatlakozni az adatbázisszerverhez (az esetek nagy többségében ez nem szükséges);</li>
 		<li>az adatbázis nevére – az adatbázis neve a szerveren;</li>
-		<li>az adatbázis-felhasználónévre és az ehhez tartozó jelszóra – a kapcsolódáshoz szükséges adatok;</li>
+		<li>az adatbázis-felhasználónévre és az ehhez tartozó jelszóra – a kapcsolódáshoz szükséges adatok.</li>
 	</ul>
 
 	<p><strong>Megjegyzés:</strong> ha SQLite-ot használsz, a DSN mezőben a teljes elérési utat add meg az adatbázishoz, valamint hagyd a felhasználónév és a jelszó mezőt üresen. Biztonsági szempontból fontos, hogy az adatbázis-állomány ne egy webről elérhető könyvtárban legyen tárolva.</p>
@@ -228,7 +228,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_EMAIL_INVALID'	=> 'A megadott e-mail cím hibás.',
 	'INST_ERR_EMAIL_MISMATCH'	=> 'A megadott e-mail címek nem egyeznek meg.',
 	'INST_ERR_FATAL'			=> 'Súlyos telepítési hiba', //? fatális?
-	'INST_ERR_FATAL_DB'			=> 'Egy súlyos és nem helyreállítható adatbázishiba lépett fel. Lehet, hogy azért mert, az adatbázis-felhasználónak nincs jogosultsága néhány művelet elvégzéséhez (<code>CREATE TABLES</code>, <code>INSERT</code> stb.). További információkat alább találhatsz. Lépj kapcsolatba a tárhelyszolgáltatóddal, és/vagy fordulj a phpBB-vel foglalkozó fórumokhoz.', //? "A fatal and unrecoverable database error has occurred. This may be because the specified user does not have appropriate rights to <code>CREATE TABLES</code> or <code>INSERT</code> data, etc. Further information may be given below. Please contact your hosting provider in the first instance or the support forums of phpBB for further assistance." unrecoverable - nem javítható/helyreállítható
+	'INST_ERR_FATAL_DB'			=> 'Egy súlyos és nem helyreállítható adatbázishiba lépett fel. Lehet, hogy azért, mert az adatbázis-felhasználónak nincs jogosultsága néhány művelet elvégzéséhez (<code>CREATE TABLES</code>, <code>INSERT</code> stb.). További informácit alább találhatsz. Lépj kapcsolatba a tárhelyszolgáltatóddal, és/vagy fordulj a phpBB-vel foglalkozó fórumokhoz.', //? "A fatal and unrecoverable database error has occurred. This may be because the specified user does not have appropriate rights to <code>CREATE TABLES</code> or <code>INSERT</code> data, etc. Further information may be given below. Please contact your hosting provider in the first instance or the support forums of phpBB for further assistance." unrecoverable - nem javítható/helyreállítható
 	'INST_ERR_FTP_PATH'			=> 'Nem sikerült elérni a megadott könyvtárat, kérjük, ellenőrizd az elérési utat.', //? "Could not change to the given directory, please check the path." elérni a könyvtárat?
 	'INST_ERR_FTP_LOGIN'		=> 'Nem sikerült belépni az FTP szerverre, ellenőrizd a megadott felhasználónevet és jelszót.',
 	'INST_ERR_MISSING_DATA'		=> 'A blokkban található összes mezőt ki kell töltened.', //? blokk, tömb
@@ -281,9 +281,9 @@ $lang = array_merge($lang, array(
 	'PHP_REGISTER_GLOBALS_EXPLAIN'	=> 'A phpBB akkor is működni fog, ha ez a beállítás be van kapcsolva, azonban biztonsági szempontból ajánlott a kikapcsolása.',
 	'PHP_SAFE_MODE'					=> 'Biztonságos mód', //? ennek ez a magyar fordítása?
 	'PHP_SETTINGS'					=> 'PHP verzió és beállítások',
-	'PHP_SETTINGS_EXPLAIN'			=> '<strong>Szükséges</strong> – A phpBB telepítéséhez legalább 4.3.3-as verziójú PHP-val kell rendelkezned. Ha alább megjelenik a <var>biztonságos mód</var> felirat, akkor a PHP ebben a módban fut. Ez korlátozásokkal jár a távoli adminisztrációhoz hasonló funkciók terén.', //? Szükséges a szöveg elején... távoli adminisztráció...
+	'PHP_SETTINGS_EXPLAIN'			=> '<strong>Szükséges</strong> – A phpBB telepítéséhez legalább 4.3.3-as verziójú PHP-val kell rendelkezned. Ha alább megjelenik a <var>biztonságos mód</var> felirat, akkor a PHP ebben a módban fut. Ez korlátozásokkal jár a távoli adminisztráció és ehhez hasonló funkciók terén.', //? Szükséges a szöveg elején... távoli adminisztráció...
 	'PHP_URL_FOPEN_SUPPORT'			=> '<var>allow_url_fopen</var> PHP beállítás bekapcsolva',
-	'PHP_URL_FOPEN_SUPPORT_EXPLAIN'	=> '<strong>Opcionális</strong> – Ez a beállítás opcionális, bár a phpBB néhány funkciója, mint például a külső avatarok nem fog rendesen működni nélküle.',
+	'PHP_URL_FOPEN_SUPPORT_EXPLAIN'	=> '<strong>Opcionális</strong> – Ez a beállítás opcionális, bár a phpBB néhány funkciója, mint például a külső avatarok, nem fog rendesen működni nélküle.',
 	'PHP_VERSION_REQD'				=> 'PHP verzió >= 4.3.3',
 	'POST_ID'						=> 'Hozzászólás azonosító', //? ID?
 	'PREFIX_FOUND'					=> 'Az adatbázistábláid azt mutatják, hogy van már egy telepített phpBB-d, melynek a tábla előtagja <strong>%s</strong>.',
