@@ -4,7 +4,7 @@
 * viewtopic [Hungarian]
 *
 * @package language
-* @version $Id: viewtopic.php,v 1.6 2007-03-24 22:39:35 fberci Exp $
+* @version $Id: viewtopic.php,v 1.7 2007-06-28 23:11:16 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -72,7 +72,7 @@ $lang = array_merge($lang, array(
 	'NO_OLDER_TOPICS'		=> 'Nincs régebbi téma a fórumban.',
 	'NO_UNREAD_POSTS'		=> 'Nincs új olvasatlan hozzászólás a témában.',
 	'NO_VOTE_OPTION'		=> 'A szavazáshoz meg kell adnod egy választási lehetőséget.',
-	'NO_VOTES'				=> 'Nincsenek szavazatok.', //? "No votes"
+	'NO_VOTES'				=> '0 szavazat', //? 'Nincs szavazat'
 
 	'POLL_ENDED_AT'			=> 'A szavazás %s-kor befejeződött.',
 	'POLL_RUN_TILL'			=> 'A szavazás %s-ig van érvényben.',

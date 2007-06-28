@@ -4,7 +4,7 @@
 * acp common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.8 2007-06-27 12:47:56 fberci Exp $
+* @version $Id: common.php,v 1.9 2007-06-28 23:11:17 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -79,7 +79,7 @@ $lang = array_merge($lang, array(
 	'ACP_EXTENSION_GROUPS'		=> 'Kiterjesztés csoportok kezelése',
 	
 	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Fórum alapú jogosultságok', //?? "Forum based permissions" a jogosultságokhoz ki kell találni egy terminológiát
-	'ACP_FORUM_LOGS'				=> 'Fórumnapló', //? egybe?
+	'ACP_FORUM_LOGS'				=> 'Fórum naplók',
 	'ACP_FORUM_MANAGEMENT'			=> 'Fórumok kezelése', //? használják?
 	'ACP_FORUM_MODERATORS'			=> 'Fórum moderátorok',
 	'ACP_FORUM_PERMISSIONS'			=> 'Fórum jogosultságok',
@@ -137,7 +137,7 @@ $lang = array_merge($lang, array(
 	
 	'ACP_RANKS'					=> 'Rangok',
 	'ACP_REASONS'				=> 'Jelentés/visszautasítás okok',
-	'ACP_REGISTER_SETTINGS'		=> 'Felhasználói regisztráció beállítások', //? kell a felhasználói? (nem)
+	'ACP_REGISTER_SETTINGS'		=> 'Felhasználói regisztrációs beállítások', //? kell a felhasználói? (nem)
 
 	'ACP_RESTORE'				=> 'Visszaállítás',
 
@@ -186,166 +186,166 @@ $lang = array_merge($lang, array(
 	
 	'ACP_WORDS'					=> 'Szócenzúra', //? "Word censoring" 'Szavak cenzúrázása'
 
-	'ACTION'				=> 'Action',
-	'ACTIONS'				=> 'Actions',
-	'ACTIVATE'				=> 'Activate',
-	'ADD'					=> 'Add',
-	'ADMIN'					=> 'Administration',
-	'ADMIN_INDEX'			=> 'Admin index',
-	'ADMIN_PANEL'			=> 'Administration Control Panel',
+	'ACTION'				=> 'Művelet',
+	'ACTIONS'				=> 'Műveletek',
+	'ACTIVATE'				=> 'Aktiválás',
+	'ADD'					=> 'Hozzáadás',
+	'ADMIN'					=> 'Adminisztráció',
+	'ADMIN_INDEX'			=> 'Adminisztrátori kezdőlap',
+	'ADMIN_PANEL'			=> 'Adminisztrátori vezérlőpult',
 
-	'BACK'					=> 'Back',
+	'BACK'					=> 'Vissza',
 
-	'COLOUR_SWATCH'			=> 'Web-safe colour swatch',
-	'CONFIG_UPDATED'		=> 'Configuration updated successfully.',
+	'COLOUR_SWATCH'			=> 'Webbiztos színválasztó',
+	'CONFIG_UPDATED'		=> 'A konfiguráció sikeresen frissítésre került.', //?
 
-	'DEACTIVATE'				=> 'Deactivate',
-	'DIRECTORY_DOES_NOT_EXIST'	=> 'The entered path “%s” does not exist.',
-	'DIRECTORY_NOT_DIR'			=> 'The entered path “%s” is not a directory.',
-	'DIRECTORY_NOT_WRITABLE'	=> 'The entered path “%s” is not writable.',
-	'DISABLE'					=> 'Disable',
-	'DOWNLOAD'					=> 'Download',
-	'DOWNLOAD_AS'				=> 'Download as',
-	'DOWNLOAD_STORE'			=> 'Download or store file',
-	'DOWNLOAD_STORE_EXPLAIN'	=> 'You may directly download the file or save it in your <samp>store/</samp> folder.',
+	'DEACTIVATE'				=> 'Deaktiválás',
+	'DIRECTORY_DOES_NOT_EXIST'	=> 'A megadott „%s” elérési út nem létezik.',
+	'DIRECTORY_NOT_DIR'			=> 'A megadott „%s” elérési út nem könyvtár.',
+	'DIRECTORY_NOT_WRITABLE'	=> 'A megadott „%s” elérési út nem írható.',
+	'DISABLE'					=> 'Kikapcsolás',
+	'DOWNLOAD'					=> 'Letöltés',
+	'DOWNLOAD_AS'				=> 'Letöltés, mint', //?
+	'DOWNLOAD_STORE'			=> 'Állomány letöltése vagy eltárolása', //? "Download or store file" a store simán csak tárolása?
+	'DOWNLOAD_STORE_EXPLAIN'	=> 'Az állományt közvetlenül letöltheted, vagy elmentheted a <samp>store/</samp> könyvtáradba.',
 
-	'EDIT'					=> 'Edit',
-	'ENABLE'				=> 'Enable',
-	'EXPORT_DOWNLOAD'		=> 'Download',
-	'EXPORT_STORE'			=> 'Store',
+	'EDIT'					=> 'Szerkesztés',
+	'ENABLE'				=> 'Bekapcsolás',
+	'EXPORT_DOWNLOAD'		=> 'Letöltés',
+	'EXPORT_STORE'			=> 'Eltárolás',
 
-	'GENERAL_OPTIONS'		=> 'General options',
-	'GENERAL_SETTINGS'		=> 'General settings',
-	'GLOBAL_MASK'			=> 'Global permission mask',
+	'GENERAL_OPTIONS'		=> 'Általános beállítások', //? "General options" 'Általános választási lehetőségek'??
+	'GENERAL_SETTINGS'		=> 'Általános beállítások',
+	'GLOBAL_MASK'			=> 'Globális effektív jogosultságok', //? "Global permission mask"
 
-	'INSTALL'				=> 'Install',
-	'IP'					=> 'User IP',
-	'IP_HOSTNAME'			=> 'IP addresses or hostnames',
+	'INSTALL'				=> 'Telepítés',
+	'IP'					=> 'Felhasználó IP-je',
+	'IP_HOSTNAME'			=> 'IP-címek vagy hosztnevek', //? egyesszám?
 
-	'LOGGED_IN_AS'			=> 'You are logged in as:',
-	'LOGIN_ADMIN'			=> 'To administer the board you must be an authenticated user.',
-	'LOGIN_ADMIN_CONFIRM'	=> 'To administer the board you must re-authenticate yourself.',
-	'LOGIN_ADMIN_SUCCESS'	=> 'You have successfully authenticated and will now be redirected to the Administration Control Panel.',
-	'LOOK_UP_FORUM'			=> 'Select a forum',
-	'LOOK_UP_FORUMS_EXPLAIN'=> 'You are able to select more than one forum.',
+	'LOGGED_IN_AS'			=> 'Bejelentkezve:', //? "You are logged in as:" 'Bejelentkeztél, mint', 'Be vagy lépve, mint', 'Bejelentkezve, mint'
+	'LOGIN_ADMIN'			=> 'A fórum adminisztrálásához azonosított felhasználónak kell lenned.',
+	'LOGIN_ADMIN_CONFIRM'	=> 'A fórum adminisztrálásához újra azonosítanod kell magad..',
+	'LOGIN_ADMIN_SUCCESS'	=> 'Sikeresen azonosításra kerültél, most továbbirányításra kerülsz az adminisztrátori vezérlőpultba.',
+	'LOOK_UP_FORUM'			=> 'Fórum kiválasztása',
+	'LOOK_UP_FORUMS_EXPLAIN'=> 'Több fórumot is kiválaszthatsz.',
 
-	'MANAGE'				=> 'Manage',
-	'MENU_TOGGLE'			=> 'Hide or display the side menu',
-	'MOVE_DOWN'				=> 'Move down',
-	'MOVE_UP'				=> 'Move up',
+	'MANAGE'				=> 'Kezelés', //?
+	'MENU_TOGGLE'			=> 'Oldalsó menü elrejtése/mutatása',
+	'MOVE_DOWN'				=> 'Mozgatás lejjebb',
+	'MOVE_UP'				=> 'Mozgatás feljebb',
 
-	'NOTIFY'				=> 'Notification',
-	'NO_ADMIN'				=> 'You are not authorised to administrate this board.',
-	'NO_EMAILS_DEFINED'		=> 'No valid e-mail addresses found.',
-	'NO_PASSWORD_SUPPLIED'	=> 'You need to enter your password to access the Administration Control Panel.',	
+	'NOTIFY'				=> 'Értesítés',
+	'NO_ADMIN'				=> 'Nincs jogosultságod a fórum adminisztrálásához.',
+	'NO_EMAILS_DEFINED'		=> 'Nem található valós e-mail cím.', //? "No valid e-mail addresses found." hol használják?
+	'NO_PASSWORD_SUPPLIED'	=> 'Az adminisztrátori vezérlőpulthoz való hozzáféréshez meg kell adnod a jelszavad.',	
 
-	'OFF'					=> 'Off',
-	'ON'					=> 'On',
+	'OFF'					=> 'Kikapcsolva',
+	'ON'					=> 'Bekapcsolva',
 
-	'PARSE_BBCODE'						=> 'Parse BBCode',
-	'PARSE_SMILIES'						=> 'Parse smilies',
-	'PARSE_URLS'						=> 'Parse links',
-	'PERMISSIONS_TRANSFERRED'			=> 'Permissions transferred',
-	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'You currently have the permissions from %1$s. You are able to browse the board with this user’s permissions, but not access the administration control panel since admin permissions were not transferred. You can <a href="%2$s"><strong>revert to your permission set</strong></a> at any time.',
-	'PIXEL'								=> 'px',	
-	'PROCEED_TO_ACP'					=> '%sProceed to the ACP%s',
+	'PARSE_BBCODE'						=> 'BBCode értelmezése', //? "Parse BBCode" 'BBCode feldolgozása' 'BBCode értelmezése' 'BBCode bekapcsolva' 'BBCode használata'
+	'PARSE_SMILIES'						=> 'Emotikonok értelmezése',
+	'PARSE_URLS'						=> 'Linkek értelmezése',
+	'PERMISSIONS_TRANSFERRED'			=> 'Jogosultságok átruházva',
+	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Jelenleg %1$s jogosultságaival rendelkezel. A fórumot ezen felhasználó jogosultságaival böngészheted, viszont nem férhetsz hozzá az adminisztrációs vezérlőpulthoz, mivel adminisztrátori jogosultságok nem kerültek átruházásra. <a href="%2$s"><strong>Bármikor visszatérhetsz a saját jogosultságaidhoz.</strong></a>',
+	'PIXEL'								=> 'px', //?
+	'PROCEED_TO_ACP'					=> '%sTovább az AVP-hoz%s',
 
-	'REMIND'							=> 'Remind',
-	'RESYNC'							=> 'Resynchronise',
-	'RETURN_TO'							=> 'Return to…',
+	'REMIND'							=> 'Emlékeztetés',
+	'RESYNC'							=> 'Újraszinkronizálás',
+	'RETURN_TO'							=> 'Vissza:', //? "Return to…"
 
-	'SELECT_ANONYMOUS'		=> 'Select anonymous user',
-	'SELECT_OPTION'			=> 'Select option',
+	'SELECT_ANONYMOUS'		=> 'Vendég felhasználó kiválasztása',
+	'SELECT_OPTION'			=> 'Opció kiválasztása',
 
-	'UCP'					=> 'User Control Panel',
-	'USERNAMES_EXPLAIN'		=> 'Place each username on a separate line.',
-	'USER_CONTROL_PANEL'	=> 'User Control Panel',
+	'UCP'					=> 'Felhasználói vezérlőpult',
+	'USERNAMES_EXPLAIN'		=> 'Minden felhsználónevet külön sorba írj.',
+	'USER_CONTROL_PANEL'	=> 'Felhasználói vezérlőpult',
 
-	'WARNING'				=> 'Warning',
+	'WARNING'				=> 'Figyelmeztetés',
 ));
 
 // PHP info
 $lang = array_merge($lang, array(
-	'ACP_PHP_INFO_EXPLAIN'	=> 'This page lists information on the version of PHP installed on this server. It includes details of loaded modules, available variables and default settings. This information may be useful when diagnosing problems. Please be aware that some hosting companies will limit what information is displayed here for security reasons. You are advised to not give out any details on this page except when asked by <a href="http://www.phpbb.com/about/team/">official team members</a> on the support forums.',
+	'ACP_PHP_INFO_EXPLAIN'	=> 'Ez az oldal információkat tartalmaz a szerveren lévő PHP-ról. Az adatok között megtalálod a betöltött modulokat, elérhető változókat és az alap beállításokat. Ezek az információk hasznosak tudnak lenni egy probléma kivizsgálásánál. Kérjük, vedd figyelembe, hogy néhány tárhelyszolgáltató biztonsági okokból korlátozza, milyen információk jelennek meg itt. Az ezen az oldalon szereplő adatokat nem tanácsos kiadni, hacsak nem egy <a href="http://www.phpbb.com/about/team/">hivatalos csapattag</a> kérdezi azokat a támogató fórumokban!',
 
-	'NO_PHPINFO_AVAILABLE'	=> 'The PHP informations are unable to be determined. Phpinfo() has been disabled for security reasons.',
+	'NO_PHPINFO_AVAILABLE'	=> 'Nem lehet meghatározni a PHP információkat. A phpinfo() biztonsági okokból le lett tiltva.',
 ));
 
 // Logs
 $lang = array_merge($lang, array(
-	'ACP_ADMIN_LOGS_EXPLAIN'	=> 'This lists all the actions carried out by board administrators. You can sort by username, date, IP or action. If you have appropriate permissions you can also clear individual operations or the log as a whole.',
-	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'This lists the actions carried out by the board itself. This log provides you with information you are able to use for solving specific problems, for example non-delivery of e-mails. You can sort by username, date, IP or action. If you have appropriate permissions you can also clear individual operations or the log as a whole.',
-	'ACP_MOD_LOGS_EXPLAIN'		=> 'This lists all actions done on forums, topics and posts as well as actions carried out on users by moderators, including banning. You can sort by username, date, IP or action. If you have appropriate permissions you can also clear individual operations or the log as a whole.',
-	'ACP_USERS_LOGS_EXPLAIN'	=> 'This lists all actions carried out by users or on users (reports, warnings and user notes).',
-	'ALL_ENTRIES'				=> 'All entries',
+	'ACP_ADMIN_LOGS_EXPLAIN'	=> 'Ez a lista az adminisztrátorok összes műveletét, tevékenységét tartalmazza. Rendezheted felhasználónév, idő, IP-cím vagy művelet szerint. Ha rendelkezel a szükséges jogosultságokkal, törölheted az egyes bejegyzéseket vagy akár a teljes napló tartalmát.',
+	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'Ez a lista a fórum által végrehajtott műveleteket tartalmazza. Ez a napló olyan információkat nyújt, melyeket fel tudsz használni problémák megoldásához, például hogy miért nem mennek el az e-mailek. Rendezheted felhasználónév, idő, IP-cím vagy művelet szerint. Ha rendelkezel a szükséges jogosultságokkal, törölheted az egyes bejegyzéseket vagy akár a teljes napló tartalmát.',
+	'ACP_MOD_LOGS_EXPLAIN'		=> 'Ez a lista a moderátorok által a fórumokon, témákon és hozzászólásokon végrehajtott műveleteket tartalmazza, ide értve a kitiltásokat is. Rendezheted felhasználónév, idő, IP-cím vagy művelet szerint. Ha rendelkezel a szükséges jogosultságokkal, törölheted az egyes bejegyzéseket vagy akár a teljes napló tartalmát.',
+	'ACP_USERS_LOGS_EXPLAIN'	=> 'Ez a lista a felhasználókon vagy a felhasználók által végrehajtott műveleteket tartalmazza (jelentések, figyelmeztetések és feljegyzések).',
+	'ALL_ENTRIES'				=> 'Összes bejegyzés',
 
-	'DISPLAY_LOG'	=> 'Display entries from previous',
+	'DISPLAY_LOG'	=> 'Bejegyzések megjelenítése:', //? "Display entries from previous"
 
-	'NO_ENTRIES'	=> 'No log entries for this period.',
+	'NO_ENTRIES'	=> 'Ebben az időtartamban nincs napló bejegyzés.',
 
-	'SORT_IP'		=> 'IP address',
-	'SORT_DATE'		=> 'Date',
-	'SORT_ACTION'	=> 'Log action',
+	'SORT_IP'		=> 'IP-cím',
+	'SORT_DATE'		=> 'Dátum',
+	'SORT_ACTION'	=> 'Művelet',
 ));
 
 // Index page
 $lang = array_merge($lang, array(
-	'ADMIN_INTRO'				=> 'Thank you for choosing phpBB as your board solution. This screen will give you a quick overview of all the various statistics of your board. The links on the left hand side of this screen allow you to control every aspect of your board experience. Each page will have instructions on how to use the tools.',
-	'ADMIN_LOG'					=> 'Logged administrator actions',
-	'ADMIN_LOG_INDEX_EXPLAIN'	=> 'This gives an overview of the last five actions carried out by board administrators. A full copy of the log can be viewed from the appropriate menu item or following the link below.',
-	'AVATAR_DIR_SIZE'			=> 'Avatar directory size',
+	'ADMIN_INTRO'				=> 'Köszönjük, hogy a phpBB-t választottad a fórumodnak. Ezen az oldalon egy áttekintést látsz a fórumod különböző statisztikai adatairól. Az oldal tetején és bal oldalán lévő linkek segítségével a fórumod minden részét részletekbe menően megváltoztathatod. Minden oldalon találsz majd egy leírást az aktuális beállításokhoz.',
+	'ADMIN_LOG'					=> 'Naplózott adminisztrátori tevékenységek',
+	'ADMIN_LOG_INDEX_EXPLAIN'	=> 'Itt egy áttekintést láthatsz az adminisztrátorok által végrehajtott utolsó öt műveletről. A teljes naplót megtekintheted a menü megfelelő elemére vagy az alább lévő linkre kattintva.',
+	'AVATAR_DIR_SIZE'			=> 'Avatar könyvtár mérete',
 
-	'BOARD_STARTED'		=> 'Board started',
+	'BOARD_STARTED'		=> 'Fórum indulása',
 
-	'DATABASE_SERVER_INFO'	=> 'Database server',
-	'DATABASE_SIZE'			=> 'Database size',
+	'DATABASE_SERVER_INFO'	=> 'Adatbázisszerver',
+	'DATABASE_SIZE'			=> 'Adatbázis mérete',
 
-	'FILES_PER_DAY'		=> 'Attachments per day',
-	'FORUM_STATS'		=> 'Board statistics',
+	'FILES_PER_DAY'		=> 'Csatolmányok száma naponta',
+	'FORUM_STATS'		=> 'Fórum statisztika',
 
-	'GZIP_COMPRESSION'	=> 'GZip compression',
+	'GZIP_COMPRESSION'	=> 'GZip tömörítés',
 
-	'NOT_AVAILABLE'		=> 'Not available',
-	'NUMBER_FILES'		=> 'Number of attachments',
-	'NUMBER_POSTS'		=> 'Number of posts',
-	'NUMBER_TOPICS'		=> 'Number of topics',
-	'NUMBER_USERS'		=> 'Number of users',
-	'NUMBER_ORPHAN'		=> 'Orphan attachments',
+	'NOT_AVAILABLE'		=> 'Nem elérhető',
+	'NUMBER_FILES'		=> 'Csatolmányok száma',
+	'NUMBER_POSTS'		=> 'Hozzászólások száma',
+	'NUMBER_TOPICS'		=> 'Témák száma',
+	'NUMBER_USERS'		=> 'Felhasználók száma',
+	'NUMBER_ORPHAN'		=> 'Árva csatolmányok száma',
 
-	'POSTS_PER_DAY'		=> 'Posts per day',
+	'POSTS_PER_DAY'		=> 'Hozzászólások száma naponta',
 
-	'PURGE_CACHE'			=> 'Purge the cache',
-	'PURGE_CACHE_CONFIRM'	=> 'Are you sure you wish to purge the cache?',
-	'PURGE_CACHE_EXPLAIN'	=> 'Purge all cache related items, this includes any cached template files or queries.',
+	'PURGE_CACHE'			=> 'Gyorsítótár kiürítése', //? megtisztítása?
+	'PURGE_CACHE_CONFIRM'	=> 'Biztosan ki akarod üríteni a gyorsítótárat?',
+	'PURGE_CACHE_EXPLAIN'	=> 'Minden gyorsítótárazott elem törlésre kerül, ide értve a gyorsítótárazott sablon állományokat és adatbázis lekérdezéseket.',
 
-	'RESET_DATE'					=> 'Reset board’s start date',
-	'RESET_DATE_CONFIRM'			=> 'Are you sure you wish to reset the board’s start date?',
-	'RESET_ONLINE'					=> 'Reset most users ever online',
-	'RESET_ONLINE_CONFIRM'			=> 'Are you sure you wish to reset the most users ever online counter?',
-	'RESYNC_POSTCOUNTS'				=> 'Resynchronise post counts',
-	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Only existing posts will be taken into consideration. Pruned posts will not be counted.',
-	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Are you sure you wish to resynchronise post counts?',
-	'RESYNC_POST_MARKING'			=> 'Resynchronise dotted topics',
-	'RESYNC_POST_MARKING_CONFIRM'	=> 'Are you sure you wish to resynchronise dotted topics?',
-	'RESYNC_POST_MARKING_EXPLAIN'	=> 'First unmarks all topics and then correctly marks topics that have seen any activity during the past six months.',
-	'RESYNC_STATS'					=> 'Resynchronise statistics',
-	'RESYNC_STATS_CONFIRM'			=> 'Are you sure you wish to resynchronise statistics?',
-	'RESYNC_STATS_EXPLAIN'			=> 'Recalculates the total number of posts, topics, users and files.',
-	'RUN'							=> 'Run now',
+	'RESET_DATE'					=> 'Fórum indulási dátumának lenullázása', //? lenullázás?
+	'RESET_DATE_CONFIRM'			=> 'Biztosan meg akarod változtatni a fórum indulásának dátumát mostanra?',
+	'RESET_ONLINE'					=> 'Valaha jelenlévő legtöbb felhasználó számának lenullázása', //?
+	'RESET_ONLINE_CONFIRM'			=> 'Biztosan le akarod nullázni a valaha jelenlévő legtöbb felhasználó számlálót?',
+	'RESYNC_POSTCOUNTS'				=> 'Hozzászólásszámok újraszinkronizálása', //? hozzászólásszámok...
+	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Csak a létező hozzászólások kerülnek figyelembevételre. Az automatikus tisztítás által törölt hozzászólások nem lesznek beleszámolva.', //?
+	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Biztosan újra akarod szinkronizálni a hozzászólásszámokat?',
+	'RESYNC_POST_MARKING'			=> 'Csillagozott témák újraszinkronizálása', //? dotted - csillagozott (prosilverben legalábbis)
+	'RESYNC_POST_MARKING_CONFIRM'	=> 'Biztosan újra akarod szinkronizálni a csillagozott témákat?',
+	'RESYNC_POST_MARKING_EXPLAIN'	=> 'Először visszavonódik a megjelölés minden témáról, majd helyesen megjelölésre kerülnek azok a témák, melyekben volt valami aktivitás az elmúlt fél évben.', //?
+	'RESYNC_STATS'					=> 'Statisztika újraszinkronizálása', //?
+	'RESYNC_STATS_CONFIRM'			=> 'Biztosan újra akarod szinkronizálni a statisztikát?',
+	'RESYNC_STATS_EXPLAIN'			=> 'Újraszámolja a fórum hozzászólásait, témáit, felhasználóit és állományait.', //?
+	'RUN'							=> 'Futtatás most',
 
-	'STATISTIC'					=> 'Statistic',
-	'STATISTIC_RESYNC_OPTIONS'	=> 'Resynchronise or reset statistics',
+	'STATISTIC'					=> 'Statisztika',
+	'STATISTIC_RESYNC_OPTIONS'	=> 'Statisztikák újraszinkronizálása vagy lenullázása',
 
-	'TOPICS_PER_DAY'	=> 'Topics per day',
+	'TOPICS_PER_DAY'	=> 'Témák száma naponta',
 
-	'UPLOAD_DIR_SIZE'	=> 'Size of posted attachments',
-	'USERS_PER_DAY'		=> 'Users per day',
+	'UPLOAD_DIR_SIZE'	=> 'Feltöltött csatolmányok mérete',
+	'USERS_PER_DAY'		=> 'Felhasználók száma naponta',
 
-	'VALUE'					=> 'Value',
-	'VIEW_ADMIN_LOG'		=> 'View administrator log',
-	'VIEW_INACTIVE_USERS'	=> 'View inactive users',
+	'VALUE'					=> 'Érték',
+	'VIEW_ADMIN_LOG'		=> 'Adminisztrátori napló megtekintése',
+	'VIEW_INACTIVE_USERS'	=> 'Inaktív felhasználók megtekintése',
 
-	'WELCOME_PHPBB'			=> 'Welcome to phpBB',
+	'WELCOME_PHPBB'			=> 'Üdvözlünk a phpBB-ben!',
 ));
 
 // Inactive Users
