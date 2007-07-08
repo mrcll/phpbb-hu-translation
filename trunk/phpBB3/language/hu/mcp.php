@@ -4,7 +4,7 @@
 * mcp [Hungarian]
 *
 * @package language
-* @version $Id: mcp.php,v 1.18 2007-06-16 21:34:04 fberci Exp $
+* @version $Id: mcp.php,v 1.19 2007-07-08 17:53:25 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -329,7 +329,7 @@ $lang = array_merge($lang, array(
 	'UNLOCK_POST_EXPLAIN'			=> 'Szerkesztés engedélyezése', //? kicsivel kéne, de míg így se passzol ahhoz a hosszú szöveghez, ami nyitott állapotban ott van
 	'UNLOCK_POST_POST'				=> 'Hozzászólás megnyitása',
 	'UNLOCK_POST_POST_CONFIRM'		=> 'Biztosan azt akarod, hogy lehessen szerkeszteni ezt a hozzászólást?',
-	'UNLOCK_POST_POSTS'				=> 'Kiválasztott hozzászólások lezárása',
+	'UNLOCK_POST_POSTS'				=> 'Kiválasztott hozzászólások megnyitása',
 	'UNLOCK_POST_POSTS_CONFIRM'		=> 'Biztosan azt akarod, hogy lehessen szerkeszteni a kiválasztott hozzászólásokat?',
 	'UNLOCK_TOPIC'					=> 'Téma megnyitása',
 	'UNLOCK_TOPIC_CONFIRM'			=> 'Biztosan meg akarod nyitni a témát?',
