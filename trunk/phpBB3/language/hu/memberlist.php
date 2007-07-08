@@ -4,7 +4,7 @@
 * memberlist [Hungarian]
 *
 * @package language
-* @version $Id: memberlist.php,v 1.11 2007-06-01 14:21:20 fberci Exp $
+* @version $Id: memberlist.php,v 1.12 2007-07-08 18:32:47 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -54,6 +54,7 @@ $lang = array_merge($lang, array(
 	'EMAIL_TOPIC_EXPLAIN'	=> 'Az üzenet sima szövegként kerül elküldésre, ne használj HTML-t vagy BBCode-ot. Kérjük, vedd figyelembe, hogy az üzenet már tartalmazza a témával kapcsolatos információkat. Az üzenet válaszcíme a te e-mail címed lesz.',
 	'EMPTY_ADDRESS_EMAIL'	=> 'Meg kell adnod a címzett valódi e-mail címét.',
 	'EMPTY_MESSAGE_EMAIL'	=> 'Nem küldhetsz üres üzenetet.',
+ 	'EMPTY_MESSAGE_IM'		=> 'Nem küldhetsz üres üzenetet.',
 	'EMPTY_NAME_EMAIL'		=> 'Meg kell adnod a címzett valódi nevét.',
 	'EMPTY_SUBJECT_EMAIL'	=> 'Meg kell adnod az e-mail témáját.',
 	'EQUAL_TO'				=> 'Annyi, mint', //?
