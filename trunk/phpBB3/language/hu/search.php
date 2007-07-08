@@ -4,7 +4,7 @@
 * search [Hungarian]
 *
 * @package language
-* @version $Id: search.php,v 1.10 2007-07-08 18:32:47 fberci Exp $
+* @version $Id: search.php,v 1.11 2007-07-08 18:41:03 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
