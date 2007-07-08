@@ -4,7 +4,7 @@
 * acp common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.9 2007-06-28 23:11:17 fberci Exp $
+* @version $Id: common.php,v 1.10 2007-07-08 18:38:48 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -224,7 +224,7 @@ $lang = array_merge($lang, array(
 
 	'LOGGED_IN_AS'			=> 'Bejelentkezve:', //? "You are logged in as:" 'Bejelentkeztél, mint', 'Be vagy lépve, mint', 'Bejelentkezve, mint'
 	'LOGIN_ADMIN'			=> 'A fórum adminisztrálásához azonosított felhasználónak kell lenned.',
-	'LOGIN_ADMIN_CONFIRM'	=> 'A fórum adminisztrálásához újra azonosítanod kell magad..',
+	'LOGIN_ADMIN_CONFIRM'	=> 'A fórum adminisztrálásához újra azonosítanod kell magad.',
 	'LOGIN_ADMIN_SUCCESS'	=> 'Sikeresen azonosításra kerültél, most továbbirányításra kerülsz az adminisztrátori vezérlőpultba.',
 	'LOOK_UP_FORUM'			=> 'Fórum kiválasztása',
 	'LOOK_UP_FORUMS_EXPLAIN'=> 'Több fórumot is kiválaszthatsz.',
@@ -350,25 +350,25 @@ $lang = array_merge($lang, array(
 
 // Inactive Users
 $lang = array_merge($lang, array(
-	'INACTIVE_DATE'					=> 'Inactive date',
-	'INACTIVE_REASON'				=> 'Reason',
-	'INACTIVE_REASON_MANUAL'		=> 'Account deactivated by administrator',
-	'INACTIVE_REASON_PROFILE'		=> 'Profile details changed',
-	'INACTIVE_REASON_REGISTER'		=> 'Newly registered account',
-	'INACTIVE_REASON_REMIND'		=> 'Forced user account reactivation',
-	'INACTIVE_REASON_UNKNOWN'		=> 'Unknown',
-	'INACTIVE_USERS'				=> 'Inactive users',
-	'INACTIVE_USERS_EXPLAIN'		=> 'This is a list of users who have registered but whose accounts are inactive. You can activate, delete or remind (by sending an e-mail) these users if you wish.',
-	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'This is a list of the last 10 registered users who have inactive accounts. A full list is available from the appropriate menu item or by following the link below from where you can activate, delete or remind (by sending an e-mail) these users if you wish.',
+	'INACTIVE_DATE'					=> 'Inaktiváció dátuma',
+	'INACTIVE_REASON'				=> 'Ok',
+	'INACTIVE_REASON_MANUAL'		=> 'Adminisztrátor deaktiválta az azonosítót', //? "Account deactivated by administrator"
+	'INACTIVE_REASON_PROFILE'		=> 'Profil adatok megváltoztak',
+	'INACTIVE_REASON_REGISTER'		=> 'Újonnan regisztrált azonosító',
+	'INACTIVE_REASON_REMIND'		=> 'Azonosító újraaktiválásra kötelezve',
+	'INACTIVE_REASON_UNKNOWN'		=> 'Ismeretlen',
+	'INACTIVE_USERS'				=> 'Inaktív felhasználók',
+	'INACTIVE_USERS_EXPLAIN'		=> 'Ez a lista azokat a felhasználókat tartalmazza, akik regisztráltak, de azonosítójuk inaktív. Szándékod szerint aktiválhatod, törölheted vagy emlékeztetheted (egy e-mail küldésével) ezeket a felhasználókat.',
+	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Ez a lista az utolsó 10 regisztrált felhasználót tartalmazza, akinek inaktív az azonosítója. A teljes listát megtekintheted a menü megfelelő elemére vagy az alább lévő linkre kattintva, ahol aktiválhatod, törölheted vagy emlékeztetheted (egy e-mail küldésével) ezeket a felhasználókat.',
 
-	'NO_INACTIVE_USERS'	=> 'No inactive users',
+	'NO_INACTIVE_USERS'	=> 'Nincs inaktív felhasználó.',
 
-	'SORT_INACTIVE'		=> 'Inactive date',
-	'SORT_LAST_VISIT'	=> 'Last visit',
-	'SORT_REASON'		=> 'Reason',
-	'SORT_REG_DATE'		=> 'Registration date',
+	'SORT_INACTIVE'		=> 'Inaktiváció dátuma',
+	'SORT_LAST_VISIT'	=> 'Utolsó látogatás',
+	'SORT_REASON'		=> 'Inaktiváció oka',
+	'SORT_REG_DATE'		=> 'Regisztráció dátuma',
 
-	'USER_IS_INACTIVE'		=> 'User is inactive',
+	'USER_IS_INACTIVE'		=> 'A felhasználó inaktív.',
 ));
 
 // Log Entries
