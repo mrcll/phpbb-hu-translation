@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.49 2007-06-16 21:34:04 fberci Exp $
+* @version $Id: common.php,v 1.50 2007-07-08 18:13:09 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -702,9 +702,9 @@ $lang = array_merge($lang, array(
 	),
 
 	'tz'				=> array(
-		'-12'	=> 'UTC - 12 óra',
-		'-11'	=> 'UTC - 11 óra',
-		'-10'	=> 'UTC - 10 óra',
+		'-12'	=> 'UTC − 12 óra',
+		'-11'	=> 'UTC − 11 óra',
+		'-10'	=> 'UTC − 10 óra',
 		'-9.5'	=> 'UTC - 9,5 óra',
 		'-9'	=> 'UTC - 9 óra',
 		'-8'	=> 'UTC - 8 óra',
@@ -745,20 +745,20 @@ $lang = array_merge($lang, array(
 	),
 
 	'tz_zones'	=> array(
-		'-12'	=> '[UTC - 12] Baker-szigeti idő',
-		'-11'	=> '[UTC - 11] niue-i idő, szamoai zónaidő',
-		'-10'	=> '[UTC - 10] hawaii-aleuti zónaidő, Cook-szigeteki idő',
-		'-9.5'	=> '[UTC - 9,5] Marquise-szigeteki idő',
-		'-9'	=> '[UTC - 9] alaszkai zónaidő, Gambier-szigeteki idő',
-		'-8'	=> '[UTC - 8] csendes-óceáni zónaidő',
-		'-7'	=> '[UTC - 7] sziklás-hegységi zónaidő',
-		'-6'	=> '[UTC - 6] közép zónaidő',
-		'-5'	=> '[UTC - 5] keleti zónaidő',
-		'-4'	=> '[UTC - 4] atlanti zónaidő',
-		'-3.5'	=> '[UTC - 3,5] newfoundlandi zónaidő',
-		'-3'	=> '[UTC - 3] amazoni zónaidő, közép-grönlandi idő',
-		'-2'	=> '[UTC - 2] Fernando de Noronha-i, dél-georgiai és dél-szendvics-szigeteki idő',
-		'-1'	=> '[UTC - 1] azori-szigeteki zónaidő, zöld-foki-szigeteki idő, kelet-grönlandi idő',
+		'-12'	=> '[UTC − 12] Baker-szigeti idő',
+		'-11'	=> '[UTC − 11] niue-i idő, szamoai zónaidő',
+		'-10'	=> '[UTC − 10] hawaii-aleuti zónaidő, Cook-szigeteki idő',
+		'-9.5'	=> '[UTC − 9,5] Marquise-szigeteki idő',
+		'-9'	=> '[UTC − 9] alaszkai zónaidő, Gambier-szigeteki idő',
+		'-8'	=> '[UTC − 8] csendes-óceáni zónaidő',
+		'-7'	=> '[UTC − 7] sziklás-hegységi zónaidő',
+		'-6'	=> '[UTC − 6] közép zónaidő',
+		'-5'	=> '[UTC − 5] keleti zónaidő',
+		'-4'	=> '[UTC − 4] atlanti zónaidő',
+		'-3.5'	=> '[UTC − 3,5] újfundlandi zónaidő',
+		'-3'	=> '[UTC − 3] amazoni zónaidő, közép-grönlandi idő',
+		'-2'	=> '[UTC − 2] Fernando de Noronha-i, dél-georgiai és dél-szendvics-szigeteki idő',
+		'-1'	=> '[UTC − 1] azori-szigeteki zónaidő, zöld-foki-szigeteki idő, kelet-grönlandi idő',
 		'0'		=> '[UTC] nyugat-európai idő, greenwichi középidő',
 		'1'		=> '[UTC + 1] közép-európai idő, nyugat-afrikai idő',
 		'2'		=> '[UTC + 2] kelet-európai idő, közép-afrikai idő',
