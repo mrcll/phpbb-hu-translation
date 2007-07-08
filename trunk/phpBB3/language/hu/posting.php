@@ -4,7 +4,7 @@
 * posting [Hungarian]
 *
 * @package language
-* @version $Id: posting.php,v 1.18 2007-07-08 17:53:25 fberci Exp $
+* @version $Id: posting.php,v 1.19 2007-07-08 19:32:06 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -152,18 +152,19 @@ $lang = array_merge($lang, array(
 	'POLL_VOTE_CHANGE'			=> 'Újraszavazás engedélyezése',
 	'POLL_VOTE_CHANGE_EXPLAIN'	=> 'Ha engedélyezve van, a felhasználók megváltoztathatják szavazatukat.',
 	'POSTED_ATTACHMENTS'		=> 'Feltöltött csatolmányok',
++ 	'POST_APPROVAL_NOTIFY'		=> ' Amint jóváhagyásra kerül, értesíteni fogunk.',
 	'POST_CONFIRMATION'			=> 'Hozzászólás megerősítése', //?
 	'POST_CONFIRM_EXPLAIN'		=> 'Az automatikus hozzászólások megakadályozása érdekében meg kell adnod egy megerősítő kódot. A kód az alábbi képen szerepel. Ha látási vagy egyéb problémák miatt nem tudod elolvasni a kódot, lépj kapcsolatba a %sfórum adminisztrátorával%s.',
 	'POST_DELETED'				=> 'Az üzenet sikeresen törlésre került.',
 	'POST_EDITED'				=> 'Az üzenet sikeresen szerkesztésre került.',
-	'POST_EDITED_MOD'			=> 'Az üzenet sikeresen szerkesztésre került, azonban egy moderátornak még jóvá kell hagynia mielőtt mindenki által megtekinthető lenne. Amint jóváhagyásra kerül, értesíteni fogunk.',
+	'POST_EDITED_MOD'			=> 'Az üzenet sikeresen szerkesztésre került, azonban egy moderátornak még jóvá kell hagynia mielőtt mindenki által megtekinthető lenne.',
 	'POST_GLOBAL'				=> 'Globális közlemény',
 	'POST_ICON'					=> 'Hozzászólás ikon',
 	'POST_NORMAL'				=> 'Sima',
 	'POST_REVIEW'				=> 'Új hozzászólások áttekintése', //? "Post review"
 	'POST_REVIEW_EXPLAIN'		=> 'A témába legalább egy új hozzászólás érkezett. Ennek fényében érdemes átnézned a hozzászólásod.', //? "At least one new post has been made to this topic. You may wish to review your post in light of this."
 	'POST_STORED'				=> 'A hozzászólás sikeresen elküldésre került.',
-	'POST_STORED_MOD'			=> 'Az üzenet sikeresen szerkesztésre került, azonban egy moderátornak még jóvá kell hagynia mielőtt mindenki által megtekinthető lenne. Amint jóváhagyásra kerül, értesíteni fogunk.',
+	'POST_STORED_MOD'			=> 'Az üzenet sikeresen szerkesztésre került, azonban egy moderátornak még jóvá kell hagynia mielőtt mindenki által megtekinthető lenne.',
 	'POST_TOPIC_AS'				=> 'Téma típusa',
 	'PROGRESS_BAR'				=> 'Feltöltés állapota', //? "Progress bar"
 
