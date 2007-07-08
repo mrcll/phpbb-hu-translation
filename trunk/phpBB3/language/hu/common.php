@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.50 2007-07-08 18:13:09 fberci Exp $
+* @version $Id: common.php,v 1.51 2007-07-08 18:34:54 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -705,17 +705,17 @@ $lang = array_merge($lang, array(
 		'-12'	=> 'UTC − 12 óra',
 		'-11'	=> 'UTC − 11 óra',
 		'-10'	=> 'UTC − 10 óra',
-		'-9.5'	=> 'UTC - 9,5 óra',
-		'-9'	=> 'UTC - 9 óra',
-		'-8'	=> 'UTC - 8 óra',
-		'-7'	=> 'UTC - 7 óra',
-		'-6'	=> 'UTC - 6 óra',
-		'-5'	=> 'UTC - 5 óra',
-		'-4'	=> 'UTC - 4 óra',
-		'-3.5'	=> 'UTC - 3,5 óra',
-		'-3'	=> 'UTC - 3 óra',
-		'-2'	=> 'UTC - 2 óra',
-		'-1'	=> 'UTC - 1 óra',
+		'-9.5'	=> 'UTC − 9,5 óra',
+		'-9'	=> 'UTC − 9 óra',
+		'-8'	=> 'UTC − 8 óra',
+		'-7'	=> 'UTC − 7 óra',
+		'-6'	=> 'UTC − 6 óra',
+		'-5'	=> 'UTC − 5 óra',
+		'-4'	=> 'UTC − 4 óra',
+		'-3.5'	=> 'UTC − 3,5 óra',
+		'-3'	=> 'UTC − 3 óra',
+		'-2'	=> 'UTC − 2 óra',
+		'-1'	=> 'UTC − 1 óra',
 		'0'		=> 'UTC',
 		'1'		=> 'UTC + 1 óra',
 		'2'		=> 'UTC + 2 óra',
