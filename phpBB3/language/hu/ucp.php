@@ -4,7 +4,7 @@
 * ucp [Hungarian]
 *
 * @package language
-* @version $Id: ucp.php,v 1.29 2007-06-16 21:34:04 fberci Exp $
+* @version $Id: ucp.php,v 1.30 2007-07-08 18:32:47 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -208,8 +208,7 @@ $lang = array_merge($lang, array(
 	'GLOBAL_ANNOUNCEMENT'		=> 'Globális közlemény', //? Általános?
 
 	'HIDE_ONLINE'				=> 'Jelenlét elrejtése',
- 	'HIDE_ONLINE_EXPLAIN'		=> 'Changing this setting to "No" won\'t become effective until your next visit to the board.',
- 	'HIDE_ONLINE_EXPLAIN'		=> 'Ha ezt nemre változtatod, a változtatás csak a következő látogatáskor fog érvénybe lépni.',
+ 	'HIDE_ONLINE_EXPLAIN'		=> 'Ha megváltoztatod, az új beállítás csak a következő látogatáskor fog érvénybe lépni.',
 	'HOLD_NEW_MESSAGES'			=> 'Üzenetek fogadásának visszautasítása (az új üzenetek vissza lesznek tartva, amíg elegendő hely nem lesz)',
 	'HOLD_NEW_MESSAGES_SHORT'	=> 'Új üzenetek visszatartása',
 
@@ -441,7 +440,7 @@ $lang = array_merge($lang, array(
 	'UNWATCH_MARKED'				=> 'Leiratkozás a kijelöltekről',
 	'UPLOAD_AVATAR_FILE'			=> 'Feltöltés a számítógépről',
 	'UPLOAD_AVATAR_URL'				=> 'Feltöltés webcímről',
-	'UPLOAD_AVATAR_URL_EXPLAIN'		=> 'Add meg a kép URL-jét (webcímét), a kép átmásolásra kerül erre az oldalra.',
+	'UPLOAD_AVATAR_URL_EXPLAIN'		=> 'Add meg a kép URL-jét (webcímét). A kép átmásolásra kerül erre az oldalra.',
 	'USERNAME_ALPHA_ONLY_EXPLAIN'	=> 'A felhasználónév hosszának %1$d és %2$d karakter között kell lennie, és csak alfanumerikus karaktereket tartalmazhat.', //? ez egy phpBB beli bug? - mindenesetre maradt az eredeti angol szöveg
 	'USERNAME_ALPHA_SPACERS_EXPLAIN'=> 'A felhasználónév hosszának %1$d és %2$d karakter között kell lennie, valamint csak alfanumerikus karaktereket, szóközt és -+_[] jeleket tartalmazhat.',
 	'USERNAME_ASCII_EXPLAIN'		=> 'A felhasználónév hosszának %1$d és %2$d karakter között kell lennie, valamint csak ASCII karaktereket tartalmazhat, tehát ékezetes betűket és szimbólumokat nem.',

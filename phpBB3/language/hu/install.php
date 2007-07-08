@@ -4,7 +4,7 @@
 * install [Hungarian]
 *
 * @package language
-* @version $Id: install.php,v 1.21 2007-07-08 17:53:25 fberci Exp $
+* @version $Id: install.php,v 1.22 2007-07-08 18:32:47 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -483,16 +483,16 @@ $lang = array_merge($lang, array(
 
 		<h1>Verziómegjelenési közlemény</h1>
 
-		<p>A frissítés folytatása előtt kérjük, olvasd el <a href="%1$s" title="%1$s">a legfrissebb verziót bejelentő közleményt</a>, mivel hasznos információkat tartalmazhat. Mindenképp szerepel benne a változások listája, és közvetlen link az új verzió letöltésére.</p>
+		<p>A frissítés folytatása előtt kérjük, olvasd el <a href="%1$s" title="%1$s"><strong>a legfrissebb verziót bejelentő közleményt</strong></a>, mivel hasznos információkat tartalmazhat. Mindenképp szerepel benne a változások listája, és közvetlen link az új verzió letöltésére.</p>
 
 		<br />
 
-		<h1>Frissítés módja</h1>
+		<h1>Frissítés módja az automatikus frissítő csomag használatával</h1>
 
-		<p>A javasolt frissítési mód mindössze a következő lépésekből áll:</p>
+		<p>Az itt részletezett javasolt frissítési mód az automatikus frissítő csomag használatát feltételezi. A phpBB-det az INSTALL.html-ben leírt módokon is frissítheted. A phpBB3 automatikusan történő frissítése a következő lépésekből áll:</p>
 
 		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li>Menj a <a href="http://www.phpbb.com/downloads/" title="http://www.phpbb.com/downloads/">phpBB.com letöltések oldalára</a>, és töltsd le a megfelelő phpBB frissítő csomagot.<br /><br /></li>
+			<li>Menj a <a href="http://www.phpbb.com/downloads/" title="http://www.phpbb.com/downloads/">phpBB.com letöltések oldalára</a>, és töltsd le a megfelelő automatikus frissítő csomagot.<br /><br /></li>
 			<li>Csomagold ki a csomagot.<br /><br /></li>
 			<li>A kicsomagolt csomag install könyvtárát töltsd fel a phpBB-d gyökérkönyvtárába (ahol a config.php található).<br /><br /></li>
 		</ul>
@@ -503,6 +503,12 @@ $lang = array_merge($lang, array(
 		Ezután végigvezetésre kerülsz a frissítés folyamatán. A frissítés végeztével értesítést kapsz majd.
 		</p>
 	', //? "Release announcement" - Verziómegjelenési közlemény - mi van (el sem hiszem, hogy ilyet leírtam...)?
+	'UPDATE_INSTRUCTIONS_INCOMPLETE'	=> '
+
+		<h1>Befejezetlen frissítés</h1>
+
+		<p>A phpBB észrevett egy befejezetlen automatikus frissítési próbálkozást. Kérünk, győződj meg róla, hogy elvégezted az automatikus frissítő összes lépését. Alább megtalálod a linket újra, vagy menj közvetlenül az install könyvtárba.</p>
+	',
 	'UPDATE_METHOD'					=> 'Frissítési mód',
 	'UPDATE_METHOD_EXPLAIN'			=> 'Most kiválaszthatod a kívánt frissítési módot. Ha az FTP feltöltést választod, egy űrlap fog mejelenni, ahol meg kell adnod az FTP-csatlakozához szükséges adatokat. Ezen mód használatakor az állományok automatikusan áthelyezésre kerülnek az új helyükre, és a régi állományokról biztonsági másolat készül az állományok nevéhez való .bak kiterjesztés hozzáfűzésével. Ha a módosított fájlok letöltését választod, ki kell csomagolnod a letöltött csomagot, majd kézzel feltöltened a tartalmát a megfelelő helyre.',
 	'UPDATE_SUCCESS'				=> 'Sikeres frissítés',

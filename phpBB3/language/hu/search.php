@@ -4,7 +4,7 @@
 * search [Hungarian]
 *
 * @package language
-* @version $Id: search.php,v 1.9 2007-06-01 14:21:20 fberci Exp $
+* @version $Id: search.php,v 1.10 2007-07-08 18:32:47 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -46,6 +46,8 @@ $lang = array_merge($lang, array(
 	'IGNORED_TERMS_EXPLAIN'	=> 'A következő szavak mellőzésre kerültek a keresési kifejzésből: <strong>%s</strong>',
 
 	'JUMP_TO_POST'			=> 'Ugrás a hozzászóláshoz',
+
+ 	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'A saját hozzászólásaid megtekintéséhez be kell jelentkezned.',
 
 	'NO_KEYWORDS'			=> 'Legalább egy keresendő szót meg kell adnod. Minden szónak legalább %d és legfeljebb %d karakterből kell állnia a helyettesítő jeleket nem számítva.', //? helyettesítő jel: *
 	'NO_RECENT_SEARCHES'	=> 'Nem történt keresés a közelmúltban.',

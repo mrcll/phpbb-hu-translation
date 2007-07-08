@@ -4,7 +4,7 @@
 * acp_board [English]
 *
 * @package language
-* @version $Id: board.php,v 1.6 2007-06-16 21:34:04 fberci Exp $
+* @version $Id: board.php,v 1.7 2007-07-08 18:32:47 fberci Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -356,7 +356,7 @@ $lang = array_merge($lang, array(
 	'EMAIL_CHECK_MX'				=> 'Check e-mail domain for valid MX record',
 	'EMAIL_CHECK_MX_EXPLAIN'		=> 'If enabled, the e-mail domain provided on registration and profile changes is checked for a valid MX record.',
 	'FORCE_PASS_CHANGE'				=> 'Force password change',
-	'FORCE_PASS_CHANGE_EXPLAIN'		=> 'Require user to change their password after a set number of days. Set this value to 0 disables this behaviour.',
+	'FORCE_PASS_CHANGE_EXPLAIN'		=> 'Require user to change their password after a set number of days. Setting this value to 0 disables this behaviour.',
 	'FORWARDED_FOR_VALID'			=> 'Validated <var>X_FORWARDED_FOR</var> header',
 	'FORWARDED_FOR_VALID_EXPLAIN'	=> 'Sessions will only be continued if the sent <var>X_FORWARDED_FOR</var> header equals the one sent with the previous request. Bans will be checked against IPs in <var>X_FORWARDED_FOR</var> too.',
 	'IP_VALID'						=> 'Session IP validation',
