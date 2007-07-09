@@ -4,7 +4,7 @@
 * install [Hungarian]
 *
 * @package language
-* @version $Id: install.php,v 1.22 2007-07-08 18:32:47 fberci Exp $
+* @version $Id: install.php,v 1.23 2007-07-09 12:01:39 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -463,7 +463,7 @@ $lang = array_merge($lang, array(
 	'STAGE_FILE_CHECK'			=> 'Állományok összevetése',
 	'STAGE_UPDATE_DB'			=> 'Adatbázis frissítése',
 	'STAGE_UPDATE_FILES'		=> 'Állományok frissítése',
-	'STAGE_VERSION_CHECK'		=> 'Verzió leellenőrzése', //? le?
+	'STAGE_VERSION_CHECK'		=> 'Verzió ellenőrzése',
 	'STATUS_CONFLICT'			=> 'Ütközéseket eredményező módosított állomány',
 	'STATUS_MODIFIED'			=> 'Módosított állomány',
 	'STATUS_NEW'				=> 'Új állomány',
@@ -477,13 +477,13 @@ $lang = array_merge($lang, array(
 	'UPDATE_DATABASE_SCHEMA'		=> 'Adatbázis-szerkezet frissítése',
 	'UPDATE_FILES'					=> 'Állományok frissítése',
 	'UPDATE_FILES_NOTICE'			=> 'Kérünk, győződj meg róla, hogy a phpBB állományait is frissítetted, ez az állomány csak az adatbázist frissíti.',
-	'UPDATE_INSTALLATION'			=> 'PhpBB frissítése',
-	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Itt frissíteheted a phpBB-d a legújabb verzióra.<br />A frissítés folyamata során minden állomány leellenőrzésre kerül. A tényleges frissítés előtt minden különbséget átnézhetsz.<br /><br />Maga, az állományok frissítése, két módon végezhető el.</p><h2>Kézi frissítés</h2><p>Ezen frissítési mód használatakor csak a saját megváltozott állományaidat töltöd le, hogy meggyőződj róla, hogy nem vesztesz el semmilyen módosítást, melyet csinálhattál. Miután letöltötted ezt a csomagot, a benne lévő állományokat fel kell töltened a phpBB-d gyökérkönyvtárába a megfelelő helyükre. Ezután még egyszer összevetheted az állományokat, hogy leellenőrizd, hogy a megfelelő helyre töltötted fel őket.</p><h2>Automatikus frissítés FTP-vel</h2><p>Ez a frissítési mód hasonló az előbbihez, azonban ennél nem kell saját magadnak letöltened, majd feltöltened a megváltoztatott állományokat – ezt megteszi a phpBB. Ezen mód használatához ismerned kell az FTP-belépéshez szükséges dolgokat, mivel egy űrlapon meg kell adnod ezeket. Miután ezt befejezted, átirányításra kerülsz az állományok összevetéséhez, hogy meggyőződj róla, hogy minden sikersen frissítésre került.<br /><br />', //?
+	'UPDATE_INSTALLATION'			=> 'A phpBB frissítése',
+	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Itt frissíteheted a phpBB-d a legújabb verzióra.<br />A frissítés folyamata során minden állomány ellenőrzésre kerül. A tényleges frissítés előtt minden különbséget átnézhetsz.<br /><br />Maga az állományok frissítése két módon végezhető el.</p><h2>Kézi frissítés</h2><p>Ezen frissítési mód használatakor csak a saját megváltozott állományaidat töltöd le, hogy meggyőződj róla, hogy nem vesztesz el semmilyen módosítást, melyet csinálhattál. Miután letöltötted ezt a csomagot, a benne lévő állományokat fel kell töltened a phpBB-d gyökérkönyvtárába, a megfelelő helyükre. Ezután még egyszer összevetheted az állományokat, hogy leellenőrizd, hogy a megfelelő helyre töltötted fel őket.</p><h2>Automatikus frissítés FTP-vel</h2><p>Ez a frissítési mód hasonló az előbbihez, azonban ennél nem kell saját magadnak letöltened, majd feltöltened a megváltoztatott állományokat – ezt megteszi a phpBB. Ezen mód használatához ismerned kell az FTP-belépéshez szükséges dolgokat, mivel egy űrlapon meg kell adnod ezeket. Miután ezt befejezted, át leszel irányítva az állományok összevetéséhez, hogy meggyőződj róla, minden sikersen frissítésre került.<br /><br />', //?
 	'UPDATE_INSTRUCTIONS'			=> '
 
 		<h1>Verziómegjelenési közlemény</h1>
 
-		<p>A frissítés folytatása előtt kérjük, olvasd el <a href="%1$s" title="%1$s"><strong>a legfrissebb verziót bejelentő közleményt</strong></a>, mivel hasznos információkat tartalmazhat. Mindenképp szerepel benne a változások listája, és közvetlen link az új verzió letöltésére.</p>
+		<p>A frissítés folytatása előtt kérjük, olvasd el <a href="%1$s" title="%1$s"><strong>a legfrissebb verziót bejelentő közleményt</strong></a>, mivel hasznos információkat tartalmazhat. Mindenképp szerepel benne a változások listája és közvetlen link az új verzió letöltésére.</p>
 
 		<br />
 
@@ -497,10 +497,10 @@ $lang = array_merge($lang, array(
 			<li>A kicsomagolt csomag install könyvtárát töltsd fel a phpBB-d gyökérkönyvtárába (ahol a config.php található).<br /><br /></li>
 		</ul>
 
-		<p>Miután feltöltötted, a normál felhasználók nem tudják majd elérni a fórumot, az install könyvtár létezése miatt.<br /><br />
+		<p>Miután feltöltötted, a normál felhasználók nem tudják majd elérni a fórumot az install könyvtár létezése miatt.<br /><br />
 		<strong><a href="%2$s" title="%2$s">Most kezdd el a frissítést az install könyvtárba lépéssel</a>.</strong><br />
 		<br />
-		Ezután végigvezetésre kerülsz a frissítés folyamatán. A frissítés végeztével értesítést kapsz majd.
+		Ezután végig leszel vezetve a frissítés folyamatán. A frissítés végeztével értesítést kapsz majd.
 		</p>
 	', //? "Release announcement" - Verziómegjelenési közlemény - mi van (el sem hiszem, hogy ilyet leírtam...)?
 	'UPDATE_INSTRUCTIONS_INCOMPLETE'	=> '
