@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.51 2007-07-08 18:34:54 fberci Exp $
+* @version $Id: common.php,v 1.52 2007-07-24 20:07:02 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -184,7 +184,7 @@ $lang = array_merge($lang, array(
 	'FORUM_RULES'			=> 'Fórum szabályok',
 	'FORUM_RULES_LINK'		=> 'Kattints ide a fórum szabályainak megtekintéséhez',
 	'FROM'					=> 'Minta:',
-	'FSOCK_DISABLED'		=> 'Nem sikerült végrehajtani a műveletet, mivel az <var>fsockopen</var> függvény nincsenek engedélyezve, vagy az elérni kívánt szerver nem található.',
+	'FSOCK_DISABLED'		=> 'Nem sikerült végrehajtani a műveletet, mivel az <var>fsockopen</var> függvény nincs engedélyezve, vagy az elérni kívánt szerver nem található.',
 
 	'FTP_FSOCK_HOST'				=> 'FTP hoszt',
 	'FTP_FSOCK_HOST_EXPLAIN'		=> 'Az oldalad eléréséhez használt FTP kiszolgáló.',
