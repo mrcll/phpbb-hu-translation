@@ -4,7 +4,7 @@
 * acp common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.11 2007-07-24 20:07:02 fberci Exp $
+* @version $Id: common.php,v 1.12 2007-07-24 20:28:49 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -413,12 +413,12 @@ $lang = array_merge($lang, array(
 	'LOG_ATTACH_FILEUPLOAD'		=> '<strong>Árva csatolmány hozzárendelése egy hozzászóláshoz</strong><br />» azonosító: %1$d - %2$s',
 	'LOG_ATTACH_ORPHAN_DEL'		=> '<strong>Árva csatolmányok törlése</strong><br />» %s',
 
-	'LOG_BAN_EXCLUDE_USER'	=> '<strong>Felhasználó kivonása a kitiltások alól</strong> „<em>%1$s</em>” okból<br />» %2$s', //? exclude
-	'LOG_BAN_EXCLUDE_IP'	=> '<strong>IP-cím kivonása a kitiltások alól</strong> „<em>%1$s</em>” okból<br />» %2$s',
-	'LOG_BAN_EXCLUDE_EMAIL' => '<strong>E-mail cím kivonása a kitiltások alól</strong> „<em>%1$s</em>” okból<br />» %2$s',
-	'LOG_BAN_USER'			=> '<strong>Felhasználó kitiltása</strong> „<em>%1$s</em>” okból<br />» %2$s',
-	'LOG_BAN_IP'			=> '<strong>IP-cím kitiltása</strong> „<em>%1$s</em>” okból<br />» %2$s',
-	'LOG_BAN_EMAIL'			=> '<strong>E-mail cím kitiltása</strong> „<em>%1$s</em>” okból<br />» %2$s',
+	'LOG_BAN_EXCLUDE_USER'	=> '<strong>Felhasználó kivonása a kitiltások alól</strong> „<em>%1$s</em>” okkal<br />» %2$s', //? exclude
+	'LOG_BAN_EXCLUDE_IP'	=> '<strong>IP-cím kivonása a kitiltások alól</strong> „<em>%1$s</em>” okkal<br />» %2$s',
+	'LOG_BAN_EXCLUDE_EMAIL' => '<strong>E-mail cím kivonása a kitiltások alól</strong> „<em>%1$s</em>” okkal<br />» %2$s',
+	'LOG_BAN_USER'			=> '<strong>Felhasználó kitiltása</strong> „<em>%1$s</em>” okkal<br />» %2$s',
+	'LOG_BAN_IP'			=> '<strong>IP-cím kitiltása</strong> „<em>%1$s</em>” okkal<br />» %2$s',
+	'LOG_BAN_EMAIL'			=> '<strong>E-mail cím kitiltása</strong> „<em>%1$s</em>” okkal<br />» %2$s',
 	'LOG_UNBAN_USER'		=> '<strong>Felhasználó kitiltásának feloldása</strong><br />» %s',
 	'LOG_UNBAN_IP'			=> '<strong>IP-cím kitiltásának feloldása</strong><br />» %s',
 	'LOG_UNBAN_EMAIL'		=> '<strong>E-mail cím kitiltásának feloldása</strong><br />» %s',
@@ -468,7 +468,7 @@ $lang = array_merge($lang, array(
 	'LOG_POST_EDITED'			=> '<strong>„%1$s” hozzászólás szerkesztése</strong><br />» szerző: %2$s',
 	'LOG_REPORT_CLOSED'			=> '<strong>Jelentés lezárása</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>Jelentés törlése</strong><br />» %s',
-	'LOG_SPLIT_DESTINATION'		=> '<strong>Szétválasztott hozzászólások áthelyezése:</strong><br />» %s',
+	'LOG_SPLIT_DESTINATION'		=> '<strong>Szétválasztott hozzászólások áthelyezése</strong><br />» %s témába',
 	'LOG_SPLIT_SOURCE'			=> '<strong>Téma szétválasztása</strong><br />» %s',
 
 	'LOG_TOPIC_DELETED'			=> '<strong>Téma törlése</strong><br />» %s',
@@ -480,7 +480,7 @@ $lang = array_merge($lang, array(
 	'LOG_UNLOCK_POST'			=> '<strong>Hozzászólás megnyitása</strong><br />» %s',
 
 	'LOG_DISALLOW_ADD'		=> '<strong>Letiltott felhasználónév hozzáadása</strong><br />» %s',
-	'LOG_DISALLOW_DELETE'	=> '<strong>Letiltott felhasználónév törléste</strong>',
+	'LOG_DISALLOW_DELETE'	=> '<strong>Letiltott felhasználónév törlése</strong>',
 
 	'LOG_DB_BACKUP'			=> '<strong>Adatbázis kimentése</strong>',
 	'LOG_DB_DELETE'			=> '<strong>Adatbázis-kimentés törlése</strong>',
@@ -504,8 +504,8 @@ $lang = array_merge($lang, array(
 	'LOG_FORUM_DEL_POSTS_FORUMS'			=> '<strong>Fórum és alfórumainak valamint hozzászólásainak törlése</strong><br />» %s',
 	'LOG_FORUM_DEL_POSTS_MOVE_FORUMS'		=> '<strong>Fórum és hozzászólásainak törlése, alfórumok áthelyezése</strong> a %1$s fórumba<br />» %2$s',
 	'LOG_FORUM_EDIT'						=> '<strong>Fórum beállítások szerkesztése</strong><br />» %s', //? beállítások - details
-	'LOG_FORUM_MOVE_DOWN'					=> '%1$s <strong>fórum mozgatása</strong> %2$s <strong>alá</strong>',
-	'LOG_FORUM_MOVE_UP'						=> '%1$s <strong>fórum mozgatása</strong> %2$s <strong>fölé</strong>',
+	'LOG_FORUM_MOVE_DOWN'					=> '%1$s <strong>fórum mozgatása</strong> %2$s fórum <strong>alá</strong>',
+	'LOG_FORUM_MOVE_UP'						=> '%1$s <strong>fórum mozgatása</strong> %2$s fórum <strong>fölé</strong>',
 	'LOG_FORUM_SYNC'						=> '<strong>Fórum újraszinkronizálása</strong><br />» %s',
 
 	'LOG_GROUP_CREATED'		=> '<strong>Új csoport létrehozása</strong><br />» %s',
@@ -534,7 +534,7 @@ $lang = array_merge($lang, array(
 	'LOG_INSTALL_CONVERTED'	=> '<strong>Konvertálás %1$s verzióról phpBB %2$s verzióra</strong>',
 	'LOG_INSTALL_INSTALLED'	=> '<strong>PhpBB %s telepítése</strong>',
 
-	'LOG_IP_BROWSER_FORWARDED_CHECK'	=> '<strong>Munkamenet IP/böngésző/X_FORWARDED_FOR összevetés sikertelen</strong><br />» Felhasználó „<em>%1$s</em>” IP-címének öszevetése a „<em>%2$s</em>” munkamenet IP-címmel, felhasználó „<em>%3$s</em>” böngésző azonosítójának összevetése a munakemenet „<em>%4$s</em>” böngésző azonosítójával és a felhasználó „<em>%5$s</em>” X_FORWARDED_FOR értékének összevetése a munkamenet „<em>%6$s</em>” X_FORWARDED_FOR értékével.', //?
+	'LOG_IP_BROWSER_FORWARDED_CHECK'	=> '<strong>Sikertelen munkamenet IP/böngésző/X_FORWARDED_FOR összevetés</strong><br />» Felhasználó „<em>%1$s</em>” IP-címének öszevetése a „<em>%2$s</em>” munkamenet IP-címmel, felhasználó „<em>%3$s</em>” böngésző azonosítójának összevetése a munakemenet „<em>%4$s</em>” böngésző azonosítójával és a felhasználó „<em>%5$s</em>” X_FORWARDED_FOR értékének összevetése a munkamenet „<em>%6$s</em>” X_FORWARDED_FOR értékével.', //?
 
 	'LOG_JAB_CHANGED'			=> '<strong>Jabber azonosító megváltoztatása</strong>',
 	'LOG_JAB_PASSCHG'			=> '<strong>Jabber jelszó megváltoztatása</strong>',
@@ -625,13 +625,13 @@ $lang = array_merge($lang, array(
 	'LOG_THEME_EXPORT'			=> '<strong>Stílus exportálása</strong><br />» %s',
 	'LOG_THEME_REFRESHED'		=> '<strong>Stílus frissítése</strong><br />» %s',
 
-	'LOG_UPDATE_DATABASE'	=> '<strong>Adatbázis frissítése %1$s verzióról %1$s verzióra</strong>',
-	'LOG_UPDATE_PHPBB'		=> '<strong>PhpBB frissítése %1$s verzióról %1$s verzióra</strong>',
+	'LOG_UPDATE_DATABASE'	=> '<strong>Adatbázis frissítése %1$s verzióról %2$s verzióra</strong>',
+	'LOG_UPDATE_PHPBB'		=> '<strong>PhpBB frissítése %1$s verzióról %2$s verzióra</strong>',
 
 	'LOG_USER_ACTIVE'		=> '<strong>Felhasználó aktiválása</strong><br />» %s',
-	'LOG_USER_BAN_USER'		=> '<strong>Felhasználó kitiltása a felhsználó kezelése részben</strong> „<em>%1$s</em>” okból<br />» %2$s',
-	'LOG_USER_BAN_IP'		=> '<strong>IP-cím kitiltása a felhsználó kezelése részben</strong> „<em>%1$s</em>” okból<br />» %2$s',
-	'LOG_USER_BAN_EMAIL'	=> '<strong>E-mail cím kitiltása a felhsználó kezelése részben</strong> „<em>%1$s</em>” okból<br />» %2$s',
+	'LOG_USER_BAN_USER'		=> '<strong>Felhasználó kitiltása a felhsználó kezelése részben</strong> „<em>%1$s</em>” okkal<br />» %2$s',
+	'LOG_USER_BAN_IP'		=> '<strong>IP-cím kitiltása a felhsználó kezelése részben</strong> „<em>%1$s</em>” okkal<br />» %2$s',
+	'LOG_USER_BAN_EMAIL'	=> '<strong>E-mail cím kitiltása a felhsználó kezelése részben</strong> „<em>%1$s</em>” okkal<br />» %2$s',
 	'LOG_USER_DELETED'		=> '<strong>Felhasználó törlése</strong><br />» %s',
 	'LOG_USER_DEL_ATTACH'	=> '<strong>Felhasználó összes feltöltött csatolmányainak törlése</strong><br />» %s',
 	'LOG_USER_DEL_AVATAR'	=> '<strong>Felhasználó avatarának törlése</strong><br />» %s',
