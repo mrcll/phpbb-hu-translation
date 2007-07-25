@@ -1,10 +1,10 @@
 <?php
 /** 
 *
-* acp_ban [English]
+* acp_ban [Hungarian]
 *
 * @package language
-* @version $Id: ban.php,v 1.6 2007-06-16 21:34:04 fberci Exp $
+* @version $Id: ban.php,v 1.7 2007-07-25 20:00:04 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -32,44 +32,44 @@ if (empty($lang) || !is_array($lang))
 
 // Banning
 $lang = array_merge($lang, array(
-	'1_HOUR'		=> '1 hour',
-	'30_MINS'		=> '30 minutes',
-	'6_HOURS'		=> '6 hours',
+	'1_HOUR'		=> '1 óra',
+	'30_MINS'		=> '30 perc',
+	'6_HOURS'		=> '6 óra',
 
-	'ACP_BAN_EXPLAIN'	=> 'Here you can control the banning of users by name, IP or e-mail address. These methods prevent a user reaching any part of the board. You can give a short (maximum 3000 characters) reason for the ban if you wish. This will be displayed in the admin log. The duration of a ban can also be specified. If you want the ban to end on a specific date rather than after a set time period select <span style="text-decoration: underline;">Until -&gt;</span> for the ban length and enter a date in <kbd>YYYY-MM-DD</kbd> format.',
+	'ACP_BAN_EXPLAIN'	=> 'Itt a felhasználók kitiltását tudod irányítani felhasználónév, IP vagy e-mail cím szerint. Ezzel a felhasználó nem fogja tudni elérni a fórum semelyik részét se. A kitiltás mellé mellékelheted annak az okát is röviden összefoglalva (legfeljebb 3000 karakterben), ez meg fog jelenni az adminisztrátori naplóban. A kitiltás időtartama is meghatározható. Ha nem egy időtartamot szeretnél megadni, hanem azt szeretnéd, hogy egy adott napig tartson a kitiltás, válaszd ki az <span style="text-decoration: underline;">Eddig -&gt;</span> választási lehetőséget, és a megjelenő mezőben add meg a dátumot <kbd>ÉÉÉÉ-HH-NN</kbd> formátumban.',
 
-	'BAN_EXCLUDE'			=> 'Exclude from banning',
-	'BAN_LENGTH'			=> 'Length of ban',
-	'BAN_REASON'			=> 'Reason for ban',
-	'BAN_GIVE_REASON'		=> 'Reason shown to the banned',
-	'BAN_UPDATE_SUCCESSFUL'	=> 'The banlist has been updated successfully.',
+	'BAN_EXCLUDE'			=> 'Feloldás a kitiltás alól',
+	'BAN_LENGTH'			=> 'Kitiltás időtartama',
+	'BAN_REASON'			=> 'Kitiltás oka',
+	'BAN_GIVE_REASON'		=> 'Kitiltottnak megjelenő ok',
+	'BAN_UPDATE_SUCCESSFUL'	=> 'A kitiltottak listája sikeresen frissítésre került.',
 
-	'EMAIL_BAN'					=> 'Ban one or more e-mail addresses',
-	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Enable this to exclude the entered e-mail address from all current bans.',
-	'EMAIL_BAN_EXPLAIN'			=> 'To specify more than one e-mail address enter each on a new line. To match partial addresses use * as the wildcard, e.g. <samp>*@hotmail.com</samp>, <samp>*@*.domain.tld</samp>, etc.',
-	'EMAIL_NO_BANNED'			=> 'No banned e-mail addresses',
-	'EMAIL_UNBAN'				=> 'Un-ban or un-exclude e-mails',
-	'EMAIL_UNBAN_EXPLAIN'		=> 'You can unban (or un-exclude) multiple e-mail addresses in one go using the appropriate combination of mouse and keyboard for your computer and browser. Excluded e-mail addresses are emphasised.',
+	'EMAIL_BAN'					=> 'E-mail címek kitiltása',
+	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Ha igenre állítod, a megadott e-mail címek minden jelenlegi kitiltás alól mentesítve lesznek.', //?
+	'EMAIL_BAN_EXPLAIN'			=> 'Egynél több e-mail címet mindegyiket új sorba írva tudsz megadni. Részleges illeszkedéshez használd a * jokerkaraktert, pl. <samp>*@hotmail.com</samp>, <samp>*@*.domain.tld</samp> stb.', //?
+	'EMAIL_NO_BANNED'			=> 'Nincs kitiltott e-mail cím.',
+	'EMAIL_UNBAN'				=> 'E-mail címek kitiltásának vagy feloldásának megszüntetése', //?
+	'EMAIL_UNBAN_EXPLAIN'		=> 'Egyszerre több e-mail cím kitiltását vagy feloldását is megszüntetheted az egered és a billentyűzeted a böngésződnek megfelelő kombinációjának használatával. A kitiltások alól feloldott e-mail címek ki vannak emelve.',
 
-	'IP_BAN'					=> 'Ban one or more IPs',
-	'IP_BAN_EXCLUDE_EXPLAIN'	=> 'Enable this to exclude the entered IP from all current bans.',
-	'IP_BAN_EXPLAIN'			=> 'To specify several different IPs or hostnames enter each on a new line. To specify a range of IP addresses separate the start and end with a hyphen (-), to specify a wildcard use “*”.',
-	'IP_HOSTNAME'				=> 'IP addresses or hostnames',
-	'IP_NO_BANNED'				=> 'No banned IP addresses',
-	'IP_UNBAN'					=> 'Un-ban or un-exclude IPs',
-	'IP_UNBAN_EXPLAIN'			=> 'You can unban (or un-exclude) multiple IP addresses in one go using the appropriate combination of mouse and keyboard for your computer and browser. Excluded IPs are emphasised.',
+	'IP_BAN'					=> 'IP-címek kitiltása',
+	'IP_BAN_EXCLUDE_EXPLAIN'	=> 'Ha igenre állítod, a megadott IP-címek minden jelenlegi kitiltás alól mentesítve lesznek.',
+	'IP_BAN_EXPLAIN'			=> 'Egynél több IP-címet vagy hosztnevet mindegyiket új sorba írva tudsz megadni. IP-cím tartomány megadásához használd a kötőjelet (-), valamint használhatod a * jokerkaraktert.',
+	'IP_HOSTNAME'				=> 'IP-címek vagy hosztnevek',
+	'IP_NO_BANNED'				=> 'Nincs kitiltott IP-cím.',
+	'IP_UNBAN'					=> 'IP címek, illetve hosztnevek kitiltásának vagy feloldásának megszüntetése',
+	'IP_UNBAN_EXPLAIN'			=> 'Egyszerre több IP-cím kitiltását vagy feloldását is megszüntetheted az egered és a billentyűzeted a böngésződnek megfelelő kombinációjának használatával. A kitiltások alól feloldott IP-címek ki vannak emelve.',
 
-	'LENGTH_BAN_INVALID'		=> 'The date has to be formatted <kbd>YYYY-MM-DD</kbd>.',
+	'LENGTH_BAN_INVALID'		=> 'A dátumot <kbd>ÉÉÉÉ-HH-NN</kbd> formátumban kell megadni.',
 
-	'PERMANENT'		=> 'Permanent',
+	'PERMANENT'		=> 'Tartós', //? állandó, végleges
 	
-	'UNTIL'						=> 'Until',
-	'USER_BAN'					=> 'Ban one or more usernames',
-	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Enable this to exclude the entered users from all current bans.',
-	'USER_BAN_EXPLAIN'			=> 'You can ban multiple users in one go by entering each name on a new line. Use the <span style="text-decoration: underline;">Find a member</span> facility to look up and add one or more users automatically.',
-	'USER_NO_BANNED'			=> 'No banned usernames',
-	'USER_UNBAN'				=> 'Un-ban or un-exclude usernames',
-	'USER_UNBAN_EXPLAIN'		=> 'You can unban (or un-exclude) multiple users in one go using the appropriate combination of mouse and keyboard for your computer and browser. Excluded users are emphasised.',
+	'UNTIL'						=> 'Eddig',
+	'USER_BAN'					=> 'Felhasználók kitiltása',
+	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Ha igenre állítod, a megadott felhasználók minden jelenlegi kitiltás alól mentesítve lesznek.',
+	'USER_BAN_EXPLAIN'			=> 'Egyszerre több felhasználót is kitilthatsz, mindegyik nevét új sorba írva. A <span style="text-decoration: underline;">Felhasználó keresése</span> funkció segítségével könnyen rákereshetsz felhasználókra, és beillesztheted őket a listába. ',
+	'USER_NO_BANNED'			=> 'Nincs kitiltott felhasználó.',
+	'USER_UNBAN'				=> 'Felhasználók kitiltásának vagy feloldásának megszüntetése',
+	'USER_UNBAN_EXPLAIN'		=> 'Egyszerre több felhasználó kitiltását vagy feloldását is megszüntetheted az egered és a billentyűzeted a böngésződnek megfelelő kombinációjának használatával. A kitiltások alól feloldott felhasználók ki vannak emelve.',
 	
 
 ));
