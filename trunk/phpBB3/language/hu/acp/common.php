@@ -4,7 +4,7 @@
 * acp common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.13 2007-07-25 20:00:05 fberci Exp $
+* @version $Id: common.php,v 1.14 2007-07-26 21:45:20 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -413,9 +413,9 @@ $lang = array_merge($lang, array(
 	'LOG_ATTACH_FILEUPLOAD'		=> '<strong>Árva csatolmány hozzárendelése egy hozzászóláshoz</strong><br />» azonosító: %1$d - %2$s',
 	'LOG_ATTACH_ORPHAN_DEL'		=> '<strong>Árva csatolmányok törlése</strong><br />» %s',
 
-	'LOG_BAN_EXCLUDE_USER'	=> '<strong>Felhasználó kivonása a kitiltások alól</strong> „<em>%1$s</em>” okkal<br />» %2$s', //? exclude
-	'LOG_BAN_EXCLUDE_IP'	=> '<strong>IP-cím kivonása a kitiltások alól</strong> „<em>%1$s</em>” okkal<br />» %2$s',
-	'LOG_BAN_EXCLUDE_EMAIL' => '<strong>E-mail cím kivonása a kitiltások alól</strong> „<em>%1$s</em>” okkal<br />» %2$s',
+	'LOG_BAN_EXCLUDE_USER'	=> '<strong>Felhasználó feloldása a kitiltások alól</strong> „<em>%1$s</em>” okkal<br />» %2$s', //? exclude
+	'LOG_BAN_EXCLUDE_IP'	=> '<strong>IP-cím feloldása a kitiltások alól</strong> „<em>%1$s</em>” okkal<br />» %2$s',
+	'LOG_BAN_EXCLUDE_EMAIL' => '<strong>E-mail cím feloldása a kitiltások alól</strong> „<em>%1$s</em>” okkal<br />» %2$s',
 	'LOG_BAN_USER'			=> '<strong>Felhasználó kitiltása</strong> „<em>%1$s</em>” okkal<br />» %2$s',
 	'LOG_BAN_IP'			=> '<strong>IP-cím kitiltása</strong> „<em>%1$s</em>” okkal<br />» %2$s',
 	'LOG_BAN_EMAIL'			=> '<strong>E-mail cím kitiltása</strong> „<em>%1$s</em>” okkal<br />» %2$s',
