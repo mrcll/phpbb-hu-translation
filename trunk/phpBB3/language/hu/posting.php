@@ -4,7 +4,7 @@
 * posting [Hungarian]
 *
 * @package language
-* @version $Id: posting.php,v 1.20 2007-07-09 10:42:22 fberci Exp $
+* @version $Id: posting.php,v 1.21 2007-07-28 20:59:59 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -152,7 +152,7 @@ $lang = array_merge($lang, array(
 	'POLL_VOTE_CHANGE'			=> 'Újraszavazás engedélyezése',
 	'POLL_VOTE_CHANGE_EXPLAIN'	=> 'Ha engedélyezve van, a felhasználók megváltoztathatják szavazatukat.',
 	'POSTED_ATTACHMENTS'		=> 'Feltöltött csatolmányok',
- 	'POST_APPROVAL_NOTIFY'		=> ' Amint jóváhagyásra kerül, értesíteni fogunk.',
+ 	'POST_APPROVAL_NOTIFY'		=> 'Amint jóváhagyásra kerül, értesíteni fogunk.',
 	'POST_CONFIRMATION'			=> 'Hozzászólás megerősítése', //?
 	'POST_CONFIRM_EXPLAIN'		=> 'Az automatikus hozzászólások megakadályozása érdekében meg kell adnod egy megerősítő kódot. A kód az alábbi képen szerepel. Ha látási vagy egyéb problémák miatt nem tudod elolvasni a kódot, lépj kapcsolatba a %sfórum adminisztrátorával%s.',
 	'POST_DELETED'				=> 'Az üzenet sikeresen törlésre került.',

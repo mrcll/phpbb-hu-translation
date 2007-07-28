@@ -4,7 +4,7 @@
 * acp_search [English]
 *
 * @package language
-* @version $Id: search.php,v 1.6 2007-06-16 21:34:04 fberci Exp $
+* @version $Id: search.php,v 1.7 2007-07-28 20:59:59 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> 'Total number of indexed posts',
 	'FULLTEXT_MYSQL_MBSTRING'				=> 'Support for non-latin UTF-8 characters using mbstring:',
 	'FULLTEXT_MYSQL_PCRE'					=> 'Support for non-latin UTF-8 characters using PCRE:',
-	'FULLTEXT_MYSQL_MBSTRING_EXPLAIN'		=> 'If PCRE does not have unicode character properties, the search backend will try to use mbstring\'s regular expression engine.',
+	'FULLTEXT_MYSQL_MBSTRING_EXPLAIN'		=> 'If PCRE does not have unicode character properties, the search backend will try to use mbstring’s regular expression engine.',
 	'FULLTEXT_MYSQL_PCRE_EXPLAIN'			=> 'This search backend requires PCRE unicode character properties, only available in PHP 4.4, 5.1 and above, if you want to search for non-latin characters.',
 
 	'GENERAL_SEARCH_SETTINGS'				=> 'General search settings',

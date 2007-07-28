@@ -4,7 +4,7 @@
 * search [Hungarian]
 *
 * @package language
-* @version $Id: search.php,v 1.11 2007-07-08 18:41:03 fberci Exp $
+* @version $Id: search.php,v 1.12 2007-07-28 20:59:59 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -73,7 +73,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_AUTHOR_EXPLAIN'		=> 'Részleges szavakhoz használd a * jokerkaraktert.',
 	'SEARCH_FIRST_POST'			=> 'Témák első hozzászólása',
 	'SEARCH_FORUMS'				=> 'Fórumok', //? 'Keresett fórumok'
-	'SEARCH_FORUMS_EXPLAIN'		=> 'Válaszd ki azokat a fórumokat, melyben keresni szeretnél. Ha az alfórumokban is keresni szeretnél, gyorsabb ha itt csak a szülő fórumot választod ki, és igenre állítod a keresés az alfórumokban beállítást.', //?
+	'SEARCH_FORUMS_EXPLAIN'		=> 'Válaszd ki azokat a fórumokat, melyben keresni szeretnél. A keresés automatikusan megtörténik az alfórumokban is, hacsak alább nem kapcsoltad ki a „keresés az alfórumokban” beállítást.',
 	'SEARCH_IN_RESULTS'			=> 'Keresés a találatokban',
 	'SEARCH_KEYWORDS_EXPLAIN'	=> 'Írj „<strong>+</strong>”-t a keresett, valamint „<strong>-</strong>”-t a kizárandó  szavak elé. Ha több szóból csak egy megtalálása is elég, készíts ezekből a szavakból egy „<strong>|</strong>” jellel elválasztott listát, és rakd az egészet zárójelek közé. Részleges szavakhoz használd a * jokerkaraktert.', //? "Place <strong>+</strong> in front of a word which must be found and <strong>-</strong> in front of a word which must not be found. Put a list of words separated by <strong>|</strong> into brackets if only one of the words must be found. Use * as a wildcard for partial matches."
 	'SEARCH_MSG_ONLY'			=> 'Üzenetek szövege',

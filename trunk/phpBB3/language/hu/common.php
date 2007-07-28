@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.52 2007-07-24 20:07:02 fberci Exp $
+* @version $Id: common.php,v 1.53 2007-07-28 20:59:59 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -291,6 +291,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_INFO'						=> 'A belépéshez regisztrált felhasználónak kell lenned. A regisztráció csupán néhány másodpercet vesz igénybe, de számos előnnyel jár, az adminisztrátor például így tud külön jogosultságokat adni. A regisztráció előtt győződj meg róla, hogy elfogadod a felhasználási feltételeinket, valamint egyetértesz az adatvédelmi nyilatkozatunkkal. Kérjük, olvasd el a fórumok szabályzatát is!',
 	'LOGIN_VIEWFORUM'					=> 'Csak reigsztrált felhasználók tekinthetik meg ezt a fórumot.',
 	'LOGIN_EXPLAIN_EDIT'				=> 'Csak reigsztrált felhasználók szerkeszthetik a hozzászólásaikat ebben a fórumban.',
+ 	'LOGIN_EXPLAIN_VIEWONLINE'			=> 'Csak reigsztrált felhasználók tekinthetik meg a jelenlévők listáját.',
 	'LOGOUT'							=> 'Kilépés',
 	'LOGOUT_USER'						=> 'Kilépés [ %s ]',
 	'LOG_ME_IN'							=> 'Automatikus bejelentkezés',
@@ -317,7 +318,7 @@ $lang = array_merge($lang, array(
 	'MSNM'					=> 'MSNM/WLM',	
 
 	'NA'						=> 'N/A',
-	'NEWEST_USER'				=> 'Legújabb regisztrált tagunk: <strong>%s%s%s</strong>',
+	'NEWEST_USER'				=> 'Legújabb regisztrált tagunk: <strong>%s</strong>',
 	'NEW_MESSAGE'				=> 'Új üzenet',
 	'NEW_MESSAGES'				=> 'Új üzenetek',
 	'NEW_PM'					=> '<strong>%d</strong> új üzenet',
@@ -643,6 +644,7 @@ $lang = array_merge($lang, array(
 	'WRONG_DATA_JABBER'			=> 'A megadott Jabber azonosító hibás.',
 	'WRONG_DATA_LANG'			=> 'A megadott nyelv hibás.',
 	'WRONG_DATA_WEBSITE'		=> 'A honlap címének egy rendes URL-nek kell lennie (a protokollal együtt). Például: http://www.pelda.hu/.', //?
+ 	'WROTE'						=> 'írta',
 
 	'YEAR'				=> 'év',
 	'YEAR_MONTH_DAY'	=> '(ÉÉÉÉ-HH-NN)',

@@ -4,7 +4,7 @@
 * acp_language [English]
 *
 * @package language
-* @version $Id: language.php,v 1.6 2007-06-16 21:34:04 fberci Exp $
+* @version $Id: language.php,v 1.7 2007-07-28 20:59:59 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *

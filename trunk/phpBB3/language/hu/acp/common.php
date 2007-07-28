@@ -4,7 +4,7 @@
 * acp common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.14 2007-07-26 21:45:20 fberci Exp $
+* @version $Id: common.php,v 1.15 2007-07-28 20:59:59 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -296,6 +296,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_DIR_SIZE'			=> 'Avatar könyvtár mérete',
 
 	'BOARD_STARTED'		=> 'Fórum indulása',
+ 	'BOARD_VERSION'		=> 'Fórum verziója',
 
 	'DATABASE_SERVER_INFO'	=> 'Adatbázisszerver',
 	'DATABASE_SIZE'			=> 'Adatbázis mérete',
@@ -403,6 +404,8 @@ $lang = array_merge($lang, array(
 	
 	'LOG_ADMIN_AUTH_FAIL'		=> '<strong>Sikeretelen adminisztrátori belépési kísérlet</strong>',
 	'LOG_ADMIN_AUTH_SUCCESS'	=> '<strong>Sikeres adminisztrátori bejelentkezés</strong>',
+
+	'LOG_ATTACHMENTS_DELETED'	=> '<strong>Felhasználó csatolmányainak törlése</strong><br />» %s',
 
 	'LOG_ATTACH_EXT_ADD'		=> '<strong>Csatolmány kiterjesztés hozzáadása vagy szerkesztése</strong><br />» %s',
 	'LOG_ATTACH_EXT_DEL'		=> '<strong>Csatolmány kiterjesztés törlése</strong><br />» %s',
@@ -525,6 +528,7 @@ $lang = array_merge($lang, array(
 	'LOG_IMAGESET_EDIT_DETAILS'		=> '<strong>Képkészlet részletek szerkesztése</strong><br />» %s',
 	'LOG_IMAGESET_EDIT'				=> '<strong>Képkészlet szerkesztéses</strong><br />» %s',
 	'LOG_IMAGESET_EXPORT'			=> '<strong>Képkészlet exportálása</strong><br />» %s',
+ 	'LOG_IMAGESET_LANG_MISSING'		=> '<strong>Képkészlet „%2$s” lokalizációja hiányzik</strong><br />» %1$s',
 	'LOG_IMAGESET_LANG_REFRESHED'	=> '<strong>Képkészlet „%2$s” lokalizációjának frissítése</strong><br />» %1$s',
 	'LOG_IMAGESET_REFRESHED'		=> '<strong>Képkészlet frissítése</strong><br />» %s',
 

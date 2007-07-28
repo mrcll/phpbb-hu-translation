@@ -4,7 +4,7 @@
 * acp_board [Hungarian]
 *
 * @package language
-* @version $Id: board.php,v 1.8 2007-07-26 21:45:20 fberci Exp $
+* @version $Id: board.php,v 1.9 2007-07-28 20:59:59 fberci Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -54,11 +54,14 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_BOARD_FEATURES_EXPLAIN'	=> 'Itt ki- illetve bekapcsolhatod a fórum különböző funkcióit.',
 
+	// Nem lenne jobb a bekapcsolás jobb az engedélyezés helyett?
 	'ALLOW_ATTACHMENTS'			=> 'Csatolmányok engedélyezése',
+ 	'ALLOW_BIRTHDAYS'			=> 'Születésnapok engedélyezése',
+ 	'ALLOW_BIRTHDAYS_EXPLAIN'	=> 'A születésnapok megadási és a profilban való megjelenési lehetőségének engedélyezése. Kérjük, vedd figyelembe, hogy a születésnaposok főoldalon való megjelenítését a terhelés beállításoknál tudod be- ill. kikapcsolni.',
 	'ALLOW_BOOKMARKS'			=> 'Kedvencek engedélyezése',
 	'ALLOW_BOOKMARKS_EXPLAIN'	=> 'A felhasználó eltárolhatja a kedvenc témáit.',
 	'ALLOW_BBCODE'				=> 'BBCode engedélyezése',
-	'ALLOW_FORUM_NOTIFY'		=> 'Fórumok figyelésének engedélyezése',
+	'ALLOW_FORUM_NOTIFY'		=> 'Fórumokra való feliratkozás engedélyezése',
 	'ALLOW_NAME_CHANGE'			=> 'Felhasználónév-váltás engedélyezése',
 	'ALLOW_NO_CENSORS'			=> 'Szócenzúra kikapcsolásának engedélyezése',
 	'ALLOW_NO_CENSORS_EXPLAIN'	=> 'A felhasználók ha, szeretnék, kikapcsolhatják az automatikus szócenzúrát a hozzászólásokban és a privát üzenetekben.',
@@ -71,7 +74,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_SIG_LINKS_EXPLAIN'	=> 'Ha nem engedélyezett, az <code>[URL]</code> BBCode címke nem használható, és az automatikus linkké alakítás ki van kapcsolva.',
 	'ALLOW_SIG_SMILIES'			=> 'Emotikonok használatának engedélyezése az aláírásban',
 	'ALLOW_SMILIES'				=> 'Emotikonok engedélyezése',
-	'ALLOW_TOPIC_NOTIFY'		=> 'Témák figyelésének engedélyezése',
+	'ALLOW_TOPIC_NOTIFY'		=> 'Témákra való feliratkozás engedélyezése',
 	'BOARD_PM'					=> 'Privát üzenetek bekapcsolása',
 	'BOARD_PM_EXPLAIN'			=> 'A privát üzenetküldő rendszer ki- vagy bekapcsolása az összes felhasználó számára.',
 ));
@@ -271,6 +274,7 @@ $lang = array_merge($lang, array(
 	'YES_ANON_READ_MARKING'			=> 'Enable topic marking for guests',
 	'YES_ANON_READ_MARKING_EXPLAIN'	=> 'Stores read/unread status information for guests. If disabled posts are always read for guests.',
 	'YES_BIRTHDAYS'					=> 'Enable birthday listing',
+ 	'YES_BIRTHDAYS_EXPLAIN'			=> 'If disabled the birthday listing is no longer displayed. To let this setting take effect the birthday feature need to be enabled too.',
 	'YES_JUMPBOX'					=> 'Enable display of jumpbox',
 	'YES_MODERATORS'				=> 'Enable display of moderators',
 	'YES_ONLINE'					=> 'Enable online user listings',
@@ -376,7 +380,7 @@ $lang = array_merge($lang, array(
 
 // Email Settings
 $lang = array_merge($lang, array(
-	'ACP_EMAIL_SETTINGS_EXPLAIN'	=> 'This information is used when the board sends e-mails to your users. Please ensure the e-mail address you specify is valid, any bounced or undeliverable messages will likely be sent to that address. If your host does not provide a native (PHP based) e-mail service you can instead send messages directly using SMTP. This requires the address of an appropriate server (ask your provider if necessary), do not specify any old name here! If the server requires authentication (and only if it does) enter the necessary username and password. Please note only basic authentication is offered, different authentication implementations are not currently supported.',
+ 	'ACP_EMAIL_SETTINGS_EXPLAIN'	=> 'This information is used when the board sends e-mails to your users. Please ensure the e-mail address you specify is valid, any bounced or undeliverable messages will likely be sent to that address. If your host does not provide a native (PHP based) e-mail service you can instead send messages directly using SMTP. This requires the address of an appropriate server (ask your provider if necessary). If the server requires authentication (and only if it does) enter the necessary username, password and authentication method.',
 
 	'ADMIN_EMAIL'					=> 'Return e-mail address',
 	'ADMIN_EMAIL_EXPLAIN'			=> 'This will be used as the return address on all e-mails, the technical contact e-mail address. It will always be used as the <samp>Return-Path</samp> and <samp>Sender</samp> address in e-mails.',
@@ -389,7 +393,7 @@ $lang = array_merge($lang, array(
 	'EMAIL_FUNCTION_NAME'			=> 'E-mail function name',
 	'EMAIL_FUNCTION_NAME_EXPLAIN'	=> 'The e-mail function used to send mails through PHP.',
 	'EMAIL_PACKAGE_SIZE'			=> 'E-mail package size',
-	'EMAIL_PACKAGE_SIZE_EXPLAIN'	=> 'This is the number of e-mails sent in one package.',
+ 	'EMAIL_PACKAGE_SIZE_EXPLAIN'	=> 'This is the number of maximum e-mails sent out in one package. This setting is applied to the internal message queue; set this value to 0 if you have problems with non-delivered notification emails.',
 	'EMAIL_SIG'						=> 'E-mail signature',
 	'EMAIL_SIG_EXPLAIN'				=> 'This text will be attached to all e-mails the board sends.',
 	'ENABLE_EMAIL'					=> 'Enable board-wide e-mails',
