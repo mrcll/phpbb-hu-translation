@@ -4,7 +4,7 @@
 * acp_ban [Hungarian]
 *
 * @package language
-* @version $Id: ban.php,v 1.7 2007-07-25 20:00:04 fberci Exp $
+* @version $Id: ban.php,v 1.8 2007-07-28 20:59:59 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *

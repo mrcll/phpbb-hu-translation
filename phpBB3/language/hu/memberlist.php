@@ -4,7 +4,7 @@
 * memberlist [Hungarian]
 *
 * @package language
-* @version $Id: memberlist.php,v 1.12 2007-07-08 18:32:47 fberci Exp $
+* @version $Id: memberlist.php,v 1.13 2007-07-28 20:59:59 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -78,6 +78,7 @@ $lang = array_merge($lang, array(
 	'IM_MSNM_BROWSER'		=> 'Sajnos a böngésződ nem támogatja ezt.',
 	'IM_MSNM_CONNECT'		=> 'Az MSNM nem csatlakozott.\nKapcsolódnod kell az MSNM-hez a folytatáshoz.', //???
 	'IM_NAME'				=> 'Neved',
+ 	'IM_NO_DATA'			=> 'Nincs megfelelő kapcsolat információ ehhez a felhasználóhoz.', //?
 	'IM_NO_JABBER'			=> 'Sajnos ezen a szerveren a direkt üzenetek nem támogatottak. A címzettel való kapcsolatba lépéshez szükséged lesz egy Jabber kliensre.', //?
 	'IM_RECIPIENT'			=> 'Címzett',
 	'IM_SEND'				=> 'Üzenet elküldése',

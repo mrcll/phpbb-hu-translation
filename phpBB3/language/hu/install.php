@@ -4,7 +4,7 @@
 * install [Hungarian]
 *
 * @package language
-* @version $Id: install.php,v 1.23 2007-07-09 12:01:39 fberci Exp $
+* @version $Id: install.php,v 1.24 2007-07-28 20:59:59 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -58,6 +58,7 @@ $lang = array_merge($lang, array(
 	'CHANGE'					=> 'Változtatás',
 	'CHECK_TABLE_PREFIX'		=> 'Kérjük, ellenőrizd az adatbázis-előtagot, és próbálkozz újra.',
 	'CLEAN_VERIFY'				=> 'Végleges struktúra rendbe tétele és ellenőrzése', //? "Cleaning up and verifying the final structure"
+	'CLEANING_USERNAMES'		=> 'Felhasználónevek tisztítása',
 	'COLLIDING_CLEAN_USERNAME'	=> 'A <strong>%s</strong> egyszerűsített felhasználónév a következő felhasználókhoz tartozik:', //? "<strong>%s</strong> is the clean username for:"
 	'COLLIDING_USERNAMES_FOUND'	=> 'A régi fórumodon ütköző felhasználónevek fordultak elő. Kérjük, töröld, vagy nevezd át ezeket a felhasználókat, hogy minden egyszerűsített felhasználónévhez csak egy felhasználó tartozzon.', //? clean username = egyszerűsített?
 	'COLLIDING_USER'			=> '» felhasználói azonosító: <strong>%d</strong>, felhasználónév: <strong>%s</strong> (%d hozzászólás)',
@@ -177,11 +178,11 @@ $lang = array_merge($lang, array(
 	'INITIAL_CONFIG_EXPLAIN'	=> 'Ahozz, hogy a phpBB működni tudjon, meg kell adnod néhány egyedi információt. Ha nem tudod, hogyan tudsz csatlakozni az adatábizodhoz, kérünk, lépj kapcsolatba a tárhelyszolgáltatóddal, vagy fordulj a phpBB-t támogató fórumokhoz. Mielőtt bármilyen adatot megadsz, kérünk, alaposan győződj meg annak helyességéről.', //????? "Now that install has determined your server can run phpBB you need to supply some specific information. If you do not know how to connect to your database please contact your hosting provider (in the first instance) or use the phpBB support forums. When entering data please ensure you check it thoroughly before continuing." nincs értelme... vajon hol használhatják (szerintem sehol!)??
 	'INSTALL_CONGRATS'			=> 'Gratulálunk!',
 	'INSTALL_CONGRATS_EXPLAIN'	=> '
-		<p>Sikeresen telepítetted a phpBB %1$s-t. Most két dolgot tehetesz az újonnan telepített phpBB3-addal:</p>
+		<p>Sikeresen telepítetted a phpBB %1$s-t. Most két dolgot tehetesz az újonnan telepített phpBB3-maddal:</p>
 		<h2>Már meglévő fórum átkonvertálása</h2>
 		<p>A phpBB Egyesített Konvertáló Keretrendszer segítségével át lehet konvertálni phpBB 2.0.x-es vagy más fórummotort használó fórumokat phpBB3-assá. Ha át szeretnél konvertálni egy már meglévő fórumot, <a href="%2$s">lépj tovább a konvertálóhoz</a>.</p>
 		<h2>A fórum használatba vétele</h2>
-		<p>Az alábbi gombra kattintva az adminisztrátori vezérlőpultra jutsz. Szánj rá egy kis időt, és vizsgáld meg a beállítási lehetőségeket. Ne feledkezz meg róla, hogy a phpBB-vel kapcsolatban segítséget nyújt az angol <a href="http://www.phpbb.com/support/documentation/3.0/">Felhasználói kézikönyv</a> és a <a href="http://www.phpbb.com/phpBB/viewforum.php?f=46">phpbb.com megfelelő fóruma</a>; további információkat a <a href="%3$s">README</a>-ben találsz.</p><p><strong>Most kérjük, töröld, helyezd át, vagy nevezd át az install könyvtárat, mert amíg ez a könyvtár létezik, csak az adminisztrátori vezérlőpult lesz elérhető.</strong></p>', //? teljes átfogalmazás... TODO (béta)
+		<p>Az alábbi gombra kattintva az adminisztrátori vezérlőpultra jutsz. Szánj rá egy kis időt, és vizsgáld meg a beállítási lehetőségeket. Ne feledkezz meg róla, hogy a phpBB-vel kapcsolatban segítséget nyújt az angol <a href="http://www.phpbb.com/support/documentation/3.0/">Felhasználói kézikönyv</a> és a <a href="http://www.phpbb.com/phpBB/viewforum.php?f=46">phpbb.com megfelelő fóruma</a>; további információt a <a href="%3$s">README</a>-ben találsz.</p><p><strong>Most kérjük, töröld, helyezd át, vagy nevezd át az install könyvtárat, mert amíg ez a könyvtár létezik, csak az adminisztrátori vezérlőpult lesz elérhető.</strong></p>', //? teljes átfogalmazás... TODO (béta)
 	'INSTALL_INTRO'				=> 'Üdvözlünk a telepítőben', //? "Welcome to Installation" 'Üdvözlünk a telepítésnél'
 	'INSTALL_INTRO_BODY'		=> 'Ezen menüpont segítségével feltelepítheted a phpBB-t a szerveredre.</p><p>A folytatás során szükséged lesz az adatbázis adatokra. Ha nem ismered ezeket, lépj kapcsolatba a tárhelyszolgáltatóddal, és tájékozódj róluk. Ezen adatok nélkül nem tudsz továbblépni. A következőkre lesz szükséged:</p>
 	<ul>
@@ -242,6 +243,8 @@ $lang = array_merge($lang, array(
 	'INST_ERR_USER_TOO_LONG'	=> 'A megadott felhasználónév túl hosszú, legfeljebb 20 karakter lehet.',
 	'INST_ERR_USER_TOO_SHORT'	=> 'A megadott felhasználónév túl rövid, legalább 3 karakternek kell lennie.',
 	'INVALID_PRIMARY_KEY'		=> 'Hibás elsődleges kulcs: %s', //? érvénytelen
+
+	'LONG_SCRIPT_EXECUTION'		=> 'Kérjük, vedd figyelembe, hogy a szkript futása eltarthat egy ideig. Kérjük, ne szakítsd meg.',
 
 	// mbstring
 	'MBSTRING_CHECK'						=> '<samp>mbstring</samp> kiterjesztés ellenőrzése', //? check - ellenőrzés
@@ -358,7 +361,9 @@ $lang = array_merge($lang, array(
 
 	'BACK'				=> 'Vissza',
 	'BINARY_FILE'		=> 'Bináris állomány',
+	'BOT'				=> '(Kereső)robot',
 
+ 	'CHANGE_CLEAN_NAMES'			=> 'Az azonos felhasználónevek kiszűréséhez használt eljárás megváltozott. Van néhány felhasználó, akiknek az új eljárás szerint azonos a felhsználónevük. Ezért a továbblépés előtt, ezeket a felhasználókat át kell nevezned vagy törölnöd kell, hogy biztosan csak egy felhasználó tartozzon egy felhasználónévhez.',
 	'CHECK_FILES'					=> 'Állományok összevetése', //? leellenőrzése
 	'CHECK_FILES_AGAIN'				=> 'Állományok összevetése újra',
 	'CHECK_FILES_EXPLAIN'			=> 'A következő lépésben az összes állomány összevetésre kerül a frissítési állományokkal – ez eltarthat egy ideig, ha ez az első összevetés.', //? frissítési: frissítő, friss stb.?
@@ -373,8 +378,10 @@ $lang = array_merge($lang, array(
 
 	'DATABASE_TYPE'						=> 'Adatbázis típusa',
 	'DATABASE_UPDATE_INFO_OLD'			=> 'Az install könyvtárban található adatbázis-frissítő állomány nem a legújabb. Kérünk, győződj meg róla, hogy a jó verzióját töltötted fel az állománynak.', //? "The database update file within the install directory is outdated. Please make sure you uploaded the correct version of the file."
+	'DELETE_USER_REMOVE'				=> 'Felhasználó törlése és hozzászólásainak eltávolítása',
+	'DELETE_USER_RETAIN'				=> 'Felhasználó törlése de hozzászólásainak megtartása',
 	'DESTINATION'						=> 'Célállomány',
-	'DIFF_INLINE'						=> '', //? "Inline" állományközi, sorközi, hagyjuk az eredetit (aki ezt használja, úgyis tudja mit csinál)?
+	'DIFF_INLINE'						=> 'Inline', //? "Inline" állományközi, sorközi, hagyjuk az eredetit (aki ezt használja, úgyis tudja mit csinál)?
 	'DIFF_RAW'							=> 'Raw unified diff', //?
 	'DIFF_SEP_EXPLAIN'					=> 'Jelenlegi állomány vége / Új frissített állomány kezdődik', //?
 	'DIFF_SIDE_BY_SIDE'					=> 'Side by Side',
@@ -386,7 +393,8 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_UPDATE_METHOD'			=> 'Megváltoztatott állományokat tartalmazó csomag letöltése',
 	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'Miután letöltötted a csomagot, tömörítsd ki. A csomagban található megváltoztatott állományokat töltsd fel a phpBB-d gyökérkönyvtárába, a megfelelő helyükre. Miután feltöltötted az összes állományt, vesd össze újra az állományokat a másik alábbi gomb segítségével.',
 
-	'ERROR'		=> 'Hiba',
+	'ERROR'			=> 'Hiba',
+	'EDIT_USERNAME'	=> 'Felhasználónév módosítása',
 
 	'FILE_ALREADY_UP_TO_DATE'		=> 'Az állomány már a legújabb verziójú', //? "File is already up to date"
 	'FILE_DIFF_NOT_ALLOWED'			=> 'Ezen az állományon nem végezhető diff.', //? "File not allowed to be diffed"
@@ -410,6 +418,8 @@ $lang = array_merge($lang, array(
 	'INCOMPLETE_UPDATE_FILES'		=> 'A frissítő állományok hiányosak.',
 	'INLINE_UPDATE_SUCCESSFUL'		=> 'Az adatbázis-frissítés sikeres volt. Most folytasd a frissítést.', //? "The database update was successful. Now you need to continue the update process."
 
+	'KEEP_OLD_NAME'		=> 'Felhasználónév megtartása',
+
 	'LATEST_VERSION'		=> 'Legfrissebb verzió',
 	'LINE'					=> 'Sor',
 	'LINE_ADDED'			=> 'Hozzáadva',
@@ -419,6 +429,9 @@ $lang = array_merge($lang, array(
 	'LOGIN_UPDATE_EXPLAIN'	=> 'A phpBB frissítéséhez először be kell jelentkezned.',
 
 	'MAPPING_FILE_STRUCTURE'	=> 'A feltöltés megkönnyítésének érdekébel alább szerepelnek a feltöltendő fájlok a helyükkel együtt, ahová fel kell őket töltened.', //? "To ease the upload here are the file locations which map your phpBB installation."
+
+	'MERGE_MODIFICATIONS_OPTION'	=> 'Változtatások egyesítése',
+
 	'MERGE_NO_MERGE_NEW_OPTION'	=> 'Nincs egyesítés – új állomány használata', //? 'Nincs egyesítés' - ???
 	'MERGE_NO_MERGE_MOD_OPTION'	=> 'Nincs egyesítés – jelenlegi telepített állomány használata',
 	'MERGE_MOD_FILE_OPTION'		=> 'Állományok egyesítése, ütköző részben a módosított kód használata',
@@ -426,6 +439,7 @@ $lang = array_merge($lang, array(
 	'MERGE_SELECT_ERROR'		=> 'Az ütközéseket tartalmazó állományok egyesítési módja nincs helyesen kiválasztva.', //?
 
 	'NEW_FILE'						=> 'Új frissített állomány',
+	'NEW_USERNAME'					=> 'Új felhasználónév',
 	'NO_AUTH_UPDATE'				=> 'Nincs jogosultságod a frissítéshez.',
 	'NO_ERRORS'						=> 'Nincs hiba',
 	'NO_UPDATE_FILES'				=> 'Következő állományok frissítésének kihagyása',
@@ -440,8 +454,9 @@ $lang = array_merge($lang, array(
 
 	'OLD_UPDATE_FILES'		=> 'A frissítő állományok elavultak. A phpBB %1$s verzióról %2$s verzióra való frissítésre szolgálnak, de a phpBB legújabb verziója a %3$s.',
 
+ 	'PACKAGE_UPDATES_TO'				=> 'A jelenlegi csomag a következő verzióra frissít',
 	'PERFORM_DATABASE_UPDATE'			=> 'Adatbázisfrissítés végrehajtása',
-	'PERFORM_DATABASE_UPDATE_EXPLAIN'	=> 'Alább találsz egy linket az adatbázisfrissítő szkriptre. Ezt külön kell futtatni, mivel nem várható viselkedés léphet fel, ha ezt belépve teszed. Az adatbázisfrissítés eltarthat egy ideig, tehát kérjük, ne állítsd le a szkript futattását, akkor se ha az megakadni látszik. Miután elvégezted az adatbázisfrissítést, zárd be az ablakot, és folytasd a frissítés folyamatát.',
+	'PERFORM_DATABASE_UPDATE_EXPLAIN'	=> 'Alább találsz egy linket az adatbázisfrissítő szkriptre. Az adatbázisfrissítés eltarthat egy ideig, tehát kérjük, ne állítsd le a szkript futattását, akkor se ha az megakadni látszik. Miután elvégezted az adatbázisfrissítést, zárd be az ablakot, és folytasd a frissítés folyamatát.',
 	'PREVIOUS_VERSION'					=> 'Előző verzó',
 	'PROGRESS'							=> 'Haladás', //?
 
@@ -511,6 +526,7 @@ $lang = array_merge($lang, array(
 	',
 	'UPDATE_METHOD'					=> 'Frissítési mód',
 	'UPDATE_METHOD_EXPLAIN'			=> 'Most kiválaszthatod a kívánt frissítési módot. Ha az FTP feltöltést választod, egy űrlap fog mejelenni, ahol meg kell adnod az FTP-csatlakozához szükséges adatokat. Ezen mód használatakor az állományok automatikusan áthelyezésre kerülnek az új helyükre, és a régi állományokról biztonsági másolat készül az állományok nevéhez való .bak kiterjesztés hozzáfűzésével. Ha a módosított fájlok letöltését választod, ki kell csomagolnod a letöltött csomagot, majd kézzel feltöltened a tartalmát a megfelelő helyre.',
+ 	'UPDATE_REQUIRES_FILE'			=> 'A frissítőnek szüksége van a követekző állomány létezésére: %s',
 	'UPDATE_SUCCESS'				=> 'Sikeres frissítés',
 	'UPDATE_SUCCESS_EXPLAIN'		=> 'Minden állomány sikeresen frissítésre került. A következő lépésben az összes állomány újra leellenőrzésre került, hogy megbizonyosodj róla, hogy az összes állomány sikeresen frissítve lett. ',
 	'UPDATE_VERSION_OPTIMIZE'		=> 'Verziószám frissítése és táblák optimalizálása',
@@ -520,6 +536,8 @@ $lang = array_merge($lang, array(
 	'UPLOAD_METHOD'					=> 'Feltöltési mód',
 
 	'UPDATE_DB_SUCCESS'				=> 'Sikeres adatbázis-frissítés',
+	'USER_ACTIVE'					=> 'Aktív felhasználó',
+	'USER_INACTIVE'					=> 'Inaktív felhasználó',
 
 	'VERSION_CHECK'				=> 'Verzió ellenőrzés',
 	'VERSION_CHECK_EXPLAIN'		=> 'Itt ellenőrzésre kerül, hogy a jelenleg futó phpBB a legfrissebb-e.', //?

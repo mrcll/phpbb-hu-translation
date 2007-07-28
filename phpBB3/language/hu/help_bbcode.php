@@ -4,7 +4,7 @@
 * help_bbcode [Hungarian]
 *
 * @package language
-* @version $Id: help_bbcode.php,v 1.5 2007-06-01 14:21:20 fberci Exp $
+* @version $Id: help_bbcode.php,v 1.6 2007-07-28 20:59:59 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -44,7 +44,7 @@ $help = array(
 	),
 	array(
 		0 => 'Szöveg színének vagy méretének megválotztatása',
-		1 => 'Egy szövegrészlet színének vagy méretének megváltoztatásához a következő címkék használhatók. Vedd figyelembe, hogy a szöveg pontos megjelenése a látogató böngészőjétől és rendszerétől is függeni fog (például túl kis betűmérettel írt szöveg nem látszódhat).<ul><li>Egy szövegrészlet színét a <strong>[color=][/color]</strong> címkék használatával változtathatod meg. A színt megadhatod az angol nevével (pl. „red”, „blue”, „yellow”) vagy a hexadecimális kódjával, például: #FFFFFF, #000000. Piros szöveget például így tud készíteni: <br /><br /><strong>[color=red]</strong>Helló!<strong>[/color]</strong><br /><br />és<br /><br /><strong>[color=#FF0000]</strong>Helló!<strong>[/color]</strong><br /><br />eredménye is ez lesz: <span style="color:red">Helló!</span></li><li>A betűméretet is hasonlóan lehet megváltoztatni: a <strong>[size=][/size]</strong> címke segítségével. A szöveg méretét százalékban kell megadni: egy 20 és 200 közötti szám lehet, de az aktuális méret a sablontól függ. Például <br /><br /><strong>[size=30]</strong>KICSI<strong>[/size]</strong><br /><br />általánosan <span style="font-size:30%;">KICSI</span> lesz,<br /><br />ehhez hasonlóan:<br /><br /><strong>[size=200]</strong>ÓRIÁSI!<strong>[/size]</strong><br /><br /><span style="font-size:200%;">ÓRIÁSI!</span> lesz.</li></li></ul>'
+		1 => 'Egy szövegrészlet színének vagy méretének megváltoztatásához a következő címkék használhatók. Vedd figyelembe, hogy a szöveg pontos megjelenése a látogató böngészőjétől és rendszerétől is függeni fog (például túl kis betűmérettel írt szöveg nem látszódhat).<ul><li>Egy szövegrészlet színét a <strong>[color=][/color]</strong> címkék használatával változtathatod meg. A színt megadhatod az angol nevével (pl. „red”, „blue”, „yellow”) vagy a hexadecimális kódjával, például: #FFFFFF, #000000. Piros szöveget például így tud készíteni: <br /><br /><strong>[color=red]</strong>Helló!<strong>[/color]</strong><br /><br />és<br /><br /><strong>[color=#FF0000]</strong>Helló!<strong>[/color]</strong><br /><br />eredménye is ez lesz: <span style="color:red">Helló!</span></li><li>A betűméretet is hasonlóan lehet megváltoztatni: a <strong>[size=][/size]</strong> címke segítségével. A szöveg méretét százalékban kell megadni: ez egy 20 és 200 közötti szám lehet, de az aktuális méret a sablontól függ. Például <br /><br /><strong>[size=30]</strong>KICSI<strong>[/size]</strong><br /><br />általánosan <span style="font-size:30%;">KICSI</span> lesz,<br /><br />ehhez hasonlóan:<br /><br /><strong>[size=200]</strong>ÓRIÁSI!<strong>[/size]</strong><br /><br /><span style="font-size:200%;">ÓRIÁSI!</span> lesz.</li></li></ul>'
 	),
 	array(
 		0 => 'Használhatok egyszerre többféle formázást?',

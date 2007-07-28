@@ -4,7 +4,7 @@
 * viewtopic [Hungarian]
 *
 * @package language
-* @version $Id: viewtopic.php,v 1.7 2007-06-28 23:11:16 fberci Exp $
+* @version $Id: viewtopic.php,v 1.8 2007-07-28 20:59:59 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -100,8 +100,6 @@ $lang = array_merge($lang, array(
 	'VIEW_UNREAD_POST'		=> 'Első olvasatlan hozzászólás',
 	'VISIT_WEBSITE'			=> 'Honlap',
 	'VOTE_SUBMITTED'		=> 'A szavazatod sikeresen eltárolásra került.',
-
-	'WROTE'					=> 'írta',
 ));
 
 ?>
