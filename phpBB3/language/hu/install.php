@@ -4,7 +4,7 @@
 * install [Hungarian]
 *
 * @package language
-* @version $Id: install.php,v 1.24 2007-07-28 20:59:59 fberci Exp $
+* @version $Id: install.php,v 1.25 2007-07-29 14:55:36 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -132,7 +132,7 @@ $lang = array_merge($lang, array(
 	'DEFAULT_LANG'				=> 'Fórum alapértelmezett nyelve', //? alapértelmezett?
 	'DEFAULT_PREFIX_IS'			=> 'A kovertáló nem talált táblákat a megadott előtaggal. Kérünk, győződj meg róla, hogy helyesen adtad meg az eredeti fórum adatait. A %1$s alapértelmezett tábla előtagja <strong>%2$s</strong>.', //?
 	'DEV_NO_TEST_FILE'			=> 'Nem került megadásra a test_file változó értéke a konvertálóban. Ha csak egy használója vagy ennek a konvertálónak, nem szabadna ezt a hibaüzenetet látnod – kérjük, értesítsd a konvertáló készítőjét. Ha a konvertáló készítője vagy, meg kell adnod egy az eredeti fórumban lévő állomány helyét, hogy le lehessen ellenőrizni az eredeti fórum elérési útját.',
-	'DIRECTORIES_AND_FILES'		=> 'Könyvtárak és állományok beállítása', ///? "Directory and file setup" egyáltalán ha használják
+	'DIRECTORIES_AND_FILES'		=> 'Könyvtárak és állományok beállítása', //? "Directory and file setup" egyáltalán ha használják
 	'DISABLE_KEYS'				=> 'Kulcsok kikapcsolása', //?
 	'DLL_FIREBIRD'				=> 'Firebird',
 	'DLL_FTP'					=> 'Távoli FTP támogatás [ telepítés ]', //? remote =? külső??
