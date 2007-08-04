@@ -4,7 +4,7 @@
 * acp_board [Hungarian]
 *
 * @package language
-* @version $Id: board.php,v 1.10 2007-08-03 22:16:31 fberci Exp $
+* @version $Id: board.php,v 1.11 2007-08-04 21:01:46 fberci Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -257,61 +257,61 @@ $lang = array_merge($lang, array(
 
 // Load Settings
 $lang = array_merge($lang, array(
-	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'Here you can enable and disable certain board functions to reduce the amount of processing required. On most servers there is no need to disable any functions. However on certain systems or in shared hosting environments it may be beneficial to disable capabilities you do not really need. You can also specify limits for system load and active sessions beyond which the board will go offline.',
+	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'Itt be- vagy kikapcsolhatod a fórum bizonyos funkcióit a jobb teljesítmény érdekében. A legtöbb szerveren nincs szükség semmilyen funkció kikapcsolására. Azonban egyes rendszereken vagy másokkal megosztott tárhelyszolgáltatás esetében előnyös lehet kikapcsolni néhány igazából nem használt lehetőséget. Emellett korlátokat is meghatározhatsz a rendszer terhelésére vagy az aktív munkamenetek számára, melyek fölött a fórum automatikusan szünetelni fog.',
 
-	'CUSTOM_PROFILE_FIELDS'			=> 'Custom profile fields',
-	'LIMIT_LOAD'					=> 'Limit system load',
-	'LIMIT_LOAD_EXPLAIN'			=> 'If the system’s 1-minute load average exceeds this value the board will automatically go offline. A value of 1.0 equals ~100% utilisation of one processor. This only functions on UNIX based servers and where this information is accessible. The value here resets itself to 0 if phpBB was unable to get the load limit.',
-	'LIMIT_SESSIONS'				=> 'Limit sessions',
-	'LIMIT_SESSIONS_EXPLAIN'		=> 'If the number of sessions exceeds this value within a one minute period the board will go offline. Set to 0 for unlimited sessions.',
-	'LOAD_CPF_MEMBERLIST'			=> 'Allow styles to display custom profile fields in memberlist',
-	'LOAD_CPF_VIEWPROFILE'			=> 'Display custom profile fields in user profiles',
-	'LOAD_CPF_VIEWTOPIC'			=> 'Display custom profile fields on topic pages',
-	'LOAD_USER_ACTIVITY'			=> 'Show user’s activity',
-	'LOAD_USER_ACTIVITY_EXPLAIN'	=> 'Displays active topic/forum in user profiles and user control panel. It is recommended to disable this on boards with more than one million posts.',
-	'RECOMPILE_STYLES'				=> 'Recompile stale style components',
-	'RECOMPILE_STYLES_EXPLAIN'		=> 'Check for updated style components on filesystem and recompile.',
-	'YES_ANON_READ_MARKING'			=> 'Enable topic marking for guests',
-	'YES_ANON_READ_MARKING_EXPLAIN'	=> 'Stores read/unread status information for guests. If disabled posts are always read for guests.',
-	'YES_BIRTHDAYS'					=> 'Enable birthday listing',
- 	'YES_BIRTHDAYS_EXPLAIN'			=> 'If disabled the birthday listing is no longer displayed. To let this setting take effect the birthday feature need to be enabled too.',
-	'YES_JUMPBOX'					=> 'Enable display of jumpbox',
-	'YES_MODERATORS'				=> 'Enable display of moderators',
-	'YES_ONLINE'					=> 'Enable online user listings',
-	'YES_ONLINE_EXPLAIN'			=> 'Display online user information on index, forum and topic pages.',
-	'YES_ONLINE_GUESTS'				=> 'Enable online guest listings in viewonline',
-	'YES_ONLINE_GUESTS_EXPLAIN'		=> 'Allow display of guest user information in viewonline.',
-	'YES_ONLINE_TRACK'				=> 'Enable display of user online/offline information',
-	'YES_ONLINE_TRACK_EXPLAIN'		=> 'Display online information for user in profiles and topic pages.',
-	'YES_POST_MARKING'				=> 'Enable dotted topics',
-	'YES_POST_MARKING_EXPLAIN'		=> 'Indicates whether user has posted to a topic.',
-	'YES_READ_MARKING'				=> 'Enable server-side topic marking',
-	'YES_READ_MARKING_EXPLAIN'		=> 'Stores read/unread status information in the database rather than a cookie.',
+	'CUSTOM_PROFILE_FIELDS'			=> 'Egyéni profil mezők',
+	'LIMIT_LOAD'					=> 'Rendszerterhelés korlátozása',
+	'LIMIT_LOAD_EXPLAIN'			=> 'Ha a rendszer egy perces átlagos terhelése meghaladja ezt az értéket, akkor a fórum automatikusan szünetelni fog. Az 1.0 érték megegyezik egy processzor ~100%-os használatával. A funkció csak UNIX alapú rendszereken működik, és akkor is csak, ha elérhető ez az információ. Ha a phpBB-nek nem sikerül meghatároznia a terhelés korlátot, akkor ez az érték automatikusan 0-ra állítódik.',
+	'LIMIT_SESSIONS'				=> 'Munkamenetek korlátozása',
+	'LIMIT_SESSIONS_EXPLAIN'		=> 'Ha a munkamenetek száma egy perc alatt meghaladja ezt az értéket, a fórum automatikusan szütelni fog. Állítsd 0-ra, hogy ne legyen korlátozás.',
+	'LOAD_CPF_MEMBERLIST'			=> 'Egyéni profil mezők megjelenítésének engedélyezése a taglistában',
+	'LOAD_CPF_VIEWPROFILE'			=> 'Egyéni profil mezők megjelenítése a felhasználók profiljában',
+	'LOAD_CPF_VIEWTOPIC'			=> 'Egyéni profil mezők megjelenítése a téma oldalakon',
+	'LOAD_USER_ACTIVITY'			=> 'Felhasználó aktivitásának mutatása',
+	'LOAD_USER_ACTIVITY_EXPLAIN'	=> 'Legaktívabb téma/fórum megjelenítése a felhasználók profiljában és a felhasználói vezérlőpultban. Több, mint egymillió hozzászólással rendelkező fórumoknál ajánlott kikapcsolni.',
+	'RECOMPILE_STYLES'				=> 'Elévült megjelenés komponensek újrafeldolgozása',
+	'RECOMPILE_STYLES_EXPLAIN'		=> 'Megnézi, hogy frissült-e az adott megjelenés komponens, és ha igen, újra feldolgozza.',
+	'YES_ANON_READ_MARKING'			=> 'Olvasottságmegjelölés engedélyezése vendégeknek',
+	'YES_ANON_READ_MARKING_EXPLAIN'	=> 'A vendégeknek is eltárolja az olvasott témákat/fórumokat. Kikapcsolt állapotban a vendégeknek minden hozzászólás olvasott.',
+	'YES_BIRTHDAYS'					=> 'Születésnaposok kiírásának bekapcsolása',
+ 	'YES_BIRTHDAYS_EXPLAIN'			=> 'Ha ki van kapcsolva, nem jelenik meg a kezdőoldalon a születésnaposok listája. A beállítás érvényesüléséhez a születésnaposok funkciónak is bekapcsolva kell lennie.',
+	'YES_JUMPBOX'					=> 'Fórum ugrás doboz bekapcsolása',
+	'YES_MODERATORS'				=> 'Moderátorok megjelenítésének bekapcsolása',
+	'YES_ONLINE'					=> 'Jelenlévő felhasználók felsorolásának bekapcsolása',
+	'YES_ONLINE_EXPLAIN'			=> 'Információ megjelenítése a jelen lévő felhasználókról a kezdőoldalon és a fórum ill. téma oldalakon.',
+	'YES_ONLINE_GUESTS'				=> 'Vendégek megjelenítésének bekapcsolása a jelenlévők között',
+	'YES_ONLINE_GUESTS_EXPLAIN'		=> 'Információ megjelenítése a jelen lévő vendégekről a jelenlévő felhasználóknál.',
+	'YES_ONLINE_TRACK'				=> 'Felhasználó online/offline állapotának megjelenítésének bekapcsolása',
+	'YES_ONLINE_TRACK_EXPLAIN'		=> 'A profilban és a téma oldalakon jelzi, hogy az adott felhasználó éppen online-e.',
+	'YES_POST_MARKING'				=> 'Csillagozott témák bekapcsolása',
+	'YES_POST_MARKING_EXPLAIN'		=> 'Jelzi, hogy a felhasználó hozzászólt-e a témához.',
+	'YES_READ_MARKING'				=> 'Szerveroldali olvasottságmegjelölés bekapcsolása',
+	'YES_READ_MARKING_EXPLAIN'		=> 'Az olvasott témákról/fórumokról az információt az adatbázisban tárolja süti helyett.',
 ));
 
 // Auth settings
 $lang = array_merge($lang, array(
-	'ACP_AUTH_SETTINGS_EXPLAIN'	=> 'phpBB supports authentication plug-ins, or modules. These allow you determine how users are authenticated when they log into the board. By default three plug-ins are provided; DB, LDAP and Apache. Not all methods require additional information so only fill out fields if they are relevant to the selected method.',
+	'ACP_AUTH_SETTINGS_EXPLAIN'	=> 'A phpBB különböző azonosítási bővítményeket vagy modulokat is támogat. Ezek határozzák meg, hogy mi történik, amikor egy felhasználó belép a fórumra. Alapból három bővítmény áll rendelkezésre: DB (adatbázis), LDAP és Apache. Nem mindegyiknek van szüksége kiegészítő információkra, így csak azokat a mezőket töltsd ki, amelyek a kiválasztott bővítményhez tartoznak.',
 
-	'AUTH_METHOD'				=> 'Select an authentication method',
+	'AUTH_METHOD'				=> 'Azonosítási mód',
 
-	'APACHE_SETUP_BEFORE_USE'	=> 'You have to setup apache authentication before you switch phpBB to this authentication method. Keep in mind that the username you use for apache authentication has to be the same as your phpBB username. Apache authentication can only be used with mod_php (not with a CGI version) and safe_mode disabled.',
+	'APACHE_SETUP_BEFORE_USE'	=> 'Az apache azonosítást előbb kell beállítanod, mint hogy a phpBB-t erre az azonosítási módra állítanád. Ne felejtesd el, hogy az apache azonosításhoz használt felhasználónévnek meg kell egyeznie a phpBB-beli felhasználónévvel. Az apache azonosítás csak mod_php-vel használható (CGI verzióval nem), és a safe_mode-nak kikapcsolva kell lennie.',
 
 	'LDAP_DN'						=> 'LDAP base <var>dn</var>',
-	'LDAP_DN_EXPLAIN'				=> 'This is the Distinguished Name, locating the user information, e.g. <samp>o=My Company,c=US</samp>.',
-	'LDAP_EMAIL'					=> 'LDAP e-mail attribute',
-	'LDAP_EMAIL_EXPLAIN'			=> 'Set this to the name of your user entry e-mail attribute (if one exists) in order to automatically set the e-mail address for new users. Leaving this empty results in empty e-mail address for users who log in for the first time.',
-	'LDAP_INCORRECT_USER_PASSWORD'	=> 'Binding to LDAP server failed with specified user/password.',
-	'LDAP_NO_EMAIL'					=> 'The specified e-mail attribute does not exist.',
-	'LDAP_NO_IDENTITY'				=> 'Could not find a login identity for %s.',
-	'LDAP_PASSWORD'					=> 'LDAP password',
-	'LDAP_PASSWORD_EXPLAIN'			=> 'Leave blank to use anonymous access. Else fill in the password for the above user. <strong>WARNING:</strong> This password will be stored as plain text in the database visible to everybody who can access your database.',
-	'LDAP_SERVER'					=> 'LDAP server name',
-	'LDAP_SERVER_EXPLAIN'			=> 'If using LDAP this is the name or IP address of the server.',
+	'LDAP_DN_EXPLAIN'				=> 'A felhasználóról információt tartalmazó Distinguished Name, pl. <samp>o=My Company,c=US</samp>.',
+	'LDAP_EMAIL'					=> 'LDAP e-mail attribútum',
+	'LDAP_EMAIL_EXPLAIN'			=> 'Add meg a felhasználók e-mail címét tartalmazó attribútum nevét (ha van), hogy az új felhasználók e-mail címe automatikusan beállításra kerüljön. Ha üresen hagyod, az első alkalommal belépő felhasználóknak üres lesz az e-mail címük.',
+	'LDAP_INCORRECT_USER_PASSWORD'	=> 'Nem sikerült az LDAP szervert öszekötni a megadott felhasználó/jelszó páros használatával.',
+	'LDAP_NO_EMAIL'					=> 'A megadott e-mail paraméter nem létezik.',
+	'LDAP_NO_IDENTITY'				=> 'Nem található belépési azonosító: %s.',
+	'LDAP_PASSWORD'					=> 'LDAP jelszó',
+	'LDAP_PASSWORD_EXPLAIN'			=> 'Névtelen hozzáférés használatához hagyd üresen, egyébként add meg a fenti felhasználóhoz tartozó jelszót. <strong>FIGYELMEZTETÉS:</strong> Ez a jelszó az adatbázisban sima szövegként kerül tárolásra, bárki által látható lesz, aki hozzáfér az adatbázishoz.',
+	'LDAP_SERVER'					=> 'LDAP szervernév',
+	'LDAP_SERVER_EXPLAIN'			=> 'LDAP használata esetén a szerver neve vagy IP-címe.',
 	'LDAP_UID'						=> 'LDAP <var>uid</var>',
-	'LDAP_UID_EXPLAIN'				=> 'This is the key under which to search for a given login identity, e.g. <var>uid</var>, <var>sn</var>, etc.',
-	'LDAP_USER'						=> 'LDAP user',
-	'LDAP_USER_EXPLAIN'				=> 'Leave blank to use anonymous access. If filled in phpBB will connect to the LDAP server as the specified user.',
+	'LDAP_UID_EXPLAIN'				=> 'Ezzel a kulccsal történik a keresés az adott belépési azonosítóra, pl. <var>uid</var>, <var>sn</var> stb.',
+	'LDAP_USER'						=> 'LDAP felhasználó',
+	'LDAP_USER_EXPLAIN'				=> 'Névtelen hozzáférés használatához hagyd üresen. Ha ki van töltve, a phpBB a megadott felhasználóként fog csatlakozni az LDAP szerverhez.',
 ));
 
 // Server Settings
