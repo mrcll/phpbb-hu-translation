@@ -4,7 +4,7 @@
 * search [Hungarian]
 *
 * @package language
-* @version $Id: search.php,v 1.12 2007-07-28 20:59:59 fberci Exp $
+* @version $Id: search.php,v 1.13 2007-08-15 12:47:11 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'GLOBAL'				=> 'Globális közlemény',
 
 	'IGNORED_TERMS'			=> 'mellőzött',
-	'IGNORED_TERMS_EXPLAIN'	=> 'A következő szavak mellőzésre kerültek a keresési kifejzésből: <strong>%s</strong>',
+	'IGNORED_TERMS_EXPLAIN'	=> 'A következő szavak mellőzésre kerültek a keresési kifejezésből: <strong>%s</strong>',
 
 	'JUMP_TO_POST'			=> 'Ugrás a hozzászóláshoz',
 
@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 	'NO_KEYWORDS'			=> 'Legalább egy keresendő szót meg kell adnod. Minden szónak legalább %d és legfeljebb %d karakterből kell állnia a helyettesítő jeleket nem számítva.', //? helyettesítő jel: *
 	'NO_RECENT_SEARCHES'	=> 'Nem történt keresés a közelmúltban.',
 	'NO_SEARCH'				=> 'Sajnos számodra nem engedélyezett a kereső használata.',
-	'NO_SEARCH_RESULTS'		=> 'Nincs a keresési feltéleknek megfelelő találat.', //? "No suitable matches were found."
+	'NO_SEARCH_RESULTS'		=> 'Nincs a keresési feltételeknek megfelelő találat.', //? "No suitable matches were found."
 	'NO_SEARCH_TIME'		=> 'Most nem használhatod a keresőt. Kérjük, próbálkozz újra pár percen múlva.',
 	'WORD_IN_NO_POST'		=> 'Nincs találat, mivel a <strong>%s</strong> szót nem tartalmazza egy hozzászólás sem.',
 	'WORDS_IN_NO_POST'		=> 'Nincs találat, mivel a <strong>%s</strong> szavakat nem tartalmazza egy hozzászólás sem.',

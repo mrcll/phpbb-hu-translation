@@ -4,7 +4,7 @@
 * acp_board [Hungarian]
 *
 * @package language
-* @version $Id: board.php,v 1.12 2007-08-11 21:00:37 fberci Exp $
+* @version $Id: board.php,v 1.13 2007-08-15 12:47:12 fberci Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -81,7 +81,7 @@ $lang = array_merge($lang, array(
 
 // Avatar Settings
 $lang = array_merge($lang, array(
-	'ACP_AVATAR_SETTINGS_EXPLAIN'	=> 'Az avatarok általánosan kis, egyedi képek, melyeket a felhasználók magukhoz társítanak. A témák megtekintésénél általában a felhasználónév alatt jelennek meg a használt megjelenéstől függően. Ezen az oldalon meghatározhatod, hogy a felhasználók milyen módon adhatják meg az avatarukat. Kérjük, vedd figyelembe, hogy az avatarok feltöltésének műkédéséhez az alább megadott könyvtárnak léteznie kell, és meg kell győzödnöd róla, hogy írható a webszerver által. Kérjük, azt is vedd figyelembe, hogy a maximális állomány méretek csak a feltöltött avatarokra vonatkoznak, a kívülről linkeltekre nem.',
+	'ACP_AVATAR_SETTINGS_EXPLAIN'	=> 'Az avatarok általánosan kis, egyedi képek, melyeket a felhasználók magukhoz társítanak. A témák megtekintésénél általában a felhasználónév alatt jelennek meg a használt megjelenéstől függően. Ezen az oldalon meghatározhatod, hogy a felhasználók milyen módon adhatják meg az avatarukat. Kérjük, vedd figyelembe, hogy az avatarok feltöltésének működéséhez az alább megadott könyvtárnak léteznie kell, és meg kell győződnöd róla, hogy írható a webszerver által. Kérjük, azt is vedd figyelembe, hogy a maximális állomány méretek csak a feltöltött avatarokra vonatkoznak, a kívülről linkeltekre nem.',
 
 	'ALLOW_LOCAL'					=> 'Avatar galéria bekapcsolása',
 	'ALLOW_REMOTE'					=> 'Külső avatarok engedélyezése',
@@ -237,7 +237,7 @@ $lang = array_merge($lang, array(
 	'VISUAL_CONFIRM_POST'					=> 'Vizuális megerősítés bekapcsolása vendég hozzászólásküldéskor',
 	'VISUAL_CONFIRM_POST_EXPLAIN'			=> 'A tömeges hozzászólások elkerülése végett a nem regisztrált felhasználóknak meg kell adniuk egy képen található kódot.',
 	'VISUAL_CONFIRM_REG'					=> 'Vizuális megerősítés bekapcsolása a regisztrációnál',
-	'VISUAL_CONFIRM_REG_EXPLAIN'			=> 'A tömeges reigsztrációk elkerülése végett az új felhasználóknak meg kell adniuk egy képen található kódot.',
+	'VISUAL_CONFIRM_REG_EXPLAIN'			=> 'A tömeges regisztrációk elkerülése végett az új felhasználóknak meg kell adniuk egy képen található kódot.',
 ));
 
 // Cookie Settings
@@ -250,9 +250,9 @@ $lang = array_merge($lang, array(
 	'COOKIE_SECURE'				=> 'Süti biztonság',
 	'COOKIE_SECURE_EXPLAIN'		=> 'Ha a szervered SSL-en fut, kapcsold be, egyébként hagyd kikapcsolva. Ha be van állítva, de nincs SSL, az átirányítások során szerver hibák fognak fellépni.',
 	'ONLINE_LENGTH'				=> 'Ki van itt megjelenési időtartam',
-	'ONLINE_LENGTH_EXPLAIN'		=> 'Ennyi perc után nem fognak az inaktív felhasználók megjelenni a „Ki van itt” listában. Minnél nagyobb érték van megadva, annál több időbe telik a lista generálása.',
-	'SESSION_LENGTH'			=> 'Munakement hossza',
-	'SESSION_LENGTH_EXPLAIN'	=> 'A munakement ennyi idő elteltével jár le, másodpercben.',
+	'ONLINE_LENGTH_EXPLAIN'		=> 'Ennyi perc után nem fognak az inaktív felhasználók megjelenni a „Ki van itt” listában. Minél nagyobb érték van megadva, annál több időbe telik a lista generálása.',
+	'SESSION_LENGTH'			=> 'Munkamenet hossza',
+	'SESSION_LENGTH_EXPLAIN'	=> 'A munkamenet ennyi idő elteltével jár le, másodpercben.',
 ));
 
 // Load Settings
@@ -263,7 +263,7 @@ $lang = array_merge($lang, array(
 	'LIMIT_LOAD'					=> 'Rendszerterhelés korlátozása',
 	'LIMIT_LOAD_EXPLAIN'			=> 'Ha a rendszer egy perces átlagos terhelése meghaladja ezt az értéket, akkor a fórum automatikusan szünetelni fog. Az 1.0 érték megegyezik egy processzor ~100%-os használatával. A funkció csak UNIX alapú rendszereken működik, és akkor is csak, ha elérhető ez az információ. Ha a phpBB-nek nem sikerül meghatároznia a terhelés korlátot, akkor ez az érték automatikusan 0-ra állítódik.',
 	'LIMIT_SESSIONS'				=> 'Munkamenetek korlátozása',
-	'LIMIT_SESSIONS_EXPLAIN'		=> 'Ha a munkamenetek száma egy perc alatt meghaladja ezt az értéket, a fórum automatikusan szütelni fog. Állítsd 0-ra, hogy ne legyen korlátozás.',
+	'LIMIT_SESSIONS_EXPLAIN'		=> 'Ha a munkamenetek száma egy perc alatt meghaladja ezt az értéket, a fórum automatikusan szünetelni fog. Állítsd 0-ra, hogy ne legyen korlátozás.',
 	'LOAD_CPF_MEMBERLIST'			=> 'Egyéni profil mezők megjelenítésének engedélyezése a taglistában',
 	'LOAD_CPF_VIEWPROFILE'			=> 'Egyéni profil mezők megjelenítése a felhasználók profiljában',
 	'LOAD_CPF_VIEWTOPIC'			=> 'Egyéni profil mezők megjelenítése a téma oldalakon',
@@ -301,7 +301,7 @@ $lang = array_merge($lang, array(
 	'LDAP_DN_EXPLAIN'				=> 'A felhasználóról információt tartalmazó Distinguished Name, pl. <samp>o=My Company,c=US</samp>.',
 	'LDAP_EMAIL'					=> 'LDAP e-mail attribútum',
 	'LDAP_EMAIL_EXPLAIN'			=> 'Add meg a felhasználók e-mail címét tartalmazó attribútum nevét (ha van), hogy az új felhasználók e-mail címe automatikusan beállításra kerüljön. Ha üresen hagyod, az első alkalommal belépő felhasználóknak üres lesz az e-mail címük.',
-	'LDAP_INCORRECT_USER_PASSWORD'	=> 'Nem sikerült az LDAP szervert öszekötni a megadott felhasználó/jelszó páros használatával.',
+	'LDAP_INCORRECT_USER_PASSWORD'	=> 'Nem sikerült az LDAP szervert összekötni a megadott felhasználó/jelszó páros használatával.',
 	'LDAP_NO_EMAIL'					=> 'A megadott e-mail paraméter nem létezik.',
 	'LDAP_NO_IDENTITY'				=> 'Nem található belépési azonosító: %s.',
 	'LDAP_PASSWORD'					=> 'LDAP jelszó',
@@ -352,7 +352,7 @@ $lang = array_merge($lang, array(
 	'AUTOLOGIN_LENGTH'				=> 'Tartós bejelentkezési kulcs lejárati hossza',
 	'AUTOLOGIN_LENGTH_EXPLAIN'		=> 'Ennyi nap elteltével törlésre kerülnek a tartós bejelentkezési kulcsok. A 0 kikapcsolja ezt.',
 	'BROWSER_VALID'					=> 'Böngésző ellenőrzése', //?
-	'BROWSER_VALID_EXPLAIN'			=> 'A böngésző típusa ellenőrzésre kerül, ezáltal javítva a munkamanet biztonságát.',
+	'BROWSER_VALID_EXPLAIN'			=> 'A böngésző típusa ellenőrzésre kerül, ezáltal javítva a munkamenet biztonságát.',
 	'CHECK_DNSBL'					=> 'IP összevetése a DNSBL feketelistával',
 	'CHECK_DNSBL_EXPLAIN'			=> 'Ha be van kapcsolva, akkor a regisztrációkor vagy hozzászóláskor a felhasználó IP-címe összevetésre kerül a következő DNSBL-szolgáltatások adatbázisával: <a href="http://spamcop.net">spamcop.net</a>, <a href="http://dsbl.org">dsbl.org</a> és <a href="http://spamhaus.org">spamhaus.org</a>. Ez a művelet a szervertől függően eltarthat egy ideig. Ha lassulások tapasztalhatók, vagy ha sok a téves tiltás, ajánlott ezt az ellenőrzést kikapcsolni.',
 	'CLASS_B'						=> 'A.B',
@@ -393,13 +393,13 @@ $lang = array_merge($lang, array(
 	'EMAIL_FUNCTION_NAME'			=> 'E-mail függvény neve',
 	'EMAIL_FUNCTION_NAME_EXPLAIN'	=> 'A függvény neve, amivel e-mailt lehet küldeni PHP-n keresztül.',
 	'EMAIL_PACKAGE_SIZE'			=> 'E-mail csomag mérete',
- 	'EMAIL_PACKAGE_SIZE_EXPLAIN'	=> 'Legfeljebb ennyi e-mail kerül kiküldésre egy csomagban. Ez a beállítás a belső várakozási sorra vonatkozik. Ha problémák lépnének föl nem megérkező értesítő e-mailekkel kapcsolaban, állítsd ezt az értéket 0-ra.',
+ 	'EMAIL_PACKAGE_SIZE_EXPLAIN'	=> 'Legfeljebb ennyi e-mail kerül kiküldésre egy csomagban. Ez a beállítás a belső várakozási sorra vonatkozik. Ha problémák lépnének föl nem megérkező értesítő e-mailekkel kapcsolatban, állítsd ezt az értéket 0-ra.',
 	'EMAIL_SIG'						=> 'E-mail aláírás',
 	'EMAIL_SIG_EXPLAIN'				=> 'Ez a szöveg hozzáfűzésre kerül az összes fórum által küldött e-mailhez.',
 	'ENABLE_EMAIL'					=> 'Fórum e-mail küldés bekapcsolása',
 	'ENABLE_EMAIL_EXPLAIN'			=> 'Ha ki van kapcsolva, a fórum egyáltalán nem fog e-mailt küldeni.',
 	'SMTP_AUTH_METHOD'				=> 'SMTP azonosítási mód',
-	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Csak akkor van használva ha egy felhasználónév/jelszó páros meg van adva. Ha nem vagy biztos benne, melyik módot használd, kérdezd meg a szolgáltatódat.',
+	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Csak akkor van használva, ha egy felhasználónév/jelszó páros meg van adva. Ha nem vagy biztos benne, melyik módot használd, kérdezd meg a szolgáltatódat.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',
 	'SMTP_DIGEST_MD5'				=> 'DIGEST-MD5',
 	'SMTP_LOGIN'					=> 'LOGIN',
@@ -419,7 +419,7 @@ $lang = array_merge($lang, array(
 
 // Jabber settings
 $lang = array_merge($lang, array(
-	'ACP_JABBER_SETTINGS_EXPLAIN'	=> 'Itt bekapcsolhatod, illetve szabályozhatod a Jabber használatát azonnali üzenetküldésre és az értesítésekhez. A Jabber egy nyílt protokoll, így bárki által elérhető. Néhány Jabber szerver lehetővé teszi, hogy más hálózaton lévő felhasználókat is elérj. Nem minden szerver teremt lehetőséget erre, és a protokolban történő változások is megakadályozhatják ezt. Kérünk, győződj meg róla, hogy egy már létező azonosító adatait adod meg, mivel a phpBB további ellenőrzés nélkül fogja használni ezeket.',
+	'ACP_JABBER_SETTINGS_EXPLAIN'	=> 'Itt bekapcsolhatod, illetve szabályozhatod a Jabber használatát azonnali üzenetküldésre és az értesítésekhez. A Jabber egy nyílt protokoll, így bárki által elérhető. Néhány Jabber szerver lehetővé teszi, hogy más hálózaton lévő felhasználókat is elérj. Nem minden szerver teremt lehetőséget erre, és a protokollban történő változások is megakadályozhatják ezt. Kérünk, győződj meg róla, hogy egy már létező azonosító adatait adod meg, mivel a phpBB további ellenőrzés nélkül fogja használni ezeket.',
 
 	'ERR_JAB_AUTH'			=> 'Nem sikerült az azonosítás a Jabber szerveren. ', //?? "Could not authorise on Jabber server."
 	'ERR_JAB_CONNECT'		=> 'Nem sikerült csatlakozni a Jabber szerverhez.',

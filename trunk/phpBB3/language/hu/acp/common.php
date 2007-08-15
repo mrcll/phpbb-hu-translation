@@ -4,7 +4,7 @@
 * acp common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.15 2007-07-28 20:59:59 fberci Exp $
+* @version $Id: common.php,v 1.16 2007-08-15 12:47:12 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -73,7 +73,7 @@ $lang = array_merge($lang, array(
 	
 	'ACP_DATABASE'				=> 'Adatbázis-kezelés',
 	'ACP_DISALLOW'				=> 'Letiltás',
-	'ACP_DISALLOW_USERNAMES'	=> 'Felahsználónevek letiltása',
+	'ACP_DISALLOW_USERNAMES'	=> 'Felhasználónevek letiltása',
 	
 	'ACP_EMAIL_SETTINGS'		=> 'E-mail beállítások',
 	'ACP_EXTENSION_GROUPS'		=> 'Kiterjesztéscsoportok kezelése',
@@ -258,7 +258,7 @@ $lang = array_merge($lang, array(
 	'SELECT_OPTION'			=> 'Opció kiválasztása',
 
 	'UCP'					=> 'Felhasználói vezérlőpult',
-	'USERNAMES_EXPLAIN'		=> 'Minden felhsználónevet külön sorba írj.',
+	'USERNAMES_EXPLAIN'		=> 'Minden felhasználónevet külön sorba írj.',
 	'USER_CONTROL_PANEL'	=> 'Felhasználói vezérlőpult',
 
 	'WARNING'				=> 'Figyelmeztetés',
@@ -400,9 +400,9 @@ $lang = array_merge($lang, array(
 	'LOG_ACL_DEL_FORUM_LOCAL_F_'		=> '<strong>Felhasználói/csoport jogosultságok törlése</strong> a %1$s fórumban<br />» %2$s',
 
 	'LOG_ACL_TRANSFER_PERMISSIONS'		=> '<strong>Jogosultságok átvétele mástól:</strong><br />» %s',
-	'LOG_ACL_RESTORE_PERMISSIONS'		=> '<strong>Saját jogosultságok visszállítása más jogosultságainak használata után:</strong><br />» %s',
+	'LOG_ACL_RESTORE_PERMISSIONS'		=> '<strong>Saját jogosultságok visszaállítása más jogosultságainak használata után:</strong><br />» %s',
 	
-	'LOG_ADMIN_AUTH_FAIL'		=> '<strong>Sikeretelen adminisztrátori belépési kísérlet</strong>',
+	'LOG_ADMIN_AUTH_FAIL'		=> '<strong>Sikertelen adminisztrátori belépési kísérlet</strong>',
 	'LOG_ADMIN_AUTH_SUCCESS'	=> '<strong>Sikeres adminisztrátori bejelentkezés</strong>',
 
 	'LOG_ATTACHMENTS_DELETED'	=> '<strong>Felhasználó csatolmányainak törlése</strong><br />» %s',
@@ -436,12 +436,12 @@ $lang = array_merge($lang, array(
 
 	'LOG_CLEAR_ADMIN'		=> '<strong>Adminisztrátori napló kiürítése</strong>', //? kiürítés
 	'LOG_CLEAR_CRITICAL'	=> '<strong>Hibanapló kiürítése</strong>',
-	'LOG_CLEAR_MOD'			=> '<strong>Moderátori napló kürítése</strong>',
+	'LOG_CLEAR_MOD'			=> '<strong>Moderátori napló kiürítése</strong>',
 	'LOG_CLEAR_USER'		=> '<strong>Felhasználó naplójának kiürítése</strong><br />» %s',
 	'LOG_CLEAR_USERS'		=> '<strong>Felhasználói naplók kiürítése</strong>',
 
 	'LOG_CONFIG_ATTACH'			=> '<strong>Csatolmány beállítások módosítása</strong>',
-	'LOG_CONFIG_AUTH'			=> '<strong>Azonosítás beálítások módosítása</strong>',
+	'LOG_CONFIG_AUTH'			=> '<strong>Azonosítás beállítások módosítása</strong>',
 	'LOG_CONFIG_AVATAR'			=> '<strong>Avatar beállítások módosítása</strong>',
 	'LOG_CONFIG_COOKIE'			=> '<strong>Süti beállítások módosítása</strong>',
 	'LOG_CONFIG_EMAIL'			=> '<strong>E-mail beállítások módosítása</strong>',
@@ -507,8 +507,8 @@ $lang = array_merge($lang, array(
 	'LOG_FORUM_DEL_POSTS_FORUMS'			=> '<strong>Fórum és alfórumainak valamint hozzászólásainak törlése</strong><br />» %s',
 	'LOG_FORUM_DEL_POSTS_MOVE_FORUMS'		=> '<strong>Fórum és hozzászólásainak törlése, alfórumok áthelyezése</strong> a %1$s fórumba<br />» %2$s',
 	'LOG_FORUM_EDIT'						=> '<strong>Fórum beállítások szerkesztése</strong><br />» %s', //? beállítások - details
-	'LOG_FORUM_MOVE_DOWN'					=> '%1$s <strong>fórum mozgatása</strong> %2$s fórum <strong>alá</strong>',
-	'LOG_FORUM_MOVE_UP'						=> '%1$s <strong>fórum mozgatása</strong> %2$s fórum <strong>fölé</strong>',
+	'LOG_FORUM_MOVE_DOWN'					=> '%1$s <strong>fórum mozgatása</strong> %2$s <strong>fórum alá</strong>',
+	'LOG_FORUM_MOVE_UP'						=> '%1$s <strong>fórum mozgatása</strong> %2$s <strong>fórum fölé</strong>',
 	'LOG_FORUM_SYNC'						=> '<strong>Fórum újraszinkronizálása</strong><br />» %s',
 
 	'LOG_GROUP_CREATED'		=> '<strong>Új csoport létrehozása</strong><br />» %s',
@@ -519,11 +519,11 @@ $lang = array_merge($lang, array(
 	'LOG_GROUP_REMOVE'		=> '<strong>Tagok törlése</strong> a %1$s csoportból<br />» %2$s',
 	'LOG_GROUP_UPDATED'		=> '<strong>Csoport beállítások frissítése</strong><br />» %s',
 	'LOG_MODS_ADDED'		=> '<strong>Új vezetők hozzáadása</strong> a %1$s csoporthoz<br />» %2$s',
-	'LOG_USERS_APPROVED'	=> '<strong>Felhasználók felévetelének jóváhagyása</strong> a %1$s csoportba<br />» %2$s',
+	'LOG_USERS_APPROVED'	=> '<strong>Felhasználók felvételének jóváhagyása</strong> a %1$s csoportba<br />» %2$s',
 	'LOG_USERS_ADDED'		=> '<strong>Új tagok felvétele</strong> a %1$s csoportba<br />» %2$s',
 
-	'LOG_IMAGESET_ADD_DB'			=> '<strong>Új képkészlet felévetele az adatbázisba</strong><br />» %s',
-	'LOG_IMAGESET_ADD_FS'			=> '<strong>Új képkészlet felévetele a fájlrendszerbe</strong><br />» %s',
+	'LOG_IMAGESET_ADD_DB'			=> '<strong>Új képkészlet felvétele az adatbázisba</strong><br />» %s',
+	'LOG_IMAGESET_ADD_FS'			=> '<strong>Új képkészlet felvétele a fájlrendszerbe</strong><br />» %s',
 	'LOG_IMAGESET_DELETE'			=> '<strong>Képkészlet törlése</strong><br />» %s',
 	'LOG_IMAGESET_EDIT_DETAILS'		=> '<strong>Képkészlet részletek szerkesztése</strong><br />» %s',
 	'LOG_IMAGESET_EDIT'				=> '<strong>Képkészlet szerkesztéses</strong><br />» %s',
@@ -538,7 +538,7 @@ $lang = array_merge($lang, array(
 	'LOG_INSTALL_CONVERTED'	=> '<strong>Konvertálás %1$s verzióról phpBB %2$s verzióra</strong>',
 	'LOG_INSTALL_INSTALLED'	=> '<strong>PhpBB %s telepítése</strong>',
 
-	'LOG_IP_BROWSER_FORWARDED_CHECK'	=> '<strong>Sikertelen munkamenet IP/böngésző/X_FORWARDED_FOR összevetés</strong><br />» Felhasználó „<em>%1$s</em>” IP-címének öszevetése a „<em>%2$s</em>” munkamenet IP-címmel, felhasználó „<em>%3$s</em>” böngésző azonosítójának összevetése a munakemenet „<em>%4$s</em>” böngésző azonosítójával és a felhasználó „<em>%5$s</em>” X_FORWARDED_FOR értékének összevetése a munkamenet „<em>%6$s</em>” X_FORWARDED_FOR értékével.', //?
+	'LOG_IP_BROWSER_FORWARDED_CHECK'	=> '<strong>Sikertelen munkamenet IP/böngésző/X_FORWARDED_FOR összevetés</strong><br />» Felhasználó „<em>%1$s</em>” IP-címének összevetése a „<em>%2$s</em>” munkamenet IP-címmel, felhasználó „<em>%3$s</em>” böngésző azonosítójának összevetése a munkamenet „<em>%4$s</em>” böngésző azonosítójával és a felhasználó „<em>%5$s</em>” X_FORWARDED_FOR értékének összevetése a munkamenet „<em>%6$s</em>” X_FORWARDED_FOR értékével.', //?
 
 	'LOG_JAB_CHANGED'			=> '<strong>Jabber azonosító megváltoztatása</strong>',
 	'LOG_JAB_PASSCHG'			=> '<strong>Jabber jelszó megváltoztatása</strong>',
@@ -563,18 +563,18 @@ $lang = array_merge($lang, array(
 	'LOG_MODULE_ADD'		=> '<strong>Modul hozzáadása</strong><br />» %s',
 	'LOG_MODULE_EDIT'		=> '<strong>Modul szerkesztése</strong><br />» %s',
 
-	'LOG_A_ROLE_ADD'		=> '<strong>Adminsztrátori szerep hozzáadása</strong><br />» %s',
+	'LOG_A_ROLE_ADD'		=> '<strong>Adminisztrátori szerep hozzáadása</strong><br />» %s',
 	'LOG_A_ROLE_EDIT'		=> '<strong>Adminisztrátori szerep szerkesztése</strong><br />» %s',
 	'LOG_A_ROLE_REMOVED'	=> '<strong>Adminisztrátori szerep törlése</strong><br />» %s',
 	'LOG_F_ROLE_ADD'		=> '<strong>Fórum szerep hozzáadása</strong><br />» %s',
-	'LOG_F_ROLE_EDIT'		=> '<strong>Fórum szerep szerkesztsée</strong><br />» %s',
+	'LOG_F_ROLE_EDIT'		=> '<strong>Fórum szerep szerkesztése</strong><br />» %s',
 	'LOG_F_ROLE_REMOVED'	=> '<strong>Fórum szerep törlése</strong><br />» %s',
 	'LOG_M_ROLE_ADD'		=> '<strong>Moderátori szerep hozzáadása</strong><br />» %s',
 	'LOG_M_ROLE_EDIT'		=> '<strong>Moderátori szerep szerkesztése</strong><br />» %s',
 	'LOG_M_ROLE_REMOVED'	=> '<strong>Moderátori szerep törlése</strong><br />» %s',
 	'LOG_U_ROLE_ADD'		=> '<strong>Felhasználói szerep hozzáadása</strong><br />» %s',
 	'LOG_U_ROLE_EDIT'		=> '<strong>Felhasználói szerep szerkesztése</strong><br />» %s',
-	'LOG_U_ROLE_REMOVED'	=> '<strong>Felhaszánlói szerep törlése</strong><br />» %s',
+	'LOG_U_ROLE_REMOVED'	=> '<strong>Felhasználói szerep törlése</strong><br />» %s',
 
 	'LOG_PROFILE_FIELD_ACTIVATE'	=> '<strong>Profil mező aktiválása</strong><br />» %s',
 	'LOG_PROFILE_FIELD_CREATE'		=> '<strong>Profil mező hozzáadása</strong><br />» %s',
@@ -633,9 +633,9 @@ $lang = array_merge($lang, array(
 	'LOG_UPDATE_PHPBB'		=> '<strong>PhpBB frissítése %1$s verzióról %2$s verzióra</strong>',
 
 	'LOG_USER_ACTIVE'		=> '<strong>Felhasználó aktiválása</strong><br />» %s',
-	'LOG_USER_BAN_USER'		=> '<strong>Felhasználó kitiltása a felhsználó kezelése részben</strong> „<em>%1$s</em>” okkal<br />» %2$s',
-	'LOG_USER_BAN_IP'		=> '<strong>IP-cím kitiltása a felhsználó kezelése részben</strong> „<em>%1$s</em>” okkal<br />» %2$s',
-	'LOG_USER_BAN_EMAIL'	=> '<strong>E-mail cím kitiltása a felhsználó kezelése részben</strong> „<em>%1$s</em>” okkal<br />» %2$s',
+	'LOG_USER_BAN_USER'		=> '<strong>Felhasználó kitiltása a felhasználó kezelése részben</strong> „<em>%1$s</em>” okkal<br />» %2$s',
+	'LOG_USER_BAN_IP'		=> '<strong>IP-cím kitiltása a felhasználó kezelése részben</strong> „<em>%1$s</em>” okkal<br />» %2$s',
+	'LOG_USER_BAN_EMAIL'	=> '<strong>E-mail cím kitiltása a felhasználó kezelése részben</strong> „<em>%1$s</em>” okkal<br />» %2$s',
 	'LOG_USER_DELETED'		=> '<strong>Felhasználó törlése</strong><br />» %s',
 	'LOG_USER_DEL_ATTACH'	=> '<strong>Felhasználó összes feltöltött csatolmányainak törlése</strong><br />» %s',
 	'LOG_USER_DEL_AVATAR'	=> '<strong>Felhasználó avatarának törlése</strong><br />» %s',
@@ -668,7 +668,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_GROUP_JOIN_PENDING'	=> '<strong>Csatlakozás a csoporthoz, jóváhagyás még szükséges:</strong><br />» %s', //?
 	'LOG_USER_GROUP_RESIGN'			=> '<strong>Lemondás a csoporttagságról:</strong><br />» %s',
 
-	'LOG_WORD_ADD'			=> '<strong>Cencúrázott szó hozzáadása</strong><br />» %s',
+	'LOG_WORD_ADD'			=> '<strong>Cenzúrázott szó hozzáadása</strong><br />» %s',
 	'LOG_WORD_DELETE'		=> '<strong>Cenzúrázott szó törlése</strong><br />» %s',
 	'LOG_WORD_EDIT'			=> '<strong>Cenzúrázott szó szerkesztése</strong><br />» %s',
 ));

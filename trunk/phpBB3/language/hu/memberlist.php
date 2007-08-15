@@ -4,7 +4,7 @@
 * memberlist [Hungarian]
 *
 * @package language
-* @version $Id: memberlist.php,v 1.13 2007-07-28 20:59:59 fberci Exp $
+* @version $Id: memberlist.php,v 1.14 2007-08-15 12:47:11 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -36,11 +36,11 @@ $lang = array_merge($lang, array(
 	'ACTIVE_IN_TOPIC'		=> 'Legaktívabb téma',
 	'ADD_FOE'				=> 'Hozzáadás az ellenségekhez',
 	'ADD_FRIEND'			=> 'Hozzáadás a barátokhoz',
-	'AFTER'					=> 'Később, mint', //?
+	'AFTER'					=> 'Később mint', //?
 
 	'ALL'					=> 'Összes',
 
-	'BEFORE'				=> 'Korábban, mint', //?
+	'BEFORE'				=> 'Korábban mint', //?
 
 	'CC_EMAIL'				=> 'Másolat küldése magadnak',
 	'CONTACT_USER'			=> 'Kapcsolat',
@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'DEST_LANG_EXPLAIN'		=> 'Válassz ki egy az üzenet címzettjének megfelelő nyelvet (ha elérhető).',
 
 	'EMAIL_BODY_EXPLAIN'	=> 'Az üzenet sima szövegként kerül elküldésre, ne használj HTML-t vagy BBCode-ot. Az üzenet válaszcíme a te e-mail címed lesz.',
-	'EMAIL_DISABLED'		=> 'Sajnáljuk, de az e-mailküldéssel kapcsolatos funkciók kikapcsolásra kerültek.', //?
+	'EMAIL_DISABLED'		=> 'Sajnáljuk, de az e-mail küldéssel kapcsolatos funkciók kikapcsolásra kerültek.', //?
 	'EMAIL_SENT'			=> 'Az e-mail sikeresen elküldésre került.',
 	'EMAIL_TOPIC_EXPLAIN'	=> 'Az üzenet sima szövegként kerül elküldésre, ne használj HTML-t vagy BBCode-ot. Kérjük, vedd figyelembe, hogy az üzenet már tartalmazza a témával kapcsolatos információkat. Az üzenet válaszcíme a te e-mail címed lesz.',
 	'EMPTY_ADDRESS_EMAIL'	=> 'Meg kell adnod a címzett valódi e-mail címét.',
@@ -57,7 +57,7 @@ $lang = array_merge($lang, array(
  	'EMPTY_MESSAGE_IM'		=> 'Nem küldhetsz üres üzenetet.',
 	'EMPTY_NAME_EMAIL'		=> 'Meg kell adnod a címzett valódi nevét.',
 	'EMPTY_SUBJECT_EMAIL'	=> 'Meg kell adnod az e-mail témáját.',
-	'EQUAL_TO'				=> 'Annyi, mint', //?
+	'EQUAL_TO'				=> 'Annyi mint', //?
 
 	'FIND_USERNAME_EXPLAIN'	=> 'Ennek az űrlapnak a segítségével konkrét felhasználókra kereshetsz rá. Nem kell az összes mezőt kitöltened. Részleges szavakhoz használd a * jokerkaraktert. A dátumokat <kbd>ÉÉÉÉ-HH-NN</kbd> formában add meg (például <samp>2004-02-29</samp>). Használd a jelölőnégyzeteket egy vagy több felhasználó kiválasztásához (az űrlaptól függ, hányat választhatsz ki), majd kattints a kijelöltek kiválasztása gombra, hogy visszatérj az előző űrlaphoz.', //? YYYY-MM-DD '... konkrét felhasználókat kereshetsz (meg) ...'
 	'FLOOD_EMAIL_LIMIT'		=> 'Most nem küldhetsz több e-mailt. Kérjük, próbálkozz később.',
@@ -76,7 +76,7 @@ $lang = array_merge($lang, array(
 	'IM_MESSAGE'			=> 'Az üzeneted',
 	'IM_MSNM'				=> 'Kérjük, vedd figyelembe, hogy ennek használatához szükséged van a Windows Messenger programra.', //?
 	'IM_MSNM_BROWSER'		=> 'Sajnos a böngésződ nem támogatja ezt.',
-	'IM_MSNM_CONNECT'		=> 'Az MSNM nem csatlakozott.\nKapcsolódnod kell az MSNM-hez a folytatáshoz.', //???
+	'IM_MSNM_CONNECT'		=> 'Az MSNM nem csatlakozott.\nA folytatáshoz kapcsolódnod kell az MSNM-hez.', //???
 	'IM_NAME'				=> 'Neved',
  	'IM_NO_DATA'			=> 'Nincs megfelelő kapcsolat információ ehhez a felhasználóhoz.', //?
 	'IM_NO_JABBER'			=> 'Sajnos ezen a szerveren a direkt üzenetek nem támogatottak. A címzettel való kapcsolatba lépéshez szükséged lesz egy Jabber kliensre.', //?
@@ -87,7 +87,7 @@ $lang = array_merge($lang, array(
 	'IM_USER'				=> 'Azonnali üzenet küldése', //?
 	
 	'LAST_ACTIVE'				=> 'Utoljára aktív',
-	'LESS_THAN'					=> 'Kevesebb, mint',
+	'LESS_THAN'					=> 'Kevesebb mint',
 	'LIST_USER'					=> '1 felhasználó',
 	'LIST_USERS'				=> '%d felhasználó',
 	'LOGIN_EXPLAIN_LEADERS'		=> 'A csapat megtekintéséhez be kell jelentkezned.',
@@ -95,7 +95,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'Felhasználók kereséséhez be kell jelentkezned.',
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'Egy felhasználó profiljának megtekintéséhez be kell jelentkezned.',
 
-	'MORE_THAN'				=> 'Több, mint',
+	'MORE_THAN'				=> 'Több mint',
 
 	'NO_EMAIL'				=> 'Nem küldhetsz e-mailt ennek a felhasználónak.',
 	'NO_VIEW_USERS'			=> 'Nincs jogosultságod a taglista vagy a felhasználók profiljainak megtekintéséhez.',
