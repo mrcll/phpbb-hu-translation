@@ -4,7 +4,7 @@
 * posting [Hungarian]
 *
 * @package language
-* @version $Id: posting.php,v 1.21 2007-07-28 20:59:59 fberci Exp $
+* @version $Id: posting.php,v 1.22 2007-08-15 12:47:11 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -59,7 +59,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_D_HELP'				=> 'Flash: [flash=szélesség,magasság]http://url[/flash]',
 	'BUMP_ERROR'				=> 'Nem ugraszthatod előre a témát, mivel az utolsó hozzászólás nemrég került elküldésre.',
 
-	'CANNOT_DELETE_REPLIED'		=> 'Csak olyan hozzászólást törölhetsz, melyre még nem érekezett válasz.',
+	'CANNOT_DELETE_REPLIED'		=> 'Csak olyan hozzászólást törölhetsz, melyre még nem érkezett válasz.',
 	'CANNOT_EDIT_POST_LOCKED'	=> 'A hozzászólás lezárásra került. Már nem szerkesztheted ezt a hozzászólást.',
 	'CANNOT_EDIT_TIME'			=> 'Már nem szerkesztetheted, illetve törölheted a hozzászólást.',
 	'CANNOT_POST_ANNOUNCE'		=> 'Nem küldhetsz közleményt.',
@@ -147,8 +147,8 @@ $lang = array_merge($lang, array(
  	'POLL_OPTIONS_EDIT_EXPLAIN'	=> 'Place each option on a new line. You may enter up to <strong>%d</strong> options. If you remove or add options all previous votes will be reset.',
  	'POLL_OPTIONS_EDIT_EXPLAIN'	=> 'Írd mindegyiket külön sorba. Legfeljebb <strong>%d</strong> választási lehetőséget adhatsz meg. Ha eltávolítasz vagy hozzáadsz egy választási lehetőséget, az eddigi eredmény lenullázásra kerül.',
 	'POLL_QUESTION'				=> 'Szavazás kérdése',
-	'POLL_TITLE_TOO_LONG'		=> 'A szavzás kérdésének 100 karatkernél rövidebbnek kell lennie.',
-	'POLL_TITLE_COMP_TOO_LONG'	=> 'A feldolgozott szavazás kérdés túl hosszú, próbálj meg eltávolítani néhány BBCode-ot, illetve emotikont.',
+	'POLL_TITLE_TOO_LONG'		=> 'A szavazás kérdésének rövidebbnek kell lennie 100 karakternél.',
+	'POLL_TITLE_COMP_TOO_LONG'	=> 'A feldolgozott szavazáskérdés túl hosszú, próbálj meg eltávolítani néhány BBCode-ot, illetve emotikont.',
 	'POLL_VOTE_CHANGE'			=> 'Újraszavazás engedélyezése',
 	'POLL_VOTE_CHANGE_EXPLAIN'	=> 'Ha engedélyezve van, a felhasználók megváltoztathatják szavazatukat.',
 	'POSTED_ATTACHMENTS'		=> 'Feltöltött csatolmányok',
@@ -173,7 +173,7 @@ $lang = array_merge($lang, array(
 	'SAVE'						=> 'Elmentés',
 	'SAVE_DATE'					=> 'Elmentve', //? "Saved at" 'Elmentés időpontja'
 	'SAVE_DRAFT'				=> 'Piszkozat elmentése',
-	'SAVE_DRAFT_CONFIRM'		=> 'Kérjük vedd figyelembe, hogy a piszkozatok csak a témát és az üzenetet tartalmazzák, minden más elem eltávolításra kerül. biztosan el akarod menteni a piszkozatot?', //? element = elem v. tartalom stb.?
+	'SAVE_DRAFT_CONFIRM'		=> 'Kérjük vedd figyelembe, hogy a piszkozatok csak a témát és az üzenetet tartalmazzák, minden más elem eltávolításra kerül. Biztosan el akarod menteni a piszkozatot?', //? element = elem v. tartalom stb.?
 	'SMILIES'					=> 'Emotikonok',
 	'SMILIES_ARE_OFF'			=> 'Emotikonok <em>kikapcsolva</em>',
 	'SMILIES_ARE_ON'			=> 'Emotikonok <em>bekapcsolva</em>',
@@ -196,7 +196,7 @@ $lang = array_merge($lang, array(
 	'TOPIC_BUMPED'				=> 'A téma sikeresen előugrasztásra került.',
 
 	'UNAUTHORISED_BBCODE'		=> 'Bizonyos BBCode-okat nem használhatsz: %s:',
-	'UNGLOBALISE_EXPLAIN'		=> 'Ahhoz, hogy a témát általános közlményből sima témává minősítsd vissza, ki kell választanod egy fórumot, amelyben a téma meg fog jelenni.', //?
+	'UNGLOBALISE_EXPLAIN'		=> 'Ahhoz, hogy a témát általános közleményből sima témává minősítsd vissza, ki kell választanod egy fórumot, amelyben a téma meg fog jelenni.', //?
 	'UPDATE_COMMENT'			=> 'Magyarázat frissítése',
 	'URL_INVALID'				=> 'A megadott URL hibás.',
 	'URL_NOT_FOUND'				=> 'A megadott állomány nem található.',

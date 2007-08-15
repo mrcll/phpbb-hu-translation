@@ -4,7 +4,7 @@
 * mcp [Hungarian]
 *
 * @package language
-* @version $Id: mcp.php,v 1.19 2007-07-08 17:53:25 fberci Exp $
+* @version $Id: mcp.php,v 1.20 2007-08-15 12:47:11 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -36,7 +36,7 @@ $lang = array_merge($lang, array(
 	'ADD_FEEDBACK'			=> 'Feljegyzés hozzáadása', //? fejlegyzés? hozzáadás?
 	'ADD_FEEDBACK_EXPLAIN'	=> 'Ha hozzá szeretnél adni egy feljegyzést, töltsd ki az alábbi űrlapot. Csak sima szöveget írj, HTML, BBCode stb. nem engedélyezett.', //?? "If you would like to add a report on this please fill out the following form. Only use plain text; HTML, BBCode, etc. are not permitted."
 	'ADD_WARNING'			=> 'Felhasználó figyelmeztetése', //? 'Figyelmeztetés', 'Figyelmeztetés hozzáadása'
-	'ADD_WARNING_EXPLAIN'	=> 'Ha figyelmezetetni szeretnéd ezt a felhasználót, töltsd ki az alábbi űrlapot. Csak sima szöveget írj, HTML, BBCode stb. nem engedélyezett.',
+	'ADD_WARNING_EXPLAIN'	=> 'Ha figyelmeztetni szeretnéd ezt a felhasználót, töltsd ki az alábbi űrlapot. Csak sima szöveget írj, HTML, BBCode stb. nem engedélyezett.',
 	'ALL_ENTRIES'			=> 'Összes bejegyzés', //?
 	'ALL_NOTES_DELETED'		=> 'Az összes felhasználói megjegyzés sikeresen törlésre került.', //? "Successfully removed all user notes"
 	'ALL_REPORTS'			=> 'Összes jelentés',
@@ -79,7 +79,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_OPTIONS'			=> 'Megjelenítés beállítások', //??
 
 	'EMPTY_REPORT'					=> 'Ezen ok kiválasztásánál nem hagyatod üresen a leírást.',
-	'EMPTY_TOPICS_REMOVED_WARNING'	=> 'Egy vagy több téma törlésre került az adatbázisból, mivel üressé vált.', //? Eredetileg please note van, de ez eg üzenet
+	'EMPTY_TOPICS_REMOVED_WARNING'	=> 'Egy vagy több téma törlésre került az adatbázisból, mivel üressek voltak, vagy azzá váltak.', //? Eredetileg please note van, de ez eg üzenet
 
 	'FEEDBACK'				=> 'Feljegyzések', //?
 	'FORK'					=> 'Másolás',
@@ -91,7 +91,7 @@ $lang = array_merge($lang, array(
 	'FORUM_NAME'			=> 'Fórum neve', //? cím?
 	'FORUM_NOT_EXIST'		=> 'A kiválasztott fórum nem létezik.',
 	'FORUM_NOT_POSTABLE'	=> 'A kiválasztott fórumba nem lehet hozzászólást küldeni.',
-	'FORUM_STATUS'			=> 'Fórum állapta', //?
+	'FORUM_STATUS'			=> 'Fórum állapota', //?
 	'FORUM_STYLE'			=> 'Fórum megjelenése', //?
 
 	'GLOBAL_ANNOUNCEMENT'	=> 'Globális közlemény',
@@ -123,7 +123,7 @@ $lang = array_merge($lang, array(
 	'LOOKUP_ALL'				=> 'Összes IP keresése',
 	'LOOKUP_IP'					=> 'IP keresése',
 
-	'MARKED_NOTES_DELETED'		=> 'A megjelelölt felhasználói feljegyzések sikeresen törlésre kerültek.',
+	'MARKED_NOTES_DELETED'		=> 'A megjelölt felhasználói feljegyzések sikeresen törlésre kerültek.',
 
 	'MCP_ADD'						=> 'Figyelmeztetés', //? "Add a warning"
 
@@ -138,7 +138,7 @@ $lang = array_merge($lang, array(
 	'MCP_LOGS_TOPIC_VIEW'			=> 'Témák naplója', //?
 
 	'MCP_MAIN'						=> 'Általános', //?
-	'MCP_MAIN_FORUM_VIEW'			=> 'Fórum megtektintése',
+	'MCP_MAIN_FORUM_VIEW'			=> 'Fórum megtekintése',
 	'MCP_MAIN_FRONT'				=> 'Kezdőlap',
 	'MCP_MAIN_POST_DETAILS'			=> 'Hozzászólás adatok',
 	'MCP_MAIN_TOPIC_VIEW'			=> 'Téma megtekintése',
@@ -157,7 +157,7 @@ $lang = array_merge($lang, array(
 	'MCP_MAKE_NORMAL'				=> 'Normál témává tétel',
 	'MCP_MAKE_NORMAL_CONFIRM'		=> 'Biztosan normál témává akarod tenni ezt a témát?',
 	'MCP_MAKE_NORMALS'				=> 'Normál témává tétel',
-	'MCP_MAKE_NORMALS_CONFIRM'		=> 'Biztosan normál témává akarod tenni a kiválsztott témákat?',
+	'MCP_MAKE_NORMALS_CONFIRM'		=> 'Biztosan normál témává akarod tenni a kiválasztott témákat?',
 
 	'MCP_NOTES'						=> 'Felhasználói feljegyzések', //?
 	'MCP_NOTES_FRONT'				=> 'Kezdőlap',
@@ -247,7 +247,7 @@ $lang = array_merge($lang, array(
 	'READ_USERNOTES'			=> 'Felhasználói feljegyzések', //? nem is használják? (lehetne rövidíteni, módosítani)
 	'READ_WARNINGS'				=> 'Figyelmeztetések',
 	'REPORTER'					=> 'Jelentő',
-	'REPORTED'					=> 'Jelenetve', //? nem lenne jobb a jelentés időpontja/dátuma?
+	'REPORTED'					=> 'Jelentve', //? nem lenne jobb a jelentés időpontja/dátuma?
 	'REPORTED_BY'				=> 'Jelentő:', //? valószínűleg a proSilverben használják - addig ez marad...
 	'REPORTED_ON_DATE'			=> 'Dátum:', //? hasonló ez a szerkezet a hozzászólásokhoz (proSilver) - kéne egy jó ötlet, hogy magyarul is ugyanolyan formában legyen, mint angolul (Reported by xyz on Today)
 	'REPORTS_CLOSED_SUCCESS'	=> 'A kiválasztott jelentések sikeresen lezárásra kerültek.',
@@ -259,10 +259,10 @@ $lang = array_merge($lang, array(
 	'REPORT_DELETED_SUCCESS'	=> 'A kiválasztott jelentés sikeresen törlésre került.',
 	'REPORT_DETAILS'			=> 'Jelentés részletek', //? jelentés részletek, részletes jelentés, jelentés adatai??
 	'REPORT_MESSAGE'			=> 'Üzenet jelentése', //? ezt se találom... (az eggyel alább lévővel együtt)
-	'REPORT_MESSAGE_EXPLAIN'	=> 'Ennek az űrlapnak a segítségével a kiválsztott üzenetet jelentheted. A jelentés csak arra az esetre való, ha az üzenet megszegi a fórum szabályait.', //? "Use this form to report the selected message to the board administrators. Reporting should generally be used only if the message breaks forum ruless." 'Csak akkor jelents...'?
+	'REPORT_MESSAGE_EXPLAIN'	=> 'Ennek az űrlapnak a segítségével a kiválasztott üzenetet jelentheted. A jelentés csak arra az esetre való, ha az üzenet megszegi a fórum szabályait.', //? "Use this form to report the selected message to the board administrators. Reporting should generally be used only if the message breaks forum ruless." 'Csak akkor jelents...'?
 	'REPORT_NOTIFY'				=> 'Értesítés', //? "Notify me" az engem ebből kimaradt...
 	'REPORT_NOTIFY_EXPLAIN'		=> 'Kapjál-e értesítést, ha a jelentéssel foglalkoztak.', //? "Informs you when your report is dealt with" foglalkoznak?
-	'REPORT_POST_EXPLAIN'		=> 'Ennek az űrlapnak a segítségével a kiválsztott hozzászólást jelentheted a fórum adminisztrátorainak. A jelentés csak arra az esetre való, ha a hozzászólás megszegi a fórum szabályait.',
+	'REPORT_POST_EXPLAIN'		=> 'Ennek az űrlapnak a segítségével a kiválasztott hozzászólást jelentheted a fórum adminisztrátorainak. A jelentés csak arra az esetre való, ha a hozzászólás megszegi a fórum szabályait.',
 	'REPORT_REASON'				=> 'Jelentés oka',
 	'REPORT_TIME'				=> 'Jelentés ideje',
 	'REPORT_TOTAL'				=> 'Összesen <strong>1</strong> áttekintésre váró jelentés van.',
@@ -281,13 +281,13 @@ $lang = array_merge($lang, array(
 	'SELECT_FORUM_GLOBAL_ANNOUNCEMENTS'	=> 'A kiválasztott témák között legalább egy globális közlemény van. Válaszd ki a fórumot, amelyikben szeretnéd, hogy ezek megjelenjenek.',
 	'SELECT_MERGE'						=> 'Kiválasztás összevonáshoz/áthelyezéshez', //? most melyik - mindkettő?
 	'SELECT_TOPICS_FROM'				=> 'Fórum', //? "Select topics from" ez a legegyszerűbb, bár nem ezt jelenti
-	'SELECT_TOPIC'						=> 'Téma kiválsztása',
+	'SELECT_TOPIC'						=> 'Téma kiválasztása',
 	'SELECT_USER'						=> 'Felhasználó kiválasztása',
 	'SORT_ACTION'						=> 'Művelet', //? 'naplózótt művelet'
 	'SORT_DATE'							=> 'Dátum',
 	'SORT_IP'							=> 'IP-cím',
 	'SORT_WARNINGS'						=> 'Figyelmeztetések', //? száma
-	'SPLIT_AFTER'						=> 'Szétválasztás a kiválsztott hozzászólástól',
+	'SPLIT_AFTER'						=> 'Szétválasztás a kiválasztott hozzászólástól',
 	'SPLIT_FORUM'						=> 'Új téma fóruma',
 	'SPLIT_POSTS'						=> 'Kiválasztott hozzászólások szétválasztása',
 	'SPLIT_SUBJECT'						=> 'Új téma címe',
@@ -321,9 +321,9 @@ $lang = array_merge($lang, array(
 	'TOPIC_UNLOCKED_SUCCESS'	=> 'A kiválasztott téma megnyitásra került.',
 	'TOTAL_WARNINGS'			=> 'Figyelmeztetések száma',
 
-	'UNAPPROVED_POSTS_TOTAL'		=> 'Összesen <strong>%d</strong> jóváhagyásra váró hosszászólás van.', //? kell az összesen?
+	'UNAPPROVED_POSTS_TOTAL'		=> 'Összesen <strong>%d</strong> jóváhagyásra váró hozzáászólás van.', //? kell az összesen?
 	'UNAPPROVED_POSTS_ZERO_TOTAL'	=> 'Nincs jóváhagyásra váró hozzászólás.',
-	'UNAPPROVED_POST_TOTAL'			=> 'Összesen <strong>1</strong> jóváhagyásra váró hosszászólás van.',
+	'UNAPPROVED_POST_TOTAL'			=> 'Összesen <strong>1</strong> jóváhagyásra váró hozzászólás van.',
 	'UNLOCK'						=> 'Megnyitás',
 	'UNLOCK_POST'					=> 'Hozzászólás megnyitása',
 	'UNLOCK_POST_EXPLAIN'			=> 'Szerkesztés engedélyezése', //? kicsivel kéne, de míg így se passzol ahhoz a hosszú szöveghez, ami nyitott állapotban ott van
@@ -333,7 +333,7 @@ $lang = array_merge($lang, array(
 	'UNLOCK_POST_POSTS_CONFIRM'		=> 'Biztosan azt akarod, hogy lehessen szerkeszteni a kiválasztott hozzászólásokat?',
 	'UNLOCK_TOPIC'					=> 'Téma megnyitása',
 	'UNLOCK_TOPIC_CONFIRM'			=> 'Biztosan meg akarod nyitni a témát?',
-	'UNLOCK_TOPICS'					=> 'Kiválsztott témák megnyitása',
+	'UNLOCK_TOPICS'					=> 'Kiválasztott témák megnyitása',
 	'UNLOCK_TOPICS_CONFIRM'			=> 'Biztosan meg akarod nyitni a kiválasztott témákat?',
 	'USER_CANNOT_POST'				=> 'Nem küldhetsz hozzászólást ebben a fórumban.',
 	'USER_CANNOT_REPORT'			=> 'Nem küldhetsz jelentést ebben a fórumban.', //? 'jelenthetsz egy hozzászólást'

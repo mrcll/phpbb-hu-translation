@@ -4,7 +4,7 @@
 * groups [Hungarian]
 *
 * @package language
-* @version $Id: groups.php,v 1.8 2007-06-01 14:21:20 fberci Exp $
+* @version $Id: groups.php,v 1.9 2007-08-15 12:47:11 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -51,16 +51,16 @@ $lang = array_merge($lang, array(
 	'GROUP_JOIN'						=> 'Csatlakozás a csoporthoz',
 	'GROUP_JOIN_CONFIRM'				=> 'Biztosan csatlakozni akarsz a kiválasztott csoporthoz?',
 	'GROUP_JOIN_PENDING'				=> 'Tagság kérelmezése',
-	'GROUP_JOIN_PENDING_CONFIRM'		=> 'Biztosan kérni akarod a felvételed a kiválsztott csoportba?',
+	'GROUP_JOIN_PENDING_CONFIRM'		=> 'Biztosan kérni akarod a felvételed a kiválasztott csoportba?',
 	'GROUP_JOINED'						=> 'Sikeresen csatlakoztál a kiválasztott csoporthoz.',
-	'GROUP_JOINED_PENDING'				=> 'Sikeresen kérelmezted a feléveteled a csoportba. Kérjük, várj, míg egy csoportvezető elfogadja a jelentkezésed.',
+	'GROUP_JOINED_PENDING'				=> 'Sikeresen kérelmezted a felvételed a csoportba. Kérjük, várj, míg egy csoportvezető elfogadja a jelentkezésed.',
 	'GROUP_LIST'						=> 'Felhasználók kezelése',
 	'GROUP_MEMBERS'						=> 'Csoporttagok',
 	'GROUP_NAME'						=> 'Csoport neve',
 	'GROUP_OPEN'						=> 'Nyitott',
 	'GROUP_RANK'						=> 'Csoport rang', 
 	'GROUP_RESIGN_MEMBERSHIP'			=> 'Lemondás a csoporttagságról',
-	'GROUP_RESIGN_MEMBERSHIP_CONFIRM'	=> 'Biztosan le akarod mondani a csoporttagságod a kviálasztott csoportban?',
+	'GROUP_RESIGN_MEMBERSHIP_CONFIRM'	=> 'Biztosan le akarod mondani a csoporttagságod a kiválasztott csoportban?',
 	'GROUP_RESIGN_PENDING'				=> 'Függő csoporttagság lemondása',
 	'GROUP_RESIGN_PENDING_CONFIRM'		=> 'Biztosan le akarod mondani a függő csoporttagságod a kiválasztott csoportban?',
 	'GROUP_RESIGNED_MEMBERSHIP'			=> 'Sikeresen eltávolításra kerültél a kiválasztott csoportból.',
@@ -69,7 +69,7 @@ $lang = array_merge($lang, array(
 	'GROUP_UNDISCLOSED'					=> 'Rejtett csoport',
 	'FORUM_UNDISCLOSED'					=> 'Rejtett fórum(ok) moderálása',
 
-	'LOGIN_EXPLAIN_GROUP'	=> 'A csoport adataianak megtekintéséhez be kell jelentkezned.', //? a csoport?
+	'LOGIN_EXPLAIN_GROUP'	=> 'A csoport adatainak megtekintéséhez be kell jelentkezned.', //? a csoport?
 
 	'NO_LEADERS'					=> 'Nem vagy egy csoport vezetője sem.',
 	'NOT_LEADER_OF_GROUP'			=> 'A kért művelet nem végezhető el, mivel nem vagy a kiválasztott csoport vezetője.',

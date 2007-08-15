@@ -4,7 +4,7 @@
 * install [Hungarian]
 *
 * @package language
-* @version $Id: install.php,v 1.25 2007-07-29 14:55:36 fberci Exp $
+* @version $Id: install.php,v 1.26 2007-08-15 12:47:11 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 
 	'CATEGORY'					=> 'Kategória',
 	'CACHE_STORE'				=> 'Gyorsítótár típusa', //? "Cache type" 'Gyorsítótárazás típusa' 'Gyorsítótárazás módja' 'Gyorsítótár-fajta' stb. (egy egész rendszerről, működésről van szó)
-	'CACHE_STORE_EXPLAIN'		=> 'Az adatok gyorsítárazásának fizikai helye. A fájlrendszer ajánlott.', //??
+	'CACHE_STORE_EXPLAIN'		=> 'Az adatok gyorsítótárazásának fizikai helye. A fájlrendszer ajánlott.', //??
 	'CAT_CONVERT'				=> 'Konvertálás',
 	'CAT_INSTALL'				=> 'Telepítés',
 	'CAT_OVERVIEW'				=> 'Áttekintés',
@@ -118,8 +118,8 @@ $lang = array_merge($lang, array(
 	'DB_CONNECTION'				=> 'Adatbázis-kapcsolat',
 	'DB_ERR_INSERT'				=> 'Hiba <code>INSERT</code> parancs végrehajtása közben.', //?
 	'DB_ERR_LAST'				=> 'Hiba a <var>query_last</var> végrehajtása közben.',
-	'DB_ERR_QUERY_FIRST'		=> 'Hiba a <var>query_first</var> végrahjtása közben.',
-	'DB_ERR_QUERY_FIRST_TABLE'	=> 'Hiba a <var>query_first</var> végrahjtása közben, %s ("%s")', //??
+	'DB_ERR_QUERY_FIRST'		=> 'Hiba a <var>query_first</var> végrehajtása közben.',
+	'DB_ERR_QUERY_FIRST_TABLE'	=> 'Hiba a <var>query_first</var> végrehajtása közben, %s ("%s")', //??
 	'DB_ERR_SELECT'				=> 'Hiba <code>SELECT</code> lekérdezés végrehajtása közben.',
 	'DB_HOST'					=> 'Adatbázisszerver hosztneve vagy DSN', //? biztos, hogy egybeírják; nem 'DSN-je'?
 	'DB_HOST_EXPLAIN'			=> 'A DSN az angol Data Source Name rövidítése, csak ODBC telepítéskor érdekes.', //? érdekes, lényeges
@@ -130,7 +130,7 @@ $lang = array_merge($lang, array(
 	'DB_USERNAME'				=> 'Adatbázis-felhasználónév',
 	'DB_TEST'					=> 'Kapcsolat tesztelése',
 	'DEFAULT_LANG'				=> 'Fórum alapértelmezett nyelve', //? alapértelmezett?
-	'DEFAULT_PREFIX_IS'			=> 'A kovertáló nem talált táblákat a megadott előtaggal. Kérünk, győződj meg róla, hogy helyesen adtad meg az eredeti fórum adatait. A %1$s alapértelmezett tábla előtagja <strong>%2$s</strong>.', //?
+	'DEFAULT_PREFIX_IS'			=> 'A konvertáló nem talált táblákat a megadott előtaggal. Kérünk, győződj meg róla, hogy helyesen adtad meg az eredeti fórum adatait. A %1$s alapértelmezett tábla előtagja <strong>%2$s</strong>.', //?
 	'DEV_NO_TEST_FILE'			=> 'Nem került megadásra a test_file változó értéke a konvertálóban. Ha csak egy használója vagy ennek a konvertálónak, nem szabadna ezt a hibaüzenetet látnod – kérjük, értesítsd a konvertáló készítőjét. Ha a konvertáló készítője vagy, meg kell adnod egy az eredeti fórumban lévő állomány helyét, hogy le lehessen ellenőrizni az eredeti fórum elérési útját.',
 	'DIRECTORIES_AND_FILES'		=> 'Könyvtárak és állományok beállítása', //? "Directory and file setup" egyáltalán ha használják
 	'DISABLE_KEYS'				=> 'Kulcsok kikapcsolása', //?
@@ -175,10 +175,10 @@ $lang = array_merge($lang, array(
 	'GPL'						=> 'Általános Nyilvános Licenc', //? "General Public License" maradjon az eredeti angol (még nem igazán találkoztam a magyar megfelelőjével)?
 	
 	'INITIAL_CONFIG'			=> 'Alap konfiguráció', //? egyáltalán használják?
-	'INITIAL_CONFIG_EXPLAIN'	=> 'Ahozz, hogy a phpBB működni tudjon, meg kell adnod néhány egyedi információt. Ha nem tudod, hogyan tudsz csatlakozni az adatábizodhoz, kérünk, lépj kapcsolatba a tárhelyszolgáltatóddal, vagy fordulj a phpBB-t támogató fórumokhoz. Mielőtt bármilyen adatot megadsz, kérünk, alaposan győződj meg annak helyességéről.', //????? "Now that install has determined your server can run phpBB you need to supply some specific information. If you do not know how to connect to your database please contact your hosting provider (in the first instance) or use the phpBB support forums. When entering data please ensure you check it thoroughly before continuing." nincs értelme... vajon hol használhatják (szerintem sehol!)??
+	'INITIAL_CONFIG_EXPLAIN'	=> 'Ahhoz, hogy a phpBB működni tudjon, meg kell adnod néhány egyedi információt. Ha nem tudod, hogyan tudsz csatlakozni az adatbázisodhoz, kérünk, lépj kapcsolatba a tárhelyszolgáltatóddal, vagy fordulj a phpBB-t támogató fórumokhoz. Mielőtt bármilyen adatot megadsz, kérünk, alaposan győződj meg annak helyességéről.', //????? "Now that install has determined your server can run phpBB you need to supply some specific information. If you do not know how to connect to your database please contact your hosting provider (in the first instance) or use the phpBB support forums. When entering data please ensure you check it thoroughly before continuing." nincs értelme... vajon hol használhatják (szerintem sehol!)??
 	'INSTALL_CONGRATS'			=> 'Gratulálunk!',
 	'INSTALL_CONGRATS_EXPLAIN'	=> '
-		<p>Sikeresen telepítetted a phpBB %1$s-t. Most két dolgot tehetesz az újonnan telepített phpBB3-maddal:</p>
+		<p>Sikeresen telepítetted a phpBB %1$s-t. Most két dolgot tehetsz az újonnan telepített phpBB3-maddal:</p>
 		<h2>Már meglévő fórum átkonvertálása</h2>
 		<p>A phpBB Egyesített Konvertáló Keretrendszer segítségével át lehet konvertálni phpBB 2.0.x-es vagy más fórummotort használó fórumokat phpBB3-assá. Ha át szeretnél konvertálni egy már meglévő fórumot, <a href="%2$s">lépj tovább a konvertálóhoz</a>.</p>
 		<h2>A fórum használatba vétele</h2>
@@ -225,7 +225,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_FIREBIRD'	=> 'A kiszolgálón lévő Firebird verziója régebbi, mint 2.0, kérünk, frissíts egy újabb verzióra. ', //? régebbi, mint 2.0??
 	'INST_ERR_DB_NO_FIREBIRD_PS'=> 'A kiválasztott Firebird adatbázis „page size” értéke kisebb, mint 8192, legalább ennyinek kell lennie.',
 	'INST_ERR_DB_NO_POSTGRES'	=> 'A kiválasztott adatbázis nem <var>UNICODE</var> vagy <var>UTF8</var> karakterkódolással került létrehozásra. Próbáld meg a telepítést egy <var>UNICODE</var> vagy <var>UTF8</var> karakterkódolású adatbázissal. ', //? "The database you have selected was not created in <var>UNICODE</var> or <var>UTF8</var> encoding. Try installing with a database in <var>UNICODE</var> or <var>UTF8</var> encoding" próbáld meg a telepítést??
-	'INST_ERR_DB_NO_NAME'		=> 'Nem adatad meg az adatbázis nevét.',
+	'INST_ERR_DB_NO_NAME'		=> 'Nem adtad meg az adatbázis nevét.',
 	'INST_ERR_EMAIL_INVALID'	=> 'A megadott e-mail cím hibás.',
 	'INST_ERR_EMAIL_MISMATCH'	=> 'A megadott e-mail címek nem egyeznek meg.',
 	'INST_ERR_FATAL'			=> 'Súlyos telepítési hiba', //? fatális?
@@ -234,12 +234,12 @@ $lang = array_merge($lang, array(
 	'INST_ERR_FTP_LOGIN'		=> 'Nem sikerült belépni az FTP szerverre, ellenőrizd a megadott felhasználónevet és jelszót.',
 	'INST_ERR_MISSING_DATA'		=> 'A blokkban található összes mezőt ki kell töltened.', //? blokk, tömb
 	'INST_ERR_NO_DB'			=> 'Nem sikerült betölteni a megadott adatbázistípushoz tartozó PHP modult.',
-	'INST_ERR_PASSWORD_MISMATCH'	=> 'A negadott jelszavak nem egyeznek meg.',
+	'INST_ERR_PASSWORD_MISMATCH'	=> 'A megadott jelszavak nem egyeznek meg.',
 	'INST_ERR_PASSWORD_TOO_LONG'	=> 'A megadott jelszó túl hosszú, legfeljebb 30 karakter lehet.',
 	'INST_ERR_PASSWORD_TOO_SHORT'	=> 'A megadott jelszó túl rövid, legalább 6 karakternek kell lennie.',
 	'INST_ERR_PREFIX'			=> 'Már léteznek táblák a megadott előtaggal, kérünk, válassz egy másikat.',
 	'INST_ERR_PREFIX_INVALID'	=> 'A megadott adatbázis-előtag nem megfelelő az adatbázis-kezelő rendszernek. Kérjük, változtasd meg, például próbáld meg eltávolítani a jelenlegiből a kötőjeleket és az ehhez hasonló karaktereket.',
-	'INST_ERR_PREFIX_TOO_LONG'	=> 'A meagdott tábla előtag túl hosszú, legfeljebb %d karakter lehet.',
+	'INST_ERR_PREFIX_TOO_LONG'	=> 'A megadott tábla előtag túl hosszú, legfeljebb %d karakter lehet.',
 	'INST_ERR_USER_TOO_LONG'	=> 'A megadott felhasználónév túl hosszú, legfeljebb 20 karakter lehet.',
 	'INST_ERR_USER_TOO_SHORT'	=> 'A megadott felhasználónév túl rövid, legalább 3 karakternek kell lennie.',
 	'INVALID_PRIMARY_KEY'		=> 'Hibás elsődleges kulcs: %s', //? érvénytelen
@@ -265,10 +265,10 @@ $lang = array_merge($lang, array(
 	'NEXT_STEP'					=> 'Tovább a következő lépésre', //? -hez?
 	'NOT_FOUND'					=> 'Nem található',
 	'NOT_UNDERSTAND'			=> 'Nem sikerült értelmezni: %s #%d, %s tábla ("%s").',
-	'NO_CONVERTORS'				=> 'Nincs elérhető kovnertáló.', //? "No convertors are available for use" használható
+	'NO_CONVERTORS'				=> 'Nincs elérhető konvertáló.', //? "No convertors are available for use" használható
 	'NO_CONVERT_SPECIFIED'		=> 'Nem került konvertáló kiválasztásra.', //? "No convertor specified"
 	'NO_LOCATION'				=> 'Nem sikerült meghatározni a helyét. Ha tudod, hogy az Imagemagick telepítve van, később megadhatod az elérési helyét az adminisztrátori vezérlőpultban.', //? elérési hely stb.
-	'NO_TABLES_FOUND'			=> 'Nem taláhatók adatbázistáblák.',
+	'NO_TABLES_FOUND'			=> 'Nem találhatók adatbázistáblák.',
 // TODO: Write some explanatory introduction text
 	'OVERVIEW_BODY'					=> 'Üdvözlünk a phpBB 2.0.x után következő generációjának, a phpBB 3.0-nak az első release candidate kiadásában! Ez a verzió már szélesebb körnek szánt, és a hibák megtalálását, illetve a problémás területek felfedezését hivatott szolgálni.</p><p>Kérjük, olvasd el <a href="../docs/INSTALL.html">az angol nyelvű telepítési útmutatónkat</a> a phpBB3 telepítéséről.</p><p><strong style="text-transform: uppercase;">Megjegyzés:</strong> ez a kiadás <strong style="text-transform: uppercase;">még mindig nem végleges</strong>. Élesben való használathoz érdemes lehet kivárni a végleges kiadást.</p><p>Ez a telepítőrendszer végig fog vezetni a phpBB telepítésének, más fórumszoftverről való konvertálásnak vagy a legújabb verzióra való frissítésnek folyamatán. További információt az egyes lehetőségekről a fenti menü megfelelő elemére kattintva kaphatsz.', //? TODO "installation system"? nyelvtan? "This installation system will guide you through the process of installing phpBB, converting from a different software package or updating to the latest version of phpBB. For more information on each option, select it from the menu above."
 
@@ -291,7 +291,7 @@ $lang = array_merge($lang, array(
 	'POST_ID'						=> 'Hozzászólás azonosító', //? ID?
 	'PREFIX_FOUND'					=> 'Az adatbázistábláid azt mutatják, hogy van már egy telepített phpBB-d, melynek a tábla előtagja <strong>%s</strong>.',
 	'PREPROCESS_STEP'				=> 'Függvények/parancsok előfeldolgozásának végrehajtása', //? " Executing pre-processing functions/queries"
-	'PRE_CONVERT_COMPLETE'			=> 'Az előfeldolgozó lépések sikeresen végrehajtásra kerültek. Most már elkezdtheted a tényleges konvertálást. Kérjük, vedd figyelembe, hogy néhány dolgot, lehet hogy neked kell majd kézzel beállítanod. A konvertálás után különösen is ellenőrizd le a jogosultságokat, ha szükséges építsd újra a keresési indexet, és ellenőrizd, hogy az állományok sikeresen átmásolásra kerültek-e (például avatarok, emotikonok).', //? adjust - helyrehoz, beállít, igazít; rebuild search index; correctly - helyesen, pontosan, gond nélkül, (sikeresen)
+	'PRE_CONVERT_COMPLETE'			=> 'Az előfeldolgozó lépések sikeresen végrehajtásra kerültek. Most már elkezdheted a tényleges konvertálást. Kérjük, vedd figyelembe, hogy néhány dolgot, lehet, hogy neked kell majd kézzel beállítanod. A konvertálás után különösen is ellenőrizd le a jogosultságokat, ha szükséges építsd újra a keresési indexet, és ellenőrizd, hogy az állományok sikeresen átmásolásra kerültek-e (például avatarok, emotikonok).', //? adjust - helyrehoz, beállít, igazít; rebuild search index; correctly - helyesen, pontosan, gond nélkül, (sikeresen)
 	'PROCESS_LAST'					=> 'Végső műveletek végrehajtása', //? "Processing last statements" befejező?
 
 	'REFRESH_PAGE'				=> 'Automatikus továbblépés', //? "Refresh page to continue conversion"
@@ -363,7 +363,7 @@ $lang = array_merge($lang, array(
 	'BINARY_FILE'		=> 'Bináris állomány',
 	'BOT'				=> '(Kereső)robot',
 
- 	'CHANGE_CLEAN_NAMES'			=> 'Az azonos felhasználónevek kiszűréséhez használt eljárás megváltozott. Van néhány felhasználó, akiknek az új eljárás szerint azonos a felhsználónevük. Ezért a továbblépés előtt, ezeket a felhasználókat át kell nevezned vagy törölnöd kell, hogy biztosan csak egy felhasználó tartozzon egy felhasználónévhez.',
+ 	'CHANGE_CLEAN_NAMES'			=> 'Az azonos felhasználónevek kiszűréséhez használt eljárás megváltozott. Van néhány felhasználó, akiknek az új eljárás szerint azonos a felhasználónevük. Ezért a továbblépés előtt, ezeket a felhasználókat át kell nevezned vagy törölnöd kell, hogy biztosan csak egy felhasználó tartozzon egy felhasználónévhez.',
 	'CHECK_FILES'					=> 'Állományok összevetése', //? leellenőrzése
 	'CHECK_FILES_AGAIN'				=> 'Állományok összevetése újra',
 	'CHECK_FILES_EXPLAIN'			=> 'A következő lépésben az összes állomány összevetésre kerül a frissítési állományokkal – ez eltarthat egy ideig, ha ez az első összevetés.', //? frissítési: frissítő, friss stb.?
@@ -410,7 +410,7 @@ $lang = array_merge($lang, array(
 	'FILES_NOT_MODIFIED'			=> 'Nem megváltoztatott állományok',
 	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'A következő állományok nem lettek módosítva, megegyeznek a phpBB azon verziójú állományaival, melyről frissíteni szeretnél.',
 	'FILES_UP_TO_DATE'				=> 'Már frissített állományok',
-	'FILES_UP_TO_DATE_EXPLAIN'		=> 'A követekző állományok már a legújabb verziójúak, ezért nem kell frissíteni őket.',
+	'FILES_UP_TO_DATE_EXPLAIN'		=> 'A következő állományok már a legújabb verziójúak, ezért nem kell frissíteni őket.',
 	'FTP_SETTINGS'					=> 'FTP beállítások',
 	'FTP_UPDATE_METHOD'				=> 'FTP feltöltés',
 
@@ -428,7 +428,7 @@ $lang = array_merge($lang, array(
 	'LINE_UNMODIFIED'		=> 'Változatlan',
 	'LOGIN_UPDATE_EXPLAIN'	=> 'A phpBB frissítéséhez először be kell jelentkezned.',
 
-	'MAPPING_FILE_STRUCTURE'	=> 'A feltöltés megkönnyítésének érdekébel alább szerepelnek a feltöltendő fájlok a helyükkel együtt, ahová fel kell őket töltened.', //? "To ease the upload here are the file locations which map your phpBB installation."
+	'MAPPING_FILE_STRUCTURE'	=> 'A feltöltés megkönnyítésének érdekében alább szerepelnek a feltöltendő fájlok a helyükkel együtt, ahová fel kell őket töltened.', //? "To ease the upload here are the file locations which map your phpBB installation."
 
 	'MERGE_MODIFICATIONS_OPTION'	=> 'Változtatások egyesítése',
 
@@ -457,7 +457,7 @@ $lang = array_merge($lang, array(
  	'PACKAGE_UPDATES_TO'				=> 'A jelenlegi csomag a következő verzióra frissít',
 	'PERFORM_DATABASE_UPDATE'			=> 'Adatbázisfrissítés végrehajtása',
 	'PERFORM_DATABASE_UPDATE_EXPLAIN'	=> 'Alább találsz egy linket az adatbázisfrissítő szkriptre. Az adatbázisfrissítés eltarthat egy ideig, tehát kérjük, ne állítsd le a szkript futattását, akkor se ha az megakadni látszik. Miután elvégezted az adatbázisfrissítést, zárd be az ablakot, és folytasd a frissítés folyamatát.',
-	'PREVIOUS_VERSION'					=> 'Előző verzó',
+	'PREVIOUS_VERSION'					=> 'Előző verzió',
 	'PROGRESS'							=> 'Haladás', //?
 
 	'RESULT'					=> 'Eredmény',
@@ -474,7 +474,7 @@ $lang = array_merge($lang, array(
 	'SHOW_DIFF_NOT_MODIFIED'	=> 'Különbségek megjelenítése', //? "Show differences"
 	'SOME_QUERIES_FAILED'		=> 'Néhány parancs nem járt sikerrel, az SQL lekéréseket és a hibaüzeneteket megtalálod alább.',
 	'SQL'						=> 'SQL',
-	'SQL_FAILURE_EXPLAIN'		=> 'Valószínűleg nincs gond, a frissítés folytatódni fog. Amennyiben mégsem, kérj segítséget a phpBB-t támogató fórumokban. További infomrációért a támogatással kapcsolatban lásd a <a href="../docs/README.html">README</a>-t.', //?? "This is probably nothing to worry about, update will continue. Should this fail to complete you may need to seek help at our support forums. See <a href="../docs/README.html">README</a> for details on how to obtain advice."
+	'SQL_FAILURE_EXPLAIN'		=> 'Valószínűleg nincs gond, a frissítés folytatódni fog. Amennyiben mégsem, kérj segítséget a phpBB-t támogató fórumokban. További információért a támogatással kapcsolatban lásd a <a href="../docs/README.html">README</a>-t.', //?? "This is probably nothing to worry about, update will continue. Should this fail to complete you may need to seek help at our support forums. See <a href="../docs/README.html">README</a> for details on how to obtain advice."
 	'STAGE_FILE_CHECK'			=> 'Állományok összevetése',
 	'STAGE_UPDATE_DB'			=> 'Adatbázis frissítése',
 	'STAGE_UPDATE_FILES'		=> 'Állományok frissítése',
@@ -493,7 +493,7 @@ $lang = array_merge($lang, array(
 	'UPDATE_FILES'					=> 'Állományok frissítése',
 	'UPDATE_FILES_NOTICE'			=> 'Kérünk, győződj meg róla, hogy a phpBB állományait is frissítetted, ez az állomány csak az adatbázist frissíti.',
 	'UPDATE_INSTALLATION'			=> 'A phpBB frissítése',
-	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Itt frissíteheted a phpBB-d a legújabb verzióra.<br />A frissítés folyamata során minden állomány ellenőrzésre kerül. A tényleges frissítés előtt minden különbséget átnézhetsz.<br /><br />Maga az állományok frissítése két módon végezhető el.</p><h2>Kézi frissítés</h2><p>Ezen frissítési mód használatakor csak a saját megváltozott állományaidat töltöd le, hogy meggyőződj róla, hogy nem vesztesz el semmilyen módosítást, melyet csinálhattál. Miután letöltötted ezt a csomagot, a benne lévő állományokat fel kell töltened a phpBB-d gyökérkönyvtárába, a megfelelő helyükre. Ezután még egyszer összevetheted az állományokat, hogy leellenőrizd, hogy a megfelelő helyre töltötted fel őket.</p><h2>Automatikus frissítés FTP-vel</h2><p>Ez a frissítési mód hasonló az előbbihez, azonban ennél nem kell saját magadnak letöltened, majd feltöltened a megváltoztatott állományokat – ezt megteszi a phpBB. Ezen mód használatához ismerned kell az FTP-belépéshez szükséges dolgokat, mivel egy űrlapon meg kell adnod ezeket. Miután ezt befejezted, át leszel irányítva az állományok összevetéséhez, hogy meggyőződj róla, minden sikersen frissítésre került.<br /><br />', //?
+	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Itt frissítheted a phpBB-d a legújabb verzióra.<br />A frissítés folyamata során minden állomány ellenőrzésre kerül. A tényleges frissítés előtt minden különbséget átnézhetsz.<br /><br />Maga az állományok frissítése két módon végezhető el.</p><h2>Kézi frissítés</h2><p>Ezen frissítési mód használatakor csak a saját megváltozott állományaidat töltöd le, hogy meggyőződj róla, hogy nem vesztesz el semmilyen módosítást, melyet csinálhattál. Miután letöltötted ezt a csomagot, a benne lévő állományokat fel kell töltened a phpBB-d gyökérkönyvtárába, a megfelelő helyükre. Ezután még egyszer összevetheted az állományokat, hogy leellenőrizd, hogy a megfelelő helyre töltötted fel őket.</p><h2>Automatikus frissítés FTP-vel</h2><p>Ez a frissítési mód hasonló az előbbihez, azonban ennél nem kell saját magadnak letöltened, majd feltöltened a megváltoztatott állományokat – ezt megteszi a phpBB. Ezen mód használatához ismerned kell az FTP-belépéshez szükséges dolgokat, mivel egy űrlapon meg kell adnod ezeket. Miután ezt befejezted, át leszel irányítva az állományok összevetéséhez, hogy meggyőződj róla, minden sikeresen frissítésre került.<br /><br />', //?
 	'UPDATE_INSTRUCTIONS'			=> '
 
 		<h1>Verziómegjelenési közlemény</h1>
@@ -525,8 +525,8 @@ $lang = array_merge($lang, array(
 		<p>A phpBB észrevett egy befejezetlen automatikus frissítési próbálkozást. Kérünk, győződj meg róla, hogy elvégezted az automatikus frissítő összes lépését. Alább megtalálod a linket újra, vagy menj közvetlenül az install könyvtárba.</p>
 	',
 	'UPDATE_METHOD'					=> 'Frissítési mód',
-	'UPDATE_METHOD_EXPLAIN'			=> 'Most kiválaszthatod a kívánt frissítési módot. Ha az FTP feltöltést választod, egy űrlap fog mejelenni, ahol meg kell adnod az FTP-csatlakozához szükséges adatokat. Ezen mód használatakor az állományok automatikusan áthelyezésre kerülnek az új helyükre, és a régi állományokról biztonsági másolat készül az állományok nevéhez való .bak kiterjesztés hozzáfűzésével. Ha a módosított fájlok letöltését választod, ki kell csomagolnod a letöltött csomagot, majd kézzel feltöltened a tartalmát a megfelelő helyre.',
- 	'UPDATE_REQUIRES_FILE'			=> 'A frissítőnek szüksége van a követekző állomány létezésére: %s',
+	'UPDATE_METHOD_EXPLAIN'			=> 'Most kiválaszthatod a kívánt frissítési módot. Ha az FTP feltöltést választod, egy űrlap fog megjelenni, ahol meg kell adnod az FTP-csatlakozáshoz szükséges adatokat. Ezen mód használatakor az állományok automatikusan áthelyezésre kerülnek az új helyükre, és a régi állományokról biztonsági másolat készül az állományok nevéhez való .bak kiterjesztés hozzáfűzésével. Ha a módosított fájlok letöltését választod, ki kell csomagolnod a letöltött csomagot, majd kézzel feltöltened a tartalmát a megfelelő helyre.',
+ 	'UPDATE_REQUIRES_FILE'			=> 'A frissítőnek szüksége van a következő állomány létezésére: %s',
 	'UPDATE_SUCCESS'				=> 'Sikeres frissítés',
 	'UPDATE_SUCCESS_EXPLAIN'		=> 'Minden állomány sikeresen frissítésre került. A következő lépésben az összes állomány újra leellenőrzésre került, hogy megbizonyosodj róla, hogy az összes állomány sikeresen frissítve lett. ',
 	'UPDATE_VERSION_OPTIMIZE'		=> 'Verziószám frissítése és táblák optimalizálása',
@@ -574,7 +574,7 @@ $lang = array_merge($lang, array(
 	'FORUMS_TEST_FORUM_TITLE'		=> 'Teszt fórum 1.',
 
 	'RANKS_SITE_ADMIN_TITLE'		=> 'Adminisztrátor',
- 	'REPORT_WAREZ'					=> 'A hozzászólást linket tartalmaz illegális vagy kalóz szoftverre.',
+ 	'REPORT_WAREZ'					=> 'A hozzászólás linket tartalmaz illegális vagy kalóz szoftverre.',
  	'REPORT_SPAM'					=> 'A hozzászólás egyetlen célja egy weboldal vagy egy termék reklámozása.',
  	'REPORT_OFF_TOPIC'				=> 'A hozzászólás nem kapcsolódik a témához.',
  	'REPORT_OTHER'					=> 'A hozzászólás nem tartozik semelyik másik kategóriába, kérjük, töltsd ki a további információ mezőt.',
@@ -593,7 +593,7 @@ $lang = array_merge($lang, array(
 	'SMILIES_MR_GREEN'				=> 'Zöld úr',
 	'SMILIES_NEUTRAL'				=> 'semleges',
 	'SMILIES_QUESTION'				=> 'kérdés',
-	'SMILIES_RAZZ'					=> 'viccess',
+	'SMILIES_RAZZ'					=> 'vicces',
 	'SMILIES_ROLLING_EYES'			=> 'forgó szemek',
 	'SMILIES_SAD'					=> 'szomorú',
 	'SMILIES_SHOCKED'				=> 'sokkolt',

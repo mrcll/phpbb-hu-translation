@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.53 2007-07-28 20:59:59 fberci Exp $
+* @version $Id: common.php,v 1.54 2007-08-15 12:47:11 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_NOT_ACTIVATED'			=> 'Az azonosítód még nem aktiváltuk.',
 	'ACP'							=> 'Adminisztrátori vezérlőpult',
 	'ACTIVE'						=> 'aktív',
-	'ACTIVE_ERROR'					=> 'A megadott felhasználónév jelenleg inkatív. Ha problémáid akadnának az azonosítód aktiválásával, lépj kapcsolatba a fórum adminisztrátorával.',
+	'ACTIVE_ERROR'					=> 'A megadott felhasználónév jelenleg inaktív. Ha problémáid akadnának az azonosítód aktiválásával, lépj kapcsolatba a fórum adminisztrátorával.',
 	'ADMINISTRATOR'					=> 'Adminisztrátor',
 	'ADMINISTRATORS'				=> 'Adminisztrátorok',
 	'AGE'							=> 'Kor',
@@ -68,7 +68,7 @@ $lang = array_merge($lang, array(
 	'ATTACHMENTS'					=> 'Csatolmányok',
 	'ATTACHED_IMAGE_NOT_IMAGE'		=> 'A csatolni próbált képállomány hibás.',
 	'AUTHOR'						=> 'Szerző',
-	'AUTH_NO_PROFILE_CREATED'		=> 'Nem sikerült létrezhoni a felhasználói profilt.',
+	'AUTH_NO_PROFILE_CREATED'		=> 'Nem sikerült létrehozni a felhasználói profilt.',
 	'AVATAR_DISALLOWED_EXTENSION'	=> 'Az állományt nem lehet megjeleníteni, mivel a <strong>%s</strong> kiterjesztés nem engedélyezett.',
 	'AVATAR_EMPTY_REMOTE_DATA'		=> 'Nem sikerült feltölteni az avatart, mivel a külső forrás hibásnak tűnik.',
 	'AVATAR_EMPTY_FILEUPLOAD'		=> 'A feltöltött avatar állomány üres.',
@@ -175,7 +175,7 @@ $lang = array_merge($lang, array(
 	'FORGOT_PASS'			=> 'Elfelejtettem a jelszavam',
 	'FORUM'					=> 'Fórum',
 	'FORUMS'				=> 'Fórumok',
-	'FORUMS_MARKED'			=> 'Minden fórumot megjelelöltünk olvasottként.',
+	'FORUMS_MARKED'			=> 'Minden fórumot megjelölésre került olvasottként.',
 	'FORUM_CAT'				=> 'Fórum kategória',
 	'FORUM_INDEX'			=> 'Fórum kezdőlap',
 	'FORUM_LINK'			=> 'Fórum link',
@@ -256,7 +256,7 @@ $lang = array_merge($lang, array(
 	'INFORMATION'				=> 'Információ',
 	'INTERESTS'					=> 'Érdeklődési kör',
 	'INVALID_DIGEST_CHALLENGE'	=> 'Hibás feltárási kérés',
-	'INVALID_EMAIL_LOG'			=> 'A <strong>%s</strong> felthetőleg egy nem létező e-mail cím.',
+	'INVALID_EMAIL_LOG'			=> 'A <strong>%s</strong> feltehetőleg egy nem létező e-mail cím.',
 	'IP'						=> 'IP-cím',
 	'IP_BLACKLISTED'			=> 'Az IP-címed tiltólistára került, ezért blokkoltuk a hozzáférésed a fórumhoz. További információ: <a href="%2$s">%2$s</a>.',
 
@@ -289,9 +289,9 @@ $lang = array_merge($lang, array(
 	'LOGIN_ERROR_USERNAME'				=> 'Rossz felhasználónevet adtál meg. Ellenőrizd le a felhasználónevet, majd próbálkozz újra. Ha továbbra is gondjaid lennének, lépj kapcsolatba a %sfórum adminisztrátorával%s.',
 	'LOGIN_FORUM'						=> 'A fórum megtekintéséhez vagy a hozzászóláshoz, meg kell adnod a jelszavát.', //?
 	'LOGIN_INFO'						=> 'A belépéshez regisztrált felhasználónak kell lenned. A regisztráció csupán néhány másodpercet vesz igénybe, de számos előnnyel jár, az adminisztrátor például így tud külön jogosultságokat adni. A regisztráció előtt győződj meg róla, hogy elfogadod a felhasználási feltételeinket, valamint egyetértesz az adatvédelmi nyilatkozatunkkal. Kérjük, olvasd el a fórumok szabályzatát is!',
-	'LOGIN_VIEWFORUM'					=> 'Csak reigsztrált felhasználók tekinthetik meg ezt a fórumot.',
-	'LOGIN_EXPLAIN_EDIT'				=> 'Csak reigsztrált felhasználók szerkeszthetik a hozzászólásaikat ebben a fórumban.',
- 	'LOGIN_EXPLAIN_VIEWONLINE'			=> 'Csak reigsztrált felhasználók tekinthetik meg a jelenlévők listáját.',
+	'LOGIN_VIEWFORUM'					=> 'Csak regisztrált felhasználók tekinthetik meg ezt a fórumot.',
+	'LOGIN_EXPLAIN_EDIT'				=> 'Csak regisztrált felhasználók szerkeszthetik a hozzászólásaikat ebben a fórumban.',
+ 	'LOGIN_EXPLAIN_VIEWONLINE'			=> 'Csak regisztrált felhasználók tekinthetik meg a jelenlévők listáját.',
 	'LOGOUT'							=> 'Kilépés',
 	'LOGOUT_USER'						=> 'Kilépés [ %s ]',
 	'LOG_ME_IN'							=> 'Automatikus bejelentkezés',
@@ -506,7 +506,7 @@ $lang = array_merge($lang, array(
 	'SORT_TOPIC_TITLE'			=> 'Téma címe',
 	'SORT_USERNAME'				=> 'Felhasználónév',
 	'SPLIT_TOPIC'				=> 'Téma szétválasztása',
-	'SQL_ERROR_OCCURRED'		=> 'SQL hiba lépett fel az oldal generálása közben. Ha a probléma továbbra is fennálna, lépj kapcsolatba a %sfórum adminisztrátorával%s.',
+	'SQL_ERROR_OCCURRED'		=> 'SQL hiba lépett fel az oldal generálása közben. Ha a probléma továbbra is fennállna, lépj kapcsolatba a %sfórum adminisztrátorával%s.',
 	'STATISTICS'				=> 'Statisztika',
 	'START_WATCHING_FORUM'		=> 'Feliratkozás a fórumra',
 	'START_WATCHING_TOPIC'		=> 'Feliratkozás a témára',
@@ -771,7 +771,7 @@ $lang = array_merge($lang, array(
 		'5'		=> '[UTC + 5] pakisztáni zónaidő, yekaterinburgi zónaidő',
 		'5.5'	=> '[UTC + 5,5] indiai zónaidő, Sri Lanka-i idő',
 		'5.75'	=> '[UTC + 5,75] nepáli idő',
-		'6'		=> '[UTC + 6] bangladesi idő, bhutani idő, novoszibirszk zónaidő',
+		'6'		=> '[UTC + 6] bangladesi idő, bhutáni idő, novoszibirszki zónaidő',
 		'6.5'	=> '[UTC + 6,5] kókusz-szigeteki idő, myanmari idő',
 		'7'		=> '[UTC + 7] indokínai idő, krasznojarszki zónaidő',
 		'8'		=> '[UTC + 8] kínai zónaidő, nyugat-ausztráliai zónaidő, irkutszki zónaidő',
