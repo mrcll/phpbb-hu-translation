@@ -4,7 +4,7 @@
 * acp common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.16 2007-08-15 12:47:12 fberci Exp $
+* @version $Id: common.php,v 1.17 2007-08-19 20:48:23 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -268,7 +268,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_PHP_INFO_EXPLAIN'	=> 'Ez az oldal információkat tartalmaz a szerveren lévő PHP-ról. Az adatok között megtalálod a betöltött modulokat, elérhető változókat és az alap beállításokat. Ezek az információk hasznosak tudnak lenni egy probléma kivizsgálásánál. Kérjük, vedd figyelembe, hogy néhány tárhelyszolgáltató biztonsági okokból korlátozza, milyen információk jelennek meg itt. Az ezen az oldalon szereplő adatokat nem tanácsos kiadni, hacsak nem egy <a href="http://www.phpbb.com/about/team/">hivatalos csapattag</a> kérdezi azokat a támogató fórumokban!',
 
-	'NO_PHPINFO_AVAILABLE'	=> 'Nem lehet meghatározni a PHP információkat. A phpinfo() biztonsági okokból le lett tiltva.',
+	'NO_PHPINFO_AVAILABLE'	=> 'Nem lehet információkat megtudni a PHP konfigurációdról. A phpinfo() biztonsági okokból le lett tiltva.',
 ));
 
 // Logs
@@ -529,8 +529,8 @@ $lang = array_merge($lang, array(
 	'LOG_IMAGESET_EDIT'				=> '<strong>Képkészlet szerkesztéses</strong><br />» %s',
 	'LOG_IMAGESET_EXPORT'			=> '<strong>Képkészlet exportálása</strong><br />» %s',
  	'LOG_IMAGESET_LANG_MISSING'		=> '<strong>Képkészlet „%2$s” lokalizációja hiányzik</strong><br />» %1$s',
-	'LOG_IMAGESET_LANG_REFRESHED'	=> '<strong>Képkészlet „%2$s” lokalizációjának frissítése</strong><br />» %1$s',
-	'LOG_IMAGESET_REFRESHED'		=> '<strong>Képkészlet frissítése</strong><br />» %s',
+	'LOG_IMAGESET_LANG_REFRESHED'	=> '<strong>Képkészlet „%2$s” lokalizációjának újratöltése</strong><br />» %1$s',
+	'LOG_IMAGESET_REFRESHED'		=> '<strong>Képkészlet újratöltése</strong><br />» %s',
 
 	'LOG_INACTIVE_ACTIVATE'	=> '<strong>Inaktív felhasználók aktiválása</strong><br />» %s',
 	'LOG_INACTIVE_DELETE'	=> '<strong>Inaktív felhasználók törlése</strong><br />» %s',
@@ -618,7 +618,7 @@ $lang = array_merge($lang, array(
 	'LOG_TEMPLATE_EDIT'				=> '<strong><em>%1$s</em> sablonkészlet szerkesztése</strong><br />» %2$s',
 	'LOG_TEMPLATE_EDIT_DETAILS'		=> '<strong>Sablon részletek szerkesztése</strong><br />» %s', //?
 	'LOG_TEMPLATE_EXPORT'			=> '<strong>Sablonkészlet exportálása</strong><br />» %s',
-	'LOG_TEMPLATE_REFRESHED'		=> '<strong>Sablonkészlet frissítése</strong><br />» %s',
+	'LOG_TEMPLATE_REFRESHED'		=> '<strong>Sablonkészlet újratöltése</strong><br />» %s',
 
 	'LOG_THEME_ADD_DB'			=> '<strong>Új stílus felvétele az adatbázisba</strong><br />» %s',
 	'LOG_THEME_ADD_FS'			=> '<strong>Új stílus felvétele a fájlrendszerbe</strong><br />» %s',
@@ -627,7 +627,7 @@ $lang = array_merge($lang, array(
 	'LOG_THEME_EDIT'			=> '<strong><em>%1$s</em> stílus szerkesztése</strong>',
 	'LOG_THEME_EDIT_FILE'		=> '<strong><em>%1$s</em> stílus szerkesztése</strong><br />» módosított állomány: <em>%2$s</em>',
 	'LOG_THEME_EXPORT'			=> '<strong>Stílus exportálása</strong><br />» %s',
-	'LOG_THEME_REFRESHED'		=> '<strong>Stílus frissítése</strong><br />» %s',
+	'LOG_THEME_REFRESHED'		=> '<strong>Stílus újratöltése</strong><br />» %s',
 
 	'LOG_UPDATE_DATABASE'	=> '<strong>Adatbázis frissítése %1$s verzióról %2$s verzióra</strong>',
 	'LOG_UPDATE_PHPBB'		=> '<strong>PhpBB frissítése %1$s verzióról %2$s verzióra</strong>',

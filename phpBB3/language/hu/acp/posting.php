@@ -4,7 +4,7 @@
 * posting [English]
 *
 * @package language
-* @version $Id: posting.php,v 1.7 2007-07-28 20:59:59 fberci Exp $
+* @version $Id: posting.php,v 1.8 2007-08-19 20:48:23 fberci Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -91,8 +91,12 @@ $lang = array_merge($lang, array(
 	'CURRENT_SMILIES'			=> 'Current smilies',
 	'CURRENT_SMILIES_EXPLAIN'	=> 'Choose what to do with the currently installed smilies.',
 
-	'DISPLAY_ON_POSTING'	=> 'Display on posting page',
+	'DISPLAY_ON_POSTING'		=> 'Display on posting page',
+	'DISPLAY_POSTING'			=> 'On posting page',
+	'DISPLAY_POSTING_NO'		=> 'Not on posting page',
 
+
+	
 	'EDIT_ICONS'				=> 'Edit icons',
 	'EDIT_SMILIES'				=> 'Edit smilies',
 	'EMOTION'					=> 'Emotion',
@@ -104,11 +108,15 @@ $lang = array_merge($lang, array(
 	'FIRST'			=> 'First',
 
 	'ICONS_ADD'				=> 'Add a new icon',
-	'ICONS_ADDED'			=> 'The icon has been added successfully.',
+	'ICON_NONE_ADDED'		=> 'No icons were added.',
+	'ICONS_ONE_ADDED'		=> 'The icon has been added successfully.',
+	'ICONS_ADDED'			=> 'The icons have been added successfully.',
 	'ICONS_CONFIG'			=> 'Icon configuration',
 	'ICONS_DELETED'			=> 'The icon has been removed successfully.',
 	'ICONS_EDIT'			=> 'Edit icon',
-	'ICONS_EDITED'			=> 'The icon has been updated successfully.',
+	'ICONS_ONE_EDITED'		=> 'The icon has been updated successfully.',
+	'ICON_NONE_EDITED'		=> 'No icons were updated.',
+	'ICONS_EDITED'			=> 'The icons have been updated successfully.',
 	'ICONS_HEIGHT'			=> 'Icon height',
 	'ICONS_IMAGE'			=> 'Icon image',
 	'ICONS_IMPORTED'		=> 'The icons pack has been installed successfully.',
@@ -140,12 +148,16 @@ $lang = array_merge($lang, array(
 
 	'SELECT_PACKAGE'			=> 'Select a package file',
 	'SMILIES_ADD'				=> 'Add a new smiley',
-	'SMILIES_ADDED'				=> 'The smiley has been added successfully.',
+	'SMILIES_NONE_ADDED'		=> 'No smilies were added.',
+	'SMILIES_ONE_ADDED'			=> 'The smiley has been added successfully.',
+	'SMILIES_ADDED'				=> 'The smilies have been added successfully.',
 	'SMILIES_CODE'				=> 'Smiley code',
 	'SMILIES_CONFIG'			=> 'Smiley configuration',
 	'SMILIES_DELETED'			=> 'The smiley has been removed successfully.',
 	'SMILIES_EDIT'				=> 'Edit smiley',
-	'SMILIES_EDITED'			=> 'The smiley has been updated successfully.',
+	'SMILIES_NONE_EDITED'		=> 'No smilies were updated.',
+	'SMILIES_ONE_EDITED'		=> 'The smiley has been updated successfully.',
+	'SMILIES_EDITED'			=> 'The smilies have been updated successfully.',
 	'SMILIES_EMOTION'			=> 'Emotion',
 	'SMILIES_HEIGHT'			=> 'Smiley height',
 	'SMILIES_IMAGE'				=> 'Smiley image',
