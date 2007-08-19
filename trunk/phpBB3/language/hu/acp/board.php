@@ -4,7 +4,7 @@
 * acp_board [Hungarian]
 *
 * @package language
-* @version $Id: board.php,v 1.13 2007-08-15 12:47:12 fberci Exp $
+* @version $Id: board.php,v 1.14 2007-08-19 20:48:23 fberci Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -305,13 +305,15 @@ $lang = array_merge($lang, array(
 	'LDAP_NO_EMAIL'					=> 'A megadott e-mail paraméter nem létezik.',
 	'LDAP_NO_IDENTITY'				=> 'Nem található belépési azonosító: %s.',
 	'LDAP_PASSWORD'					=> 'LDAP jelszó',
-	'LDAP_PASSWORD_EXPLAIN'			=> 'Névtelen hozzáférés használatához hagyd üresen, egyébként add meg a fenti felhasználóhoz tartozó jelszót. <strong>FIGYELMEZTETÉS:</strong> Ez a jelszó az adatbázisban sima szövegként kerül tárolásra, bárki által látható lesz, aki hozzáfér az adatbázishoz.',
+	'LDAP_PASSWORD_EXPLAIN'			=> 'Névtelen hozzáférés használatához hagyd üresen, egyébként add meg a fenti felhasználóhoz tartozó jelszót. Active Directory szervereknél szükséges. <strong>FIGYELMEZTETÉS:</strong> Ez a jelszó az adatbázisban sima szövegként kerül tárolásra, bárki által látható lesz, aki hozzáfér az adatbázishoz.',
 	'LDAP_SERVER'					=> 'LDAP szervernév',
-	'LDAP_SERVER_EXPLAIN'			=> 'LDAP használata esetén a szerver neve vagy IP-címe.',
+	'LDAP_SERVER_EXPLAIN'			=> 'LDAP használata esetén a szerver neve vagy IP-címe. Megadhatsz egy URL-t is, mint például ldap://hosztnév:port/',
 	'LDAP_UID'						=> 'LDAP <var>uid</var>',
 	'LDAP_UID_EXPLAIN'				=> 'Ezzel a kulccsal történik a keresés az adott belépési azonosítóra, pl. <var>uid</var>, <var>sn</var> stb.',
-	'LDAP_USER'						=> 'LDAP felhasználó',
-	'LDAP_USER_EXPLAIN'				=> 'Névtelen hozzáférés használatához hagyd üresen. Ha ki van töltve, a phpBB a megadott felhasználóként fog csatlakozni az LDAP szerverhez.',
+	'LDAP_USER'						=> 'LDAP felhasználó <var>dn</var>',
+	'LDAP_USER_EXPLAIN'				=> 'Névtelen hozzáférés használatához hagyd üresen. Ha ki van töltve, a phpBB belépéskor a megadott distinguished name-t fogja használni a megfelelő felhasználó megtalálásához, pl. <samp>uid=Username,ou=MyUnit,o=MyCompany,c=US</samp>. ',
+	'LDAP_USER_FILTER'				=> 'LDAP felhasználószűrő',
+	'LDAP_USER_FILTER_EXPLAIN'		=> 'Tetszőlegesen tovább korlátozhatod a keresett objektumokat további szűrőkkel. Például a <samp>objectClass=posixGroup</samp> megadása a <samp>(&(uid=$username)(objectClass=posixGroup))</samp> használatát eredményezné.',
 ));
 
 // Server Settings
@@ -354,7 +356,7 @@ $lang = array_merge($lang, array(
 	'BROWSER_VALID'					=> 'Böngésző ellenőrzése', //?
 	'BROWSER_VALID_EXPLAIN'			=> 'A böngésző típusa ellenőrzésre kerül, ezáltal javítva a munkamenet biztonságát.',
 	'CHECK_DNSBL'					=> 'IP összevetése a DNSBL feketelistával',
-	'CHECK_DNSBL_EXPLAIN'			=> 'Ha be van kapcsolva, akkor a regisztrációkor vagy hozzászóláskor a felhasználó IP-címe összevetésre kerül a következő DNSBL-szolgáltatások adatbázisával: <a href="http://spamcop.net">spamcop.net</a>, <a href="http://dsbl.org">dsbl.org</a> és <a href="http://spamhaus.org">spamhaus.org</a>. Ez a művelet a szervertől függően eltarthat egy ideig. Ha lassulások tapasztalhatók, vagy ha sok a téves tiltás, ajánlott ezt az ellenőrzést kikapcsolni.',
+	'CHECK_DNSBL_EXPLAIN'			=> 'Ha be van kapcsolva, akkor a regisztrációkor vagy hozzászóláskor a felhasználó IP-címe összevetésre kerül a következő DNSBL-szolgáltatások adatbázisával: <a href="http://spamcop.net">spamcop.net</a>, <a href="http://dsbl.org">dsbl.org</a> és <a href="http://www.spamhaus.org">www.spamhaus.org</a>. Ez a művelet a szervertől függően eltarthat egy ideig. Ha lassulások tapasztalhatók, vagy ha sok a téves tiltás, ajánlott ezt az ellenőrzést kikapcsolni.',
 	'CLASS_B'						=> 'A.B',
 	'CLASS_C'						=> 'A.B.C',
 	'EMAIL_CHECK_MX'				=> 'Érvényes e-mail domain MX rekord létezésének ellenőrzése ', //? "Check e-mail domain for valid MX record" 'Érvényes MX bejegyzés létezésének ellenőrzése az e-mail domainhez'

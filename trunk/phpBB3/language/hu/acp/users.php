@@ -4,7 +4,7 @@
 * acp_users [English]
 *
 * @package language
-* @version $Id: users.php,v 1.8 2007-07-28 20:59:59 fberci Exp $
+* @version $Id: users.php,v 1.9 2007-08-19 20:48:23 fberci Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -99,7 +99,7 @@ $lang = array_merge($lang, array(
 	'USER_ADMIN_DEL_AVATAR'			=> 'Delete avatar',
 	'USER_ADMIN_DEL_POSTS'			=> 'Delete all posts',
 	'USER_ADMIN_DEL_SIG'			=> 'Delete signature',
-	'USER_ADMIN_EXPLAIN'			=> 'Here you can change your users information and certain specific options. To modify the users permissions please use the user and group permissions system.',
+	'USER_ADMIN_EXPLAIN'			=> 'Here you can change your users information and certain specific options.',
 	'USER_ADMIN_FORCE'				=> 'Force reactivation',
 	'USER_ADMIN_MOVE_POSTS'			=> 'Move all posts',
 	'USER_ADMIN_SIG_REMOVED'		=> 'Successfully removed signature from user account.',

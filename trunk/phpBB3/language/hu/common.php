@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.54 2007-08-15 12:47:11 fberci Exp $
+* @version $Id: common.php,v 1.55 2007-08-19 20:48:23 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -524,6 +524,7 @@ $lang = array_merge($lang, array(
 
 	'TOO_LONG_AIM'					=> 'A megadott AIM azonosító túl hosszú.',
 	'TOO_LONG_CONFIRM_CODE'			=> 'A megadott megerősítő kód túl hosszú.',
+	'TOO_LONG_DATEFORMAT'			=> 'A megadott dátum formátum túl hosszú.',
 	'TOO_LONG_ICQ'					=> 'A megadott ICQ azonosító túl hosszú.',
 	'TOO_LONG_INTERESTS'			=> 'A megadott érdeklődési kör túl hosszú.',
 	'TOO_LONG_JABBER'				=> 'A megadott Jabber azonosító túl hosszú.',
@@ -543,6 +544,7 @@ $lang = array_merge($lang, array(
 
 	'TOO_SHORT_AIM'					=> 'A megadott AIM azonosító túl rövid.',
 	'TOO_SHORT_CONFIRM_CODE'		=> 'A megadott megerősítő kód túl rövid.',
+	'TOO_SHORT_DATEFORMAT'			=> 'A megadott dátum formátum túl rövid.',
 	'TOO_SHORT_ICQ'					=> 'A megadott ICQ azonosító túl rövid.',
 	'TOO_SHORT_INTERESTS'			=> 'A megadott érdeklődési kör túl rövid.',
 	'TOO_SHORT_JABBER'				=> 'A megadott Jabber azonosító túl rövid.',
@@ -589,8 +591,9 @@ $lang = array_merge($lang, array(
 	'UNREAD_MESSAGES'		=> 'Olvasatlan üzenetek',
 	'UNREAD_PM'				=> '<strong>%d</strong> olvasatlan üzenet',
 	'UNREAD_PMS'			=> '<strong>%d</strong> olvasatlan üzenet',
-	'UNWATCHED_FORUMS'		=> 'Sikeresen leiratkoztál a kiválasztott fórumokról.',
-	'UNWATCHED_TOPICS'		=> 'Sikeresen leiratkoztál a kiválasztott témákról.',
+	'UNWATCHED_FORUMS'			=> 'Sikeresen leiratkoztál a kiválasztott fórumokról.',
+	'UNWATCHED_TOPICS'			=> 'Sikeresen leiratkoztál a kiválasztott témákról.',
+	'UNWATCHED_FORUMS_TOPICS'	=> 'Sikeresen leiratkoztál a kiválasztott elemekről.',
 	'UPDATE'				=> 'Frissítés',
 	'UPLOAD_IN_PROGRESS'	=> 'Feltöltés folyamatban...',
 	'URL_REDIRECT'			=> 'Ha a böngésződ nem támogatja a meta átirányítást, kattints %side%s.',
@@ -620,8 +623,8 @@ $lang = array_merge($lang, array(
 	'VIEW_LATEST_POST'			=> 'Utolsó hozzászólás megtekintése',
 	'VIEW_NEWEST_POST'			=> 'Első olvasatlan hozzászólás megtekintése',
 	'VIEW_NOTES'				=> 'Feljegyzések megtekintése',
-	'VIEW_ONLINE_TIME'			=> 'Az adatok az elmúlt %d perc alapján készültek.',
-	'VIEW_ONLINE_TIMES'			=> 'Az adatok az elmúlt %d perc alapján készültek.',
+	'VIEW_ONLINE_TIME'			=> 'az elmúlt %d percben aktív felhasználók alapján',
+	'VIEW_ONLINE_TIMES'			=> 'az elmúlt %d percben aktív felhasználók alapján',
 	'VIEW_TOPIC'				=> 'Téma megtekintése',
 	'VIEW_TOPIC_ANNOUNCEMENT'	=> 'Közlemény: ',
 	'VIEW_TOPIC_GLOBAL'			=> 'Általános közlemény: ',
