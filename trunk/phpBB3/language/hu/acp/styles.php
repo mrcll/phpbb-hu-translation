@@ -4,7 +4,7 @@
 * acp_styles [English]
 *
 * @package language
-* @version $Id: styles.php,v 1.8 2007-08-19 15:45:01 fberci Exp $
+* @version $Id: styles.php,v 1.9 2007-08-19 15:48:47 fberci Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -395,8 +395,8 @@ $lang = array_merge($lang, array(
 	'THEME_ERR_NAME_CHARS'		=> 'A stílus neve csak alfanumerikus karaktereket, -, +, _ jelet, valamint szóközt tartalmazhat.',
 	'THEME_ERR_NAME_EXIST'		=> 'Már létezik stílus ilyen névvel.',
 	'THEME_ERR_NAME_LONG'		=> 'A stílus neve nem lehet hosszabb 30 karakternél.',
-	'THEME_ERR_NOT_THEME'		=> 'The archive you specified does not contain a valid theme.',
-	'THEME_ERR_REFRESH_FS'		=> 'This theme is stored on the filesystem so there is no need to refresh it.',
+	'THEME_ERR_NOT_THEME'		=> 'A megadott csomag nem tartalmaz helyes stílust.',
+	'THEME_ERR_REFRESH_FS'		=> 'A stílus a fájlrendszerben van tárolva, ezért nem szükséges újratölteni.',
 	'THEME_ERR_STYLE_NAME'		=> 'A megadott csomag nem tartalmaz helyes stílust.',
 	'THEME_FILE'				=> 'Stílus állomány',
 	'THEME_EXPORT'				=> 'Stílus exportálása',
