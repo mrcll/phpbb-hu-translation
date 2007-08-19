@@ -1,10 +1,10 @@
 <?php
 /**
 *
-* acp_styles [English]
+* acp_styles [Hungarian]
 *
 * @package language
-* @version $Id: styles.php,v 1.9 2007-08-19 15:48:47 fberci Exp $
+* @version $Id: styles.php,v 1.10 2007-08-19 15:49:52 fberci Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
