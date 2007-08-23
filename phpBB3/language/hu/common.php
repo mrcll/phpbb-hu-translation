@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.55 2007-08-19 20:48:23 fberci Exp $
+* @version $Id: common.php,v 1.56 2007-08-23 22:52:26 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -437,7 +437,7 @@ $lang = array_merge($lang, array(
 	'REG_USER_ONLINE'			=> '%d regisztrált és ',
 	'REG_USER_TOTAL'			=> '%d regisztrált, ',
 	'REMOVE'					=> 'Törlés',
-	'REMOVE_INSTALL'			=> 'Kérjük, töröld, helyezd át, vagy nevezd át az install könyvtárat a fórum használatba vétele előtt. Csak az adminisztrátori vezérlőpult lesz elérhető, amíg ez a könyvtár létezik.',
+	'REMOVE_INSTALL'			=> 'Kérjük, töröld, helyezd át, vagy nevezd át az install könyvtárat a fórum használatba vétele előtt. Amíg ez a könyvtár létezik, csak az adminisztrátori vezérlőpult lesz elérhető.',
 	'REPLIES'					=> 'Válaszok',
 	'REPLY_WITH_QUOTE'			=> 'Hozzászólás az előzmény idézésével',
 	'REPLYING_GLOBAL_ANNOUNCE'	=> 'Válasz írása egy általános közleményre',
