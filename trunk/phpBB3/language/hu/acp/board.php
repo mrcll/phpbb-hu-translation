@@ -4,7 +4,7 @@
 * acp_board [Hungarian]
 *
 * @package language
-* @version $Id: board.php,v 1.14 2007-08-19 20:48:23 fberci Exp $
+* @version $Id: board.php,v 1.15 2007-08-23 23:05:04 fberci Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -306,6 +306,8 @@ $lang = array_merge($lang, array(
 	'LDAP_NO_IDENTITY'				=> 'Nem található belépési azonosító: %s.',
 	'LDAP_PASSWORD'					=> 'LDAP jelszó',
 	'LDAP_PASSWORD_EXPLAIN'			=> 'Névtelen hozzáférés használatához hagyd üresen, egyébként add meg a fenti felhasználóhoz tartozó jelszót. Active Directory szervereknél szükséges. <strong>FIGYELMEZTETÉS:</strong> Ez a jelszó az adatbázisban sima szövegként kerül tárolásra, bárki által látható lesz, aki hozzáfér az adatbázishoz.',
+	'LDAP_PORT'						=> 'LDAP szerver port',
+	'LDAP_PORT_EXPLAIN'				=> 'Ha kell, az alap 389-es helyett megadhatsz egy másik portot, mely használva lesz az LDAP szerverhez való kapcsolódáshoz.',
 	'LDAP_SERVER'					=> 'LDAP szervernév',
 	'LDAP_SERVER_EXPLAIN'			=> 'LDAP használata esetén a szerver neve vagy IP-címe. Megadhatsz egy URL-t is, mint például ldap://hosztnév:port/',
 	'LDAP_UID'						=> 'LDAP <var>uid</var>',
