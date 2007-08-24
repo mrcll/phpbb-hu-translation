@@ -1,0 +1,18 @@
+Subject: Köszönjük, hogy regisztráltál!
+
+{WELCOME_MSG}
+
+Õrizd meg ezt az e-mailt, mert elképzelhetõ, hogy a késõbbiekben szükséged lesz rá. A fórumon létrehozott azonosító információi:
+
+----------------------------
+Felhasználónév: {USERNAME}
+Jelszó: {PASSWORD}
+----------------------------
+
+A felhasználói azonosítód jelenleg inaktív, használatba vétele elõtt a fórum adminisztrátorának aktiválnia kell. Amint megtörtént, egy másik értesítõt fogsz errõl kapni e-mailben.
+
+A jelszót ne felejtsd el, mert az adatbázisunkban kódolva szerepel, így nincs mód a késõbbiekben a kiderítésére. Ha esetleg mégis elfelejtenéd, akkor a belépési oldalon új jelszót kell igényelned, amelyet hasonlóképpen aktiválni kell használat elõtt, mint most.
+
+Köszönjük, hogy regisztráltál!
+
+{EMAIL_SIG}
