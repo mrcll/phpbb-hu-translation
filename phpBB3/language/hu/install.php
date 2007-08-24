@@ -4,7 +4,7 @@
 * install [Hungarian]
 *
 * @package language
-* @version $Id: install.php,v 1.26 2007-08-15 12:47:11 fberci Exp $
+* @version $Id: install.php,v 1.27 2007-08-24 19:46:31 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -34,10 +34,10 @@ $lang = array_merge($lang, array(
 	'ADMIN_CONFIG'				=> 'Adminisztrátor beállítása', //? configuration
 	'ADMIN_PASSWORD'			=> 'Adminisztrátor jelszó',
 	'ADMIN_PASSWORD_CONFIRM'	=> 'Adminisztrátor jelszó megerősítése',
-	'ADMIN_PASSWORD_EXPLAIN'	=> '(6 és 30 karakter közötti jelszót adj meg.)',
+	'ADMIN_PASSWORD_EXPLAIN'	=> '6 és 30 karakter közötti jelszót adj meg.',
 	'ADMIN_TEST'				=> 'Adminisztrátor adatok ellenőrzése',
 	'ADMIN_USERNAME'			=> 'Adminisztrátor felhasználónév',
-	'ADMIN_USERNAME_EXPLAIN'	=> '(3 és 20 karakter közötti felhasználónevet adj meg.)',
+	'ADMIN_USERNAME_EXPLAIN'	=> '3 és 20 karakter közötti felhasználónevet adj meg.',
 	'APP_MAGICK'				=> 'Imagemagick támogatás [ csatolmányok ]',
 	'AUTHOR_NOTES'				=> 'Készítő megjegyzései<br />» %s',
 	'AVAILABLE'					=> 'Elérhető',
