@@ -1,10 +1,10 @@
 <?php
 /**
 *
-* posting [English]
+* posting [Hungarian]
 *
 * @package language
-* @version $Id: posting.php,v 1.9 2007-08-23 23:05:04 fberci Exp $
+* @version $Id: posting.php,v 1.10 2007-08-31 20:43:55 fberci Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -33,231 +33,229 @@ if (empty($lang) || !is_array($lang))
 // BBCodes
 // Note to translators: you can translate everything but what's between { and }
 $lang = array_merge($lang, array(
-	'ACP_BBCODES_EXPLAIN'		=> 'BBCode is a special implementation of HTML offering greater control over what and how something is displayed. From this page you can add, remove and edit custom BBCodes.',
-	'ADD_BBCODE'				=> 'Add a new BBCode',
+	'ACP_BBCODES_EXPLAIN'		=> 'A BBCode a HTML nyelv egy speciális változata, mely nagy teret enged egy szövegrészlet megformázásához. Ezen az oldalon felvehetsz, törölheted és, szerkesztehted az egyedi BBCode-okat.',
+	'ADD_BBCODE'				=> 'Új BBCode felvétele',
 
-	'BBCODE_ADDED'				=> 'BBCode added successfully.',
-	'BBCODE_EDITED'				=> 'BBCode edited successfully.',
-	'BBCODE_NOT_EXIST'			=> 'The BBCode you selected does not exist.',
-	'BBCODE_HELPLINE'			=> 'Help line',
-	'BBCODE_HELPLINE_EXPLAIN'	=> 'This field contains the mouse over text of the BBCode.',
-	'BBCODE_HELPLINE_TEXT'		=> 'Help line text',
-	'BBCODE_INVALID_TAG_NAME'	=> 'The BBCode tag name that you selected already exists.',
-	'BBCODE_INVALID'			=> 'Your BBCode is constructed in an invalid form.',
-	'BBCODE_OPEN_ENDED_TAG'		=> 'Your custom BBCode must contain both an opening and a closing tag.',
-	'BBCODE_TAG'				=> 'Tag',
-	'BBCODE_TAG_TOO_LONG'		=> 'The tag name you selected is too long.',
-	'BBCODE_TAG_DEF_TOO_LONG'	=> 'The tag definition that you have entered is too long, please shorten your tag definition.',
-	'BBCODE_USAGE'				=> 'BBCode usage',
-	'BBCODE_USAGE_EXAMPLE'		=> '[hilight={COLOR}]{TEXT}[/hilight]<br /><br />[font={SIMPLETEXT1}]{SIMPLETEXT2}[/font]',
-	'BBCODE_USAGE_EXPLAIN'		=> 'Here you define how to use the BBCode. Replace any variable input by the corresponding token (%ssee below%s).',
+	'BBCODE_ADDED'				=> 'A BBCode sikeresen felvételre került.',
+	'BBCODE_EDITED'				=> 'A BBCode sikeresen szerkesztésre került.',
+	'BBCODE_NOT_EXIST'			=> 'A kiválasztott BBCode nem létezik.',
+	'BBCODE_HELPLINE'			=> 'Segítség',
+	'BBCODE_HELPLINE_EXPLAIN'	=> 'Ennek a mezőnek a tartalma fog megjelenni, ha a BBCode fölé viszed az egeret.', //?
+	'BBCODE_HELPLINE_TEXT'		=> 'Segítség szöveg',
+	'BBCODE_INVALID_TAG_NAME'	=> 'A megadott BBCode címkenév már létezik.',
+	'BBCODE_INVALID'			=> 'A BBCode-od formátuma nem helyes.', //? "Your BBCode is constructed in an invalid form."
+	'BBCODE_OPEN_ENDED_TAG'		=> 'Az egyedi BBCode-odnak tartalmaznia kell egy nyitó és egy lezáró címkét is.',
+	'BBCODE_TAG'				=> 'Címke',
+	'BBCODE_TAG_TOO_LONG'		=> 'A megadott címkenév túl hosszú.',
+	'BBCODE_TAG_DEF_TOO_LONG'	=> 'A megadott címke meghatározás túl hosszú, kérjük, rövidítsd le.',
+	'BBCODE_USAGE'				=> 'BBCode használata',
+	'BBCODE_USAGE_EXAMPLE'		=> '[kiemeles={COLOR}]{TEXT}[/kiemeles]<br /><br />[betutipus={SIMPLETEXT1}]{SIMPLETEXT2}[/betutipus]',
+	'BBCODE_USAGE_EXPLAIN'		=> 'Itt tudod megadni, hogy hogyan lehessen használni a BBCode-ot. Minden változó részt helyettesítsd a megfelelő jelölővel (%slásd alább%s).',
 
-	'EXAMPLE'						=> 'Example:',
-	'EXAMPLES'						=> 'Examples:',
+	'EXAMPLE'						=> 'Példa:',
+	'EXAMPLES'						=> 'Példák:',
 
-	'HTML_REPLACEMENT'				=> 'HTML replacement',
+	'HTML_REPLACEMENT'				=> 'HTML csere',
 	'HTML_REPLACEMENT_EXAMPLE'		=> '&lt;span style="background-color: {COLOR};"&gt;{TEXT}&lt;/span&gt;<br /><br />&lt;span style="font-family: {SIMPLETEXT1};"&gt;{SIMPLETEXT2}&lt;/span&gt;',
-	'HTML_REPLACEMENT_EXPLAIN'		=> 'Here you define the default HTML replacement. Do not forget to put back tokens you used above!',
+	'HTML_REPLACEMENT_EXPLAIN'		=> 'Itt tudod megadni, hogy milyen HTML-re legyen kicserélve a BBCode. Ne felejtsd el visszarakni a fentebb használt jelölőket!', //?
 
-	'TOKEN'					=> 'Token',
-	'TOKENS'				=> 'Tokens',
-	'TOKENS_EXPLAIN'		=> 'Tokens are placeholders for user input. The input will be validated only if it matches the corresponding definition. If needed, you can number them by adding a number as the last character between the braces, e.g. {TEXT1}, {TEXT2}.<br /><br />Within the HTML replacement you can also use any language string present in your language/ directory like this: {L_<em>&lt;STRINGNAME&gt;</em>} where <em>&lt;STRINGNAME&gt;</em> is the name of the translated string you want to add. For example, {L_WROTE} will be displayed as &quot;wrote&quot; or its translation according to user’s locale.<br /><br /><strong>Please note that only tokens listed below are able to be used within custom BBCodes.</strong>',
-	'TOKEN_DEFINITION'		=> 'What can it be?',
-	'TOO_MANY_BBCODES'		=> 'You cannot create any more BBCodes. Please remove one or more BBCodes then try again.',
+	'TOKEN'					=> 'Jelölő',
+	'TOKENS'				=> 'Jelölők',
+	'TOKENS_EXPLAIN'		=> 'A jelölők a felhasználó által megadott adatokhoz használhatók. A BBCode csak akkor lesz feldolgozva, ha a megadott adatok megfelelnek a meghatározásnak. Ha kell, a jelölőket meg is számozhatod, ehhez a lezáró kapcsos zárójel elé írj egy számot, pl. {TEXT1}, {TEXT2}.<br /><br />A HTML cserében bármilyen a language/ könyvtárban megtalálható nyelvi elemet használhatsz a következőképp: {L_<em>&lt;ELEMNÉV&gt;</em>}, ahol az <em>&lt;ELEMNÉV&gt;</em> a hozzáadni kívánt lefordított elem. Például az {L_WROTE} „írta”-ként kerül megjelenítésre a felhasználó nyelvi beállításainak megfelelően.<br /><br /><strong>Kérjük, vedd figyelembe, hogy az egyedi BBCode-okban csak az alább felsorolt jelölők használhatók.</strong>', //?
+	'TOKEN_DEFINITION'		=> 'Mi lehet?',
+	'TOO_MANY_BBCODES'		=> 'Nem tudsz több BBCode-ot készíteni. Kérünk, törölj egy vagy több BBCode-ot, és próbálkozz újra.',
 
 	'tokens'	=>	array(
-		'TEXT'			=> 'Any text, including foreign characters, numbers, etc… You should not use this token in HTML tags. Instead try to use IDENTIFIER or SIMPLETEXT.',
-		'SIMPLETEXT'	=> 'Characters from the latin alphabet (A-Z), numbers, spaces, commas, dots, minus, plus, hyphen and underscore',
-		'NUMBER'		=> 'Any series of digits',
-		'EMAIL'			=> 'A valid e-mail address',
-		'URL'			=> 'A valid URL using any protocol (http, ftp, etc… cannot be used for javascript exploits). If none is given, &quot;http://&quot; is prefixed to the string.',
-		'LOCAL_URL'		=> 'A local URL. The URL must be relative to the topic page and cannot contain a server name or protocol.',
-		'COLOR'			=> 'A HTML colour, can be either in the numeric form <samp>#FF1234</samp> or a <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS colour keyword</a> such as <samp>fuchsia</samp> or <samp>InactiveBorder</samp>'
+		'TEXT'			=> 'Bármilyen szöveg beleértve a külföldi karaktereket, számokat, stb. Ezt a jelölést ne használd HTML címkében, arra a SIMPLETEXT való.',
+		'SIMPLETEXT'	=> 'A latin ábécé betűje (A-Z), szám, szóköz, vessző, pont, mínusz, plusz, kötőjel és alulvonás.',
+		'NUMBER'		=> 'Bármilyen szám.',
+		'EMAIL'			=> 'Egy érvényes e-mail cím.',
+		'URL'			=> 'Egy érvényes URL, mely bármilyen protokollt használhat (http, ftp, stb., nem használható fel javascript támadásokhoz). Ha nincs protokoll megadva, a szöveg elé „http://” kerül elhelyezésre.',
+		'LOCAL_URL'		=> 'Egy helyi URL. Az URL-nek a téma oldaltól kell lennie viszonyítva, valamint nem tartalmazhat szervernevet, illetve protokollt.',
+		'COLOR'			=> 'Egy HTML szín, lehet a <samp>#FF1234</samp> numerikus formában, vagy lehet egy <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS szín kulcsszó</a>, mint például a <samp>fuchsia</samp> vagy az <samp>InactiveBorder</samp>.'
 	)
 ));
 
 // Smilies and topic icons
 $lang = array_merge($lang, array(
-	'ACP_ICONS_EXPLAIN'		=> 'From this page you can add, remove and edit the icons users may add to their topics or posts. These icons are generally displayed next to topic titles on the forum listing, or the post subjects in topic listings. You can also install and create new packages of icons.',
-	'ACP_SMILIES_EXPLAIN'	=> 'Smilies or emoticons are typically small, sometimes animated images used to convey an emotion or feeling. From this page you can add, remove and edit the emoticons users can use in their posts and private messages. You can also install and create new packages of smilies.',
-	'ADD_SMILIES'			=> 'Add multiple smilies',
-	'ADD_SMILEY_CODE'		=> 'Add additional smiley code',
-	'ADD_ICONS'				=> 'Add multiple icons',
-	'AFTER_ICONS'			=> 'After %s',
-	'AFTER_SMILIES'			=> 'After %s',
+	'ACP_ICONS_EXPLAIN'		=> 'Ezen az oldalon hozzáadhatsz, valamint törölheted, és szerkesztheted az ikonokat, melyeket a felhasználók csatolhatnak a hozzászólásaikhoz. Ezek az ikonok általában a fórum oldalakon a témák címe, a téma oldalakon pedig a hozzászólások témája mellett jelennek meg. Emellett telepíthetsz ikon csomagokat, vagy készíthetsz újat.',
+	'ACP_SMILIES_EXPLAIN'	=> 'Az emotikonok általánosan kicsi, néha animált képek, melyek egy érzelmet vagy hangulatot fejeznek ki. Ezen az oldalon hozzáadhatsz, valamint törölheted és szerkesztheted az emotikonokat, melyeket a felhasználók a hozzászólásaikban, ill. privát üzeneteikben használhatnak. Emellett telepítetsz emotikon csomagokat, vagy készíthetsz újat.',
+	'ADD_SMILIES'			=> 'Emotikonok felvétele', //? multiple
+	'ADD_SMILEY_CODE'		=> 'További emotikon kód hozzáadása',
+	'ADD_ICONS'				=> 'Ikonok felvétele',
+	'AFTER_ICONS'			=> '%s után',
+	'AFTER_SMILIES'			=> '%s után',
 
-	'CODE'						=> 'Code',
-	'CURRENT_ICONS'				=> 'Current icons',
-	'CURRENT_ICONS_EXPLAIN'		=> 'Choose what to do with the currently installed icons.',
-	'CURRENT_SMILIES'			=> 'Current smilies',
-	'CURRENT_SMILIES_EXPLAIN'	=> 'Choose what to do with the currently installed smilies.',
+	'CODE'						=> 'Kód',
+	'CURRENT_ICONS'				=> 'Jelenlegi ikonok',
+	'CURRENT_ICONS_EXPLAIN'		=> 'Válaszd ki mit szeretnél tenni a jelenleg telepített ikonokkal.',
+	'CURRENT_SMILIES'			=> 'Jelenlegi emotikonok',
+	'CURRENT_SMILIES_EXPLAIN'	=> 'Válaszd ki mit szeretnél tenni a jelenleg telepített emotikonokkal.',
 
-	'DISPLAY_ON_POSTING'		=> 'Display on posting page',
-	'DISPLAY_POSTING'			=> 'On posting page',
-	'DISPLAY_POSTING_NO'		=> 'Not on posting page',
+	'DISPLAY_ON_POSTING'		=> 'Megjelenítés a hozzászólásküldő oldalon',
+	'DISPLAY_POSTING'			=> 'Hozzászólásküldő oldalon', //? használják
+	'DISPLAY_POSTING_NO'		=> 'Nincs a hozzászólásküldő oldalon',
 
+	'EDIT_ICONS'				=> 'Ikonok szerkesztése',
+	'EDIT_SMILIES'				=> 'Emotikonok szerkesztése',
+	'EMOTION'					=> 'Érzelem',
+	'EXPORT_ICONS'				=> 'Icons.pak exportálása és letöltése',
+	'EXPORT_ICONS_EXPLAIN'		=> '%sErre a linkre kattintva a telepített ikonok konfigurációja ki lesz írva az <samp>icons.pak</samp> állományba, mely segítségével a letöltés után létre lehet hozni az összes ikont plusz ezt a konfigurációs állományt tartalmazó <samp>.zip</samp> vagy <samp>.tgz</samp> csomagot.%s',
+	'EXPORT_SMILIES'			=> 'Smilies.pak exportálása és letöltése',
+	'EXPORT_SMILIES_EXPLAIN'	=> '%sErre a linkre kattintva a telepített emotikonok konfigurációja ki lesz írva a <samp>smilies.pak</samp> állományba, mely segítségével a letöltés után létre lehet hozni az összes emotikont plusz ezt a konfigurációs állományt tartalmazó <samp>.zip</samp> vagy <samp>.tgz</samp> csomagot.%s',
 
-	
-	'EDIT_ICONS'				=> 'Edit icons',
-	'EDIT_SMILIES'				=> 'Edit smilies',
-	'EMOTION'					=> 'Emotion',
-	'EXPORT_ICONS'				=> 'Export and download icons.pak',
-	'EXPORT_ICONS_EXPLAIN'		=> '%sOn clicking this link, the configuration for your installed icons will be packaged into <samp>icons.pak</samp> which once downloaded can be used to create a <samp>.zip</samp> or <samp>.tgz</samp> file containing all of your icons plus this <samp>icons.pak</samp> configuration file%s.',
-	'EXPORT_SMILIES'			=> 'Export and download smilies.pak',
-	'EXPORT_SMILIES_EXPLAIN'	=> '%sOn clicking this link, the configuration for your installed smilies will be packaged into <samp>smilies.pak</samp> which once downloaded can be used to create a <samp>.zip</samp> or <samp>.tgz</samp> file containing all of your smilies plus this <samp>smilies.pak</samp> configuration file%s.',
+	'FIRST'			=> 'Legelejére',
 
-	'FIRST'			=> 'First',
+	'ICONS_ADD'				=> 'Új ikon felvétele',
+	'ICON_NONE_ADDED'		=> 'Nem került felvételre ikon.',
+	'ICONS_ONE_ADDED'		=> 'Az ikon sikeresen felvételre került.',
+	'ICONS_ADDED'			=> 'Az ikonok sikeresen felvételre kerültek.',
+	'ICONS_CONFIG'			=> 'Ikon konfiguráció',
+	'ICONS_DELETED'			=> 'Az ikon sikeresen törlésre került.',
+	'ICONS_EDIT'			=> 'Ikon szerkesztése',
+	'ICONS_ONE_EDITED'		=> 'Az ikon sikeresen frissítésre került.',
+	'ICON_NONE_EDITED'		=> 'Nem került ikon frissítésre.',
+	'ICONS_EDITED'			=> 'Az ikonok sikeresen frissítésre kerültek.',
+	'ICONS_HEIGHT'			=> 'Ikon magasság',
+	'ICONS_IMAGE'			=> 'Ikon kép',
+	'ICONS_IMPORTED'		=> 'Az ikon csomag sikeresen telepítésre került.',
+	'ICONS_IMPORT_SUCCESS'	=> 'Az ikon csomag sikeresen importálásra került.',
+	'ICONS_LOCATION'		=> 'Ikon helye',
+	'ICONS_NOT_DISPLAYED'	=> 'A következő ikonok nem jelennek meg a hozzászólásküldő oldalon',
+	'ICONS_ORDER'			=> 'Ikon sorrend',
+	'ICONS_URL'				=> 'Ikon képállomány',
+	'ICONS_WIDTH'			=> 'Ikon szélesség',
+	'IMPORT_ICONS'			=> 'Ikon csomag telepítése',
+	'IMPORT_SMILIES'		=> 'Emotikon csomag telepítése',
 
-	'ICONS_ADD'				=> 'Add a new icon',
-	'ICON_NONE_ADDED'		=> 'No icons were added.',
-	'ICONS_ONE_ADDED'		=> 'The icon has been added successfully.',
-	'ICONS_ADDED'			=> 'The icons have been added successfully.',
-	'ICONS_CONFIG'			=> 'Icon configuration',
-	'ICONS_DELETED'			=> 'The icon has been removed successfully.',
-	'ICONS_EDIT'			=> 'Edit icon',
-	'ICONS_ONE_EDITED'		=> 'The icon has been updated successfully.',
-	'ICON_NONE_EDITED'		=> 'No icons were updated.',
-	'ICONS_EDITED'			=> 'The icons have been updated successfully.',
-	'ICONS_HEIGHT'			=> 'Icon height',
-	'ICONS_IMAGE'			=> 'Icon image',
-	'ICONS_IMPORTED'		=> 'The icons pack has been installed successfully.',
-	'ICONS_IMPORT_SUCCESS'	=> 'The icons pack was imported successfully.',
-	'ICONS_LOCATION'		=> 'Icon location',
-	'ICONS_NOT_DISPLAYED'	=> 'The following icons are not displayed on the posting page',
-	'ICONS_ORDER'			=> 'Icon order',
-	'ICONS_URL'				=> 'Icon image file',
-	'ICONS_WIDTH'			=> 'Icon width',
-	'IMPORT_ICONS'			=> 'Install icons package',
-	'IMPORT_SMILIES'		=> 'Install smilies package',
+	'KEEP_ALL'			=> 'Összes megtartása',
 
-	'KEEP_ALL'			=> 'Keep all',
+	'MASS_ADD_SMILIES'	=> 'Több emotikon felvétele', //?
 
-	'MASS_ADD_SMILIES'	=> 'Add multiple smilies',
+	'NO_ICONS_ADD'		=> 'Nincs felvehető ikon.',
+	'NO_ICONS_EDIT'		=> 'Nincs módosítható ikon.',
+	'NO_ICONS_EXPORT'	=> 'Nincs ikonod, melyből csomagot készíthetnél.',
+	'NO_ICONS_PAK'		=> 'Nem található ikon csomag.',
+	'NO_SMILIES_ADD'	=> 'Nincs felvehető emotikon',
+	'NO_SMILIES_EDIT'	=> 'Nincs módosítható emotikon.',
+	'NO_SMILIES_EXPORT'	=> 'Nincs emotikonod, melyből csomagot készíthetnél.',
+	'NO_SMILIES_PAK'	=> 'Nem található emotikon csomag.',
 
-	'NO_ICONS_ADD'		=> 'There are no icons available for adding.',
-	'NO_ICONS_EDIT'		=> 'There are no icons available for modifying.',
-	'NO_ICONS_EXPORT'	=> 'You have no icons with which to create a package.',
-	'NO_ICONS_PAK'		=> 'No icon packages found.',
-	'NO_SMILIES_ADD'	=> 'There are no smilies available for adding.',
-	'NO_SMILIES_EDIT'	=> 'There are no smilies available for modifying.',
-	'NO_SMILIES_EXPORT'	=> 'You have no smilies with which to create a package.',
-	'NO_SMILIES_PAK'	=> 'No smiley packages found.',
+	'PAK_FILE_NOT_READABLE'		=> 'A <samp>.pak</samp> állományt nem sikerült olvasni.',
 
-	'PAK_FILE_NOT_READABLE'		=> 'Could not read <samp>.pak</samp> file.',
+	'REPLACE_MATCHES'	=> 'Egyezők kicserélése', //? "Replace matches"
 
-	'REPLACE_MATCHES'	=> 'Replace matches',
+	'SELECT_PACKAGE'			=> 'Csomag állomány kiválasztása',
+	'SMILIES_ADD'				=> 'Új emotikon felvétele',
+	'SMILIES_NONE_ADDED'		=> 'Nem került felvételre emotikon.',
+	'SMILIES_ONE_ADDED'			=> 'Az emotikon sikeresen hozzáadásra került.',
+	'SMILIES_ADDED'				=> 'Az emotikonok sikeresen felvételre kerültek.',
+	'SMILIES_CODE'				=> 'Emotikon kód',
+	'SMILIES_CONFIG'			=> 'Emotikon konfiguráció',
+	'SMILIES_DELETED'			=> 'Az emotikon sikeresen törlésre került.',
+	'SMILIES_EDIT'				=> 'Emotikon szerkesztése',
+	'SMILIES_NONE_EDITED'		=> 'Nem került frissítésre emotikon.',
+	'SMILIES_ONE_EDITED'		=> 'Az emotikon sikeresen frissítésre került.',
+	'SMILIES_EDITED'			=> 'Az emotikonok sikeresen frissítésre kerültek.',
+	'SMILIES_EMOTION'			=> 'Érzelem',
+	'SMILIES_HEIGHT'			=> 'Emotikon magasság',
+	'SMILIES_IMAGE'				=> 'Emotikon kép',
+	'SMILIES_IMPORTED'			=> 'Az emotikon csomag sikeresen telepítésre került.',
+	'SMILIES_IMPORT_SUCCESS'	=> 'Az emotikon csomag sikeresen importálásra került.',
+	'SMILIES_LOCATION'			=> 'Emotikon helye',
+	'SMILIES_NOT_DISPLAYED'		=> 'A következő emotikonok nem jelennek meg a hozzászólásküldő oldalon',
+	'SMILIES_ORDER'				=> 'Emotikon sorrend',
+	'SMILIES_URL'				=> 'Emotikon képállomány',
+	'SMILIES_WIDTH'				=> 'Emotikon szélesség',
 
-	'SELECT_PACKAGE'			=> 'Select a package file',
-	'SMILIES_ADD'				=> 'Add a new smiley',
-	'SMILIES_NONE_ADDED'		=> 'No smilies were added.',
-	'SMILIES_ONE_ADDED'			=> 'The smiley has been added successfully.',
-	'SMILIES_ADDED'				=> 'The smilies have been added successfully.',
-	'SMILIES_CODE'				=> 'Smiley code',
-	'SMILIES_CONFIG'			=> 'Smiley configuration',
-	'SMILIES_DELETED'			=> 'The smiley has been removed successfully.',
-	'SMILIES_EDIT'				=> 'Edit smiley',
-	'SMILIES_NONE_EDITED'		=> 'No smilies were updated.',
-	'SMILIES_ONE_EDITED'		=> 'The smiley has been updated successfully.',
-	'SMILIES_EDITED'			=> 'The smilies have been updated successfully.',
-	'SMILIES_EMOTION'			=> 'Emotion',
-	'SMILIES_HEIGHT'			=> 'Smiley height',
-	'SMILIES_IMAGE'				=> 'Smiley image',
-	'SMILIES_IMPORTED'			=> 'The smilies pack has been installed successfully.',
-	'SMILIES_IMPORT_SUCCESS'	=> 'The smilies pack was imported successfully.',
-	'SMILIES_LOCATION'			=> 'Smiley location',
-	'SMILIES_NOT_DISPLAYED'		=> 'The following smilies are not displayed on the posting page',
-	'SMILIES_ORDER'				=> 'Smiley order',
-	'SMILIES_URL'				=> 'Smiley image file',
-	'SMILIES_WIDTH'				=> 'Smiley width',
-
-	'WRONG_PAK_TYPE'	=> 'The specified package does not contain the appropriate data.',
+	'WRONG_PAK_TYPE'	=> 'A megadott csomag nem tartalmazza a megfelelő adatokat.',
 ));
 
 // Word censors
 $lang = array_merge($lang, array(
-	'ACP_WORDS_EXPLAIN'		=> 'From this control panel you can add, edit, and remove words that will be automatically censored on your forums. In addition people will not be allowed to register with usernames containing these words. Wildcards (*) are accepted in the word field, e.g. *test* will match detestable, test* would match testing, *test would match detest.',
-	'ADD_WORD'				=> 'Add new word',
+	'ACP_WORDS_EXPLAIN'		=> 'Ezen az oldalon felvehetsz, valamint szerkesztheted, és eltávolíthatod a szavakat, melyek automatikusan kicenzúrázásra kerülnek a fórumon. Ezen felül ilyen szót tartalmazó felhasználónévvel nem lehet majd regisztrálni. A szavak megadásánál használhatod a * jokerkaraktert, pl. az alaplap szó illeszkedni fog a „*lap*”-ra, a „lap*”-ra a lapszám, „*lap”-ra pedig a főlap.',
+	'ADD_WORD'				=> 'Új szó felvétele',
 
-	'EDIT_WORD'		=> 'Edit word censor',
-	'ENTER_WORD'	=> 'You must enter a word and its replacement.',
+	'EDIT_WORD'		=> 'Szócenzúra szerkesztése',
+	'ENTER_WORD'	=> 'Meg kell adnod egy szót és a helyettesítését.',
 
-	'NO_WORD'	=> 'No word selected for editing.',
+	'NO_WORD'	=> 'Nincs szó kiválasztva szerkesztéshez.',
 
-	'REPLACEMENT'	=> 'Replacement',
+	'REPLACEMENT'	=> 'Helyettesítés',
 
-	'UPDATE_WORD'	=> 'Update word censor',
+	'UPDATE_WORD'	=> 'Szócenzúra frissítése',
 
-	'WORD'				=> 'Word',
-	'WORD_ADDED'		=> 'The word censor has been successfully added.',
-	'WORD_REMOVED'		=> 'The selected word censor has been successfully removed.',
-	'WORD_UPDATED'		=> 'The selected word censor has been successfully updated.',
+	'WORD'				=> 'Szó',
+	'WORD_ADDED'		=> 'A cenzúrázott szó sikeresen felvételre került.',
+	'WORD_REMOVED'		=> 'A kiválasztott cenzúrázott szó sikeresen eltávolításra került.',
+	'WORD_UPDATED'		=> 'A kiválasztott cenzúrázott szó sikeresen frissítésre került.',
 ));
 
 // Ranks
 $lang = array_merge($lang, array(
-	'ACP_RANKS_EXPLAIN'		=> 'Using this form you can add, edit, view and delete ranks. You can also create special ranks which can be applied to a user via the user management facility.',
-	'ADD_RANK'				=> 'Add new rank',
+	'ACP_RANKS_EXPLAIN'		=> 'Ennek az űrlapnak segítségével hozzáadhatsz, valamit szerkesztheted, és törölheted a rangokat. Speciális rangot is készíthetsz, melyet a felhasználókhoz a felhasználók kezelése funkció segítségével rendelhetsz hozzá.',
+	'ADD_RANK'				=> 'Új rang hozzáadása',
 
-	'MUST_SELECT_RANK'		=> 'You must select a rank.',
+	'MUST_SELECT_RANK'		=> 'Ki kell választanod egy rangot.',
 	
-	'NO_ASSIGNED_RANK'		=> 'No special rank assigned.',
-	'NO_RANK_TITLE'			=> 'You haven’t specified a title for the rank.',
-	'NO_UPDATE_RANKS'		=> 'The rank was successfully deleted. However user accounts using this rank were not updated. You will need to manually reset the rank on these accounts.',
+	'NO_ASSIGNED_RANK'		=> 'Nincs speciális rang hozzárendelve.',
+	'NO_RANK_TITLE'			=> 'Nem adtál nevet a rangnak.',
+	'NO_UPDATE_RANKS'		=> 'A rang sikeresen törlésre került, azonban az ezt a rangot használó felhasználók profiljai nem lettek frissítve. Ezeken az azonosítókon kézzel kell újra beállítanod a rangokat.',
 
-	'RANK_ADDED'			=> 'The rank was successfully added.',
-	'RANK_IMAGE'			=> 'Rank image',
-	'RANK_IMAGE_EXPLAIN'	=> 'Use this to define a small image associated with the rank. The path is relative to the root phpBB directory.',
-	'RANK_MINIMUM'			=> 'Minimum posts',
-	'RANK_REMOVED'			=> 'The rank was successfully deleted.',
-	'RANK_SPECIAL'			=> 'Set as special rank',
-	'RANK_TITLE'			=> 'Rank title',
-	'RANK_UPDATED'			=> 'The rank was successfully updated.',
+	'RANK_ADDED'			=> 'A rang sikeresen hozzáadásra került.',
+	'RANK_IMAGE'			=> 'Rang kép',
+	'RANK_IMAGE_EXPLAIN'	=> 'Ezzel a ranghoz egy kis képet lehet társítani. Az elérési út relatív, a phpBB gyökérkönyvtárától viszonyított.',
+	'RANK_MINIMUM'			=> 'Minimum hozzászólásszám',
+	'RANK_REMOVED'			=> 'A rang sikeresen törlésre került.',
+	'RANK_SPECIAL'			=> 'Speciális rang',
+	'RANK_TITLE'			=> 'Rang neve',
+	'RANK_UPDATED'			=> 'A rang sikeresen frissítésre került.',
 ));
 
 // Disallow Usernames
 $lang = array_merge($lang, array(
-	'ACP_DISALLOW_EXPLAIN'	=> 'Here you can control usernames which will not be allowed to be used. Disallowed usernames are allowed to contain a wildcard character of *.  Please note that you will not be allowed to specify any username that has already been registered, you must first delete that name then disallow it.',
-	'ADD_DISALLOW_EXPLAIN'	=> 'You can disallow a username using the wildcard character * to match any character.',
-	'ADD_DISALLOW_TITLE'	=> 'Add a disallowed username',
+	'ACP_DISALLOW_EXPLAIN'	=> 'Itt a nem használható felhasználóneveket kezelheted. A letiltott felhasználónevekben használhatod a * jokerkaraktert. Kérjük, vedd figyelembe, hogy nem tudsz letiltani olyan felhasználónevet, mellyel már valaki regisztrálva van, ezt a felhasználót előbb törölnöd kell, és csak utána tilthatod le a nevét.', //? nem használják?
+	'ADD_DISALLOW_EXPLAIN'	=> 'Használhatod a * jokerkaraktert, mely minden karakterre illeszkedik.',
+	'ADD_DISALLOW_TITLE'	=> 'Letiltott felhasználónév felvétele',
 
-	'DELETE_DISALLOW_EXPLAIN'	=> 'You can remove a disallowed username by selecting the username from this list and clicking submit.',
-	'DELETE_DISALLOW_TITLE'		=> 'Remove a disallowed username',
-	'DISALLOWED_ALREADY'		=> 'The name you entered could not be disallowed. It either already exists in the list, exists in the word censor list, or a matching username is present.',
-	'DISALLOWED_DELETED'		=> 'The disallowed username has been successfully removed.',
-	'DISALLOW_SUCCESSFUL'		=> 'The disallowed username has been successfully added.',
+	'DELETE_DISALLOW_EXPLAIN'	=> 'Egy letiltott felhasználónév eltávolításához válaszd ki a megfelelő nevet a listából, és kattints az elküld gombra',
+	'DELETE_DISALLOW_TITLE'		=> 'Letiltott felhasználónév eltávolítása',
+	'DISALLOWED_ALREADY'		=> 'A megadott név nem tiltható le. Vagy már tartalmazza a lista, vagy a szócenzúra listában van benne, vagy pedig létezik egy felhasználó ilyen felhasználónévvel.',
+	'DISALLOWED_DELETED'		=> 'A letiltott felhasználónév sikeresen eltávolításra került.',
+	'DISALLOW_SUCCESSFUL'		=> 'A letiltott felhasználónév sikeresen felvételre került.',
 
-	'NO_DISALLOWED'				=> 'No disallowed usernames',
-	'NO_USERNAME_SPECIFIED'		=> 'You haven’t selected or entered a username to operate with.',
+	'NO_DISALLOWED'				=> 'Nincs letiltott felhasználónév.',
+	'NO_USERNAME_SPECIFIED'		=> 'Nem adtál meg felhasználónevet, amin el lehetne végezni a műveletet.',
 ));
 
 // Reasons
 $lang = array_merge($lang, array(
-	'ACP_REASONS_EXPLAIN'	=> 'Here you can manage the reasons used in reports and denial messages when disapproving posts. There is one default reason (marked with a *) you are not able to remove, this reason is normally used for custom messages if no reason fits.',
-	'ADD_NEW_REASON'		=> 'Add new reason',
-	'AVAILABLE_TITLES'		=> 'Available localised reason titles',
+	'ACP_REASONS_EXPLAIN'	=> 'Itt a jelentésekben és a hozzászólások elutasításakor küldött üzenetekben használt okokat kezelheted. Van egy alapértelmezett ok (a *-gal megjelölt), melyet nem lehet eltávolítani, ezt lehet használni egyedi üzenetek megadásához, ha egyik ok sem felel meg.',
+	'ADD_NEW_REASON'		=> 'Új ok felvétele',
+	'AVAILABLE_TITLES'		=> 'Elérhető honosított ok nevek',
 	
-	'IS_NOT_TRANSLATED'			=> 'Reason has <strong>not</strong> been localised.',
-	'IS_NOT_TRANSLATED_EXPLAIN'	=> 'Reason has <strong>not</strong> been localised. If you want to provide the localised form, specify the correct key from the language files report reasons section.',
-	'IS_TRANSLATED'				=> 'Reason has been localised.',
-	'IS_TRANSLATED_EXPLAIN'		=> 'Reason has been localised. If the title you enter here is specified within the language files report reasons section, the localised form of the title and description will be used.',
+	'IS_NOT_TRANSLATED'			=> '<strong>Nem</strong> honosított ok',
+	'IS_NOT_TRANSLATED_EXPLAIN'	=> 'Az ok <strong>nincs</strong> honosítva. Ha meg akarod adni a honosított formáját, add meg a megfelelő nyelvi kulcsot a nyelvi állományok jelentés okok részéből.',
+	'IS_TRANSLATED'				=> 'Honosított ok',
+	'IS_TRANSLATED_EXPLAIN'		=> 'Az ok honosítva van. Ha az itt megadott név szerepel a nyelvi állományok jelentés okok részében, a honosított név és leírás lesz használva.',
 	
-	'NO_REASON'					=> 'Reason could not be found.',
-	'NO_REASON_INFO'			=> 'You have to specify a title and a description for this reason.',
-	'NO_REMOVE_DEFAULT_REASON'	=> 'You are not able to remove the default reason "Other".',
+	'NO_REASON'					=> 'Az ok nem található.',
+	'NO_REASON_INFO'			=> 'Meg kell adnod egy nevet és egy leírást az oknak.',
+	'NO_REMOVE_DEFAULT_REASON'	=> 'Az alapértelmezett „Egyéb” okot nem tudod eltávolítani.',
 
-	'REASON_ADD'				=> 'Add report/denial reason',
-	'REASON_ADDED'				=> 'Report/denial reason successfully added.',
-	'REASON_ALREADY_EXIST'		=> 'A reason with this title already exist, please enter another title for this reason.',
-	'REASON_DESCRIPTION'		=> 'Reason description',
-	'REASON_DESC_TRANSLATED'	=> 'Displayed reason description',
-	'REASON_EDIT'				=> 'Edit report/denial reason',
-	'REASON_EDIT_EXPLAIN'		=> 'Here you are able to add or edit a reason. If the reason is translated the localised version is used instead of the description entered here.',
-	'REASON_REMOVED'			=> 'Report/denial reason successfully removed.',
-	'REASON_TITLE'				=> 'Reason title',
-	'REASON_TITLE_TRANSLATED'	=> 'Displayed reason title',
-	'REASON_UPDATED'			=> 'Report/denial reason successfully updated.',
+	'REASON_ADD'				=> 'Jelentés/visszautasítás ok felvétele',
+	'REASON_ADDED'				=> 'A jelentés/visszautasítás ok sikeresen felvételre került.',
+	'REASON_ALREADY_EXIST'		=> 'Már létezik ok ilyen névvel, kérünk, adj más nevet az oknak.',
+	'REASON_DESCRIPTION'		=> 'Ok leírás',
+	'REASON_DESC_TRANSLATED'	=> 'Megjelenített ok leírás',
+	'REASON_EDIT'				=> 'Jelentés/visszautasítás ok szerkesztése',
+	'REASON_EDIT_EXPLAIN'		=> 'Itt fel tudsz venni, illetve szerkeszteni tudsz egy okot. Ha az ok le van fordítva, a honosított formája lesz használva az itt megadott leírás helyett.',
+	'REASON_REMOVED'			=> 'A jelentés/visszautasítás ok sikeresen eltávolításra került.',
+	'REASON_TITLE'				=> 'Ok neve',
+	'REASON_TITLE_TRANSLATED'	=> 'Megjelenített ok név',
+	'REASON_UPDATED'			=> 'A jelentés/visszautasítás ok sikeresen frissítésre került.',
 
-	'USED_IN_REPORTS'		=> 'Used in reports',
+	'USED_IN_REPORTS'		=> 'Használat száma',
 ));
 
 ?>
