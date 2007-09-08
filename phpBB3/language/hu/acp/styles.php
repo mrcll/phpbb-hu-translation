@@ -4,7 +4,7 @@
 * acp_styles [Hungarian]
 *
 * @package language
-* @version $Id: styles.php,v 1.10 2007-08-19 15:49:52 fberci Exp $
+* @version $Id: styles.php,v 1.11 2007-09-08 10:57:27 fberci Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -355,7 +355,7 @@ $lang = array_merge($lang, array(
 	'TEMPLATE_ADDED'			=> 'A sablonkészlet felvételre került, és el lett tárolva a fájlrendszerben.',
 	'TEMPLATE_ADDED_DB'			=> 'A sablonkészlet felvételre került, és el lett tárolva az adatbázisban.',
 	'TEMPLATE_CACHE'			=> 'Sablon gyorsítótár',
-	'TEMPLATE_CACHE_EXPLAIN'	=> 'Alapértelmezetten a phpBB gyorsítótárazza a sablonjainak lefordított változatát. Ezzel minden oldalletöltésnél csökkenti a szerver terhelését, és így az oldal generálásának idejét is csökkenti. Itt meg tudod tekinteni a gyorsítótárban lévő állományokat, és törölheted az egyes állományokat vagy akár a gyorsítótár teljes tartalmát.',
+	'TEMPLATE_CACHE_EXPLAIN'	=> 'Alapértelmezetten a phpBB gyorsítótárazza a sablonok lefordított változatát. Ezzel minden oldalletöltésnél csökkenti a szerver terhelését és így az oldal generálásának idejét is. Itt meg tudod tekinteni a gyorsítótárban lévő állományokat, valamint törölheted az egyes állományokat vagy akár a gyorsítótár teljes tartalmát.',
 	'TEMPLATE_CACHE_CLEARED'	=> 'A sablon gyorsítótár sikeresen kiürítésre került.',
 	'TEMPLATE_CACHE_EMPTY'		=> 'Nincs gyorsítótárazott sablon.',
 	'TEMPLATE_DELETED'			=> 'A sablonkészlet sikeresen törlésre került.',

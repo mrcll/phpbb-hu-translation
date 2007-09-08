@@ -4,7 +4,7 @@
 * install [Hungarian]
 *
 * @package language
-* @version $Id: install.php,v 1.27 2007-08-24 19:46:31 fberci Exp $
+* @version $Id: install.php,v 1.28 2007-09-08 10:57:27 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -444,7 +444,7 @@ $lang = array_merge($lang, array(
 	'NO_ERRORS'						=> 'Nincs hiba',
 	'NO_UPDATE_FILES'				=> 'Következő állományok frissítésének kihagyása',
 	'NO_UPDATE_FILES_EXPLAIN'		=> 'A következő, új vagy módosított állományok könyvtára, melyben elvileg lenniük kéne, nem található. Ha az alábbi lista olyan állományokat is tartalmaz, melyek nem a language/ vagy a styles/ könyvtárban vannak, akkor valószínűleg módosítottad a könyvtárszerkezeted, a frissítés pedig nem biztos, hogy teljes lesz.',
-	'NO_UPDATE_FILES_OUTDATED'		=> 'Nem található érvényes frissítési könyvtár, kérünk, győződj meg róla, hogy feltöltötted a szükséges állományokat.<br /><br />A phpBB-d valószínűleg <strong>nem</strong> a legújabb verziójú. A jelenlegi %1$s verziójú phpBB-dhez elérhető frissítés, látogasd meg a <a href="http://www.phpbb.com/downloads/" rel="external">http://www.phpbb.com/downloads/</a> weboldalt a %2$s verzióról %3$s verzióra való frissítő csomag letöltéséhez.', //?
+	'NO_UPDATE_FILES_OUTDATED'		=> 'Nem található érvényes frissítési könyvtár, kérünk, győződj meg róla, hogy feltöltötted a szükséges állományokat.<br /><br />A phpBB-d valószínűleg <strong>nem</strong> a legújabb verziójú. A jelenlegi %1$s verziójú phpBB-dhez van elérhető frissítés. A %2$s verzióról %3$s verzióra frissítő csomag letöltéséhez látogasd meg a <a href="http://www.phpbb.com/downloads/" rel="external">http://www.phpbb.com/downloads/</a> weboldalt.', //?
 	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'A phpBB-d a legújabb verziójú. Nincs szükség a frissítő futtatására. Ha le szeretnéd ellenőrizni a phpBB-d állományait, győződj meg róla, hogy feltöltötted a megfelelő frissítő állományokat.', //?
 	'NO_UPDATE_INFO'				=> 'Nem található az információ a frissítő állományról.',
 	'NO_UPDATES_REQUIRED'			=> 'Nincs szükség frissítésre.',
@@ -498,7 +498,7 @@ $lang = array_merge($lang, array(
 
 		<h1>Verziómegjelenési közlemény</h1>
 
-		<p>A frissítés folytatása előtt kérjük, olvasd el <a href="%1$s" title="%1$s"><strong>a legfrissebb verziót bejelentő közleményt</strong></a>, mivel hasznos információkat tartalmazhat. Mindenképp szerepel benne a változások listája és közvetlen link az új verzió letöltésére.</p>
+		<p>A frissítés folytatása előtt, kérjük, olvasd el <a href="%1$s" title="%1$s"><strong>a legfrissebb verziót bejelentő közleményt</strong></a>, mivel hasznos információkat tartalmazhat. Mindenképp szerepel benne a változások listája és közvetlen link az új verzió letöltésére.</p>
 
 		<br />
 
@@ -513,7 +513,7 @@ $lang = array_merge($lang, array(
 		</ul>
 
 		<p>Miután feltöltötted, a normál felhasználók nem tudják majd elérni a fórumot az install könyvtár létezése miatt.<br /><br />
-		<strong><a href="%2$s" title="%2$s">Most kezdd el a frissítést az install könyvtárba lépéssel</a>.</strong><br />
+		<strong><a href="%2$s" title="%2$s">Most kezdd el a frissítést az install könyvtárba lépéssel.</a></strong><br />
 		<br />
 		Ezután végig leszel vezetve a frissítés folyamatán. A frissítés végeztével értesítést kapsz majd.
 		</p>

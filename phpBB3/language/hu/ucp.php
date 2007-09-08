@@ -4,7 +4,7 @@
 * ucp [Hungarian]
 *
 * @package language
-* @version $Id: ucp.php,v 1.34 2007-08-23 23:05:04 fberci Exp $
+* @version $Id: ucp.php,v 1.35 2007-09-08 10:57:27 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
