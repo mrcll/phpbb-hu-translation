@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.56 2007-08-23 22:52:26 fberci Exp $
+* @version $Id: common.php,v 1.57 2007-09-08 10:57:27 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -97,8 +97,8 @@ $lang = array_merge($lang, array(
 	'BOARD_DISABLE'			=> 'A fórum jelenleg nem elérhető.',
 	'BOARD_DISABLED'		=> 'A fórum ideiglenesen szünetel.',
 	'BOARD_UNAVAILABLE'		=> 'A fórum ideiglenesen nem elérhető, kérlek próbálkozz újra pár perc múlva.',
-	'BROWSING_FORUM_GUEST'	=> 'Jelenlévő fórumozók: %1$s és %2$d vendég',
-	'BROWSING_FORUM_GUESTS'	=> 'Jelenlévő fórumozók: %1$s és %2$d vendég',
+	'BROWSING_FORUM_GUEST'	=> 'Jelenlévő fórumozók: %1$s valamint %2$d vendég',
+	'BROWSING_FORUM_GUESTS'	=> 'Jelenlévő fórumozók: %1$s valamint %2$d vendég',
 	'BYTES'					=> 'bájt',
 
 	'CANCEL'				=> 'Mégsem',
@@ -623,8 +623,8 @@ $lang = array_merge($lang, array(
 	'VIEW_LATEST_POST'			=> 'Utolsó hozzászólás megtekintése',
 	'VIEW_NEWEST_POST'			=> 'Első olvasatlan hozzászólás megtekintése',
 	'VIEW_NOTES'				=> 'Feljegyzések megtekintése',
-	'VIEW_ONLINE_TIME'			=> 'az elmúlt %d percben aktív felhasználók alapján',
-	'VIEW_ONLINE_TIMES'			=> 'az elmúlt %d percben aktív felhasználók alapján',
+	'VIEW_ONLINE_TIME'			=> 'Az elmúlt %d percben aktív felhasználók alapján.',
+	'VIEW_ONLINE_TIMES'			=> 'Az elmúlt %d percben aktív felhasználók alapján.',
 	'VIEW_TOPIC'				=> 'Téma megtekintése',
 	'VIEW_TOPIC_ANNOUNCEMENT'	=> 'Közlemény: ',
 	'VIEW_TOPIC_GLOBAL'			=> 'Általános közlemény: ',

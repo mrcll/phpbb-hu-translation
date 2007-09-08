@@ -4,7 +4,7 @@
 * posting [Hungarian]
 *
 * @package language
-* @version $Id: posting.php,v 1.10 2007-08-31 20:43:55 fberci Exp $
+* @version $Id: posting.php,v 1.11 2007-09-08 10:57:27 fberci Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
