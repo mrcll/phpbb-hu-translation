@@ -4,7 +4,7 @@
 * search [Hungarian]
 *
 * @package language
-* @version $Id: search.php,v 1.14 2007-09-16 19:04:33 fberci Exp $
+* @version $Id: search.php,v 1.15 2007-09-18 20:47:13 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -60,7 +60,7 @@ $lang = array_merge($lang, array(
 	'POST_CHARACTERS'		=> 'karakterének megjelenítése',
 
 	'RECENT_SEARCHES'		=> 'Legutóbbi keresések',
-	'RESULT_DAYS'			=> 'Időtartam', //??
+	'RESULT_DAYS'			=> 'Időintervallum', //?
 	'RESULT_SORT'			=> 'Találatok rendezése',
 	'RETURN_FIRST'			=> 'Hozzászólások első',
 	'RETURN_TO_SEARCH_ADV'	=> 'Vissza a részletes kereséshez',

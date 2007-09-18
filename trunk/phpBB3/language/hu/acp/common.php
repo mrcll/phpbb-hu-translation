@@ -4,7 +4,7 @@
 * acp common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.17 2007-08-19 20:48:23 fberci Exp $
+* @version $Id: common.php,v 1.18 2007-09-18 20:47:13 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -69,7 +69,7 @@ $lang = array_merge($lang, array(
 	'ACP_CLIENT_COMMUNICATION'	=> 'Kommunikáció a kliensekkel', //? 'Kapcsolat a kliensekkel', 'Kliens kommunikáció', 'Kommunikáció a kliensekkel'
 	'ACP_COOKIE_SETTINGS'		=> 'Süti beállítások',
 	'ACP_CRITICAL_LOGS'			=> 'Hibanapló',
-	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'Egyéni profil mezők',
+	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'Egyedi profil mezők',
 	
 	'ACP_DATABASE'				=> 'Adatbázis-kezelés',
 	'ACP_DISALLOW'				=> 'Letiltás',
