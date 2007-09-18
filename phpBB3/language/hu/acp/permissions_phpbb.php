@@ -3,7 +3,7 @@
 * acp_permissions (phpBB Permission Set) [Hungarian]
 *
 * @package language
-* @version $Id: permissions_phpbb.php,v 1.8 2007-08-24 15:40:55 fberci Exp $
+* @version $Id: permissions_phpbb.php,v 1.9 2007-09-18 20:47:13 fberci Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
@@ -206,7 +206,7 @@ $lang = array_merge($lang, array(
 	'acl_a_groupadd'	=> array('lang' => 'Készíthet új csoportot', 'cat' => 'user_group'),
 	'acl_a_groupdel'	=> array('lang' => 'Törölhet csoportot', 'cat' => 'user_group'),
 	'acl_a_ranks'		=> array('lang' => 'Kezelheti a rangokat', 'cat' => 'user_group'),
-	'acl_a_profile'		=> array('lang' => 'Kezelheti az egyéni profil mezőket', 'cat' => 'user_group'),
+	'acl_a_profile'		=> array('lang' => 'Kezelheti az egyedi profil mezőket', 'cat' => 'user_group'),
 	'acl_a_names'		=> array('lang' => 'Kezelheti a letiltott neveket', 'cat' => 'user_group'),
 	'acl_a_ban'			=> array('lang' => 'Kezelheti a kitiltásokat', 'cat' => 'user_group'),
 

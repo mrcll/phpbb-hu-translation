@@ -4,7 +4,7 @@
 * acp_board [Hungarian]
 *
 * @package language
-* @version $Id: board.php,v 1.16 2007-09-08 10:57:27 fberci Exp $
+* @version $Id: board.php,v 1.17 2007-09-18 20:47:13 fberci Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -259,14 +259,14 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'Itt be- vagy kikapcsolhatod a fórum bizonyos funkcióit a jobb teljesítmény érdekében. A legtöbb szerveren nincs szükség semmilyen funkció kikapcsolására. Azonban egyes rendszereken vagy másokkal megosztott tárhelyszolgáltatás esetében előnyös lehet kikapcsolni néhány igazából nem használt lehetőséget. Emellett korlátokat is meghatározhatsz a rendszer terhelésére vagy az aktív munkamenetek számára, melyek fölött a fórum automatikusan szünetelni fog.',
 
-	'CUSTOM_PROFILE_FIELDS'			=> 'Egyéni profil mezők',
+	'CUSTOM_PROFILE_FIELDS'			=> 'Egyedi profil mezők',
 	'LIMIT_LOAD'					=> 'Rendszerterhelés korlátozása',
 	'LIMIT_LOAD_EXPLAIN'			=> 'Ha a rendszer egy perces átlagos terhelése meghaladja ezt az értéket, akkor a fórum automatikusan szünetelni fog. Az 1.0 érték megegyezik egy processzor ~100%-os használatával. A funkció csak UNIX alapú rendszereken működik, és akkor is csak, ha elérhető ez az információ. Ha a phpBB-nek nem sikerül meghatároznia a terhelés korlátot, akkor ez az érték automatikusan 0-ra állítódik.',
 	'LIMIT_SESSIONS'				=> 'Munkamenetek korlátozása',
 	'LIMIT_SESSIONS_EXPLAIN'		=> 'Ha a munkamenetek száma egy perc alatt meghaladja ezt az értéket, a fórum automatikusan szünetelni fog. Állítsd 0-ra, hogy ne legyen korlátozás.',
-	'LOAD_CPF_MEMBERLIST'			=> 'Egyéni profil mezők megjelenítésének engedélyezése a taglistában',
-	'LOAD_CPF_VIEWPROFILE'			=> 'Egyéni profil mezők megjelenítése a felhasználók profiljában',
-	'LOAD_CPF_VIEWTOPIC'			=> 'Egyéni profil mezők megjelenítése a téma oldalakon',
+	'LOAD_CPF_MEMBERLIST'			=> 'Egyedi profil mezők megjelenítésének engedélyezése a taglistában',
+	'LOAD_CPF_VIEWPROFILE'			=> 'Egyedi profil mezők megjelenítése a felhasználók profiljában',
+	'LOAD_CPF_VIEWTOPIC'			=> 'Egyedi profil mezők megjelenítése a téma oldalakon',
 	'LOAD_USER_ACTIVITY'			=> 'Felhasználó aktivitásának mutatása',
 	'LOAD_USER_ACTIVITY_EXPLAIN'	=> 'Legaktívabb téma/fórum megjelenítése a felhasználók profiljában és a felhasználói vezérlőpultban. Több, mint egymillió hozzászólással rendelkező fórumoknál ajánlott kikapcsolni.',
 	'RECOMPILE_STYLES'				=> 'Elévült megjelenés komponensek újrafeldolgozása',
