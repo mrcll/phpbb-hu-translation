@@ -1,10 +1,10 @@
 <?php
 /**
 *
-* acp_profile [English]
+* acp_profile [Hungarian]
 *
 * @package language
-* @version $Id: profile.php,v 1.8 2007-09-18 20:47:13 fberci Exp $
+* @version $Id: profile.php,v 1.9 2007-10-02 18:49:03 fberci Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *

@@ -4,7 +4,7 @@
 * ucp [Hungarian]
 *
 * @package language
-* @version $Id: ucp.php,v 1.35 2007-09-08 10:57:27 fberci Exp $
+* @version $Id: ucp.php,v 1.36 2007-10-02 18:49:03 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -64,10 +64,10 @@ $lang = array_merge($lang, array(
 	'ADD'							=> 'Hozzáadás',
 	'ADD_BCC'						=> 'Hozzáadás [titkos másolat]', //? + titkos másolat
 	'ADD_FOES'						=> 'Új haragosok felvétele', //? kell az új?
-	'ADD_FOES_EXPLAIN'				=> 'Több felhasználónevet is megadhatsz mindegyiket külön sorba írva.',
+	'ADD_FOES_EXPLAIN'				=> 'Több felhasználónevet is megadhatsz, mindegyiket külön sorba írva.',
 	'ADD_FOLDER'					=> 'Mappa hozzáadása',
 	'ADD_FRIENDS'					=> 'Új barátok felvétele', //? kell az új?
-	'ADD_FRIENDS_EXPLAIN'			=> 'Több felhasználónevet is megadhatsz mindegyiket külön sorba írva.',
+	'ADD_FRIENDS_EXPLAIN'			=> 'Több felhasználónevet is megadhatsz, mindegyiket külön sorba írva.',
 	'ADD_NEW_RULE'					=> 'Új szűrő létrehozása', //? kell az új?
 	'ADD_RULE'						=> 'Szűrő létrehozása',
 	'ADD_TO'						=> 'Hozzáadás [címzett]', //? + címzett
