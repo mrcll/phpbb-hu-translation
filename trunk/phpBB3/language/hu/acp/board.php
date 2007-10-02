@@ -4,7 +4,7 @@
 * acp_board [Hungarian]
 *
 * @package language
-* @version $Id: board.php,v 1.17 2007-09-18 20:47:13 fberci Exp $
+* @version $Id: board.php,v 1.18 2007-10-02 18:49:03 fberci Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -142,9 +142,9 @@ $lang = array_merge($lang, array(
 	'EDIT_TIME'						=> 'Szerkesztés idejének korlátozása',
 	'EDIT_TIME_EXPLAIN'				=> 'Korlátozza, hogy az elküldés után mennyi ideig lehet szerkeszteni a hozzászólást. 0 érték megadásával a korlátozás kikapcsolható.',
 	'FLOOD_INTERVAL'				=> 'Flood időköz', //?
-	'FLOOD_INTERVAL_EXPLAIN'		=> 'Ennyi másodpercet kell várnia a felhasználónak két hozzászólás elküldése között. A jogosultságok segítségével beállíthatod, hogy egyes felhasználókra ez ne vonatkozzon.',
+	'FLOOD_INTERVAL_EXPLAIN'		=> 'Ennyi másodpercet kell várnia a felhasználónak két hozzászólás elküldése között. A jogosultságok segítségével beállíthatod, hogy bizonyos felhasználókra ez ne vonatkozzon.',
 	'HOT_THRESHOLD'					=> 'Népszerűségi küszöb',
-	'HOT_THRESHOLD_EXPLAIN'			=> 'Ennyi hozzászólást tartalmazó témák kerülnek népszerűként megjelölésre. A népszerű témák funkció kikapcsolásához állítsd ezt az értéket 0-ra.',
+	'HOT_THRESHOLD_EXPLAIN'			=> 'A legalább ennyi hozzászólást tartalmazó témák kerülnek népszerűként megjelölésre. A népszerű témák funkció kikapcsolásához állítsd ezt az értéket 0-ra.',
 	'MAX_POLL_OPTIONS'				=> 'Maximum választási lehetőségek száma szavazásoknál',
 	'MAX_POST_FONT_SIZE'			=> 'Maximum betűméret egy hozzászólásban',
 	'MAX_POST_FONT_SIZE_EXPLAIN'	=> 'Maximum betűméret, ami megengedett a hozzászólásokban. Állítsd 0-ra, hogy ne legyen korlátozás.',

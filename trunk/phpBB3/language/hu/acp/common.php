@@ -4,7 +4,7 @@
 * acp common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.18 2007-09-18 20:47:13 fberci Exp $
+* @version $Id: common.php,v 1.19 2007-10-02 18:49:03 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -142,7 +142,7 @@ $lang = array_merge($lang, array(
 	'ACP_RESTORE'				=> 'Visszaállítás',
 
 	'ACP_SEARCH'				=> 'Kereső konfiguráció',
-	'ACP_SEARCH_INDEX'			=> 'Kereső index',
+	'ACP_SEARCH_INDEX'			=> 'Keresőindex',
 	'ACP_SEARCH_SETTINGS'		=> 'Kereső beállítások',
 
 	'ACP_SECURITY_SETTINGS'		=> 'Biztonsági beállítások',

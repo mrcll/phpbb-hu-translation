@@ -1,18 +1,18 @@
-Subject: Köszönjük, hogy regisztráltál!
+Subject: KÃ¶szÃ¶njÃ¼k, hogy regisztrÃ¡ltÃ¡l!
 
 {WELCOME_MSG}
 
-Õrizd meg ezt az e-mailt, mert elképzelhetõ, hogy a késõbbiekben szükséged lesz rá. A fórumon létrehozott azonosító információi:
+Årizd meg ezt az e-mailt, mert elkÃ©pzelhetÅ‘, hogy a kÃ©sÅ‘bbiekben szÃ¼ksÃ©ged lesz rÃ¡. A fÃ³rumon lÃ©trehozott azonosÃ­tÃ³ informÃ¡ciÃ³i:
 
 ----------------------------
-Felhasználónév: {USERNAME}
-Jelszó: {PASSWORD}
+FelhasznÃ¡lÃ³nÃ©v: {USERNAME}
+JelszÃ³: {PASSWORD}
 ----------------------------
 
-A felhasználói azonosítód jelenleg inaktív, használatba vétele elõtt a fórum adminisztrátorának aktiválnia kell. Amint megtörtént, egy másik értesítõt fogsz errõl kapni e-mailben.
+A felhasznÃ¡lÃ³i azonosÃ­tÃ³d jelenleg inaktÃ­v, hasznÃ¡latba vÃ©tele elÅ‘tt a fÃ³rum adminisztrÃ¡torÃ¡nak aktivÃ¡lnia kell. Amint megtÃ¶rtÃ©nt, egy mÃ¡sik Ã©rtesÃ­tÅ‘t fogsz errÅ‘l kapni e-mailben.
 
-A jelszót ne felejtsd el, mert az adatbázisunkban kódolva szerepel, így nincs mód a késõbbiekben a kiderítésére. Ha esetleg mégis elfelejtenéd, akkor a belépési oldalon új jelszót kell igényelned, amelyet hasonlóképpen aktiválni kell használat elõtt, mint most.
+A jelszÃ³t ne felejtsd el, mert az adatbÃ¡zisunkban kÃ³dolva szerepel, Ã­gy nincs mÃ³d a kÃ©sÅ‘bbiekben a kiderÃ­tÃ©sÃ©re. Ha esetleg mÃ©gis elfelejtenÃ©d, akkor a belÃ©pÃ©si oldalon Ãºj jelszÃ³t kell igÃ©nyelned, amelyet hasonlÃ³kÃ©ppen aktivÃ¡lni kell hasznÃ¡lat elÅ‘tt, mint most.
 
-Köszönjük, hogy regisztráltál!
+KÃ¶szÃ¶njÃ¼k, hogy regisztrÃ¡ltÃ¡l!
 
 {EMAIL_SIG}
