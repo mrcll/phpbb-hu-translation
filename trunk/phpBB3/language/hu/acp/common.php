@@ -4,7 +4,7 @@
 * acp common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.19 2007-10-02 18:49:03 fberci Exp $
+* @version $Id: common.php,v 1.20 2007-10-04 20:44:29 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -604,8 +604,8 @@ $lang = array_merge($lang, array(
 	'LOG_RESYNC_POST_MARKING'	=> '<strong>Csillagozott témák újraszinkronizálása</strong>',
 	'LOG_RESYNC_STATS'			=> '<strong>Hozzászólás, téma és felhasználói statisztikák újraszinkronizálása</strong>',
 
-	'LOG_SEARCH_INDEX_CREATED'	=> '<strong>Kereső index létrehozása</strong><br />» %s',
-	'LOG_SEARCH_INDEX_REMOVED'	=> '<strong>Kereső index törlése</strong><br />» %s',
+	'LOG_SEARCH_INDEX_CREATED'	=> '<strong>Keresőindex létrehozása</strong><br />» %s',
+	'LOG_SEARCH_INDEX_REMOVED'	=> '<strong>Keresőindex törlése</strong><br />» %s',
 	'LOG_STYLE_ADD'				=> '<strong>Új megjelenés felvétele</strong><br />» %s',
 	'LOG_STYLE_DELETE'			=> '<strong>Megjelenés törlése</strong><br />» %s',
 	'LOG_STYLE_EDIT_DETAILS'	=> '<strong>Megjelenés szerkesztése</strong><br />» %s',
