@@ -4,7 +4,7 @@
 * ucp [Hungarian]
 *
 * @package language
-* @version $Id: ucp.php,v 1.36 2007-10-02 18:49:03 fberci Exp $
+* @version $Id: ucp.php,v 1.37 2007-10-06 20:45:10 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -344,7 +344,7 @@ $lang = array_merge($lang, array(
 	'RECIPIENTS'						=> 'Címzettek',
 	'REGISTRATION'						=> 'Regisztráció',
 	'RELATIVE_DAYS'						=> 'relatív napok', //?
-	'RELEASE_MESSAGES'					=> '%sVisszatartott üzenetek kiengedése%s: ha elegendő hely szabaddá válik visszakerülnek az eredeti mappájukba.', //? "sRelease all on-hold messages%s… they will be re-sorted into the appropriate folder if enough space is made available."
+	'RELEASE_MESSAGES'					=> '%sVisszatartott üzenetek kiengedése:%s ha elegendő hely szabaddá válik, visszakerülnek az eredeti mappájukba.', //? "sRelease all on-hold messages%s… they will be re-sorted into the appropriate folder if enough space is made available."
 	'REMOVE_ADDRESS'					=> 'Cím törlése', //? nem találtam sehol, hogy használva lenne
 	'REMOVE_SELECTED_BOOKMARKS'			=> 'Kiválasztott kedvencek törlése',
 	'REMOVE_SELECTED_BOOKMARKS_CONFIRM'	=> 'Biztosan törölni akarod a kiválasztott témákat a kedvencekből?',
