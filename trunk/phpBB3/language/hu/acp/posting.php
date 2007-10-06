@@ -4,7 +4,7 @@
 * posting [Hungarian]
 *
 * @package language
-* @version $Id: posting.php,v 1.11 2007-09-08 10:57:27 fberci Exp $
+* @version $Id: posting.php,v 1.12 2007-10-06 20:45:11 fberci Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -193,7 +193,7 @@ $lang = array_merge($lang, array(
 
 // Ranks
 $lang = array_merge($lang, array(
-	'ACP_RANKS_EXPLAIN'		=> 'Ennek az űrlapnak segítségével hozzáadhatsz, valamit szerkesztheted, és törölheted a rangokat. Speciális rangot is készíthetsz, melyet a felhasználókhoz a felhasználók kezelése funkció segítségével rendelhetsz hozzá.',
+	'ACP_RANKS_EXPLAIN'		=> 'Ennek az űrlapnak segítségével hozzáadhatsz, valamit szerkesztheted, és törölheted a rangokat. Speciális rangot is készíthetsz, melyet a felhasználók kezelése funkció segítségével rendelhetsz hozzá a felhasználókhoz.',
 	'ADD_RANK'				=> 'Új rang hozzáadása',
 
 	'MUST_SELECT_RANK'		=> 'Ki kell választanod egy rangot.',

@@ -4,7 +4,7 @@
 * acp_groups [Hungarian]
 *
 * @package language
-* @version $Id: groups.php,v 1.9 2007-10-04 20:44:29 fberci Exp $
+* @version $Id: groups.php,v 1.10 2007-10-06 20:45:11 fberci Exp $
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 	'GROUP_CONFIRM_ADD_USER'		=> 'Biztosan fel akarod venni a %1$s felhasználót a csoportba?',
 	'GROUP_CONFIRM_ADD_USERS'		=> 'Biztosan fel akarod venni a %1$s felhasználókat a csoportba?',
 	'GROUP_CREATED'					=> 'A csoport sikeresen létrehozásra került.',
-	'GROUP_DEFAULT'					=> 'Csoport elsődlegessé tétele a tagoknak',
+	'GROUP_DEFAULT'					=> 'Csoport elsődlegessé tétele a tagnak',
 	'GROUP_DEFS_UPDATED'			=> 'A csoport elsődlegessé tételre került a kiválasztott tagoknak.',
 	'GROUP_DELETE'					=> 'Tag törlése a csoportból',
 	'GROUP_DELETED'					=> 'A csoport sikeresen törlésre került, valamint az elsődleges csoportok is sikeresen beállításra kerültek.',

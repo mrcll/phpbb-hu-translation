@@ -4,7 +4,7 @@
 * acp common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.20 2007-10-04 20:44:29 fberci Exp $
+* @version $Id: common.php,v 1.21 2007-10-06 20:45:11 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -359,7 +359,7 @@ $lang = array_merge($lang, array(
 	'INACTIVE_REASON_REMIND'		=> 'Azonosító újraaktiválásra kötelezve',
 	'INACTIVE_REASON_UNKNOWN'		=> 'Ismeretlen',
 	'INACTIVE_USERS'				=> 'Inaktív felhasználók',
-	'INACTIVE_USERS_EXPLAIN'		=> 'Ez a lista azokat a felhasználókat tartalmazza, akik regisztráltak, de azonosítójuk inaktív. Szándékod szerint aktiválhatod, törölheted vagy emlékeztetheted (egy e-mail küldésével) ezeket a felhasználókat.',
+	'INACTIVE_USERS_EXPLAIN'		=> 'Ez a lista azokat a felhasználókat tartalmazza, akik regisztráltak, de azonosítójuk inaktív. Szándékod szerint aktiválhatod, törölheted vagy emlékeztetheted (egy e-mail küldésével) őket.',
 	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Ez a lista az utolsó 10 regisztrált felhasználót tartalmazza, akinek inaktív az azonosítója. A teljes listát megtekintheted a menü megfelelő elemére vagy az alább lévő linkre kattintva, ahol aktiválhatod, törölheted vagy emlékeztetheted (egy e-mail küldésével) ezeket a felhasználókat.',
 
 	'NO_INACTIVE_USERS'	=> 'Nincs inaktív felhasználó.',
