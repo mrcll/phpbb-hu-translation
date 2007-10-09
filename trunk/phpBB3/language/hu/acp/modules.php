@@ -1,10 +1,10 @@
 <?php
 /** 
 *
-* acp_modules [English]
+* acp_modules [Hungarian]
 *
 * @package language
-* @version $Id: modules.php,v 1.7 2007-07-28 20:59:59 fberci Exp $
+* @version $Id: modules.php,v 1.8 2007-10-09 20:28:57 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -31,49 +31,49 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_MODULE_MANAGEMENT_EXPLAIN'	=> 'Here you are able to manage all kind of modules. Please note that the ACP has a three-level menu structure (Category -> Category -> Module) whereby the others having a two-level menu structure (Category -> Module) which must be kept. Please also be aware that you may lock out yourself if you disable or delete the modules responsible for the module management itself.',
-	'ADD_MODULE'					=> 'Add module',
-	'ADD_MODULE_CONFIRM'			=> 'Are you sure you want to add the selected module with the selected mode?',
-	'ADD_MODULE_TITLE'				=> 'Add module',
+	'ACP_MODULE_MANAGEMENT_EXPLAIN'	=> 'Itt a modulokat tudod kezelni. Kérjük, vedd figyelembe, hogy az AVP-nek háromszintű menüstruktúrája van (kategória -> kategória -> modul), míg a többi kétszintű menüstruktúrával rendelkezik (kategória -> modul), amit meg kell tartani. Arra is ügyelj, hogy ne zárd ki magad, mivel ha kikapcsolod vagy törlöd a modulkezelésért felelős modult, ez is megtörténhet.',
+	'ADD_MODULE'					=> 'Modul hozzáadása',
+	'ADD_MODULE_CONFIRM'			=> 'Biztosan hozzá akarod adni a kiválasztott modult a kiválasztott móddal?',
+	'ADD_MODULE_TITLE'				=> 'Modul hozzáadása',
 
-	'CANNOT_REMOVE_MODULE'	=> 'Unable to remove module, it has assigned children. Please remove or move all children before performing this action.',
-	'CATEGORY'				=> 'Category',
-	'CHOOSE_MODE'			=> 'Choose module mode',
-	'CHOOSE_MODE_EXPLAIN'	=> 'Choose the modules mode being used.',
-	'CHOOSE_MODULE'			=> 'Choose module',
-	'CHOOSE_MODULE_EXPLAIN'	=> 'Choose the file being called by this module.',
-	'CREATE_MODULE'			=> 'Create new module',
+	'CANNOT_REMOVE_MODULE'	=> 'A modult nem lehet eltávolítani, hozzá vannak rendelve gyerekek. Kérünk, először mozgasd ki az összes gyerek modult a modul alól, hogy a művelet végrehajtható legyen.',
+	'CATEGORY'				=> 'Kategória',
+	'CHOOSE_MODE'			=> 'Modul módjának kiválasztása',
+	'CHOOSE_MODE_EXPLAIN'	=> 'Válaszd ki a modul használandó módját.',
+	'CHOOSE_MODULE'			=> 'Modul kiválasztása',
+	'CHOOSE_MODULE_EXPLAIN'	=> 'Válaszd ki a modul által meghívandó állományt.',
+	'CREATE_MODULE'			=> 'Új modul létrehozása',
 
-	'DEACTIVATED_MODULE'	=> 'Deactivated module',
-	'DELETE_MODULE'			=> 'Delete module',
-	'DELETE_MODULE_CONFIRM'	=> 'Are you sure you want to remove this module?',
+	'DEACTIVATED_MODULE'	=> 'Modul deaktiválása',
+	'DELETE_MODULE'			=> 'Modul törlése',
+	'DELETE_MODULE_CONFIRM'	=> 'Biztosan el akarod távolítani ezt a modult?',
 
-	'EDIT_MODULE'			=> 'Edit module',
-	'EDIT_MODULE_EXPLAIN'	=> 'Here you are able to enter module specific settings.',
+	'EDIT_MODULE'			=> 'Modul szerkesztése',
+	'EDIT_MODULE_EXPLAIN'	=> 'Itt modulspecifikus adatokat adhatsz meg.',
 
-	'HIDDEN_MODULE'			=> 'Hidden module',
+	'HIDDEN_MODULE'			=> 'Rejtett modul',
 
-	'MODULE'					=> 'Module',
-	'MODULE_ADDED'				=> 'Module successfully added.',
-	'MODULE_DELETED'			=> 'Module successfully removed.',
-	'MODULE_DISPLAYED'			=> 'Module displayed',
-	'MODULE_DISPLAYED_EXPLAIN'	=> 'If you do not wish to display this module, but want to use it, set this to no.',
-	'MODULE_EDITED'				=> 'Module successfully edited.',
-	'MODULE_ENABLED'			=> 'Module enabled',
-	'MODULE_LANGNAME'			=> 'Module language name',
-	'MODULE_LANGNAME_EXPLAIN'	=> 'Enter the displayed module name. Use language constant if name is served from language file.',
-	'MODULE_TYPE'				=> 'Module type',
+	'MODULE'					=> 'Modul',
+	'MODULE_ADDED'				=> 'A modul sikeresen hozzáadásra került.',
+	'MODULE_DELETED'			=> 'A modul sikeresen eltávolításra került.',
+	'MODULE_DISPLAYED'			=> 'Modul megjelenítése',
+	'MODULE_DISPLAYED_EXPLAIN'	=> 'Ha nem szeretnéd, hogy a modul megjelenjen, de szeretnéd használni, állítsd nemre.',
+	'MODULE_EDITED'				=> 'A modul sikeresen szerkesztésre került.',
+	'MODULE_ENABLED'			=> 'Modul bekapcsolása',
+	'MODULE_LANGNAME'			=> 'Modul nyelvi neve',
+	'MODULE_LANGNAME_EXPLAIN'	=> 'Add meg a megjelenített modulnevet. Használj nyelvi állandót, ha a név nyelvi állományból jön.',
+	'MODULE_TYPE'				=> 'Modul típusa',
 
-	'NO_CATEGORY_TO_MODULE'	=> 'Unable to turn category into module. Please remove/move all children before performing this action.',
-	'NO_MODULE'				=> 'No module found.',
-	'NO_MODULE_ID'			=> 'No module id specified.',
-	'NO_MODULE_LANGNAME'	=> 'No module language name specified.',
-	'NO_PARENT'				=> 'No Parent',
+	'NO_CATEGORY_TO_MODULE'	=> 'A kategóriát nem lehet modullá alakítani. Kérjük, először töröld/mozgasd át a kategória gyerekeit, hogy a művelet elvégezhető legyen.',
+	'NO_MODULE'				=> 'Nem található modul.',
+	'NO_MODULE_ID'			=> 'Nincs modulazonosító megadva.',
+	'NO_MODULE_LANGNAME'	=> 'Nem adtad meg a modul nyelvi nevét.',
+	'NO_PARENT'				=> 'Nincs szülő',
 
-	'PARENT'				=> 'Parent',
-	'PARENT_NO_EXIST'		=> 'Parent does not exist.',
+	'PARENT'				=> 'Szülő',
+	'PARENT_NO_EXIST'		=> 'A szülő nem létezik.',
 
-	'SELECT_MODULE'			=> 'Select a module',
+	'SELECT_MODULE'			=> 'Válassz egy modult',
 ));
 
 ?>
