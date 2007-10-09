@@ -1,10 +1,10 @@
 <?php
 /** 
 *
-* acp_language [English]
+* acp_language [Hungarian]
 *
 * @package language
-* @version $Id: language.php,v 1.7 2007-07-28 20:59:59 fberci Exp $
+* @version $Id: language.php,v 1.8 2007-10-09 20:28:57 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -31,67 +31,67 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_FILES'						=> 'Admin language files',
-	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Here you are able to install/remove language packs.',
+	'ACP_FILES'						=> 'Adminisztrátori nyelvi állományok',
+	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Itt a nyelvi csomagokat telepítheted, illetve törölheted.',
 
-	'EMAIL_FILES'			=> 'E-mail templates',
+	'EMAIL_FILES'			=> 'E-mail sablonok',
 
-	'FILE_CONTENTS'				=> 'File contents',
-	'FILE_FROM_STORAGE'			=> 'File from storage folder',
+	'FILE_CONTENTS'				=> 'Állomány tartalma',
+	'FILE_FROM_STORAGE'			=> 'Állomány a tároló mappából', //?
 
-	'HELP_FILES'				=> 'Help files',
+	'HELP_FILES'				=> 'Súgó állományok',
 
-	'INSTALLED_LANGUAGE_PACKS'	=> 'Installed language packs',
-	'INVALID_LANGUAGE_PACK'		=> 'The selected language pack seems to be not valid. Please verify the language pack and upload it again if necessary.',
-	'INVALID_UPLOAD_METHOD'		=> 'The selected upload method is not valid, please choose a different method.',
+	'INSTALLED_LANGUAGE_PACKS'	=> 'Telepített nyelvi csomagok',
+	'INVALID_LANGUAGE_PACK'		=> 'A kiválasztott nyelvi csomag nem tűnik érvényesnek. Kérjük, ellenőrizd a nyelvi csomagot, és ha szükséges, töltsd fel újra.',
+	'INVALID_UPLOAD_METHOD'		=> 'A kiválasztott feltöltési mód nem érvényes, kérünk, válassz másik módot.',
 
-	'LANGUAGE_DETAILS_UPDATED'			=> 'Language details successfully updated.',
-	'LANGUAGE_ENTRIES'					=> 'Language entries',
-	'LANGUAGE_ENTRIES_EXPLAIN'			=> 'Here you are able to change existing language pack entries or not already translated ones.<br /><strong>Note:</strong> Once you changed a language file, the changes will be stored within a separate folder for you to download. The changes will not be seen by your users until you replace the original language files at your webspace (by uploading them).',
-	'LANGUAGE_FILES'					=> 'Language files',
-	'LANGUAGE_KEY'						=> 'Language key',
-	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> 'This language pack is already installed.',
-	'LANGUAGE_PACK_DELETED'				=> 'The language pack <strong>%s</strong> has been removed successfully. All users using this language have been reset to the boards default language.',
-	'LANGUAGE_PACK_DETAILS'				=> 'Language pack details',
-	'LANGUAGE_PACK_INSTALLED'			=> 'The language pack <strong>%s</strong> has been successfully installed.',
+	'LANGUAGE_DETAILS_UPDATED'			=> 'A nyelvi adatok sikeresen frissítésre kerültek.',
+	'LANGUAGE_ENTRIES'					=> 'Nyelvi elemek', //? 'Nyelvi bejegyzések'
+	'LANGUAGE_ENTRIES_EXPLAIN'			=> 'Itt megváltoztathatod a jelenlegi nyelvi csomag bejegyzéseket vagy a még nem lefordítottakat.<br /><strong>Megjegyzés:</strong> Miután módosítottad a nyelvi állományt, a változtatások egy külön mappában kerülnek majd tárolásra, ahonnan letöltheted a csomagot. Amíg az eredeti nyelvi állományokat nem helyettesíted az újakkal (azzal, hogy feltöltöd a tárhelyedre), a változtatások a felhasználóid számára nem lesznek érzékelhetők.',
+	'LANGUAGE_FILES'					=> 'Nyelvi állományok',
+	'LANGUAGE_KEY'						=> 'Nyelvi kulcs',
+	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> 'Ez a nyelvi csomag már telepítve van.',
+	'LANGUAGE_PACK_DELETED'				=> 'A <strong>%s</strong> nyelvi csomag sikeresen eltávolításra került. Az ezt a nyelvet használó felhasználók nyelve visszaállításra került a fórum alapértelmezett nyelvére.',
+	'LANGUAGE_PACK_DETAILS'				=> 'Nyelvi csomag adatok',
+	'LANGUAGE_PACK_INSTALLED'			=> 'A <strong>%s</strong> nyelvi csomag sikeresen telepítésre került.',
 	'LANGUAGE_PACK_ISO'					=> 'ISO',
-	'LANGUAGE_PACK_LOCALNAME'			=> 'Local name',
-	'LANGUAGE_PACK_NAME'				=> 'Name',
-	'LANGUAGE_PACK_NOT_EXIST'			=> 'The selected language pack does not exist.',
-	'LANGUAGE_PACK_USED_BY'				=> 'Used by (including robots)',
-	'LANGUAGE_VARIABLE'					=> 'Language variable',
-	'LANG_AUTHOR'						=> 'Language pack author',
-	'LANG_ENGLISH_NAME'					=> 'English name',
-	'LANG_ISO_CODE'						=> 'ISO code',
-	'LANG_LOCAL_NAME'					=> 'Local name',
+	'LANGUAGE_PACK_LOCALNAME'			=> 'Lokalizált név', //? 'Helyi név'
+	'LANGUAGE_PACK_NAME'				=> 'Név',
+	'LANGUAGE_PACK_NOT_EXIST'			=> 'A kiválasztott nyelvi csomag nem létezik.',
+	'LANGUAGE_PACK_USED_BY'				=> 'Használók száma (robotok beleértve)',
+	'LANGUAGE_VARIABLE'					=> 'Nyelvi változó',
+	'LANG_AUTHOR'						=> 'Nyelvi csomag szerzője',
+	'LANG_ENGLISH_NAME'					=> 'Angol név',
+	'LANG_ISO_CODE'						=> 'ISO kód',
+	'LANG_LOCAL_NAME'					=> 'Lokalizált név',
 
-	'MISSING_LANGUAGE_FILE'		=> 'Missing language file: <strong style="color:red">%s</strong>',
-	'MISSING_LANG_VARIABLES'	=> 'Missing language variables',
-	'MODS_FILES'				=> 'MODs language files',
+	'MISSING_LANGUAGE_FILE'		=> 'Hiányzó nyelvi állomány: <strong style="color:red">%s</strong>',
+	'MISSING_LANG_VARIABLES'	=> 'Hiányzó nyelvi változók',
+	'MODS_FILES'				=> 'MOD-ok nyelvi állományai',
 
-	'NO_FILE_SELECTED'				=> 'You haven’t specified a language file.',
-	'NO_LANG_ID'					=> 'You haven’t specified a language pack.',
-	'NO_REMOVE_DEFAULT_LANG'		=> 'You are not able to remove the default language pack.<br />If you want to remove this language pack, change your boards default language first.',
-	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'No uninstalled language packs',
+	'NO_FILE_SELECTED'				=> 'Nem adtál meg nyelvi állományt.',
+	'NO_LANG_ID'					=> 'Nem adtál meg nyelvi csomagot.',
+	'NO_REMOVE_DEFAULT_LANG'		=> 'Az alapértelmezett nyelvi csomagot nem tudod eltávolítani.<br />Ha törölni szeretnéd ezt a nyelvi csomagot, először változtasd meg a fórum alapértelmezett nyelvét.',
+	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Nincs telepítetlen nyelvi csomag.',
 
-	'REMOVE_FROM_STORAGE_FOLDER'		=> 'Remove from storage folder',
+	'REMOVE_FROM_STORAGE_FOLDER'		=> 'Törlés a tárolási mappából',
 
-	'SELECT_DOWNLOAD_FORMAT'	=> 'Select download format',
-	'SUBMIT_AND_DOWNLOAD'		=> 'Submit and download file',
-	'SUBMIT_AND_UPLOAD'			=> 'Submit and upload file',
+	'SELECT_DOWNLOAD_FORMAT'	=> 'Letöltési formátum kiválasztása',
+	'SUBMIT_AND_DOWNLOAD'		=> 'Állomány elküldése és letöltése',
+	'SUBMIT_AND_UPLOAD'			=> 'Állomány elküldése és feltöltése',
 
-	'THOSE_MISSING_LANG_FILES'			=> 'The following language files are missing from the %s language folder',
-	'THOSE_MISSING_LANG_VARIABLES'		=> 'The following language variables are missing from the <strong>%s</strong> language pack',
+	'THOSE_MISSING_LANG_FILES'			=> 'A következő nyelvi állományok hiányoznak a %s nyelvi könyvtárból:',
+	'THOSE_MISSING_LANG_VARIABLES'		=> 'A következő nyelvi változók hiányoznak a <strong>%s</strong> nyelvi csomagból:',
 
-	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Uninstalled language packs',
+	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Telepítetlen nyelvi csomagok.',
 
-	'UNABLE_TO_WRITE_FILE'		=> 'The file could not be written to %s.',
-	'UPLOAD_COMPLETED'			=> 'The upload was completed successfully.',
-	'UPLOAD_FAILED'				=> 'The upload failed for unknown reasons. You may need to replace the relevant file manually.',
-	'UPLOAD_METHOD'				=> 'Upload method',
-	'UPLOAD_SETTINGS'			=> 'Upload settings',
+	'UNABLE_TO_WRITE_FILE'		=> 'Az állományt nem sikerült kiírni a %s helyre.', //?
+	'UPLOAD_COMPLETED'			=> 'A feltöltés sikeresen befejezésre került.',
+	'UPLOAD_FAILED'				=> 'A feltöltés ismeretlen okokból nem volt sikeres. A megfelelő állományt helyettesítsd kézzel.',
+	'UPLOAD_METHOD'				=> 'Feltöltés módja',
+	'UPLOAD_SETTINGS'			=> 'Feltöltés beállítások',
 
-	'WRONG_LANGUAGE_FILE'		=> 'Selected language file is invalid.',
+	'WRONG_LANGUAGE_FILE'		=> 'A kiválasztott nyelvi állomány hibás.',
 ));
 
 ?>

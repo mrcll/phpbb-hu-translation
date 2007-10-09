@@ -1,10 +1,10 @@
 <?php
 /** 
 *
-* acp_email [English]
+* acp_email [Hungarian]
 *
 * @package language
-* @version $Id: email.php,v 1.7 2007-07-28 20:59:59 fberci Exp $
+* @version $Id: email.php,v 1.8 2007-10-09 20:28:57 fberci Exp $
 * @copyright (c) 2005 phpBB Group 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -32,31 +32,31 @@ if (empty($lang) || !is_array($lang))
 
 // Email settings
 $lang = array_merge($lang, array(
-	'ACP_MASS_EMAIL_EXPLAIN'		=> 'Here you can e-mail a message to either all of your users or all users of a specific group <strong>having the option to receive mass e-mails enabled</strong>. To achieve this an e-mail will be sent out to the administrative e-mail address supplied, with a blind carbon copy sent to all recipients. The default setting is to only include 50 recipients in such an e-mail, for more recipients more e-mails will be sent. If you are emailing a large group of people please be patient after submitting and do not stop the page halfway through. It is normal for a mass emailing to take a long time, you will be notified when the script has completed.',
-	'ALL_USERS'						=> 'All users',
+	'ACP_MASS_EMAIL_EXPLAIN'		=> 'Itt egy e-mailt küldhetsz az összes olyan felhasználónak vagy egy meghatározott csoport olyan tagjainak, <strong>akinek be van kapcsolva a csoport e-mail fogadása beállítása</strong>. Ez a következő módon fog történni: a megadott adminisztrációs e-mail címre egy e-mail kerül kiküldésre, és a címzettek titkos másolatot kapnak ebből a levélből. Az alap beállítás szerint egy levélben csak 50 címzett fog szerepelni, több címzettnél több e-mail kerül kiküldésre. Ha sok embernek küldesz e-mailt, az űrlap elküldése után, kérünk, légy türelmes, ne szakítsd meg az oldal töltését félúton. Teljesen normális, hogy a csoportos e-mail küldése hosszú ideig tart; amint a szkript befejezte futását, értesítve leszel.',
+	'ALL_USERS'						=> 'Összes felhasználó',
 
-	'COMPOSE'				=> 'Compose',
+	'COMPOSE'				=> 'Üzenet írása',
 
-	'EMAIL_SEND_ERROR'		=> 'There were one or more errors while sending the e-mail. Please check the %sError log%s for detailed error messages.',
-	'EMAIL_SENT'			=> 'This message has been sent.',
-	'EMAIL_SENT_QUEUE'		=> 'This message has been queued for sending.',
+	'EMAIL_SEND_ERROR'		=> 'Az e-mail küldése során fellépett egy vagy több hiba. A pontos hibaüzenetről, kérünk, tájékozódj a %shibanaplóban%s.',
+	'EMAIL_SENT'			=> 'Az üzenet elküldésre került.',
+	'EMAIL_SENT_QUEUE'		=> 'Az üzenet bekerült az elküldésre váró e-mailek sorába.',
 
-	'LOG_SESSION'			=> 'Log mail session to critical log',
+	'LOG_SESSION'			=> 'E-mail munkamenet naplózása a kritikus hibák naplóba', //? nem használják?!
 
-	'SEND_IMMEDIATELY'		=> 'Send immediately',
-	'SEND_TO_GROUP'			=> 'Send to group',
-	'SEND_TO_USERS'			=> 'Send to users',
-	'SEND_TO_USERS_EXPLAIN'	=> 'Entering names here will override any group selected above. Enter each username on a new line.',
+	'SEND_IMMEDIATELY'		=> 'Küldés azonnal',
+	'SEND_TO_GROUP'			=> 'Címzett csoport',
+	'SEND_TO_USERS'			=> 'Címzett felhasználók',
+	'SEND_TO_USERS_EXPLAIN'	=> 'Az itt megadott felhasználónevek felülírják a feljebb kiválasztott csoportot. Minden felhasználónevet új sorba írj.',
 	
-	'MAIL_HIGH_PRIORITY'	=> 'High',
-	'MAIL_LOW_PRIORITY'		=> 'Low',
-	'MAIL_NORMAL_PRIORITY'	=> 'Normal',
-	'MAIL_PRIORITY'			=> 'Mail priority',
-	'MASS_MESSAGE'			=> 'Your message',
-	'MASS_MESSAGE_EXPLAIN'	=> 'Please note that you may enter only plain text. All markup will be removed before sending.',
+	'MAIL_HIGH_PRIORITY'	=> 'Nagy',
+	'MAIL_LOW_PRIORITY'		=> 'Kicsi',
+	'MAIL_NORMAL_PRIORITY'	=> 'Normális',
+	'MAIL_PRIORITY'			=> 'Levél fontossága',
+	'MASS_MESSAGE'			=> 'Üzenet',
+	'MASS_MESSAGE_EXPLAIN'	=> 'Kérjük, vedd figyelembe, csak sima szöveget adhatsz meg. Az elküldés előtt minden kód eltávolításra kerül.',
 	
-	'NO_EMAIL_MESSAGE'		=> 'You must enter a message.',
-	'NO_EMAIL_SUBJECT'		=> 'You must specify a subject for your message.',
+	'NO_EMAIL_MESSAGE'		=> 'Meg kell adnod az üzenetet.',
+	'NO_EMAIL_SUBJECT'		=> 'Meg kell adnod az üzenet témáját.',
 ));
 
 ?>
