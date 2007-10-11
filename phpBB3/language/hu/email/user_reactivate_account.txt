@@ -1,4 +1,4 @@
-Subject: Aktiváld újra az azonosítód az "{SITENAME}" oldalon ({U_BOARD})
+Subject: Aktiváld újra az azonosítód az "{SITENAME}" oldalon!
 
 A fórum egyik adminisztrátora újraaktiválásra kötelezte az azonosítód. Az azonosítód jelenleg inaktív.
 Az azonosítód újraaktiválásához kövesd a következő lépéseket.

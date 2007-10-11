@@ -4,8 +4,8 @@
 * install [Hungarian]
 *
 * @package language
-* @version $Id: install.php,v 1.28 2007-09-08 10:57:27 fberci Exp $
-* @copyright (c) 2005 phpBB Group 
+* @version $Id: install.php,v 1.29 2007-10-11 17:02:25 fberci Exp $
+* @copyright (c) 2005 phpBB Group modified by „Magyar phpBB Közösség fordítók” in 2007 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
 */
@@ -13,6 +13,11 @@
 /**
 * DO NOT CHANGE
 */
+if (!defined('IN_PHPBB'))
+{
+	exit;
+}
+
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
@@ -65,7 +70,7 @@ $lang = array_merge($lang, array(
 	'CONFIG_CONVERT'			=> 'Konfiguráció konvertálása', //? "Converting the configuration" - configuration?
 	'CONFIG_FILE_UNABLE_WRITE'	=> 'Nem sikerült kiírni a konfigurációs állományt. Alább találod ezen állomány létrehozásának alternatív módjait.',
 	'CONFIG_FILE_WRITTEN'		=> 'A konfigurációs állomány kiírásra került. Továbbléphetsz a telepítés következő lépésére.', //? "_Most_már_ továbbléphetsz..."
-	'CONFIG_PHPBB_EMPTY'		=> 'A phpBB3 "%s" konfigurációs változója üres.', //? "The phpBB3 config variable for "%s" is empty." jelentés/értelem, fogalmazás
+	'CONFIG_PHPBB_EMPTY'		=> 'A phpBB3 „%s” konfigurációs változója üres.', //? "The phpBB3 config variable for “%s” is empty." jelentés/értelem, fogalmazás
 	'CONFIG_RETRY'				=> 'Újra', //??
 	'CONTACT_EMAIL_CONFIRM'		=> 'Kapcsolat e-mail cím megerősítése', //? kapcsolat e-mail
 	'CONTINUE_CONVERT'			=> 'Konvertálás folytatása',
@@ -79,15 +84,16 @@ $lang = array_merge($lang, array(
 	'CONVERT_INTRO_BODY'		=> 'Itt adatokat importálhatsz másik (telepített) fórumrendszerekből. Az alábbi lista tartalmazza az elérhető konvertálókat. Ha a listában nem szerepel a kívánt fórumszoftverről konvertáló modul, látogass el a phpBB weboldalára, ahonnan lehet, hogy letöltheted.', //?
 	'CONVERT_NEW_CONVERSION'	=> 'Új konvertálás',
 	'CONVERT_NOT_EXIST'			=> 'A megadott konvertáló nem létezik.',
+	'CONVERT_OPTIONS'			=> 'Lehetőségek', //?
 	'CONVERT_SETTINGS_VERIFIED'	=> 'A megadott információk leellenőrzésre kerültek. A konvertálás elkezdéséhez nyomd meg az alábbi gombot.', //? verify
-	'CONV_ERR_FATAL'					=> 'Súlyos konvertálási hiba', //? végzetes?
+	'CONV_ERR_FATAL'			=> 'Súlyos konvertálási hiba', //? végzetes?
 
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'A régi fórumon engedélyezve volt az FTP-n keresztüli csatolmányfeltöltés. Kérjük, kapcsold ki az FTP feltöltést, bizonyosodj meg róla, hogy helyes feltöltési könyvtár került megadásra, majd másold át az összes csatolmány állományt az új, webről is elérhető könyvtárba. Ha végeztél ezzel, indítsd újra a konvertálót.', //? igazából nem teljesen értem...
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'Nincs elérhető konfigurációs információ a konvertáláshoz.', //?? "There is no configuration information available for the conversion."
 	'CONV_ERROR_FORUM_ACCESS'			=> 'Nem sikerült lekérdezni a fórum hozzáférési jogosultságokat.', //? "Unable to get forum access information." ezt jelenti? lekérdezni/megkapni
 	'CONV_ERROR_GET_CATEGORIES'			=> 'Nem sikerült lekérdezni a kategóriákat.', //? "Unable to get categories."
 	'CONV_ERROR_GET_CONFIG'				=> 'Nem sikerült lekérdezni a fórum konfigurációját.',
-	'CONV_ERROR_COULD_NOT_READ'			=> 'Nem sikerült hozzáférni/olvasni: "%s"', //? rendes idézőjel?
+	'CONV_ERROR_COULD_NOT_READ'			=> 'Nem sikerült hozzáférni/olvasni: „%s”',
 	'CONV_ERROR_GROUP_ACCESS'			=> 'Nem sikerült lekérdezni a csoport jogosultságokat.',
 	'CONV_ERROR_INCONSISTENT_GROUPS'	=> 'Az add_bots() függvény végrehajtása során ellentmondást találtunk a csoportok táblában – az összes speciális csoportot hozzá kell adnod, ha manuálisan csinálod.', //??? "Inconsistency in groups table detected in add_bots() - you need to add all special groups if you do it manually." ellentmondás vagy következetlenség (inconsistency)
 	'CONV_ERROR_INSERT_BOT'				=> 'Nem sikerült beilleszteni egy robotot a felhasználók táblába.', //? angolul nem _egy_ van...
@@ -119,7 +125,7 @@ $lang = array_merge($lang, array(
 	'DB_ERR_INSERT'				=> 'Hiba <code>INSERT</code> parancs végrehajtása közben.', //?
 	'DB_ERR_LAST'				=> 'Hiba a <var>query_last</var> végrehajtása közben.',
 	'DB_ERR_QUERY_FIRST'		=> 'Hiba a <var>query_first</var> végrehajtása közben.',
-	'DB_ERR_QUERY_FIRST_TABLE'	=> 'Hiba a <var>query_first</var> végrehajtása közben, %s ("%s")', //??
+	'DB_ERR_QUERY_FIRST_TABLE'	=> 'Hiba a <var>query_first</var> végrehajtása közben, %s („%s”)', //??
 	'DB_ERR_SELECT'				=> 'Hiba <code>SELECT</code> lekérdezés végrehajtása közben.',
 	'DB_HOST'					=> 'Adatbázisszerver hosztneve vagy DSN', //? biztos, hogy egybeírják; nem 'DSN-je'?
 	'DB_HOST_EXPLAIN'			=> 'A DSN az angol Data Source Name rövidítése, csak ODBC telepítéskor érdekes.', //? érdekes, lényeges
@@ -160,7 +166,7 @@ $lang = array_merge($lang, array(
 	'FILES_REQUIRED_EXPLAIN'	=> '<strong>Szükséges</strong> – A phpBB-nek a helyes működéshez hozzá kell tudnia férnie, illetve tudnia kell írnia néhány állományba vagy könyvtárba. Ha a „Nem található” feliratot látod, akkor létre kell hoznod a megfelelő állományt vagy könyvtárat. Ha a „Nem írható” feliratot látod, akkor meg kell változtatnod az adott állomány vagy könyvtár jogosultságát, hogy a phpBB írni tudjon bele.',
 	'FILLING_TABLE'				=> '<strong>%s</strong> tábla feltöltése',
 	'FILLING_TABLES'			=> 'Táblák feltöltése',
-	'FINAL_STEP'				=> 'Végső lépés végrehajtása', //? "Processing final step"
+	'FINAL_STEP'				=> 'Végső lépés végrehajtása', //? "Process final step"
 	'FORUM_ADDRESS'				=> 'Fórum webcíme',
 	'FORUM_ADDRESS_EXPLAIN'		=> 'Az eredeti fórumod URL-je, például <samp>http://www.pelda.hu/phpBB2/</samp>. Ha megadod, ez a régi cím lecserélésre kerül az új webcímre a hozzászólásokban, a privát üzenetekben és az aláírásokban.',
 	'FORUM_PATH'				=> 'Fórum elérési útja',
@@ -264,7 +270,7 @@ $lang = array_merge($lang, array(
 	'NAMING_CONFLICT'			=> 'Nevezési ütközés: a %s és a %s is fedőnév.<br /><br />%s', //?
 	'NEXT_STEP'					=> 'Tovább a következő lépésre', //? -hez?
 	'NOT_FOUND'					=> 'Nem található',
-	'NOT_UNDERSTAND'			=> 'Nem sikerült értelmezni: %s #%d, %s tábla ("%s").',
+	'NOT_UNDERSTAND'			=> 'Nem sikerült értelmezni: %s #%d, %s tábla („%s”).',
 	'NO_CONVERTORS'				=> 'Nincs elérhető konvertáló.', //? "No convertors are available for use" használható
 	'NO_CONVERT_SPECIFIED'		=> 'Nem került konvertáló kiválasztásra.', //? "No convertor specified"
 	'NO_LOCATION'				=> 'Nem sikerült meghatározni a helyét. Ha tudod, hogy az Imagemagick telepítve van, később megadhatod az elérési helyét az adminisztrátori vezérlőpultban.', //? elérési hely stb.
@@ -291,7 +297,7 @@ $lang = array_merge($lang, array(
 	'POST_ID'						=> 'Hozzászólás azonosító', //? ID?
 	'PREFIX_FOUND'					=> 'Az adatbázistábláid azt mutatják, hogy van már egy telepített phpBB-d, melynek a tábla előtagja <strong>%s</strong>.',
 	'PREPROCESS_STEP'				=> 'Függvények/parancsok előfeldolgozásának végrehajtása', //? " Executing pre-processing functions/queries"
-	'PRE_CONVERT_COMPLETE'			=> 'Az előfeldolgozó lépések sikeresen végrehajtásra kerültek. Most már elkezdheted a tényleges konvertálást. Kérjük, vedd figyelembe, hogy néhány dolgot, lehet, hogy neked kell majd kézzel beállítanod. A konvertálás után különösen is ellenőrizd le a jogosultságokat, ha szükséges építsd újra a keresési indexet, és ellenőrizd, hogy az állományok sikeresen átmásolásra kerültek-e (például avatarok, emotikonok).', //? adjust - helyrehoz, beállít, igazít; rebuild search index; correctly - helyesen, pontosan, gond nélkül, (sikeresen)
+	'PRE_CONVERT_COMPLETE'			=> 'Az előfeldolgozó lépések sikeresen végrehajtásra kerültek. Most már elkezdheted a tényleges konvertálást. Kérjük, vedd figyelembe, hogy néhány dolgot, lehet, hogy neked kell majd kézzel elvégezned, beállítanod. A konvertálás után különösen is ellenőrizd le a jogosultságokat, ha szükséges építsd újra a keresési indexet, és ellenőrizd, hogy az állományok sikeresen átmásolásra kerültek-e (például avatarok, emotikonok).', //? adjust - helyrehoz, beállít, igazít; rebuild search index; correctly - helyesen, pontosan, gond nélkül, (sikeresen)
 	'PROCESS_LAST'					=> 'Végső műveletek végrehajtása', //? "Processing last statements" befejező?
 
 	'REFRESH_PAGE'				=> 'Automatikus továbblépés', //? "Refresh page to continue conversion"
@@ -347,6 +353,8 @@ $lang = array_merge($lang, array(
 	'UNWRITABLE'				=> 'Nem írható',
 	'UPDATE_TOPICS_POSTED'		=> 'Téma információk generálása', //? "Generating topics posted informations" nem tudom mit jelent, nem tudom tulajdonképp mire is használják stb.
 	'UPDATE_TOPICS_POSTED_ERR'	=> 'Hiba lépett fel a téma információk generálása közben. A konvertálás befejezése után az adminisztrátori vezérlőpultban újra megpróbálhatod ezt a lépést.',
+	'VERIFY_OPTIONS'			=> 'Konvertálás beállítások ellenőrzése',
+
 
 	'VERSION'					=> 'Verzió',
 
@@ -369,8 +377,9 @@ $lang = array_merge($lang, array(
 	'CHECK_FILES_EXPLAIN'			=> 'A következő lépésben az összes állomány összevetésre kerül a frissítési állományokkal – ez eltarthat egy ideig, ha ez az első összevetés.', //? frissítési: frissítő, friss stb.?
 	'CHECK_FILES_UP_TO_DATE'		=> 'Az adatbázisban lévő információk szerint a legújabb verziót használod. Most tanácsos továbblépned az állományok összevetéséhez, hogy megbizonyosodj róla, hogy tényleg a legújabb verzióját futtatod a phpBB-nek.',//? "According to your database your version is up to date. You may want to proceed with the file check to make sure all files are really up to date with the latest phpBB version."
 	'CHECK_UPDATE_DATABASE'			=> 'Frissítés folytatása', //? "Continue update process"
-	'COLLECTED_INFORMATION'			=> 'Információk az összegyűjtött állományokról', //? "Information on collected files" _összegyűjtött_, kiválogatott, összeszedett, _frissítésre_váró_, frissítndő, elavult, régi; azokról a fájlokról van szó, melyek benne vannak a frissítő csomagban (tehát elvileg az összeset frissíteni kell - de ez pl. a frissítés közben módosulhat)
+	'COLLECTED_INFORMATION'			=> 'Állomány információk',
 	'COLLECTED_INFORMATION_EXPLAIN'	=> 'Az alábbi lista információkat tartalmaz a frissítendő állományokról. Olvasd el a blokkok előtti magyarázó szöveget, hogy tudd milyen állományok tartoznak oda, és mit kell ezekkel tenned a sikeres frissítéshez.', //? "The list below shows information about the files needing an update. Please read the information in front of every status block to see what they mean and what you may need to do to perform a successful update."
+	'COLLECTING_FILE_DIFFS'			=> 'Állományok közötti különbözőségek összegyűjtése',
 	'COMPLETE_LOGIN_TO_BOARD'		=> 'Most <a href="../ucp.php?mode=login">lépj be a fórumon</a>, és ellenőrizd, hogy minden rendesen működik-e. Ne felejtsd el törölni, átnevezni vagy áthelyezni az install könyvtárat!',
 	'CONTINUE_UPDATE_NOW'			=> 'Frissítés folytatása most',
 	'CURRENT_FILE'					=> 'Jelenlegi eredeti állomány',
@@ -404,7 +413,7 @@ $lang = array_merge($lang, array(
 	'FILES_MODIFIED'				=> 'Módosított állományok',
 	'FILES_MODIFIED_EXPLAIN'		=> 'A következő állományok korábban módosítva lettek, és nem teljesen egyeznek meg a régiverzió-beli állománnyal. A frissített állomány a saját módosításaid és az új állomány egyesítése lesz.', //? egyesítés - összefésülés
 	'FILES_NEW'						=> 'Új állományok',
-	'FILES_NEW_EXPLAIN'				=> 'A következő állományok jelenleg nem léteznek a phpBB-dben.',
+	'FILES_NEW_EXPLAIN'				=> 'A következő állományok jelenleg nincsenek ott a phpBB-dben. Ezek az állományok hozzáadásra kerülnek a fórumodhoz.',
 	'FILES_NEW_CONFLICT'			=> 'Új ütköző állományok',
 	'FILES_NEW_CONFLICT_EXPLAIN'	=> 'A következő állományok a legújabb verzióban jelentek meg, de megállapításra került, hogy ezen új állomány helyén neked már van egy ilyen nevű állományod. Ezek az állományok felülírásra kerülnek az új állományokkal.', //? megállapításra került - kell?
 	'FILES_NOT_MODIFIED'			=> 'Nem megváltoztatott állományok',
@@ -437,6 +446,8 @@ $lang = array_merge($lang, array(
 	'MERGE_MOD_FILE_OPTION'		=> 'Állományok egyesítése, ütköző részben a módosított kód használata',
 	'MERGE_NEW_FILE_OPTION'		=> 'Állományok egyesítése, ütköző részben az új állomány kódjának használata',
 	'MERGE_SELECT_ERROR'		=> 'Az ütközéseket tartalmazó állományok egyesítési módja nincs helyesen kiválasztva.', //?
+	'MERGING_FILES'				=> 'Különbségek egyesítése',
+	'MERGING_FILES_EXPLAIN'		=> 'A végső állományváltozások összegyűjtés alatt vannak.<br /><br />Kérjük, vár míg a phpBB elvégzi az összes műveletet a megváltozott állományokon.',
 
 	'NEW_FILE'						=> 'Új frissített állomány',
 	'NEW_USERNAME'					=> 'Új felhasználónév',
@@ -451,6 +462,7 @@ $lang = array_merge($lang, array(
 	'NO_VISIBLE_CHANGES'			=> 'Nincs látható változás.',
 	'NOTICE'						=> 'Észrevétel', //? megjegyzés, figyelmeztetés, értesítés
 	'NUM_CONFLICTS'					=> 'Ütközések száma',
+	'NUMBER_OF_FILES_COLLECTED'		=> 'Jelenleg körülbelül %1$d állomány különbözőségei vannak összegyűjtve a %2$d-ből.<br />Kérjük, vár míg az állományok összegyűjtése befejeződik.',
 
 	'OLD_UPDATE_FILES'		=> 'A frissítő állományok elavultak. A phpBB %1$s verzióról %2$s verzióra való frissítésre szolgálnak, de a phpBB legújabb verziója a %3$s.',
 
@@ -485,6 +497,8 @@ $lang = array_merge($lang, array(
 	'STATUS_NEW_CONFLICT'		=> 'Ütköző új állomány',
 	'STATUS_NOT_MODIFIED'		=> 'Nem módosított állomány',
 	'STATUS_UP_TO_DATE'			=> 'Már frissített állomány',
+
+	'TOGGLE_DISPLAY'			=> 'Állományok listájának megjelenítése/elrejtése',
 
 	'UPDATE_COMPLETED'				=> 'Frissítés befejezve',
 	'UPDATE_DATABASE'				=> 'Adatbázis frissítése',
@@ -554,10 +568,11 @@ $lang = array_merge($lang, array(
 // Default database schema entries...
 $lang = array_merge($lang, array(
 	'CONFIG_BOARD_EMAIL_SIG'		=> 'Köszönettel: A csapat',
-	'CONFIG_SITE_DESC'				=> 'A fórumot leíró _rövid_ szöveg',
+	'CONFIG_SITE_DESC'				=> 'A fórumod leíró rövid szöveg',
 	'CONFIG_SITENAME'				=> 'domained.hu',
 
 	'DEFAULT_INSTALL_POST'			=> 'Ez egy példa hozzászólás a frissen telepített phpBB3-madban. Ha gondolod, törölheted ezt a hozzászólást, ezt a témát és ezt a fórumot is, hiszen úgy tűnik, minden működik.',
+	'DEFAULT_INSTALL_POST'			=> 'Ez egy példa hozzászólás a frissen telepített phpBB3-madban. Úgy néz ki, minden működik. Ha gondolod, törölheted ezt a hozzászólást, és folytathatod a fórumod felállítását. A telepítés alatt az első kategóriádhoz és az első fórumodhoz hozzárendelésre került egy jól használható jogosultságkészlet az előre meghatározott csoportok számára (adminisztrátorok, robotok, globális moderátorok, vendégek, regisztrált felhasználók és regisztrált COPPA felhasználók). Ha úgy döntesz, törlöd az első kategóriád és az első fórumod, az új fórumok, ill. kategóriák felvételénél ne felejts el jogosultságokat hozzárendelni a fentebb említett csoportoknak. Ajánlott ezt a kezdeti kategóriát és fórumot átnevezni, majd később az új kategóriák, fórumok létrehozásánál a jogosultságokat ezekről másolni át. Sok sikert a fórumodhoz!', //? appropriate "Have fun!"? 'Érezd jól magad!' 'Szórakozz jól!'???:D
 
 	'EXT_GROUP_ARCHIVES'			=> 'Archívumok',
 	'EXT_GROUP_DOCUMENTS'			=> 'Dokumentumok',
@@ -569,9 +584,9 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_REAL_MEDIA'			=> 'Real média',
 	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Windows média',
 
-	'FORUMS_FIRST_CATEGORY'			=> 'Az első kategóriám',
-	'FORUMS_TEST_FORUM_DESC'		=> 'Ez csak egy teszt fórum.',
-	'FORUMS_TEST_FORUM_TITLE'		=> 'Teszt fórum 1.',
+	'FORUMS_FIRST_CATEGORY'			=> 'Az első kategóriád',
+	'FORUMS_TEST_FORUM_DESC'		=> 'Az első fóruod leírása.',
+	'FORUMS_TEST_FORUM_TITLE'		=> 'Az első fórumod',
 
 	'RANKS_SITE_ADMIN_TITLE'		=> 'Adminisztrátor',
  	'REPORT_WAREZ'					=> 'A hozzászólás linket tartalmaz illegális vagy kalóz szoftverre.',

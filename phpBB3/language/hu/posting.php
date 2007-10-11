@@ -4,8 +4,8 @@
 * posting [Hungarian]
 *
 * @package language
-* @version $Id: posting.php,v 1.22 2007-08-15 12:47:11 fberci Exp $
-* @copyright (c) 2005 phpBB Group 
+* @version $Id: posting.php,v 1.23 2007-10-11 17:02:25 fberci Exp $
+* @copyright (c) 2005 phpBB Group modified by „Magyar phpBB Közösség fordítók” in 2007 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
 */
@@ -13,6 +13,11 @@
 /**
 * DO NOT CHANGE
 */
+if (!defined('IN_PHPBB'))
+{
+	exit;
+}
+
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
@@ -44,7 +49,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_B_HELP'				=> 'Félkövér: [b]szöveg[/b]',
 	'BBCODE_C_HELP'				=> 'Kód: [code]kód[/code]',
 	'BBCODE_E_HELP'				=> 'Lista: lista elem hozzáadása',
-	'BBCODE_F_HELP'				=> 'Betűméret: [size=100]normál méretű szöveg[/size]',
+	'BBCODE_F_HELP'				=> 'Betűméret: [size=85]kicsi szöveg[/size]',
 	'BBCODE_IS_OFF'				=> '%sBBCode%s <em>kikapcsolva</em>',
 	'BBCODE_IS_ON'				=> '%sBBCode%s <em>bekapcsolva</em>',
 	'BBCODE_I_HELP'				=> 'Dőlt: [i]szöveg[/i]',
@@ -161,8 +166,8 @@ $lang = array_merge($lang, array(
 	'POST_GLOBAL'				=> 'Globális közlemény',
 	'POST_ICON'					=> 'Hozzászólás ikon',
 	'POST_NORMAL'				=> 'Sima',
-	'POST_REVIEW'				=> 'Új hozzászólások áttekintése', //? "Post review"
-	'POST_REVIEW_EXPLAIN'		=> 'A témába legalább egy új hozzászólás érkezett. Ennek fényében érdemes átnézned a hozzászólásod.', //? "At least one new post has been made to this topic. You may wish to review your post in light of this."
+	'POST_REVIEW'				=> 'Hozzászólás áttekintés', //? "Post review"
+	'POST_REVIEW_EXPLAIN'		=> 'A témába érkezett legalább egy új hozzászólás. Ennek fényében érdemes átnézned a hozzászólásod.', //? "At least one new post has been made to this topic. You may wish to review your post in light of this."
 	'POST_STORED'				=> 'A hozzászólás sikeresen elküldésre került.',
 	'POST_STORED_MOD'			=> 'Az üzenet sikeresen szerkesztésre került, azonban egy moderátornak még jóvá kell hagynia mielőtt mindenki által megtekinthető lenne.',
 	'POST_TOPIC_AS'				=> 'Téma típusa',
@@ -209,6 +214,7 @@ $lang = array_merge($lang, array(
 	'USER_CANNOT_FORUM_POST'	=> 'Nem végezhetsz hozzászólással kapcsolatos műveleteket a fórumban, mivel a fórum típusa ezt nem támogatja.', //?
 
 	'VIEW_MESSAGE'				=> '%sElküldött üzenet megtekintése%s',
+	'VIEW_PRIVATE_MESSAGE'		=> '%sElküldött privát üzenet megtekintése%s',
 
 	'WRONG_FILESIZE'			=> 'Az állomány túl nagy, a maximum megengedett méret %1d %2s.',
 	'WRONG_SIZE'				=> 'A kép szélességének %1$d és %2$d pixel között, magasságának %3$d és %4$d pixel között kell lennie. A megadott avatar %5$d pixel széles, és %6$d pixel magas.',

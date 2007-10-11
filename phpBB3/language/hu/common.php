@@ -4,8 +4,8 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.58 2007-10-09 20:28:57 fberci Exp $
-* @copyright (c) 2005 phpBB Group 
+* @version $Id: common.php,v 1.59 2007-10-11 17:02:25 fberci Exp $
+* @copyright (c) 2005 phpBB Group modified by „Magyar phpBB Közösség fordítók” in 2007 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
 */
@@ -13,6 +13,11 @@
 /**
 * DO NOT CHANGE
 */
+if (!defined('IN_PHPBB'))
+{
+	exit;
+}
+
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
@@ -156,6 +161,8 @@ $lang = array_merge($lang, array(
 	'ENCLOSURE'							=> 'Körülhatárolójel',
 	'ERR_CHANGING_DIRECTORY'			=> 'Nem sikerült megváltoztatni a könyvtárat.',
 	'ERR_CONNECTING_SERVER'				=> 'Nem sikerült csatlakozni a szerverhez.',
+	'ERR_JAB_AUTH'						=> 'Nem sikerült az azonosítás a Jabber szerveren. ', //? "Could not authorise on Jabber server."
+	'ERR_JAB_CONNECT'					=> 'Nem sikerült csatlakozni a Jabber szerverhez.',
 	'ERR_UNABLE_TO_LOGIN'				=> 'A megadott felhasználói név vagy jelszó hibás.',
 	'ERR_WRONG_PATH_TO_PHPBB'			=> 'A megadott phpBB elérési útvonal feltehetőleg hibás.',
 	'EXPAND_VIEW'						=> 'Kinyitás',
@@ -173,6 +180,7 @@ $lang = array_merge($lang, array(
 	'FIND_USERNAME'			=> 'Felhasználó keresése',
 	'FOLDER'				=> 'Mappa',
 	'FORGOT_PASS'			=> 'Elfelejtettem a jelszavam',
+	'FORM_INVALID'			=> 'Az elküldött űrlap érvénytelen. Próbáld meg újra elküldeni.',
 	'FORUM'					=> 'Fórum',
 	'FORUMS'				=> 'Fórumok',
 	'FORUMS_MARKED'			=> 'Minden fórumot megjelölésre került olvasottként.',
@@ -365,6 +373,7 @@ $lang = array_merge($lang, array(
 	'NO_SUCH_SEARCH_MODULE'		=> 'A megadott keresési mechanizmus nem létezik.',
 	'NO_SUPPORTED_AUTH_METHODS'	=> 'Nincsen támogatott azonosítási eljárás.',
 	'NO_TOPIC'					=> 'A keresett téma nem létezik.',
+	'NO_TOPIC_FORUM'			=> 'A téma vagy fórum már nem létezik.',
 	'NO_TOPICS'					=> 'A fórum nem tartalmaz témákat, illetve hozzászólásokat.',
 	'NO_TOPICS_TIME_FRAME'		=> 'A fórum nem tartalmaz témákat a megadott időtartamon belül.',
 	'NO_UNREAD_PM'				=> '<strong>0</strong> olvasatlan üzenet',

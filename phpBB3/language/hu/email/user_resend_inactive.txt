@@ -1,4 +1,4 @@
-Subject: Üdvözlünk a "{SITENAME}" fórumon ({U_BOARD})!
+Subject: Üdvözlünk a "{SITENAME}" fórumon!
 
 {WELCOME_MSG}
 

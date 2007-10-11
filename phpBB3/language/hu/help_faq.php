@@ -4,14 +4,18 @@
 * help_faq [Hungarian]
 *
 * @package language
-* @version $Id: help_faq.php,v 1.15 2007-08-15 12:47:11 fberci Exp $
-* @copyright (c) 2005 phpBB Group 
+* @version $Id: help_faq.php,v 1.16 2007-10-11 17:02:25 fberci Exp $
+* @copyright (c) 2005 phpBB Group modified by „Magyar phpBB Közösség fordítók” in 2007 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
 */
 
 /**
 */
+if (!defined('IN_PHPBB'))
+{
+	exit;
+}
 
 // DEVELOPERS PLEASE NOTE
 //
@@ -328,7 +332,7 @@ $help = array(
 	),
 	array(
 		0 => 'Miért nem érhető el az X szolgáltatás?',
-		1 => 'Ezt a szoftvert a phpBB Group készítette, és licenceli. Ha úgy gondolod, hogy újabb szolgáltatások, funkciók szükségesek a fórumba, akkor látogasd meg a phpbb.com weboldalt, és olvasd el amit phpBB Group mond erről. Kérünk, ne küldj kéréseket a phpbb.com fórumába, a fejlesztők a Sourceforge oldalán várják az ötleteket. Emellett kérünk, olvasd át a fórumot, mert lehet hogy már felmerült az ötlet, és a phpBB Group megfogalmazott ezzel kapcsolatban egy véleményt.' // ezt is lehetne javítani, meg az angol szövegnek megfelelőnek tenni...
+		1 => 'Ezt a szoftvert a phpBB Group készítette, és licenceli. Ha úgy gondolod, hogy újabb szolgáltatások, funkciók szükségesek a fórumba, látogasd meg a phpbb.com weboldalt, és olvasd el amit phpBB Group mond erről. Kérünk, ne küldj kéréseket a phpbb.com fórumába, a fejlesztők a Sourceforge oldalán várják az ötleteket. Emellett, kérjük, olvasd át a fórumot, mert lehet hogy már felmerült az ötlet, és a phpBB Group megfogalmazott ezzel kapcsolatban egy véleményt.' // ezt is lehetne javítani, meg az angol szövegnek megfelelőnek tenni...
 	),
 	array(
 		0 => 'Ki az illetékes a fórumon olvasható tartalommal kapcsolatban?',

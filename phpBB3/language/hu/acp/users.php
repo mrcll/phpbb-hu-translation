@@ -4,8 +4,8 @@
 * acp_users [Hungarian]
 *
 * @package language
-* @version $Id: users.php,v 1.10 2007-10-06 20:45:11 fberci Exp $
-* @copyright (c) 2005 phpBB Group
+* @version $Id: users.php,v 1.11 2007-10-11 17:02:25 fberci Exp $
+* @copyright (c) 2005 phpBB Group modified by „Magyar phpBB Közösség fordítók” in 2007
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
@@ -13,6 +13,11 @@
 /**
 * DO NOT CHANGE
 */
+if (!defined('IN_PHPBB'))
+{
+	exit;
+}
+
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
@@ -107,10 +112,10 @@ $lang = array_merge($lang, array(
 	'USER_AVATAR_UPDATED'			=> 'A felhasználó avatar beállításai sikeresen frissítésre kerültek.',
 	'USER_CUSTOM_PROFILE_FIELDS'	=> 'Egyedi profil mezők',
 	'USER_DELETED'					=> 'A felhasználó sikeresen törlésre került.',
-	'USER_GROUP_ADD'				=> 'Felhasználó felvétele a csoportba',
-	'USER_GROUP_NORMAL'				=> 'Normál csoportok, melyeknek a felhasználó tagja',
+	'USER_GROUP_ADD'				=> 'Felhasználó felvétele csoportba',
+	'USER_GROUP_NORMAL'				=> 'Felhasználói csoportok, melyeknek a felhasználó tagja',
 	'USER_GROUP_PENDING'			=> 'Csoportok függő tagsággal',
-	'USER_GROUP_SPECIAL'			=> 'Speciális csoportok, melyeknek a felhasználó tagja',
+	'USER_GROUP_SPECIAL'			=> 'Előre meghatározott csoportok, melyeknek a felhasználó tagja',
 	'USER_NO_ATTACHMENTS'			=> 'Nincs megjelenítendő csatolt állomány.',
 	'USER_OVERVIEW_UPDATED'			=> 'A felhasználó adatai sikeresen frissítésre kerültek.',
 	'USER_POSTS_DELETED'			=> 'A felhasználó által küldött hozzászólások sikeresen eltávolításra kerültek.',
