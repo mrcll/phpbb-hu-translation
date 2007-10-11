@@ -4,14 +4,18 @@
 * help_bbcode [Hungarian]
 *
 * @package language
-* @version $Id: help_bbcode.php,v 1.7 2007-08-15 12:47:11 fberci Exp $
-* @copyright (c) 2005 phpBB Group 
+* @version $Id: help_bbcode.php,v 1.8 2007-10-11 17:02:25 fberci Exp $
+* @copyright (c) 2005 phpBB Group modified by „Magyar phpBB Közösség fordítók” in 2007
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
 */
 
 /**
 */
+if (!defined('IN_PHPBB'))
+{
+	exit;
+}
 
 // DEVELOPERS PLEASE NOTE
 //

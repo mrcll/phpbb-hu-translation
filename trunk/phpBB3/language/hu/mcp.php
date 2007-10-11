@@ -4,8 +4,8 @@
 * mcp [Hungarian]
 *
 * @package language
-* @version $Id: mcp.php,v 1.20 2007-08-15 12:47:11 fberci Exp $
-* @copyright (c) 2005 phpBB Group 
+* @version $Id: mcp.php,v 1.21 2007-10-11 17:02:25 fberci Exp $
+* @copyright (c) 2005 phpBB Group modified by „Magyar phpBB Közösség fordítók” in 2007 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
 */
@@ -13,6 +13,11 @@
 /**
 * DO NOT CHANGE
 */
+if (!defined('IN_PHPBB'))
+{
+	exit;
+}
+
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
@@ -224,7 +229,7 @@ $lang = array_merge($lang, array(
 	'NO_TOPIC_SELECTED'				=> 'Legalább egy témát ki kell választanod, hogy elvégezhesd ezt a műveletet.', //? végrehajthasd?
 	'NO_TOPICS_QUEUE'				=> 'Nincsenek jóváhagyásra váró témák.',
 
-	'ONLY_TOPIC'			=> 'Csak a "%s" téma', //? témából stb.? (Moderálandóknál)
+	'ONLY_TOPIC'			=> 'Csak a „%s” téma', //? témából stb.? (Moderálandóknál)
 	'OTHER_USERS'			=> 'Más erről az IP-ről hozzászóló felhasználók',
 
 	'POSTER'					=> 'Küldő',

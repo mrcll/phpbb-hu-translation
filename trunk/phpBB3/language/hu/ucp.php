@@ -4,8 +4,8 @@
 * ucp [Hungarian]
 *
 * @package language
-* @version $Id: ucp.php,v 1.37 2007-10-06 20:45:10 fberci Exp $
-* @copyright (c) 2005 phpBB Group 
+* @version $Id: ucp.php,v 1.38 2007-10-11 17:02:25 fberci Exp $
+* @copyright (c) 2005 phpBB Group modified by „Magyar phpBB Közösség fordítók” in 2007 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
 */
@@ -13,6 +13,11 @@
 /**
 * DO NOT CHANGE
 */
+if (!defined('IN_PHPBB'))
+{
+	exit;
+}
+
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
@@ -61,6 +66,7 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_INACTIVE'				=> 'Az azonosítód elkészült, azonban hogy használni tudd, aktiválnod kell. Az aktivációs kulcsot elküldtük az e-mail címedre. További információért, kérjük, nézd meg az e-mail fiókod.',
 	'ACCOUNT_INACTIVE_ADMIN'		=> 'Az azonosítód elkészült, azonban hogy használni tudd, az adminisztrátornak aktiválnia kell. Az adminisztrátort értesítettük, amint aktiválja az azonosítód, értesíteni fogunk.', //? szóismétlés
 	'ACTIVATION_EMAIL_SENT'			=> 'Az aktivációs e-mail sikeresen elküldésre került az e-mail címedre.',
+	'ACTIVATION_EMAIL_SENT_ADMIN'	=> 'Az aktivációs e-mail elküldésre került az adminisztrátorok e-mail címére.',
 	'ADD'							=> 'Hozzáadás',
 	'ADD_BCC'						=> 'Hozzáadás [titkos másolat]', //? + titkos másolat
 	'ADD_FOES'						=> 'Új haragosok felvétele', //? kell az új?

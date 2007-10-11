@@ -1,4 +1,4 @@
-Subject:  Üdvözlünk a "{SITENAME}" fórumon ({U_BOARD})!
+Subject:  Üdvözlünk a "{SITENAME}" fórumon!
 
 {WELCOME_MSG}
 
@@ -7,6 +7,8 @@ Kérünk, tartsd meg ezt az üzenetet. Az azonosítód adatai a következőek:
 ----------------------------
 Felhasználónév: {USERNAME}
 Jelszó: {PASSWORD}
+
+Fórum URL: {U_BOARD}
 ----------------------------
 
 Az azonosítód jelenleg inaktív. A következő linkre kattintva aktiválhatod:

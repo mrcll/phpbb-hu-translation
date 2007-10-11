@@ -4,8 +4,8 @@
 * acp_bots [Hungarian]
 *
 * @package language
-* @version $Id: bots.php,v 1.9 2007-10-09 20:28:57 fberci Exp $
-* @copyright (c) 2005 phpBB Group 
+* @version $Id: bots.php,v 1.10 2007-10-11 17:02:25 fberci Exp $
+* @copyright (c) 2005 phpBB Group modified by „Magyar phpBB Közösség fordítók” in 2007 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
 */
@@ -13,6 +13,11 @@
 /**
 * DO NOT CHANGE
 */
+if (!defined('IN_PHPBB'))
+{
+	exit;
+}
+
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();

@@ -4,8 +4,8 @@
 * acp_forums [Hungarian]
 *
 * @package language
-* @version $Id: forums.php,v 1.8 2007-09-16 19:04:33 fberci Exp $
-* @copyright (c) 2005 phpBB Group 
+* @version $Id: forums.php,v 1.9 2007-10-11 17:02:25 fberci Exp $
+* @copyright (c) 2005 phpBB Group modified by „Magyar phpBB Közösség fordítók” in 2007 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
 */
@@ -13,6 +13,11 @@
 /**
 * DO NOT CHANGE
 */
+if (!defined('IN_PHPBB'))
+{
+	exit;
+}
+
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
@@ -86,6 +91,9 @@ $lang = array_merge($lang, array(
 	'FORUM_PASSWORD_CONFIRM'			=> 'Fórum jelszó megerősítés',
 	'FORUM_PASSWORD_CONFIRM_EXPLAIN'	=> 'Csak akkor kell megadni, ha a fórum jelszót is kitöltötted.',
 	'FORUM_PASSWORD_EXPLAIN'			=> 'A fórum csak ezzel a jelszóval lesz elérhető. Ajánlott inkább a jogosultságrendszert használni.',
+	'FORUM_PASSWORD_UNSET'				=> 'Fórum jelszó eltávolítása',
+	'FORUM_PASSWORD_UNSET_EXPLAIN'		=> 'Kattints ide, ha törölni akarod a fórum jelszót.',
+	'FORUM_PASSWORD_OLD'				=> 'A fórum jelszó régi titkosítást használ, ezért meg kell változtatni.',
 	'FORUM_PASSWORD_MISMATCH'			=> 'A megadott jelszavak nem egyeznek meg.',
 	'FORUM_PRUNE_SETTINGS'				=> 'Fórum megtisztítás beállítások',
 	'FORUM_RESYNCED'					=> 'A „%s” fórum sikeresen újraszinkronizálásra került.',

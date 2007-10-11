@@ -4,8 +4,8 @@
 * acp_permissions [Hungarian]
 *
 * @package language
-* @version $Id: permissions.php,v 1.10 2007-10-02 18:49:03 fberci Exp $
-* @copyright (c) 2005 phpBB Group 
+* @version $Id: permissions.php,v 1.11 2007-10-11 17:02:25 fberci Exp $
+* @copyright (c) 2005 phpBB Group modified by „Magyar phpBB Közösség fordítók” in 2007 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
 */
@@ -13,6 +13,11 @@
 /**
 * DO NOT CHANGE
 */
+if (!defined('IN_PHPBB'))
+{
+	exit;
+}
+
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
@@ -257,15 +262,17 @@ $lang = array_merge($lang, array(
 	'TRACE_TOTAL'							=> 'Eredmény', //? "Total" 'Összeg'
 
 	'USERS_NOT_ASSIGNED'			=> 'A szerephez nincs felhasználó hozzárendelve.',
-	'USER_IS_MEMBER_OF_DEFAULT'		=> 'a következő alap csoportok tagja', //? használják?
-	'USER_IS_MEMBER_OF_CUSTOM'		=> 'a következő egyéni csoportok tagja',
+	'USER_IS_MEMBER_OF_DEFAULT'		=> 'a következő előre definiált csoportok tagja',
+	'USER_IS_MEMBER_OF_CUSTOM'		=> 'a következő felhasználói csoportok tagja',
 
 	'VIEW_ASSIGNED_ITEMS'	=> 'Hozzárendelt elemek megtekintése',
 	'VIEW_LOCAL_PERMS'		=> 'Helyi jogosultságok',
 	'VIEW_GLOBAL_PERMS'		=> 'Globális jogosultságok',
 	'VIEW_PERMISSIONS'		=> 'Jogosultságok megtekintése',
 
-	'WRONG_PERMISSION_TYPE'	=> 'Rossz jogosultságtípus lett kiválasztva.',
+	'WRONG_PERMISSION_TYPE'				=> 'Rossz jogosultságtípus lett kiválasztva.',
+	'WRONG_PERMISSION_SETTING_FORMAT'	=> 'A jogosultságbeállítások rossz formátumban vannak, a phpBB nem tudja őket rendesen feldolgozni.',
+
 ));
 
 ?>

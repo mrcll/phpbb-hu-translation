@@ -4,8 +4,8 @@
 * acp_board [Hungarian]
 *
 * @package language
-* @version $Id: board.php,v 1.19 2007-10-06 20:45:11 fberci Exp $
-* @copyright (c) 2005 phpBB Group
+* @version $Id: board.php,v 1.20 2007-10-11 17:02:25 fberci Exp $
+* @copyright (c) 2005 phpBB Group modified by „Magyar phpBB Közösség fordítók” in 2007
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
@@ -13,6 +13,11 @@
 /**
 * DO NOT CHANGE
 */
+if (!defined('IN_PHPBB'))
+{
+	exit;
+}
+
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
@@ -202,6 +207,10 @@ $lang = array_merge($lang, array(
 	'ENABLE_COPPA_EXPLAIN'		=> 'A felhasználóknak nyilatkozniuk kell, hogy 13 év fölött vannak-e az amerikai COPPA törvény miatt. Más országokban nem szükséges bekapcsolni. Ha ki van kapcsolva, a COPPA-val kapcsolatos csoportok sem jelennek meg.',
 	'MAX_CHARS'					=> 'legfeljebb',
 	'MIN_CHARS'					=> 'legalább',
+	'MIN_TIME_REG'				=> 'Minimum idő regisztrációhoz',
+	'MIN_TIME_REG_EXPLAIN'		=> 'A regisztrációs űrlapot nem lehet elküldeni míg ennyi idő el nem telik.',
+	'MIN_TIME_TERMS'			=> 'Minimum idő feltételek elfogadásához',
+	'MIN_TIME_TERMS_EXPLAIN'	=> 'A feltelek oldalról nem lehet továbbmenni míg ennyi idő el nem telik.',
 	'NO_AUTH_PLUGIN'			=> 'Nem található megfelelő azonosítási bővítmény.',
 	'PASSWORD_LENGTH'			=> 'Jelszó hossza',
 	'PASSWORD_LENGTH_EXPLAIN'	=> 'Minimum illetve maximum mennyi karakterből állhat a jelszó.',
@@ -334,7 +343,7 @@ $lang = array_merge($lang, array(
 	'SCRIPT_PATH'				=> 'Szkript elérési út',
 	'SCRIPT_PATH_EXPLAIN'		=> 'A phpBB relatív elérési útvonala a domainnévhez képest, pl. <samp>/phpBB3</samp>.',
 	'SERVER_NAME'				=> 'Domainnév',
-	'SERVER_NAME_EXPLAIN'		=> 'A fórumnak a domainneve, amin fut (például: <samp>www.foo.bar</samp>).',
+	'SERVER_NAME_EXPLAIN'		=> 'A fórumnak a domainneve, amin fut (például: <samp>www.example.com</samp>).',
 	'SERVER_PORT'				=> 'Szerver port',
 	'SERVER_PORT_EXPLAIN'		=> 'Milyen porton fut a szerver, általában 80-as, csak akkor változtasd meg, ha más.',
 	'SERVER_PROTOCOL'			=> 'Szerver protokoll',
@@ -365,7 +374,12 @@ $lang = array_merge($lang, array(
 	'EMAIL_CHECK_MX_EXPLAIN'		=> 'Ha be van kapcsolva, akkor a regisztrációkor vagy a profil megváltoztatásakor megadott e-mail cím domainje ellenőrzésre kerül, hogy van-e hozzá érvényes MX rekord.',
 	'FORCE_PASS_CHANGE'				=> 'Kötelező jelszómegváltoztatás gyakorisága', //?
 	'FORCE_PASS_CHANGE_EXPLAIN'		=> 'Megköveteli a felhasználótól, hogy bizonyos időközönként megváltoztassa a jelszavát. A 0 érték megadása kikapcsolja ezt.',
-	'FORWARDED_FOR_VALID'			=> '<var>X_FORWARDED_FOR</var> fejléc ellenőrzése',
+	'FORM_TIME_MAX'					=> 'Maximum idő űrlap elküldéséhez', //? 'Űrlap elküldéséhez rendelkezésre álló maximum idő'
+	'FORM_TIME_MAX_EXPLAIN'			=> 'Ennyi időn belül a felhasználónak el kell küldenie az űrlapokat. A kikapcsoláshoz adj meg -1-et. Vedd figyelembe, hogy ettől a beállítástól függetlenül az űrlap a munkamenet lejártával is érvénytelenné válhat.',
+	'FORM_TIME_MIN'					=> 'Miminum idő űrlap elküldéséhez',
+	'FORM_TIME_MIN_EXPLAIN'			=> 'Az ennél gyorsabban elküldött űrlapokat a fórum figyelmen kívül hagyja. A kikapcsoláshoz adj meg 0-t.',
+	'FORM_SID_GUESTS'				=> 'Űrlapok hozzákötése vendég munkamenetekhez',
+	'FORM_SID_GUESTS_EXPLAIN'		=> 'Ha be van kapcsolva, minden vendég munkamenethez külön űrlapjelzés lesz. Ez néhány internetszolgáltatónál gondot okozhat.', //? token
 	'FORWARDED_FOR_VALID_EXPLAIN'	=> 'A munkamenetek csak akkor kerülnek folytatásra, ha a küldött <var>X_FORWARDED_FOR</var> fejléc megegyezik az előző kérés alkalmával küldöttel. Emellett az <var>X_FORWARDED_FOR</var> is összevetésre kerül a kitiltott IP-címekkel.',
 	'IP_VALID'						=> 'Munkamenet IP ellenőrzés',
 	'IP_VALID_EXPLAIN'				=> 'A felhasználó IP-címének mekkora része lesz használva a munkamenet érvényesítéséhez; a <samp>Teljes</samp> az egész címet összeveti, az <samp>A.B.C</samp> az első x.x.x részt, az <samp>A.B</samp> az első x.x részt, a <samp>Nincs</samp> pedig teljesen kikapcsolja az ellenőrzést. IPv6 címeknél az <samp>A.B.C</samp> az első 4 blokkot, az <samp>A.B</samp> pedig az első 3 blokkot veti össze.',
@@ -425,10 +439,9 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_JABBER_SETTINGS_EXPLAIN'	=> 'Itt bekapcsolhatod, illetve szabályozhatod a Jabber használatát azonnali üzenetküldésre és az értesítésekhez. A Jabber egy nyílt protokoll, így bárki által elérhető. Néhány Jabber szerver lehetővé teszi, hogy más hálózaton lévő felhasználókat is elérj. Nem minden szerver teremt lehetőséget erre, és a protokollban történő változások is megakadályozhatják ezt. Kérünk, győződj meg róla, hogy egy már létező azonosító adatait adod meg, mivel a phpBB további ellenőrzés nélkül fogja használni ezeket.',
 
-	'ERR_JAB_AUTH'			=> 'Nem sikerült az azonosítás a Jabber szerveren. ', //?? "Could not authorise on Jabber server."
-	'ERR_JAB_CONNECT'		=> 'Nem sikerült csatlakozni a Jabber szerverhez.',
 	'JAB_ENABLE'				=> 'Jabber bekapcsolása',
 	'JAB_ENABLE_EXPLAIN'		=> 'A Jabber üzenet- és értesítőküldés bekapcsolása.',
+	'JAB_GTALK_NOTE'			=> 'Kérjük, vedd figyelembe, hogy a GTalk nem fog működni, mivel a <samp>dns_get_record</samp> függvény nem található. Ez a függvény PHP4-ben nem elérhető, illetve nincs implementálva Windows rendszereken. Jelenleg BSD alapú rendszereken sem működik, beleértve a Mac OS-t is.',
 	'JAB_PACKAGE_SIZE'			=> 'Jabber csomag méret',
 	'JAB_PACKAGE_SIZE_EXPLAIN'	=> 'Egy csomagban ennyi üzenet kerül kiküldésre. 0-ra állítva az üzenetek azonnal kiküldésre kerülnek, és nem lesznek berakva egy sorba későbbi elküldéshez.',
 	'JAB_PASSWORD'				=> 'Jabber jelszó',

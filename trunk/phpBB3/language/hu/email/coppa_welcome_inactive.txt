@@ -1,4 +1,4 @@
-Subject: Üdvözlünk a "{SITENAME}" fórumon ({U_BOARD})!
+Subject: Üdvözlünk a "{SITENAME}" fórumon!
 
 {WELCOME_MSG}
 
@@ -13,7 +13,7 @@ vagy küldje el postai levélben a következő postacímre:
 {MAIL_INFO}
 
 ------------------------------ PERFORÁCIÓ ------------------------------
-Engedély a "{SITENAME}" oldal fórumához történő csatlakozáshoz.
+Engedély a "{SITENAME}" ({U_BOARD}) oldal fórumához történő csatlakozáshoz.
 
 ----------------------------
 Felhasználónév: {USERNAME}

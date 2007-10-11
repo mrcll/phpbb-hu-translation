@@ -1,4 +1,4 @@
-Subject: Köszönjük, hogy regisztráltál!
+Subject: Üdvözülünk a "{SITENAME}" fórumon
 
 {WELCOME_MSG}
 
@@ -7,6 +7,8 @@ Subject: Köszönjük, hogy regisztráltál!
 ----------------------------
 Felhasználónév: {USERNAME}
 Jelszó: {PASSWORD}
+
+Fórum URL: {U_BOARD}
 ----------------------------
 
 A felhasználói azonosítód jelenleg inaktív, használatba vétele előtt a fórum adminisztrátorának aktiválnia kell. Amint megtörtént, egy másik értesítőt fogsz erről kapni e-mailben.
