@@ -4,7 +4,7 @@
 * acp_permissions [Hungarian]
 *
 * @package language
-* @version $Id: permissions.php,v 1.11 2007-10-11 17:02:25 fberci Exp $
+* @version $Id: permissions.php,v 1.12 2007-10-12 14:59:59 fberci Exp $
 * @copyright (c) 2005 phpBB Group modified by „Magyar phpBB Közösség fordítók” in 2007 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -250,14 +250,14 @@ $lang = array_merge($lang, array(
 	'TRACE_USER_NEVER_TOTAL_NO_LOCAL'		=> 'A felhasználó jogosultsága erre a fórumra <samp>SOHÁ</samp>ra van állítva, és ez lesz az új érték, mivel eddig <samp>NEM</samp> volt.',
 	'TRACE_USER_NEVER_TOTAL_YES'			=> 'A felhasználó jogosultsága <samp>SOHÁ</samp>ra van állítva, ami felülírja az előző <samp>IGEN</samp>t.',
 	'TRACE_USER_NEVER_TOTAL_YES_LOCAL'		=> 'A felhasználó jogosultsága erre a fórumra <samp>SOHÁ</samp>ra van állítva, ami felülírja az előző <samp>IGEN</samp>t.',
-	'TRACE_USER_NO_TOTAL_NO'				=> 'A felhasználó jogosultsága <samp>NEM</samp>, és az eddig érték is <samp>NEM</samp>, így <samp>SOHA</samp> lesz a végső eredmény.', //? to default
-	'TRACE_USER_NO_TOTAL_NO_LOCAL'			=> 'A felhasználó jogosultsága erre a fórumra <samp>NEM</samp>, és az eddig érték is <samp>NEM</samp>, így <samp>SOHA</samp> lesz a végső eredmény.',
+	'TRACE_USER_NO_TOTAL_NO'				=> 'A felhasználó jogosultsága <samp>NEM</samp>, és az eddigi érték is <samp>NEM</samp>, így <samp>SOHA</samp> lesz a végső eredmény.', //? to default
+	'TRACE_USER_NO_TOTAL_NO_LOCAL'			=> 'A felhasználó jogosultsága erre a fórumra <samp>NEM</samp>, és az eddigi érték is <samp>NEM</samp>, így <samp>SOHA</samp> lesz a végső eredmény.',
 	'TRACE_USER_YES_TOTAL_NEVER'			=> 'A felhasználó jogosultsága <samp>IGEN</samp>re van állítva, de az eddigi <samp>SOHA</samp> nem írható felül.',
 	'TRACE_USER_YES_TOTAL_NEVER_LOCAL'		=> 'A felhasználó jogosultsága erre a fórumra <samp>IGEN</samp>re van állítva, de az eddigi <samp>SOHA</samp> nem írható felül.',
 	'TRACE_USER_YES_TOTAL_NO'				=> 'A felhasználó jogosultsága <samp>IGEN</samp>re van állítva, és ez lesz az új érték, mivel eddig <samp>NEM</samp> volt.',
 	'TRACE_USER_YES_TOTAL_NO_LOCAL'			=> 'A felhasználó jogosultsága erre a fórumra <samp>IGEN</samp>re van állítva, és ez lesz az új érték, mivel eddig <samp>NEM</samp> volt.',
-	'TRACE_USER_YES_TOTAL_YES'				=> 'A felhasználó jogosultsága <samp>IGEN</samp>re van állítva, és az eddig érték is <samp>IGEN</samp>, így semmi sem változik.',
-	'TRACE_USER_YES_TOTAL_YES_LOCAL'		=> 'A felhasználó jogosultsága erre a fórumra <samp>IGEN</samp>re van állítva, és az eddig érték is <samp>IGEN</samp>, így semmi sem változik.',
+	'TRACE_USER_YES_TOTAL_YES'				=> 'A felhasználó jogosultsága <samp>IGEN</samp>re van állítva, és az eddigi érték is <samp>IGEN</samp>, így semmi sem változik.',
+	'TRACE_USER_YES_TOTAL_YES_LOCAL'		=> 'A felhasználó jogosultsága erre a fórumra <samp>IGEN</samp>re van állítva, és az eddigi érték is <samp>IGEN</samp>, így semmi sem változik.',
 	'TRACE_WHO'								=> 'Alany', //? "Who"
 	'TRACE_TOTAL'							=> 'Eredmény', //? "Total" 'Összeg'
 

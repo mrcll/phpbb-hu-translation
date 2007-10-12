@@ -4,7 +4,7 @@
 * acp_attachments [Hungarian]
 *
 * @package language
-* @version $Id: attachments.php,v 1.9 2007-10-11 17:02:25 fberci Exp $
+* @version $Id: attachments.php,v 1.10 2007-10-12 14:59:59 fberci Exp $
 * @copyright (c) 2005 phpBB Group modified by „Magyar phpBB Közösség fordítók” in 2007 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -77,7 +77,7 @@ $lang = array_merge($lang, array(
 
 	'DEFINE_ALLOWED_IPS'			=> 'Engedélyezett IP-k/hosztnevek megadása',
 	'DEFINE_DISALLOWED_IPS'			=> 'Nem engedélyezett IP-k/hosztnevek megadása',
-	'DOWNLOAD_ADD_IPS_EXPLAIN'		=> 'Egynél több IP-címet vagy hosztnevet mindegyiket új sorba írva tudsz megadni. IP-cím tartomány megadásához használd a kötőjelet (-), valamint használhatod a * jokerkaraktert.',
+	'DOWNLOAD_ADD_IPS_EXPLAIN'		=> 'Egynél több IP-címet vagy hosztnevet mindegyiket új sorba írva tudsz megadni. IP-cím tartomány megadásához használj kötőjelet (-), valamint használhatod a * jokerkaraktert.',
 	'DOWNLOAD_REMOVE_IPS_EXPLAIN'	=> 'Egyszerre több IP-címet is eltávolíthatsz az egered és a billentyűzeted a böngésződnek megfelelő kombinációjának használatával. A kizárt IP-címek kék háttérrel szerepelnek.',
 	'DISPLAY_INLINED'				=> 'Képek megjelenítése közvetlenül a hozzászólásokban',
 	'DISPLAY_INLINED_EXPLAIN'		=> 'Ha nemre van állítva, a kép csatolmányok linkként fognak megjelenni.',

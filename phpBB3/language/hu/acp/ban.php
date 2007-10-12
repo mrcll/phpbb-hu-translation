@@ -4,7 +4,7 @@
 * acp_ban [Hungarian]
 *
 * @package language
-* @version $Id: ban.php,v 1.9 2007-10-11 17:02:25 fberci Exp $
+* @version $Id: ban.php,v 1.10 2007-10-12 14:59:59 fberci Exp $
 * @copyright (c) 2005 phpBB Group modified by „Magyar phpBB Közösség fordítók” in 2007 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 
 	'IP_BAN'					=> 'IP-címek kitiltása',
 	'IP_BAN_EXCLUDE_EXPLAIN'	=> 'Ha igenre állítod, a megadott IP-címek minden jelenlegi kitiltás alól mentesítve lesznek.',
-	'IP_BAN_EXPLAIN'			=> 'Egynél több IP-címet vagy hosztnevet mindegyiket új sorba írva tudsz megadni. IP-cím tartomány megadásához használd a kötőjelet (-), valamint használhatod a * jokerkaraktert.',
+	'IP_BAN_EXPLAIN'			=> 'Egynél több IP-címet vagy hosztnevet mindegyiket új sorba írva tudsz megadni. IP-cím tartomány megadásához használj kötőjelet (-), valamint használhatod a * jokerkaraktert.',
 	'IP_HOSTNAME'				=> 'IP-címek vagy hosztnevek',
 	'IP_NO_BANNED'				=> 'Nincs kitiltott IP-cím.',
 	'IP_UNBAN'					=> 'IP címek, illetve hosztnevek kitiltásának vagy feloldásának megszüntetése',
