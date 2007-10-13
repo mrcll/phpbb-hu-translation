@@ -4,7 +4,7 @@
 * acp_board [Hungarian]
 *
 * @package language
-* @version $Id: board.php,v 1.20 2007-10-11 17:02:25 fberci Exp $
+* @version $Id: board.php,v 1.21 2007-10-13 20:27:24 fberci Exp $
 * @copyright (c) 2005 phpBB Group modified by „Magyar phpBB Közösség fordítók” in 2007
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -380,6 +380,7 @@ $lang = array_merge($lang, array(
 	'FORM_TIME_MIN_EXPLAIN'			=> 'Az ennél gyorsabban elküldött űrlapokat a fórum figyelmen kívül hagyja. A kikapcsoláshoz adj meg 0-t.',
 	'FORM_SID_GUESTS'				=> 'Űrlapok hozzákötése vendég munkamenetekhez',
 	'FORM_SID_GUESTS_EXPLAIN'		=> 'Ha be van kapcsolva, minden vendég munkamenethez külön űrlapjelzés lesz. Ez néhány internetszolgáltatónál gondot okozhat.', //? token
+	'FORWARDED_FOR_VALID'			=> '<var>X_FORWARDED_FOR</var> fejléc ellenőrzése',
 	'FORWARDED_FOR_VALID_EXPLAIN'	=> 'A munkamenetek csak akkor kerülnek folytatásra, ha a küldött <var>X_FORWARDED_FOR</var> fejléc megegyezik az előző kérés alkalmával küldöttel. Emellett az <var>X_FORWARDED_FOR</var> is összevetésre kerül a kitiltott IP-címekkel.',
 	'IP_VALID'						=> 'Munkamenet IP ellenőrzés',
 	'IP_VALID_EXPLAIN'				=> 'A felhasználó IP-címének mekkora része lesz használva a munkamenet érvényesítéséhez; a <samp>Teljes</samp> az egész címet összeveti, az <samp>A.B.C</samp> az első x.x.x részt, az <samp>A.B</samp> az első x.x részt, a <samp>Nincs</samp> pedig teljesen kikapcsolja az ellenőrzést. IPv6 címeknél az <samp>A.B.C</samp> az első 4 blokkot, az <samp>A.B</samp> pedig az első 3 blokkot veti össze.',
