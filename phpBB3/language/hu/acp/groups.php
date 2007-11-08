@@ -4,7 +4,7 @@
 * acp_groups [Hungarian]
 *
 * @package language
-* @version $Id: groups.php,v 1.11 2007-10-11 17:02:25 fberci Exp $
+* @version $Id: groups.php,v 1.12 2007-11-08 19:37:07 fberci Exp $
 * @copyright (c) 2005 phpBB Group modified by „Magyar phpBB Közösség fordítók” in 2007
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -90,7 +90,7 @@ $lang = array_merge($lang, array(
 	'GROUP_RANK'					=> 'Csoport rang',
 	'GROUP_RECEIVE_PM'				=> 'Csoport kaphat privát üzeneteket',
 	'GROUP_RECEIVE_PM_EXPLAIN'		=> 'Kérjük, vedd figyelembe, hogy ettől a beállítástól függetlenül rejtett csoportnak nem lehet üzenetet küldeni.',
-	'GROUP_REQUEST'					=> 'Kérelmezés',
+	'GROUP_REQUEST'					=> 'Kérelmezéses',
 	'GROUP_SETTINGS_SAVE'			=> 'Csoportra kiterjedő beállítások',
 	'GROUP_TYPE'					=> 'Csoport típusa',
 	'GROUP_TYPE_EXPLAIN'			=> 'Ez határozza meg melyik felhasználók láthatják a csoportot vagy csatlakozhatnak hozzá.',

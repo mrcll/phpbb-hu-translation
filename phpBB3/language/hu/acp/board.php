@@ -4,7 +4,7 @@
 * acp_board [Hungarian]
 *
 * @package language
-* @version $Id: board.php,v 1.21 2007-10-13 20:27:24 fberci Exp $
+* @version $Id: board.php,v 1.22 2007-11-08 19:37:07 fberci Exp $
 * @copyright (c) 2005 phpBB Group modified by „Magyar phpBB Közösség fordítók” in 2007
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -210,7 +210,7 @@ $lang = array_merge($lang, array(
 	'MIN_TIME_REG'				=> 'Minimum idő regisztrációhoz',
 	'MIN_TIME_REG_EXPLAIN'		=> 'A regisztrációs űrlapot nem lehet elküldeni míg ennyi idő el nem telik.',
 	'MIN_TIME_TERMS'			=> 'Minimum idő feltételek elfogadásához',
-	'MIN_TIME_TERMS_EXPLAIN'	=> 'A feltelek oldalról nem lehet továbbmenni míg ennyi idő el nem telik.',
+	'MIN_TIME_TERMS_EXPLAIN'	=> 'A feltételek oldalról nem lehet továbbmenni míg ennyi idő el nem telik.',
 	'NO_AUTH_PLUGIN'			=> 'Nem található megfelelő azonosítási bővítmény.',
 	'PASSWORD_LENGTH'			=> 'Jelszó hossza',
 	'PASSWORD_LENGTH_EXPLAIN'	=> 'Minimum illetve maximum mennyi karakterből állhat a jelszó.',
@@ -273,7 +273,7 @@ $lang = array_merge($lang, array(
 	'LIMIT_LOAD_EXPLAIN'			=> 'Ha a rendszer egy perces átlagos terhelése meghaladja ezt az értéket, akkor a fórum automatikusan szünetelni fog. Az 1.0 érték megegyezik egy processzor ~100%-os használatával. A funkció csak UNIX alapú rendszereken működik, és akkor is csak, ha elérhető ez az információ. Ha a phpBB-nek nem sikerül meghatároznia a terhelés korlátot, akkor ez az érték automatikusan 0-ra állítódik.',
 	'LIMIT_SESSIONS'				=> 'Munkamenetek korlátozása',
 	'LIMIT_SESSIONS_EXPLAIN'		=> 'Ha a munkamenetek száma egy perc alatt meghaladja ezt az értéket, a fórum automatikusan szünetelni fog. Állítsd 0-ra, hogy ne legyen korlátozás.',
-	'LOAD_CPF_MEMBERLIST'			=> 'Egyedi profil mezők megjelenítésének engedélyezése a taglistában',
+	'LOAD_CPF_MEMBERLIST'			=> 'Egyedi profil mezők megjelenítése a taglistában',
 	'LOAD_CPF_VIEWPROFILE'			=> 'Egyedi profil mezők megjelenítése a felhasználók profiljában',
 	'LOAD_CPF_VIEWTOPIC'			=> 'Egyedi profil mezők megjelenítése a téma oldalakon',
 	'LOAD_USER_ACTIVITY'			=> 'Felhasználó aktivitásának mutatása',
