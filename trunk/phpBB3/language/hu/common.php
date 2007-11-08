@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.59 2007-10-11 17:02:25 fberci Exp $
+* @version $Id: common.php,v 1.60 2007-11-08 19:37:06 fberci Exp $
 * @copyright (c) 2005 phpBB Group modified by „Magyar phpBB Közösség fordítók” in 2007 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -86,7 +86,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_URL_INVALID'			=> 'A megadott URL hibás.',
 	'AVATAR_URL_NOT_FOUND'			=> 'A megadott állomány nem található.',
 	'AVATAR_WRONG_FILESIZE'			=> 'Az avatarnak 0 és %1d %2s között kell lennie.',
-	'AVATAR_WRONG_SIZE'				=> 'A megadott avatar %5$d pixel széles, és %6$d pixel magas. Az avatar szélességének %1$d és %3$d pixel között, magasságának %2$d és %4$d pixel között kell lennie.',
+	'AVATAR_WRONG_SIZE'				=> 'A megadott avatar %5$d pixel széles, és %6$d pixel magas. Az avatarnak legalább %1$d pixel szélesnek és %2$d pixel magasnak kell lennie, valamint legfeljebb %3$d pixel széles és %4$d pixel magas lehet.',
 
 	'BACK_TO_TOP'			=> 'Vissza a tetejére',
 	'BACK_TO_PREV'			=> 'Vissza az előző oldalra',
@@ -495,8 +495,8 @@ $lang = array_merge($lang, array(
 	'SEARCH_UNANSWERED'			=> 'Megválaszolatlan hozzászólások',
 	'SECONDS'					=> 'másodperc',
 	'SELECT'					=> 'Kiválasztás',
-	'SELECT_ALL'				=> 'Teljes kiválasztása',
-	'SELECT_ALL_CODE'			=> 'Teljes kiválasztása',
+	'SELECT_ALL'				=> 'Összes kiválasztása', //? remélem jó, és így használják
+	'SELECT_ALL_CODE'			=> 'Egész kiválasztása',
 	'SELECT_DESTINATION_FORUM'	=> 'Célfórum kiválasztása',
 	'SELECT_FORUM'				=> 'Fórum kiválasztása',
 	'SEND_EMAIL'				=> 'E-mail küldése',

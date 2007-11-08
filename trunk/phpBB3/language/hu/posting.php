@@ -4,7 +4,7 @@
 * posting [Hungarian]
 *
 * @package language
-* @version $Id: posting.php,v 1.23 2007-10-11 17:02:25 fberci Exp $
+* @version $Id: posting.php,v 1.24 2007-11-08 19:37:06 fberci Exp $
 * @copyright (c) 2005 phpBB Group modified by „Magyar phpBB Közösség fordítók” in 2007 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 *
@@ -217,7 +217,7 @@ $lang = array_merge($lang, array(
 	'VIEW_PRIVATE_MESSAGE'		=> '%sElküldött privát üzenet megtekintése%s',
 
 	'WRONG_FILESIZE'			=> 'Az állomány túl nagy, a maximum megengedett méret %1d %2s.',
-	'WRONG_SIZE'				=> 'A kép szélességének %1$d és %2$d pixel között, magasságának %3$d és %4$d pixel között kell lennie. A megadott avatar %5$d pixel széles, és %6$d pixel magas.',
+	'WRONG_SIZE'				=> 'A képnek legalább %1$d pixel szélesnek és %2$d pixel magasnak kell lennie, valamint legfeljebb %3$d pixel széles és %4$d pixel magas lehet. A megadott kép %5$d pixel széles, és %6$d pixel magas.',
 ));
 
 ?>
