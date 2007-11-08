@@ -4,9 +4,10 @@
 * acp_prune [Hungarian]
 *
 * @package language
-* @version $Id: prune.php,v 1.8 2007-10-11 17:02:25 fberci Exp $
-* @copyright (c) 2005 phpBB Group modified by „Magyar phpBB Közösség fordítók” in 2007 
+* @version $Id: prune.php,v 1.9 2007-11-08 20:56:23 fberci Exp $
+* @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* Original copyright: (c) 2005 phpBB Group
 *
 */
 

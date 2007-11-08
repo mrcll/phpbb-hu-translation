@@ -4,9 +4,10 @@
 * acp_permissions [Hungarian]
 *
 * @package language
-* @version $Id: permissions.php,v 1.12 2007-10-12 14:59:59 fberci Exp $
-* @copyright (c) 2005 phpBB Group modified by „Magyar phpBB Közösség fordítók” in 2007 
+* @version $Id: permissions.php,v 1.13 2007-11-08 20:56:23 fberci Exp $
+* @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* Original copyright: (c) 2005 phpBB Group
 *
 */
 
