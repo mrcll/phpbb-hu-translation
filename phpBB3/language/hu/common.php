@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.61 2007-11-08 20:56:22 fberci Exp $
+* @version $Id: common.php,v 1.62 2007-11-20 20:44:46 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -574,6 +574,7 @@ $lang = array_merge($lang, array(
 	'TOPICS'			=> 'Témák',
 	'TOPIC_ICON'		=> 'Téma ikon',
 	'TOPIC_LOCKED'		=> 'A témát lezárták, nem szerkesztheted a hozzászólásaid, és nem küldhetsz új hozzászólást.', //? passzívot kéne használni?
+	'TOPIC_LOCKED_SHORT'=> 'Téma lezárva',
 	'TOPIC_MOVED'		=> 'Áthelyezett téma',
 	'TOPIC_REVIEW'		=> 'Téma áttekintése',
 	'TOPIC_TITLE'		=> 'Téma címe',

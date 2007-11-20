@@ -4,7 +4,7 @@
 * acp_board [Hungarian]
 *
 * @package language
-* @version $Id: board.php,v 1.23 2007-11-08 20:56:23 fberci Exp $
+* @version $Id: board.php,v 1.24 2007-11-20 20:44:46 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -98,11 +98,11 @@ $lang = array_merge($lang, array(
 	'AVATAR_STORAGE_PATH'			=> 'Avatarok tárolási helyének elérési útja',
 	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'A phpBB-d gyökérkönyvtárától viszonyított elérési út, pl. <samp>images/avatars/upload</samp>.',
 	'MAX_AVATAR_SIZE'				=> 'Maximum avatar méret',
-	'MAX_AVATAR_SIZE_EXPLAIN'		=> 'Magasság x szélesség pixelben.',
+	'MAX_AVATAR_SIZE_EXPLAIN'		=> 'Szélesség x magasság pixelben.',
 	'MAX_FILESIZE'					=> 'Maximum avatar állomány méret',
 	'MAX_FILESIZE_EXPLAIN'			=> 'Csak a feltöltött avatarokra vonatkozik.',
 	'MIN_AVATAR_SIZE'				=> 'Minimum avatar méret',
-	'MIN_AVATAR_SIZE_EXPLAIN'		=> 'Magasság x szélesség pixelben.',
+	'MIN_AVATAR_SIZE_EXPLAIN'		=> 'Szélesség x magasság pixelben.',
 ));
 
 // Message Settings
