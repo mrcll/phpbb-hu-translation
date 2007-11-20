@@ -4,7 +4,7 @@
 * install [Hungarian]
 *
 * @package language
-* @version $Id: install.php,v 1.31 2007-11-08 20:56:22 fberci Exp $
+* @version $Id: install.php,v 1.32 2007-11-20 20:44:46 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -190,8 +190,9 @@ $lang = array_merge($lang, array(
 		<p>A phpBB Egyesített Konvertáló Keretrendszer segítségével át lehet konvertálni phpBB 2.0.x-es vagy más fórummotort használó fórumokat phpBB3-assá. Ha át szeretnél konvertálni egy már meglévő fórumot, <a href="%2$s">lépj tovább a konvertálóhoz</a>.</p>
 		<h2>A fórum használatba vétele</h2>
 		<p>Az alábbi gombra kattintva az adminisztrátori vezérlőpultra jutsz. Szánj rá egy kis időt, és vizsgáld meg a beállítási lehetőségeket. Ne feledkezz meg róla, hogy a phpBB-vel kapcsolatban segítséget nyújt az angol <a href="http://www.phpbb.com/support/documentation/3.0/">Felhasználói kézikönyv</a> és a <a href="http://www.phpbb.com/phpBB/viewforum.php?f=46">phpbb.com megfelelő fóruma</a>; további információt a <a href="%3$s">README</a>-ben találsz.</p><p><strong>Most kérjük, töröld, helyezd át, vagy nevezd át az install könyvtárat, mert amíg ez a könyvtár létezik, csak az adminisztrátori vezérlőpult lesz elérhető.</strong></p>', //? teljes átfogalmazás... TODO (béta)
+
 	'INSTALL_INTRO'				=> 'Üdvözlünk a telepítőben', //? "Welcome to Installation" 'Üdvözlünk a telepítésnél'
-	'INSTALL_INTRO_BODY'		=> 'Ezen menüpont segítségével feltelepítheted a phpBB-t a szerveredre.</p><p>A folytatás során szükséged lesz az adatbázis adatokra. Ha nem ismered ezeket, lépj kapcsolatba a tárhelyszolgáltatóddal, és tájékozódj róluk. Ezen adatok nélkül nem tudsz továbblépni. A következőkre lesz szükséged:</p>
+	'INSTALL_INTRO_BODY'		=> 'Ezen menüpont segítségével feltelepítheted a phpBB3-at a szerveredre.</p><p>A folytatás során szükséged lesz az adatbázis adatokra. Ha nem ismered ezeket, lépj kapcsolatba a tárhelyszolgáltatóddal, és tájékozódj róluk. Ezen adatok nélkül nem tudsz továbblépni. A következőkre lesz szükséged:</p>
 	<ul>
 		<li>az adatbázis típusára – milyen adatbázisrendszert fogsz használni;</li>
 		<li>az adatbázisszerver hosztnevére vagy DSN-jére – az adatbázisszerver címe, elérhetősége;</li>
@@ -276,8 +277,7 @@ $lang = array_merge($lang, array(
 	'NO_CONVERT_SPECIFIED'		=> 'Nem került konvertáló kiválasztásra.', //? "No convertor specified"
 	'NO_LOCATION'				=> 'Nem sikerült meghatározni a helyét. Ha tudod, hogy az Imagemagick telepítve van, később megadhatod az elérési helyét az adminisztrátori vezérlőpultban.', //? elérési hely stb.
 	'NO_TABLES_FOUND'			=> 'Nem találhatók adatbázistáblák.',
-// TODO: Write some explanatory introduction text
-	'OVERVIEW_BODY'					=> 'Üdvözlünk a phpBB 2.0.x után következő generációjának, a phpBB 3.0-nak az első release candidate kiadásában! Ez a verzió már szélesebb körnek szánt, és a hibák megtalálását, illetve a problémás területek felfedezését hivatott szolgálni.</p><p>Kérjük, olvasd el <a href="../docs/INSTALL.html">az angol nyelvű telepítési útmutatónkat</a> a phpBB3 telepítéséről.</p><p><strong style="text-transform: uppercase;">Megjegyzés:</strong> ez a kiadás <strong style="text-transform: uppercase;">még mindig nem végleges</strong>. Élesben való használathoz érdemes lehet kivárni a végleges kiadást.</p><p>Ez a telepítőrendszer végig fog vezetni a phpBB telepítésének, más fórumszoftverről való konvertálásnak vagy a legújabb verzióra való frissítésnek folyamatán. További információt az egyes lehetőségekről a fenti menü megfelelő elemére kattintva kaphatsz.', //? TODO "installation system"? nyelvtan? "This installation system will guide you through the process of installing phpBB, converting from a different software package or updating to the latest version of phpBB. For more information on each option, select it from the menu above."
+	'OVERVIEW_BODY'				=> 'Üdvözlünk a phpBB3-ban!<br /><br />A phpBB™ a legelterjedtebb nyílt forrású fórumrendszer a világon. A phpBB3 egy hét éves fejlesztés legfrissebb eleme, mely az elődeihez hasonlóan funkciógazdag, felhasználóbarát és teljes mértékben támogatott a phpBB Team által. A phpBB3 nagyot lép előre a phpBB2-t népszerűvé tevő területeken, számos általánosan kért funkciót tesz elérhetővé, melyek a korábbi verziókban nem voltak jelen. Reméljük, meglahadja a várakozásaidat.<br /><br />Ez a telepítőrendszer végig fog vezetni a phpBB3 telepítésén, a phpBB3 legújabb verziójára való frissítésén, valamint más fórumrendszer phpBB3-ra való konvertálásán (beleértve a phpBB2-t). További információért, bátorítunk, hogy olvasd el az (angol nyelvű) <a href="../docs/INSTALL.html">telepítési útmutatót</a>.<br /><br />A phpBB3 licencének megtekintéséhez, a támogatás elérésének helyéhez, ill. a phpBB Team ehhez való hozzáállásának megismeréséhez, válaszd ki a megfelelő elemet az oldalső menüből. A folytatáshoz, kérjük, válaszd ki fentebb a megfelelő fület.', //? átnézendő
 
 	'PCRE_UTF_SUPPORT'				=> 'PCRE UTF-8 támogatás',
 	'PCRE_UTF_SUPPORT_EXPLAIN'		=> 'A phpBB <strong>nem</strong> fog működni, ha a PHP a PCRE kiterjesztés UTF-8 támogatása nélkül került fordításra.', //? fogalmazás...
@@ -303,7 +303,6 @@ $lang = array_merge($lang, array(
 
 	'REFRESH_PAGE'				=> 'Automatikus továbblépés', //? "Refresh page to continue conversion"
 	'REFRESH_PAGE_EXPLAIN'		=> 'Ha igenre állítod, a konvertáló egy lépés befejezése után mindig újratölti az oldalt, ezzel továbblépve a következő lépésre. Ha most konvertálsz az első alkalommal, és csak tesztelni szeretnél, illetve előre tájékozódni az esetlegesen felmerülő hibákról, ajánljuk, hogy állítsd ezt a beállítást nemre.',
-//	'REQUIRED'					=> 'Required',
 	'REQUIREMENTS_TITLE'		=> 'Telepítési követelmények', //? "Installation compatibility" nem volt jó ötletem az angol verzióra, úgyhogy ez lett a cím :)
 	'REQUIREMENTS_EXPLAIN'		=> 'A phpBB telepítése előtt még lefuttatunk néhány tesztet a szerveren, hogy meggyőződjünk, biztosan sikeresen tudod telepíteni és üzemeltetni a phpBB-t. Kérjük, nézd át alaposan az eredményeket, és ne lépj tovább addig, amíg az összes szükséges teszt sikeres nem lesz. Ha opcionális tesztekhez kapcsolódó funkciókat is használni szeretnél, győződj meg arról is, hogy a megfelelő opcionális tesztek is sikeresek.',
 	'RETRY_WRITE'				=> 'Konfiguráció kiírásának újra megpróbálása', //? "Retry writing config"
@@ -335,8 +334,8 @@ $lang = array_merge($lang, array(
 	'SUB_LICENSE'				=> 'Licenc',
 	'SUB_SUPPORT'				=> 'Támogatás',
 	'SUCCESSFUL_CONNECT'		=> 'Sikeres kapcsolódás',
-// TODO: Write some text on obtaining support
-	'SUPPORT_BODY'				=> 'A release candidate fázis alatt teljes támogatás elérhető a <a href="http://www.phpbb.com/phpBB/viewforum.php?f=46">phpBB.com megfelelő fórumában</a>. Ez a támogatás kiterjed telepítési kérdések megválaszolására, konfigurációs, illetve hibákkal kapcsolatos problémák megoldására. MOD-okról, illetve egyedi kód/megjelenés változtatásokról szóló társalgások is engedélyezettek.</p><p>Segítséget találhatsz az <a href="http://www.phpbb.com/support/documentation/3.0/quickstart/">angol gyorstalpalóban</a> is.</p><p>Hogy mindig azonnal értesülj a phpBB frissítéseiről, <a href="http://www.phpbb.com/support/">iratkozz fel a hírlevelünkre</a>.', //? TODO fogalmazás
+	'SUPPORT_BODY'			=> 'A phpBB3 stabil kiadásaihoz teljes támogatás elérhető, térítésmentesen. Ez magában foglalja az alábbiakat:</p><ul><li>telepítés,</li><li>konfiguráció,</li><li>technikai kérdések,</li><li>a szoftverben lévő lehetséges hibákkal kapcsolatos problémák,</li><li>frissítés a Release Candidate (RC) verziókról a legfrissebb stabil verzióra,</li><li>konvertálás phpBB 2.0.x-ről phpBB3-ra,</li><li>konvertálás más fórumszoftverről phpBB3-ra (ezzel kapcsolatban lásd a <a href="http://www.phpbb.com/community/viewforum.php?f=65">Konvertálók fórumot</a>).</li></ul><p>A phpBB3 még béta verzióját futtató felhasználóinknak tanácsoljuk, hogy a jelenlegi fórumukat cseréljék le egy friss telepítésűre a legújabb verzióból.</p><h2>MOD-ok, megjelenések</h2><p>A MOD-okkal kapcsolatos ügyekkel, kérünk, a megfelelő, <a href="http://www.phpbb.com/community/viewforum.php?f=81">Modifikációk fórumba</a> írj.<br />A megjelenésekkel, sablonokkal és képkészletekkel kapcsolatban, kérünk, szintén fordulj az ezeknek megfelelő, <a href="http://www.phpbb.com/community/viewforum.php?f=80">Megjelenések fórumba</a>.<br /><br />Ha a kérdésed egy bizonyos csomagra irányul, kérünk, közvetlenül a csomaggal foglalkozó témába küldd a hozzászólásod.</p><h2>Támogatás elérhetősége</h2><p><a href="http://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">A phpBB üdvözlő csomag</a><br /><a href="http://www.phpbb.com/support/">Támogatás részleg</a><br /><a href="http://www.phpbb.com/support/documentation/3.0/quickstart/">Gyorstalpaló</a><br /><br />Hogy mindig azonnal értesülj a phpBB frissítéseiről, <a href="http://www.phpbb.com/support/">iratkozz fel a hírlevelünkre</a>.</p><h2>Saját nyelvű támogatás</h2><p>A phpBB.com angol nyelvű támogatása mellett a <a href="http://www.phpbb.com/support/intl/">nemzetközi phpBB oldalak</a> is örömmel állnak rendelkezésre. Ez a magyar nyelv esetében a <a href="http://phpbb.hu/">Magyar phpBB Közösség</a> oldalát jelenti. Ezeken a webhelyeken főképp az alap phpBB-hez nyújtanak támogatást, MOD-okhoz, megjelenésekhez többnyire csak részlegesen, nem minden esetben lehet segítséget kapni. Amennyiben az adott oldalon nem foglalkoznak az adott bővítménnyel, keresd fel a phpBB.com megfelelő fórumtémáját.<br /><br />', //? technicalra jobb magyar kifejezés; általánosságban át lehetne nézni (~vázlat); link egy összefoglaló írásra a phpbb.hu-n (á la phpBB Welcome Package)?!
+
 	'SYNC_FORUMS'				=> 'Fórumok szinkronizációjának megkezdése', //? elkezdés - kell egyáltalán ez a szó (tesztelni kell)
  	'SYNC_POST_COUNT'			=> 'Hozzászólásszámok szinkronizálása',
  	'SYNC_POST_COUNT_ID'		=> 'Hozzászólásszámok szinkronizálása; <var>entry</var> %1$s – %2$s.',
@@ -383,7 +382,7 @@ $lang = array_merge($lang, array(
 	'COLLECTING_FILE_DIFFS'			=> 'Állományok közötti különbségek összegyűjtése',
 	'COMPLETE_LOGIN_TO_BOARD'		=> 'Most <a href="../ucp.php?mode=login">lépj be a fórumon</a>, és ellenőrizd, hogy minden rendesen működik-e. Ne felejtsd el törölni, átnevezni vagy áthelyezni az install könyvtárat!',
 	'CONTINUE_UPDATE_NOW'			=> 'Frissítés folytatása most',
-	'CURRENT_FILE'					=> 'Jelenlegi eredeti állomány',
+	'CURRENT_FILE'					=> 'Jelenlegi eredeti állomány kezdete',
 	'CURRENT_VERSION'				=> 'Jelenlegi verzió',
 
 	'DATABASE_TYPE'						=> 'Adatbázis típusa',
@@ -393,7 +392,7 @@ $lang = array_merge($lang, array(
 	'DESTINATION'						=> 'Célállomány',
 	'DIFF_INLINE'						=> 'Inline', //? "Inline" állományközi, sorközi, hagyjuk az eredetit (aki ezt használja, úgyis tudja mit csinál)?
 	'DIFF_RAW'							=> 'Raw unified diff', //?
-	'DIFF_SEP_EXPLAIN'					=> 'Jelenlegi állomány vége / Új frissített állomány kezdődik', //?
+	'DIFF_SEP_EXPLAIN'					=> 'Jelenlegi állomány vége / Új frissített állomány kezdete', //?
 	'DIFF_SIDE_BY_SIDE'					=> 'Side by Side',
 	'DIFF_UNIFIED'						=> 'Unified diff',
 	'DO_NOT_UPDATE'						=> 'Állomány frissítésének kihagyása', //? "Do not update this file"
@@ -450,7 +449,7 @@ $lang = array_merge($lang, array(
 	'MERGING_FILES'				=> 'Különbségek egyesítése',
 	'MERGING_FILES_EXPLAIN'		=> 'A végső állományváltozások összegyűjtés alatt vannak.<br /><br />Kérjük, vár míg a phpBB elvégzi az összes műveletet a megváltozott állományokon.',
 
-	'NEW_FILE'						=> 'Új frissített állomány',
+	'NEW_FILE'						=> 'Új frissített állomány vége',
 	'NEW_USERNAME'					=> 'Új felhasználónév',
 	'NO_AUTH_UPDATE'				=> 'Nincs jogosultságod a frissítéshez.',
 	'NO_ERRORS'						=> 'Nincs hiba',
