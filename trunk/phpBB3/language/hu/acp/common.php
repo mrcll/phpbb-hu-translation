@@ -4,7 +4,7 @@
 * acp common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.23 2007-11-08 20:56:23 fberci Exp $
+* @version $Id: common.php,v 1.24 2007-11-22 18:18:52 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -323,7 +323,7 @@ $lang = array_merge($lang, array(
 
 	'PURGE_CACHE'			=> 'Gyorsítótár kiürítése', //? megtisztítása?
 	'PURGE_CACHE_CONFIRM'	=> 'Biztosan ki akarod üríteni a gyorsítótárat?',
-	'PURGE_CACHE_EXPLAIN'	=> 'Minden gyorsítótárazott elem törlésre kerül, ide értve a gyorsítótárazott sablon állományokat és adatbázis lekérdezéseket is.',
+	'PURGE_CACHE_EXPLAIN'	=> 'Minden gyorsítótárazott elem törlésre kerül, beleértve a gyorsítótárazott sablon állományokat és adatbázis-lekérdezéseket is.',
 
 	'RESET_DATE'					=> 'Fórum indulási dátumának lenullázása', //? lenullázás?
 	'RESET_DATE_CONFIRM'			=> 'Biztosan meg akarod változtatni a fórum indulásának dátumát mostanra?',
