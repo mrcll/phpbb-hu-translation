@@ -4,7 +4,7 @@
 * install [Hungarian]
 *
 * @package language
-* @version $Id: install.php,v 1.32 2007-11-20 20:44:46 fberci Exp $
+* @version $Id: install.php,v 1.33 2007-11-22 18:18:51 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -277,7 +277,7 @@ $lang = array_merge($lang, array(
 	'NO_CONVERT_SPECIFIED'		=> 'Nem került konvertáló kiválasztásra.', //? "No convertor specified"
 	'NO_LOCATION'				=> 'Nem sikerült meghatározni a helyét. Ha tudod, hogy az Imagemagick telepítve van, később megadhatod az elérési helyét az adminisztrátori vezérlőpultban.', //? elérési hely stb.
 	'NO_TABLES_FOUND'			=> 'Nem találhatók adatbázistáblák.',
-	'OVERVIEW_BODY'				=> 'Üdvözlünk a phpBB3-ban!<br /><br />A phpBB™ a legelterjedtebb nyílt forrású fórumrendszer a világon. A phpBB3 egy hét éves fejlesztés legfrissebb eleme, mely az elődeihez hasonlóan funkciógazdag, felhasználóbarát és teljes mértékben támogatott a phpBB Team által. A phpBB3 nagyot lép előre a phpBB2-t népszerűvé tevő területeken, számos általánosan kért funkciót tesz elérhetővé, melyek a korábbi verziókban nem voltak jelen. Reméljük, meglahadja a várakozásaidat.<br /><br />Ez a telepítőrendszer végig fog vezetni a phpBB3 telepítésén, a phpBB3 legújabb verziójára való frissítésén, valamint más fórumrendszer phpBB3-ra való konvertálásán (beleértve a phpBB2-t). További információért, bátorítunk, hogy olvasd el az (angol nyelvű) <a href="../docs/INSTALL.html">telepítési útmutatót</a>.<br /><br />A phpBB3 licencének megtekintéséhez, a támogatás elérésének helyéhez, ill. a phpBB Team ehhez való hozzáállásának megismeréséhez, válaszd ki a megfelelő elemet az oldalső menüből. A folytatáshoz, kérjük, válaszd ki fentebb a megfelelő fület.', //? átnézendő
+	'OVERVIEW_BODY'				=> 'Üdvözlünk a phpBB3-ban!<br /><br />A phpBB™ a legelterjedtebb nyílt forrású fórumrendszer a világon. A phpBB3 egy hét éves fejlesztés legfrissebb eleme, mely az elődeihez hasonlóan funkciógazdag, felhasználóbarát és teljes mértékben támogatott a phpBB Team által. A phpBB3 nagyot lép előre a phpBB2-t népszerűvé tevő területeken, számos általánosan kívánt funkciót tesz elérhetővé, melyek a korábbi verziókban nem voltak jelen. Reméljük, meglahadja a várakozásaidat.<br /><br />Ez a telepítőrendszer végig fog vezetni a phpBB3 telepítésén, a phpBB3 legújabb verziójára való frissítésén, valamint más fórumrendszer phpBB3-ra való konvertálásán (beleértve a phpBB2-t). További információért, bátorítunk, hogy olvasd el az (angol nyelvű) <a href="../docs/INSTALL.html">telepítési útmutatót</a>.<br /><br />A phpBB3 licencének megtekintéséhez, a támogatás elérésének helyéhez, ill. a phpBB Team ehhez való hozzáállásának megismeréséhez, válaszd ki a megfelelő elemet az oldalsó menüből. A folytatáshoz, kérjük, válaszd ki fentebb a megfelelő fület.', //? átnézendő
 
 	'PCRE_UTF_SUPPORT'				=> 'PCRE UTF-8 támogatás',
 	'PCRE_UTF_SUPPORT_EXPLAIN'		=> 'A phpBB <strong>nem</strong> fog működni, ha a PHP a PCRE kiterjesztés UTF-8 támogatása nélkül került fordításra.', //? fogalmazás...
@@ -378,7 +378,7 @@ $lang = array_merge($lang, array(
 	'CHECK_FILES_UP_TO_DATE'		=> 'Az adatbázisban lévő információk szerint a legújabb verziót használod. Most tanácsos továbblépned az állományok összevetéséhez, hogy megbizonyosodj róla, tényleg a legújabb verzióját futtatod a phpBB-nek.',//? "According to your database your version is up to date. You may want to proceed with the file check to make sure all files are really up to date with the latest phpBB version."
 	'CHECK_UPDATE_DATABASE'			=> 'Frissítés folytatása', //? "Continue update process"
 	'COLLECTED_INFORMATION'			=> 'Állomány információk',
-	'COLLECTED_INFORMATION_EXPLAIN'	=> 'Az alábbi lista információkat tartalmaz a frissítendő állományokról. Olvasd el a blokkok előtti magyarázó szöveget, hogy tudd milyen állományok tartoznak oda, és mit kell ezekkel tenned a sikeres frissítéshez.', //? "The list below shows information about the files needing an update. Please read the information in front of every status block to see what they mean and what you may need to do to perform a successful update."
+	'COLLECTED_INFORMATION_EXPLAIN'	=> 'Az alábbi lista információkat tartalmaz a frissítendő állományokról. Olvasd el a blokkok előtti magyarázó szöveget, hogy tudd milyen állományok tartoznak oda, és mit kell ezekkel tenned a sikeres frissítés érdekében.', //? "The list below shows information about the files needing an update. Please read the information in front of every status block to see what they mean and what you may need to do to perform a successful update."
 	'COLLECTING_FILE_DIFFS'			=> 'Állományok közötti különbségek összegyűjtése',
 	'COMPLETE_LOGIN_TO_BOARD'		=> 'Most <a href="../ucp.php?mode=login">lépj be a fórumon</a>, és ellenőrizd, hogy minden rendesen működik-e. Ne felejtsd el törölni, átnevezni vagy áthelyezni az install könyvtárat!',
 	'CONTINUE_UPDATE_NOW'			=> 'Frissítés folytatása most',
@@ -399,8 +399,8 @@ $lang = array_merge($lang, array(
 	'DONE'								=> 'Kész', //???
 	'DOWNLOAD'							=> 'Letöltés',
 	'DOWNLOAD_AS'						=> 'Tömörítés', //? "Download as" az angol nem ez, de gyakorlatilag ezt jelenti
-	'DOWNLOAD_UPDATE_METHOD'			=> 'Megváltoztatott állományokat tartalmazó csomag letöltése',
-	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'Miután letöltötted a csomagot, tömörítsd ki. A csomagban található megváltoztatott állományokat töltsd fel a phpBB-d gyökérkönyvtárába, a megfelelő helyükre. Miután feltöltötted az összes állományt, vesd össze újra az állományokat a másik alábbi gomb segítségével.',
+	'DOWNLOAD_UPDATE_METHOD'			=> 'Megváltozott állományokat tartalmazó csomag letöltése',
+	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'Miután letöltötted a csomagot, tömörítsd ki. A csomagban található megváltozott állományokat töltsd fel a phpBB-d gyökérkönyvtárába, a megfelelő helyükre. Miután feltöltötted az összes állományt, vesd össze újra az állományokat a másik alábbi gomb segítségével.',
 
 	'ERROR'			=> 'Hiba',
 	'EDIT_USERNAME'	=> 'Felhasználónév módosítása',
@@ -409,7 +409,7 @@ $lang = array_merge($lang, array(
 	'FILE_DIFF_NOT_ALLOWED'			=> 'Ezen az állományon nem végezhető diff.', //? "File not allowed to be diffed"
 	'FILE_USED'						=> 'Információ a következő állományból',			// Single file //??? "Information used from"
 	'FILES_CONFLICT'				=> 'Ütközéseket tartalmazó állományok',
-	'FILES_CONFLICT_EXPLAIN'		=> 'A következő állományok korábban módosítva lettek, és nem teljesen egyeznek meg a régiverzió-beli állománnyal. Az egyesítésük során ütközés lép fel. Kérünk, járj utána ezeknek az ütközéseknek, és próbáld meg megoldani őket kézzel, vagy folytasd a frissítést a kívánt egyesítési mód kiválasztásával. Ha saját magad oldod meg az ütközések problémáját, miután megváltoztattad az állományokat, vesd őket össze újra. Emellett választhatsz különböző egyesítési módok közül is. Az első használata következtében az új állományban a régi állomány ütköző sorai nem lesznek megtalálhatók, míg a második használatakor az új állomány változásai vesznek el.',
+	'FILES_CONFLICT_EXPLAIN'		=> 'A következő állományok korábban módosítva lettek, és nem teljesen egyeznek meg a régiverzió-beli állománnyal. Az egyesítésük során ütközés lép fel. Kérünk, járj utána ezeknek az ütközéseknek, és próbáld meg megoldani őket kézzel, vagy folytasd a frissítést a kívánt egyesítési mód kiválasztásával. Ha saját magad oldod meg az ütközések problémáját, miután megváltoztattad az állományokat, vesd őket újra össze. Emellett választhatsz különböző egyesítési módok közül is. Az első használata eredményeképp az új állományban a régi állomány ütköző sorai nem lesznek megtalálhatók, míg a második használatakor az új állomány változásai vesznek el.',
 	'FILES_MODIFIED'				=> 'Módosított állományok',
 	'FILES_MODIFIED_EXPLAIN'		=> 'A következő állományok korábban módosítva lettek, és nem teljesen egyeznek meg a régiverzió-beli állománnyal. A frissített állomány a saját módosításaid és az új állomány egyesítése lesz.', //? egyesítés - összefésülés
 	'FILES_NEW'						=> 'Új állományok',
@@ -437,7 +437,7 @@ $lang = array_merge($lang, array(
 	'LINE_UNMODIFIED'		=> 'Változatlan',
 	'LOGIN_UPDATE_EXPLAIN'	=> 'A phpBB frissítéséhez először be kell jelentkezned.',
 
-	'MAPPING_FILE_STRUCTURE'	=> 'A feltöltés megkönnyítésének érdekében alább szerepelnek a feltöltendő fájlok a helyükkel együtt, ahová fel kell őket töltened.', //? "To ease the upload here are the file locations which map your phpBB installation."
+	'MAPPING_FILE_STRUCTURE'	=> 'A feltöltés megkönnyítése céljából alább szerepelnek a feltöltendő fájlok a helyükkel együtt, ahová fel kell őket töltened.', //? "To ease the upload here are the file locations which map your phpBB installation."
 
 	'MERGE_MODIFICATIONS_OPTION'	=> 'Változtatások egyesítése',
 
@@ -447,7 +447,7 @@ $lang = array_merge($lang, array(
 	'MERGE_NEW_FILE_OPTION'		=> 'Állományok egyesítése, ütköző részben az új állomány kódjának használata',
 	'MERGE_SELECT_ERROR'		=> 'Az ütközéseket tartalmazó állományok egyesítési módja nincs helyesen kiválasztva.', //?
 	'MERGING_FILES'				=> 'Különbségek egyesítése',
-	'MERGING_FILES_EXPLAIN'		=> 'A végső állományváltozások összegyűjtés alatt vannak.<br /><br />Kérjük, vár míg a phpBB elvégzi az összes műveletet a megváltozott állományokon.',
+	'MERGING_FILES_EXPLAIN'		=> 'A végső állományváltozások összegyűjtés alatt vannak.<br /><br />Kérünk, várj míg a phpBB elvégzi az összes műveletet a megváltozott állományokon.',
 
 	'NEW_FILE'						=> 'Új frissített állomány vége',
 	'NEW_USERNAME'					=> 'Új felhasználónév',
@@ -462,7 +462,7 @@ $lang = array_merge($lang, array(
 	'NO_VISIBLE_CHANGES'			=> 'Nincs látható változás.',
 	'NOTICE'						=> 'Észrevétel', //? megjegyzés, figyelmeztetés, értesítés
 	'NUM_CONFLICTS'					=> 'Ütközések száma',
-	'NUMBER_OF_FILES_COLLECTED'		=> 'Jelenleg körülbelül %1$d állomány különbségei vannak összegyűjtve a %2$d-ből.<br />Kérjük, várj míg az állományok összegyűjtése befejeződik.',
+	'NUMBER_OF_FILES_COLLECTED'		=> 'Jelenleg körülbelül %1$d állomány különbségei vannak összegyűjtve a %2$d-ből.<br />Kérönk, várj míg az állományok összegyűjtése befejeződik.',
 
 	'OLD_UPDATE_FILES'		=> 'A frissítő állományok elavultak. A phpBB %1$s verzióról %2$s verzióra való frissítésre szolgálnak, de a phpBB legújabb verziója a %3$s.',
 
@@ -507,7 +507,7 @@ $lang = array_merge($lang, array(
 	'UPDATE_FILES'					=> 'Állományok frissítése',
 	'UPDATE_FILES_NOTICE'			=> 'Kérünk, győződj meg róla, hogy a phpBB állományait is frissítetted, ez az állomány csak az adatbázist frissíti.',
 	'UPDATE_INSTALLATION'			=> 'A phpBB frissítése',
-	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Itt frissítheted a phpBB-d a legújabb verzióra.<br />A frissítés folyamata során minden állomány ellenőrzésre kerül. A tényleges frissítés előtt minden különbséget átnézhetsz.<br /><br />Maga az állományok frissítése két módon végezhető el.</p><h2>Kézi frissítés</h2><p>Ezen frissítési mód használatakor csak a saját megváltozott állományaidat töltöd le, így meggyőződhetsz róla, hogy nem vesztesz el semmilyen módosítást, amit csinálhattál. Miután letöltötted ezt a csomagot, a benne lévő állományokat fel kell töltened a phpBB-d gyökérkönyvtárába, a megfelelő helyükre. Ezután mégegyszer összevetheted az állományokat, hogy leellenőrizd, a megfelelő helyre töltötted fel őket.</p><h2>Automatikus frissítés FTP-vel</h2><p>Ez a frissítési mód hasonló az előbbihez, azonban ennél nem kell saját magadnak letöltened, majd feltöltened a megváltoztatott állományokat – ezt megteszi a phpBB. Ezen mód használatához ismerned kell az FTP-belépéshez szükséges dolgokat, mivel egy űrlapon meg kell adnod ezeket. Miután ezt befejezted, át leszel irányítva az állományok összevetéséhez, hogy meggyőződj róla, minden sikeresen frissítésre került.<br /><br />', //?
+	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Itt frissítheted a phpBB-d a legújabb verzióra.<br />A frissítés folyamata során minden állomány ellenőrzésre kerül. A tényleges frissítés előtt minden különbséget átnézhetsz.<br /><br />Maga az állományok frissítése két módon végezhető el.</p><h2>Kézi frissítés</h2><p>Ezen frissítési mód használatakor csak a saját megváltozott állományaidat töltöd le, így meggyőződhetsz róla, hogy nem vesztesz el semmilyen módosítást, amit csinálhattál. Miután letöltötted ezt a csomagot, a benne lévő állományokat fel kell töltened a phpBB-d gyökérkönyvtárába, a megfelelő helyükre. Ezután mégegyszer összevetheted az állományokat, hogy leellenőrizd, a megfelelő helyre töltötted fel őket.</p><h2>Automatikus frissítés FTP-vel</h2><p>Ez a frissítési mód hasonló az előbbihez, azonban ennél nem kell saját magadnak letöltened, majd feltöltened a megváltozott állományokat – ezt megteszi a phpBB. Ezen mód használatához ismerned kell az FTP-belépéshez szükséges dolgokat, mivel egy űrlapon meg kell adnod ezeket. Miután ezt befejezted, át leszel irányítva az állományok összevetéséhez, hogy meggyőződhess, minden sikeresen frissítésre került.<br /><br />', //?
 	'UPDATE_INSTRUCTIONS'			=> '
 
 		<h1>Verziómegjelenési közlemény</h1>
@@ -555,7 +555,7 @@ $lang = array_merge($lang, array(
 
 	'VERSION_CHECK'				=> 'Verzió ellenőrzés',
 	'VERSION_CHECK_EXPLAIN'		=> 'Itt ellenőrzésre kerül, hogy a jelenleg futó phpBB a legfrissebb-e.', //?
-	'VERSION_NOT_UP_TO_DATE'	=> 'A phpBB-d verziója nem a legújabb. Kérjük, folytasd a frissítést.',
+	'VERSION_NOT_UP_TO_DATE'	=> 'A phpBB-d verziója nem a legújabb. Kérünk, folytasd a frissítést.',
 	'VERSION_NOT_UP_TO_DATE_ACP'=> 'A phpBB-d verziója nem a legújabb.<br />Alább találsz egy linket az új verziót bejelentő közleményre és instrukciókat a frissítés elvégzéséhez.', //?
 	'VERSION_UP_TO_DATE'		=> 'A phpBB-d a legfrissebb verziójú, nem érhető el hozzá frissítés. Mindenesetre  továbbléphetsz, és leellenőrizheted az állományokat.', //?
 	'VERSION_UP_TO_DATE_ACP'	=> 'A phpBB-d a legfrissebb verziójú, nem érhető el hozzá frissítés. Nem kell frissítened a fórumod.',
