@@ -4,7 +4,7 @@
 * posting [Hungarian]
 *
 * @package language
-* @version $Id: posting.php,v 1.14 2007-11-08 20:56:23 fberci Exp $
+* @version $Id: posting.php,v 1.15 2007-11-28 21:05:08 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -113,14 +113,14 @@ $lang = array_merge($lang, array(
 	'FIRST'			=> 'Legelejére',
 
 	'ICONS_ADD'				=> 'Új ikon felvétele',
-	'ICON_NONE_ADDED'		=> 'Nem került felvételre ikon.',
+	'ICONS_NONE_ADDED'		=> 'Nem került felvételre ikon.',
 	'ICONS_ONE_ADDED'		=> 'Az ikon sikeresen felvételre került.',
 	'ICONS_ADDED'			=> 'Az ikonok sikeresen felvételre kerültek.',
 	'ICONS_CONFIG'			=> 'Ikon konfiguráció',
 	'ICONS_DELETED'			=> 'Az ikon sikeresen törlésre került.',
 	'ICONS_EDIT'			=> 'Ikon szerkesztése',
 	'ICONS_ONE_EDITED'		=> 'Az ikon sikeresen frissítésre került.',
-	'ICON_NONE_EDITED'		=> 'Nem került ikon frissítésre.',
+	'ICONS_NONE_EDITED'		=> 'Nem került ikon frissítésre.',
 	'ICONS_EDITED'			=> 'Az ikonok sikeresen frissítésre kerültek.',
 	'ICONS_HEIGHT'			=> 'Ikon magasság',
 	'ICONS_IMAGE'			=> 'Ikon kép',
