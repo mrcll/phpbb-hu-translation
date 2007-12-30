@@ -4,7 +4,7 @@
 * acp_board [Hungarian]
 *
 * @package language
-* @version $Id: board.php,v 1.24 2007-11-20 20:44:46 fberci Exp $
+* @version $Id: board.php,v 1.25 2007-12-30 11:25:49 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -271,7 +271,7 @@ $lang = array_merge($lang, array(
 
 	'CUSTOM_PROFILE_FIELDS'			=> 'Egyedi profil mezők',
 	'LIMIT_LOAD'					=> 'Rendszerterhelés korlátozása',
-	'LIMIT_LOAD_EXPLAIN'			=> 'Ha a rendszer egy perces átlagos terhelése meghaladja ezt az értéket, akkor a fórum automatikusan szünetelni fog. Az 1.0 érték megegyezik egy processzor ~100%-os használatával. A funkció csak UNIX alapú rendszereken működik, és akkor is csak, ha elérhető ez az információ. Ha a phpBB-nek nem sikerül meghatároznia a terhelés korlátot, akkor ez az érték automatikusan 0-ra állítódik.',
+	'LIMIT_LOAD_EXPLAIN'			=> 'Ha a rendszer egy perces átlagos terhelése meghaladja ezt az értéket, a fórum automatikusan szünetelni fog. Az 1.0 érték megegyezik egy processzor ~100%-os használatával. A funkció csak UNIX alapú rendszereken működik, és akkor is csak akkor, ha elérhető ez az információ. Amennyiben a phpBB-nek nem sikerül meghatároznia a terheléskorlátot, ez az érték automatikusan 0-ra állítódik.',
 	'LIMIT_SESSIONS'				=> 'Munkamenetek korlátozása',
 	'LIMIT_SESSIONS_EXPLAIN'		=> 'Ha a munkamenetek száma egy perc alatt meghaladja ezt az értéket, a fórum automatikusan szünetelni fog. Állítsd 0-ra, hogy ne legyen korlátozás.',
 	'LOAD_CPF_MEMBERLIST'			=> 'Egyedi profil mezők megjelenítése a taglistában',
@@ -344,7 +344,7 @@ $lang = array_merge($lang, array(
 	'SCRIPT_PATH'				=> 'Szkript elérési út',
 	'SCRIPT_PATH_EXPLAIN'		=> 'A phpBB relatív elérési útvonala a domainnévhez képest, pl. <samp>/phpBB3</samp>.',
 	'SERVER_NAME'				=> 'Domainnév',
-	'SERVER_NAME_EXPLAIN'		=> 'A fórumnak a domainneve, amin fut (például: <samp>www.example.com</samp>).',
+	'SERVER_NAME_EXPLAIN'		=> 'A fórum domainneve, amin fut (például: <samp>valami.hu</samp>).',
 	'SERVER_PORT'				=> 'Szerver port',
 	'SERVER_PORT_EXPLAIN'		=> 'Milyen porton fut a szerver, általában 80-as, csak akkor változtasd meg, ha más.',
 	'SERVER_PROTOCOL'			=> 'Szerver protokoll',
