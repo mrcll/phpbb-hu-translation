@@ -4,7 +4,7 @@
 * acp common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.24 2007-11-22 18:18:52 fberci Exp $
+* @version $Id: common.php,v 1.25 2007-12-30 12:06:07 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -396,14 +396,14 @@ $lang = array_merge($lang, array(
 	'LOG_ACL_ADD_GROUP_LOCAL_F_'		=> '<strong>Csoportok</strong> %1$s <strong>fórum hozzáférésének módosítása</strong><br />» %2$s',
 	'LOG_ACL_ADD_GROUP_LOCAL_M_'		=> '<strong>Csoportok</strong> %1$s <strong>fórum moderátori hozzáférésének módosítása</strong><br />» %2$s',
 
-	'LOG_ACL_ADD_MOD_LOCAL_M_'			=> '<strong>Moderátorok hozzáadása vagy módosítása</strong> a %1$s fórumban<br />» %2$s',
-	'LOG_ACL_ADD_FORUM_LOCAL_F_'		=> '<strong>Fórum jogosultságok módosítása</strong> a %1$s fórumban<br />» %2$s',
+	'LOG_ACL_ADD_MOD_LOCAL_M_'			=> '<strong>Moderátorok hozzáadása vagy módosítása</strong> %1$s fórumban<br />» %2$s',
+	'LOG_ACL_ADD_FORUM_LOCAL_F_'		=> '<strong>Fórum jogosultságok módosítása</strong> %1$s fórumban<br />» %2$s',
 
 	//? eltávolítás helyett törlés (vagy más)?
 	'LOG_ACL_DEL_ADMIN_GLOBAL_A_'		=> '<strong>Adminisztrátorok eltávolítása</strong><br />» %s',
 	'LOG_ACL_DEL_MOD_GLOBAL_M_'			=> '<strong>Globális moderátorok eltávolítása</strong><br />» %s',
-	'LOG_ACL_DEL_MOD_LOCAL_M_'			=> '<strong>Moderátorok eltávolítása</strong> a %1$s fórumból<br />» %2$s',
-	'LOG_ACL_DEL_FORUM_LOCAL_F_'		=> '<strong>Felhasználói/csoport jogosultságok törlése</strong> a %1$s fórumban<br />» %2$s',
+	'LOG_ACL_DEL_MOD_LOCAL_M_'			=> '<strong>Moderátorok eltávolítása</strong> %1$s fórumból<br />» %2$s',
+	'LOG_ACL_DEL_FORUM_LOCAL_F_'		=> '<strong>Felhasználói/csoport jogosultságok törlése</strong> %1$s fórumban<br />» %2$s',
 
 	'LOG_ACL_TRANSFER_PERMISSIONS'		=> '<strong>Jogosultságok átvétele mástól:</strong><br />» %s',
 	'LOG_ACL_RESTORE_PERMISSIONS'		=> '<strong>Saját jogosultságok visszaállítása más jogosultságainak használata után:</strong><br />» %s',
