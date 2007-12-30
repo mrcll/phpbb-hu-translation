@@ -4,7 +4,7 @@
 * posting [Hungarian]
 *
 * @package language
-* @version $Id: posting.php,v 1.15 2007-11-28 21:05:08 fberci Exp $
+* @version $Id: posting.php,v 1.16 2007-12-30 11:25:49 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 // BBCodes
 // Note to translators: you can translate everything but what's between { and }
 $lang = array_merge($lang, array(
-	'ACP_BBCODES_EXPLAIN'		=> 'A BBCode a HTML nyelv egy speciális változata, mely nagy teret enged egy szövegrészlet megformázásához. Ezen az oldalon felvehetsz, törölheted és, szerkesztehted az egyedi BBCode-okat.',
+	'ACP_BBCODES_EXPLAIN'		=> 'A BBCode a HTML nyelv egy speciális változata, mely nagy teret enged egy szövegrészlet megformázásához. Ezen az oldalon felvehetsz, törölheted és szerkesztehted az egyedi BBCode-okat.',
 	'ADD_BBCODE'				=> 'Új BBCode felvétele',
 
 	'BBCODE_ADDED'				=> 'A BBCode sikeresen felvételre került.',
