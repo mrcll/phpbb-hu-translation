@@ -3,7 +3,7 @@
 * acp_permissions (phpBB Permission Set) [Hungarian]
 *
 * @package language
-* @version $Id: permissions_phpbb.php,v 1.11 2007-11-08 20:56:23 fberci Exp $
+* @version $Id: permissions_phpbb.php,v 1.12 2008-01-22 19:23:55 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -98,7 +98,7 @@ $lang = array_merge($lang, array(
 
 // User Permissions
 $lang = array_merge($lang, array(
-	'acl_u_viewprofile'	=> array('lang' => 'Megtekintheti a profilokat, a taglistát és jelenlévők listáját', 'cat' => 'profile'),
+	'acl_u_viewprofile'	=> array('lang' => 'Láthatja a profilokat, a taglistát és jelenlévők listáját', 'cat' => 'profile'),
 	'acl_u_chgname'		=> array('lang' => 'Megváltoztathatja a felhasználónevét', 'cat' => 'profile'),
 	'acl_u_chgpasswd'	=> array('lang' => 'Megváltoztathatja a jelszavát', 'cat' => 'profile'),
 	'acl_u_chgemail'	=> array('lang' => 'Megváltoztathatja az e-mail címét', 'cat' => 'profile'),
