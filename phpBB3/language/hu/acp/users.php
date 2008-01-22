@@ -4,7 +4,7 @@
 * acp_users [Hungarian]
 *
 * @package language
-* @version $Id: users.php,v 1.12 2007-11-08 20:56:23 fberci Exp $
+* @version $Id: users.php,v 1.13 2008-01-22 19:23:55 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -63,7 +63,7 @@ $lang = array_merge($lang, array(
 
 	'FORCE_REACTIVATION_SUCCESS'	=> 'Az újraaktivációra kötelezés sikeresen megtörtént.',
 	'FOUNDER'						=> 'Alapító',
-	'FOUNDER_EXPLAIN'				=> 'Az alapítók az összes adminisztráció jogosultsággal rendelkeznek, és nem alapító tagok soha nem tilthatják ki, nem törölhetik őket, illetve nem változtathatják meg a beállításaikat.',
+	'FOUNDER_EXPLAIN'				=> 'Az alapítók az összes adminisztrációs jogosultsággal rendelkeznek, és nem alapító tagok soha nem tilthatják ki, nem törölhetik őket, illetve nem változtathatják meg a beállításaikat.',
 
 	'GROUP_APPROVE'					=> 'Tag jóváhagyása',
 	'GROUP_DEFAULT'					=> 'Csoport elsődlegessé tétele a tagnak',

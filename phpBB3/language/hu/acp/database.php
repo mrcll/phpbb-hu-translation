@@ -4,7 +4,7 @@
 * acp_database [Hungarian]
 *
 * @package language
-* @version $Id: database.php,v 1.10 2007-11-08 20:56:23 fberci Exp $
+* @version $Id: database.php,v 1.11 2008-01-22 19:23:55 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 // Database Backup/Restore
 $lang = array_merge($lang, array(
 	'ACP_BACKUP_EXPLAIN'	=> 'Itt a phpBB-vel kapcsolatos adatokat tudod kimenteni. A létrejövő csomagot tetszőlegesen eltárolhatod a <samp>store/</samp> könyvtárban vagy közvetlenül letöltheted. A szerver konfigurációdtól függően az állományt különböző módokon tömörítheted.',
-	'ACP_RESTORE_EXPLAIN'	=> 'Ez a funkció a phpBB összes tábláját visszaállítja egy elmentett állományból. Ha a szervered támogatja, használható gzip-pel vagy bzip2-vel tömörített szöveges fájl, ezek automatikusan kitömörítésre kerülnek. <strong>FIGYELEM:</strong> Ezzel felülírásra kerül minden jelenlegi adat. A visszaállítás eltarthat egy ideig, kérünk, amíg be nem fejeződik, ne menj el erről az oldalról. A kimentések a <samp>store/</samp> könyvtárban vannak tárolva, és feltételezve van róluk, hogy a phpBB kimentés funkciójával készültek. Nem a beépített rendszerrel készített kimentés visszaállítása vagy működni fog, vagy nem.',
+	'ACP_RESTORE_EXPLAIN'	=> 'Ez a funkció a phpBB összes tábláját visszaállítja egy elmentett állományból. Ha a szervered támogatja, használható gzip-pel vagy bzip2-vel tömörített szöveges állomány, ezek automatikusan kitömörítésre kerülnek. <strong>FIGYELEM:</strong> Ezzel felülírásra kerül minden jelenlegi adat. Mivel a visszaállítás eltarthat egy ideig, kérünk, ne menj el erről az oldalról, amíg be nem fejeződik. A kimentések tárolási helye a <samp>store/</samp> könyvtár, az itt lévő állományokról a phpBB feltételezi, hogy a kimentés funkciójával készültek. Nem a beépített rendszerrel készített kimentés visszaállítása vagy működni fog, vagy nem.',
 
 	'BACKUP_DELETE'		=> 'A kimentés állomány sikeresen törlésre került.',
 	'BACKUP_INVALID'	=> 'A kiválasztott kimentés állomány érvénytelen.',
