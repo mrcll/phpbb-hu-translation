@@ -4,7 +4,7 @@
 * search [Hungarian]
 *
 * @package language
-* @version $Id: search.php,v 1.17 2007-11-08 20:56:23 fberci Exp $
+* @version $Id: search.php,v 1.18 2008-03-26 17:38:19 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -59,7 +59,7 @@ $lang = array_merge($lang, array(
 	'NO_RECENT_SEARCHES'	=> 'Nem történt keresés a közelmúltban.',
 	'NO_SEARCH'				=> 'Sajnos számodra nem engedélyezett a kereső használata.',
 	'NO_SEARCH_RESULTS'		=> 'Nincs a keresési feltételeknek megfelelő találat.', //? "No suitable matches were found."
-	'NO_SEARCH_TIME'		=> 'Most nem használhatod a keresőt. Kérjük, próbálkozz újra pár percen múlva.',
+	'NO_SEARCH_TIME'		=> 'Most nem használhatod a keresőt. Kérjük, próbálkozz újra pár perc múlva.',
 	'WORD_IN_NO_POST'		=> 'Nincs találat, mivel a <strong>%s</strong> szót nem tartalmazza egy hozzászólás sem.',
 	'WORDS_IN_NO_POST'		=> 'Nincs találat, mivel a <strong>%s</strong> szavakat nem tartalmazza egy hozzászólás sem.',
 
@@ -77,17 +77,17 @@ $lang = array_merge($lang, array(
 	'SEARCH_ANY_TERMS'			=> 'Keresés bármely szóra',
 	'SEARCH_AUTHOR'				=> 'Szerző',
 	'SEARCH_AUTHOR_EXPLAIN'		=> 'Részleges szavakhoz használd a * jokerkaraktert.',
-	'SEARCH_FIRST_POST'			=> 'Témák első hozzászólása',
+	'SEARCH_FIRST_POST'			=> 'Csak témák első hozzászólása',
 	'SEARCH_FORUMS'				=> 'Fórumok', //? 'Keresett fórumok'
 	'SEARCH_FORUMS_EXPLAIN'		=> 'Válaszd ki azokat a fórumokat, melyben keresni szeretnél. A keresés automatikusan megtörténik az alfórumokban is, hacsak alább nem kapcsoltad ki a „keresés az alfórumokban” beállítást.',
 	'SEARCH_IN_RESULTS'			=> 'Keresés a találatokban',
 	'SEARCH_KEYWORDS_EXPLAIN'	=> 'Írj „<strong>+</strong>”-t a keresett, valamint „<strong>-</strong>”-t a kizárandó  szavak elé. Ha több szóból csak egy megtalálása is elég, készíts ezekből a szavakból egy „<strong>|</strong>” jellel elválasztott listát, és rakd az egészet zárójelek közé. Részleges szavakhoz használd a * jokerkaraktert.', //? "Place <strong>+</strong> in front of a word which must be found and <strong>-</strong> in front of a word which must not be found. Put a list of words separated by <strong>|</strong> into brackets if only one of the words must be found. Use * as a wildcard for partial matches."
-	'SEARCH_MSG_ONLY'			=> 'Üzenetek szövege',
+	'SEARCH_MSG_ONLY'			=> 'Csak üzenetek szövege',
 	'SEARCH_OPTIONS'			=> 'Keresési beállítások',
 	'SEARCH_QUERY'				=> 'Keresési feltételek',
 	'SEARCH_SUBFORUMS'			=> 'Keresés az 	alfórumokban',
 	'SEARCH_TITLE_MSG'			=> 'Hozzászólások témája és üzenetek szövege',
-	'SEARCH_TITLE_ONLY'			=> 'Témák címe',
+	'SEARCH_TITLE_ONLY'			=> 'Csak témák címe',
 	'SEARCH_WITHIN'				=> 'Keresés tárgya', //??
 	'SORT_ASCENDING'			=> 'Növekvő sorrend',
 	'SORT_AUTHOR'				=> 'Szerző',

@@ -4,7 +4,7 @@
 * acp_board [Hungarian]
 *
 * @package language
-* @version $Id: board.php,v 1.25 2007-12-30 11:25:49 fberci Exp $
+* @version $Id: board.php,v 1.26 2008-03-26 17:38:19 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -333,7 +333,7 @@ $lang = array_merge($lang, array(
 	'ACP_SERVER_SETTINGS_EXPLAIN'	=> 'Itt a szerverrel és a domainnel kapcsolatos beállításokat adhatod meg. Kérünk, győződj meg róla, hogy az adatok pontosak, mivel nem helyes megadás esetén az e-mailek hibás információt fognak tartalmazni. A domain név megadásánál ne felejtsd el, hogy a http:// vagy más protokollspecifikáció nem része a címnek. A portot csak akkor módosítsd, ha biztosan tudod, hogy a szerver egy másikat használ, a 80-as port a legtöbb esetben megfelelő.',
 
 	'ENABLE_GZIP'				=> 'GZip tömörítés bekapcsolása',
-	'ENABLE_GZIP_EXPLAIN'		=> 'A generált tartalom a felhasználónak való elküldés előtt tömörítésre kerül. Ezzel csökkenteni lehet a hálózati forgalmat, ugyanakkor a CPU-használat nőni fog, mind a szerver, mind a kliens oldalon.',
+	'ENABLE_GZIP_EXPLAIN'		=> 'A generált tartalom a felhasználónak való elküldés előtt tömörítésre kerül. Ezzel csökkenteni lehet a hálózati forgalmat, ugyanakkor a CPU-használat nőni fog, mind a szerver-, mind a kliensoldalon.',
 	'FORCE_SERVER_VARS'			=> 'Szerver URL beállítások használata', //? force így kimaradt? van rá magyar megfelelő?
 	'FORCE_SERVER_VARS_EXPLAIN'	=> 'Ha igenre van állítva, az itt megadott beállítások kerülnek használatra az automatikus megállapítás helyett.',
 	'ICONS_PATH'				=> 'Hozzászólás ikonok elérési útja',

@@ -4,7 +4,7 @@
 * mcp [Hungarian]
 *
 * @package language
-* @version $Id: mcp.php,v 1.22 2007-11-08 20:56:22 fberci Exp $
+* @version $Id: mcp.php,v 1.23 2008-03-26 17:38:19 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -349,7 +349,7 @@ $lang = array_merge($lang, array(
 	'VIEW_DETAILS'			=> 'Részletek megtekintése', //? a korábbi adatok stb. probléma
 
 	'WARNED_USERS'			=> 'Figyelmeztetett felhasználók',
-	'WARNED_USERS_EXPLAIN'	=> 'Az alábbi lista azokat a felhasználókat tartalmazza, akik nem lejáró figyelmeztetésben részesültek.',
+	'WARNED_USERS_EXPLAIN'	=> 'Az alábbi lista azokat a felhasználókat tartalmazza, akik még nem lejárt figyelmezetetéssel rendelkeznek.',
 	'WARNING_PM_BODY'		=> 'A következő figyelmeztetésben részesültél egy adminisztrátor vagy egy moderátor által:[quote]%s[/quote]', //? "The following is a warning which has been issued to you by an administrator or moderator of this site.[quote]%s[/quote]" hagyjuk a passzívot, legyen egyszerű?
 	'WARNING_PM_SUBJECT'	=> 'Figyelmeztetés',
 	'WARNING_POST_DEFAULT'	=> 'A következő hozzászólásod miatt figyelmeztetésben részesültél: %s .', //? figyelmeztetésben részesültél vagy figyelmeztettek?
