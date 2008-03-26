@@ -4,7 +4,7 @@
 * groups [Hungarian]
 *
 * @package language
-* @version $Id: groups.php,v 1.11 2007-11-08 20:56:22 fberci Exp $
+* @version $Id: groups.php,v 1.12 2008-03-26 18:32:10 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -41,7 +41,9 @@ $lang = array_merge($lang, array(
 	'ALREADY_IN_GROUP'		=> 'Már tagja vagy a kiválasztott csoportnak.',
 	'ALREADY_IN_GROUP_PENDING'	=> 'Már kérelmezted a csatlakozást a csoporthoz.',
 
-	'CHANGED_DEFAULT_GROUP'	=> 'Az elsődleges csoport sikeresen megváltoztatásra került.',
+	'CANNOT_JOIN_GROUP'			=> 'Nem tudsz csatlakozni ehhez a csoporthoz. Csak nyitott és szabadon nyitott csoportokhoz csatlakozhatsz.',
+	'CANNOT_RESIGN_GROUP'		=> 'Nem tudod lemondani a csoporttagságod ebben a csoportban. Csak nyitott és szabadon nyitott csoportokból léphetsz ki.',
+	'CHANGED_DEFAULT_GROUP'		=> 'Az elsődleges csoport sikeresen megváltoztatásra került.',
 	
 	'GROUP_AVATAR'						=> 'Csoport avatar', 
 	'GROUP_CHANGE_DEFAULT'				=> 'Biztosan meg akarod változtatni az elsődleges csoportodat a „%s” csoportra?',

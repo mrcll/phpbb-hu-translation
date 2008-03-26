@@ -4,7 +4,7 @@
 * install [Hungarian]
 *
 * @package language
-* @version $Id: install.php,v 1.35 2007-12-30 11:25:49 fberci Exp $
+* @version $Id: install.php,v 1.36 2008-03-26 18:32:10 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -462,7 +462,7 @@ $lang = array_merge($lang, array(
 	'NO_VISIBLE_CHANGES'			=> 'Nincs látható változás.',
 	'NOTICE'						=> 'Észrevétel', //? megjegyzés, figyelmeztetés, értesítés
 	'NUM_CONFLICTS'					=> 'Ütközések száma',
-	'NUMBER_OF_FILES_COLLECTED'		=> 'Jelenleg körülbelül %1$d állomány különbségei vannak összegyűjtve a %2$d-ből.<br />Kérünk, várj míg az állományok összegyűjtése befejeződik.',
+	'NUMBER_OF_FILES_COLLECTED'		=> 'Jelenleg körülbelül %1$d állomány különbségei kerültek ellenőrzésre a %2$d-ből.<br />Kérünk, várj míg az összes állomány ellenőrzése befejeződik.',
 
 	'OLD_UPDATE_FILES'		=> 'A frissítő állományok elavultak. A phpBB %1$s verzióról %2$s verzióra való frissítésre szolgálnak, de a phpBB legújabb verziója a %3$s.',
 

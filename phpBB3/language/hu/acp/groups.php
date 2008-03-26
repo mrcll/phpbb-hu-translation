@@ -4,7 +4,7 @@
 * acp_groups [Hungarian]
 *
 * @package language
-* @version $Id: groups.php,v 1.13 2007-11-08 20:56:23 fberci Exp $
+* @version $Id: groups.php,v 1.14 2008-03-26 18:32:10 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -108,6 +108,8 @@ $lang = array_merge($lang, array(
 	'NO_GROUPS_CREATED'			=> 'Még nem lett létrehozva csoport.',
 	'NO_PERMISSIONS'			=> 'Ne másolja a jogosultságokat',
 	'NO_USERS'					=> 'Nem adtál meg egy felhasználót se.',
+	'NO_USERS_ADDED'			=> 'Nem került felhasználó hozzáadásra a csoporthoz.',
+
 
 	'SPECIAL_GROUPS'			=> 'Előre meghatározott csoportok', //?!
 	'SPECIAL_GROUPS_EXPLAIN'	=> 'Az előre meghatározott csoportok speciális csoportok, melyeket nem lehet törölni vagy közvetlenül módosítani. Mindazonáltal felhasználókat fel tudsz venni beléjük és néhány alap beállítást is megváltoztathatsz.',

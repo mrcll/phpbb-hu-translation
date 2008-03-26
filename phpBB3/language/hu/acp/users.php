@@ -4,7 +4,7 @@
 * acp_users [Hungarian]
 *
 * @package language
-* @version $Id: users.php,v 1.13 2008-01-22 19:23:55 fberci Exp $
+* @version $Id: users.php,v 1.14 2008-03-26 18:32:10 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -45,10 +45,10 @@ $lang = array_merge($lang, array(
 
 	'CANNOT_BAN_FOUNDER'			=> 'Alapítói azonosítót nem tudsz kitiltani.',
 	'CANNOT_BAN_YOURSELF'			=> 'Nem tudod kitiltani saját magadat.',
-	'CANNOT_DEACTIVATE_BOT'			=> 'Robot azonosítókat nem tudsz deaktiválni. Helyette deaktiváld a robotot.',
+	'CANNOT_DEACTIVATE_BOT'			=> 'Robot azonosítókat nem tudsz deaktiválni. Helyette deaktiváld a robotot a robotok oldalon.',
 	'CANNOT_DEACTIVATE_FOUNDER'		=> 'Alapítói azonosítót nem tudsz deaktiválni.',
 	'CANNOT_DEACTIVATE_YOURSELF'	=> 'A saját azonosítód nem tudod deaktiválni.',
-	'CANNOT_FORCE_REACT_BOT'		=> 'Robot azonosítókat nem tudsz újraaktivációra kötelezni. Helyette deaktiváld a robotot.',
+	'CANNOT_FORCE_REACT_BOT'		=> 'Robot azonosítókat nem tudsz újraaktivációra kötelezni. Helyette aktiváld újra a robotot a robotok oldalon.',
 	'CANNOT_FORCE_REACT_FOUNDER'	=> 'Alapítói azonosítókat nem tudsz újraaktivációra kötelezni.',
 	'CANNOT_FORCE_REACT_YOURSELF'	=> 'A saját azonosítód nem tudod újraaktivációra kötelezni.',
 	'CANNOT_REMOVE_ANONYMOUS'		=> 'A vendég felhasználói azonosítót nem tudod eltávolítani.',

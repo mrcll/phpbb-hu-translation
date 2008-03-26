@@ -4,7 +4,7 @@
 * mcp [Hungarian]
 *
 * @package language
-* @version $Id: mcp.php,v 1.23 2008-03-26 17:38:19 fberci Exp $
+* @version $Id: mcp.php,v 1.24 2008-03-26 18:32:10 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -274,8 +274,8 @@ $lang = array_merge($lang, array(
 	'REPORT_TOTAL'				=> 'Összesen <strong>1</strong> áttekintésre váró jelentés van.',
 	'RESYNC'					=> 'Szinkronizálás', //?
 	'RETURN_MESSAGE'			=> '%sVissza az üzenethez%s',
-	'RETURN_NEW_FORUM'			=> '%sVissza az új fórumhoz%s',
-	'RETURN_NEW_TOPIC'			=> '%sVissza az új témához%s',
+	'RETURN_NEW_FORUM'			=> '%sTovább az új fórumhoz%s',
+	'RETURN_NEW_TOPIC'			=> '%sTovább az új témához%s',
 	'RETURN_POST'				=> '%sVissza a hozzászóláshoz%s',
 	'RETURN_QUEUE'				=> '%sVissza a moderálandókhoz%s',
 	'RETURN_REPORTS'			=> '%sVissza a jelentésekhez%s',

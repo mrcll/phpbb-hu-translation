@@ -4,7 +4,7 @@
 * acp common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.26 2008-03-26 17:38:19 fberci Exp $
+* @version $Id: common.php,v 1.27 2008-03-26 18:32:10 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -126,6 +126,8 @@ $lang = array_merge($lang, array(
 	'ACP_MODULE_MANAGEMENT'		=> 'Modulok kezelése',
 	'ACP_MOD_LOGS'				=> 'Moderátori napló',
 	'ACP_MOD_ROLES'				=> 'Moderátori szerepek',
+	
+	'ACP_NO_ITEMS'				=> 'Még nincs ilyen elem.',
 	
 	'ACP_ORPHAN_ATTACHMENTS'	=> 'Árva csatolmányok',
 	
@@ -262,6 +264,11 @@ $lang = array_merge($lang, array(
 
 	'SELECT_ANONYMOUS'		=> 'Vendég felhasználó kiválasztása',
 	'SELECT_OPTION'			=> 'Opció kiválasztása',
+
+	'SETTING_TOO_LOW'		=> 'A „%1$s” beállításnak megadott érték túl kicsi. A legkisebb engedélyezett érték %2$d.',
+	'SETTING_TOO_BIG'		=> 'A „%1$s” beállításnak megadott érték túl nagy. A legnagyobb engedélyezett érték %2$d.',	
+	'SETTING_TOO_LONG'		=> 'A „%1$s” beállításnak megadott érték túl hosszú. A leghosszabb engedélyezett érték %2$d karakter.',
+	'SETTING_TOO_SHORT'		=> 'A „%1$s” beállításnak megadott érték túl rövid. A legrövidebb engedélyezett érték %2$d karakter.',
 
 	'UCP'					=> 'Felhasználói vezérlőpult',
 	'USERNAMES_EXPLAIN'		=> 'Minden felhasználónevet külön sorba írj.',
