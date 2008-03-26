@@ -4,7 +4,7 @@
 * acp_forums [Hungarian]
 *
 * @package language
-* @version $Id: forums.php,v 1.10 2007-11-08 20:56:23 fberci Exp $
+* @version $Id: forums.php,v 1.11 2008-03-26 18:32:10 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -115,10 +115,12 @@ $lang = array_merge($lang, array(
 
 	'GENERAL_FORUM_SETTINGS'	=> 'Általános fórum beállítások',
 
-	'LINK'					=> 'Link',
-	'LIST_INDEX'			=> 'Alfórumok felsorolása a szülő fórum magyarázatában',
-	'LIST_INDEX_EXPLAIN'	=> 'A fórum megjelenítése a kezdőlapon és a többi helyen egy linkként a szülő fórumának leírásában.',
-	'LOCKED'				=> 'Lezárt',
+	'LINK'						=> 'Link',
+	'LIST_INDEX'				=> 'Alfórumok felsorolása a szülő fórum magyarázatában',
+	'LIST_INDEX_EXPLAIN'		=> 'A fórum megjelenítése linkként a kezdőlapon és a többi helyen a szülő fórumának leírásában, ha a szülő fórum „Alfórumok megjelenítése a magyarázatban” beállítása igenre van állítva.',
+	'LIST_SUBFORUMS'			=> 'Alfórumok megjelenítése a magyarázatban',
+	'LIST_SUBFORUMS_EXPLAIN'	=> 'A fórum alfórumainak megjelenítése linkként a kezdőlapon és a többi helyen a magyarázatban, ha az alfórumok „Alfórumok felsorolása a szülő fórum magyarázatában” beállítása igenre van állítva.',
+	'LOCKED'					=> 'Lezárt',
 
 	'MOVE_POSTS_NO_POSTABLE_FORUM'	=> 'A fórumba, melyet kiválasztottál a hozzászólások új helyéül, nem lehet hozzászólást küldeni. Kérünk, válassz ki egy olyan fórumot, amibe lehet hozzászólást küldeni.', //? fogalmazás
 	'MOVE_POSTS_TO'					=> 'Hozzászólások áthelyezése:',

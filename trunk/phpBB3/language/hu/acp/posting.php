@@ -4,7 +4,7 @@
 * posting [Hungarian]
 *
 * @package language
-* @version $Id: posting.php,v 1.16 2007-12-30 11:25:49 fberci Exp $
+* @version $Id: posting.php,v 1.17 2008-03-26 18:32:10 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -144,6 +144,8 @@ $lang = array_merge($lang, array(
 	'NO_ICONS_PAK'		=> 'Nem található ikon csomag.',
 	'NO_SMILIES_ADD'	=> 'Nincs felvehető emotikon',
 	'NO_SMILIES_EDIT'	=> 'Nincs módosítható emotikon.',
+	'SMILIE_NO_CODE'	=> 'Az „%s” emotikon nem lett figyelembe véve, mivel nem lett hozzá kód megadva.',
+	'SMILIE_NO_EMOTION'	=> 'Az „%s” emotikon nem lett figyelembe véve, mivel nem lett hozzá kitöltve az érzelem mező.',
 	'NO_SMILIES_EXPORT'	=> 'Nincs emotikonod, melyből csomagot készíthetnél.',
 	'NO_SMILIES_PAK'	=> 'Nem található emotikon csomag.',
 

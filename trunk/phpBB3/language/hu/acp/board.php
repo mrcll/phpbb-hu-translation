@@ -4,7 +4,7 @@
 * acp_board [Hungarian]
 *
 * @package language
-* @version $Id: board.php,v 1.26 2008-03-26 17:38:19 fberci Exp $
+* @version $Id: board.php,v 1.27 2008-03-26 18:32:10 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -325,7 +325,7 @@ $lang = array_merge($lang, array(
 	'LDAP_USER'						=> 'LDAP felhasználó <var>dn</var>',
 	'LDAP_USER_EXPLAIN'				=> 'Névtelen hozzáférés használatához hagyd üresen. Ha ki van töltve, a phpBB belépéskor a megadott distinguished name-t fogja használni a megfelelő felhasználó megtalálásához, pl. <samp>uid=Username,ou=MyUnit,o=MyCompany,c=US</samp>. ',
 	'LDAP_USER_FILTER'				=> 'LDAP felhasználószűrő',
-	'LDAP_USER_FILTER_EXPLAIN'		=> 'Tetszőlegesen tovább korlátozhatod a keresett objektumokat további szűrőkkel. Például a <samp>objectClass=posixGroup</samp> megadása a <samp>(&(uid=$username)(objectClass=posixGroup))</samp> használatát eredményezné.',
+	'LDAP_USER_FILTER_EXPLAIN'		=> 'Tetszőlegesen tovább korlátozhatod a keresett objektumokat további szűrőkkel. Például a <samp>objectClass=posixGroup</samp> megadása a <samp>(&amp;(uid=$username)(objectClass=posixGroup))</samp> használatát eredményezné.',
 ));
 
 // Server Settings

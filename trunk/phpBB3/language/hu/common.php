@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.62 2007-11-20 20:44:46 fberci Exp $
+* @version $Id: common.php,v 1.63 2008-03-26 18:32:10 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -276,6 +276,8 @@ $lang = array_merge($lang, array(
 	'JUMP_TO_PAGE'			=> 'Kattints ide egy fel nem sorolt oldalra való ugráshoz.',
 
 	'KB'					=> 'KB',
+	'KIB'					=> 'KiB',
+
 
 	'LAST_POST'							=> 'Utolsó hozzászólás',
 	'LAST_UPDATED'						=> 'Legutóbb frissített',
@@ -309,6 +311,7 @@ $lang = array_merge($lang, array(
 	'MARK_ALL'				=> 'Összes kijelölése',
 	'MARK_FORUMS_READ'		=> 'Fórumok megjelölése olvasottként',
 	'MB'					=> 'MB',
+	'MIB'					=> 'MiB',
 	'MCP'					=> 'Moderátori vezérlőpult',
 	'MEMBERLIST'			=> 'Taglista',
 	'MEMBERLIST_EXPLAIN'	=> 'Felhasználók listájának megtekintése',
