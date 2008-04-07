@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.64 2008-04-07 18:23:56 fberci Exp $
+* @version $Id: common.php,v 1.65 2008-04-07 18:32:12 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -363,20 +363,20 @@ $lang = array_merge($lang, array(
 	'NO_EMAIL_RESPONSE_CODE'	=> 'Nem jött válasz a e-mail szervertől.',
 	'NO_EMAIL_SUBJECT'			=> 'Nem adtad meg az e-mail témáját.',
 	'NO_FORUM'					=> 'A kiválasztott fórum nem létezik.',
-	'NO_FORUMS'					=> 'Nincsenek fórumok.',
+	'NO_FORUMS'					=> 'Nincs fórum.',
 	'NO_GROUP'					=> 'A keresett csoport nem létezik.',
-	'NO_GROUP_MEMBERS'			=> 'A csoportnak jelenleg nincsenek tagjai.',
+	'NO_GROUP_MEMBERS'			=> 'A csoportnak jelenleg nincs tagja.',
 	'NO_IPS_DEFINED'			=> 'Nincs ilyen IP-cím vagy hoszt.',
 	'NO_MEMBERS'				=> 'Nincs a keresési feltételeknek megfelelő felhasználó.',
-	'NO_MESSAGES'				=> 'Nincsenek üzenetek.',
+	'NO_MESSAGES'				=> 'Nincs üzenet.',
 	'NO_MODE'					=> 'Nem adtál meg módot.',
-	'NO_MODERATORS'				=> 'A fórumnak nincsenek moderátorai.',
+	'NO_MODERATORS'				=> 'A fórumnak nincs moderátora.',
 	'NO_NEW_MESSAGES'			=> 'Nincs új üzenet.',
 	'NO_NEW_PM'					=> '<strong>0</strong> új üzenet',
-	'NO_NEW_POSTS'				=> 'Nincsenek új hozzászólások',
+	'NO_NEW_POSTS'				=> 'Nincs új hozzászólás',
 	'NO_ONLINE_USERS'			=> 'nincs regisztrált felhasználó',
-	'NO_POSTS'					=> 'Nincsenek hozzászólások',
-	'NO_POSTS_TIME_FRAME'		=> 'Nincsenek a kiválasztott időtartamon belüli hozzászólások a témában.',
+	'NO_POSTS'					=> 'Nincs hozzászólás',
+	'NO_POSTS_TIME_FRAME'		=> 'Nincs a kiválasztott időtartamon belüli hozzászólás a témában.',
 	'NO_SUBJECT'				=> 'Nincs téma',								// Used for posts having no subject defined but displayed within management pages.
 	'NO_SUCH_SEARCH_MODULE'		=> 'A megadott keresési mechanizmus nem létezik.',
 	'NO_SUPPORTED_AUTH_METHODS'	=> 'Nincsen támogatott azonosítási eljárás.',

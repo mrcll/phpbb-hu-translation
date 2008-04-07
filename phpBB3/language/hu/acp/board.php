@@ -4,7 +4,7 @@
 * acp_board [Hungarian]
 *
 * @package language
-* @version $Id: board.php,v 1.27 2008-03-26 18:32:10 fberci Exp $
+* @version $Id: board.php,v 1.28 2008-04-07 18:32:13 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 	'OVERRIDE_STYLE_EXPLAIN'		=> 'Kicseréli a felhasználó megjelenését az alapértelmezettre.',
 	'SITE_DESC'						=> 'Oldal leírása',
 	'SITE_NAME'						=> 'Oldal neve',
-	'SYSTEM_DST'					=> 'Nyári időszámítás bekapcsolása',
+	'SYSTEM_DST'					=> 'Nyári időszámítás érvényben',
 	'SYSTEM_TIMEZONE'				=> 'Rendszer időzóna',
 	'WARNINGS_EXPIRE'				=> 'Figyelmeztetés időtartama',
 	'WARNINGS_EXPIRE_EXPLAIN'		=> 'Ennyi nap elteltével jár le a felhasználó figyelmeztetése.',

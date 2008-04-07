@@ -4,7 +4,7 @@
 * viewforum [Hungarian]
 *
 * @package language
-* @version $Id: viewforum.php,v 1.8 2007-11-08 20:56:23 fberci Exp $
+* @version $Id: viewforum.php,v 1.9 2008-04-07 18:32:13 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -51,8 +51,8 @@ $lang = array_merge($lang, array(
 
 	'NEW_POSTS_HOT'			=> 'Új hozzászólások [ népszerű ]', //? zárójelek?
 	'NEW_POSTS_LOCKED'		=> 'Új hozzászólások [ lezárt ]',
-	'NO_NEW_POSTS_HOT'		=> 'Nincsenek új hozzászólások [ népszerű ]',
-	'NO_NEW_POSTS_LOCKED'	=> 'Nincsenek új hozzászólások [ lezárt ]',
+	'NO_NEW_POSTS_HOT'		=> 'Nincs új hozzászólás [ népszerű ]',
+	'NO_NEW_POSTS_LOCKED'	=> 'Nincs új hozzászólás [ lezárt ]',
 	'NO_READ_ACCESS'		=> 'Nincs meg a kellő jogosultságod a fórumbeli témák olvasásához.',
 
 	'POST_FORUM_LOCKED'		=> 'A fórum le van zárva.',

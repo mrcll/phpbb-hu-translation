@@ -4,7 +4,7 @@
 * groups [Hungarian]
 *
 * @package language
-* @version $Id: groups.php,v 1.12 2008-03-26 18:32:10 fberci Exp $
+* @version $Id: groups.php,v 1.13 2008-04-07 18:32:12 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
