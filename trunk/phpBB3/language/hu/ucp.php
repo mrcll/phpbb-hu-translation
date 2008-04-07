@@ -4,7 +4,7 @@
 * ucp [Hungarian]
 *
 * @package language
-* @version $Id: ucp.php,v 1.41 2008-03-26 18:32:10 fberci Exp $
+* @version $Id: ucp.php,v 1.42 2008-04-07 18:32:13 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -293,7 +293,7 @@ $lang = array_merge($lang, array(
 	'NO_AUTH_SIGNATURE'				=> 'Nincs jogosultságod aláírás megadásához.',
 
 	'NO_BCC_RECIPIENT'			=> 'Nincs',
-	'NO_BOOKMARKS'				=> 'Nincsenek kedvenceid.',
+	'NO_BOOKMARKS'				=> 'Nincs kedvenced.',
 	'NO_BOOKMARKS_SELECTED'		=> 'Nem választottál ki egy kedvencet sem.',
  	'NO_EDIT_READ_MESSAGE'		=> 'A privát üzenetet nem lehet szerkeszteni, mivel már elolvasásra került.',
 	'NO_EMAIL_USER'				=> 'Nem található a megadott e-mail címhez és felhasználónévhez tartozó azonosító.',
@@ -309,8 +309,8 @@ $lang = array_merge($lang, array(
 	'NO_OLDER_PM'				=> 'Nincs régebbi üzenet.',
 	'NO_PASSWORD_SUPPLIED'		=> 'Nem adtad meg a jelszavad.',
 	'NO_RECIPIENT'				=> 'Nem adtál meg címzettet.',
-	'NO_RULES_DEFINED'			=> 'Nincsenek szűrők.',
-	'NO_SAVED_DRAFTS'			=> 'Nincsenek piszkozatok.',
+	'NO_RULES_DEFINED'			=> 'Nincs szűrő.',
+	'NO_SAVED_DRAFTS'			=> 'Nincs piszkozat.',
 	'NO_TO_RECIPIENT'			=> 'Nincs',
 	'NO_WATCHED_FORUMS'			=> 'Nem iratkoztál fel egy fórumra se.', //? a se-s megfogalmazás helyett valami más ékne
 	'NO_WATCHED_TOPICS'			=> 'Nem iratkoztál fel egy témára se.',
@@ -535,7 +535,7 @@ $lang = array_merge($lang, array(
 
 	'NO_LEADER'		=> 'Nem vagy egy csoportnak se a vezetője.', //?
 	'NO_MEMBER'		=> 'Nem vagy egy csoportnak se a tagja.', //?
-	'NO_PENDING'	=> 'Nincsenek függő csoporttagságok.', //?
+	'NO_PENDING'	=> 'Nincs függő csoporttagság.', //?
 	'NO_NONMEMBER'	=> 'Nincs olyan csoport, melynek nem vagy a tagja.', //?
 ));
 

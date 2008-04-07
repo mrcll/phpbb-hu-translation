@@ -4,7 +4,7 @@
 * mcp [Hungarian]
 *
 * @package language
-* @version $Id: mcp.php,v 1.24 2008-03-26 18:32:10 fberci Exp $
+* @version $Id: mcp.php,v 1.25 2008-04-07 18:32:12 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -224,11 +224,11 @@ $lang = array_merge($lang, array(
 	'NO_POST_SELECTED'				=> 'Legalább egy hozzászólást ki kell választanod, hogy elvégezhesd ezt a műveletet.', //? végrehajthasd?
 	'NO_REASON_DISAPPROVAL'			=> 'Kérünk, adj meg egy megfelelő okot az elutasításra.', //?? appropriate??
 	'NO_REPORT'						=> 'Nincs ilyen jelentés.', //? erre használják?
-	'NO_REPORTS'					=> 'Nincsenek ilyen jelentések.',	
+	'NO_REPORTS'					=> 'Nincs ilyen jelentés.',	
 	'NO_REPORT_SELECTED'			=> 'Legalább egy jelentést ki kell választanod, hogy végrehajthasd ezt a műveletet.',
 	'NO_TOPIC_ICON'					=> 'nincs', //? nagybetű?
 	'NO_TOPIC_SELECTED'				=> 'Legalább egy témát ki kell választanod, hogy elvégezhesd ezt a műveletet.', //? végrehajthasd?
-	'NO_TOPICS_QUEUE'				=> 'Nincsenek jóváhagyásra váró témák.',
+	'NO_TOPICS_QUEUE'				=> 'Nincs jóváhagyásra váró téma.',
 
 	'ONLY_TOPIC'			=> 'Csak a „%s” téma', //? témából stb.? (Moderálandóknál)
 	'OTHER_USERS'			=> 'Más erről az IP-ről hozzászóló felhasználók',

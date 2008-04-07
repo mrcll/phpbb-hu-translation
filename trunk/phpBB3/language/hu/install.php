@@ -4,7 +4,7 @@
 * install [Hungarian]
 *
 * @package language
-* @version $Id: install.php,v 1.36 2008-03-26 18:32:10 fberci Exp $
+* @version $Id: install.php,v 1.37 2008-04-07 18:32:12 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -86,7 +86,7 @@ $lang = array_merge($lang, array(
 	'CONVERT_NEW_CONVERSION'	=> 'Új konvertálás',
 	'CONVERT_NOT_EXIST'			=> 'A megadott konvertáló nem létezik.',
 	'CONVERT_OPTIONS'			=> 'Lehetőségek', //?
-	'CONVERT_SETTINGS_VERIFIED'	=> 'A megadott információk leellenőrzésre kerültek. A konvertálás elkezdéséhez nyomd meg az alábbi gombot.', //? verify
+	'CONVERT_SETTINGS_VERIFIED'	=> 'A megadott információk ellenőrzésre kerültek. A konvertálás elkezdéséhez nyomd meg az alábbi gombot.', //? verify
 	'CONV_ERR_FATAL'			=> 'Súlyos konvertálási hiba', //? végzetes?
 
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'A régi fórumon engedélyezve volt az FTP-n keresztüli csatolmányfeltöltés. Kérjük, kapcsold ki az FTP feltöltést, bizonyosodj meg róla, hogy helyes feltöltési könyvtár került megadásra, majd másold át az összes csatolmány állományt az új, webről is elérhető könyvtárba. Ha végeztél ezzel, indítsd újra a konvertálót.', //? igazából nem teljesen értem...
