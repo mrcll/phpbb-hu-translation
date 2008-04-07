@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.63 2008-03-26 18:32:10 fberci Exp $
+* @version $Id: common.php,v 1.64 2008-04-07 18:23:56 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -103,6 +103,7 @@ $lang = array_merge($lang, array(
 	'BOARD_DISABLE'			=> 'A fórum jelenleg nem elérhető.',
 	'BOARD_DISABLED'		=> 'A fórum ideiglenesen szünetel.',
 	'BOARD_UNAVAILABLE'		=> 'A fórum ideiglenesen nem elérhető, kérlek próbálkozz újra pár perc múlva.',
+	'BROWSING_FORUM'		=> 'Jelenlévő fórumuzók: %1$s',
 	'BROWSING_FORUM_GUEST'	=> 'Jelenlévő fórumozók: %1$s valamint %2$d vendég',
 	'BROWSING_FORUM_GUESTS'	=> 'Jelenlévő fórumozók: %1$s valamint %2$d vendég',
 	'BYTES'					=> 'bájt',
@@ -243,16 +244,20 @@ $lang = array_merge($lang, array(
 	'G_REGISTERED_COPPA'		=> 'Regisztrált COPPA felhasználók',
 	'G_GLOBAL_MODERATORS'		=> 'Globális moderátorok',
 
-	'HIDDEN_USERS_ONLINE'		=> '%d rejtett felhasználó van jelen.',
-	'HIDDEN_USERS_TOTAL'		=> '%d rejtett és ',
-	'HIDDEN_USERS_ZERO_ONLINE'	=> '0 rejtett felhasználó van jelen.',
-	'HIDDEN_USERS_ZERO_TOTAL'	=> '0 rejtett és ',
-	'HIDDEN_USER_ONLINE'		=> '%d rejtett felhasználó van jelen.',
-	'HIDDEN_USER_TOTAL'			=> '%d rejtett és ',
-	'HIDE_GUESTS'				=> 'Vendégek elrejtése',
-	'HIDE_ME'					=> 'Bejelentkezés rejtettként',
-	'HOURS'						=> 'óra',
-	'HOME'						=> 'Főoldal',
+	'HIDDEN_USERS_ONLINE'			=> '%d rejtett felhasználó van jelen.',
+	'HIDDEN_USERS_TOTAL'			=> '%d rejtett',
+	'HIDDEN_USERS_TOTAL_AND'		=> '%d rejtett és ',
+	'HIDDEN_USERS_ZERO_ONLINE'		=> '0 rejtett felhasználó van jelen.',
+	'HIDDEN_USERS_ZERO_TOTAL'		=> '0 rejtett',
+	'HIDDEN_USERS_ZERO_TOTAL_AND'	=> '0 rejtett és ',
+	'HIDDEN_USER_ONLINE'			=> '%d rejtett felhasználó van jelen.',
+	'HIDDEN_USER_TOTAL'				=> '%d rejtett',
+	'HIDDEN_USER_TOTAL_AND'			=> '%d rejtett és ',
+	'HIDE_GUESTS'					=> 'Vendégek elrejtése',
+	'HIDE_ME'						=> 'Bejelentkezés rejtettként',
+	'HOURS'							=> 'óra',
+	'HOME'							=> 'Főoldal',
+
 
 	'ICQ'						=> 'ICQ',
 	'ICQ_STATUS'				=> 'ICQ állapot',	
@@ -277,7 +282,6 @@ $lang = array_merge($lang, array(
 
 	'KB'					=> 'KB',
 	'KIB'					=> 'KiB',
-
 
 	'LAST_POST'							=> 'Utolsó hozzászólás',
 	'LAST_UPDATED'						=> 'Legutóbb frissített',
@@ -445,10 +449,13 @@ $lang = array_merge($lang, array(
 	'REGISTERED_USERS'			=> 'Regisztrált felhasználók:',
 	'REG_USERS_ONLINE'			=> '%d regisztrált és ',
 	'REG_USERS_TOTAL'			=> '%d regisztrált, ',
+	'REG_USERS_TOTAL_AND'		=> '%d regisztrált és ',
 	'REG_USERS_ZERO_ONLINE'		=> '0 regisztrált és ',
 	'REG_USERS_ZERO_TOTAL'		=> '0 regisztrált, ',
+	'REG_USERS_ZERO_TOTAL_AND'	=> '0 regisztrált és ',
 	'REG_USER_ONLINE'			=> '%d regisztrált és ',
 	'REG_USER_TOTAL'			=> '%d regisztrált, ',
+	'REG_USER_TOTAL_AND'		=> '%d regisztrált és ',
 	'REMOVE'					=> 'Törlés',
 	'REMOVE_INSTALL'			=> 'Kérjük, töröld, helyezd át, vagy nevezd át az install könyvtárat a fórum használatba vétele előtt. Amíg ez a könyvtár létezik, csak az adminisztrátori vezérlőpult lesz elérhető.',
 	'REPLIES'					=> 'Válaszok',
