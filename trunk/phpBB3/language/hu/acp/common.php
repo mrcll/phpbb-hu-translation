@@ -4,7 +4,7 @@
 * acp common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.28 2008-04-07 18:32:13 fberci Exp $
+* @version $Id: common.php,v 1.29 2008-06-24 18:27:57 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -201,6 +201,9 @@ $lang = array_merge($lang, array(
 	'ADMIN'					=> 'Adminisztráció',
 	'ADMIN_INDEX'			=> 'Adminisztrátori kezdőlap',
 	'ADMIN_PANEL'			=> 'Adminisztrátori vezérlőpult',
+
+	'ADM_LOGOUT'			=> 'AVP kilépés',
+	'ADM_LOGGED_OUT'		=> 'Sikeresen kiléptél az adminisztrátori vezérlőpultból.',
 
 	'BACK'					=> 'Vissza',
 
@@ -611,6 +614,7 @@ $lang = array_merge($lang, array(
 	'LOG_REASON_REMOVED'	=> '<strong>Jelentés/visszautasítás ok törlése</strong><br />» %s',
 	'LOG_REASON_UPDATED'	=> '<strong>Jelentés/visszautasítás ok frissítése</strong><br />» %s',
 
+	'LOG_REFERER_INVALID'		=> '<strong>Sikertelen referer összevetés</strong><br />»Referer értéke: “<em>%1$s</em>”. A kérés visszautasításra került, a munkamenet meg lett szüntetve.',
 	'LOG_RESET_DATE'			=> '<strong>Fórum indulási dátumának lenullázása</strong>',
 	'LOG_RESET_ONLINE'			=> '<strong>Valaha jelenlévő legtöbb felhasználó számának lenullázása</strong>',
 	'LOG_RESYNC_POSTCOUNTS'		=> '<strong>Felhasználói hozzászólásszámok újraszinkronizálása</strong>', //?

@@ -4,7 +4,7 @@
 * acp_board [Hungarian]
 *
 * @package language
-* @version $Id: board.php,v 1.28 2008-04-07 18:32:13 fberci Exp $
+* @version $Id: board.php,v 1.29 2008-06-24 18:27:57 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -208,10 +208,6 @@ $lang = array_merge($lang, array(
 	'ENABLE_COPPA_EXPLAIN'		=> 'A felhasználóknak nyilatkozniuk kell, hogy 13 év fölött vannak-e az amerikai COPPA törvény miatt. Más országokban nem szükséges bekapcsolni. Ha ki van kapcsolva, a COPPA-val kapcsolatos csoportok sem jelennek meg.',
 	'MAX_CHARS'					=> 'legfeljebb',
 	'MIN_CHARS'					=> 'legalább',
-	'MIN_TIME_REG'				=> 'Minimum idő regisztrációhoz',
-	'MIN_TIME_REG_EXPLAIN'		=> 'A regisztrációs űrlapot nem lehet elküldeni míg ennyi idő el nem telik.',
-	'MIN_TIME_TERMS'			=> 'Minimum idő feltételek elfogadásához',
-	'MIN_TIME_TERMS_EXPLAIN'	=> 'A feltételek oldalról nem lehet továbbmenni míg ennyi idő el nem telik.',
 	'NO_AUTH_PLUGIN'			=> 'Nem található megfelelő azonosítási bővítmény.',
 	'PASSWORD_LENGTH'			=> 'Jelszó hossza',
 	'PASSWORD_LENGTH_EXPLAIN'	=> 'Minimum illetve maximum mennyi karakterből állhat a jelszó.',
@@ -377,8 +373,6 @@ $lang = array_merge($lang, array(
 	'FORCE_PASS_CHANGE_EXPLAIN'		=> 'Megköveteli a felhasználótól, hogy bizonyos időközönként megváltoztassa a jelszavát. A 0 érték megadása kikapcsolja ezt.',
 	'FORM_TIME_MAX'					=> 'Maximum idő űrlap elküldéséhez', //? 'Űrlap elküldéséhez rendelkezésre álló maximum idő'
 	'FORM_TIME_MAX_EXPLAIN'			=> 'Ennyi időn belül a felhasználónak el kell küldenie az űrlapokat. A kikapcsoláshoz adj meg -1-et. Vedd figyelembe, hogy ettől a beállítástól függetlenül az űrlap a munkamenet lejártával is érvénytelenné válhat.',
-	'FORM_TIME_MIN'					=> 'Miminum idő űrlap elküldéséhez',
-	'FORM_TIME_MIN_EXPLAIN'			=> 'Az ennél gyorsabban elküldött űrlapokat a fórum figyelmen kívül hagyja. A kikapcsoláshoz adj meg 0-t.',
 	'FORM_SID_GUESTS'				=> 'Űrlapok hozzákötése vendég munkamenetekhez',
 	'FORM_SID_GUESTS_EXPLAIN'		=> 'Ha be van kapcsolva, minden vendég munkamenethez külön űrlapjelzés lesz. Ez néhány internetszolgáltatónál gondot okozhat.', //? token
 	'FORWARDED_FOR_VALID'			=> '<var>X_FORWARDED_FOR</var> fejléc ellenőrzése',
@@ -388,12 +382,18 @@ $lang = array_merge($lang, array(
 	'MAX_LOGIN_ATTEMPTS'			=> 'Belépési kísérletek maximum száma',
 	'MAX_LOGIN_ATTEMPTS_EXPLAIN'	=> 'Ennyi sikertelen belépési kísérlet után a felhasználónak vizuálisan is meg kell erősítenie a belépését (vizuális megerősítés).',
 	'NO_IP_VALIDATION'				=> 'Nincs',
+	'NO_REF_VALIDATION'				=> 'Nincs',
 	'PASSWORD_TYPE'					=> 'Jelszóbonyolultság',
 	'PASSWORD_TYPE_EXPLAIN'			=> 'Milyen bonyolultnak kell lennie egy jelszónak. A lejjebbi beállítási lehetőségek tartalmazzák az előzőket.',
 	'PASS_TYPE_ALPHA'				=> 'Tartalmaznia kell betűket és számokat',
 	'PASS_TYPE_ANY'					=> 'Nincs követelmény',
 	'PASS_TYPE_CASE'				=> 'Tartalmaznia kell kis- és nagybetűket',
 	'PASS_TYPE_SYMBOL'				=> 'Tartalmaznia kell szimbólumokat',
+	'REF_HOST'						=> 'Csak hoszt ellenőrzése',
+	'REF_PATH'						=> 'Elérési út ellenőrzése is',
+	'REFERER_VALID'					=> 'Hivatkozó oldal (referer) ellenőrzése',
+	'REFERER_VALID_EXPLAIN'			=> 'Ha be van kapcsolva, a POST kérések hivatkozó oldalainak címe (referer) összevetésre kerül a hoszt/szkript elérési út beállításokkal. Ez gondot okozhat egyszerre több domaint vagy külső bejelentkező oldalt használó fórumoknál.
+If enabled, the referer of POST requests will be checked against the host/script path settings. This may cause issues with boards using several domains and or external logins.',
 	'TPL_ALLOW_PHP'					=> 'Php engedélyezése sablonokban',
 	'TPL_ALLOW_PHP_EXPLAIN'			=> 'Ha be van kapcsolva a beállítás, akkor a sablonokban a <code>PHP</code> és az <code>INCLUDEPHP</code> címkék is értelmezésre kerülnek.',
 ));

@@ -4,7 +4,7 @@
 * acp_attachments [Hungarian]
 *
 * @package language
-* @version $Id: attachments.php,v 1.11 2007-11-08 20:56:23 fberci Exp $
+* @version $Id: attachments.php,v 1.12 2008-06-24 18:27:57 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -72,6 +72,8 @@ $lang = array_merge($lang, array(
 	'CAT_QUICKTIME_FILES'		=> 'Quicktime média állományok',
 	'CAT_RM_FILES'				=> 'RealMedia média állományok',
 	'CAT_WM_FILES'				=> 'Windows Media média állományok',
+	'CHECK_CONTENT'				=> 'Csatolt állományok ellenőrzése',
+	'CHECK_CONTENT_EXPLAIN'		=> 'Néhány böngésző rávehető, hogy a feltöltött állományokhoz helytelen MIME típust állapítson meg. Ezzel a beállítással az ennek okozására hajlamos állományok visszautasításra kerülnek.',
 	'CREATE_GROUP'				=> 'Új csoport létrehozása',
 	'CREATE_THUMBNAIL'			=> 'Kiskép készítése',
 	'CREATE_THUMBNAIL_EXPLAIN'	=> 'Minden lehetséges esetben készítsen kisképet.',
