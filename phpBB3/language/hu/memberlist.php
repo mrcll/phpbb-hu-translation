@@ -4,7 +4,7 @@
 * memberlist [Hungarian]
 *
 * @package language
-* @version $Id: memberlist.php,v 1.18 2008-04-07 18:32:12 fberci Exp $
+* @version $Id: memberlist.php,v 1.19 2008-06-24 18:27:57 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -133,6 +133,7 @@ $lang = array_merge($lang, array(
 
 	'USERNAME_BEGINS_WITH'	=> 'Felhasználónév kezdőbetűje',
 	'USER_ADMIN'			=> 'Felhasználó kezelése', //? administrate
+	'USER_BAN'				=> 'Kitiltások',
 	'USER_FORUM'			=> 'Statisztika',
 	'USER_ONLINE'			=> 'Online',
 	'USER_PRESENCE'			=> 'Jelenlét a fórumban',

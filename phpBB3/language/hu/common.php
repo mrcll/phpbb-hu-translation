@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.65 2008-04-07 18:32:12 fberci Exp $
+* @version $Id: common.php,v 1.66 2008-06-24 18:27:57 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -75,6 +75,7 @@ $lang = array_merge($lang, array(
 	'ATTACHED_IMAGE_NOT_IMAGE'		=> 'A csatolni próbált képállomány hibás.',
 	'AUTHOR'						=> 'Szerző',
 	'AUTH_NO_PROFILE_CREATED'		=> 'Nem sikerült létrehozni a felhasználói profilt.',
+	'AVATAR_DISALLOWED_CONTENT'		=> 'A feltöltés visszautasításra került, mivel a feltöltött állomány egy esetleges támadás hordozója lehet.',
 	'AVATAR_DISALLOWED_EXTENSION'	=> 'Az állományt nem lehet megjeleníteni, mivel a <strong>%s</strong> kiterjesztés nem engedélyezett.',
 	'AVATAR_EMPTY_REMOTE_DATA'		=> 'Nem sikerült feltölteni az avatart, mivel a külső forrás hibásnak tűnik.',
 	'AVATAR_EMPTY_FILEUPLOAD'		=> 'A feltöltött avatar állomány üres.',
