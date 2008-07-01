@@ -4,7 +4,7 @@
 * posting [Hungarian]
 *
 * @package language
-* @version $Id: posting.php,v 1.26 2008-06-24 18:27:57 fberci Exp $
+* @version $Id: posting.php,v 1.27 2008-07-01 10:23:59 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -85,8 +85,8 @@ $lang = array_merge($lang, array(
 	'DISABLE_SMILIES'			=> 'Emotikonok kikapcsolása',
 	'DISALLOWED_CONTENT'		=> 'A feltöltés visszautasításra került, mivel a feltöltött állomány egy esetleges támadás hordozója lehet.',
 	'DISALLOWED_EXTENSION'		=> 'A %s kiterjesztés nem engedélyezett.',
-	'DRAFT_LOADED'				=> 'A piszkozat sikeresen betöltésre került, most már befejezheted a hozzászólásod.<br />A piszkozat törlésre kerül miután elküldted a hozzászólást.',
-	'DRAFT_LOADED_PM'			=> 'A piszkozat sikeresen betöltésre került, most már befejezheted a privát üzenetet.<br />A piszkozat törlésre kerül miután elküldted a privát üzenetet.',
+	'DRAFT_LOADED'				=> 'A piszkozat sikeresen betöltésre került, most már befejezheted a hozzászólásod.<br />A piszkozat a hozzászólás elküldése után törlésre fog kerülni.',
+	'DRAFT_LOADED_PM'			=> 'A piszkozat sikeresen betöltésre került, most már befejezheted a privát üzenetet.<br />A piszkozat a privát üzenet elküldése után törlésre fog kerülni.',
 	'DRAFT_SAVED'				=> 'A piszkozat sikeresen elmentésre került.',
 	'DRAFT_TITLE'				=> 'Piszkozat címe',
 
