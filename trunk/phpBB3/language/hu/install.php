@@ -4,7 +4,7 @@
 * install [Hungarian]
 *
 * @package language
-* @version $Id: install.php,v 1.37 2008-04-07 18:32:12 fberci Exp $
+* @version $Id: install.php,v 1.38 2008-07-01 10:23:59 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -529,7 +529,7 @@ $lang = array_merge($lang, array(
 		<p>Miután feltöltötted, a normál felhasználók nem tudják majd elérni a fórumot az install könyvtár létezése miatt.<br /><br />
 		<strong><a href="%2$s" title="%2$s">Most kezdd el a frissítést az install könyvtárba lépéssel.</a></strong><br />
 		<br />
-		Ezután végig leszel vezetve a frissítés folyamatán. A frissítés végeztével értesítést kapsz majd.
+		Ez után a rendszer végigvezet a frissítés folyamatán. A frissítés végeztével meg fog jelenni egy értesítő üzenet.
 		</p>
 	', //? "Release announcement" - Verziómegjelenési közlemény - mi van (el sem hiszem, hogy ilyet leírtam...)?
 	'UPDATE_INSTRUCTIONS_INCOMPLETE'	=> '
