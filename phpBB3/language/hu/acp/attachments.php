@@ -4,7 +4,7 @@
 * acp_attachments [Hungarian]
 *
 * @package language
-* @version $Id: attachments.php,v 1.12 2008-06-24 18:27:57 fberci Exp $
+* @version $Id: attachments.php,v 1.13 2008-10-25 18:22:50 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -157,7 +157,7 @@ $lang = array_merge($lang, array(
 	'UPLOADING_FILE_TO'				=> '„%1$s” állomány feltöltése a %2$d azonosítójú hozzászóláshoz…',
 	'UPLOAD_DENIED_FORUM'			=> 'Nincs jogosultságod állományt feltölteni a „%s” fórumba.',
 	'UPLOAD_DIR'					=> 'Feltöltési könyvtár',
-	'UPLOAD_DIR_EXPLAIN'			=> 'A csatolmányok tárolási helye. Kérjük, vedd figyelembe, hogy ha megváltoztatod ezt a könyvtárt, miközben már vannak feltöltött csatolmányok, ezeket az állományokat kézzel kell átmásolnod az új helyre.',
+	'UPLOAD_DIR_EXPLAIN'			=> 'A csatolmányok tárolási helye. Kérjük, vedd figyelembe, hogy ha megváltoztatod ezt a könyvtárat, miközben már vannak feltöltött csatolmányok, ezeket az állományokat kézzel kell átmásolnod az új helyre.',
 	'UPLOAD_ICON'					=> 'Feltöltési ikon',
 	'UPLOAD_NOT_DIR'				=> 'A megadott feltöltési hely úgy tűnik, nem könyvtár.',
 ));

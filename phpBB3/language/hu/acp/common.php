@@ -4,7 +4,7 @@
 * acp common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.29 2008-06-24 18:27:57 fberci Exp $
+* @version $Id: common.php,v 1.30 2008-10-25 18:22:50 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -40,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ACP_ADMINISTRATORS'		=> 'Adminisztrátorok',
 	'ACP_ADMIN_LOGS'			=> 'Adminisztrátori napló',
-	'ACP_ADMIN_ROLES'			=> 'Adminisztártori szerepek',
+	'ACP_ADMIN_ROLES'			=> 'Adminisztrátori szerepek',
 	'ACP_ATTACHMENTS'			=> 'Csatolmányok',
 	'ACP_ATTACHMENT_SETTINGS'	=> 'Csatolmány beállítások',
 	'ACP_AUTH_SETTINGS'			=> 'Azonosítás', //? hitelesítéss
