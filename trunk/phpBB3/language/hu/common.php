@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.66 2008-06-24 18:27:57 fberci Exp $
+* @version $Id: common.php,v 1.67 2008-10-25 18:22:50 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -186,7 +186,7 @@ $lang = array_merge($lang, array(
 	'FORM_INVALID'			=> 'Az elküldött űrlap érvénytelen. Próbáld meg újra elküldeni.',
 	'FORUM'					=> 'Fórum',
 	'FORUMS'				=> 'Fórumok',
-	'FORUMS_MARKED'			=> 'Minden fórumot megjelölésre került olvasottként.',
+	'FORUMS_MARKED'			=> 'Minden fórum megjelölésre került olvasottként.',
 	'FORUM_CAT'				=> 'Fórum kategória',
 	'FORUM_INDEX'			=> 'Fórum kezdőlap',
 	'FORUM_LINK'			=> 'Fórum link',
@@ -538,7 +538,7 @@ $lang = array_merge($lang, array(
 	'SUBJECT'					=> 'Téma',
 	'SUBMIT'					=> 'Elküld',
 
-	'TERMS_USE'			=> 'Felhasználási feltételek',
+	'TERMS_USE'			=> 'Használati feltételek',
 	'TEST_CONNECTION'	=> 'Kapcsolat tesztelése',
 	'THE_TEAM'			=> 'A csapat',
 	'TIME'				=> 'Idő',
