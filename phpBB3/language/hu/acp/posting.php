@@ -4,7 +4,7 @@
 * posting [Hungarian]
 *
 * @package language
-* @version $Id: posting.php,v 1.18 2008-04-07 18:32:13 fberci Exp $
+* @version $Id: posting.php,v 1.19 2008-10-26 13:50:18 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -48,6 +48,8 @@ $lang = array_merge($lang, array(
 	'BBCODE_HELPLINE'			=> 'Segítség',
 	'BBCODE_HELPLINE_EXPLAIN'	=> 'Ennek a mezőnek a tartalma fog megjelenni, ha a BBCode fölé viszed az egeret.', //?
 	'BBCODE_HELPLINE_TEXT'		=> 'Segítség szöveg',
+	'BBCODE_HELPLINE_TOO_LONG'	=> 'A megadott segítség szöveg túl hosszú.',
+
 	'BBCODE_INVALID_TAG_NAME'	=> 'A megadott BBCode címkenév már létezik.',
 	'BBCODE_INVALID'			=> 'A BBCode-od formátuma nem helyes.', //? "Your BBCode is constructed in an invalid form."
 	'BBCODE_OPEN_ENDED_TAG'		=> 'Az egyedi BBCode-odnak tartalmaznia kell egy nyitó és egy lezáró címkét is.',

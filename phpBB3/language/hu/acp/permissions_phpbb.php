@@ -3,7 +3,7 @@
 * acp_permissions (phpBB Permission Set) [Hungarian]
 *
 * @package language
-* @version $Id: permissions_phpbb.php,v 1.12 2008-01-22 19:23:55 fberci Exp $
+* @version $Id: permissions_phpbb.php,v 1.13 2008-10-26 13:50:18 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -112,7 +112,8 @@ $lang = array_merge($lang, array(
 	'acl_u_sig'			=> array('lang' => 'Használhat aláírást', 'cat' => 'post'),
 
 	'acl_u_sendpm'		=> array('lang' => 'Küldhet privát üzenetet', 'cat' => 'pm'),
-	'acl_u_masspm'		=> array('lang' => 'Küldhet privát üzenetet egyszerre több felhasználónak vagy csoportnak', 'cat' => 'pm'),
+	'acl_u_masspm'		=> array('lang' => 'Küldhet privát üzenetet egyszerre több felhasználónak', 'cat' => 'pm'),
+	'acl_u_masspm_group'=> array('lang' => 'Küldhet privát üzenetet csoportoknak', 'cat' => 'pm'),
 	'acl_u_readpm'		=> array('lang' => 'Olvashatja a privát üzeneteit', 'cat' => 'pm'),
 	'acl_u_pm_edit'		=> array('lang' => 'Szerkesztheti a saját privát üzeneteit', 'cat' => 'pm'),
 	'acl_u_pm_delete'	=> array('lang' => 'Privát üzeneteit törölheti a  a saját mappájából', 'cat' => 'pm'),

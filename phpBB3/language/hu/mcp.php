@@ -4,7 +4,7 @@
 * mcp [Hungarian]
 *
 * @package language
-* @version $Id: mcp.php,v 1.25 2008-04-07 18:32:12 fberci Exp $
+* @version $Id: mcp.php,v 1.26 2008-10-26 13:50:17 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -347,6 +347,7 @@ $lang = array_merge($lang, array(
 	'USER_WARNING_ADDED'			=> 'A felhasználó sikeresen figyelmeztetésre került.',
 
 	'VIEW_DETAILS'			=> 'Részletek megtekintése', //? a korábbi adatok stb. probléma
+	'VIEW_POST'				=> 'Hozzászólás megtekintése',
 
 	'WARNED_USERS'			=> 'Figyelmeztetett felhasználók',
 	'WARNED_USERS_EXPLAIN'	=> 'Az alábbi lista azokat a felhasználókat tartalmazza, akik még nem lejárt figyelmezetetéssel rendelkeznek.',

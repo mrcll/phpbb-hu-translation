@@ -4,7 +4,7 @@
 * acp_styles [Hungarian]
 *
 * @package language
-* @version $Id: styles.php,v 1.13 2007-11-08 20:56:23 fberci Exp $
+* @version $Id: styles.php,v 1.14 2008-10-26 13:50:18 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -104,6 +104,7 @@ $lang = array_merge($lang, array(
 	'EDIT_THEME_EXPLAIN'				=> 'Itt szerkeszteni tudod a kiválasztott stílust, megváltoztathatod a színeket, képeket stb.',
 	'EDIT_THEME_STORED_DB'				=> 'A stíluslap állomány nem volt írható, ezért a stíluslap az adatbázisban került eltárolásra, ami így már tartalmazza a módosítást.',
 	'EDIT_THEME_STORE_PARSED'			=> 'A stílusnak szüksége van rá, hogy a stíluslap fel legyen dolgozva. Ez csak akkor lehetséges, ha az az adatbázisban van tárolva.',
+	'EDITOR_DISABLED'					=> 'A sablon szerkesztő nincs engedélyezve.',
 	'EXPORT'							=> 'Exportálás',
 
 	'FOREGROUND'			=> 'Előtér',
@@ -270,6 +271,7 @@ $lang = array_merge($lang, array(
 	'INCLUDE_IMAGESET'			=> 'Képkészlet tartalmazása', //? mellékelése? hozzáadása?
 	'INCLUDE_TEMPLATE'			=> 'Sablon tartalmazása',
 	'INCLUDE_THEME'				=> 'Stílus tartalmazása',
+	'INHERITING_FROM'			=> 'Öröklés',
 	'INSTALL_IMAGESET'			=> 'Képkészlet telepítése',
 	'INSTALL_IMAGESET_EXPLAIN'	=> 'Itt telepíteni tudod a kiválasztott képkészletet. Ha szeretnéd, módosíthatsz egyes adatokat, vagy használhatod az alapértelmezett értékeket.',
 	'INSTALL_STYLE'				=> 'Megjelenés telepítése',
@@ -285,6 +287,7 @@ $lang = array_merge($lang, array(
 
 	'LINE_SPACING'				=> 'Sorköz',
 	'LOCALISED_IMAGES'			=> 'Honosított', //?
+	'LOCATION_DISABLED_EXPLAIN'	=> 'Ez a beállítás örökölt, ezért nem változtatható meg.',
 
 	'NO_CLASS'					=> 'Az osztály nem található a stíluslapban.',
 	'NO_IMAGESET'				=> 'A képkészlet nem található a fájlrendszerben.',
@@ -365,6 +368,7 @@ $lang = array_merge($lang, array(
 	'TEMPLATE_CACHE_CLEARED'	=> 'A sablon gyorsítótár sikeresen kiürítésre került.',
 	'TEMPLATE_CACHE_EMPTY'		=> 'Nincs gyorsítótárazott sablon.',
 	'TEMPLATE_DELETED'			=> 'A sablonkészlet sikeresen törlésre került.',
+	'TEMPLATE_DELETE_DEPENDENT'	=> 'A sablonkészlet nem törölhető, mivel más sablonkészlet örököl tőle:',
 	'TEMPLATE_DELETED_FS'		=> 'A sablonkészlet eltávolításra került az adatbázisból, de lehet hogy, maradt néhány állomány a fájlrendszerben.',
 	'TEMPLATE_DETAILS_UPDATED'	=> 'A sablon adatai sikeresen frissítésre kerültek.',
 	'TEMPLATE_EDITOR'			=> 'HTML kódos sablonszerkesztő', //??
@@ -376,12 +380,14 @@ $lang = array_merge($lang, array(
 	'TEMPLATE_ERR_NAME_EXIST'	=> 'Már létezik sablonkészlet ilyen névvel.',
 	'TEMPLATE_ERR_NAME_LONG'	=> 'A sablon neve nem lehet hosszabb 30 karakternél.',
 	'TEMPLATE_ERR_NOT_TEMPLATE'	=> 'A megadott csomag nem tartalmaz helyes sablonkészletet.',
+	'TEMPLATE_ERR_REQUIRED_OR_INCOMPLETE' => 'Az új sablonkészletnek szüksége van rá, hogy a %s sablon telepítve legyen és ne önmagától örököljön.', //? "he new template set requires the template %s to be installed and not inheriting itself." - az önmagától kire vonatkozik?? mi a pontos értelme?
 	'TEMPLATE_ERR_STYLE_NAME'	=> 'El kell látnod névvel a sablont.',
 	'TEMPLATE_EXPORT'			=> 'Sablon kiexportálása',
 	'TEMPLATE_EXPORT_EXPLAIN'	=> 'Itt kiexportálhatod a sablonkészletet egy csomagba. A csomag tartalmaznia fogja a szükséges adatatokat, hogy a sablont később telepíteni lehessen egy másik fórumon. Megválaszthatod, hogy közvetlenül le szeretnéd tölteni az állományt, vagy a store könyvtárba helyeznéd el, hogy később letöltsd FTP-n keresztül.',
 	'TEMPLATE_EXPORTED'			=> 'A sablon sikeresen kiexportálásra került, és el lett tárolva a %s helyen.',
 	'TEMPLATE_FILE'				=> 'Sablon állomány',
 	'TEMPLATE_FILE_UPDATED'		=> 'A sablon állomány sikeresen frissítésre került',
+	'TEMPLATE_INHERITS'			=> 'Ez a sablonkészlet a %s sablonkészlettől örököl, ezért nem állítható be hozzá a szupersablonjáétól eltérő tárolási hely.', //? szuper helyett jobb szó az öröklés kifejezésére?
 	'TEMPLATE_LOCATION'			=> 'Sablonok tárolásának helye',
 	'TEMPLATE_LOCATION_EXPLAIN'	=> 'A képek mindig a fájlrendszerben kerülnek eltárolásra.',
 	'TEMPLATE_NAME'				=> 'Sablon neve',

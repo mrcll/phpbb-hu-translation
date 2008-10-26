@@ -4,7 +4,7 @@
 * acp_attachments [Hungarian]
 *
 * @package language
-* @version $Id: attachments.php,v 1.13 2008-10-25 18:22:50 fberci Exp $
+* @version $Id: attachments.php,v 1.14 2008-10-26 13:50:18 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -60,7 +60,7 @@ $lang = array_merge($lang, array(
 	'ATTACH_MAX_FILESIZE'				=> 'Maximum állományméret',
 	'ATTACH_MAX_FILESIZE_EXPLAIN'		=> 'Legfeljebb ekkorák lehetnek az állományok. A 0 érték kikapcsolja a korlátozást.',
 	'ATTACH_MAX_PM_FILESIZE'			=> 'Maximum állományméret privát üzenetnél',
-	'ATTACH_MAX_PM_FILESIZE_EXPLAIN'	=> 'Felhasználónként legfeljebb ekkora hely áll rendelkezésre a privát üzenetek csatolmányaihoz. A 0 érték kikapcsolja a korlátozást.', //?
+	'ATTACH_MAX_PM_FILESIZE_EXPLAIN'	=> 'Privát üzenethez csatolható legnagyobb állomány mérete. A 0 érték kikapcsolja a korlátozást.',
 	'ATTACH_ORPHAN_URL'					=> 'Árva csatolmányok',
 	'ATTACH_POST_ID'					=> 'Hozzászólás azonosító',
 	'ATTACH_QUOTA'						=> 'Csatolmányok tárhelye', //?

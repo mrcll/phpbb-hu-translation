@@ -4,7 +4,7 @@
 * acp common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.30 2008-10-25 18:22:50 fberci Exp $
+* @version $Id: common.php,v 1.31 2008-10-26 13:50:18 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -363,6 +363,8 @@ $lang = array_merge($lang, array(
 	'VIEW_INACTIVE_USERS'	=> 'Inaktív felhasználók megtekintése',
 
 	'WELCOME_PHPBB'			=> 'Üdvözlünk a phpBB-ben!',
+	'WRITABLE_CONFIG'		=> 'A konfigurációs állományod (config.php) jelenleg mindenki által írható. Határozottan javasoljuk, hogy változtasd meg a jogosultságait 640-re vagy legalább 644-re (például: <a href="http://phpbb.hu/utmutatok/13" rel="external">chmod</a> 640 config.php).',
+
 ));
 
 // Inactive Users
@@ -476,12 +478,13 @@ $lang = array_merge($lang, array(
 	'LOG_APPROVE_TOPIC'			=> '<strong>Téma jóváhagyása</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>Téma előreugrasztása</strong><br />» %s',
 	'LOG_DELETE_POST'			=> '<strong>Hozzászólás törlése</strong><br />» %s',
+	'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Árnyék téma törlése</strong><br />» %s',
 	'LOG_DELETE_TOPIC'			=> '<strong>Téma törlése</strong><br />» %s',
 	'LOG_FORK'					=> '<strong>Téma másolása</strong><br />» %s',
 	'LOG_LOCK'					=> '<strong>Téma lezárása</strong><br />» %s',
 	'LOG_LOCK_POST'				=> '<strong>Hozzászólás lezárása</strong><br />» %s',
 	'LOG_MERGE'					=> '<strong>Hozzászólások áthelyezése</strong> másik témába:<br />» %s',
-	'LOG_MOVE'					=> '<strong>Téma áthelyezése</strong><br />» a %s fórumból',
+	'LOG_MOVE'					=> '<strong>Téma áthelyezése</strong><br />» %1$s fórumból %2$s fórumba',
 	'LOG_POST_APPROVED'			=> '<strong>Hozzászólás jóváhagyása</strong><br />» %s',
 	'LOG_POST_DISAPPROVED'		=> '<strong>„%1$s” hozzászólás elutasítása</strong><br />» ok: %2$s',
 	'LOG_POST_EDITED'			=> '<strong>„%1$s” hozzászólás szerkesztése</strong><br />» szerző: %2$s',
@@ -490,7 +493,6 @@ $lang = array_merge($lang, array(
 	'LOG_SPLIT_DESTINATION'		=> '<strong>Szétválasztott hozzászólások áthelyezése</strong><br />» %s témába',
 	'LOG_SPLIT_SOURCE'			=> '<strong>Téma szétválasztása</strong><br />» %s',
 
-	'LOG_TOPIC_DELETED'			=> '<strong>Téma törlése</strong><br />» %s',
 	'LOG_TOPIC_APPROVED'		=> '<strong>Téma jóváhagyása</strong><br />» %s',
 	'LOG_TOPIC_DISAPPROVED'		=> '<strong>„%1$s” téma elutasítása</strong><br />ok: %2$s',
 	'LOG_TOPIC_RESYNC'			=> '<strong>Téma újraszinkronizálása</strong><br />» %s', //?
@@ -689,5 +691,10 @@ $lang = array_merge($lang, array(
 	'LOG_WORD_DELETE'		=> '<strong>Cenzúrázott szó törlése</strong><br />» %s',
 	'LOG_WORD_EDIT'			=> '<strong>Cenzúrázott szó szerkesztése</strong><br />» %s',
 ));
+
+// Two language keys with the same text were used in different locations
+// LOG_DELETE_TOPIC is the correct one, this line is here so that existing
+// log entries are not broken. Ensure it is included in your language file.
+$lang['LOG_TOPIC_DELETED'] = $lang['LOG_DELETE_TOPIC'];
 
 ?>
