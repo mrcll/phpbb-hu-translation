@@ -4,7 +4,7 @@
 * ucp [Hungarian]
 *
 * @package language
-* @version $Id: ucp.php,v 1.44 2008-10-25 18:22:50 fberci Exp $
+* @version $Id: ucp.php,v 1.45 2008-10-26 13:50:17 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -283,13 +283,15 @@ $lang = array_merge($lang, array(
 	'NO_AUTHOR'						=> 'Az üzenethez nem tartozik feladó.', //? "No author defined for this message"
 	'NO_AVATAR_CATEGORY'			=> 'Nincs',
 
-	'NO_AUTH_DELETE_MESSAGE'		=> 'Nincs jogosultságod privát üzenetek törléséhez.',
-	'NO_AUTH_EDIT_MESSAGE'			=> 'Nincs jogosultságod privát üzenetek szerkesztéséhez.',
-	'NO_AUTH_FORWARD_MESSAGE'		=> 'Nincs jogosultságod privát üzenetek továbbításához.',
-	'NO_AUTH_GROUP_MESSAGE'			=> 'Nincs jogosultságod privát üzenet küldéséhez csoportok részére.',
+	'NO_AUTH_DELETE_MESSAGE'		=> 'Nincs jogosultságod privát üzenetet törölni.',
+	'NO_AUTH_EDIT_MESSAGE'			=> 'Nincs jogosultságod privát üzenetet szerkeszteni.',
+	'NO_AUTH_FORWARD_MESSAGE'		=> 'Nincs jogosultságod privát üzenetet továbbítani.',
+	'NO_AUTH_GROUP_MESSAGE'			=> 'Nincs jogosultságod privát üzenet küldeni csoportok részére.',
+	'NO_AUTH_PASSWORD_REMINDER'		=> 'Nincs jogosultságod új jelszót kérni.',
+	'NO_AUTH_READ_HOLD_MESSAGE'		=> 'Nincs jogosultságod visszatartott privát üzenetet olvasni.',
 	'NO_AUTH_READ_MESSAGE'			=> 'Nincs jogosultságod privát üzenetek megtekintéséhez.',
 	'NO_AUTH_READ_REMOVED_MESSAGE'	=> 'Ezt az üzenetet nem tudod elolvasni, mivel a küldője törölte.',
-	'NO_AUTH_SEND_MESSAGE'			=> 'Nincs jogosultságod privát üzenetek küldéséhez.',
+	'NO_AUTH_SEND_MESSAGE'			=> 'Nincs jogosultságod privát üzenetet küldeni.',
 	'NO_AUTH_SIGNATURE'				=> 'Nincs jogosultságod aláírás megadásához.',
 
 	'NO_BCC_RECIPIENT'			=> 'Nincs',
@@ -313,6 +315,7 @@ $lang = array_merge($lang, array(
 	'NO_SAVED_DRAFTS'			=> 'Nincs piszkozat.',
 	'NO_TO_RECIPIENT'			=> 'Nincs',
 	'NO_WATCHED_FORUMS'			=> 'Nem iratkoztál fel egy fórumra se.', //? a se-s megfogalmazás helyett valami más ékne
+	'NO_WATCHED_SELECTED'		=> 'Nem választottál ki egy témát vagy fórumot se, melyre fel vagy iratkozva.',
 	'NO_WATCHED_TOPICS'			=> 'Nem iratkoztál fel egy témára se.',
 
 	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'A jelszó hosszának %1$d és %2$d karakter között kell lennie, szerepelnie kell benne kis- és nagybetűknek egyaránt, valamint tartalmaznia kell számokat.',

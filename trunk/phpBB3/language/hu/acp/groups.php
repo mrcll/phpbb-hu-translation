@@ -4,7 +4,7 @@
 * acp_groups [Hungarian]
 *
 * @package language
-* @version $Id: groups.php,v 1.16 2008-06-24 18:27:57 fberci Exp $
+* @version $Id: groups.php,v 1.17 2008-10-26 13:50:18 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -87,6 +87,8 @@ $lang = array_merge($lang, array(
 	'GROUP_NAME_TAKEN'				=> 'A megadott csoportnév már használatban van, kérünk, válassz egy másikat.',
 	'GROUP_OPEN'					=> 'Nyitott',
 	'GROUP_PENDING'					=> 'Függő tagok',
+	'GROUP_MAX_RECIPIENTS'			=> 'Engedélyezett címzettek száma privát üzenetenként',
+	'GROUP_MAX_RECIPIENTS_EXPLAIN'	=> 'Legfeljebb ennyi címzettje lehet egy privát üzenetnek. 0 értéknél a fórum általános, központi beállítása kerül használatra.',
 	'GROUP_PROMOTE'					=> 'Előléptetés csoportvezetőnek',
 	'GROUP_RANK'					=> 'Csoport rang',
 	'GROUP_RECEIVE_PM'				=> 'Csoport kaphat privát üzeneteket',
