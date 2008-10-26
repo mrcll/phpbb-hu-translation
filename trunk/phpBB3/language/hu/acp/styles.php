@@ -4,7 +4,7 @@
 * acp_styles [Hungarian]
 *
 * @package language
-* @version $Id: styles.php,v 1.14 2008-10-26 13:50:18 fberci Exp $
+* @version $Id: styles.php,v 1.15 2008-10-26 14:06:30 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -353,7 +353,7 @@ $lang = array_merge($lang, array(
 	'STYLE_ERR_NOT_STYLE'		=> 'Az importált vagy feltöltött állomány nem tartalmazott egy helyes megjelenés csomagot.',
 	'STYLE_ERR_STYLE_NAME'		=> 'El kell látnod névvel a megjelenést',
 	'STYLE_EXPORT'				=> 'Megjelenés exportálása',
-	'STYLE_EXPORT_EXPLAIN'		=> 'Itt kiexportálhatod a képkészletet egy csomagba. A megjelenésnek nem kell tartalmazni az összes alkotóelemét, de egyet legalább kel. Például, ha készítettél egy stílust és egy képkészletet egy széles körben használt sablonhoz, elég csak csak a stílust és a képkészletet kiexportálnod, a sablont kihagyhatod. Megválaszthatod, hogy közvetlenül le szeretnéd tölteni az állományt, vagy a store könyvtárba helyeznéd el, hogy később letöltsd FTP-n keresztül.',
+	'STYLE_EXPORT_EXPLAIN'		=> 'Itt kiexportálhatod a képkészletet egy csomagba. A megjelenésnek nem kell tartalmaznia az összes alkotóelemét, de legalább egyet kell. Például, ha készítettél egy stílust és egy képkészletet egy széles körben használt sablonhoz, elég csak csak a stílust és a képkészletet kiexportálnod, a sablont kihagyhatod. Megválaszthatod, hogy közvetlenül le szeretnéd tölteni az állományt, vagy a store könyvtárba helyeznéd el, hogy később letöltsd FTP-n keresztül.',
 	'STYLE_EXPORTED'			=> 'A megjelenés sikeresen kiexportálásra került, és el lett tárolva a %s helyen.',
 	'STYLE_IMAGESET'			=> 'Képkészlet',
 	'STYLE_NAME'				=> 'Megjelenés neve',
