@@ -4,7 +4,7 @@
 * acp common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.31 2008-10-26 13:50:18 fberci Exp $
+* @version $Id: common.php,v 1.32 2008-11-09 18:44:14 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -691,10 +691,5 @@ $lang = array_merge($lang, array(
 	'LOG_WORD_DELETE'		=> '<strong>Cenzúrázott szó törlése</strong><br />» %s',
 	'LOG_WORD_EDIT'			=> '<strong>Cenzúrázott szó szerkesztése</strong><br />» %s',
 ));
-
-// Two language keys with the same text were used in different locations
-// LOG_DELETE_TOPIC is the correct one, this line is here so that existing
-// log entries are not broken. Ensure it is included in your language file.
-$lang['LOG_TOPIC_DELETED'] = $lang['LOG_DELETE_TOPIC'];
 
 ?>
