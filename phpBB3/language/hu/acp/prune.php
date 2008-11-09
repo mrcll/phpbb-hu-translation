@@ -4,7 +4,7 @@
 * acp_prune [Hungarian]
 *
 * @package language
-* @version $Id: prune.php,v 1.9 2007-11-08 20:56:23 fberci Exp $
+* @version $Id: prune.php,v 1.10 2008-11-09 18:44:14 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -65,7 +65,7 @@ $lang = array_merge($lang, array(
 
 // Forum Pruning
 $lang = array_merge($lang, array(
-	'ACP_PRUNE_FORUMS_EXPLAIN'	=> 'Ez törölni fog minden témát, amibe nem kültek hozzászólást vagy nem tekintették meg az általad megadott napon belül. Ha nem adsz meg egy számot, az összes téma törölve lesz. Alapból nem fog eltávolítani olyan témákat, melyekben szavazás fut, illetve kiemelt témákat és közleményeket.',
+	'ACP_PRUNE_FORUMS_EXPLAIN'	=> 'Ez törölni fog minden témát, amibe nem küldtek hozzászólást vagy nem tekintették meg az általad megadott napon belül. Ha nem adsz meg egy számot, az összes téma törölve lesz. Alapból nem fog eltávolítani olyan témákat, melyekben szavazás fut, illetve kiemelt témákat és közleményeket.',
 
 	'FORUM_PRUNE'		=> 'Fórum megtisztítása',
 
