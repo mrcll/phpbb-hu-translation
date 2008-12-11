@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.68 2008-10-26 13:50:17 fberci Exp $
+* @version $Id: common.php,v 1.69 2008-12-11 21:36:01 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -696,6 +696,12 @@ $lang = array_merge($lang, array(
 		'TODAY'		=> 'Ma, ',
 		'TOMORROW'	=> 'Holnap, ',
 		'YESTERDAY'	=> 'Tegnap, ',
+
+		'AGO'		=> array(
+			0		=> 'kevesebb mint egy perce',
+			1		=> '%d perccel ezelőtt',
+			60		=> '1 órával ezelőt',
+		),
 
 		'Sunday'	=> 'vasárnap',
 		'Monday'	=> 'hétfő',

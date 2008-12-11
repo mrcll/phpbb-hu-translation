@@ -4,7 +4,7 @@
 * ucp [Hungarian]
 *
 * @package language
-* @version $Id: ucp.php,v 1.45 2008-10-26 13:50:17 fberci Exp $
+* @version $Id: ucp.php,v 1.46 2008-12-11 21:36:01 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -378,7 +378,7 @@ $lang = array_merge($lang, array(
 	'SAME_PASSWORD_ERROR'		=> 'A megadott új jelszó megegyezik a jelenlegi jelszavaddal.',
 	'SEARCH_YOUR_POSTS'			=> 'Saját hozzászólások megtekintése',
 	'SEND_PASSWORD'				=> 'Jelszó elküldése',
-	'SENT_AT'					=> 'Elküldve',
+	'SENT_AT'					=> 'Elküldve',			// Used before dates in private messages
 	'SHOW_EMAIL'				=> 'E-mailek fogadása felhasználóktól', //? "Users can contact me by email"
 	'SIGNATURE_EXPLAIN'			=> 'Az aláírás egy szöveg, melyet automatikusan hozzáfűzhetsz a hozzászólásaidhoz. Legfeljebb %d karakter hosszú lehet.',
 	'SIGNATURE_PREVIEW'			=> 'Így fog megjelenni az aláírásod a hozzászólásaidban',
