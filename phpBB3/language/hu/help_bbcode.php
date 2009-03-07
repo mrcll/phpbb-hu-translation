@@ -4,7 +4,7 @@
 * help_bbcode [Hungarian]
 *
 * @package language
-* @version $Id: help_bbcode.php,v 1.9 2007-11-08 20:56:22 fberci Exp $
+* @version $Id: help_bbcode.php,v 1.9 2007/11/08 20:56:22 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -45,11 +45,11 @@ $help = array(
 	),
 	array(
 		0 => 'Félkövér, dőlt, illetve aláhúzott szöveg készítése',
-		1 => 'A BBCode címkék segítségével könnyedén megváltoztathatod egy szöveg kinézetét. Ezt a következőképpen érheted el: <ul><li>Egy szövegrészlet félkövérré tételéhez zárd körül <strong>[b][/b]</strong> címkékkel. Például:<br /><br /><strong>[b]</strong>Hello<strong>[/b]</strong> <br /><br />eredménye: <strong>Hello</strong></li><li>Aláhúzáshoz használd az <strong>[u][/u]</strong> címkét. Például:<br /><br /><strong>[u]</strong>Jó reggelt!<strong>[/u]</strong><br /><br />így fog megjelenni: <span style="text-decoration: underline">Jó reggelt!</span></li><li>Egy szöveg dőlt betűssé tételéhez használd az <strong>[i][/i]</strong> címkét. Például:<br /><br /><strong>[i]</strong>Ez nagyszerű!<strong>[/i]</strong><br /><br />ezt eredményezi: <i>Ez nagyszerű!</i></li></ul>'
+		1 => 'A BBCode címkék segítségével könnyedén megváltoztathatod egy szöveg kinézetét. Ezt a következőképpen érheted el: <ul><li>Egy szövegrészlet félkövérré tételéhez zárd körül <strong>[b][/b]</strong> címkékkel. Például:<br /><br /><strong>[b]</strong>Helló!<strong>[/b]</strong> <br /><br />eredménye: <strong>Helló!</strong></li><li>Aláhúzáshoz használd az <strong>[u][/u]</strong> címkét. Például:<br /><br /><strong>[u]</strong>Jó reggelt!<strong>[/u]</strong><br /><br />így fog megjelenni: <span style="text-decoration: underline">Jó reggelt!</span></li><li>Egy szöveg dőlt betűssé tételéhez használd az <strong>[i][/i]</strong> címkét. Például:<br /><br /><strong>[i]</strong>Ez nagyszerű!<strong>[/i]</strong><br /><br />ezt eredményezi: <i>Ez nagyszerű!</i></li></ul>'
 	),
 	array(
 		0 => 'Szöveg színének vagy méretének megváltoztatása',
-		1 => 'Egy szövegrészlet színének vagy méretének megváltoztatásához a következő címkék használhatók. Vedd figyelembe, hogy a szöveg pontos megjelenése a látogató böngészőjétől és rendszerétől is függeni fog (például túl kis betűmérettel írt szöveg nem látszódhat).<ul><li>Egy szövegrészlet színét a <strong>[color=][/color]</strong> címkék használatával változtathatod meg. A színt megadhatod az angol nevével (pl. „red”, „blue”, „yellow”) vagy a hexadecimális kódjával, például: #FFFFFF, #000000. Piros szöveget például így tud készíteni: <br /><br /><strong>[color=red]</strong>Helló!<strong>[/color]</strong><br /><br />és<br /><br /><strong>[color=#FF0000]</strong>Helló!<strong>[/color]</strong><br /><br />eredménye is ez lesz: <span style="color:red">Helló!</span></li><li>A betűméretet is hasonlóan lehet megváltoztatni: a <strong>[size=][/size]</strong> címke segítségével. A szöveg méretét százalékban kell megadni: ez egy 20 és 200 közötti szám lehet, de az aktuális méret a sablontól függ. Például <br /><br /><strong>[size=30]</strong>KICSI<strong>[/size]</strong><br /><br />általánosan <span style="font-size:30%;">KICSI</span> lesz,<br /><br />ehhez hasonlóan:<br /><br /><strong>[size=200]</strong>ÓRIÁSI!<strong>[/size]</strong><br /><br /><span style="font-size:200%;">ÓRIÁSI!</span> lesz.</li></li></ul>'
+		1 => 'Egy szövegrészlet színének vagy méretének megváltoztatásához a következő címkék használhatók. Vedd figyelembe, hogy a szöveg pontos megjelenése a látogató böngészőjétől és rendszerétől is függeni fog (például túl kis betűmérettel írt szöveg nem látszódhat).<ul><li>Egy szövegrészlet színét a <strong>[color=][/color]</strong> címkék használatával változtathatod meg. A színt megadhatod az angol nevével (pl. „red”, „blue”, „yellow”) vagy a hexadecimális kódjával, például: #FFFFFF, #000000. Piros szöveget például így tud készíteni: <br /><br /><strong>[color=red]</strong>Helló!<strong>[/color]</strong><br /><br />és<br /><br /><strong>[color=#FF0000]</strong>Helló!<strong>[/color]</strong><br /><br />eredménye is ez lesz: <span style="color:red">Helló!</span></li><li>A betűméretet is hasonlóan lehet megváltoztatni: a <strong>[size=][/size]</strong> címke segítségével. A szöveg méretét százalékban kell megadni: ez egy 20 és 200 közötti szám lehet, de az aktuális méret a megjelenéstől függ. Például <br /><br /><strong>[size=30]</strong>KICSI<strong>[/size]</strong><br /><br />általánosan <span style="font-size:30%;">KICSI</span> lesz,<br /><br />ehhez hasonlóan:<br /><br /><strong>[size=200]</strong>ÓRIÁSI!<strong>[/size]</strong><br /><br /><span style="font-size:200%;">ÓRIÁSI!</span> lesz.</li></li></ul>'
 	),
 	array(
 		0 => 'Használhatok egyszerre többféle formázást?',
@@ -65,7 +65,7 @@ $help = array(
 	),
 	array(
 		0 => 'Kódok és fix szélességet igénylő szövegek',
-		1 => 'Ha egy kódrészletet, vagy bármilyen fix szélességet igénylő szöveget szeretnél beilleszteni (például Courier betűtípussal), zárd körül a szöveget <strong>[code][/code]</strong> címkékkel. Például:<br /><br /><strong>[code]</strong>echo &quot;Ez valami kód.&quot;;<strong>[/code]</strong><br /><br /><strong>[code][/code]</strong> címkén belül nem használható más formázást, mivel ezeken belül szereplő más címkék nem kerülnek értelmezésre. Ha PHP kódot illesztesz be, használd a <strong>[code=php][/code]</strong> címkét a szintaxiskiemeléshez, hogy a kód könnyebben olvasható legyen.'
+		1 => 'Ha egy kódrészletet vagy bármilyen fix szélességet igénylő szöveget szeretnél beilleszteni (például Courier betűtípussal), zárd körül a szöveget <strong>[code][/code]</strong> címkékkel. Például:<br /><br /><strong>[code]</strong>echo &quot;Ez valami kód.&quot;;<strong>[/code]</strong><br /><br /><strong>[code][/code]</strong> címkén belül nem használható más formázás, mivel ezeken belül szereplő más címkék nem kerülnek értelmezésre. Ha PHP kódot illesztesz be, használd a <strong>[code=php][/code]</strong> címkét a szintaxiskiemeléshez, hogy a kód könnyebben olvasható legyen.'
 	),
 	array(
 		0 => '--',

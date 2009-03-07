@@ -4,7 +4,7 @@
 * common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.69 2008-12-11 21:36:01 fberci Exp $
+* @version $Id: common.php,v 1.68 2008/10/26 13:50:17 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -83,8 +83,8 @@ $lang = array_merge($lang, array(
 	'AVATAR_NOT_UPLOADED'			=> 'Nem sikerült feltölteni az avatart.',
 	'AVATAR_NO_SIZE'				=> 'Nem sikerült meghatározni a belinkelt avatar szélességét és magasságát, kérjük, add meg kézzel.',
 	'AVATAR_PARTIAL_UPLOAD'			=> 'Az avatart csak részben sikerült feltölteni.',
-	'AVATAR_PHP_SIZE_NA'			=> 'Az avatar állomány mérete túl nagy.<br />Nem sikerült megállapítani a PHP php.ini-jében meghatározott maximum méretet.',
-	'AVATAR_PHP_SIZE_OVERRUN'		=> 'Az avatar állomány mérete túl nagy, a maximum feltölthető méret %d MB.<br />Kérjük, vedd figyelembe, hogy ez a php.ini-ben van meghatározva ezért nem írható felül.',
+	'AVATAR_PHP_SIZE_NA'			=> 'Az avatar állomány mérete túl nagy.<br />Nem sikerült megállapítani a PHP php.ini-jében meghatározott maximális méretet.',
+	'AVATAR_PHP_SIZE_OVERRUN'		=> 'Az avatar állomány mérete túl nagy, a maximum feltölthető méret %d MB.<br />Kérjük, vedd figyelembe, hogy ez a php.ini-ben van meghatározva, ezért nem írható felül.',
 	'AVATAR_URL_INVALID'			=> 'A megadott URL hibás.',
 	'AVATAR_URL_NOT_FOUND'			=> 'A megadott állomány nem található.',
 	'AVATAR_WRONG_FILESIZE'			=> 'Az avatarnak 0 és %1d %2s között kell lennie.',
@@ -103,7 +103,7 @@ $lang = array_merge($lang, array(
 	'BOARD_BAN_TIME'		=> '<strong>%1$s</strong>-ig kitiltottak erről a fórumról.<br /><br />További információért lépj kapcsolatba a %2$sfórum adminisztátorával%3$s.',
 	'BOARD_DISABLE'			=> 'A fórum jelenleg nem elérhető.',
 	'BOARD_DISABLED'		=> 'A fórum ideiglenesen szünetel.',
-	'BOARD_UNAVAILABLE'		=> 'A fórum ideiglenesen nem elérhető, kérlek próbálkozz újra pár perc múlva.',
+	'BOARD_UNAVAILABLE'		=> 'A fórum ideiglenesen nem elérhető, kérünk, próbálkozz újra pár perc múlva.',
 	'BROWSING_FORUM'		=> 'Jelenlévő fórumuzók: %1$s',
 	'BROWSING_FORUM_GUEST'	=> 'Jelenlévő fórumozók: %1$s valamint %2$d vendég',
 	'BROWSING_FORUM_GUESTS'	=> 'Jelenlévő fórumozók: %1$s valamint %2$d vendég',
@@ -159,7 +159,7 @@ $lang = array_merge($lang, array(
 	'EMAIL_ADDRESS'						=> 'E-mail cím',
 	'EMAIL_SMTP_ERROR_RESPONSE'			=> 'Problémába ütköztünk egy levél elküldése során a <strong>%1$s.</strong> sorban. Válasz: %2$s',
 	'EMPTY_SUBJECT'						=> 'Új téma indításához meg kell adnod a téma címét.',
-	'EMPTY_MESSAGE_SUBJECT'				=> 'Az üzenetnek meg kell adnod a témáját..',
+	'EMPTY_MESSAGE_SUBJECT'				=> 'Meg kell adnod az üzenet témáját.',
 	'ENABLED'							=> 'Bekapcsolva',
 	'ENCLOSURE'							=> 'Körülhatárolójel',
 	'ERR_CHANGING_DIRECTORY'			=> 'Nem sikerült megváltoztatni a könyvtárat.',
@@ -230,7 +230,7 @@ $lang = array_merge($lang, array(
 	'GOTO_PAGE'					=> 'Oldal',
 	'GROUP'						=> 'Csoport',
 	'GROUPS'					=> 'Csoportok',
-	'GROUP_ERR_TYPE'			=> 'Helytelen csoport típust adtál meg.',
+	'GROUP_ERR_TYPE'			=> 'Helytelen csoporttípust adtál meg.',
 	'GROUP_ERR_USERNAME'		=> 'Nem adtad meg a csoport nevét.',
 	'GROUP_ERR_USER_LONG'		=> 'Egy csoport neve legfeljebb 60 karakter hosszú lehet. A megadott csoportnév túl hosszú.',
 	'GUEST'						=> 'Vendég',
@@ -275,7 +275,7 @@ $lang = array_merge($lang, array(
 	'INVALID_DIGEST_CHALLENGE'	=> 'Hibás feltárási kérés',
 	'INVALID_EMAIL_LOG'			=> 'A <strong>%s</strong> feltehetőleg egy nem létező e-mail cím.',
 	'IP'						=> 'IP-cím',
-	'IP_BLACKLISTED'			=> 'Az IP-címed tiltólistára került, ezért blokkoltuk a hozzáférésed a fórumhoz. További információ: <a href="%2$s">%2$s</a>.',
+	'IP_BLACKLISTED'			=> 'Az IP-címed tiltólistára került, ezért a hozzáférésed a fórumhoz blokkoltuk. További információ: <a href="%2$s">%2$s</a>.',
 
 	'JABBER'				=> 'Jabber',
 	'JOINED'				=> 'Csatlakozott',
@@ -297,7 +297,7 @@ $lang = array_merge($lang, array(
 	'LOCK_POST_EXPLAIN'					=> 'A felhasználó nem fogja tudni szerkeszteni a hozzászólást.',
 	'LOCK_TOPIC'						=> 'Téma lezárása',
 	'LOGIN'								=> 'Belépés',
-	'LOGIN_CHECK_PM'					=> 'Privát üzeneteid olvasásához lépj be.',
+	'LOGIN_CHECK_PM'					=> 'Privát üzeneteid megtekintéséhez lépj be.',
 	'LOGIN_CONFIRMATION'				=> 'Belépés megerősítése',
 	'LOGIN_CONFIRM_EXPLAIN'				=> 'Az azonosítók feltörésének megakadályozása érdekében egy bizonyos számú sikertelen belépési kísérlet után meg kell adnod egy megerősítő kódot. A kód az alábbi képen található. Ha látási (vagy egyéb) problémák folytán nem tudnád elolvasni a kódot, vedd fel a kapcsolatot a %sfórum adminisztrátorával%s.',
 	'LOGIN_ERROR_ATTEMPTS'				=> 'Túllépted az engedélyezett belépési kísérletek számát. Ezért a felhasználóneved és a jelszavad mellett most meg kell adnod az alábbi képen látható megerősítő kódot is.',
@@ -363,7 +363,7 @@ $lang = array_merge($lang, array(
 	'NO_CONNECT_TO_SMTP_HOST'	=> 'Nem sikerült csatlakozni az SMTP szerverhez: %1$s : %2$s',
 	'NO_BIRTHDAYS'				=> 'Ma senkinek sincs születésnapja.', 
 	'NO_EMAIL_MESSAGE'			=> 'Az e-mail üzenet üres.',
-	'NO_EMAIL_RESPONSE_CODE'	=> 'Nem jött válasz a e-mail szervertől.',
+	'NO_EMAIL_RESPONSE_CODE'	=> 'Nem jött válasz az e-mail szervertől.',
 	'NO_EMAIL_SUBJECT'			=> 'Nem adtad meg az e-mail témáját.',
 	'NO_FORUM'					=> 'A kiválasztott fórum nem létezik.',
 	'NO_FORUMS'					=> 'Nincs fórum.',
@@ -696,12 +696,6 @@ $lang = array_merge($lang, array(
 		'TODAY'		=> 'Ma, ',
 		'TOMORROW'	=> 'Holnap, ',
 		'YESTERDAY'	=> 'Tegnap, ',
-
-		'AGO'		=> array(
-			0		=> 'kevesebb mint egy perce',
-			1		=> '%d perccel ezelőtt',
-			60		=> '1 órával ezelőt',
-		),
 
 		'Sunday'	=> 'vasárnap',
 		'Monday'	=> 'hétfő',

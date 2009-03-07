@@ -4,7 +4,7 @@
 * mcp [Hungarian]
 *
 * @package language
-* @version $Id: mcp.php,v 1.26 2008-10-26 13:50:17 fberci Exp $
+* @version $Id: mcp.php,v 1.26 2008/10/26 13:50:17 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -85,7 +85,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_OPTIONS'			=> 'Megjelenítés beállítások', //??
 
 	'EMPTY_REPORT'					=> 'Ezen ok kiválasztásánál nem hagyatod üresen a leírást.',
-	'EMPTY_TOPICS_REMOVED_WARNING'	=> 'Egy vagy több téma törlésre került az adatbázisból, mivel üressek voltak, vagy azzá váltak.', //? Eredetileg please note van, de ez eg üzenet
+	'EMPTY_TOPICS_REMOVED_WARNING'	=> 'Egy vagy több téma törlésre került az adatbázisból, mivel üresek voltak, vagy azzá váltak.', //? Eredetileg please note van, de ez eg üzenet
 
 	'FEEDBACK'				=> 'Feljegyzések', //?
 	'FORK'					=> 'Másolás',
@@ -195,7 +195,7 @@ $lang = array_merge($lang, array(
 
 	'MERGE_POSTS'			=> 'Hozzászólások áthelyezése',
 	'MERGE_POSTS_CONFIRM'	=> 'Biztosan át akarod helyezni a kiválasztott hozzászólásokat?',
-	'MERGE_TOPIC_EXPLAIN'	=> 'Az alábbi űrlap segítségével hozzászólásokat helyezhetsz át egy másik témába. A hozzászólások nem lesznek újrarendezve, úgy fognak megjelenni, mintha eleve oda küldték volna őket.<br />Add meg céltéma azonosítóját, vagy kattints a „Téma kiválasztása” gombra, hogy megkeresd a témát.', //? újrarendezve
+	'MERGE_TOPIC_EXPLAIN'	=> 'Az alábbi űrlap segítségével hozzászólásokat helyezhetsz át egy másik témába. A hozzászólások nem lesznek újrarendezve, úgy fognak megjelenni, mintha eleve oda küldték volna őket.<br />Add meg a céltéma azonosítóját, vagy kattints a „Téma kiválasztása” gombra, hogy megkeresd a témát.', //? újrarendezve
 	'MERGE_TOPIC_ID'		=> 'Céltéma azonosító szám',
 	'MERGE_TOPICS'			=> 'Témák összevonása',
 	'MERGE_TOPICS_CONFIRM'	=> 'Biztosan össze akarod vonni a kiválasztott témákat?',
@@ -301,7 +301,7 @@ $lang = array_merge($lang, array(
 	'SPLIT_TOPIC_ALL_CONFIRM'			=> 'Biztosan szét akarod választani ezt a témát?', //?
 	'SPLIT_TOPIC_BEYOND'				=> 'Téma szétválasztása a kiválasztott hozzászólástól', //?
 	'SPLIT_TOPIC_BEYOND_CONFIRM'		=> 'Biztosan szét akarod választani a témát a kiválasztott hozzászólástól?', //?
-	'SPLIT_TOPIC_EXPLAIN'				=> 'Az alábbi űrlap segítségével egy témát kettéoszthatsz kétféleképpen: vagy egy kiválasztott hozzászólástól, vagy csak a kiválasztott hozzászólásokat.', //? "Using the form below you can split a topic in two, either by selecting the posts individually or by splitting at a selected post" fogalmazás
+	'SPLIT_TOPIC_EXPLAIN'				=> 'Az alábbi űrlap segítségével egy témát kettéoszthatsz kétféleképpen: vagy egy kiválasztott hozzászólástól vagy csak a kiválasztott hozzászólásokat.', //? "Using the form below you can split a topic in two, either by selecting the posts individually or by splitting at a selected post" fogalmazás
 
 	'THIS_POST_IP'				=> 'Hozzászóláshoz tartozó IP', //? 'Hozzászólás IP-je'
 	'TOPICS_APPROVED_SUCCESS'	=> 'A kiválasztott témák jóváhagyásra kerültek.',
