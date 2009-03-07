@@ -5,7 +5,7 @@ A következő üzenetet a "{SITENAME}" fórumról {FROM_USERNAME} küldte neked.
 
 {BOARD_CONTACT}
 
-A levélhez mellékeld ezt az üzenetet. Kérjük vedd figyelembe, hogy az üzenet küldőjének a fórum IM azonosítója került beállításra.
+A levélhez mellékeld ezt az üzenetet. Kérjük, vedd figyelembe, hogy az üzenet küldőjének a fórum IM azonosítója került beállításra.
 
 Az üzenet a következő:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

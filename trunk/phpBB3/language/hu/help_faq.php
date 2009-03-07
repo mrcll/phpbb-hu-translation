@@ -4,7 +4,7 @@
 * help_faq [Hungarian]
 *
 * @package language
-* @version $Id: help_faq.php,v 1.21 2008-10-26 14:06:29 fberci Exp $
+* @version $Id: help_faq.php,v 1.21 2008/10/26 14:06:29 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -45,7 +45,7 @@ $help = array(
 	),
 	array(
 		0 => 'Miért kerülök kiléptetésre automatikusan?', //? 'Miért lép ki automatikusan a rendszerből?'
-		1 => 'Ha belépéskor nem jelölöd be az <em>Automatikus bejelentkezés</em> opciót, a rendszer csak egy előre meghatározott ideig hagy belépve. Ez a viselkedés meggátolja az azonosítóddal való visszaélést. A tartós belépve maradáshoz jelöld be az említett opciót. Ezen funkció használata nem ajánlott, ha nyilvános helyről használod a fórumot, például könyvtárból, internetkávézóból vagy egyetemi laborból. Ha nem látod a jelölőnégyzeted, a fórumon valószínűleg nincs bekapcsolva ez a funkciót.'
+		1 => 'Ha belépéskor nem jelölöd be az <em>Automatikus bejelentkezés</em> opciót, a rendszer csak egy előre meghatározott ideig hagy belépve. Ez a viselkedés meggátolja az azonosítóddal való visszaélést. A tartós belépve maradáshoz jelöld be az említett opciót. Ezen funkció használata nem ajánlott, ha nyilvános helyről használod a fórumot, például könyvtárból, internetkávézóból vagy egyetemi laborból. Ha nem látod a jelölőnégyzetet, a fórumon valószínűleg nincs bekapcsolva ez a funkciót.'
 	),
 	array(
 		0 => 'Hogyan tudom megakadályozni, hogy mások lássák, mikor vagyok jelen?',
@@ -53,7 +53,7 @@ $help = array(
 	),
 	array(
 		0 => 'Elfelejtettem a jelszavamat!',
-		1 => 'Semmi pánik! A jelszavad ugyan nem lehet utólag kideríteni, de lehetőséged van új készítésére. Ehhez menj a belépés oldalra, majd kattints az <em>Elfelejtettem a jelszavam</em> linkre. Kövesd az utasításokat, és rövid belül újra be kell tudnod lépned.'
+		1 => 'Semmi pánik! A jelszavad ugyan nem lehet utólag kideríteni, de lehetőséged van új készítésére. Ehhez menj a belépés oldalra, majd kattints az <em>Elfelejtettem a jelszavam</em> linkre. Kövesd az utasításokat, és rövid időn belül újra be kell tudnod lépned.'
 	),
 	array(
 		0 => 'Regisztráltam, de mégsem tudok belépni',
@@ -129,11 +129,11 @@ $help = array(
 	),
 	array(
 		0 => 'Hogyan szerkeszthetek vagy törölhetek egy szavazást?',
-		1 => 'A hozzászólásokhoz hasonlóan a szavazásokat is csak a készítő, egy moderátor vagy egy adminisztrátor szerkesztheti. Egy szavazás szerkesztéséhez menj a téma első hozzászólásához – mindig ehhez tartozik a szavazás, és kattints a <em>szerkeszt</em> gombra. Ha még senki sem szavazott, a készítő még törölheti a szavazást, vagy megváltoztathatja a választási lehetőségeket, de ha már érkezett szavazat, csak egy adminisztrátor vagy egy adminisztrátor törölheti vagy szerkesztheti a szavazást. Így nem lehet spekulálni a szavazást a szavazási lehetőségek megváltoztatásával.'
+		1 => 'A hozzászólásokhoz hasonlóan a szavazásokat is csak a készítő, egy moderátor vagy egy adminisztrátor szerkesztheti. Egy szavazás szerkesztéséhez menj a téma első hozzászólásához – mindig ehhez tartozik a szavazás, és kattints a <em>szerkeszt</em> gombra. Ha még senki sem szavazott, a készítő még törölheti a szavazást, vagy megváltoztathatja a választási lehetőségeket, de ha már érkezett szavazat, csak egy adminisztrátor vagy egy adminisztrátor törölheti vagy szerkesztheti a szavazást. Így nem lehet manipulálni a szavazást a szavazási lehetőségek megváltoztatásával.'
 	),
 	array(
 		0 => 'Miért nem férek hozzá egy fórumhoz?',
-		1 => 'Néhány fórum lehet, hogy csak bizonyos felhasználók, illetve csoportok számára férhető hozzá. A fórum megtekintéséhez, olvasásához, benne hozzászólás küldéséhez stb. lehet, hogy speciális jogosultság kell. Lépj kapcsolatba egy moderátorral vagy egy adminisztrátorral, és kérelmezd a jogosultságot.'
+		1 => 'Néhány fórum lehet, hogy csak bizonyos felhasználók, illetve csoportok számára érhető el. A fórum megtekintéséhez, olvasásához, benne hozzászólás küldéséhez stb. lehet, hogy speciális jogosultság kell. Lépj kapcsolatba egy moderátorral vagy egy adminisztrátorral, és kérelmezd a jogosultságot.'
 	),
 	array(
 		0 => 'Miért nem tudok szavazni?',
@@ -181,15 +181,15 @@ $help = array(
 	),
 	array(
 		0 => 'Küldhetek képeket?',
-		1 => 'Igen, megjeleníthetsz képeket a hozzászólásaidban. Azonban, ha az adminisztrátor engedélyezte a csatolmányok hozzáadását, akkor a képeket egyenesen a fórumra is feltöltheted. Ellenkező esetben a képeket egy publikus, mindenki által elérhető szerveren kell tárolnod, és onnan belinkelned – például: http://www.akarmi.hu/en-kepem.gif. Nem tudsz belinkelni képeket a saját gépedről (hacsak nem kívülről is elérhető), azonosítást igénylő oldalakról (mint például freemail, gmail, yahoo postafiókok), jelszóval védett weblapokról stb. A képek megjelenítéséhez használd az [img] BBCode címkét.'
+		1 => 'Igen, megjeleníthetsz képeket a hozzászólásaidban. Azonban, ha az adminisztrátor engedélyezte a csatolmányok hozzáadását, akkor a képeket egyenesen a fórumra is feltöltheted. Ellenkező esetben a képeket egy publikus, mindenki által elérhető szerveren kell tárolnod, és onnan belinkelned – például: http://www.akarmi.hu/en-kepem.gif. Nem tudsz belinkelni képeket a saját gépedről (hacsak az nem érhető el kívülről is), azonosítást igénylő oldalakról (mint például freemail, gmail, yahoo postafiókok), jelszóval védett weblapokról stb. A képek megjelenítéséhez használd az [img] BBCode címkét.'
 	),
 	array(
 		0 => 'Mik azok a globális közlemények?',
-		1 => 'A globális közlemények fontos információkat tartalmaznak, ezért olvasd el őket valahányszor, csak tudod. A felhasználói vezérlőpultban és minden fórum tetején jelennek meg. Globális közlemények küldéséhez az adminisztrátor adhat jogosultságot.'
+		1 => 'A globális közlemények fontos információkat tartalmaznak, ezért olvasd el őket valahányszor csak tudod. A felhasználói vezérlőpultban és minden fórum tetején jelennek meg. Globális közlemények küldéséhez az adminisztrátor adhat jogosultságot.'
 	),
 	array(
 		0 => 'Mik azok a közlemények?',
-		1 => 'A közlemények gyakran fontos információkat tartalmaznak az adott fórummal kapcsolatban, ezért olvasd el őket valahányszor, csak tudod. A közlemények a fórum összes oldalán, felül jelennek meg. Hasonlóan a globális közleményekhez, közlemények küldéséhez is az adminisztrátor adhat jogosultságot.'
+		1 => 'A közlemények gyakran fontos információkat tartalmaznak az adott fórummal kapcsolatban, ezért olvasd el őket valahányszor csak tudod. A közlemények a fórum összes oldalán, felül jelennek meg. Hasonlóan a globális közleményekhez, közlemények küldéséhez is az adminisztrátor adhat jogosultságot.'
 	),
 	array(
 		0 => 'Mik azok a kiemelt témák?',
@@ -301,7 +301,7 @@ $help = array(
 	),
 	array(
 		0 => 'Hogyan tudok feliratkozni egy fórumra vagy témára?',
-		1 => 'Egy fórumra úgy tudsz feliratkozni, hogy a fórum oldalán alul a „Feliratkozás a fórumra” linkre kattintasz. Ezzel ugyanúgy feliratkozásra kerülsz a fórumra, mintha egy témára tetted volna. Egy témára úgy is feliratkozhatsz, hogy hozzászólás küldésekor bejelölöd az „E-mail küldése új hozzászólás érkezésekor”, de hasonlóan a fórumra való feliratkozáshoz, a téma alján megjelenő linkre kattintva is ugyanezt éred el.'
+		1 => 'Egy fórumra úgy tudsz feliratkozni, hogy a fórum oldalán alul a „Feliratkozás a fórumra” linkre kattintasz. Ezzel ugyanúgy feliratkozásra kerülsz a fórumra, mintha egy témára tetted volna. Egy témára úgy is feliratkozhatsz, hogy hozzászólás küldésekor bejelölöd az „E-mail küldése új hozzászólás érkezésekor” jelölőnégyzetet, de hasonlóan a fórumra való feliratkozáshoz, a téma alján megjelenő linkre kattintva is ugyanezt éred el.'
 	),
 	array(
 		0 => 'Hogyan tudok leiratkozni?',
@@ -329,7 +329,7 @@ $help = array(
 	),
 	array(
 		0 => 'Ki készítette ezt a magyar fordítást?',
-		1 => 'A magyar fordítást <a href="http://phpbb.hu/">Magyar phpBB Közösség</a> <a href="http://phpbb.hu/forditas">fordító</a> készítik, és tartják karban. A fordítást Fodor Bertalan és Menyhárt Zsolt készítette Berentés Marcell és Joó Ádám közreműködésével. Ha bármilyen hibát találsz, kérjük, jelezd a <a href="http://phpbb.hu/bugs">hibabejelentőnkben</a>.'
+		1 => 'A magyar fordítást a <a href="http://phpbb.hu/">Magyar phpBB Közösség</a> <a href="http://phpbb.hu/forditas">fordító</a> készítik, és tartják karban. A fordítást Fodor Bertalan és Menyhárt Zsolt készítette Berentés Marcell és Joó Ádám közreműködésével. Ha bármilyen hibát találsz, kérjük, jelezd a <a href="http://phpbb.hu/bugs">hibabejelentőnkben</a>.'
 	),
 	array(
 		0 => 'Miért nem érhető el az X szolgáltatás?',

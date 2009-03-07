@@ -4,7 +4,7 @@
 * search [Hungarian]
 *
 * @package language
-* @version $Id: search.php,v 1.20 2008-04-07 18:32:12 fberci Exp $
+* @version $Id: search.php,v 1.20 2008/04/07 18:32:12 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -73,7 +73,7 @@ $lang = array_merge($lang, array(
 
 	'SEARCHED_FOR'				=> 'Keresett kifejezés', //?
 	'SEARCHED_TOPIC'			=> 'Keresett téma',
-	'SEARCH_ALL_TERMS'			=> 'Keresés az összes szóra, vagy a keresési kifejezés pontos használata', //?? "Search for all terms or use query as entered"
+	'SEARCH_ALL_TERMS'			=> 'Keresés az összes szóra vagy a keresési kifejezés pontos használata', //?? "Search for all terms or use query as entered"
 	'SEARCH_ANY_TERMS'			=> 'Keresés bármely szóra',
 	'SEARCH_AUTHOR'				=> 'Szerző',
 	'SEARCH_AUTHOR_EXPLAIN'		=> 'Részleges szavakhoz használd a * jokerkaraktert.',
@@ -81,7 +81,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_FORUMS'				=> 'Fórumok', //? 'Keresett fórumok'
 	'SEARCH_FORUMS_EXPLAIN'		=> 'Válaszd ki azokat a fórumokat, melyben keresni szeretnél. A keresés automatikusan megtörténik az alfórumokban is, hacsak alább nem kapcsoltad ki a „keresés az alfórumokban” beállítást.',
 	'SEARCH_IN_RESULTS'			=> 'Keresés a találatokban',
-	'SEARCH_KEYWORDS_EXPLAIN'	=> 'Írj „<strong>+</strong>”-t a keresett, valamint „<strong>-</strong>”-t a kizárandó  szavak elé. Ha több szóból csak egy megtalálása is elég, készíts ezekből a szavakból egy „<strong>|</strong>” jellel elválasztott listát, és rakd az egészet zárójelek közé. Részleges szavakhoz használd a * jokerkaraktert.', //? "Place <strong>+</strong> in front of a word which must be found and <strong>-</strong> in front of a word which must not be found. Put a list of words separated by <strong>|</strong> into brackets if only one of the words must be found. Use * as a wildcard for partial matches."
+	'SEARCH_KEYWORDS_EXPLAIN'	=> 'Írj „<strong>+</strong>”-t a keresett, valamint „<strong>-</strong>”-t a kizárandó  szavak elé. Ha több szóból csak egy megtalálása is elég, készíts ezekből a szavakból egy „<strong>|</strong>” jellel elválasztott listát, és tedd az egészet zárójelek közé. Részleges szavakhoz használd a * jokerkaraktert.', //? "Place <strong>+</strong> in front of a word which must be found and <strong>-</strong> in front of a word which must not be found. Put a list of words separated by <strong>|</strong> into brackets if only one of the words must be found. Use * as a wildcard for partial matches."
 	'SEARCH_MSG_ONLY'			=> 'Csak üzenetek szövege',
 	'SEARCH_OPTIONS'			=> 'Keresési beállítások',
 	'SEARCH_QUERY'				=> 'Keresési feltételek',

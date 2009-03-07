@@ -4,7 +4,7 @@
 * viewtopic [Hungarian]
 *
 * @package language
-* @version $Id: viewtopic.php,v 1.12 2008-10-26 13:50:18 fberci Exp $
+* @version $Id: viewtopic.php,v 1.12 2008/10/26 13:50:18 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group

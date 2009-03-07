@@ -4,7 +4,7 @@
 * posting [Hungarian]
 *
 * @package language
-* @version $Id: posting.php,v 1.27 2008-07-01 10:23:59 fberci Exp $
+* @version $Id: posting.php,v 1.27 2008/07/01 10:23:59 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -97,7 +97,7 @@ $lang = array_merge($lang, array(
 
 	'FLASH_IS_OFF'				=> '[flash] <em>kikapcsolva</em>',
 	'FLASH_IS_ON'				=> '[flash] <em>bekapcsolva</em>',
-	'FLOOD_ERROR'				=> 'Most nem küldhetsz újabb hozzászólást, mivel az előzőt nemrég küldted.',
+	'FLOOD_ERROR'				=> 'Most nem küldhetsz újabb hozzászólást, mivel az előzőt nemrég küldted el.',
 	'FONT_COLOR'				=> 'Betűszín',
 	'FONT_COLOR_HIDE'			=> 'Betűszínválasztó elrejtése',
 	'FONT_HUGE'					=> 'óriási',
@@ -141,8 +141,8 @@ $lang = array_merge($lang, array(
 	'NO_POST_MODE'				=> 'Nincs hozzászólástípus kiválasztva.',  //?
 
 	'PARTIAL_UPLOAD'			=> 'A feltöltött állomány csak részben került feltöltésre.',
-	'PHP_SIZE_NA'				=> 'A csatolmány mérete túl nagy.<br />Nem sikerült megállapítani a PHP php.ini-jében meghatározott maximum méretét.', //?
-	'PHP_SIZE_OVERRUN'			=> 'A csatolmány mérete túl nagy. A maximum feltölthető méret %d MB.<br />Kérjük vedd figyelembe, hogy ez a php.ini-ben van meghatározva, ezért nem felülírható.',
+	'PHP_SIZE_NA'				=> 'A csatolmány mérete túl nagy.<br />Nem sikerült megállapítani a PHP php.ini-jében meghatározott maximális méretét.', //?
+	'PHP_SIZE_OVERRUN'			=> 'A csatolmány mérete túl nagy. A maximálisan feltölthető méret %d MB.<br />Kérjük, vedd figyelembe, hogy ez a php.ini-ben van meghatározva, ezért nem felülírható.',
 	'PLACE_INLINE'				=> 'Beszúrás a hozzászólásba',
 	'POLL_DELETE'				=> 'Szavazás törlése',
 	'POLL_FOR'					=> 'Szavazás időtartama',
@@ -151,7 +151,6 @@ $lang = array_merge($lang, array(
 	'POLL_MAX_OPTIONS_EXPLAIN'	=> 'Egy felhasználó ennyi választási lehetőségre szavazhat.',
 	'POLL_OPTIONS'				=> 'Választási lehetőségek',
 	'POLL_OPTIONS_EXPLAIN'		=> 'Írd mindegyiket külön sorba. Legfeljebb <strong>%d</strong> választási lehetőséget adhatsz meg.',
- 	'POLL_OPTIONS_EDIT_EXPLAIN'	=> 'Place each option on a new line. You may enter up to <strong>%d</strong> options. If you remove or add options all previous votes will be reset.',
  	'POLL_OPTIONS_EDIT_EXPLAIN'	=> 'Írd mindegyiket külön sorba. Legfeljebb <strong>%d</strong> választási lehetőséget adhatsz meg. Ha eltávolítasz vagy hozzáadsz egy választási lehetőséget, az eddigi eredmény lenullázásra kerül.',
 	'POLL_QUESTION'				=> 'Szavazás kérdése',
 	'POLL_TITLE_TOO_LONG'		=> 'A szavazás kérdésének rövidebbnek kell lennie 100 karakternél.',
@@ -180,7 +179,7 @@ $lang = array_merge($lang, array(
 	'SAVE'						=> 'Elmentés',
 	'SAVE_DATE'					=> 'Elmentve', //? "Saved at" 'Elmentés időpontja'
 	'SAVE_DRAFT'				=> 'Piszkozat elmentése',
-	'SAVE_DRAFT_CONFIRM'		=> 'Kérjük vedd figyelembe, hogy a piszkozatok csak a témát és az üzenetet tartalmazzák, minden más elem eltávolításra kerül. Biztosan el akarod menteni a piszkozatot?', //? element = elem v. tartalom stb.?
+	'SAVE_DRAFT_CONFIRM'		=> 'Kérjük, vedd figyelembe, hogy a piszkozatok csak a témát és az üzenetet tartalmazzák, minden más elem eltávolításra kerül. Biztosan el akarod menteni a piszkozatot?', //? element = elem v. tartalom stb.?
 	'SMILIES'					=> 'Emotikonok',
 	'SMILIES_ARE_OFF'			=> 'Emotikonok <em>kikapcsolva</em>',
 	'SMILIES_ARE_ON'			=> 'Emotikonok <em>bekapcsolva</em>',
@@ -193,7 +192,6 @@ $lang = array_merge($lang, array(
 	'TOO_FEW_POLL_OPTIONS'		=> 'Legalább két választási lehetőséget meg kell adnod.',
 	'TOO_MANY_ATTACHMENTS'		=> 'Nem lehet újabb csatolmányt hozzáadni, %d a maximum.', //?
 	'TOO_MANY_CHARS'			=> 'Az üzenet túl hosszú.',
- 	'TOO_MANY_CHARS_POST'		=> 'Your message contains %1$d characters. The maximum number of allowed characters is %2$d.',
  	'TOO_MANY_CHARS_POST'		=> 'Az üzeneted %1$d karaktert tartalmaz. Legfeljebb %2$d karakter hosszú lehet.',
  	'TOO_MANY_CHARS_SIG'		=> 'Az aláírásod %1$d karaktert tartalmaz. Legfeljebb %2$d karakter hosszú lehet.',
 	'TOO_MANY_POLL_OPTIONS'		=> 'Túl sok választási lehetőséget adtál meg.',
