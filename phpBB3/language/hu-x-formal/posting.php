@@ -1,11 +1,11 @@
 <?php
 /** 
 *
-* posting [Hungarian]
+* posting [Hungarian Formal]
 *
 * @package language
 * @version $Id: posting.php,v 1.27 2008/07/01 10:23:59 fberci Exp $
-* @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
+* @copyright (c) 2009 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
 *
@@ -38,13 +38,13 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ADD_ATTACHMENT'			=> 'Csatolmány feltöltése',
-	'ADD_ATTACHMENT_EXPLAIN'	=> 'Ha szeretnél állományokat csatolni a hozzászólásodhoz, töltsd ki az alábbi mezőket.', //?
+	'ADD_ATTACHMENT_EXPLAIN'	=> 'Ha szeretne állományokat csatolni a hozzászólásodhoz, töltse ki az alábbi mezőket.', //?
 	'ADD_FILE'					=> 'Állomány hozzáadása',
 	'ADD_POLL'					=> 'Szavazás készítése', //? készítés, hozzáadás stb.?
-	'ADD_POLL_EXPLAIN'			=> 'Ha nem szeretnél szavazást csatolni a témához, hagyd üresen az alábbi mezőket.',
+	'ADD_POLL_EXPLAIN'			=> 'Ha nem szeretne szavazást csatolni a témához, hagyja üresen az alábbi mezőket.',
 	'ALREADY_DELETED'			=> 'Az üzenet már törölve lett.',
 	'ATTACH_QUOTA_REACHED'		=> 'Megtelt a fórum csatolmányainak fenntartott terület.', //?? "Sorry, the board attachment quota has been reached."
-	'ATTACH_SIG'				=> 'Aláírás hozzáadása (az aláírásod a felhasználói vezérlőpultban változtathatod meg)',
+	'ATTACH_SIG'				=> 'Aláírás hozzáadása (az aláírását a felhasználói vezérlőpultban változtathatja meg)',
 
 	'BBCODE_A_HELP'				=> 'Beszúrt csatolmány: [attachment=]állománynév.kiterj[/attachment]', //? 'Hozzászólásba beszúrt csatolmány' "Inline uploaded attachment"
 	'BBCODE_B_HELP'				=> 'Félkövér: [b]szöveg[/b]',
@@ -63,41 +63,41 @@ $lang = array_merge($lang, array(
 	'BBCODE_U_HELP'				=> 'Aláhúzás: [u]szöveg[/u]',
 	'BBCODE_W_HELP'				=> 'Link: [url]http://url[/url] vagy [url=http://url]link szöveg[/url]',
 	'BBCODE_D_HELP'				=> 'Flash: [flash=szélesség,magasság]http://url[/flash]',
-	'BUMP_ERROR'				=> 'Nem ugraszthatod előre a témát, mivel az utolsó hozzászólás nemrég került elküldésre.',
+	'BUMP_ERROR'				=> 'Nem ugraszthatja előre a témát, mivel az utolsó hozzászólás nemrég került elküldésre.',
 
-	'CANNOT_DELETE_REPLIED'		=> 'Csak olyan hozzászólást törölhetsz, melyre még nem érkezett válasz.',
-	'CANNOT_EDIT_POST_LOCKED'	=> 'A hozzászólás lezárásra került. Már nem szerkesztheted ezt a hozzászólást.',
-	'CANNOT_EDIT_TIME'			=> 'Már nem szerkesztetheted, illetve törölheted a hozzászólást.',
-	'CANNOT_POST_ANNOUNCE'		=> 'Nem küldhetsz közleményt.',
-	'CANNOT_POST_STICKY'		=> 'Nem küldhetsz kiemelt témát.',
+	'CANNOT_DELETE_REPLIED'		=> 'Csak olyan hozzászólást törölhet, melyre még nem érkezett válasz.',
+	'CANNOT_EDIT_POST_LOCKED'	=> 'A hozzászólás lezárásra került. Már nem szerkesztheti ezt a hozzászólást.',
+	'CANNOT_EDIT_TIME'			=> 'Már nem szerkesztetheti, illetve törölheti a hozzászólást.',
+	'CANNOT_POST_ANNOUNCE'		=> 'Nem küldhet közleményt.',
+	'CANNOT_POST_STICKY'		=> 'Nem küldhet kiemelt témát.',
 	'CHANGE_TOPIC_TO'			=> 'Téma típusának megváltoztatása', //? "Change topic type to" - topic type: téma típus??
 	'CLOSE_TAGS'				=> 'Címkék lezárása', //? "Close tags"
 	'CURRENT_TOPIC'				=> 'Jelenlegi téma', //? aktuális?
 
 	'DELETE_FILE'				=> 'Csatolmány törlése',
 	'DELETE_MESSAGE'			=> 'Üzenet törlése',
-	'DELETE_MESSAGE_CONFIRM'	=> 'Biztosan törölni akarod ezt az üzenetet?',
-	'DELETE_OWN_POSTS'			=> 'Csak a saját hozzászólásaidat törölheted.',
-	'DELETE_POST_CONFIRM'		=> 'Biztosan törölni akarod ezt a hozzászólást?',
+	'DELETE_MESSAGE_CONFIRM'	=> 'Biztosan törölni akarja ezt az üzenetet?',
+	'DELETE_OWN_POSTS'			=> 'Csak a saját hozzászólásait törölheti.',
+	'DELETE_POST_CONFIRM'		=> 'Biztosan törölni akarja ezt a hozzászólást?',
 	'DELETE_POST_WARN'			=> 'Törlés után a hozzászólás nem visszaállítható.',
 	'DISABLE_BBCODE'			=> 'BBCode kikapcsolása',
 	'DISABLE_MAGIC_URL'			=> 'Webcímek automatikus linkké alakításának kikapcsolása', //? "Do not automatically parse URLs" 'Automatikus URL-feldolgozás kikapcsolása' webcímek?
 	'DISABLE_SMILIES'			=> 'Emotikonok kikapcsolása',
 	'DISALLOWED_CONTENT'		=> 'A feltöltés visszautasításra került, mivel a feltöltött állomány egy esetleges támadás hordozója lehet.',
 	'DISALLOWED_EXTENSION'		=> 'A %s kiterjesztés nem engedélyezett.',
-	'DRAFT_LOADED'				=> 'A piszkozat sikeresen betöltésre került, most már befejezheted a hozzászólásod.<br />A piszkozat a hozzászólás elküldése után törlésre fog kerülni.',
-	'DRAFT_LOADED_PM'			=> 'A piszkozat sikeresen betöltésre került, most már befejezheted a privát üzenetet.<br />A piszkozat a privát üzenet elküldése után törlésre fog kerülni.',
+	'DRAFT_LOADED'				=> 'A piszkozat sikeresen betöltésre került, most már befejezheti a hozzászólását.<br />A piszkozat a hozzászólás elküldése után törlésre fog kerülni.',
+	'DRAFT_LOADED_PM'			=> 'A piszkozat sikeresen betöltésre került, most már befejezheti a privát üzenetet.<br />A piszkozat a privát üzenet elküldése után törlésre fog kerülni.',
 	'DRAFT_SAVED'				=> 'A piszkozat sikeresen elmentésre került.',
 	'DRAFT_TITLE'				=> 'Piszkozat címe',
 
 	'EDIT_REASON'				=> 'Hozzászólás szerkesztésének oka',
 	'EMPTY_FILEUPLOAD'			=> 'A feltöltött állomány üres.',
 	'EMPTY_MESSAGE'				=> 'Az üzenet nem lehet üres.',
-	'EMPTY_REMOTE_DATA'			=> 'Nem sikerült feltölteni az állományt, próbáld meg feltölteni kézzel.',
+	'EMPTY_REMOTE_DATA'			=> 'Nem sikerült feltölteni az állományt, próbálja meg feltölteni kézzel.',
 
 	'FLASH_IS_OFF'				=> '[flash] <em>kikapcsolva</em>',
 	'FLASH_IS_ON'				=> '[flash] <em>bekapcsolva</em>',
-	'FLOOD_ERROR'				=> 'Most nem küldhetsz újabb hozzászólást, mivel az előzőt nemrég küldted el.',
+	'FLOOD_ERROR'				=> 'Most nem küldhet újabb hozzászólást, mivel az előzőt nemrég küldte el.',
 	'FONT_COLOR'				=> 'Betűszín',
 	'FONT_COLOR_HIDE'			=> 'Betűszínválasztó elrejtése',
 	'FONT_HUGE'					=> 'óriási',
@@ -115,52 +115,52 @@ $lang = array_merge($lang, array(
 
 	'LOAD'						=> 'Betöltés',
 	'LOAD_DRAFT'				=> 'Piszkozat betöltése',
-	'LOAD_DRAFT_EXPLAIN'		=> 'Itt kiválaszthatod, hogy melyik piszkozatot szeretnéd folytatni. A jelenlegi hozzászólásod elvetésre, a tartalma törlésre kerül. A piszkozataidat a felhasználói vezérlőpultban tudod megtekinteni, szerkeszteni, illetve törölni.',
-	'LOGIN_EXPLAIN_BUMP'		=> 'Egy téma előreugrasztásához be kell jelentkezned ebben a fórumban.', //? egy?; szórend
-	'LOGIN_EXPLAIN_DELETE'		=> 'Egy hozzászólás törléséhez be kell jelentkezned ebben a fórumban.',
-	'LOGIN_EXPLAIN_POST'		=> 'Új téma küldéséhez be kell jelentkezned ebben a fórumban.',
-	'LOGIN_EXPLAIN_QUOTE'		=> 'Egy hozzászólás idézéséhez be kell jelentkezned ebben a fórumban.',
-	'LOGIN_EXPLAIN_REPLY'		=> 'Hozzászólás küldéséhez be kell jelentkezned ebben a fórumban.',
+	'LOAD_DRAFT_EXPLAIN'		=> 'Itt kiválaszthatja, hogy melyik piszkozatot szeretné folytatni. A jelenlegi hozzászólása elvetésre, a tartalma törlésre kerül. A piszkozatait a felhasználói vezérlőpultban tudja megtekinteni, szerkeszteni, illetve törölni.',
+	'LOGIN_EXPLAIN_BUMP'		=> 'Egy téma előreugrasztásához be kell jelentkeznie ebben a fórumban.', //? egy?; szórend
+	'LOGIN_EXPLAIN_DELETE'		=> 'Egy hozzászólás törléséhez be kell jelentkeznie ebben a fórumban.',
+	'LOGIN_EXPLAIN_POST'		=> 'Új téma küldéséhez be kell jelentkeznie ebben a fórumban.',
+	'LOGIN_EXPLAIN_QUOTE'		=> 'Egy hozzászólás idézéséhez be kell jelentkeznie ebben a fórumban.',
+	'LOGIN_EXPLAIN_REPLY'		=> 'Hozzászólás küldéséhez be kell jelentkeznie ebben a fórumban.',
 
-	'MAX_FONT_SIZE_EXCEEDED'	=> 'Legfeljebb %1$d nagyságú betűket használhatsz.',
-	'MAX_FLASH_HEIGHT_EXCEEDED'	=> 'Legfeljebb %1$d pixel magas flasht animációt illeszthetsz be a hozzászólásodba.', //? 'A hozzászólásod legfeljebb %$1d pixel magas flasht tartalmazhat.' vagy 'Nem küldhetsz %$1d pixelnél magasabb flasht.'
-	'MAX_FLASH_WIDTH_EXCEEDED'	=> 'Legfeljebb %1$d pixel széles flasht animációt illeszthetsz be a hozzászólásodba.',
-	'MAX_IMG_HEIGHT_EXCEEDED'	=> 'Legfeljebb %1$d pixel magas képet illeszthetsz be a hozzászólásodba.',
-	'MAX_IMG_WIDTH_EXCEEDED'	=> 'Legfeljebb %1$d pixel széles képet illeszthetsz be a hozzászólásodba.',
+	'MAX_FONT_SIZE_EXCEEDED'	=> 'Legfeljebb %1$d nagyságú betűket használhat.',
+	'MAX_FLASH_HEIGHT_EXCEEDED'	=> 'Legfeljebb %1$d pixel magas flasht animációt illeszthet be a hozzászólásába.', //? 'A hozzászólásod legfeljebb %$1d pixel magas flasht tartalmazhat.' vagy 'Nem küldhetsz %$1d pixelnél magasabb flasht.'
+	'MAX_FLASH_WIDTH_EXCEEDED'	=> 'Legfeljebb %1$d pixel széles flasht animációt illeszthet be a hozzászólásába.',
+	'MAX_IMG_HEIGHT_EXCEEDED'	=> 'Legfeljebb %1$d pixel magas képet illeszthet be a hozzászólásába.',
+	'MAX_IMG_WIDTH_EXCEEDED'	=> 'Legfeljebb %1$d pixel széles képet illeszthet be a hozzászólásába.',
 
-	'MESSAGE_BODY_EXPLAIN'		=> 'Ide írd az üzenetet, legfeljebb <strong>%d</strong> karakter hosszú lehet.', //?
+	'MESSAGE_BODY_EXPLAIN'		=> 'Ide írja az üzenetet, legfeljebb <strong>%d</strong> karakter hosszú lehet.', //?
 	'MESSAGE_DELETED'			=> 'Az üzenet sikeresen törlésre került.',
 	'MORE_SMILIES'				=> 'További emotikonok',
 
 	'NOTIFY_REPLY'				=> 'E-mail küldése új hozzászólás érkezésekor',
 	'NOT_UPLOADED'				=> 'Az állományt nem sikerült feltölteni.',
-	'NO_DELETE_POLL_OPTIONS'	=> 'Nem törölhetsz már létező választási lehetőséget.',
+	'NO_DELETE_POLL_OPTIONS'	=> 'Nem törölhet már létező választási lehetőséget.',
 	'NO_PM_ICON'				=> 'Nincs PÜ ikon',
-	'NO_POLL_TITLE'				=> 'Meg kell adnod a szavazás kérdését.',
+	'NO_POLL_TITLE'				=> 'Meg kell adnia a szavazás kérdését.',
 	'NO_POST'					=> 'A kért hozzászólás nem létezik.', //? kért?
 	'NO_POST_MODE'				=> 'Nincs hozzászólástípus kiválasztva.',  //?
 
 	'PARTIAL_UPLOAD'			=> 'A feltöltött állomány csak részben került feltöltésre.',
 	'PHP_SIZE_NA'				=> 'A csatolmány mérete túl nagy.<br />Nem sikerült megállapítani a PHP php.ini-jében meghatározott maximális méretét.', //?
-	'PHP_SIZE_OVERRUN'			=> 'A csatolmány mérete túl nagy. A maximálisan feltölthető méret %d MB.<br />Kérjük, vedd figyelembe, hogy ez a php.ini-ben van meghatározva, ezért nem felülírható.',
+	'PHP_SIZE_OVERRUN'			=> 'A csatolmány mérete túl nagy. A maximálisan feltölthető méret %d MB.<br />Kérjük, vegye figyelembe, hogy ez a php.ini-ben van meghatározva, ezért nem felülírható.',
 	'PLACE_INLINE'				=> 'Beszúrás a hozzászólásba',
 	'POLL_DELETE'				=> 'Szavazás törlése',
 	'POLL_FOR'					=> 'Szavazás időtartama',
-	'POLL_FOR_EXPLAIN'			=> 'Hagyd üresen, vagy adj meg 0-t, hogy ne járjon le a szavazás.', //?
+	'POLL_FOR_EXPLAIN'			=> 'Hagyja üresen, vagy adjon meg 0-t, hogy ne járjon le a szavazás.', //?
 	'POLL_MAX_OPTIONS'			=> 'Felhasználónként válaszható lehetőségek', //? "Options per user"
 	'POLL_MAX_OPTIONS_EXPLAIN'	=> 'Egy felhasználó ennyi választási lehetőségre szavazhat.',
 	'POLL_OPTIONS'				=> 'Választási lehetőségek',
-	'POLL_OPTIONS_EXPLAIN'		=> 'Írd mindegyiket külön sorba. Legfeljebb <strong>%d</strong> választási lehetőséget adhatsz meg.',
- 	'POLL_OPTIONS_EDIT_EXPLAIN'	=> 'Írd mindegyiket külön sorba. Legfeljebb <strong>%d</strong> választási lehetőséget adhatsz meg. Ha eltávolítasz vagy hozzáadsz egy választási lehetőséget, az eddigi eredmény lenullázásra kerül.',
+	'POLL_OPTIONS_EXPLAIN'		=> 'Írja mindegyiket külön sorba. Legfeljebb <strong>%d</strong> választási lehetőséget adhat meg.',
+ 	'POLL_OPTIONS_EDIT_EXPLAIN'	=> 'Írja mindegyiket külön sorba. Legfeljebb <strong>%d</strong> választási lehetőséget adhat meg. Ha eltávolít vagy hozzáad egy választási lehetőséget, az eddigi eredmény lenullázásra kerül.',
 	'POLL_QUESTION'				=> 'Szavazás kérdése',
 	'POLL_TITLE_TOO_LONG'		=> 'A szavazás kérdésének rövidebbnek kell lennie 100 karakternél.',
-	'POLL_TITLE_COMP_TOO_LONG'	=> 'A feldolgozott szavazáskérdés túl hosszú, próbálj meg eltávolítani néhány BBCode-ot, illetve emotikont.',
+	'POLL_TITLE_COMP_TOO_LONG'	=> 'A feldolgozott szavazáskérdés túl hosszú, próbáljon meg eltávolítani néhány BBCode-ot, illetve emotikont.',
 	'POLL_VOTE_CHANGE'			=> 'Újraszavazás engedélyezése',
 	'POLL_VOTE_CHANGE_EXPLAIN'	=> 'Ha engedélyezve van, a felhasználók megváltoztathatják szavazatukat.',
 	'POSTED_ATTACHMENTS'		=> 'Feltöltött csatolmányok',
- 	'POST_APPROVAL_NOTIFY'		=> 'Amint jóváhagyásra kerül, értesíteni fogunk.',
+ 	'POST_APPROVAL_NOTIFY'		=> 'Amint jóváhagyásra kerül, értesíteni fogjuk.',
 	'POST_CONFIRMATION'			=> 'Hozzászólás megerősítése', //?
-	'POST_CONFIRM_EXPLAIN'		=> 'Az automatikus hozzászólások megakadályozása érdekében meg kell adnod egy megerősítő kódot. A kód az alábbi képen szerepel. Ha látási vagy egyéb problémák miatt nem tudod elolvasni a kódot, lépj kapcsolatba a %sfórum adminisztrátorával%s.',
+	'POST_CONFIRM_EXPLAIN'		=> 'Az automatikus hozzászólások megakadályozása érdekében meg kell adnia egy megerősítő kódot. A kód az alábbi képen szerepel. Ha látási vagy egyéb problémák miatt nem tudja elolvasni a kódot, lépjen kapcsolatba a %sfórum adminisztrátorával%s.',
 	'POST_DELETED'				=> 'Az üzenet sikeresen törlésre került.',
 	'POST_EDITED'				=> 'Az üzenet sikeresen szerkesztésre került.',
 	'POST_EDITED_MOD'			=> 'Az üzenet sikeresen szerkesztésre került, azonban egy moderátornak még jóvá kell hagynia mielőtt mindenki által megtekinthető lenne.',
@@ -168,50 +168,50 @@ $lang = array_merge($lang, array(
 	'POST_ICON'					=> 'Hozzászólás ikon',
 	'POST_NORMAL'				=> 'Sima',
 	'POST_REVIEW'				=> 'Hozzászólás áttekintés', //? "Post review"
-	'POST_REVIEW_EXPLAIN'		=> 'A témába érkezett legalább egy új hozzászólás. Ennek fényében érdemes átnézned a hozzászólásod.', //? "At least one new post has been made to this topic. You may wish to review your post in light of this."
+	'POST_REVIEW_EXPLAIN'		=> 'A témába érkezett legalább egy új hozzászólás. Ennek fényében érdemes átnéznie a hozzászólását.', //? "At least one new post has been made to this topic. You may wish to review your post in light of this."
 	'POST_STORED'				=> 'A hozzászólás sikeresen elküldésre került.',
 	'POST_STORED_MOD'			=> 'Az üzenet sikeresen szerkesztésre került, azonban egy moderátornak még jóvá kell hagynia mielőtt mindenki által megtekinthető lenne.',
 	'POST_TOPIC_AS'				=> 'Téma típusa',
 	'PROGRESS_BAR'				=> 'Feltöltés állapota', //? "Progress bar"
 
-	'QUOTE_DEPTH_EXCEEDED'		=> 'Legfeljebb %1$d idézetet ágyazhatsz egymásba.',
+	'QUOTE_DEPTH_EXCEEDED'		=> 'Legfeljebb %1$d idézetet ágyazhat egymásba.',
 
 	'SAVE'						=> 'Elmentés',
 	'SAVE_DATE'					=> 'Elmentve', //? "Saved at" 'Elmentés időpontja'
 	'SAVE_DRAFT'				=> 'Piszkozat elmentése',
-	'SAVE_DRAFT_CONFIRM'		=> 'Kérjük, vedd figyelembe, hogy a piszkozatok csak a témát és az üzenetet tartalmazzák, minden más elem eltávolításra kerül. Biztosan el akarod menteni a piszkozatot?', //? element = elem v. tartalom stb.?
+	'SAVE_DRAFT_CONFIRM'		=> 'Kérjük, vegye figyelembe, hogy a piszkozatok csak a témát és az üzenetet tartalmazzák, minden más elem eltávolításra kerül. Biztosan el akarja menteni a piszkozatot?', //? element = elem v. tartalom stb.?
 	'SMILIES'					=> 'Emotikonok',
 	'SMILIES_ARE_OFF'			=> 'Emotikonok <em>kikapcsolva</em>',
 	'SMILIES_ARE_ON'			=> 'Emotikonok <em>bekapcsolva</em>',
 	'STICKY_ANNOUNCE_TIME_LIMIT'=> 'Ennyi ideig lesz kiemelt/közlemény a téma.',
 	'STICK_TOPIC_FOR'			=> 'Kiemelés időtartama', //? "Stick topic for"
-	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Hagyd üresen, vagy adj meg 0-t, hogy a téma mindig kiemelt/közlemény maradjon.',
+	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Hagyja üresen, vagy adjon meg 0-t, hogy a téma mindig kiemelt/közlemény maradjon.',
 	'STYLES_TIP'				=> 'Tipp: a formázások gyorsan alkalmazhatók a kiválasztott szövegen.',
 
 	'TOO_FEW_CHARS'				=> 'Az üzenet túl rövid.', //? "Your message contains too few characters."
-	'TOO_FEW_POLL_OPTIONS'		=> 'Legalább két választási lehetőséget meg kell adnod.',
+	'TOO_FEW_POLL_OPTIONS'		=> 'Legalább két választási lehetőséget meg kell adnia.',
 	'TOO_MANY_ATTACHMENTS'		=> 'Nem lehet újabb csatolmányt hozzáadni, %d a maximum.', //?
 	'TOO_MANY_CHARS'			=> 'Az üzenet túl hosszú.',
  	'TOO_MANY_CHARS_POST'		=> 'Az üzeneted %1$d karaktert tartalmaz. Legfeljebb %2$d karakter hosszú lehet.',
- 	'TOO_MANY_CHARS_SIG'		=> 'Az aláírásod %1$d karaktert tartalmaz. Legfeljebb %2$d karakter hosszú lehet.',
-	'TOO_MANY_POLL_OPTIONS'		=> 'Túl sok választási lehetőséget adtál meg.',
+ 	'TOO_MANY_CHARS_SIG'		=> 'Az aláírása %1$d karaktert tartalmaz. Legfeljebb %2$d karakter hosszú lehet.',
+	'TOO_MANY_POLL_OPTIONS'		=> 'Túl sok választási lehetőséget adott meg.',
 	'TOO_MANY_SMILIES'			=> 'Az üzenet túl sok emotikont tartalmaz. Legfeljebb %d használható.',
 	'TOO_MANY_URLS'				=> 'Az üzenet túl sok linket tartalmaz. Legfeljebb %d lehet benne.', //? link =? url
 	'TOO_MANY_USER_OPTIONS'		=> 'A felhasználónkénti válaszható lehetőségek száma nem lehet nagyobb, mint az összes választási lehetőségek száma.', //?
 	'TOPIC_BUMPED'				=> 'A téma sikeresen előugrasztásra került.',
 
 	'UNAUTHORISED_BBCODE'		=> 'Bizonyos BBCode-okat nem használhatsz: %s:',
-	'UNGLOBALISE_EXPLAIN'		=> 'Ahhoz, hogy a témát általános közleményből sima témává minősítsd vissza, ki kell választanod egy fórumot, amelyben a téma meg fog jelenni.', //?
+	'UNGLOBALISE_EXPLAIN'		=> 'Ahhoz, hogy a témát általános közleményből sima témává minősítse vissza, ki kell választania egy fórumot, amelyben a téma meg fog jelenni.', //?
 	'UPDATE_COMMENT'			=> 'Magyarázat frissítése',
 	'URL_INVALID'				=> 'A megadott URL hibás.',
 	'URL_NOT_FOUND'				=> 'A megadott állomány nem található.',
 	'URL_IS_OFF'				=> '[url] <em>kikapcsolva</em>',
 	'URL_IS_ON'					=> '[url] <em>bekapcsolva</em>',
-	'USER_CANNOT_BUMP'			=> 'Ebben a fórumban nem ugraszthatsz előre témákat.', //? fogalmazás
-	'USER_CANNOT_DELETE'		=> 'Ebben a fórumban nem törölhetsz hozzászólásokat.',
-	'USER_CANNOT_EDIT'			=> 'Ebben a fórumban nem szerkeszthetsz hozzászólásokat.', //? szerkeszhetesz hozzászólásokat...
-	'USER_CANNOT_REPLY'			=> 'Ebben a fórumban nem küldhetsz hozzászólást.',
-	'USER_CANNOT_FORUM_POST'	=> 'Nem végezhetsz hozzászólással kapcsolatos műveleteket a fórumban, mivel a fórum típusa ezt nem támogatja.', //?
+	'USER_CANNOT_BUMP'			=> 'Ebben a fórumban nem ugraszthat előre témákat.', //? fogalmazás
+	'USER_CANNOT_DELETE'		=> 'Ebben a fórumban nem törölhet hozzászólásokat.',
+	'USER_CANNOT_EDIT'			=> 'Ebben a fórumban nem szerkeszthet hozzászólásokat.', //? szerkeszhetesz hozzászólásokat...
+	'USER_CANNOT_REPLY'			=> 'Ebben a fórumban nem küldhet hozzászólást.',
+	'USER_CANNOT_FORUM_POST'	=> 'Nem végezhet hozzászólással kapcsolatos műveleteket a fórumban, mivel a fórum típusa ezt nem támogatja.', //?
 
 	'VIEW_MESSAGE'				=> '%sElküldött üzenet megtekintése%s',
 	'VIEW_PRIVATE_MESSAGE'		=> '%sElküldött privát üzenet megtekintése%s',

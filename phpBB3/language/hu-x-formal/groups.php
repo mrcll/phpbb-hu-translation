@@ -5,7 +5,7 @@
 *
 * @package language
 * @version $Id: groups.php,v 1.13 2008/04/07 18:32:12 fberci Exp $
-* @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
+* @copyright (c) 2009 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
 *
@@ -37,16 +37,16 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ALREADY_DEFAULT_GROUP'	=> 'A kiválasztott csoport már az elsődleges csoportod.', //?
-	'ALREADY_IN_GROUP'		=> 'Már tagja vagy a kiválasztott csoportnak.',
-	'ALREADY_IN_GROUP_PENDING'	=> 'Már kérelmezted a csatlakozást a csoporthoz.',
+	'ALREADY_DEFAULT_GROUP'	=> 'A kiválasztott csoport már az elsődleges csoportja.', //?
+	'ALREADY_IN_GROUP'		=> 'Már tagja a kiválasztott csoportnak.',
+	'ALREADY_IN_GROUP_PENDING'	=> 'Már kérelmezte a csatlakozást a csoporthoz.',
 
-	'CANNOT_JOIN_GROUP'			=> 'Nem tudsz csatlakozni ehhez a csoporthoz. Csak nyitott és szabadon nyitott csoportokhoz csatlakozhatsz.',
-	'CANNOT_RESIGN_GROUP'		=> 'Nem tudod lemondani a csoporttagságod ebben a csoportban. Csak nyitott és szabadon nyitott csoportokból léphetsz ki.',
+	'CANNOT_JOIN_GROUP'			=> 'Nem tud csatlakozni ehhez a csoporthoz. Csak nyitott és szabadon nyitott csoportokhoz csatlakozhat.',
+	'CANNOT_RESIGN_GROUP'		=> 'Nem tudja lemondani a csoporttagságát ebben a csoportban. Csak nyitott és szabadon nyitott csoportokból léphet ki.',
 	'CHANGED_DEFAULT_GROUP'		=> 'Az elsődleges csoport sikeresen megváltoztatásra került.',
 	
 	'GROUP_AVATAR'						=> 'Csoport avatar', 
-	'GROUP_CHANGE_DEFAULT'				=> 'Biztosan meg akarod változtatni az elsődleges csoportodat a „%s” csoportra?',
+	'GROUP_CHANGE_DEFAULT'				=> 'Biztosan meg akarja változtatni az elsődleges csoportját a „%s” csoportra?',
 	'GROUP_CLOSED'						=> 'Zárt',
 	'GROUP_DESC'						=> 'Csoport leírás',
 	'GROUP_HIDDEN'						=> 'Rejtett',
@@ -57,32 +57,32 @@ $lang = array_merge($lang, array(
 	'GROUP_IS_OPEN'						=> 'Ez egy nyitott csoport: felhasználók kérhetik a felvételüket.',
 	'GROUP_IS_SPECIAL'					=> 'Ez egy speciális csoport: a speciális csoportokat az adminisztrátor kezeli.', 
 	'GROUP_JOIN'						=> 'Csatlakozás a csoporthoz',
-	'GROUP_JOIN_CONFIRM'				=> 'Biztosan csatlakozni akarsz a kiválasztott csoporthoz?',
+	'GROUP_JOIN_CONFIRM'				=> 'Biztosan csatlakozni akar a kiválasztott csoporthoz?',
 	'GROUP_JOIN_PENDING'				=> 'Tagság kérelmezése',
-	'GROUP_JOIN_PENDING_CONFIRM'		=> 'Biztosan kérni akarod a felvételed a kiválasztott csoportba?',
-	'GROUP_JOINED'						=> 'Sikeresen csatlakoztál a kiválasztott csoporthoz.',
-	'GROUP_JOINED_PENDING'				=> 'Sikeresen kérelmezted a felvételed a csoportba. Kérjük, várj, míg egy csoportvezető elfogadja a jelentkezésed.',
+	'GROUP_JOIN_PENDING_CONFIRM'		=> 'Biztosan kérni akarja a felvételed a kiválasztott csoportba?',
+	'GROUP_JOINED'						=> 'Sikeresen csatlakozott a kiválasztott csoporthoz.',
+	'GROUP_JOINED_PENDING'				=> 'Sikeresen kérelmezte a felvételét a csoportba. Kérjük, várjon, míg egy csoportvezető elfogadja a jelentkezését.',
 	'GROUP_LIST'						=> 'Felhasználók kezelése',
 	'GROUP_MEMBERS'						=> 'Csoporttagok',
 	'GROUP_NAME'						=> 'Csoport neve',
 	'GROUP_OPEN'						=> 'Nyitott',
 	'GROUP_RANK'						=> 'Csoport rang', 
 	'GROUP_RESIGN_MEMBERSHIP'			=> 'Lemondás a csoporttagságról',
-	'GROUP_RESIGN_MEMBERSHIP_CONFIRM'	=> 'Biztosan le akarod mondani a csoporttagságod a kiválasztott csoportban?',
+	'GROUP_RESIGN_MEMBERSHIP_CONFIRM'	=> 'Biztosan le akarja mondani a csoporttagságát a kiválasztott csoportban?',
 	'GROUP_RESIGN_PENDING'				=> 'Függő csoporttagság lemondása',
-	'GROUP_RESIGN_PENDING_CONFIRM'		=> 'Biztosan le akarod mondani a függő csoporttagságod a kiválasztott csoportban?',
-	'GROUP_RESIGNED_MEMBERSHIP'			=> 'Sikeresen eltávolításra kerültél a kiválasztott csoportból.',
-	'GROUP_RESIGNED_PENDING'			=> 'A függő csoporttagságod sikeresen törlésre került a kiválasztott csoportból.',
+	'GROUP_RESIGN_PENDING_CONFIRM'		=> 'Biztosan le akarja mondani a függő csoporttagságát a kiválasztott csoportban?',
+	'GROUP_RESIGNED_MEMBERSHIP'			=> 'Sikeresen eltávolításra került a kiválasztott csoportból.',
+	'GROUP_RESIGNED_PENDING'			=> 'A függő csoporttagsága sikeresen törlésre került a kiválasztott csoportból.',
 	'GROUP_TYPE'						=> 'Csoport típusa',
 	'GROUP_UNDISCLOSED'					=> 'Rejtett csoport',
 	'FORUM_UNDISCLOSED'					=> 'Rejtett fórum(ok) moderálása',
 
-	'LOGIN_EXPLAIN_GROUP'	=> 'A csoport adatainak megtekintéséhez be kell jelentkezned.', //? a csoport?
+	'LOGIN_EXPLAIN_GROUP'	=> 'A csoport adatainak megtekintéséhez be kell jelentkeznie.', //? a csoport?
 
-	'NO_LEADERS'					=> 'Nem vagy egy csoport vezetője sem.',
-	'NOT_LEADER_OF_GROUP'			=> 'A kért művelet nem végezhető el, mivel nem vagy a kiválasztott csoport vezetője.',
-	'NOT_MEMBER_OF_GROUP'			=> 'A kért művelet nem végezhető el, mivel nem vagy a kiválasztott csoport tagja, vagy a csoporttagságod még nem lett jóváhagyva.',
-	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'Nem mondhatsz le a csoporttagságodról az elsődleges csoportodban.',
+	'NO_LEADERS'					=> 'Ön nem egy csoport vezetője sem.',
+	'NOT_LEADER_OF_GROUP'			=> 'A kért művelet nem végezhető el, mivel ön nem a kiválasztott csoport vezetője.',
+	'NOT_MEMBER_OF_GROUP'			=> 'A kért művelet nem végezhető el, mivel ön nem a kiválasztott csoport tagja, vagy a csoporttagsága még nem lett jóváhagyva.',
+	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'Nem mondhat le a csoporttagságáról az elsődleges csoportjában.',
 	
 	'PRIMARY_GROUP'		=> 'Elsődleges csoport',
 
@@ -90,8 +90,8 @@ $lang = array_merge($lang, array(
 
 	'USER_GROUP_CHANGE'			=> '„%1$s” csoportról „%2$s” csoportra',
 	'USER_GROUP_DEMOTE'			=> 'Lemondás a csoportvezetőségről',
-	'USER_GROUP_DEMOTE_CONFIRM'	=> 'Biztosan le akarsz mondani a csoportvezetőségről a kiválasztott csoportban?',
-	'USER_GROUP_DEMOTED'		=> 'Sikeresen lemondtál a csoportvezetőségről.',
+	'USER_GROUP_DEMOTE_CONFIRM'	=> 'Biztosan le akar mondani a csoportvezetőségéről a kiválasztott csoportban?',
+	'USER_GROUP_DEMOTED'		=> 'Sikeresen lemondott a csoportvezetőségről.',
 ));
 
 ?>

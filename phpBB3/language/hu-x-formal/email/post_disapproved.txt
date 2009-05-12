@@ -1,8 +1,8 @@
-Subject: Hozzászólásod elutasításra került - "{POST_SUBJECT}"
+Subject: A hozzászólása elutasításra került - "{POST_SUBJECT}"
 
 Kedves {USERNAME}!
 
-Ezt az üzenetet azért kapod, mert a "{POST_SUBJECT}" témájú hozzászólásod a "{SITENAME}" oldalon elutasításra került egy adminisztrátor vagy egy moderátor által.
+Ön ezt az üzenetet azért kapja, mert a "{POST_SUBJECT}" témájú hozzászólása a "{SITENAME}" oldalon elutasításra került egy adminisztrátor vagy egy moderátor által.
 
 Az elutasítás indoka a következő:
 

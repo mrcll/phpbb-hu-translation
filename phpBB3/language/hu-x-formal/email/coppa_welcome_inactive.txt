@@ -1,10 +1,10 @@
-Subject: Üdvözlünk a "{SITENAME}" fórumon!
+Subject: Üdvözöljük a "{SITENAME}" fórumon!
 
 {WELCOME_MSG}
 
-A COPPA szabályainak értelmében az azonosítód jelenleg inaktív.
+A COPPA szabályainak értelmében az ön azonosítója jelenleg inaktív.
 
-Nyomtasd ki az alábbi üzenetet, és kérd meg egy szülődet vagy gondviselődet, hogy írja alá, majd küldje el faxon az alábbi FAX-számra:
+Nyomtassa ki az alábbi üzenetet, és kérje meg egy szülőjét vagy gondviselőjét, hogy írja alá, majd küldje el faxon az alábbi FAX-számra:
 
 {FAX_INFO}
 
@@ -37,8 +37,8 @@ Dátum: _______________
 
 Amint az adminisztrátorok megkapták a fenti engedélyt faxon vagy postán, az azonosító aktiválásra kerül.
 
-A jelszót ne felejtsd el, mert az adatbázisunkban kódolva szerepel, így nincs mód a későbbiekben a kiderítésére. Ha esetleg mégis elfelejtenéd, akkor a belépési oldalon új jelszót kell igényelned, amelyet hasonlóképpen aktiválni kell használat előtt, mint most.
+A jelszavát ne felejtse el, mert az adatbázisunkban kódolva szerepel, így nincs mód a későbbiekben a kiderítésére. Ha esetleg mégis elfelejtené, akkor a belépési oldalon új jelszót kell igényelnie, amelyet hasonlóképpen aktiválni kell használat előtt, mint most.
 
-Köszönjük, hogy regisztráltál!
+Köszönjük, hogy regisztrált!
 
 {EMAIL_SIG}
