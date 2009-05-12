@@ -1,11 +1,11 @@
 <?php
 /** 
 *
-* search [Hungarian]
+* search [Hungarian Formal]
 *
 * @package language
 * @version $Id: search.php,v 1.20 2008/04/07 18:32:12 fberci Exp $
-* @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
+* @copyright (c) 2009 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
 *
@@ -53,13 +53,13 @@ $lang = array_merge($lang, array(
 
 	'JUMP_TO_POST'			=> 'Ugrás a hozzászóláshoz',
 
- 	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'A saját hozzászólásaid megtekintéséhez be kell jelentkezned.',
+ 	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'A saját hozzászólásai megtekintéséhez be kell jelentkeznie.',
 
-	'NO_KEYWORDS'			=> 'Legalább egy keresendő szót meg kell adnod. Minden szónak, a jokerkaraktereket nem számítva, legalább %d és legfeljebb %d karakterből kell állnia.', //? helyettesítő jel: *
+	'NO_KEYWORDS'			=> 'Legalább egy keresendő szót meg kell adnia. Minden szónak, a jokerkaraktereket nem számítva, legalább %d és legfeljebb %d karakterből kell állnia.', //? helyettesítő jel: *
 	'NO_RECENT_SEARCHES'	=> 'Nem történt keresés a közelmúltban.',
-	'NO_SEARCH'				=> 'Sajnos számodra nem engedélyezett a kereső használata.',
+	'NO_SEARCH'				=> 'Sajnos az ön számára nem engedélyezett a kereső használata.',
 	'NO_SEARCH_RESULTS'		=> 'Nincs a keresési feltételeknek megfelelő találat.', //? "No suitable matches were found."
-	'NO_SEARCH_TIME'		=> 'Most nem használhatod a keresőt. Kérjük, próbálkozz újra pár perc múlva.',
+	'NO_SEARCH_TIME'		=> 'Most nem használhatja a keresőt. Kérjük, próbálkozzon újra pár perc múlva.',
 	'WORD_IN_NO_POST'		=> 'Nincs találat, mivel a <strong>%s</strong> szót nem tartalmazza egy hozzászólás sem.',
 	'WORDS_IN_NO_POST'		=> 'Nincs találat, mivel a <strong>%s</strong> szavakat nem tartalmazza egy hozzászólás sem.',
 
@@ -76,12 +76,12 @@ $lang = array_merge($lang, array(
 	'SEARCH_ALL_TERMS'			=> 'Keresés az összes szóra vagy a keresési kifejezés pontos használata', //?? "Search for all terms or use query as entered"
 	'SEARCH_ANY_TERMS'			=> 'Keresés bármely szóra',
 	'SEARCH_AUTHOR'				=> 'Szerző',
-	'SEARCH_AUTHOR_EXPLAIN'		=> 'Részleges szavakhoz használd a * jokerkaraktert.',
+	'SEARCH_AUTHOR_EXPLAIN'		=> 'Részleges szavakhoz használja a * jokerkaraktert.',
 	'SEARCH_FIRST_POST'			=> 'Csak témák első hozzászólása',
 	'SEARCH_FORUMS'				=> 'Fórumok', //? 'Keresett fórumok'
-	'SEARCH_FORUMS_EXPLAIN'		=> 'Válaszd ki azokat a fórumokat, melyben keresni szeretnél. A keresés automatikusan megtörténik az alfórumokban is, hacsak alább nem kapcsoltad ki a „keresés az alfórumokban” beállítást.',
+	'SEARCH_FORUMS_EXPLAIN'		=> 'Válassza ki azokat a fórumokat, melyben keresni szeretne. A keresés automatikusan megtörténik az alfórumokban is, hacsak alább nem kapcsolta ki a „keresés az alfórumokban” beállítást.',
 	'SEARCH_IN_RESULTS'			=> 'Keresés a találatokban',
-	'SEARCH_KEYWORDS_EXPLAIN'	=> 'Írj „<strong>+</strong>”-t a keresett, valamint „<strong>-</strong>”-t a kizárandó  szavak elé. Ha több szóból csak egy megtalálása is elég, készíts ezekből a szavakból egy „<strong>|</strong>” jellel elválasztott listát, és tedd az egészet zárójelek közé. Részleges szavakhoz használd a * jokerkaraktert.', //? "Place <strong>+</strong> in front of a word which must be found and <strong>-</strong> in front of a word which must not be found. Put a list of words separated by <strong>|</strong> into brackets if only one of the words must be found. Use * as a wildcard for partial matches."
+	'SEARCH_KEYWORDS_EXPLAIN'	=> 'Írjon „<strong>+</strong>”-t a keresett, valamint „<strong>-</strong>”-t a kizárandó  szavak elé. Ha több szóból csak egy megtalálása is elég, készítsen ezekből a szavakból egy „<strong>|</strong>” jellel elválasztott listát, és tegye az egészet zárójelek közé. Részleges szavakhoz használja a * jokerkaraktert.', //? "Place <strong>+</strong> in front of a word which must be found and <strong>-</strong> in front of a word which must not be found. Put a list of words separated by <strong>|</strong> into brackets if only one of the words must be found. Use * as a wildcard for partial matches."
 	'SEARCH_MSG_ONLY'			=> 'Csak üzenetek szövege',
 	'SEARCH_OPTIONS'			=> 'Keresési beállítások',
 	'SEARCH_QUERY'				=> 'Keresési feltételek',
@@ -96,7 +96,7 @@ $lang = array_merge($lang, array(
 	'SORT_POST_SUBJECT'			=> 'Hozzászólás témája',
 	'SORT_TIME'					=> 'Elküldés időpontja',
 
-	'TOO_FEW_AUTHOR_CHARS'	=> 'A szerző nevéből legalább %d karaktert meg kell adnod.',
+	'TOO_FEW_AUTHOR_CHARS'	=> 'A szerző nevéből legalább %d karaktert meg kell adnia.',
 ));
 
 ?>

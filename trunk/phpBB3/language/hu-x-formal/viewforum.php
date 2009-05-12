@@ -1,11 +1,11 @@
 <?php
 /** 
 *
-* viewforum [Hungarian]
+* viewforum [Hungarian Formal]
 *
 * @package language
 * @version $Id: viewforum.php,v 1.9 2008/04/07 18:32:13 fberci Exp $
-* @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
+* @copyright (c) 2009 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
 *
@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 	'ICON_ANNOUNCEMENT'		=> 'Közlemény',
 	'ICON_STICKY'			=> 'Kiemelt',
 
-	'LOGIN_NOTIFY_FORUM'	=> 'Értesítést kaptál erről a fórumról. Lépj be, hogy megtekinthesd.', //? "You have been notified about this forum, please login to view it."
+	'LOGIN_NOTIFY_FORUM'	=> 'Értesítést kapott erről a fórumról. Lépjen be, hogy megtekinthesse.', //? "You have been notified about this forum, please login to view it."
 
 	'MARK_TOPICS_READ'		=> 'Témák megjelölése olvasottként',
 
@@ -53,7 +53,7 @@ $lang = array_merge($lang, array(
 	'NEW_POSTS_LOCKED'		=> 'Új hozzászólások [ lezárt ]',
 	'NO_NEW_POSTS_HOT'		=> 'Nincs új hozzászólás [ népszerű ]',
 	'NO_NEW_POSTS_LOCKED'	=> 'Nincs új hozzászólás [ lezárt ]',
-	'NO_READ_ACCESS'		=> 'Nincs meg a kellő jogosultságod a fórumbeli témák olvasásához.',
+	'NO_READ_ACCESS'		=> 'Nincs meg a kellő jogosultsága a fórumbeli témák olvasásához.',
 
 	'POST_FORUM_LOCKED'		=> 'A fórum le van zárva.',
 

@@ -1,13 +1,13 @@
-Subject: Hozzászólásod jóváhagyásra került - "{POST_SUBJECT}"
+Subject: A hozzászólása jóváhagyásra került - "{POST_SUBJECT}"
 
 Kedves {USERNAME}!
 
-Ezt az üzenetet azért kapod, mert a "{POST_SUBJECT}" témájú hozzászólásod a "{SITENAME}" oldalon jóváhagyásra került egy adminisztrátor vagy egy moderátor által.
+Ön ezt az üzenetet azért kapja, mert a "{POST_SUBJECT}" témájú hozzászólása a "{SITENAME}" oldalon jóváhagyásra került egy adminisztrátor vagy egy moderátor által.
 
-Amennyiben meg szeretnéd tekinteni a hozzászólást, kattints a következő linkre:
+Amennyiben meg szeretné tekinteni a hozzászólást, kattintson a következő linkre:
 {U_VIEW_POST}
 
-Amennyiben meg szeretnéd tekinteni a témát, melyhez hozzászóltál, kattints a következő linkre:
+Amennyiben meg szeretné tekinteni a témát, melyhez hozzászólt, kattintson a következő linkre:
 {U_VIEW_TOPIC}
 
 

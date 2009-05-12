@@ -1,11 +1,11 @@
 <?php
 /** 
 *
-* viewtopic [Hungarian]
+* viewtopic [Hungarian Formal]
 *
 * @package language
 * @version $Id: viewtopic.php,v 1.12 2008/10/26 13:50:18 fberci Exp $
-* @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
+* @copyright (c) 2009 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
 *
@@ -41,7 +41,7 @@ $lang = array_merge($lang, array(
 	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'A csatolmány funkciók nem elérhetők.', //? ki lettek kapcsolva
 
 	'BOOKMARK_ADDED'		=> 'A téma sikeresen hozzáadásra került a kedvencekhez.',
-	'BOOKMARK_ERR'			=> 'A témát nem sikerült hozzáadni a kedvencekhez. Kérünk, próbálkozz újra.',
+	'BOOKMARK_ERR'			=> 'A témát nem sikerült hozzáadni a kedvencekhez. Kérjük, próbálkozzon újra.',
 	'BOOKMARK_REMOVED'		=> 'A téma sikeresen eltávolításra került a kedvencekből.',
 	'BOOKMARK_TOPIC'		=> 'Hozzáadás a kedvencekhez',
 	'BOOKMARK_TOPIC_REMOVE'	=> 'Törlés a kedvencekből',
@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 	'CODE'					=> 'Kód',
 
 	'DELETE_TOPIC'			=> 'Téma törlése',
-	'DOWNLOAD_NOTICE'		=> 'Nincs meg a kellő jogosultságod a hozzászóláshoz csatolt állományok megtekintéséhez.',
+	'DOWNLOAD_NOTICE'		=> 'Nincs meg a kellő jogosultsága a hozzászóláshoz csatolt állományok megtekintéséhez.',
 
 	'EDITED_TIMES_TOTAL'	=> 'A hozzászólást %3$d alkalommal szerkesztették, utoljára %1$s %2$s-kor.', //? 'Utoljára %1$s szerkesztette %2$s-kor; szerkesztések száma: %3$d.'
 	'EDITED_TIME_TOTAL'		=> 'A hozzászólást %3$d alkalommal szerkesztették, utoljára %1$s %2$s-kor.',
@@ -61,29 +61,29 @@ $lang = array_merge($lang, array(
 	'FILE_NOT_FOUND_404'	=> 'A <strong>%s</strong> fájl nem létezik.',
 	'FORK_TOPIC'			=> 'Téma másolása',
 
-	'LINKAGE_FORBIDDEN'		=> 'Nem vagy jogosult az oldalt megtekinteni, letölteni róla vagy linkelni rá.', //? fogalmam sincs...
-	'LOGIN_NOTIFY_TOPIC'	=> 'Értesítve lettél erről a témáról. Lépj be, hogy megtekinthesd.',
-	'LOGIN_VIEWTOPIC'		=> 'A téma megtekintéséhez be kell jelentkezned.',
+	'LINKAGE_FORBIDDEN'		=> 'Ön nem jogosult az oldalt megtekinteni, letölteni róla vagy linkelni rá.', //? fogalmam sincs...
+	'LOGIN_NOTIFY_TOPIC'	=> 'Ön értesítve lett erről a témáról. Lépjen be, hogy megtekinthesse.',
+	'LOGIN_VIEWTOPIC'		=> 'A téma megtekintéséhez be kell jelentkeznie.',
 
 	'MAKE_ANNOUNCE'				=> 'Közleménnyé tétel',
 	'MAKE_GLOBAL'				=> 'Globális közleménnyé tétel',
 	'MAKE_NORMAL'				=> 'Normál témává tétel',
 	'MAKE_STICKY'				=> 'Kiemeltté tétel',
-	'MAX_OPTIONS_SELECT'		=> '<strong>%d</strong> választási lehetőségre szavazhatsz.',
-	'MAX_OPTION_SELECT'			=> '<strong>1</strong> választási lehetőségre szavazhatsz.',
+	'MAX_OPTIONS_SELECT'		=> '<strong>%d</strong> választási lehetőségre szavazhat.',
+	'MAX_OPTION_SELECT'			=> '<strong>1</strong> választási lehetőségre szavazhat.',
 	'MISSING_INLINE_ATTACHMENT'	=> 'A <strong>%s</strong> csatolmány már nem érhető el.',
 	'MOVE_TOPIC'				=> 'Téma áthelyezése',
 
-	'NO_ATTACHMENT_SELECTED'=> 'Nem választottál ki csatolmányt a letöltéshez vagy megtekintéshez.',
+	'NO_ATTACHMENT_SELECTED'=> 'Ön nem választott ki csatolmányt a letöltéshez vagy megtekintéshez.',
 	'NO_NEWER_TOPICS'		=> 'Nincs újabb téma a fórumban.',
 	'NO_OLDER_TOPICS'		=> 'Nincs régebbi téma a fórumban.',
 	'NO_UNREAD_POSTS'		=> 'Nincs új olvasatlan hozzászólás a témában.',
-	'NO_VOTE_OPTION'		=> 'A szavazáshoz meg kell adnod egy választási lehetőséget.',
+	'NO_VOTE_OPTION'		=> 'A szavazáshoz meg kell adnia egy választási lehetőséget.',
 	'NO_VOTES'				=> '0 szavazat', //? 'Nincs szavazat'
 
 	'POLL_ENDED_AT'			=> 'A szavazás %s-kor befejeződött.',
 	'POLL_RUN_TILL'			=> 'A szavazás %s-ig van érvényben.',
-	'POLL_VOTED_OPTION'		=> 'Erre a lehetőségre szavaztál',
+	'POLL_VOTED_OPTION'		=> 'Erre a lehetőségre szavazott',
 	'PRINT_TOPIC'			=> 'Nyomtatóbarát verzió',
 
 	'QUICK_MOD'				=> 'Gyors moderátori eszközök', //??
@@ -106,7 +106,7 @@ $lang = array_merge($lang, array(
 	'VIEW_TOPIC_POSTS'		=> '%d hozzászólás',
 	'VIEW_UNREAD_POST'		=> 'Első olvasatlan hozzászólás',
 	'VISIT_WEBSITE'			=> 'Honlap',
-	'VOTE_SUBMITTED'		=> 'A szavazatod sikeresen eltárolásra került.',
+	'VOTE_SUBMITTED'		=> 'A szavazata sikeresen eltárolásra került.',
 	'VOTE_CONVERTED'		=> 'A szavazatváltoztatás konvertált szavazásoknál nem támogatott.',
 ));
 

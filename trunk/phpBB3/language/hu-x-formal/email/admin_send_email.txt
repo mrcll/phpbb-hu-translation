@@ -1,11 +1,11 @@
 
-A következő e-mailt a "{SITENAME}" fórum egyik adminisztrátora küldte neked. Amennyiben ez az üzenet kéretlen levél, sértő vagy egyéb támadó megjegyzéseket tartalmaz számodra, kérünk, lépj kapcsolatba az oldal adminisztrátorával a következő e-mail címen:
+A következő e-mailt a "{SITENAME}" fórum egyik adminisztrátora küldte önnek. Amennyiben ez az üzenet kéretlen levél, sértő vagy egyéb támadó megjegyzéseket tartalmaz ön számára, kérjük, lépjen kapcsolatba az oldal adminisztrátorával a következő e-mail címen:
 
 {CONTACT_EMAIL}
 
-Idézd ezt az e-mailt (különösen ügyelve a fejlécre). 
+Idézze ezt az e-mailt (különösen ügyelve a fejlécre). 
 
-A neked szóló e-mail a következő:
+Az önnek szóló e-mail a következő:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 {MESSAGE}
