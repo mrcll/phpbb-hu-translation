@@ -3,7 +3,7 @@ Subject: Aktiváld újra az azonosítód az "{SITENAME}" oldalon!
 A fórum egyik adminisztrátora újraaktiválásra kötelezte az azonosítód. Az azonosítód jelenleg inaktív.
 Az azonosítód újraaktiválásához kövesd a következő lépéseket.
 
-Kérjük tartsd meg ezt az üzenetet. Az azonosítód adatai a következőek:
+Kérjük, tartsd meg ezt az üzenetet. Az azonosítód adatai a következőek:
 
 ----------------------------
 Felhasználónév: {USERNAME}

@@ -1,8 +1,8 @@
-Subject: Üdvözlünk a "{SITENAME}" fórumon!
+Subject: Üdvözöljük a "{SITENAME}" fórumon!
 
 {WELCOME_MSG}
 
-Kérünk, tartsd meg ezt az üzenetet. Az azonosítód adatai a következőek:
+Kérjük, tartsa meg ezt az üzenetet. Az ön azonosítójának adatai a következőek:
 
 ----------------------------
 Felhasználónév: {USERNAME}
@@ -11,8 +11,8 @@ Jelszó: {PASSWORD}
 Fórum URL: {U_BOARD}
 ----------------------------
 
-Kérjük, ne felejtsd el a jelszavad, mivel titkosítva került be az adatbázisunkba, így nem tudjuk visszafejteni. Amennyiben megfeledkezel róla, újat tudsz kérni, de azt ugyanilyen módon ismét aktiválnod kell majd.
+Kérjük, ne felejtse el a jelszavát, mivel titkosítva került be az adatbázisunkba, így nem tudjuk visszafejteni. Amennyiben megfeledkezik róla, újat tud kérni, de azt ugyanilyen módon ismét aktiválnia kell majd.
 
-Köszönjük, hogy regisztráltál!
+Köszönjük, hogy regisztrált!
 
 {EMAIL_SIG}
