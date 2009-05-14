@@ -67,7 +67,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_AT_PROFILE_EXPLAIN'	=> 'A felhasználó a profil mező értékét a felhasználói vezérlőpultban módosíthatja.',
 	'DISPLAY_AT_REGISTER'			=> 'Megjelenítés regisztrációkor',
 	'DISPLAY_AT_REGISTER_EXPLAIN'	=> 'Ha ez van beállítva, a mező megjelenítésre kerül a regisztrációkor, és a felhasználói vezérlőpultból módosítható.',
-	'DISPLAY_PROFILE_FIELD'			=> 'Profil mező megjelenítése',
+	'DISPLAY_PROFILE_FIELD'			=> 'Profil mező nyilvános megjelenítése',
 	'DISPLAY_PROFILE_FIELD_EXPLAIN'	=> 'A profil mező az összes a terhelés beállításokban megadott helyen megjelenítésre kerül. Ha nemre állítod, nem fog megjelenni a téma oldalakon, a profilban és a taglistában.',
 	'DROPDOWN_ENTRIES_EXPLAIN'		=> 'Add meg a választási lehetőségeket, mindegyik lehetőséget külön sorba írd.',
 

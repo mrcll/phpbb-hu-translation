@@ -202,7 +202,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_INDEX'			=> 'Adminisztrátori kezdőlap',
 	'ADMIN_PANEL'			=> 'Adminisztrátori vezérlőpult',
 
-	'ADM_LOGOUT'			=> 'AVP kilépés',
+	'ADM_LOGOUT'			=> 'AVP&nbsp;kilépés',
 	'ADM_LOGGED_OUT'		=> 'Sikeresen kiléptél az adminisztrátori vezérlőpultból.',
 
 	'BACK'					=> 'Vissza',
