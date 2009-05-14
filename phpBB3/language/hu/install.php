@@ -383,7 +383,8 @@ $lang = array_merge($lang, array(
 	'COLLECTED_INFORMATION_EXPLAIN'	=> 'Az alábbi lista információkat tartalmaz a frissítendő állományokról. Olvasd el a blokkok előtti magyarázó szöveget, hogy tudd milyen állományok tartoznak oda, és mit kell ezekkel tenned a sikeres frissítés érdekében.', //? "The list below shows information about the files needing an update. Please read the information in front of every status block to see what they mean and what you may need to do to perform a successful update."
 	'COLLECTING_FILE_DIFFS'			=> 'Állományok közötti különbségek összegyűjtése',
 	'COMPLETE_LOGIN_TO_BOARD'		=> 'Most <a href="../ucp.php?mode=login">lépj be a fórumon</a>, és ellenőrizd, hogy minden rendesen működik-e. Ne felejtsd el törölni, átnevezni vagy áthelyezni az install könyvtárat!',
-	'CONTINUE_UPDATE_NOW'			=> 'Frissítés folytatása most',
+	'CONTINUE_UPDATE_NOW'			=> 'Frissítési folyamat folytatása most',	// Shown within the database update script at the end if called from the updater
+	'CONTINUE_UPDATE'				=> 'Frissítés folytatása most',				// Shown after file upload to indicate the update process is not yet finished
 	'CURRENT_FILE'					=> 'Ütközés kezdete – frissítés előtti eredeti kód',
 	'CURRENT_VERSION'				=> 'Jelenlegi verzió',
 
