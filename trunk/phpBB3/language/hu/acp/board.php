@@ -245,6 +245,15 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_GD_X_GRID_EXPLAIN'				=> 'A kisebb értékek erősebbé teszik a CAPTCHA-t. A 0 kikapcsolja az x-tengelyi zajosítást.',
 	'CAPTCHA_GD_Y_GRID'						=> 'GD CAPTCHA hátteri y-tengely zaj',
 	'CAPTCHA_GD_Y_GRID_EXPLAIN'				=> 'A kisebb értékek erősebbé teszik a CAPTCHA-t. A 0 kikapcsolja az y-tengelyi zajosítást.',
+	'CAPTCHA_GD_WAVE'						=> 'GD CAPTCHA hullámtorzítás',
+	'CAPTCHA_GD_WAVE_EXPLAIN'				=> 'Ez a beállítás eltorzítja hullámszerűen a CAPTCHA-t.',
+ 	'CAPTCHA_GD_3D_NOISE'					=> '3D zajosítás',
+	'CAPTCHA_GD_3D_NOISE_EXPLAIN'			=> 'A betűk fölé plusz 3D-s objektumok kerülnek.',
+ 	'CAPTCHA_GD_FONTS'						=> 'Különböző betűtípusok használata',
+	'CAPTCHA_GD_FONTS_EXPLAIN'				=> 'Itt megadhatod, mennyi különbőző betűforma legyen használva. Használhatod csak az alap formákat, vagy bevezethetsz módosított betűket, illetve a kisbetűket is beállíthatod.', //?
+	'CAPTCHA_FONT_DEFAULT'					=> 'Alap',
+	'CAPTCHA_FONT_NEW'						=> 'Új formák',
+	'CAPTCHA_FONT_LOWER'					=> 'Kisbetűk is',
 
 	'CAPTCHA_PREVIEW_MSG'					=> 'A vizuális megerősítés beállításaid nem kerültek elmentésre. Ez csak egy előnézet.',
 	'CAPTCHA_PREVIEW_EXPLAIN'				=> 'Így fog kinézni a CAPTCHA a jelenlegi beállításokkal. A frissítéshez használd az előnézet gombot. Kérjük, vedd figyelembe, hogy a CAPTCHA-k véletlenszerűen generáltak, így mindig különbözőek.',
@@ -252,6 +261,8 @@ $lang = array_merge($lang, array(
 	'VISUAL_CONFIRM_POST_EXPLAIN'			=> 'A tömeges hozzászólások elkerülése végett a nem regisztrált felhasználóknak meg kell adniuk egy képen található kódot.',
 	'VISUAL_CONFIRM_REG'					=> 'Vizuális megerősítés bekapcsolása a regisztrációnál',
 	'VISUAL_CONFIRM_REG_EXPLAIN'			=> 'A tömeges regisztrációk elkerülése végett az új felhasználóknak meg kell adniuk egy képen található kódot.',
+	'VISUAL_CONFIRM_REFRESH'				=> 'Megerősítés kép frissítésének engedélyezése',
+	'VISUAL_CONFIRM_REFRESH_EXPLAIN'		=> 'Ha a felhasználó nem tudja elolvasni a vizuális megerősítéshez használt képen szereplő kódot, új kódot (és ezzel együtt képet) kérhet.',
 ));
 
 // Cookie Settings

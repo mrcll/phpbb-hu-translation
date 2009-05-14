@@ -82,6 +82,7 @@ $lang = array_merge($lang, array(
 	'FORUM_EDIT_EXPLAIN'				=> 'Az alábbi űrlap segítségével testreszabhatod a fórumot. Kérjük, vedd figyelembe, hogy a moderációs és hozzászólás-számlálási beállítások minden felhasználónak vagy csoportnak egyedileg állíthatók be a jogosultságok használatával.',
 	'FORUM_IMAGE'						=> 'Fórum kép',
 	'FORUM_IMAGE_EXPLAIN'				=> 'A fórumhoz társított kiegészítő kép relatív elérési útja, a phpBB gyökérkönyvtárától viszonyítva.',
+	'FORUM_IMAGE_NO_EXIST'				=> 'A megadott fórum kép nem létezik.',
 	'FORUM_LINK_EXPLAIN'				=> 'Az oldal teljes URL-je (a protokollt beleértve), ami be fog jönni, ha a felhasználó a fórumra kattint, pl. <samp>http://www.phpbb.com/</samp>.',
 	'FORUM_LINK_TRACK'					=> 'Link átirányítások követése',
 	'FORUM_LINK_TRACK_EXPLAIN'			=> 'Számolja hányszor kattintottak a linkre.',

@@ -141,8 +141,8 @@ $lang = array_merge($lang, array(
 	'NO_POST_MODE'				=> 'Nincs hozzászólástípus kiválasztva.',  //?
 
 	'PARTIAL_UPLOAD'			=> 'A feltöltött állomány csak részben került feltöltésre.',
-	'PHP_SIZE_NA'				=> 'A csatolmány mérete túl nagy.<br />Nem sikerült megállapítani a PHP php.ini-jében meghatározott maximális méretét.', //?
-	'PHP_SIZE_OVERRUN'			=> 'A csatolmány mérete túl nagy. A maximálisan feltölthető méret %d MB.<br />Kérjük, vedd figyelembe, hogy ez a php.ini-ben van meghatározva, ezért nem felülírható.',
+	'PHP_SIZE_NA'				=> 'A csatolmány mérete túl nagy.<br />Nem sikerült megállapítani a PHP php.ini-jében meghatározott maximális méretet.', //?
+	'PHP_SIZE_OVERRUN'			=> 'A csatolmány mérete túl nagy. A maximálisan feltölthető méret %1$d %2$s.<br />Kérjük, vedd figyelembe, hogy ez a php.ini-ben van meghatározva, ezért nem írható felül.',
 	'PLACE_INLINE'				=> 'Beszúrás a hozzászólásba',
 	'POLL_DELETE'				=> 'Szavazás törlése',
 	'POLL_FOR'					=> 'Szavazás időtartama',
