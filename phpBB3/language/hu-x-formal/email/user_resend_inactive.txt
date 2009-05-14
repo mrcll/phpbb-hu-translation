@@ -1,19 +1,19 @@
-Subject: Üdvözlünk a "{SITENAME}" fórumon!
+Subject: Üdvözöljük a "{SITENAME}" fórumon!
 
 {WELCOME_MSG}
 
-Kérünk, tartsd meg ezt az üzenetet a továbbiakban. Az azonosítód adatai a következőek:
+Kérjük, tartsa meg ezt az üzenetet a továbbiakban. Az ön azonosítójának adatai a következőek:
 
 ----------------------------
 Felhasználónév: {USERNAME}
 ----------------------------
 
-A jelszavad titkosítva került eltárolásra az adatbázisban. Amennyiben megfeledkezel róla, újat kérhetsz, de azt ugyanilyan módon ismét aktiválnod kell majd.
+A jelszava titkosítva került eltárolásra az adatbázisban. Amennyiben megfeledkezik róla, újat kérhet, de azt ugyanilyan módon ismét aktiválnia kell majd.
 
-Az azonosítód a következő linkre kattintva aktiválhatod:
+Az azonosítóját a következő linkre kattintva aktiválhatja:
 
 {U_ACTIVATE}
 
-Köszönjük, hogy regisztráltál!
+Köszönjük, hogy regisztrált!
 
 {EMAIL_SIG}
