@@ -73,6 +73,8 @@ $lang = array_merge($lang, array(
 
 	'MAX_SEARCH_CHARS'						=> 'Maximum indexelt karakterszám', //? 'Maximum indexelt karakter'
 	'MAX_SEARCH_CHARS_EXPLAIN'				=> 'A kereső csak a legfeljebb ennyi karaktert tartalmazó szavakat fogja indexelni.',
+	'MAX_NUM_SEARCH_KEYWORDS'				=> 'Kulcsszavak maximum száma',
+	'MAX_NUM_SEARCH_KEYWORDS_EXPLAIN'		=> 'Egyszerre legfeljebb ennyi szóra lehet keresni. A 0 érték megszünteti a korlátozást.',
 	'MIN_SEARCH_CHARS'						=> 'Minimum indexelt karakterszám',
 	'MIN_SEARCH_CHARS_EXPLAIN'				=> 'A kereső csak a legalább ennyi karaktert tartalmazó szavakat fogja indexelni.',
 	'MIN_SEARCH_AUTHOR_CHARS'				=> 'Minimum szerző karakterszám',

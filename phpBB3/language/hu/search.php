@@ -55,6 +55,8 @@ $lang = array_merge($lang, array(
 
  	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'A saját hozzászólásaid megtekintéséhez be kell jelentkezned.',
 
+	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> 'Túl sok keresendő szót adtál meg. Kérünk, legfeljebb %1$d szót adj meg.',
+
 	'NO_KEYWORDS'			=> 'Legalább egy keresendő szót meg kell adnod. Minden szónak, a jokerkaraktereket nem számítva, legalább %d és legfeljebb %d karakterből kell állnia.', //? helyettesítő jel: *
 	'NO_RECENT_SEARCHES'	=> 'Nem történt keresés a közelmúltban.',
 	'NO_SEARCH'				=> 'Sajnos számodra nem engedélyezett a kereső használata.',

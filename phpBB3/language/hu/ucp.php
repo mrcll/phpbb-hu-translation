@@ -121,6 +121,9 @@ $lang = array_merge($lang, array(
 	'CONFIRM_EMAIL'				=> 'E-mail cím megerősítése',
 	'CONFIRM_EMAIL_EXPLAIN'		=> 'Csak akkor kell megadnod, ha meg szeretnéd változtatni az e-mail címed.',
 	'CONFIRM_EXPLAIN'			=> 'A robot regisztrációk megakadályozása érdekében meg kell adnod egy megerősítő kódot. A kód az alábbi képen szerepel. Ha látási vagy egyéb problémák miatt nem tudod elolvasni a kódot, lépj kapcsolatba a %sfórum adminisztrátorával%s.',
+	'VC_REFRESH'				=> 'Megerősítő kód frissítése', //? frissítés? (újratöltés?)
+	'VC_REFRESH_EXPLAIN'		=> 'Ha nem tudod elolvasni a kódot, a gombra kattintva kérhetsz újat.',
+
 	'CONFIRM_PASSWORD'			=> 'Jelszó megerősítése',
 	'CONFIRM_PASSWORD_EXPLAIN'	=> 'Csak akkor kell megadnod, ha meg szeretnéd változtatni a jelszavad.',
 	'COPPA_BIRTHDAY'			=> 'A regisztráció folytatásához, kérjük, add meg, mikor születtél.',
@@ -324,7 +327,7 @@ $lang = array_merge($lang, array(
 	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'A jelszó hosszának %1$d és %2$d karakter között kell lennie, szerepelnie kell benne kis- és nagybetűknek egyaránt, valamint tartalmaznia kell számokat és speciális karaktereket is.', //? symbols = speciális karakterek? gondolom...
 	'PASSWORD'					=> 'Jelszó',
 	'PASSWORD_ACTIVATED'		=> 'Az új jelszavad aktiválásra került.',
-	'PASSWORD_UPDATED'			=> 'A jelszavad elküldésre került az e-mail címedre.',
+	'PASSWORD_UPDATED'			=> 'Az új jelszavad elküldésre került az e-mail címedre.',
 	'PERMISSIONS_RESTORED'		=> 'Az eredeti jogosultságok sikeresen visszaállításra kerültek.', //? eredeti?
 	'PERMISSIONS_TRANSFERRED'	=> '<strong>%s</strong> jogosultságai sikeresen átadásra kerültek, most a felhasználó jogosultságaival böngészheted a fórumot.<br />Kérjük, vedd figyelembe, hogy az adminisztrátori jogosultságok nem kerültek átadásra. Az eredeti jogosultságaidat bármikor visszaállíthatod.', //? "Successfully transferred permissions from <strong>%s</strong>, you are now able to browse the forum with the users permissions." - hát ez nagyon nem sikerült
 	'PM_DISABLED'				=> 'A privát üzenet részleg ki lett kapcsolva ezen a fórumon.', //?

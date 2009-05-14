@@ -183,7 +183,7 @@ $lang = array_merge($lang, array(
 
 // Word censors
 $lang = array_merge($lang, array(
-	'ACP_WORDS_EXPLAIN'		=> 'Ezen az oldalon felvehetsz, valamint szerkesztheted, és eltávolíthatod a szavakat, melyek automatikusan kicenzúrázásra kerülnek a fórumon. Ezen felül ilyen szót tartalmazó felhasználónévvel nem lehet majd regisztrálni. A szavak megadásánál használhatod a * jokerkaraktert, pl. az alaplap szó illeszkedni fog a „*lap*”-ra, a „lap*”-ra a lapszám, „*lap”-ra pedig a főlap.',
+	'ACP_WORDS_EXPLAIN'		=> 'Ezen az oldalon felvehetsz, valamint szerkesztheted és eltávolíthatod a szavakat, melyek automatikusan kicenzúrázásra kerülnek a fórumon. A korlátozás a felhasználónevekre nem vonatkozik, továbbra is lehet ilyen szót tartalmazó felhasználónévvel regisztrálni. A szavak megadásánál használhatod a * jokerkaraktert, pl. az alaplap szó illeszkedni fog a „*lap*”-ra, a „lap*”-ra a lapszám, „*lap”-ra pedig a főlap.',
 	'ADD_WORD'				=> 'Új szó felvétele',
 
 	'EDIT_WORD'		=> 'Szócenzúra szerkesztése',
