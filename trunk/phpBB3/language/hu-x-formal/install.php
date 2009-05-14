@@ -269,6 +269,8 @@ $lang = array_merge($lang, array(
 	'MAKE_FOLDER_WRITABLE'		=> 'Kérünk, győződj meg róla, hogy a következő könyvtár létezik, és írható a webszerver által, majd próbálkozz újra:<br />»<strong>%s</strong>',
 	'MAKE_FOLDERS_WRITABLE'		=> 'Kérünk, győződj meg róla, hogy a következő könyvtárak léteznek, és írhatóak a webszerver által, majd próbálkozz újra:<br />»<strong>%s</strong>',
 
+	'MYSQL_SCHEMA_UPDATE_REQUIRED'	=> 'A phpBB MySQL adatbázis-szerkezete elavult. A szerkezet MySQL 3.x/4.x-hez való, azonban a szerveren MySQL %2$s fut.<br /><strong>Mielőtt továbblépnél a fórum frissítéshez, frissítened kell az adatbázis szerkezetét.</strong><br /><br />Ennek mikéntjéről lásd az angol nyelvű <a href="http://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">útmutatót a MySQL szerkezet frissítéséről</a>. Ha problémába ütközöl, vedd igénybe a phpBB-t támogató fórumokat (legyen az a href="http://www.phpbb.com/community/viewforum.php?f=46">az angol</a> vagy a href="http://phpbb.hu/forum">a magyar</a>).',
+
 	'NAMING_CONFLICT'			=> 'Nevezési ütközés: a %s és a %s is fedőnév.<br /><br />%s', //?
 	'NEXT_STEP'					=> 'Tovább a következő lépésre', //? -hez?
 	'NOT_FOUND'					=> 'Nem található',
@@ -381,8 +383,9 @@ $lang = array_merge($lang, array(
 	'COLLECTED_INFORMATION_EXPLAIN'	=> 'Az alábbi lista információkat tartalmaz a frissítendő állományokról. Olvasd el a blokkok előtti magyarázó szöveget, hogy tudd milyen állományok tartoznak oda, és mit kell ezekkel tenned a sikeres frissítés érdekében.', //? "The list below shows information about the files needing an update. Please read the information in front of every status block to see what they mean and what you may need to do to perform a successful update."
 	'COLLECTING_FILE_DIFFS'			=> 'Állományok közötti különbségek összegyűjtése',
 	'COMPLETE_LOGIN_TO_BOARD'		=> 'Most <a href="../ucp.php?mode=login">lépj be a fórumon</a>, és ellenőrizd, hogy minden rendesen működik-e. Ne felejtsd el törölni, átnevezni vagy áthelyezni az install könyvtárat!',
-	'CONTINUE_UPDATE_NOW'			=> 'Frissítés folytatása most',
-	'CURRENT_FILE'					=> 'Jelenlegi eredeti állomány kezdete',
+	'CONTINUE_UPDATE_NOW'			=> 'Frissítési folyamat folytatása most',	// Shown within the database update script at the end if called from the updater
+	'CONTINUE_UPDATE'				=> 'Frissítés folytatása most',				// Shown after file upload to indicate the update process is not yet finished
+	'CURRENT_FILE'					=> 'Ütközés kezdete – frissítés előtti eredeti kód',
 	'CURRENT_VERSION'				=> 'Jelenlegi verzió',
 
 	'DATABASE_TYPE'						=> 'Adatbázis típusa',
@@ -392,7 +395,7 @@ $lang = array_merge($lang, array(
 	'DESTINATION'						=> 'Célállomány',
 	'DIFF_INLINE'						=> 'Inline', //? "Inline" állományközi, sorközi, hagyjuk az eredetit (aki ezt használja, úgyis tudja mit csinál)?
 	'DIFF_RAW'							=> 'Raw unified diff', //?
-	'DIFF_SEP_EXPLAIN'					=> 'Jelenlegi állomány vége / Új frissített állomány kezdete', //?
+	'DIFF_SEP_EXPLAIN'					=> 'Az új/frissített állomány kódja',
 	'DIFF_SIDE_BY_SIDE'					=> 'Side by Side',
 	'DIFF_UNIFIED'						=> 'Unified diff',
 	'DO_NOT_UPDATE'						=> 'Állomány frissítésének kihagyása', //? "Do not update this file"
@@ -400,6 +403,8 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD'							=> 'Letöltés',
 	'DOWNLOAD_AS'						=> 'Tömörítés', //? "Download as" az angol nem ez, de gyakorlatilag ezt jelenti
 	'DOWNLOAD_UPDATE_METHOD_BUTTON'		=> 'Módosított állományok letöltése (javasolt mód)',
+	'DOWNLOAD_CONFLICTS'				=> 'Ezen állomány ütközéseinek letöltése',
+	'DOWNLOAD_CONFLICTS_EXPLAIN'		=> 'Az ütközések megtalálásához keress &lt;&lt;&lt;-ra',
 	'DOWNLOAD_UPDATE_METHOD'			=> 'Megváltozott állományokat tartalmazó csomag letöltése',
 	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'Miután letöltötted a csomagot, tömörítsd ki. A csomagban található megváltozott állományokat töltsd fel a phpBB-d gyökérkönyvtárába, a megfelelő helyükre. Miután feltöltötted az összes állományt, vesd össze újra az állományokat a másik alábbi gomb segítségével.',
 
@@ -444,13 +449,13 @@ $lang = array_merge($lang, array(
 
 	'MERGE_NO_MERGE_NEW_OPTION'	=> 'Nincs egyesítés – új állomány használata', //? 'Nincs egyesítés' - ???
 	'MERGE_NO_MERGE_MOD_OPTION'	=> 'Nincs egyesítés – jelenleg fent lévő állomány használata', //? 'jelenlegi állomány'
-	'MERGE_MOD_FILE_OPTION'		=> 'Állományok egyesítése, ütköző részben a módosított kód használata',
-	'MERGE_NEW_FILE_OPTION'		=> 'Állományok egyesítése, ütköző részben az új állomány kódjának használata',
+	'MERGE_MOD_FILE_OPTION'		=> 'Állományok egyesítése, ütköző részben a módosított kód használata', //? megmaradt a régi angol verzió fordítása (3.0.5)
+	'MERGE_NEW_FILE_OPTION'		=> 'Állományok egyesítése, ütköző részben az új phpBB kód használata', //? megmaradt a régi angol verzió fordítása (3.0.5)
 	'MERGE_SELECT_ERROR'		=> 'Az ütközéseket tartalmazó állományok egyesítési módja nincs helyesen kiválasztva.', //?
 	'MERGING_FILES'				=> 'Különbségek egyesítése',
 	'MERGING_FILES_EXPLAIN'		=> 'A végső állományváltozások összegyűjtés alatt vannak.<br /><br />Kérünk, várj míg a phpBB elvégzi az összes műveletet a megváltozott állományokon.',
 
-	'NEW_FILE'						=> 'Új frissített állomány vége',
+	'NEW_FILE'						=> 'Ütközés vége',
 	'NEW_USERNAME'					=> 'Új felhasználónév',
 	'NO_AUTH_UPDATE'				=> 'Nincs jogosultságod a frissítéshez.',
 	'NO_ERRORS'						=> 'Nincs hiba',
