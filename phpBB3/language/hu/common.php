@@ -1,12 +1,12 @@
 <?php
-/** 
+/**
 *
 * common [Hungarian]
 *
 * @package language
 * @version $Id: common.php,v 1.68 2008/10/26 13:50:17 fberci Exp $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * Original copyright: (c) 2005 phpBB Group
 *
 */
@@ -265,7 +265,7 @@ $lang = array_merge($lang, array(
 
 
 	'ICQ'						=> 'ICQ',
-	'ICQ_STATUS'				=> 'ICQ állapot',	
+	'ICQ_STATUS'				=> 'ICQ állapot',
 	'IF'						=> 'Feltétel',
 	'IMAGE'						=> 'Kép',
 	'IMAGE_FILETYPE_INVALID'	=> 'A %d kiterjesztésű %s MIME típusú kép nem támogatott.',
@@ -336,7 +336,7 @@ $lang = array_merge($lang, array(
 	'MODERATORS'			=> 'Moderátorok',
 	'MONTH'					=> 'hónap',
 	'MOVE'					=> 'Áthelyezés',
-	'MSNM'					=> 'MSNM/WLM',	
+	'MSNM'					=> 'MSNM/WLM',
 
 	'NA'						=> 'N/A',
 	'NEWEST_USER'				=> 'Legújabb regisztrált tagunk: <strong>%s</strong>',
@@ -363,7 +363,7 @@ $lang = array_merge($lang, array(
 	'NO_AUTH_ADMIN_USER_DIFFER'	=> 'Nem azonosíthatod magad egy másik felhasználóként.',
 	'NO_AUTH_OPERATION'			=> 'Nincs meg a megfelelő jogosultságod ezen művelet elvégzéséhez.',
 	'NO_CONNECT_TO_SMTP_HOST'	=> 'Nem sikerült csatlakozni az SMTP szerverhez: %1$s : %2$s',
-	'NO_BIRTHDAYS'				=> 'Ma senkinek sincs születésnapja.', 
+	'NO_BIRTHDAYS'				=> 'Ma senkinek sincs születésnapja.',
 	'NO_EMAIL_MESSAGE'			=> 'Az e-mail üzenet üres.',
 	'NO_EMAIL_RESPONSE_CODE'	=> 'Nem jött válasz az e-mail szervertől.',
 	'NO_EMAIL_SUBJECT'			=> 'Nem adtad meg az e-mail témáját.',
@@ -611,7 +611,7 @@ $lang = array_merge($lang, array(
 	'TOTAL_PM'			=> 'Összesen 1 privát üzenet',
 	'TOTAL_PMS'			=> 'Összesen %d privát üzenet',
 	'TOTAL_POSTS'		=> 'Hozzászólások száma',
-	'TOTAL_POSTS_OTHER'	=> 'Hozzászólások száma: <strong>%d</strong>', 
+	'TOTAL_POSTS_OTHER'	=> 'Hozzászólások száma: <strong>%d</strong>',
 	'TOTAL_POSTS_ZERO'	=> 'Hozzászólások száma: <strong>0</strong>',
 	'TOPIC_REPORTED'	=> 'Jelentett téma',
 	'TOTAL_TOPICS_OTHER'=> 'Témák száma: <strong>%d</strong>',
@@ -688,7 +688,7 @@ $lang = array_merge($lang, array(
 	'YEAR'				=> 'év',
 	'YEAR_MONTH_DAY'	=> '(ÉÉÉÉ-HH-NN)',
 	'YES'				=> 'Igen',
-	'YIM'				=> 'YIM',	
+	'YIM'				=> 'YIM',
 	'YOU_LAST_VISIT'	=> 'Utolsó látogatás: %s',
 	'YOU_NEW_PM'		=> 'Új privát üzeneted érkezett.',
 	'YOU_NEW_PMS'		=> 'Új privát üzeneteid érkeztek.',
@@ -752,7 +752,7 @@ $lang = array_merge($lang, array(
 		'-7'	=> 'UTC − 7 óra',
 		'-6'	=> 'UTC − 6 óra',
 		'-5'	=> 'UTC − 5 óra',
-		'-4.5'	=> 'UTC - 4,5 óra',
+		'-4.5'	=> 'UTC − 4,5 óra',
 		'-4'	=> 'UTC − 4 óra',
 		'-3.5'	=> 'UTC − 3,5 óra',
 		'-3'	=> 'UTC − 3 óra',
@@ -796,7 +796,7 @@ $lang = array_merge($lang, array(
 		'-7'	=> '[UTC − 7] sziklás-hegységi zónaidő',
 		'-6'	=> '[UTC − 6] közép zónaidő',
 		'-5'	=> '[UTC − 5] keleti zónaidő',
-		'-4.5'	=> '[UTC - 4,5] venezuelai zónaidő',
+		'-4.5'	=> '[UTC − 4,5] venezuelai zónaidő',
 		'-4'	=> '[UTC − 4] atlanti zónaidő',
 		'-3.5'	=> '[UTC − 3,5] újfundlandi zónaidő',
 		'-3'	=> '[UTC − 3] amazoni zónaidő, közép-grönlandi idő',
