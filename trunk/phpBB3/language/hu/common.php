@@ -698,6 +698,11 @@ $lang = array_merge($lang, array(
 		'TODAY'		=> 'Ma, ',
 		'TOMORROW'	=> 'Holnap, ',
 		'YESTERDAY'	=> 'Tegnap, ',
+		'AGO'		=> array(
+			0		=> 'kevesebb mint egy perce',
+			1		=> '%d perccel ezelőtt',
+			60		=> '1 órával ezelőt',
+		),
 
 		'Sunday'	=> 'vasárnap',
 		'Monday'	=> 'hétfő',
