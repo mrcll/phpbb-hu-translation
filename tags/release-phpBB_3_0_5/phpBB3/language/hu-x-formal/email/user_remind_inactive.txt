@@ -1,0 +1,11 @@
+Subject: Inaktív azonosító figyelmeztetés
+
+Kedves {USERNAME}!
+
+A "{SITENAME}" oldalon {REGISTER_DATE}-kor ön regisztrált egy azonosítót. Ezt azóta sem aktiválta, mely követelmény, hogy be tudjon jelentkezni a fórumba. Az azonosítóját a következő linkre kattintva tudja aktiválni:
+
+{U_ACTIVATE}
+
+Köszönjük, hogy regisztrált a "{SITENAME}" oldalon, várjuk a közreműködését.
+
+{EMAIL_SIG}
