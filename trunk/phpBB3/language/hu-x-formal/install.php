@@ -473,8 +473,8 @@ $lang = array_merge($lang, array(
 	'OLD_UPDATE_FILES'		=> 'A frissítő állományok elavultak. A phpBB %1$s verzióról %2$s verzióra való frissítésre szolgálnak, de a phpBB legújabb verziója a %3$s.',
 
  	'PACKAGE_UPDATES_TO'				=> 'A jelenlegi csomag a következő verzióra frissít',
-	'PERFORM_DATABASE_UPDATE'			=> 'Adatbázisfrissítés végrehajtása',
-	'PERFORM_DATABASE_UPDATE_EXPLAIN'	=> 'Alább találsz egy linket az adatbázisfrissítő szkriptre. Az adatbázisfrissítés eltarthat egy ideig, tehát kérjük, ne állítsd le a szkript futattását, akkor se ha az megakadni látszik. Miután elvégezted az adatbázisfrissítést, zárd be az ablakot, és folytasd a frissítés folyamatát.',
+	'PERFORM_DATABASE_UPDATE'			=> 'Adatbázis-frissítés végrehajtása',
+	'PERFORM_DATABASE_UPDATE_EXPLAIN'	=> 'Alább találsz egy linket az adatbázis-frissítő szkriptre. Az adatbázis-frissítés eltarthat egy ideig, tehát kérjük, ne állítsd le a szkript futattását, akkor se, ha az megakadni látszik. Miután elvégezted az adatbázis-frissítést, zárd be az ablakot, és folytasd a frissítés folyamatát.',
 	'PREVIOUS_VERSION'					=> 'Előző verzió',
 	'PROGRESS'							=> 'Haladás', //?
 

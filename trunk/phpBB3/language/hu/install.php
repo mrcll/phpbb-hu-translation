@@ -380,7 +380,7 @@ $lang = array_merge($lang, array(
 	'CHECK_FILES_UP_TO_DATE'		=> 'Az adatbázisban lévő információk szerint a legújabb verziót használod. Most tanácsos továbblépned az állományok összevetéséhez, hogy megbizonyosodj róla, tényleg a legújabb verzióját futtatod a phpBB-nek.',//? "According to your database your version is up to date. You may want to proceed with the file check to make sure all files are really up to date with the latest phpBB version."
 	'CHECK_UPDATE_DATABASE'			=> 'Frissítés folytatása', //? "Continue update process"
 	'COLLECTED_INFORMATION'			=> 'Állomány információk',
-	'COLLECTED_INFORMATION_EXPLAIN'	=> 'Az alábbi lista információkat tartalmaz a frissítendő állományokról. Olvasd el a blokkok előtti magyarázó szöveget, hogy tudd milyen állományok tartoznak oda, és mit kell ezekkel tenned a sikeres frissítés érdekében.', //? "The list below shows information about the files needing an update. Please read the information in front of every status block to see what they mean and what you may need to do to perform a successful update."
+	'COLLECTED_INFORMATION_EXPLAIN'	=> 'Az alábbi lista információkat tartalmaz a frissítendő állományokról. Olvasd el a blokkok előtti magyarázó szöveget, hogy tudd, milyen állományok tartoznak oda, és mit kell ezekkel tenned a sikeres frissítés érdekében.', //? "The list below shows information about the files needing an update. Please read the information in front of every status block to see what they mean and what you may need to do to perform a successful update."
 	'COLLECTING_FILE_DIFFS'			=> 'Állományok közötti különbségek összegyűjtése',
 	'COMPLETE_LOGIN_TO_BOARD'		=> 'Most <a href="../ucp.php?mode=login">lépj be a fórumon</a>, és ellenőrizd, hogy minden rendesen működik-e. Ne felejtsd el törölni, átnevezni vagy áthelyezni az install könyvtárat!',
 	'CONTINUE_UPDATE_NOW'			=> 'Frissítési folyamat folytatása most',	// Shown within the database update script at the end if called from the updater
@@ -404,7 +404,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_AS'						=> 'Tömörítés', //? "Download as" az angol nem ez, de gyakorlatilag ezt jelenti
 	'DOWNLOAD_UPDATE_METHOD_BUTTON'		=> 'Módosított állományok letöltése (javasolt mód)',
 	'DOWNLOAD_CONFLICTS'				=> 'Ezen állomány ütközéseinek letöltése',
-	'DOWNLOAD_CONFLICTS_EXPLAIN'		=> 'Az ütközések megtalálásához keress &lt;&lt;&lt;-ra',
+	'DOWNLOAD_CONFLICTS_EXPLAIN'		=> 'Az ütközések megvizsgálásához keress a &lt;&lt;&lt;-re',
 	'DOWNLOAD_UPDATE_METHOD'			=> 'Megváltozott állományokat tartalmazó csomag letöltése',
 	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'Miután letöltötted a csomagot, tömörítsd ki. A csomagban található megváltozott állományokat töltsd fel a phpBB-d gyökérkönyvtárába, a megfelelő helyükre. Miután feltöltötted az összes állományt, vesd össze újra az állományokat a másik alábbi gomb segítségével.',
 
@@ -473,8 +473,8 @@ $lang = array_merge($lang, array(
 	'OLD_UPDATE_FILES'		=> 'A frissítő állományok elavultak. A phpBB %1$s verzióról %2$s verzióra való frissítésre szolgálnak, de a phpBB legújabb verziója a %3$s.',
 
  	'PACKAGE_UPDATES_TO'				=> 'A jelenlegi csomag a következő verzióra frissít',
-	'PERFORM_DATABASE_UPDATE'			=> 'Adatbázisfrissítés végrehajtása',
-	'PERFORM_DATABASE_UPDATE_EXPLAIN'	=> 'Alább találsz egy linket az adatbázisfrissítő szkriptre. Az adatbázisfrissítés eltarthat egy ideig, tehát kérjük, ne állítsd le a szkript futattását, akkor se ha az megakadni látszik. Miután elvégezted az adatbázisfrissítést, zárd be az ablakot, és folytasd a frissítés folyamatát.',
+	'PERFORM_DATABASE_UPDATE'			=> 'Adatbázis-frissítés végrehajtása',
+	'PERFORM_DATABASE_UPDATE_EXPLAIN'	=> 'Alább találsz egy linket az adatbázis-frissítő szkriptre. Az adatbázis-frissítés eltarthat egy ideig, tehát kérjük, ne állítsd le a szkript futattását, akkor se, ha az megakadni látszik. Miután elvégezted az adatbázis-frissítést, zárd be az ablakot, és folytasd a frissítés folyamatát.',
 	'PREVIOUS_VERSION'					=> 'Előző verzió',
 	'PROGRESS'							=> 'Haladás', //?
 
