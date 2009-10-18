@@ -4,7 +4,7 @@
 * mcp [Hungarian Formal]
 *
 * @package language
-* @version $Id: mcp.php,v 1.26 2008/10/26 13:50:17 fberci Exp $
+* @version $Id$
 * @copyright (c) 2009 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group

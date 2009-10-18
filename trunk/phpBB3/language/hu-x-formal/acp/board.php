@@ -4,7 +4,7 @@
 * acp_board [Hungarian]
 *
 * @package language
-* @version $Id: board.php,v 1.30 2008/10/25 18:22:50 fberci Exp $
+* @version $Id$
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group

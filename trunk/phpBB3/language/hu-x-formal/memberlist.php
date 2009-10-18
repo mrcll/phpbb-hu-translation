@@ -4,7 +4,7 @@
 * memberlist [Hungarian Formal]
 *
 * @package language
-* @version $Id: memberlist.php,v 1.19 2008/06/24 18:27:57 fberci Exp $
+* @version $Id$
 * @copyright (c) 2009 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group

@@ -4,7 +4,7 @@
 * help_faq [Hungarian]
 *
 * @package language
-* @version $Id: help_faq.php,v 1.21 2008/10/26 14:06:29 fberci Exp $
+* @version $Id$
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * Original copyright: (c) 2005 phpBB Group
