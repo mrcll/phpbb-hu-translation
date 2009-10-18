@@ -4,7 +4,7 @@
 * install [Hungarian]
 *
 * @package language
-* @version $Id: install.php,v 1.40 2008/10/26 13:50:17 fberci Exp $
+* @version $Id$
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -134,6 +134,7 @@ $lang = array_merge($lang, array(
 	'DB_PASSWORD'				=> 'Adatbázisjelszó',
 	'DB_PORT'					=> 'Adatbázisszerver portja',
 	'DB_PORT_EXPLAIN'			=> 'Hagyd üresen, hacsak nem tudod, hogy a szerver egy nem szabványos porton üzemel.',
+	'DB_UPDATE_NOT_SUPPORTED'	=> 'Sajnáljuk, de ez a szkript nem támogatja a phpBB „%1$s”-nél korábbi verzióról való frissítést. A jelenlegi telepítésed „%2$s” verziójú. Kérjük, ezen szkript futtatása előtt frissíts egy korábbi verzióra. Ebben segítségett kaphatsz a phpBB.com támogatás fórumában.',
 	'DB_USERNAME'				=> 'Adatbázis-felhasználónév',
 	'DB_TEST'					=> 'Kapcsolat tesztelése',
 	'DEFAULT_LANG'				=> 'Fórum alapértelmezett nyelve', //? alapértelmezett?
@@ -167,6 +168,7 @@ $lang = array_merge($lang, array(
 	'FILES_REQUIRED_EXPLAIN'	=> '<strong>Szükséges</strong> – A phpBB-nek a helyes működéshez hozzá kell tudnia férnie, illetve tudnia kell írnia néhány állományba vagy könyvtárba. Ha a „Nem található” feliratot látod, akkor létre kell hoznod a megfelelő állományt vagy könyvtárat. Ha a „Nem írható” feliratot látod, akkor meg kell változtatnod az adott állomány vagy könyvtár jogosultságát, hogy a phpBB írni tudjon bele.',
 	'FILLING_TABLE'				=> '<strong>%s</strong> tábla feltöltése',
 	'FILLING_TABLES'			=> 'Táblák feltöltése',
+	'FIREBIRD_DBMS_UPDATE_REQUIRED'		=> 'A phpBB már nem támogatja a 2.1-nél korábbi verziójú Firebird/Interbase adatbázisokat. Kérjük, a frissítés folytatása előtt frissítsd legalább 2.1-es verziójúra a Firebirdöt.',
 	'FINAL_STEP'				=> 'Végső lépés végrehajtása', //? "Process final step"
 	'FORUM_ADDRESS'				=> 'Fórum webcíme',
 	'FORUM_ADDRESS_EXPLAIN'		=> 'Az eredeti fórumod URL-je, például <samp>http://www.pelda.hu/phpBB2/</samp>. Ha megadod, ez a régi cím lecserélésre kerül az új webcímre a hozzászólásokban, a privát üzenetekben és az aláírásokban.',
@@ -185,11 +187,11 @@ $lang = array_merge($lang, array(
 	'INITIAL_CONFIG_EXPLAIN'	=> 'Ahhoz, hogy a phpBB működni tudjon, meg kell adnod néhány egyedi információt. Ha nem tudod, hogyan tudsz csatlakozni az adatbázisodhoz, kérünk, lépj kapcsolatba a tárhelyszolgáltatóddal, vagy fordulj a phpBB-t támogató fórumokhoz. Mielőtt bármilyen adatot megadsz, kérünk, alaposan győződj meg annak helyességéről.', //????? "Now that install has determined your server can run phpBB you need to supply some specific information. If you do not know how to connect to your database please contact your hosting provider (in the first instance) or use the phpBB support forums. When entering data please ensure you check it thoroughly before continuing." nincs értelme... vajon hol használhatják (szerintem sehol!)??
 	'INSTALL_CONGRATS'			=> 'Gratulálunk!',
 	'INSTALL_CONGRATS_EXPLAIN'	=> '
-		<p>Sikeresen telepítetted a phpBB %1$s-t. Most két dolgot tehetsz az újonnan telepített phpBB3-maddal:</p>
+		Sikeresen telepítetted a phpBB %1$s-t. Kérünk, a továbblépéshez válassz egy lehetőséget az alábbiak közül:</p>
 		<h2>Már meglévő fórum átkonvertálása</h2>
-		<p>A phpBB Egyesített Konvertáló Keretrendszer segítségével át lehet konvertálni phpBB 2.0.x-es vagy más fórummotort használó fórumokat phpBB3-massá. Ha át szeretnél konvertálni egy már meglévő fórumot, <a href="%2$s">lépj tovább a konvertálóhoz</a>.</p>
+		<p>A phpBB Egyesített Konvertáló Keretrendszer segítségével át lehet konvertálni phpBB 2.0.x-es vagy más fórummotort használó fórumokat phpBB3-assá. Ha át szeretnél konvertálni egy már meglévő fórumot, <a href="%2$s">lépj tovább a konvertálóhoz</a>.</p>
 		<h2>A fórum használatba vétele</h2>
-		<p>Az alábbi gombra kattintva az adminisztrátori vezérlőpultra jutsz. Szánj rá egy kis időt, és vizsgáld meg a beállítási lehetőségeket. Ne feledkezz meg róla, hogy a phpBB-vel kapcsolatban segítséget nyújt az angol <a href="http://www.phpbb.com/support/documentation/3.0/">Felhasználói kézikönyv</a> és a <a href="http://www.phpbb.com/phpBB/viewforum.php?f=46">phpbb.com megfelelő fóruma</a>; további információt a <a href="%3$s">README</a>-ben találsz.</p><p><strong>Most kérjük, töröld, helyezd át, vagy nevezd át az install könyvtárat, mert amíg ez a könyvtár létezik, csak az adminisztrátori vezérlőpult lesz elérhető.</strong></p>', //? teljes átfogalmazás... TODO (béta)
+		<p>Az alábbi gombra kattintva az adminisztrátori vezérlőpult (AVP) statisztikai adatok küldése oldalára jutsz. Nagyra értékelnénk, ha segítenél nekünk ezen információk elküldésével. Ezután szánj rá egy kis időt, és vizsgáld meg a beállítási lehetőségeket. Ne feledkezz meg róla, hogy a phpBB-vel kapcsolatban segítséget nyújt az angol <a href="http://www.phpbb.com/support/documentation/3.0/">Felhasználói kézikönyv</a> és a <a href="http://www.phpbb.com/phpBB/viewforum.php?f=46">phpBB.com támogatás fóruma</a>; további információt a <a href="%3$s">README</a>-ben találsz.</p><p><strong>Most kérjük, töröld, helyezd át vagy nevezd át az install könyvtárat, mert amíg ez a könyvtár létezik, csak az adminisztrátori vezérlőpult (AVP) lesz elérhető.</strong>',
 
 	'INSTALL_INTRO'				=> 'Üdvözlünk a telepítőben', //? "Welcome to Installation" 'Üdvözlünk a telepítésnél'
 	'INSTALL_INTRO_BODY'		=> 'Ezen menüpont segítségével feltelepítheted a phpBB3-mat a szerveredre.</p><p>A folytatás során szükséged lesz az adatbázis adatokra. Ha nem ismered ezeket, lépj kapcsolatba a tárhelyszolgáltatóddal, és tájékozódj róluk. Ezen adatok nélkül nem tudsz továbblépni. A következőkre lesz szükséged:</p>
@@ -208,7 +210,7 @@ $lang = array_merge($lang, array(
 		<li>MySQL 3.23 vagy újabb (MySQLi is támogatott)</li>
 		<li>PostgreSQL 7.3+</li>
 		<li>SQLite 2.8.2+</li>
-		<li>Firebird 2.0+</li>
+		<li>Firebird 2.1+</li>
 		<li>MS SQL Server 2000 vagy újabb (közvetlenül ODBC-n keresztül)</li>
 		<li>Oracle</li>
 	</ul>
@@ -230,7 +232,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_MYSQLI'		=> 'A kiszolgálón lévő MySQL nem kompatibilis a kiválasztott „MySQL MySQLi kiterjesztéssel” csatlakozási móddal. Kérjük, a „MySQL”-t válaszd ki.', //?
 	'INST_ERR_DB_NO_SQLITE'		=> 'Az SQLite kiterjesztés verziója túl régi, frissíteni kell legalább a 2.8.2-es verzióra.',
 	'INST_ERR_DB_NO_ORACLE'		=> 'A szerveren lévő Oracle verziója megköveteli, hogy a <var>NLS_CHARACTERSET</var> paraméter <var>UTF8</var>-ra legyen állítva. Frissítsd az Oracle verzióját legalább 9.2-esre, vagy változtasd meg a paraméter értékét.',
-	'INST_ERR_DB_NO_FIREBIRD'	=> 'A kiszolgálón lévő Firebird verziója régebbi, mint 2.0, kérünk, frissíts egy újabb verzióra. ', //? régebbi, mint 2.0??
+	'INST_ERR_DB_NO_FIREBIRD'	=> 'A kiszolgálón lévő Firebird verziója régebbi, mint 2.1, kérünk, frissíts egy újabb verzióra. ', //? régebbi, mint 2.0??
 	'INST_ERR_DB_NO_FIREBIRD_PS'=> 'A kiválasztott Firebird adatbázis „page size” értéke kisebb, mint 8192, legalább ennyinek kell lennie.',
 	'INST_ERR_DB_NO_POSTGRES'	=> 'A kiválasztott adatbázis nem <var>UNICODE</var> vagy <var>UTF8</var> karakterkódolással került létrehozásra. Próbáld meg a telepítést egy <var>UNICODE</var> vagy <var>UTF8</var> karakterkódolású adatbázissal. ', //? "The database you have selected was not created in <var>UNICODE</var> or <var>UTF8</var> encoding. Try installing with a database in <var>UNICODE</var> or <var>UTF8</var> encoding" próbáld meg a telepítést??
 	'INST_ERR_DB_NO_NAME'		=> 'Nem adtad meg az adatbázis nevét.',
@@ -366,7 +368,7 @@ $lang = array_merge($lang, array(
 
 // Updater
 $lang = array_merge($lang, array(
-	'ALL_FILES_UP_TO_DATE'		=> 'Az összes állomány megfelel a legújabb verziójú phpBB csomagnak. <a href="../ucp.php?mode=login">Lépj be a fórumon</a>, és ellenőrizd, hogy minden rendesen működik-e. Ne felejtsd el törölni, átnevezni vagy áthelyezni az install könyvtárat!', //? naprakész; hol használják - frissítésre került?
+	'ALL_FILES_UP_TO_DATE'		=> 'Az összes állomány megfelel a legújabb verziójú phpBB csomagnak. Most <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=send_statistics">lépj be a fórumon</a>, és ellenőrizd, hogy minden rendesen működik-e. Ne felejtsd el törölni, átnevezni vagy áthelyezni az install könyvtárat! Kérünk, küldj friss adatokat a szerver és fórum beállításaidról az AVP <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=send_statistics">statisztikai adatok küldése</a> oldaláról!', //? naprakész; hol használják - frissítésre került?
 	'ARCHIVE_FILE'				=> 'Csomagbeli forrásállomány', //??? "Source file within archive" hasonló - szövegezés/megfogalmazás (wording) korántsem tökéletes
 
 	'BACK'				=> 'Vissza',
@@ -468,7 +470,7 @@ $lang = array_merge($lang, array(
 	'NO_VISIBLE_CHANGES'			=> 'Nincs látható változás.',
 	'NOTICE'						=> 'Észrevétel', //? megjegyzés, figyelmeztetés, értesítés
 	'NUM_CONFLICTS'					=> 'Ütközések száma',
-	'NUMBER_OF_FILES_COLLECTED'		=> 'Jelenleg körülbelül %1$d állomány különbségei kerültek ellenőrzésre a %2$d-ből.<br />Kérünk, várj míg az összes állomány ellenőrzése befejeződik.',
+	'NUMBER_OF_FILES_COLLECTED'		=> 'Jelenleg %1$d állomány különbségei kerültek ellenőrzésre a %2$d-ből.<br />Kérünk, várj míg az összes állomány ellenőrzése befejeződik.',
 
 	'OLD_UPDATE_FILES'		=> 'A frissítő állományok elavultak. A phpBB %1$s verzióról %2$s verzióra való frissítésre szolgálnak, de a phpBB legújabb verziója a %3$s.',
 
@@ -561,14 +563,15 @@ $lang = array_merge($lang, array(
 	'USER_ACTIVE'					=> 'Aktív felhasználó',
 	'USER_INACTIVE'					=> 'Inaktív felhasználó',
 
-	'VERSION_CHECK'				=> 'Verzió ellenőrzés',
-	'VERSION_CHECK_EXPLAIN'		=> 'Itt ellenőrzésre kerül, hogy a jelenleg futó phpBB a legfrissebb-e.', //?
-	'VERSION_NOT_UP_TO_DATE'	=> 'A phpBB-d verziója nem a legújabb. Kérünk, folytasd a frissítést.',
-	'VERSION_NOT_UP_TO_DATE_ACP'=> 'A phpBB-d verziója nem a legújabb.<br />Alább találsz egy linket az új verziót bejelentő közleményre és instrukciókat a frissítés elvégzéséhez.', //?
-	'VERSION_UP_TO_DATE'		=> 'A phpBB-d a legfrissebb verziójú, nem érhető el hozzá frissítés. Mindenesetre  továbbléphetsz, és leellenőrizheted az állományokat.', //?
-	'VERSION_UP_TO_DATE_ACP'	=> 'A phpBB-d a legfrissebb verziójú, nem érhető el hozzá frissítés. Nem kell frissítened a fórumod.',
-	'VIEWING_FILE_CONTENTS'		=> 'Állomány tartalmának megtekintése', //? "Viewing file contents" 'Állomány-tartalom'
-	'VIEWING_FILE_DIFF'			=> 'Állománykülönbségek megtekintése', //? "Viewing file differences" 'Különbségek megtekintése'
+	'VERSION_CHECK'					=> 'Verzió ellenőrzés',
+	'VERSION_CHECK_EXPLAIN'			=> 'Itt ellenőrzésre kerül, hogy a phpBB-d a legfrissebb verziójú-e.', //?
+	'VERSION_NOT_UP_TO_DATE'		=> 'A phpBB-d verziója nem a legújabb. Kérünk, folytasd a frissítést.',
+	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'A phpBB-d verziója nem a legújabb.<br />Alább találsz egy linket az új verziót bejelentő közleményre és instrukciókat a frissítés elvégzéséhez.', //?
+	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'A phpBB-d nem a legfrissebb verziójú.',
+	'VERSION_UP_TO_DATE'			=> 'A phpBB-d a legfrissebb verziójú. Annak ellenére, hogy nem érhető el hozzá frissítés, továbbléphetsz, és leellenőrizheted az állományokat.', //?
+	'VERSION_UP_TO_DATE_ACP'		=> 'A phpBB-d a legfrissebb verziójú. Nem érhető el hozzá frissítés.',
+	'VIEWING_FILE_CONTENTS'			=> 'Állomány tartalmának megtekintése', //? "Viewing file contents" 'Állomány-tartalom'
+	'VIEWING_FILE_DIFF'				=> 'Állománykülönbségek megtekintése', //? "Viewing file differences" 'Különbségek megtekintése'
 
 	'WRONG_INFO_FILE_FORMAT'	=> 'Hibás információsállomány-formátum',
 ));
