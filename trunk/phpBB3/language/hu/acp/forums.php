@@ -45,9 +45,12 @@ $lang = array_merge($lang, array(
 	'AUTO_PRUNE_VIEWED'			=> 'Automatikus megtisztítás utolsó megtekintés ideje alapján', //?
 	'AUTO_PRUNE_VIEWED_EXPLAIN'	=> 'A téma az utolsó megtekintés után ennyi nap elteltével kerül eltávolításra.',
 
+	'CONTINUE'						=> 'Folytatás',
 	'COPY_PERMISSIONS'				=> 'Jogosultságok másolása',
+	'COPY_PERMISSIONS_EXPLAIN'		=> 'Az új fórum jogosultságbeállításának megkönnyítése érdekében a jogosultságokat egy az egyben átmásolhatod egy másik fórumról.',
 	'COPY_PERMISSIONS_ADD_EXPLAIN'	=> 'A létrehozás után a fórum ugyanazokkal a jogosultságokkal fog rendelkezni, mint az itt kiválasztott. Ha nem választasz ki fórumot, az újonnan létrehozott fórum nem lesz látható, amíg be nem állítod a rá vonatkozó jogosultságokat.',
 	'COPY_PERMISSIONS_EDIT_EXPLAIN'	=> 'Ha kiválasztasz egy fórumot, a fórum ugyanazokkal a jogosultságokkal fog rendelkezni, mint az itt kiválasztott. Ezzel az összes korábban beállított jogosultság felülírásra kerül a kiválasztott fórum jogosultságaival. Ha nem választasz ki fórumot, a jelenlegi jogosultságok lesznek megtartva.',
+	'COPY_TO_ACL'					=> 'Vagy %súj jogosultságokat is beállíthatsz%s a fórumnak.',
 	'CREATE_FORUM'					=> 'Új fórum létrehozása',
 
 	'DECIDE_MOVE_DELETE_CONTENT'		=> 'Tartalom törlése vagy áthelyezése másik fórumba',
@@ -63,6 +66,8 @@ $lang = array_merge($lang, array(
 	'ENABLE_INDEXING_EXPLAIN'		=> 'Ha igenre van állítva, a fórum hozzászólásai indexelésre kerülnek a kereséshez.',
 	'ENABLE_POST_REVIEW'			=> 'Hozzászólás-újraáttekintés bekapcsolása', //? felülviszgálat
 	'ENABLE_POST_REVIEW_EXPLAIN'	=> 'Ha igenre van állítva, és egy hozzászólás írása közben másvalaki új üzenetet ír a témába, a felhasználó az elküldés előtt újra áttekintheti a hozzászólását annak fényében. Csevegő fórumoknál ajánlott kikapcsolni.',
+	'ENABLE_QUICK_REPLY'			=> 'Gyorsválasz bekapcsolása',
+	'ENABLE_QUICK_REPLY_EXPLAIN'	=> 'Ha igenre van állítva, a fórumban meg fog jelenni a gyorsválasz doboz. Ha a gyorsválasz funkció globálisan ki van kapcsolva, vagy a fórumba nem lehet írni, akkor a gyorsválasz doboz se fog megjelenni.',
 	'ENABLE_RECENT'					=> 'Aktív témák megjelenítése',
 	'ENABLE_RECENT_EXPLAIN'			=> 'Ha igenre van állítva, az ebbe a fórumba beküldött témák az aktív témák között is megjelennek.',
 	'ENABLE_TOPIC_ICONS'			=> 'Téma ikonok bekapcsolása',

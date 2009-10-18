@@ -49,6 +49,8 @@ $lang = array_merge($lang, array(
 	'BAN_REASON'			=> 'Kitiltás oka',
 	'BAN_GIVE_REASON'		=> 'Kitiltottnak megjelenő ok',
 	'BAN_UPDATE_SUCCESSFUL'	=> 'A kitiltottak listája sikeresen frissítésre került.',
+	'BANNED_UNTIL_DATE'		=> '%s-ig', // Example: "until Mon 13.Jul.2009, 14:44"
+	'BANNED_UNTIL_DURATION'	=> '%1$s (%2$s-ig)', // Example: "7 days (until Tue 14.Jul.2009, 14:44)" //? '%1$sig (%2$s-ig)'
 
 	'EMAIL_BAN'					=> 'E-mail címek kitiltása',
 	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Ha igenre állítod, a megadott e-mail címek minden jelenlegi kitiltás alól mentesítve lesznek.', //?
