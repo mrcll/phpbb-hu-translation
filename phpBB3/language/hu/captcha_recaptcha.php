@@ -4,7 +4,7 @@
 * recaptcha [Hungarian]
 *
 * @package language
-* @version $Id: captcha_recaptcha.php 9933 2009-08-06 09:12:21Z marshalrusty $
+* @version $Id$
 * @copyright (c) 2009 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * Original copyright: (c) 2009 phpBB Group

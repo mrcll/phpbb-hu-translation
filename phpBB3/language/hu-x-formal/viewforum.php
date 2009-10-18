@@ -4,7 +4,7 @@
 * viewforum [Hungarian Formal]
 *
 * @package language
-* @version $Id: viewforum.php,v 1.9 2008/04/07 18:32:13 fberci Exp $
+* @version $Id$
 * @copyright (c) 2009 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group

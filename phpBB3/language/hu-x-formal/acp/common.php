@@ -4,7 +4,7 @@
 * acp common [Hungarian]
 *
 * @package language
-* @version $Id: common.php,v 1.32 2008/11/09 18:44:14 fberci Exp $
+* @version $Id$
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
