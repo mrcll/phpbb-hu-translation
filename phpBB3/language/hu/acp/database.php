@@ -55,6 +55,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_BACKUP'	=> 'Kimentés letöltése',
 
 	'FILE_TYPE'			=> 'Állomány típusa',
+	'FILE_WRITE_FAIL'	=> 'Az állományt nem sikerült elmenteni a tárolási könyvtárba.',
 	'FULL_BACKUP'		=> 'Teljes',
 
 	'RESTORE_FAILURE'		=> 'A kimentés állomány lehet, hogy megfertőzött.', //? corrupt?

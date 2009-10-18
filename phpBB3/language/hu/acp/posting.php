@@ -178,6 +178,8 @@ $lang = array_merge($lang, array(
 	'SMILIES_URL'				=> 'Emotikon képállomány',
 	'SMILIES_WIDTH'				=> 'Emotikon szélesség',
 
+	'TOO_MANY_SMILIES'			=> 'A %d emotikonos korlát elérésre került.',
+
 	'WRONG_PAK_TYPE'	=> 'A megadott csomag nem tartalmazza a megfelelő adatokat.',
 ));
 
@@ -215,6 +217,7 @@ $lang = array_merge($lang, array(
 	'RANK_ADDED'			=> 'A rang sikeresen hozzáadásra került.',
 	'RANK_IMAGE'			=> 'Rang kép',
 	'RANK_IMAGE_EXPLAIN'	=> 'Ezzel a ranghoz egy kis képet lehet társítani. Az elérési út relatív, a phpBB gyökérkönyvtárától viszonyított.',
+	'RANK_IMAGE_IN_USE'		=> '(használatban)',
 	'RANK_MINIMUM'			=> 'Minimum hozzászólásszám',
 	'RANK_REMOVED'			=> 'A rang sikeresen törlésre került.',
 	'RANK_SPECIAL'			=> 'Speciális rang',
