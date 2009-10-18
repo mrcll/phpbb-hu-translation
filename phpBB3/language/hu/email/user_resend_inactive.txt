@@ -8,7 +8,7 @@ Kérünk, tartsd meg ezt az üzenetet a továbbiakban. Az azonosítód adatai a 
 Felhasználónév: {USERNAME}
 ----------------------------
 
-A jelszavad titkosítva került eltárolásra az adatbázisban. Amennyiben megfeledkezel róla, újat kérhetsz, de azt ugyanilyan módon ismét aktiválnod kell majd.
+A jelszavad biztonságosan került eltárolásra az adatbázisunkban, így nincs mód a kiderítésére. Ha esetleg mégis elfelejtenéd, akkor az azonosítódhoz társított e-mail cím segítségével igényelhetsz egy újat.
 
 Az azonosítód a következő linkre kattintva aktiválhatod:
 

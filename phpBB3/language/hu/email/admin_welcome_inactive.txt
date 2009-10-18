@@ -6,7 +6,6 @@ Subject: Üdvözülünk a "{SITENAME}" fórumon
 
 ----------------------------
 Felhasználónév: {USERNAME}
-Jelszó: {PASSWORD}
 
 Fórum URL: {U_BOARD}
 ----------------------------

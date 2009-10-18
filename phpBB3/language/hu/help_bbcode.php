@@ -79,6 +79,11 @@ $help = array(
 		0 => 'Rendezett lista készítése',
 		1 => 'A második típusú listánál, a rendezett listánál már azt is meghatározhatod, hogy mi kerüljön minden elem elé. Rendezett lista készítéséhez a <strong>[list=1][/list]</strong> címke használható – ez számozott lesz, de más paraméter megadásával betűkkel jelölt listát is készíthetsz (<strong>[list=a][/list]</strong>). A rendezetlen listához hasonlóan, az egyes elemeket itt is a <strong>[*]</strong> címke használatával kell definiálni. Például:<br /><br /><strong>[list=1]</strong><br /><strong>[*]</strong>elmenni a boltba<br /><strong>[*]</strong>új számítógépet vásárolni<br /><strong>[*]</strong>rácsapni a gépre, ha lefagy<br /><strong>[/list]</strong><br /><br />eredménye a következő:<ol style="list-style-type: decimal;"><li>elmenni a boltba</li><li>új számítógépet vásárolni</li><li>rácsapni a gépre, ha lefagy</li></ol>Így néz ki egy betűkkel jelölt lista:<br /><br /><strong>[list=a]</strong><br /><strong>[*]</strong>az első lehetséges válasz<br /><strong>[*]</strong>a második lehetséges válasz<br /><strong>[*]</strong>a harmadik lehetséges válasz<br /><strong>[/list]</strong><br /><br />megjelenítve:<ol style="list-style-type: lower-alpha"><li>az első lehetséges válasz</li><li>a második lehetséges válasz</li><li>a harmadik lehetséges válasz</li></ol>'
 	),
+	// This block will switch the FAQ-Questions to the second template column
+	array(
+		0 => '--',
+		1 => '--'
+	),
 	array(
 		0 => '--',
 		1 => 'Hivatkozások készítése'
