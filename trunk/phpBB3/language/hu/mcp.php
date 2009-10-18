@@ -47,6 +47,7 @@ $lang = array_merge($lang, array(
 	'ALL_NOTES_DELETED'		=> 'Az összes felhasználói megjegyzés sikeresen törlésre került.', //? "Successfully removed all user notes"
 	'ALL_REPORTS'			=> 'Összes jelentés',
 	'ALREADY_REPORTED'		=> 'A hozzászólás már jelentették.',
+	'ALREADY_REPORTED_PM'	=> 'A privát üzenetet már jelentették.',
 	'ALREADY_WARNED'		=> 'Egy figyelmeztetés már kiosztásra került ennek a hozzászólásnak kapcsán.', //? kiosztás? "A warning has already been issued for this post"
 	'APPROVE'				=> 'Jóváhagyás',
 	'APPROVE_POST'			=> 'Hozzászólás jóváhagyása',
@@ -59,11 +60,19 @@ $lang = array_merge($lang, array(
 	'CANNOT_WARN_SELF'		=> 'Nem figyelmeztetheted saját magad.',
 	'CAN_LEAVE_BLANK'		=> 'Ez üresen hagyható.',
 	'CHANGE_POSTER'			=> 'Küldő megváltoztatása',
+	'CLOSE_PM_REPORT'		=> 'PÜ jelentés lezárása',
+	'CLOSE_PM_REPORT_CONFIRM'	=> 'Biztosan le akarod zárni a kiválasztott PÜ jelentést?',
+	'CLOSE_PM_REPORTS'		=> 'PÜ jelentések lezárása',
+	'CLOSE_PM_REPORTS_CONFIRM'	=> 'Biztosan le akarod zárni a kiválasztott PÜ jelentéseket?',
 	'CLOSE_REPORT'			=> 'Jelentés lezárása',
 	'CLOSE_REPORT_CONFIRM'	=> 'Biztosan le akarod zárni a kiválasztott jelentést?',
 	'CLOSE_REPORTS'			=> 'Jelentések lezárása',
 	'CLOSE_REPORTS_CONFIRM'	=> 'Biztosan le akarod zárni a kiválasztott jelentéseket?',
 
+	'DELETE_PM_REPORT'			=> 'PÜ jelentés törlése',
+	'DELETE_PM_REPORT_CONFIRM'	=> 'Biztosan törölni akarod a kiválasztott PÜ jelentést?',
+	'DELETE_PM_REPORTS'			=> 'PÜ jelentések törlése',
+	'DELETE_PM_REPORTS_CONFIRM'	=> 'Biztosan törölni akarod a kiválasztott PÜ jelentéseket?',
 	'DELETE_POSTS'				=> 'Hozzászólások törlése',
 	'DELETE_POSTS_CONFIRM'		=> 'Biztosan törölni akarod ezeket a hozzászólásokat?',
 	'DELETE_POST_CONFIRM'		=> 'Biztosan törölni akarod ezt a hozzászólást?',
@@ -107,6 +116,7 @@ $lang = array_merge($lang, array(
 
 	'LATEST_LOGS'				=> 'Legutóbbi 5 naplózott művelet', //? "Latest 5 logged actions" naplózott-feljegyzett?
 	'LATEST_REPORTED'			=> 'Legutóbbi 5 jelentés',
+	'LATEST_REPORTED_PMS'		=> 'Legutóbbi 5 PÜ jelentés',
 	'LATEST_UNAPPROVED'			=> 'Legutóbbi 5 jóváhagyásra váró hozzászólás',
 	'LATEST_WARNING_TIME'		=> 'Legutóbbi figyelmeztetések',
 	'LATEST_WARNINGS'			=> 'Legutóbbi 5 figyelmeztetés',
@@ -171,10 +181,17 @@ $lang = array_merge($lang, array(
 
 	'MCP_POST_REPORTS'				=> 'Hozzászóláshoz kapcsolódó jelentések', //? nem csak kapcsolódó
 
-	'MCP_REPORTS'					=> 'Jelentett hozzászólások', //? 'Jelentések' - ez nem jobb?
+	'MCP_PM_REPORTS'				=> 'Jelentett PÜ-k',
+	'MCP_PM_REPORT_DETAILS'			=> 'PÜ jelentés részletek',
+	'MCP_PM_REPORTS_CLOSED'			=> 'Lezárt PÜ jelentések',
+	'MCP_PM_REPORTS_CLOSED_EXPLAIN'	=> 'Ez a lista azokat a privát üzenet jelentéseket tartalmazza, melyek már lezárásra kerültek.', //? lezárás? megoldás?
+	'MCP_PM_REPORTS_OPEN'			=> 'Nyitott PÜ jelentések',
+	'MCP_PM_REPORTS_OPEN_EXPLAIN'	=> 'Ez a lista azokat a privát üzenet jelentéseket tartalmazza, melyek még megoldásra várnak.',
+
+	'MCP_REPORTS'					=> 'Jelentett üzenetek',
 	'MCP_REPORT_DETAILS'			=> 'Részletes jelentés', //?
 	'MCP_REPORTS_CLOSED'			=> 'Lezárt jelentések',
-	'MCP_REPORTS_CLOSED_EXPLAIN'	=> 'Ez a lista azokat a jelentéseket tartalmazza, melyek már megoldásra kerültek.', //? megoldás?
+	'MCP_REPORTS_CLOSED_EXPLAIN'	=> 'Ez a lista azokat a jelentéseket tartalmazza, melyek már lezárásra kerültek.', //? lezárás? megoldás?
 	'MCP_REPORTS_OPEN'				=> 'Nyitott jelentések',
 	'MCP_REPORTS_OPEN_EXPLAIN'		=> 'Ez a lista azokat a jelentéseket tartalmazza, melyek még megoldásra várnak.', //?
 
@@ -233,6 +250,14 @@ $lang = array_merge($lang, array(
 	'ONLY_TOPIC'			=> 'Csak a „%s” téma', //? témából stb.? (Moderálandóknál)
 	'OTHER_USERS'			=> 'Más erről az IP-ről hozzászóló felhasználók',
 
+	'PM_REPORT_CLOSED_SUCCESS'	=> 'A kiválasztott PÜ jelentés sikeresen lezárásra került.',
+	'PM_REPORT_DELETED_SUCCESS'	=> 'A kiválasztott PÜ jelentés sikeresen törlésre került.',
+	'PM_REPORTED_SUCCESS'		=> 'A privát üzenet sikeresen jelentésre került.',
+	'PM_REPORT_TOTAL'			=> 'Összesen <strong>1</strong> áttekintésre váró PÜ jelentés van.',
+	'PM_REPORTS_TOTAL'			=> 'Összesen <strong>%d</strong> áttekintésre váró PÜ jelentés van.',
+	'PM_REPORTS_ZERO_TOTAL'		=> 'Nincs áttekintésre váró PÜ jelentés.',
+	'PM_REPORT_DETAILS'			=> 'Privát üzenet jelentés részletek',
+
 	'POSTER'					=> 'Küldő',
 	'POSTS_APPROVED_SUCCESS'	=> 'A kiválasztott hozzászólások jóváhagyásra kerültek.',
 	'POSTS_DELETED_SUCCESS'		=> 'A kiválasztott hozzászólások sikeresen eltávolításra kerültek az adatbázisból.',
@@ -265,7 +290,7 @@ $lang = array_merge($lang, array(
 	'REPORT_DELETED_SUCCESS'	=> 'A kiválasztott jelentés sikeresen törlésre került.',
 	'REPORT_DETAILS'			=> 'Jelentés részletek', //? jelentés részletek, részletes jelentés, jelentés adatai??
 	'REPORT_MESSAGE'			=> 'Üzenet jelentése', //? ezt se találom... (az eggyel alább lévővel együtt)
-	'REPORT_MESSAGE_EXPLAIN'	=> 'Ennek az űrlapnak a segítségével a kiválasztott üzenetet jelentheted. A jelentés csak arra az esetre való, ha az üzenet megszegi a fórum szabályait.', //? "Use this form to report the selected message to the board administrators. Reporting should generally be used only if the message breaks forum ruless." 'Csak akkor jelents...'?
+	'REPORT_MESSAGE_EXPLAIN'	=> 'Ennek az űrlapnak a segítségével a kiválasztott privát üzenetet jelentheted. Jelentés csak akkor teendő, ha az üzenet megszegi a fórum szabályait. <strong>A privát üzenet tartalma a jelentéstétel következtében látható lesz a moderátoroknak.</strong>', //? 'Csak akkor jelents...'?
 	'REPORT_NOTIFY'				=> 'Értesítés', //? "Notify me" az engem ebből kimaradt...
 	'REPORT_NOTIFY_EXPLAIN'		=> 'Kapjál-e értesítést, ha a jelentéssel foglalkoztak.', //? "Informs you when your report is dealt with" foglalkoznak?
 	'REPORT_POST_EXPLAIN'		=> 'Ennek az űrlapnak a segítségével a kiválasztott hozzászólást jelentheted a fórum adminisztrátorainak. A jelentés csak arra az esetre való, ha a hozzászólás megszegi a fórum szabályait.',
@@ -276,6 +301,7 @@ $lang = array_merge($lang, array(
 	'RETURN_MESSAGE'			=> '%sVissza az üzenethez%s',
 	'RETURN_NEW_FORUM'			=> '%sTovább az új fórumhoz%s',
 	'RETURN_NEW_TOPIC'			=> '%sTovább az új témához%s',
+	'RETURN_PM'					=> '%sVissza a privát üzenethez%s',
 	'RETURN_POST'				=> '%sVissza a hozzászóláshoz%s',
 	'RETURN_QUEUE'				=> '%sVissza a moderálandókhoz%s',
 	'RETURN_REPORTS'			=> '%sVissza a jelentésekhez%s',
@@ -347,6 +373,7 @@ $lang = array_merge($lang, array(
 	'USER_WARNING_ADDED'			=> 'A felhasználó sikeresen figyelmeztetésre került.',
 
 	'VIEW_DETAILS'			=> 'Részletek megtekintése', //? a korábbi adatok stb. probléma
+	'VIEW_PM'				=> 'Privát üzenet megtekintése',
 	'VIEW_POST'				=> 'Hozzászólás megtekintése',
 
 	'WARNED_USERS'			=> 'Figyelmeztetett felhasználók',
@@ -366,10 +393,10 @@ $lang = array_merge($lang, array(
 			'OTHER'		=> 'Egyéb', //? 'Más'?
 		),
 		'DESCRIPTION' => array(
-			'WAREZ'		=> 'A hozzászólás linket tartalmaz illegális vagy kalóz szoftverre.', //? fogalmzás, szórend stb. kell pont?
-			'SPAM'		=> 'A hozzászólás egyetlen célja egy weboldal vagy egy termék reklámozása.',
-			'OFF_TOPIC'	=> 'A hozzászólás nem kapcsolódik a témához.',
-			'OTHER'		=> 'A hozzászólás nem tartozik semelyik másik kategóriába, kérjük, töltsd ki a további információ mezőt.' //? idézőjelek a további információ köré (+ esetleg további információk)?
+			'WAREZ'		=> 'Az üzenet linket tartalmaz illegális vagy kalóz szoftverre.', //? fogalmzás, szórend stb. kell pont?
+			'SPAM'		=> 'Az üzenet egyetlen célja egy weboldal vagy egy termék reklámozása.',
+			'OFF_TOPIC'	=> 'Az üzenet nem kapcsolódik a témához.',
+			'OTHER'		=> 'Az üzenet nem tartozik semelyik másik kategóriába, kérjük, töltsd ki a további információ mezőt.' //? idézőjelek a további információ köré (+ esetleg további információk)?
 		)
 	),
 ));

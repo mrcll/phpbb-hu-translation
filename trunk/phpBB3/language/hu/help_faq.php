@@ -203,6 +203,11 @@ $help = array(
 		0 => 'Mik azok a téma ikonok?',
 		1 => 'A téma ikonok kis képek, melyeket a küldő társít a hozzászólásához jelképezve annak tartalmát. A téma ikonok használatának lehetősége az adminisztrátortól függ.'
 	),
+	// This block will switch the FAQ-Questions to the second template column
+	array(
+		0 => '--',
+		1 => '--'
+	),
 	array(
 		0 => '--',
 		1 => 'Felhasználói szintek és csoportok'
