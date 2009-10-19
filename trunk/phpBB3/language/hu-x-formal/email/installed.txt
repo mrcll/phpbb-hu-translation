@@ -4,17 +4,16 @@ Gratulálunk!
 
 Ön sikeresen telepítette a phpBB-t a szerverére.
 
-Ez az e-mail fontos információkat tartalmaz az épp telepített fórumról, gondosan őrizze meg. A jelszót ne felejtse el, mert az adatbázisban kódolva szerepel, így nincs mód a későbbiekben a kiderítésére. Ha esetleg mégis elfelejtené, akkor a belépési oldalon új jelszót kell igényelnie.
+Ez az e-mail fontos információkat tartalmaz az épp telepített fórumról, gondosan őrizze meg. A jelszava biztonságosan került eltárolásra az adatbázisunkban, így nincs mód a kiderítésére. Ha esetleg mégis elfelejtené, akkor az azonosítójához társított e-mail cím segítségével igényelhet egy újat.
 
 ----------------------------
 Felhasználónév: {USERNAME}
-Jelszó: {PASSWORD}
 
 Fórum URL: {U_BOARD}
 ----------------------------
 
 További hasznos információkat és a dokumentációt megtalálja a fórumja "docs" könyvtárában vagy a phpBB.com felhasználói segítségnyújtási oldalán a következő linken: http://www.phpbb.com/support/
 
-Annak érdekében, hogy a fóruma biztonságos legyen, kimondottan javasolt, hogy a további szoftverfrissítésekről mindig hamar tájékozódjon, melyet könnyen megtehet, ha regisztrál a phpBB.com hírlevelére. Ezt megteheti a fenti linken.
+Annak érdekében, hogy a fóruma biztonságos legyen, kimondottan javasoljuk, hogy tartson lépést a frissítésekkel. Ennek megkönnyítése érdekében a fenti oldalon feliratkozhat egy levelezőlistára.
 
 {EMAIL_SIG}

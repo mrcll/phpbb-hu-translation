@@ -1,4 +1,4 @@
-Subject:  Üdvözlünk a "{SITENAME}" fórumon!
+Subject: Üdvözlünk a "{SITENAME}" fórumon!
 
 {WELCOME_MSG}
 
@@ -10,7 +10,7 @@ Felhasználónév: {USERNAME}
 Fórum URL: {U_BOARD}
 ----------------------------
 
-Az azonosítód a következő linkre kattintva aktiválhatod:
+Az azonosítód jelenleg inaktív. A következő linkre kattintva aktiválhatod:
 
 {U_ACTIVATE}
 

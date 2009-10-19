@@ -1,4 +1,4 @@
-Subject: Üdvözülünk a "{SITENAME}" fórumon
+Subject: Üdvözlünk a "{SITENAME}" fórumon
 
 {WELCOME_MSG}
 
@@ -12,7 +12,7 @@ Fórum URL: {U_BOARD}
 
 A felhasználói azonosítód jelenleg inaktív, használatba vétele előtt a fórum adminisztrátorának aktiválnia kell. Amint megtörtént, egy másik értesítőt fogsz erről kapni e-mailben.
 
-A jelszót ne felejtsd el, mert az adatbázisunkban kódolva szerepel, így nincs mód a későbbiekben a kiderítésére. Ha esetleg mégis elfelejtenéd, akkor a belépési oldalon új jelszót kell igényelned, amelyet hasonlóképpen aktiválni kell használat előtt, mint most.
+A jelszavad biztonságosan került eltárolásra az adatbázisunkban, így nincs mód a kiderítésére. Ha esetleg mégis elfelejtenéd, akkor az azonosítódhoz társított e-mail cím segítségével igényelhetsz egy újat.
 
 Köszönjük, hogy regisztráltál!
 

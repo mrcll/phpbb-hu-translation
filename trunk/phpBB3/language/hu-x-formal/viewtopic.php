@@ -49,6 +49,7 @@ $lang = array_merge($lang, array(
 	'BUMP_TOPIC'			=> 'Előreugrasztás', //? 'Téma előreugrasztása'
 
 	'CODE'					=> 'Kód',
+	'COLLAPSE_QR'			=> 'Gyors válasz elrejtése',
 
 	'DELETE_TOPIC'			=> 'Téma törlése',
 	'DOWNLOAD_NOTICE'		=> 'Nincs meg a kellő jogosultsága a hozzászóláshoz csatolt állományok megtekintéséhez.',
@@ -87,10 +88,12 @@ $lang = array_merge($lang, array(
 	'PRINT_TOPIC'			=> 'Nyomtatóbarát verzió',
 
 	'QUICK_MOD'				=> 'Gyors moderátori eszközök', //??
+	'QUICKREPLY'			=> 'Gyors válasz',
 	'QUOTE'					=> 'Idézet',
 
 	'REPLY_TO_TOPIC'		=> 'Hozzászólás a témához',
 	'RETURN_POST'			=> '%sVissza a hozzászóláshoz%s',
+	'SHOW_QR'				=> 'Gyors válasz',
 
 	'SUBMIT_VOTE'			=> 'Szavazat elküldése', //? szavazás?
 

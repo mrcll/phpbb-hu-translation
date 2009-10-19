@@ -135,6 +135,10 @@ $lang = array_merge($lang, array(
 	'USER_ADMIN'			=> 'Felhasználó kezelése', //? administrate
 	'USER_BAN'				=> 'Kitiltások',
 	'USER_FORUM'			=> 'Statisztika',
+	'USER_LAST_REMINDED'	=> array(
+		0		=> 'Még nem lett emlékeztető küldve.',
+		1		=> '%1$d emlékeztető lett küldve<br />» %2$s',
+	),
 	'USER_ONLINE'			=> 'Online',
 	'USER_PRESENCE'			=> 'Jelenlét a fórumban',
 

@@ -15,10 +15,8 @@ vagy küldje el postai levélben a következő postacímre:
 ------------------------------ PERFORÁCIÓ ------------------------------
 Engedély a "{SITENAME}" ({U_BOARD}) oldal fórumához történő csatlakozáshoz.
 
-----------------------------
 Felhasználónév: {USERNAME}
-Jelszó: {PASSWORD}
-----------------------------
+E-mail cím: {EMAIL_ADDRESS}
 
 ELLENŐRIZTEM A GONDVISELETEMBEN LEVŐ FIATALKORÚ ÁLTAL MEGADOTT INFORMÁCIÓKAT, ÉS HOZZÁJÁRULOK, HOGY AZ ÁLTALA MEGADOTT ADATOKAT A "{SITENAME}" OLDAL FÓRUMÁN TÁROLJÁK.
 TISZTÁBAN VAGYOK VELE, HOGY EZEKET AZ ADATOKAT EGY JELSZÓ BEÍRÁSÁVAL BÁRMIKOR MEG LEHET VÁLTOZTATNI.
@@ -37,7 +35,7 @@ Dátum: _______________
 
 Amint az adminisztrátorok megkapták a fenti engedélyt faxon vagy postán, az azonosító aktiválásra kerül.
 
-A jelszót ne felejtse el, mert az adatbázisunkban kódolva szerepel, így nincs mód a későbbiekben a kiderítésére. Ha esetleg mégis elfelejtené, akkor a belépési oldalon új jelszót kell igényelnie, amelyet hasonlóképpen aktiválni kell használat előtt, mint most.
+A jelszava biztonságosan került eltárolásra az adatbázisunkban, így nincs mód a kiderítésére. Ha esetleg mégis elfelejtené, akkor az azonosítójához társított e-mail cím segítségével igényelhet egy újat.
 
 Köszönjük, hogy regisztrált!
 
