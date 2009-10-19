@@ -2,6 +2,6 @@ Subject: Azonosítója aktiválásra került!
 
 Kedves {USERNAME}!
 
-Az ön azonosítója a "{SITENAME}" oldalon aktiválásra került, most már beléphet azzal a felhasználónévvel és jelszóval, melyet egy korábbi e-mailben kapott.
+Az ön azonosítója a "{SITENAME}" oldalon aktiválásra került, most már beléphet a felhasználónévvel, melyet egy korábbi e-mailben kapott.
 
 {EMAIL_SIG}

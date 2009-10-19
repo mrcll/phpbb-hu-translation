@@ -2,7 +2,7 @@ Subject: Inaktív azonosító figyelmeztetés
 
 Kedves {USERNAME}!
 
-A "{SITENAME}" oldalon {REGISTER_DATE}-kor ön regisztrált egy azonosítót. Ezt azóta sem aktiválta, mely követelmény, hogy be tudjon jelentkezni a fórumba. Az azonosítóját a következő linkre kattintva tudja aktiválni:
+Ez az értesítő egy emlékeztető, hogy az ön "{SITENAME}" oldalon {REGISTER_DATE}-kor regisztrált azonosítója máig inaktív. Amennyiben aktiválni szeretné az azonosítód, látogasson el a következő linkre:
 
 {U_ACTIVATE}
 

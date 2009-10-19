@@ -54,6 +54,7 @@ $lang = array_merge($lang, array(
 	'JUMP_TO_POST'			=> 'Ugrás a hozzászóláshoz',
 
  	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'A saját hozzászólásai megtekintéséhez be kell jelentkeznie.',
+	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'Az olvasatlan hozzászólásainak megtekintéséhez be kell jelentkeznie.',
 
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> 'Túl sok keresendő szót adott meg. Kérjük, legfeljebb %1$d szót adjon meg.',
 

@@ -1,4 +1,4 @@
-Subject:  Üdvözöljük a "{SITENAME}" fórumon!
+Subject: Üdvözöljük a "{SITENAME}" fórumon!
 
 {WELCOME_MSG}
 
@@ -6,7 +6,6 @@ Kérjük, tartsa meg ezt az üzenetet. Az ön azonosítójának adatai a követk
 
 ----------------------------
 Felhasználónév: {USERNAME}
-Jelszó: {PASSWORD}
 
 Fórum URL: {U_BOARD}
 ----------------------------
@@ -15,7 +14,7 @@ Az azonosítója jelenleg inaktív. A következő linkre kattintva aktiválhatja
 
 {U_ACTIVATE}
 
-Kérjük, ne felejtse el a jelszavát, mivel titkosítva került be az adatbázisunkba, így nem tudjuk visszafejteni. Amennyiben megfeledkezik róla, újat tud kérni, de azt ugyanilyen módon ismét aktiválnia kell majd.
+A jelszava biztonságosan került eltárolásra az adatbázisunkban, így nincs mód a kiderítésére. Ha esetleg mégis elfelejtené, akkor az azonosítójához társított e-mail cím segítségével igényelhet egy újat.
 
 Köszönjük, hogy regisztrált!
 

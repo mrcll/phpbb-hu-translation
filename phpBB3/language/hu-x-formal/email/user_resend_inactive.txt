@@ -8,7 +8,7 @@ Kérjük, tartsa meg ezt az üzenetet a továbbiakban. Az ön azonosítójának 
 Felhasználónév: {USERNAME}
 ----------------------------
 
-A jelszava titkosítva került eltárolásra az adatbázisban. Amennyiben megfeledkezik róla, újat kérhet, de azt ugyanilyan módon ismét aktiválnia kell majd.
+A jelszava biztonságosan került eltárolásra az adatbázisunkban, így nincs mód a kiderítésére. Ha esetleg mégis elfelejtené, akkor az azonosítójához társított e-mail cím segítségével igényelhet egy újat.
 
 Az azonosítóját a következő linkre kattintva aktiválhatja:
 
