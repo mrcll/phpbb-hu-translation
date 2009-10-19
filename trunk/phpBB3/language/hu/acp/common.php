@@ -281,6 +281,7 @@ $lang = array_merge($lang, array(
 	'SETTING_TOO_BIG'		=> 'A „%1$s” beállításnak megadott érték túl nagy. A legnagyobb elfogadható érték %2$d.',	
 	'SETTING_TOO_LONG'		=> 'A „%1$s” beállításnak megadott érték túl hosszú. A leghosszabb elfogadható hossz %2$d karakter.',
 	'SETTING_TOO_SHORT'		=> 'A „%1$s” beállításnak megadott érték túl rövid. A legrövidebb elfogadható hossz %2$d karakter.',
+	'SHOW_ALL_OPERATIONS'	=> 'Összes művelet megjelenítése',
 
 	'UCP'					=> 'Felhasználói vezérlőpult',
 	'USERNAMES_EXPLAIN'		=> 'Minden felhasználónevet külön sorba írj.',
