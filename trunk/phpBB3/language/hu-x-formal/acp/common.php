@@ -89,6 +89,7 @@ $lang = array_merge($lang, array(
 	'ACP_FORUM_MANAGEMENT'			=> 'Fórumok kezelése', //? használják?
 	'ACP_FORUM_MODERATORS'			=> 'Fórum moderátorok',
 	'ACP_FORUM_PERMISSIONS'			=> 'Fórum jogosultságok',
+	'ACP_FORUM_PERMISSIONS_COPY'	=> 'Fórum jogosultságok másolása',
 	'ACP_FORUM_ROLES'				=> 'Fórum szerepek',
 
 	'ACP_GENERAL_CONFIGURATION'		=> 'Általános konfiguráció', //? használják
@@ -149,11 +150,15 @@ $lang = array_merge($lang, array(
 
 	'ACP_RESTORE'				=> 'Visszaállítás',
 
+	'ACP_FEED'					=> 'Csatornák kezelése', //?
+	'ACP_FEED_SETTINGS'			=> 'Csatorna beállítások', //? 'Szindikáció beállítások'? 'ATOM beállítások'?
+
 	'ACP_SEARCH'				=> 'Kereső konfiguráció',
 	'ACP_SEARCH_INDEX'			=> 'Keresőindex',
 	'ACP_SEARCH_SETTINGS'		=> 'Kereső beállítások',
 
 	'ACP_SECURITY_SETTINGS'		=> 'Biztonsági beállítások',
+	'ACP_SEND_STATISTICS'		=> 'Statisztikai adatok küldése',
 	'ACP_SERVER_CONFIGURATION'	=> 'Szerver konfiguráció', //?
 	'ACP_SERVER_SETTINGS'		=> 'Szerver beállítások',
 	'ACP_SIGNATURE_SETTINGS'	=> 'Aláírás beállítások',
@@ -161,6 +166,7 @@ $lang = array_merge($lang, array(
 	'ACP_STYLE_COMPONENTS'		=> 'Megjelenés alkotóelemek', //? 'összetevők', 'alkotóelemek', 'komponensek'
 	'ACP_STYLE_MANAGEMENT'		=> 'Megjelenések kezelése',
 	'ACP_STYLES'				=> 'Megjelenések',
+	'ACP_SUBMIT_CHANGES'		=> 'Változtatások elküldése',
 	
 	'ACP_TEMPLATES'				=> 'Sablonok',
 	'ACP_THEMES'				=> 'Stílusok',
@@ -182,8 +188,9 @@ $lang = array_merge($lang, array(
 	'ACP_USER_ROLES'				=> 'Felhasználói szerepek',
 	'ACP_USER_SECURITY'				=> 'Felhasználóbiztonság', //?
 	'ACP_USER_SIG'					=> 'Aláírás',
+	'ACP_USER_WARNINGS'				=> 'Figyelmeztetések',
 
-	'ACP_VC_SETTINGS'					=> 'Vizuális megerősítés beállítások',
+	'ACP_VC_SETTINGS'					=> 'CAPTCHA modul beállítások',
 	'ACP_VC_CAPTCHA_DISPLAY'			=> 'CAPTCHA kép előnézet', //?
 	'ACP_VERSION_CHECK'					=> 'Frissítések keresése',
 	'ACP_VIEW_ADMIN_PERMISSIONS'		=> 'Adminisztrációs jogosultságok megtekintése', //? "View administrative permissions" 'Adminisztratív'
@@ -242,6 +249,8 @@ $lang = array_merge($lang, array(
 
 	'MANAGE'				=> 'Kezelés', //?
 	'MENU_TOGGLE'			=> 'Oldalsó menü elrejtése/mutatása',
+	'MORE'					=> 'Továbbiak',			// Not used at the moment //?
+	'MORE_INFORMATION'		=> 'További információ »',
 	'MOVE_DOWN'				=> 'Mozgatás lejjebb',
 	'MOVE_UP'				=> 'Mozgatás feljebb',
 
@@ -268,10 +277,10 @@ $lang = array_merge($lang, array(
 	'SELECT_ANONYMOUS'		=> 'Vendég felhasználó kiválasztása',
 	'SELECT_OPTION'			=> 'Opció kiválasztása',
 
-	'SETTING_TOO_LOW'		=> 'A „%1$s” beállításnak megadott érték túl kicsi. A legkisebb engedélyezett érték %2$d.',
-	'SETTING_TOO_BIG'		=> 'A „%1$s” beállításnak megadott érték túl nagy. A legnagyobb engedélyezett érték %2$d.',	
-	'SETTING_TOO_LONG'		=> 'A „%1$s” beállításnak megadott érték túl hosszú. A leghosszabb engedélyezett érték %2$d karakter.',
-	'SETTING_TOO_SHORT'		=> 'A „%1$s” beállításnak megadott érték túl rövid. A legrövidebb engedélyezett érték %2$d karakter.',
+	'SETTING_TOO_LOW'		=> 'A „%1$s” beállításnak megadott érték túl kicsi. A legkisebb elfogadható érték %2$d.',
+	'SETTING_TOO_BIG'		=> 'A „%1$s” beállításnak megadott érték túl nagy. A legnagyobb elfogadható érték %2$d.',	
+	'SETTING_TOO_LONG'		=> 'A „%1$s” beállításnak megadott érték túl hosszú. A leghosszabb elfogadható hossz %2$d karakter.',
+	'SETTING_TOO_SHORT'		=> 'A „%1$s” beállításnak megadott érték túl rövid. A legrövidebb elfogadható hossz %2$d karakter.',
 
 	'UCP'					=> 'Felhasználói vezérlőpult',
 	'USERNAMES_EXPLAIN'		=> 'Minden felhasználónevet külön sorba írj.',
@@ -335,6 +344,10 @@ $lang = array_merge($lang, array(
 	'PURGE_CACHE_CONFIRM'	=> 'Biztosan ki akarod üríteni a gyorsítótárat?',
 	'PURGE_CACHE_EXPLAIN'	=> 'Minden gyorsítótárazott elem törlésre kerül, beleértve a gyorsítótárazott sablon állományokat és adatbázis-lekérdezéseket is.',
 
+	'PURGE_SESSIONS'			=> 'Munkamenetek törlése',
+	'PURGE_SESSIONS_CONFIRM'	=> 'Are you sure you wish to purge all sessions? This will log out all users.',
+	'PURGE_SESSIONS_EXPLAIN'	=> 'Megszakítja és törli az összes munkamenetet. Minden felhasználó kiléptetésre kerül, mivel a munkamenet tábla kiürítődik.',
+
 	'RESET_DATE'					=> 'Fórum indulási dátumának lenullázása', //? lenullázás?
 	'RESET_DATE_CONFIRM'			=> 'Biztosan meg akarod változtatni a fórum indulásának dátumát mostanra?',
 	'RESET_ONLINE'					=> 'Valaha jelenlévő legtöbb felhasználó számának lenullázása', //?
@@ -358,9 +371,11 @@ $lang = array_merge($lang, array(
 	'UPLOAD_DIR_SIZE'	=> 'Feltöltött csatolmányok mérete',
 	'USERS_PER_DAY'		=> 'Felhasználók száma naponta',
 
-	'VALUE'					=> 'Érték',
-	'VIEW_ADMIN_LOG'		=> 'Adminisztrátori napló megtekintése',
-	'VIEW_INACTIVE_USERS'	=> 'Inaktív felhasználók megtekintése',
+	'VALUE'						=> 'Érték',
+	'VERSIONCHECK_FAIL'			=> 'Nem sikerült lekérni a legújabb verzióval kapcsolatos információkat.',
+	'VERSIONCHECK_FORCE_UPDATE'	=> 'Verzió ellenőrzése újra',
+	'VIEW_ADMIN_LOG'			=> 'Adminisztrátori napló megtekintése',
+	'VIEW_INACTIVE_USERS'		=> 'Inaktív felhasználók megtekintése',
 
 	'WELCOME_PHPBB'			=> 'Üdvözlünk a phpBB-ben!',
 	'WRITABLE_CONFIG'		=> 'A konfigurációs állományod (config.php) jelenleg mindenki által írható. Határozottan javasoljuk, hogy változtasd meg a jogosultságait 640-re vagy legalább 644-re (például: <a href="http://phpbb.hu/utmutatok/13" rel="external">chmod</a> 640 config.php).',
@@ -386,8 +401,22 @@ $lang = array_merge($lang, array(
 	'SORT_LAST_VISIT'	=> 'Utolsó látogatás',
 	'SORT_REASON'		=> 'Inaktiváció oka',
 	'SORT_REG_DATE'		=> 'Regisztráció dátuma',
+	'SORT_LAST_REMINDER'=> 'Utolsó emlékeztetés',
+	'SORT_REMINDER'		=> 'Emlékeztető küldése', //? Valószínűleg igen-nem érték, hogy lett-e emlékezetve. Az angol kifjezés se a legegyértelműbb, de attól még a magyaron is lehetne javítani.
 
 	'USER_IS_INACTIVE'		=> 'A felhasználó inaktív.',
+));
+
+// Send statistics page
+$lang = array_merge($lang, array(
+	'EXPLAIN_SEND_STATISTICS'	=> 'Kérünk, küldj információt a phpBB részére a szerveredről és a fórumod beállításairól statisztikai elemzés céljára. Minden adat, ami azonosíthatna téged, eltávolításra került – az adatok teljesen <strong>névtelenek</strong>. Az itt gyűjtött információra alapozva hozunk döntéseket a jövőbeli phpBB verziókról. A statisztikákat nyilvánosan elérhetővé tesszük. Az adatokat ezen felül még megosztjuk a PHP projekttel, amely egy programozási nyelv, amiben a phpBB íródott.', //? '..., azon programozási nyelv fejlesztőivel, amiben a phpBB íródott.'
+	'EXPLAIN_SHOW_STATISTICS'	=> 'Az alábbi gomb segítségével áttekintheted az összes elküldésre kerülő változót.',
+	'DONT_SEND_STATISTICS'		=> 'Amennyiben nem kívánsz statisztikai adatokat küldeni, térj vissza az AVP kezdőlapjára.',
+	'GO_ACP_MAIN'				=> 'Visszatérés az AVP kezdőldalra',
+	'HIDE_STATISTICS'			=> 'Adatok elrejtése',
+	'SEND_STATISTICS'			=> 'Statisztikai adatok ',
+	'SHOW_STATISTICS'			=> 'Adatok megjelenítése',
+	'THANKS_SEND_STATISTICS'	=> 'Köszönjük, hogy segítettél az adatgyűjtésben!',
 ));
 
 // Log Entries
@@ -468,6 +497,7 @@ $lang = array_merge($lang, array(
 	'LOG_CONFIG_MESSAGE'		=> '<strong>Privát üzenet beállítások módosítása</strong>',
 	'LOG_CONFIG_POST'			=> '<strong>Hozzászólás beállítások módosítása</strong>',
 	'LOG_CONFIG_REGISTRATION'	=> '<strong>Felhasználói regisztrációs beállítások módosítása</strong>', //?
+	'LOG_CONFIG_FEED'			=> '<strong>Csatorna beállítások módosí</strong>',
 	'LOG_CONFIG_SEARCH'			=> '<strong>Kereső beállítások módosítása</strong>',
 	'LOG_CONFIG_SECURITY'		=> '<strong>Biztonsági beállítások módosítása</strong>',
 	'LOG_CONFIG_SERVER'			=> '<strong>Szerver beállítások módosítása</strong>',
@@ -485,6 +515,8 @@ $lang = array_merge($lang, array(
 	'LOG_LOCK_POST'				=> '<strong>Hozzászólás lezárása</strong><br />» %s',
 	'LOG_MERGE'					=> '<strong>Hozzászólások áthelyezése</strong> másik témába:<br />» %s',
 	'LOG_MOVE'					=> '<strong>Téma áthelyezése</strong><br />» %1$s fórumból %2$s fórumba',
+	'LOG_PM_REPORT_CLOSED'		=> '<strong>PÜ jelentés lezárása</strong><br />» %s',
+	'LOG_PM_REPORT_DELETED'		=> '<strong>PÜ jelentés törlése</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>Hozzászólás jóváhagyása</strong><br />» %s',
 	'LOG_POST_DISAPPROVED'		=> '<strong>„%1$s” hozzászólás elutasítása</strong><br />» ok: %2$s',
 	'LOG_POST_EDITED'			=> '<strong>„%1$s” hozzászólás szerkesztése</strong><br />» szerző: %2$s',
@@ -515,6 +547,7 @@ $lang = array_merge($lang, array(
 	'LOG_ERROR_EMAIL'		=> '<strong>E-mail hiba</strong><br />» %s',
 	
 	'LOG_FORUM_ADD'							=> '<strong>Új fórum létrehozása</strong><br />» %s',
+	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>Fórum jogosultságok másolása</strong> a %1$s fórumból<br />» %2$s',
 	'LOG_FORUM_DEL_FORUM'					=> '<strong>Fórum törlése</strong><br />» %s',
 	'LOG_FORUM_DEL_FORUMS'					=> '<strong>Fórum és alfórumainak törlése</strong><br />» %s',
 	'LOG_FORUM_DEL_MOVE_FORUMS'				=> '<strong>Fórum törlése és alfórumainak átmozgatása</strong> a %1$s fórumba<br />» %2$s',
@@ -529,6 +562,8 @@ $lang = array_merge($lang, array(
 	'LOG_FORUM_MOVE_UP'						=> '%1$s <strong>fórum mozgatása</strong> %2$s <strong>fórum fölé</strong>',
 	'LOG_FORUM_SYNC'						=> '<strong>Fórum újraszinkronizálása</strong><br />» %s',
 
+	'LOG_GENERAL_ERROR'	=> '<strong>Általános hiba lépett fel</strong>: %1$s <br />» %2$s',
+
 	'LOG_GROUP_CREATED'		=> '<strong>Új csoport létrehozása</strong><br />» %s',
 	'LOG_GROUP_DEFAULTS'	=> '<strong>„%1$s” csoport elsődlegessé tétele a következő tagoknak:</strong><br />» %2$s', //?
 	'LOG_GROUP_DELETE'		=> '<strong>Csoport törlése</strong><br />» %s',
@@ -537,8 +572,11 @@ $lang = array_merge($lang, array(
 	'LOG_GROUP_REMOVE'		=> '<strong>Tagok törlése</strong> a %1$s csoportból<br />» %2$s',
 	'LOG_GROUP_UPDATED'		=> '<strong>Csoport beállítások frissítése</strong><br />» %s',
 	'LOG_MODS_ADDED'		=> '<strong>Új vezetők hozzáadása</strong> a %1$s csoporthoz<br />» %2$s',
-	'LOG_USERS_APPROVED'	=> '<strong>Felhasználók felvételének jóváhagyása</strong> a %1$s csoportba<br />» %2$s',
 	'LOG_USERS_ADDED'		=> '<strong>Új tagok felvétele</strong> a %1$s csoportba<br />» %2$s',
+	'LOG_USERS_APPROVED'	=> '<strong>Felhasználók felvételének jóváhagyása</strong> a %1$s csoportba<br />» %2$s',
+	'LOG_USERS_PENDING'		=> '<strong>Jóváhagyásra váró felvételi kérelem a „%1$s” csoportba</strong><br />» %2$s',
+
+	'LOG_IMAGE_GENERATION_ERROR'	=> '<strong>Hiba kép generálása közben</strong><br />» Hiba az %1$s állomány %2$s sorában: %3$s',
 
 	'LOG_IMAGESET_ADD_DB'			=> '<strong>Új képkészlet felvétele az adatbázisba</strong><br />» %s',
 	'LOG_IMAGESET_ADD_FS'			=> '<strong>Új képkészlet felvétele a fájlrendszerbe</strong><br />» %s',
@@ -607,6 +645,7 @@ $lang = array_merge($lang, array(
 	'LOG_PRUNE_USER_DEL_ANON'	=> '<strong>Felhasználók megtisztítása – törölt felhasználók hozzászólásainak megtartása</strong><br />» %s',
 
 	'LOG_PURGE_CACHE'			=> '<strong>Gyorsítótár kiürítése</strong>',
+	'LOG_PURGE_SESSIONS'		=> '<strong>Munkamenetek törlése</strong>',
 
 	'LOG_RANK_ADDED'		=> '<strong>Új rang hozzáadása</strong><br />» %s',
 	'LOG_RANK_REMOVED'		=> '<strong>Rang törlése</strong><br />» %s',
@@ -658,12 +697,15 @@ $lang = array_merge($lang, array(
 	'LOG_USER_DELETED'		=> '<strong>Felhasználó törlése</strong><br />» %s',
 	'LOG_USER_DEL_ATTACH'	=> '<strong>Felhasználó összes feltöltött csatolmányainak törlése</strong><br />» %s',
 	'LOG_USER_DEL_AVATAR'	=> '<strong>Felhasználó avatarának törlése</strong><br />» %s',
+	'LOG_USER_DEL_OUTBOX'	=> '<strong>Felhasználó kimenő fiókjának kiürítése</strong><br />» %s',
 	'LOG_USER_DEL_POSTS'	=> '<strong>Felhasználó összes hozzászólásának törlése</strong><br />» %s',
 	'LOG_USER_DEL_SIG'		=> '<strong>Felhasználó aláírásának törlése</strong><br />» %s',
 	'LOG_USER_INACTIVE'		=> '<strong>Felhasználó deaktiválása</strong><br />» %s',
 	'LOG_USER_MOVE_POSTS'	=> '<strong>Felhasználó hozzászólásainak áthelyezése</strong><br />» „%1$s” hozzászólásainak áthelyezése a „%2$s” fórumba',
 	'LOG_USER_NEW_PASSWORD'	=> '<strong>Felhasználó jelszavának megváltoztatása</strong><br />» %s',
 	'LOG_USER_REACTIVATE'	=> '<strong>Felhasználó azonosítójának újraaktiválásra késztetése</strong><br />» %s', //??
+	'LOG_USER_REMOVED_NR'	=> '<strong>Felhasználó újonnan regisztrált státuszának megszüntetése</strong><br />» %s',
+
 	'LOG_USER_UPDATE_EMAIL'	=> '<strong>„%1$s” felhasználó saját e-mail címének megváltoztatása</strong><br />» „%2$s”-ról „%3$s”-ra',
 	'LOG_USER_UPDATE_NAME'	=> '<strong>Felhasználónév megváltoztatása</strong><br />» „%1$s” névről „%2$s” névre',
 	'LOG_USER_USER_UPDATE'	=> '<strong>Felhasználói beállításainak szerkesztése</strong><br />» %s', //?
@@ -686,6 +728,10 @@ $lang = array_merge($lang, array(
 	'LOG_USER_GROUP_JOIN'			=> '<strong>Csatlakozás a csoporthoz:</strong><br />» %s',
 	'LOG_USER_GROUP_JOIN_PENDING'	=> '<strong>Csatlakozás a csoporthoz, jóváhagyás még szükséges:</strong><br />» %s', //?
 	'LOG_USER_GROUP_RESIGN'			=> '<strong>Lemondás a csoporttagságról:</strong><br />» %s',
+
+	'LOG_WARNING_DELETED'		=> '<strong>Felhasználó figyelmeztetésének törlése</strong><br />» %s',
+	'LOG_WARNINGS_DELETED'		=> '<strong>Felhasználó %2$s figyelmeztetésének törlése</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>Felhasználó összes figyelmeztetésének törlése</strong><br />» %s',
 
 	'LOG_WORD_ADD'			=> '<strong>Cenzúrázott szó hozzáadása</strong><br />» %s',
 	'LOG_WORD_DELETE'		=> '<strong>Cenzúrázott szó törlése</strong><br />» %s',

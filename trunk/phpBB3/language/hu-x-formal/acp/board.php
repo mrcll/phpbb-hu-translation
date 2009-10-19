@@ -72,6 +72,10 @@ $lang = array_merge($lang, array(
 	'ALLOW_NO_CENSORS'			=> 'Szócenzúra kikapcsolásának engedélyezése',
 	'ALLOW_NO_CENSORS_EXPLAIN'	=> 'A felhasználók ha, szeretnék, kikapcsolhatják az automatikus szócenzúrát a hozzászólásokban és a privát üzenetekben.',
 	'ALLOW_PM_ATTACHMENTS'		=> 'Csatolmányok engedélyezése privát üzenetekben',
+	'ALLOW_PM_REPORT'			=> 'Privát üzenetek jelentésének engedélyezése a felhasználóknak',
+	'ALLOW_PM_REPORT_EXPLAIN'	=> 'Ha ez a lehetőség engedélyezve van, a felhasználók jelenthetik a fórum moderátorainak a nekik, ill. az általuk küldött privát üzeneteket. Ezek a privát üzenetek aztán láthatóak lesznek a moderátori vezérlőpultban.',
+	'ALLOW_QUICK_REPLY'			=> 'Gyors válasz engedélyezése',
+	'ALLOW_QUICK_REPLY_EXPLAIN'	=> 'Itt tudod beállítani, hogy a fórumon be van-e kapcsolva a gyors válasz funkció. A bekapcsoláshoz nem elég csak ezt a beállítást igenre állítani, az egyes fórumoknál is meg kell ezt tenni.',
 	'ALLOW_SIG'					=> 'Aláírás engedélyezése',
 	'ALLOW_SIG_BBCODE'			=> 'BBCode engedélyezése aláírásban',
 	'ALLOW_SIG_FLASH'			=> '<code>[FLASH]</code> BBCode címke használatának engedélyezése aláírásban',
@@ -89,9 +93,13 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_AVATAR_SETTINGS_EXPLAIN'	=> 'Az avatarok általánosan kis, egyedi képek, melyeket a felhasználók magukhoz társítanak. A témák megtekintésénél általában a felhasználónév alatt jelennek meg a használt megjelenéstől függően. Ezen az oldalon meghatározhatod, hogy a felhasználók milyen módon adhatják meg az avatarukat. Kérjük, vedd figyelembe, hogy az avatarok feltöltésének működéséhez az alább megadott könyvtárnak léteznie kell, és meg kell győződnöd róla, hogy írható a webszerver által. Kérjük, azt is vedd figyelembe, hogy a maximális állomány méretek csak a feltöltött avatarokra vonatkoznak, a kívülről linkeltekre nem.',
 
+	'ALLOW_AVATARS'					=> 'Avatarok bekapcsolása',
+	'ALLOW_AVATARS_EXPLAIN'			=> 'Avatarok használatának engedélyezése általánosságban.<br />Amikor kikapcsolod az avatar funkciót vagy az egyes módon feltöltött avatar képeket, az érintett avatarok nem jelennek meg többet, de a felhasználók továbbra is le tudják tölteni a saját avatarukat a felhasználói vezérlőpultból.',
 	'ALLOW_LOCAL'					=> 'Avatar galéria bekapcsolása',
 	'ALLOW_REMOTE'					=> 'Külső avatarok engedélyezése',
-	'ALLOW_REMOTE_EXPLAIN'			=> 'Olyan avatarok, melyek egy külső oldalról vannak linkelve.',
+	'ALLOW_REMOTE_EXPLAIN'			=> 'Olyan avatarok, melyek egy másik weboldalról vannak linkelve.',
+	'ALLOW_REMOTE_UPLOAD'			=> 'Avatar feltöltésének engedélyezése külső helyről',
+	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Lehetővé teszi avatar feltöltését egy másik weboldalról.',
 	'ALLOW_UPLOAD'					=> 'Avatarfeltöltés engedélyezése',
 	'AVATAR_GALLERY_PATH'			=> 'Avatar galéria elérési út',
 	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'A phpBB-d gyökérkönyvtárától viszonyított elérési út az előre feltöltött képekhez, pl. <samp>images/avatars/gallery</samp>.',
@@ -142,18 +150,15 @@ $lang = array_merge($lang, array(
 	'ALLOW_POST_FLASH'					=> '<code>[FLASH]</code> BBCode címke használatának engedélyezése hozzászólásokban',
 	'ALLOW_POST_FLASH_EXPLAIN'			=> 'Ha nem engedélyezett, a <code>[FLASH]</code> címke nem használható a hozzászólásokban. Máskülönben a jogosultságoktól függ, használható-e a <code>[FLASH]</code> BBCode címke.',
   
-	'ENABLE_QUEUE_TRIGGER'			=> 'Hozzászólásjóváhagyás bekapcsolása',
-	'ENABLE_QUEUE_TRIGGER_EXPLAIN'	=> 'Ennek a funkciónak a segítségével megvalósítható, hogy az újonnan regisztrált felhasználók hozzászólásainak jóváhagyáson kelljen átesniük, amíg a hozzászólásszámuk el nem éri az alább meghatározott értéket. Ez nincs hatással a hozzászólás/téma jóváhagyás jogosultság beállításra.',
-	'QUEUE_TRIGGER_POSTS'			=> 'Maximum hozzászólásszám hozzászólásjóváhagyáshoz',
-	'QUEUE_TRIGGER_POSTS_EXPLAIN'	=> 'Ha a hozzászólásjóváhagyás be van kapcsolva, az újonnan regisztrált felhasználók hozzászólásainak ezen hozzászólásszám elérése után nem kell átesniük jóváhagyáson. Ha a felhasználó hozzászólásszáma ennél kisebb, a hozzászólás automatikusan a moderálandók közé kerül.',
-
 	'BUMP_INTERVAL'					=> 'Előreugrasztás időköz', //?
 	'BUMP_INTERVAL_EXPLAIN'			=> 'Az utolsó hozzászólás után ennyi idő múlva lehet előreugrasztani egy témát.',
 	'CHAR_LIMIT'					=> 'Hozzászólásonkénti maximum karakterszám',
 	'CHAR_LIMIT_EXPLAIN'			=> 'Hány karakter engedélyezett egy hozzászólásban. Állítsd 0-ra a korlátozás megszüntetéséhez.',
+	'DELETE_TIME'					=> 'Törlési időkorlát',
+	'DELETE_TIME_EXPLAIN'			=> 'Korlátozza, hogy az elküldés után mennyi ideig lehet törölni a hozzászólást. 0 érték megadásával a korlátozás kikapcsolható.',
 	'DISPLAY_LAST_EDITED'			=> 'Utolsó szerkesztés információk megjelenítése',
 	'DISPLAY_LAST_EDITED_EXPLAIN'	=> 'Megjelenjen-e egy hozzászólásnál, hogy ki és mikor szerkesztette utoljára.',
-	'EDIT_TIME'						=> 'Szerkesztés idejének korlátozása',
+	'EDIT_TIME'						=> 'Szerkesztési időkorlát',
 	'EDIT_TIME_EXPLAIN'				=> 'Korlátozza, hogy az elküldés után mennyi ideig lehet szerkeszteni a hozzászólást. 0 érték megadásával a korlátozás kikapcsolható.',
 	'FLOOD_INTERVAL'				=> 'Flood időköz', //?
 	'FLOOD_INTERVAL_EXPLAIN'		=> 'Ennyi másodpercet kell várnia a felhasználónak két hozzászólás elküldése között. A jogosultságok segítségével beállíthatod, hogy bizonyos felhasználókra ez ne vonatkozzon.',
@@ -168,12 +173,15 @@ $lang = array_merge($lang, array(
 	'MAX_POST_IMG_WIDTH_EXPLAIN'	=> 'Legfeljebb ilyen széles lehet egy kép/flash állomány. Állítsd 0-ra, hogy ne legyen korlátozás.',
 	'MAX_POST_URLS'					=> 'Maximum linkszám egy hozzászólásban',
 	'MAX_POST_URLS_EXPLAIN'			=> 'Legfeljebb ennyi URL-t tartalmazhat egy hozzászólás. Állítsd 0-ra, hogy ne legyen korlátozás.',
+	'MIN_CHAR_LIMIT'				=> 'Hozzászólás/privát üzenet minimum hossza',
+	'MIN_CHAR_LIMIT_EXPLAIN'		=> 'A felhasználók csak legalább ennyi karakterből álló hozzászólást, ill. privát üzenetet küldhetnek.', //? 'A felhasználók nem küldhetnek ennél kevesebb karaktert tartalmazó hozzászólást, ill. privát üzenetet.'
 	'POSTING'						=> 'Hozzászólásküldés',
 	'POSTS_PER_PAGE'				=> 'Hozzászólások száma oldalanként',
 	'QUOTE_DEPTH_LIMIT'				=> 'Maximum egymásba ágyazott idézet egy hozzászólásban',
 	'QUOTE_DEPTH_LIMIT_EXPLAIN'		=> 'Legfeljebb ennyi idézet lehet egymásba ágyazva egy hozzászólásban. Állítsd 0-ra, hogy ne legyen korlátozás.',
 	'SMILIES_LIMIT'					=> 'Maximum emotikonszám egy hozzászólásban',
 	'SMILIES_LIMIT_EXPLAIN'			=> 'Legfeljebb ennyi emotikont tartalmazhat egy hozzászólás. Állítsd 0-ra, hogy ne legyen korlátozás.',
+	'SMILIES_PER_PAGE'				=> 'Egy oldalon megjelenítendő emotikonok száma', //? 'Emotikonok oldalanként'
 	'TOPICS_PER_PAGE'				=> 'Témák száma oldalanként',
 ));
 
@@ -199,8 +207,13 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_REGISTER_SETTINGS_EXPLAIN'		=> 'Itt a regisztrációval és a profillal kapcsolatos beállításokat adhatsz meg.',
 
-	'ACC_ACTIVATION'			=> 'Azonosító aktiválása',
-	'ACC_ACTIVATION_EXPLAIN'	=> 'Ez dönti el, hogy a felhasználók azonnal hozzáférnek-e a fórumhoz, vagy megerősítés szükséges. A regisztrálás lehetőségét teljesen ki is kapcsolhatod.',
+	'ACC_ACTIVATION'				=> 'Azonosító aktiválása',
+	'ACC_ACTIVATION_EXPLAIN'		=> 'Ez dönti el, hogy a felhasználók azonnal hozzáférnek-e a fórumhoz, vagy megerősítés szükséges. A regisztrálás lehetőségét teljesen ki is kapcsolhatod.',
+	'NEW_MEMBER_POST_LIMIT'			=> 'Új tag hozzászólás határ',
+	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> 'Az új tagok az <em>Újonnan regisztrált felhasználók</em> csoportba kerülnek, amíg el nem érik az itt megadott hozzászólásszámot. Ennek a csoportnak a segítségével például meggátolhatod számukra privát üzenetek küldését, vagy moderátori jóváhagyáshoz kötheted a hozzászólásaikat. <strong>A 0 érték kikapcsolja ezt a funkciót.</strong>',
+	'NEW_MEMBER_GROUP_DEFAULT'		=> 'Újonnan regisztrált felhasználók csoport elsődlegessé tétele',
+	'NEW_MEMBER_GROUP_DEFAULT_EXPLAIN'	=> 'Ha igent adsz meg, és az új tag hozzászólás határ is be van állítva, az újonnan regisztrált felhasználók nemcsak bekerülnek az <em>Újonnan regisztrált felhasználók</em> csoportba, de ez lesz az elsődleges csoportjuk is. Ez hasznos lehet, ha meg szeretnél adni egy alapértelmezett csoport rangot és/vagy avatart, amit aztán a felhasználók örökölnek.',
+
 	'ACC_ADMIN'					=> 'Adminisztrátori',
 	'ACC_DISABLE'				=> 'Regisztráció kikapcsolása',
 	'ACC_NONE'					=> 'Nincs',
@@ -233,11 +246,45 @@ $lang = array_merge($lang, array(
 	'USERNAME_LENGTH_EXPLAIN'	=> 'Minimum illetve maximum mennyi karakterből állhat a felhasználónév.',
 ));
 
+// Feeds
+$lang = array_merge($lang, array(
+	'ACP_FEED_MANAGEMENT'				=> 'General Syndication Feeds settings',
+	'ACP_FEED_MANAGEMENT_EXPLAIN'		=> 'Ez a modul különböző ATOM csatornákat tesz elérhetővé. A hozzászólások BBCode-ja is feldolgozásra kerül, hogy a hozzászólások a külső olvasókban is úgy jelenjenek meg, mint egyébként.',
+
+	'ACP_FEED_ENABLE'					=> 'Csatornák bekapcsolása',
+	'ACP_FEED_ENABLE_EXPLAIN'			=> 'Az ATOM csatornák be- vagy kikapcsolása az egész fórumon.<br />Ha kikapcsolod, az alábbi beállításoktól függetlenül, az összes csatorna kikapcsolásra kerül.',
+	'ACP_FEED_LIMIT'					=> 'Bejegyzések száma',
+	'ACP_FEED_LIMIT_EXPLAIN'			=> 'Legfeljebb ennyi bejegyzés kerül megjelenítésre a csatornákban.',
+
+	'ACP_FEED_OVERALL_FORUMS'			=> 'Fórum összesító csatorna bekapcsolása', //? "Enable overall forums feed" overall - összesítő?
+	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Ez a csatorna a legújabb hozzászólásokat jeleníti meg a fórum összes témájából.',
+	'ACP_FEED_OVERALL_FORUMS_LIMIT'		=> 'Megjelenítendő bejegyzések száma oldalanként a fórumok csatorában',
+
+	'ACP_FEED_OVERALL_TOPIC'			=> 'Téma összesítő csatorna bekapcsolása', //?
+	'ACP_FEED_OVERALL_TOPIC_EXPLAIN'	=> 'Bekapcsolja az „Összes téma” csatornát',
+	'ACP_FEED_OVERALL_TOPIC_LIMIT'		=> 'Megjelenítendő bejegyzések száma oldalanként a témák csatorában',
+	'ACP_FEED_FORUM'					=> 'Fórumonkénti csatornák bekapcsolása',
+	'ACP_FEED_FORUM_EXPLAIN'			=> 'Az egyes fórumok új hozzászólásai a saját csatornájukban.',
+	'ACP_FEED_TOPIC'					=> 'Témánkénti csatornák bekapcsolása',
+	'ACP_FEED_TOPIC_EXPLAIN'			=> 'Az egyes témák új hozzászólásai a saját csatornájukban.',
+	'ACP_FEED_NEWS'						=> 'Hírcsatorna',
+	'ACP_FEED_NEWS_EXPLAIN'				=> 'A hírcsatorna ezen fórumok első hozzászólásait jeleníti meg. Ha ki szeretnéd kapcsolni, ne válassz ki egy fórumot se.<br />Több fórumot a <samp>CTRL</samp> gomb nyomvatartásával tudsz kiválasztani.',
+
+	'ACP_FEED_GENERAL'					=> 'Általános csatorna beállítások', //? csatorna helyett ATOM?
+
+	'ACP_FEED_ITEM_STATISTICS'			=> 'Bejegyzés statisztikák',
+	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Különböző statisztikai adatokat jelenít meg a csatorna bejegyzései alatt.<br />(Szerző, dátum, válaszok száma, megtekintések száma)',
+	'ACP_FEED_EXCLUDE_ID'				=> 'Kizárandó fórumok',
+	'ACP_FEED_EXCLUDE_ID_EXPLAIN'		=> 'Ezen fórumok tartalma <strong>nem kerül megjelenítésre a csatornákban</strong>. <br />Több fórumot kijelölni, illetve a kijelölést megszüntetni a <samp>CTRL</samp> gomb nyomvatartásával lehet.',
+));
+
 // Visual Confirmation Settings
 $lang = array_merge($lang, array(
-	'ACP_VC_SETTINGS_EXPLAIN'		=> 'Itt a vizuális megerősítéssel és CAPTCHA-val kapcsolatos beállításokat adhatsz meg.',
-
+	'ACP_VC_SETTINGS_EXPLAIN'				=> 'Itt a CAPTCHA bővítményeket tudod kezelni, melyek különböző módokon próbálják megakadályozni az ún. spamrobotok regisztrációját.',
+	'AVAILABLE_CAPTCHAS'					=> 'Elérhető bővítmények',
+	'CAPTCHA_UNAVAILABLE'					=> 'Ezt a CAPTCHA-t nem lehet kiválasztani, mivel a működéséhez szükséges követelmények nem teljesülnek.',
 	'CAPTCHA_GD'							=> 'GD CAPTCHA',
+	'CAPTCHA_GD_3D'							=> 'GD 3D Captcha',
 	'CAPTCHA_GD_FOREGROUND_NOISE'			=> 'GD CAPTCHA előtéri zaj',
 	'CAPTCHA_GD_EXPLAIN'					=> 'A GD-vel jobb CAPTCHA állítható elő.',
 	'CAPTCHA_GD_FOREGROUND_NOISE_EXPLAIN'	=> 'Az előtéri zajosítás használatával erősebbé lehet tenni a GD alapú CAPTCHA-t.',
@@ -255,14 +302,24 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_FONT_NEW'						=> 'Új formák',
 	'CAPTCHA_FONT_LOWER'					=> 'Kisbetűk is',
 
+	'CAPTCHA_NO_GD'							=> 'GD nélküli CAPTCHA',
 	'CAPTCHA_PREVIEW_MSG'					=> 'A vizuális megerősítés beállításaid nem kerültek elmentésre. Ez csak egy előnézet.',
-	'CAPTCHA_PREVIEW_EXPLAIN'				=> 'Így fog kinézni a CAPTCHA a jelenlegi beállításokkal. A frissítéshez használd az előnézet gombot. Kérjük, vedd figyelembe, hogy a CAPTCHA-k véletlenszerűen generáltak, így mindig különbözőek.',
+	'CAPTCHA_PREVIEW_EXPLAIN'				=> 'Így nézne ki a CAPTCHA a jelenlegi beállításokkal.',
+
+	'CAPTCHA_SELECT'						=> 'Telepített CAPTCHA bővítmények',
+	'CAPTCHA_SELECT_EXPLAIN'				=> 'A legördülő menü felsorolja a fórum által felismert CAPTCHA bővítményeket. A szürkével írottak jelenleg nem érhetőek el, és a használatba vételük előtt lehet, hogy konfigurálni kell őket.',
+	'CAPTCHA_CONFIGURE'						=> 'CAPTCHA konfigurálása',
+	'CAPTCHA_CONFIGURE_EXPLAIN'				=> 'A kiválasztott CAPTCHA beállításainak megváltoztatása.',
+	'CONFIGURE'								=> 'Konfiguráció',
+	'CAPTCHA_NO_OPTIONS'					=> 'Ennek a CAPTCHA-nak nincsenek beállítási lehetőségei.',
+
 	'VISUAL_CONFIRM_POST'					=> 'Vizuális megerősítés bekapcsolása vendég hozzászólásküldéskor',
-	'VISUAL_CONFIRM_POST_EXPLAIN'			=> 'A tömeges hozzászólások elkerülése végett a nem regisztrált felhasználóknak meg kell adniuk egy képen található kódot.',
+	'VISUAL_CONFIRM_POST_EXPLAIN'			=> 'A tömeges hozzászólás elkerülése végett a nem regisztrált felhasználóknak meg kell adniuk egy képen található véletlenszerű kódot.',
 	'VISUAL_CONFIRM_REG'					=> 'Vizuális megerősítés bekapcsolása a regisztrációnál',
-	'VISUAL_CONFIRM_REG_EXPLAIN'			=> 'A tömeges regisztrációk elkerülése végett az új felhasználóknak meg kell adniuk egy képen található kódot.',
+	'VISUAL_CONFIRM_REG_EXPLAIN'			=> 'A tömeges regisztráció elkerülése végett az új felhasználóknak meg kell adniuk egy képen található véletlenszerű kódot.',
 	'VISUAL_CONFIRM_REFRESH'				=> 'Megerősítés kép frissítésének engedélyezése',
 	'VISUAL_CONFIRM_REFRESH_EXPLAIN'		=> 'Ha a felhasználó nem tudja elolvasni a vizuális megerősítéshez használt képen szereplő kódot, új kódot (és ezzel együtt képet) kérhet.',
+
 ));
 
 // Cookie Settings
@@ -348,7 +405,7 @@ $lang = array_merge($lang, array(
 	'ACP_SERVER_SETTINGS_EXPLAIN'	=> 'Itt a szerverrel és a domainnel kapcsolatos beállításokat adhatod meg. Kérünk, győződj meg róla, hogy az adatok pontosak, mivel nem helyes megadás esetén az e-mailek hibás információt fognak tartalmazni. A domain név megadásánál ne felejtsd el, hogy a http:// vagy más protokollspecifikáció nem része a címnek. A portot csak akkor módosítsd, ha biztosan tudod, hogy a szerver egy másikat használ, a 80-as port a legtöbb esetben megfelelő.',
 
 	'ENABLE_GZIP'				=> 'GZip tömörítés bekapcsolása',
-	'ENABLE_GZIP_EXPLAIN'		=> 'A generált tartalom a felhasználónak való elküldés előtt tömörítésre kerül. Ezzel csökkenteni lehet a hálózati forgalmat, ugyanakkor a CPU-használat nőni fog, mind a szerver-, mind a kliensoldalon.',
+	'ENABLE_GZIP_EXPLAIN'		=> 'A generált tartalom a felhasználónak való elküldés előtt tömörítésre kerül. Ezzel csökkenteni lehet a hálózati forgalmat, ugyanakkor a CPU-igénybevétel nőni fog, mind a szerver-, mind a kliensoldalon. A működéséhez a zlib PHP bővítménynek betöltve kell lennie.',
 	'FORCE_SERVER_VARS'			=> 'Szerver URL beállítások használata', //? force így kimaradt? van rá magyar megfelelő?
 	'FORCE_SERVER_VARS_EXPLAIN'	=> 'Ha igenre van állítva, az itt megadott beállítások kerülnek használatra az automatikus megállapítás helyett.',
 	'ICONS_PATH'				=> 'Hozzászólás ikonok elérési útja',
@@ -435,7 +492,7 @@ $lang = array_merge($lang, array(
 	'EMAIL_SIG'						=> 'E-mail aláírás',
 	'EMAIL_SIG_EXPLAIN'				=> 'Ez a szöveg hozzáfűzésre kerül az összes fórum által küldött e-mailhez.',
 	'ENABLE_EMAIL'					=> 'Fórum e-mail küldés bekapcsolása',
-	'ENABLE_EMAIL_EXPLAIN'			=> 'Ha ki van kapcsolva, a fórum egyáltalán nem fog e-mailt küldeni.',
+	'ENABLE_EMAIL_EXPLAIN'			=> 'Ha ki van kapcsolva, a fórum egyáltalán nem fog e-mailt küldeni. <em>Kérjük, vedd figyelembe, hogy ebben az esetben a „felhasználói”, ill. „adminisztrátori” azonosító aktiválási mód nem működik. Ha jelenleg ezen aktivális módok egyikét használod, és nemre állítod ezt a beállítást, az új regisztrációkat semmilyen módon nem kell majd megerősíteni.</em>',
 	'SMTP_AUTH_METHOD'				=> 'SMTP azonosítási mód',
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Csak akkor van használva, ha egy felhasználónév/jelszó páros meg van adva. Ha nem vagy biztos benne, melyik módot használd, kérdezd meg a szolgáltatódat.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',
