@@ -61,6 +61,7 @@ $lang = array_merge($lang, array(
 
 	'FILE_NOT_FOUND_404'	=> 'A <strong>%s</strong> fájl nem létezik.',
 	'FORK_TOPIC'			=> 'Téma másolása',
+	'FULL_EDITOR'			=> 'Teljes szerkesztő',
 
 	'LINKAGE_FORBIDDEN'		=> 'Ön nem jogosult az oldalt megtekinteni, letölteni róla vagy linkelni rá.', //? fogalmam sincs...
 	'LOGIN_NOTIFY_TOPIC'	=> 'Ön értesítve lett erről a témáról. Lépjen be, hogy megtekinthesse.',
