@@ -124,8 +124,8 @@ $lang = array_merge($lang, array(
 	'acl_u_pm_download'	=> array('lang' => 'Privát üzeneteiből letölthet állományokat', 'cat' => 'pm'),
 	'acl_u_pm_bbcode'	=> array('lang' => 'Privát üzeneteiben használhat BBCode-ot', 'cat' => 'pm'),
 	'acl_u_pm_smilies'	=> array('lang' => 'Privát üzeneteiben használhat emotikonokat', 'cat' => 'pm'),
-	'acl_u_pm_img'		=> array('lang' => 'Privát üzeneteiben küldhet képet', 'cat' => 'pm'),
-	'acl_u_pm_flash'	=> array('lang' => 'Privát üzeneteiben küldhet flasht', 'cat' => 'pm'),
+	'acl_u_pm_img'		=> array('lang' => 'Privát üzeneteiben használhatja az [img] BBCode címkét', 'cat' => 'pm'),
+	'acl_u_pm_flash'	=> array('lang' => 'Privát üzeneteiben használhatja a [flash] BBCode címkét', 'cat' => 'pm'),
 
 	'acl_u_sendemail'	=> array('lang' => 'Küldhet e-mailt', 'cat' => 'misc'),
 	'acl_u_sendim'		=> array('lang' => 'Küldhet azonnali üzenetet', 'cat' => 'misc'),
@@ -154,8 +154,8 @@ $lang = array_merge($lang, array(
 	'acl_f_sigs'		=> array('lang' => 'Használhat aláírást', 'cat' => 'content'),
 	'acl_f_bbcode'		=> array('lang' => 'Használhat BBCode-ot', 'cat' => 'content'),
 	'acl_f_smilies'		=> array('lang' => 'Használhat emotikonokat', 'cat' => 'content'),
-	'acl_f_img'			=> array('lang' => 'Küldhet képet', 'cat' => 'content'),
-	'acl_f_flash'		=> array('lang' => 'Küldhet flasht', 'cat' => 'content'),
+	'acl_f_img'			=> array('lang' => 'Használhatja az [img] BBCode címkét', 'cat' => 'content'),
+	'acl_f_flash'		=> array('lang' => 'Használhatja a [flash] BBCode címkét', 'cat' => 'content'),
 
 	'acl_f_edit'		=> array('lang' => 'Szerkesztheti saját hozzászólásait', 'cat' => 'actions'),
 	'acl_f_delete'		=> array('lang' => 'Törölheti saját hozzászólásait', 'cat' => 'actions'),

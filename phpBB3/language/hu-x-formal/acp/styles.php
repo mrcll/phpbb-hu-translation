@@ -391,6 +391,7 @@ $lang = array_merge($lang, array(
 	'TEMPLATE_LOCATION'			=> 'Sablonok tárolásának helye',
 	'TEMPLATE_LOCATION_EXPLAIN'	=> 'A képek mindig a fájlrendszerben kerülnek eltárolásra.',
 	'TEMPLATE_NAME'				=> 'Sablon neve',
+	'TEMPLATE_FILE_NOT_WRITABLE'=> 'A %s sablon állományt nem sikerült elmenteni. Kérjük, ellenőrizd a könyvtár és az állományok jogosultságait.',
 	'TEMPLATE_REFRESHED'		=> 'A sablon sikeresen újratöltésre került.',
 
 	'THEME_ADDED'				=> 'Az új stílus hozzáadásra került a fájlrendszerbe.',

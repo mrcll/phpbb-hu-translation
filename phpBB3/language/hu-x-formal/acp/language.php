@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_FILES'						=> 'Adminisztrátori nyelvi állományok',
-	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Itt a nyelvi csomagokat telepítheted, illetve törölheted.',
+	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Itt a nyelvi csomagokat telepítheted, illetve törölheted. Az alapértelmezett nyelvi csomag egy csillaggal (*) van megjelölve.',
 
 	'EMAIL_FILES'			=> 'E-mail sablonok',
 
