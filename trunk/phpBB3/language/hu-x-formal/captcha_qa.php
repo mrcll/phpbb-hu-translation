@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'CAPTCHA_QA'				=> 'Kérdés és válasz CAPTCHA',
-	'CONFIRM_QUESTION_EXPLAIN'	=> 'Az alábbi kérdés az automatikus regisztrációk megakadályozását szolgálja.',
+	'CONFIRM_QUESTION_EXPLAIN'	=> 'A kérdés az automatikus regisztrációk megakadályozását szolgálja.',
 	'CONFIRM_QUESTION_WRONG'	=> 'Hibás választ adott meg a megerősítő kérdésre.',
 
 	'QUESTION_ANSWERS'			=> 'Válaszok',
