@@ -299,7 +299,7 @@ $lang = array_merge($lang, array(
 
 // Logs
 $lang = array_merge($lang, array(
-	'ACP_ADMIN_LOGS_EXPLAIN'	=> 'Ez a lista az adminisztrátorok összes műveletét, tevékenységét tartalmazza. Rendezheted felhasználónév, idő, IP-cím vagy művelet szerint. Ha rendelkezel a szükséges jogosultságokkal, törölheted az egyes bejegyzéseket vagy akár a teljes napló tartalmát.',
+	'ACP_ADMIN_LOGS_EXPLAIN'	=> 'Ez a lista az adminisztrátorok összes műveletét, tevékenységét tartalmazza. Rendezheted felhasználónév, idő, IP-cím vagy művelet szerint. Ha rendelkezel a szükséges jogosultságokkal, törölheted az egyes bejegyzéseket vagy akár a napló teljes tartalmát.',
 	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'Ez a lista a fórum által végrehajtott műveleteket tartalmazza. Ez a napló olyan információkat nyújt, melyeket fel tudsz használni problémák megoldásához, például hogy miért nem mennek el az e-mailek. Rendezheted felhasználónév, idő, IP-cím vagy művelet szerint. Ha rendelkezel a szükséges jogosultságokkal, törölheted az egyes bejegyzéseket vagy akár a teljes napló tartalmát.',
 	'ACP_MOD_LOGS_EXPLAIN'		=> 'Ez a lista a moderátorok által a fórumokon, témákon és hozzászólásokon végrehajtott műveleteket tartalmazza, ide értve a kitiltásokat is. Rendezheted felhasználónév, idő, IP-cím vagy művelet szerint. Ha rendelkezel a szükséges jogosultságokkal, törölheted az egyes bejegyzéseket vagy akár a teljes napló tartalmát.',
 	'ACP_USERS_LOGS_EXPLAIN'	=> 'Ez a lista a felhasználókon vagy a felhasználók által végrehajtott műveleteket tartalmazza (jelentések, figyelmeztetések és feljegyzések).',
