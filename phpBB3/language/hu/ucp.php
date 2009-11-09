@@ -101,7 +101,7 @@ $lang = array_merge($lang, array(
 	'BIRTHDAY'					=> 'Születésnap',
 	'BIRTHDAY_EXPLAIN'			=> 'Ha megadod a születési éved, a születésnapodkor látszani fog a korod is.',
 	'BOARD_DATE_FORMAT'			=> 'Dátum formátum',
-	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'A formátum megegyezik a PHP <a href="http://hu.php.net/manual/hu/function.date.php">date()</a> függvényéjével.', //? fogalmazás
+	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'A formátum megegyezik a PHP <a href="http://www.php-blog.hu/php-magyar-kezikonyv/function.date.html">date()</a> függvényéjével.', //? fogalmazás
 	'BOARD_DST'					=> 'Nyári időszámítás érvényben',
 	'BOARD_LANGUAGE'			=> 'Nyelv',
 	'BOARD_STYLE'				=> 'Megjelenés',
