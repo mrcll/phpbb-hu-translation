@@ -246,7 +246,7 @@ $lang = array_merge($lang, array(
 	'G_REGISTERED'				=> 'Regisztrált felhasználók',
 	'G_REGISTERED_COPPA'		=> 'Regisztrált COPPA felhasználók',
 	'G_GLOBAL_MODERATORS'		=> 'Globális moderátorok',
-	'G_NEWLY_REGISTERED'		=> 'Újonnan regisztrált felhas',
+	'G_NEWLY_REGISTERED'		=> 'Újonnan regisztrált felhasználók',
 
 	'HIDDEN_USERS_ONLINE'			=> '%d rejtett felhasználó van jelen.',
 	'HIDDEN_USERS_TOTAL'			=> '%d rejtett',

@@ -346,7 +346,7 @@ $lang = array_merge($lang, array(
 	'PURGE_CACHE_EXPLAIN'	=> 'Minden gyorsítótárazott elem törlésre kerül, beleértve a gyorsítótárazott sablon állományokat és adatbázis-lekérdezéseket is.',
 
 	'PURGE_SESSIONS'			=> 'Munkamenetek törlése',
-	'PURGE_SESSIONS_CONFIRM'	=> 'Are you sure you wish to purge all sessions? This will log out all users.',
+	'PURGE_SESSIONS_CONFIRM'	=> 'Bitosan törölni szeretnéd az összes munkamenetet? Ennek folytán az összes felhasználó kiléptetésre fog kerülni.',
 	'PURGE_SESSIONS_EXPLAIN'	=> 'Megszakítja és törli az összes munkamenetet. Minden felhasználó kiléptetésre kerül, mivel a munkamenet tábla kiürítődik.',
 
 	'RESET_DATE'					=> 'Fórum indulási dátumának lenullázása', //? lenullázás?
@@ -415,7 +415,7 @@ $lang = array_merge($lang, array(
 	'DONT_SEND_STATISTICS'		=> 'Amennyiben nem kívánsz statisztikai adatokat küldeni, térj vissza az AVP kezdőlapjára.',
 	'GO_ACP_MAIN'				=> 'Visszatérés az AVP kezdőldalra',
 	'HIDE_STATISTICS'			=> 'Adatok elrejtése',
-	'SEND_STATISTICS'			=> 'Statisztikai adatok ',
+	'SEND_STATISTICS'			=> 'Statisztikai adatok küldése',
 	'SHOW_STATISTICS'			=> 'Adatok megjelenítése',
 	'THANKS_SEND_STATISTICS'	=> 'Köszönjük, hogy segítettél az adatgyűjtésben!',
 ));
