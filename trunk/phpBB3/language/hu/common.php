@@ -92,9 +92,9 @@ $lang = array_merge($lang, array(
 
 	'BACK_TO_TOP'			=> 'Vissza a tetejére',
 	'BACK_TO_PREV'			=> 'Vissza az előző oldalra',
-	'BAN_TRIGGERED_BY_EMAIL'=> 'Az e-mail címed alapján tiltottak ki.',
-	'BAN_TRIGGERED_BY_IP'	=> 'Az IP-címed alapján tiltottak ki.',
-	'BAN_TRIGGERED_BY_USER'	=> 'A felhasználóneved alapján tiltottak ki.',
+	'BAN_TRIGGERED_BY_EMAIL'=> 'A kitiltás e-mail cím alapján történt.',
+	'BAN_TRIGGERED_BY_IP'	=> 'A kitiltás IP-cím alapján történt.',
+	'BAN_TRIGGERED_BY_USER'	=> 'A kitiltás felhasználónév cím alapján történt.',
 	'BBCODE_GUIDE'			=> 'BBCode útmutató',
 	'BCC'					=> 'Titkos másolat',
 	'BIRTHDAYS'				=> 'Születésnaposok',
