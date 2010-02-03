@@ -4,7 +4,7 @@
 * acp_forums [Hungarian]
 *
 * @package language
-* @version $Id$
+* @version $Id: forums.php 198 2009-10-19 20:13:50Z fberci $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -100,7 +100,7 @@ $lang = array_merge($lang, array(
 	'FORUM_PASSWORD_EXPLAIN'			=> 'A fórum csak ezzel a jelszóval lesz elérhető. Ajánlott inkább a jogosultságrendszert használni.',
 	'FORUM_PASSWORD_UNSET'				=> 'Fórum jelszó eltávolítása',
 	'FORUM_PASSWORD_UNSET_EXPLAIN'		=> 'Kattints ide, ha törölni akarod a fórum jelszót.',
-	'FORUM_PASSWORD_OLD'				=> 'A fórum jelszó régi titkosítást használ, ezért meg kell változtatni.',
+	'FORUM_PASSWORD_OLD'				=> 'A fórum jelszó régi kódolási eljárást használ, ezért meg kell változtatni.',
 	'FORUM_PASSWORD_MISMATCH'			=> 'A megadott jelszavak nem egyeznek meg.',
 	'FORUM_PRUNE_SETTINGS'				=> 'Fórum megtisztítás beállítások',
 	'FORUM_RESYNCED'					=> 'A „%s” fórum sikeresen újraszinkronizálásra került.',

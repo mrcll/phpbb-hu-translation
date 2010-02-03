@@ -96,8 +96,8 @@ $help = array(
 		1 => 'Ennek az az oka, hogy az adminisztrátor nem telepítette a megfelelő nyelvi csomagot, vagy hogy még nem készült fordítás a kívánt nyelvre. Kérje meg az adminisztrátort, hogy telepítse a nyelvi csomagot, amennyiben viszont még nem létezik, nyugodtan készítse el a fordítást. További információért keresse fel a phpBB Group weboldalát (a link az oldal alján található).'
 	),
 	array(
-		0 => 'Hogyan jeleníthetek meg egy képet a nevem alatt?',
-		1 => 'A hozzászólások megtekintésénél a felhasználónév alatt két kép szerepelhet. A használt megjelenéstől függően az első a rangot mutatja (ezek általában csillagok vagy más elemek formájában kerülnek megjelenítésre, a számuk mutatja mennyi hozzászólást küldött eddig a fórumon, vagy hogy milyen státusza van). Ez alatt lehet egy nagyobb kép, az avatar, mely a legtöbb felhasználónak egyedi és személyes. A fórum adminisztrátorától függ, hogy engedélyezett-e az avatarok használata, illetve milyen módot lehet megadni ezt a képet. Ha nem tud avatart beállítani, lépjen kapcsolatba egy adminisztrátorral, és tájékozódjon nála az okokról.'
+		0 => 'Hogyan jeleníthetek meg egy képet a nevemmel együtt?',
+		1 => 'A hozzászólások megtekintésénél a felhasználónév mellett két kép szerepelhet. Az egyik általában a rangjához kapcsolódik (ezek általában csillagok vagy más elemek formájában kerülnek megjelenítésre, a számuk mutatja mennyi hozzászólást küldött eddig a fórumon, vagy hogy milyen státusza van). A másik – általában egy nagyobb kép – az avatar, mely a legtöbb felhasználónak egyedi és személyes. A fórum adminisztrátorától függ, hogy engedélyezett-e az avatarok használata, illetve milyen módot lehet megadni ezt a képet. Ha nem tud avatart beállítani, státusza kapcsolatba egy adminisztrátorral, és tájékozódjon nála az okokról.'
 	),
 	array(
 		0 => 'Mi az a rang, hogyan tudom megváltoztatni a rangomat?',

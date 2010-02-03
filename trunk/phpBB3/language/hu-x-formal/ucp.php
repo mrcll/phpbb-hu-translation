@@ -460,6 +460,7 @@ $lang = array_merge($lang, array(
 	'UCP_ZEBRA'						=> 'Barátok és haragosok',
 	'UCP_ZEBRA_FOES'				=> 'Haragosok kezelése',
 	'UCP_ZEBRA_FRIENDS'				=> 'Barátok kezelése',
+	'UNDISCLOSED_RECIPIENT'			=> 'Rejtett címzett',
 	'UNKNOWN_FOLDER'				=> 'Ismeretlen mappa',
 	'UNWATCH_MARKED'				=> 'Leiratkozás a kijelöltekről',
 	'UPLOAD_AVATAR_FILE'			=> 'Feltöltés a számítógépről',

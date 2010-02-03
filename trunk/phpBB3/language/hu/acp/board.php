@@ -151,7 +151,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_POST_FLASH_EXPLAIN'			=> 'Ha nem engedélyezett, a <code>[FLASH]</code> címke nem használható a hozzászólásokban. Máskülönben a jogosultságoktól függ, használható-e a <code>[FLASH]</code> BBCode címke.',
   
 	'BUMP_INTERVAL'					=> 'Előreugrasztás időköz', //?
-	'BUMP_INTERVAL_EXPLAIN'			=> 'Az utolsó hozzászólás után ennyi idő múlva lehet előreugrasztani egy témát.',
+	'BUMP_INTERVAL_EXPLAIN'			=> 'Az utolsó hozzászólás után ennyi idő múlva lehet előreugrasztani egy témát. A 0 érték kikapcsolja ezt a funkciót.',
 	'CHAR_LIMIT'					=> 'Hozzászólásonkénti maximum karakterszám',
 	'CHAR_LIMIT_EXPLAIN'			=> 'Hány karakter engedélyezett egy hozzászólásban. Állítsd 0-ra a korlátozás megszüntetéséhez.',
 	'DELETE_TIME'					=> 'Törlési időkorlát',
@@ -248,32 +248,47 @@ $lang = array_merge($lang, array(
 
 // Feeds
 $lang = array_merge($lang, array(
-	'ACP_FEED_MANAGEMENT'				=> 'General Syndication Feeds settings',
+	'ACP_FEED_MANAGEMENT'				=> 'Általános ATOM csatorna beállítások',
 	'ACP_FEED_MANAGEMENT_EXPLAIN'		=> 'Ez a modul különböző ATOM csatornákat tesz elérhetővé. A hozzászólások BBCode-ja is feldolgozásra kerül, hogy a hozzászólások a külső olvasókban is úgy jelenjenek meg, mint egyébként.',
+
+	'ACP_FEED_GENERAL'					=> 'Általános csatorna beállítások',
+	'ACP_FEED_POST_BASED'				=> 'Hozzászólás csatorna beállítások',
+	'ACP_FEED_TOPIC_BASED'				=> 'Téma csatorna beállítások',
+	'ACP_FEED_SETTINGS_OTHER'			=> 'Más csatornák és beállítások',
 
 	'ACP_FEED_ENABLE'					=> 'Csatornák bekapcsolása',
 	'ACP_FEED_ENABLE_EXPLAIN'			=> 'Az ATOM csatornák be- vagy kikapcsolása az egész fórumon.<br />Ha kikapcsolod, az alábbi beállításoktól függetlenül, az összes csatorna kikapcsolásra kerül.',
 	'ACP_FEED_LIMIT'					=> 'Bejegyzések száma',
 	'ACP_FEED_LIMIT_EXPLAIN'			=> 'Legfeljebb ennyi bejegyzés kerül megjelenítésre a csatornákban.',
 
-	'ACP_FEED_OVERALL_FORUMS'			=> 'Fórum összesító csatorna bekapcsolása', //? "Enable overall forums feed" overall - összesítő?
+/*	'ACP_FEED_OVERALL_FORUMS'			=> 'Fórum összesító csatorna bekapcsolása', //? "Enable overall forums feed" overall - összesítő?
 	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Ez a csatorna a legújabb hozzászólásokat jeleníti meg a fórum összes témájából.',
 	'ACP_FEED_OVERALL_FORUMS_LIMIT'		=> 'Megjelenítendő bejegyzések száma oldalanként a fórumok csatorában',
 
 	'ACP_FEED_OVERALL_TOPIC'			=> 'Téma összesítő csatorna bekapcsolása', //?
 	'ACP_FEED_OVERALL_TOPIC_EXPLAIN'	=> 'Bekapcsolja az „Összes téma” csatornát',
-	'ACP_FEED_OVERALL_TOPIC_LIMIT'		=> 'Megjelenítendő bejegyzések száma oldalanként a témák csatorában',
+	'ACP_FEED_OVERALL_TOPIC_LIMIT'		=> 'Megjelenítendő bejegyzések száma oldalanként a témák csatorában',*/
+	'ACP_FEED_OVERALL'					=> 'Globális fórum csatorna bekapcsolása',
+	'ACP_FEED_OVERALL_EXPLAIN'			=> 'Új hozzászólások az összes fórumból.',
 	'ACP_FEED_FORUM'					=> 'Fórumonkénti csatornák bekapcsolása',
 	'ACP_FEED_FORUM_EXPLAIN'			=> 'Az egyes fórumok új hozzászólásai a saját csatornájukban.',
 	'ACP_FEED_TOPIC'					=> 'Témánkénti csatornák bekapcsolása',
 	'ACP_FEED_TOPIC_EXPLAIN'			=> 'Az egyes témák új hozzászólásai a saját csatornájukban.',
+
+	'ACP_FEED_TOPICS_NEW'				=> 'Új témák csatorna bekapcsolása',
+	'ACP_FEED_TOPICS_NEW_EXPLAIN'		=> 'Bekapcsolja az „Új témák” csatornát, amely az újonnan létrehozott témákat jeleníti meg az első hozzászólásukkal együtt.',
+	'ACP_FEED_TOPICS_ACTIVE'			=> 'Aktív témák csatorna bekapcsolása',
+	'ACP_FEED_TOPICS_ACTIVE_EXPLAIN'	=> 'Bekapcsolja az „Aktív témák” csatornát, amely az utoljára aktív témákat jeleníti meg az utolsó hozzászólásukkal együtt.',
 	'ACP_FEED_NEWS'						=> 'Hírcsatorna',
 	'ACP_FEED_NEWS_EXPLAIN'				=> 'A hírcsatorna ezen fórumok első hozzászólásait jeleníti meg. Ha ki szeretnéd kapcsolni, ne válassz ki egy fórumot se.<br />Több fórumot a <samp>CTRL</samp> gomb nyomvatartásával tudsz kiválasztani.',
 
-	'ACP_FEED_GENERAL'					=> 'Általános csatorna beállítások', //? csatorna helyett ATOM?
+	'ACP_FEED_OVERALL_FORUMS'			=> 'Fórum csatorna bekapcsolása',
+	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Bekapcsolja az „Összes fórum” csatornát, amely a fórumok listáját jeleníti meg..',
 
+	'ACP_FEED_HTTP_AUTH'				=> 'HTTP azonosítás engedélyezése',
+	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Engedélyezi a HTTP azonosítást, aminek segítségével a felhasználók a vendég felhasználók elől elzárt tartalmakhoz is hozzáférnek, ha a csatorna URL-jét kiegészítik a <samp>auth=http</samp> paraméterrel. Kérjük, vedd figyelembe, hogy egyes PHP környezetekben további változtatásokat kell elvégezni a .htaccess állományban. A teendők megtalálhatóak ebben az állományban.',
 	'ACP_FEED_ITEM_STATISTICS'			=> 'Bejegyzés statisztikák',
-	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Különböző statisztikai adatokat jelenít meg a csatorna bejegyzései alatt.<br />(Szerző, dátum, válaszok száma, megtekintések száma)',
+	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Különböző statisztikai adatokat jelenít meg a csatorna bejegyzései alatt.<br />(Például szerző, dátum, válaszok száma, megtekintések száma)',
 	'ACP_FEED_EXCLUDE_ID'				=> 'Kizárandó fórumok',
 	'ACP_FEED_EXCLUDE_ID_EXPLAIN'		=> 'Ezen fórumok tartalma <strong>nem kerül megjelenítésre a csatornákban</strong>. <br />Több fórumot kijelölni, illetve a kijelölést megszüntetni a <samp>CTRL</samp> gomb nyomvatartásával lehet.',
 ));
@@ -499,7 +514,7 @@ $lang = array_merge($lang, array(
 	'SMTP_DIGEST_MD5'				=> 'DIGEST-MD5',
 	'SMTP_LOGIN'					=> 'LOGIN',
 	'SMTP_PASSWORD'					=> 'SMTP jelszó',
-	'SMTP_PASSWORD_EXPLAIN'			=> 'Csak akkor adj meg jelszót, ha a használt SMTP szerver megköveteli.',
+	'SMTP_PASSWORD_EXPLAIN'			=> 'Csak akkor adj meg jelszót, ha a használt SMTP szerver megköveteli. <em><strong>Figyelmeztetés:</strong> a jelszó sima szövegként kerül eltárolásra az adatbázisban.</em>',
 	'SMTP_PLAIN'					=> 'PLAIN',
 	'SMTP_POP_BEFORE_SMTP'			=> 'POP-BEFORE-SMTP',
 	'SMTP_PORT'						=> 'SMTP szerver port',
@@ -522,6 +537,7 @@ $lang = array_merge($lang, array(
 	'JAB_PACKAGE_SIZE'			=> 'Jabber csomag méret',
 	'JAB_PACKAGE_SIZE_EXPLAIN'	=> 'Egy csomagban ennyi üzenet kerül kiküldésre. 0-ra állítva az üzenetek azonnal kiküldésre kerülnek, és nem lesznek berakva egy sorba későbbi elküldéshez.',
 	'JAB_PASSWORD'				=> 'Jabber jelszó',
+	'JAB_PASSWORD_EXPLAIN'		=> '<em><strong>Figyelmeztetés:</strong> a jelszó sima szövegként kerül eltárolásra az adatbázisban.</em>',
 	'JAB_PORT'					=> 'Jabber port',
 	'JAB_PORT_EXPLAIN'			=> 'Hagyd üresen, hacsak nem tudod, hogy a port nem 5222.',
 	'JAB_SERVER'				=> 'Jabber szerver',
