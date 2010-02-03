@@ -254,6 +254,8 @@ $lang = array_merge($lang, array(
 	'PM_REPORT_DELETED_SUCCESS'	=> 'A kiválasztott PÜ jelentés sikeresen törlésre került.',
 	'PM_REPORTED_SUCCESS'		=> 'A privát üzenet sikeresen jelentésre került.',
 	'PM_REPORT_TOTAL'			=> 'Összesen <strong>1</strong> áttekintésre váró PÜ jelentés van.',
+	'PM_REPORTS_CLOSED_SUCCESS'	=> 'A kiválasztott PÜ jelentések sikeresen lezárásra kerültek.',
+	'PM_REPORTS_DELETED_SUCCESS'=> 'A kiválasztott PÜ jelentések sikeresen törlésre kerültek.',
 	'PM_REPORTS_TOTAL'			=> 'Összesen <strong>%d</strong> áttekintésre váró PÜ jelentés van.',
 	'PM_REPORTS_ZERO_TOTAL'		=> 'Nincs áttekintésre váró PÜ jelentés.',
 	'PM_REPORT_DETAILS'			=> 'Privát üzenet jelentés részletek',
@@ -329,6 +331,7 @@ $lang = array_merge($lang, array(
 	'SPLIT_TOPIC_BEYOND_CONFIRM'		=> 'Biztosan szét akarod választani a témát a kiválasztott hozzászólástól?', //?
 	'SPLIT_TOPIC_EXPLAIN'				=> 'Az alábbi űrlap segítségével egy témát kettéoszthatsz kétféleképpen: vagy egy kiválasztott hozzászólástól vagy csak a kiválasztott hozzászólásokat.', //? "Using the form below you can split a topic in two, either by selecting the posts individually or by splitting at a selected post" fogalmazás
 
+	'THIS_PM_IP'				=> 'Privát üzenethez tartozó IP',
 	'THIS_POST_IP'				=> 'Hozzászóláshoz tartozó IP', //? 'Hozzászólás IP-je'
 	'TOPICS_APPROVED_SUCCESS'	=> 'A kiválasztott témák jóváhagyásra kerültek.',
 	'TOPICS_DELETED_SUCCESS'	=> 'A kiválasztott témák sikeresen eltávolításra kerültek az adatbázisból.',

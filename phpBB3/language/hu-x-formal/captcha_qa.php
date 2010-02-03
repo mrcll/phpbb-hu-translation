@@ -59,6 +59,8 @@ $lang = array_merge($lang, array(
 	'QUESTION_TEXT_EXPLAIN'		=> 'A regisztrációkor felteendő kérdés.',
 
 	'QA_ERROR_MSG'				=> 'Kérünk, töltsd ki az összes mezőt, és adj meg legalább egy választ.',
+	'QA_LAST_QUESTION'			=> 'Nem törölheted az összes kérdést, amíg a bővítmény aktív.',
+
 ));
 
 ?>

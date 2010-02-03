@@ -4,7 +4,7 @@
 * acp common [Hungarian]
 *
 * @package language
-* @version $Id: common.php 201 2009-10-19 21:31:20Z fberci $
+* @version $Id: common.php 206 2009-11-18 20:50:45Z fberci $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -267,7 +267,6 @@ $lang = array_merge($lang, array(
 	'PARSE_URLS'						=> 'Linkek értelmezése',
 	'PERMISSIONS_TRANSFERRED'			=> 'Jogosultságok átruházva',
 	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Jelenleg %1$s jogosultságaival rendelkezel. A fórumot ezen felhasználó jogosultságaival böngészheted, viszont nem férhetsz hozzá az adminisztrációs vezérlőpulthoz, mivel adminisztrátori jogosultságok nem kerültek átruházásra. <a href="%2$s"><strong>Bármikor visszatérhetsz a saját jogosultságaidhoz.</strong></a>',
-	'PIXEL'								=> 'px', //?
 	'PROCEED_TO_ACP'					=> '%sTovább az AVP-hoz%s',
 
 	'REMIND'							=> 'Emlékeztetés',
@@ -338,6 +337,8 @@ $lang = array_merge($lang, array(
 	'NUMBER_TOPICS'		=> 'Témák száma',
 	'NUMBER_USERS'		=> 'Felhasználók száma',
 	'NUMBER_ORPHAN'		=> 'Árva csatolmányok száma',
+
+	'PHP_VERSION_OLD'	=> 'A szerveren lévő PHP verziót a jövőbeli phpBB kiadások már nem fogják támogatni. %sRészletek%s',
 
 	'POSTS_PER_DAY'		=> 'Hozzászólások száma naponta',
 
