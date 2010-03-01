@@ -42,6 +42,9 @@ $lang = array_merge($lang, array(
 	'ACP_BBCODES_EXPLAIN'		=> 'A BBCode a HTML nyelv egy speciális változata, mely nagy teret enged egy szövegrészlet megformázásához. Ezen az oldalon felvehetsz, törölheted és szerkesztehted az egyedi BBCode-okat.',
 	'ADD_BBCODE'				=> 'Új BBCode felvétele',
 
+	'BBCODE_DANGER'				=> 'A felvenni kívánt BBCode {TEXT} jelölőt tartalmaz egy HTML attribútumon belül. Ez egy potenciális XSS biztonsági rés, használd inkább a kevésbé megengedő {SIMPLETEXT} vagy {INTTEXT} típusokat. Csak akkor lépj tovább, ha tisztában vagy a veszélyekkel, és a {TEXT} jelölő használatát elkerülhetetlennek tartod.',
+	'BBCODE_DANGER_PROCEED'		=> 'Tisztában vagyok a veszélyekkel', // 'Proceed',
+
 	'BBCODE_ADDED'				=> 'A BBCode sikeresen felvételre került.',
 	'BBCODE_EDITED'				=> 'A BBCode sikeresen szerkesztésre került.',
 	'BBCODE_NOT_EXIST'			=> 'A kiválasztott BBCode nem létezik.',
@@ -74,8 +77,10 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_BBCODES'		=> 'Nem tudsz több BBCode-ot készíteni. Kérünk, törölj egy vagy több BBCode-ot, és próbálkozz újra.',
 
 	'tokens'	=>	array(
-		'TEXT'			=> 'Bármilyen szöveg beleértve a külföldi karaktereket, számokat, stb. Ezt a jelölést ne használd HTML címkében, arra a SIMPLETEXT való.',
-		'SIMPLETEXT'	=> 'A latin ábécé betűje (A-Z), szám, szóköz, vessző, pont, mínusz, plusz, kötőjel és alulvonás.',
+		'TEXT'			=> 'Bármilyen szöveg beleértve a külföldi karaktereket, számokat stb. Ezt a jelölőt ne használd HTML címkében, használd helyette az IDENTIFIER, INTTEXT vagy SIMPLETEXT jelölők egyikét.',
+		'SIMPLETEXT'	=> 'A latin ábécé betűje (A-Z), szám, szóköz, vessző, pont, mínusz jel, plusz jel, kötőjel és alulvonás.',
+		'INTTEXT'		=> 'Unicode betű, szám, szóköz, vessző, pont, mínusz jel, plusz jel, kötőjel, alulvonás és térközök.',
+		'IDENTIFIER'	=> 'A latin ábécé betúje (A-Z), szám, kötőjel és alulvonás.',
 		'NUMBER'		=> 'Bármilyen szám.',
 		'EMAIL'			=> 'Egy érvényes e-mail cím.',
 		'URL'			=> 'Egy érvényes URL, mely bármilyen protokollt használhat (http, ftp, stb., nem használható fel javascript támadásokhoz). Ha nincs protokoll megadva, a szöveg elé „http://” kerül elhelyezésre.',
