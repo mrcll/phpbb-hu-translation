@@ -41,7 +41,7 @@ $lang = array_merge($lang, array(
 	'ACP_PRUNE_USERS_EXPLAIN'	=> 'Itt törölhetsz (vagy deaktiválhatsz) felhasználókat a fórumodról. Az azonosítók több különböző módon szűrhetők: hozzászólászám, legutolsó aktivitás stb. alapján. Minden feltétel kombinálható, tehát például törölheteted csak azokat a felhasználókat, akik 2002-01-01 előtt voltak utoljára aktívak, és kevesebb mint 10 hozzászólásszal rendelkeznek. Feltételek helyett beírhatsz közvetlenül felhasználóneveket a szövegmezőbe, mindegyiket külön sorba. Vigyázz ezzel a funkcióval! Ha töröltél egy felhasználót, később nem lehet visszaállítani.',
 
 	'DEACTIVATE_DELETE'			=> 'Deaktiválás vagy törlés',
-	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Válszd ki, hogy deaktiválni vagy törölni szeretnéd teljesen a felhasználókat. Kérjük, vedd figyelmbe, hogy nincs mód a visszaállításra!',
+	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Válaszd ki, hogy deaktiválni vagy törölni szeretnéd teljesen a felhasználókat. Kérjük, vedd figyelmbe, hogy nincs mód a visszaállításra!',
 	'DELETE_USERS'				=> 'Törlés',
 	'DELETE_USER_POSTS'			=> 'Megtisztított felhasználók hozzászólásainak törlése', //?! félreérthető!
 	'DELETE_USER_POSTS_EXPLAIN' => 'A törölt felhasználók hozzászólásai törölve legyenek-e. Nincs hatása ha a felhasználók deaktiválásra kerülnek.',
