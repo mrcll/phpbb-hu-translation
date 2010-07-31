@@ -40,7 +40,7 @@ $lang = array_merge($lang, array(
 	'ABOUT_USER'			=> 'Profil',
 	'ACTIVE_IN_FORUM'		=> 'Legaktívabb fórum', //? 'Legaktívabb fóruma'?
 	'ACTIVE_IN_TOPIC'		=> 'Legaktívabb téma',
-	'ADD_FOE'				=> 'Hozzáadás az ellenségekhez',
+	'ADD_FOE'				=> 'Hozzáadás a haragosokhoz',
 	'ADD_FRIEND'			=> 'Hozzáadás a barátokhoz',
 	'AFTER'					=> 'Később mint', //?
 
