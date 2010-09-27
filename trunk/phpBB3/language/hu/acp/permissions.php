@@ -197,7 +197,7 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_FORUM_POLLS'			=> 'Ugyanaz, mint a normál hozzáférésnél, de készíthet szavazást.',
 	'ROLE_DESCRIPTION_FORUM_READONLY'		=> 'Olvashatja a fórum tartalmát, de nem nyithat témát, illetve nem küldhet hozzászólást.',
 	'ROLE_DESCRIPTION_FORUM_STANDARD'		=> 'Használhatja a fórum legtöbb funkcióját, állományokat is csatolhat, de nem zárhatja le a saját témáit, és nem készíthet szavazást.',
-	'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'		=> 'A speciális újonnan regisztrált felhasználók csoporthoz készült szerep; <samp>SOHA</samp> jogosultságaokat tartalmaz, hogy lezárjon néhány funkciót az új felhasználók elől.',
+	'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'		=> 'A speciális újonnan regisztrált felhasználók csoporthoz készült szerep; <samp>SOHA</samp> jogosultságokat tartalmaz, hogy lezárjon néhány funkciót az új felhasználók elől.',
 	'ROLE_DESCRIPTION_MOD_FULL'				=> 'Használhatja az összes moderátori funkciót, beleértve a kitiltást is.',
 	'ROLE_DESCRIPTION_MOD_QUEUE'			=> 'Szerkesztheti a hozzászólásokat, és jóváhagyhatja a moderálandókat, de semmi mást nem csinálhat.',
 	'ROLE_DESCRIPTION_MOD_SIMPLE'			=> 'Csak a témákkal kapcsolatos műveleteket végezhet. Nem adhat figyelmeztetést, és nem hagyhat jóvá hozzászólásokat.',
@@ -207,7 +207,7 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_USER_NOAVATAR'		=> 'Korlátozott funkciókat használhat, és nem állíthat be avatart.',
 	'ROLE_DESCRIPTION_USER_NOPM'			=> 'Korlátozott funkciókat használhat, és nem használhatja a privát üzenetek funkciót.',
 	'ROLE_DESCRIPTION_USER_STANDARD'		=> 'Használhatja a legtöbb, de nem az összes felhasználói funkciót. Például nem változtathatja meg a felhasználónevét, illetve nem hagyhatja figyelmen kívül a flood időközt.',
-	'ROLE_DESCRIPTION_USER_NEW_MEMBER'		=> 'A speciális újonnan regisztrált felhasználók csoporthoz készült szerep; <samp>SOHA</samp> jogosultságaokat tartalmaz, hogy lezárjon néhány funkciót az új felhasználók elől.',
+	'ROLE_DESCRIPTION_USER_NEW_MEMBER'		=> 'A speciális újonnan regisztrált felhasználók csoporthoz készült szerep; <samp>SOHA</samp> jogosultságokat tartalmaz, hogy lezárjon néhány funkciót az új felhasználók elől.',
 
 	'ROLE_DESCRIPTION_EXPLAIN'		=> 'Megadhatsz egy rövid magyarázatot, hogy mit csinál a szerep, vagy mire való. Az itt megadott leírás a jogosultság oldalakon is meg fog jelenni.',
 	'ROLE_DESCRIPTION_LONG'			=> 'A szerep leírása túl hosszú, kérjük, tartsd 4000 karakteren belül.',
