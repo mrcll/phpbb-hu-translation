@@ -4,7 +4,7 @@
 * acp common [Hungarian]
 *
 * @package language
-* @version $Id: common.php 206 2009-11-18 20:50:45Z fberci $
+* @version $Id: common.php 224 2010-11-21 16:41:59Z fberci $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -190,7 +190,7 @@ $lang = array_merge($lang, array(
 	'ACP_USER_SIG'					=> 'Aláírás',
 	'ACP_USER_WARNINGS'				=> 'Figyelmeztetések',
 
-	'ACP_VC_SETTINGS'					=> 'CAPTCHA modul beállítások',
+	'ACP_VC_SETTINGS'					=> 'Spam megelőzés',
 	'ACP_VC_CAPTCHA_DISPLAY'			=> 'CAPTCHA kép előnézet', //?
 	'ACP_VERSION_CHECK'					=> 'Frissítések keresése',
 	'ACP_VIEW_ADMIN_PERMISSIONS'		=> 'Adminisztrációs jogosultságok megtekintése', //? "View administrative permissions" 'Adminisztratív'
@@ -505,7 +505,7 @@ $lang = array_merge($lang, array(
 	'LOG_CONFIG_SERVER'			=> '<strong>Szerver beállítások módosítása</strong>',
 	'LOG_CONFIG_SETTINGS'		=> '<strong>Fórum beállítások módosítása</strong>',
 	'LOG_CONFIG_SIGNATURE'		=> '<strong>Aláírás beállítások módosítása</strong>',
-	'LOG_CONFIG_VISUAL'			=> '<strong>Vizuális megerősítés beállítások módosítása</strong>',
+	'LOG_CONFIG_VISUAL'			=> '<strong>Anti-spamrobot beállítások módosítása</strong>',
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Téma jóváhagyása</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>Téma előreugrasztása</strong><br />» %s',

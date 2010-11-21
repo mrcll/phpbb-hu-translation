@@ -49,15 +49,20 @@ $lang = array_merge($lang, array(
 
 	'MARK_TOPICS_READ'		=> 'Témák megjelölése olvasottként',
 
-	'NEW_POSTS_HOT'			=> 'Új hozzászólások [ népszerű ]', //? zárójelek?
-	'NEW_POSTS_LOCKED'		=> 'Új hozzászólások [ lezárt ]',
-	'NO_NEW_POSTS_HOT'		=> 'Nincs új hozzászólás [ népszerű ]',
-	'NO_NEW_POSTS_LOCKED'	=> 'Nincs új hozzászólás [ lezárt ]',
+	'NEW_POSTS_HOT'			=> 'Új hozzászólások [ népszerű ]',	// Not used anymore
+	'NEW_POSTS_LOCKED'		=> 'Új hozzászólások [ lezárt ]',	// Not used anymore
+	'NO_NEW_POSTS_HOT'		=> 'Nincs új hozzászólás [ népszerű ]',	// Not used anymore
+	'NO_NEW_POSTS_LOCKED'	=> 'Nincs új hozzászólás [ lezárt ]',	// Not used anymore
 	'NO_READ_ACCESS'		=> 'Nincs meg a kellő jogosultsága a fórumbeli témák olvasásához.',
+	'NO_UNREAD_POSTS_HOT'		=> 'Nincs olvasatlan hozzászólás [ népszerű ]',
+	'NO_UNREAD_POSTS_LOCKED'	=> 'Nincs olvasatlan hozzászólás [ lezárt ]',
 
 	'POST_FORUM_LOCKED'		=> 'A fórum le van zárva.',
 
 	'TOPICS_MARKED'			=> 'A fórum témáit sikeresen megjelöltük olvasottként.', //? Itt jobb lenne a megjelölted (vagy bármi más), de ez akkor nem illeszkedne a többihez
+
+	'UNREAD_POSTS_HOT'		=> 'Olvasatlan hozzászólások [ népszerű ]',
+	'UNREAD_POSTS_LOCKED'	=> 'Olvasatlan hozzászólások [ lezárt ]',
 
 	'VIEW_FORUM'			=> 'Fórum megtekintése',
 	'VIEW_FORUM_TOPIC'		=> '1 téma',

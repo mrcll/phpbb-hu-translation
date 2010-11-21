@@ -43,6 +43,8 @@ $lang = array_merge($lang, array(
 	'BAN_ALREADY_ENTERED'	=> 'A kitiltás már korábban sikeresen megadásra került. A kitiltási lista nem lett frissítve.',
 	'BAN_SUCCESSFUL'		=> 'A kitiltás sikeresen megadásra került.', //?
 
+	'CANNOT_BAN_ANONYMOUS'			=> 'Nem tilthatod ki a vendég felhasználót. A vendég felhasználó jogosultságai a Jogosultságok fül alatt módosíthatók.',
+
 	'CANNOT_BAN_FOUNDER'			=> 'Alapítói azonosítót nem tudsz kitiltani.',
 	'CANNOT_BAN_YOURSELF'			=> 'Nem tudod kitiltani saját magadat.',
 	'CANNOT_DEACTIVATE_BOT'			=> 'Robot azonosítókat nem tudsz deaktiválni. Helyette deaktiváld a robotot a robotok oldalon.',

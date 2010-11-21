@@ -37,9 +37,9 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'CAPTCHA_QA'				=> 'Kérdés és válasz CAPTCHA',
-	'CONFIRM_QUESTION_EXPLAIN'	=> 'A kérdés az automatikus regisztrációk megakadályozását szolgálja.',
-	'CONFIRM_QUESTION_WRONG'	=> 'Hibás választ adott meg a megerősítő kérdésre.',
+	'CAPTCHA_QA'				=> 'Kérdés és válasz',
+	'CONFIRM_QUESTION_EXPLAIN'	=> 'A kérdés a robotok általi automatikus űrlapküldés megakadályozását szolgálja.',
+	'CONFIRM_QUESTION_WRONG'	=> 'Hibás választ adott meg a kérdésre.',
 
 	'QUESTION_ANSWERS'			=> 'Válaszok',
 	'ANSWERS_EXPLAIN'			=> 'Add meg az elfogadható válaszokat, mindegyiket külön sorba.',
@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 	'ANSWER'					=> 'Válasz',
 	'EDIT_QUESTION'				=> 'Kérdés szerkesztése',
 	'QUESTIONS'					=> 'Kérdések',
-	'QUESTIONS_EXPLAIN'			=> 'A regisztráció folyamán feltevésre kerül a felhasználóknak az alábbi kérdések egyike. A bővítmény használatához legalább egy kérdésnek léteznie kell az alapértelmezett nyelven. A kérdéseknek egyszerűen megválaszolhatónak kell lenniük a fórumod közönségének, de vigyázni kell rá, hogy nehogy egy robot is megtalálhassa a választ egy Google™ keresést végezve. A legjobb eredményt egy nagy és gyakran változtatott kérdéskészlet hozza. Ha a kérdésed megköveteli a nagybetűk következetes használatát és a helyes központozást, kapcsold be a szigorú ellenőrzést.',
+	'QUESTIONS_EXPLAIN'			=> 'Minden űrlapnál – ahol bekapcsoltad a kérdés és válasz bővítményt – feltevésre kerül a felhasználóknak az alábbi kérdések egyike. A bővítmény használatához legalább egy kérdésnek léteznie kell az alapértelmezett nyelven. A kérdéseknek egyszerűen megválaszolhatónak kell lenniük a fórumod közönségének, de vigyázni kell rá, hogy nehogy egy robot is megtalálhassa a választ egy Google™ keresést végezve. A legjobb eredményt egy nagy és gyakran változtatott kérdéskészlet hozza. Ha a kérdésed megköveteli a nagybetűk következetes használatát és a helyes központozást, kapcsold be a szigorú ellenőrzést.',
 	'QUESTION_DELETED'			=> 'A kérdés törlésre került.',
 	'QUESTION_LANG'				=> 'Nyelv',
 	'QUESTION_LANG_EXPLAIN'		=> 'A nyelv, amelyen a kérdés és a válaszai íródnak.',
@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 	'QUESTION_STRICT_EXPLAIN'	=> 'Ha be van kapcsolva, a válasz ellenőrzésénél a kis-/nagybetűk és a szóközök is figyelembe lesznek véve.',
 
 	'QUESTION_TEXT'				=> 'Kérdés',
-	'QUESTION_TEXT_EXPLAIN'		=> 'A regisztrációkor felteendő kérdés.',
+	'QUESTION_TEXT_EXPLAIN'		=> 'A felhasználónak felteendő kérdés.',
 
 	'QA_ERROR_MSG'				=> 'Kérünk, töltsd ki az összes mezőt, és adj meg legalább egy választ.',
 	'QA_LAST_QUESTION'			=> 'Nem törölheted az összes kérdést, amíg a bővítmény aktív.',
