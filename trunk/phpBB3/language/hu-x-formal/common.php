@@ -226,6 +226,8 @@ $lang = array_merge($lang, array(
 	'FTP_USERNAME_EXPLAIN'		=> 'A szerverhez való csatlakozáshoz használt felhasználónév.',
 
 	'GENERAL_ERROR'				=> 'Általános hiba',
+	'GB'						=> 'GB',
+	'GIB'						=> 'GiB',
 	'GO'						=> 'Mehet',
 	'GOTO_PAGE'					=> 'Oldal',
 	'GROUP'						=> 'Csoport',
