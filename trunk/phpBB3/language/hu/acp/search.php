@@ -60,6 +60,8 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_MYSQL_PCRE'					=> 'Nem latin UTF-8 karakterek támogatása PCRE-vel:',
 	'FULLTEXT_MYSQL_MBSTRING_EXPLAIN'		=> 'Ha a PCRE nem rendelkezik az unicode karakter tulajdonságokkal, a keresőmodul az mbstring reguláriskifejezés-motorját fogja meg próbálni használni.', //? "unicode character properties"
 	'FULLTEXT_MYSQL_PCRE_EXPLAIN'			=> 'Ennek a keresőmodulnak a nem latin karakterekre való kereséshez szüksége van rá, hogy a PCRE rendelkezzen az unicode karakter tulajdonságokkal, mely csak a PHP 4.4-ben, ill. 5.1-ben és az újabb verziókban érhető el.',
+	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'	=> 'Legalább ennyi karakterből álló szavak kerülnek indexelésre. Ez a beállítás csak a MySQL konfigurációban történő változtatással módosítható, amit lehet, hogy csak a szolgáltatód tud megtenni.',
+	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'	=> 'Legfeljebb ennyi karakterből álló szavak kerülnek indexelésre. Ez a beállítás csak a MySQL konfigurációban történő változtatással módosítható, amit lehet, hogy csak a szolgáltatód tud megtenni.',
 
 	'GENERAL_SEARCH_SETTINGS'				=> 'Általános kereső beállítások',
 	'GO_TO_SEARCH_INDEX'					=> 'Tovább a keresőindex oldalra',

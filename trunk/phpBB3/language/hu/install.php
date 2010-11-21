@@ -129,7 +129,7 @@ $lang = array_merge($lang, array(
 	'DB_ERR_QUERY_FIRST_TABLE'	=> 'Hiba a <var>query_first</var> végrehajtása közben, %s („%s”)', //??
 	'DB_ERR_SELECT'				=> 'Hiba <code>SELECT</code> lekérdezés végrehajtása közben.',
 	'DB_HOST'					=> 'Adatbázisszerver hosztneve vagy DSN', //? biztos, hogy egybeírják; nem 'DSN-je'?
-	'DB_HOST_EXPLAIN'			=> 'A DSN az angol Data Source Name rövidítése, csak ODBC telepítéskor érdekes.', //? érdekes, lényeges
+	'DB_HOST_EXPLAIN'			=> 'A DSN az angol Data Source Name rövidítése, csak ODBC telepítéskor érdekes. PostgreSQL esetében a lokális szerverhez való kapcsolódáskor TCP kapcsolat esetén használj localhost-ot, míg UNIX domain socket esetén 127.0.0.1-et.', //? érdekes, lényeges
 	'DB_NAME'					=> 'Adatbázis neve',
 	'DB_PASSWORD'				=> 'Adatbázisjelszó',
 	'DB_PORT'					=> 'Adatbázisszerver portja',
@@ -148,6 +148,7 @@ $lang = array_merge($lang, array(
 	'DLL_MBSTRING'				=> 'Multibyte karakterkódolás támogatás', //? "Multi-byte character support"
 	'DLL_MSSQL'					=> 'MSSQL Server 2000+',
 	'DLL_MSSQL_ODBC'			=> 'MSSQL Server 2000+ ODBC-n keresztül',
+	'DLL_MSSQLNATIVE'			=> 'MSSQL Server 2005+ [ natív ]',
 	'DLL_MYSQL'					=> 'MySQL',
 	'DLL_MYSQLI'				=> 'MySQL MySQLi kiterjesztéssel',
 	'DLL_ORACLE'				=> 'Oracle',
@@ -212,6 +213,7 @@ $lang = array_merge($lang, array(
 		<li>SQLite 2.8.2+</li>
 		<li>Firebird 2.1+</li>
 		<li>MS SQL Server 2000 vagy újabb (közvetlenül ODBC-n keresztül)</li>
+		<li>MS SQL Server 2005 vagy újabb (natív)</li>
 		<li>Oracle</li>
 	</ul>
 
@@ -557,6 +559,7 @@ $lang = array_merge($lang, array(
 	'UPDATING_DATA'					=> 'Adatok frissítése',
 	'UPDATING_TO_LATEST_STABLE'		=> 'Adatbázis frissítése az utolsó stabil kiadásra',
 	'UPDATED_VERSION'				=> 'Frissített verzió', //?
+	'UPGRADE_INSTRUCTIONS'			=> 'Egy új nagyobb verzió <strong>%1$s</strong> érhető el. Kérjük, olvasd el a <a href="%2$s" title="%2$s"><strong>a verziómegjelenési közleményt</strong></a>, melyből tájékozódhatsz az új kiadás újdonságairól és a frissítés menetéről.', // feature relesae magyar fordítása???
 	'UPLOAD_METHOD'					=> 'Feltöltési mód',
 
 	'UPDATE_DB_SUCCESS'				=> 'Sikeres adatbázis-frissítés',
@@ -584,16 +587,6 @@ $lang = array_merge($lang, array(
 
 	'DEFAULT_INSTALL_POST'			=> 'Ez egy példa hozzászólás a frissen telepített phpBB3-madban. Ha gondolod, törölheted ezt a hozzászólást, ezt a témát és ezt a fórumot is, hiszen úgy tűnik, minden működik.',
 	'DEFAULT_INSTALL_POST'			=> 'Ez egy példa hozzászólás a frissen telepített phpBB3-madban. Úgy néz ki, minden működik. Ha gondolod, törölheted ezt a hozzászólást, és folytathatod a fórumod felállítását. A telepítés alatt az első kategóriádhoz és az első fórumodhoz hozzárendelésre került egy jól használható jogosultságkészlet az előre meghatározott csoportok számára (adminisztrátorok, robotok, globális moderátorok, vendégek, regisztrált felhasználók és regisztrált COPPA felhasználók). Ha úgy döntesz, törlöd az első kategóriád és az első fórumod, az új fórumok, ill. kategóriák felvételénél ne felejts el jogosultságokat hozzárendelni a fentebb említett csoportoknak. Ajánlott ezt a kezdeti kategóriát és fórumot átnevezni, majd később az új kategóriák, fórumok létrehozásánál a jogosultságokat ezekről másolni át. Sok sikert a fórumodhoz!', //? appropriate "Have fun!"? 'Érezd jól magad!' 'Szórakozz jól!'???:D
-
-	'EXT_GROUP_ARCHIVES'			=> 'Archívumok',
-	'EXT_GROUP_DOCUMENTS'			=> 'Dokumentumok',
-	'EXT_GROUP_DOWNLOADABLE_FILES'	=> 'Letölthető állományok',
-	'EXT_GROUP_FLASH_FILES'			=> 'Flash állományok',
-	'EXT_GROUP_IMAGES'				=> 'Képek',
-	'EXT_GROUP_PLAIN_TEXT'			=> 'Sima szöveg',
-	'EXT_GROUP_QUICKTIME_MEDIA'		=> 'Quicktime média',
-	'EXT_GROUP_REAL_MEDIA'			=> 'Real média',
-	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Windows média',
 
 	'FORUMS_FIRST_CATEGORY'			=> 'Az első kategóriád',
 	'FORUMS_TEST_FORUM_DESC'		=> 'Az első fórumod leírása.',
