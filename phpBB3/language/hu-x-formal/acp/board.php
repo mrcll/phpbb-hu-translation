@@ -4,7 +4,7 @@
 * acp_board [Hungarian]
 *
 * @package language
-* @version $Id: board.php 198 2009-10-19 20:13:50Z fberci $
+* @version $Id: board.php 224 2010-11-21 16:41:59Z fberci $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
@@ -52,6 +52,8 @@ $lang = array_merge($lang, array(
 	'SITE_NAME'						=> 'Oldal neve',
 	'SYSTEM_DST'					=> 'Nyári időszámítás érvényben',
 	'SYSTEM_TIMEZONE'				=> 'Rendszer időzóna',
+	'SYSTEM_TIMEZONE'				=> 'Vendég időzóna',
+	'SYSTEM_TIMEZONE_EXPLAIN'		=> 'A nem belépett felhasználók (vendégek, robotok) ezen időzóna szerint fogják látni az időpontokat. A belépett felhasználók a regisztráció során állítják be az időzónájukat, és később ezt a felhasználói vezérlőpultban tudják módosítani.',
 	'WARNINGS_EXPIRE'				=> 'Figyelmeztetés időtartama',
 	'WARNINGS_EXPIRE_EXPLAIN'		=> 'Ennyi nap elteltével jár le a felhasználó figyelmeztetése.',
 ));
@@ -87,7 +89,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_SMILIES'				=> 'Emotikonok engedélyezése',
 	'ALLOW_TOPIC_NOTIFY'		=> 'Témákra való feliratkozás engedélyezése',
 	'BOARD_PM'					=> 'Privát üzenetek bekapcsolása',
-	'BOARD_PM_EXPLAIN'			=> 'A privát üzenetküldő rendszer ki- vagy bekapcsolása az összes felhasználó számára.',
+	'BOARD_PM_EXPLAIN'			=> 'A privát üzenetküldő rendszer bekapcsolása az összes felhasználó számára.',
 ));
 
 // Avatar Settings
@@ -234,7 +236,7 @@ $lang = array_merge($lang, array(
 	'PASSWORD_LENGTH'			=> 'Jelszó hossza',
 	'PASSWORD_LENGTH_EXPLAIN'	=> 'Minimum illetve maximum mennyi karakterből állhat a jelszó.',
 	'REG_LIMIT'					=> 'Regisztrációs kísérletek',
-	'REG_LIMIT_EXPLAIN'			=> 'Legfeljebb ennyi kísérletet tehet a felhasználó a megerősítő kód megadására, mielőtt ki lenne zárva arra a  munkamenetre.',
+	'REG_LIMIT_EXPLAIN'			=> 'Legfeljebb ennyi kísérletet tehet a felhasználó az anti-robot feladat megoldására, mielőtt ki lenne zárva arra a munkamenetre.',
 	'USERNAME_ALPHA_ONLY'		=> 'Csak alfanumerikus',
 	'USERNAME_ALPHA_SPACERS'	=> 'Alfanumerikus és térköz',
 	'USERNAME_ASCII'			=> 'ASCII (nincsenek nemzetközi unicode karakterek)',
@@ -296,20 +298,20 @@ $lang = array_merge($lang, array(
 
 // Visual Confirmation Settings
 $lang = array_merge($lang, array(
-	'ACP_VC_SETTINGS_EXPLAIN'				=> 'Itt a CAPTCHA bővítményeket tudod kezelni, melyek különböző módokon próbálják megakadályozni az ún. spamrobotok regisztrációját.',
+	'ACP_VC_SETTINGS_EXPLAIN'				=> 'Itt az anti-robot bővítményeket tudod kezelni, melyek különböző módokon próbálják megakadályozni az ún. spamrobotok regisztrációját. Ezek a bővítmények általában egy olyan feladat megoldását követelik meg a felhasználótól, melyek a robotok számára nehezek.',
 	'AVAILABLE_CAPTCHAS'					=> 'Elérhető bővítmények',
-	'CAPTCHA_UNAVAILABLE'					=> 'Ezt a CAPTCHA-t nem lehet kiválasztani, mivel a működéséhez szükséges követelmények nem teljesülnek.',
-	'CAPTCHA_GD'							=> 'GD CAPTCHA',
-	'CAPTCHA_GD_3D'							=> 'GD 3D CAPTCHA',
-	'CAPTCHA_GD_FOREGROUND_NOISE'			=> 'GD CAPTCHA előtéri zaj',
-	'CAPTCHA_GD_EXPLAIN'					=> 'A GD-vel jobb CAPTCHA állítható elő.',
-	'CAPTCHA_GD_FOREGROUND_NOISE_EXPLAIN'	=> 'Az előtéri zajosítás használatával erősebbé lehet tenni a GD alapú CAPTCHA-t.',
-	'CAPTCHA_GD_X_GRID'						=> 'GD CAPTCHA hátteri x-tengely zaj',
-	'CAPTCHA_GD_X_GRID_EXPLAIN'				=> 'A kisebb értékek erősebbé teszik a CAPTCHA-t. A 0 kikapcsolja az x-tengelyi zajosítást.',
-	'CAPTCHA_GD_Y_GRID'						=> 'GD CAPTCHA hátteri y-tengely zaj',
-	'CAPTCHA_GD_Y_GRID_EXPLAIN'				=> 'A kisebb értékek erősebbé teszik a CAPTCHA-t. A 0 kikapcsolja az y-tengelyi zajosítást.',
-	'CAPTCHA_GD_WAVE'						=> 'GD CAPTCHA hullámtorzítás',
-	'CAPTCHA_GD_WAVE_EXPLAIN'				=> 'Ez a beállítás eltorzítja hullámszerűen a CAPTCHA-t.',
+	'CAPTCHA_UNAVAILABLE'					=> 'Ezt a bővítményt nem lehet kiválasztani, mivel a működéséhez szükséges követelmények nem teljesülnek.',
+	'CAPTCHA_GD'							=> 'GD kép',
+	'CAPTCHA_GD_3D'							=> 'GD 3D kép',
+	'CAPTCHA_GD_FOREGROUND_NOISE'			=> 'Előtéri zaj',
+	'CAPTCHA_GD_EXPLAIN'					=> 'A GD-vel jobb anti-robot kép állítható elő.',
+	'CAPTCHA_GD_FOREGROUND_NOISE_EXPLAIN'	=> 'Az előtéri zajosítás használatával nehezebben olvashatóvá lehet tenni a képet.',
+	'CAPTCHA_GD_X_GRID'						=> 'Hátteri x-tengely zaj',
+	'CAPTCHA_GD_X_GRID_EXPLAIN'				=> 'A kisebb értékek nehezebben olvashatóvá teszik a képet. A 0 kikapcsolja az x-tengelyi zajosítást.',
+	'CAPTCHA_GD_Y_GRID'						=> 'Hátteri y-tengely zaj',
+	'CAPTCHA_GD_Y_GRID_EXPLAIN'				=> 'A kisebb értékek nehezebben olvashatóvá teszik a képet. A 0 kikapcsolja az y-tengelyi zajosítást.',
+	'CAPTCHA_GD_WAVE'						=> 'Hullámtorzítás',
+	'CAPTCHA_GD_WAVE_EXPLAIN'				=> 'Ez a beállítás hullámszerűen eltorzítja a képet.',
  	'CAPTCHA_GD_3D_NOISE'					=> '3D zajosítás',
 	'CAPTCHA_GD_3D_NOISE_EXPLAIN'			=> 'A betűk fölé plusz 3D-s objektumok kerülnek.',
  	'CAPTCHA_GD_FONTS'						=> 'Különböző betűtípusok használata',
@@ -317,24 +319,23 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_FONT_DEFAULT'					=> 'Alap',
 	'CAPTCHA_FONT_NEW'						=> 'Új formák',
 	'CAPTCHA_FONT_LOWER'					=> 'Kisbetűk is',
+	'CAPTCHA_NO_GD'							=> 'Egyszerű kép',
+	'CAPTCHA_PREVIEW_MSG'					=> 'A beállításaid nem kerültek elmentésre, ez csak egy előnézet.',
+	'CAPTCHA_PREVIEW_EXPLAIN'				=> 'Így nézne ki a bővítmény a jelenlegi beállításokkal.',
 
-	'CAPTCHA_NO_GD'							=> 'GD nélküli CAPTCHA',
-	'CAPTCHA_PREVIEW_MSG'					=> 'A vizuális megerősítés beállításaid nem kerültek elmentésre. Ez csak egy előnézet.',
-	'CAPTCHA_PREVIEW_EXPLAIN'				=> 'Így nézne ki a CAPTCHA a jelenlegi beállításokkal.',
-
-	'CAPTCHA_SELECT'						=> 'Telepített CAPTCHA bővítmények',
-	'CAPTCHA_SELECT_EXPLAIN'				=> 'A legördülő menü felsorolja a fórum által felismert CAPTCHA bővítményeket. A szürkével írottak jelenleg nem érhetőek el, és a használatba vételük előtt lehet, hogy konfigurálni kell őket.',
-	'CAPTCHA_CONFIGURE'						=> 'CAPTCHA konfigurálása',
-	'CAPTCHA_CONFIGURE_EXPLAIN'				=> 'A kiválasztott CAPTCHA beállításainak megváltoztatása.',
+	'CAPTCHA_SELECT'						=> 'Telepített bővítmények',
+	'CAPTCHA_SELECT_EXPLAIN'				=> 'A legördülő menü tartalmazza a fórum által felismert bővítményeket. A szürkével írottak jelenleg nem érhetőek el, és a használatba vételük előtt lehet, hogy konfigurálni kell őket.',
+	'CAPTCHA_CONFIGURE'						=> 'Bővítmények konfigurálása',
+	'CAPTCHA_CONFIGURE_EXPLAIN'				=> 'A kiválasztott bővítmény beállításainak megváltoztatása.',
 	'CONFIGURE'								=> 'Konfiguráció',
-	'CAPTCHA_NO_OPTIONS'					=> 'Ennek a CAPTCHA-nak nincsenek beállítási lehetőségei.',
+	'CAPTCHA_NO_OPTIONS'					=> 'Ennek a bővítménynek nincsenek beállítási lehetőségei.',
 
-	'VISUAL_CONFIRM_POST'					=> 'Vizuális megerősítés bekapcsolása vendég hozzászólásküldéskor',
-	'VISUAL_CONFIRM_POST_EXPLAIN'			=> 'A tömeges hozzászólás elkerülése végett a nem regisztrált felhasználóknak meg kell adniuk egy képen található véletlenszerű kódot.',
-	'VISUAL_CONFIRM_REG'					=> 'Vizuális megerősítés bekapcsolása a regisztrációnál',
-	'VISUAL_CONFIRM_REG_EXPLAIN'			=> 'A tömeges regisztráció elkerülése végett az új felhasználóknak meg kell adniuk egy képen található véletlenszerű kódot.',
+	'VISUAL_CONFIRM_POST'					=> 'Anti-robot bővítmény használata vendég hozzászólásküldéskor',
+	'VISUAL_CONFIRM_POST_EXPLAIN'			=> 'A tömeges hozzászólás elkerülése végett a nem regisztrált felhasználóknak teljesítenük kell az anti-robot bővítmény által megszabott feladatot.',
+	'VISUAL_CONFIRM_REG'					=> 'Anti-robot bővítmény használata regisztrációnál',
+	'VISUAL_CONFIRM_REG_EXPLAIN'			=> 'A tömeges regisztráció elkerülése végett az új felhasználóknak teljesítenük kell az anti-robot bővítmény által megszabott feladatot.',
 	'VISUAL_CONFIRM_REFRESH'				=> 'Megerősítés kép frissítésének engedélyezése',
-	'VISUAL_CONFIRM_REFRESH_EXPLAIN'		=> 'Ha a felhasználó nem tudja elolvasni a vizuális megerősítéshez használt képen szereplő kódot, új kódot (és ezzel együtt képet) kérhet.',
+	'VISUAL_CONFIRM_REFRESH_EXPLAIN'		=> 'Ha a felhasználó nem tudja megoldani az anti-robot bővítmény által generált feladatot, újat kérhet. Ezt a funkciót nem minden bővítmény támogatja.',
 
 ));
 
@@ -385,6 +386,7 @@ $lang = array_merge($lang, array(
 	'YES_POST_MARKING_EXPLAIN'		=> 'Jelzi, hogy a felhasználó hozzászólt-e a témához.',
 	'YES_READ_MARKING'				=> 'Szerveroldali olvasottságmegjelölés bekapcsolása',
 	'YES_READ_MARKING_EXPLAIN'		=> 'Az olvasott témákról/fórumokról az információt az adatbázisban tárolja süti helyett.',
+	'YES_UNREAD_SEARCH'				=> 'Olvasatlan hozzászólások keresésének engedélyezése',
 ));
 
 // Auth settings
@@ -472,7 +474,7 @@ $lang = array_merge($lang, array(
 	'IP_VALID'						=> 'Munkamenet IP ellenőrzés',
 	'IP_VALID_EXPLAIN'				=> 'A felhasználó IP-címének mekkora része lesz használva a munkamenet érvényesítéséhez; a <samp>Teljes</samp> az egész címet összeveti, az <samp>A.B.C</samp> az első x.x.x részt, az <samp>A.B</samp> az első x.x részt, a <samp>Nincs</samp> pedig teljesen kikapcsolja az ellenőrzést. IPv6 címeknél az <samp>A.B.C</samp> az első 4 blokkot, az <samp>A.B</samp> pedig az első 3 blokkot veti össze.',
 	'MAX_LOGIN_ATTEMPTS'			=> 'Belépési kísérletek maximum száma',
-	'MAX_LOGIN_ATTEMPTS_EXPLAIN'	=> 'Ennyi sikertelen belépési kísérlet után a felhasználónak vizuálisan is meg kell erősítenie a belépését (vizuális megerősítés).',
+	'MAX_LOGIN_ATTEMPTS_EXPLAIN'	=> 'Ennyi sikertelen belépési kísérlet után a felhasználónak meg kell oldania az anti-robot bővítmény által megszabott feladatot.',
 	'NO_IP_VALIDATION'				=> 'Nincs',
 	'NO_REF_VALIDATION'				=> 'Nincs',
 	'PASSWORD_TYPE'					=> 'Jelszóbonyolultság',

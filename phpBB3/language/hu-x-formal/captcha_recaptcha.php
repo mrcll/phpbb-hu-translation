@@ -47,7 +47,7 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_PRIVATE'				=> 'Privát reCaptcha kulcs',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'A privát reCaptcha kulcsod. Kulcs a <a href="http://recaptcha.net">reCaptcha.net</a> oldalon kérhető.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'Az automatikus regisztrációk megakadályozása érdekében be kell írnia az alábbi képen látható mindkét szót az alatta lévő szövegmezőbe.',
+	'RECAPTCHA_EXPLAIN'				=> 'A robotok általi automatikus űrlapküldések megakadályozása érdekében be kell írnia a képen látható mindkét szót az alatta lévő szövegmezőbe.',
 ));
 
 ?>

@@ -98,6 +98,16 @@ $lang = array_merge($lang, array(
 	'EXTENSION_GROUP_DELETED'		=> 'A kiterjesztéscsoport sikeresen törlésre került.',
 	'EXTENSION_GROUP_EXIST'			=> 'A %s kiterjesztéscsoport már létezik.',
 
+	'EXT_GROUP_ARCHIVES'			=> 'Archívumok',
+	'EXT_GROUP_DOCUMENTS'			=> 'Dokumentumok',
+	'EXT_GROUP_DOWNLOADABLE_FILES'	=> 'Letölthető állományok',
+	'EXT_GROUP_FLASH_FILES'			=> 'Flash állományok',
+	'EXT_GROUP_IMAGES'				=> 'Képek',
+	'EXT_GROUP_PLAIN_TEXT'			=> 'Sima szöveg',
+	'EXT_GROUP_QUICKTIME_MEDIA'		=> 'Quicktime média',
+	'EXT_GROUP_REAL_MEDIA'			=> 'Real média',
+	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Windows média',
+	
 	'GO_TO_EXTENSIONS'		=> 'Ugrás a kiterjesztések kezeléséhez',
 	'GROUP_NAME'			=> 'Csoport neve',
 
