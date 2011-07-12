@@ -1,12 +1,12 @@
 <?php
-/** 
+/**
 *
 * acp_email [Hungarian]
 *
 * @package language
 * @version $Id$
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * Original copyright: (c) 2005 phpBB Group
 *
 */
@@ -53,14 +53,16 @@ $lang = array_merge($lang, array(
 	'SEND_TO_GROUP'			=> 'Címzett csoport',
 	'SEND_TO_USERS'			=> 'Címzett felhasználók',
 	'SEND_TO_USERS_EXPLAIN'	=> 'Az itt megadott felhasználónevek felülírják a feljebb kiválasztott csoportot. Minden felhasználónevet új sorba írj.',
-	
-	'MAIL_HIGH_PRIORITY'	=> 'Nagy',
-	'MAIL_LOW_PRIORITY'		=> 'Kicsi',
+
+	'MAIL_BANNED'			=> 'Üzenet küldése kitiltott felhasználóknak',
+	'MAIL_BANNED_EXPLAIN'	=> 'Csoportos e-mail küldésekor megadhatod, hogy a kitiltott felhasználók is megkapják-e üzeneted.',
+	'MAIL_HIGH_PRIORITY'	=> 'Magas',
+	'MAIL_LOW_PRIORITY'		=> 'Alacsony',
 	'MAIL_NORMAL_PRIORITY'	=> 'Normális',
 	'MAIL_PRIORITY'			=> 'Levél fontossága',
 	'MASS_MESSAGE'			=> 'Üzenet',
 	'MASS_MESSAGE_EXPLAIN'	=> 'Kérjük, vedd figyelembe, csak sima szöveget adhatsz meg. Az elküldés előtt minden kód eltávolításra kerül.',
-	
+
 	'NO_EMAIL_MESSAGE'		=> 'Meg kell adnod az üzenetet.',
 	'NO_EMAIL_SUBJECT'		=> 'Meg kell adnod az üzenet témáját.',
 ));

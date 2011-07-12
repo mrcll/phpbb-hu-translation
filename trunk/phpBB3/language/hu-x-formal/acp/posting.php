@@ -6,7 +6,7 @@
 * @package language
 * @version $Id$
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * Original copyright: (c) 2005 phpBB Group
 *
 */
@@ -153,6 +153,7 @@ $lang = array_merge($lang, array(
 	'NO_SMILIES_EDIT'	=> 'Nincs módosítható emotikon.',
 	'SMILIE_NO_CODE'	=> 'Az „%s” emotikon nem lett figyelembe véve, mivel nem lett hozzá kód megadva.',
 	'SMILIE_NO_EMOTION'	=> 'Az „%s” emotikon nem lett figyelembe véve, mivel nem lett hozzá kitöltve az érzelem mező.',
+	'SMILIE_NO_FILE'	=> 'Az „%s” emotikon nem lett figyelembe véve, mivel a képfájl nem létezik.',
 	'NO_SMILIES_EXPORT'	=> 'Nincs emotikonod, melyből csomagot készíthetnél.',
 	'NO_SMILIES_PAK'	=> 'Nem található emotikon csomag.',
 
@@ -214,7 +215,7 @@ $lang = array_merge($lang, array(
 	'ADD_RANK'				=> 'Új rang hozzáadása',
 
 	'MUST_SELECT_RANK'		=> 'Ki kell választanod egy rangot.',
-	
+
 	'NO_ASSIGNED_RANK'		=> 'Nincs speciális rang hozzárendelve.',
 	'NO_RANK_TITLE'			=> 'Nem adtál nevet a rangnak.',
 	'NO_UPDATE_RANKS'		=> 'A rang sikeresen törlésre került, azonban az ezt a rangot használó felhasználók profiljai nem lettek frissítve. Ezeken az azonosítókon kézzel kell újra beállítanod a rangokat.',
@@ -232,13 +233,13 @@ $lang = array_merge($lang, array(
 
 // Disallow Usernames
 $lang = array_merge($lang, array(
-	'ACP_DISALLOW_EXPLAIN'	=> 'Itt a nem használható felhasználóneveket kezelheted. A letiltott felhasználónevekben használhatod a * jokerkaraktert. Kérjük, vedd figyelembe, hogy nem tudsz letiltani olyan felhasználónevet, mellyel már valaki regisztrálva van, ezt a felhasználót előbb törölnöd kell, és csak utána tilthatod le a nevét.', //? nem használják?
+	'ACP_DISALLOW_EXPLAIN'	=> 'Itt a nem használható felhasználóneveket kezelheted. A letiltott felhasználónevekben használhatod a * jokerkaraktert.', //? nem használják?
 	'ADD_DISALLOW_EXPLAIN'	=> 'Használhatod a * jokerkaraktert, mely minden karakterre illeszkedik.',
 	'ADD_DISALLOW_TITLE'	=> 'Letiltott felhasználónév felvétele',
 
 	'DELETE_DISALLOW_EXPLAIN'	=> 'Egy letiltott felhasználónév eltávolításához válaszd ki a megfelelő nevet a listából, és kattints az elküld gombra',
 	'DELETE_DISALLOW_TITLE'		=> 'Letiltott felhasználónév eltávolítása',
-	'DISALLOWED_ALREADY'		=> 'A megadott név nem tiltható le. Vagy már tartalmazza a lista, vagy a szócenzúra listában van benne, vagy pedig létezik egy felhasználó ilyen felhasználónévvel.',
+	'DISALLOWED_ALREADY'		=> 'A megadott név már le lett tiltva.',
 	'DISALLOWED_DELETED'		=> 'A letiltott felhasználónév sikeresen eltávolításra került.',
 	'DISALLOW_SUCCESSFUL'		=> 'A letiltott felhasználónév sikeresen felvételre került.',
 
@@ -251,12 +252,12 @@ $lang = array_merge($lang, array(
 	'ACP_REASONS_EXPLAIN'	=> 'Itt a jelentésekben és a hozzászólások elutasításakor küldött üzenetekben használt okokat kezelheted. Van egy alapértelmezett ok (a *-gal megjelölt), melyet nem lehet eltávolítani, ezt lehet használni egyedi üzenetek megadásához, ha egyik ok sem felel meg.',
 	'ADD_NEW_REASON'		=> 'Új ok felvétele',
 	'AVAILABLE_TITLES'		=> 'Elérhető honosított ok nevek',
-	
+
 	'IS_NOT_TRANSLATED'			=> '<strong>Nem</strong> honosított ok',
 	'IS_NOT_TRANSLATED_EXPLAIN'	=> 'Az ok <strong>nincs</strong> honosítva. Ha meg akarod adni a honosított formáját, add meg a megfelelő nyelvi kulcsot a nyelvi állományok jelentés okok részéből.',
 	'IS_TRANSLATED'				=> 'Honosított ok',
 	'IS_TRANSLATED_EXPLAIN'		=> 'Az ok honosítva van. Ha az itt megadott név szerepel a nyelvi állományok jelentés okok részében, a honosított név és leírás lesz használva.',
-	
+
 	'NO_REASON'					=> 'Az ok nem található.',
 	'NO_REASON_INFO'			=> 'Meg kell adnod egy nevet és egy leírást az oknak.',
 	'NO_REMOVE_DEFAULT_REASON'	=> 'Az alapértelmezett „Egyéb” okot nem tudod eltávolítani.',
