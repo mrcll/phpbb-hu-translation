@@ -4,9 +4,9 @@
 * acp_styles [Hungarian]
 *
 * @package language
-* @version $Id$
+* @version $Id: styles.php 224 2010-11-21 16:41:59Z fberci $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
 *
 */
@@ -79,7 +79,7 @@ $lang = array_merge($lang, array(
 	'DELETE_IMAGESET'			=> 'Képkészlet törlése',
 	'DELETE_IMAGESET_EXPLAIN'	=> 'Itt törölni tudod a kiválasztott képkészletet az adatbázisból. Kérjük, vedd figyelembe, hogy ezt a műveletet nem lehet visszacsinálni. Ajánlott a képkészletet a törlés előtt előbb kiexportálni, hogy esetlegesen később lehessen használni.',
 	'DELETE_STYLE'				=> 'Megjelenés törlése',
-	'DELETE_STYLE_EXPLAIN'		=> 'Itt törölni tudod a kiválasztott megjelenést. Vigyázz a megjelenések törlésénél, nincs lehetőség a művelet visszavonására.',
+	'DELETE_STYLE_EXPLAIN'		=> 'Itt törölni tudod a kiválasztott megjelenést. A megjelenés alkotóelemeit itt nem tudod eltávolítani, ezeket a saját oldalukon kell megtenned. Vigyázz a megjelenések törlésénél, nincs lehetőség visszacsinálásra.',
 	'DELETE_TEMPLATE'			=> 'Sablon törlése',
 	'DELETE_TEMPLATE_EXPLAIN'	=> 'Itt törölni tudod a kiválasztott sablonkészletet az adatbázisból. Kérjük, vedd figyelembe, hogy ezt a műveletet nem lehet visszacsinálni. Ajánlott a sablont a törlés előtt előbb kiexportálni, hogy esetlegesen később lehessen használni.',
 	'DELETE_THEME'				=> 'Stílus törlése',
@@ -170,7 +170,7 @@ $lang = array_merge($lang, array(
 	'IMG_FORUM_UNREAD_SUBFORUM'	=> 'Alfórum olvasatlan hozzászólásokkal',
 	'IMG_SUBFORUM_READ'			=> 'Alfórum magyarázat', //? legend
 	'IMG_SUBFORUM_UNREAD'		=> 'Alfórum olvasatlan hozzászólásokkal magyarázat',
-
+	
 	'IMG_TOPIC_MOVED'			=> 'Áthelyezett téma',
 
 	'IMG_TOPIC_READ'				=> 'Téma',
@@ -285,10 +285,6 @@ $lang = array_merge($lang, array(
 	'INSTALLED_TEMPLATE'		=> 'Telepített sablonok',
 	'INSTALLED_THEME'			=> 'Telepített stílusok',
 
-	'KEEP_IMAGESET'				=> '“%s” képkészlet megtartása',
-	'KEEP_TEMPLATE'				=> '“%s” sablon megtartása',
-	'KEEP_THEME'				=> '“%s” stílus megtartása',
-
 	'LINE_SPACING'				=> 'Sorköz',
 	'LOCALISED_IMAGES'			=> 'Honosított', //?
 	'LOCATION_DISABLED_EXPLAIN'	=> 'Ez a beállítás örökölt, ezért nem változtatható meg.',
@@ -326,7 +322,6 @@ $lang = array_merge($lang, array(
 	'REPLACE_THEME'				=> 'Stílus helyettesítése',
 	'REPLACE_THEME_EXPLAIN'		=> 'Ez a stílus fogja helyettesíteni a most töröltet, azokban a megjelenésekben, melyek ezt használták.',
 	'REQUIRES_IMAGESET'			=> 'Ennek a megjelenésnek szüksége van rá, hogy a %s képkészlet telepítve legyen.',
-	'REPLACE_WITH_OPTION'		=> 'Lecserélés “%s”-el',
 	'REQUIRES_TEMPLATE'			=> 'Ennek a megjelenésnek szüksége van rá, hogy a %s sablonkészlet telepítve legyen.',
 	'REQUIRES_THEME'			=> 'Ennek a megjelenésnek szüksége van rá, hogy a %s stílus telepítve legyen.',
 

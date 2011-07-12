@@ -4,7 +4,7 @@
 * common [Hungarian Formal]
 *
 * @package language
-* @version $Id$
+* @version $Id: common.php 227 2011-06-08 21:03:28Z marcee $
 * @copyright (c) 2009 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * Original copyright: (c) 2005 phpBB Group
@@ -188,7 +188,7 @@ $lang = array_merge($lang, array(
 	'FORM_INVALID'			=> 'Az elküldött űrlap érvénytelen. Próbálja meg újra elküldeni.',
 	'FORUM'					=> 'Fórum',
 	'FORUMS'				=> 'Fórumok',
-	'FORUMS_MARKED'			=> 'A kiválasztott fórumok megjelölésre kerültek olvasottként.',
+	'FORUMS_MARKED'			=> 'Minden fórum megjelölésre került olvasottként.',
 	'FORUM_CAT'				=> 'Fórum kategória',
 	'FORUM_INDEX'			=> 'Fórum kezdőlap',
 	'FORUM_LINK'			=> 'Fórum link',
@@ -321,7 +321,6 @@ $lang = array_merge($lang, array(
 	'MARK'					=> 'Kijelölés',
 	'MARK_ALL'				=> 'Összes kijelölése',
 	'MARK_FORUMS_READ'		=> 'Fórumok megjelölése olvasottként',
-	'MARK_SUBFORUMS_READ'	=> 'Alfórumok megjelölése olvasottként',
 	'MB'					=> 'MB',
 	'MIB'					=> 'MiB',
 	'MCP'					=> 'Moderátori vezérlőpult',
@@ -528,7 +527,6 @@ $lang = array_merge($lang, array(
 	'SEARCH_TOPIC'				=> 'Keresés a témában…',
 	'SEARCH_UNANSWERED'			=> 'Megválaszolatlan hozzászólások',
 	'SEARCH_UNREAD'				=> 'Olvasatlan hozzászólások megtekintése',
-	'SEARCH_USER_POSTS'			=> 'Felhasználó hozzászólásainak megtekintése',
 	'SECONDS'					=> 'másodperc',
 	'SELECT'					=> 'Kiválasztás',
 	'SELECT_ALL'				=> 'Összes kiválasztása', //? remélem jó, és így használják
@@ -667,7 +665,7 @@ $lang = array_merge($lang, array(
 	'USERS'					=> 'Felhasználók',
 	'USE_PERMISSIONS'		=> 'Felhasználó jogosultságainak kipróbálása',
 	'USER_NEW_PERMISSION_DISALLOWED'	=> 'Sajnáljuk, de önnek nincs jogosultsága ezen funkció használatához. Még csak most regisztrálhatott, lehet hogy több aktivitást kell felmutatnia, hogy használhassa ezt a funkciót.',
-
+	
 	'VARIANT_DATE_SEPARATOR'	=> ' / ',	// Used in date format dropdown, eg: "Today, 13:37 / 01 Jan 2007, 13:37" ... to join a relative date with calendar date
 	'VIEWED'					=> 'Megtekintve',
 	'VIEWING_FAQ'				=> 'GyIK megtekintése',

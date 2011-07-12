@@ -1,12 +1,12 @@
 <?php
-/**
+/** 
 *
 * install [Hungarian]
 *
 * @package language
-* @version $Id$
+* @version $Id: install.php 225 2010-11-21 16:53:38Z fberci $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
 *
 */
@@ -129,7 +129,7 @@ $lang = array_merge($lang, array(
 	'DB_ERR_QUERY_FIRST_TABLE'	=> 'Hiba a <var>query_first</var> végrehajtása közben, %s („%s”)', //??
 	'DB_ERR_SELECT'				=> 'Hiba <code>SELECT</code> lekérdezés végrehajtása közben.',
 	'DB_HOST'					=> 'Adatbázisszerver hosztneve vagy DSN', //? biztos, hogy egybeírják; nem 'DSN-je'?
-	'DB_HOST_EXPLAIN'			=> 'A DSN az angol Data Source Name rövidítése, csak ODBC telepítéskor érdekes. PostgreSQL esetében a lokális szerverhez való kapcsolódáskor TCP kapcsolat esetén használj localhost-ot, míg UNIX domain socket esetén 127.0.0.1-et. SQLite esetében az adatbázis fájl teljes elérési útját add meg.', //? érdekes, lényeges
+	'DB_HOST_EXPLAIN'			=> 'A DSN az angol Data Source Name rövidítése, csak ODBC telepítéskor érdekes. PostgreSQL esetében a lokális szerverhez való kapcsolódáskor TCP kapcsolat esetén használj localhost-ot, míg UNIX domain socket esetén 127.0.0.1-et.', //? érdekes, lényeges
 	'DB_NAME'					=> 'Adatbázis neve',
 	'DB_PASSWORD'				=> 'Adatbázisjelszó',
 	'DB_PORT'					=> 'Adatbázisszerver portja',
@@ -183,7 +183,7 @@ $lang = array_merge($lang, array(
 	'FTP_UPLOAD'				=> 'Feltöltés',
 
 	'GPL'						=> 'Általános Nyilvános Licenc', //? "General Public License" maradjon az eredeti angol (még nem igazán találkoztam a magyar megfelelőjével)?
-
+	
 	'INITIAL_CONFIG'			=> 'Alap konfiguráció', //? egyáltalán használják?
 	'INITIAL_CONFIG_EXPLAIN'	=> 'Ahhoz, hogy a phpBB működni tudjon, meg kell adnod néhány egyedi információt. Ha nem tudod, hogyan tudsz csatlakozni az adatbázisodhoz, kérünk, lépj kapcsolatba a tárhelyszolgáltatóddal, vagy fordulj a phpBB-t támogató fórumokhoz. Mielőtt bármilyen adatot megadsz, kérünk, alaposan győződj meg annak helyességéről.', //????? "Now that install has determined your server can run phpBB you need to supply some specific information. If you do not know how to connect to your database please contact your hosting provider (in the first instance) or use the phpBB support forums. When entering data please ensure you check it thoroughly before continuing." nincs értelme... vajon hol használhatják (szerintem sehol!)??
 	'INSTALL_CONGRATS'			=> 'Gratulálunk!',
@@ -370,7 +370,7 @@ $lang = array_merge($lang, array(
 
 // Updater
 $lang = array_merge($lang, array(
-	'ALL_FILES_UP_TO_DATE'		=> 'Az összes állomány megfelel a legújabb verziójú phpBB csomagnak. Most <a href="../ucp.php?mode=login">lépj be a fórumon</a>, és ellenőrizd, hogy minden rendesen működik-e. Ne felejtsd el törölni, átnevezni vagy áthelyezni az install könyvtárat! Kérünk, küldj friss adatokat a szerver és fórum beállításaidról az AVP <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=send_statistics">statisztikai adatok küldése</a> oldaláról!', //? naprakész; hol használják - frissítésre került?
+	'ALL_FILES_UP_TO_DATE'		=> 'Az összes állomány megfelel a legújabb verziójú phpBB csomagnak. Most <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=send_statistics">lépj be a fórumon</a>, és ellenőrizd, hogy minden rendesen működik-e. Ne felejtsd el törölni, átnevezni vagy áthelyezni az install könyvtárat! Kérünk, küldj friss adatokat a szerver és fórum beállításaidról az AVP <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=send_statistics">statisztikai adatok küldése</a> oldaláról!', //? naprakész; hol használják - frissítésre került?
 	'ARCHIVE_FILE'				=> 'Csomagbeli forrásállomány', //??? "Source file within archive" hasonló - szövegezés/megfogalmazás (wording) korántsem tökéletes
 
 	'BACK'				=> 'Vissza',

@@ -1,12 +1,12 @@
 <?php
-/**
+/** 
 *
 * ucp [Hungarian]
 *
 * @package language
-* @version $Id$
+* @version $Id: ucp.php 211 2010-02-03 16:05:32Z fberci $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
 *
 */
@@ -118,10 +118,9 @@ $lang = array_merge($lang, array(
 	'CANNOT_REMOVE_FOLDER'		=> 'Ez a mappa nem áthelyezhető.',
 	'CHANGE_DEFAULT_GROUP'		=> 'Elsődleges csoport megváltoztatása',
 	'CHANGE_PASSWORD'			=> 'Jelszó megváltoztatása',
-	'CLICK_GOTO_FOLDER'			=> '%1$sUgrás a “%3$s” mappába%2$s',
 	'CLICK_RETURN_FOLDER'		=> '%1$sVissza a „%3$s” mappához%2$s',
 	'CONFIRMATION'				=> 'Regisztráció megerősítése',
-	'CONFIRM_CHANGES'			=> 'Változtatások megerősítése',
+	'CONFIRM_CHANGES'			=> 'Változtatások megerősítése',	
 	'CONFIRM_EMAIL'				=> 'E-mail cím megerősítése',
 	'CONFIRM_EMAIL_EXPLAIN'		=> 'Csak akkor kell megadnod, ha meg szeretnéd változtatni az e-mail címed.',
 	'CONFIRM_EXPLAIN'			=> 'A robot regisztrációk megakadályozása érdekében meg kell adnod egy megerősítő kódot. A kód az alábbi képen szerepel. Ha látási vagy egyéb problémák miatt nem tudod elolvasni a kódot, lépj kapcsolatba a %sfórum adminisztrátorával%s.',
@@ -194,7 +193,6 @@ $lang = array_merge($lang, array(
 	'FIELD_INVALID_CHARS_ALPHA_ONLY'	=> 'A „%1$s” mező hibás karaktereket tartalmaz, csak alfanumerikus karakterek használata engedélyezett.',
 	'FIELD_INVALID_CHARS_SPACERS_ONLY'	=> 'A „%1$s” mező hibás karaktereket tartalmaz, csak alfanumerikus karakterek, szóköz és -+_[] jelek használata engedélyezett.', //? 'jel'? jelek elválasztása?
 	'FIELD_INVALID_DATE'				=> 'A „%1$s” mező érvénytelen dátumot tartalmaz.',
-	'FIELD_INVALID_VALUE'				=> 'A “%s” mező érvénytelen értéket tartalmaz.',
 
 	'FOE_MESSAGE'				=> 'Üzenet haragostól',
 	'FOES_EXPLAIN'				=> 'A haragosok olyan felhasználók, akik alapból mellőzésre kerülnek. A hozzászólásaik nem teljesen jelennek meg, privát üzenetet azonban küldhetnek. Kérjük, vedd figyelembe, hogy nem mellőzhetsz egy moderátort vagy egy adminisztrátort.', //? mellőzésre kerülnek :)
@@ -434,7 +432,7 @@ $lang = array_merge($lang, array(
 	'UCP_PREFS_PERSONAL'		=> 'Általános beállítások szerkesztése', //? kell a szerkesztése?? - és a beállítások?
 	'UCP_PREFS_POST'			=> 'Hozzászólás beállítások szerkesztése', //?
 	'UCP_PREFS_VIEW'			=> 'Megjelenítési beállítások szerkesztése',
-
+	
 	'UCP_PM'					=> 'Privát üzenetek',
 	'UCP_PM_COMPOSE'			=> 'Üzenet írása',
 	'UCP_PM_DRAFTS'				=> 'PÜ piszkozatok kezelése',

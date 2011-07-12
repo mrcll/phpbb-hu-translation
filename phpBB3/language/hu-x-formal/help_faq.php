@@ -4,7 +4,7 @@
 * help_faq [Hungarian Formal]
 *
 * @package language
-* @version $Id$
+* @version $Id: help_faq.php 217 2010-04-07 17:36:15Z marcee $
 * @copyright (c) 2009 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group

@@ -4,7 +4,7 @@
 * acp_database [Hungarian]
 *
 * @package language
-* @version $Id$
+* @version $Id: database.php 223 2010-10-16 15:19:33Z marcee $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group

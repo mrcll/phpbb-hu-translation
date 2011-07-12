@@ -4,7 +4,7 @@
 * recaptcha [Hungarian]
 *
 * @package language
-* @version $Id$
+* @version $Id: captcha_recaptcha.php 224 2010-11-21 16:41:59Z fberci $
 * @copyright (c) 2009 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * Original copyright: (c) 2009 phpBB Group
@@ -38,14 +38,14 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'RECAPTCHA_LANG'				=> 'hu',
-	'RECAPTCHA_NOT_AVAILABLE'		=> 'A reCaptcha használatához, létre kell hoznod egy azonosítót a <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> oldalon.',
+	'RECAPTCHA_NOT_AVAILABLE'		=> 'A reCaptcha használatához, létre kell hoznod egy azonosítót a <a href="http://recaptcha.net">reCaptcha.net</a> oldalon.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
 	'RECAPTCHA_INCORRECT'			=> 'A megadott vizuális megerősítő kód hibás.',
 
 	'RECAPTCHA_PUBLIC'				=> 'Publikus reCaptcha kulcs',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'A publikus reCaptcha kulcsod. Kulcs a <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> oldalon kérhető.',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'A publikus reCaptcha kulcsod. Kulcs a <a href="http://recaptcha.net">reCaptcha.net</a> oldalon kérhető.',
 	'RECAPTCHA_PRIVATE'				=> 'Privát reCaptcha kulcs',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'A privát reCaptcha kulcsod. Kulcs a <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> oldalon kérhető.',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'A privát reCaptcha kulcsod. Kulcs a <a href="http://recaptcha.net">reCaptcha.net</a> oldalon kérhető.',
 
 	'RECAPTCHA_EXPLAIN'				=> 'A robotok általi automatikus űrlapküldések megakadályozása érdekében be kell írnod a képen látható mindkét szót az alatta lévő szövegmezőbe.',
 ));

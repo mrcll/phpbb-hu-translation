@@ -6,7 +6,7 @@
 * @package language
 * @version $Id: board.php 224 2010-11-21 16:41:59Z fberci $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
 *
 */
@@ -152,9 +152,9 @@ $lang = array_merge($lang, array(
 	'ALLOW_POST_LINKS_EXPLAIN'			=> 'Ha nem engedélyezett, az <code>[URL]</code> BBCode címke nem használható, és az automatikus linkké alakítás ki van kapcsolva.',
 	'ALLOW_POST_FLASH'					=> '<code>[FLASH]</code> BBCode címke használatának engedélyezése hozzászólásokban',
 	'ALLOW_POST_FLASH_EXPLAIN'			=> 'Ha nem engedélyezett, a <code>[FLASH]</code> címke nem használható a hozzászólásokban. Máskülönben a jogosultságoktól függ, használható-e a <code>[FLASH]</code> BBCode címke.',
-
+  
 	'BUMP_INTERVAL'					=> 'Előreugrasztás időköz', //?
-	'BUMP_INTERVAL_EXPLAIN'			=> 'Az utolsó hozzászólás után ennyi idő múlva lehet előreugrasztani egy témát. A 0 érték teljesen kikapcsolja a téma előreugrasztás funkciót.',
+	'BUMP_INTERVAL_EXPLAIN'			=> 'Az utolsó hozzászólás után ennyi idő múlva lehet előreugrasztani egy témát. A 0 érték kikapcsolja ezt a funkciót.',
 	'CHAR_LIMIT'					=> 'Hozzászólásonkénti maximum karakterszám',
 	'CHAR_LIMIT_EXPLAIN'			=> 'Hány karakter engedélyezett egy hozzászólásban. Állítsd 0-ra a korlátozás megszüntetéséhez.',
 	'DELETE_TIME'					=> 'Törlési időkorlát',
@@ -211,7 +211,7 @@ $lang = array_merge($lang, array(
 	'ACP_REGISTER_SETTINGS_EXPLAIN'		=> 'Itt a regisztrációval és a profillal kapcsolatos beállításokat adhatsz meg.',
 
 	'ACC_ACTIVATION'				=> 'Azonosító aktiválása',
-	'ACC_ACTIVATION_EXPLAIN'		=> 'Ez dönti el, hogy a felhasználók azonnal hozzáférnek-e a fórumhoz, vagy megerősítés szükséges. A regisztrálás lehetőségét teljesen ki is kapcsolhatod. A felhasználói vagy adminisztrátori aktiválás használatához a fórum e-mail küldés funkciójának engedélyezve kell lennie.',
+	'ACC_ACTIVATION_EXPLAIN'		=> 'Ez dönti el, hogy a felhasználók azonnal hozzáférnek-e a fórumhoz, vagy megerősítés szükséges. A regisztrálás lehetőségét teljesen ki is kapcsolhatod.',
 	'NEW_MEMBER_POST_LIMIT'			=> 'Új tag hozzászólás határ',
 	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> 'Az új tagok az <em>Újonnan regisztrált felhasználók</em> csoportba kerülnek, amíg el nem érik az itt megadott hozzászólásszámot. Ennek a csoportnak a segítségével például meggátolhatod számukra privát üzenetek küldését, vagy moderátori jóváhagyáshoz kötheted a hozzászólásaikat. <strong>A 0 érték kikapcsolja ezt a funkciót.</strong>',
 	'NEW_MEMBER_GROUP_DEFAULT'		=> 'Újonnan regisztrált felhasználók csoport elsődlegessé tétele',
@@ -219,8 +219,8 @@ $lang = array_merge($lang, array(
 
 	'ACC_ADMIN'					=> 'Adminisztrátori',
 	'ACC_DISABLE'				=> 'Regisztráció kikapcsolása',
-	'ACC_NONE'					=> 'Nincs (azonnal bejelentkezhet)',
-	'ACC_USER'					=> 'Felhasználói (e-mail megerősítés)',
+	'ACC_NONE'					=> 'Nincs',
+	'ACC_USER'					=> 'Felhasználói',
 //	'ACC_USER_ADMIN'			=> 'Felhasználói + adminisztrátori',
 	'ALLOW_EMAIL_REUSE'			=> 'E-mail címek újrahasználásának engedélyezése',
 	'ALLOW_EMAIL_REUSE_EXPLAIN'	=> 'Több felhasználó is regisztrálhat ugyanazzal az e-mail címmel.',
@@ -468,19 +468,13 @@ $lang = array_merge($lang, array(
 	'FORM_TIME_MAX'					=> 'Maximum idő űrlap elküldéséhez', //? 'Űrlap elküldéséhez rendelkezésre álló maximum idő'
 	'FORM_TIME_MAX_EXPLAIN'			=> 'Ennyi időn belül a felhasználónak el kell küldenie az űrlapokat. A kikapcsoláshoz adj meg -1-et. Vedd figyelembe, hogy ettől a beállítástól függetlenül az űrlap a munkamenet lejártával is érvénytelenné válhat.',
 	'FORM_SID_GUESTS'				=> 'Űrlapok hozzákötése vendég munkamenetekhez',
-	'FORM_SID_GUESTS_EXPLAIN'		=> 'Ha be van kapcsolva, minden vendég munkamenethez külön űrlapazonosító lesz generálva. Ez néhány internetszolgáltatónál gondot okozhat.', //? token
+	'FORM_SID_GUESTS_EXPLAIN'		=> 'Ha be van kapcsolva, minden vendég munkamenethez külön űrlapjelzés lesz. Ez néhány internetszolgáltatónál gondot okozhat.', //? token
 	'FORWARDED_FOR_VALID'			=> '<var>X_FORWARDED_FOR</var> fejléc ellenőrzése',
 	'FORWARDED_FOR_VALID_EXPLAIN'	=> 'A munkamenetek csak akkor kerülnek folytatásra, ha a küldött <var>X_FORWARDED_FOR</var> fejléc megegyezik az előző kérés alkalmával küldöttel. Emellett az <var>X_FORWARDED_FOR</var> is összevetésre kerül a kitiltott IP-címekkel.',
 	'IP_VALID'						=> 'Munkamenet IP ellenőrzés',
 	'IP_VALID_EXPLAIN'				=> 'A felhasználó IP-címének mekkora része lesz használva a munkamenet érvényesítéséhez; a <samp>Teljes</samp> az egész címet összeveti, az <samp>A.B.C</samp> az első x.x.x részt, az <samp>A.B</samp> az első x.x részt, a <samp>Nincs</samp> pedig teljesen kikapcsolja az ellenőrzést. IPv6 címeknél az <samp>A.B.C</samp> az első 4 blokkot, az <samp>A.B</samp> pedig az első 3 blokkot veti össze.',
-	'IP_LOGIN_LIMIT_MAX'			=> 'Egy IP-címről engedélyezett belépési kísérletek száma',
-	'IP_LOGIN_LIMIT_MAX_EXPLAIN'	=> 'Ennyi Ip-címenkénti sikertelen belépési kísérlet után a felhasználónak meg kell oldania az anti-robot bővítmény által megszabott feladatot. A 0 érték kikapcsolja az anti-robot feladat megjelenítését.',
-	'IP_LOGIN_LIMIT_TIME'			=> 'IP address login attempt expiration time',
-	'IP_LOGIN_LIMIT_TIME_EXPLAIN'	=> 'Login attempts expire after this period.',
-	'IP_LOGIN_LIMIT_USE_FORWARDED'	=> 'Belépési kísérletek limitálása a <var>X_FORWARDED_FOR</var> fejléc alapján',
-	'IP_LOGIN_LIMIT_USE_FORWARDED_EXPLAIN'	=> 'A belépési kísérletek IP-cím szerinti korlátozása helyett a fórum az <var>X_FORWARDED_FOR</var> HTTP fejléc értékét használja. <br /><em><strong>Figyelem:</strong> Ezt a funkciót csak akkor kapcsold be, ha a fórumot egy olyan proxy szerveren keresztül lehet elérni, amely megbízhatóan állítja be ezt az értéket.</em>',
-	'MAX_LOGIN_ATTEMPTS'			=> 'Belépési kísérletek felhasználónevenkénti maximális száma',
-	'MAX_LOGIN_ATTEMPTS_EXPLAIN'	=> 'Ennyi felhasználónevenkénti sikertelen belépési kísérlet után a felhasználónak meg kell oldania az anti-robot bővítmény által megszabott feladatot. A 0 érték kikapcsolja az anti-robot feladat megjelenítését.',
+	'MAX_LOGIN_ATTEMPTS'			=> 'Belépési kísérletek maximum száma',
+	'MAX_LOGIN_ATTEMPTS_EXPLAIN'	=> 'Ennyi sikertelen belépési kísérlet után a felhasználónak meg kell oldania az anti-robot bővítmény által megszabott feladatot.',
 	'NO_IP_VALIDATION'				=> 'Nincs',
 	'NO_REF_VALIDATION'				=> 'Nincs',
 	'PASSWORD_TYPE'					=> 'Jelszóbonyolultság',

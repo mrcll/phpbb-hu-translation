@@ -1,12 +1,12 @@
 <?php
-/**
+/** 
 *
 * memberlist [Hungarian Formal]
 *
 * @package language
-* @version $Id$
+* @version $Id: memberlist.php 220 2010-07-31 15:18:21Z marcee $
 * @copyright (c) 2009 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
 *
 */
@@ -91,7 +91,7 @@ $lang = array_merge($lang, array(
 	'IM_SEND_MESSAGE'		=> 'Üzenet küldése',
 	'IM_SENT_JABBER'		=> 'Az üzenete sikeresen elküldésre került %1$snek.',
 	'IM_USER'				=> 'Azonnali üzenet küldése', //?
-
+	
 	'LAST_ACTIVE'				=> 'Utoljára aktív',
 	'LESS_THAN'					=> 'Kevesebb mint',
 	'LIST_USER'					=> '1 felhasználó',
@@ -117,6 +117,7 @@ $lang = array_merge($lang, array(
 	'REMOVE_FOE'			=> 'Törlés az ellenségek közül',
 	'REMOVE_FRIEND'			=> 'Törlés a barátok közül',
 
+	'SEARCH_USER_POSTS'		=> 'Felhasználó hozzászólásainak megtekintése', //? elvileg keresés
 	'SELECT_MARKED'			=> 'Kijelöltek kiválasztása',
 	'SELECT_SORT_METHOD'	=> 'Rendezés',
 	'SEND_AIM_MESSAGE'		=> 'AIM üzenet küldése',
