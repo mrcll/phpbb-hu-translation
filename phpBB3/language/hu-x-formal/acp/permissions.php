@@ -4,7 +4,7 @@
 * acp_permissions [Hungarian]
 *
 * @package language
-* @version $Id$
+* @version $Id: permissions.php 222 2010-09-27 16:25:42Z marcee $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group

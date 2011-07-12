@@ -4,7 +4,7 @@
 * search [Hungarian Formal]
 *
 * @package language
-* @version $Id$
+* @version $Id: search.php 229 2011-07-12 20:55:47Z marcee $
 * @copyright (c) 2009 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * Original copyright: (c) 2005 phpBB Group
