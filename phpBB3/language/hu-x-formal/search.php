@@ -1,12 +1,12 @@
 <?php
-/** 
+/**
 *
 * search [Hungarian Formal]
 *
 * @package language
 * @version $Id$
 * @copyright (c) 2009 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * Original copyright: (c) 2005 phpBB Group
 *
 */
@@ -55,6 +55,7 @@ $lang = array_merge($lang, array(
 
  	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'A saját hozzászólásai megtekintéséhez be kell jelentkeznie.',
 	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'Az olvasatlan hozzászólásainak megtekintéséhez be kell jelentkeznie.',
+		'LOGIN_EXPLAIN_NEWPOSTS'	=> 'Az utolsó látogatása óta keletkezett hozzászólásainak megtekintéséhez be kell jelentkeznie.',
 
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> 'Túl sok keresendő szót adott meg. Kérjük, legfeljebb %1$d szót adjon meg.',
 

@@ -1,12 +1,12 @@
 <?php
-/** 
+/**
 *
 * mcp [Hungarian]
 *
 * @package language
 * @version $Id$
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * Original copyright: (c) 2005 phpBB Group
 *
 */
@@ -210,7 +210,6 @@ $lang = array_merge($lang, array(
 	'MCP_WARN_POST'			=> 'Figyelmeztetés egy bizonyos hozzászólásért', //? "Warn for specific post" meghatározott?
 	'MCP_WARN_USER'			=> 'Felhasználó figyelmeztetése',
 
-	'MERGE_POSTS'			=> 'Hozzászólások áthelyezése',
 	'MERGE_POSTS_CONFIRM'	=> 'Biztosan át akarod helyezni a kiválasztott hozzászólásokat?',
 	'MERGE_TOPIC_EXPLAIN'	=> 'Az alábbi űrlap segítségével hozzászólásokat helyezhetsz át egy másik témába. A hozzászólások nem lesznek újrarendezve, úgy fognak megjelenni, mintha eleve oda küldték volna őket.<br />Add meg a céltéma azonosítóját, vagy kattints a „Téma kiválasztása” gombra, hogy megkeresd a témát.', //? újrarendezve
 	'MERGE_TOPIC_ID'		=> 'Céltéma azonosító szám',
@@ -241,7 +240,7 @@ $lang = array_merge($lang, array(
 	'NO_POST_SELECTED'				=> 'Legalább egy hozzászólást ki kell választanod, hogy elvégezhesd ezt a műveletet.', //? végrehajthasd?
 	'NO_REASON_DISAPPROVAL'			=> 'Kérünk, adj meg egy megfelelő okot az elutasításra.', //?? appropriate??
 	'NO_REPORT'						=> 'Nincs ilyen jelentés.', //? erre használják?
-	'NO_REPORTS'					=> 'Nincs ilyen jelentés.',	
+	'NO_REPORTS'					=> 'Nincs ilyen jelentés.',
 	'NO_REPORT_SELECTED'			=> 'Legalább egy jelentést ki kell választanod, hogy végrehajthasd ezt a műveletet.',
 	'NO_TOPIC_ICON'					=> 'nincs', //? nagybetű?
 	'NO_TOPIC_SELECTED'				=> 'Legalább egy témát ki kell választanod, hogy elvégezhesd ezt a műveletet.', //? végrehajthasd?
