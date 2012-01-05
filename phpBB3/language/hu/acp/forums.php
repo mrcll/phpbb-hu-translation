@@ -4,7 +4,7 @@
 * acp_forums [Hungarian]
 *
 * @package language
-* @version $Id$
+* @version $Id: forums.php 214M 2012-01-05 20:47:03Z (local) $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group

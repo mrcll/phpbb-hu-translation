@@ -4,7 +4,7 @@
 * acp_search [Hungarian]
 *
 * @package language
-* @version $Id$
+* @version $Id: search.php 224 2010-11-21 16:41:59Z fberci $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group

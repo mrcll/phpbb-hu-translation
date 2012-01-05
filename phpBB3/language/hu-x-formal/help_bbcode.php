@@ -4,7 +4,7 @@
 * help_bbcode [Hungarian Formal]
 *
 * @package language
-* @version $Id$
+* @version $Id: help_bbcode.php 200 2009-10-19 21:17:06Z fberci $
 * @copyright (c) 2009 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group

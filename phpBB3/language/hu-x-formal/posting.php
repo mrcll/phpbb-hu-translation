@@ -4,7 +4,7 @@
 * posting [Hungarian Formal]
 *
 * @package language
-* @version $Id$
+* @version $Id: posting.php 200M 2012-01-05 20:37:03Z (local) $
 * @copyright (c) 2009 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * Original copyright: (c) 2005 phpBB Group
