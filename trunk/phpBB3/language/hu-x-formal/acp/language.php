@@ -1,12 +1,12 @@
 <?php
-/** 
+/**
 *
 * acp_language [Hungarian]
 *
 * @package language
 * @version $Id$
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * Original copyright: (c) 2005 phpBB Group
 *
 */
@@ -60,6 +60,7 @@ $lang = array_merge($lang, array(
 	'LANGUAGE_PACK_DELETED'				=> 'A <strong>%s</strong> nyelvi csomag sikeresen eltávolításra került. Az ezt a nyelvet használó felhasználók nyelve visszaállításra került a fórum alapértelmezett nyelvére.',
 	'LANGUAGE_PACK_DETAILS'				=> 'Nyelvi csomag adatok',
 	'LANGUAGE_PACK_INSTALLED'			=> 'A <strong>%s</strong> nyelvi csomag sikeresen telepítésre került.',
+	'LANGUAGE_PACK_CPF_UPDATE'			=> 'Az egyedi profil mezők nyelvspecifikus szövegei az alapértelmezett nyelvből lettek átmásolva. Módosítd őket, ha szükséges.',
 	'LANGUAGE_PACK_ISO'					=> 'ISO',
 	'LANGUAGE_PACK_LOCALNAME'			=> 'Lokalizált név', //? 'Helyi név'
 	'LANGUAGE_PACK_NAME'				=> 'Név',

@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_A_HELP'				=> 'Beszúrt csatolmány: [attachment=]állománynév.kiterj[/attachment]', //? 'Hozzászólásba beszúrt csatolmány' "Inline uploaded attachment"
 	'BBCODE_B_HELP'				=> 'Félkövér: [b]szöveg[/b]',
 	'BBCODE_C_HELP'				=> 'Kód: [code]kód[/code]',
-	'BBCODE_E_HELP'				=> 'Lista: lista elem hozzáadása',
+	'BBCODE_D_HELP'				=> 'Flash: [flash=width,height]http://url[/flash]',	
 	'BBCODE_F_HELP'				=> 'Betűméret: [size=85]kicsi szöveg[/size]',
 	'BBCODE_IS_OFF'				=> '%sBBCode%s <em>kikapcsolva</em>',
 	'BBCODE_IS_ON'				=> '%sBBCode%s <em>bekapcsolva</em>',
@@ -62,7 +62,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_S_HELP'				=> 'Betűszín: [color=red]szöveg[/color] Tipp: a színt color=#FF0000 formában is megadhatod.',
 	'BBCODE_U_HELP'				=> 'Aláhúzás: [u]szöveg[/u]',
 	'BBCODE_W_HELP'				=> 'Link: [url]http://url[/url] vagy [url=http://url]link szöveg[/url]',
-	'BBCODE_D_HELP'				=> 'Flash: [flash=szélesség,magasság]http://url[/flash]',
+	'BBCODE_Y_HELP'				=> 'Lista: lista elem hozzáadása',
 	'BUMP_ERROR'				=> 'Nem ugraszthatod előre a témát, mivel az utolsó hozzászólás nemrég került elküldésre.',
 
 	'CANNOT_DELETE_REPLIED'		=> 'Csak olyan hozzászólást törölhetsz, melyre még nem érkezett válasz.',

@@ -55,7 +55,7 @@ $lang = array_merge($lang, array(
 	'SYSTEM_TIMEZONE'				=> 'Vendég időzóna',
 	'SYSTEM_TIMEZONE_EXPLAIN'		=> 'A nem belépett felhasználók (vendégek, robotok) ezen időzóna szerint fogják látni az időpontokat. A belépett felhasználók a regisztráció során állítják be az időzónájukat, és később ezt a felhasználói vezérlőpultban tudják módosítani.',
 	'WARNINGS_EXPIRE'				=> 'Figyelmeztetés időtartama',
-	'WARNINGS_EXPIRE_EXPLAIN'		=> 'Ennyi nap elteltével jár le a felhasználó figyelmeztetése.',
+	'WARNINGS_EXPIRE_EXPLAIN'		=> 'Ennyi nap elteltével jár le a felhasználó figyelmeztetése. Állítsd 0-ra, hogy ne járjon le a figyelmeztetés.',
 ));
 
 // Board Features
@@ -177,7 +177,7 @@ $lang = array_merge($lang, array(
 	'MAX_POST_URLS'					=> 'Maximum linkszám egy hozzászólásban',
 	'MAX_POST_URLS_EXPLAIN'			=> 'Legfeljebb ennyi URL-t tartalmazhat egy hozzászólás. Állítsd 0-ra, hogy ne legyen korlátozás.',
 	'MIN_CHAR_LIMIT'				=> 'Hozzászólás/privát üzenet minimum hossza',
-	'MIN_CHAR_LIMIT_EXPLAIN'		=> 'A felhasználók csak legalább ennyi karakterből álló hozzászólást, ill. privát üzenetet küldhetnek.', //? 'A felhasználók nem küldhetnek ennél kevesebb karaktert tartalmazó hozzászólást, ill. privát üzenetet.'
+	'MIN_CHAR_LIMIT_EXPLAIN'		=> 'A felhasználók csak legalább ennyi karakterből álló hozzászólást, ill. privát üzenetet küldhetnek. A minimális megadható érték 1.', //? 'A felhasználók nem küldhetnek ennél kevesebb karaktert tartalmazó hozzászólást, ill. privát üzenetet.'
 	'POSTING'						=> 'Hozzászólásküldés',
 	'POSTS_PER_PAGE'				=> 'Hozzászólások száma oldalanként',
 	'QUOTE_DEPTH_LIMIT'				=> 'Maximum egymásba ágyazott idézet egy hozzászólásban',
