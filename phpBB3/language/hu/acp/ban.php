@@ -1,12 +1,12 @@
 <?php
-/** 
+/**
 *
 * acp_ban [Hungarian]
 *
 * @package language
 * @version $Id$
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * Original copyright: (c) 2005 phpBB Group
 *
 */
@@ -69,8 +69,11 @@ $lang = array_merge($lang, array(
 
 	'LENGTH_BAN_INVALID'		=> 'A dátumot <kbd>ÉÉÉÉ-HH-NN</kbd> formátumban kell megadni.',
 
+	'OPTIONS_BANNED'			=> 'Kitiltott',
+	'OPTIONS_EXCLUDED'			=> 'Kihagyott', //? excluded
+
 	'PERMANENT'		=> 'Tartós', //? állandó, végleges
-	
+
 	'UNTIL'						=> 'Eddig',
 	'USER_BAN'					=> 'Felhasználók kitiltása',
 	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Ha igenre állítod, a megadott felhasználók minden jelenlegi kitiltás alól mentesítve lesznek.',
@@ -78,7 +81,7 @@ $lang = array_merge($lang, array(
 	'USER_NO_BANNED'			=> 'Nincs kitiltott felhasználó.',
 	'USER_UNBAN'				=> 'Felhasználók kitiltásának vagy feloldásának megszüntetése',
 	'USER_UNBAN_EXPLAIN'		=> 'Egyszerre több felhasználó kitiltását vagy feloldását is megszüntetheted az egered és a billentyűzeted a böngésződnek megfelelő kombinációjának használatával. A kitiltások alól feloldott felhasználók ki vannak emelve.',
-	
+
 
 ));
 

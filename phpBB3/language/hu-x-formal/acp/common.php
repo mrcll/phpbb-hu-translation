@@ -1,12 +1,12 @@
 <?php
-/** 
+/**
 *
 * acp common [Hungarian]
 *
 * @package language
 * @version $Id: common.php 224 2010-11-21 16:41:59Z fberci $
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * Original copyright: (c) 2005 phpBB Group
 *
 */
@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 	'ACP_BOARD_MANAGEMENT'		=> 'Fórum kezelése', //? "Board management" használják egyáltalán valahol?
 	'ACP_BOARD_SETTINGS'		=> 'Fórum beállítások',
 	'ACP_BOTS'					=> '(Kereső)robotok', //?
-	
+
 	'ACP_CAPTCHA'				=> 'Vizuális megerősítés', //? 'CAPTCHA'?
 
 	'ACP_CAT_DATABASE'			=> 'Adatbázis',
@@ -76,14 +76,14 @@ $lang = array_merge($lang, array(
 	'ACP_COOKIE_SETTINGS'		=> 'Süti beállítások',
 	'ACP_CRITICAL_LOGS'			=> 'Hibanapló',
 	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'Egyedi profil mezők',
-	
+
 	'ACP_DATABASE'				=> 'Adatbázis-kezelés',
 	'ACP_DISALLOW'				=> 'Letiltás',
 	'ACP_DISALLOW_USERNAMES'	=> 'Felhasználónevek letiltása',
-	
+
 	'ACP_EMAIL_SETTINGS'		=> 'E-mail beállítások',
 	'ACP_EXTENSION_GROUPS'		=> 'Kiterjesztéscsoportok kezelése',
-	
+
 	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Fórum alapú jogosultságok', //?? "Forum based permissions" a jogosultságokhoz ki kell találni egy terminológiát
 	'ACP_FORUM_LOGS'				=> 'Fórum naplók',
 	'ACP_FORUM_MANAGEMENT'			=> 'Fórumok kezelése', //? használják?
@@ -101,20 +101,20 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_MANAGE'				=> 'Csoportok kezelése',
 	'ACP_GROUPS_MANAGEMENT'			=> 'Csoport-kezelés',
 	'ACP_GROUPS_PERMISSIONS'		=> 'Csoportok jogosultságai',
-	
+
 	'ACP_ICONS'					=> 'Téma ikonok',
 	'ACP_ICONS_SMILIES'			=> 'Téma ikonok/emotikonok',
 	'ACP_IMAGESETS'				=> 'Képkészletek',
 	'ACP_INACTIVE_USERS'		=> 'Inaktív felhasználók',
 	'ACP_INDEX'					=> 'AVP kezdőlap',
-	
+
 	'ACP_JABBER_SETTINGS'		=> 'Jabber beállítások',
-	
+
 	'ACP_LANGUAGE'				=> 'Nyelv-kezelés',
 	'ACP_LANGUAGE_PACKS'		=> 'Nyelvi csomagok',
 	'ACP_LOAD_SETTINGS'			=> 'Terhelés beállítások',
 	'ACP_LOGGING'				=> 'Naplózás',
-	
+
 	'ACP_MAIN'					=> 'AVP kezdőlap',
 	'ACP_MANAGE_EXTENSIONS'		=> 'Kiterjesztések kezelése',
 	'ACP_MANAGE_FORUMS'			=> 'Fórumok kezelése',
@@ -127,11 +127,11 @@ $lang = array_merge($lang, array(
 	'ACP_MODULE_MANAGEMENT'		=> 'Modulok kezelése',
 	'ACP_MOD_LOGS'				=> 'Moderátori napló',
 	'ACP_MOD_ROLES'				=> 'Moderátori szerepek',
-	
+
 	'ACP_NO_ITEMS'				=> 'Még nincs ilyen elem.',
-	
+
 	'ACP_ORPHAN_ATTACHMENTS'	=> 'Árva csatolmányok',
-	
+
 	'ACP_PERMISSIONS'			=> 'Jogosultságok',
 	'ACP_PERMISSION_MASKS'		=> 'Effektív jogosultságok', //?? "Permission masks", 'Tényleges jogosultságok', 'Alkalmazott jogosultságok'
 	'ACP_PERMISSION_ROLES'		=> 'Jogosultság szerepek',
@@ -141,9 +141,9 @@ $lang = array_merge($lang, array(
 	'ACP_PRUNE_FORUMS'			=> 'Fórumok megtisztítása', //?? alternatívák a prune-re: 'tisztítás', 'tisztogatás', 'automatikus tisztítás', 'automatikus törlés', 'megnyirbálás', 'megtisztítás', 'gyomlálás', 'megnyesés' - egyre jobbak :D
 	'ACP_PRUNE_USERS'			=> 'Felhasználók megtisztítása',
 	'ACP_PRUNING'				=> 'Megtisztítás', //?
-	
+
 	'ACP_QUICK_ACCESS'			=> 'Gyorsmenü',
-	
+
 	'ACP_RANKS'					=> 'Rangok',
 	'ACP_REASONS'				=> 'Jelentés/visszautasítás okok',
 	'ACP_REGISTER_SETTINGS'		=> 'Felhasználói regisztrációs beállítások', //? kell a felhasználói? (nem)
@@ -167,10 +167,10 @@ $lang = array_merge($lang, array(
 	'ACP_STYLE_MANAGEMENT'		=> 'Megjelenések kezelése',
 	'ACP_STYLES'				=> 'Megjelenések',
 	'ACP_SUBMIT_CHANGES'		=> 'Változtatások elküldése',
-	
+
 	'ACP_TEMPLATES'				=> 'Sablonok',
 	'ACP_THEMES'				=> 'Stílusok',
-	
+
 	'ACP_UPDATE'					=> 'Frissítés',
 	'ACP_USERS_FORUM_PERMISSIONS'	=> 'Felhasználók fórum jogosultságai',
 	'ACP_USERS_LOGS'				=> 'Felhasználói napló',
@@ -198,7 +198,7 @@ $lang = array_merge($lang, array(
 	'ACP_VIEW_FORUM_PERMISSIONS'		=> 'Fórum alapú jogosultságok megtekintése',
 	'ACP_VIEW_GLOBAL_MOD_PERMISSIONS'	=> 'Globális moderátori jogosultságok megtekintése',
 	'ACP_VIEW_USER_PERMISSIONS'			=> 'Felhasználó alapú jogosultságok megtekintése', //?
-	
+
 	'ACP_WORDS'					=> 'Szócenzúra', //? "Word censoring" 'Szavak cenzúrázása'
 
 	'ACTION'				=> 'Művelet',
@@ -257,7 +257,7 @@ $lang = array_merge($lang, array(
 	'NOTIFY'				=> 'Értesítés',
 	'NO_ADMIN'				=> 'Nincs jogosultságod a fórum adminisztrálásához.',
 	'NO_EMAILS_DEFINED'		=> 'Nem található valós e-mail cím.', //? "No valid e-mail addresses found." hol használják?
-	'NO_PASSWORD_SUPPLIED'	=> 'Az adminisztrátori vezérlőpulthoz való hozzáféréshez meg kell adnod a jelszavad.',	
+	'NO_PASSWORD_SUPPLIED'	=> 'Az adminisztrátori vezérlőpulthoz való hozzáféréshez meg kell adnod a jelszavad.',
 
 	'OFF'					=> 'Kikapcsolva',
 	'ON'					=> 'Bekapcsolva',
@@ -277,7 +277,7 @@ $lang = array_merge($lang, array(
 	'SELECT_OPTION'			=> 'Opció kiválasztása',
 
 	'SETTING_TOO_LOW'		=> 'A „%1$s” beállításnak megadott érték túl kicsi. A legkisebb elfogadható érték %2$d.',
-	'SETTING_TOO_BIG'		=> 'A „%1$s” beállításnak megadott érték túl nagy. A legnagyobb elfogadható érték %2$d.',	
+	'SETTING_TOO_BIG'		=> 'A „%1$s” beállításnak megadott érték túl nagy. A legnagyobb elfogadható érték %2$d.',
 	'SETTING_TOO_LONG'		=> 'A „%1$s” beállításnak megadott érték túl hosszú. A leghosszabb elfogadható hossz %2$d karakter.',
 	'SETTING_TOO_SHORT'		=> 'A „%1$s” beállításnak megadott érték túl rövid. A legrövidebb elfogadható hossz %2$d karakter.',
 	'SHOW_ALL_OPERATIONS'	=> 'Összes művelet megjelenítése',
@@ -325,6 +325,16 @@ $lang = array_merge($lang, array(
 
 	'DATABASE_SERVER_INFO'	=> 'Adatbázisszerver',
 	'DATABASE_SIZE'			=> 'Adatbázis mérete',
+
+	// Enviroment configuration checks, mbstring related
+	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'A függvény felüldefiniálás nincs megfelelően konfigurálva', //?
+	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> 'A <var>mbstring.func_overload</var> értékének 0-nak vagy 4-nek kell lennie. Az aktuális értékét a <samp>PHP információ</samp> oldalon tudod ellenőrizni.',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'A transzparens karakterkódolás nincs megfelelően konfigurálva',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> 'A <var>mbstring.encoding_translation</var> értékének 0-nak kell lennie. Az aktuális értékét a <samp>PHP információ</samp> oldalon tudod ellenőrizni.',
+	'ERROR_MBSTRING_HTTP_INPUT'						=> 'A HTTP bemeneti karakter konverzió nincs megfelelően konfigurálva',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> 'A <var>mbstring.http_input</var> értékének <samp>pass</samp>-nak kell lennie. Az aktuális értékét a <samp>PHP információ</samp> oldalon tudod ellenőrizni.',
+	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'A HTTP kimeneti karakter konverzió nincs megfelelően konfigurálva',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> 'A <var>mbstring.http_output</var> értékének <samp>pass</samp>-nak kell lennie. Az aktuális értékét a <samp>PHP információ</samp> oldalon tudod ellenőrizni.',
 
 	'FILES_PER_DAY'		=> 'Csatolmányok száma naponta',
 	'FORUM_STATS'		=> 'Fórum statisztika',
@@ -423,7 +433,7 @@ $lang = array_merge($lang, array(
 
 // Log Entries
 $lang = array_merge($lang, array(
-	//? ACL: "Added or edited ..." - simán csak módosítás lett belőle, mivel a 'hozzáadása vagy módosítása/szerkesztése' elég hosszú lenne, és kicsit fura; a többes számot valószínűleg jobb lenne eggyes számra cserélni (magyarban jobban hangzik?) - persze mindkettő előfordulhat 
+	//? ACL: "Added or edited ..." - simán csak módosítás lett belőle, mivel a 'hozzáadása vagy módosítása/szerkesztése' elég hosszú lenne, és kicsit fura; a többes számot valószínűleg jobb lenne eggyes számra cserélni (magyarban jobban hangzik?) - persze mindkettő előfordulhat
 	'LOG_ACL_ADD_USER_GLOBAL_U_'		=> '<strong>Felhasználók felhasználói jogosultságainak módosítása</strong><br />» %s',
 	'LOG_ACL_ADD_GROUP_GLOBAL_U_'		=> '<strong>Csoportok felhasználói jogosultságainak módosítása</strong><br />» %s',
 	'LOG_ACL_ADD_USER_GLOBAL_M_'		=> '<strong>Felhasználók globális moderátori jogosultságainak módosítása</strong><br />» %s',
@@ -450,7 +460,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_ACL_TRANSFER_PERMISSIONS'		=> '<strong>Jogosultságok átvétele mástól:</strong><br />» %s',
 	'LOG_ACL_RESTORE_PERMISSIONS'		=> '<strong>Saját jogosultságok visszaállítása más jogosultságainak használata után:</strong><br />» %s',
-	
+
 	'LOG_ADMIN_AUTH_FAIL'		=> '<strong>Sikertelen adminisztrátori belépési kísérlet</strong>',
 	'LOG_ADMIN_AUTH_SUCCESS'	=> '<strong>Sikeres adminisztrátori bejelentkezés</strong>',
 
@@ -547,7 +557,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_ERROR_JABBER'		=> '<strong>Jabber hiba</strong><br />» %s',
 	'LOG_ERROR_EMAIL'		=> '<strong>E-mail hiba</strong><br />» %s',
-	
+
 	'LOG_FORUM_ADD'							=> '<strong>Új fórum létrehozása</strong><br />» %s',
 	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>Fórum jogosultságok másolása</strong> a %1$s fórumból<br />» %2$s',
 	'LOG_FORUM_DEL_FORUM'					=> '<strong>Fórum törlése</strong><br />» %s',

@@ -137,6 +137,7 @@ $lang = array_merge($lang, array(
 	'CURRENT_IMAGE'				=> 'Jelenlegi kép',
 	'CURRENT_PASSWORD'			=> 'Jelenlegi jelszó',
 	'CURRENT_PASSWORD_EXPLAIN'	=> 'Meg kell adnod a jelenlegi jelszavad, ha meg szeretnéd változtatni a jelszavad, az e-mail címed vagy a felhasználóneved.',
+	'CUR_PASSWORD_EMPTY'		=> 'Nem adtad meg az aktuális jelszavad.',
 	'CUR_PASSWORD_ERROR'		=> 'A megadott jelenlegi jelszó hibás.',
 	'CUSTOM_DATEFORMAT'			=> 'Egyéni…',
 
@@ -267,9 +268,11 @@ $lang = array_merge($lang, array(
 	'MOVE_TO_FOLDER'				=> 'Áthelyezés', //? "Move to folder"
 	'MOVE_UP'						=> 'Feljebb',
 
+	'NEW_EMAIL_CONFIRM_EMPTY'		=> 'Kétszer kell megadnod az e-mail címed.',
 	'NEW_EMAIL_ERROR'				=> 'A megadott e-mail címek nem egyeznek meg.',
 	'NEW_FOLDER_NAME'				=> 'Mappa új neve',
 	'NEW_PASSWORD'					=> 'Új jelszó',
+	'NEW_PASSWORD_CONFIRM_EMPTY'	=> 'Kétszer kell megadnod az új jelszavad.',
 	'NEW_PASSWORD_ERROR'			=> 'A megadott jelszavak nem egyeznek meg.',
 	'NOTIFY_METHOD'					=> 'Értesítés módja',
 	'NOTIFY_METHOD_BOTH'			=> 'Mindkettő',

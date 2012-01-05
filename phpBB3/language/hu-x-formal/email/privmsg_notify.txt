@@ -7,7 +7,7 @@ Kedves {USERNAME}!
 
 A következő linkre kattintva tekintheti meg az érkezett üzenetet:
 
-{U_INBOX}
+{U_VIEW_MESSAGE}
 
 Ezt az e-mailt azért kapja, mert beállította, hogy privát üzenet érkezéséről értesülni szeretne. Ne felejtse el, hogy bármikor kikapcsolhatja az ilyen értesítéseket a felhasználói vezérlőpultban.
 

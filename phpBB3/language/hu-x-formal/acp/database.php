@@ -6,7 +6,7 @@
 * @package language
 * @version $Id$
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * Original copyright: (c) 2005 phpBB Group
 *
 */
@@ -60,6 +60,7 @@ $lang = array_merge($lang, array(
 
 	'RESTORE_FAILURE'		=> 'A kimentés állomány lehet, hogy megfertőzött.', //? corrupt?
 	'RESTORE_OPTIONS'		=> 'Visszaállítás beállítások',
+	'RESTORE_SELECTED_BACKUP'	=> 'Valóban vissza szeretnéd állítani a kiválasztott mentést?',
 	'RESTORE_SUCCESS'		=> 'Az adatbázis sikeresen visszaállításra került.<br /><br />A fórumod bizonyára visszatért a kimentés ideji állapotához.',
 
 	'SELECT_ALL'			=> 'Összes kiválasztása',
