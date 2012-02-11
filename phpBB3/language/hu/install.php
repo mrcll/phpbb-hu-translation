@@ -230,6 +230,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR'					=> 'Telepítési hiba',
 	'INST_ERR_DB_CONNECT'		=> 'Nem sikerült csatlakozni az adatbázishoz. A hibaüzenetet lásd alább.', //? a második mondat kell?
 	'INST_ERR_DB_FORUM_PATH'	=> 'A megadott adatbázis-állomány a fórum könyvtárán belül van. Ezt az állományt egy webről nem elérhető könyvtárba kell raknod.', //? "The database file specified is within your forum directory tree. You should put this file in a non web-accessible location" könyvtárfáján belül?
+	'INST_ERR_DB_INVALID_PREFIX'=> 'A meagdott előtag hibás. Alfanumerikus karakterrel kell kezdődnie, valamint csak alfanumerikus karaktereket, számokat és alulhúzást tartalmazhat.',
 	'INST_ERR_DB_NO_ERROR'		=> 'Nincs hibaüzenet.',
 	'INST_ERR_DB_NO_MYSQLI'		=> 'A kiszolgálón lévő MySQL nem kompatibilis a kiválasztott „MySQL MySQLi kiterjesztéssel” csatlakozási móddal. Kérjük, a „MySQL”-t válaszd ki.', //?
 	'INST_ERR_DB_NO_SQLITE'		=> 'Az SQLite kiterjesztés verziója túl régi, frissíteni kell legalább a 2.8.2-es verzióra.',
@@ -350,6 +351,7 @@ $lang = array_merge($lang, array(
 
 	'TABLES_MISSING'			=> 'Az alábbi táblák nem találhatók:<br />» <strong>%s</strong>.',
 	'TABLE_PREFIX'				=> 'Adatbázis tábláinak előtagja',
+	'TABLE_PREFIX_EXPLAIN'		=> 'Az előtagnak alfanumerikus karakterrel kell kezdődnie, valamint csak alfanumerikus karaktereket, számokat és alulhúzást tartalmazhat.',
 	'TABLE_PREFIX_SAME'			=> 'Annak a szoftvernek a tábla előtagját add meg, amelyről konvertálsz.<br />» A megadott tábla előtag %s volt.',
 	'TESTS_PASSED'				=> 'Sikeres teszt', //? "Tests passed"
 	'TESTS_FAILED'				=> 'Sikertelen teszt', //? "Tests failed"
