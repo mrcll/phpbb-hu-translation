@@ -52,7 +52,6 @@ $lang = array_merge($lang, array(
 	'SITE_NAME'						=> 'Oldal neve',
 	'SYSTEM_DST'					=> 'Nyári időszámítás érvényben',
 	'SYSTEM_TIMEZONE'				=> 'Rendszer időzóna',
-	'SYSTEM_TIMEZONE'				=> 'Vendég időzóna',
 	'SYSTEM_TIMEZONE_EXPLAIN'		=> 'A nem belépett felhasználók (vendégek, robotok) ezen időzóna szerint fogják látni az időpontokat. A belépett felhasználók a regisztráció során állítják be az időzónájukat, és később ezt a felhasználói vezérlőpultban tudják módosítani.',
 	'WARNINGS_EXPIRE'				=> 'Figyelmeztetés időtartama',
 	'WARNINGS_EXPIRE_EXPLAIN'		=> 'Ennyi nap elteltével jár le a felhasználó figyelmeztetése. Állítsd 0-ra, hogy ne járjon le a figyelmeztetés.',
