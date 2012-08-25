@@ -110,7 +110,7 @@ $lang = array_merge($lang, array(
 	'MAX_AVATAR_SIZE'				=> 'Maximum avatar méret',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> 'Szélesség x magasság pixelben.',
 	'MAX_FILESIZE'					=> 'Maximum avatar állomány méret',
-	'MAX_FILESIZE_EXPLAIN'			=> 'Csak a feltöltött avatarokra vonatkozik.',
+	'MAX_FILESIZE_EXPLAIN'			=> 'Csak a feltöltött avatarokra vonatkozik. A 0 érték megadásakor csak a PHP beállítások korlátoznak.',
 	'MIN_AVATAR_SIZE'				=> 'Minimum avatar méret',
 	'MIN_AVATAR_SIZE_EXPLAIN'		=> 'Szélesség x magasság pixelben.',
 ));

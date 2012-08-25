@@ -68,7 +68,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_AT_REGISTER'			=> 'Megjelenítés regisztrációkor',
 	'DISPLAY_AT_REGISTER_EXPLAIN'	=> 'Ha ez be van állítva, a mező megjelenítésre kerül a regisztrációkor.',
 	'DISPLAY_ON_VT'					=> 'Megjelenítés a témákban',
-	'DISPLAY_ON_VT_EXPLAIN'			=> 'Ha ez be van állítva, a mező megjelenítésre kerül a témákban, a hozzászólások melleti mini profilban.',
+	'DISPLAY_ON_VT_EXPLAIN'			=> 'Ha ez be van állítva, a mező megjelenítésre kerül a témákban, a hozzászólások melletti mini profilban.',
 	'DISPLAY_PROFILE_FIELD'			=> 'Profil mező nyilvános megjelenítése',
 	'DISPLAY_PROFILE_FIELD_EXPLAIN'	=> 'A profil mező az összes, a terhelés beállításokban megadott helyen megjelenítésre kerül. Ha nemre állítod, nem fog megjelenni a téma oldalakon, a profilban és a taglistában.',
 	'DROPDOWN_ENTRIES_EXPLAIN'		=> 'Add meg a választási lehetőségeket, mindegyik lehetőséget külön sorba írd.',
@@ -132,6 +132,8 @@ $lang = array_merge($lang, array(
 
 	'SAVE'							=> 'Elmentés',
 	'SECOND_OPTION'					=> 'Második lehetőség',
+	'SHOW_NOVALUE_FIELD'			=> 'Megjelenítés, ha nincs kiválasztva',
+	'SHOW_NOVALUE_FIELD_EXPLAIN'	=> 'Ha ez be van állítva, a mező megjelenítésre kerül akkor is, ha még nem lett kitöltve.',
 	'STEP_1_EXPLAIN_CREATE'			=> 'Itt a létrehozandó profil mező alapvető paramétereit adhatod meg. Ezek az információk szükségesek a második lépéshez, ahol további beállításokat adhatsz meg.',
 	'STEP_1_EXPLAIN_EDIT'			=> 'Itt a profil mező alapvető paramétereit változtathatod meg. A releváns beállítások ez alapján a második lépésben újrakalkulálásra kerülnek.', //?!
 	'STEP_1_TITLE_CREATE'			=> 'Profil mező létrehozása',

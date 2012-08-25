@@ -226,7 +226,7 @@ $lang = array_merge($lang, array(
 	'SET_PERMISSIONS'				=> 'Jogosultságok beállítása',
 	'SET_ROLE_PERMISSIONS'			=> 'Szerep jogosultságok beállítása',
 	'SET_USERS_PERMISSIONS'			=> 'Felhasználói jogosultságok beállítása',
-	'SET_USERS_FORUM_PERMISSIONS'	=> 'Felhasználók fórum jogosultságainak beállítása',
+	'SET_USERS_FORUM_PERMISSIONS'	=> 'Felhasználó fórum jogosultságainak beállítása',
 
 	'TRACE_DEFAULT'					=> 'Alapból minden jogosultság <samp>NEM</samp> (nem beállított). Így ezt a jogosultságot más beállítások felülírhatják.',
 	'TRACE_FOR'						=> 'Jogosultság követése',

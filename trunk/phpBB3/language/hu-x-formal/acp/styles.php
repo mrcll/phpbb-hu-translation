@@ -116,7 +116,7 @@ $lang = array_merge($lang, array(
 	'GLOBAL_IMAGES'			=> 'Globáli',
 
 	'HIDE_CSS'				=> 'CSS kód elrejtése', //? "Hide raw CSS" raw magyar megfelelője? - bár ezt most úgysem használják
-
+	
 	'IMAGE_WIDTH'				=> 'Kép szélessége',
 	'IMAGE_HEIGHT'				=> 'Kép magassága',
 	'IMAGE'						=> 'Kép',
@@ -267,6 +267,7 @@ $lang = array_merge($lang, array(
 	'IMG_USER_ICON9'		=> 'Felhasználói kép 9.',
 	'IMG_USER_ICON10'		=> 'Felhasználói kép 10.',
 
+	'INACTIVE_STYLES'			=> 'Inaktív megjelenések',
 	'INCLUDE_DIMENSIONS'		=> 'Méretek megadása', //? "Include dimensions" 'Méretek tartalmazása'
 	'INCLUDE_IMAGESET'			=> 'Képkészlet tartalmazása', //? mellékelése? hozzáadása?
 	'INCLUDE_TEMPLATE'			=> 'Sablon tartalmazása',
