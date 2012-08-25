@@ -43,6 +43,7 @@ $lang = array_merge($lang, array(
 	'ADD_POLL'					=> 'Szavazás készítése', //? készítés, hozzáadás stb.?
 	'ADD_POLL_EXPLAIN'			=> 'Ha nem szeretne szavazást csatolni a témához, hagyja üresen az alábbi mezőket.',
 	'ALREADY_DELETED'			=> 'Az üzenet már törölve lett.',
+	'ATTACH_DISK_FULL'			=> 'Megtelt a fórum csatolmányainak tárolására használt lemezterület.',
 	'ATTACH_QUOTA_REACHED'		=> 'Megtelt a fórum csatolmányainak fenntartott terület.', //?? "Sorry, the board attachment quota has been reached."
 	'ATTACH_SIG'				=> 'Aláírás hozzáadása (az aláírását a felhasználói vezérlőpultban változtathatja meg)',
 

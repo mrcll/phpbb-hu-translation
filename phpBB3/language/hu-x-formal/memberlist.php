@@ -111,7 +111,6 @@ $lang = array_merge($lang, array(
 
 	'POST_IP'				=> 'IP/domain, melyről írt', //??
 
-	'RANK'					=> 'Rang',
 	'REAL_NAME'				=> 'Címzett neve',
 	'RECIPIENT'				=> 'Címzett',
 	'REMOVE_FOE'			=> 'Törlés az ellenségek közül',

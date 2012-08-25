@@ -61,7 +61,7 @@ $lang = array_merge($lang, array(
 
 	'DELETE_POSTS'			=> 'Hozzászólásainak törlése',
 	'DELETE_USER'			=> 'Felhasználó törlése',
-	'DELETE_USER_EXPLAIN'	=> 'Kérjük, vedd figyelembe, hogy egy felhasználó törlése végleges, később nem lehet visszaállítani.',
+	'DELETE_USER_EXPLAIN'	=> 'Kérjük, vedd figyelembe, hogy egy felhasználó törlése végleges, később nem lehet visszaállítani. A felhasználó által küldött, még olvasatlan privát üzenetek is törlésre kerülnek és nem lesznek elérhetőek a címzettek számára.',
 
 	'FORCE_REACTIVATION_SUCCESS'	=> 'Az újraaktivációra kötelezés sikeresen megtörtént.',
 	'FOUNDER'						=> 'Alapító',
@@ -126,6 +126,7 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_SPECIAL'			=> 'Előre meghatározott csoportok, melyeknek a felhasználó tagja',
 	'USER_LIFTED_NR'				=> 'A felhasználó újjonnan regisztrált státusza sikeresen eltávolításra került.',
 	'USER_NO_ATTACHMENTS'			=> 'Nincs megjelenítendő csatolt állomány.',
+	'USER_NO_POSTS_TO_DELETE'			=> 'A felhasználónak nincs megtartható vagy törölhető hozzászólása.',
 	'USER_OUTBOX_EMPTIED'			=> 'A felhasználó kimenő privát üzenet mappája sikeresen kiürítésre került.',
 	'USER_OUTBOX_EMPTY'				=> 'A felhasználó kimenő privát üzenet mappája már eleve üres volt.',
 	'USER_OVERVIEW_UPDATED'			=> 'A felhasználó adatai sikeresen frissítésre kerültek.',

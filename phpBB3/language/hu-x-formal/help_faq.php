@@ -338,7 +338,7 @@ $help = array(
 	),
 	array(
 		0 => 'Miért nem érhető el az X szolgáltatás?',
-		1 => 'Ezt a szoftvert a phpBB Group készítette, és licenceli. Ha úgy gondolja, hogy újabb szolgáltatások, funkciók szükségesek a fórumba, látogassa meg a phpbb.com weboldalt, és olvassa el amit phpBB Group mond erről. Kérjük, ne küldjön kéréseket a phpbb.com fórumába, a fejlesztők a Sourceforge oldalán várják az ötleteket. Emellett, kérjük, olvassa át a fórumot, mert lehet hogy már felmerült az ötlet, és a phpBB Group megfogalmazott ezzel kapcsolatban egy véleményt.' // ezt is lehetne javítani, meg az angol szövegnek megfelelőnek tenni...
+		1 => 'Ezt a szoftvert a phpBB Group készítette, és licenceli. Ha úgy gondolja, hogy újabb szolgáltatások, funkciók szükségesek a fórumba, vagy valamilyen működési hibát talált, látogassa meg a <a href="http://area51.phpbb.com/">phpBB Area51</a> weboldalt, ahol ezzel kapcsolatban további információkat kaphat.' // ezt is lehetne javítani, meg az angol szövegnek megfelelőnek tenni...
 	),
 	array(
 		0 => 'Ki az illetékes a fórumon olvasható tartalommal kapcsolatban?',

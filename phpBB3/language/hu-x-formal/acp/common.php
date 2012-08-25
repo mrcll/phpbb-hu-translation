@@ -97,10 +97,10 @@ $lang = array_merge($lang, array(
 	'ACP_GLOBAL_MODERATORS'			=> 'Globális moderátorok',
 	'ACP_GLOBAL_PERMISSIONS'		=> 'Globális jogosultságok',
 	'ACP_GROUPS'					=> 'Csoportok',
-	'ACP_GROUPS_FORUM_PERMISSIONS'	=> 'Csoportok fórum jogosultságai', //? "Groups’ forum permissions"
+	'ACP_GROUPS_FORUM_PERMISSIONS'	=> 'Csoport fórum jogosultságai', //? "Groups’ forum permissions"
 	'ACP_GROUPS_MANAGE'				=> 'Csoportok kezelése',
 	'ACP_GROUPS_MANAGEMENT'			=> 'Csoport-kezelés',
-	'ACP_GROUPS_PERMISSIONS'		=> 'Csoportok jogosultságai',
+	'ACP_GROUPS_PERMISSIONS'		=> 'Csoport jogosultságai',
 
 	'ACP_ICONS'					=> 'Téma ikonok',
 	'ACP_ICONS_SMILIES'			=> 'Téma ikonok/emotikonok',
@@ -172,9 +172,9 @@ $lang = array_merge($lang, array(
 	'ACP_THEMES'				=> 'Stílusok',
 
 	'ACP_UPDATE'					=> 'Frissítés',
-	'ACP_USERS_FORUM_PERMISSIONS'	=> 'Felhasználók fórum jogosultságai',
+	'ACP_USERS_FORUM_PERMISSIONS'	=> 'Felhasználó fórum jogosultságai',
 	'ACP_USERS_LOGS'				=> 'Felhasználói napló',
-	'ACP_USERS_PERMISSIONS'			=> 'Felhasználók jogosultságai',
+	'ACP_USERS_PERMISSIONS'			=> 'Felhasználó jogosultságai',
 	'ACP_USER_ATTACH'				=> 'Csatolmányok',
 	'ACP_USER_AVATAR'				=> 'Avatar',
 	'ACP_USER_FEEDBACK'				=> 'Feljegyzések',
@@ -405,7 +405,7 @@ $lang = array_merge($lang, array(
 	'INACTIVE_REASON_UNKNOWN'		=> 'Ismeretlen',
 	'INACTIVE_USERS'				=> 'Inaktív felhasználók',
 	'INACTIVE_USERS_EXPLAIN'		=> 'Ez a lista azokat a felhasználókat tartalmazza, akik regisztráltak, de azonosítójuk inaktív. Szándékod szerint aktiválhatod, törölheted vagy emlékeztetheted (egy e-mail küldésével) őket.',
-	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Ez a lista az utolsó 10 regisztrált felhasználót tartalmazza, akinek inaktív az azonosítója. A teljes listát megtekintheted a menü megfelelő elemére vagy az alább lévő linkre kattintva, ahol aktiválhatod, törölheted vagy emlékeztetheted (egy e-mail küldésével) ezeket a felhasználókat.',
+	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Ez a lista az utolsó 10 regisztrált felhasználót tartalmazza, akinek inaktív az azonosítója. Ennek oka lehet, hogy a regisztráció megerősítéshez kötött és ezek a felhasználók még nem kerültek visszaigazolásra, vagy inaktiválva lettek. A teljes listát megtekintheted a menü megfelelő elemére vagy az alább lévő linkre kattintva, ahol aktiválhatod, törölheted vagy emlékeztetheted (egy e-mail küldésével) ezeket a felhasználókat.',
 
 	'NO_INACTIVE_USERS'	=> 'Nincs inaktív felhasználó.',
 

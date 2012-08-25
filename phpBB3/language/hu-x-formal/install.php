@@ -53,6 +53,7 @@ $lang = array_merge($lang, array(
 	'BLANK_PREFIX_FOUND'			=> 'Az adatbázistábláid azt mutatják, hogy már van egy telepített phpBB-d, mely nem használ tábla előtagot.', //? "A scan of your tables has shown a valid installation using no table prefix."
 	'BOARD_NOT_INSTALLED'			=> 'Nem található telepített phpBB',
 	'BOARD_NOT_INSTALLED_EXPLAIN'	=> 'A phpBB Egyesített Konvertáló Keretrendszer működéséhez szükség van egy telepített phpBB3-ra, kérjük, először <a href="%s">telepítsd a phpBB3-mat</a>.', //? "phpBB Unified Convertor Framework"
+	'BACKUP_NOTICE'					=> 'Kérjük, a frissítés megkezdése előtt készíts biztonsági másolatot a fórumod fájljairól és adatbázisáról, arra az esetre, ha valamilyen probléma lépne fel a frissítés során.',
 
 	'CATEGORY'					=> 'Kategória',
 	'CACHE_STORE'				=> 'Gyorsítótár típusa', //? "Cache type" 'Gyorsítótárazás típusa' 'Gyorsítótárazás módja' 'Gyorsítótár-fajta' stb. (egy egész rendszerről, működésről van szó)
