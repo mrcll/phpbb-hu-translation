@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_A_HELP'				=> 'Beszúrt csatolmány: [attachment=]állománynév.kiterj[/attachment]', //? 'Hozzászólásba beszúrt csatolmány' "Inline uploaded attachment"
 	'BBCODE_B_HELP'				=> 'Félkövér: [b]szöveg[/b]',
 	'BBCODE_C_HELP'				=> 'Kód: [code]kód[/code]',
-	'BBCODE_D_HELP'				=> 'Flash: [flash=width,height]http://url[/flash]',	
+	'BBCODE_D_HELP'				=> 'Flash: [flash=szélesség,magasság]http://url[/flash]',	
 	'BBCODE_F_HELP'				=> 'Betűméret: [size=85]kicsi szöveg[/size]',
 	'BBCODE_IS_OFF'				=> '%sBBCode%s <em>kikapcsolva</em>',
 	'BBCODE_IS_ON'				=> '%sBBCode%s <em>bekapcsolva</em>',
