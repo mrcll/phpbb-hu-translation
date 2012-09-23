@@ -535,7 +535,6 @@ $lang = array_merge($lang, array(
 	'SEARCH_USER_POSTS'			=> 'Felhasználó hozzászólásainak megtekintése',
 	'SECONDS'					=> 'másodperc',
 	'SELECT'					=> 'Kiválasztás',
-	'SELECT_ALL'				=> 'Összes kiválasztása', //? remélem jó, és így használják
 	'SELECT_ALL_CODE'			=> 'Egész kijelölése',
 	'SELECT_DESTINATION_FORUM'	=> 'Célfórum kiválasztása',
 	'SELECT_FORUM'				=> 'Fórum kiválasztása',

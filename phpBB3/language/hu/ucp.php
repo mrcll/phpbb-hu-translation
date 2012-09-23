@@ -369,7 +369,6 @@ $lang = array_merge($lang, array(
 	'RECIPIENT'							=> 'Címzett',
 	'RECIPIENTS'						=> 'Címzettek',
 	'REGISTRATION'						=> 'Regisztráció',
-	'RELATIVE_DAYS'						=> 'relatív napok', //?
 	'RELEASE_MESSAGES'					=> '%sVisszatartott üzenetek kiengedése:%s ha elegendő hely szabaddá válik, visszakerülnek az eredeti mappájukba.', //? "sRelease all on-hold messages%s… they will be re-sorted into the appropriate folder if enough space is made available."
 	'REMOVE_ADDRESS'					=> 'Cím törlése', //? nem találtam sehol, hogy használva lenne
 	'REMOVE_SELECTED_BOOKMARKS'			=> 'Kiválasztott kedvencek törlése',
