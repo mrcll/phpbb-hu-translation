@@ -157,6 +157,7 @@ $lang = array_merge($lang, array(
 	'EDIT_POST'							=> 'Hozzászólás szerkesztése',
 	'EMAIL'								=> 'E-mail',
 	'EMAIL_ADDRESS'						=> 'E-mail cím',
+	'EMAIL_INVALID_EMAIL'				=> 'A megadott e-mail cím hibás.',
 	'EMAIL_SMTP_ERROR_RESPONSE'			=> 'Problémába ütköztünk egy levél elküldése során a <strong>%1$s.</strong> sorban. Válasz: %2$s',
 	'EMPTY_SUBJECT'						=> 'Új téma indításához meg kell adnia a téma címét.',
 	'EMPTY_MESSAGE_SUBJECT'				=> 'Meg kell adnia az üzenet témáját.',
@@ -389,6 +390,7 @@ $lang = array_merge($lang, array(
 	'NO_POSTS_TIME_FRAME'		=> 'Nincs a kiválasztott időtartamon belüli hozzászólás a témában.',
 	'NO_FEED_ENABLED'			=> 'Nincs elérhető csatorna ezen a fórumon.',
 	'NO_FEED'					=> 'A kívánt csatorna nem elérhető.',
+	'NO_STYLE_DATA'				=> 'Nincs elérhető megjelenés',
 	'NO_SUBJECT'				=> 'Nincs téma',								// Used for posts having no subject defined but displayed within management pages.
 	'NO_SUCH_SEARCH_MODULE'		=> 'A megadott keresési mechanizmus nem létezik.',
 	'NO_SUPPORTED_AUTH_METHODS'	=> 'Nincsen támogatott azonosítási eljárás.',
@@ -566,9 +568,11 @@ $lang = array_merge($lang, array(
 	'SUBJECT'					=> 'Téma',
 	'SUBMIT'					=> 'Elküld',
 
+	'TB'				=> 'TB',
 	'TERMS_USE'			=> 'Használati feltételek',
 	'TEST_CONNECTION'	=> 'Kapcsolat tesztelése',
 	'THE_TEAM'			=> 'A csapat',
+	'TIB'				=> 'TiB',
 	'TIME'				=> 'Idő',
 
 	'TOO_LARGE'						=> 'A megadott érték túl nagy.',
@@ -715,6 +719,7 @@ $lang = array_merge($lang, array(
 	'WHO_IS_ONLINE'		=> 'Ki van itt',
 	'WRONG_PASSWORD'	=> 'Hibás jelszót adott meg.',
 
+	'WRONG_DATA_COLOUR'			=> 'A megadott szín hibás.',
 	'WRONG_DATA_ICQ'			=> 'A megadott ICQ azonosító hibás.',
 	'WRONG_DATA_JABBER'			=> 'A megadott Jabber azonosító hibás.',
 	'WRONG_DATA_LANG'			=> 'A megadott nyelv hibás.',

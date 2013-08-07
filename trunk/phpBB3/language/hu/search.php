@@ -78,6 +78,7 @@ $lang = array_merge($lang, array(
 
 	'SEARCHED_FOR'				=> 'Keresett kifejezés', //?
 	'SEARCHED_TOPIC'			=> 'Keresett téma',
+	'SEARCHED_QUERY'			=> 'Keresési kifejezés',
 	'SEARCH_ALL_TERMS'			=> 'Keresés az összes szóra vagy a keresési kifejezés pontos használata', //?? "Search for all terms or use query as entered"
 	'SEARCH_ANY_TERMS'			=> 'Keresés bármely szóra',
 	'SEARCH_AUTHOR'				=> 'Szerző',

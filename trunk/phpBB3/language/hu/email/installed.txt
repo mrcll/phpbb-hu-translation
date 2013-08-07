@@ -12,7 +12,7 @@ Felhasználónév: {USERNAME}
 Fórum URL: {U_BOARD}
 ----------------------------
 
-További hasznos információkat és a dokumentációt megtalálod a fórumod "docs" könyvtárában vagy a phpBB.com felhasználói segítségnyújtási oldalán a következő linken: http://www.phpbb.com/support/
+További hasznos információkat és a dokumentációt megtalálod a fórumod "docs" könyvtárában vagy a phpBB.com felhasználói segítségnyújtási oldalán a következő linken: https://www.phpbb.com/support/
 
 Annak érdekében, hogy a fórumod biztonságos legyen, kimondottan javasoljuk, hogy tarts lépést a frissítésekkel. Ennek megkönnyítése érdekében a fenti oldalon feliratkozhatsz egy levelezőlistára.
 
