@@ -40,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'TERMS_OF_USE_CONTENT'	=> 'Azzal, hogy használja a „%1$s” fórumot (a továbbiakban „mi”, „a fórum”, „%1$s”, „%2$s”) elfogadja, hogy betartja az alábbi feltételeket. Ha nem fogadja el, kérjük ne használja, illetve ne is keresse fel a fórumot. A feltételeket bármikor megváltoztathatjuk, és habár a lehető legtöbbet megtesszük, hogy értesítsük a változásról, érdemes rendszeresen áttekinteni ezt az oldalt, mivel a fórum használati feltételeinek megváltoztatása utáni további használatával ön beleegyez az új feltételek betartásába.<br />
 	<br />
-	A fórumot a phpBB hajtja, mely egy a „<a href="http://opensource.org/licenses/gpl-license.php">General Public License</a>” (a továbbiakban „GPL”) licenc alatt kiadott fórumszoftver, és a <a href="http://www.phpbb.com/">www.phpbb.com</a>, valamint magyarul a <a href="http://phpbb.hu/">phpbb.hu</a> weboldalról tölthető le. A phpBB csak lehetőséget nyújt az internet alapú kommunikációra; a phpBB Csoport nem felelős azért, hogy milyen tartalmakat, illetve magatartást engedélyezünk. További információért a phpBB-ről, kérjük, látogassa meg a <a href="http://www.phpbb.com/">http://www.phpbb.com/</a> weboldalt.<br />
+	A fórumot a phpBB hajtja, mely egy a „<a href="http://opensource.org/licenses/gpl-license.php">General Public License</a>” (a továbbiakban „GPL”) licenc alatt kiadott fórumszoftver, és a <a href="https://www.phpbb.com/">www.phpbb.com</a>, valamint magyarul a <a href="http://phpbb.hu/">phpbb.hu</a> weboldalról tölthető le. A phpBB csak lehetőséget nyújt az internet alapú kommunikációra; a phpBB Csoport nem felelős azért, hogy milyen tartalmakat, illetve magatartást engedélyezünk. További információért a phpBB-ről, kérjük, látogassa meg a <a href="https://www.phpbb.com/">https://www.phpbb.com/</a> weboldalt.<br />
 	<br />
 	Ön beleegyez, hogy nem küld semmilyen sértegető, obszcén, vulgáris, rágalmazó, gyűlöletkeltő, támadó, közízlést sértő vagy bármely más olyan tartalmat, mely sérti a hazájában, a fórumot kiszolgáló szerver országában érvényben lévő vagy a nemzetközi törvényeket. A fentiek megsértése azonnali és végleges kitiltáshoz vezethet az internetszolgáltatója értesítésével együtt, ha ezt szükségesnek tartjuk. A feltételek betartatásának érdekében az összes hozzászóláshoz tartozó IP-címet tároljuk. Ön elfogadja, hogy a fórum fenntartóinak jogukban áll eltávolítani, szerkeszteni a hozzászólásait vagy lezárni az ön által nyitott témákat, amennyiben úgy ítélik meg, hogy ez szükséges. Mint felhasználó, elfogadja, hogy bármely adat, melyet megad, tárolásra kerül a fórum adatbázisában. Ezek az információk a beleegyezése nélkül semmilyen módon nem kerülnek átadásra egy harmadik félnek, de a fórum fenntartói nem tudnak felelősséget vállalni az adatokért egy esetleges „hackertámadás” esetén.
 	',
@@ -175,7 +175,6 @@ $lang = array_merge($lang, array(
 
 	'EDIT_DRAFT_EXPLAIN'		=> 'Itt szerkesztheti a piszkozatait. A piszkozatokhoz nem kapcsolható csatolmány, illetve szavazás.', //? "Here you are able to edit your draft. Drafts do not contain attachment and poll information." - ' A piszkozatok nem tartalmaznak csatolmányokat, illetve szavazási információkat.'
 	'EMAIL_BANNED_EMAIL'		=> 'A megadott e-mail cím használata nem engedélyezett.',
-	'EMAIL_INVALID_EMAIL'		=> 'A megadott e-mail cím hibás.',
 	'EMAIL_REMIND'				=> 'Az azonosítójahoz tartozó e-mail cím. Ha nem változtatta meg a felhasználó vezérlőpultban, akkor ez az, amit a regisztrációkor megadott.',
 	'EMAIL_TAKEN_EMAIL'			=> 'A megadott e-mail cím már használatban van.', //? "is already in use" - 'már használja valaki' - valaki..., valószínűleg ő maga
 	'EMPTY_DRAFT'				=> 'Az üzenet nem lehet üres.',
@@ -256,8 +255,9 @@ $lang = array_merge($lang, array(
 	'MESSAGE_BY_AUTHOR'				=> 'Feladó:', //? ha jól néztem, sehol nem használják
 	'MESSAGE_COLOURS'				=> 'Üzenet jelölések', //? "Message colours"
 	'MESSAGE_DELETED'				=> 'Az üzenet sikeresen törlésre került',
+	'MESSAGE_EDITED'				=> 'Az üzenet szerkesztésre került',
 	'MESSAGE_HISTORY'				=> 'Kapcsolódó üzenetek',
-	'MESSAGE_REMOVED_FROM_OUTBOX'	=> 'Ezt az üzenetet a feladója törölte, mielőtt megérkezett volna.',
+	'MESSAGE_REMOVED_FROM_OUTBOX'	=> 'Ezt az üzenetet a feladója törölte.',
 	'MESSAGE_SENT_ON'				=> 'Dátum:', //?
 	'MESSAGE_STORED'				=> 'Az üzenet sikeresen elküldésre került.',
 	'MESSAGE_TO'					=> 'Címzett',

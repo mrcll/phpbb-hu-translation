@@ -330,7 +330,7 @@ $help = array(
 	),
 	array(
 		0 => 'Ki készítette ezt a fórumot?',
-		1 => 'Ezt a szoftvert (eredeti formájában) a <a href="http://www.phpbb.com/">phpBB Group</a> készítette, adta ki, és gyakorolja a szerzői jogokat felette. A GNU General Public License alatt érhető el, és szabadon terjeszthető. További információért lássa a linket.'
+		1 => 'Ezt a szoftvert (eredeti formájában) a <a href="https://www.phpbb.com/">phpBB Group</a> készítette, adta ki, és gyakorolja a szerzői jogokat felette. A GNU General Public License alatt érhető el, és szabadon terjeszthető. További információért lássa a linket.'
 	),
 	array(
 		0 => 'Ki készítette ezt a magyar fordítást?',
@@ -338,7 +338,7 @@ $help = array(
 	),
 	array(
 		0 => 'Miért nem érhető el az X szolgáltatás?',
-		1 => 'Ezt a szoftvert a phpBB Group készítette, és licenceli. Ha úgy gondolja, hogy újabb szolgáltatások, funkciók szükségesek a fórumba, vagy valamilyen működési hibát talált, látogassa meg a <a href="http://area51.phpbb.com/">phpBB Area51</a> weboldalt, ahol ezzel kapcsolatban további információkat kaphat.' // ezt is lehetne javítani, meg az angol szövegnek megfelelőnek tenni...
+		1 => 'Ezt a szoftvert a phpBB Group készítette, és licenceli. Ha úgy gondolja, hogy újabb szolgáltatások, funkciók szükségesek a fórumba, vagy valamilyen működési hibát talált, látogassa meg a <a href="https://www.phpbb.com/ideas/">phpBB Ideas Centre</a> weboldalt, ahol ezzel kapcsolatban további információkat kaphat.' // ezt is lehetne javítani, meg az angol szövegnek megfelelőnek tenni...
 	),
 	array(
 		0 => 'Ki az illetékes a fórumon olvasható tartalommal kapcsolatban?',

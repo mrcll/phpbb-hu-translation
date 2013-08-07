@@ -291,7 +291,7 @@ $lang = array_merge($lang, array(
 
 // PHP info
 $lang = array_merge($lang, array(
-	'ACP_PHP_INFO_EXPLAIN'	=> 'Ez az oldal információkat tartalmaz a szerveren lévő PHP-ról. Az adatok között megtalálod a betöltött modulokat, elérhető változókat és az alap beállításokat. Ezek az információk hasznosak tudnak lenni egy probléma kivizsgálásánál. Kérjük, vedd figyelembe, hogy néhány tárhelyszolgáltató biztonsági okokból korlátozza, milyen információk jelennek meg itt. Az ezen az oldalon szereplő adatokat nem tanácsos kiadni, hacsak nem egy <a href="http://www.phpbb.com/about/team/">hivatalos csapattag</a> kérdezi azokat a támogató fórumokban!',
+	'ACP_PHP_INFO_EXPLAIN'	=> 'Ez az oldal információkat tartalmaz a szerveren lévő PHP-ról. Az adatok között megtalálod a betöltött modulokat, elérhető változókat és az alap beállításokat. Ezek az információk hasznosak tudnak lenni egy probléma kivizsgálásánál. Kérjük, vedd figyelembe, hogy néhány tárhelyszolgáltató biztonsági okokból korlátozza, milyen információk jelennek meg itt. Az ezen az oldalon szereplő adatokat nem tanácsos kiadni, hacsak nem egy <a href="https://www.phpbb.com/about/team/">hivatalos csapattag</a> kérdezi azokat a támogató fórumokban!',
 
 	'NO_PHPINFO_AVAILABLE'	=> 'Nem lehet információkat megtudni a PHP konfigurációdról. A phpinfo() biztonsági okokból le lett tiltva.',
 ));

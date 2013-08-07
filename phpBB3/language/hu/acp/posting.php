@@ -84,7 +84,8 @@ $lang = array_merge($lang, array(
 		'NUMBER'		=> 'Bármilyen szám.',
 		'EMAIL'			=> 'Egy érvényes e-mail cím.',
 		'URL'			=> 'Egy érvényes URL, mely bármilyen protokollt használhat (http, ftp, stb., nem használható fel javascript támadásokhoz). Ha nincs protokoll megadva, a szöveg elé „http://” kerül elhelyezésre.',
-		'LOCAL_URL'		=> 'Egy helyi URL. Az URL-nek a téma oldaltól kell lennie viszonyítva, valamint nem tartalmazhat szervernevet, illetve protokollt.',
+		'LOCAL_URL'		=> 'Egy helyi URL. Az URL-nek a téma oldaltól kell lennie viszonyítva, valamint nem tartalmazhat szervernevet, illetve protokollt, a link kezdete “%s” lesz.',		
+		'RELATIVE_URL'	=> 'Egy relatív URL. Egy URL részlet megfeleltetésére használhatod, de légy elővigyázatos: a teljes URL egy érvényes relatív URL. Ha a fórumod relatív URL-jét szeretnéd használni, akkor helyette a LOCAL_URL jelölőt használd.', //? You can use this to match parts of a URL, but be careful: a full URL is a valid relative URL.
 		'COLOR'			=> 'Egy HTML szín, lehet a <samp>#FF1234</samp> numerikus formában, vagy lehet egy <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS szín kulcsszó</a>, mint például a <samp>fuchsia</samp> vagy az <samp>InactiveBorder</samp>.'
 	)
 ));
