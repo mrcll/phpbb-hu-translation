@@ -6,7 +6,7 @@
 * @package language
 * @version $Id$
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 * Original copyright: (c) 2005 phpBB Group
 *
 */
@@ -37,18 +37,9 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_IMAGESETS_EXPLAIN'	=> 'A képkészletek felelősek a fórum által használt összes gombért, ikonért stb., és más nem megjelenéstől függő képekért. Itt szerkesztheted, exportálhatod, illetve törölheted a már létező képkészleteket, vagy aktiválhatod az újakat.',
-	'ACP_STYLES_EXPLAIN'	=> 'Itt a fórumon elérhető megjelenéseket tudod kezelni. Egy megjelenés egy sablonból, egy stílusból és egy képkészletből áll. A megjelenéseket módosíthatod, törölheted, deaktiválhatod, újraaktiválhatod, vagy készíthetsz, illetve importálhatsz újakat is. Az előnézet funkció segítségével azt is megnézheted, hogy egy megjelenés hogyan fog kinézni. A jelenlegi alapértelmezett megjelenés egy csillaggal van megjelölve (*). Emellett minden megjelenés mellett megjelenik, hányan használják, azonban ebben az értékben nem jelentkezik a felhasználói sablon felülírás hatása.', //?
-	'ACP_TEMPLATES_EXPLAIN'	=> 'A sablonkészletek felelősek a fórum szerkezetének generálásához használt kódért. Itt szerkesztheted, törölheted, illetve exportálathod a már meglévő sablonkészleteket, vagy importálhatsz újakat.', //? preview-t kihagytam
-	'ACP_THEMES_EXPLAIN'	=> 'Itt létrehozhatsz, telepíthetsz, szerkeszthetsz, törölhetsz, illetve exportálhatsz stílusokat. Egy stílus színek és képek kombinációja, mely alkalmazásra kerül a sablonon, és ezáltal megadja a fórum alap kinézetét. A lehetőségek bősége a szerver és a phpBB konfigurációjától függ, további információért lásd a dokumentációt. Kérjük, vedd figyelembe, hogy egy új stílus létrehozásánál egy stílus használata kiindulásként csak opcionális.', //?
-	'ADD_IMAGESET'			=> 'Képkészlet létrehozása',
-	'ADD_IMAGESET_EXPLAIN'	=> 'Itt egy új képkészletet tudsz létrehozni. A szerver konfigurációjától és az állományok jogosultságától függően további lehetőségeid is lehetnek. Például, lehet, hogy az új képkészletet ráalapozhatod egy már meglévőre. Továbbá, lehet, hogy feltölthetsz, vagy importálhatsz (a store könyvtárból) egy képkészlet csomagot. Ha feltöltesz, vagy importálsz egy csomagot, lehetőséged van rá, hogy a képkészlet neve a csomag nevéből kerüljön megállapításra (ehhez hagyd üresen a képkészlet neve mezőt).',
-	'ADD_STYLE'				=> 'Megjelenés létrehozása',
-	'ADD_STYLE_EXPLAIN'		=> 'Itt egy új megjelenést tudsz létrehozni. A szerver konfigurációjától és az állományok jogosultságától függően további lehetőségeid is lehetnek. Például, lehet, hogy az új megjelenést ráalapozhatod egy már meglévőre. Továbbá, lehetőséged lehet rá, hogy feltölts, vagy importálj (a store könyvtárból) egy megjelenés csomagot. Ha feltöltesz, vagy importálsz egy csomagot, a megjelenés neve automatikusan megállapításra kerül.', //?
+	'ACP_STYLES_EXPLAIN'	=> 'Itt a fórumon elérhető megjelenéseket tudod kezelni. A megjelenéseket módosíthatod, törölheted, deaktiválhatod, újraaktiválhatod, vagy telepíthetsz újakat is. Az előnézet funkció segítségével azt is megnézheted, hogy egy megjelenés hogyan fog kinézni. Minden megjelenés mellett megjelenik, hányan használják, azonban ebben az értékben nem jelentkezik a felhasználói sablon felülírás hatása.', //?
 	'ADD_TEMPLATE'			=> 'Sablon létrehozása',
 	'ADD_TEMPLATE_EXPLAIN'	=> 'Itt egy új sablont tudsz létrehozni. A szerver konfigurációjától és az állományok jogosultságától függően további lehetőségeid is lehetnek. Például, lehet, hogy az új sablont ráalapozhatod egy már meglévőre. Továbbá, lehet, hogy feltölthetsz, vagy importálhatsz (a store könyvtárból) egy sablon csomagot. Ha feltöltesz, vagy importálsz egy csomagot, lehetőséged van rá, hogy a sablon neve a csomag nevéből kerüljön megállapításra (ehhez hagyd üresen a sablon neve mezőt).',
-	'ADD_THEME'				=> 'Stílus létrehozása',
-	'ADD_THEME_EXPLAIN'		=> 'Itt egy új stílust tudsz létrehozni. A szerver konfigurációjától és az állományok jogosultságától függően további lehetőségeid is lehetnek. Például, lehet, hogy az új stílust ráalapozhatod egy már meglévőre. Továbbá, lehetőséged lehet rá, hogy feltölts, vagy importálj (a store könyvtárból) egy stílus csomagot. Ha feltöltesz, vagy importálsz egy csomagot, lehetőséged van rá, hogy a stílus neve a csomag nevéből kerüljön megállapításra (ehhez hagyd üresen a stílus neve mezőt).',
 	'ARCHIVE_FORMAT'		=> 'Csomag típusa', //? "Archive file type"
 	'AUTOMATIC_EXPLAIN'		=> 'Hagyd üresen, hogy a rendszer automatikusan próbálja megállapítani.',
 
@@ -63,12 +54,11 @@ $lang = array_merge($lang, array(
 	'CACHE_FILENAME'				=> 'Sablon állomány',
 	'CACHE_FILESIZE'				=> 'Állomány mérete',
 	'CACHE_MODIFIED'				=> 'Módosítva',
-	'CONFIRM_IMAGESET_REFRESH'		=> 'Biztosan újra akarod tölteni a képkészlet adatait? A képkészlet konfigurációs állománya felül fogja írni a képkészlet-szerkesztővel végzett változtatásokat.',
+	'CANNOT_BE_INSTALLED'			=> 'Cannot be installed', //bb31
 	'CONFIRM_TEMPLATE_CLEAR_CACHE'	=> 'Biztosan törölni akarod az összes sablon állományod gyorsítótárazott változatát?',
-	'CONFIRM_TEMPLATE_REFRESH'		=> 'Biztosan újra akarod tölteni a sablon adatokat az adatbázisban a fájlrendszerben lévőkkel? Ezzel felül fognak íródni a sablonszerkesztővel végzett változtatások, melyeket azalatt történtek, hogy a sablon az adatbázisban volt tárolva.',
-	'CONFIRM_THEME_REFRESH'			=> 'Biztosan újra akarod tölteni a stílus adatokat az adatbázisban a fájlrendszerben lévőkkel? Ezzel felül fognak íródni a stílusszerkesztővel végzett változtatások, melyeket azalatt történtek, hogy a stílus az adatbázisban volt tárolva.',
+	'CONFIRM_DELETE_STYLES'			=> 'Are you sure you wish to delete selected styles?', //bb31
+	'CONFIRM_UNINSTALL_STYLES'		=> 'Are you sure you wish to uninstall selected styles?', //bb31
 	'COPYRIGHT'						=> 'Copyright', //? kell valami?
-	'CREATE_IMAGESET'				=> 'Új képkészlet létrehozása',
 	'CREATE_STYLE'					=> 'Új megjelenés létrehozása',
 	'CREATE_TEMPLATE'				=> 'Új sablonkészlet létrehozása',
 	'CREATE_THEME'					=> 'Új stílus létrehozása',
@@ -76,34 +66,25 @@ $lang = array_merge($lang, array(
 
 	'DEACTIVATE_DEFAULT'		=> 'Nem tudod deaktiválni az alapértelmezett megjelenést.',
 	'DELETE_FROM_FS'			=> 'Törlés a fájlrendszerből',
-	'DELETE_IMAGESET'			=> 'Képkészlet törlése',
-	'DELETE_IMAGESET_EXPLAIN'	=> 'Itt törölni tudod a kiválasztott képkészletet az adatbázisból. Kérjük, vedd figyelembe, hogy ezt a műveletet nem lehet visszacsinálni. Ajánlott a képkészletet a törlés előtt előbb kiexportálni, hogy esetlegesen később lehessen használni.',
 	'DELETE_STYLE'				=> 'Megjelenés törlése',
 	'DELETE_STYLE_EXPLAIN'		=> 'Itt törölni tudod a kiválasztott megjelenést. Vigyázz a megjelenések törlésénél, nincs lehetőség a művelet visszavonására.',
+	'DELETE_STYLE_FILES_FAILED'	=> 'Error deleting files for style "%s".', //bb31
+	'DELETE_STYLE_FILES_SUCCESS'	=> 'Files for style "%s" have been deleted.', //bb31
 	'DELETE_TEMPLATE'			=> 'Sablon törlése',
 	'DELETE_TEMPLATE_EXPLAIN'	=> 'Itt törölni tudod a kiválasztott sablonkészletet az adatbázisból. Kérjük, vedd figyelembe, hogy ezt a műveletet nem lehet visszacsinálni. Ajánlott a sablont a törlés előtt előbb kiexportálni, hogy esetlegesen később lehessen használni.',
-	'DELETE_THEME'				=> 'Stílus törlése',
-	'DELETE_THEME_EXPLAIN'		=> 'Itt törölni tudod a kiválasztott stílust az adatbázisból. Kérjük, vedd figyelembe, hogy ezt a műveletet nem lehet visszacsinálni. Ajánlott a stílust a törlés előtt előbb kiexportálni, hogy esetlegesen később lehessen használni.',
 	'DETAILS'					=> 'Adatok', //? Részletek?
 	'DIMENSIONS_EXPLAIN'		=> 'Ha igenre állítod, a szélesség/magasság érték is hozzáadásra kerül.', //? "Selecting yes here will include width/height parameters." include 'Méretek tartalmazása'
 
-	'EDIT_DETAILS_IMAGESET'				=> 'Képkészlet adatok szerkesztése',
-	'EDIT_DETAILS_IMAGESET_EXPLAIN'		=> 'Itt szerkeszteni tudod a képkészlet egyes adatait, mint például a nevét.',
 	'EDIT_DETAILS_STYLE'				=> 'Megjelenés szerkesztése',
-	'EDIT_DETAILS_STYLE_EXPLAIN'		=> 'Az alábbi űrlap használatával módosíthatod ezt a megjelenést. Megváltoztathatod a sablon, a stílus és a képkészlet kombinációját, amely meghatározza magát a megjelenést. Emellett a megjelenést alapértelmezetté is teheted.', //? a már létező megjelenést?
+	'EDIT_DETAILS_STYLE_EXPLAIN'		=> 'Az alábbi űrlap használatával módosíthatod ezt a megjelenést. Megváltoztathatod a sablon és a stílus kombinációját, amely meghatározza magát a megjelenést. Emellett a megjelenést alapértelmezetté is teheted.', //? a már létező megjelenést?
 	'EDIT_DETAILS_TEMPLATE'				=> 'Sablon adatok szerkesztése',
-	'EDIT_DETAILS_TEMPLATE_EXPLAIN'		=> 'Itt szerkeszteni tudod a sablon egyes adatait, mint például a nevét. Emellett meg lehet rá a lehetőséged, hogy megválaszd, a sablon az adatbázisban vagy a fájlrendszerben kerüljön tárolásra. Ez a lehetőség a PHP konfigurációdtól függ, és hogy a sablonkészlet írható-e a webszerver által.',
+	'EDIT_DETAILS_TEMPLATE_EXPLAIN'		=> 'Itt szerkeszteni tudod a sablon egyes adatait, mint például a nevét.',
 	'EDIT_DETAILS_THEME'				=> 'Stílusadatok szerkesztése',
-	'EDIT_DETAILS_THEME_EXPLAIN'		=> 'Itt szerkeszteni tudod a stílus egyes adatait, mint például a nevét. Emellett meg lehet rá a lehetőséged, hogy megválaszd, a stílus az adatbázisban vagy a fájlrendszerben kerüljön tárolásra. Ez a lehetőség a PHP konfigurációdtól függ, és hogy a sablonkészlet írható-e a webszerver által.',
-	'EDIT_IMAGESET'						=> 'Képkészlet szerkesztése',
-	'EDIT_IMAGESET_EXPLAIN'				=> 'Itt szerkeszteni tudod a képkészlet egyes képeit, melyek meghatározzák a képkészletet. A képek mellé megadhatod a méretüket is. A méret megadása nem kötelező, de segíthet megoldani egyes böngészőkben fellépő megjelenítési hibákat. Ha nem adod meg, egy nagyon kicsit csökkentheted az adatbázis-bejegyzés méretét.',
+	'EDIT_DETAILS_THEME_EXPLAIN'		=> 'Itt szerkeszteni tudod a stílus egyes adatait, mint például a nevét.',
 	'EDIT_TEMPLATE'						=> 'Sablon szerkesztése',
-	'EDIT_TEMPLATE_EXPLAIN'				=> 'Itt szerkeszteni tudod a sablonkészleted. Kérjük, ne feledd, hogy a szerkesztés maradandó, az elküldés után nem lehet visszacsinálni. Ha a PHP tud írni a style könyvtárban lévő sablon állományokba, akkor minden változtatás közvetlenül ezekbe az állományokba kerül. Ha a PHP nem tud írni ezekbe az állományokba, a változtatások csak az adatbázisban kerülnek elmentésre. Kérjük, légy figyelmes a sablonok szerkesztésénél, ne felejtsd el lezárni az összes sablon változót ({XXXX}) és a feltételes szerkezeteket.', //?
-	'EDIT_TEMPLATE_STORED_DB'			=> 'A sablon állomány nem volt írható, ezért a sablonkészlet az adatbázisban került eltárolásra, ami így már tartalmazza a módosítást.', //?
+	'EDIT_TEMPLATE_EXPLAIN'				=> 'Itt szerkeszteni tudod a sablonkészleted. Kérjük, ne feledd, hogy a szerkesztés maradandó, az elküldés után nem lehet visszacsinálni. Kérjük, légy figyelmes a sablonok szerkesztésénél, ne felejtsd el lezárni az összes sablon változót ({XXXX}) és a feltételes szerkezeteket.', //?
 	'EDIT_THEME'						=> 'Stílus szerkesztése',
 	'EDIT_THEME_EXPLAIN'				=> 'Itt szerkeszteni tudod a kiválasztott stílust, megváltoztathatod a színeket, képeket stb.',
-	'EDIT_THEME_STORED_DB'				=> 'A stíluslap állomány nem volt írható, ezért a stíluslap az adatbázisban került eltárolásra, ami így már tartalmazza a módosítást.',
-	'EDIT_THEME_STORE_PARSED'			=> 'A stílusnak szüksége van rá, hogy a stíluslap fel legyen dolgozva. Ez csak akkor lehetséges, ha az az adatbázisban van tárolva.',
 	'EDITOR_DISABLED'					=> 'A sablon szerkesztő nincs engedélyezve.',
 	'EXPORT'							=> 'Exportálás',
 
@@ -116,31 +97,13 @@ $lang = array_merge($lang, array(
 	'GLOBAL_IMAGES'			=> 'Globáli',
 
 	'HIDE_CSS'				=> 'CSS kód elrejtése', //? "Hide raw CSS" raw magyar megfelelője? - bár ezt most úgysem használják
-	
+
 	'IMAGE_WIDTH'				=> 'Kép szélessége',
 	'IMAGE_HEIGHT'				=> 'Kép magassága',
 	'IMAGE'						=> 'Kép',
 	'IMAGE_NAME'				=> 'Kép neve',
 	'IMAGE_PARAMETER'			=> 'Parametér',
 	'IMAGE_VALUE'				=> 'Érték',
-	'IMAGESET_ADDED'			=> 'Az új képkészlet hozzáadásra került a fájlrendszerbe.',
-	'IMAGESET_ADDED_DB'			=> 'Az új képkészlet hozzáadásra került az adatbázisba.',
-	'IMAGESET_DELETED'			=> 'A képkészlet sikeresen törlésre került.',
-	'IMAGESET_DELETED_FS'		=> 'A képkészlet eltávolításra került az adatbázisból, de lehet hogy, maradt néhány állomány a fájlrendszerben.',
-	'IMAGESET_DETAILS_UPDATED'	=> 'A képkészlet adatai sikeresen frissítésre kerültek.',
-	'IMAGESET_ERR_ARCHIVE'		=> 'Kérünk, válassz ki egy csomagformátumot.', //?
-	'IMAGESET_ERR_COPY_LONG'	=> 'A copyright nem lehet hosszabb 60 karakternél.',
-	'IMAGESET_ERR_NAME_CHARS'	=> 'A képkészlet neve csak alfanumerikus karaktereket, -, +, _ jelet, valamint szóközt tartalmazhat.',
-	'IMAGESET_ERR_NAME_EXIST'	=> 'Már létezik képkészlet ilyen névvel.',
-	'IMAGESET_ERR_NAME_LONG'	=> 'A képkészlet neve nem lehet hosszabb 30 karakternél.',
-	'IMAGESET_ERR_NOT_IMAGESET'	=> 'A megadott csomag nem tartalmaz helyes képkészletet.',
-	'IMAGESET_ERR_STYLE_NAME'	=> 'El kell látnod névvel a képkészletet.',
-	'IMAGESET_EXPORT'			=> 'Képkészlet exportálása',
-	'IMAGESET_EXPORT_EXPLAIN'	=> 'Itt kiexportálhatod a képkészletet egy csomagba. A csomag tartalmaznia fogja a szükséges adatatokat, hogy a képkészletet később telepíteni lehessen egy másik fórumon. Megválaszthatod, hogy közvetlenül le szeretnéd tölteni az állományt, vagy a store könyvtárba helyeznéd el, hogy később letöltsd FTP-n keresztül.',
-	'IMAGESET_EXPORTED'			=> 'A képkészlet sikeresen kiexportálásra került, és el lett tárolva a %s helyen.', //?
-	'IMAGESET_NAME'				=> 'Képkészlet neve',
-	'IMAGESET_REFRESHED'		=> 'A képkészlet sikeresen újratöltésre került.',
-	'IMAGESET_UPDATED'			=> 'A képkészlet sikeresen frissítésre került.',
 	'ITALIC'					=> 'Dőlt',
 
 	'IMG_CAT_BUTTONS'		=> 'Honosított gombok', //?
@@ -219,14 +182,9 @@ $lang = array_merge($lang, array(
 
 	'IMG_ICON_BACK_TOP'		=> 'Vissza a tetejére',
 
-	'IMG_ICON_CONTACT_AIM'		=> 'AIM',
 	'IMG_ICON_CONTACT_EMAIL'	=> 'E-mail küldése',
-	'IMG_ICON_CONTACT_ICQ'		=> 'ICQ',
 	'IMG_ICON_CONTACT_JABBER'	=> 'Jabber',
-	'IMG_ICON_CONTACT_MSNM'		=> 'MSNM',
 	'IMG_ICON_CONTACT_PM'		=> 'Üzenet küldése',
-	'IMG_ICON_CONTACT_YAHOO'	=> 'YIM',
-	'IMG_ICON_CONTACT_WWW'		=> 'Honlap',
 
 	'IMG_ICON_POST_DELETE'			=> 'Hozzászólás törlése',
 	'IMG_ICON_POST_EDIT'			=> 'Hozzászólás szerkesztése',
@@ -269,113 +227,99 @@ $lang = array_merge($lang, array(
 
 	'INACTIVE_STYLES'			=> 'Inaktív megjelenések',
 	'INCLUDE_DIMENSIONS'		=> 'Méretek megadása', //? "Include dimensions" 'Méretek tartalmazása'
-	'INCLUDE_IMAGESET'			=> 'Képkészlet tartalmazása', //? mellékelése? hozzáadása?
 	'INCLUDE_TEMPLATE'			=> 'Sablon tartalmazása',
 	'INCLUDE_THEME'				=> 'Stílus tartalmazása',
 	'INHERITING_FROM'			=> 'Öröklés',
-	'INSTALL_IMAGESET'			=> 'Képkészlet telepítése',
-	'INSTALL_IMAGESET_EXPLAIN'	=> 'Itt telepíteni tudod a kiválasztott képkészletet. Ha szeretnéd, módosíthatsz egyes adatokat, vagy használhatod az alapértelmezett értékeket.',
 	'INSTALL_STYLE'				=> 'Megjelenés telepítése',
-	'INSTALL_STYLE_EXPLAIN'		=> 'Itt telepíteni tudsz egy új megjelenést és, ha kell, az alkotóelemeit. Ha a szükséges megjelenés alkotóelemek már telepítve vannak, nem lesznek felülírva. Néhány megjelenésnek szüksége van rá, hogy egyes megjelenés alkotóelemek már telepítve legyenek. Ha egy ilyen megjelenést próbálsz telepíteni, de nincsenek meg a megfelelő alkotóelemek, értesítve leszel.',
-	'INSTALL_TEMPLATE'			=> 'Sablon telepítése',
-	'INSTALL_TEMPLATE_EXPLAIN'	=> 'Itt telepíteni tudsz egy új sablonkészletet. A szervered konfigurációjától függően több választási lehetőséged is lehet ezzel kapcsolatban.',
-	'INSTALL_THEME'				=> 'Stílus telepítése',
-	'INSTALL_THEME_EXPLAIN'		=> 'Itt telepíteni tudod a kiválasztott stílust. Ha szeretnéd, módosíthatsz egyes adatokat, vagy használhatod az alapértelmezett értékeket.',
-	'INSTALLED_IMAGESET'		=> 'Telepített képkészletek',
+	'INSTALL_STYLES'				=> 'Megjelenések telepítése',
+	'INSTALL_STYLES_EXPLAIN'		=> 'Itt telepíteni tudod a új stílust.<br /><br />If you cannot find a specific style in list below, check to make sure style is already installed. If it is not installed, check if it was uploaded correctly.', //bb31
 	'INSTALLED_STYLE'			=> 'Telepített megjelenések',
-	'INSTALLED_TEMPLATE'		=> 'Telepített sablonok',
-	'INSTALLED_THEME'			=> 'Telepített stílusok',
-
-	'KEEP_IMAGESET'				=> '“%s” képkészlet megtartása',
-	'KEEP_TEMPLATE'				=> '“%s” sablon megtartása',
-	'KEEP_THEME'				=> '“%s” stílus megtartása',
+	'INVALID_STYLE_ID'			=> 'Invalid style ID.', //bb31
 
 	'LINE_SPACING'				=> 'Sorköz',
-	'LOCALISED_IMAGES'			=> 'Honosított', //?
-	'LOCATION_DISABLED_EXPLAIN'	=> 'Ez a beállítás örökölt, ezért nem változtatható meg.',
+	'LOCALISED_IMAGES'			=> 'Honosított', //? //bb31 Localised
 
 	'NO_CLASS'					=> 'Az osztály nem található a stíluslapban.',
-	'NO_IMAGESET'				=> 'A képkészlet nem található a fájlrendszerben.',
 	'NO_IMAGE'					=> 'Nincs kép',
 	'NO_IMAGE_ERROR'			=> 'A kép nem található a fájlrendszerben.',
+	'NO_MATCHING_STYLES_FOUND'	=> 'No styles match your query.', //bb31
 	'NO_STYLE'					=> 'A megjelenés nem található a fájlrendszerben.',
 	'NO_TEMPLATE'				=> 'A sablon nem található a fájlrendszerben.',
 	'NO_THEME'					=> 'A stílus nem található a fájlrendszerben.',
-	'NO_UNINSTALLED_IMAGESET'	=> 'Nincs telepítetlen képkészlet.',
 	'NO_UNINSTALLED_STYLE'		=> 'Nincs telepítetlen megjelenés.',
-	'NO_UNINSTALLED_TEMPLATE'	=> 'Nincs telepítetlen sablon.',
-	'NO_UNINSTALLED_THEME'		=> 'Nincs telepítetlen stílus.',
 	'NO_UNIT'					=> 'Nincs',
 
-	'ONLY_IMAGESET'			=> 'Ez az egyetlen megmaradt képkészlet, nem törölheted.',
 	'ONLY_STYLE'			=> 'Ez az egyetlen megmaradt megjelenés, nem törölheted.',
-	'ONLY_TEMPLATE'			=> 'Ez az egyetlen megmaradt sablonkészlet, nem törölheted.',
-	'ONLY_THEME'			=> 'Ez az egyetlen megmaradt stílus, nem törölheted.',
-	'OPTIONAL_BASIS'		=> 'Fakultatív kiindulási megjelenés', //?
+
+	'PARENT_STYLE_NOT_FOUND'	=> 'Parent style was not found. This style may not work correctly. Please uninstall it.', //bb31
+	'PURGED_CACHE'				=> 'Cache was purged.', //bb31
 
 	'REFRESH'					=> 'Újratöltés',
 	'REPEAT_NO'					=> 'Ne',
 	'REPEAT_X'					=> 'Csak vízszintesen',
 	'REPEAT_Y'					=> 'Csak függőlegesen',
 	'REPEAT_ALL'				=> 'Mindkét irányba',
-	'REPLACE_IMAGESET'			=> 'Képkészlet helyettesítése',
-	'REPLACE_IMAGESET_EXPLAIN'	=> 'Ez a képkészlet fogja helyettesíteni a most töröltet, azokban a megjelenésekben, melyek ezt használták.',
 	'REPLACE_STYLE'				=> 'Megjelenés helyettesítése',
 	'REPLACE_STYLE_EXPLAIN'		=> 'Ez a megjelenés fogja helyettesíteni a most töröltet, azoknak a felhasználóknak, akik ezt használták.',
 	'REPLACE_TEMPLATE'			=> 'Sablon helyettesítése',
 	'REPLACE_TEMPLATE_EXPLAIN'	=> 'Ez a sablonkészlet fogja helyettesíteni a most töröltet, azokban a megjelenésekben, melyek ezt használták.',
 	'REPLACE_THEME'				=> 'Stílus helyettesítése',
 	'REPLACE_THEME_EXPLAIN'		=> 'Ez a stílus fogja helyettesíteni a most töröltet, azokban a megjelenésekben, melyek ezt használták.',
-	'REQUIRES_IMAGESET'			=> 'Ennek a megjelenésnek szüksége van rá, hogy a %s képkészlet telepítve legyen.',
-	'REPLACE_WITH_OPTION'		=> 'Lecserélés “%s”-el',
-	'REQUIRES_TEMPLATE'			=> 'Ennek a megjelenésnek szüksége van rá, hogy a %s sablonkészlet telepítve legyen.',
-	'REQUIRES_THEME'			=> 'Ennek a megjelenésnek szüksége van rá, hogy a %s stílus telepítve legyen.',
+	'REQUIRES_STYLE'			=> 'This style requires the style "%s" to be installed.', // bb31 Ennek a megjelenésnek szüksége van rá, hogy a %s képkészlet telepítve legyen.
 
 	'SELECT_IMAGE'				=> 'Kép kiválasztása',
 	'SELECT_TEMPLATE'			=> 'Sablon állomány kiválasztása',
 	'SELECT_THEME'				=> 'Stílus állomány kiválasztása',
 	'SELECTED_IMAGE'			=> 'Kiválasztott kép',
-	'SELECTED_IMAGESET'			=> 'Kiválasztott képkészlet',
 	'SELECTED_TEMPLATE'			=> 'Kiválasztott sablon',
 	'SELECTED_TEMPLATE_FILE'	=> 'Kiválasztott sablon állomány',
 	'SELECTED_THEME'			=> 'Kiválasztott stílus',
 	'SELECTED_THEME_FILE'		=> 'Kiválasztott stílus állomány',
-	'STORE_DATABASE'			=> 'Adatbázis',
 	'STORE_FILESYSTEM'			=> 'Fájlrendszer',
 	'STYLE_ACTIVATE'			=> 'Aktiválás',
 	'STYLE_ACTIVE'				=> 'Aktív',
+	'STYLE_ACTIVATED'			=> 'Style activated successfully', //bb31
 	'STYLE_ADDED'				=> 'A megjelenés sikeresen felvételre került.',
 	'STYLE_DEACTIVATE'			=> 'Deaktiválás',
+	'STYLE_DEACTIVATED'			=> 'Style deactivated successfully', //bb31
 	'STYLE_DEFAULT'				=> 'Alapértelmezett megjelenéssé tétel',
-	'STYLE_DELETED'				=> 'A megjelenés sikeresen törlésre került.',
+	'STYLE_DEFAULT_CHANGE'		=> 'Change default style', //bb31
+	'STYLE_DEFAULT_CHANGE_INACTIVE'	=> 'You must activate style before making it default style.', //bb31
+	'STYLE_DELETED'				=> 'A “%s” megjelenés sikeresen törlésre került.',
 	'STYLE_DETAILS_UPDATED'		=> 'A megjelenés sikeresen szerkesztésre került.',
 	'STYLE_ERR_ARCHIVE'			=> 'Kérünk, válassz ki egy csomagformátumot.',
 	'STYLE_ERR_COPY_LONG'		=> 'A copyright nem lehet hosszabb 60 karakternél.',
+	'STYLE_ERR_INVALID_PARENT'	=> 'Invalid parent style.', //bb31
 	'STYLE_ERR_MORE_ELEMENTS'	=> 'Legalább egy megjelenés alkotóelemet ki kell választanod.',
 	'STYLE_ERR_NAME_CHARS'		=> 'A megjelenés neve csak alfanumerikus karaktereket, -, +, _ jelet, valamint szóközt tartalmazhat.',
 	'STYLE_ERR_NAME_EXIST'		=> 'Már létezik megjelenés ilyen névvel.',
 	'STYLE_ERR_NAME_LONG'		=> 'A megjelenés neve nem lehet hosszabb 30 karakternél.',
 	'STYLE_ERR_NO_IDS'			=> 'Ki kell választanod egy sablont, egy stílust és egy képkészletet a megjelenéshez.',
-	'STYLE_ERR_NOT_STYLE'		=> 'Az importált vagy feltöltött állomány nem tartalmazott egy helyes megjelenés csomagot.',
 	'STYLE_ERR_STYLE_NAME'		=> 'El kell látnod névvel a megjelenést',
 	'STYLE_EXPORT'				=> 'Megjelenés exportálása',
-	'STYLE_EXPORT_EXPLAIN'		=> 'Itt kiexportálhatod a képkészletet egy csomagba. A megjelenésnek nem kell tartalmaznia az összes alkotóelemét, de legalább egyet kell. Például, ha készítettél egy stílust és egy képkészletet egy széles körben használt sablonhoz, elég csak csak a stílust és a képkészletet kiexportálnod, a sablont kihagyhatod. Megválaszthatod, hogy közvetlenül le szeretnéd tölteni az állományt, vagy a store könyvtárba helyeznéd el, hogy később letöltsd FTP-n keresztül.',
+	'STYLE_EXPORT_EXPLAIN'		=> 'Itt kiexportálhatod a képkészletet egy csomagba. A megjelenésnek nem kell tartalmaznia az összes alkotóelemét, de legalább egyet kell. Például, ha készítettél egy stílust egy széles körben használt sablonhoz, elég csak csak a stílust kiexportálnod, a sablont kihagyhatod. Megválaszthatod, hogy közvetlenül le szeretnéd tölteni az állományt, vagy a store könyvtárba helyeznéd el, hogy később letöltsd FTP-n keresztül.',
 	'STYLE_EXPORTED'			=> 'A megjelenés sikeresen kiexportálásra került, és el lett tárolva a %s helyen.',
-	'STYLE_IMAGESET'			=> 'Képkészlet',
+	'STYLE_INSTALLED'			=> 'Style "%s" has been installed.', //bb31
+	'STYLE_INSTALLED_EDIT_DETAILS'	=> '<a href="%s">Click here</a> to edit style details or to change default style.', //bb31
+	'STYLE_INSTALLED_RETURN_STYLES'	=> '<a href="%s">Click here</a> to return to installed styles list.', //bb31
+	'STYLE_INSTALLED_RETURN_UNINSTALLED'	=> '<a href="%s">Click here</a> to install more styles.', //bb31
 	'STYLE_NAME'				=> 'Megjelenés neve',
+	'STYLE_NOT_INSTALLED'		=> 'Style "%s" was not installed.', //bb31
+	'STYLE_PATH'				=> 'Style path:', //bb31
+	'STYLE_PARENT'				=> 'Parent style:', //bb31
 	'STYLE_TEMPLATE'			=> 'Sablon',
 	'STYLE_THEME'				=> 'Stílus',
+	'STYLE_UNINSTALL'			=> 'Uninstall', //bb31
+	'STYLE_UNINSTALL_DEPENDENT'	=> 'Style "%s" cannot be uninstalled because it has one or more child styles.', //bb31
+	'STYLE_UNINSTALLED'			=> 'Style "%s" uninstalled successfully.', //bb31
 	'STYLE_USED_BY'				=> 'Használók száma (robotok beleértve)',
 
-	'TEMPLATE_ADDED'			=> 'A sablonkészlet felvételre került, és el lett tárolva a fájlrendszerben.',
-	'TEMPLATE_ADDED_DB'			=> 'A sablonkészlet felvételre került, és el lett tárolva az adatbázisban.',
+	'TEMPLATE_ADDED'			=> 'A sablonkészlet felvételre került.',
 	'TEMPLATE_CACHE'			=> 'Sablon gyorsítótár',
 	'TEMPLATE_CACHE_EXPLAIN'	=> 'Alapértelmezetten a phpBB gyorsítótárazza a sablonok lefordított változatát. Ezzel minden oldalletöltésnél csökkenti a szerver terhelését és így az oldal generálásának idejét is. Itt meg tudod tekinteni a gyorsítótárban lévő állományokat, valamint törölheted az egyes állományokat vagy akár a gyorsítótár teljes tartalmát.',
 	'TEMPLATE_CACHE_CLEARED'	=> 'A sablon gyorsítótár sikeresen kiürítésre került.',
 	'TEMPLATE_CACHE_EMPTY'		=> 'Nincs gyorsítótárazott sablon.',
-	'TEMPLATE_DELETED'			=> 'A sablonkészlet sikeresen törlésre került.',
-	'TEMPLATE_DELETE_DEPENDENT'	=> 'A sablonkészlet nem törölhető, mivel más sablonkészlet örököl tőle:',
-	'TEMPLATE_DELETED_FS'		=> 'A sablonkészlet eltávolításra került az adatbázisból, de lehet hogy, maradt néhány állomány a fájlrendszerben.',
+	'TEMPLATE_DELETED_FS'		=> 'A sablonkészlet eltávolításra került az adatbázisból, de maradtak az állományok a fájlrendszerben.',
 	'TEMPLATE_DETAILS_UPDATED'	=> 'A sablon adatai sikeresen frissítésre kerültek.',
 	'TEMPLATE_EDITOR'			=> 'HTML kódos sablonszerkesztő', //??
 	'TEMPLATE_EDITOR_HEIGHT'	=> 'Sablonszerkesztő magassága',
@@ -383,25 +327,16 @@ $lang = array_merge($lang, array(
 	'TEMPLATE_ERR_CACHE_READ'	=> 'A gyorsítárazott sablon állományok tárolására használt cache könyvtárt nem sikerült megnyitni.',
 	'TEMPLATE_ERR_COPY_LONG'	=> 'A copyright nem lehet hosszabb 60 karakternél.',
 	'TEMPLATE_ERR_NAME_CHARS'	=> 'A sablon neve csak alfanumerikus karaktereket, -, +, _ jelet, valamint szóközt tartalmazhat.',
-	'TEMPLATE_ERR_NAME_EXIST'	=> 'Már létezik sablonkészlet ilyen névvel.',
 	'TEMPLATE_ERR_NAME_LONG'	=> 'A sablon neve nem lehet hosszabb 30 karakternél.',
-	'TEMPLATE_ERR_NOT_TEMPLATE'	=> 'A megadott csomag nem tartalmaz helyes sablonkészletet.',
-	'TEMPLATE_ERR_REQUIRED_OR_INCOMPLETE' => 'Az új sablonkészletnek szüksége van rá, hogy a %s sablon telepítve legyen és ne önmagától örököljön.', //? "he new template set requires the template %s to be installed and not inheriting itself." - az önmagától kire vonatkozik?? mi a pontos értelme?
 	'TEMPLATE_ERR_STYLE_NAME'	=> 'El kell látnod névvel a sablont.',
-	'TEMPLATE_EXPORT'			=> 'Sablon kiexportálása',
 	'TEMPLATE_EXPORT_EXPLAIN'	=> 'Itt kiexportálhatod a sablonkészletet egy csomagba. A csomag tartalmaznia fogja a szükséges adatatokat, hogy a sablont később telepíteni lehessen egy másik fórumon. Megválaszthatod, hogy közvetlenül le szeretnéd tölteni az állományt, vagy a store könyvtárba helyeznéd el, hogy később letöltsd FTP-n keresztül.',
 	'TEMPLATE_EXPORTED'			=> 'A sablon sikeresen kiexportálásra került, és el lett tárolva a %s helyen.',
 	'TEMPLATE_FILE'				=> 'Sablon állomány',
 	'TEMPLATE_FILE_UPDATED'		=> 'A sablon állomány sikeresen frissítésre került',
-	'TEMPLATE_INHERITS'			=> 'Ez a sablonkészlet a %s sablonkészlettől örököl, ezért nem állítható be hozzá a szupersablonjáétól eltérő tárolási hely.', //? szuper helyett jobb szó az öröklés kifejezésére?
-	'TEMPLATE_LOCATION'			=> 'Sablonok tárolásának helye',
-	'TEMPLATE_LOCATION_EXPLAIN'	=> 'A képek mindig a fájlrendszerben kerülnek eltárolásra.',
 	'TEMPLATE_NAME'				=> 'Sablon neve',
 	'TEMPLATE_FILE_NOT_WRITABLE'=> 'A %s sablon állományt nem sikerült elmenteni. Kérjük, ellenőrizd a könyvtár és az állományok jogosultságait.',
-	'TEMPLATE_REFRESHED'		=> 'A sablon sikeresen újratöltésre került.',
 
-	'THEME_ADDED'				=> 'Az új stílus hozzáadásra került a fájlrendszerbe.',
-	'THEME_ADDED_DB'			=> 'Az új stílus hozzáadásra került az adatbázisba.',
+	'THEME_ADDED'				=> 'Az új stílus hozzáadásra került.',
 	'THEME_CLASS_ADDED'			=> 'Az egyéni osztály sikeresen hozzáadásra került.',
 	'THEME_DELETED'				=> 'A stílus sikeresen törlésre került.',
 	'THEME_DELETED_FS'			=> 'A stílus eltávolításra került az adatbázisból, de lehet hogy, maradt néhány állomány a fájlrendszerben.',
@@ -415,25 +350,17 @@ $lang = array_merge($lang, array(
 	'THEME_ERR_NAME_EXIST'		=> 'Már létezik stílus ilyen névvel.',
 	'THEME_ERR_NAME_LONG'		=> 'A stílus neve nem lehet hosszabb 30 karakternél.',
 	'THEME_ERR_NOT_THEME'		=> 'A megadott csomag nem tartalmaz helyes stílust.',
-	'THEME_ERR_REFRESH_FS'		=> 'A stílus a fájlrendszerben van tárolva, ezért nem szükséges újratölteni.',
 	'THEME_ERR_STYLE_NAME'		=> 'A megadott csomag nem tartalmaz helyes stílust.',
 	'THEME_FILE'				=> 'Stílus állomány',
+	'THEME_FILE_NOT_WRITABLE'	=> 'Unable to write to theme file %s. Please check the permissions for the directory and the files.', //bb31
 	'THEME_EXPORT'				=> 'Stílus exportálása',
 	'THEME_EXPORT_EXPLAIN'		=> 'Itt kiexportálhatod a stílust egy csomagba. A csomag tartalmaznia fogja a szükséges adatatokat, hogy a stílust később telepíteni lehessen egy másik fórumon. Megválaszthatod, hogy közvetlenül le szeretnéd tölteni az állományt, vagy a store könyvtárba helyeznéd el, hogy később letöltsd FTP-n keresztül.',
 	'THEME_EXPORTED'			=> 'A stílus sikeresen kiexportálásra került, és el lett tárolva a %s helyen.',
-	'THEME_LOCATION'			=> 'Stíluslap tárolásának helye',
-	'THEME_LOCATION_EXPLAIN'	=> 'A képek mindig a fájlrendszerben kerülnek eltárolásra.',
 	'THEME_NAME'				=> 'Stílus neve',
-	'THEME_REFRESHED'			=> 'A stílus sikeresen újratöltésre került.',
 	'THEME_UPDATED'				=> 'A stílus sikeresen frissítésre került.',
 
 	'UNDERLINE'				=> 'Aláhúzás',
-	'UNINSTALLED_IMAGESET'	=> 'Telepítetlen képkészletek',
-	'UNINSTALLED_STYLE'		=> 'Telepítetlen megjelenések',
-	'UNINSTALLED_TEMPLATE'	=> 'Telepítetlen sablonok',
-	'UNINSTALLED_THEME'		=> 'Telepítetlen stílusok',
+	'UNINSTALL_DEFAULT'		=> 'You cannot uninstall the default style.', //bb31
 	'UNSET'					=> 'Nem beállított', //? nem is használják...
 
 ));
-
-?>

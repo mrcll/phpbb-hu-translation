@@ -6,7 +6,7 @@
 * @package language
 * @version $Id$
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 * Original copyright: (c) 2005 phpBB Group
 *
 */
@@ -47,6 +47,7 @@ $lang = array_merge($lang, array(
 
 	'BBCODE_ADDED'				=> 'A BBCode sikeresen felvételre került.',
 	'BBCODE_EDITED'				=> 'A BBCode sikeresen szerkesztésre került.',
+	'BBCODE_DELETED'			=> 'The BBCode has been removed successfully.', //bb31
 	'BBCODE_NOT_EXIST'			=> 'A kiválasztott BBCode nem létezik.',
 	'BBCODE_HELPLINE'			=> 'Segítség',
 	'BBCODE_HELPLINE_EXPLAIN'	=> 'Ennek a mezőnek a tartalma fog megjelenni, ha a BBCode fölé viszed az egeret.', //?
@@ -121,15 +122,19 @@ $lang = array_merge($lang, array(
 	'FIRST'			=> 'Legelejére',
 
 	'ICONS_ADD'				=> 'Új ikon felvétele',
-	'ICONS_NONE_ADDED'		=> 'Nem került felvételre ikon.',
-	'ICONS_ONE_ADDED'		=> 'Az ikon sikeresen felvételre került.',
-	'ICONS_ADDED'			=> 'Az ikonok sikeresen felvételre kerültek.',
+	'ICONS_ADDED'			=> array(
+		0	=> 'Nem került felvételre ikon.',
+		1	=> 'Az ikon sikeresen felvételre került.',
+		2	=> 'Az ikonok sikeresen felvételre kerültek.',
+	),
 	'ICONS_CONFIG'			=> 'Ikon konfiguráció',
 	'ICONS_DELETED'			=> 'Az ikon sikeresen törlésre került.',
 	'ICONS_EDIT'			=> 'Ikon szerkesztése',
-	'ICONS_ONE_EDITED'		=> 'Az ikon sikeresen frissítésre került.',
-	'ICONS_NONE_EDITED'		=> 'Nem került ikon frissítésre.',
-	'ICONS_EDITED'			=> 'Az ikonok sikeresen frissítésre kerültek.',
+	'ICONS_EDITED'			=> array(
+		0	=> 'Nem került ikon frissítésre.',
+		1	=> 'Az ikon sikeresen frissítésre került.',
+		2	=> 'Az ikonok sikeresen frissítésre kerültek.',
+	),
 	'ICONS_HEIGHT'			=> 'Ikon magasság',
 	'ICONS_IMAGE'			=> 'Ikon kép',
 	'ICONS_IMPORTED'		=> 'Az ikon csomag sikeresen telepítésre került.',
@@ -164,16 +169,20 @@ $lang = array_merge($lang, array(
 
 	'SELECT_PACKAGE'			=> 'Csomag állomány kiválasztása',
 	'SMILIES_ADD'				=> 'Új emotikon felvétele',
-	'SMILIES_NONE_ADDED'		=> 'Nem került felvételre emotikon.',
-	'SMILIES_ONE_ADDED'			=> 'Az emotikon sikeresen hozzáadásra került.',
-	'SMILIES_ADDED'				=> 'Az emotikonok sikeresen felvételre kerültek.',
+	'SMILIES_ADDED'				=> array(
+		0	=> 'Nem került felvételre emotikon.',
+		1	=> 'Az emotikon sikeresen hozzáadásra került.',
+		2	=> 'Az emotikonok sikeresen felvételre kerültek.',
+	),
 	'SMILIES_CODE'				=> 'Emotikon kód',
 	'SMILIES_CONFIG'			=> 'Emotikon konfiguráció',
 	'SMILIES_DELETED'			=> 'Az emotikon sikeresen törlésre került.',
 	'SMILIES_EDIT'				=> 'Emotikon szerkesztése',
-	'SMILIES_NONE_EDITED'		=> 'Nem került frissítésre emotikon.',
-	'SMILIES_ONE_EDITED'		=> 'Az emotikon sikeresen frissítésre került.',
-	'SMILIES_EDITED'			=> 'Az emotikonok sikeresen frissítésre kerültek.',
+	'SMILIES_EDITED'			=> array(
+		0	=> 'Nem került frissítésre emotikon.',
+		1	=> 'Az emotikon sikeresen frissítésre került.',
+		2	=> 'Az emotikonok sikeresen frissítésre kerültek.',
+	),
 	'SMILIES_EMOTION'			=> 'Érzelem',
 	'SMILIES_HEIGHT'			=> 'Emotikon magasság',
 	'SMILIES_IMAGE'				=> 'Emotikon kép',
@@ -185,7 +194,10 @@ $lang = array_merge($lang, array(
 	'SMILIES_URL'				=> 'Emotikon képállomány',
 	'SMILIES_WIDTH'				=> 'Emotikon szélesség',
 
-	'TOO_MANY_SMILIES'			=> 'A %d emotikonos korlát elérésre került.',
+	'TOO_MANY_SMILIES'			=> array(
+		1	=> 'A %d emotikonos korlát elérésre került.',
+		2	=> 'A %d emotikonos korlát elérésre került.',
+	),
 
 	'WRONG_PAK_TYPE'	=> 'A megadott csomag nem tartalmazza a megfelelő adatokat.',
 ));
@@ -277,5 +289,3 @@ $lang = array_merge($lang, array(
 
 	'USED_IN_REPORTS'		=> 'Használat száma',
 ));
-
-?>

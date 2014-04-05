@@ -6,7 +6,7 @@
 * @package language
 * @version $Id$
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2 
 * Original copyright: (c) 2005 phpBB Group
 *
 */
@@ -54,6 +54,7 @@ $lang = array_merge($lang, array(
 	'CANNOT_FORCE_REACT_FOUNDER'	=> 'Alapítói azonosítókat nem tudsz újraaktivációra kötelezni.',
 	'CANNOT_FORCE_REACT_YOURSELF'	=> 'A saját azonosítód nem tudod újraaktivációra kötelezni.',
 	'CANNOT_REMOVE_ANONYMOUS'		=> 'A vendég felhasználói azonosítót nem tudod eltávolítani.',
+	'CANNOT_REMOVE_FOUNDER'			=> 'You are not allowed to remove founder accounts.', //bb31
 	'CANNOT_REMOVE_YOURSELF'		=> 'A saját azonosítód nem tudod eltávolítani.',
 	'CANNOT_SET_FOUNDER_IGNORED'	=> 'Mellőzött felhasználókat nem tudsz alapítóvá előléptetni.',
 	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'Aktiválnod kell a felhasználókat, mielőtt előléptethetnéd őket alapítóvá, csak aktivált felhasználókat lehet előléptetni.',
@@ -141,5 +142,3 @@ $lang = array_merge($lang, array(
 	'USER_WARNING_LOG_DELETED'		=> 'Nincs elérhető információ. Valószíleg a napló bejegyzés törlésre került.',
 	'USER_TOOLS'					=> 'Alap eszközök', //?
 ));
-
-?>

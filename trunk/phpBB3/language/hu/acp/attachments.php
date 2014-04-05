@@ -6,7 +6,7 @@
 * @package language
 * @version $Id$
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 * Original copyright: (c) 2005 phpBB Group
 *
 */
@@ -63,6 +63,7 @@ $lang = array_merge($lang, array(
 	'ATTACH_MAX_PM_FILESIZE_EXPLAIN'	=> 'Privát üzenethez csatolható legnagyobb állomány mérete. A 0 érték kikapcsolja a korlátozást.',
 	'ATTACH_ORPHAN_URL'					=> 'Árva csatolmányok',
 	'ATTACH_POST_ID'					=> 'Hozzászólás azonosító',
+	'ATTACH_POST_TYPE'					=> 'Post type', //bb31
 	'ATTACH_QUOTA'						=> 'Csatolmányok tárhelye', //?
 	'ATTACH_QUOTA_EXPLAIN'				=> 'Az egész fórumon a csatolmányok legfeljebb ekkora helyet foglalhatnak el összesen. A 0 érték kikapcsolja a korlátozást.', //?
 	'ATTACH_TO_POST'					=> 'Állomány csatolása hozzászóláshoz', //?
@@ -171,5 +172,3 @@ $lang = array_merge($lang, array(
 	'UPLOAD_ICON'					=> 'Feltöltési ikon',
 	'UPLOAD_NOT_DIR'				=> 'A megadott feltöltési hely úgy tűnik, nem könyvtár.',
 ));
-
-?>

@@ -6,7 +6,7 @@
 * @package language
 * @version $Id$
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 * Original copyright: (c) 2005 phpBB Group
 *
 */
@@ -70,5 +70,3 @@ $lang = array_merge($lang, array(
 	'NO_BOT'		=> 'Nem található robot a megadott azonosítóval.',
 	'NO_BOT_GROUP'	=> 'Nem található a speciális robot csoport.',
 ));
-
-?>
