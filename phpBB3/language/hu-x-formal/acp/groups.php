@@ -6,7 +6,7 @@
 * @package language
 * @version $Id$
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 * Original copyright: (c) 2005 phpBB Group
 *
 */
@@ -38,6 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_GROUPS_MANAGE_EXPLAIN'		=> 'Az oldal e részén a csoportokat tudod adminisztrálni. Létrehozhatsz újakat, valamint törölheted és szerkesztheted a már meglévőket. Ezen túl csoportvezetőket jelölhetsz ki, megadhatod, a csoportok státusza nyitott/rejtett/zárt legyen, vagy módosíthatod a csoportok nevét és leírását.',
+	'ADD_GROUP_CATEGORY'			=> 'Add category', //bb31
 	'ADD_USERS'						=> 'Felhasználók felvétele',
 	'ADD_USERS_EXPLAIN'				=> 'Itt fel tudsz venni új felhasználókat a csoportba. Megadhatod azt is, hogy a felhasználóknak ez legyen az új elsődleges csoportjuk. Továbbá csoportvezetőkké is teheted őket. Kérjük, minden felhasználónevet külön sorba írj.',
 
@@ -52,11 +53,14 @@ $lang = array_merge($lang, array(
 	'GROUP_APPROVED'				=> 'Jóváhagyott tagok',
 	'GROUP_AVATAR'					=> 'Csoport avatar',
 	'GROUP_AVATAR_EXPLAIN'			=> 'Ez a kép kerül megjelenítésre a csoport vezérlőpultban.',
+	'GROUP_CATEGORY_NAME'			=> 'Category name', //bb31
 	'GROUP_CLOSED'					=> 'Zárt',
 	'GROUP_COLOR'					=> 'Csoportszín',
 	'GROUP_COLOR_EXPLAIN'			=> 'Ebben a színben fog megjelenni a tagok felhasználóneve, az alapértelmezett felhasználói érték használatához hagyd üresen.',
-	'GROUP_CONFIRM_ADD_USER'		=> 'Biztosan fel akarod venni a %1$s felhasználót a csoportba?',
-	'GROUP_CONFIRM_ADD_USERS'		=> 'Biztosan fel akarod venni a %1$s felhasználókat a csoportba?',
+	'GROUP_CONFIRM_ADD_USERS'		=> array(
+		1	=> 'Biztosan fel akarod venni a %2$s felhasználót a csoportba?',
+		2	=> 'Biztosan fel akarod venni a %2$s felhasználókat a csoportba?',
+	),
 	'GROUP_CREATED'					=> 'A csoport sikeresen létrehozásra került.',
 	'GROUP_DEFAULT'					=> 'Csoport elsődlegessé tétele a tagnak',
 	'GROUP_DEFS_UPDATED'			=> 'A csoport elsődlegessé tételre került a kiválasztott tagoknak.',
@@ -98,27 +102,48 @@ $lang = array_merge($lang, array(
 	'GROUP_SETTINGS_SAVE'			=> 'Csoportra kiterjedő beállítások',
 	'GROUP_SKIP_AUTH'				=> 'Csoportvezető felmentése a csoport jogosultságok alól', //? felmentés
 	'GROUP_SKIP_AUTH_EXPLAIN'		=> 'Ha be van kapcsolva, a csoportvezetőre nem vonatkoznak a csoportra beállított jogosultságok.',
+	'GROUP_SPECIAL'					=> 'Pre-defined', //bb31
+	'GROUP_TEAMPAGE'				=> 'Display group on teampage', //bb31
 	'GROUP_TYPE'					=> 'Csoport típusa',
 	'GROUP_TYPE_EXPLAIN'			=> 'Ez határozza meg melyik felhasználók láthatják a csoportot vagy csatlakozhatnak hozzá.',
 	'GROUP_UPDATED'					=> 'A csoport beállítások sikeresen frissítésre kerültek.',
-	
+
 	'GROUP_USERS_ADDED'				=> 'Az új felhasználók sikeresen felvételre kerültek a csoportba.',
 	'GROUP_USERS_EXIST'				=> 'A kiválasztott felhasználók már tagok.',
 	'GROUP_USERS_REMOVE'			=> 'A felhasználók eltávolításra kerültek a csoportból, valamint az alapértelmezett dolgok is sikeresen beállításra kerültek.',
+
+	'LEGEND_EXPLAIN'				=> 'These are the groups which are displayed in the group legend:', //bb31
+	'LEGEND_SETTINGS'				=> 'Legend settings', //bb31
+	'LEGEND_SORT_GROUPNAME'			=> 'Sort legend by group name', //bb31
+	'LEGEND_SORT_GROUPNAME_EXPLAIN'	=> 'The order below is ignored when this option is enabled.', //bb31
+
+	'MANAGE_LEGEND'			=> 'Manage group legend', //bb31
+	'MANAGE_TEAMPAGE'		=> 'Manage teampage', //bb31
 
 	'MAKE_DEFAULT_FOR_ALL'	=> 'Elsődleges csoporttá tétel minden tagnak',
 	'MEMBERS'				=> 'Tagok',
 
 	'NO_GROUP'					=> 'Nem adtál meg csoportot.',
+	'NO_GROUPS_ADDED'			=> 'No groups added yet.', //bb31
 	'NO_GROUPS_CREATED'			=> 'Még nem lett létrehozva csoport.',
 	'NO_PERMISSIONS'			=> 'Ne másolja a jogosultságokat',
 	'NO_USERS'					=> 'Nem adtál meg egy felhasználót se.',
 	'NO_USERS_ADDED'			=> 'Nem került felhasználó hozzáadásra a csoporthoz.',
 	'NO_VALID_USERS'			=> 'Nem adtál meg felhasználót, akin elvégezhető lenne ez a művelet.',
 
+	'SELECT_GROUP'				=> 'Select a group', //bb31
 	'SPECIAL_GROUPS'			=> 'Előre meghatározott csoportok', //?!
 	'SPECIAL_GROUPS_EXPLAIN'	=> 'Az előre meghatározott csoportok speciális csoportok, melyeket nem lehet törölni vagy közvetlenül módosítani. Mindazonáltal felhasználókat fel tudsz venni beléjük és néhány alap beállítást is megváltoztathatsz.',
 
+	'TEAMPAGE'					=> 'Teampage', //bb31
+	'TEAMPAGE_DISP_ALL'			=> 'All memberships', //bb31
+	'TEAMPAGE_DISP_DEFAULT'		=> 'User’s default group only', //bb31
+	'TEAMPAGE_DISP_FIRST'		=> 'First membership only', //bb31
+	'TEAMPAGE_EXPLAIN'			=> 'These are the groups which are displayed on the teampage:', //bb31
+	'TEAMPAGE_FORUMS'			=> 'Display moderated forums', //bb31
+	'TEAMPAGE_FORUMS_EXPLAIN'	=> 'If set to yes, moderators will have a list with all of the forums where they have moderator permissions displayed in their row. This can be very database intensive for big boards.', //bb31
+	'TEAMPAGE_MEMBERSHIPS'		=> 'Display user memberships', //bb31
+	'TEAMPAGE_SETTINGS'			=> 'Teampage settings',	//bb31
 	'TOTAL_MEMBERS'				=> 'Tagok',
 
 	'USERS_APPROVED'				=> 'A felhasználók sikeresen jóváhagyásra kerültek',
@@ -129,5 +154,3 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_DEFAULT_EXPLAIN'	=> 'Ha igenre állítod, a felvett felhasználóknak ez lesz beállítva elsődleges csoportnak.',
 	'USER_GROUP_LEADER'				=> 'Beállítás csoportvezetőnek',
 ));
-
-?>

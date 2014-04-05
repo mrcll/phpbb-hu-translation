@@ -6,7 +6,7 @@
 * @package language
 * @version $Id$
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2 
 * Original copyright: (c) 2005 phpBB Group
 *
 */
@@ -59,7 +59,7 @@ $lang = array_merge($lang, array(
 
 	'ACL_NEVER'				=> 'Soha',
 	'ACL_SET'				=> 'Jogosultságok beállítása',
-	'ACL_SET_EXPLAIN'		=> 'A jogosultságok egy egyszerű <samp>IGEN</samp>/<samp>NEM</samp> rendszeren alapszanak. Ha egy jogosultságot <samp>SOHÁ</samp>ra állítasz, az felül fogja írni az összes többi értéket. Ha egy jogosultságnak nem kívánsz értéket adni, állítsd <samp>NEM</samp>re. Ha máshol hozzá lett rendelve egy érték, az lesz használva, ellenkező esetben a <samp>SOHA</samp> értéket veszi föl. A beállított jogosultságok minden (az előtte lévő jelölőnégyzettel) megjelölt elemre átmásolásra kerülnek.', //? egy kicsit jobb magyarázat jó lenne "Permissions are based on a simple <samp>YES</samp>/<samp>NO</samp> system. Setting an option to <samp>NEVER</samp> for a user or usergroup overrides any other value assigned to it. If you do not wish to assign a value for an option for this user or group select <samp>NO</samp>. If values are assigned for this option elsewhere they will be used in preference, else <samp>NEVER</samp> is assumed. All objects marked (with the checkbox in front of them) will copy the permission set you defined." 'A jogosultságok egy egyszerű <samp>IGEN</samp>/<samp>NEM</samp> rendszeren alapszanak. Alapból minden jogosultság a <samp>NEM</samp> értéket veszi fel, ezt lehet módosítani. Ha egy jogosultságot <samp>SOHÁ</samp>ra állítasz, az minden értéket felülír, és véglegesen <samp>NEM</samp> lesz. Ha egy jogosultságot <samp>IGEN</samp>re állítasz, az értelemszerűen igen lesz (kivéve ha előtte <samp>SOHÁ</samp>ra lett állítva).<br />Minden (az előtte lévő jelölőnégyzettel) megjelölt elemre átmásolásra kerülnek a beállított jogosultságok.'
+	'ACL_SET_EXPLAIN'		=> 'A jogosultságok egy egyszerű <strong>IGEN</strong>/<strong>NEM</strong> rendszeren alapszanak. Ha egy jogosultságot <strong>SOHÁ</strong>ra állítasz, az felül fogja írni az összes többi értéket. Ha egy jogosultságnak nem kívánsz értéket adni, állítsd <strong>NEM</strong>re. Ha máshol hozzá lett rendelve egy érték, az lesz használva, ellenkező esetben a <strong>SOHA</strong> értéket veszi föl. A beállított jogosultságok minden (az előtte lévő jelölőnégyzettel) megjelölt elemre átmásolásra kerülnek.', //? egy kicsit jobb magyarázat jó lenne "Permissions are based on a simple <strong>YES</strong>/<strong>NO</strong> system. Setting an option to <strong>NEVER</strong> for a user or usergroup overrides any other value assigned to it. If you do not wish to assign a value for an option for this user or group select <strong>NO</strong>. If values are assigned for this option elsewhere they will be used in preference, else <strong>NEVER</strong> is assumed. All objects marked (with the checkbox in front of them) will copy the permission set you defined." 'A jogosultságok egy egyszerű <strong>IGEN</strong>/<strong>NEM</strong> rendszeren alapszanak. Alapból minden jogosultság a <strong>NEM</strong> értéket veszi fel, ezt lehet módosítani. Ha egy jogosultságot <strong>SOHÁ</strong>ra állítasz, az minden értéket felülír, és véglegesen <strong>NEM</strong> lesz. Ha egy jogosultságot <strong>IGEN</strong>re állítasz, az értelemszerűen igen lesz (kivéve ha előtte <strong>SOHÁ</strong>ra lett állítva).<br />Minden (az előtte lévő jelölőnégyzettel) megjelölt elemre átmásolásra kerülnek a beállított jogosultságok.'
 	'ACL_SETTING'			=> 'Beállítás', //? 'Jogosultság' - nem véletlenül
 
 	'ACL_TYPE_A_'			=> 'Adminisztrátori jogosultságok',
@@ -102,10 +102,10 @@ $lang = array_merge($lang, array(
 	'ADD_USERS'					=> 'Felhasználók hozzáadása',
 	'ADVANCED_PERMISSIONS'		=> 'Részletes jogosultságok', //? haladó?
 	'ALL_GROUPS'				=> 'Összes csoport kiválasztása',
-	'ALL_NEVER'					=> 'Összes <samp>SOHA</samp>',
-	'ALL_NO'					=> 'Összes <samp>NEM</samp>',
+	'ALL_NEVER'					=> 'Összes <strong>SOHA</strong>',
+	'ALL_NO'					=> 'Összes <strong>NEM</strong>',
 	'ALL_USERS'					=> 'Összes felhasználó kiválasztása',
-	'ALL_YES'					=> 'Összes <samp>IGEN</samp>',
+	'ALL_YES'					=> 'Összes <strong>IGEN</strong>',
 	'APPLY_ALL_PERMISSIONS'		=> 'Összes jogosultság alkalmazása', //?
 	'APPLY_PERMISSIONS'			=> 'Jogosultságok alkalmazása',
 	'APPLY_PERMISSIONS_EXPLAIN'	=> 'Az erre az elemre meghatározott jogosultságok és szerepek csak erre és a többi kijelölt elemre kerülnek alkalmazásra.',
@@ -139,7 +139,7 @@ $lang = array_merge($lang, array(
 
 	'NO_AUTH_SETTING_FOUND'		=> 'Nem lett meghatározva jogosultságbeállítás.',
 	'NO_ROLE_ASSIGNED'			=> 'Nincs hozzárendelt szerep…',
-	'NO_ROLE_ASSIGNED_EXPLAIN'	=> 'Azzal, hogy beállítod ezt a szerepet, a jogosultságok nem fognak megváltozni. Ha vissza szeretnéd vonni a jogosultságokat, kattints az „Összes <samp>NEM</samp>” linkre.',
+	'NO_ROLE_ASSIGNED_EXPLAIN'	=> 'Azzal, hogy beállítod ezt a szerepet, a jogosultságok nem fognak megváltozni. Ha vissza szeretnéd vonni a jogosultságokat, kattints az „Összes <strong>NEM</strong>” linkre.',
 	'NO_ROLE_AVAILABLE'			=> 'Nincs elérhető szerep',
 	'NO_ROLE_NAME_SPECIFIED'	=> 'Kérünk, adj a szerepnek egy nevet.',
 	'NO_ROLE_SELECTED'			=> 'A szerep nem található.',
@@ -197,7 +197,7 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_FORUM_POLLS'			=> 'Ugyanaz, mint a normál hozzáférésnél, de készíthet szavazást.',
 	'ROLE_DESCRIPTION_FORUM_READONLY'		=> 'Olvashatja a fórum tartalmát, de nem nyithat témát, illetve nem küldhet hozzászólást.',
 	'ROLE_DESCRIPTION_FORUM_STANDARD'		=> 'Használhatja a fórum legtöbb funkcióját, állományokat is csatolhat, de nem zárhatja le a saját témáit, és nem készíthet szavazást.',
-	'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'		=> 'A speciális újonnan regisztrált felhasználók csoporthoz készült szerep; <samp>SOHA</samp> jogosultságokat tartalmaz, hogy lezárjon néhány funkciót az új felhasználók elől.',
+	'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'		=> 'A speciális újonnan regisztrált felhasználók csoporthoz készült szerep; <strong>SOHA</strong> jogosultságokat tartalmaz, hogy lezárjon néhány funkciót az új felhasználók elől.',
 	'ROLE_DESCRIPTION_MOD_FULL'				=> 'Használhatja az összes moderátori funkciót, beleértve a kitiltást is.',
 	'ROLE_DESCRIPTION_MOD_QUEUE'			=> 'Szerkesztheti a hozzászólásokat, és jóváhagyhatja a moderálandókat, de semmi mást nem csinálhat.',
 	'ROLE_DESCRIPTION_MOD_SIMPLE'			=> 'Csak a témákkal kapcsolatos műveleteket végezhet. Nem adhat figyelmeztetést, és nem hagyhat jóvá hozzászólásokat.',
@@ -207,7 +207,7 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_USER_NOAVATAR'		=> 'Korlátozott funkciókat használhat, és nem állíthat be avatart.',
 	'ROLE_DESCRIPTION_USER_NOPM'			=> 'Korlátozott funkciókat használhat, és nem használhatja a privát üzenetek funkciót.',
 	'ROLE_DESCRIPTION_USER_STANDARD'		=> 'Használhatja a legtöbb, de nem az összes felhasználói funkciót. Például nem változtathatja meg a felhasználónevét, illetve nem hagyhatja figyelmen kívül a flood időközt.',
-	'ROLE_DESCRIPTION_USER_NEW_MEMBER'		=> 'A speciális újonnan regisztrált felhasználók csoporthoz készült szerep; <samp>SOHA</samp> jogosultságokat tartalmaz, hogy lezárjon néhány funkciót az új felhasználók elől.',
+	'ROLE_DESCRIPTION_USER_NEW_MEMBER'		=> 'A speciális újonnan regisztrált felhasználók csoporthoz készült szerep; <strong>SOHA</strong> jogosultságokat tartalmaz, hogy lezárjon néhány funkciót az új felhasználók elől.',
 
 	'ROLE_DESCRIPTION_EXPLAIN'		=> 'Megadhatsz egy rövid magyarázatot, hogy mit csinál a szerep, vagy mire való. Az itt megadott leírás a jogosultság oldalakon is meg fog jelenni.',
 	'ROLE_DESCRIPTION_LONG'			=> 'A szerep leírása túl hosszú, kérjük, tartsd 4000 karakteren belül.',
@@ -228,48 +228,48 @@ $lang = array_merge($lang, array(
 	'SET_USERS_PERMISSIONS'			=> 'Felhasználói jogosultságok beállítása',
 	'SET_USERS_FORUM_PERMISSIONS'	=> 'Felhasználó fórum jogosultságainak beállítása',
 
-	'TRACE_DEFAULT'					=> 'Alapból minden jogosultság <samp>NEM</samp> (nem beállított). Így ezt a jogosultságot más beállítások felülírhatják.',
+	'TRACE_DEFAULT'					=> 'Alapból minden jogosultság <strong>NEM</strong> (nem beállított). Így ezt a jogosultságot más beállítások felülírhatják.',
 	'TRACE_FOR'						=> 'Jogosultság követése',
 	'TRACE_GLOBAL_SETTING'			=> '%s (globális)',
-	'TRACE_GROUP_NEVER_TOTAL_NEVER'	=> 'A csoport jogosultsága <samp>SOHÁ</samp>-ra van állítva, ami az eddigi eredmény, így a régi eredmény kerül megtartásra.',
-	'TRACE_GROUP_NEVER_TOTAL_NEVER_LOCAL'	=> 'A csoport jogosultsága erre a fórumra <samp>SOHÁ</samp>-ra van állítva, ami az eddigi eredmény, így a régi eredmény kerül megtartásra.',
-	'TRACE_GROUP_NEVER_TOTAL_NO'	=> 'A csoport jogosultsága <samp>SOHÁ</samp>-ra van állítva, és ez lesz az új érték, mivel eddig nem volt beállítva (<samp>NEM</samp> volt az érték).',
-	'TRACE_GROUP_NEVER_TOTAL_NO_LOCAL'	=> 'A csoport jogosultsága erre a fórumra <samp>SOHÁ</samp>-ra van állítva, és ez lesz az új érték, mivel eddig nem volt beállítva (<samp>NEM</samp> volt az érték).',
-	'TRACE_GROUP_NEVER_TOTAL_YES'	=> 'A csoport jogosultsága <samp>SOHÁ</samp>-ra van állítva, ami felülírja az eddig <samp>IGEN</samp>-t a <samp>SOHÁ</samp>-val.',
-	'TRACE_GROUP_NEVER_TOTAL_YES_LOCAL'	=> 'A csoport jogosultsága erre a fórumra <samp>SOHÁ</samp>-ra van állítva, ami felülírja az eddig <samp>IGEN</samp>t a <samp>SOHÁ</samp>-val.',
-	'TRACE_GROUP_NO'				=> 'A csoport jogosultsága <samp>NEM</samp>, így megmarad a régi érték.',
-	'TRACE_GROUP_NO_LOCAL'			=> 'A csoport jogosultsága erre a fórumra <samp>NEM</samp>, így megmarad a régi érték.',
-	'TRACE_GROUP_YES_TOTAL_NEVER'	=> 'A csoport jogosultsága <samp>IGEN</samp>-re van állítva, de az eddigi <samp>SOHA</samp> nem írható felül.',
-	'TRACE_GROUP_YES_TOTAL_NEVER_LOCAL'	=> 'A csoport jogosultsága erre a fórumra <samp>IGEN</samp>-re van állítva, de az eddigi <samp>SOHA</samp> nem írható felül.',
-	'TRACE_GROUP_YES_TOTAL_NO'		=> 'A csoport jogosultsága <samp>IGEN</samp>-re van állítva, és ez lesz az új érték, mivel eddig nem volt beállítva (<samp>NEM</samp> volt az érték).',
-	'TRACE_GROUP_YES_TOTAL_NO_LOCAL'	=> 'A csoport jogosultsága erre a fórumra <samp>IGEN</samp>-re van állítva, és ez lesz az új érték, mivel eddig nem volt beállítva (<samp>NEM</samp> volt az érték).',
-	'TRACE_GROUP_YES_TOTAL_YES'		=> 'A csoport jogosultsága <samp>IGEN</samp>-re van állítva, és az eddigi érték is <samp>IGEN</samp>, így az eredmény megtartásra kerül.',
-	'TRACE_GROUP_YES_TOTAL_YES_LOCAL'	=> 'A csoport jogosultsága erre a fórumra <samp>IGEN</samp>re van állítva, és az eddigi érték is <samp>IGEN</samp>, így az eredmény megtartásra kerül.',
+	'TRACE_GROUP_NEVER_TOTAL_NEVER'	=> 'A csoport jogosultsága <strong>SOHÁ</strong>-ra van állítva, ami az eddigi eredmény, így a régi eredmény kerül megtartásra.',
+	'TRACE_GROUP_NEVER_TOTAL_NEVER_LOCAL'	=> 'A csoport jogosultsága erre a fórumra <strong>SOHÁ</strong>-ra van állítva, ami az eddigi eredmény, így a régi eredmény kerül megtartásra.',
+	'TRACE_GROUP_NEVER_TOTAL_NO'	=> 'A csoport jogosultsága <strong>SOHÁ</strong>-ra van állítva, és ez lesz az új érték, mivel eddig nem volt beállítva (<strong>NEM</strong> volt az érték).',
+	'TRACE_GROUP_NEVER_TOTAL_NO_LOCAL'	=> 'A csoport jogosultsága erre a fórumra <strong>SOHÁ</strong>-ra van állítva, és ez lesz az új érték, mivel eddig nem volt beállítva (<strong>NEM</strong> volt az érték).',
+	'TRACE_GROUP_NEVER_TOTAL_YES'	=> 'A csoport jogosultsága <strong>SOHÁ</strong>-ra van állítva, ami felülírja az eddig <strong>IGEN</strong>-t a <strong>SOHÁ</strong>-val.',
+	'TRACE_GROUP_NEVER_TOTAL_YES_LOCAL'	=> 'A csoport jogosultsága erre a fórumra <strong>SOHÁ</strong>-ra van állítva, ami felülírja az eddig <strong>IGEN</strong>t a <strong>SOHÁ</strong>-val.',
+	'TRACE_GROUP_NO'				=> 'A csoport jogosultsága <strong>NEM</strong>, így megmarad a régi érték.',
+	'TRACE_GROUP_NO_LOCAL'			=> 'A csoport jogosultsága erre a fórumra <strong>NEM</strong>, így megmarad a régi érték.',
+	'TRACE_GROUP_YES_TOTAL_NEVER'	=> 'A csoport jogosultsága <strong>IGEN</strong>-re van állítva, de az eddigi <strong>SOHA</strong> nem írható felül.',
+	'TRACE_GROUP_YES_TOTAL_NEVER_LOCAL'	=> 'A csoport jogosultsága erre a fórumra <strong>IGEN</strong>-re van állítva, de az eddigi <strong>SOHA</strong> nem írható felül.',
+	'TRACE_GROUP_YES_TOTAL_NO'		=> 'A csoport jogosultsága <strong>IGEN</strong>-re van állítva, és ez lesz az új érték, mivel eddig nem volt beállítva (<strong>NEM</strong> volt az érték).',
+	'TRACE_GROUP_YES_TOTAL_NO_LOCAL'	=> 'A csoport jogosultsága erre a fórumra <strong>IGEN</strong>-re van állítva, és ez lesz az új érték, mivel eddig nem volt beállítva (<strong>NEM</strong> volt az érték).',
+	'TRACE_GROUP_YES_TOTAL_YES'		=> 'A csoport jogosultsága <strong>IGEN</strong>-re van állítva, és az eddigi érték is <strong>IGEN</strong>, így az eredmény megtartásra kerül.',
+	'TRACE_GROUP_YES_TOTAL_YES_LOCAL'	=> 'A csoport jogosultsága erre a fórumra <strong>IGEN</strong>re van állítva, és az eddigi érték is <strong>IGEN</strong>, így az eredmény megtartásra kerül.',
 	'TRACE_PERMISSION'				=> 'Jogosultság követése – %s',
 	'TRACE_RESULT'					=> 'Követés eredménye',
 	'TRACE_SETTING'					=> 'Beállítás követése',
 
-	'TRACE_USER_GLOBAL_YES_TOTAL_YES'		=> 'A fórumtól független felhasználói jogosultságok kiértékelése <samp>IGEN</samp>, de az eddig érték is <samp>IGEN</samp>, így a régi eredmény kerül megtartásra. %sGlobális jogosultság követése%s', //? kiértékelése (eredménye)
-	'TRACE_USER_GLOBAL_YES_TOTAL_NEVER'		=> 'A fórumtól független felhasználói jogosultságok kiértékelése <samp>IGEN</samp>, ami felülírja a jelenlegi helyi <samp>SOHA</samp> értéket. %sGlobális jogosultság követése%s',
-	'TRACE_USER_GLOBAL_NEVER_TOTAL_KEPT'	=> 'A fórumtól független felhasználói jogosultságok kiértékelése <samp>SOHA</samp>, ami nem befolyásolja a helyi jogosultságot. %sGlobális jogosultság követése%s',
+	'TRACE_USER_GLOBAL_YES_TOTAL_YES'		=> 'A fórumtól független felhasználói jogosultságok kiértékelése <strong>IGEN</strong>, de az eddig érték is <strong>IGEN</strong>, így a régi eredmény kerül megtartásra. %sGlobális jogosultság követése%s', //? kiértékelése (eredménye)
+	'TRACE_USER_GLOBAL_YES_TOTAL_NEVER'		=> 'A fórumtól független felhasználói jogosultságok kiértékelése <strong>IGEN</strong>, ami felülírja a jelenlegi helyi <strong>SOHA</strong> értéket. %sGlobális jogosultság követése%s',
+	'TRACE_USER_GLOBAL_NEVER_TOTAL_KEPT'	=> 'A fórumtól független felhasználói jogosultságok kiértékelése <strong>SOHA</strong>, ami nem befolyásolja a helyi jogosultságot. %sGlobális jogosultság követése%s',
 
-	'TRACE_USER_FOUNDER'					=> 'A felhasználó alapító, így minden adminisztrátori jogosultsága <samp>IGEN</samp>-re van állítva.',
-	'TRACE_USER_KEPT'						=> 'A felhasználó jogosultsága <samp>NEM</samp>, így megmarad a régi érték.',
-	'TRACE_USER_KEPT_LOCAL'					=> 'A felhasználó jogosultsága erre a fórumra <samp>NEM-</samp>, így megmarad a régi érték.',
-	'TRACE_USER_NEVER_TOTAL_NEVER'			=> 'A felhasználó jogosultsága <samp>SOHÁ</samp>-ra van állítva, és az eddigi eredmény is <samp>SOHA</samp>, így semmi sem változik.',
-	'TRACE_USER_NEVER_TOTAL_NEVER_LOCAL'	=> 'A felhasználó jogosultsága erre a fórumra <samp>SOHÁ</samp>-ra van állítva, és az eddigi eredmény is <samp>SOHA</samp>, így semmi sem változik.',
-	'TRACE_USER_NEVER_TOTAL_NO'				=> 'A felhasználó jogosultsága <samp>SOHÁ</samp>-ra van állítva, és ez lesz az új érték, mivel eddig <samp>NEM</samp> volt.',
-	'TRACE_USER_NEVER_TOTAL_NO_LOCAL'		=> 'A felhasználó jogosultsága erre a fórumra <samp>SOHÁ</samp>-ra van állítva, és ez lesz az új érték, mivel eddig <samp>NEM</samp> volt.',
-	'TRACE_USER_NEVER_TOTAL_YES'			=> 'A felhasználó jogosultsága <samp>SOHÁ</samp>-ra van állítva, ami felülírja az előző <samp>IGEN</samp>-t.',
-	'TRACE_USER_NEVER_TOTAL_YES_LOCAL'		=> 'A felhasználó jogosultsága erre a fórumra <samp>SOHÁ</samp>-ra van állítva, ami felülírja az előző <samp>IGEN</samp>-t.',
-	'TRACE_USER_NO_TOTAL_NO'				=> 'A felhasználó jogosultsága <samp>NEM</samp>, és az eddigi érték is <samp>NEM</samp>, így <samp>SOHA</samp> lesz a végső eredmény.', //? to default
-	'TRACE_USER_NO_TOTAL_NO_LOCAL'			=> 'A felhasználó jogosultsága erre a fórumra <samp>NEM</samp>, és az eddigi érték is <samp>NEM</samp>, így <samp>SOHA</samp> lesz a végső eredmény.',
-	'TRACE_USER_YES_TOTAL_NEVER'			=> 'A felhasználó jogosultsága <samp>IGEN</samp>-re van állítva, de az eddigi <samp>SOHA</samp> nem írható felül.',
-	'TRACE_USER_YES_TOTAL_NEVER_LOCAL'		=> 'A felhasználó jogosultsága erre a fórumra <samp>IGEN</samp>-re van állítva, de az eddigi <samp>SOHA</samp> nem írható felül.',
-	'TRACE_USER_YES_TOTAL_NO'				=> 'A felhasználó jogosultsága <samp>IGEN</samp>-re van állítva, és ez lesz az új érték, mivel eddig <samp>NEM</samp> volt.',
-	'TRACE_USER_YES_TOTAL_NO_LOCAL'			=> 'A felhasználó jogosultsága erre a fórumra <samp>IGEN</samp>-re van állítva, és ez lesz az új érték, mivel eddig <samp>NEM</samp> volt.',
-	'TRACE_USER_YES_TOTAL_YES'				=> 'A felhasználó jogosultsága <samp>IGEN</samp>-re van állítva, és az eddigi érték is <samp>IGEN</samp>, így semmi sem változik.',
-	'TRACE_USER_YES_TOTAL_YES_LOCAL'		=> 'A felhasználó jogosultsága erre a fórumra <samp>IGEN</samp>-re van állítva, és az eddigi érték is <samp>IGEN</samp>, így semmi sem változik.',
+	'TRACE_USER_FOUNDER'					=> 'A felhasználó alapító, így minden adminisztrátori jogosultsága <strong>IGEN</strong>-re van állítva.',
+	'TRACE_USER_KEPT'						=> 'A felhasználó jogosultsága <strong>NEM</strong>, így megmarad a régi érték.',
+	'TRACE_USER_KEPT_LOCAL'					=> 'A felhasználó jogosultsága erre a fórumra <strong>NEM-</strong>, így megmarad a régi érték.',
+	'TRACE_USER_NEVER_TOTAL_NEVER'			=> 'A felhasználó jogosultsága <strong>SOHÁ</strong>-ra van állítva, és az eddigi eredmény is <strong>SOHA</strong>, így semmi sem változik.',
+	'TRACE_USER_NEVER_TOTAL_NEVER_LOCAL'	=> 'A felhasználó jogosultsága erre a fórumra <strong>SOHÁ</strong>-ra van állítva, és az eddigi eredmény is <strong>SOHA</strong>, így semmi sem változik.',
+	'TRACE_USER_NEVER_TOTAL_NO'				=> 'A felhasználó jogosultsága <strong>SOHÁ</strong>-ra van állítva, és ez lesz az új érték, mivel eddig <strong>NEM</strong> volt.',
+	'TRACE_USER_NEVER_TOTAL_NO_LOCAL'		=> 'A felhasználó jogosultsága erre a fórumra <strong>SOHÁ</strong>-ra van állítva, és ez lesz az új érték, mivel eddig <strong>NEM</strong> volt.',
+	'TRACE_USER_NEVER_TOTAL_YES'			=> 'A felhasználó jogosultsága <strong>SOHÁ</strong>-ra van állítva, ami felülírja az előző <strong>IGEN</strong>-t.',
+	'TRACE_USER_NEVER_TOTAL_YES_LOCAL'		=> 'A felhasználó jogosultsága erre a fórumra <strong>SOHÁ</strong>-ra van állítva, ami felülírja az előző <strong>IGEN</strong>-t.',
+	'TRACE_USER_NO_TOTAL_NO'				=> 'A felhasználó jogosultsága <strong>NEM</strong>, és az eddigi érték is <strong>NEM</strong>, így <strong>SOHA</strong> lesz a végső eredmény.', //? to default
+	'TRACE_USER_NO_TOTAL_NO_LOCAL'			=> 'A felhasználó jogosultsága erre a fórumra <strong>NEM</strong>, és az eddigi érték is <strong>NEM</strong>, így <strong>SOHA</strong> lesz a végső eredmény.',
+	'TRACE_USER_YES_TOTAL_NEVER'			=> 'A felhasználó jogosultsága <strong>IGEN</strong>-re van állítva, de az eddigi <strong>SOHA</strong> nem írható felül.',
+	'TRACE_USER_YES_TOTAL_NEVER_LOCAL'		=> 'A felhasználó jogosultsága erre a fórumra <strong>IGEN</strong>-re van állítva, de az eddigi <strong>SOHA</strong> nem írható felül.',
+	'TRACE_USER_YES_TOTAL_NO'				=> 'A felhasználó jogosultsága <strong>IGEN</strong>-re van állítva, és ez lesz az új érték, mivel eddig <strong>NEM</strong> volt.',
+	'TRACE_USER_YES_TOTAL_NO_LOCAL'			=> 'A felhasználó jogosultsága erre a fórumra <strong>IGEN</strong>-re van állítva, és ez lesz az új érték, mivel eddig <strong>NEM</strong> volt.',
+	'TRACE_USER_YES_TOTAL_YES'				=> 'A felhasználó jogosultsága <strong>IGEN</strong>-re van állítva, és az eddigi érték is <strong>IGEN</strong>, így semmi sem változik.',
+	'TRACE_USER_YES_TOTAL_YES_LOCAL'		=> 'A felhasználó jogosultsága erre a fórumra <strong>IGEN</strong>-re van állítva, és az eddigi érték is <strong>IGEN</strong>, így semmi sem változik.',
 	'TRACE_WHO'								=> 'Alany', //? "Who"
 	'TRACE_TOTAL'							=> 'Eredmény', //? "Total" 'Összeg'
 
@@ -286,5 +286,3 @@ $lang = array_merge($lang, array(
 	'WRONG_PERMISSION_SETTING_FORMAT'	=> 'A jogosultságbeállítások rossz formátumban vannak, a phpBB nem tudja őket rendesen feldolgozni.',
 
 ));
-
-?>

@@ -6,7 +6,7 @@
 * @package language
 * @version $Id$
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2 
 * Original copyright: (c) 2005 phpBB Group
 *
 */
@@ -41,6 +41,7 @@ $lang = array_merge($lang, array(
 	'ADDED_PROFILE_FIELD'	=> 'Az egyedi profil mező sikeresen létrehozásra került.',
 	'ALPHA_ONLY'			=> 'Csak alfanumerikus',
 	'ALPHA_SPACERS'			=> 'Alfanumerikus és térköz',
+	'ALPHA_UNDERSCORE'		=> 'Alphanumeric and underscores', //bb31
 	'ALWAYS_TODAY'			=> 'Mindig a jelenlegi dátum',
 
 	'BOOL_ENTRIES_EXPLAIN'	=> 'Itt add meg a választási lehetőségeket.',
@@ -67,6 +68,10 @@ $lang = array_merge($lang, array(
 	'DISPLAY_AT_PROFILE_EXPLAIN'	=> 'A felhasználó a profil mező értékét a felhasználói vezérlőpultban módosíthatja.',
 	'DISPLAY_AT_REGISTER'			=> 'Megjelenítés regisztrációkor',
 	'DISPLAY_AT_REGISTER_EXPLAIN'	=> 'Ha ez be van állítva, a mező megjelenítésre kerül a regisztrációkor.',
+	'DISPLAY_ON_MEMBERLIST'			=> 'Display on memberlist screen', //bb31
+	'DISPLAY_ON_MEMBERLIST_EXPLAIN'	=> 'If this option is enabled, the field will be displayed in the user rows on the memberlist screen.', //bb31
+	'DISPLAY_ON_PM'					=> 'Display on view pm screen', //bb31
+	'DISPLAY_ON_PM_EXPLAIN'			=> 'If this option is enabled, the field will be displayed in the mini-profile on the pm screen.', //bb31
 	'DISPLAY_ON_VT'					=> 'Megjelenítés a témákban',
 	'DISPLAY_ON_VT_EXPLAIN'			=> 'Ha ez be van állítva, a mező megjelenítésre kerül a témákban, a hozzászólások melletti mini profilban.',
 	'DISPLAY_PROFILE_FIELD'			=> 'Profil mező nyilvános megjelenítése',
@@ -80,6 +85,8 @@ $lang = array_merge($lang, array(
 	'EVERYTHING_OK'					=> 'Minden rendben',
 
 	'FIELD_BOOL'				=> 'Logikai (igen/nem)',
+	'FIELD_CONTACT_DESC'		=> 'Contact description', //bb31
+	'FIELD_CONTACT_URL'			=> 'Contact link', //bb31
 	'FIELD_DATE'				=> 'Dátum',
 	'FIELD_DESCRIPTION'			=> 'Mező leírása',
 	'FIELD_DESCRIPTION_EXPLAIN'	=> 'A felhasználónak megjelenő leírás a mezőről.',
@@ -88,12 +95,15 @@ $lang = array_merge($lang, array(
 	'FIELD_IDENT_ALREADY_EXIST'	=> 'A kiválasztott mezőazonosító már létezik. Kérünk, válassz másikat.',
 	'FIELD_IDENT_EXPLAIN'		=> 'A mezőazonosító a profil mező azonosítására való az adatbázisban és a sablonokban.',
 	'FIELD_INT'					=> 'Szám',
+	'FIELD_IS_CONTACT'			=> 'Display field as a contact field', //bb31
+	'FIELD_IS_CONTACT_EXPLAIN'	=> 'Contact fields are displayed with in the contact section of the user profile and are displayed differently in the mini profile next to posts and private messages.', //bb31
 	'FIELD_LENGTH'				=> 'Űrlap mező hossza',
 	'FIELD_NOT_FOUND'			=> 'A profil mező nem található.',
 	'FIELD_STRING'				=> 'Sima szövegmező', //?
 	'FIELD_TEXT'				=> 'Szövegdoboz',
 	'FIELD_TYPE'				=> 'Mező típusa',
 	'FIELD_TYPE_EXPLAIN'		=> 'A mező típusát később nem tudod megváltoztatni.',
+	'FIELD_URL'					=> 'URL (Link)', //bb31
 	'FIELD_VALIDATION'			=> 'Érvényesítés feltétel',
 	'FIRST_OPTION'				=> 'Első lehetőség',
 
@@ -155,5 +165,3 @@ $lang = array_merge($lang, array(
 
 	'VISIBILITY_OPTION'				=> 'Láthatóság',
 ));
-
-?>

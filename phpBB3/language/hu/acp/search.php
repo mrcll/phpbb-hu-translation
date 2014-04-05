@@ -1,12 +1,12 @@
 <?php
-/** 
+/**
 *
 * acp_search [Hungarian]
 *
 * @package language
 * @version $Id$
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 * Original copyright: (c) 2005 phpBB Group
 *
 */
@@ -53,15 +53,39 @@ $lang = array_merge($lang, array(
 	'DELETING_INDEX_IN_PROGRESS'			=> 'Index törlése folyamatban',
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'A keresőmodul jelenleg megtisztítja az indexét. Ez eltarthat néhány percig.',
 
-	'FULLTEXT_MYSQL_INCOMPATIBLE_VERSION'	=> 'A MySQL fulltext modul csak MySQL4-gyel vagy újabbal használható.',
+	'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE'	=> 'A MySQL fulltext modul csak MySQL4-gyel vagy újabbal használható.',
 	'FULLTEXT_MYSQL_NOT_SUPPORTED'				=> 'A MySQL fulltext index csak MyISAM vagy InnoDB táblákkal használható. InnoDB típusú táblák használata esetén legalább 5.6.4-es verziószámú MySQL szükséges.',
 	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> 'Indexelt hozzászólások száma',
-	'FULLTEXT_MYSQL_MBSTRING'				=> 'Nem latin UTF-8 karakterek támogatása mbstring-gel:', //?
-	'FULLTEXT_MYSQL_PCRE'					=> 'Nem latin UTF-8 karakterek támogatása PCRE-vel:',
-	'FULLTEXT_MYSQL_MBSTRING_EXPLAIN'		=> 'Ha a PCRE nem rendelkezik az unicode karakter tulajdonságokkal, a keresőmodul az mbstring reguláriskifejezés-motorját fogja meg próbálni használni.', //? "unicode character properties"
-	'FULLTEXT_MYSQL_PCRE_EXPLAIN'			=> 'Ennek a keresőmodulnak a nem latin karakterekre való kereséshez szüksége van rá, hogy a PCRE rendelkezzen az unicode karakter tulajdonságokkal, mely csak a PHP 4.4-ben, ill. 5.1-ben és az újabb verziókban érhető el.',
 	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'	=> 'Legalább ennyi karakterből álló szavak kerülnek indexelésre. Ez a beállítás csak a MySQL konfigurációban történő változtatással módosítható, amit lehet, hogy csak a szolgáltatód tud megtenni.',
 	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'	=> 'Legfeljebb ennyi karakterből álló szavak kerülnek indexelésre. Ez a beállítás csak a MySQL konfigurációban történő változtatással módosítható, amit lehet, hogy csak a szolgáltatód tud megtenni.',
+
+	'FULLTEXT_POSTGRES_INCOMPATIBLE_DATABASE'	=> 'The PostgreSQL fulltext backend can only be used with PostgreSQL.', //bb31
+	'FULLTEXT_POSTGRES_TS_NOT_USABLE'	=> 'The PostgreSQL fulltext backend can only be used with PostgreSQL 8.3 and above.', //bb31
+	'FULLTEXT_POSTGRES_TOTAL_POSTS'			=> 'Total number of indexed posts', //bb31
+	'FULLTEXT_POSTGRES_VERSION_CHECK'		=> 'PostgreSQL version', //bb31
+	'FULLTEXT_POSTGRES_TS_NAME'				=> 'Text search Configuration Profile:', //bb31
+	'FULLTEXT_POSTGRES_MIN_WORD_LEN'			=> 'Minimum word length for keywords', //bb31
+	'FULLTEXT_POSTGRES_MAX_WORD_LEN'			=> 'Maximum word length for keywords', //bb31
+	'FULLTEXT_POSTGRES_VERSION_CHECK_EXPLAIN'		=> 'This search backend requires PostgreSQL version 8.3 and above.', //bb31
+	'FULLTEXT_POSTGRES_TS_NAME_EXPLAIN'				=> 'The Text search configuration profile used to determine the parser and dictionary.', //bb31
+	'FULLTEXT_POSTGRES_MIN_WORD_LEN_EXPLAIN'			=> 'Words with at least this many characters will be included in the query to the database.', //bb31
+	'FULLTEXT_POSTGRES_MAX_WORD_LEN_EXPLAIN'			=> 'Words with no more than this many characters will be included in the query to the database.', //bb31
+
+	'FULLTEXT_SPHINX_CONFIGURE'				=> 'Configure the following settings to generate sphinx config file', //bb31
+	'FULLTEXT_SPHINX_DATA_PATH'				=> 'Path to data directory', //bb31
+	'FULLTEXT_SPHINX_DATA_PATH_EXPLAIN'		=> 'It will be used to store the indexes and log files. You should create this directory outside the web accessible directories. (should have a trailing slash)', //bb31
+	'FULLTEXT_SPHINX_DELTA_POSTS'			=> 'Number of posts in frequently updated delta index', //bb31
+	'FULLTEXT_SPHINX_HOST'					=> 'Sphinx search daemon host', //bb31
+	'FULLTEXT_SPHINX_HOST_EXPLAIN'			=> 'Host on which the sphinx search daemon (searchd) listens. Leave empty to use the default localhost', //bb31
+	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT'		=> 'Indexer memory limit', //bb31
+	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT_EXPLAIN'	=> 'This number should at all times be lower than the RAM available on your machine. If you experience periodic performance problems this might be due to the indexer consuming too many resources. It might help to lower the amount of memory available to the indexer.', //bb31
+	'FULLTEXT_SPHINX_MAIN_POSTS'			=> 'Number of posts in main index', //bb31
+	'FULLTEXT_SPHINX_PORT'					=> 'Sphinx search daemon port', //bb31
+	'FULLTEXT_SPHINX_PORT_EXPLAIN'			=> 'Port on which the sphinx search daemon (searchd) listens. Leave empty to use the default Sphinx API port 9312', //bb31
+	'FULLTEXT_SPHINX_WRONG_DATABASE'		=> 'The sphinx search for phpBB supports MySQL and PostgreSQL only.', //bb31
+	'FULLTEXT_SPHINX_CONFIG_FILE'			=> 'Sphinx config file', //bb31
+	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'The generated content of the sphinx config file. This data needs to be pasted into the sphinx.conf which is used by sphinx search daemon.', //bb31
+	'FULLTEXT_SPHINX_NO_CONFIG_DATA'		=> 'The sphinx data and config directory paths are not defined. Please define them to generate the config file.', //bb31
 
 	'GENERAL_SEARCH_SETTINGS'				=> 'Általános kereső beállítások',
 	'GO_TO_SEARCH_INDEX'					=> 'Tovább a keresőindex oldalra',
@@ -86,7 +110,15 @@ $lang = array_merge($lang, array(
 
 	'SEARCH_GUEST_INTERVAL'					=> 'Vendég keresési flood időköz',
 	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'A vendégeknek két keresés között ennyi másodpercet kell várniuk. Ha egy felhasználó végez egy keresést, az összes többinek várnia kell az időköz leteltéig.',
-	'SEARCH_INDEX_CREATE_REDIRECT'			=> 'A %1$d azonosítóig terjedő hozzászólások lettek eddig indexelve, ebből %2$d ebben a lépésben.<br />Az indexelés jelenlegi sebessége körülbelül %3$.1f hozzászólás per másodperc.<br />Indexelés folyamatban…',
+	'SEARCH_INDEX_CREATE_REDIRECT'			=> array(
+		2	=> 'A %1$d azonosítóig terjedő hozzászólások lettek eddig indexelve, ebből %2$d ebben a lépésben.<br />Az indexelés jelenlegi sebessége körülbelül %3$.1f hozzászólás per másodperc.<br />Indexelés folyamatban…',
+	),
+	'SEARCH_INDEX_CREATE_REDIRECT_RATE'		=> array(
+		2	=> 'The current rate of indexing is approximately %1$.1f posts per second.<br />Indexing in progress…', //bb31
+	),
+	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
+		2	=> 'All posts up to post id %2$d have been removed from the search index.<br />Deleting in progress…', //bb31
+	),
 	'SEARCH_INDEX_DELETE_REDIRECT'			=> 'A %1$d azonosítóig terjedő hozzászólások el lettek távolítva a keresőindexből.<br />Törlés',
 	'SEARCH_INDEX_CREATED'					=> 'A fórum adatbázisában lévő összes hozzászólás sikeresen indexelésre került.',
 	'SEARCH_INDEX_REMOVED'					=> 'A modul keresőindexe sikeresen törlésre került.',
@@ -106,5 +138,3 @@ $lang = array_merge($lang, array(
 	'YES_SEARCH_UPDATE'						=> 'Fulltext frissítés bekapcsolása',
 	'YES_SEARCH_UPDATE_EXPLAIN'				=> 'Fulltext indexek frissítése hozzászóláskor, a keresés kikapcsolása felülírja.',
 ));
-
-?>
