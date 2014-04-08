@@ -8,5 +8,4 @@ Az elutasítás indoka a következő:
 
 {REASON}
 
-
 {EMAIL_SIG}

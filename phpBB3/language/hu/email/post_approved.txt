@@ -10,5 +10,4 @@ Amennyiben meg szeretnéd tekinteni a hozzászólást, kattints a következő li
 Amennyiben meg szeretnéd tekinteni a témát, melyhez hozzászóltál, kattints a következő linkre:
 {U_VIEW_TOPIC}
 
-
 {EMAIL_SIG}
