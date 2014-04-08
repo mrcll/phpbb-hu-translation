@@ -7,5 +7,4 @@ Ezt az üzenetet ön azért kapja, mert a "{SITENAME}" oldalon az ön által nyi
 Az elutasítás oka a következő:
 {REASON}
 
-
 {EMAIL_SIG}

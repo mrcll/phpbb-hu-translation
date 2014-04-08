@@ -7,5 +7,4 @@ Ezt az üzenetet azért kapod, mert a "{SITENAME}" oldalon az általad nyitott "
 A témát megtekintheted a következő linkre kattintva:
 {U_VIEW_TOPIC}
 
-
 {EMAIL_SIG}
