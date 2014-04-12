@@ -45,7 +45,7 @@ $help = array(
 	),
 	array(
 		0 => 'Miért kerülök kiléptetésre automatikusan?', //? 'Miért lép ki automatikusan a rendszerből?'
-		1 => 'Ha belépéskor nem jelölöd be az <em>Automatikus bejelentkezés</em> opciót, a rendszer csak egy előre meghatározott ideig hagy belépve. Ez a viselkedés meggátolja az azonosítóddal való visszaélést. A tartós belépve maradáshoz jelöld be az említett opciót. Ezen funkció használata nem ajánlott, ha nyilvános helyről használod a fórumot, például könyvtárból, internetkávézóból vagy egyetemi laborból. Ha nem látod a jelölőnégyzetet, a fórumon valószínűleg nincs bekapcsolva ez a funkció.'
+		1 => 'Ha belépéskor nem jelölöd be az <em>Emlékezzen rám</em> opciót, a rendszer csak egy előre meghatározott ideig hagy belépve. Ez a viselkedés meggátolja az azonosítóddal való visszaélést. A tartós belépve maradáshoz jelöld be az említett opciót. Ezen funkció használata nem ajánlott, ha nyilvános helyről használod a fórumot, például könyvtárból, internetkávézóból vagy egyetemi laborból. Ha nem látod a jelölőnégyzetet, a fórumon valószínűleg nincs bekapcsolva ez a funkció.' //bb31 Remember Me
 	),
 	array(
 		0 => 'Hogyan tudom megakadályozni, hogy mások lássák, mikor vagyok jelen?',
@@ -89,7 +89,7 @@ $help = array(
 	),
 	array(
 		0 => 'Megváltoztattam az időzónát, de még mindig pontatlan az idő!',
-		1 => 'Ha biztos vagy benne, hogy helyes időzónát adtál meg, és a nyári időszámítást is jól állítottad be, de az idő még mindig más, akkor a szerver órája pontatlan. Kérjük, értesíts erről egy adminisztrátort.'
+		1 => 'Ha biztos vagy benne, hogy helyes időzónát adtál meg, de az idő még mindig más, akkor a szerver órája pontatlan. Kérjük, értesíts erről egy adminisztrátort.'
 	),
 	array(
 		0 => 'A használni kívánt nyelv nincs a listában!',
@@ -342,8 +342,6 @@ $help = array(
 	),
 	array(
 		0 => 'Ki az illetékes a fórumon olvasható tartalommal kapcsolatban?',
-		1 => 'Sértő, illetve illegális tartalmak kapcsán az „A csapat” oldalon felsorolt adminisztrátorok közül kell egyet felkeresni. Ha nem kapsz választ, akkor a domain tulajdonosát (ezt kiderítheted egy ún. <a href="http://www.google.hu/search?q=whois&amp;meta=lr%3Dlang_hu">„whois  kereséssel”</a>). Ha a fórum egy ingyenes tárhelyen található, akkor azt a szolgáltatót értesítsd. Kérjük, vedd figyelembe, hogy a phpBB Group-nak semmilyen köze, hozzáférése vagy beleszólása nincs a fórumon olvasható tartalomhoz, ezért nem tehető semmilyen módon felelőssé amiatt, hogy ki mire használja ezt a fórumot.' // ez se "ugyanaz", mint az angol (~jogi szöveg ez is, az is :)
+		1 => 'Sértő, illetve illegális tartalmak kapcsán az „A csapat” oldalon felsorolt adminisztrátorok közül kell egyet felkeresni. Ha nem kapsz választ, akkor a domain tulajdonosát (ezt kiderítheted egy ún. <a href="http://www.google.hu/search?q=whois&amp;meta=lr%3Dlang_hu">„whois  kereséssel”</a>). Ha a fórum egy ingyenes tárhelyen található, akkor azt a szolgáltatót értesítsd. Kérjük, vedd figyelembe, hogy a phpBB Group-nak és a Magyar phpBB Közösségnek semmilyen köze, hozzáférése vagy beleszólása nincs a fórumon olvasható tartalomhoz, ezért nem tehető semmilyen módon felelőssé amiatt, hogy ki mire használja ezt a fórumot.' // ez se "ugyanaz", mint az angol (~jogi szöveg ez is, az is :)
 	)
 );
-
-?>

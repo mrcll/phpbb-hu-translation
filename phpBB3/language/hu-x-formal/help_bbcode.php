@@ -6,7 +6,7 @@
 * @package language
 * @version $Id$
 * @copyright (c) 2009 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 * Original copyright: (c) 2005 phpBB Group
 *
 */
@@ -113,5 +113,3 @@ $help = array(
 		1 => 'Ha ön adminisztrátor a fórumon, és megvan a megfelelő jogosultsága, az adminisztrátori vezérlőpult „Egyéni BBCode”-ok részén tud felvenni saját BBCode-okat.'
 	)
 );
-
-?>

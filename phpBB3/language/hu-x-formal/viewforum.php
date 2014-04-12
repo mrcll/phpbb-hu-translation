@@ -6,7 +6,7 @@
 * @package language
 * @version $Id$
 * @copyright (c) 2009 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 * Original copyright: (c) 2005 phpBB Group
 *
 */
@@ -65,8 +65,8 @@ $lang = array_merge($lang, array(
 	'UNREAD_POSTS_LOCKED'	=> 'Olvasatlan hozzászólások [ lezárt ]',
 
 	'VIEW_FORUM'			=> 'Fórum megtekintése',
-	'VIEW_FORUM_TOPIC'		=> '1 téma',
-	'VIEW_FORUM_TOPICS'		=> '%d téma',
+	'VIEW_FORUM_TOPICS'		=> array(
+		1	=> '%d téma',
+		2	=> '%d téma',
+	),
 ));
-
-?>

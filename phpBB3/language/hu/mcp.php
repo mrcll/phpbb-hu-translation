@@ -54,6 +54,10 @@ $lang = array_merge($lang, array(
 	'APPROVE_POST_CONFIRM'	=> 'Biztosan jóvá akarod hagyni a kiválasztott hozzászólást?',
 	'APPROVE_POSTS'			=> 'Hozzászólások jóváhagyása',
 	'APPROVE_POSTS_CONFIRM'	=> 'Biztosan jóvá akarod hagyni a kiválasztott hozzászólásokat?',
+	'APPROVE_TOPIC'			=> 'Approve topic', //bb31
+	'APPROVE_TOPIC_CONFIRM'	=> 'Are you sure you want to approve this topic?', //bb31
+	'APPROVE_TOPICS'		=> 'Approve topics', //bb31
+	'APPROVE_TOPICS_CONFIRM'=> 'Are you sure you want to approve the selected topics?', //bb31
 
 	'CANNOT_MOVE_SAME_FORUM'=> 'Egy témát nem helyezhetsz át abba a fórumba, amiben jelenleg van.',
 	'CANNOT_WARN_ANONYMOUS'	=> 'Nem tudod figyelmeztetni a nem regisztrált (vendég) felhasználókat.',
@@ -74,16 +78,12 @@ $lang = array_merge($lang, array(
 	'DELETE_PM_REPORTS'			=> 'PÜ jelentések törlése',
 	'DELETE_PM_REPORTS_CONFIRM'	=> 'Biztosan törölni akarod a kiválasztott PÜ jelentéseket?',
 	'DELETE_POSTS'				=> 'Hozzászólások törlése',
-	'DELETE_POSTS_CONFIRM'		=> 'Biztosan törölni akarod ezeket a hozzászólásokat?',
-	'DELETE_POST_CONFIRM'		=> 'Biztosan törölni akarod ezt a hozzászólást?',
 	'DELETE_REPORT'				=> 'Jelentés törlése',
 	'DELETE_REPORT_CONFIRM'		=> 'Biztosan törölni akarod a kiválasztott jelentést?',
 	'DELETE_REPORTS'			=> 'Jelentések törlése',
 	'DELETE_REPORTS_CONFIRM'	=> 'Biztosan törölni akarod a kiválasztott jelentéseket?',
 	'DELETE_SHADOW_TOPIC'		=> 'Árnyék téma törlése',
 	'DELETE_TOPICS'				=> 'Kiválasztott témák törlése',
-	'DELETE_TOPICS_CONFIRM'		=> 'Biztosan törölni akarod ezeket a témákat?',
-	'DELETE_TOPIC_CONFIRM'		=> 'Biztosan törölni akarod ezt a témát?',
 	'DISAPPROVE'				=> 'Elutasítás', //?
 	'DISAPPROVE_REASON'			=> 'Elutasítás oka',
 	'DISAPPROVE_POST'			=> 'Hozzászólás elutasítása',
@@ -121,8 +121,10 @@ $lang = array_merge($lang, array(
 	'LATEST_WARNING_TIME'		=> 'Legutóbbi figyelmeztetések',
 	'LATEST_WARNINGS'			=> 'Legutóbbi 5 figyelmeztetés',
 	'LEAVE_SHADOW'				=> 'Árnyék téma hagyása a régi fórumban',
-	'LIST_REPORT'				=> '1 jelentés',
-	'LIST_REPORTS'				=> '%d jelentés',
+	'LIST_REPORTS'				=> array(
+		1	=> '%d jelentés',
+		2	=> '%d jelentés',
+	),
 	'LOCK'						=> 'Lezárás',
 	'LOCK_POST_POST'			=> 'Hozzászólás lezárása',
 	'LOCK_POST_POST_CONFIRM'	=> 'Biztosan azt akarod, hogy ne lehessen szerkeszteni ezt a hozzászólást?',
@@ -201,6 +203,10 @@ $lang = array_merge($lang, array(
 	'MCP_QUEUE_UNAPPROVED_POSTS_EXPLAIN'	=> 'Ez a lista azokat a hozzászólásokat tartalmazza, melyek egyelőre nem láthatók a felhasználók számára, mivel még nem kerültek jóváhagyásra.', //?
 	'MCP_QUEUE_UNAPPROVED_TOPICS'			=> 'Jóváhagyásra váró témák',
 	'MCP_QUEUE_UNAPPROVED_TOPICS_EXPLAIN'	=> 'Ez a lista azokat a témákat tartalmazza, melyek egyelőre nem láthatók a felhasználók számára, mivel még nem kerültek jóváhagyásra.',
+	'MCP_QUEUE_DELETED_POSTS'				=> 'Deleted posts', //bb31
+	'MCP_QUEUE_DELETED_POSTS_EXPLAIN'		=> 'This is a list of all soft deleted posts. You can restore or permanently delete the posts from this screen.', //bb31
+	'MCP_QUEUE_DELETED_TOPICS'				=> 'Deleted topics', //bb31
+	'MCP_QUEUE_DELETED_TOPICS_EXPLAIN'		=> 'This is a list of all soft deleted topics. You can restore or permanently delete the topics from this screen.', //bb31
 
 	'MCP_VIEW_USER'			=> 'Meghatározott felhasználó figyelmeztetéseinek megtekintése', //? "View warnings for a specific user" - használják egyáltalán?
 
@@ -238,25 +244,32 @@ $lang = array_merge($lang, array(
 	'NO_POST'						=> 'Ki kell választanod egy hozzászólást, hogy figyelmeztethesd a felhasználót egy hozzászólásáért.', //? Furán hangzik, de nagyjából erről van szó... :)
 	'NO_POST_REPORT'				=> 'Ezt a hozzászólást nem jelentették.',
 	'NO_POST_SELECTED'				=> 'Legalább egy hozzászólást ki kell választanod, hogy elvégezhesd ezt a műveletet.', //? végrehajthasd?
+	'NO_POSTS_DELETED'				=> 'There are no deleted posts.', //bb31
+	'NO_POSTS_QUEUE'				=> 'There are no posts waiting for approval.', //bb31
 	'NO_REASON_DISAPPROVAL'			=> 'Kérünk, adj meg egy megfelelő okot az elutasításra.', //?? appropriate??
 	'NO_REPORT'						=> 'Nincs ilyen jelentés.', //? erre használják?
 	'NO_REPORTS'					=> 'Nincs ilyen jelentés.',
 	'NO_REPORT_SELECTED'			=> 'Legalább egy jelentést ki kell választanod, hogy végrehajthasd ezt a műveletet.',
 	'NO_TOPIC_ICON'					=> 'nincs', //? nagybetű?
 	'NO_TOPIC_SELECTED'				=> 'Legalább egy témát ki kell választanod, hogy elvégezhesd ezt a műveletet.', //? végrehajthasd?
+	'NO_TOPICS_DELETED'				=> 'There are no deleted topics.', //bb31
 	'NO_TOPICS_QUEUE'				=> 'Nincs jóváhagyásra váró téma.',
 
 	'ONLY_TOPIC'			=> 'Csak a „%s” téma', //? témából stb.? (Moderálandóknál)
 	'OTHER_USERS'			=> 'Más erről az IP-ről hozzászóló felhasználók',
+	
+	'QUICKMOD_ACTION_NOT_ALLOWED' => "%s not allowed as quickmod", //bb31
 
 	'PM_REPORT_CLOSED_SUCCESS'	=> 'A kiválasztott PÜ jelentés sikeresen lezárásra került.',
 	'PM_REPORT_DELETED_SUCCESS'	=> 'A kiválasztott PÜ jelentés sikeresen törlésre került.',
 	'PM_REPORTED_SUCCESS'		=> 'A privát üzenet sikeresen jelentésre került.',
-	'PM_REPORT_TOTAL'			=> 'Összesen <strong>1</strong> áttekintésre váró PÜ jelentés van.',
 	'PM_REPORTS_CLOSED_SUCCESS'	=> 'A kiválasztott PÜ jelentések sikeresen lezárásra kerültek.',
 	'PM_REPORTS_DELETED_SUCCESS'=> 'A kiválasztott PÜ jelentések sikeresen törlésre kerültek.',
-	'PM_REPORTS_TOTAL'			=> 'Összesen <strong>%d</strong> áttekintésre váró PÜ jelentés van.',
-	'PM_REPORTS_ZERO_TOTAL'		=> 'Nincs áttekintésre váró PÜ jelentés.',
+	'PM_REPORTS_TOTAL'			=> array(
+		0	=> 'There are no PM reports to review.', //bb31
+		1	=> 'Összesen <strong>1</strong> áttekintésre váró PÜ jelentés van.',
+		2	=> 'In total there are <strong>%d</strong> PM reports to review.', //bb31
+	),
 	'PM_REPORT_DETAILS'			=> 'Privát üzenet jelentés részletek',
 
 	'POSTER'					=> 'Küldő',
@@ -265,15 +278,17 @@ $lang = array_merge($lang, array(
 	'POSTS_DISAPPROVED_SUCCESS'	=> 'A kiválasztott hozzászólások elutasításra kerültek.',
 	'POSTS_LOCKED_SUCCESS'		=> 'A kiválasztott hozzászólások sikeresen lezárásra kerültek.',
 	'POSTS_MERGED_SUCCESS'		=> 'A kiválasztott hozzászólások áthelyezésre kerültek.',
-	'POSTS_UNLOCKED_SUCCESS'	=> 'A kiválasztott lezárt hozzászólások sikeresen megnyitásra kerültek.', //? lezárás feloldása vagy megnyitás? eredetileg nincs lezárt
 	'POSTS_PER_PAGE'			=> 'Hozzászólások oldalanként',
 	'POSTS_PER_PAGE_EXPLAIN'	=> 'Állítsd 0-ra az összes megjelenítéséhez.', //? "(Set to 0 to view all posts)" - forma?
+	'POSTS_RESTORED_SUCCESS'	=> 'The selected posts have been restored successfully.', //bb31
+	'POSTS_UNLOCKED_SUCCESS'	=> 'The selected posts have been unlocked successfully.', //bb31
 	'POST_APPROVED_SUCCESS'		=> 'A kiválasztott hozzászólás jóváhagyásra került.',
 	'POST_DELETED_SUCCESS'		=> 'A kiválasztott hozzászólás sikeresen eltávolításra került az adatbázisból.',
 	'POST_DISAPPROVED_SUCCESS'	=> 'A kiválasztott hozzászólás elutasításra került.',
 	'POST_LOCKED_SUCCESS'		=> 'A hozzászólás sikeresen lezárásra került.',
 	'POST_NOT_EXIST'			=> 'A kért hozzászólás nem létezik.', //? kért?? (requested)
 	'POST_REPORTED_SUCCESS'		=> 'A hozzászólás sikeresen jelentésre került.',
+	'POST_RESTORED_SUCCESS'		=> 'This post has been restored successfully.', //bb31
 	'POST_UNLOCKED_SUCCESS'		=> 'A lezárt hozzászólás sikeresen megnyitásra került.',
 
 	'READ_USERNOTES'			=> 'Felhasználói feljegyzések', //? nem is használják? (lehetne rövidíteni, módosítani)
@@ -284,8 +299,11 @@ $lang = array_merge($lang, array(
 	'REPORTED_ON_DATE'			=> 'Dátum:', //? hasonló ez a szerkezet a hozzászólásokhoz (proSilver) - kéne egy jó ötlet, hogy magyarul is ugyanolyan formában legyen, mint angolul (Reported by xyz on Today)
 	'REPORTS_CLOSED_SUCCESS'	=> 'A kiválasztott jelentések sikeresen lezárásra kerültek.',
 	'REPORTS_DELETED_SUCCESS'	=> 'A kiválasztott jelentések sikeresen törlésre kerültek.',
-	'REPORTS_TOTAL'				=> 'Összesen <strong>%d</strong> áttekintésre váró jelentés van.', //? "In total there are <strong>%d</strong> reports to review" áttekintendő? áttekintésre váró?  át_néz_endő? ---- az átnéz szó használata sokkal jobb lenne, nem?
-	'REPORTS_ZERO_TOTAL'		=> 'Nincs áttekintésre váró jelentés.', //? ua. feljebb
+	'REPORTS_TOTAL'				=> array(
+		0	=> 'Nincs áttekintésre váró jelentés.',
+		1	=> 'Összesen <strong>%d</strong> áttekintésre váró jelentés van.',
+		2	=> 'Összesen <strong>%d</strong> áttekintésre váró jelentés van.',
+	),
 	'REPORT_CLOSED'				=> 'A jelentés már lezárásra került.',
 	'REPORT_CLOSED_SUCCESS'		=> 'A kiválasztott jelentés sikeresen lezárásra került.',
 	'REPORT_DELETED_SUCCESS'	=> 'A kiválasztott jelentés sikeresen törlésre került.',
@@ -297,7 +315,15 @@ $lang = array_merge($lang, array(
 	'REPORT_POST_EXPLAIN'		=> 'Ennek az űrlapnak a segítségével a kiválasztott hozzászólást jelentheted a fórum adminisztrátorainak. A jelentés csak arra az esetre való, ha a hozzászólás megszegi a fórum szabályait.',
 	'REPORT_REASON'				=> 'Jelentés oka',
 	'REPORT_TIME'				=> 'Jelentés ideje',
-	'REPORT_TOTAL'				=> 'Összesen <strong>1</strong> áttekintésre váró jelentés van.',
+	'RESTORE'					=> 'Restore', //bb31
+	'RESTORE_POST'				=> 'Restore post', //bb31
+	'RESTORE_POST_CONFIRM'		=> 'Are you sure you want to restore this post?', //bb31
+	'RESTORE_POSTS'				=> 'Restore posts', //bb31
+	'RESTORE_POSTS_CONFIRM'		=> 'Are you sure you want to restore the selected posts?', //bb31
+	'RESTORE_TOPIC'				=> 'Restore topic', //bb31
+	'RESTORE_TOPIC_CONFIRM'		=> 'Are you sure you want to restore this topic?', //bb31
+	'RESTORE_TOPICS'			=> 'Restore topics', //bb31
+	'RESTORE_TOPICS_CONFIRM'	=> 'Are you sure you want to restore the selected topics?', //bb31
 	'RESYNC'					=> 'Szinkronizálás', //?
 	'RETURN_MESSAGE'			=> '%sVissza az üzenethez%s',
 	'RETURN_NEW_FORUM'			=> '%sTovább az új fórumhoz%s',
@@ -338,6 +364,7 @@ $lang = array_merge($lang, array(
 	'TOPICS_FORKED_SUCCESS'		=> 'A kiválasztott témák sikeresen meg lettek kettőzve.', //? a kerültek itt nagyon nem hangzik jól... nem?
 	'TOPICS_LOCKED_SUCCESS'		=> 'A kiválasztott témák lezárásra kerültek.',
 	'TOPICS_MOVED_SUCCESS'		=> 'A kiválasztott témák sikeresen áthelyezésre kerültek.',
+	'TOPICS_RESTORED_SUCCESS'	=> 'The selected topics have been restored successfully.', //bb31
 	'TOPICS_RESYNC_SUCCESS'		=> 'A kiválasztott témák sikeresen szinkronizálásra kerültek.',
 	'TOPICS_TYPE_CHANGED'		=> 'A téma típusok sikeresen megváltoztatásra kerültek.',
 	'TOPICS_UNLOCKED_SUCCESS'	=> 'A kiválasztott témák sikeresen megnyitásra kerültek.',
@@ -348,6 +375,7 @@ $lang = array_merge($lang, array(
 	'TOPIC_LOCKED_SUCCESS'		=> 'A kiválasztott téma lezárásra került.',
 	'TOPIC_MOVED_SUCCESS'		=> 'A kiválasztott téma sikeresen áthelyezésre került.',
 	'TOPIC_NOT_EXIST'			=> 'A kiválasztott téma nem létezik.',
+	'TOPIC_RESTORED_SUCCESS'	=> 'The selected topic has been restored successfully.', //bb31
 	'TOPIC_RESYNC_SUCCESS'		=> 'A kiválasztott téma szinkronizálásra került.',
 	'TOPIC_SPLIT_SUCCESS'		=> 'A kiválasztott téma sikeresen szétválasztásra került.',
 	'TOPIC_TIME'				=> 'Témanyitás ideje', //? Eredetileg post time és topic time van, nálunk a post time-ból elküldés ideje lett, így kicsit félreérthető - az elküldés idejét meg kell változtani hozzászólás idejére?
@@ -355,9 +383,11 @@ $lang = array_merge($lang, array(
 	'TOPIC_UNLOCKED_SUCCESS'	=> 'A kiválasztott téma megnyitásra került.',
 	'TOTAL_WARNINGS'			=> 'Figyelmeztetések száma',
 
-	'UNAPPROVED_POSTS_TOTAL'		=> 'Összesen <strong>%d</strong> jóváhagyásra váró hozzáászólás van.', //? kell az összesen?
-	'UNAPPROVED_POSTS_ZERO_TOTAL'	=> 'Nincs jóváhagyásra váró hozzászólás.',
-	'UNAPPROVED_POST_TOTAL'			=> 'Összesen <strong>1</strong> jóváhagyásra váró hozzászólás van.',
+	'UNAPPROVED_POSTS_TOTAL'		=> array(
+		0	=> 'Nincs jóváhagyásra váró hozzászólás.',
+		1	=> 'Összesen <strong>1</strong> jóváhagyásra váró hozzászólás van.',
+		2	=> 'Összesen <strong>%d</strong> jóváhagyásra váró hozzáászólás van.',
+	),
 	'UNLOCK'						=> 'Megnyitás',
 	'UNLOCK_POST'					=> 'Hozzászólás megnyitása',
 	'UNLOCK_POST_EXPLAIN'			=> 'Szerkesztés engedélyezése', //? kicsivel kéne, de míg így se passzol ahhoz a hosszú szöveghez, ami nyitott állapotban ott van
@@ -383,7 +413,7 @@ $lang = array_merge($lang, array(
 	'WARNING_PM_BODY'		=> 'A következő figyelmeztetésben részesültél egy adminisztrátor vagy egy moderátor által:[quote]%s[/quote]', //? "The following is a warning which has been issued to you by an administrator or moderator of this site.[quote]%s[/quote]" hagyjuk a passzívot, legyen egyszerű?
 	'WARNING_PM_SUBJECT'	=> 'Figyelmeztetés',
 	'WARNING_POST_DEFAULT'	=> 'A következő hozzászólásod miatt figyelmeztetésben részesültél: %s .', //? figyelmeztetésben részesültél vagy figyelmeztettek?
-	'WARNINGS_ZERO_TOTAL'	=> 'Nincs figyelmeztetés.',
+	'NO_WARNINGS'	=> 'Nincs figyelmeztetés.', // Igen, ennek itt kell lennie
 
 	'YOU_SELECTED_TOPIC'	=> 'A %d. számú témát választottad ki: %s', //? fogalmazás...
 
@@ -402,5 +432,3 @@ $lang = array_merge($lang, array(
 		)
 	),
 ));
-
-?>

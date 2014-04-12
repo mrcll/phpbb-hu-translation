@@ -73,16 +73,10 @@ $lang = array_merge($lang, array(
 	'HIDE_MEMBER_SEARCH'	=> 'Felhasználó keresésének elrejtése', //?
 
 	'IM_ADD_CONTACT'		=> 'Felvétel a kapcsolatok közé', //??
-	'IM_AIM'				=> 'Kérjük, vegye figyelembe, hogy ennek használatához szükséged van az AOL Instant Messenger programra.', //?
-	'IM_AIM_EXPRESS'		=> 'AIM Express',
 	'IM_DOWNLOAD_APP'		=> 'Alkalmazás letöltése',
-	'IM_ICQ'				=> 'Kérjük, vegye figyelembe, hogy a felhasználók lehet, hogy beállították, hogy ne kapjanak kéretlen üzeneteket.', //? hogy...
 	'IM_JABBER'				=> 'Kérjük, vegye figyelembe, hogy a felhasználók lehet, hogy beállították, hogy ne kapjanak kéretlen üzeneteket.',
 	'IM_JABBER_SUBJECT'		=> 'Ez egy automatikus üzenet, kérjük, ne válaszoljon! Üzenet %1$s felhasználótól %2$s-kor.',
 	'IM_MESSAGE'			=> 'Az üzenete',
-	'IM_MSNM'				=> 'Kérjük, vegye figyelembe, hogy ennek használatához szüksége van a Windows Messenger programra.', //?
-	'IM_MSNM_BROWSER'		=> 'Sajnos a böngészője nem támogatja ezt.',
-	'IM_MSNM_CONNECT'		=> 'Az MSNM nem csatlakozott.\nA folytatáshoz kapcsolódnia kell az MSNM-hez.', //???
 	'IM_NAME'				=> 'Neve',
  	'IM_NO_DATA'			=> 'Nincs megfelelő kapcsolat információ ehhez a felhasználóhoz.', //?
 	'IM_NO_JABBER'			=> 'Sajnos ezen a fórumon nem támogatott a direkt üzenetküldés Jabberes felhasználóknak. A címzettel való kapcsolatba lépéshez szüksége lesz egy Jabber kliensre.', //?
@@ -94,9 +88,11 @@ $lang = array_merge($lang, array(
 
 	'LAST_ACTIVE'				=> 'Utoljára aktív',
 	'LESS_THAN'					=> 'Kevesebb mint',
-	'LIST_USER'					=> '1 felhasználó',
-	'LIST_USERS'				=> '%d felhasználó',
-	'LOGIN_EXPLAIN_LEADERS'		=> 'A csapat megtekintéséhez be kell jelentkeznie.',
+	'LIST_USERS'				=> array(
+		1	=> '%d felhasználó',
+		2	=> '%d felhasználó',
+	),
+	'LOGIN_EXPLAIN_TEAM'		=> 'A csapat megtekintéséhez be kell jelentkeznie.',
 	'LOGIN_EXPLAIN_MEMBERLIST'	=> 'A taglista megtekintéséhez be kell jelentkeznie.',
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'Felhasználók kereséséhez be kell jelentkeznie.',
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'Egy felhasználó profiljának megtekintéséhez be kell jelentkeznie.',
@@ -118,12 +114,10 @@ $lang = array_merge($lang, array(
 
 	'SELECT_MARKED'			=> 'Kijelöltek kiválasztása',
 	'SELECT_SORT_METHOD'	=> 'Rendezés',
-	'SEND_AIM_MESSAGE'		=> 'AIM üzenet küldése',
 	'SEND_ICQ_MESSAGE'		=> 'ICQ üzenet küldése',
 	'SEND_IM'				=> 'Azonnali üzenetküldés', //?
 	'SEND_JABBER_MESSAGE'	=> 'Jabber üzenet küldése',
 	'SEND_MESSAGE'			=> 'Üzenet küldése',
-	'SEND_MSNM_MESSAGE'		=> 'MSNM/WLM üzenet küldése',
 	'SEND_YIM_MESSAGE'		=> 'YIM üzenet küldése',
 	'SORT_EMAIL'			=> 'E-mail',
 	'SORT_LAST_ACTIVE'		=> 'Utolsó aktivitás időpontja', //?
@@ -136,14 +130,11 @@ $lang = array_merge($lang, array(
 	'USER_LAST_REMINDED'	=> array(
 		0		=> 'Még nem lett emlékeztető küldve.',
 		1		=> '%1$d emlékeztető lett küldve<br />» %2$s',
+		2		=> '%1$d emlékeztető lett küldve<br />» %2$s',
 	),
 	'USER_ONLINE'			=> 'Online',
 	'USER_PRESENCE'			=> 'Jelenlét a fórumban',
+	'USERS_PER_PAGE'		=> 'Users per page', //bb31
 
 	'VIEWING_PROFILE'		=> 'Profil megtekintése: %s',
-	'VISITED'				=> 'Utolsó látogatás',
-
-	'WWW'					=> 'Honlap',
 ));
-
-?>
