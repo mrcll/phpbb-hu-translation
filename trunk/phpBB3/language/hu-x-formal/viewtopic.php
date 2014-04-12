@@ -1,12 +1,12 @@
 <?php
-/** 
+/**
 *
 * viewtopic [Hungarian Formal]
 *
 * @package language
 * @version $Id$
 * @copyright (c) 2009 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 * Original copyright: (c) 2005 phpBB Group
 *
 */
@@ -37,6 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
+	'APPROVE'								=> 'Approve', //bb31
 	'ATTACHMENT'						=> 'Csatolmány',
 	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'A csatolmány funkciók nem elérhetők.', //? ki lettek kapcsolva
 
@@ -49,19 +50,22 @@ $lang = array_merge($lang, array(
 	'BUMP_TOPIC'			=> 'Előreugrasztás', //? 'Téma előreugrasztása'
 
 	'CODE'					=> 'Kód',
-	'COLLAPSE_QR'			=> 'Gyors válasz elrejtése',
 
 	'DELETE_TOPIC'			=> 'Téma törlése',
+	'DELETED_INFORMATION'	=> 'Deleted by %1$s on %2$s', //bb31
+	'DISAPPROVE'					=> 'Disapprove', //bb31
 	'DOWNLOAD_NOTICE'		=> 'Nincs meg a kellő jogosultsága a hozzászóláshoz csatolt állományok megtekintéséhez.',
 
-	'EDITED_TIMES_TOTAL'	=> 'A hozzászólást %3$d alkalommal szerkesztették, utoljára %1$s %2$s-kor.', //? 'Utoljára %1$s szerkesztette %2$s-kor; szerkesztések száma: %3$d.'
-	'EDITED_TIME_TOTAL'		=> 'A hozzászólást %3$d alkalommal szerkesztették, utoljára %1$s %2$s-kor.',
+	'EDITED_TIMES_TOTAL'	=> array(
+		1	=> 'A hozzászólást %1$d alkalommal szerkesztették, utoljára %2$s %3$s-kor.', //? 'Utoljára %1$s szerkesztette %2$s-kor; szerkesztések száma: %3$d.'
+		2	=> 'A hozzászólást %1$d alkalommal szerkesztették, utoljára %2$s %3$s-kor.',
+	),
 	'EMAIL_TOPIC'			=> 'Barát értesítése e-mailben',
 	'ERROR_NO_ATTACHMENT'	=> 'A csatolmány már nem létezik.',
 
 	'FILE_NOT_FOUND_404'	=> 'A <strong>%s</strong> fájl nem létezik.',
 	'FORK_TOPIC'			=> 'Téma másolása',
-	'FULL_EDITOR'			=> 'Teljes szerkesztő',
+	'FULL_EDITOR'			=> 'Teljes szerkesztő &amp; Preview', //bb31
 
 	'LINKAGE_FORBIDDEN'		=> 'Ön nem jogosult az oldalt megtekinteni, letölteni róla vagy linkelni rá.', //? fogalmam sincs...
 	'LOGIN_NOTIFY_TOPIC'	=> 'Ön értesítve lett erről a témáról. Lépjen be, hogy megtekinthesse.',
@@ -71,8 +75,10 @@ $lang = array_merge($lang, array(
 	'MAKE_GLOBAL'				=> 'Globális közleménnyé tétel',
 	'MAKE_NORMAL'				=> 'Normál témává tétel',
 	'MAKE_STICKY'				=> 'Kiemeltté tétel',
-	'MAX_OPTIONS_SELECT'		=> '<strong>%d</strong> választási lehetőségre szavazhat.',
-	'MAX_OPTION_SELECT'			=> '<strong>1</strong> választási lehetőségre szavazhat.',
+	'MAX_OPTIONS_SELECT'		=> array(
+		1	=> '<strong>%d</strong> választási lehetőségre szavazhat.',
+		2	=> '<strong>%d</strong> választási lehetőségre szavazhat.',
+	),
 	'MISSING_INLINE_ATTACHMENT'	=> 'A <strong>%s</strong> csatolmány már nem érhető el.',
 	'MOVE_TOPIC'				=> 'Téma áthelyezése',
 
@@ -86,6 +92,7 @@ $lang = array_merge($lang, array(
 	'POLL_ENDED_AT'			=> 'A szavazás %s-kor befejeződött.',
 	'POLL_RUN_TILL'			=> 'A szavazás %s-ig van érvényben.',
 	'POLL_VOTED_OPTION'		=> 'Erre a lehetőségre szavazott',
+	'POST_DELETED_RESTORE'	=> 'This post has been deleted. It can be restored.', //bb31
 	'PRINT_TOPIC'			=> 'Nyomtatóbarát verzió',
 
 	'QUICK_MOD'				=> 'Gyors moderátori eszközök', //??
@@ -93,11 +100,13 @@ $lang = array_merge($lang, array(
 	'QUOTE'					=> 'Idézet',
 
 	'REPLY_TO_TOPIC'		=> 'Hozzászólás a témához',
+	'RESTORE'				=> 'Restore', //bb31
+	'RESTORE_TOPIC'			=> 'Restore topic', //bb31
 	'RETURN_POST'			=> '%sVissza a hozzászóláshoz%s',
-	'SHOW_QR'				=> 'Gyors válasz',
 
 	'SUBMIT_VOTE'			=> 'Szavazat elküldése', //? szavazás?
 
+	'TOPIC_TOOLS'			=> 'Topic tools', //bb31
 	'TOTAL_VOTES'			=> 'Szavazatok száma',
 
 	'UNLOCK_TOPIC'			=> 'Téma megnyitása',
@@ -106,12 +115,11 @@ $lang = array_merge($lang, array(
 	'VIEW_NEXT_TOPIC'		=> 'Következő téma',
 	'VIEW_PREVIOUS_TOPIC'	=> 'Előző téma',
 	'VIEW_RESULTS'			=> 'Eredmény megtekintése',
-	'VIEW_TOPIC_POST'		=> '1 hozzászólás',
-	'VIEW_TOPIC_POSTS'		=> '%d hozzászólás',
+	'VIEW_TOPIC_POSTS'		=> array(
+		1	=> '%d post',
+		2	=> '%d hozzászólás',
+	),
 	'VIEW_UNREAD_POST'		=> 'Első olvasatlan hozzászólás',
-	'VISIT_WEBSITE'			=> 'Honlap',
 	'VOTE_SUBMITTED'		=> 'A szavazata sikeresen eltárolásra került.',
 	'VOTE_CONVERTED'		=> 'A szavazatváltoztatás konvertált szavazásoknál nem támogatott.',
 ));
-
-?>

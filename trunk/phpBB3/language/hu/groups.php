@@ -6,7 +6,7 @@
 * @package language
 * @version $Id$
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 * Original copyright: (c) 2005 phpBB Group
 *
 */
@@ -93,5 +93,3 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_DEMOTE_CONFIRM'	=> 'Biztosan le akarsz mondani a csoportvezetőségről a kiválasztott csoportban?',
 	'USER_GROUP_DEMOTED'		=> 'Sikeresen lemondtál a csoportvezetőségről.',
 ));
-
-?>

@@ -42,9 +42,14 @@ $lang = array_merge($lang, array(
 
 	'DISPLAY_RESULTS'		=> 'Találatok megjelenítése',
 
-	'FOUND_SEARCH_MATCH'		=> '%d találat',
-	'FOUND_SEARCH_MATCHES'		=> '%d találat',
-	'FOUND_MORE_SEARCH_MATCHES'	=> 'Több, mint %d találat',
+	'FOUND_SEARCH_MATCHES'		=> array(
+		1	=> '%d találat',
+		2	=> '%d találat',
+	),
+	'FOUND_MORE_SEARCH_MATCHES'		=> array(
+		1	=> 'Több, mint %d találat',
+		2	=> 'Több, mint %d találat',
+	),
 
 	'GLOBAL'				=> 'Globális közlemény',
 
@@ -57,9 +62,12 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'Az olvasatlan hozzászólásaid megtekintéséhez be kell jelentkezned.',
 	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'Az utolsó látogatásod óta keletkezett hozzászólások megtekintéséhez be kell jelentkezned.',
 
-	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> 'Túl sok keresendő szót adtál meg. Kérünk, legfeljebb %1$d szót adj meg.',
+	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> array(
+		1	=> 'Túl sok keresendő szót adtál meg. Kérünk, legfeljebb %1$d szót adj meg.',
+		2	=> 'Túl sok keresendő szót adtál meg. Kérünk, legfeljebb %1$d szót adj meg.',
+	),
 
-	'NO_KEYWORDS'			=> 'Legalább egy keresendő szót meg kell adnod. Minden szónak, a jokerkaraktereket nem számítva, legalább %d és legfeljebb %d karakterből kell állnia.', //? helyettesítő jel: *
+	'NO_KEYWORDS'			=> 'Legalább egy keresendő szót meg kell adnod. Minden szónak, a jokerkaraktereket nem számítva, legalább %s és legfeljebb %s karakterből kell állnia.', //? helyettesítő jel: *
 	'NO_RECENT_SEARCHES'	=> 'Nem történt keresés a közelmúltban.',
 	'NO_SEARCH'				=> 'Sajnos számodra nem engedélyezett a kereső használata.',
 	'NO_SEARCH_RESULTS'		=> 'Nincs a keresési feltételeknek megfelelő találat.', //? "No suitable matches were found."
@@ -69,6 +77,7 @@ $lang = array_merge($lang, array(
 	'WORDS_IN_NO_POST'		=> 'Nincs találat, mivel a <strong>%s</strong> szavakat nem tartalmazza egy hozzászólás sem.',
 
 	'POST_CHARACTERS'		=> 'karakterének megjelenítése',
+	'PHRASE_SEARCH_DISABLED'	=> 'Searching by exact phrase is not supported on this board.', //bb31
 
 	'RECENT_SEARCHES'		=> 'Legutóbbi keresések',
 	'RESULT_DAYS'			=> 'Időintervallum', //?
@@ -101,8 +110,11 @@ $lang = array_merge($lang, array(
 	'SORT_FORUM'				=> 'Fórum',
 	'SORT_POST_SUBJECT'			=> 'Hozzászólás témája',
 	'SORT_TIME'					=> 'Elküldés időpontja',
+	'SPHINX_SEARCH_FAILED'		=> 'Search failed: %s', //bb31
+	'SPHINX_SEARCH_FAILED_LOG'	=> 'Sorry, search could not be performed. More information about this failure has been logged in the error log.', //bb31
 
-	'TOO_FEW_AUTHOR_CHARS'	=> 'A szerző nevéből legalább %d karaktert meg kell adnod.',
+	'TOO_FEW_AUTHOR_CHARS'	=> array(
+		1	=> 'A szerző nevéből legalább %d karaktert meg kell adnod.',
+		2	=> 'A szerző nevéből legalább %d karaktert meg kell adnod.',
+	),
 ));
-
-?>

@@ -6,7 +6,7 @@
 * @package language
 * @version $Id$
 * @copyright (c) 2009 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 * Original copyright: (c) 2005 phpBB Group
 *
 */
@@ -79,8 +79,20 @@ $lang = array_merge($lang, array(
 	'DELETE_MESSAGE'			=> 'Üzenet törlése',
 	'DELETE_MESSAGE_CONFIRM'	=> 'Biztosan törölni akarja ezt az üzenetet?',
 	'DELETE_OWN_POSTS'			=> 'Csak a saját hozzászólásait törölheti.',
+	'DELETE_PERMANENTLY'		=> 'Delete permanently', //bb31
 	'DELETE_POST_CONFIRM'		=> 'Biztosan törölni akarja ezt a hozzászólást?',
-	'DELETE_POST_WARN'			=> 'Törlés után a hozzászólás nem visszaállítható.',
+	'DELETE_POST_PERMANENTLY_CONFIRM'	=> 'Are you sure you want to <strong>permanently</strong> delete this post?', //bb31
+	'DELETE_POST_PERMANENTLY'	=> 'Permanently delete this post so it can not be recovered', //bb31
+	'DELETE_POSTS_CONFIRM'		=> 'Are you sure you want to delete these posts?', //bb31
+	'DELETE_POSTS_PERMANENTLY_CONFIRM'	=> 'Are you sure you want to <strong>permanently</strong> delete these posts?', //bb31
+	'DELETE_REASON'				=> 'Soft delete reason', //bb31
+	'DELETE_REASON_EXPLAIN'		=> 'The specified reason for deletion will be visible to moderators.', //bb31
+	'DELETE_POST_WARN'			=> 'Delete this post', //bb31
+	'DELETE_TOPIC_CONFIRM'		=> 'Are you sure you want to delete this topic?', //bb31
+	'DELETE_TOPIC_PERMANENTLY'	=> 'Permanently delete this topic so it can not be recovered', //bb31
+	'DELETE_TOPIC_PERMANENTLY_CONFIRM'	=> 'Are you sure you want to <strong>permanently</strong> delete this topic?', //bb31
+	'DELETE_TOPICS_CONFIRM'		=> 'Are you sure you want to delete these topics?', //bb31
+	'DELETE_TOPICS_PERMANENTLY_CONFIRM'	=> 'Are you sure you want to <strong>permanently</strong> delete these topics?', //bb31
 	'DISABLE_BBCODE'			=> 'BBCode kikapcsolása',
 	'DISABLE_MAGIC_URL'			=> 'Webcímek automatikus linkké alakításának kikapcsolása', //? "Do not automatically parse URLs" 'Automatikus URL-feldolgozás kikapcsolása' webcímek?
 	'DISABLE_SMILIES'			=> 'Emotikonok kikapcsolása',
@@ -123,13 +135,29 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_QUOTE'		=> 'Egy hozzászólás idézéséhez be kell jelentkeznie ebben a fórumban.',
 	'LOGIN_EXPLAIN_REPLY'		=> 'Hozzászólás küldéséhez be kell jelentkeznie ebben a fórumban.',
 
-	'MAX_FONT_SIZE_EXCEEDED'	=> 'Legfeljebb %1$d nagyságú betűket használhat.',
-	'MAX_FLASH_HEIGHT_EXCEEDED'	=> 'Legfeljebb %1$d pixel magas flasht animációt illeszthet be a hozzászólásába.', //? 'A hozzászólásod legfeljebb %$1d pixel magas flasht tartalmazhat.' vagy 'Nem küldhetsz %$1d pixelnél magasabb flasht.'
-	'MAX_FLASH_WIDTH_EXCEEDED'	=> 'Legfeljebb %1$d pixel széles flasht animációt illeszthet be a hozzászólásába.',
-	'MAX_IMG_HEIGHT_EXCEEDED'	=> 'Legfeljebb %1$d pixel magas képet illeszthet be a hozzászólásába.',
-	'MAX_IMG_WIDTH_EXCEEDED'	=> 'Legfeljebb %1$d pixel széles képet illeszthet be a hozzászólásába.',
+	'MAX_FONT_SIZE_EXCEEDED'	=> 'Legfeljebb %d nagyságú betűket használhat.',
+	'MAX_FLASH_HEIGHT_EXCEEDED'	=> array(
+		1	=> 'Legfeljebb %d pixel magas flasht animációt illeszthetsz be a hozzászólásodba.', //? 'A hozzászólásod legfeljebb %$1d pixel magas flasht tartalmazhat.' vagy 'Nem küldhetsz %$1d pixelnél magasabb flasht.'
+		2	=> 'Legfeljebb %d pixel magas flasht animációt illeszthetsz be a hozzászólásodba.',
+	),
+	'MAX_FLASH_WIDTH_EXCEEDED'	=> array(
+		1	=> 'Legfeljebb %d pixel széles flasht animációt illeszthetsz be a hozzászólásodba.',
+		2	=> 'Legfeljebb %d pixel széles flasht animációt illeszthetsz be a hozzászólásodba.',
+	),
+	'MAX_IMG_HEIGHT_EXCEEDED'	=> array(
+		1	=> 'Legfeljebb %d pixel magas képet illeszthetsz be a hozzászólásodba.',
+		2	=> 'Legfeljebb %d pixel magas képet illeszthetsz be a hozzászólásodba.',
+	),
+	'MAX_IMG_WIDTH_EXCEEDED'	=> array(
+		1	=> 'Legfeljebb %d pixel széles képet illeszthetsz be a hozzászólásodba.',
+		2	=> 'Legfeljebb %d pixel széles képet illeszthetsz be a hozzászólásodba.',
+	),
 
-	'MESSAGE_BODY_EXPLAIN'		=> 'Ide írja az üzenetet, legfeljebb <strong>%d</strong> karakter hosszú lehet.', //?
+	'MESSAGE_BODY_EXPLAIN'		=> array(
+		0	=> '', // zero means no limit, so we don't view a message here.
+		1	=> 'Ide írd az üzenetet, legfeljebb <strong>%d</strong> karakter hosszú lehet.', //?
+		2	=> 'Ide írd az üzenetet, legfeljebb <strong>%d</strong> karakter hosszú lehet.', //?
+	),
 	'MESSAGE_DELETED'			=> 'Az üzenet sikeresen törlésre került.',
 	'MORE_SMILIES'				=> 'További emotikonok',
 
@@ -147,12 +175,18 @@ $lang = array_merge($lang, array(
 	'PLACE_INLINE'				=> 'Beszúrás a hozzászólásba',
 	'POLL_DELETE'				=> 'Szavazás törlése',
 	'POLL_FOR'					=> 'Szavazás időtartama',
-	'POLL_FOR_EXPLAIN'			=> 'Hagyja üresen, vagy adjon meg 0-t, hogy ne járjon le a szavazás.', //?
+	'POLL_FOR_EXPLAIN'			=> 'Adjon meg 0-t, hogy ne járjon le a szavazás.', //?
 	'POLL_MAX_OPTIONS'			=> 'Felhasználónként válaszható lehetőségek', //? "Options per user"
 	'POLL_MAX_OPTIONS_EXPLAIN'	=> 'Egy felhasználó ennyi választási lehetőségre szavazhat.',
 	'POLL_OPTIONS'				=> 'Választási lehetőségek',
-	'POLL_OPTIONS_EXPLAIN'		=> 'Írja mindegyiket külön sorba. Legfeljebb <strong>%d</strong> választási lehetőséget adhat meg.',
- 	'POLL_OPTIONS_EDIT_EXPLAIN'	=> 'Írja mindegyiket külön sorba. Legfeljebb <strong>%d</strong> választási lehetőséget adhat meg. Ha eltávolít vagy hozzáad egy választási lehetőséget, az eddigi eredmény lenullázásra kerül.',
+	'POLL_OPTIONS_EXPLAIN'		=> array(
+		1	=> 'Írja mindegyiket külön sorba. Legfeljebb <strong>%d</strong> választási lehetőséget adhat meg.',
+		2	=> 'Írja mindegyiket külön sorba. Legfeljebb <strong>%d</strong> választási lehetőséget adhat meg.',
+	),
+	'POLL_OPTIONS_EDIT_EXPLAIN'		=> array(
+		1	=> 'Írja mindegyiket külön sorba. Legfeljebb <strong>%d</strong> választási lehetőséget adhat meg. Ha eltávolít vagy hozzáad egy választási lehetőséget, az eddigi eredmény lenullázásra kerül.',
+		2	=> 'Írja mindegyiket külön sorba. Legfeljebb <strong>%d</strong> választási lehetőséget adhat meg. Ha eltávolít vagy hozzáad egy választási lehetőséget, az eddigi eredmény lenullázásra kerül.',
+	),
 	'POLL_QUESTION'				=> 'Szavazás kérdése',
 	'POLL_TITLE_TOO_LONG'		=> 'A szavazás kérdésének rövidebbnek kell lennie 100 karakternél.',
 	'POLL_TITLE_COMP_TOO_LONG'	=> 'A feldolgozott szavazáskérdés túl hosszú, próbáljon meg eltávolítani néhány BBCode-ot, illetve emotikont.',
@@ -162,9 +196,9 @@ $lang = array_merge($lang, array(
  	'POST_APPROVAL_NOTIFY'		=> 'Amint jóváhagyásra kerül, értesíteni fogjuk.',
 	'POST_CONFIRMATION'			=> 'Hozzászólás megerősítése', //?
 	'POST_CONFIRM_EXPLAIN'		=> 'Az automatikus hozzászólások megakadályozása érdekében meg kell adnia egy megerősítő kódot. A kód az alábbi képen szerepel. Ha látási vagy egyéb problémák miatt nem tudja elolvasni a kódot, lépjen kapcsolatba a %sfórum adminisztrátorával%s.',
-	'POST_DELETED'				=> 'Az üzenet sikeresen törlésre került.',
-	'POST_EDITED'				=> 'Az üzenet sikeresen szerkesztésre került.',
-	'POST_EDITED_MOD'			=> 'Az üzenet sikeresen szerkesztésre került, azonban egy moderátornak még jóvá kell hagynia mielőtt mindenki által megtekinthető lenne.',
+	'POST_DELETED'				=> 'A hozzászólás sikeresen törlésre került.',
+	'POST_EDITED'				=> 'A hozzászólás sikeresen szerkesztésre került.',
+	'POST_EDITED_MOD'			=> 'A hozzászólás sikeresen szerkesztésre került, azonban egy moderátornak még jóvá kell hagynia mielőtt mindenki által megtekinthető lenne.',
 	'POST_GLOBAL'				=> 'Globális közlemény',
 	'POST_ICON'					=> 'Hozzászólás ikon',
 	'POST_NORMAL'				=> 'Sima',
@@ -177,7 +211,10 @@ $lang = array_merge($lang, array(
 	'POST_TOPIC_AS'				=> 'Téma típusa',
 	'PROGRESS_BAR'				=> 'Feltöltés állapota', //? "Progress bar"
 
-	'QUOTE_DEPTH_EXCEEDED'		=> 'Legfeljebb %1$d idézetet ágyazhat egymásba.',
+	'QUOTE_DEPTH_EXCEEDED'		=> array(
+		1	=> 'Legfeljebb %1$d idézetet ágyazhat egymásba.',
+		2	=> 'Legfeljebb %1$d idézetet ágyazhat egymásba.',
+	),
 
 	'SAVE'						=> 'Elmentés',
 	'SAVE_DATE'					=> 'Elmentve', //? "Saved at" 'Elmentés időpontja'
@@ -188,16 +225,23 @@ $lang = array_merge($lang, array(
 	'SMILIES_ARE_ON'			=> 'Emotikonok <em>bekapcsolva</em>',
 	'STICKY_ANNOUNCE_TIME_LIMIT'=> 'Ennyi ideig lesz kiemelt/közlemény a téma.',
 	'STICK_TOPIC_FOR'			=> 'Kiemelés időtartama', //? "Stick topic for"
-	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Hagyja üresen, vagy adjon meg 0-t, hogy a téma mindig kiemelt/közlemény maradjon. Kérjük, vegye figyelembe, hogy az idő a hozzászólás elküldésétől számítódik.',
+	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Adjon meg 0-t, hogy a téma mindig kiemelt/közlemény maradjon. Kérjük, vegye figyelembe, hogy az idő a hozzászólás elküldésétől számítódik.',
 	'STYLES_TIP'				=> 'Tipp: a formázások gyorsan alkalmazhatók a kiválasztott szövegen.',
 
 	'TOO_FEW_CHARS'				=> 'Az üzenet túl rövid.', //? "Your message contains too few characters."
-	'TOO_FEW_CHARS_LIMIT'		=> 'Az üzenete %1$d karaktert tartalmaz. Legalább %2$d karakter hosszúnak kell lennie.',
+	'TOO_FEW_CHARS_LIMIT'		=> array(
+		1	=> 'Az üzenete %1$d karaktert tartalmaz. Legalább %2$d karakter hosszúnak kell lennie.',
+		2	=> 'Az üzenete %1$d karaktert tartalmaz. Legalább %2$d karakter hosszúnak kell lennie.',
+	),
 	'TOO_FEW_POLL_OPTIONS'		=> 'Legalább két választási lehetőséget meg kell adnia.',
 	'TOO_MANY_ATTACHMENTS'		=> 'Nem lehet újabb csatolmányt hozzáadni, %d a maximum.', //?
 	'TOO_MANY_CHARS'			=> 'Az üzenet túl hosszú.',
- 	'TOO_MANY_CHARS_POST'		=> 'Az üzeneted %1$d karaktert tartalmaz. Legfeljebb %2$d karakter hosszú lehet.',
- 	'TOO_MANY_CHARS_SIG'		=> 'Az aláírása %1$d karaktert tartalmaz. Legfeljebb %2$d karakter hosszú lehet.',
+	'TOO_MANY_CHARS_POST'		=> array(
+		2	=> 'Az üzenete %1$d karaktert tartalmaz. Legfeljebb %2$d karakter hosszú lehet.',
+	),
+	'TOO_MANY_CHARS_SIG'		=> array(
+		2	=> 'Az aláírása %1$d karaktert tartalmaz. Legfeljebb %2$d karakter hosszú lehet.',
+	),
 	'TOO_MANY_POLL_OPTIONS'		=> 'Túl sok választási lehetőséget adott meg.',
 	'TOO_MANY_SMILIES'			=> 'Az üzenet túl sok emotikont tartalmaz. Legfeljebb %d használható.',
 	'TOO_MANY_URLS'				=> 'Az üzenet túl sok linket tartalmaz. Legfeljebb %d lehet benne.', //? link =? url
@@ -221,7 +265,5 @@ $lang = array_merge($lang, array(
 	'VIEW_PRIVATE_MESSAGE'		=> '%sElküldött privát üzenet megtekintése%s',
 
 	'WRONG_FILESIZE'			=> 'Az állomány túl nagy, a maximum megengedett méret %1d %2s.',
-	'WRONG_SIZE'				=> 'A képnek legalább %1$d pixel szélesnek és %2$d pixel magasnak kell lennie, valamint legfeljebb %3$d pixel széles és %4$d pixel magas lehet. A megadott kép %5$d pixel széles, és %6$d pixel magas.',
+	'WRONG_SIZE'				=> 'A képnek legalább %1$d szélesnek és %2$d magasnak kell lennie, valamint legfeljebb %3$d széles és %4$d magas lehet. A megadott kép %5$d széles, és %6$d magas.',
 ));
-
-?>

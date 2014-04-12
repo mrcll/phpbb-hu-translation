@@ -40,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'TERMS_OF_USE_CONTENT'	=> 'Azzal, hogy használod a „%1$s” fórumot (a továbbiakban „mi”, „a fórum”, „%1$s”, „%2$s”) elfogadod, hogy betartod az alábbi feltételeket. Ha nem fogadod el, kérjük ne használd, illetve ne is keresd fel a fórumot. A feltételeket bármikor megváltoztathatjuk, és habár a lehető legtöbbet megtesszük, hogy értesítsünk a változásról, érdemes rendszeresen áttekinteni ezt az oldalt, mivel a fórum használati feltételeinek megváltoztatása utáni további használatával beleegyezel az új feltételek betartásába.<br />
 	<br />
-	A fórumot a phpBB hajtja, mely egy a „<a href="http://opensource.org/licenses/gpl-license.php">General Public License</a>” (a továbbiakban „GPL”) licenc alatt kiadott fórumszoftver, és a <a href="https://www.phpbb.com/">www.phpbb.com</a>, valamint magyarul a <a href="http://phpbb.hu/">phpbb.hu</a> weboldalról tölthető le. A phpBB csak lehetőséget nyújt az internet alapú kommunikációra; a phpBB Csoport nem felelős azért, hogy milyen tartalmakat, illetve magatartást engedélyezünk. További információért a phpBB-ről, kérjük, látogasd meg a <a href="https://www.phpbb.com/">https://www.phpbb.com/</a> weboldalt.<br />
+	A fórumot a phpBB hajtja, mely egy a „<a href="http://opensource.org/licenses/gpl-2.0.php">GNU General Public License v2</a>” (a továbbiakban „GPL”) licenc alatt kiadott fórumszoftver, és a <a href="https://www.phpbb.com/">www.phpbb.com</a>, valamint magyarul a <a href="http://phpbb.hu/">phpbb.hu</a> weboldalról tölthető le. A phpBB csak lehetőséget nyújt az internet alapú kommunikációra; a phpBB Csoport nem felelős azért, hogy milyen tartalmakat, illetve magatartást engedélyezünk. További információért a phpBB-ről, kérjük, látogasd meg a <a href="https://www.phpbb.com/">https://www.phpbb.com/</a> weboldalt.<br />
 	<br />
 	Beleegyezel, hogy nem küldesz semmilyen sértegető, obszcén, vulgáris, rágalmazó, gyűlöletkeltő, támadó, közízlést sértő vagy bármely más olyan tartalmat, mely sérti a hazádban, a fórumot kiszolgáló szerver országában érvényben lévő vagy a nemzetközi törvényeket. A fentiek megsértése azonnali és végleges kitiltáshoz vezethet az internetszolgáltatód értesítésével együtt, ha ezt szükségesnek tartjuk. A feltételek betartatásának érdekében az összes hozzászóláshoz tartozó IP-címet tároljuk. Elfogadod, hogy a fórum fenntartóinak jogukban áll eltávolítani, szerkeszteni a hozzászólásaid vagy lezárni az általad nyitott témákat, amennyiben úgy ítélik meg, hogy ez szükséges. Mint felhasználó, elfogadod, hogy bármely adat, melyet megadsz, tárolásra kerül a fórum adatbázisában. Ezek az információk a beleegyezésed nélkül semmilyen módon nem kerülnek átadásra egy harmadik félnek, de a fórum fenntartói nem tudnak felelősséget vállalni az adatokért egy esetleges „hackertámadás” esetén.
 	',
@@ -86,14 +86,25 @@ $lang = array_merge($lang, array(
 	'ALREADY_ACTIVATED'				=> 'Az azonosítód aktiválása már korábban megtörtént.',
 	'ATTACHMENTS_EXPLAIN'			=> 'Az alábbi lista a fórumon a hozzászólásaidhoz csatolt állományokat tartalmazza.',
 	'ATTACHMENTS_DELETED'			=> 'A csatolmányok sikeresen törlésre kerültek.', //? sikeresen törlésrere kerültek??
+	'AUTOLOGIN_SESSION_KEYS_DELETED'=> 'The selected "Remember Me" login keys were successfully deleted.', //bb31
 	'ATTACHMENT_DELETED'			=> 'A csatolmány sikeresen törlésre került.', //? sikeresen törlésre kerültek??
 	'AVATAR_CATEGORY'				=> 'Kategória',
-	'AVATAR_EXPLAIN'				=> 'Maximális méret: szélesség %1$d pixel, magasság %2$d pixel, állomány mérete %3$.2f KiB.',
+	'AVATAR_DRIVER_GRAVATAR_TITLE'	=> 'Gravatar', //bb31
+	'AVATAR_DRIVER_GRAVATAR_EXPLAIN'=> 'Gravatar is a service that allows you to maintain the same avatar across multiple websites. Visit <a href="http://www.gravatar.com/">Gravatar</a> for more information.', //bb31
+	'AVATAR_DRIVER_LOCAL_TITLE'		=> 'Gallery avatar', //bb31
+	'AVATAR_DRIVER_LOCAL_EXPLAIN'	=> 'You can choose your avatar from a locally available set of avatars.', //bb31
+	'AVATAR_DRIVER_REMOTE_TITLE'	=> 'Remote avatar', //bb31
+	'AVATAR_DRIVER_REMOTE_EXPLAIN'	=> 'Link to avatar images from another website.', //bb31
+	'AVATAR_DRIVER_UPLOAD_TITLE'	=> 'Upload avatar', //bb31
+	'AVATAR_DRIVER_UPLOAD_EXPLAIN'	=> 'Upload your own custom avatar.', //bb31
+	'AVATAR_EXPLAIN'				=> 'Maximális méret: szélesség %1$d, magasság %2$d, állomány mérete %3$.2f KiB.',
 	'AVATAR_FEATURES_DISABLED'		=> 'Az avatarok funkció jelenleg ki van kapcsolva.',
 	'AVATAR_GALLERY'				=> 'Helyi galéria', //?
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'Nem sikerült feltölteni az avatart a következő helyre: %s.',
 	'AVATAR_NOT_ALLOWED'			=> 'Az avatarod nem lehet megjeleníteni, mivel az avatarok kikapcsolásra kerültek.',
 	'AVATAR_PAGE'					=> 'Oldal', //?
+	'AVATAR_SELECT'					=> 'Select your avatar', //bb31
+	'AVATAR_TYPE'					=> 'Avatar type', //bb31
 	'AVATAR_TYPE_NOT_ALLOWED'		=> 'A jelenlegi avatarod nem lehet megjeleníteni, mivel a típusa kikapcsolásra került.',
 
 	'BACK_TO_DRAFTS'			=> 'Vissza az elmentett piszkozatokhoz',
@@ -102,7 +113,6 @@ $lang = array_merge($lang, array(
 	'BIRTHDAY_EXPLAIN'			=> 'Ha megadod a születési éved, a születésnapodkor látszani fog a korod is.',
 	'BOARD_DATE_FORMAT'			=> 'Dátum formátum',
 	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'A formátum megegyezik a PHP <a href="http://www.php-blog.hu/php-magyar-kezikonyv/function.date.html">date()</a> függvényéjével.', //? fogalmazás
-	'BOARD_DST'					=> 'Nyári időszámítás érvényben',
 	'BOARD_LANGUAGE'			=> 'Nyelv',
 	'BOARD_STYLE'				=> 'Megjelenés',
 	'BOARD_TIMEZONE'			=> 'Időzóna',
@@ -122,8 +132,6 @@ $lang = array_merge($lang, array(
 	'CLICK_RETURN_FOLDER'		=> '%1$sVissza a „%3$s” mappához%2$s',
 	'CONFIRMATION'				=> 'Regisztráció megerősítése',
 	'CONFIRM_CHANGES'			=> 'Változtatások megerősítése',
-	'CONFIRM_EMAIL'				=> 'E-mail cím megerősítése',
-	'CONFIRM_EMAIL_EXPLAIN'		=> 'Csak akkor kell megadnod, ha meg szeretnéd változtatni az e-mail címed.',
 	'CONFIRM_EXPLAIN'			=> 'A robot regisztrációk megakadályozása érdekében meg kell adnod egy megerősítő kódot. A kód az alábbi képen szerepel. Ha látási vagy egyéb problémák miatt nem tudod elolvasni a kódot, lépj kapcsolatba a %sfórum adminisztrátorával%s.',
 	'VC_REFRESH'				=> 'Megerősítő kód frissítése', //? frissítés? (újratöltés?)
 	'VC_REFRESH_EXPLAIN'		=> 'Ha nem tudod elolvasni a kódot, a gombra kattintva kérhetsz újat.',
@@ -188,27 +196,42 @@ $lang = array_merge($lang, array(
 	'EXPORT_FOLDER'				=> 'Aktuális nézet kimentése', //? kell az aktuális?
 
 	'FIELD_REQUIRED'					=> 'A „%s” mezőt nem hagyhatod üresen.',
-	'FIELD_TOO_SHORT'					=> 'A „%1$s” mező tartalma túl rövid, legalább %2$d karakter hosszúnak kell lennie.',
-	'FIELD_TOO_LONG'					=> 'A „%1$s” mező tartalma túl hosszú, legfeljebb %2$d karakter engedélyezett.',
-	'FIELD_TOO_SMALL'					=> 'A „%1$s” mező értéke túl kicsi, legalább %2$d-nek kell lennie.',
-	'FIELD_TOO_LARGE'					=> 'A „%1$s” mező értéke túl nagy, legfeljebb %2$d engedélyezett.', //? kell lennie? - nyelvtan
+	'FIELD_TOO_SHORT'					=> array(
+		1	=> 'A „%2$s” mező tartalma túl rövid, legalább %1$d karakter hosszúnak kell lennie.',
+		2	=> 'A „%2$s” mező tartalma túl rövid, legalább %1$d karakter hosszúnak kell lennie.',
+	),
+	'FIELD_TOO_LONG'					=> array(
+		1	=> 'A „%2$s” mező tartalma túl hosszú, legfeljebb %1$d karakter engedélyezett.',
+		2	=> 'A „%2$s” mező tartalma túl hosszú, legfeljebb %1$d karakter engedélyezett.',
+	),
+	'FIELD_TOO_SMALL'					=> 'A „%2$s” mező értéke túl kicsi, legalább %1$d-nek kell lennie.',
+	'FIELD_TOO_LARGE'					=> 'A „%2$s” mező értéke túl nagy, legfeljebb %1$d engedélyezett.', //? kell lennie? - nyelvtan
+	'FIELD_INVALID_CHARS_INVALID'		=> 'The field “%s” has invalid characters.', //bb31
 	'FIELD_INVALID_CHARS_NUMBERS_ONLY'	=> 'A „%1$s” mező hibás karaktereket tartalmaz, csak számok engedélyezettek.', //? hibás (invalid)?
 	'FIELD_INVALID_CHARS_ALPHA_ONLY'	=> 'A „%1$s” mező hibás karaktereket tartalmaz, csak alfanumerikus karakterek használata engedélyezett.',
-	'FIELD_INVALID_CHARS_SPACERS_ONLY'	=> 'A „%1$s” mező hibás karaktereket tartalmaz, csak alfanumerikus karakterek, szóköz és -+_[] jelek használata engedélyezett.', //? 'jel'? jelek elválasztása?
+	'FIELD_INVALID_CHARS_ALPHA_SPACERS'	=> 'A „%1$s” mező hibás karaktereket tartalmaz, csak alfanumerikus karakterek, szóköz és -+_[] jelek használata engedélyezett.', //? 'jel'? jelek elválasztása?
+	'FIELD_INVALID_CHARS_ALPHA_UNDERSCORE'	=> 'The field “%s” has invalid characters, only alphanumeric or _ characters are allowed.', //bb31
 	'FIELD_INVALID_DATE'				=> 'A „%1$s” mező érvénytelen dátumot tartalmaz.',
+	'FIELD_INVALID_URL'					=> 'The field “%s” has an invalid url.', //bb31
 	'FIELD_INVALID_VALUE'				=> 'A “%s” mező érvénytelen értéket tartalmaz.',
 
 	'FOE_MESSAGE'				=> 'Üzenet haragostól',
 	'FOES_EXPLAIN'				=> 'A haragosok olyan felhasználók, akik alapból mellőzésre kerülnek. A hozzászólásaik nem teljesen jelennek meg, privát üzenetet azonban küldhetnek. Kérjük, vedd figyelembe, hogy nem mellőzhetsz egy moderátort vagy egy adminisztrátort.', //? mellőzésre kerülnek :)
 	'FOES_UPDATED'				=> 'A haragosaid listája sikeresen frissítésre került.',
 	'FOLDER_ADDED'				=> 'A mappa sikeresen hozzáadásra került.',
-	'FOLDER_MESSAGE_STATUS'		=> '%1$d / %2$d üzenet', //? "%1$d from %2$d messages stored" - gondolom mennyire van tele
+	'FOLDER_MESSAGE_STATUS'		=> array(
+		1	=> '%1$d / %2$s üzenet',
+		2	=> '%1$d / %2$s üzenet',
+	),
 	'FOLDER_NAME_EMPTY'			=> 'Nevet kell adnod a mappának.',
 	'FOLDER_NAME_EXIST'			=> '<strong>%s</strong> nevű mappa már létezik.',
 	'FOLDER_OPTIONS'			=> 'Mappa beállítások',
 	'FOLDER_RENAMED'			=> 'A mappa sikeresen átnevezésre került.',
 	'FOLDER_REMOVED'			=> 'A mappa sikeresen törlésre került.',
-	'FOLDER_STATUS_MSG'			=> 'A mappa %1$d%%-a telt meg (%2$d / %3$d üzenet).', //? 'tele van'?
+	'FOLDER_STATUS_MSG'			=> array(
+		1	=> 'A mappa %3$d%%-a telt meg (%2$d / %1$d üzenet).',
+		2	=> 'A mappa %3$d%%-a telt meg (%2$d / %1$d üzenet).',
+	),
 	'FORWARD_PM'				=> 'PÜ továbbítása',
 	'FORCE_PASSWORD_EXPLAIN'	=> 'Mielőtt továbbléphetnél a fórumon, meg kell változtatnod a jelszavad.',
 	'FRIEND_MESSAGE'			=> 'Üzenet baráttól',
@@ -225,6 +248,11 @@ $lang = array_merge($lang, array(
 	'FWD_TO'					=> 'Címzett: %s',
 
 	'GLOBAL_ANNOUNCEMENT'		=> 'Globális közlemény', //? Általános?
+	
+	'GRAVATAR_AVATAR_EMAIL'			=> 'Gravatar email', //bb31
+	'GRAVATAR_AVATAR_EMAIL_EXPLAIN'	=> 'Enter the email address you used for registering your account on <a href="http://www.gravatar.com/">Gravatar</a>.', //bb31
+	'GRAVATAR_AVATAR_SIZE'			=> 'Avatar dimensions', //bb31
+	'GRAVATAR_AVATAR_SIZE_EXPLAIN'	=> 'Specify the width and height of the avatar, leave blank to attempt automatic verification.', //bb31
 
 	'HIDE_ONLINE'				=> 'Jelenlét elrejtése',
  	'HIDE_ONLINE_EXPLAIN'		=> 'Ha megváltoztatod, az új beállítás csak a következő látogatáskor fog érvénybe lépni.',
@@ -246,6 +274,12 @@ $lang = array_merge($lang, array(
 	'LINK_REMOTE_SIZE'			=> 'Avatar mérete',
 	'LINK_REMOTE_SIZE_EXPLAIN'	=> 'Add meg az avatar szélességét és magasságát, vagy hagyd üresen a mezőket, hogy ezeket a fórum automatikusan próbálja meg megállapítani.',
 	'LOGIN_EXPLAIN_UCP'			=> 'A felhasználói vezérlőpult megtekintéséhez be kell jelentkezned.',
+	'LOGIN_LINK'					=> 'Link or register your account on an external service with your board account', //bb31
+	'LOGIN_LINK_EXPLAIN'			=> 'You have attempted to login with an external service that is not yet connected to an account on this board. You must now either link this account to an existing account or create a new account.', //bb31
+	'LOGIN_LINK_MISSING_DATA'		=> 'Data that is necessary to link your account with an external service is not available. Please restart the login process.', //bb31
+	'LOGIN_LINK_NO_DATA_PROVIDED'	=> 'No data has been provided to this page to link an external account to a forum account. Please contact the board administrator if you continue to experience problems.', //bb31
+	'LOGIN_KEY'					=> 'Login Key', //bb31
+	'LOGIN_TIME'				=> 'Login Time', //bb31
 	'LOGIN_REDIRECT'			=> 'Sikeresen beléptél.',
 	'LOGOUT_FAILED'				=> 'Nem kerültél kiléptetésre, mivel a kérés nem felelt meg a munkamenetednek. Ha továbbra is problémáid lennének, kérünk, lépj kapcsolatba a fórum adminisztrátorával.',
 	'LOGOUT_REDIRECT'			=> 'Sikeresen kiléptél.',
@@ -266,16 +300,39 @@ $lang = array_merge($lang, array(
 	'MOVE_DELETED_MESSAGES_TO'		=> 'Töröltmappabeli üzenetek áthelyezése',
 	'MOVE_DOWN'						=> 'Lejjebb', //? "Move down"
 	'MOVE_MARKED_TO_FOLDER'			=> 'Kijelöltek áthelyezése: %s', //?
-	'MOVE_PM_ERROR'					=> 'Hiba lépett fel az üzenetek áthelyezése közben, csak a %1d és a %2d közötti üzeneteket sikerült áthelyezni.',
+	'MOVE_PM_ERROR'					=> array(
+		1	=> 'Hiba lépett fel az üzenetek áthelyezése közben, a %1d üzenetből csak %2d darabot sikerült áthelyezni.', // 'An error occurred while moving the messages to the new folder, only %2$d out of %1$s was moved.'
+		2	=> 'Hiba lépett fel az üzenetek áthelyezése közben, a %1d üzenetből csak %2d darabot sikerült áthelyezni.',
+	),
 	'MOVE_TO_FOLDER'				=> 'Áthelyezés', //? "Move to folder"
 	'MOVE_UP'						=> 'Feljebb',
 
-	'NEW_EMAIL_CONFIRM_EMPTY'		=> 'Kétszer kell megadnod az e-mail címed.',
-	'NEW_EMAIL_ERROR'				=> 'A megadott e-mail címek nem egyeznek meg.',
 	'NEW_FOLDER_NAME'				=> 'Mappa új neve',
 	'NEW_PASSWORD'					=> 'Új jelszó',
 	'NEW_PASSWORD_CONFIRM_EMPTY'	=> 'Kétszer kell megadnod az új jelszavad.',
 	'NEW_PASSWORD_ERROR'			=> 'A megadott jelszavak nem egyeznek meg.',
+	
+	'NOTIFICATIONS_MARK_ALL_READ'						=> 'Mark all notifications read', //bb31
+	'NOTIFICATIONS_MARK_ALL_READ_CONFIRM'				=> 'Are you sure you want to mark all notifications read?', //bb31
+	'NOTIFICATIONS_MARK_ALL_READ_SUCCESS'				=> 'All notifications have been marked read.', //bb31
+	'NOTIFICATION_GROUP_MISCELLANEOUS'					=> 'Miscellaneous Notifications', //bb31
+	'NOTIFICATION_GROUP_MODERATION'						=> 'Moderation Notifications', //bb31
+	'NOTIFICATION_GROUP_ADMINISTRATION'					=> 'Administration Notifications', //bb31
+	'NOTIFICATION_GROUP_POSTING'						=> 'Posting Notifications', //bb31
+	'NOTIFICATION_METHOD_EMAIL'							=> 'Email', //bb31
+	'NOTIFICATION_METHOD_JABBER'						=> 'Jabber', //bb31
+	'NOTIFICATION_TYPE'									=> 'Notification type', //bb31
+	'NOTIFICATION_TYPE_BOOKMARK'						=> 'Someone replies to a topic you have bookmarked', //bb31
+	'NOTIFICATION_TYPE_GROUP_REQUEST'					=> 'Someone requests to join a group you lead', //bb31
+	'NOTIFICATION_TYPE_IN_MODERATION_QUEUE'				=> 'A post or topic needs approval', //bb31
+	'NOTIFICATION_TYPE_MODERATION_QUEUE'   				=> 'Your topics/posts are approved or disapproved by a moderator', //bb31
+	'NOTIFICATION_TYPE_PM'								=> 'Someone sends you a private message', //bb31
+	'NOTIFICATION_TYPE_POST'							=> 'Someone replies to a topic to which you are subscribed', //bb31
+	'NOTIFICATION_TYPE_QUOTE'							=> 'Someone quotes you in a post', //bb31
+	'NOTIFICATION_TYPE_REPORT'							=> 'Someone reports a post', //bb31
+	'NOTIFICATION_TYPE_TOPIC'				   			=> 'Someone creates a topic in a forum to which you are subscribed', //bb31
+	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Newly registered user requiring activation', //bb31
+	
 	'NOTIFY_METHOD'					=> 'Értesítés módja',
 	'NOTIFY_METHOD_BOTH'			=> 'Mindkettő',
 	'NOTIFY_METHOD_EMAIL'			=> 'Csak e-mail',
@@ -293,8 +350,10 @@ $lang = array_merge($lang, array(
 	'NOT_ADDED_FOES_SELF'			=> 'Nem veheted fel saját magad a haragosaid listájára.',
 	'NOT_AGREE'						=> 'Nem fogadom el a feltételeket',
 	'NOT_ENOUGH_SPACE_FOLDER'		=> 'A célmappa („%s”) teli van. A végrehajtani kívánt művelet nem került elvégzésre.',
-	'NOT_MOVED_MESSAGE'				=> 'Teli mappa miatt jelenleg 1 privát üzenet van visszatartva.', //?
-	'NOT_MOVED_MESSAGES'			=> 'Teli mappa miatt jelenleg %d privát üzenet van visszatartva.',
+	'NOT_MOVED_MESSAGES'			=> array(
+		1	=> 'Teli mappa miatt jelenleg %d privát üzenet van visszatartva.', //?
+		2	=> 'Teli mappa miatt jelenleg %d privát üzenet van visszatartva.',
+	),
 	'NO_ACTION_MODE'				=> 'Nem adtál meg semmilyen teendőt.',
 	'NO_AUTHOR'						=> 'Az üzenethez nem tartozik feladó.', //? "No author defined for this message"
 	'NO_AVATAR_CATEGORY'			=> 'Nincs',
@@ -304,6 +363,7 @@ $lang = array_merge($lang, array(
 	'NO_AUTH_FORWARD_MESSAGE'		=> 'Nincs jogosultságod privát üzenetet továbbítani.',
 	'NO_AUTH_GROUP_MESSAGE'			=> 'Nincs jogosultságod privát üzenet küldeni csoportok részére.',
 	'NO_AUTH_PASSWORD_REMINDER'		=> 'Nincs jogosultságod új jelszót kérni.',
+	'NO_AUTH_PROFILEINFO'			=> 'You are not authorised to change your profile information.', //bb31
 	'NO_AUTH_READ_HOLD_MESSAGE'		=> 'Nincs jogosultságod visszatartott privát üzenetet olvasni.',
 	'NO_AUTH_READ_MESSAGE'			=> 'Nincs jogosultságod privát üzenetek megtekintéséhez.',
 	'NO_AUTH_READ_REMOVED_MESSAGE'	=> 'Ezt az üzenetet nem tudod elolvasni, mivel a küldője törölte.',
@@ -334,10 +394,10 @@ $lang = array_merge($lang, array(
 	'NO_WATCHED_SELECTED'		=> 'Nem választottál ki egy témát vagy fórumot se, melyre fel vagy iratkozva.',
 	'NO_WATCHED_TOPICS'			=> 'Nem iratkoztál fel egy témára se.',
 
-	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'A jelszó hosszának %1$d és %2$d karakter között kell lennie, szerepelnie kell benne kis- és nagybetűknek egyaránt, valamint tartalmaznia kell számokat.',
-	'PASS_TYPE_ANY_EXPLAIN'		=> 'A hosszának %1$d és %2$d karakter között kell lennie.', //?
-	'PASS_TYPE_CASE_EXPLAIN'	=> 'A jelszó hosszának %1$d és %2$d karakter között kell lennie, valamint szerepelnie kell benne kis- és nagybetűknek egyaránt.',
-	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'A jelszó hosszának %1$d és %2$d karakter között kell lennie, szerepelnie kell benne kis- és nagybetűknek egyaránt, valamint tartalmaznia kell számokat és speciális karaktereket is.', //? symbols = speciális karakterek? gondolom...
+	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'A jelszó hosszának %1$d és %2$d között kell lennie, szerepelnie kell benne kis- és nagybetűknek egyaránt, valamint tartalmaznia kell számokat.',
+	'PASS_TYPE_ANY_EXPLAIN'		=> 'A hosszának %1$d és %2$d között kell lennie.', //?
+	'PASS_TYPE_CASE_EXPLAIN'	=> 'A jelszó hosszának %1$d és %2$d között kell lennie, valamint szerepelnie kell benne kis- és nagybetűknek egyaránt.',
+	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'A jelszó hosszának %1$d és %2$d között kell lennie, szerepelnie kell benne kis- és nagybetűknek egyaránt, valamint tartalmaznia kell számokat és speciális karaktereket is.', //? symbols = speciális karakterek? gondolom...
 	'PASSWORD'					=> 'Jelszó',
 	'PASSWORD_ACTIVATED'		=> 'Az új jelszavad aktiválásra került.',
 	'PASSWORD_UPDATED'			=> 'Az új jelszavad elküldésre került az e-mail címedre.',
@@ -354,7 +414,6 @@ $lang = array_merge($lang, array(
 	'PM_SUBJECT'				=> 'Téma',
 	'PM_TO'						=> 'Címzett:', //? "send to" - pl. kettőspont?
 	'PM_USERS_REMOVED_NO_PM'	=> 'Nem mindegyik felhasználót sikerült hozzáadni, mivel nem mindenki engedélyezte privát üzenetek fogadását.',
-	'POPUP_ON_PM'				=> 'Felugró ablak új privát üzenet érkezésekor',
 	'POST_EDIT_PM'				=> 'Üzenet szerkesztése',
 	'POST_FORWARD_PM'			=> 'Üzenet továbbítása',
 	'POST_NEW_PM'				=> 'Üzenet küldése',
@@ -366,6 +425,8 @@ $lang = array_merge($lang, array(
 	'PREFERENCES_UPDATED'		=> 'A beállításaid sikeresen frissítésre kerültek.', //? preferences
 	'PROFILE_INFO_NOTICE'		=> 'Kérjük, vedd figyelembe, hogy ezek az információk lehet, hogy a többi felhasználó számára is láthatóak lesznek. Légy óvatos bármilyen személyes adat megadásánál. A *-gal megjelölt mezők kitöltése kötelező.', //? "Be careful when including any personal details."
 	'PROFILE_UPDATED'			=> 'A profilod sikeresen frissítésre került.',
+	'PROFILE_AUTOLOGIN_KEYS'	=> 'The "Remember Me" login keys automatically log you in when you visit the board. If you logout, the remember me login key is deleted only on the computer you are using to logout. Here you can see remember login keys created on other computers you used to access this site.', //bb31
+	'PROFILE_NO_AUTOLOGIN_KEYS'	=> 'There are no saved "Remember Me" login keys.', //bb31
 
 	'RECIPIENT'							=> 'Címzett',
 	'RECIPIENTS'						=> 'Címzettek',
@@ -390,8 +451,10 @@ $lang = array_merge($lang, array(
 	'RULE_DELETED'						=> 'A szűrő sikeresen törlésre került.',
 	'RULE_LIMIT_REACHED'				=> 'Nem adhatsz hozzá további szűrőket, mert elérted a szűrők engedélyezett darabszámát.',
 	'RULE_NOT_DEFINED'					=> 'A szűrőt nem helyesen adtad meg.', //? "Rule not correctly specified"
-	'RULE_REMOVED_MESSAGE'				=> 'Egy privát üzenet törlésre került a szűrők következtében.', //? "One private message had been removed due to private message filters."
-	'RULE_REMOVED_MESSAGES'				=> '%d privát üzenet törlésre került a szűrők következtében.',
+	'RULE_REMOVED_MESSAGES'				=> array(
+		1	=> '%d privát üzenet törlésre került a szűrők következtében.',
+		2	=> '%d privát üzenet törlésre került a szűrők következtében.',
+	),
 
 	'SAME_PASSWORD_ERROR'		=> 'A megadott új jelszó megegyezik a jelenlegi jelszavaddal.',
 	'SEARCH_YOUR_POSTS'			=> 'Saját hozzászólások megtekintése',
@@ -401,6 +464,8 @@ $lang = array_merge($lang, array(
 	'SIGNATURE_EXPLAIN'			=> 'Az aláírás egy szöveg, melyet automatikusan hozzáfűzhetsz a hozzászólásaidhoz. Legfeljebb %d karakter hosszú lehet.',
 	'SIGNATURE_PREVIEW'			=> 'Így fog megjelenni az aláírásod a hozzászólásaidban',
 	'SIGNATURE_TOO_LONG'		=> 'Az aláírásod túl hosszú.',
+	'SELECT_CURRENT_TIME'		=> 'Select current time', //bb31
+	'SELECT_TIMEZONE'			=> 'Select timezone', //bb31
 	'SORT'						=> 'Rendezés', //?
 	'SORT_COMMENT'				=> 'Magyarázat',
 	'SORT_DOWNLOADS'			=> 'Letöltések száma', //? száma?
@@ -410,20 +475,33 @@ $lang = array_merge($lang, array(
 	'SORT_SIZE'					=> 'Állomány mérete',
 
 	'TIMEZONE'					=> 'Időzóna',
+	'TIMEZONE_DATE_SUGGESTION'	=> 'Suggestion: %s', //bb31
+	'TIMEZONE_INVALID'			=> 'The timezone you selected is invalid.', //bb31
 	'TO'						=> 'Címzett',
+	'TO_MASS'					=> 'Recipients', //bb31
+	'TO_ADD'					=> 'Add recipient', //bb31
+	'TO_ADD_MASS'				=> 'Add recipients', //bb31
+	'TO_ADD_GROUPS'				=> 'Add groups', //bb31
 	'TOO_MANY_RECIPIENTS'		=> 'Túl sok címzettet adtál meg.',
 	'TOO_MANY_REGISTERS'		=> 'Túllépted a legfeljebb engedélyezett regisztrációkísérletek számát. Kérjük, próbálkozz később.',
 
 	'UCP'						=> 'Felhasználói vezérlőpult',
 	'UCP_ACTIVATE'				=> 'Azonosító aktiválása',
 	'UCP_ADMIN_ACTIVATE'		=> 'Kérjük, vedd figyelembe, hogy egy valós e-mail címet kell megadnod, hogy az azonosítód aktiválva lehessen. Az adminisztrátor át fogja nézni az azonosítód, és ha jóváhagyja, kapni fogsz egy e-mailt a megadott címre.', //? "Please note that you will need to enter a valid email address before your account is activated. The administrator will review your account and if approved you will receive an email at the address you specified."
-	'UCP_AIM'					=> 'AOL Instant Messenger',
 	'UCP_ATTACHMENTS'			=> 'Csatolmányok',
+	'UCP_AUTH_LINK'				=> 'External accounts', //bb31
+	'UCP_AUTH_LINK_ASK'			=> 'You currently have no account associated with this external service. Click the button below to link your board account to an account with this external service.', //bb31
+	'UCP_AUTH_LINK_ID'			=> 'Unique identifier', //bb31
+	'UCP_AUTH_LINK_LINK'		=> 'Link', //bb31
+	'UCP_AUTH_LINK_MANAGE'		=> 'Manage external account associations', //bb31
+	'UCP_AUTH_LINK_NOT_SUPPORTED'	=> 'Linking board accounts to external services is not supported by this board’s current authentication method.', //bb31
+	'UCP_AUTH_LINK_TITLE'		=> 'Manage your external account associations', //bb31
+	'UCP_AUTH_LINK_UNLINK'		=> 'Unlink', //bb31
 	'UCP_COPPA_BEFORE'			=> '%s előtt',
 	'UCP_COPPA_ON_AFTER'		=> '%s-én vagy utána',
 	'UCP_EMAIL_ACTIVATE'		=> 'Kérjük, vedd figyelembe, hogy egy valós e-mail címet kell megadnod, hogy az azonosítód aktiválva lehessen. A regisztráció után kapni fogsz egy e-mailt a megadott címre, amely tartalmazni fogja az aktivációs linket.',
-	'UCP_ICQ'					=> 'ICQ azonosító',
 	'UCP_JABBER'				=> 'Jabber azonosító',
+	'UCP_LOGIN_LINK'			=> 'Set up an external account association', //bb31
 
 	'UCP_MAIN'					=> 'Áttekintés',
 	'UCP_MAIN_ATTACHMENTS'		=> 'Csatolmányok kezelése', //? kell a kezelése?? (szerintem nem annyira...)
@@ -432,8 +510,12 @@ $lang = array_merge($lang, array(
 	'UCP_MAIN_FRONT'			=> 'Kezdőlap', //? "Front page"
 	'UCP_MAIN_SUBSCRIBED'		=> 'Feliratkozások kezelése',
 
-	'UCP_MSNM'					=> 'WL/MSN Messenger',
 	'UCP_NO_ATTACHMENTS'		=> 'Nem töltöttél fel csatolmányt a fórumra.', //? "You have posted no files"
+	
+	'UCP_NOTIFICATION_LIST'				=> 'Manage notifications', //bb31
+	'UCP_NOTIFICATION_LIST_EXPLAIN'		=> 'Here you may view all past notifications.', //bb31
+	'UCP_NOTIFICATION_OPTIONS'			=> 'Edit notification options', //bb31
+	'UCP_NOTIFICATION_OPTIONS_EXPLAIN'	=> 'Here you can set your preferred notification methods for the board.', //bb31
 
 	'UCP_PREFS'					=> 'Fórum beállítások',
 	'UCP_PREFS_PERSONAL'		=> 'Általános beállítások szerkesztése', //? kell a szerkesztése?? - és a beállítások?
@@ -444,8 +526,6 @@ $lang = array_merge($lang, array(
 	'UCP_PM_COMPOSE'			=> 'Üzenet írása',
 	'UCP_PM_DRAFTS'				=> 'PÜ piszkozatok kezelése',
 	'UCP_PM_OPTIONS'			=> 'Szűrők, mappák és beállítások',
-	'UCP_PM_POPUP'				=> 'Privát üzenetek',
-	'UCP_PM_POPUP_TITLE'		=> 'Privát üzenet felugró ablak',
 	'UCP_PM_UNREAD'				=> 'Olvasatlan üzenet',
 	'UCP_PM_VIEW'				=> 'Üzenetek megtekintése',
 
@@ -454,16 +534,17 @@ $lang = array_merge($lang, array(
 	'UCP_PROFILE_PROFILE_INFO'	=> 'Profil szerkesztése',
 	'UCP_PROFILE_REG_DETAILS'	=> 'Azonosító beállítások szerkesztése', //? "Edit account settings"
 	'UCP_PROFILE_SIGNATURE'		=> 'Aláírás szerkesztése',
+	'UCP_PROFILE_AUTOLOGIN_KEYS'=> 'Manage “Remember Me” login keys', //bb31
 
 	'UCP_USERGROUPS'			=> 'Csoportok',
 	'UCP_USERGROUPS_MEMBER'		=> 'Tagságok szerkesztése',
 	'UCP_USERGROUPS_MANAGE'		=> 'Csoportok kezelése',
 
+	'UCP_PASSWORD_RESET_DISABLED'	=> 'The password reset functionality has been disabled. If you need help accessing your account, please contact the %sBoard Administrator%s', //bb31
 	'UCP_REGISTER_DISABLE'			=> 'Jelenleg nem lehet létrehozni új azonosítót.',
 	'UCP_REMIND'					=> 'Jelszó elküldése',
 	'UCP_RESEND'					=> 'Aktivációs e-mail elküldése',
 	'UCP_WELCOME'					=> 'Köszöntünk a felhasználói vezérlőpulton! Itt megtekintheted, illetve megváltoztathatod a profilodat, a fórum beállításaidat és a feliratkozásaidat. Privát üzenetet is küldhetsz más felhasználóknak (ha engedélyezve van). Mielőtt továbblépnél, kérünk győződj meg róla, hogy elolvastad a közleményeket.', //? Légy köszöntve a felhasználói vezérlőpulton! üdvözlünk? "Welcome to the User Control Panel. From here you can monitor, view and update your profile, preferences, subscribed forums and topics. You can also send messages to other users (if permitted). Please ensure you read any announcements before continuing."
-	'UCP_YIM'						=> 'Yahoo Messenger',
 	'UCP_ZEBRA'						=> 'Barátok és haragosok',
 	'UCP_ZEBRA_FOES'				=> 'Haragosok kezelése',
 	'UCP_ZEBRA_FRIENDS'				=> 'Barátok kezelése',
@@ -473,12 +554,12 @@ $lang = array_merge($lang, array(
 	'UPLOAD_AVATAR_FILE'			=> 'Feltöltés a számítógépről',
 	'UPLOAD_AVATAR_URL'				=> 'Feltöltés webcímről',
 	'UPLOAD_AVATAR_URL_EXPLAIN'		=> 'Add meg a kép URL-jét (webcímét). A kép átmásolásra kerül erre az oldalra.',
-	'USERNAME_ALPHA_ONLY_EXPLAIN'	=> 'A felhasználónév hosszának %1$d és %2$d karakter között kell lennie, és csak alfanumerikus karaktereket tartalmazhat.', //? ez egy phpBB beli bug? - mindenesetre maradt az eredeti angol szöveg
-	'USERNAME_ALPHA_SPACERS_EXPLAIN'=> 'A felhasználónév hosszának %1$d és %2$d karakter között kell lennie, valamint csak alfanumerikus karaktereket, szóközt és -+_[] jeleket tartalmazhat.',
-	'USERNAME_ASCII_EXPLAIN'		=> 'A felhasználónév hosszának %1$d és %2$d karakter között kell lennie, valamint csak ASCII karaktereket tartalmazhat, tehát ékezetes betűket és szimbólumokat nem.',
-	'USERNAME_LETTER_NUM_EXPLAIN'	=> 'A felhasználónév hosszának %1$d és %2$d karakter között kell lennie, valamint csak betűket és számokat tartalmazhat.',
-	'USERNAME_LETTER_NUM_SPACERS_EXPLAIN'=> 'A felhasználónév hosszának %1$d és %2$d karakter között kell lennie, valamint csak betűket, számokat, szóközt és -+_[] jeleket tartmazhat.',
-	'USERNAME_CHARS_ANY_EXPLAIN'	=> 'A hosszának %1$d és %2$d karakter között kell lennie.',
+	'USERNAME_ALPHA_ONLY_EXPLAIN'	=> 'A felhasználónév hosszának %1$s és %2$s között kell lennie, és csak alfanumerikus karaktereket tartalmazhat.', //? ez egy phpBB beli bug? - mindenesetre maradt az eredeti angol szöveg
+	'USERNAME_ALPHA_SPACERS_EXPLAIN'=> 'A felhasználónév hosszának %1$s és %2$s között kell lennie, valamint csak alfanumerikus karaktereket, szóközt és -+_[] jeleket tartalmazhat.',
+	'USERNAME_ASCII_EXPLAIN'		=> 'A felhasználónév hosszának %1$s és %2$s között kell lennie, valamint csak ASCII karaktereket tartalmazhat, tehát ékezetes betűket és szimbólumokat nem.',
+	'USERNAME_LETTER_NUM_EXPLAIN'	=> 'A felhasználónév hosszának %1$s és %2$s között kell lennie, valamint csak betűket és számokat tartalmazhat.',
+	'USERNAME_LETTER_NUM_SPACERS_EXPLAIN'=> 'A felhasználónév hosszának %1$s és %2$s között kell lennie, valamint csak betűket, számokat, szóközt és -+_[] jeleket tartmazhat.',
+	'USERNAME_CHARS_ANY_EXPLAIN'	=> 'A hosszának %1$s és %2$s között kell lennie.',
 	'USERNAME_TAKEN_USERNAME'		=> 'A megadott felhasználónév már használatban van, kérünk válassz másikat.',
 	'USERNAME_DISALLOWED_USERNAME'	=> 'A megadott felhasználónév le lett tiltva vagy nem engedélyezett szót tartalmaz. Kérünk válassz egy másik nevet.',
 	'USER_NOT_FOUND_OR_INACTIVE'	=> 'A megadott felhasználónévek nem találhatók, vagy még nem aktivált felhsználók.', //?
@@ -492,8 +573,10 @@ $lang = array_merge($lang, array(
 	'VIEW_NEXT_PM'				=> 'Következő PÜ',
 	'VIEW_PM'					=> 'Üzenet megtekintése',
 	'VIEW_PM_INFO'				=> 'Üzenet adatok',
-	'VIEW_PM_MESSAGE'			=> '1 üzenet',
-	'VIEW_PM_MESSAGES'			=> '%d üzenet',
+	'VIEW_PM_MESSAGES'			=> array(
+		1	=> '%d üzenet',
+		2	=> '%d üzenet',
+	),
 	'VIEW_PREVIOUS_HISTORY'		=> 'Előző kapcsolódó PÜ',
 	'VIEW_PREVIOUS_PM'			=> 'Előző PÜ',
 	'VIEW_SIGS'					=> 'Aláírások megjelenítése',
@@ -560,5 +643,3 @@ $lang = array_merge($lang, array(
 	'NO_PENDING'	=> 'Nincs függő csoporttagság.', //?
 	'NO_NONMEMBER'	=> 'Nincs olyan csoport, melynek nem vagy tagja.', //?
 ));
-
-?>

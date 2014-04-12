@@ -62,5 +62,3 @@ $lang = array_merge($lang, array(
 	'QA_LAST_QUESTION'			=> 'Nem törölheted az összes kérdést, amíg a bővítmény aktív.',
 
 ));
-
-?>
