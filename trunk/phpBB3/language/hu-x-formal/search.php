@@ -71,7 +71,10 @@ $lang = array_merge($lang, array(
 	'NO_RECENT_SEARCHES'	=> 'Nem történt keresés a közelmúltban.',
 	'NO_SEARCH'				=> 'Sajnos az ön számára nem engedélyezett a kereső használata.',
 	'NO_SEARCH_RESULTS'		=> 'Nincs a keresési feltételeknek megfelelő találat.', //? "No suitable matches were found."
-	'NO_SEARCH_TIME'		=> 'Most nem használhatja a keresőt. Kérjük, próbálkozzon újra pár perc múlva.',
+	'NO_SEARCH_TIME'		=> array(
+		1	=> 'Most nem használhatja a keresőt. Kérjük, próbálkozzon újra %d másodperc múlva.',
+		2	=> 'Most nem használhatja a keresőt. Kérjük, próbálkozzon újra %d másodperc múlva.',
+	),
 	'NO_SEARCH_UNREADS'		=> 'Sajnos az olvasatlan hozzászólásokra való keresés ki van kapcsolva ezen a fórumon.',
 	'WORD_IN_NO_POST'		=> 'Nincs találat, mivel a <strong>%s</strong> szót nem tartalmazza egy hozzászólás sem.',
 	'WORDS_IN_NO_POST'		=> 'Nincs találat, mivel a <strong>%s</strong> szavakat nem tartalmazza egy hozzászólás sem.',

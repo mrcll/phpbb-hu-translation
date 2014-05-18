@@ -242,9 +242,6 @@ $lang = array_merge($lang, array(
 	'EXPORT_DOWNLOAD'		=> 'Letöltés',
 	'EXPORT_STORE'			=> 'Eltárolás',
 
-	'FILES_GONE'			=> 'Some of the attachments you selected for deletion do not exist. They may have been already deleted. Attachments that did exist were deleted.', //bb31
-	'FILES_STATS_WRONG'		=> 'Your files statistics are probably inaccurate and need to be resynchronised. Actual values: number of attachments = %1$d, total size of attachments = %2$s.', //bb31
-
 	'GENERAL_OPTIONS'		=> 'Általános beállítások', //? "General options" 'Általános választási lehetőségek'??
 	'GENERAL_SETTINGS'		=> 'Általános beállítások',
 	'GLOBAL_MASK'			=> 'Globális effektív jogosultságok', //? "Global permission mask"
@@ -287,8 +284,6 @@ $lang = array_merge($lang, array(
 
 	'REMIND'							=> 'Emlékeztetés',
 	'RESYNC'							=> 'Újraszinkronizálás',
-	'RESYNC_FILES_STATS'				=> 'Resynchronise files statistics', //bb31
-	'RESYNC_FILES_STATS_EXPLAIN'		=> 'Recalculates the total number and size of files attached to posts and private messages.', //bb31
 
 	'SELECT_ANONYMOUS'		=> 'Vendég felhasználó kiválasztása',
 	'SELECT_OPTION'			=> 'Opció kiválasztása',
@@ -388,8 +383,7 @@ $lang = array_merge($lang, array(
 	'RESET_DATE_SUCCESS'				=> 'Board’s start date reset', //bb31
 	'RESET_ONLINE'					=> 'Valaha jelenlévő legtöbb felhasználó számának lenullázása', //?
 	'RESET_ONLINE_CONFIRM'			=> 'Biztosan le akarod nullázni a valaha jelenlévő legtöbb felhasználó számlálót?',
-	'RESET_ONLINE_SUCCESS'				=> 'Most users ever online reset', //bb31
-	'RESYNC_FILES_STATS_CONFIRM'	=> 'Are you sure you wish to resynchronise files statistics?', //bb31
+	'RESET_ONLINE_SUCCESS'				=> 'Most users ever online reset', //bb31	
 	'RESYNC_POSTCOUNTS'				=> 'Hozzászólásszámok újraszinkronizálása', //? hozzászólásszámok...
 	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Csak a létező hozzászólások kerülnek figyelembevételre. Az automatikus tisztítás által törölt hozzászólások nem lesznek beleszámolva.', //?
 	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Biztosan újra akarod szinkronizálni a hozzászólásszámokat?',
@@ -561,7 +555,7 @@ $lang = array_merge($lang, array(
 	'LOG_PM_REPORT_CLOSED'		=> '<strong>PÜ jelentés lezárása</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'		=> '<strong>PÜ jelentés törlése</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>Hozzászólás jóváhagyása</strong><br />» %s',
-	'LOG_POST_DISAPPROVED'		=> '<strong>„%1$s” hozzászólás elutasítása</strong><br />» ok: %2$s',
+	'LOG_POST_DISAPPROVED'		=> '<strong>Disapproved post “%1$s” written by “%3$s” for the following reason</strong><br />» %2$s', //bb31 <strong>„%1$s” hozzászólás elutasítása</strong><br />» ok: %2$s',
 	'LOG_POST_EDITED'			=> '<strong>„%1$s” hozzászólás szerkesztése</strong><br />» szerző: %2$s',
 	'LOG_POST_RESTORED'			=> '<strong>Restored post</strong><br />» %s', //bb31
 	'LOG_REPORT_CLOSED'			=> '<strong>Jelentés lezárása</strong><br />» %s',
@@ -680,6 +674,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_PRUNE'					=> '<strong>Fórumok megtisztítása</strong><br />» %s',
 	'LOG_AUTO_PRUNE'			=> '<strong>Fórumok automatikus tisztítása</strong><br />» %s',
+	'LOG_PRUNE_SHADOW'		=> '<strong>Auto-pruned shadow topics</strong><br />» %s', //bb31
 	'LOG_PRUNE_USER_DEAC'		=> '<strong>Felhasználók deaktiválása</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_DEL'	=> '<strong>Felhasználók megtisztítása – törölt felhasználók hozzászólásainak törlése</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_ANON'	=> '<strong>Felhasználók megtisztítása – törölt felhasználók hozzászólásainak megtartása</strong><br />» %s',
@@ -698,7 +693,7 @@ $lang = array_merge($lang, array(
 	'LOG_REFERER_INVALID'		=> '<strong>Sikertelen referer összevetés</strong><br />»Referer értéke: “<em>%1$s</em>”. A kérés visszautasításra került, a munkamenet meg lett szüntetve.',
 	'LOG_RESET_DATE'			=> '<strong>Fórum indulási dátumának lenullázása</strong>',
 	'LOG_RESET_ONLINE'			=> '<strong>Valaha jelenlévő legtöbb felhasználó számának lenullázása</strong>',
-	'LOG_RESYNC_FILES_STATS'	=> '<strong>Files statistics resynchronised</strong>', //bb31
+	'LOG_RESYNC_FILES_STATS'	=> '<strong>File statistics resynchronised</strong>', //bb31
 	'LOG_RESYNC_POSTCOUNTS'		=> '<strong>Felhasználói hozzászólásszámok újraszinkronizálása</strong>', //?
 	'LOG_RESYNC_POST_MARKING'	=> '<strong>Csillagozott témák újraszinkronizálása</strong>',
 	'LOG_RESYNC_STATS'			=> '<strong>Hozzászólás, téma és felhasználói statisztikák újraszinkronizálása</strong>',
@@ -778,7 +773,10 @@ $lang = array_merge($lang, array(
 	'LOG_USER_GROUP_RESIGN'			=> '<strong>Lemondás a csoporttagságról:</strong><br />» %s',
 
 	'LOG_WARNING_DELETED'		=> '<strong>Felhasználó figyelmeztetésének törlése</strong><br />» %s',
-	'LOG_WARNINGS_DELETED'		=> '<strong>Felhasználó %2$s figyelmeztetésének törlése</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+	'LOG_WARNINGS_DELETED'		=> array(
+		1 => '<strong>Felhasználó figyelmeztetésének törlése</strong><br />» %1$s',
+		2 => '<strong>Felahsználó %2$d figyelmeztetésének törlése</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+	),
 	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>Felhasználó összes figyelmeztetésének törlése</strong><br />» %s',
 
 	'LOG_WORD_ADD'			=> '<strong>Cenzúrázott szó hozzáadása</strong><br />» %s',

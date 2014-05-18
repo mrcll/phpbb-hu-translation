@@ -10,5 +10,4 @@ A következő linkre kattintva a felhasználó profiljához jut:
 A következő linkkel tudja aktiválni az azonosítót:
 {U_ACTIVATE}
 
-
 {EMAIL_SIG}

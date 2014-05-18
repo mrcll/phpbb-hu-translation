@@ -1,5 +1,5 @@
 <?php
-/** 
+/**
 *
 * acp_attachments [Hungarian]
 *
@@ -87,7 +87,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_INLINED_EXPLAIN'		=> 'Ha nemre van állítva, a kép csatolmányok linkként fognak megjelenni.',
 	'DISPLAY_ORDER'					=> 'Csatolmányok megjelenítési sorrendje', //?
 	'DISPLAY_ORDER_EXPLAIN'			=> 'A csatolmányok a feltöltés ideje szerint kerülnek rendezésre.', //? jelentés
-	
+
 	'EDIT_EXTENSION_GROUP'			=> 'Kiterjesztéscsoport szerkesztése',
 	'EXCLUDE_ENTERED_IP'			=> 'Állítsd igenre, hogy a megadott IP/hosztnév kizárásra kerüljön.',
 	'EXCLUDE_FROM_ALLOWED_IP'		=> 'IP-cím kizárása az engedélyezett IP-k/hosztnevek közül',
@@ -108,9 +108,12 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_QUICKTIME_MEDIA'		=> 'Quicktime média',
 	'EXT_GROUP_REAL_MEDIA'			=> 'Real média',
 	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Windows média',
-	
+
 	'GO_TO_EXTENSIONS'		=> 'Ugrás a kiterjesztések kezeléséhez',
 	'GROUP_NAME'			=> 'Csoport neve',
+
+	'FILES_GONE'			=> 'Some of the attachments you selected for deletion do not exist. They may have been already deleted. Attachments that did exist were deleted.', //bb31
+	'FILES_STATS_WRONG'		=> 'Your file statistics are likely inaccurate and need to be resynchronised. Actual values: number of attachments = %1$d, total size of attachments = %2$s.<br />Click %3$shere%4$s to resynchronise them.',	//bb31
 
 	'IMAGE_LINK_SIZE'			=> 'Linkkép méret', //? "Image link dimensions"
 	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Ha a csatolt kép ennél nagyobb, akkor csak egy link lesz megjelenítve hozzá, ahelyett, hogy közvetlenül szerepelne a hozzászólásban. A funkció kikapcsolásához állítsd mindkét értéket 0-ra.',
@@ -132,6 +135,7 @@ $lang = array_merge($lang, array(
 	'NOT_ALLOWED_IN_PM'			=> 'Csak hozzászólásokban engedélyezett',
 	'NOT_ALLOWED_IN_PM_POST'	=> 'Nem engedélyezett',
 	'NOT_ASSIGNED'				=> 'Nincs hozzárendelve',
+	'NO_ATTACHMENTS'			=> 'No attachments found for this period.', //bb31
 	'NO_EXT_GROUP'				=> 'Nincs',
 	'NO_EXT_GROUP_NAME'			=> 'A csoport neve nem lett megadva.',
 	'NO_EXT_GROUP_SPECIFIED'	=> 'Nem lett megadva kiterjesztéscsoport.',
@@ -147,6 +151,7 @@ $lang = array_merge($lang, array(
 
 	'REMOVE_ALLOWED_IPS'		=> '<em>Engedélyezett</em> IP-k/hosztnevek eltávolítása vagy kizárásuk megszüntetése',
 	'REMOVE_DISALLOWED_IPS'		=> '<em>Nem engedélyezett</em> IP-k/hosztnevek eltávolítása vagy kizárásuk megszüntetése',
+	'RESYNC_FILES_STATS_CONFIRM'	=> 'Are you sure you wish to resynchronise file statistics?', //nn31
 
 	'SEARCH_IMAGICK'				=> 'Imagemagick keresése',
 	'SECURE_ALLOW_DENY'				=> 'Engedélyezettek/tiltottak listája',

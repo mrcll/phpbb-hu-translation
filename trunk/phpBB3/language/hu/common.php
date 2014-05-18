@@ -165,6 +165,7 @@ $lang = array_merge($lang, array(
 	'CONGRATULATIONS'		=> 'Gratulálunk',
 	'CONNECTION_FAILED'		=> 'Sikertelen kapcsolódási kísérlet',
 	'CONNECTION_SUCCESS'	=> 'Sikerült csatlakozni!',
+	'CONTACT_USER'			=> 'Contact', //bb31
 	'COOKIES_DELETED'		=> 'A fórum sütijei törlésre kerültek.',
 	'CURRENT_TIME'			=> 'Pontos idő: %s',
 
@@ -215,8 +216,6 @@ $lang = array_merge($lang, array(
 	'ERROR'									=> 'Error', //bb31
 	'EXPAND_VIEW'						=> 'Kinyitás',
 	'EXTENSION'							=> 'Kiterjesztés',
-	'EXTENSION_CONTROLLER_MISSING'		=> 'The extension <strong>%s</strong> is missing a controller class and cannot be accessed through the front-end.', //bb31
-	'EXTENSION_CLASS_WRONG_TYPE'		=> 'The extension controller class <strong>%s</strong> is not an instance of the phpbb_extension_controller_interface.', //bb31
 	'EXTENSION_DISABLED'				=> 'The extension <strong>%s</strong> is not enabled.', //bb31
 	'EXTENSION_DISABLED_AFTER_POSTING'	=> 'A <b>%s</b> kiterjesztés deaktiválva lett, ezért a csatolmány nem kerül megjelenítésre.',
 	'EXTENSION_DOES_NOT_EXIST'			=> 'The extension <strong>%s</strong> does not exist.', //bb31
@@ -348,6 +347,7 @@ $lang = array_merge($lang, array(
 	'LDAP_NO_SERVER_CONNECTION'			=> 'Nem sikerült csatlakozni az LDAP szerverhez.',
 	'LDAP_SEARCH_FAILED'				=> 'Hiba történt az LDAP könyvtár keresése közben.',
 	'LEGEND'							=> 'Magyarázat',
+	'LIVE_SEARCHES_NOT_ALLOWED'			=> 'Live searches are not allowed.', //bb31
 	'LOADING'							=> 'Loading', //bb31
 	'LOCATION'							=> 'Tartózkodási hely',
 	'LOCK_POST'							=> 'Hozzászólás lezárása',
@@ -422,14 +422,16 @@ $lang = array_merge($lang, array(
 	'NOT_WATCHING_FORUM'		=> 'Sikeresen leiratkoztál a fórumról.',
 	'NOT_WATCHING_TOPIC'		=> 'Sikeresen leiratkoztál a témáról.',
 	'NOTIFICATIONS'				=> 'Notifications', //bb31
-	// This applies for NOTIFICATION_BOOKMARK, NOTIFICATION_POST, and NOTIFICATION_QUOTE.
+	// This applies for NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	// %1$s will return a list of users that's concatenated using "," and "and" - see STRING_LIST
 	// Once the user count reaches 5 users or more, the list is trimmed using NOTIFICATION_X_OTHERS
+	// Once the user count reaches 20 users or more, the list is trimmed using NOTIFICATION_MANY_OTHERS
 	// Examples:
 	// A replied...
 	// A and B replied...
 	// A, B and C replied...
 	// A, B, C and 2 others replied...
+	// A, B, C and others replied...
 	'NOTIFICATION_BOOKMARK'				=> array( //bb31
 		1	=> '%1$s replied to the topic “%2$s” you have bookmarked.',
 	),
@@ -454,7 +456,8 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> 'A new topic titled "%2$s" was posted by %1$s and needs approval.', //bb31
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'The notification type "%s" is missing from the file system.', //bb31
 	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> 'The user “%1$s” is newly registered and requires activation.', //bb31
-	// Used in conjuction with NOTIFICATION_BOOKMARK, NOTIFICATION_POST, and NOTIFICATION_QUOTE.
+		// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
+	'NOTIFICATION_MANY_OTHERS'			=> 'others', //bb31
 	'NOTIFICATION_X_OTHERS'				=> array(
 		2	=> '%d others', //bb31
 	),
@@ -757,7 +760,7 @@ $lang = array_merge($lang, array(
 	),
 	'TRACKED_PHP_ERROR'	=> 'PHP hibák: %s',
 
-	'UNABLE_GET_IMAGE_SIZE'	=> 'Nem sikerült meghatározni a kép méretét.',
+	'UNABLE_GET_IMAGE_SIZE'	=> 'Nem sikerült meghatározni a kép méretét. Please verify that the URL you entered is correct.', //bb31
 	'UNABLE_TO_DELIVER_FILE'=> 'Nem sikerült elküldeni az állományt.',
 	'UNKNOWN_BROWSER'		=> 'Ismeretlen böngésző',
 	'UNMARK_ALL'			=> 'Összes kijelölésének megszüntetése',

@@ -10,5 +10,4 @@ A neked szóló e-mail a következő:
 
 {MESSAGE}
 
-
 {EMAIL_SIG}
