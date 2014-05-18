@@ -49,7 +49,6 @@ $lang = array_merge($lang, array(
 	'BEFORE'				=> 'Korábban mint', //?
 
 	'CC_EMAIL'				=> 'Másolat küldése magadnak',
-	'CONTACT_USER'			=> 'Kapcsolat:',
 
 	'DEST_LANG'				=> 'Nyelv',
 	'DEST_LANG_EXPLAIN'		=> 'Válassz ki egy az üzenet címzettjének megfelelő nyelvet (ha elérhető).',

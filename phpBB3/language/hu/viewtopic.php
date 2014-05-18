@@ -60,7 +60,7 @@ $lang = array_merge($lang, array(
 		1	=> 'A hozzászólást %1$d alkalommal szerkesztették, utoljára %2$s %3$s-kor.', //? 'Utoljára %1$s szerkesztette %2$s-kor; szerkesztések száma: %3$d.'
 		2	=> 'A hozzászólást %1$d alkalommal szerkesztették, utoljára %2$s %3$s-kor.',
 	),
-	'EMAIL_TOPIC'			=> 'Barát értesítése e-mailben',
+	'EMAIL_TOPIC'			=> 'Barát értesítése e-mailben', //bb31 email friend -> email topic
 	'ERROR_NO_ATTACHMENT'	=> 'A csatolmány már nem létezik.',
 
 	'FILE_NOT_FOUND_404'	=> 'A <strong>%s</strong> fájl nem létezik.',

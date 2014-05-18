@@ -412,6 +412,8 @@ $lang = array_merge($lang, array(
 	'PM_SENTBOX'				=> 'Elküldött',
 	'PM_SUBJECT'				=> 'Téma',
 	'PM_TO'						=> 'Címzett:', //? "send to" - pl. kettőspont?
+	'PM_TOOLS'					=> 'Message tools', //bb31
+	'PM_USERS_REMOVED_NO_PERMISSION'	=> 'Some users couldn’t be added as they do not have permission to read private messages.', //bb31
 	'PM_USERS_REMOVED_NO_PM'	=> 'Nem mindegyik felhasználót sikerült hozzáadni, mivel nem mindenki engedélyezte privát üzenetek fogadását.',
 	'POST_EDIT_PM'				=> 'Üzenet szerkesztése',
 	'POST_FORWARD_PM'			=> 'Üzenet továbbítása',
@@ -603,14 +605,14 @@ $lang = array_merge($lang, array(
 		'PLACE_INTO_FOLDER'	=> 'áthelyezés',
 		'MARK_AS_READ'		=> 'megjelölés olvasottként',
 		'MARK_AS_IMPORTANT'	=> 'megjelölés fontosként',
-		'DELETE_MESSAGE'	=> 'törlés'
+		'DELETE_MESSAGE'	=> 'törlés',
 	),
 	'PM_CHECK' => array(
 		'SUBJECT'	=> 'Ha a téma',
 		'SENDER'	=> 'Ha a küldő',
 		'MESSAGE'	=> 'Ha az üzenet tartalma',
 		'STATUS'	=> 'Ha az üzenet állapota',
-		'TO'		=> 'Ha a címzett'
+		'TO'		=> 'Ha a címzett',
 	),
 	'PM_RULE' => array(
 		'IS_LIKE'		=> 'hasonlít a következőre:',
@@ -626,7 +628,7 @@ $lang = array_merge($lang, array(
 		'ANSWERED'		=> 'megválaszolt',
 		'FORWARDED'		=> 'továbbküldött',
 		'TO_GROUP'		=> 'az elsődleges csoportom',
-		'TO_ME'			=> 'én vagyok'
+		'TO_ME'			=> 'én vagyok',
 	),
 
 

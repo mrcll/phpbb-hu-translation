@@ -429,6 +429,6 @@ $lang = array_merge($lang, array(
 			'SPAM'		=> 'Az üzenet egyetlen célja egy weboldal vagy egy termék reklámozása.',
 			'OFF_TOPIC'	=> 'Az üzenet nem kapcsolódik a témához.',
 			'OTHER'		=> 'Az üzenet nem tartozik semelyik másik kategóriába, kérjük, töltsd ki a további információ mezőt.' //? idézőjelek a további információ köré (+ esetleg további információk)?
-		)
+		),
 	),
 ));
