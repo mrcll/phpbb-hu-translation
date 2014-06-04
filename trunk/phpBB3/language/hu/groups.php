@@ -1,14 +1,17 @@
 <?php
-/** 
+/**
+* This file is part of the phpBB Forum Software package.
 *
-* groups [Hungarian]
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
 *
-* @package language
-* @version $Id$
-* @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
-* Original copyright: (c) 2005 phpBB Group
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
+* Magyar fordítás (c) 2007-2014 „Magyar phpBB Közösség fordítók”,
+* http://phpbb.hu
+*
+* $Id$
 */
 
 /**
@@ -44,18 +47,18 @@ $lang = array_merge($lang, array(
 	'CANNOT_JOIN_GROUP'			=> 'Nem tudsz csatlakozni ehhez a csoporthoz. Csak nyitott és szabadon nyitott csoportokhoz csatlakozhatsz.',
 	'CANNOT_RESIGN_GROUP'		=> 'Nem tudod lemondani a csoporttagságod ebben a csoportban. Csak nyitott és szabadon nyitott csoportokból léphetsz ki.',
 	'CHANGED_DEFAULT_GROUP'		=> 'Az elsődleges csoport sikeresen megváltoztatásra került.',
-	
-	'GROUP_AVATAR'						=> 'Csoport avatar', 
+
+	'GROUP_AVATAR'						=> 'Csoport avatar',
 	'GROUP_CHANGE_DEFAULT'				=> 'Biztosan meg akarod változtatni az elsődleges csoportodat a „%s” csoportra?',
 	'GROUP_CLOSED'						=> 'Zárt',
 	'GROUP_DESC'						=> 'Csoport leírás',
 	'GROUP_HIDDEN'						=> 'Rejtett',
-	'GROUP_INFORMATION'					=> 'Csoport információ', 
+	'GROUP_INFORMATION'					=> 'Csoport információ',
 	'GROUP_IS_CLOSED'					=> 'Ez egy zárt csoport: új tagok csak a csoportvezető meghívására tudnak csatlakozni.',
-	'GROUP_IS_FREE'						=> 'Ez egy teljesen nyitott csoport: minden új tagot szívesen látnak.', //? 
+	'GROUP_IS_FREE'						=> 'Ez egy teljesen nyitott csoport: minden új tagot szívesen látnak.', //?
 	'GROUP_IS_HIDDEN'					=> 'Ez egy rejtett csoport: csak a csoport tagjai látják.',
 	'GROUP_IS_OPEN'						=> 'Ez egy nyitott csoport: felhasználók kérhetik a felvételüket.',
-	'GROUP_IS_SPECIAL'					=> 'Ez egy speciális csoport: a speciális csoportokat az adminisztrátor kezeli.', 
+	'GROUP_IS_SPECIAL'					=> 'Ez egy speciális csoport: a speciális csoportokat az adminisztrátor kezeli.',
 	'GROUP_JOIN'						=> 'Csatlakozás a csoporthoz',
 	'GROUP_JOIN_CONFIRM'				=> 'Biztosan csatlakozni akarsz a kiválasztott csoporthoz?',
 	'GROUP_JOIN_PENDING'				=> 'Tagság kérelmezése',
@@ -66,7 +69,7 @@ $lang = array_merge($lang, array(
 	'GROUP_MEMBERS'						=> 'Csoporttagok',
 	'GROUP_NAME'						=> 'Csoport neve',
 	'GROUP_OPEN'						=> 'Nyitott',
-	'GROUP_RANK'						=> 'Csoport rang', 
+	'GROUP_RANK'						=> 'Csoport rang',
 	'GROUP_RESIGN_MEMBERSHIP'			=> 'Lemondás a csoporttagságról',
 	'GROUP_RESIGN_MEMBERSHIP_CONFIRM'	=> 'Biztosan le akarod mondani a csoporttagságod a kiválasztott csoportban?',
 	'GROUP_RESIGN_PENDING'				=> 'Függő csoporttagság lemondása',
@@ -83,7 +86,7 @@ $lang = array_merge($lang, array(
 	'NOT_LEADER_OF_GROUP'			=> 'A kért művelet nem végezhető el, mivel nem vagy a kiválasztott csoport vezetője.',
 	'NOT_MEMBER_OF_GROUP'			=> 'A kért művelet nem végezhető el, mivel nem vagy a kiválasztott csoport tagja, vagy a csoporttagságod még nem lett jóváhagyva.',
 	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'Nem mondhatsz le a csoporttagságodról az elsődleges csoportodban.',
-	
+
 	'PRIMARY_GROUP'		=> 'Elsődleges csoport',
 
 	'REMOVE_SELECTED'		=> 'Kiválasztottak törlése',

@@ -1,14 +1,17 @@
 <?php
-/** 
+/**
+* This file is part of the phpBB Forum Software package.
 *
-* acp_prune [Hungarian]
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
 *
-* @package language
-* @version $Id$
-* @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2 
-* Original copyright: (c) 2005 phpBB Group
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
+* Magyar fordítás (c) 2007-2014 „Magyar phpBB Közösség fordítók”,
+* http://phpbb.hu
+*
+* $Id$
 */
 
 /**
@@ -39,7 +42,7 @@ if (empty($lang) || !is_array($lang))
 // User pruning
 $lang = array_merge($lang, array(
 	'ACP_PRUNE_USERS_EXPLAIN'	=> 'Itt törölhetsz (vagy deaktiválhatsz) felhasználókat a fórumodról. Az azonosítók több különböző módon szűrhetők: hozzászólásszám, legutolsó aktivitás stb. alapján. Minden feltétel kombinálható, tehát például törölheteted csak azokat a felhasználókat, akik 2002-01-01 előtt voltak utoljára aktívak, és kevesebb mint 10 hozzászólásszal rendelkeznek. Use * as a wildcard for text fields. Feltételek helyett beírhatsz közvetlenül felhasználóneveket a szövegmezőbe, mindegyiket külön sorba. Vigyázz ezzel a funkcióval! Ha töröltél egy felhasználót, később nem lehet visszaállítani.', //bb31!  Use * as a wildcard for text fields.
-	
+
 	'CRITERIA'				=> 'Criteria', //bb31!
 
 	'DEACTIVATE_DELETE'			=> 'Deaktiválás vagy törlés',
@@ -51,7 +54,7 @@ $lang = array_merge($lang, array(
 	'JOINED_EXPLAIN'			=> 'Adj meg egy dátumot <kbd>ÉÉÉÉ-HH-NN</kbd> formátumban. You may use both fields to specify an interval, or leave one blank for an open date range.', //bb31!
 
 	'LAST_ACTIVE_EXPLAIN'		=> 'Adj meg egy dátumot <kbd>ÉÉÉÉ-HH-NN</kbd> formátumban. Ha <kbd>0000-00-00</kbd>-t adsz meg, a soha be nem lépett felhasználók kerülnek törlésre – ebben az esetben a korábban/későbben feltétel nem lesz figyelembe véve.',
-	
+
 	'POSTS_ON_QUEUE'			=> 'Posts Awaiting Approval', //bb31!
 	'PRUNE_USERS_GROUP_EXPLAIN'	=> 'Limit to users within the selected group.', //bb31!
 	'PRUNE_USERS_GROUP_NONE'	=> 'All groups', //bb31!

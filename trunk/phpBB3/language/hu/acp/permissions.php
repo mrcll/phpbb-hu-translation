@@ -1,14 +1,17 @@
 <?php
-/** 
+/**
+* This file is part of the phpBB Forum Software package.
 *
-* acp_permissions [Hungarian]
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
 *
-* @package language
-* @version $Id$
-* @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2 
-* Original copyright: (c) 2005 phpBB Group
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
+* Magyar fordítás (c) 2007-2014 „Magyar phpBB Közösség fordítók”,
+* http://phpbb.hu
+*
+* $Id$
 */
 
 /**
@@ -51,7 +54,7 @@ $lang = array_merge($lang, array(
 
 		<h2>Effektív jogosultságok</h2>
 		<p>Ezzel meg tudod nézni, hogy ténylegesen milyen jogosultságok érvényesülnek.</p>
-	
+
 		<br />
 
 		<p>További információért a phpBB3 jogosultságkezeléséről és beállításáról lásd az angol <a href="https://www.phpbb.com/support/documentation/3.0/quickstart/quick_permissions.html">gyorstalpaló 1.5-ös fejezetét</a>.</p>
@@ -72,7 +75,7 @@ $lang = array_merge($lang, array(
 	'ACL_TYPE_GLOBAL_M_'	=> 'Globális moderátori jogosultságok',
 	'ACL_TYPE_LOCAL_M_'		=> 'Fórum moderátori jogosultságok',
 	'ACL_TYPE_LOCAL_F_'		=> 'Fórum jogosultságok',
-	
+
 	'ACL_NO'				=> 'Nem',
 	'ACL_VIEW'				=> 'Jogosultságok megtekintése',
 	'ACL_VIEW_EXPLAIN'		=> 'Itt egy felhasználó vagy egy csoport tényleges, effektív jogosultságait tudod megtekinteni. A piros négyzet azt jelöli, hogy az adott felhasználónak/csoportnak nincs olyan jogosultsága, míg a zöld négyzet azt, hogy rendelkezik az adott jogosultsággal.',

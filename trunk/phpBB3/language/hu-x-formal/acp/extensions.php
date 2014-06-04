@@ -1,13 +1,19 @@
 <?php
 /**
+* This file is part of the phpBB Forum Software package.
 *
-* acp_extensions [English]
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
 *
-* @package language
-* @copyright (c) 2012 phpBB Group
-* @license http://opensource.org/licenses/gpl-2.0.php GNU Public License
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
+* Magyar fordítás (c) 2007-2014 „Magyar phpBB Közösség fordítók”,
+* http://phpbb.hu
+*
+* $Id$
 */
+
 /**
 */
 if (!defined('IN_PHPBB'))

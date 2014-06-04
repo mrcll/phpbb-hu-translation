@@ -1,14 +1,17 @@
 <?php
 /**
+* This file is part of the phpBB Forum Software package.
 *
-* posting [Hungarian]
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
 *
-* @package language
-* @version $Id$
-* @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
-* Original copyright: (c) 2005 phpBB Group
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
+* Magyar fordítás (c) 2007-2014 „Magyar phpBB Közösség fordítók”,
+* http://phpbb.hu
+*
+* $Id$
 */
 
 /**
@@ -85,7 +88,7 @@ $lang = array_merge($lang, array(
 		'NUMBER'		=> 'Bármilyen szám.',
 		'EMAIL'			=> 'Egy érvényes e-mail cím.',
 		'URL'			=> 'Egy érvényes URL, mely bármilyen protokollt használhat (http, ftp, stb., nem használható fel javascript támadásokhoz). Ha nincs protokoll megadva, a szöveg elé „http://” kerül elhelyezésre.',
-		'LOCAL_URL'		=> 'Egy helyi URL. Az URL-nek a téma oldaltól kell lennie viszonyítva, valamint nem tartalmazhat szervernevet, illetve protokollt, a link kezdete “%s” lesz.',		
+		'LOCAL_URL'		=> 'Egy helyi URL. Az URL-nek a téma oldaltól kell lennie viszonyítva, valamint nem tartalmazhat szervernevet, illetve protokollt, a link kezdete “%s” lesz.',
 		'RELATIVE_URL'	=> 'Egy relatív URL. Egy URL részlet megfeleltetésére használhatod, de légy elővigyázatos: a teljes URL egy érvényes relatív URL. Ha a fórumod relatív URL-jét szeretnéd használni, akkor helyette a LOCAL_URL jelölőt használd.', //? You can use this to match parts of a URL, but be careful: a full URL is a valid relative URL.
 		'COLOR'			=> 'Egy HTML szín, lehet a <samp>#FF1234</samp> numerikus formában, vagy lehet egy <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS szín kulcsszó</a>, mint például a <samp>fuchsia</samp> vagy az <samp>InactiveBorder</samp>.'
 	),
