@@ -1,6 +1,6 @@
 Subject: Topic disapproved - "{TOPIC_TITLE}"
 
-Hello {USERNAME},//bb31
+Hello {USERNAME},//bb31!
 
 You are receiving this notification because your topic "{TOPIC_TITLE}" at "{SITENAME}" was disapproved by a moderator or administrator.
 

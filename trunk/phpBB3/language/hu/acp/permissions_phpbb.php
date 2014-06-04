@@ -1,4 +1,4 @@
-<?php //bb31
+<?php //bb31!
 /**
 * acp_permissions (phpBB Permission Set) [Hungarian]
 *
@@ -70,7 +70,7 @@ $lang = array_merge($lang, array(
 	'ACL_U_CHGEMAIL'	=> 'Megváltoztathatja az e-mail címét',
 	'ACL_U_CHGAVATAR'	=> 'Megváltoztathatja az avatarát',
 	'ACL_U_CHGGRP'		=> 'Megváltoztathatja az elsődleges csoportját',
-	'ACL_U_CHGPROFILEINFO'	=> 'Can change profile field information', //bb31
+	'ACL_U_CHGPROFILEINFO'	=> 'Can change profile field information', //bb31!
 
 	'ACL_U_ATTACH'		=> 'Csatolhat állományokat',
 	'ACL_U_DOWNLOAD'	=> 'Letölthet állományokat',
@@ -121,7 +121,7 @@ $lang = array_merge($lang, array(
 	'ACL_F_REPLY'		=> 'Válaszolhat a témákban',
 	'ACL_F_EDIT'		=> 'Szerkesztheti saját hozzászólásait',
 	'ACL_F_DELETE'		=> 'Törölheti saját hozzászólásait',
-	'ACL_F_SOFTDELETE'	=> 'Can soft delete own posts<br /><em>Moderators, who have the approve posts permission, can restore soft deleted posts.</em>', //bb31
+	'ACL_F_SOFTDELETE'	=> 'Can soft delete own posts<br /><em>Moderators, who have the approve posts permission, can restore soft deleted posts.</em>', //bb31!
 	'ACL_F_IGNOREFLOOD' => 'Figyelmen kívül hagyhatja a flood időközt',
 	'ACL_F_POSTCOUNT'	=> 'Hozzászólásainak számának növelése<br /><em>Kérjük, vedd figyelembe, hogy ez csak az új hozzászólásokra van hatással.</em>', //? "Increment post counter"
 	'ACL_F_NOAPPROVE'	=> 'Hozzászólhat jóváhagyás nélkül',
@@ -153,7 +153,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACL_M_EDIT'		=> 'Szerkesztheti a hozzászólásokat',
 	'ACL_M_DELETE'		=> 'Véglegesen törölhet hozzászólásokat',
-	'ACL_M_SOFTDELETE'	=> 'Can soft delete posts<br /><em>Moderators, who have the approve posts permission, can restore soft deleted posts.</em>', //bb31
+	'ACL_M_SOFTDELETE'	=> 'Can soft delete posts<br /><em>Moderators, who have the approve posts permission, can restore soft deleted posts.</em>', //bb31!
 	'ACL_M_APPROVE'		=> 'Jóváhagyhat és visszaállíthat hozzászólásokat',
 	'ACL_M_REPORT'		=> 'Lezárhat és törölhet jelentéseket',
 	'ACL_M_CHGPOSTER'	=> 'Megváltoztathatja a hozzászólások szerzőjét',
@@ -206,7 +206,7 @@ $lang = array_merge($lang, array(
 	'ACL_A_SWITCHPERM'	=> 'Használhatja más jogosultságait',
 
 	'ACL_A_STYLES'		=> 'Kezelheti a megjelenéseket',
-	'ACL_A_EXTENSIONS'	=> 'Can manage extensions', //bb31
+	'ACL_A_EXTENSIONS'	=> 'Can manage extensions', //bb31!
 	'ACL_A_VIEWLOGS'	=> 'Megtekintheti a naplókat',
 	'ACL_A_CLEARLOGS'	=> 'Kiürítheti a naplókat',
 	'ACL_A_MODULES'		=> 'Kezelheti a modulokat',

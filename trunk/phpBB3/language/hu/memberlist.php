@@ -133,7 +133,7 @@ $lang = array_merge($lang, array(
 	),
 	'USER_ONLINE'			=> 'Online',
 	'USER_PRESENCE'			=> 'Jelenlét a fórumban',
-	'USERS_PER_PAGE'		=> 'Users per page', //bb31	
+	'USERS_PER_PAGE'		=> 'Users per page', //bb31!	
 
 	'VIEWING_PROFILE'		=> 'Profil megtekintése: %s',
 ));

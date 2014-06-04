@@ -40,7 +40,7 @@ $lang = array_merge($lang, array(
 	'ACP_FILES'						=> 'Adminisztrátori nyelvi állományok',
 	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Itt a nyelvi csomagokat telepítheted, illetve törölheted. Az alapértelmezett nyelvi csomag egy csillaggal (*) van megjelölve.',
 
-	'DELETE_LANGUAGE_CONFIRM'		=> 'Are you sure you wish to delete “%s”?', //bb31
+	'DELETE_LANGUAGE_CONFIRM'		=> 'Are you sure you wish to delete “%s”?', //bb31!
 
 	'INSTALLED_LANGUAGE_PACKS'	=> 'Telepített nyelvi csomagok',
 

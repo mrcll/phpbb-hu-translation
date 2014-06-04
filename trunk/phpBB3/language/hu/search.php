@@ -80,7 +80,7 @@ $lang = array_merge($lang, array(
 	'WORDS_IN_NO_POST'		=> 'Nincs találat, mivel a <strong>%s</strong> szavakat nem tartalmazza egy hozzászólás sem.',
 
 	'POST_CHARACTERS'		=> 'karakterének megjelenítése',
-	'PHRASE_SEARCH_DISABLED'	=> 'Searching by exact phrase is not supported on this board.', //bb31
+	'PHRASE_SEARCH_DISABLED'	=> 'Searching by exact phrase is not supported on this board.', //bb31!
 
 	'RECENT_SEARCHES'		=> 'Legutóbbi keresések',
 	'RESULT_DAYS'			=> 'Időintervallum', //?
@@ -113,8 +113,8 @@ $lang = array_merge($lang, array(
 	'SORT_FORUM'				=> 'Fórum',
 	'SORT_POST_SUBJECT'			=> 'Hozzászólás témája',
 	'SORT_TIME'					=> 'Elküldés időpontja',
-	'SPHINX_SEARCH_FAILED'		=> 'Search failed: %s', //bb31
-	'SPHINX_SEARCH_FAILED_LOG'	=> 'Sorry, search could not be performed. More information about this failure has been logged in the error log.', //bb31
+	'SPHINX_SEARCH_FAILED'		=> 'Search failed: %s', //bb31!
+	'SPHINX_SEARCH_FAILED_LOG'	=> 'Sorry, search could not be performed. More information about this failure has been logged in the error log.', //bb31!
 
 	'TOO_FEW_AUTHOR_CHARS'	=> array(
 		1	=> 'A szerző nevéből legalább %d karaktert meg kell adnod.',

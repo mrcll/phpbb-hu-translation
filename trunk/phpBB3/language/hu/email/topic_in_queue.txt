@@ -1,6 +1,6 @@
 Subject: Topic moderation notification - "{TOPIC_TITLE}"
 
-Hello {USERNAME},//bb31
+Hello {USERNAME},//bb31!
 
 You are receiving this notification because the topic "{TOPIC_TITLE}" at "{SITENAME}" needs approval.
 

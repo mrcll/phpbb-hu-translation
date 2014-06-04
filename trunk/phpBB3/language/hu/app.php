@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 //
 
-$lang = array_merge($lang, array( //bb31
+$lang = array_merge($lang, array( //bb31!
 	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> 'Missing value for argument #%1$s: <strong>%3$s</strong> in class <strong>%2$s</strong>',
 	'CONTROLLER_NOT_SPECIFIED'			=> 'No controller has been specified.',
 	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'No method was specified for the controller.',

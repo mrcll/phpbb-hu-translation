@@ -34,7 +34,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 
-$lang = array_merge($lang, array( //bb31
+$lang = array_merge($lang, array( //bb31!
 	'EXTENSION'					=> 'Extension',
 	'EXTENSIONS'				=> 'Extensions',
 	'EXTENSIONS_ADMIN'			=> 'Extensions Manager',
@@ -84,7 +84,7 @@ $lang = array_merge($lang, array( //bb31
 	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Are you sure that you wish to delete the data associated with “%s”?<br /><br />This removes all of its data and settings and cannot be undone!',
 	'EXTENSION_DISABLE_CONFIRM'		=> 'Are you sure that you wish to disable the “%s” extension?',
 	'EXTENSION_ENABLE_CONFIRM'		=> 'Are you sure that you wish to enable the “%s” extension?',
-	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Are you sure that you wish to force the use of unstable version?', //bb31
+	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Are you sure that you wish to force the use of unstable version?', //bb31!
 
 	'RETURN_TO_EXTENSION_LIST'	=> 'Return to the extension list',
 
@@ -108,13 +108,13 @@ $lang = array_merge($lang, array( //bb31
 	'AUTHOR_HOMEPAGE'		=> 'Homepage',
 	'AUTHOR_ROLE'			=> 'Role',
 
-	'NOT_UP_TO_DATE'		=> '%s is not up to date', //bb31
-	'UP_TO_DATE'			=> '%s is up to date', //bb31
-	'ANNOUNCEMENT_TOPIC'	=> 'Release Announcement', //bb31
-	'DOWNLOAD_LATEST'		=> 'Download Version', //bb31
-	'NO_VERSIONCHECK'		=> 'No version check information given.', //bb31
+	'NOT_UP_TO_DATE'		=> '%s is not up to date', //bb31!
+	'UP_TO_DATE'			=> '%s is up to date', //bb31!
+	'ANNOUNCEMENT_TOPIC'	=> 'Release Announcement', //bb31!
+	'DOWNLOAD_LATEST'		=> 'Download Version', //bb31!
+	'NO_VERSIONCHECK'		=> 'No version check information given.', //bb31!
 
-	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Re-Check all versions', //bb31
-	'FORCE_UNSTABLE'					=> 'Always check for unstable versions', //bb31
-	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Version check settings', //bb31
+	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Re-Check all versions', //bb31!
+	'FORCE_UNSTABLE'					=> 'Always check for unstable versions', //bb31!
+	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Version check settings', //bb31!
 ));

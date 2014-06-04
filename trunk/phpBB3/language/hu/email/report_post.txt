@@ -1,6 +1,6 @@
 Subject: Post report - "{TOPIC_TITLE}"
 
-Hello {USERNAME},//bb31
+Hello {USERNAME},//bb31!
 
 You are receiving this notification because the post "{POST_SUBJECT}" at "{SITENAME}" was reported.
 

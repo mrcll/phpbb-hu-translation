@@ -293,8 +293,8 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT_EXPLAIN'		=> 'A phpBB <strong>nem</strong> fog működni, ha a PHP a PCRE kiterjesztés UTF-8 támogatása nélkül került fordításra.', //? fogalmazás...
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'getimagesize() PHP függvény elérhető',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> '<strong>Szükséges</strong> – A phpBB-nek a helyes működéshez szüksége van a getimagesize függvényre.',
-	'PHP_JSON_SUPPORT'        		=> 'PHP JSON support', //bb31
-	'PHP_JSON_SUPPORT_EXPLAIN'    	=> '<strong>Required</strong> - In order for phpBB to function correctly, the PHP JSON extension needs to be available.', //bb31
+	'PHP_JSON_SUPPORT'        		=> 'PHP JSON support', //bb31!
+	'PHP_JSON_SUPPORT_EXPLAIN'    	=> '<strong>Required</strong> - In order for phpBB to function correctly, the PHP JSON extension needs to be available.', //bb31!
 	'PHP_OPTIONAL_MODULE'			=> 'Opcionális modulok', //? erre is van valamilyen magyar kifejezés...
 	'PHP_OPTIONAL_MODULE_EXPLAIN'	=> '<strong>Opcionális</strong> – Ezek a modulok vagy alkalmazások opcionálisak. Azonban ha elérhetők, extra funkciók használata válik lehetségessé velük.',
 	'PHP_SUPPORTED_DB'				=> 'Támogatott adatbázisok',
@@ -326,7 +326,7 @@ $lang = array_merge($lang, array(
 	'SERVER_CONFIG'				=> 'Szerver beállítások', // "Server configuration" konfiguráció
 	'SEARCH_INDEX_UNCONVERTED'	=> 'A keresési index nem került konvertálásra',
 	'SEARCH_INDEX_UNCONVERTED_EXPLAIN'	=> 'A kereső indexe nem lett átkonvertálva, így a keresések nem fognak találatot adni. A keresési index létrehozásához menj az adminisztrátori vezérlőpultra, válaszd ki a Karbantartást, majd az almenüben kattints a Keresési indexre.',
-	'SELECT_FORUM_GA'			=> 'In phpBB 3.1 the global announcements are linked to forums. Select a forum for your current global announcements (can be moved later):', //bb31
+	'SELECT_FORUM_GA'			=> 'In phpBB 3.1 the global announcements are linked to forums. Select a forum for your current global announcements (can be moved later):', //bb31!
 	'SOFTWARE'					=> 'Fórumszoftver', //? külön?
 	'SPECIFY_OPTIONS'			=> 'Konvertálás beállításainak megadása', //? hol? megadása kell?
 	'STAGE_ADMINISTRATOR'		=> 'Adminisztrátor adatok', //? 'Adminisztrátor adatai'
@@ -401,10 +401,10 @@ $lang = array_merge($lang, array(
 	'CURRENT_VERSION'				=> 'Jelenlegi verzió',
 
 	'DATABASE_TYPE'						=> 'Adatbázis típusa',
-	'DATABASE_UPDATE_COMPLETE'			=> 'Database updater has completed!', //bb31
-	'DATABASE_UPDATE_CONTINUE'			=> 'Continue database update', //bb31
+	'DATABASE_UPDATE_COMPLETE'			=> 'Database updater has completed!', //bb31!
+	'DATABASE_UPDATE_CONTINUE'			=> 'Continue database update', //bb31!
 	'DATABASE_UPDATE_INFO_OLD'			=> 'Az install könyvtárban található adatbázis-frissítő állomány nem a legújabb. Kérünk, győződj meg róla, hogy a jó verzióját töltötted fel az állománynak.', //? "The database update file within the install directory is outdated. Please make sure you uploaded the correct version of the file."
-	'DATABASE_UPDATE_NOT_COMPLETED'		=> 'The database update has not yet completed.', //bb31
+	'DATABASE_UPDATE_NOT_COMPLETED'		=> 'The database update has not yet completed.', //bb31!
 	'DELETE_USER_REMOVE'				=> 'Felhasználó törlése és hozzászólásainak eltávolítása',
 	'DELETE_USER_RETAIN'				=> 'Felhasználó törlése de hozzászólásainak megtartása',
 	'DESTINATION'						=> 'Célállomány',
@@ -425,7 +425,7 @@ $lang = array_merge($lang, array(
 
 	'EDIT_USERNAME'	=> 'Felhasználónév módosítása',
 	'ERROR'			=> 'Hiba',
-	'EVERYTHING_UP_TO_DATE'		=> 'Everything is up to date with the latest phpBB version. You should now <a href="%1$s">login to your board</a> and check if everything is working fine. Do not forget to delete, rename or move your install directory! Please send us updated information about your server and board configurations from the <a href="%2$s">Send statistics</a> module in your ACP.', //bb31
+	'EVERYTHING_UP_TO_DATE'		=> 'Everything is up to date with the latest phpBB version. You should now <a href="%1$s">login to your board</a> and check if everything is working fine. Do not forget to delete, rename or move your install directory! Please send us updated information about your server and board configurations from the <a href="%2$s">Send statistics</a> module in your ACP.', //bb31!
 
 	'FILE_ALREADY_UP_TO_DATE'		=> 'Az állomány már a legújabb verziójú', //? "File is already up to date"
 	'FILE_DIFF_NOT_ALLOWED'			=> 'Ezen az állományon nem végezhető diff.', //? "File not allowed to be diffed"
@@ -494,7 +494,7 @@ $lang = array_merge($lang, array(
 	'PREVIOUS_VERSION'					=> 'Előző verzió',
 	'PROGRESS'							=> 'Haladás', //?
 
-	'RELEASE_ANNOUNCEMENT'		=> 'Announcement', //bb31
+	'RELEASE_ANNOUNCEMENT'		=> 'Announcement', //bb31!
 	'RESULT'					=> 'Eredmény',
 	'RUN_DATABASE_SCRIPT'		=> 'Adatbázis frissítése most',
 
@@ -569,7 +569,7 @@ $lang = array_merge($lang, array(
 	'UPLOAD_METHOD'					=> 'Feltöltési mód',
 
 	'UPDATE_DB_SUCCESS'				=> 'Sikeres adatbázis-frissítés',
-	'UPDATE_FILE_SUCCESS'			=> 'File update was successful.', //bb31
+	'UPDATE_FILE_SUCCESS'			=> 'File update was successful.', //bb31!
 	'USER_ACTIVE'					=> 'Aktív felhasználó',
 	'USER_INACTIVE'					=> 'Inaktív felhasználó',
 
