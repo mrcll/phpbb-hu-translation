@@ -1,13 +1,15 @@
 <?php
 /**
+* This file is part of the phpBB Forum Software package.
 *
-* viewtopic [Hungarian Formal]
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
 *
-* @package language
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+*
 * @version $Id$
 * @copyright (c) 2009 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
-* Original copyright: (c) 2005 phpBB Group
 *
 */
 
