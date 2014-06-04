@@ -104,7 +104,7 @@ $lang = array_merge($lang, array(
 
 	'ALLOW_AVATARS'					=> 'Avatarok bekapcsolása',
 	'ALLOW_AVATARS_EXPLAIN'			=> 'Avatarok használatának engedélyezése általánosságban.<br />Amikor kikapcsolod az avatar funkciót vagy az egyes módon feltöltött avatar képeket, az érintett avatarok nem jelennek meg többet, de a felhasználók továbbra is le tudják tölteni a saját avatarukat a felhasználói vezérlőpultból.',
-	'ALLOW_GRAVATAR'				=> 'Enable gravatar avatars', //bb31	
+	'ALLOW_GRAVATAR'				=> 'Enable gravatar avatars', //bb31
 	'ALLOW_LOCAL'					=> 'Avatar galéria bekapcsolása',
 	'ALLOW_REMOTE'					=> 'Külső avatarok engedélyezése',
 	'ALLOW_REMOTE_EXPLAIN'			=> 'Olyan avatarok, melyek egy másik weboldalról vannak linkelve.',
@@ -375,7 +375,7 @@ $lang = array_merge($lang, array(
 	'LIMIT_SESSIONS'				=> 'Munkamenetek korlátozása',
 	'LIMIT_SESSIONS_EXPLAIN'		=> 'Ha a munkamenetek száma egy perc alatt meghaladja ezt az értéket, a fórum automatikusan szünetelni fog. Állítsd 0-ra, hogy ne legyen korlátozás.',
 	'LOAD_CPF_MEMBERLIST'			=> 'Egyedi profil mezők megjelenítése a taglistában',
-	'LOAD_CPF_PM'					=> 'Display custom profile fields in private messages', //bb31	
+	'LOAD_CPF_PM'					=> 'Display custom profile fields in private messages', //bb31
 	'LOAD_CPF_VIEWPROFILE'			=> 'Egyedi profil mezők megjelenítése a felhasználók profiljában',
 	'LOAD_CPF_VIEWTOPIC'			=> 'Egyedi profil mezők megjelenítése a téma oldalakon',
 	'LOAD_USER_ACTIVITY'			=> 'Felhasználó aktivitásának mutatása',
@@ -408,7 +408,7 @@ $lang = array_merge($lang, array(
 	'ACP_AUTH_SETTINGS_EXPLAIN'	=> 'A phpBB különböző azonosítási bővítményeket vagy modulokat is támogat. Ezek határozzák meg, hogy mi történik, amikor egy felhasználó belép a fórumra. Alapból négy bővítmény áll rendelkezésre: DB (adatbázis), LDAP, Apache és OAuth. Nem mindegyiknek van szüksége kiegészítő információkra, így csak azokat a mezőket töltsd ki, amelyek a kiválasztott bővítményhez tartoznak.',
 
 	'AUTH_METHOD'				=> 'Azonosítási mód',
-	
+
 	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'Both the key and secret of each enabled OAuth service provider must be provided. Only one was provided for an OAuth service provider.', //bb31
 	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Each OAuth provider requires a unique secret and key in order to authenticate with the external server.<br />These should be supplied by the OAuth service when you register your website with them and should be entered exactly as provided to you.<br />Any service that does not have both a key and a secret entered here will not be available for use by the forum users.', //bb31
 	'AUTH_PROVIDER_OAUTH_KEY'					=> 'Key', //bb31
@@ -417,6 +417,7 @@ $lang = array_merge($lang, array(
 
 	'APACHE_SETUP_BEFORE_USE'	=> 'Az apache azonosítást előbb kell beállítanod, mint hogy a phpBB-t erre az azonosítási módra állítanád. Ne felejtesd el, hogy az apache azonosításhoz használt felhasználónévnek meg kell egyeznie a phpBB-beli felhasználónévvel. Az apache azonosítás csak mod_php-vel használható (CGI verzióval nem), és a safe_mode-nak kikapcsolva kell lennie.',
 
+	'LDAP'							=> 'LDAP',
 	'LDAP_DN'						=> 'LDAP base <var>dn</var>',
 	'LDAP_DN_EXPLAIN'				=> 'A felhasználóról információt tartalmazó Distinguished Name, pl. <samp>o=My Company,c=US</samp>.',
 	'LDAP_EMAIL'					=> 'LDAP e-mail attribútum',

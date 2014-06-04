@@ -154,7 +154,7 @@ $lang = array_merge($lang, array(
 	'ACL_M_EDIT'		=> 'Szerkesztheti a hozzászólásokat',
 	'ACL_M_DELETE'		=> 'Véglegesen törölhet hozzászólásokat',
 	'ACL_M_SOFTDELETE'	=> 'Can soft delete posts<br /><em>Moderators, who have the approve posts permission, can restore soft deleted posts.</em>', //bb31
-	'ACL_M_APPROVE'		=> 'Jóváhagyhat hozzászólásokat',
+	'ACL_M_APPROVE'		=> 'Jóváhagyhat és visszaállíthat hozzászólásokat',
 	'ACL_M_REPORT'		=> 'Lezárhat és törölhet jelentéseket',
 	'ACL_M_CHGPOSTER'	=> 'Megváltoztathatja a hozzászólások szerzőjét',
 

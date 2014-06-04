@@ -6,7 +6,7 @@
 * @package language
 * @version $Id$
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2 
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 * Original copyright: (c) 2005 phpBB Group
 *
 */
@@ -70,8 +70,8 @@ $lang = array_merge($lang, array(
 	'DISPLAY_AT_REGISTER_EXPLAIN'	=> 'Ha ez be van állítva, a mező megjelenítésre kerül a regisztrációkor.',
 	'DISPLAY_ON_MEMBERLIST'			=> 'Display on memberlist screen', //bb31
 	'DISPLAY_ON_MEMBERLIST_EXPLAIN'	=> 'If this option is enabled, the field will be displayed in the user rows on the memberlist screen.', //bb31
-	'DISPLAY_ON_PM'					=> 'Display on view pm screen', //bb31
-	'DISPLAY_ON_PM_EXPLAIN'			=> 'If this option is enabled, the field will be displayed in the mini-profile on the pm screen.', //bb31
+	'DISPLAY_ON_PM'					=> 'Display on view private message screen', //bb31
+	'DISPLAY_ON_PM_EXPLAIN'			=> 'If this option is enabled, the field will be displayed in the mini-profile on the private message screen.', //bb31
 	'DISPLAY_ON_VT'					=> 'Megjelenítés a témákban',
 	'DISPLAY_ON_VT_EXPLAIN'			=> 'Ha ez be van állítva, a mező megjelenítésre kerül a témákban, a hozzászólások melletti mini profilban.',
 	'DISPLAY_PROFILE_FIELD'			=> 'Profil mező nyilvános megjelenítése',
