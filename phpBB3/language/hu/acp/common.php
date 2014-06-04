@@ -383,7 +383,7 @@ $lang = array_merge($lang, array(
 	'RESET_DATE_SUCCESS'				=> 'Board’s start date reset', //bb31
 	'RESET_ONLINE'					=> 'Valaha jelenlévő legtöbb felhasználó számának lenullázása', //?
 	'RESET_ONLINE_CONFIRM'			=> 'Biztosan le akarod nullázni a valaha jelenlévő legtöbb felhasználó számlálót?',
-	'RESET_ONLINE_SUCCESS'				=> 'Most users ever online reset', //bb31	
+	'RESET_ONLINE_SUCCESS'				=> 'Most users ever online reset', //bb31
 	'RESYNC_POSTCOUNTS'				=> 'Hozzászólásszámok újraszinkronizálása', //? hozzászólásszámok...
 	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Csak a létező hozzászólások kerülnek figyelembevételre. Az automatikus tisztítás által törölt hozzászólások nem lesznek beleszámolva.', //?
 	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Biztosan újra akarod szinkronizálni a hozzászólásszámokat?',
@@ -782,4 +782,8 @@ $lang = array_merge($lang, array(
 	'LOG_WORD_ADD'			=> '<strong>Cenzúrázott szó hozzáadása</strong><br />» %s',
 	'LOG_WORD_DELETE'		=> '<strong>Cenzúrázott szó törlése</strong><br />» %s',
 	'LOG_WORD_EDIT'			=> '<strong>Cenzúrázott szó szerkesztése</strong><br />» %s',
+
+	'LOG_EXT_ENABLE'	=> '<strong>Extension enabled</strong><br />» %s', //bb31
+	'LOG_EXT_DISABLE'	=> '<strong>Extension disabled</strong><br />» %s', //bb31
+	'LOG_EXT_PURGE'		=> '<strong>Extension’s data deleted</strong><br />» %s', //bb31
 ));

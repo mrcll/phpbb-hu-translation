@@ -7,7 +7,7 @@
 * @version $Id$
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* Original copyright: (c) 2005 phpBB Group
+* Original copyright: (c) 2005 phpBB Limited
 *
 */
 
@@ -65,7 +65,7 @@ $help = array(
 	),
 	array(
 		0 => 'Mi az a COPPA?',
-		1 => 'A COPPA, vagyis az 1998-as „Child Online Privacy and Protection Act” (gyerekek online adatvédelméről intézkedő törvény) egy egyesült államokbeli törvény, mely megköveteli a honlapoktól, hogy írásos szülői vagy gondviselői beleegyezéssel rendelkezzenek 13 éven aluli személyektől való adatgyűjtéshez. Ez a törvény csak az Amerikai Egyesült Államokban lévő szervereken működő fórumokra érvényes, tehát Magyarországon nem. Ha nem vagy biztos benne, hogy ez a törvény vonatkozik-e rád vagy a fórumra, melyre regisztrálsz, kérj jogi segítséget. Kérjük, tartsd szem előtt, hogy a phpBB Group nem tud jogi tanácsot adni, és az alább leírtakon kívül semmilyen aggály esetén sem hozzájuk kell fordulni.', //? az első mondatot kicsit leegyszerűsítettem - úgy se lényegesek a részletek
+		1 => 'A COPPA, vagyis az 1998-as „Child Online Privacy and Protection Act” (gyerekek online adatvédelméről intézkedő törvény) egy egyesült államokbeli törvény, mely megköveteli a honlapoktól, hogy írásos szülői vagy gondviselői beleegyezéssel rendelkezzenek 13 éven aluli személyektől való adatgyűjtéshez. Ez a törvény csak az Amerikai Egyesült Államokban lévő szervereken működő fórumokra érvényes, tehát Magyarországon nem. Ha nem vagy biztos benne, hogy ez a törvény vonatkozik-e rád vagy a fórumra, melyre regisztrálsz, kérj jogi segítséget. Kérjük, tartsd szem előtt, hogy a phpBB Limited nem tud jogi tanácsot adni, és az alább leírtakon kívül semmilyen aggály esetén sem hozzájuk kell fordulni.', //? az első mondatot kicsit leegyszerűsítettem - úgy se lényegesek a részletek
 	),
 	array(
 		0 => 'Miért nem tudok regisztrálni?',
@@ -93,7 +93,7 @@ $help = array(
 	),
 	array(
 		0 => 'A használni kívánt nyelv nincs a listában!',
-		1 => 'Ennek az az oka, hogy az adminisztrátor nem telepítette a megfelelő nyelvi csomagot, vagy hogy még nem készült fordítás a kívánt nyelvre. Kérd meg az adminisztrátort, hogy telepítse a nyelvi csomagot, amennyiben viszont még nem létezik, nyugodtan készítsd el a fordítást. További információért keresd fel a phpBB Group weboldalát (a link az oldal alján található).'
+		1 => 'Ennek az az oka, hogy az adminisztrátor nem telepítette a megfelelő nyelvi csomagot, vagy hogy még nem készült fordítás a kívánt nyelvre. Kérd meg az adminisztrátort, hogy telepítse a nyelvi csomagot, amennyiben viszont még nem létezik, nyugodtan készítsd el a fordítást. További információért keresd fel a phpBB Limited weboldalát (a link az oldal alján található).'
 	),
 	array(
 		0 => 'Hogyan jeleníthetek meg egy képet a nevemmel együtt?',
@@ -145,7 +145,7 @@ $help = array(
 	),
 	array(
 		0 => 'Miért kaptam figyelmeztetést?',
-		1 => 'Minden adminisztrátornak megvan a saját szabályzata az oldalára. Ha megsértettél egy szabályt, figyelmeztethetnek téged. Kérjük, vedd figyelembe, hogy ez a fórum adminisztrátorának döntése – a phpBB Group-nak semmi köze nincs a fórumokon kiosztott figyelmeztetésekhez.'
+		1 => 'Minden adminisztrátornak megvan a saját szabályzata az oldalára. Ha megsértettél egy szabályt, figyelmeztethetnek téged. Kérjük, vedd figyelembe, hogy ez a fórum adminisztrátorának döntése – a phpBB Limited-nak semmi köze nincs a fórumokon kiosztott figyelmeztetésekhez.'
 	),
 	array(
 		0 => 'Hogyan jelenthetek egy hozzászólást a moderátoroknak?',
@@ -330,7 +330,7 @@ $help = array(
 	),
 	array(
 		0 => 'Ki készítette ezt a fórumot?',
-		1 => 'Ezt a szoftvert (eredeti formájában) a <a href="https://www.phpbb.com/">phpBB Group</a> készítette, adta ki, és gyakorolja a szerzői jogokat felette. A GNU General Public License alatt érhető el, és szabadon terjeszthető. További információért lásd a linket.'
+		1 => 'Ezt a szoftvert (eredeti formájában) a <a href="https://www.phpbb.com/">phpBB Limited</a> készítette, adta ki, és gyakorolja a szerzői jogokat felette. A GNU General Public License alatt érhető el, és szabadon terjeszthető. További információért lásd a linket.'
 	),
 	array(
 		0 => 'Ki készítette ezt a magyar fordítást?',
@@ -338,10 +338,10 @@ $help = array(
 	),
 	array(
 		0 => 'Miért nem érhető el az X szolgáltatás?',
-		1 => 'Ezt a szoftvert a phpBB Group készítette, és licenceli. Ha úgy gondolod, hogy újabb szolgáltatások, funkciók szükségesek a fórumba, vagy valamilyen működési hibát találtál, látogasd meg a <a href="https://www.phpbb.com/ideas/">phpBB Ideas Centre</a> weboldalt, ahol ezzel kapcsolatban további információkat kaphatsz.' // ezt is lehetne javítani, meg az angol szövegnek megfelelőnek tenni...
+		1 => 'Ezt a szoftvert a phpBB Limited készítette, és licenceli. Ha úgy gondolod, hogy újabb szolgáltatások, funkciók szükségesek a fórumba, vagy valamilyen működési hibát találtál, látogasd meg a <a href="https://www.phpbb.com/ideas/">phpBB Ideas Centre</a> weboldalt, ahol ezzel kapcsolatban további információkat kaphatsz.' // ezt is lehetne javítani, meg az angol szövegnek megfelelőnek tenni...
 	),
 	array(
 		0 => 'Ki az illetékes a fórumon olvasható tartalommal kapcsolatban?',
-		1 => 'Sértő, illetve illegális tartalmak kapcsán az „A csapat” oldalon felsorolt adminisztrátorok közül kell egyet felkeresni. Ha nem kapsz választ, akkor a domain tulajdonosát (ezt kiderítheted egy ún. <a href="http://www.google.hu/search?q=whois&amp;meta=lr%3Dlang_hu">„whois  kereséssel”</a>). Ha a fórum egy ingyenes tárhelyen található, akkor azt a szolgáltatót értesítsd. Kérjük, vedd figyelembe, hogy a phpBB Group-nak és a Magyar phpBB Közösségnek semmilyen köze, hozzáférése vagy beleszólása nincs a fórumon olvasható tartalomhoz, ezért nem tehető semmilyen módon felelőssé amiatt, hogy ki mire használja ezt a fórumot.' // ez se "ugyanaz", mint az angol (~jogi szöveg ez is, az is :)
+		1 => 'Sértő, illetve illegális tartalmak kapcsán az „A csapat” oldalon felsorolt adminisztrátorok közül kell egyet felkeresni. Ha nem kapsz választ, akkor a domain tulajdonosát (ezt kiderítheted egy ún. <a href="http://www.google.hu/search?q=whois&amp;meta=lr%3Dlang_hu">„whois  kereséssel”</a>). Ha a fórum egy ingyenes tárhelyen található, akkor azt a szolgáltatót értesítsd. Kérjük, vedd figyelembe, hogy a phpBB Limited-nak és a Magyar phpBB Közösségnek semmilyen köze, hozzáférése vagy beleszólása nincs a fórumon olvasható tartalomhoz, ezért nem tehető semmilyen módon felelőssé amiatt, hogy ki mire használja ezt a fórumot.' // ez se "ugyanaz", mint az angol (~jogi szöveg ez is, az is :)
 	),
 );

@@ -1,5 +1,5 @@
 <?php
-/** 
+/**
 *
 * posting [Hungarian]
 *
@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_A_HELP'				=> 'Beszúrt csatolmány: [attachment=]állománynév.kiterj[/attachment]', //? 'Hozzászólásba beszúrt csatolmány' "Inline uploaded attachment"
 	'BBCODE_B_HELP'				=> 'Félkövér: [b]szöveg[/b]',
 	'BBCODE_C_HELP'				=> 'Kód: [code]kód[/code]',
-	'BBCODE_D_HELP'				=> 'Flash: [flash=szélesség,magasság]http://url[/flash]',	
+	'BBCODE_D_HELP'				=> 'Flash: [flash=szélesség,magasság]http://url[/flash]',
 	'BBCODE_F_HELP'				=> 'Betűméret: [size=85]kicsi szöveg[/size]',
 	'BBCODE_IS_OFF'				=> '%sBBCode%s <em>kikapcsolva</em>',
 	'BBCODE_IS_ON'				=> '%sBBCode%s <em>bekapcsolva</em>',
@@ -72,6 +72,14 @@ $lang = array_merge($lang, array(
 	'CANNOT_POST_ANNOUNCE'		=> 'Nem küldhetsz közleményt.',
 	'CANNOT_POST_STICKY'		=> 'Nem küldhetsz kiemelt témát.',
 	'CHANGE_TOPIC_TO'			=> 'Téma típusának megváltoztatása', //? "Change topic type to" - topic type: téma típus??
+	'CHARS_POST_CONTAINS'		=> array( //bb31
+		1	=> 'Your message contains %1$d character.',
+		2	=> 'Your message contains %1$d characters.',
+	),
+	'CHARS_SIG_CONTAINS'		=> array( //bb31
+		1	=> 'Your signature contains %1$d character.',
+		2	=> 'Your signature contains %1$d characters.',
+	),
 	'CLOSE_TAGS'				=> 'Címkék lezárása', //? "Close tags"
 	'CURRENT_TOPIC'				=> 'Jelenlegi téma', //? aktuális?
 
@@ -215,6 +223,7 @@ $lang = array_merge($lang, array(
 		1	=> 'Legfeljebb %1$d idézetet ágyazhatsz egymásba.',
 		2	=> 'Legfeljebb %1$d idézetet ágyazhatsz egymásba.',
 	),
+	'QUOTE_NO_NESTING'			=> 'You may not embed quotes within each other.', //bb31
 
 	'SAVE'						=> 'Elmentés',
 	'SAVE_DATE'					=> 'Elmentve', //? "Saved at" 'Elmentés időpontja'
@@ -230,14 +239,14 @@ $lang = array_merge($lang, array(
 
 	'TOO_FEW_CHARS'				=> 'Az üzenet túl rövid.', //? "Your message contains too few characters."
 	'TOO_FEW_CHARS_LIMIT'		=> array(
-		1	=> 'Az üzeneted %1$d karaktert tartalmaz. Legalább %2$d karakter hosszúnak kell lennie.',
-		2	=> 'Az üzeneted %1$d karaktert tartalmaz. Legalább %2$d karakter hosszúnak kell lennie.',
+		1	=> 'Legalább %1$d karakter hosszúnak kell lennie.', //bb31 ? You need to enter at least %1$d character.
+		2	=> 'Legalább %1$d karakter hosszúnak kell lennie',
 	),
 	'TOO_FEW_POLL_OPTIONS'		=> 'Legalább két választási lehetőséget meg kell adnod.',
 	'TOO_MANY_ATTACHMENTS'		=> 'Nem lehet újabb csatolmányt hozzáadni, %d a maximum.', //?
 	'TOO_MANY_CHARS'			=> 'Az üzenet túl hosszú.',
-	'TOO_MANY_CHARS_POST'		=> array(
-		2	=> 'Az üzeneted %1$d karaktert tartalmaz. Legfeljebb %2$d karakter hosszú lehet.',
+	'TOO_MANY_CHARS_LIMIT'		=> array(
+		2	=> 'A megengedett hossz %1$d karakter.',
 	),
 	'TOO_MANY_CHARS_SIG'		=> array(
 		2	=> 'Az aláírásod %1$d karaktert tartalmaz. Legfeljebb %2$d karakter hosszú lehet.',
@@ -264,6 +273,6 @@ $lang = array_merge($lang, array(
 	'VIEW_MESSAGE'				=> '%sElküldött üzenet megtekintése%s',
 	'VIEW_PRIVATE_MESSAGE'		=> '%sElküldött privát üzenet megtekintése%s',
 
-	'WRONG_FILESIZE'			=> 'Az állomány túl nagy, a maximum megengedett méret %1d %2s.',
+	'WRONG_FILESIZE'			=> 'Az állomány túl nagy, a maximum megengedett méret %1$d %2$s.',
 	'WRONG_SIZE'				=> 'A képnek legalább %1$d szélesnek és %2$d magasnak kell lennie, valamint legfeljebb %3$d széles és %4$d magas lehet. A megadott kép %5$d széles, és %6$d magas.',
 ));

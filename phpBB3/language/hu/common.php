@@ -42,7 +42,7 @@ $lang = array_merge($lang, array(
 	'DATE_FORMAT'		=> '|Y.m.d.|',
 	'DATETIME_FORMAT'	=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled) //bb31
 	'USER_LANG'			=> 'hu',
-	
+
 	// You can define different rules for the determination of plural forms here.
 	// See http://wiki.phpbb.com/Plural_Rules for more information
 	// or ask the translation manager for help.
@@ -107,7 +107,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_PHP_SIZE_OVERRUN'		=> 'Az avatar állomány mérete túl nagy, a maximum feltölthető méret %1$d %2$s.<br />Kérjük, vedd figyelembe, hogy ez a php.ini-ben van meghatározva, ezért nem írható felül.',
 	'AVATAR_URL_INVALID'			=> 'A megadott URL hibás.',
 	'AVATAR_URL_NOT_FOUND'			=> 'A megadott állomány nem található.',
-	'AVATAR_WRONG_FILESIZE'			=> 'Az avatarnak 0 és %1d %2s között kell lennie.',
+	'AVATAR_WRONG_FILESIZE'			=> 'Az avatarnak 0 és %1$d %2$s között kell lennie.',
 	'AVATAR_WRONG_SIZE'				=> 'A megadott avatar %5$s széles, és %6$s magas. Az avatarnak legalább %1$s szélesnek és %2$s magasnak kell lennie, valamint legfeljebb %3$s széles és %4$s magas lehet.',
 
 	'BACK_TO_TOP'			=> 'Vissza a tetejére',
@@ -165,7 +165,8 @@ $lang = array_merge($lang, array(
 	'CONGRATULATIONS'		=> 'Gratulálunk',
 	'CONNECTION_FAILED'		=> 'Sikertelen kapcsolódási kísérlet',
 	'CONNECTION_SUCCESS'	=> 'Sikerült csatlakozni!',
-	'CONTACT_USER'			=> 'Contact', //bb31
+	'CONTACT'				=> 'Contact', //bb31
+	'CONTACT_USER'			=> 'Contact %s', //bb31
 	'COOKIES_DELETED'		=> 'A fórum sütijei törlésre kerültek.',
 	'CURRENT_TIME'			=> 'Pontos idő: %s',
 
@@ -227,7 +228,7 @@ $lang = array_merge($lang, array(
 	'FILESIZE'				=> 'Állomány mérete',
 	'FILEDATE'				=> 'Állomány feltöltve',
 	'FILE_COMMENT'			=> 'Magyarázat',
-	'FILE_NOT_FOUND'		=> 'A keresett állomány nem található.',
+	'FILE_NOT_FOUND'		=> 'A keresett állomány nem található: %s',
 	'FIND_USERNAME'			=> 'Felhasználó keresése',
 	'FOLDER'				=> 'Mappa',
 	'FORGOT_PASS'			=> 'Elfelejtettem a jelszavam',
@@ -300,7 +301,7 @@ $lang = array_merge($lang, array(
 	'G_REGISTERED_COPPA'		=> 'Regisztrált COPPA felhasználók',
 	'G_GLOBAL_MODERATORS'		=> 'Globális moderátorok',
 	'G_NEWLY_REGISTERED'		=> 'Újonnan regisztrált felhasználók',
-	
+
 	'HIDDEN_USERS_ONLINE'		=> array(
 		1	=> '%d rejtett felhasználó van jelen.',
 		2	=> '%d rejtett felhasználó van jelen.',
@@ -554,7 +555,8 @@ $lang = array_merge($lang, array(
 	'POST_BY_FOE'			=> 'Ezt a hozzászólást <strong>%1$s</strong> küldte, aki jelenleg a tiltólistádon van.',
 	'POST_DISPLAY'			=> '%1$sDisplay this post%2$s.', //bb31 sHozzászólás megjelenítése
 	'POST_DAY'				=> 'Naponta %.2f hozzászólás',
-	'POST_DELETED'			=> 'Deleted post:', //bb31
+	'POST_DELETED_ACTION'	=> 'Deleted post:', //bb31
+	'POST_DELETED'			=> 'This post has been deleted.', //bb31
 	'POST_DELETED_BY'		=> '<strong>%2$s</strong> deleted the post by <strong>%1$s</strong> on %3$s.', //bb31
 	'POST_DELETED_BY_REASON'=> '<strong>%2$s</strong> deleted the post by <strong>%1$s</strong> on %3$s for the following reason: %4$s', //bb31
 	'POST_DETAILS'			=> 'Hozzászólás adatai',
@@ -567,7 +569,8 @@ $lang = array_merge($lang, array(
 	'POST_SUBJECT'			=> 'Hozzászólás témája',
 	'POST_TIME'				=> 'Elküldés ideje',
 	'POST_TOPIC'			=> 'Új téma nyitása',
-	'POST_UNAPPROVED'		=> 'Post awaiting approval:', //bb31 eredeti: 'This post is waiting for approval' - 'A hozzászólás jóváhagyásra vár',
+	'POST_UNAPPROVED_ACTION'		=> 'Post awaiting approval:', //bb31 eredeti: 'This post is waiting for approval' - 'A hozzászólás jóváhagyásra vár',
+	'POST_UNAPPROVED'		=> 'This post has not been approved.', //bb31
 	'POWERED_BY'			=> 'Powered by %s',
 	'PREVIEW'				=> 'Előnézet',
 	'PREVIOUS'				=> 'Előző',		// Used in pagination
@@ -661,7 +664,7 @@ $lang = array_merge($lang, array(
 	'SELECT_DESTINATION_FORUM'	=> 'Célfórum kiválasztása',
 	'SELECT_FORUM'				=> 'Fórum kiválasztása',
 	'SEND_EMAIL'				=> 'E-mail küldése',				// Used for submit buttons
- 	'SEND_EMAIL_USER'			=> 'E-mail küldése:',				// Used as: {L_SEND_EMAIL_USER} {USERNAME} -> E-mail UserX
+ 	'SEND_EMAIL_USER'			=> 'E-mail küldése %s',
 	'SEND_PRIVATE_MESSAGE'		=> 'Privát üzenet küldése',
 	'SETTINGS'					=> 'Beállítások',
 	'SIGNATURE'					=> 'Aláírás',
@@ -738,6 +741,7 @@ $lang = array_merge($lang, array(
 	'TOPIC_REVIEW'		=> 'Téma áttekintése',
 	'TOPIC_TITLE'		=> 'Téma címe',
 	'TOPIC_UNAPPROVED'	=> 'Jóvá nem hagyott téma',
+	'TOPIC_DELETED'		=> 'Téma törölve',
 	'TOTAL_ATTACHMENTS'	=> 'Csatolmány(ok)',
 	'TOTAL_LOGS'		=> array(
 		1	=> '%d bejegyzés',
@@ -747,9 +751,10 @@ $lang = array_merge($lang, array(
 		1	=> 'Összesen %d privát üzenet',
 		2	=> 'Összesen %d privát üzenet',
 	),
+	'TOPIC_POLL'		=> 'This topic has a poll.', //bb31
 	'TOTAL_POSTS'		=> 'Hozzászólások száma',
 	'TOTAL_POSTS_COUNT'	=> array(
-		2	=> 'Hozzászólások száma: <strong>%d</strong>', //bb31 
+		2	=> 'Hozzászólások száma: <strong>%d</strong>', //bb31
 	),
 	'TOPIC_REPORTED'	=> 'Jelentett téma',
 	'TOTAL_TOPICS'		=> array(
