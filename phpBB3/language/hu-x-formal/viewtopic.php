@@ -8,9 +8,10 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* @version $Id$
-* @copyright (c) 2009 „Magyar phpBB Közösség fordítók”
+* Magyar fordítás (c) 2007-2014 „Magyar phpBB Közösség fordítók”,
+* http://phpbb.hu
 *
+* $Id$
 */
 
 /**

@@ -1,14 +1,17 @@
 <?php
-/** 
+/**
+* This file is part of the phpBB Forum Software package.
 *
-* acp_attachments [Hungarian]
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
 *
-* @package language
-* @version $Id$
-* @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
-* Original copyright: (c) 2005 phpBB Group
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
+* Magyar fordítás (c) 2007-2014 „Magyar phpBB Közösség fordítók”,
+* http://phpbb.hu
+*
+* $Id$
 */
 
 /**
@@ -87,7 +90,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_INLINED_EXPLAIN'		=> 'Ha nemre van állítva, a kép csatolmányok linkként fognak megjelenni.',
 	'DISPLAY_ORDER'					=> 'Csatolmányok megjelenítési sorrendje', //?
 	'DISPLAY_ORDER_EXPLAIN'			=> 'A csatolmányok a feltöltés ideje szerint kerülnek rendezésre.', //? jelentés
-	
+
 	'EDIT_EXTENSION_GROUP'			=> 'Kiterjesztéscsoport szerkesztése',
 	'EXCLUDE_ENTERED_IP'			=> 'Állítsd igenre, hogy a megadott IP/hosztnév kizárásra kerüljön.',
 	'EXCLUDE_FROM_ALLOWED_IP'		=> 'IP-cím kizárása az engedélyezett IP-k/hosztnevek közül',
@@ -108,10 +111,10 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_QUICKTIME_MEDIA'		=> 'Quicktime média',
 	'EXT_GROUP_REAL_MEDIA'			=> 'Real média',
 	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Windows média',
-	
+
 	'GO_TO_EXTENSIONS'		=> 'Ugrás a kiterjesztések kezeléséhez',
 	'GROUP_NAME'			=> 'Csoport neve',
-	
+
 	'FILES_GONE'			=> 'Some of the attachments you selected for deletion do not exist. They may have been already deleted. Attachments that did exist were deleted.', //bb31!
 	'FILES_STATS_WRONG'		=> 'Your file statistics are likely inaccurate and need to be resynchronised. Actual values: number of attachments = %1$d, total size of attachments = %2$s.<br />Click %3$shere%4$s to resynchronise them.', //bb31!
 

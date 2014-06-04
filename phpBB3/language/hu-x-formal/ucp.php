@@ -1,14 +1,17 @@
 <?php
 /**
+* This file is part of the phpBB Forum Software package.
 *
-* ucp [Hungarian Formal]
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
 *
-* @package language
-* @version $Id$
-* @copyright (c) 2009 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* Original copyright: (c) 2005 phpBB Group
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
+* Magyar fordítás (c) 2007-2014 „Magyar phpBB Közösség fordítók”,
+* http://phpbb.hu
+*
+* $Id$
 */
 
 /**
@@ -247,7 +250,7 @@ $lang = array_merge($lang, array(
 	'FWD_TO'					=> 'Címzett: %s',
 
 	'GLOBAL_ANNOUNCEMENT'		=> 'Globális közlemény', //? Általános?
-	
+
 	'GRAVATAR_AVATAR_EMAIL'			=> 'Gravatar email', //bb31!
 	'GRAVATAR_AVATAR_EMAIL_EXPLAIN'	=> 'Enter the email address you used for registering your account on <a href="http://www.gravatar.com/">Gravatar</a>.', //bb31!
 	'GRAVATAR_AVATAR_SIZE'			=> 'Avatar dimensions', //bb31!
@@ -310,7 +313,7 @@ $lang = array_merge($lang, array(
 	'NEW_PASSWORD'					=> 'Új jelszó',
 	'NEW_PASSWORD_CONFIRM_EMPTY'	=> 'Kétszer kell megadnia az új jelszavát.',
 	'NEW_PASSWORD_ERROR'			=> 'A megadott jelszavak nem egyeznek meg.',
-	
+
 	'NOTIFICATIONS_MARK_ALL_READ'						=> 'Mark all notifications read', //bb31!
 	'NOTIFICATIONS_MARK_ALL_READ_CONFIRM'				=> 'Are you sure you want to mark all notifications read?', //bb31!
 	'NOTIFICATIONS_MARK_ALL_READ_SUCCESS'				=> 'All notifications have been marked read.', //bb31!
@@ -331,7 +334,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE_REPORT'							=> 'Someone reports a post', //bb31!
 	'NOTIFICATION_TYPE_TOPIC'				   			=> 'Someone creates a topic in a forum to which you are subscribed', //bb31!
 	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Newly registered user requiring activation', //bb31!
-	
+
 	'NOTIFY_METHOD'					=> 'Értesítés módja',
 	'NOTIFY_METHOD_BOTH'			=> 'Mindkettő',
 	'NOTIFY_METHOD_EMAIL'			=> 'Csak e-mail',
@@ -512,7 +515,7 @@ $lang = array_merge($lang, array(
 	'UCP_MAIN_SUBSCRIBED'		=> 'Feliratkozások kezelése',
 
 	'UCP_NO_ATTACHMENTS'		=> 'Nem töltött fel csatolmányt a fórumra.', //? "You have posted no files"
-	
+
 	'UCP_NOTIFICATION_LIST'				=> 'Manage notifications', //bb31!
 	'UCP_NOTIFICATION_LIST_EXPLAIN'		=> 'Here you may view all past notifications.', //bb31!
 	'UCP_NOTIFICATION_OPTIONS'			=> 'Edit notification options', //bb31!

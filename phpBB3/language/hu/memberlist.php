@@ -1,14 +1,17 @@
 <?php
 /**
+* This file is part of the phpBB Forum Software package.
 *
-* memberlist [Hungarian]
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
 *
-* @package language
-* @version $Id$
-* @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* Original copyright: (c) 2005 phpBB Group
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
+* Magyar fordítás (c) 2007-2014 „Magyar phpBB Közösség fordítók”,
+* http://phpbb.hu
+*
+* $Id$
 */
 
 /**
@@ -105,12 +108,12 @@ $lang = array_merge($lang, array(
 	'OTHER'					=> 'Más',
 
 	'POST_IP'				=> 'IP/domain, melyről írt', //??
-	
+
 	'REAL_NAME'				=> 'Címzett neve',
 	'RECIPIENT'				=> 'Címzett',
 	'REMOVE_FOE'			=> 'Törlés az ellenségek közül',
 	'REMOVE_FRIEND'			=> 'Törlés a barátok közül',
-	
+
 	'SELECT_MARKED'			=> 'Kijelöltek kiválasztása',
 	'SELECT_SORT_METHOD'	=> 'Rendezés',
 	'SEND_ICQ_MESSAGE'		=> 'ICQ üzenet küldése',
@@ -133,7 +136,7 @@ $lang = array_merge($lang, array(
 	),
 	'USER_ONLINE'			=> 'Online',
 	'USER_PRESENCE'			=> 'Jelenlét a fórumban',
-	'USERS_PER_PAGE'		=> 'Users per page', //bb31!	
+	'USERS_PER_PAGE'		=> 'Users per page', //bb31!
 
 	'VIEWING_PROFILE'		=> 'Profil megtekintése: %s',
 ));
