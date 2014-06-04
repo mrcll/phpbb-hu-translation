@@ -34,7 +34,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array( //bb31
+$lang = array_merge($lang, array( //bb31!
 	'CONFIG_NOT_EXIST'					=> 'The config setting "%s" unexpectedly does not exist.',
 
 	'GROUP_NOT_EXIST'					=> 'The group "%s" unexpectedly does not exist.',

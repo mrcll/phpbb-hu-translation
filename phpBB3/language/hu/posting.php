@@ -72,11 +72,11 @@ $lang = array_merge($lang, array(
 	'CANNOT_POST_ANNOUNCE'		=> 'Nem küldhetsz közleményt.',
 	'CANNOT_POST_STICKY'		=> 'Nem küldhetsz kiemelt témát.',
 	'CHANGE_TOPIC_TO'			=> 'Téma típusának megváltoztatása', //? "Change topic type to" - topic type: téma típus??
-	'CHARS_POST_CONTAINS'		=> array( //bb31
+	'CHARS_POST_CONTAINS'		=> array( //bb31!
 		1	=> 'Your message contains %1$d character.',
 		2	=> 'Your message contains %1$d characters.',
 	),
-	'CHARS_SIG_CONTAINS'		=> array( //bb31
+	'CHARS_SIG_CONTAINS'		=> array( //bb31!
 		1	=> 'Your signature contains %1$d character.',
 		2	=> 'Your signature contains %1$d characters.',
 	),
@@ -87,20 +87,20 @@ $lang = array_merge($lang, array(
 	'DELETE_MESSAGE'			=> 'Üzenet törlése',
 	'DELETE_MESSAGE_CONFIRM'	=> 'Biztosan törölni akarod ezt az üzenetet?',
 	'DELETE_OWN_POSTS'			=> 'Csak a saját hozzászólásaidat törölheted.',
-	'DELETE_PERMANENTLY'		=> 'Delete permanently', //bb31
+	'DELETE_PERMANENTLY'		=> 'Delete permanently', //bb31!
 	'DELETE_POST_CONFIRM'		=> 'Biztosan törölni akarod ezt a hozzászólást?',
-	'DELETE_POST_PERMANENTLY_CONFIRM'	=> 'Are you sure you want to <strong>permanently</strong> delete this post?', //bb31
-	'DELETE_POST_PERMANENTLY'	=> 'Permanently delete this post so it can not be recovered', //bb31
-	'DELETE_POSTS_CONFIRM'		=> 'Are you sure you want to delete these posts?', //bb31
-	'DELETE_POSTS_PERMANENTLY_CONFIRM'	=> 'Are you sure you want to <strong>permanently</strong> delete these posts?', //bb31
-	'DELETE_REASON'				=> 'Soft delete reason', //bb31
-	'DELETE_REASON_EXPLAIN'		=> 'The specified reason for deletion will be visible to moderators.', //bb31
-	'DELETE_POST_WARN'			=> 'Delete this post', //bb31
-	'DELETE_TOPIC_CONFIRM'		=> 'Are you sure you want to delete this topic?', //bb31
-	'DELETE_TOPIC_PERMANENTLY'	=> 'Permanently delete this topic so it can not be recovered', //bb31
-	'DELETE_TOPIC_PERMANENTLY_CONFIRM'	=> 'Are you sure you want to <strong>permanently</strong> delete this topic?', //bb31
-	'DELETE_TOPICS_CONFIRM'		=> 'Are you sure you want to delete these topics?', //bb31
-	'DELETE_TOPICS_PERMANENTLY_CONFIRM'	=> 'Are you sure you want to <strong>permanently</strong> delete these topics?', //bb31
+	'DELETE_POST_PERMANENTLY_CONFIRM'	=> 'Are you sure you want to <strong>permanently</strong> delete this post?', //bb31!
+	'DELETE_POST_PERMANENTLY'	=> 'Permanently delete this post so it can not be recovered', //bb31!
+	'DELETE_POSTS_CONFIRM'		=> 'Are you sure you want to delete these posts?', //bb31!
+	'DELETE_POSTS_PERMANENTLY_CONFIRM'	=> 'Are you sure you want to <strong>permanently</strong> delete these posts?', //bb31!
+	'DELETE_REASON'				=> 'Soft delete reason', //bb31!
+	'DELETE_REASON_EXPLAIN'		=> 'The specified reason for deletion will be visible to moderators.', //bb31!
+	'DELETE_POST_WARN'			=> 'Delete this post', //bb31!
+	'DELETE_TOPIC_CONFIRM'		=> 'Are you sure you want to delete this topic?', //bb31!
+	'DELETE_TOPIC_PERMANENTLY'	=> 'Permanently delete this topic so it can not be recovered', //bb31!
+	'DELETE_TOPIC_PERMANENTLY_CONFIRM'	=> 'Are you sure you want to <strong>permanently</strong> delete this topic?', //bb31!
+	'DELETE_TOPICS_CONFIRM'		=> 'Are you sure you want to delete these topics?', //bb31!
+	'DELETE_TOPICS_PERMANENTLY_CONFIRM'	=> 'Are you sure you want to <strong>permanently</strong> delete these topics?', //bb31!
 	'DISABLE_BBCODE'			=> 'BBCode kikapcsolása',
 	'DISABLE_MAGIC_URL'			=> 'Webcímek automatikus linkké alakításának kikapcsolása', //? "Do not automatically parse URLs" 'Automatikus URL-feldolgozás kikapcsolása' webcímek?
 	'DISABLE_SMILIES'			=> 'Emotikonok kikapcsolása',
@@ -223,7 +223,7 @@ $lang = array_merge($lang, array(
 		1	=> 'Legfeljebb %1$d idézetet ágyazhatsz egymásba.',
 		2	=> 'Legfeljebb %1$d idézetet ágyazhatsz egymásba.',
 	),
-	'QUOTE_NO_NESTING'			=> 'You may not embed quotes within each other.', //bb31
+	'QUOTE_NO_NESTING'			=> 'You may not embed quotes within each other.', //bb31!
 
 	'SAVE'						=> 'Elmentés',
 	'SAVE_DATE'					=> 'Elmentve', //? "Saved at" 'Elmentés időpontja'
@@ -239,7 +239,7 @@ $lang = array_merge($lang, array(
 
 	'TOO_FEW_CHARS'				=> 'Az üzenet túl rövid.', //? "Your message contains too few characters."
 	'TOO_FEW_CHARS_LIMIT'		=> array(
-		1	=> 'Legalább %1$d karakter hosszúnak kell lennie.', //bb31 ? You need to enter at least %1$d character.
+		1	=> 'Legalább %1$d karakter hosszúnak kell lennie.', //bb31! ? You need to enter at least %1$d character.
 		2	=> 'Legalább %1$d karakter hosszúnak kell lennie',
 	),
 	'TOO_FEW_POLL_OPTIONS'		=> 'Legalább két választási lehetőséget meg kell adnod.',

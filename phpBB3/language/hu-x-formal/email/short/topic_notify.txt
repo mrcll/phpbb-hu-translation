@@ -1,6 +1,6 @@
 Subject: Topic reply notification - "{TOPIC_TITLE}"
 
-Hello {USERNAME},//bb31
+Hello {USERNAME},//bb31!
 
 You are receiving this notification because you are watching the topic "{TOPIC_TITLE}" at "{SITENAME}". This topic has received a reply<!-- IF AUTHOR_NAME --> by {AUTHOR_NAME}<!-- ENDIF --> since your last visit. You can use the following link to view the replies made, no more notifications will be sent until you visit the topic.
 

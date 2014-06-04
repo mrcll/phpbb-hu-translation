@@ -45,7 +45,7 @@ $help = array(
 	),
 	array(
 		0 => 'Miért kerülök kiléptetésre automatikusan?', //? 'Miért lép ki automatikusan a rendszerből?'
-		1 => 'Ha belépéskor nem jelöli be az <em>Emlékezzen rám</em> opciót, a rendszer csak egy előre meghatározott ideig hagyja önt belépve. Ez a viselkedés meggátolja az azonosítójával való visszaélést. A tartós belépve maradáshoz jelölje be az említett opciót. Ezen funkció használata nem ajánlott, ha nyilvános helyről használja a fórumot, például könyvtárból, internetkávézóból vagy egyetemi laborból. Ha nem látja a jelölőnégyzetet, a fórumon valószínűleg nincs bekapcsolva ez a funkciót.' //bb31 Remember Me
+		1 => 'Ha belépéskor nem jelöli be az <em>Emlékezzen rám</em> opciót, a rendszer csak egy előre meghatározott ideig hagyja önt belépve. Ez a viselkedés meggátolja az azonosítójával való visszaélést. A tartós belépve maradáshoz jelölje be az említett opciót. Ezen funkció használata nem ajánlott, ha nyilvános helyről használja a fórumot, például könyvtárból, internetkávézóból vagy egyetemi laborból. Ha nem látja a jelölőnégyzetet, a fórumon valószínűleg nincs bekapcsolva ez a funkciót.' //bb31! Remember Me
 	),
 	array(
 		0 => 'Hogyan tudom megakadályozni, hogy mások lássák, mikor vagyok jelen?',

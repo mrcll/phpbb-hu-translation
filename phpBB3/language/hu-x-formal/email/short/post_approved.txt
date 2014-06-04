@@ -1,6 +1,6 @@
 Subject: Post approved - "{POST_SUBJECT}"
 
-Hello {USERNAME},//bb31
+Hello {USERNAME},//bb31!
 
 You are receiving this notification because your post "{POST_SUBJECT}" at "{SITENAME}" was approved by a moderator or administrator.
 

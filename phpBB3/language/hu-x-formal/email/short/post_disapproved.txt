@@ -1,6 +1,6 @@
 Subject: Post disapproved - "{POST_SUBJECT}"
 
-Hello {USERNAME},//bb31
+Hello {USERNAME},//bb31!
 
 You are receiving this notification because your post "{POST_SUBJECT}" at "{SITENAME}" was disapproved by a moderator or administrator.
 

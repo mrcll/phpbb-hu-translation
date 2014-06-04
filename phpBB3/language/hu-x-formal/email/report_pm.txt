@@ -1,6 +1,6 @@
 Subject: Private Message report - "{TOPIC_TITLE}"
 
-Hello {USERNAME},//bb31
+Hello {USERNAME},//bb31!
 
 You are receiving this notification because a Private Message titled "{SUBJECT}" by "{AUTHOR_NAME}" at "{SITENAME}" was reported.
 
