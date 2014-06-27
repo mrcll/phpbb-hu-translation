@@ -228,6 +228,8 @@ $lang = array_merge($lang, array(
 	),
 	'QUOTE_NO_NESTING'			=> 'You may not embed quotes within each other.', //bb31!
 
+	'REMOTE_UPLOAD_TIMEOUT'		=> 'The specified file could not be uploaded because the request timed out.', //bb31!
+
 	'SAVE'						=> 'Elmentés',
 	'SAVE_DATE'					=> 'Elmentve', //? "Saved at" 'Elmentés időpontja'
 	'SAVE_DRAFT'				=> 'Piszkozat elmentése',
@@ -262,6 +264,8 @@ $lang = array_merge($lang, array(
 
 	'UNAUTHORISED_BBCODE'		=> 'Bizonyos BBCode-okat nem használhatsz: %s:',
 	'UNGLOBALISE_EXPLAIN'		=> 'Ahhoz, hogy a témát általános közleményből sima témává minősítse vissza, ki kell választania egy fórumot, amelyben a téma meg fog jelenni.', //?
+	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> 'Your message contains the following unsupported characters:<br />%s', //bb31!
+	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> 'Your subject contains the following unsupported characters:<br />%s', //bb31!
 	'UPDATE_COMMENT'			=> 'Magyarázat frissítése',
 	'URL_INVALID'				=> 'A megadott URL hibás.',
 	'URL_NOT_FOUND'				=> 'A megadott állomány nem található.',

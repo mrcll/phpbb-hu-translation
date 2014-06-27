@@ -145,7 +145,6 @@ $lang = array_merge($lang, array(
 	'DEV_NO_TEST_FILE'			=> 'Nem került megadásra a test_file változó értéke a konvertálóban. Ha csak egy használója vagy ennek a konvertálónak, nem szabadna ezt a hibaüzenetet látnod – kérjük, értesítsd a konvertáló készítőjét. Ha a konvertáló készítője vagy, meg kell adnod egy az eredeti fórumban lévő állomány helyét, hogy le lehessen ellenőrizni az eredeti fórum elérési útját.',
 	'DIRECTORIES_AND_FILES'		=> 'Könyvtárak és állományok beállítása', //? "Directory and file setup" egyáltalán ha használják
 	'DISABLE_KEYS'				=> 'Kulcsok kikapcsolása', //?
-	'DLL_FIREBIRD'				=> 'Firebird',
 	'DLL_FTP'					=> 'Távoli FTP támogatás [ telepítés ]', //? remote =? külső??
 	'DLL_GD'					=> 'GD grafikai támogatás [ vizuális megerősítés ]',
 	'DLL_MBSTRING'				=> 'Multibyte karakterkódolás támogatás', //? "Multi-byte character support"
@@ -173,7 +172,6 @@ $lang = array_merge($lang, array(
 	'FILES_REQUIRED_EXPLAIN'	=> '<strong>Szükséges</strong> – A phpBB-nek a helyes működéshez hozzá kell tudnia férnie, illetve tudnia kell írnia néhány állományba vagy könyvtárba. Ha a „Nem található” feliratot látod, akkor létre kell hoznod a megfelelő állományt vagy könyvtárat. Ha a „Nem írható” feliratot látod, akkor meg kell változtatnod az adott állomány vagy könyvtár jogosultságát, hogy a phpBB írni tudjon bele.',
 	'FILLING_TABLE'				=> '<strong>%s</strong> tábla feltöltése',
 	'FILLING_TABLES'			=> 'Táblák feltöltése',
-	'FIREBIRD_DBMS_UPDATE_REQUIRED'		=> 'A phpBB már nem támogatja a 2.1-nél korábbi verziójú Firebird/Interbase adatbázisokat. Kérjük, a frissítés folytatása előtt frissítsd legalább 2.1-es verziójúra a Firebirdöt.',
 	'FINAL_STEP'				=> 'Végső lépés végrehajtása', //? "Process final step"
 	'FORUM_ADDRESS'				=> 'Fórum webcíme',
 	'FORUM_ADDRESS_EXPLAIN'		=> 'Az eredeti fórumod URL-je, például <samp>http://www.pelda.hu/phpBB2/</samp>. Ha megadod, ez a régi cím lecserélésre kerül az új webcímre a hozzászólásokban, a privát üzenetekben és az aláírásokban.',
@@ -216,7 +214,6 @@ $lang = array_merge($lang, array(
 		<li>PostgreSQL 8.3+</li>
 		<li>SQLite 2.8.2+</li>
 		<li>SQLite 3.6.15+</li>
-		<li>Firebird 2.1+</li>
 		<li>MS SQL Server 2000 vagy újabb (közvetlenül ODBC-n keresztül)</li>
 		<li>MS SQL Server 2005 vagy újabb (natív)</li>
 		<li>Oracle</li>
@@ -241,8 +238,6 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_SQLITE'		=> 'Az SQLite kiterjesztés verziója túl régi, frissíteni kell legalább a 2.8.2-es verzióra.',
 	'INST_ERR_DB_NO_SQLITE3'		=> 'Az SQLite kiterjesztés verziója túl régi, frissíteni kell legalább a 3.6.15-ös verzióra.',
 	'INST_ERR_DB_NO_ORACLE'		=> 'A szerveren lévő Oracle verziója megköveteli, hogy a <var>NLS_CHARACTERSET</var> paraméter <var>UTF8</var>-ra legyen állítva. Frissítsd az Oracle verzióját legalább 9.2-esre, vagy változtasd meg a paraméter értékét.',
-	'INST_ERR_DB_NO_FIREBIRD'	=> 'A kiszolgálón lévő Firebird verziója régebbi, mint 2.1, kérünk, frissíts egy újabb verzióra. ', //? régebbi, mint 2.0??
-	'INST_ERR_DB_NO_FIREBIRD_PS'=> 'A kiválasztott Firebird adatbázis „page size” értéke kisebb, mint 8192, legalább ennyinek kell lennie.',
 	'INST_ERR_DB_NO_POSTGRES'	=> 'A kiválasztott adatbázis nem <var>UNICODE</var> vagy <var>UTF8</var> karakterkódolással került létrehozásra. Próbáld meg a telepítést egy <var>UNICODE</var> vagy <var>UTF8</var> karakterkódolású adatbázissal. ', //? "The database you have selected was not created in <var>UNICODE</var> or <var>UTF8</var> encoding. Try installing with a database in <var>UNICODE</var> or <var>UTF8</var> encoding" próbáld meg a telepítést??
 	'INST_ERR_DB_NO_NAME'		=> 'Nem adtad meg az adatbázis nevét.',
 	'INST_ERR_EMAIL_INVALID'	=> 'A megadott e-mail cím hibás.',

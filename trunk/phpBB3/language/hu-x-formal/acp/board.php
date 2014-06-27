@@ -115,9 +115,9 @@ $lang = array_merge($lang, array(
 	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Lehetővé teszi avatar feltöltését egy másik weboldalról.',
 	'ALLOW_UPLOAD'					=> 'Avatarfeltöltés engedélyezése',
 	'AVATAR_GALLERY_PATH'			=> 'Avatar galéria elérési út',
-	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'A phpBB-d gyökérkönyvtárától viszonyított elérési út az előre feltöltött képekhez, pl. <samp>images/avatars/gallery</samp>.',
+	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'A phpBB-d gyökérkönyvtárától viszonyított elérési út az előre feltöltött képekhez, pl. <samp>images/avatars/gallery</samp>.<br />Double dots like <samp>../</samp> will be stripped from the path for security reasons.', //bb31!
 	'AVATAR_STORAGE_PATH'			=> 'Avatarok tárolási helyének elérési útja',
-	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'A phpBB-d gyökérkönyvtárától viszonyított elérési út, pl. <samp>images/avatars/upload</samp>.<br />Avatar uploading <strong>will not be available</strong> if this path is not writable.', //bb31!
+	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'A phpBB-d gyökérkönyvtárától viszonyított elérési út, pl. <samp>images/avatars/upload</samp>.<br />Avatar uploading <strong>will not be available</strong> if this path is not writable.<br />Double dots like <samp>../</samp> will be stripped from the path for security reasons.', //bb31!
 	'MAX_AVATAR_SIZE'				=> 'Maximum avatar méret',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> 'Szélesség x magasság pixelben.',
 	'MAX_FILESIZE'					=> 'Maximum avatar állomány méret',
@@ -364,6 +364,19 @@ $lang = array_merge($lang, array(
 	'SESSION_LENGTH_EXPLAIN'	=> 'A munkamenet ennyi idő elteltével jár le, másodpercben.',
 ));
 
+// Contact Settings
+$lang = array_merge($lang, array( //bb31!
+	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Here you can enable and disable the contact page and also add a text that is displayed on the page.',
+
+	'CONTACT_US_ENABLE'				=> 'Enable contact page',
+	'CONTACT_US_ENABLE_EXPLAIN'		=> 'This page allows users to send emails to board administrators',
+
+	'CONTACT_US_INFO'				=> 'Contact information',
+	'CONTACT_US_INFO_EXPLAIN'		=> 'The message is displayed on the contact page',
+	'CONTACT_US_INFO_PREVIEW'		=> 'Contact page information - Preview',
+	'CONTACT_US_INFO_UPDATED'		=> 'Contact page information has been updated.',
+));
+
 // Load Settings
 $lang = array_merge($lang, array(
 	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'Itt be- vagy kikapcsolhatod a fórum bizonyos funkcióit a jobb teljesítmény érdekében. A legtöbb szerveren nincs szükség semmilyen funkció kikapcsolására. Azonban egyes rendszereken vagy másokkal megosztott tárhelyszolgáltatás esetében előnyös lehet kikapcsolni néhány igazából nem használt lehetőséget. Emellett korlátokat is meghatározhatsz a rendszer terhelésére vagy az aktív munkamenetek számára, melyek fölött a fórum automatikusan szünetelni fog.',
@@ -413,7 +426,7 @@ $lang = array_merge($lang, array(
 	'AUTH_METHOD'				=> 'Azonosítási mód',
 
 	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'Both the key and secret of each enabled OAuth service provider must be provided. Only one was provided for an OAuth service provider.', //bb31!
-	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Each OAuth provider requires a unique secret and key in order to authenticate with the external server.<br />These should be supplied by the OAuth service when you register your website with them and should be entered exactly as provided to you.<br />Any service that does not have both a key and a secret entered here will not be available for use by the forum users.', //bb31!
+	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Each OAuth provider requires a unique secret and key in order to authenticate with the external server. These should be supplied by the OAuth service when you register your website with them and should be entered exactly as provided to you.<br />Any service that does not have both a key and a secret entered here will not be available for use by the forum users. Also note, that user can still register and login using the DB authentication plug-in.', //bb31!
 	'AUTH_PROVIDER_OAUTH_KEY'					=> 'Key', //bb31!
 	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth', //bb31!
 	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Secret', //bb31!
@@ -473,7 +486,7 @@ $lang = array_merge($lang, array(
 	'UPLOAD_ICONS_PATH'			=> 'Kiterjesztéscsoport ikonok elérési útja',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'A phpBB-d gyökérkönyvtárától viszonyított elérési út, pl. <samp>images/upload_icons</samp>.',
 	'USE_SYSTEM_CRON'		=> 'Run periodic tasks from system cron', //bb31!
-	'USE_SYSTEM_CRON_EXPLAIN'		=> 'When off, phpBB will arrange for periodic tasks to be run automatically. When on, phpBB will not schedule any periodic tasks by itself; a system administrator must arrange for <code>cron.php</code> to be invoked by the system cron facility at regular intervals (e.g. every 5 minutes).', //bb31!
+	'USE_SYSTEM_CRON_EXPLAIN'		=> 'When off, phpBB will arrange for periodic tasks to be run automatically. When on, phpBB will not schedule any periodic tasks by itself; a system administrator must arrange for <code>bin/phpbbcli.php cron:run</code> to be run by the system cron facility at regular intervals (e.g. every 5 minutes).', //bb31!
 ));
 
 // Security Settings

@@ -73,8 +73,8 @@ $lang = array_merge($lang, array(
 	'STYLE_DEFAULT_CHANGE_INACTIVE'	=> 'You must activate style before making it default style.', //bb31!
 	'STYLE_ERR_NAME_EXIST'		=> 'Már létezik megjelenés ilyen névvel.',
 	'STYLE_INSTALLED'			=> 'Style "%s" has been installed.', //bb31!
-	'STYLE_INSTALLED_RETURN_STYLES'	=> '<a href="%s">Click here</a> to return to installed styles list.', //bb31!
-	'STYLE_INSTALLED_RETURN_UNINSTALLED'	=> '<a href="%s">Click here</a> to install more styles.', //bb31!
+	'STYLE_INSTALLED_RETURN_INSTALLED_STYLES'	=> 'Return to installed styles list', //bb31!
+	'STYLE_INSTALLED_RETURN_UNINSTALLED_STYLES'	=> 'Install more styles', //bb31!
 	'STYLE_NAME'				=> 'Megjelenés neve',
 	'STYLE_NOT_INSTALLED'		=> 'Style "%s" was not installed.', //bb31!
 	'STYLE_PATH'				=> 'Style path', //bb31!

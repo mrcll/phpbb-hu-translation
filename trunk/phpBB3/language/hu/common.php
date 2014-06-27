@@ -108,6 +108,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_PARTIAL_UPLOAD'			=> 'Az avatart csak részben sikerült feltölteni.',
 	'AVATAR_PHP_SIZE_NA'			=> 'Az avatar állomány mérete túl nagy.<br />Nem sikerült megállapítani a PHP php.ini-jében meghatározott maximális méretet.',
 	'AVATAR_PHP_SIZE_OVERRUN'		=> 'Az avatar állomány mérete túl nagy, a maximum feltölthető méret %1$d %2$s.<br />Kérjük, vedd figyelembe, hogy ez a php.ini-ben van meghatározva, ezért nem írható felül.',
+	'AVATAR_REMOTE_UPLOAD_TIMEOUT'		=> 'The specified avatar could not be uploaded because the request timed out.', //bb31!
 	'AVATAR_URL_INVALID'			=> 'A megadott URL hibás.',
 	'AVATAR_URL_NOT_FOUND'			=> 'A megadott állomány nem található.',
 	'AVATAR_WRONG_FILESIZE'			=> 'Az avatarnak 0 és %1$d %2$s között kell lennie.',
@@ -170,6 +171,7 @@ $lang = array_merge($lang, array(
 	'CONNECTION_SUCCESS'	=> 'Sikerült csatlakozni!',
 	'CONTACT'				=> 'Contact', //bb31!
 	'CONTACT_USER'			=> 'Contact %s', //bb31!
+	'CONTACT_US'			=> 'Contact us', //bb31!
 	'COOKIES_DELETED'		=> 'A fórum sütijei törlésre kerültek.',
 	'CURRENT_TIME'			=> 'Pontos idő: %s',
 
@@ -224,6 +226,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_DISABLED_AFTER_POSTING'	=> 'A <b>%s</b> kiterjesztés deaktiválva lett, ezért a csatolmány nem kerül megjelenítésre.',
 	'EXTENSION_DOES_NOT_EXIST'			=> 'The extension <strong>%s</strong> does not exist.', //bb31!
 
+	'FACEBOOK'				=> 'Facebook',
 	'FAQ'					=> 'GyIK',
 	'FAQ_EXPLAIN'			=> 'Gyakran ismételt kérdések',
 
@@ -231,6 +234,8 @@ $lang = array_merge($lang, array(
 	'FILESIZE'				=> 'Állomány mérete',
 	'FILEDATE'				=> 'Állomány feltöltve',
 	'FILE_COMMENT'			=> 'Magyarázat',
+	'FILE_CONTENT_ERR'		=> 'Could not read the contents of file: %s', //bb31!
+	'FILE_JSON_DECODE_ERR'	=> 'Failed to decode json file: %s', //bb31!
 	'FILE_NOT_FOUND'		=> 'A keresett állomány nem található: %s',
 	'FIND_USERNAME'			=> 'Felhasználó keresése',
 	'FOLDER'				=> 'Mappa',
@@ -280,6 +285,7 @@ $lang = array_merge($lang, array(
 	'GB'						=> 'GB',
 	'GIB'						=> 'GiB',
 	'GO'						=> 'Mehet',
+	'GOOGLEPLUS'				=> 'Google+',
 	'GOTO_FIRST_POST'			=> 'Go to first post', //bb31!
 	'GOTO_LAST_POST'			=> 'Go to last post', //bb31!
 	'GOTO_PAGE'					=> 'Oldal',
@@ -339,7 +345,8 @@ $lang = array_merge($lang, array(
 	'JOINED'				=> 'Csatlakozott',
 	'JUMP_PAGE'				=> 'Add meg annak az oldalnak a számát, ahová menni szeretnél',
 	'JUMP_TO'				=> 'Ugrás',
-	'JUMP_TO_PAGE'			=> 'Kattints ide egy fel nem sorolt oldalra való ugráshoz',
+	'JUMP_TO_PAGE'			=> 'Jump to page', //bb31!
+	'JUMP_TO_PAGE_CLICK'	=> 'Click to jump to page…', //bb31!
 
 	'KB'					=> 'KB',
 	'KIB'					=> 'KiB',
@@ -436,31 +443,34 @@ $lang = array_merge($lang, array(
 	// A, B and C replied...
 	// A, B, C and 2 others replied...
 	// A, B, C and others replied...
-	'NOTIFICATION_BOOKMARK'				=> array( //bb31!
-		1	=> '%1$s replied to the topic “%2$s” you have bookmarked.',
+	'NOTIFICATION_BOOKMARK'				=> array(
+		1	=> '<strong>Reply</strong> from %1$s in bookmarked topic:', //bb31!
 	),
-	'NOTIFICATION_GROUP_REQUEST'		=> '%1$s is requesting to join the group %2$s.', //bb31!
-	'NOTIFICATION_GROUP_REQUEST_APPROVED'	=> 'Your request to join the group %1$s has been approved.', //bb31!
-	'NOTIFICATION_PM'					=> '%1$s sent you a Private Message "%2$s".', //bb31!
-	'NOTIFICATION_POST'					=> array( //bb31!
-		1	=> '%1$s replied to the topic “%2$s”.',
+	'NOTIFICATION_FORUM'				=> '<em>Forum:</em> %1$s', //bb31!
+	'NOTIFICATION_GROUP_REQUEST'		=> '<strong>Group request</strong> from %1$s to join the group %2$s.', //bb31!
+	'NOTIFICATION_GROUP_REQUEST_APPROVED'	=> '<strong>Group request approved</strong> to join the group %1$s.', //bb31!
+	'NOTIFICATION_PM'					=> '<strong>Private Message</strong> from %1$s:', //bb31!
+	'NOTIFICATION_POST'					=> array(
+		1	=> '<strong>Reply</strong> from %1$s in topic:', //bb31!
 	),
-	'NOTIFICATION_POST_APPROVED'		=> 'Your post was approved "%2$s".', //bb31!
-	'NOTIFICATION_POST_DISAPPROVED'		=> 'Your post "%1$s" was disapproved for reason: "%2$s".', //bb31!
-	'NOTIFICATION_POST_IN_QUEUE'		=> 'A new post titled "%2$s" was posted by %1$s and needs approval.', //bb31!
-	'NOTIFICATION_QUOTE'				=> array( //bb31!
-		1	=> '%1$s quoted you in the post “%2$s”.',
+	'NOTIFICATION_POST_APPROVED'		=> '<strong>Post approved</strong>:', //bb31!
+	'NOTIFICATION_POST_DISAPPROVED'		=> '<strong>Post disapproved</strong>:', //bb31!
+	'NOTIFICATION_POST_IN_QUEUE'		=> '<strong>Post approval</strong> request by %1$s:', //bb31!
+	'NOTIFICATION_QUOTE'				=> array(
+		1	=> '<strong>Quoted</strong> by %1$s in:', //bb31!
 	),
-	'NOTIFICATION_REPORT_PM'			=> '%1$s reported a Private Message "%2$s" for reason: "%3$s".', //bb31!
-	'NOTIFICATION_REPORT_POST'			=> '%1$s reported a post "%2$s" for reason: "%3$s".', //bb31!
-	'NOTIFICATION_REPORT_CLOSED'   		=> '%1$s closed the report you made for "%2$s".', //bb31!
-	'NOTIFICATION_TOPIC'				=> '%1$s posted a new topic "%2$s" in the forum "%3$s".', //bb31!
-	'NOTIFICATION_TOPIC_APPROVED'		=> 'Your topic "%2$s" in the forum "%3$s" was approved.', //bb31!
-	'NOTIFICATION_TOPIC_DISAPPROVED'	=> 'Your topic "%1$s" was disapproved for reason: "%2$s".', //bb31!
-	'NOTIFICATION_TOPIC_IN_QUEUE'		=> 'A new topic titled "%2$s" was posted by %1$s and needs approval.', //bb31!
+	'NOTIFICATION_REFERENCE'			=> '"%1$s"', //bb31!
+	'NOTIFICATION_REASON'				=> '<em>Reason:</em> %1$s.', //bb31!
+	'NOTIFICATION_REPORT_PM'			=> '<strong>Private Message reported</strong> by %1$s:', //bb31!
+	'NOTIFICATION_REPORT_POST'			=> '<strong>Post reported</strong> by %1$s:', //bb31!
+	'NOTIFICATION_REPORT_CLOSED'   		=> '<strong>Report closed</strong> by %1$s for:', //bb31!
+	'NOTIFICATION_TOPIC'				=> '<strong>New topic</strong> by %1$s:', //bb31!
+	'NOTIFICATION_TOPIC_APPROVED'		=> '<strong>Topic approved</strong>:', //bb31!
+	'NOTIFICATION_TOPIC_DISAPPROVED'	=> '<strong>Topic disapproved</strong>:', //bb31!
+	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '<strong>Topic approval</strong> request by %1$s:', //bb31!
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'The notification type "%s" is missing from the file system.', //bb31!
-	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> 'The user “%1$s” is newly registered and requires activation.', //bb31!
-		// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
+	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Activation required</strong> for newly registered user: “%1$s”', //bb31!
+	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'others', //bb31!
 	'NOTIFICATION_X_OTHERS'				=> array(
 		2	=> '%d others', //bb31!
@@ -672,6 +682,7 @@ $lang = array_merge($lang, array(
 	'SETTINGS'					=> 'Beállítások',
 	'SIGNATURE'					=> 'Aláírás',
 	'SKIP'						=> 'Ugrás a tartalomhoz',
+	'SKYPE'						=> 'Skype',
 	'SMTP_NO_AUTH_SUPPORT'		=> 'Az SMTP szerver nem támogatja az azonosítás funkciót.',
 	'SORRY_AUTH_READ'			=> 'Nincs jogosultságod a fórum megtekintéséhez.',
 	'SORRY_AUTH_VIEW_ATTACH'	=> 'Nincs jogosultságod a csatolmány letöltéséhez.',
@@ -730,6 +741,7 @@ $lang = array_merge($lang, array(
 	'TOO_SHORT_USER_PASSWORD'		=> 'A megadott jelszó túl rövid.',
 	'TOO_SHORT_USERNAME'			=> 'A megadott felhasználónév túl rövid.',
 	'TOO_SHORT_EMAIL'				=> 'A megadott e-mail cím túl rövid.',
+	'TOO_SHORT_EMAIL_CONFIRM'		=> 'The email address confirmation you entered is too short.', //bb31!
 
 	'TOO_SMALL'						=> 'A megadott érték túl kicsi.',
 	'TOO_SMALL_MAX_RECIPIENTS'		=> 'Az <strong>Engedélyezett címzettek maximum száma</strong> beállításnak megadott érték túl kicsi.',
@@ -767,6 +779,7 @@ $lang = array_merge($lang, array(
 		2	=> 'Felhasználók száma: <strong>%d</strong>', //bb31!
 	),
 	'TRACKED_PHP_ERROR'	=> 'PHP hibák: %s',
+	'TWITTER'			=> 'Twitter',
 
 	'UNABLE_GET_IMAGE_SIZE'	=> 'Nem sikerült meghatározni a kép méretét. Please verify that the URL you entered is correct.', //bb31!
 	'UNABLE_TO_DELIVER_FILE'=> 'Nem sikerült elküldeni az állományt.',
@@ -854,6 +867,7 @@ $lang = array_merge($lang, array(
  	'WROTE'						=> 'írta',
 
 	'YAHOO'				=> 'Yahoo Messenger',
+	'YOUTUBE'			=> 'YouTube',
 	'YEAR'				=> 'év',
 	'YEAR_MONTH_DAY'	=> '(ÉÉÉÉ-HH-NN)',
 	'YES'				=> 'Igen',

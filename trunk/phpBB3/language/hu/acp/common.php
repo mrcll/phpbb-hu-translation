@@ -78,6 +78,8 @@ $lang = array_merge($lang, array(
 	'ACP_CAT_USERS'				=> 'Felhasználók',
 	'ACP_CLIENT_COMMUNICATION'	=> 'Kommunikáció a kliensekkel', //? 'Kapcsolat a kliensekkel', 'Kliens kommunikáció', 'Kommunikáció a kliensekkel'
 	'ACP_COOKIE_SETTINGS'		=> 'Süti beállítások',
+	'ACP_CONTACT'				=> 'Contact page', //bb31!
+	'ACP_CONTACT_SETTINGS'		=> 'Contact page settings', //bb31!
 	'ACP_CRITICAL_LOGS'			=> 'Hibanapló',
 	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'Egyedi profil mezők',
 
@@ -226,8 +228,18 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'Vissza',
 
+	'CLI_DESCRIPTION_CRON_LIST'				=> 'Prints a list of ready and unready cron jobs.', //bb31!
+	'CLI_DESCRIPTION_CRON_RUN'				=> 'Runs all ready cron tasks.', //bb31!
+	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'	=> 'Name of the task to be run', //bb31!
+
+	'CLI_DESCRIPTION_OPTION_SHELL'			=> 'Launch the shell.', //bb31!
+
 	'COLOUR_SWATCH'			=> 'Webbiztos színválasztó',
 	'CONFIG_UPDATED'		=> 'A konfiguráció sikeresen frissítésre került.', //?
+	'CRON_LOCK_ERROR'		=> 'Could not obtain cron lock.', //bb31!
+	'CRON_NO_SUCH_TASK'		=> 'Could not find cron task “%s”.', //bb31!
+	'CRON_NO_TASK'			=> 'No cron tasks need to be run right now.', //bb31!
+	'CRON_NO_TASKS'			=> 'No cron tasks could be found.', //bb31!
 
 	'DEACTIVATE'				=> 'Deaktiválás',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'A megadott „%s” elérési út nem létezik.',
@@ -287,6 +299,7 @@ $lang = array_merge($lang, array(
 
 	'REMIND'							=> 'Emlékeztetés',
 	'RESYNC'							=> 'Újraszinkronizálás',
+	'RUNNING_TASK'			=> 'Running task: %s.', //bb31!
 
 	'SELECT_ANONYMOUS'		=> 'Vendég felhasználó kiválasztása',
 	'SELECT_OPTION'			=> 'Opció kiválasztása',
@@ -298,6 +311,8 @@ $lang = array_merge($lang, array(
 
 	'SHOW_ALL_OPERATIONS'	=> 'Összes művelet megjelenítése',
 
+	'TASKS_NOT_READY'			=> 'Not ready tasks:', //bb31!
+	'TASKS_READY'			=> 'Ready tasks:', //bb31!
 	'TOTAL_SIZE'      		=> 'Total size', //bb31!
 
 	'UCP'					=> 'Felhasználói vezérlőpult',
@@ -547,9 +562,9 @@ $lang = array_merge($lang, array(
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Téma jóváhagyása</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>Téma előreugrasztása</strong><br />» %s',
-	'LOG_DELETE_POST'			=> '<strong>Hozzászólás törlése</strong><br />» %s',
+	'LOG_DELETE_POST'			=> '<strong>Deleted post “%1$s” written by “%2$s” for the following reason</strong><br />» %3$s', //bb31! '<strong>Hozzászólás törlése</strong><br />» %s',
 	'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Árnyék téma törlése</strong><br />» %s',
-	'LOG_DELETE_TOPIC'			=> '<strong>Téma törlése</strong><br />» %s',
+	'LOG_DELETE_TOPIC'			=> '<strong>Deleted topic “%1$s” written by “%2$s” for the following reason</strong><br />» %3$s', //bb31! '<strong>Téma törlése</strong><br />» %s',
 	'LOG_FORK'					=> '<strong>Téma másolása</strong><br />» %s',
 	'LOG_LOCK'					=> '<strong>Téma lezárása</strong><br />» %s',
 	'LOG_LOCK_POST'				=> '<strong>Hozzászólás lezárása</strong><br />» %s',
@@ -559,13 +574,13 @@ $lang = array_merge($lang, array(
 	'LOG_PM_REPORT_DELETED'		=> '<strong>PÜ jelentés törlése</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>Hozzászólás jóváhagyása</strong><br />» %s',
 	'LOG_POST_DISAPPROVED'		=> '<strong>Disapproved post “%1$s” written by “%3$s” for the following reason</strong><br />» %2$s', //bb31! <strong>„%1$s” hozzászólás elutasítása</strong><br />» ok: %2$s',
-	'LOG_POST_EDITED'			=> '<strong>„%1$s” hozzászólás szerkesztése</strong><br />» szerző: %2$s',
+	'LOG_POST_EDITED'			=> '<strong>Edited post “%1$s” written by “%2$s” for the following reason</strong><br />» %3$s', //bb31! '<strong>„%1$s” hozzászólás szerkesztése</strong><br />» szerző: %2$s',
 	'LOG_POST_RESTORED'			=> '<strong>Restored post</strong><br />» %s', //bb31!
 	'LOG_REPORT_CLOSED'			=> '<strong>Jelentés lezárása</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>Jelentés törlése</strong><br />» %s',
 	'LOG_RESTORE_TOPIC'			=> '<strong>Restored topic “%1$s” written by</strong><br />» %2$s', //bb31!
-	'LOG_SOFTDELETE_POST'		=> '<strong>Soft deleted post “%1$s” written by</strong><br />» %2$s', //bb31!
-	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Soft deleted topic “%1$s” written by</strong><br />» %2$s', //bb31!
+	'LOG_SOFTDELETE_POST'		=> '<strong>Soft deleted post “%1$s” written by “%2$s” for the following reason</strong><br />» %3$s', //bb31!
+	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Soft deleted topic “%1$s” written by “%2$s” for the following reason</strong><br />» %3$s', //bb31!
 	'LOG_SPLIT_DESTINATION'		=> '<strong>Szétválasztott hozzászólások áthelyezése</strong><br />» %s témába',
 	'LOG_SPLIT_SOURCE'			=> '<strong>Téma szétválasztása</strong><br />» %s',
 
