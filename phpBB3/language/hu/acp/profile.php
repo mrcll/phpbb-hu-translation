@@ -42,9 +42,11 @@ if (empty($lang) || !is_array($lang))
 // Custom profile fields
 $lang = array_merge($lang, array(
 	'ADDED_PROFILE_FIELD'	=> 'Az egyedi profil mező sikeresen létrehozásra került.',
+	'ALPHA_DOTS'			=> 'Alphanumeric and dots (periods)', //bb31!
 	'ALPHA_ONLY'			=> 'Csak alfanumerikus',
 	'ALPHA_SPACERS'			=> 'Alfanumerikus és térköz',
 	'ALPHA_UNDERSCORE'		=> 'Alphanumeric and underscores', //bb31!
+	'ALPHA_PUNCTUATION'		=> 'Alphanumeric with comma, dots, underscore and dashes beginning with a letter', //bb31!
 	'ALWAYS_TODAY'			=> 'Mindig a jelenlegi dátum',
 
 	'BOOL_ENTRIES_EXPLAIN'	=> 'Itt add meg a választási lehetőségeket.',
@@ -94,6 +96,7 @@ $lang = array_merge($lang, array(
 	'FIELD_DESCRIPTION'			=> 'Mező leírása',
 	'FIELD_DESCRIPTION_EXPLAIN'	=> 'A felhasználónak megjelenő leírás a mezőről.',
 	'FIELD_DROPDOWN'			=> 'Lenyíló lista', //? lista
+	'FIELD_GOOGLEPLUS'			=> 'Google+',
 	'FIELD_IDENT'				=> 'Mezőazonosító',
 	'FIELD_IDENT_ALREADY_EXIST'	=> 'A kiválasztott mezőazonosító már létezik. Kérünk, válassz másikat.',
 	'FIELD_IDENT_EXPLAIN'		=> 'A mezőazonosító a profil mező azonosítására való az adatbázisban és a sablonokban.',
