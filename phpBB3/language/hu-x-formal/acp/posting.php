@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 
 	'BBCODE_ADDED'				=> 'A BBCode sikeresen felvételre került.',
 	'BBCODE_EDITED'				=> 'A BBCode sikeresen szerkesztésre került.',
-	'BBCODE_DELETED'			=> 'The BBCode has been removed successfully.', //bb31!
+	'BBCODE_DELETED'			=> 'A BBCode sikeresen törlésre került.', //bb31
 	'BBCODE_NOT_EXIST'			=> 'A kiválasztott BBCode nem létezik.',
 	'BBCODE_HELPLINE'			=> 'Segítség',
 	'BBCODE_HELPLINE_EXPLAIN'	=> 'Ennek a mezőnek a tartalma fog megjelenni, ha a BBCode fölé viszed az egeret.', //?

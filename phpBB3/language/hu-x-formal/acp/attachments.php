@@ -66,7 +66,7 @@ $lang = array_merge($lang, array(
 	'ATTACH_MAX_PM_FILESIZE_EXPLAIN'	=> 'Privát üzenethez csatolható legnagyobb állomány mérete. A 0 érték kikapcsolja a korlátozást.',
 	'ATTACH_ORPHAN_URL'					=> 'Árva csatolmányok',
 	'ATTACH_POST_ID'					=> 'Hozzászólás azonosító',
-	'ATTACH_POST_TYPE'					=> 'Post type', //bb31!
+	'ATTACH_POST_TYPE'					=> 'Hozzászólás típusa', //bb31
 	'ATTACH_QUOTA'						=> 'Csatolmányok tárhelye', //?
 	'ATTACH_QUOTA_EXPLAIN'				=> 'Az egész fórumon a csatolmányok legfeljebb ekkora helyet foglalhatnak el összesen. A 0 érték kikapcsolja a korlátozást.', //?
 	'ATTACH_TO_POST'					=> 'Állomány csatolása hozzászóláshoz', //?
@@ -115,8 +115,8 @@ $lang = array_merge($lang, array(
 	'GO_TO_EXTENSIONS'		=> 'Ugrás a kiterjesztések kezeléséhez',
 	'GROUP_NAME'			=> 'Csoport neve',
 
-	'FILES_GONE'			=> 'Some of the attachments you selected for deletion do not exist. They may have been already deleted. Attachments that did exist were deleted.', //bb31!
-	'FILES_STATS_WRONG'		=> 'Your file statistics are likely inaccurate and need to be resynchronised. Actual values: number of attachments = %1$d, total size of attachments = %2$s.<br />Click %3$shere%4$s to resynchronise them.', //bb31!
+	'FILES_GONE'			=> 'Néhány törlésre kiválasztott csatolmány nem létezik. Ezek lehet, hogy már korábban törölve lettek. A létezők törölve lettek.', //bb31
+	'FILES_STATS_WRONG'		=> 'A csatolmány statisztikád pontatlan lehet, ezért újraszinkronizálásra lehet szükség. Jelenlegi értékek: csatolmányok száma = %1$d, csatolmányok összes mérete = %2$s.<br />%3$sKattints ide%4$s az újraszinkronizáláshoz.', //bb31
 
 	'IMAGE_LINK_SIZE'			=> 'Linkkép méret', //? "Image link dimensions"
 	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Ha a csatolt kép ennél nagyobb, akkor csak egy link lesz megjelenítve hozzá, ahelyett, hogy közvetlenül szerepelne a hozzászólásban. A funkció kikapcsolásához állítsd mindkét értéket 0-ra.',
@@ -138,7 +138,7 @@ $lang = array_merge($lang, array(
 	'NOT_ALLOWED_IN_PM'			=> 'Csak hozzászólásokban engedélyezett',
 	'NOT_ALLOWED_IN_PM_POST'	=> 'Nem engedélyezett',
 	'NOT_ASSIGNED'				=> 'Nincs hozzárendelve',
-	'NO_ATTACHMENTS'			=> 'No attachments found for this period.', //bb31!
+	'NO_ATTACHMENTS'			=> 'Ehhez az időszakhoz nem található csatolmány.', //bb31
 	'NO_EXT_GROUP'				=> 'Nincs',
 	'NO_EXT_GROUP_NAME'			=> 'A csoport neve nem lett megadva.',
 	'NO_EXT_GROUP_SPECIFIED'	=> 'Nem lett megadva kiterjesztéscsoport.',
@@ -154,7 +154,7 @@ $lang = array_merge($lang, array(
 
 	'REMOVE_ALLOWED_IPS'		=> '<em>Engedélyezett</em> IP-k/hosztnevek eltávolítása vagy kizárásuk megszüntetése',
 	'REMOVE_DISALLOWED_IPS'		=> '<em>Nem engedélyezett</em> IP-k/hosztnevek eltávolítása vagy kizárásuk megszüntetése',
-	'RESYNC_FILES_STATS_CONFIRM'	=> 'Are you sure you wish to resynchronise file statistics?', //bb31!
+	'RESYNC_FILES_STATS_CONFIRM'	=> 'Újra szeretnéd szinkronizálni a csatolmányok statisztikáját?', //bb31
 
 	'SEARCH_IMAGICK'				=> 'Imagemagick keresése',
 	'SECURE_ALLOW_DENY'				=> 'Engedélyezettek/tiltottak listája',

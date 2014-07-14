@@ -1,4 +1,4 @@
-<?php //bb31!
+<?php
 /**
 * This file is part of the phpBB Forum Software package.
 *
@@ -75,7 +75,7 @@ $lang = array_merge($lang, array(
 	'ACL_U_CHGEMAIL'	=> 'Megváltoztathatja az e-mail címét',
 	'ACL_U_CHGAVATAR'	=> 'Megváltoztathatja az avatarát',
 	'ACL_U_CHGGRP'		=> 'Megváltoztathatja az elsődleges csoportját',
-	'ACL_U_CHGPROFILEINFO'	=> 'Can change profile field information', //bb31!
+	'ACL_U_CHGPROFILEINFO'	=> 'Megváltoztathatja a profil mezőket', //bb31 ? Can change profile field information
 
 	'ACL_U_ATTACH'		=> 'Csatolhat állományokat',
 	'ACL_U_DOWNLOAD'	=> 'Letölthet állományokat',

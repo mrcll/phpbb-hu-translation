@@ -43,7 +43,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ACP_PRUNE_USERS_EXPLAIN'	=> 'Itt törölhetsz (vagy deaktiválhatsz) felhasználókat a fórumodról. Az azonosítók több különböző módon szűrhetők: hozzászólásszám, legutolsó aktivitás stb. alapján. Minden feltétel kombinálható, tehát például törölheteted csak azokat a felhasználókat, akik 2002-01-01 előtt voltak utoljára aktívak, és kevesebb mint 10 hozzászólásszal rendelkeznek. Use * as a wildcard for text fields. Feltételek helyett beírhatsz közvetlenül felhasználóneveket a szövegmezőbe, mindegyiket külön sorba. Vigyázz ezzel a funkcióval! Ha töröltél egy felhasználót, később nem lehet visszaállítani.', //bb31!  Use * as a wildcard for text fields.
 
-	'CRITERIA'				=> 'Criteria', //bb31!
+	'CRITERIA'				=> 'Feltétel', //bb31
 
 	'DEACTIVATE_DELETE'			=> 'Deaktiválás vagy törlés',
 	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Válaszd ki, hogy deaktiválni vagy törölni szeretnéd teljesen a felhasználókat. Kérjük, vedd figyelmbe, hogy nincs mód a visszaállításra!',
@@ -55,9 +55,9 @@ $lang = array_merge($lang, array(
 
 	'LAST_ACTIVE_EXPLAIN'		=> 'Adj meg egy dátumot <kbd>ÉÉÉÉ-HH-NN</kbd> formátumban. Ha <kbd>0000-00-00</kbd>-t adsz meg, a soha be nem lépett felhasználók kerülnek törlésre – ebben az esetben a korábban/későbben feltétel nem lesz figyelembe véve.',
 
-	'POSTS_ON_QUEUE'			=> 'Posts Awaiting Approval', //bb31!
+	'POSTS_ON_QUEUE'			=> 'Engedélyezésre váró hozzászólások', //bb31
 	'PRUNE_USERS_GROUP_EXPLAIN'	=> 'Limit to users within the selected group.', //bb31!
-	'PRUNE_USERS_GROUP_NONE'	=> 'All groups', //bb31!
+	'PRUNE_USERS_GROUP_NONE'	=> 'Minden csoport', //bb31
 
 	'PRUNE_USERS_LIST'				=> 'Megtisztítandó felhasználók', //? ua mint feljebb
 	'PRUNE_USERS_LIST_DELETE'		=> 'A felhasználók megtisztításához jelenleg megadott feltételekkel a következő azonosítók lesznek eltávolítva. You can remove individual users from the deletion list by unchecking the box next to their username.', //bb31!

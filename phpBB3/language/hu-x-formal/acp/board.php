@@ -11,7 +11,7 @@
 * Magyar fordítás (c) 2007-2014 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
-* $Id$
+* $Id: board.php 255 2014-06-27 19:03:27Z marcee $
 */
 
 /**
@@ -42,8 +42,8 @@ if (empty($lang) || !is_array($lang))
 // Board Settings
 $lang = array_merge($lang, array(
 	'ACP_BOARD_SETTINGS_EXPLAIN'	=> 'Itt a fórumod alapvető működését tudod meghatározni, adhatsz neki egy hozzáillő nevet és leírást, valamint többek között beállíthatod az alapértelmezett nyelvet és időzónát.',
-	'BOARD_INDEX_TEXT'				=> 'Board index text', //bb31!
-	'BOARD_INDEX_TEXT_EXPLAIN'		=> 'This text is displayed as the board index in the board’s breadcrumbs. If not specified, it will default to “Board index”.',	//bb31!
+	'BOARD_INDEX_TEXT'				=> 'Fórum kezdőlap megnevezése', //bb31
+	'BOARD_INDEX_TEXT_EXPLAIN'		=> 'Ez a szöveg lesz megjelenítve a navigációs sávban a fórum kezdőlapjaként. Ha nincs megadva, “Fórum kezdőlap” lesz.', //bb31
 	'CUSTOM_DATEFORMAT'				=> 'Egyéni…',
 	'DEFAULT_DATE_FORMAT'			=> 'Dátum formátum',
 	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'A formátum megegyezik a PHP <code>date</code> függvényéjével.',
@@ -51,15 +51,15 @@ $lang = array_merge($lang, array(
 	'DEFAULT_STYLE'					=> 'Alapértelmezett megjelenés',
 	'DISABLE_BOARD'					=> 'Fórum kikapcsolása',
 	'DISABLE_BOARD_EXPLAIN'			=> 'Ennek igenre állításával a fórum nem lesz elérhető azon felhasználók számára, akik nem adminisztrátorok vagy moderátorok. Egy rövid üzenetet is megadhatsz (legfeljebb 255 karakter), mely meg fog jelenni a felhasználóknak.',
-	'DISPLAY_LAST_SUBJECT'			=> 'Display subject of last added post on forum list', //bb31!
-	'DISPLAY_LAST_SUBJECT_EXPLAIN'	=> 'The subject of the last added post will be displayed in the forum list with a hyperlink to the post. Subjects from password protected forums and forums in which user doesn’t have read access are not shown.',	//bb31!
+	'DISPLAY_LAST_SUBJECT'			=> 'Utolsó hozzászólás témájának megjelenítése a fórumok listáján', //bb31
+	'DISPLAY_LAST_SUBJECT_EXPLAIN'	=> 'Az utoljára beküldött hozzászólás témája megjelenítésre kerül a fórumok listáján egy a hozzászólásra mutató hivatkozással. Azok a hozzászólások, amelyek jelszóval védett vagy olyan fórumokban keletkeztek, amelyekre a felhasználónak nincs jogosultsága nem kerülnek megjelenítésre.', //bb31
 	'OVERRIDE_STYLE'				=> 'Felhasználó megjelenésének felülírása',
 	'OVERRIDE_STYLE_EXPLAIN'		=> 'Kicseréli a felhasználó megjelenését az alapértelmezettre.',
 	'SITE_DESC'						=> 'Oldal leírása',
-	'SITE_HOME_TEXT'				=> 'Main website text', //bb31!
-	'SITE_HOME_TEXT_EXPLAIN'		=> 'This text will be displayed as a link to your website homepage in the board’s breadcrumbs. If not specified, it will default to “Home”.', //bb31!
-	'SITE_HOME_URL'					=> 'Main website URL', //bb31!
-	'SITE_HOME_URL_EXPLAIN'			=> 'If specified, a link to this URL will be prepended to your board’s breadcrumbs and the board logo will link to this URL instead of the forum index. An absolute URL is required, e.g. <samp>http://www.phpbb.com</samp>.', //bb31!
+	'SITE_HOME_TEXT'				=> 'Honlap megnevezése', //bb31
+	'SITE_HOME_TEXT_EXPLAIN'		=> 'Ez a szöveg lesz megjelenítve a navigációs útvonalban honlapként. Ha nincs megadva, “Kezdőlap” lesz.', //bb31
+	'SITE_HOME_URL'					=> 'Honlap URL-je', //bb31
+	'SITE_HOME_URL_EXPLAIN'			=> 'Ha meg van adva, egy erre a címre mutató link lesz elhelyezve a navigációs sávban és a fórum logója is ide fog mutatni a fórum kezdőlapja helyett. Egy teljes URL-t kell megadnod, pl. <samp>http://www.phpbb.com</samp>.', //bb31 ???
 	'SITE_NAME'						=> 'Oldal neve',
 	'SYSTEM_TIMEZONE'				=> 'Rendszer időzóna',
 	'SYSTEM_TIMEZONE_EXPLAIN'		=> 'A nem belépett felhasználók (vendégek, robotok) ezen időzóna szerint fogják látni az időpontokat. A belépett felhasználók a regisztráció során állítják be az időzónájukat, és később ezt a felhasználói vezérlőpultban tudják módosítani.',
@@ -107,7 +107,7 @@ $lang = array_merge($lang, array(
 
 	'ALLOW_AVATARS'					=> 'Avatarok bekapcsolása',
 	'ALLOW_AVATARS_EXPLAIN'			=> 'Avatarok használatának engedélyezése általánosságban.<br />Amikor kikapcsolod az avatar funkciót vagy az egyes módon feltöltött avatar képeket, az érintett avatarok nem jelennek meg többet, de a felhasználók továbbra is le tudják tölteni a saját avatarukat a felhasználói vezérlőpultból.',
-	'ALLOW_GRAVATAR'				=> 'Enable gravatar avatars', //bb31!
+	'ALLOW_GRAVATAR'				=> 'Gravatar avatarok engedélyezése', //bb31
 	'ALLOW_LOCAL'					=> 'Avatar galéria bekapcsolása',
 	'ALLOW_REMOTE'					=> 'Külső avatarok engedélyezése',
 	'ALLOW_REMOTE_EXPLAIN'			=> 'Olyan avatarok, melyek egy másik weboldalról vannak linkelve.',
@@ -115,9 +115,9 @@ $lang = array_merge($lang, array(
 	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Lehetővé teszi avatar feltöltését egy másik weboldalról.',
 	'ALLOW_UPLOAD'					=> 'Avatarfeltöltés engedélyezése',
 	'AVATAR_GALLERY_PATH'			=> 'Avatar galéria elérési út',
-	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'A phpBB-d gyökérkönyvtárától viszonyított elérési út az előre feltöltött képekhez, pl. <samp>images/avatars/gallery</samp>.<br />Double dots like <samp>../</samp> will be stripped from the path for security reasons.', //bb31!
+	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'A phpBB-d gyökérkönyvtárától viszonyított elérési út az előre feltöltött képekhez, pl. <samp>images/avatars/gallery</samp>.<br />Az elérési útban található dupla pontok (<samp>../</samp>) biztonsági okokból eltávolításra kerülnek.', //bb31
 	'AVATAR_STORAGE_PATH'			=> 'Avatarok tárolási helyének elérési útja',
-	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'A phpBB-d gyökérkönyvtárától viszonyított elérési út, pl. <samp>images/avatars/upload</samp>.<br />Avatar uploading <strong>will not be available</strong> if this path is not writable.<br />Double dots like <samp>../</samp> will be stripped from the path for security reasons.', //bb31!
+	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'A phpBB-d gyökérkönyvtárától viszonyított elérési út, pl. <samp>images/avatars/upload</samp>.<br />Az avatar feltöltési lehetőség <strong>nem lesz elérhető</strong>, ha ez az elérési út nem írható.<br />Az elérési útban található dupla pontok (<samp>../</samp>) biztonsági okokból eltávolításra kerülnek.', //bb31
 	'MAX_AVATAR_SIZE'				=> 'Maximum avatar méret',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> 'Szélesség x magasság pixelben.',
 	'MAX_FILESIZE'					=> 'Maximum avatar állomány méret',
@@ -365,39 +365,39 @@ $lang = array_merge($lang, array(
 ));
 
 // Contact Settings
-$lang = array_merge($lang, array( //bb31!
-	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Here you can enable and disable the contact page and also add a text that is displayed on the page.',
+$lang = array_merge($lang, array(
+	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Itt be- vagy kikapcsolhatod a fórum kapcsolat oldalát, valamint megadhatsz egy az oldalon megjelenő üzenetet.', //bb31
 
-	'CONTACT_US_ENABLE'				=> 'Enable contact page',
-	'CONTACT_US_ENABLE_EXPLAIN'		=> 'This page allows users to send emails to board administrators',
+	'CONTACT_US_ENABLE'				=> 'Kapcsolat oldal engedélyezése', //bb31
+	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Ezen az oldalon a felhasználók e-mailt küldhetnek a fórum adminisztrátorainak', //bb31
 
-	'CONTACT_US_INFO'				=> 'Contact information',
-	'CONTACT_US_INFO_EXPLAIN'		=> 'The message is displayed on the contact page',
-	'CONTACT_US_INFO_PREVIEW'		=> 'Contact page information - Preview',
-	'CONTACT_US_INFO_UPDATED'		=> 'Contact page information has been updated.',
+	'CONTACT_US_INFO'				=> 'Kapcsolati információk', //bb31
+	'CONTACT_US_INFO_EXPLAIN'		=> 'Ez az üzenet lesz megjelenítve a kapcsolat oldalon.', //bb31
+	'CONTACT_US_INFO_PREVIEW'		=> 'Kapcsolati információük - Előnézet', //bb31
+	'CONTACT_US_INFO_UPDATED'		=> 'A kapcsolati információk sikeresen frissítésre kerültek.', //bb31
 ));
 
 // Load Settings
 $lang = array_merge($lang, array(
 	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'Itt be- vagy kikapcsolhatod a fórum bizonyos funkcióit a jobb teljesítmény érdekében. A legtöbb szerveren nincs szükség semmilyen funkció kikapcsolására. Azonban egyes rendszereken vagy másokkal megosztott tárhelyszolgáltatás esetében előnyös lehet kikapcsolni néhány igazából nem használt lehetőséget. Emellett korlátokat is meghatározhatsz a rendszer terhelésére vagy az aktív munkamenetek számára, melyek fölött a fórum automatikusan szünetelni fog.',
 
-	'ALLOW_CDN'						=> 'Allow usage of third party content delivery networks', //bb31!
-	'ALLOW_CDN_EXPLAIN'				=> 'If this setting is enabled, some files will be served from external third party servers instead of your server. This reduces the network bandwidth required by your server, but may present a privacy issue for some board administrators. In a default phpBB installation, this includes loading “jQuery” and the font “Open Sans” from Google’s content delivery network.',	//bb31!
-	'ALLOW_LIVE_SEARCHES'			=> 'Allow live searches', //bb31!
-	'ALLOW_LIVE_SEARCHES_EXPLAIN'	=> 'If this setting is enabled, users are provided with keyword suggestions as they type in certain fields throughout the board.', //bb31!
+	'ALLOW_CDN'						=> 'Külső CDN használata', //bb31
+	'ALLOW_CDN_EXPLAIN'				=> 'Ha ez a beállítás engedélyezve van, akkor bizonyos fájlok harmadik fél által üzemeltetett Content Delivery Network-ről kerülnek kiszolgálásra a szervered helyett. Ez csökkenti a szerver által igényelt sávszélességet, azonban adatvédelmi aggályokat vethet fel. Az alap phpBB telepítésben a “jQuery” függvénykönyvtár és az “Open Sans” betűtípus kerül kiszolgálásra a Google Content Delivery Network-ről.',	//bb31 ?
+	'ALLOW_LIVE_SEARCHES'			=> 'Azonnali keresési találatok engedélyezése', //bb31
+	'ALLOW_LIVE_SEARCHES_EXPLAIN'	=> 'Ha ez a beállítás engedélyezve van, akkor a felhasználó a fórum bizonyos mezőiben gépelés közben keresési találatokat kap.', //bb31 ?
 	'CUSTOM_PROFILE_FIELDS'			=> 'Egyedi profil mezők',
 	'LIMIT_LOAD'					=> 'Rendszerterhelés korlátozása',
 	'LIMIT_LOAD_EXPLAIN'			=> 'Ha a rendszer egy perces átlagos terhelése meghaladja ezt az értéket, a fórum automatikusan szünetelni fog. Az 1.0 érték megegyezik egy processzor ~100%-os használatával. A funkció csak UNIX alapú rendszereken működik, és akkor is csak akkor, ha elérhető ez az információ. Amennyiben a phpBB-nek nem sikerül meghatároznia a terheléskorlátot, ez az érték automatikusan 0-ra állítódik.',
 	'LIMIT_SESSIONS'				=> 'Munkamenetek korlátozása',
 	'LIMIT_SESSIONS_EXPLAIN'		=> 'Ha a munkamenetek száma egy perc alatt meghaladja ezt az értéket, a fórum automatikusan szünetelni fog. Állítsd 0-ra, hogy ne legyen korlátozás.',
 	'LOAD_CPF_MEMBERLIST'			=> 'Egyedi profil mezők megjelenítése a taglistában',
-	'LOAD_CPF_PM'					=> 'Display custom profile fields in private messages', //bb31!
+	'LOAD_CPF_PM'					=> 'Egyedi profil mezők megjelenítése a privát üzeneteknél', //bb31
 	'LOAD_CPF_VIEWPROFILE'			=> 'Egyedi profil mezők megjelenítése a felhasználók profiljában',
 	'LOAD_CPF_VIEWTOPIC'			=> 'Egyedi profil mezők megjelenítése a téma oldalakon',
 	'LOAD_USER_ACTIVITY'			=> 'Felhasználó aktivitásának mutatása',
 	'LOAD_USER_ACTIVITY_EXPLAIN'	=> 'Legaktívabb téma/fórum megjelenítése a felhasználók profiljában és a felhasználói vezérlőpultban. Több, mint egymillió hozzászólással rendelkező fórumoknál ajánlott kikapcsolni.',
-	'READ_NOTIFICATION_EXPIRE_DAYS'	=> 'Read Notification Expiration', //bb31!
-	'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN' => 'Number of days that will elapse before a read notification will automatically be deleted. Set this value to 0 to make notifications permanent.', //bb31!
+	'READ_NOTIFICATION_EXPIRE_DAYS'	=> 'Olvasási értesítés lejárata', //bb31
+	'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN' => 'Az olvasási értesítések automatikus törlése előtti napok száma. Állítsd 0-ra az automatikus törlés megszüntetéséhez.', //bb31
 	'RECOMPILE_STYLES'				=> 'Elévült megjelenés komponensek újrafeldolgozása',
 	'RECOMPILE_STYLES_EXPLAIN'		=> 'Megnézi, hogy frissült-e az adott megjelenés komponens, és ha igen, újra feldolgozza.',
 	'YES_ANON_READ_MARKING'			=> 'Olvasottságmegjelölés engedélyezése vendégeknek',
@@ -425,11 +425,11 @@ $lang = array_merge($lang, array(
 
 	'AUTH_METHOD'				=> 'Azonosítási mód',
 
-	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'Both the key and secret of each enabled OAuth service provider must be provided. Only one was provided for an OAuth service provider.', //bb31!
+	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'A kulcsot és a titkot is meg kell adnod minden engedélyezett OAuth szolgáltatáshoz, azonban te csak az egyiket adtad meg.', //bb31 ?
 	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Each OAuth provider requires a unique secret and key in order to authenticate with the external server. These should be supplied by the OAuth service when you register your website with them and should be entered exactly as provided to you.<br />Any service that does not have both a key and a secret entered here will not be available for use by the forum users. Also note, that user can still register and login using the DB authentication plug-in.', //bb31!
-	'AUTH_PROVIDER_OAUTH_KEY'					=> 'Key', //bb31!
-	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth', //bb31!
-	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Secret', //bb31!
+	'AUTH_PROVIDER_OAUTH_KEY'					=> 'Kulcs', //bb31
+	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth', //bb31
+	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Secret', //bb31! ?
 
 	'APACHE_SETUP_BEFORE_USE'	=> 'Az apache azonosítást előbb kell beállítanod, mint hogy a phpBB-t erre az azonosítási módra állítanád. Ne felejtesd el, hogy az apache azonosításhoz használt felhasználónévnek meg kell egyeznie a phpBB-beli felhasználónévvel. Az apache azonosítás csak mod_php-vel használható (CGI verzióval nem), és a safe_mode-nak kikapcsolva kell lennie.',
 
@@ -465,10 +465,10 @@ $lang = array_merge($lang, array(
 	'FORCE_SERVER_VARS_EXPLAIN'	=> 'Ha igenre van állítva, az itt megadott beállítások kerülnek használatra az automatikus megállapítás helyett.',
 	'ICONS_PATH'				=> 'Hozzászólás ikonok elérési útja',
 	'ICONS_PATH_EXPLAIN'		=> 'A phpBB-d gyökérkönyvtárától viszonyított elérési út, pl. <samp>images/icons</samp>.',
-	'MOD_REWRITE_ENABLE'		=> 'Enable URL Rewriting', //bb31!
-	'MOD_REWRITE_ENABLE_EXPLAIN' => 'When enabled, URLs containing ’app.php’ will be rewritten to remove the filename (i.e. app.php/foo will become /foo). <strong>Apache server’s mod_rewrite module is required for this functionality to work; if this option is enabled without mod_rewrite support, URLs on your board may be broken.</strong>', //bb31!
-	'MOD_REWRITE_DISABLED'		=> 'The <strong>mod_rewrite</strong> module on your Apache web server is disabled. Enable the module or contact your web hosting provider if you wish to enable this feature.', //bb31!
-	'MOD_REWRITE_INFORMATION_UNAVAILABLE' => 'We are unable to determine whether or not this server supports URL rewriting. This setting may be enabled but if URL rewriting is not available, paths generated by this board (such as for use in links) may be broken. Contact your web hosting provider if you are unsure whether or not you can safely enable this feature.', //bb31!
+	'MOD_REWRITE_ENABLE'		=> 'URL átírás engedélyezése', //bb31
+	'MOD_REWRITE_ENABLE_EXPLAIN' => 'Ha engedélyezve van, akkor az ’app.php’-t tartalmazó URL-ekből a fájlnév eltávolításra kerül (pl. app.php/valami-ből /valami lesz). <strong>A funkció használatához az Apache webszerver mod_rewrite modulja szükséges. Ha ennek megléte nélkül engedélyezed, a fórumod URL-jei hibásak lehetnek.</strong>', //bb31
+	'MOD_REWRITE_DISABLED'		=> 'A <strong>mod_rewrite</strong> Apache webszerver modul le van tiltva. Engedélyezd a modult vagy lépj kapcsolatba a tárhelyszolgáltatóddal, ha használni szeretnéd ezt a funkciót.', //bb31
+	'MOD_REWRITE_INFORMATION_UNAVAILABLE' => 'Nem sikerült megállapítani, hogy a szerver támogatja-e az URL átírást. Engedélyezheted ezt a beállítást, azonban ha az URL átírás a szerveren nem elérhető, a fórum által generált linkek hibásak lesznek. Lépj kapcsolatba a tárhelyszolgáltatóddal, ha nem vagy biztos abban, hogy ezt a funkciót biztonsággal engedélyezheted-e.', //bb31
 	'PATH_SETTINGS'				=> 'Elérési utak',
 	'RANKS_PATH'				=> 'Rang képek elérési útja',
 	'RANKS_PATH_EXPLAIN'		=> 'A phpBB-d gyökérkönyvtárától viszonyított elérési út, pl. <samp>images/ranks</samp>.',
@@ -485,8 +485,8 @@ $lang = array_merge($lang, array(
 	'SMILIES_PATH_EXPLAIN'		=> 'A phpBB-d gyökérkönyvtárától viszonyított elérési út, pl. <samp>images/smilies</samp>.',
 	'UPLOAD_ICONS_PATH'			=> 'Kiterjesztéscsoport ikonok elérési útja',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'A phpBB-d gyökérkönyvtárától viszonyított elérési út, pl. <samp>images/upload_icons</samp>.',
-	'USE_SYSTEM_CRON'		=> 'Run periodic tasks from system cron', //bb31!
-	'USE_SYSTEM_CRON_EXPLAIN'		=> 'When off, phpBB will arrange for periodic tasks to be run automatically. When on, phpBB will not schedule any periodic tasks by itself; a system administrator must arrange for <code>bin/phpbbcli.php cron:run</code> to be run by the system cron facility at regular intervals (e.g. every 5 minutes).', //bb31!
+	'USE_SYSTEM_CRON'		=> 'Ismétlődő feladtok futtatása a rendszer cron-ból', //bb31
+	'USE_SYSTEM_CRON_EXPLAIN'		=> 'Ha ki van kapcsolva, a phpBB gondoskodik az ismétlődő feladatok rendszeres futtatásáról. Ha be van kapcsolva, a phpBB nem fog egy feladatot sem ütemezetten futtatni. Ekkor egy rendszer adminisztrátornak kell a <code>bin/phpbbcli.php cron:run</code> utasítást a rendszer feladatütemező eszközében rendszeres futtatásra beállítania (pl. minden 5 percben).', //bb31
 ));
 
 // Security Settings
@@ -494,12 +494,12 @@ $lang = array_merge($lang, array(
 	'ACP_SECURITY_SETTINGS_EXPLAIN'		=> 'Itt a munkamenetekkel és a belépéssel kapcsolatos beállításokat tudsz megadni.',
 
 	'ALL'							=> 'Teljes',
-	'ALLOW_AUTOLOGIN'				=> '“Emlékezz rám” bejelentkezés engedélyezése', //bb31! Emlékezz(en) rám, eredetileg "tartós" - pontosítás szükséges
-	'ALLOW_AUTOLOGIN_EXPLAIN'		=> 'Determines whether users are given "Remember Me" option when they visit the board.', //bb31! 'A felhasználók használhatják-e az automatikus bejelentkezést.',
-	'ALLOW_PASSWORD_RESET'			=> 'Allow password reset ("Forgot Password")', //bb31!
-	'ALLOW_PASSWORD_RESET_EXPLAIN'	=> 'Determines whether or not users are able to use the "I forgot my password" link on the login page to recover their account. If you use an external authentication mechanism you may wish to disable this feature.', //bb31!
-	'AUTOLOGIN_LENGTH'				=> '“Emlékezz rám” bejelentkezési kulcs lejárati hossza', //bb31!
-	'AUTOLOGIN_LENGTH_EXPLAIN'		=> 'Ennyi nap elteltével törlésre kerülnek a “Emlékezz rám” bejelentkezési kulcsok. A 0 kikapcsolja ezt.', //bb31!
+	'ALLOW_AUTOLOGIN'				=> 'Tartós bejelentkezés bejelentkezés engedélyezése', //bb31
+	'ALLOW_AUTOLOGIN_EXPLAIN'		=> 'A felhasználók használhatják-e az automatikus bejelentkezést.', // bb31 ?megjelenjen-e a "Tartós bejelentkezés" opció a fórum meglátogatásakor.'
+	'ALLOW_PASSWORD_RESET'			=> 'Jelszó helyreállítás engedélyezése ("Elfelejtett jelszó")', //bb31
+	'ALLOW_PASSWORD_RESET_EXPLAIN'	=> 'A felhasználóknak megjelenjen-e az "Elfelejtett jelszó" hivatkozás. Külső felhasználó azonosítási rendszer használatakor érdemes lehet letiltanod ezt a funkciót.', //bb31
+	'AUTOLOGIN_LENGTH'				=> '“Emlékezz rám” bejelentkezési kulcs lejárati hossza', //bb31
+	'AUTOLOGIN_LENGTH_EXPLAIN'		=> 'Ennyi nap elteltével törlésre kerülnek a “Emlékezz rám” bejelentkezési kulcsok. A 0 kikapcsolja ezt.', //bb31
 	'BROWSER_VALID'					=> 'Böngésző ellenőrzése', //?
 	'BROWSER_VALID_EXPLAIN'			=> 'A böngésző típusa ellenőrzésre kerül, ezáltal javítva a munkamenet biztonságát.',
 	'CHECK_DNSBL'					=> 'IP összevetése a DNSBL feketelistával',
@@ -554,8 +554,8 @@ $lang = array_merge($lang, array(
 	'BOARD_HIDE_EMAILS_EXPLAIN'		=> 'Ez a funkció gondoskodik róla, hogy az e-mail címek teljesen privátak maradjanak.',
 	'CONTACT_EMAIL'					=> 'Kapcsolat e-mail cím',
 	'CONTACT_EMAIL_EXPLAIN'			=> 'Ez az e-mail cím kerül megadásra, ha szükség van bármilyen kapcsolatbalépési lehetőségre, pl. spam, hibaüzenet stb. Mindig ez a cím kerül megadásra a levelek <samp>From</samp> (feladó) és <samp>Reply-To</samp> (válaszcím) fejlécének.',
-	'CONTACT_EMAIL_NAME'			=> 'Contact name', //bb31!
-	'CONTACT_EMAIL_NAME_EXPLAIN'	=> 'This is the contact name that e-mail recipients will see. If you don’t want to have a contact name, leave this field empty.', //bb31!
+	'CONTACT_EMAIL_NAME'			=> 'Kapcsolat név', //bb31
+	'CONTACT_EMAIL_NAME_EXPLAIN'	=> 'Ez az a kapcsolati név, amit az e-mailek címzettjei látni fognak. Ha nem szeretnél nevet megadni, hagyd üresen.', //bb31
 	'EMAIL_FUNCTION_NAME'			=> 'E-mail függvény neve',
 	'EMAIL_FUNCTION_NAME_EXPLAIN'	=> 'A függvény neve, amivel e-mailt lehet küldeni PHP-n keresztül.',
 	'EMAIL_PACKAGE_SIZE'			=> 'E-mail csomag mérete',
