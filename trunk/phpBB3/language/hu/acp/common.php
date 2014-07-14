@@ -250,7 +250,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_AS'				=> 'Letöltés, mint', //?
 	'DOWNLOAD_STORE'			=> 'Állomány letöltése vagy eltárolása', //? "Download or store file" a store simán csak tárolása?
 	'DOWNLOAD_STORE_EXPLAIN'	=> 'Az állományt közvetlenül letöltheted, vagy elmentheted a <samp>store/</samp> könyvtáradba.',
-	'DOWNLOADS'          		=> 'Letöltések', //bb31
+	'DOWNLOADS'					=> 'Letöltések', //bb31
 
 	'EDIT'					=> 'Szerkesztés',
 	'ENABLE'				=> 'Bekapcsolás',
@@ -313,7 +313,7 @@ $lang = array_merge($lang, array(
 
 	'TASKS_NOT_READY'			=> 'Folyamatban lévő feladatok:', //bb31 ?
 	'TASKS_READY'			=> 'Elkészült feladatok:', //bb31
-	'TOTAL_SIZE'      		=> 'Teljes méret', //bb31
+	'TOTAL_SIZE'			=> 'Teljes méret', //bb31
 
 	'UCP'					=> 'Felhasználói vezérlőpult',
 	'USERNAMES_EXPLAIN'		=> 'Minden felhasználónevet külön sorba írj.',
