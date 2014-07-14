@@ -11,7 +11,7 @@
 * Magyar fordítás (c) 2007-2014 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
-* $Id$
+* $Id: common.php 255 2014-06-27 19:03:27Z marcee $
 */
 
 /**
@@ -64,9 +64,9 @@ $lang = array_merge($lang, array(
 
 	'ACP_CAPTCHA'				=> 'Vizuális megerősítés', //? 'CAPTCHA'?
 
-	'ACP_CAT_CUSTOMISE'			=> 'Customise', //bb31!
+	'ACP_CAT_CUSTOMISE'			=> 'Testreszabás', //bb31
 	'ACP_CAT_DATABASE'			=> 'Adatbázis',
-	'ACP_CAT_DOT_MODS'			=> 'Extensions', //bb31!
+	'ACP_CAT_DOT_MODS'			=> 'Kiterjesztések', //bb31 ?
 	'ACP_CAT_FORUMS'			=> 'Fórumok',
 	'ACP_CAT_GENERAL'			=> 'Általános',
 	'ACP_CAT_MAINTENANCE'		=> 'Karbantartás',
@@ -78,8 +78,8 @@ $lang = array_merge($lang, array(
 	'ACP_CAT_USERS'				=> 'Felhasználók',
 	'ACP_CLIENT_COMMUNICATION'	=> 'Kommunikáció a kliensekkel', //? 'Kapcsolat a kliensekkel', 'Kliens kommunikáció', 'Kommunikáció a kliensekkel'
 	'ACP_COOKIE_SETTINGS'		=> 'Süti beállítások',
-	'ACP_CONTACT'				=> 'Contact page', //bb31!
-	'ACP_CONTACT_SETTINGS'		=> 'Contact page settings', //bb31!
+	'ACP_CONTACT'				=> 'Kapscolat oldal', //bb31
+	'ACP_CONTACT_SETTINGS'		=> 'Kapcsolat oldal beállítások', //bb31
 	'ACP_CRITICAL_LOGS'			=> 'Hibanapló',
 	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'Egyedi profil mezők',
 
@@ -88,9 +88,9 @@ $lang = array_merge($lang, array(
 	'ACP_DISALLOW_USERNAMES'	=> 'Felhasználónevek letiltása',
 
 	'ACP_EMAIL_SETTINGS'		=> 'E-mail beállítások',
-	'ACP_EXTENSION_GROUPS'		=> 'Csatolmány kiterjesztéscsoportok kezelése', //bb31! egybeírás
-	'ACP_EXTENSION_MANAGEMENT'	=> 'Extension management', //bb31!
-	'ACP_EXTENSIONS'			=> 'Manage extensions', //bb31!
+	'ACP_EXTENSION_GROUPS'		=> 'Csatolmány kiterjesztéscsoportok kezelése', //bb31
+	'ACP_EXTENSION_MANAGEMENT'	=> 'Kiterjesztések kezelése', //bb31
+	'ACP_EXTENSIONS'			=> 'Kiterjesztések kezelése', //bb31
 
 	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Fórum alapú jogosultságok', //?? "Forum based permissions" a jogosultságokhoz ki kell találni egy terminológiát
 	'ACP_FORUM_LOGS'				=> 'Fórum naplók',
@@ -109,7 +109,7 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_MANAGE'				=> 'Csoportok kezelése',
 	'ACP_GROUPS_MANAGEMENT'			=> 'Csoport-kezelés',
 	'ACP_GROUPS_PERMISSIONS'		=> 'Csoport jogosultságai',
-	'ACP_GROUPS_POSITION'			=> 'Manage group positions', //bb31!
+	'ACP_GROUPS_POSITION'			=> 'Csoport helyének kezelése', //bb31 ?
 
 	'ACP_ICONS'					=> 'Téma ikonok',
 	'ACP_ICONS_SMILIES'			=> 'Téma ikonok/emotikonok',
@@ -125,8 +125,8 @@ $lang = array_merge($lang, array(
 
 	'ACP_MAIN'					=> 'AVP kezdőlap',
 
-	'ACP_MANAGE_ATTACHMENTS'			=> 'Manage attachments', //bb31!
-	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> 'Here you can list and delete files attached to posts and private messages.', //bb31!
+	'ACP_MANAGE_ATTACHMENTS'			=> 'Csatolmányok kezelése', //bb31
+	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> 'Itt kezelheted a hozzászólásokban és privát üzenetekben lévő csatolmáynokat.', //bb31
 
 	'ACP_MANAGE_EXTENSIONS'		=> 'Csatolmány kiterjesztések kezelése', //bb31! egybeírás
 	'ACP_MANAGE_FORUMS'			=> 'Fórumok kezelése',
@@ -177,8 +177,8 @@ $lang = array_merge($lang, array(
 	'ACP_SMILIES'				=> 'Emotikonok',
 	'ACP_STYLE_MANAGEMENT'		=> 'Megjelenések kezelése',
 	'ACP_STYLES'				=> 'Megjelenések',
-	'ACP_STYLES_CACHE'			=> 'Purge Cache', //bb31!
-	'ACP_STYLES_INSTALL'		=> 'Install Styles', //bb31!
+	'ACP_STYLES_CACHE'			=> 'Gyorsítótár törlése', //bb31
+	'ACP_STYLES_INSTALL'		=> 'Megjelenések telepítése', //bb31
 
 	'ACP_SUBMIT_CHANGES'		=> 'Változtatások elküldése',
 
@@ -228,18 +228,18 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'Vissza',
 
-	'CLI_DESCRIPTION_CRON_LIST'				=> 'Prints a list of ready and unready cron jobs.', //bb31!
-	'CLI_DESCRIPTION_CRON_RUN'				=> 'Runs all ready cron tasks.', //bb31!
-	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'	=> 'Name of the task to be run', //bb31!
+	'CLI_DESCRIPTION_CRON_LIST'				=> 'Kilistázza az elkészült és folyamatban lévő ütemezett feladatokat.', //bb31 ?
+	'CLI_DESCRIPTION_CRON_RUN'				=> 'Futtatja az összes elkészült ütemezett feladatot.', //bb31 ?
+	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'	=> 'Futtatandó feladat neve', //bb31 ?
 
-	'CLI_DESCRIPTION_OPTION_SHELL'			=> 'Launch the shell.', //bb31!
+	'CLI_DESCRIPTION_OPTION_SHELL'			=> 'Shell indítása.', //bb31 ?
 
 	'COLOUR_SWATCH'			=> 'Webbiztos színválasztó',
 	'CONFIG_UPDATED'		=> 'A konfiguráció sikeresen frissítésre került.', //?
 	'CRON_LOCK_ERROR'		=> 'Could not obtain cron lock.', //bb31!
-	'CRON_NO_SUCH_TASK'		=> 'Could not find cron task “%s”.', //bb31!
-	'CRON_NO_TASK'			=> 'No cron tasks need to be run right now.', //bb31!
-	'CRON_NO_TASKS'			=> 'No cron tasks could be found.', //bb31!
+	'CRON_NO_SUCH_TASK'		=> '“%s” ütemezett feladat nem található.', //bb31
+	'CRON_NO_TASK'			=> 'Nincs futtatandó ütemezett feladat.', //bb31
+	'CRON_NO_TASKS'			=> 'Nem található ütemezett feladat.', //bb31
 
 	'DEACTIVATE'				=> 'Deaktiválás',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'A megadott „%s” elérési út nem létezik.',
@@ -250,7 +250,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_AS'				=> 'Letöltés, mint', //?
 	'DOWNLOAD_STORE'			=> 'Állomány letöltése vagy eltárolása', //? "Download or store file" a store simán csak tárolása?
 	'DOWNLOAD_STORE_EXPLAIN'	=> 'Az állományt közvetlenül letöltheted, vagy elmentheted a <samp>store/</samp> könyvtáradba.',
-	'DOWNLOADS'          		=> 'Downloads', //bb31!
+	'DOWNLOADS'          		=> 'Letöltések', //bb31
 
 	'EDIT'					=> 'Szerkesztés',
 	'ENABLE'				=> 'Bekapcsolás',
@@ -265,8 +265,8 @@ $lang = array_merge($lang, array(
 	'IP'					=> 'Felhasználó IP-je',
 	'IP_HOSTNAME'			=> 'IP-címek vagy hosztnevek', //? egyesszám?
 
-	'LOAD_NOTIFICATIONS'			=> 'Display Notifications', //bb31!
-	'LOAD_NOTIFICATIONS_EXPLAIN'	=> 'Display the notifications list on every page (typically in the header).', //bb31!
+	'LOAD_NOTIFICATIONS'			=> 'Értesítések megjelenítése', //bb31
+	'LOAD_NOTIFICATIONS_EXPLAIN'	=> 'Értesítések megjelenítése minden oldalon (általában a fejlécben).', //bb31
 	'LOGGED_IN_AS'			=> 'Bejelentkezve:', //? "You are logged in as:" 'Bejelentkeztél, mint', 'Be vagy lépve, mint', 'Bejelentkezve, mint'
 	'LOGIN_ADMIN'			=> 'A fórum adminisztrálásához azonosított felhasználónak kell lenned.',
 	'LOGIN_ADMIN_CONFIRM'	=> 'A fórum adminisztrálásához újra azonosítanod kell magad.',
@@ -284,7 +284,7 @@ $lang = array_merge($lang, array(
 	'NOTIFY'				=> 'Értesítés',
 	'NO_ADMIN'				=> 'Nincs jogosultságod a fórum adminisztrálásához.',
 	'NO_EMAILS_DEFINED'		=> 'Nem található valós e-mail cím.', //? "No valid e-mail addresses found." hol használják?
-	'NO_FILES_TO_DELETE'	=> 'Attachments you selected for deletion do not exist.', //bb31!
+	'NO_FILES_TO_DELETE'	=> 'A törlésre kiválasztott csatolmányok nem léteznek.', //bb31
 	'NO_PASSWORD_SUPPLIED'	=> 'Az adminisztrátori vezérlőpulthoz való hozzáféréshez meg kell adnod a jelszavad.',
 
 	'OFF'					=> 'Kikapcsolva',
@@ -299,7 +299,7 @@ $lang = array_merge($lang, array(
 
 	'REMIND'							=> 'Emlékeztetés',
 	'RESYNC'							=> 'Újraszinkronizálás',
-	'RUNNING_TASK'			=> 'Running task: %s.', //bb31!
+	'RUNNING_TASK'			=> 'Futó feladat: %s.', //bb31
 
 	'SELECT_ANONYMOUS'		=> 'Vendég felhasználó kiválasztása',
 	'SELECT_OPTION'			=> 'Opció kiválasztása',
@@ -311,9 +311,9 @@ $lang = array_merge($lang, array(
 
 	'SHOW_ALL_OPERATIONS'	=> 'Összes művelet megjelenítése',
 
-	'TASKS_NOT_READY'			=> 'Not ready tasks:', //bb31!
-	'TASKS_READY'			=> 'Ready tasks:', //bb31!
-	'TOTAL_SIZE'      		=> 'Total size', //bb31!
+	'TASKS_NOT_READY'			=> 'Folyamatban lévő feladatok:', //bb31 ?
+	'TASKS_READY'			=> 'Elkészült feladatok:', //bb31
+	'TOTAL_SIZE'      		=> 'Teljes méret', //bb31
 
 	'UCP'					=> 'Felhasználói vezérlőpult',
 	'USERNAMES_EXPLAIN'		=> 'Minden felhasználónevet külön sorba írj.',
@@ -374,7 +374,7 @@ $lang = array_merge($lang, array(
 
 	'GZIP_COMPRESSION'	=> 'GZip tömörítés',
 
-	'NO_SEARCH_INDEX'	=> 'The selected search backend does not have a search index.<br />Please create the index for “%1$s” in the %2$ssearch index%3$s section.', //bb31!
+	'NO_SEARCH_INDEX'	=> 'A kiválasztott keresőmodulnak nincs keresőindexe.<br />Kérjük hozd létre a “%1$s” indexét a %2$sKeresőindex%3$s menüpontban.', //bb31
 	'NOT_AVAILABLE'		=> 'Nem elérhető',
 	'NUMBER_FILES'		=> 'Csatolmányok száma',
 	'NUMBER_POSTS'		=> 'Hozzászólások száma',
@@ -389,38 +389,38 @@ $lang = array_merge($lang, array(
 	'PURGE_CACHE'			=> 'Gyorsítótár kiürítése', //? megtisztítása?
 	'PURGE_CACHE_CONFIRM'	=> 'Biztosan ki akarod üríteni a gyorsítótárat?',
 	'PURGE_CACHE_EXPLAIN'	=> 'Minden gyorsítótárazott elem törlésre kerül, beleértve a gyorsítótárazott sablon állományokat és adatbázis-lekérdezéseket is.',
-	'PURGE_CACHE_SUCCESS'	=> 'Cache successfully purged.', //bb31!
+	'PURGE_CACHE_SUCCESS'	=> 'A gyorsítótár sikeresen ürítésre került.', //bb31
 
 	'PURGE_SESSIONS'			=> 'Munkamenetek törlése',
 	'PURGE_SESSIONS_CONFIRM'	=> 'Bitosan törölni szeretnéd az összes munkamenetet? Ennek folytán az összes felhasználó kiléptetésre fog kerülni.',
 	'PURGE_SESSIONS_EXPLAIN'	=> 'Megszakítja és törli az összes munkamenetet. Minden felhasználó kiléptetésre kerül, mivel a munkamenet tábla kiürítődik.',
-	'PURGE_SESSIONS_SUCCESS'	=> 'Sessions successfully purged.', //bb31!
+	'PURGE_SESSIONS_SUCCESS'	=> 'A munkamenetek sikeresen ürítésre kerültek.', //bb31
 
 	'RESET_DATE'					=> 'Fórum indulási dátumának lenullázása', //? lenullázás?
 	'RESET_DATE_CONFIRM'			=> 'Biztosan meg akarod változtatni a fórum indulásának dátumát mostanra?',
-	'RESET_DATE_SUCCESS'				=> 'Board’s start date reset', //bb31!
+	'RESET_DATE_SUCCESS'				=> 'Fórum indulási dátuma lenullázásra került.', //bb31
 	'RESET_ONLINE'					=> 'Valaha jelenlévő legtöbb felhasználó számának lenullázása', //?
 	'RESET_ONLINE_CONFIRM'			=> 'Biztosan le akarod nullázni a valaha jelenlévő legtöbb felhasználó számlálót?',
-	'RESET_ONLINE_SUCCESS'				=> 'Most users ever online reset', //bb31!
+	'RESET_ONLINE_SUCCESS'				=> 'Valaha jelenlévő legtöbb felhasználó száma lenullázásra került.', //bb31
 	'RESYNC_POSTCOUNTS'				=> 'Hozzászólásszámok újraszinkronizálása', //? hozzászólásszámok...
 	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Csak a létező hozzászólások kerülnek figyelembevételre. Az automatikus tisztítás által törölt hozzászólások nem lesznek beleszámolva.', //?
 	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Biztosan újra akarod szinkronizálni a hozzászólásszámokat?',
-	'RESYNC_POSTCOUNTS_SUCCESS'			=> 'Resynchronised post counts', //bb31!
+	'RESYNC_POSTCOUNTS_SUCCESS'			=> 'A hozzászólásszámok újraszinkronizálásra kerültek.', //bb31 ?
 	'RESYNC_POST_MARKING'			=> 'Csillagozott témák újraszinkronizálása', //? dotted - csillagozott (prosilverben legalábbis)
 	'RESYNC_POST_MARKING_CONFIRM'	=> 'Biztosan újra akarod szinkronizálni a csillagozott témákat?',
 	'RESYNC_POST_MARKING_EXPLAIN'	=> 'Először visszavonódik a megjelölés minden témáról, majd helyesen megjelölésre kerülnek azok a témák, melyekben volt valami aktivitás az elmúlt fél évben.', //?
-	'RESYNC_POST_MARKING_SUCCESS'	=> 'Resynchronised dotted topics', //bb31!
+	'RESYNC_POST_MARKING_SUCCESS'	=> 'A csillagozott témák újraszinkronizálásra kerültek.', //bb31 ?
 	'RESYNC_STATS'					=> 'Statisztika újraszinkronizálása', //?
 	'RESYNC_STATS_CONFIRM'			=> 'Biztosan újra akarod szinkronizálni a statisztikát?',
 	'RESYNC_STATS_EXPLAIN'			=> 'Újraszámolja a fórum hozzászólásait, témáit, felhasználóit és állományait.', //?
-	'RESYNC_STATS_SUCCESS'			=> 'Resynchronised statistics', //bb31!
+	'RESYNC_STATS_SUCCESS'			=> 'A statisztika újraszinkronizálásra került.', //bb31 ?
 	'RUN'							=> 'Futtatás most',
 
 	'STATISTIC'					=> 'Statisztika',
 	'STATISTIC_RESYNC_OPTIONS'	=> 'Statisztikák újraszinkronizálása vagy lenullázása',
 
-	'TIMEZONE_INVALID'	=> 'The timezone you selected is invalid.', //bb31!
-	'TIMEZONE_SELECTED'	=> '(currently selected)', //bb31!
+	'TIMEZONE_INVALID'	=> 'A kiválasztott időzóna érvénytelen.', //bb31
+	'TIMEZONE_SELECTED'	=> '(jelenleg kiválasztva)', //bb31
 	'TOPICS_PER_DAY'	=> 'Témák száma naponta',
 
 	'UPLOAD_DIR_SIZE'	=> 'Feltöltött csatolmányok mérete',
@@ -562,9 +562,9 @@ $lang = array_merge($lang, array(
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Téma jóváhagyása</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>Téma előreugrasztása</strong><br />» %s',
-	'LOG_DELETE_POST'			=> '<strong>Deleted post “%1$s” written by “%2$s” for the following reason</strong><br />» %3$s', //bb31! '<strong>Hozzászólás törlése</strong><br />» %s',
+	'LOG_DELETE_POST'			=> '<strong>“%2$s” által írt “%1$s” hozzászólás törlése a következő indokkal</strong><br />» %3$s', //bb31 '<strong>Hozzászólás törlése</strong><br />» %s',
 	'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Árnyék téma törlése</strong><br />» %s',
-	'LOG_DELETE_TOPIC'			=> '<strong>Deleted topic “%1$s” written by “%2$s” for the following reason</strong><br />» %3$s', //bb31! '<strong>Téma törlése</strong><br />» %s',
+	'LOG_DELETE_TOPIC'			=> '<strong>“%2$s” által írt “%1$s” téma törlése a következő indokkal</strong><br />» %3$s', //bb31 '<strong>Téma törlése</strong><br />» %s',
 	'LOG_FORK'					=> '<strong>Téma másolása</strong><br />» %s',
 	'LOG_LOCK'					=> '<strong>Téma lezárása</strong><br />» %s',
 	'LOG_LOCK_POST'				=> '<strong>Hozzászólás lezárása</strong><br />» %s',
@@ -573,9 +573,9 @@ $lang = array_merge($lang, array(
 	'LOG_PM_REPORT_CLOSED'		=> '<strong>PÜ jelentés lezárása</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'		=> '<strong>PÜ jelentés törlése</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>Hozzászólás jóváhagyása</strong><br />» %s',
-	'LOG_POST_DISAPPROVED'		=> '<strong>Disapproved post “%1$s” written by “%3$s” for the following reason</strong><br />» %2$s', //bb31! <strong>„%1$s” hozzászólás elutasítása</strong><br />» ok: %2$s',
-	'LOG_POST_EDITED'			=> '<strong>Edited post “%1$s” written by “%2$s” for the following reason</strong><br />» %3$s', //bb31! '<strong>„%1$s” hozzászólás szerkesztése</strong><br />» szerző: %2$s',
-	'LOG_POST_RESTORED'			=> '<strong>Restored post</strong><br />» %s', //bb31!
+	'LOG_POST_DISAPPROVED'		=> '<strong“%2$s” által írt “%1$s” hozzászólás elutasítása a következő indokkal</strong><br />» %2$s', //bb31 <strong>„%1$s” hozzászólás elutasítása</strong><br />» ok: %2$s',
+	'LOG_POST_EDITED'			=> '<strong>“%2$s” által írt “%1$s” hozzászólás szerkesztése a következő indokkal</strong><br />» %3$s', //bb31 '<strong>„%1$s” hozzászólás szerkesztése</strong><br />» szerző: %2$s',
+	'LOG_POST_RESTORED'			=> '<strong>Hozzászólás visszaállítása</strong><br />» %s', //bb31
 	'LOG_REPORT_CLOSED'			=> '<strong>Jelentés lezárása</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>Jelentés törlése</strong><br />» %s',
 	'LOG_RESTORE_TOPIC'			=> '<strong>Restored topic “%1$s” written by</strong><br />» %2$s', //bb31!
@@ -585,7 +585,7 @@ $lang = array_merge($lang, array(
 	'LOG_SPLIT_SOURCE'			=> '<strong>Téma szétválasztása</strong><br />» %s',
 
 	'LOG_TOPIC_APPROVED'		=> '<strong>Téma jóváhagyása</strong><br />» %s',
-	'LOG_TOPIC_RESTORED'		=> '<strong>Restored topic</strong><br />» %s', //bb31!
+	'LOG_TOPIC_RESTORED'		=> '<strong>Téma visszaállítása</strong><br />» %s', //bb31
 	'LOG_TOPIC_DISAPPROVED'		=> '<strong>„%1$s” téma elutasítása</strong><br />ok: %2$s',
 	'LOG_TOPIC_RESYNC'			=> '<strong>Téma újraszinkronizálása</strong><br />» %s', //?
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>Téma típusának megváltoztatása</strong><br />» %s',
@@ -682,7 +682,7 @@ $lang = array_merge($lang, array(
 	'LOG_U_ROLE_EDIT'		=> '<strong>Felhasználói szerep szerkesztése</strong><br />» %s',
 	'LOG_U_ROLE_REMOVED'	=> '<strong>Felhasználói szerep törlése</strong><br />» %s',
 
-	'LOG_PLUPLOAD_TIDY_FAILED'		=> '<strong>Unable to open %1$s for tidying, check permissions.</strong><br />Exception: %2$s<br />Trace: %3$s', //bb31!
+	'LOG_PLUPLOAD_TIDY_FAILED'		=> '<strong>Nem sikerült a %1$s megnyitása, ellenőrizd a jogosultságokat.</strong><br />Exception: %2$s<br />Trace: %3$s', //bb31
 
 	'LOG_PROFILE_FIELD_ACTIVATE'	=> '<strong>Profil mező aktiválása</strong><br />» %s',
 	'LOG_PROFILE_FIELD_CREATE'		=> '<strong>Profil mező hozzáadása</strong><br />» %s',
@@ -692,7 +692,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_PRUNE'					=> '<strong>Fórumok megtisztítása</strong><br />» %s',
 	'LOG_AUTO_PRUNE'			=> '<strong>Fórumok automatikus tisztítása</strong><br />» %s',
-	'LOG_PRUNE_SHADOW'		=> '<strong>Auto-pruned shadow topics</strong><br />» %s', //bb31!
+	'LOG_PRUNE_SHADOW'		=> '<strong>Automatikusan megtisztított árnyék témák</strong><br />» %s', //bb31
 	'LOG_PRUNE_USER_DEAC'		=> '<strong>Felhasználók deaktiválása</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_DEL'	=> '<strong>Felhasználók megtisztítása – törölt felhasználók hozzászólásainak törlése</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_ANON'	=> '<strong>Felhasználók megtisztítása – törölt felhasználók hozzászólásainak megtartása</strong><br />» %s',
@@ -711,14 +711,14 @@ $lang = array_merge($lang, array(
 	'LOG_REFERER_INVALID'		=> '<strong>Sikertelen referer összevetés</strong><br />»Referer értéke: “<em>%1$s</em>”. A kérés visszautasításra került, a munkamenet meg lett szüntetve.',
 	'LOG_RESET_DATE'			=> '<strong>Fórum indulási dátumának lenullázása</strong>',
 	'LOG_RESET_ONLINE'			=> '<strong>Valaha jelenlévő legtöbb felhasználó számának lenullázása</strong>',
-	'LOG_RESYNC_FILES_STATS'	=> '<strong>File statistics resynchronised</strong>', //bb31!
+	'LOG_RESYNC_FILES_STATS'	=> '<strong>Csatolmáyn statisztikák újraszinkronizálása</strong>', //bb31
 	'LOG_RESYNC_POSTCOUNTS'		=> '<strong>Felhasználói hozzászólásszámok újraszinkronizálása</strong>', //?
 	'LOG_RESYNC_POST_MARKING'	=> '<strong>Csillagozott témák újraszinkronizálása</strong>',
 	'LOG_RESYNC_STATS'			=> '<strong>Hozzászólás, téma és felhasználói statisztikák újraszinkronizálása</strong>',
 
 	'LOG_SEARCH_INDEX_CREATED'	=> '<strong>Keresőindex létrehozása</strong><br />» %s',
 	'LOG_SEARCH_INDEX_REMOVED'	=> '<strong>Keresőindex törlése</strong><br />» %s',
-	'LOG_SPHINX_ERROR'			=> '<strong>Sphinx Error</strong><br />» %s', //bb31!
+	'LOG_SPHINX_ERROR'			=> '<strong>Sphinx hiba</strong><br />» %s', //bb31
 	'LOG_STYLE_ADD'				=> '<strong>Új megjelenés felvétele</strong><br />» %s',
 	'LOG_STYLE_DELETE'			=> '<strong>Megjelenés törlése</strong><br />» %s',
 	'LOG_STYLE_EDIT_DETAILS'	=> '<strong>Megjelenés szerkesztése</strong><br />» %s',
