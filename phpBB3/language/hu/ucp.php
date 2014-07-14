@@ -330,12 +330,12 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE_BOOKMARK'						=> 'Someone replies to a topic you have bookmarked', //bb31!
 	'NOTIFICATION_TYPE_GROUP_REQUEST'					=> 'Someone requests to join a group you lead', //bb31!
 	'NOTIFICATION_TYPE_IN_MODERATION_QUEUE'				=> 'A post or topic needs approval', //bb31!
-	'NOTIFICATION_TYPE_MODERATION_QUEUE'   				=> 'Your topics/posts are approved or disapproved by a moderator', //bb31!
+	'NOTIFICATION_TYPE_MODERATION_QUEUE'				=> 'Your topics/posts are approved or disapproved by a moderator', //bb31!
 	'NOTIFICATION_TYPE_PM'								=> 'Someone sends you a private message', //bb31!
 	'NOTIFICATION_TYPE_POST'							=> 'Someone replies to a topic to which you are subscribed', //bb31!
 	'NOTIFICATION_TYPE_QUOTE'							=> 'Someone quotes you in a post', //bb31!
 	'NOTIFICATION_TYPE_REPORT'							=> 'Someone reports a post', //bb31!
-	'NOTIFICATION_TYPE_TOPIC'				   			=> 'Someone creates a topic in a forum to which you are subscribed', //bb31!
+	'NOTIFICATION_TYPE_TOPIC'							=> 'Someone creates a topic in a forum to which you are subscribed', //bb31!
 	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Newly registered user requiring activation', //bb31!
 
 	'NOTIFY_METHOD'					=> 'Értesítés módja',
@@ -361,6 +361,7 @@ $lang = array_merge($lang, array(
 	),
 	'NO_ACTION_MODE'				=> 'Nem adtál meg semmilyen teendőt.',
 	'NO_AUTHOR'						=> 'Az üzenethez nem tartozik feladó.', //? "No author defined for this message"
+	'NO_AVATAR'						=> 'No avatar selected', //bb31!
 	'NO_AVATAR_CATEGORY'			=> 'Nincs',
 
 	'NO_AUTH_DELETE_MESSAGE'		=> 'Nincs jogosultságod privát üzenetet törölni.',

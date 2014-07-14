@@ -63,7 +63,6 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'	=> 'Legfeljebb ennyi karakterből álló szavak kerülnek indexelésre. Ez a beállítás csak a MySQL konfigurációban történő változtatással módosítható, amit lehet, hogy csak a szolgáltatód tud megtenni.',
 
 	'FULLTEXT_POSTGRES_INCOMPATIBLE_DATABASE'	=> 'The PostgreSQL fulltext backend can only be used with PostgreSQL.', //bb31!
-	'FULLTEXT_POSTGRES_TS_NOT_USABLE'	=> 'The PostgreSQL fulltext backend can only be used with PostgreSQL 8.3 and above.', //bb31!
 	'FULLTEXT_POSTGRES_TOTAL_POSTS'			=> 'Total number of indexed posts', //bb31!
 	'FULLTEXT_POSTGRES_VERSION_CHECK'		=> 'PostgreSQL version', //bb31!
 	'FULLTEXT_POSTGRES_TS_NAME'				=> 'Text search Configuration Profile:', //bb31!

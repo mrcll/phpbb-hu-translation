@@ -52,7 +52,6 @@ $lang = array_merge($lang, array(
 	'BEFORE'				=> 'Korábban mint', //?
 
 	'CC_EMAIL'				=> 'Másolat küldése magadnak',
-	'CONTACT_USER'			=> 'Contact', //bb31!
 	'CONTACT_ADMIN'			=> 'Contact a Board Administrator', //bb31!
 
 	'DEST_LANG'				=> 'Nyelv',
@@ -151,6 +150,6 @@ $lang = array_merge($lang, array(
 	'VIEW_FACEBOOK_PROFILE'	=> 'View Facebook Profile', //bb31!
 	'VIEW_SKYPE_PROFILE'	=> 'View Skype Profile', //bb31!
 	'VIEW_TWITTER_PROFILE'	=> 'View Twitter Profile', //bb31!
-	'VIEW_YOUTUBE_CHANNEL'  => 'View YouTube Channel', //bb31!
+	'VIEW_YOUTUBE_CHANNEL'	=> 'View YouTube Channel', //bb31!
 	'VIEW_GOOGLEPLUS_PROFILE' => 'View Google+ Profile', //bb31!
 ));
