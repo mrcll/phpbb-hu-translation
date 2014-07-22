@@ -62,16 +62,16 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'	=> 'Legalább ennyi karakterből álló szavak kerülnek indexelésre. Ez a beállítás csak a MySQL konfigurációban történő változtatással módosítható, amit lehet, hogy csak a szolgáltatód tud megtenni.',
 	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'	=> 'Legfeljebb ennyi karakterből álló szavak kerülnek indexelésre. Ez a beállítás csak a MySQL konfigurációban történő változtatással módosítható, amit lehet, hogy csak a szolgáltatód tud megtenni.',
 
-	'FULLTEXT_POSTGRES_INCOMPATIBLE_DATABASE'	=> 'The PostgreSQL fulltext backend can only be used with PostgreSQL.', //bb31!
-	'FULLTEXT_POSTGRES_TOTAL_POSTS'			=> 'Total number of indexed posts', //bb31!
-	'FULLTEXT_POSTGRES_VERSION_CHECK'		=> 'PostgreSQL version', //bb31!
+	'FULLTEXT_POSTGRES_INCOMPATIBLE_DATABASE'	=> 'A PostgreSQL fulltext modul csak PostgreSQL-lel használható.', //bb31
+	'FULLTEXT_POSTGRES_TOTAL_POSTS'			=> 'Indexelt hozzászólások száma', //bb31
+	'FULLTEXT_POSTGRES_VERSION_CHECK'		=> 'PostgreSQL verzió', //bb31
 	'FULLTEXT_POSTGRES_TS_NAME'				=> 'Text search Configuration Profile:', //bb31!
-	'FULLTEXT_POSTGRES_MIN_WORD_LEN'			=> 'Minimum word length for keywords', //bb31!
-	'FULLTEXT_POSTGRES_MAX_WORD_LEN'			=> 'Maximum word length for keywords', //bb31!
-	'FULLTEXT_POSTGRES_VERSION_CHECK_EXPLAIN'		=> 'This search backend requires PostgreSQL version 8.3 and above.', //bb31!
+	'FULLTEXT_POSTGRES_MIN_WORD_LEN'			=> 'Minimum szó hossz', //bb31 Minimum word length for keywords
+	'FULLTEXT_POSTGRES_MAX_WORD_LEN'			=> 'Maximum szó hossz', //bb31 Maximum word length for keywords
+	'FULLTEXT_POSTGRES_VERSION_CHECK_EXPLAIN'		=> 'Ez a beállítás csak a PostgreSQL 8.3-as vagy újabb verzióval használható.', //bb31
 	'FULLTEXT_POSTGRES_TS_NAME_EXPLAIN'				=> 'The Text search configuration profile used to determine the parser and dictionary.', //bb31!
-	'FULLTEXT_POSTGRES_MIN_WORD_LEN_EXPLAIN'			=> 'Words with at least this many characters will be included in the query to the database.', //bb31!
-	'FULLTEXT_POSTGRES_MAX_WORD_LEN_EXPLAIN'			=> 'Words with no more than this many characters will be included in the query to the database.', //bb31!
+	'FULLTEXT_POSTGRES_MIN_WORD_LEN_EXPLAIN'			=> 'Legalább ennyi karakterből álló szavak kerülnek indexelésre.', //bb31
+	'FULLTEXT_POSTGRES_MAX_WORD_LEN_EXPLAIN'			=> 'Legfeljebb ennyi karakterből álló szavak kerülnek indexelésre.', //bb31
 
 	'FULLTEXT_SPHINX_CONFIGURE'				=> 'Configure the following settings to generate sphinx config file', //bb31!
 	'FULLTEXT_SPHINX_DATA_PATH'				=> 'Path to data directory', //bb31!
