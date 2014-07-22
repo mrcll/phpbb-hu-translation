@@ -40,90 +40,90 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 
-$lang = array_merge($lang, array( //bb31!
-	'EXTENSION'					=> 'Extension',
-	'EXTENSIONS'				=> 'Extensions',
-	'EXTENSIONS_ADMIN'			=> 'Extensions Manager',
-	'EXTENSIONS_EXPLAIN'		=> 'The Extensions Manager is a tool in your phpBB Board which allows you to manage all of your extensions statuses and view information about them.',
-	'EXTENSION_INVALID_LIST'	=> 'The “%s” extension is not valid.<br />%s<br /><br />',
-	'EXTENSION_NOT_AVAILABLE'	=> 'The selected extension is not available for this board, please verify your phpBB and PHP versions are allowed (see the details page).',
-	'EXTENSION_DIR_INVALID'		=> 'The selected extension has an invalid directory structure and cannot be enabled.',
+$lang = array_merge($lang, array(
+	'EXTENSION'					=> 'Kiterjesztés', //bb31
+	'EXTENSIONS'				=> 'Kiterjesztések', //bb31
+	'EXTENSIONS_ADMIN'			=> 'Kiterjesztés kezelő', //bb31
+	'EXTENSIONS_EXPLAIN'		=> 'A kiterjesztés kezelővel a phpBB fórumod kiterjesztéseit kezelheted, illetve kiterjesztésekkel kapcsolatos információkat tekinthetsz meg.', //bb31 ?
+	'EXTENSION_INVALID_LIST'	=> 'A “%s” kiterjesztés érvénytelen.<br />%s<br /><br />', //bb31
+	'EXTENSION_NOT_AVAILABLE'	=> 'A kiválasztott kiterjesztés nem telepíthető erre a fórumra, kérjük ellenőrizd a támogatott phpBB és PHP verzióokat a részletek oldalon.', //bb31
+	'EXTENSION_DIR_INVALID'		=> 'A kiválasztott kiterjesztés könyvtárszerkezete hibás, ezért a kiterjesztés nem engedélyezhető.', //bb31
 
-	'DETAILS'				=> 'Details',
+	'DETAILS'				=> 'Részletek', //bb31
 
-	'EXTENSIONS_DISABLED'	=> 'Disabled Extensions',
-	'EXTENSIONS_ENABLED'	=> 'Enabled Extensions',
+	'EXTENSIONS_DISABLED'	=> 'Letiltott kiterjesztések', //bb31
+	'EXTENSIONS_ENABLED'	=> 'Engedélyezett kiterjesztések', //bb31
 
-	'EXTENSION_DELETE_DATA'	=> 'Delete data',
-	'EXTENSION_DISABLE'		=> 'Disable',
-	'EXTENSION_ENABLE'		=> 'Enable',
+	'EXTENSION_DELETE_DATA'	=> 'Adatok törlése', //bb31
+	'EXTENSION_DISABLE'		=> 'Letiltás', //bb31
+	'EXTENSION_ENABLE'		=> 'Engedélyezés', //bb31
 
-	'EXTENSION_DELETE_DATA_EXPLAIN'	=> 'Deleting an extension’s data removes all of its data and settings. The extension files are retained so it can be enabled again.',
-	'EXTENSION_DISABLE_EXPLAIN'		=> 'Disabling an extension retains its files, data and settings but removes any functionality added by the extension.',
-	'EXTENSION_ENABLE_EXPLAIN'		=> 'Enabling an extension allows you to use it on your board.',
+	'EXTENSION_DELETE_DATA_EXPLAIN'	=> 'A kiterjesztés adatainak törlése eltávolítja a kiterjesztés által létrehozott adatokat és beállításokat. A kiterjesztés állományai megmaradnak, így a kiterjesztés később újra engedélyezhető.', //bb31
+	'EXTENSION_DISABLE_EXPLAIN'		=> 'A kiterjesztés letiltása megtartja a kiterjesztés fájljait, adatait és beállításait, azonban eltávolít minden a kiterjesztés által nyújtott funkcionalitást.', //bb31
+	'EXTENSION_ENABLE_EXPLAIN'		=> 'A kiterjesztés engedélyezésével az használhatóvá válik a fórumodon.', //bb31
 
-	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'The extension’s data is currently being deleted. Please do not leave or refresh this page until it is completed.',
-	'EXTENSION_DISABLE_IN_PROGRESS'	=> 'The extension is currently being disabled. Please do not leave or refresh this page until it is completed.',
-	'EXTENSION_ENABLE_IN_PROGRESS'	=> 'The extension is currently being enabled. Please do not leave or refresh this page until it is completed.',
+	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'A kiterjesztés adatainak törlése folyik. Kérjük, ne hagyd el vagy frissítsd az oldalt, amíg a művelet be nem fejeződik.', //bb31
+	'EXTENSION_DISABLE_IN_PROGRESS'	=> 'A kiterjesztés letiltása folyik. Kérjük, ne hagyd el vagy frissítsd az oldalt, amíg a művelet be nem fejeződik.', //bb31
+	'EXTENSION_ENABLE_IN_PROGRESS'	=> 'A kiterjesztés engedélyezése folyik. Kérjük, ne hagyd el vagy frissítsd az oldalt, amíg a művelet be nem fejeződik.', //bb31
 
-	'EXTENSION_DELETE_DATA_SUCCESS'	=> 'The extension’s data was deleted successfully',
-	'EXTENSION_DISABLE_SUCCESS'		=> 'The extension was disabled successfully',
-	'EXTENSION_ENABLE_SUCCESS'		=> 'The extension was enabled successfully',
+	'EXTENSION_DELETE_DATA_SUCCESS'	=> 'A kiterjesztés adatai sikeresen törlésre kerültek.', //bb31
+	'EXTENSION_DISABLE_SUCCESS'		=> 'A kiterjesztés sikeresen letiltásra került.', //bb31
+	'EXTENSION_ENABLE_SUCCESS'		=> 'A kiterjesztés sikeresen engedélyezésre került.', //bb31
 
-	'EXTENSION_NAME'			=> 'Extension Name',
-	'EXTENSION_ACTIONS'			=> 'Actions',
-	'EXTENSION_OPTIONS'			=> 'Options',
-	'EXTENSION_UPDATE_HEADLINE'	=> 'Updating an extension',
+	'EXTENSION_NAME'			=> 'Kiterjesztés neve', //bb31
+	'EXTENSION_ACTIONS'			=> 'Műveletek', //bb31
+	'EXTENSION_OPTIONS'			=> 'Beállítások', //bb31
+	'EXTENSION_UPDATE_HEADLINE'	=> 'Kiterjesztés frissítése', //bb31
 	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
-			<li>Disable the extension</li>
-			<li>Delete the extension’s files from the filesystem</li>
-			<li>Upload the new files</li>
-			<li>Enable the extension</li>
-		</ol>',
-	'EXTENSION_REMOVE_HEADLINE'	=> 'Completly removing an extension from your board',
+			<li>Tiltsd le a kiterjesztést</li>
+			<li>Töröld el a kiterjesztés állományait a fájlrendszerből</li>
+			<li>Töltsd fel az új állományokat</li>
+			<li>Engedélyezd a kiterjesztést</li>
+		</ol>', //bb31
+	'EXTENSION_REMOVE_HEADLINE'	=> 'Kiterjesztés teljes eltávolítása', //bb31
 	'EXTENSION_REMOVE_EXPLAIN'	=> '<ol>
-			<li>Disable the extension</li>
-			<li>Delete the extension’s data</li>
-			<li>Delete the extension’s files from the filesystem</li>
-		</ol>',
+			<li>Tiltsd le a kiterjesztést</li>
+			<li>Töröld a kiterjesztés adatait</li>
+			<li>Töröld a kiterjesztés állományait a fájlrendszerből</li>
+		</ol>', //bb31
 
-	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Are you sure that you wish to delete the data associated with “%s”?<br /><br />This removes all of its data and settings and cannot be undone!',
-	'EXTENSION_DISABLE_CONFIRM'		=> 'Are you sure that you wish to disable the “%s” extension?',
-	'EXTENSION_ENABLE_CONFIRM'		=> 'Are you sure that you wish to enable the “%s” extension?',
-	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Are you sure that you wish to force the use of unstable version?', //bb31!
+	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Biztosan törölni akarod “%s” adatait?<br /><br />Ez a művelet törli az összes adatot és beállítást, és nem vonható vissza!', //bb31
+	'EXTENSION_DISABLE_CONFIRM'		=> 'Biztosan letiltod a “%s” kiterjesztést?', //bb31
+	'EXTENSION_ENABLE_CONFIRM'		=> 'Biztosan engedélyezed a “%s” kiterjesztést?', //bb31
+	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Biztosan használni szeretnél egy nem stabil verziót?', //bb31
 
-	'RETURN_TO_EXTENSION_LIST'	=> 'Return to the extension list',
+	'RETURN_TO_EXTENSION_LIST'	=> 'Vissza a kiterjesztésekhez', //bb31
 
-	'EXT_DETAILS'			=> 'Extension Details',
-	'DISPLAY_NAME'			=> 'Display Name',
-	'CLEAN_NAME'			=> 'Clean Name',
-	'TYPE'					=> 'Type',
-	'DESCRIPTION'			=> 'Description',
-	'VERSION'				=> 'Version',
-	'HOMEPAGE'				=> 'Homepage',
-	'PATH'					=> 'File Path',
-	'TIME'					=> 'Release Time',
-	'LICENSE'				=> 'Licence',
+	'EXT_DETAILS'			=> 'Kiterjesztés részletei', //bb31
+	'DISPLAY_NAME'			=> 'Megjelenítendő név', //bb31
+	'CLEAN_NAME'			=> 'Egyszerű név', //bb31
+	'TYPE'					=> 'Típus', //bb31
+	'DESCRIPTION'			=> 'Leírás', //bb31
+	'VERSION'				=> 'verzió', //bb31
+	'HOMEPAGE'				=> 'Honlap', //bb31
+	'PATH'					=> 'Elérési út', //bb31
+	'TIME'					=> 'Kiadás dátuma', //bb31
+	'LICENSE'				=> 'Licenc', //bb31
 
-	'REQUIREMENTS'			=> 'Requirements',
-	'PHPBB_VERSION'			=> 'phpBB Version',
-	'PHP_VERSION'			=> 'PHP Version',
-	'AUTHOR_INFORMATION'	=> 'Author Information',
-	'AUTHOR_NAME'			=> 'Name',
-	'AUTHOR_EMAIL'			=> 'Email',
-	'AUTHOR_HOMEPAGE'		=> 'Homepage',
-	'AUTHOR_ROLE'			=> 'Role',
+	'REQUIREMENTS'			=> 'Követelmények', //bb31
+	'PHPBB_VERSION'			=> 'phpBB verzió', //bb31
+	'PHP_VERSION'			=> 'PHP verzió', //bb31
+	'AUTHOR_INFORMATION'	=> 'Készítő adatai', //bb31
+	'AUTHOR_NAME'			=> 'Név', //bb31
+	'AUTHOR_EMAIL'			=> 'E-mail', //bb31
+	'AUTHOR_HOMEPAGE'		=> 'Honlap', //bb31
+	'AUTHOR_ROLE'			=> 'Szerep', //bb31
 
-	'NOT_UP_TO_DATE'		=> '%s is not up to date', //bb31!
-	'UP_TO_DATE'			=> '%s is up to date', //bb31!
-	'ANNOUNCEMENT_TOPIC'	=> 'Release Announcement', //bb31!
-	'DOWNLOAD_LATEST'		=> 'Download Version', //bb31!
-	'NO_VERSIONCHECK'		=> 'No version check information given.', //bb31!
+	'NOT_UP_TO_DATE'		=> '%s nem a legfrissebb', //bb31
+	'UP_TO_DATE'			=> '%s a legfrissebb', //bb31
+	'ANNOUNCEMENT_TOPIC'	=> 'Kiadási közlemény', //bb31
+	'DOWNLOAD_LATEST'		=> 'Legfrissebb verzió letöltése', //bb31
+	'NO_VERSIONCHECK'		=> 'No version check information given.', //bb31 ?
 
-	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Re-Check all versions', //bb31!
-	'FORCE_UNSTABLE'					=> 'Always check for unstable versions', //bb31!
-	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Version check settings', //bb31!
+	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Összes verzió újraellenőrzése', //bb31
+	'FORCE_UNSTABLE'					=> 'Mindig ellenőrizze a nem stabil verziókat is', //bb31
+	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Verzió ellenőrzés beállításai', //bb31
 
-	'META_FIELD_NOT_SET'	=> 'Required meta field %s has not been set.', //bb31!
-	'META_FIELD_INVALID'	=> 'Meta field %s is invalid.', //bb31!
+	'META_FIELD_NOT_SET'	=> 'A szükséges %s információ nem lett megadva.', //bb31 ? meta field
+	'META_FIELD_INVALID'	=> '%s információ érvénytelen.', //bb31
 ));

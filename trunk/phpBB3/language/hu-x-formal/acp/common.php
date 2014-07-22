@@ -11,7 +11,7 @@
 * Magyar fordítás (c) 2007-2014 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
-* $Id: common.php 255 2014-06-27 19:03:27Z marcee $
+* $Id: common.php 257 2014-07-14 20:22:52Z marcee $
 */
 
 /**
@@ -801,7 +801,7 @@ $lang = array_merge($lang, array(
 	'LOG_WORD_DELETE'		=> '<strong>Cenzúrázott szó törlése</strong><br />» %s',
 	'LOG_WORD_EDIT'			=> '<strong>Cenzúrázott szó szerkesztése</strong><br />» %s',
 
-	'LOG_EXT_ENABLE'	=> '<strong>Extension enabled</strong><br />» %s', //bb31!
-	'LOG_EXT_DISABLE'	=> '<strong>Extension disabled</strong><br />» %s', //bb31!
-	'LOG_EXT_PURGE'		=> '<strong>Extension’s data deleted</strong><br />» %s', //bb31!
+	'LOG_EXT_ENABLE'	=> '<strong>Kiterjesztés engedélyezése</strong><br />» %s', //bb31
+	'LOG_EXT_DISABLE'	=> '<strong>Kiterjesztés tiltása</strong><br />» %s', //bb31
+	'LOG_EXT_PURGE'		=> '<strong>Kiterjezstés adatainak törlése</strong><br />» %s', //bb31
 ));

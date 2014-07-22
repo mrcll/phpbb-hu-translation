@@ -42,47 +42,47 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ACP_STYLES_EXPLAIN'	=> 'Itt a fórumon elérhető megjelenéseket tudod kezelni. A megjelenéseket módosíthatod, törölheted, deaktiválhatod, újraaktiválhatod, vagy telepíthetsz újakat is. Az előnézet funkció segítségével azt is megnézheted, hogy egy megjelenés hogyan fog kinézni. Minden megjelenés mellett megjelenik, hányan használják, azonban ebben az értékben nem jelentkezik a felhasználói sablon felülírás hatása.', //?
 
-	'CANNOT_BE_INSTALLED'			=> 'Cannot be installed', //bb31!
-	'CONFIRM_UNINSTALL_STYLES'		=> 'Are you sure you wish to uninstall selected styles?', //bb31!
+	'CANNOT_BE_INSTALLED'			=> 'Nem telepíthető', //bb31
+	'CONFIRM_UNINSTALL_STYLES'		=> 'Biztosan el szeretnéd távolítani a kiválasztott stílust?', //bb31 ? styles
 	'COPYRIGHT'						=> 'Copyright', //? kell valami?
 
 	'DEACTIVATE_DEFAULT'		=> 'Nem tudod deaktiválni az alapértelmezett megjelenést.',
 	'DELETE_FROM_FS'			=> 'Törlés a fájlrendszerből',
-	'DELETE_STYLE_FILES_FAILED'	=> 'Error deleting files for style "%s".', //bb31!
-	'DELETE_STYLE_FILES_SUCCESS'	=> 'Files for style "%s" have been deleted.', //bb31!
+	'DELETE_STYLE_FILES_FAILED'	=> 'Hiba történt a "%s" stílus állományainak törlése közben.', //bb31 ? style
+	'DELETE_STYLE_FILES_SUCCESS'	=> '"%s" stílus állományai törlésre kerültek.', //bb31 ? style
 	'DETAILS'					=> 'Adatok', //? Részletek?
 
 	'INHERITING_FROM'			=> 'Öröklés',
 	'INSTALL_STYLE'				=> 'Megjelenés telepítése',
 	'INSTALL_STYLES'				=> 'Megjelenések telepítése',
-	'INSTALL_STYLES_EXPLAIN'		=> 'Itt telepíteni tudod a új stílust.<br /><br />If you cannot find a specific style in list below, check to make sure style is already installed. If it is not installed, check if it was uploaded correctly.', //bb31!
-	'INVALID_STYLE_ID'			=> 'Invalid style ID.', //bb31!
+	'INSTALL_STYLES_EXPLAIN'		=> 'Itt telepíteni tudod az új stílust.<br /><br />Ha nem találod a lent lévő listában, akkor ellenőrizd, hogy már telepítésre került-e. Ha nincs telepítve, nézd meg, hogy megfelelően került-e feltöltésre.', //bb31 ? style
+	'INVALID_STYLE_ID'			=> 'Érvénytelen stílus azonosító.', //bb31
 
-	'NO_MATCHING_STYLES_FOUND'	=> 'No styles match your query.', //bb31!
+	'NO_MATCHING_STYLES_FOUND'	=> 'Nincs a feltételeknek megfelelő megjelenés.', //bb31
 	'NO_UNINSTALLED_STYLE'		=> 'Nincs telepítetlen megjelenés.',
 
-	'PURGED_CACHE'				=> 'Cache was purged.', //bb31!
+	'PURGED_CACHE'				=> 'Gyorsítótár törölve.', //bb31 ? Cache was purged
 
-	'REQUIRES_STYLE'			=> 'This style requires the style "%s" to be installed.', // bb31 Ennek a megjelenésnek szüksége van rá, hogy a %s képkészlet telepítve legyen.
+	'REQUIRES_STYLE'			=> 'Ennek a megjelenésnek szüksége van rá, hogy a "%s" megjelenés telepítve legyen.', // bb31 ? style
 
 	'STYLE_ACTIVATE'			=> 'Aktiválás',
 	'STYLE_ACTIVE'				=> 'Aktív',
 	'STYLE_DEACTIVATE'			=> 'Deaktiválás',
 	'STYLE_DEFAULT'				=> 'Alapértelmezett megjelenéssé tétel',
-	'STYLE_DEFAULT_CHANGE'		=> 'Change default style', //bb31!
-	'STYLE_DEFAULT_CHANGE_INACTIVE'	=> 'You must activate style before making it default style.', //bb31!
+	'STYLE_DEFAULT_CHANGE'		=> 'Alapértelmezett megjelenés módosítása', //bb31
+	'STYLE_DEFAULT_CHANGE_INACTIVE'	=> 'Engedélyeznek kell a megjelenést, mielőtt alapértelmezett megjelenésnek állítanád be.', //bb31
 	'STYLE_ERR_NAME_EXIST'		=> 'Már létezik megjelenés ilyen névvel.',
-	'STYLE_INSTALLED'			=> 'Style "%s" has been installed.', //bb31!
-	'STYLE_INSTALLED_RETURN_INSTALLED_STYLES'	=> 'Return to installed styles list', //bb31!
-	'STYLE_INSTALLED_RETURN_UNINSTALLED_STYLES'	=> 'Install more styles', //bb31!
+	'STYLE_INSTALLED'			=> 'Style "%s" has been installed.', //bb31
+	'STYLE_INSTALLED_RETURN_INSTALLED_STYLES'	=> 'Vissza a telepített megjelenésekhez', //bb31 ? megjelenések listájához
+	'STYLE_INSTALLED_RETURN_UNINSTALLED_STYLES'	=> 'További megjelenések telepítése', //bb31
 	'STYLE_NAME'				=> 'Megjelenés neve',
-	'STYLE_NOT_INSTALLED'		=> 'Style "%s" was not installed.', //bb31!
-	'STYLE_PATH'				=> 'Style path', //bb31!
-	'STYLE_UNINSTALL'			=> 'Uninstall', //bb31!
-	'STYLE_UNINSTALL_DEPENDENT'	=> 'Style "%s" cannot be uninstalled because it has one or more child styles.', //bb31!
-	'STYLE_UNINSTALLED'			=> 'Style "%s" uninstalled successfully.', //bb31!
+	'STYLE_NOT_INSTALLED'		=> '"%s" megjelenés nincs telepítve.', //bb31 ? style
+	'STYLE_PATH'				=> 'Megjelenés elérési útja', //bb31
+	'STYLE_UNINSTALL'			=> 'Eltávolítás', //bb31
+	'STYLE_UNINSTALL_DEPENDENT'	=> 'A "%s" megjelenés nem távolítható el, amíg van rá épülő megjelenés telepítve.', //bb31
+	'STYLE_UNINSTALLED'			=> '"%s" megjelenés sikeresen eltávolításra került.', //bb31
 	'STYLE_USED_BY'				=> 'Használók száma (robotok beleértve)',
 
-	'UNINSTALL_DEFAULT'		=> 'You cannot uninstall the default style.', //bb31!
+	'UNINSTALL_DEFAULT'		=> 'Nem távolíthatod el az alapértelmezett megjelenést.', //bb31
 
 ));

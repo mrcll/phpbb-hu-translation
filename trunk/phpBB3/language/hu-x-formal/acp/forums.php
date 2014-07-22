@@ -11,7 +11,7 @@
 * Magyar fordítás (c) 2007-2014 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
-* $Id: forums.php 254 2014-06-04 13:09:30Z marcee $
+* $Id: forums.php 257 2014-07-14 20:22:52Z marcee $
 */
 
 /**
@@ -47,10 +47,10 @@ $lang = array_merge($lang, array(
 	'AUTO_PRUNE_FREQ_EXPLAIN'	=> 'A megtisztítások között eltelt idő napokban.',
 	'AUTO_PRUNE_VIEWED'			=> 'Automatikus megtisztítás utolsó megtekintés ideje alapján', //?
 	'AUTO_PRUNE_VIEWED_EXPLAIN'	=> 'A téma az utolsó megtekintés után ennyi nap elteltével kerül eltávolításra.',
-	'AUTO_PRUNE_SHADOW_FREQ'	=> 'Auto-prune shadow topics frequency', //bb31!
-	'AUTO_PRUNE_SHADOW_DAYS'	=> 'Auto-prune shadow topics age', //bb31!
-	'AUTO_PRUNE_SHADOW_DAYS_EXPLAIN'	=> 'Number of days after which shadow topic is removed.', //bb31!
-	'AUTO_PRUNE_SHADOW_FREQ_EXPLAIN'	=> 'Time in days between pruning events.', //bb31!
+	'AUTO_PRUNE_SHADOW_FREQ'	=> 'Árnyék témák automatikus megtisztításának gyakorisága', //bb31
+	'AUTO_PRUNE_SHADOW_DAYS'	=> 'Automatikusan megtisztítandó árnyék témák kora', //bb31
+	'AUTO_PRUNE_SHADOW_DAYS_EXPLAIN'	=> 'Napok száma, ami után az árnyék téma törlésre kerül.', //bb31
+	'AUTO_PRUNE_SHADOW_FREQ_EXPLAIN'	=> 'Két automatikus megtisztítás közötti napok száma.', //bb31
 
 	'CONTINUE'						=> 'Folytatás',
 	'COPY_PERMISSIONS'				=> 'Jogosultságok másolása',

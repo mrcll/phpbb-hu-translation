@@ -11,7 +11,7 @@
 * Magyar fordítás (c) 2007-2014 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
-* $Id: board.php 255 2014-06-27 19:03:27Z marcee $
+* $Id: board.php 257 2014-07-14 20:22:52Z marcee $
 */
 
 /**
@@ -425,11 +425,11 @@ $lang = array_merge($lang, array(
 
 	'AUTH_METHOD'				=> 'Azonosítási mód',
 
-	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'A kulcsot és a titkot is meg kell adnod minden engedélyezett OAuth szolgáltatáshoz, azonban te csak az egyiket adtad meg.', //bb31 ?
-	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Each OAuth provider requires a unique secret and key in order to authenticate with the external server. These should be supplied by the OAuth service when you register your website with them and should be entered exactly as provided to you.<br />Any service that does not have both a key and a secret entered here will not be available for use by the forum users. Also note, that user can still register and login using the DB authentication plug-in.', //bb31!
-	'AUTH_PROVIDER_OAUTH_KEY'					=> 'Kulcs', //bb31
+	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'A key-t és a secret-et is meg kell adnod minden engedélyezett OAuth szolgáltatáshoz, azonban te csak az egyiket adtad meg.', //bb31
+	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Minden OAuth szolgáltatónak szüksége van egy egyedi secret-re és egy key-re, hogy azonosítani tudja a felhasználót egy külső szerveren történő belépéskor. Ezeket az OAuth szolgáltató adja meg a náluk történt regisztráció után, és pontosan abban a formában kell megadnod, ahogy azt a szolgáltató megadta.<br />Azok a szolgáltatók, amelyekhez nincs megadva secret és key is, nem lesznek használhatóak. Megjegyzés: a felhasználók továbbra is tudnak regisztrálni és bejelentkezni a DB azonosítás használatával.', //bb31 ?
+	'AUTH_PROVIDER_OAUTH_KEY'					=> 'Key', //bb31
 	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth', //bb31
-	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Secret', //bb31! ?
+	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Secret', //bb31
 
 	'APACHE_SETUP_BEFORE_USE'	=> 'Az apache azonosítást előbb kell beállítanod, mint hogy a phpBB-t erre az azonosítási módra állítanád. Ne felejtesd el, hogy az apache azonosításhoz használt felhasználónévnek meg kell egyeznie a phpBB-beli felhasználónévvel. Az apache azonosítás csak mod_php-vel használható (CGI verzióval nem), és a safe_mode-nak kikapcsolva kell lennie.',
 

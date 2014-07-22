@@ -116,12 +116,12 @@ $lang = array_merge($lang, array(
 	'GROUP_USERS_REMOVE'			=> 'A felhasználók eltávolításra kerültek a csoportból, valamint az alapértelmezett dolgok is sikeresen beállításra kerültek.',
 
 	'LEGEND_EXPLAIN'				=> 'Ezek a csoportok kerülnek megjelenítésre a ki van itt részben:', //bb31 ?
-	'LEGEND_SETTINGS'				=> 'Legend settings', //bb31!
-	'LEGEND_SORT_GROUPNAME'			=> 'Sort legend by group name', //bb31!
-	'LEGEND_SORT_GROUPNAME_EXPLAIN'	=> 'The order below is ignored when this option is enabled.', //bb31!
+	'LEGEND_SETTINGS'				=> 'Ki van itt beállítások', //bb31 ? Legend settings
+	'LEGEND_SORT_GROUPNAME'			=> 'Csoportok rendezése név szerint', //bb31
+	'LEGEND_SORT_GROUPNAME_EXPLAIN'	=> 'Ha engedélyezve van, a lenti sorrend nem lesz figyelembe véve.', //bb31
 
-	'MANAGE_LEGEND'			=> 'Manage group legend', //bb31!
-	'MANAGE_TEAMPAGE'		=> 'Manage teampage', //bb31!
+	'MANAGE_LEGEND'			=> 'Csoport ki van itt beállításainak kezelése', //bb31 ? Manage group legend
+	'MANAGE_TEAMPAGE'		=> '“A csapat” oldal kezelése', //bb31 ? Manage teampage
 
 	'MAKE_DEFAULT_FOR_ALL'	=> 'Elsődleges csoporttá tétel minden tagnak',
 	'MEMBERS'				=> 'Tagok',
@@ -134,18 +134,18 @@ $lang = array_merge($lang, array(
 	'NO_USERS_ADDED'			=> 'Nem került felhasználó hozzáadásra a csoporthoz.',
 	'NO_VALID_USERS'			=> 'Nem adtál meg felhasználót, akin elvégezhető lenne ez a művelet.',
 
-	'SELECT_GROUP'				=> 'Válassz csoportot', //bb31!
+	'SELECT_GROUP'				=> 'Válassz csoportot', //bb31
 	'SPECIAL_GROUPS'			=> 'Előre meghatározott csoportok', //?!
 	'SPECIAL_GROUPS_EXPLAIN'	=> 'Az előre meghatározott csoportok speciális csoportok, melyeket nem lehet törölni vagy közvetlenül módosítani. Mindazonáltal felhasználókat fel tudsz venni beléjük és néhány alap beállítást is megváltoztathatsz.',
 
-	'TEAMPAGE'					=> '“A csapat” oldal', //bb31!
-	'TEAMPAGE_DISP_ALL'			=> 'All memberships', //bb31!
+	'TEAMPAGE'					=> '“A csapat” oldal', //bb31
+	'TEAMPAGE_DISP_ALL'			=> 'Minden csoporttagság', //bb31
 	'TEAMPAGE_DISP_DEFAULT'		=> 'Felhasználó alapértelmezett csoportja', //bb31
 	'TEAMPAGE_DISP_FIRST'		=> 'Első csoporttagság', //bb31
 	'TEAMPAGE_EXPLAIN'			=> 'Ezek a csoportok kerülnek megjelenítésre “A csapat” oldalon:', //bb31 ?
-	'TEAMPAGE_FORUMS'			=> 'Display moderated forums', //bb31!
-	'TEAMPAGE_FORUMS_EXPLAIN'	=> 'If set to yes, moderators will have a list with all of the forums where they have moderator permissions displayed in their row. This can be very database intensive for big boards.', //bb31!
-	'TEAMPAGE_MEMBERSHIPS'		=> 'Display user memberships', //bb31!
+	'TEAMPAGE_FORUMS'			=> 'Moderált fórumok megjelenítése', //bb31
+	'TEAMPAGE_FORUMS_EXPLAIN'	=> 'Ha igenre van állítva, a moderátorok nevénél fel lesznek sorolva azok a fórumok, ahol moderátori jogokkal rendelkeznek. Ez nagyobb fórumoknál teljesítmény igényes lehet.', //bb31
+	'TEAMPAGE_MEMBERSHIPS'		=> 'Felhasználók tagságának megjelenítése', //bb31 ? Display user memberships
 	'TEAMPAGE_SETTINGS'			=> '“A csapat” oldal beállítások',	//bb31
 	'TOTAL_MEMBERS'				=> 'Tagok',
 
