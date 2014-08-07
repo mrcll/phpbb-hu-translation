@@ -106,7 +106,7 @@ $lang = array_merge($lang, array(
 	'GROUP_SKIP_AUTH'				=> 'Csoportvezető felmentése a csoport jogosultságok alól', //? felmentés
 	'GROUP_SKIP_AUTH_EXPLAIN'		=> 'Ha be van kapcsolva, a csoportvezetőre nem vonatkoznak a csoportra beállított jogosultságok.',
 	'GROUP_SPECIAL'					=> 'Előre meghatározott', //bb31
-	'GROUP_TEAMPAGE'				=> 'Csoport megjelenítése “A csapat” oldalon', //bb31
+	'GROUP_TEAMPAGE'				=> 'Csoport megjelenítése a csapat oldalon', //bb31
 	'GROUP_TYPE'					=> 'Csoport típusa',
 	'GROUP_TYPE_EXPLAIN'			=> 'Ez határozza meg melyik felhasználók láthatják a csoportot vagy csatlakozhatnak hozzá.',
 	'GROUP_UPDATED'					=> 'A csoport beállítások sikeresen frissítésre kerültek.',
@@ -121,7 +121,7 @@ $lang = array_merge($lang, array(
 	'LEGEND_SORT_GROUPNAME_EXPLAIN'	=> 'Ha engedélyezve van, a lenti sorrend nem lesz figyelembe véve.', //bb31
 
 	'MANAGE_LEGEND'			=> 'Csoport ki van itt beállításainak kezelése', //bb31 ? Manage group legend
-	'MANAGE_TEAMPAGE'		=> '“A csapat” oldal kezelése', //bb31 ? Manage teampage
+	'MANAGE_TEAMPAGE'		=> 'Csapat oldal kezelése', //bb31 ? Manage teampage
 
 	'MAKE_DEFAULT_FOR_ALL'	=> 'Elsődleges csoporttá tétel minden tagnak',
 	'MEMBERS'				=> 'Tagok',
@@ -138,15 +138,15 @@ $lang = array_merge($lang, array(
 	'SPECIAL_GROUPS'			=> 'Előre meghatározott csoportok', //?!
 	'SPECIAL_GROUPS_EXPLAIN'	=> 'Az előre meghatározott csoportok speciális csoportok, melyeket nem lehet törölni vagy közvetlenül módosítani. Mindazonáltal felhasználókat fel tudsz venni beléjük és néhány alap beállítást is megváltoztathatsz.',
 
-	'TEAMPAGE'					=> '“A csapat” oldal', //bb31
+	'TEAMPAGE'					=> 'Csapat oldal', //bb31
 	'TEAMPAGE_DISP_ALL'			=> 'Minden csoporttagság', //bb31
 	'TEAMPAGE_DISP_DEFAULT'		=> 'Felhasználó alapértelmezett csoportja', //bb31
 	'TEAMPAGE_DISP_FIRST'		=> 'Első csoporttagság', //bb31
-	'TEAMPAGE_EXPLAIN'			=> 'Ezek a csoportok kerülnek megjelenítésre “A csapat” oldalon:', //bb31 ?
+	'TEAMPAGE_EXPLAIN'			=> 'Ezek a csoportok kerülnek megjelenítésre a csapat oldalon:', //bb31 ?
 	'TEAMPAGE_FORUMS'			=> 'Moderált fórumok megjelenítése', //bb31
 	'TEAMPAGE_FORUMS_EXPLAIN'	=> 'Ha igenre van állítva, a moderátorok nevénél fel lesznek sorolva azok a fórumok, ahol moderátori jogokkal rendelkeznek. Ez nagyobb fórumoknál teljesítmény igényes lehet.', //bb31
 	'TEAMPAGE_MEMBERSHIPS'		=> 'Felhasználók tagságának megjelenítése', //bb31 ? Display user memberships
-	'TEAMPAGE_SETTINGS'			=> '“A csapat” oldal beállítások',	//bb31
+	'TEAMPAGE_SETTINGS'			=> 'Csapat oldal beállítások',	//bb31
 	'TOTAL_MEMBERS'				=> 'Tagok',
 
 	'USERS_APPROVED'				=> 'A felhasználók sikeresen jóváhagyásra kerültek',
