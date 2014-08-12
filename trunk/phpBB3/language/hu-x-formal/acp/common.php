@@ -228,12 +228,6 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'Vissza',
 
-	'CLI_DESCRIPTION_CRON_LIST'				=> 'Kilistázza az elkészült és folyamatban lévő ütemezett feladatokat.', //bb31 ?
-	'CLI_DESCRIPTION_CRON_RUN'				=> 'Futtatja az összes elkészült ütemezett feladatot.', //bb31 ?
-	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'	=> 'Futtatandó feladat neve', //bb31 ?
-
-	'CLI_DESCRIPTION_OPTION_SHELL'			=> 'Shell indítása.', //bb31 ?
-
 	'COLOUR_SWATCH'			=> 'Webbiztos színválasztó',
 	'CONFIG_UPDATED'		=> 'A konfiguráció sikeresen frissítésre került.', //?
 	'CRON_LOCK_ERROR'		=> 'Could not obtain cron lock.', //bb31!

@@ -63,7 +63,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_O_HELP'				=> 'Rendezett lista: például [list=1][*] első pont[/list] vagy [list=a][*] a pont[/list]',
 	'BBCODE_P_HELP'				=> 'Kép: [img]http://kep_url[/img]',
 	'BBCODE_Q_HELP'				=> 'Idézet: [quote]szöveg[/quote]',
-	'BBCODE_S_HELP'				=> 'Betűszín: [color=red]szöveg[/color] Tipp: a színt color=#FF0000 formában is megadhatod.',
+	'BBCODE_S_HELP'				=> 'Betűszín: [color=red]szöveg[/color] vagy [color=#FF0000]szöveg[/color]',
 	'BBCODE_U_HELP'				=> 'Aláhúzás: [u]szöveg[/u]',
 	'BBCODE_W_HELP'				=> 'Link: [url]http://url[/url] vagy [url=http://url]link szöveg[/url]',
 	'BBCODE_Y_HELP'				=> 'Lista: lista elem hozzáadása',
