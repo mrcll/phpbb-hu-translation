@@ -291,8 +291,8 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT_EXPLAIN'		=> 'A phpBB <strong>nem</strong> fog működni, ha a PHP a PCRE kiterjesztés UTF-8 támogatása nélkül került fordításra.', //? fogalmazás...
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'getimagesize() PHP függvény elérhető',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> '<strong>Szükséges</strong> – A phpBB-nek a helyes működéshez szüksége van a getimagesize függvényre.',
-	'PHP_JSON_SUPPORT'				=> 'PHP JSON support', //bb31!
-	'PHP_JSON_SUPPORT_EXPLAIN'		=> '<strong>Required</strong> - In order for phpBB to function correctly, the PHP JSON extension needs to be available.', //bb31!
+	'PHP_JSON_SUPPORT'				=> 'PHP JSON támogatás', //bb31
+	'PHP_JSON_SUPPORT_EXPLAIN'		=> '<strong>Szükséges</strong> - Ahhoz, hogy a phpBB megfelelően működjön, a PHP JSON kiterjesztésének elérhetőnek kell lennie.', //bb31
 	'PHP_OPTIONAL_MODULE'			=> 'Opcionális modulok', //? erre is van valamilyen magyar kifejezés...
 	'PHP_OPTIONAL_MODULE_EXPLAIN'	=> '<strong>Opcionális</strong> – Ezek a modulok vagy alkalmazások opcionálisak. Azonban ha elérhetők, extra funkciók használata válik lehetségessé velük.',
 	'PHP_SUPPORTED_DB'				=> 'Támogatott adatbázisok',
@@ -324,7 +324,7 @@ $lang = array_merge($lang, array(
 	'SERVER_CONFIG'				=> 'Szerver beállítások', // "Server configuration" konfiguráció
 	'SEARCH_INDEX_UNCONVERTED'	=> 'A keresési index nem került konvertálásra',
 	'SEARCH_INDEX_UNCONVERTED_EXPLAIN'	=> 'A kereső indexe nem lett átkonvertálva, így a keresések nem fognak találatot adni. A keresési index létrehozásához menj az adminisztrátori vezérlőpultra, válaszd ki a Karbantartást, majd az almenüben kattints a Keresési indexre.',
-	'SELECT_FORUM_GA'			=> 'In phpBB 3.1 the global announcements are linked to forums. Select a forum for your current global announcements (can be moved later):', //bb31!
+	'SELECT_FORUM_GA'			=> 'A phpBB 3.1-es verziójában a globális közlemények fórumhoz kapcsolódnak. Válaszd ki a globális közlemények fórumát (később megváltoztatható):', //bb31
 	'SOFTWARE'					=> 'Fórumszoftver', //? külön?
 	'SPECIFY_OPTIONS'			=> 'Konvertálás beállításainak megadása', //? hol? megadása kell?
 	'STAGE_ADMINISTRATOR'		=> 'Adminisztrátor adatok', //? 'Adminisztrátor adatai'
@@ -400,10 +400,10 @@ $lang = array_merge($lang, array(
 	'CURRENT_VERSION'				=> 'Jelenlegi verzió',
 
 	'DATABASE_TYPE'						=> 'Adatbázis típusa',
-	'DATABASE_UPDATE_COMPLETE'			=> 'Database updater has completed!', //bb31!
-	'DATABASE_UPDATE_CONTINUE'			=> 'Continue database update', //bb31!
+	'DATABASE_UPDATE_COMPLETE'			=> 'Az adatbázis frissítése befejeződött!', //bb31
+	'DATABASE_UPDATE_CONTINUE'			=> 'Adatbázis frissítésének folytatása', //bb31
 	'DATABASE_UPDATE_INFO_OLD'			=> 'Az install könyvtárban található adatbázis-frissítő állomány nem a legújabb. Kérünk, győződj meg róla, hogy a jó verzióját töltötted fel az állománynak.', //? "The database update file within the install directory is outdated. Please make sure you uploaded the correct version of the file."
-	'DATABASE_UPDATE_NOT_COMPLETED'		=> 'The database update has not yet completed.', //bb31!
+	'DATABASE_UPDATE_NOT_COMPLETED'		=> 'Az adatbázis frissítése még nem fejeződött be.', //bb31
 	'DELETE_USER_REMOVE'				=> 'Felhasználó törlése és hozzászólásainak eltávolítása',
 	'DELETE_USER_RETAIN'				=> 'Felhasználó törlése de hozzászólásainak megtartása',
 	'DESTINATION'						=> 'Célállomány',
@@ -424,15 +424,15 @@ $lang = array_merge($lang, array(
 
 	'EDIT_USERNAME'	=> 'Felhasználónév módosítása',
 	'ERROR'			=> 'Hiba',
-	'EVERYTHING_UP_TO_DATE'		=> 'Everything is up to date with the latest phpBB version. You should now <a href="%1$s">login to your board</a> and check if everything is working fine. Do not forget to delete, rename or move your install directory! Please send us updated information about your server and board configurations from the <a href="%2$s">Send statistics</a> module in your ACP.', //bb31!
+	'EVERYTHING_UP_TO_DATE'		=> 'Minden naprakész a legfrissebb phpBB verzióval. <a href="%1$s">Jelentkezz be a fórumra</a> és ellenőrizd, hogy minden működik-e. Ne felejtsd el törölni, átnevezni vagy átmozgatni az install könyvtárat! Kérjük, küldd el a frissített adatokat a szerveredről és a fórum beállításairól a <a href="%2$s">Statisztika küldése</a> menüpontból.', //bb31 ?
 
 	'FILE_ALREADY_UP_TO_DATE'		=> 'Az állomány már a legújabb verziójú', //? "File is already up to date"
 	'FILE_DIFF_NOT_ALLOWED'			=> 'Ezen az állományon nem végezhető diff.', //? "File not allowed to be diffed"
 	'FILE_USED'						=> 'Információ a következő állományból',			// Single file //??? "Information used from"
 	'FILES_CONFLICT'				=> 'Ütközéseket tartalmazó állományok',
 	'FILES_CONFLICT_EXPLAIN'		=> 'A következő állományok korábban módosítva lettek, és nem teljesen egyeznek meg a régiverzió-beli állománnyal. Az egyesítésük során ütközés lép fel. Kérünk, járj utána ezeknek az ütközéseknek, és próbáld meg megoldani őket kézzel, vagy folytasd a frissítést a kívánt egyesítési mód kiválasztásával. Ha saját magad oldod meg az ütközések problémáját, miután megváltoztattad az állományokat, vesd őket újra össze. Emellett választhatsz különböző egyesítési módok közül is. Az első használata eredményeképp az új állományban a régi állomány ütköző sorai nem lesznek megtalálhatók, míg a második használatakor az új állomány változásai vesznek el.',
-	'FILES_DELETED'					=> 'Deleted files', //bb31!
-	'FILES_DELETED_EXPLAIN'			=> 'The following files do not exist in the new version. These files have to be deleted from your installation.', //bb31!
+	'FILES_DELETED'					=> 'Törölt állományok', //bb31
+	'FILES_DELETED_EXPLAIN'			=> 'A következő állományok nem léteznek az új verzióban. Ezeket az állományokat törölni kell a a fórum állományai közül.', //bb31
 	'FILES_MODIFIED'				=> 'Módosított állományok',
 	'FILES_MODIFIED_EXPLAIN'		=> 'A következő állományok korábban módosítva lettek, és nem teljesen egyeznek meg a régiverzió-beli állománnyal. A frissített állomány a saját módosításaid és az új állomány egyesítése lesz.', //? egyesítés - összefésülés
 	'FILES_NEW'						=> 'Új állományok',
@@ -495,7 +495,7 @@ $lang = array_merge($lang, array(
 	'PREVIOUS_VERSION'					=> 'Előző verzió',
 	'PROGRESS'							=> 'Haladás', //?
 
-	'RELEASE_ANNOUNCEMENT'		=> 'Announcement', //bb31!
+	'RELEASE_ANNOUNCEMENT'		=> 'Kiadási közlemény', //bb31
 	'RESULT'					=> 'Eredmény',
 	'RUN_DATABASE_SCRIPT'		=> 'Adatbázis frissítése most',
 
@@ -503,7 +503,7 @@ $lang = array_merge($lang, array(
 	'SELECT_DOWNLOAD_FORMAT'	=> 'Letöltendő csomag formátumának kiválasztása', //? "Select download archive format"
 	'SELECT_FTP_SETTINGS'		=> 'FTP beállítások megadása',
 	'SHOW_DIFF_CONFLICT'		=> 'Különbségek/ütközések megjelenítése',
-	'SHOW_DIFF_DELETED'			=> 'Show file contents', //bb31!
+	'SHOW_DIFF_DELETED'			=> 'Állományok tartalmának megjelenítése', //bb31
 	'SHOW_DIFF_FINAL'			=> 'Eredmény megjelenítése', //? "Show resulting file"
 	'SHOW_DIFF_MODIFIED'		=> 'Különbségek egyesítésének megjelenítése', //? "Show merged differences	"
 	'SHOW_DIFF_NEW'				=> 'Állomány tartalmának megjelenítése',
@@ -517,7 +517,7 @@ $lang = array_merge($lang, array(
 	'STAGE_UPDATE_FILES'		=> 'Állományok frissítése',
 	'STAGE_VERSION_CHECK'		=> 'Verzió ellenőrzése',
 	'STATUS_CONFLICT'			=> 'Ütközéseket eredményező módosított állomány',
-	'STATUS_DELETED'			=> 'Deleted file', //bb31!
+	'STATUS_DELETED'			=> 'Törölt állomány', //bb31
 	'STATUS_MODIFIED'			=> 'Módosított állomány',
 	'STATUS_NEW'				=> 'Új állomány',
 	'STATUS_NEW_CONFLICT'		=> 'Ütköző új állomány',
@@ -555,7 +555,7 @@ $lang = array_merge($lang, array(
 		</ul>
 
 		<p>Miután feltöltötted, a normál felhasználók nem tudják majd elérni a fórumot az install könyvtár létezése miatt.<br /><br />
-		<strong><a href="%1$s" title="%1$s">Most kezdd el a frissítést az install könyvtárba lépéssel.</a></strong><br />
+		<strong><a href="%1$s" title="%21s">Most kezdd el a frissítést az install könyvtárba lépéssel.</a></strong><br />
 		<br />
 		Ez után a rendszer végigvezet a frissítés folyamatán. A frissítés végeztével meg fog jelenni egy értesítő üzenet.
 		</p>
@@ -572,7 +572,7 @@ $lang = array_merge($lang, array(
 	'UPLOAD_METHOD'					=> 'Feltöltési mód',
 
 	'UPDATE_DB_SUCCESS'				=> 'Sikeres adatbázis-frissítés',
-	'UPDATE_FILE_SUCCESS'			=> 'File update was successful.', //bb31!
+	'UPDATE_FILE_SUCCESS'			=> 'Sikeres állomány-frissítés.', //bb31
 	'USER_ACTIVE'					=> 'Aktív felhasználó',
 	'USER_INACTIVE'					=> 'Inaktív felhasználó',
 
