@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 	'LAST_ACTIVE_EXPLAIN'		=> 'Adj meg egy dátumot <kbd>ÉÉÉÉ-HH-NN</kbd> formátumban. Ha <kbd>0000-00-00</kbd>-t adsz meg, a soha be nem lépett felhasználók kerülnek törlésre – ebben az esetben a korábban/későbben feltétel nem lesz figyelembe véve.',
 
 	'POSTS_ON_QUEUE'			=> 'Engedélyezésre váró hozzászólások', //bb31
-	'PRUNE_USERS_GROUP_EXPLAIN'	=> 'Limit to users within the selected group.', //bb31!
+	'PRUNE_USERS_GROUP_EXPLAIN'	=> 'Csak a kiválasztott csoport tagjai', //bb31 ?
 	'PRUNE_USERS_GROUP_NONE'	=> 'Minden csoport', //bb31
 
 	'PRUNE_USERS_LIST'				=> 'Megtisztítandó felhasználók', //? ua mint feljebb
