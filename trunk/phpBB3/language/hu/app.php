@@ -44,8 +44,8 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> 'Missing value for argument #%1$s: <strong>%3$s</strong> in class <strong>%2$s</strong>', //bb31!
-	'CONTROLLER_NOT_SPECIFIED'			=> 'No controller has been specified.', //bb31!
-	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'No method was specified for the controller.', //bb31!
-	'CONTROLLER_SERVICE_UNDEFINED'		=> 'The service for controller "<strong>%s</strong>" is not defined in ./config/services.yml.', //bb31!
+	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> 'Hiányzik a #%1$s változó értéke: <strong>%3$s</strong> a <strong>%2$s</strong> osztályban', //bb31 ?
+	'CONTROLLER_NOT_SPECIFIED'			=> 'Nincs controller megadva.', //bb31
+	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'A controller metódusa nincs megadva.', //bb31
+	'CONTROLLER_SERVICE_UNDEFINED'		=> 'A "<strong>%s</strong>" controller service bejegyzése hiányzik a ./config/services.yml állományból.', //bb31
 ));
