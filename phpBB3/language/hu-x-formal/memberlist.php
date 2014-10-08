@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 	'BEFORE'				=> 'Korábban mint', //?
 
 	'CC_EMAIL'				=> 'Másolat küldése önmagának',
-	'CONTACT_ADMIN'			=> 'Contact a Board Administrator', //bb31!
+	'CONTACT_ADMIN'			=> 'Fórum adminisztrátor értesítése', //bb31 ? Contact a Board Administrator
 
 	'DEST_LANG'				=> 'Nyelv',
 	'DEST_LANG_EXPLAIN'		=> 'Válasszon ki egy az üzenet címzettjének megfelelő nyelvet (ha elérhető).',
@@ -65,9 +65,9 @@ $lang = array_merge($lang, array(
 	'EMPTY_MESSAGE_EMAIL'	=> 'Nem küldhet üres üzenetet.',
  	'EMPTY_MESSAGE_IM'		=> 'Nem küldhet üres üzenetet.',
 	'EMPTY_NAME_EMAIL'		=> 'Meg kell adnia a címzett valódi nevét.',
-	'EMPTY_SENDER_EMAIL'	=> 'You must provide a valid email address.', //bb31!
-	'EMPTY_SENDER_NAME'		=> 'You must provide a name.', //bb31!
-	'EMPTY_SUBJECT_EMAIL'	=> 'Meg kell adnod az e-mail témáját.',
+	'EMPTY_SENDER_EMAIL'	=> 'Érvényes e-mail címet kell megadnia.', //bb31
+	'EMPTY_SENDER_NAME'		=> 'Meg kell adnia az e-mail feladóját.', //bb31
+	'EMPTY_SUBJECT_EMAIL'	=> 'Meg kell adnia az e-mail témáját.',
 	'EQUAL_TO'				=> 'Annyi mint', //?
 
 	'FIND_USERNAME_EXPLAIN'	=> 'Ennek az űrlapnak a segítségével konkrét felhasználókra kereshet rá. Nem kell az összes mezőt kitöltenie. Részleges szavakhoz használja a * jokerkaraktert. A dátumokat <kbd>ÉÉÉÉ-HH-NN</kbd> formában adja meg (például <samp>2004-02-29</samp>). Használja a jelölőnégyzeteket egy vagy több felhasználó kiválasztásához (az űrlaptól függ, hányat választhat ki), majd kattintson a kijelöltek kiválasztása gombra, hogy visszatérjen az előző űrlaphoz.', //? YYYY-MM-DD '... konkrét felhasználókat kereshetsz (meg) ...'
@@ -104,8 +104,8 @@ $lang = array_merge($lang, array(
 
 	'MORE_THAN'				=> 'Több mint',
 
-	'NO_CONTACT_FORM'		=> 'The board administrator contact form has been disabled.', //bb31!
-	'NO_CONTACT_PAGE'		=> 'The board administrator contact page has been disabled.', //bb31!
+	'NO_CONTACT_FORM'		=> 'A kapcsolat űrlap le lett tiltva.', //bb31
+	'NO_CONTACT_PAGE'		=> 'A kapcsolat oldal le lett tiltva.', //bb31
 
 	'NO_EMAIL'				=> 'Nem küldhet e-mailt ennek a felhasználónak.',
 	'NO_VIEW_USERS'			=> 'Nincs jogosultsága a taglista vagy a felhasználók profiljainak megtekintéséhez.',
@@ -122,8 +122,8 @@ $lang = array_merge($lang, array(
 
 	'SELECT_MARKED'			=> 'Kijelöltek kiválasztása',
 	'SELECT_SORT_METHOD'	=> 'Rendezés',
-	'SENDER_EMAIL_ADDRESS'	=> 'Your email address', //bb31!
-	'SENDER_NAME'			=> 'Your name', //bb31!
+	'SENDER_EMAIL_ADDRESS'	=> 'E-mail címe', //bb31
+	'SENDER_NAME'			=> 'Neve', //bb31
 	'SEND_ICQ_MESSAGE'		=> 'ICQ üzenet küldése',
 	'SEND_IM'				=> 'Azonnali üzenetküldés', //?
 	'SEND_JABBER_MESSAGE'	=> 'Jabber üzenet küldése',
@@ -144,12 +144,12 @@ $lang = array_merge($lang, array(
 	),
 	'USER_ONLINE'			=> 'Online',
 	'USER_PRESENCE'			=> 'Jelenlét a fórumban',
-	'USERS_PER_PAGE'		=> 'Users per page', //bb31!
+	'USERS_PER_PAGE'		=> 'Oldalankénti felhasználók száma', //bb31 ? Users per page
 
 	'VIEWING_PROFILE'		=> 'Profil megtekintése: %s',
-	'VIEW_FACEBOOK_PROFILE'	=> 'View Facebook Profile', //bb31!
-	'VIEW_SKYPE_PROFILE'	=> 'View Skype Profile', //bb31!
-	'VIEW_TWITTER_PROFILE'	=> 'View Twitter Profile', //bb31!
-	'VIEW_YOUTUBE_CHANNEL'	=> 'View YouTube Channel', //bb31!
-	'VIEW_GOOGLEPLUS_PROFILE' => 'View Google+ Profile', //bb31!
+	'VIEW_FACEBOOK_PROFILE'	=> 'Facebook profil megtekintése', //bb31
+	'VIEW_SKYPE_PROFILE'	=> 'Skype profil megtekintése', //bb31 ? adatlap?
+	'VIEW_TWITTER_PROFILE'	=> 'Twitter profil megtekintése', //bb31
+	'VIEW_YOUTUBE_CHANNEL'	=> 'YouTube csatorna megtekintése', //bb31
+	'VIEW_GOOGLEPLUS_PROFILE' => 'Google+ profil megtekintése', //bb31
 ));
