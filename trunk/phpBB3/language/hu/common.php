@@ -519,6 +519,10 @@ $lang = array_merge($lang, array(
 	'NO_USER_SPECIFIED'			=> 'Nem adtál meg felhasználónevet.',
 
 	// Nullar/Singular/Plural language entry. The key numbers define the number range in which a certain grammatical expression is valid.
+	'NUM_ATTACHMENTS'		=> array(
+		1	=> '%d attachment', //bb31!
+		2	=> '%d attachments', //bb31!
+	),
 	'NUM_POSTS_IN_QUEUE'		=> array(
 		0			=> 'Nincs moderálandó hozzászólás.',		// 0
 		1			=> '%d moderálandó hozzászólás van.',	// 1+
@@ -866,6 +870,10 @@ $lang = array_merge($lang, array(
 	'WRONG_DATA_COLOUR'			=> 'A megadott szín hibás.',
 	'WRONG_DATA_JABBER'			=> 'A megadott Jabber azonosító hibás.',
 	'WRONG_DATA_LANG'			=> 'A megadott nyelv hibás.',
+	'WRONG_DATA_POST_SD'		=> 'The post sort direction you specified is not valid.', //bb31!
+	'WRONG_DATA_POST_SK'		=> 'The post sort option you specified is not valid.', //bb31!
+	'WRONG_DATA_TOPIC_SD'		=> 'The topic sort direction you specified is not valid.', //bb31!
+	'WRONG_DATA_TOPIC_SK'		=> 'The topic sort option you specified is not valid.', //bb31!
  	'WROTE'						=> 'írta',
 
 	'YAHOO'				=> 'Yahoo Messenger',
