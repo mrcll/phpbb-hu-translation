@@ -309,6 +309,7 @@ $lang = array_merge($lang, array(
 // Visual Confirmation Settings
 $lang = array_merge($lang, array(
 	'ACP_VC_SETTINGS_EXPLAIN'				=> 'Itt az anti-robot bővítményeket tudod kezelni, melyek különböző módokon próbálják megakadályozni az ún. spamrobotok regisztrációját. Ezek a bővítmények általában egy olyan feladat megoldását követelik meg a felhasználótól, melyek a robotok számára nehezek.',
+	'ACP_VC_EXT_GET_MORE'					=> 'For additional (and possibly better) anti-spam plugins, visit the <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>phpBB.com Extensions Database</strong></a>. For more information on preventing spam on your board, visit the <a href="https://www.phpbb.com/go/anti-spam"><strong>phpBB.com Knowledge Base</strong></a>.', //bb31!
 	'AVAILABLE_CAPTCHAS'					=> 'Elérhető bővítmények',
 	'CAPTCHA_UNAVAILABLE'					=> 'Ezt a bővítményt nem lehet kiválasztani, mivel a működéséhez szükséges követelmények nem teljesülnek.',
 	'CAPTCHA_GD'							=> 'GD kép',

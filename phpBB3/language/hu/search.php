@@ -89,7 +89,7 @@ $lang = array_merge($lang, array(
 	'RESULT_DAYS'			=> 'Időintervallum', //?
 	'RESULT_SORT'			=> 'Találatok rendezése',
 	'RETURN_FIRST'			=> 'Hozzászólások első',
-	'RETURN_TO_SEARCH_ADV'	=> 'Vissza a részletes kereséshez',
+	'GO_TO_SEARCH_ADV'	=> 'Ugrás a részletes kereséshez', //bb31
 
 	'SEARCHED_FOR'				=> 'Keresett kifejezés', //?
 	'SEARCHED_TOPIC'			=> 'Keresett téma',

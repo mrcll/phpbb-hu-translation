@@ -77,6 +77,9 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSION_PURGE_FAILURE'		=> 'Could not purge extension %s', //bb31!
 	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'Successfully purged extension %s', //bb31!
 	'CLI_EXTENSION_NOT_FOUND'			=> 'Nem találhatóak kiterjesztések.', //bb31
+	'CLI_EXTENSIONS_AVAILABLE'			=> 'Available', //bb31!
+	'CLI_EXTENSIONS_DISABLED'			=> 'Disabled', //bb31!
+	'CLI_EXTENSIONS_ENABLED'			=> 'Enabled', //bb31!
 
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Az összes e-mail hash sikeresen újraszámításra került.', //bb31
 ));
