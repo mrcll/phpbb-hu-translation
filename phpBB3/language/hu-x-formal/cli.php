@@ -31,7 +31,7 @@ if (empty($lang) || !is_array($lang))
 // DEVELOPERS PLEASE NOTE
 //oly
 // Placeholders can now contain order information, e.g. instead of
-// 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', //bb31! this allows
+// 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
 // translators to re-order the output of data while ensuring it remains correct
 //
 // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
@@ -64,7 +64,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Kilistázza az adatbázisban és a fájlrendszerben lévő összes kiterjesztést.', //bb31
 	'CLI_DESCRIPTION_OPTION_SAFE_MODE'			=> 'Futtatás csökkentett módban (kiterjesztések nélkül).', //bb31
 	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Shell indítása.', //bb31
-	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Purges the specified extension.', //bb31!
+	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Törli a megadott kiterjesztés adatait.', //bb31 ? purge extension
 	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Újraszámítja a users tábla user_email_hash oszlopát.', //bb31
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Csak akkor állítja be a konfigurációs beállítás értékét, ha annak eredeti értéke megegyezik az aktuális értékkel.', //bb31 ?
 	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Beállítja egy opció értékét', //bb31
@@ -74,12 +74,12 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSION_ENABLE_FAILURE'		=> 'Nem lehet engedélyezni a %s kiterjesztést', //bb31
 	'CLI_EXTENSION_ENABLE_SUCCESS'		=> '%s kiterjesztés sikeresen engedélyezve', //bb31
 	'CLI_EXTENSION_NAME'				=> 'Kiterjesztés neve', //bb31
-	'CLI_EXTENSION_PURGE_FAILURE'		=> 'Could not purge extension %s', //bb31!
-	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'Successfully purged extension %s', //bb31!
+	'CLI_EXTENSION_PURGE_FAILURE'		=> 'Nem lehet törölni a %s kiterjesztés adatait', //bb31
+	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'A %s kiterjesztés adatai sikeresen törlésre kerültek', //bb31
 	'CLI_EXTENSION_NOT_FOUND'			=> 'Nem találhatóak kiterjesztések.', //bb31
-	'CLI_EXTENSIONS_AVAILABLE'			=> 'Available', //bb31!
-	'CLI_EXTENSIONS_DISABLED'			=> 'Disabled', //bb31!
-	'CLI_EXTENSIONS_ENABLED'			=> 'Enabled', //bb31!
+	'CLI_EXTENSIONS_AVAILABLE'			=> 'Elérhető', //bb31
+	'CLI_EXTENSIONS_DISABLED'			=> 'Letiltott', //bb31
+	'CLI_EXTENSIONS_ENABLED'			=> 'Engedélyezett', //bb31
 
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Az összes e-mail hash sikeresen újraszámításra került.', //bb31
 ));
