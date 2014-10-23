@@ -420,6 +420,8 @@ $lang = array_merge($lang, array(
 	'PM_FROM_REMOVED_AUTHOR'	=> 'Az üzenetet egy már nem regisztrált felhasználó küldte.',
 	'PM_ICON'					=> 'PÜ ikon',
 	'PM_INBOX'					=> 'Bejövő', //? 'Bejövő üzenetek'?
+	'PM_MARK_ALL_READ'			=> 'Mark all messages read', //bb31!
+	'PM_MARK_ALL_READ_SUCCESS'	=> 'All private messages in this folder have been marked read', //bb31!
 	'PM_NO_USERS'				=> 'A hozzáadni kívánt felhasználók nem léteznek.',
 	'PM_OUTBOX'					=> 'Kimenő',
 	'PM_SENTBOX'				=> 'Elküldött',
@@ -593,6 +595,7 @@ $lang = array_merge($lang, array(
 	),
 	'VIEW_PREVIOUS_HISTORY'		=> 'Előző kapcsolódó PÜ',
 	'VIEW_PREVIOUS_PM'			=> 'Előző PÜ',
+	'VIEW_PROFILE'				=> 'View profile', //bb31!
 	'VIEW_SIGS'					=> 'Aláírások megjelenítése',
 	'VIEW_SMILIES'				=> 'Emotikonok megjelenítése képként',
 	'VIEW_TOPICS_DAYS'			=> 'Témák megjelenítése a következő időszakból', //? kimondom: utálom a 'következőt'

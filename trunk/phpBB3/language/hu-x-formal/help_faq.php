@@ -39,32 +39,8 @@ $help = array(
 		1 => 'Belépési és regisztrációs kérdések'
 	),
 	array(
-		0 => 'Miért nem tudok belépni?',
-		1 => 'Ennek számos oka lehet. Először is ellenőrizze, hogy jól adta-e meg a felhasználónevét és a jelszavát. Ha igen, lépjen kapcsolatba a fórum adminisztrátorával, hogy meggyőződjön róla, nem lett kitiltva. Az is lehetséges, hogy a weboldal üzemeltetőjének oldalán lépett fel valamilyen konfigurációs hiba, melyet javítaniuk kéne.' //? talán átírhatnánk az értelmét...
-	),
-	array(
-		0 => 'Miért kell egyáltalán regisztrálnom?',
+		0 => 'Miért kell regisztrálnom?',
 		1 => 'A regisztráció nem feltétlenül kötelező, a fórum adminisztrátorán múlik, hogy megköveteli-e hozzászólások küldéséhez. Mindemellett a regisztrációval plusz lehetőségek is elérhetővé válnak az ön számára, mint például avatar használata, privát üzenetek, illetve e-mailek küldése, csatlakozás csoportokhoz stb. A regisztráció csupán néhány másodpercet vesz igénybe, így javasoljuk, hogy éljen vele.'
-	),
-	array(
-		0 => 'Miért kerülök kiléptetésre automatikusan?', //? 'Miért lép ki automatikusan a rendszerből?'
-		1 => 'Ha belépéskor nem jelöli be az <em>Emlékezzen rám</em> opciót, a rendszer csak egy előre meghatározott ideig hagyja önt belépve. Ez a viselkedés meggátolja az azonosítójával való visszaélést. A tartós belépve maradáshoz jelölje be az említett opciót. Ezen funkció használata nem ajánlott, ha nyilvános helyről használja a fórumot, például könyvtárból, internetkávézóból vagy egyetemi laborból. Ha nem látja a jelölőnégyzetet, a fórumon valószínűleg nincs bekapcsolva ez a funkciót.' //bb31 Remember Me
-	),
-	array(
-		0 => 'Hogyan tudom megakadályozni, hogy mások lássák, mikor vagyok jelen?',
-		1 => 'A Felhasználói vezérlőpultban a „Fórum beállítások” menüpont alatt található a „Jelenlét elrejtése” beállítás. Ha ezt <samp>Igen</samp>re állítja, csak az adminisztrátorok, a moderátorok, illetve saját maga fogja látni, hogy jelen van-e.' //? _egy_ beállítás
-	),
-	array(
-		0 => 'Elfelejtettem a jelszavamat!',
-		1 => 'Semmi pánik! A jelszavát ugyan nem lehet utólag kideríteni, de lehetősége van új készítésére. Ehhez menjen a belépés oldalra, majd kattintson az <em>Elfelejtettem a jelszavam</em> linkre. Kövesse az utasításokat, és rövid időn belül újra be kell tudnia lépnie.'
-	),
-	array(
-		0 => 'Regisztráltam, de mégsem tudok belépni',
-		1 => 'Először is ellenőrizze le, hogy helyesen adta-e meg a felhasználónevét és a jelszavát. Ha igen, akkor két dolog történhetett. Amennyiben a COPPA-támogatás be van kapcsolva, és a regisztráció során megadta, hogy 13 évesnél fiatalabb, követnie kell a kapott utasításokat. Számos fórum megköveteli, hogy az új azonosítók aktiválásra kerüljenek, mielőtt használatba lehetne venni őket. Ezt vagy egy adminisztrátornak vagy a felhasználónak kell megtennie. Mindenesetre a regisztrációnál elvileg tájékoztatásra került, hogy szükséges-e az azonosító aktiválása. Ha kapott egy e-mailt, akkor kövesse az utasításait, ha nem, lehet, hogy rossz e-mail címet adott meg, vagy a spamszűrője kiszűrte. Ha ön biztos benne, hogy helyes e-mail címet adott meg, próbáljon meg kapcsolatba lépni a fórum adminisztrátorával.' // Ezt is át kéne írni, angolból lett fordítva - és ez eléggé látszik is rajta
-	),
-	array(
-		0 => 'Korábban regisztráltam magam, azonban már nem tudok belépni?!',
-		1 => 'Keresse elő a regisztrációkor kapott e-mailt, ellenőrizze le a felhasználónevét és a jelszavát, majd próbálkozzon újra. Lehetséges, hogy az adminisztrátor valamilyen okból kifolyólag inaktiválta, vagy törölte az azonosítóját. Ez utóbbinak egy lehetséges oka, hogy nem küldött egy hozzászólást se. Néhány fórumon ugyanis szokás, hogy bizonyos időközönként eltávolítják az olyan felhasználókat, akik nem küldtek hozzászólást, hogy csökkentsék az adatbázis méretét. Próbáljon meg újra regisztrálni és bekapcsolódni a társalgásba.'
 	),
 	array(
 		0 => 'Mi az a COPPA?',
@@ -73,6 +49,26 @@ $help = array(
 	array(
 		0 => 'Miért nem tudok regisztrálni?',
 		1 => 'Lehet, hogy a weboldal tulajdonosa letiltotta az IP-címét vagy a regisztrálni kívánt felhasználónevet. Az is előfordulhat, hogy a regisztráció kikapcsolásra került, hogy ne tudjanak új felhasználók regisztrálni. További segítségért lépjen kapcsolatba a fórum egyik adminisztrátorával.',
+	),
+	array(
+		0 => 'Regisztráltam, de mégsem tudok belépni',
+		1 => 'Először is ellenőrizze le, hogy helyesen adta-e meg a felhasználónevét és a jelszavát. Ha igen, akkor két dolog történhetett. Amennyiben a COPPA-támogatás be van kapcsolva, és a regisztráció során megadta, hogy 13 évesnél fiatalabb, követnie kell a kapott utasításokat. Számos fórum megköveteli, hogy az új azonosítók aktiválásra kerüljenek, mielőtt használatba lehetne venni őket. Ezt vagy egy adminisztrátornak vagy a felhasználónak kell megtennie. Mindenesetre a regisztrációnál elvileg tájékoztatásra került, hogy szükséges-e az azonosító aktiválása. Ha kapott egy e-mailt, akkor kövesse az utasításait, ha nem, lehet, hogy rossz e-mail címet adott meg, vagy a spamszűrője kiszűrte. Ha ön biztos benne, hogy helyes e-mail címet adott meg, próbáljon meg kapcsolatba lépni a fórum adminisztrátorával.' // Ezt is át kéne írni, angolból lett fordítva - és ez eléggé látszik is rajta
+	),
+	array(
+		0 => 'Miért nem tudok belépni?',
+		1 => 'Ennek számos oka lehet. Először is ellenőrizze, hogy jól adta-e meg a felhasználónevét és a jelszavát. Ha igen, lépjen kapcsolatba a fórum adminisztrátorával, hogy meggyőződjön róla, nem lett kitiltva. Az is lehetséges, hogy a weboldal üzemeltetőjének oldalán lépett fel valamilyen konfigurációs hiba, melyet javítaniuk kéne.' //? talán átírhatnánk az értelmét...
+	),
+	array(
+		0 => 'Korábban regisztráltam magam, azonban már nem tudok belépni?!',
+		1 => 'Keresse elő a regisztrációkor kapott e-mailt, ellenőrizze le a felhasználónevét és a jelszavát, majd próbálkozzon újra. Lehetséges, hogy az adminisztrátor valamilyen okból kifolyólag inaktiválta, vagy törölte az azonosítóját. Ez utóbbinak egy lehetséges oka, hogy nem küldött egy hozzászólást se. Néhány fórumon ugyanis szokás, hogy bizonyos időközönként eltávolítják az olyan felhasználókat, akik nem küldtek hozzászólást, hogy csökkentsék az adatbázis méretét. Próbáljon meg újra regisztrálni és bekapcsolódni a társalgásba.'
+	),
+	array(
+		0 => 'Elfelejtettem a jelszavamat!',
+		1 => 'Semmi pánik! A jelszavát ugyan nem lehet utólag kideríteni, de lehetősége van új készítésére. Ehhez menjen a belépés oldalra, majd kattintson az <em>Elfelejtettem a jelszavam</em> linkre. Kövesse az utasításokat, és rövid időn belül újra be kell tudnia lépnie.'
+	),
+	array(
+		0 => 'Miért kerülök kiléptetésre automatikusan?', //? 'Miért lép ki automatikusan a rendszerből?'
+		1 => 'Ha belépéskor nem jelöli be az <em>Emlékezzen rám</em> opciót, a rendszer csak egy előre meghatározott ideig hagyja önt belépve. Ez a viselkedés meggátolja az azonosítójával való visszaélést. A tartós belépve maradáshoz jelölje be az említett opciót. Ezen funkció használata nem ajánlott, ha nyilvános helyről használja a fórumot, például könyvtárból, internetkávézóból vagy egyetemi laborból. Ha nem látja a jelölőnégyzetet, a fórumon valószínűleg nincs bekapcsolva ez a funkció.' //bb31
 	),
 	array(
 		0 => 'Mit csinál a „Fórum sütik törlése”?',
@@ -87,6 +83,10 @@ $help = array(
 		1 => 'Amennyiben ön regisztrált felhasználó, minden beállítása az adatbázisban kerül tárolásra. Ezek megváltoztatásához kattintson a <em>Felhasználói vezérlőpult</em> linkre (általában az oldal tetején található). Itt megváltoztathatja az összes beállítását.'
 	),
 	array(
+		0 => 'Hogyan tudom megakadályozni, hogy mások lássák, mikor vagyok jelen?',
+		1 => 'A Felhasználói vezérlőpultban a „Fórum beállítások” menüpont alatt található a „Jelenlét elrejtése” beállítás. Ha ezt <samp>Igen</samp>re állítja, csak az adminisztrátorok, a moderátorok, illetve saját maga fogja látni, hogy jelen van-e.' //? _egy_ beállítás
+	),
+	array(
 		0 => 'Nem pontos az idő!',
 		1 => 'Feltehetően az időpontok más időzóna szerint kerülnek megjelenítésre, mint amiben ön van. Ez esetben változtassa meg a felhasználói vezérlőpultban az időzónáját a tartózkodási helyének megfelelően. Kérjük, vegye figyelembe, hogy az időzónát – mint a legtöbb más felhasználói beállítást – csak regisztrált felhasználók változtathatják meg. Tehát ha még nem regisztrált, ez egy jó alakalom, hogy megtegye.'
 	),
@@ -99,8 +99,12 @@ $help = array(
 		1 => 'Ennek az az oka, hogy az adminisztrátor nem telepítette a megfelelő nyelvi csomagot, vagy hogy még nem készült fordítás a kívánt nyelvre. Kérje meg az adminisztrátort, hogy telepítse a nyelvi csomagot, amennyiben viszont még nem létezik, nyugodtan készítse el a fordítást. További információért keresse fel a phpBB Limited weboldalát (a link az oldal alján található).'
 	),
 	array(
-		0 => 'Hogyan jeleníthetek meg egy képet a nevemmel együtt?',
-		1 => 'A hozzászólások megtekintésénél a felhasználónév mellett két kép szerepelhet. Az egyik általában a rangjához kapcsolódik (ezek általában csillagok vagy más elemek formájában kerülnek megjelenítésre, a számuk mutatja mennyi hozzászólást küldött eddig a fórumon, vagy hogy milyen státusza van). A másik – általában egy nagyobb kép – az avatar, mely a legtöbb felhasználónak egyedi és személyes. A fórum adminisztrátorától függ, hogy engedélyezett-e az avatarok használata, illetve milyen módot lehet megadni ezt a képet. Ha nem tud avatart beállítani, státusza kapcsolatba egy adminisztrátorral, és tájékozódjon nála az okokról.'
+		0 => 'Mik azok a képek a felhasználónevem mellett?',
+		1 => 'A hozzászólások megtekintésénél a felhasználónév mellett két kép szerepelhet. Az egyik általában a rangodhoz kapcsolódik (ezek általában csillagok vagy más elemek formájában kerülnek megjelenítésre, a számuk mutatja mennyi hozzászólást küldtél eddig a fórumon, vagy hogy milyen státuszod van). A másik – általában egy nagyobb kép – az avatar, mely a legtöbb felhasználónak egyedi és személyes. A fórum adminisztrátorától függ, hogy engedélyezett-e az avatarok használata, illetve milyen módot lehet megadni ezt a képet. Ha nem tudsz avatart beállítani, lépj kapcsolatba egy adminisztrátorral, és tájékozódj nála az okokról.'
+	),
+	array(
+		0 => 'Hogyan tudok avatart megjeleníteni?', //bb31
+		1 => 'A felhasználói vezérlőpult “Profil” menüpontjában adhat meg avatart a következő módokon: Gravatar szolgáltatás használatával, avatar galériából történő választással, külső URL megadásával és feltöltéssel. A fórum adminisztrátorától függ, hogy engedélyezett-e az avatarok használta, illetve milyen módon lehet megadni ezt a képet. Ha nem tud avatart beállítani, lépjen kapcsolatba egy adminisztrátorral, és tájékozódjon nála az okokról.', //bb31
 	),
 	array(
 		0 => 'Mi az a rang, hogyan tudom megváltoztatni a rangomat?',
@@ -115,8 +119,8 @@ $help = array(
 		1 => 'Hozzászólással kapcsolatos kérdések'
 	),
 	array(
-		0 => 'Hogyan készíthetek egy új témát egy fórumban?',
-		1 => 'Ha egy fórumban új témát szeretne nyitni, kattintson a megfelelő gombra a fórumban vagy annak egy témájában. Hozzászólás küldéséhez lehet, hogy előbb regisztrálnia kell. A jogosultságait a fórum vagy téma oldalak alján találja meg. Például: Nyithat új témákat, Szavazhat stb.'
+		0 => 'Hogyan készíthetek egy új témát vagy válaszolhatok egy témában?',
+		1 => 'Ha egy fórumban új témát szeretne nyitni, kattintson az "Új téma" gombra a fórumban. Hozzászólás küldéséhez egy már létező témába kattintson az "Új hozzászólás" gombra. Hozzászólás küldéséhez lehet, hogy előbb regisztrálnia kell. A jogosultságait a fórum vagy téma oldalak alján találja meg. Például: Nyithat új témákat, Küldhet hozzászólást csatolmánnyal stb.'
 	),
 	array(
 		0 => 'Hogyan szerkeszthetek, illetve törölhetek egy hozzászólást?',
@@ -301,15 +305,19 @@ $help = array(
 	),
 	array(
 		0 => '--',
-		1 => 'Téma feliratkozások és kedvencek'
+		1 => 'Feliratkozások és kedvencek'
 	),
 	array(
-		0 => 'Mi a különbség a feliratkozás és a kedvencekbe tétel között?',
-		1 => 'A phpBB3 kedvencek funkciója hasonlóan működik a böngészőjééhez. Ön nem kerül értesítésre, ha frissül a tartalom, de később visszatérhet a témához. Feliratkozáskor, ezzel ellentétben, ön értesítésre kerül – a kívánt módon –, amikor a téma vagy a fórum frissül.'
+		0 => 'Mi a különbség a kedvencekbe tétel és a feliratkozás között?', //bb31
+		1 => 'A phpBB 3.0 kedvencek funkciója hasonlóan működött a böngészőjéhez. Nem került értesítésre, ha frissült a tartalom. A phpBB 3.1-ben viszont a kedvencekbe tétel a feliratkozáshoz hasonlít. Értesítésre kerülhet, ha a téma frissül. Feliratkozáskor, ezzel ellentétben, értesítésre kerül, amikor a téma vagy a fórum frissül. Az értesítési beállítások testreszabhatóak a felhasználói vezérlőpult „Fórum beállítások” menüpontjában.' //bb31
 	),
 	array(
-		0 => 'Hogyan tudok feliratkozni egy fórumra vagy témára?',
-		1 => 'Egy fórumra úgy tud feliratkozni, hogy a fórum oldalán alul a „Feliratkozás a fórumra” linkre kattint. Ezzel ugyanúgy feliratkozásra kerül a fórumra, mintha egy témára tette volna. Egy témára úgy is feliratkozhat, hogy hozzászólás küldésekor bejelöli az „E-mail küldése új hozzászólás érkezésekor” jelölőnégyzetet, de hasonlóan a fórumra való feliratkozáshoz, a téma alján megjelenő linkre kattintva is ugyanezt éri el.'
+		0 => 'Hogyan tudok kedvencekbe tenni vagy feliratkozni egy témára?', //bb31
+		1 => 'Kedvencekbe tehet vagy feliratkozhat egy témára a “Téma eszközök” menüpont megfelelő hivatkozására kattintva, ami általában a téma tetején és alján helyezkedik el.<br />A témára úgy is feliratkozhat, ha a “Értesítést kérek új válasz érkezésekor” opció bejelölésével küld új hozzászólást.' //bb31
+	),
+	array(
+		0 => 'Hogyan tudok feliratkozni egy fórumra?', //bb31
+		1 => 'Egy fórumra úgy tud feliratkozni, hogy a fórum oldalán alul a „Feliratkozás a fórumra” linkre kattint.', //bb31
 	),
 	array(
 		0 => 'Hogyan tudok leiratkozni?',
@@ -329,7 +337,7 @@ $help = array(
 	),
 	array(
 		0 => '--',
-		1 => 'phpBB 3 kérdések'
+		1 => 'phpBB kérdések'
 	),
 	array(
 		0 => 'Ki készítette ezt a fórumot?',
@@ -346,5 +354,9 @@ $help = array(
 	array(
 		0 => 'Ki az illetékes a fórumon olvasható tartalommal kapcsolatban?',
 		1 => 'Sértő, illetve illegális tartalmak kapcsán az „A csapat” oldalon felsorolt adminisztrátorok közül kell egyet felkeresni. Ha nem kap választ, akkor a domain tulajdonosát (ezt kiderítheti egy ún. <a href="http://www.google.hu/search?q=whois&amp;meta=lr%3Dlang_hu">„whois  kereséssel”</a>). Ha a fórum egy ingyenes tárhelyen található, akkor azt a szolgáltatót értesítse. Kérjük, vegye figyelembe, hogy a phpBB Limited-nak és a Magyar phpBB Közösségnek semmilyen köze, hozzáférése vagy beleszólása nincs a fórumon olvasható tartalomhoz, ezért nem tehető semmilyen módon felelőssé amiatt, hogy ki mire használja ezt a fórumot.' // ez se "ugyanaz", mint az angol (~jogi szöveg ez is, az is :)
+	),
+	array(
+		0 => 'Hogyan vehetem fel a kapcsolatot a fórum adminisztrátorával?', //bb31
+		1 => 'A fórum minden felhasználója igénybe veheti a “Kapcsolat oldalt”, ha azt a fórum adminisztrátora engedélyezte.<br />A fórumtagok használhatják “A csapat” linket is.', //bb31 ?
 	),
 );
