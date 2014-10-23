@@ -56,6 +56,8 @@ $lang = array_merge($lang, array(
 
 	'DEST_LANG'				=> 'Nyelv',
 	'DEST_LANG_EXPLAIN'		=> 'Válasszon ki egy az üzenet címzettjének megfelelő nyelvet (ha elérhető).',
+	
+	'EDIT_PROFILE'			=> 'Edit profile', //bb31!
 
 	'EMAIL_BODY_EXPLAIN'	=> 'Az üzenet sima szövegként kerül elküldésre, ne használjon HTML-t vagy BBCode-ot. Az üzenet válaszcíme az ön e-mail címe lesz.',
 	'EMAIL_DISABLED'		=> 'Sajnáljuk, de az e-mail küldéssel kapcsolatos funkciók kikapcsolásra kerültek.', //?
