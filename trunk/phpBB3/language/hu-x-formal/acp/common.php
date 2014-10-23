@@ -11,7 +11,7 @@
 * Magyar fordítás (c) 2007-2014 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
-* $Id: common.php 257 2014-07-14 20:22:52Z marcee $
+* $Id: common.php 261 2014-08-12 20:06:09Z marcee $
 */
 
 /**
@@ -128,7 +128,7 @@ $lang = array_merge($lang, array(
 	'ACP_MANAGE_ATTACHMENTS'			=> 'Csatolmányok kezelése', //bb31
 	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> 'Itt kezelheted a hozzászólásokban és privát üzenetekben lévő csatolmáynokat.', //bb31
 
-	'ACP_MANAGE_EXTENSIONS'		=> 'Csatolmány kiterjesztések kezelése', //bb31! egybeírás
+	'ACP_MANAGE_EXTENSIONS'		=> 'Csatolmány kiterjesztések kezelése', //bb31 ? egybeírás
 	'ACP_MANAGE_FORUMS'			=> 'Fórumok kezelése',
 	'ACP_MANAGE_RANKS'			=> 'Rangok kezelése',
 	'ACP_MANAGE_REASONS'		=> 'Jelentés/visszautasítás okok kezelése',
@@ -230,7 +230,7 @@ $lang = array_merge($lang, array(
 
 	'COLOUR_SWATCH'			=> 'Webbiztos színválasztó',
 	'CONFIG_UPDATED'		=> 'A konfiguráció sikeresen frissítésre került.', //?
-	'CRON_LOCK_ERROR'		=> 'Could not obtain cron lock.', //bb31!
+	'CRON_LOCK_ERROR'		=> 'Nem sikerült a cron lock megszerzése.', //bb31 ? Could not obtain cron lock
 	'CRON_NO_SUCH_TASK'		=> '“%s” ütemezett feladat nem található.', //bb31
 	'CRON_NO_TASK'			=> 'Nincs futtatandó ütemezett feladat.', //bb31
 	'CRON_NO_TASKS'			=> 'Nem található ütemezett feladat.', //bb31
