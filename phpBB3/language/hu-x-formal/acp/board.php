@@ -44,19 +44,19 @@ $lang = array_merge($lang, array(
 	'ACP_BOARD_SETTINGS_EXPLAIN'	=> 'Itt a fórumod alapvető működését tudod meghatározni, adhatsz neki egy hozzáillő nevet és leírást, valamint többek között beállíthatod az alapértelmezett nyelvet és időzónát.',
 	'BOARD_INDEX_TEXT'				=> 'Fórum kezdőlap megnevezése', //bb31
 	'BOARD_INDEX_TEXT_EXPLAIN'		=> 'Ez a szöveg lesz megjelenítve a navigációs sávban a fórum kezdőlapjaként. Ha nincs megadva, “Fórum kezdőlap” lesz.', //bb31
-	'BOARD_STYLE'					=> 'Board style', //bb31!
+	'BOARD_STYLE'					=> 'Fórum megjelenés', //bb31
 	'CUSTOM_DATEFORMAT'				=> 'Egyéni…',
 	'DEFAULT_DATE_FORMAT'			=> 'Dátum formátum',
 	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'A formátum megegyezik a PHP <code>date</code> függvényéjével.',
 	'DEFAULT_LANGUAGE'				=> 'Alapértelmezett nyelv',
 	'DEFAULT_STYLE'					=> 'Alapértelmezett megjelenés',
-	'DEFAULT_STYLE_EXPLAIN'			=> 'The default style for new users.', //bb31!
+	'DEFAULT_STYLE_EXPLAIN'			=> 'Az új felhasználók megjelenése.', //bb31
 	'DISABLE_BOARD'					=> 'Fórum kikapcsolása',
 	'DISABLE_BOARD_EXPLAIN'			=> 'Ennek igenre állításával a fórum nem lesz elérhető azon felhasználók számára, akik nem adminisztrátorok vagy moderátorok. Egy rövid üzenetet is megadhatsz (legfeljebb 255 karakter), mely meg fog jelenni a felhasználóknak.',
 	'DISPLAY_LAST_SUBJECT'			=> 'Utolsó hozzászólás témájának megjelenítése a fórumok listáján', //bb31
 	'DISPLAY_LAST_SUBJECT_EXPLAIN'	=> 'Az utoljára beküldött hozzászólás témája megjelenítésre kerül a fórumok listáján egy a hozzászólásra mutató hivatkozással. Azok a hozzászólások, amelyek jelszóval védett vagy olyan fórumokban keletkeztek, amelyekre a felhasználónak nincs jogosultsága nem kerülnek megjelenítésre.', //bb31
-	'GUEST_STYLE'					=> 'Guest style', //bb31!
-	'GUEST_STYLE_EXPLAIN'			=> 'The board style for guests.', //bb31!
+	'GUEST_STYLE'					=> 'Vendég megjelenés', //bb31
+	'GUEST_STYLE_EXPLAIN'			=> 'A vendégek által használt megjelenés.', //bb31 ? használt?
 	'OVERRIDE_STYLE'				=> 'Felhasználó megjelenésének felülírása',
 	'OVERRIDE_STYLE_EXPLAIN'		=> 'Kicseréli a felhasználó (és a vendég) megjelenését az alapértelmezettre.', //bb31
 	'SITE_DESC'						=> 'Oldal leírása',
@@ -313,7 +313,7 @@ $lang = array_merge($lang, array(
 // Visual Confirmation Settings
 $lang = array_merge($lang, array(
 	'ACP_VC_SETTINGS_EXPLAIN'				=> 'Itt az anti-robot bővítményeket tudod kezelni, melyek különböző módokon próbálják megakadályozni az ún. spamrobotok regisztrációját. Ezek a bővítmények általában egy olyan feladat megoldását követelik meg a felhasználótól, melyek a robotok számára nehezek.',
-	'ACP_VC_EXT_GET_MORE'					=> 'For additional (and possibly better) anti-spam plugins, visit the <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>phpBB.com Extensions Database</strong></a>. For more information on preventing spam on your board, visit the <a href="https://www.phpbb.com/go/anti-spam"><strong>phpBB.com Knowledge Base</strong></a>.', //bb31!
+	'ACP_VC_EXT_GET_MORE'					=> 'További anti-robot bővítményekért látogasd meg a <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>phpBB.com Extensions Database</strong></a>-t. A SPAM megelőzésével kapcsolatos további információkért látogasd meg a <a href="https://www.phpbb.com/go/anti-spam"><strong>phpBB.com Knowledge Base</strong></a>-t.', //bb31 ?
 	'AVAILABLE_CAPTCHAS'					=> 'Elérhető bővítmények',
 	'CAPTCHA_UNAVAILABLE'					=> 'Ezt a bővítményt nem lehet kiválasztani, mivel a működéséhez szükséges követelmények nem teljesülnek.',
 	'CAPTCHA_GD'							=> 'GD kép',
