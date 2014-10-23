@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'TRANSLATION_INFO'	=> 'Magyar fordítás © <a href="http://phpbb.hu/">Magyar phpBB Közösség</a>',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|Y.m.d.|',
-	'DATETIME_FORMAT'	=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled) //bb31!
+	'DATETIME_FORMAT'	=> '|Y.m.d., H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled) //bb31
 	'USER_LANG'			=> 'hu',
 
 	// You can define different rules for the determination of plural forms here.
@@ -166,13 +166,13 @@ $lang = array_merge($lang, array(
 	'CONFIRM_CODE_EXPLAIN'	=> 'Gépelje be a képen látható kódot. A kis- vagy nagybetűk nem számítanak.',
 	'CONFIRM_CODE_WRONG'	=> 'A megadott megerősítő kód hibás.',
 	'CONFIRM_OPERATION'		=> 'Biztosan végre akarja hajtani ezt a műveletet?',
-	'CONFIRM_AVATAR_DELETE' => 'Are you sure you wish to delete this avatar?', //bb31!
+	'CONFIRM_AVATAR_DELETE' => 'Biztosan törölni szeretné ezt az avatart?', //bb31
 	'CONGRATULATIONS'		=> 'Gratulálunk',
 	'CONNECTION_FAILED'		=> 'Sikertelen kapcsolódási kísérlet',
 	'CONNECTION_SUCCESS'	=> 'Sikerült csatlakozni!',
 	'CONTACT'				=> 'Kapcsolat', //bb31
-	'CONTACT_USER'			=> 'Contact %s', //bb31!
-	'CONTACT_US'			=> 'Contact us', //bb31!
+	'CONTACT_USER'			=> 'Kapcsolat %s', //bb31 ? contact
+	'CONTACT_US'			=> 'Kapcsolat', //bb31 ? contact us
 	'COOKIES_DELETED'		=> 'A fórum sütijei törlésre kerültek.',
 	'CURRENT_TIME'			=> 'Pontos idő: %s',
 
@@ -520,8 +520,8 @@ $lang = array_merge($lang, array(
 
 	// Nullar/Singular/Plural language entry. The key numbers define the number range in which a certain grammatical expression is valid.
 	'NUM_ATTACHMENTS'		=> array(
-		1	=> '%d attachment', //bb31!
-		2	=> '%d attachments', //bb31!
+		1	=> '%d csatolmány', //bb31
+		2	=> '%d csatolmány', //bb31
 	),
 	'NUM_POSTS_IN_QUEUE'		=> array(
 		0			=> 'Nincs moderálandó hozzászólás.',		// 0
@@ -823,7 +823,7 @@ $lang = array_merge($lang, array(
 		1	=> 'Megtekintve %d alkalommal',
 		2	=> 'Megtekintve %d alkalommal',
 	),
-	'VIEWING_CONTACT_ADMIN'		=> 'Viewing contact page', //bb31!
+	'VIEWING_CONTACT_ADMIN'		=> 'Kapcsolat oldal megtekintése', //bb31
 	'VIEWING_FAQ'				=> 'GyIK megtekintése',
 	'VIEWING_MEMBERS'			=> 'Taglista megtekintése',
 	'VIEWING_ONLINE'			=> 'Jelenlévők listájának megtekintése',
@@ -870,10 +870,10 @@ $lang = array_merge($lang, array(
 	'WRONG_DATA_COLOUR'			=> 'A megadott szín hibás.',
 	'WRONG_DATA_JABBER'			=> 'A megadott Jabber azonosító hibás.',
 	'WRONG_DATA_LANG'			=> 'A megadott nyelv hibás.',
-	'WRONG_DATA_POST_SD'		=> 'The post sort direction you specified is not valid.', //bb31!
-	'WRONG_DATA_POST_SK'		=> 'The post sort option you specified is not valid.', //bb31!
-	'WRONG_DATA_TOPIC_SD'		=> 'The topic sort direction you specified is not valid.', //bb31!
-	'WRONG_DATA_TOPIC_SK'		=> 'The topic sort option you specified is not valid.', //bb31!
+	'WRONG_DATA_POST_SD'		=> 'A megadott hozzászólás rendezési irány hibás.', //bb31
+	'WRONG_DATA_POST_SK'		=> 'A megadott hozzászólás rendezési beállítás hibás.', //bb31 ? sort option
+	'WRONG_DATA_TOPIC_SD'		=> 'A megadott téma rendezési irány hibás.', //bb31
+	'WRONG_DATA_TOPIC_SK'		=> 'A megadott téma rendezési beállítás hibás.', //bb31 ? sort option
  	'WROTE'						=> 'írta',
 
 	'YAHOO'				=> 'Yahoo Messenger',
@@ -967,7 +967,7 @@ $lang = array_merge($lang, array(
 		'Etc/GMT+11'	=> 'UTC-11',
 		'Etc/GMT+12'	=> 'UTC-12',
 
-		'Africa/Abidjan'	=> 'Africa/Abidjan', //bb31!
+		'Africa/Abidjan'	=> 'Africa/Abidjan', //bb31 ?
 		'Africa/Accra'		=> 'Africa/Accra',
 		'Africa/Addis_Ababa'	=> 'Africa/Addis Ababa',
 		'Africa/Algiers'	=> 'Africa/Algiers',
