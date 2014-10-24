@@ -102,7 +102,7 @@ $lang = array_merge($lang, array(
 	'FIELD_IDENT_EXPLAIN'		=> 'A mezőazonosító a profil mező azonosítására való az adatbázisban és a sablonokban.',
 	'FIELD_INT'					=> 'Szám',
 	'FIELD_IS_CONTACT'			=> 'Mező megjelenítése kapcsolati mezőként', //bb31 ?
-	'FIELD_IS_CONTACT_EXPLAIN'	=> 'A kapcsolati mezők megjelenítésre kerülnek a felhasználói profil kapcsolat részében, és megjelennek a hozzászólások és privát üzenetek melletti mini profilokban is. You can use <samp>%s</samp> as a placeholder variable which will be replaced by a value provided by the user.', //bb31! ? displayed differently
+	'FIELD_IS_CONTACT_EXPLAIN'	=> 'A kapcsolati mezők megjelenítésre kerülnek a felhasználói profil kapcsolat részében, és megjelennek a hozzászólások és privát üzenetek melletti mini profilokban is. A <samp>%s</samp> a felhasználó által megadott értékre lesz lecserélve.', //bb31 ? displayed differently; placeholder variable which will be replaced by a value provided by the user
 	'FIELD_LENGTH'				=> 'Űrlap mező hossza',
 	'FIELD_NOT_FOUND'			=> 'A profil mező nem található.',
 	'FIELD_STRING'				=> 'Sima szövegmező', //?
@@ -122,11 +122,11 @@ $lang = array_merge($lang, array(
 
 	'LANG_SPECIFIC_OPTIONS'		=> 'Nyelvspecifikus beállítások [<strong>%s</strong>]',
 
-	'LETTER_NUM_DOTS'			=> 'Any letters, numbers and dots (periods)', //bb31!
-	'LETTER_NUM_ONLY'			=> 'Any letters and numbers', //bb31!
-	'LETTER_NUM_PUNCTUATION'	=> 'Any letters, numbers, comma, dots, underscores and dashes beginning with any letter', //bb31!
-	'LETTER_NUM_SPACERS'		=> 'Any letters, numbers and spacers', //bb31!
-	'LETTER_NUM_UNDERSCORE'		=> 'Any letters, numbers and underscores', //bb31!
+	'LETTER_NUM_DOTS'			=> 'Betűk, számok és pont', //bb31 dots (period)
+	'LETTER_NUM_ONLY'			=> 'Betűk és számok', //bb31
+	'LETTER_NUM_PUNCTUATION'	=> 'Betűvel kezdődő betűk, számok, vessző, pont, aláhúzás és kötőjel', //bb31 ?
+	'LETTER_NUM_SPACERS'		=> 'Betűk, számok és szóköz', //bb31 spacers
+	'LETTER_NUM_UNDERSCORE'		=> 'Betűk, számok és aláhúzás', //bb31
 
 	'MAX_FIELD_CHARS'		=> 'Maximum karakterszám',
 	'MAX_FIELD_NUMBER'		=> 'Legnagyobb megengedett szám',
