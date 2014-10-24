@@ -572,9 +572,9 @@ $lang = array_merge($lang, array(
 	'LOG_POST_RESTORED'			=> '<strong>Hozzászólás visszaállítása</strong><br />» %s', //bb31
 	'LOG_REPORT_CLOSED'			=> '<strong>Jelentés lezárása</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>Jelentés törlése</strong><br />» %s',
-	'LOG_RESTORE_TOPIC'			=> '<strong>Restored topic “%1$s” written by</strong><br />» %2$s', //bb31!
-	'LOG_SOFTDELETE_POST'		=> '<strong>Soft deleted post “%1$s” written by “%2$s” for the following reason</strong><br />» %3$s', //bb31!
-	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Soft deleted topic “%1$s” written by “%2$s” for the following reason</strong><br />» %3$s', //bb31!
+	'LOG_RESTORE_TOPIC'			=> '<strong>“%1$s” téma visszaállítása</strong><br />» szerző: %2$s', //bb31 ? <strong>Restored topic “%1$s” written by</strong><br />» %2$s
+	'LOG_SOFTDELETE_POST'		=> '<strong>“%2$s” által írt “%1$s” hozzászólás visszaállítható törlése a következő indokkal</strong><br />» %3$s', //bb31
+	'LOG_SOFTDELETE_TOPIC'		=> '<strong>“%2$s” által írt “%1$s” téma visszaállítható törlése a következő indokkal</strong><br />» %3$s', //bb31
 	'LOG_SPLIT_DESTINATION'		=> '<strong>Szétválasztott hozzászólások áthelyezése</strong><br />» %s témába',
 	'LOG_SPLIT_SOURCE'			=> '<strong>Téma szétválasztása</strong><br />» %s',
 
