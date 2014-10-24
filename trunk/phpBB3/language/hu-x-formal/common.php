@@ -597,7 +597,7 @@ $lang = array_merge($lang, array(
 	'PRIVATE_MESSAGING'		=> 'privát üzenet',
 	'PROFILE'				=> 'Felhasználói vezérlőpult',
 
-	'QUICK_LINKS'			=> 'Quick links',
+	'QUICK_LINKS'			=> 'Gyors linkek', //bb31
 
 	'RANK'						=> 'Rang',
 	'READING_FORUM'				=> '%s fórum megtekintése',

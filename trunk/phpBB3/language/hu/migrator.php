@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordÌt·s (c) 2007-2014 ÑMagyar phpBB KˆzˆssÈg fordÌtÛkî,
+* Magyar ford√≠t√°s (c) 2007-2014 ‚ÄûMagyar phpBB K√∂z√∂ss√©g ford√≠t√≥k‚Äù,
 * http://phpbb.hu
 *
 * $Id$
@@ -40,22 +40,22 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'CONFIG_NOT_EXIST'					=> 'A "%s" konfigur·ciÛs be·llÌt·s nem lÈtezik.', //bb31
+	'CONFIG_NOT_EXIST'					=> 'A "%s" konfigur√°ci√≥s be√°ll√≠t√°s nem l√©tezik.', //bb31
 
-	'GROUP_NOT_EXIST'					=> 'A "%s" csoport nem lÈtezik.', //bb31
+	'GROUP_NOT_EXIST'					=> 'A "%s" csoport nem l√©tezik.', //bb31
 
-	'MIGRATION_DATA_DONE'				=> 'TelepÌtett adat: %1$s; Idı: %2$.2f m·sodperc', //bb31 ? Installed Data
-	'MIGRATION_DATA_IN_PROGRESS'		=> 'Adat telepÌtÈse: %1$s; Idı: %2$.2f m·sodperc', //bb31 ? Installing Data
-	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'A migr·ciÛ m·r vÈgre lett hajtva (kihagyva): %s', //bb31
-	'MIGRATION_EXCEPTION_ERROR'			=> 'Hiba tˆrtÈnt a kÈrÈs vÈgrehajt·sa sor·n Ès a feldolgoz·s megszakadt. A hiba bekˆvetkezÈse elıtti v·ltoztat·sokat megprÛb·ltuk vissza·llÌtani. KÈrj¸k, ellenırizd a fÛrum m˚kˆdıkÈpessÈgÈt.', //bb31
-	'MIGRATION_NOT_FULFILLABLE'			=> 'A "%1$s" migr·ciÛ nem hajthatÛ vÈgre, mert hi·nyzik a "%2$s" migr·ciÛ.', //bb31
-	'MIGRATION_SCHEMA_DONE'				=> 'TelepÌtett sÈma: %1$s; Idı: %2$.2f m·sodperc', //bb31
+	'MIGRATION_DATA_DONE'				=> 'Telep√≠tett adat: %1$s; Id≈ë: %2$.2f m√°sodperc', //bb31 ? Installed Data
+	'MIGRATION_DATA_IN_PROGRESS'		=> 'Adat telep√≠t√©se: %1$s; Id≈ë: %2$.2f m√°sodperc', //bb31 ? Installing Data
+	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'A migr√°ci√≥ m√°r v√©gre lett hajtva (kihagyva): %s', //bb31
+	'MIGRATION_EXCEPTION_ERROR'			=> 'Hiba t√∂rt√©nt a k√©r√©s v√©grehajt√°sa sor√°n √©s a feldolgoz√°s megszakadt. A hiba bek√∂vetkez√©se el≈ëtti v√°ltoztat√°sokat megpr√≥b√°ltuk vissza√°ll√≠tani. K√©rj√ºk, ellen≈ërizd a f√≥rum m≈±k√∂d≈ëk√©pess√©g√©t.', //bb31
+	'MIGRATION_NOT_FULFILLABLE'			=> 'A "%1$s" migr√°ci√≥ nem hajthat√≥ v√©gre, mert hi√°nyzik a "%2$s" migr√°ci√≥.', //bb31
+	'MIGRATION_SCHEMA_DONE'				=> 'Telep√≠tett s√©ma: %1$s; Id≈ë: %2$.2f m√°sodperc', //bb31
 
-	'MODULE_ERROR'						=> 'Hiba tˆrtÈnt a modul lÈtrehoz·sa kˆzben: %s', //bb31 ?
-	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Sz¸ksÈges modul inform·ciÛs ·llom·ny nem lÈtezik: %2$s', //bb31
-	'MODULE_NOT_EXIST'					=> 'Sz¸ksÈges modul nem lÈtezik: %s', //bb31
+	'MODULE_ERROR'						=> 'Hiba t√∂rt√©nt a modul l√©trehoz√°sa k√∂zben: %s', //bb31 ?
+	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Sz√ºks√©ges modul inform√°ci√≥s √°llom√°ny nem l√©tezik: %2$s', //bb31
+	'MODULE_NOT_EXIST'					=> 'Sz√ºks√©ges modul nem l√©tezik: %s', //bb31
 
-	'PERMISSION_NOT_EXIST'				=> 'A "%s" jogosults·g be·llÌt·s nem lÈtezik.', //bb31
+	'PERMISSION_NOT_EXIST'				=> 'A "%s" jogosults√°g be√°ll√≠t√°s nem l√©tezik.', //bb31
 
-	'ROLE_NOT_EXIST'					=> 'A "%s" jogosults·g szerep nem lÈtezik.', //bb31
+	'ROLE_NOT_EXIST'					=> 'A "%s" jogosults√°g szerep nem l√©tezik.', //bb31
 ));
