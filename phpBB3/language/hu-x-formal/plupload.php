@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordÌt·s (c) 2007-2014 ÑMagyar phpBB KˆzˆssÈg fordÌtÛkî,
+* Magyar ford√≠t√°s (c) 2007-2014 ‚ÄûMagyar phpBB K√∂z√∂ss√©g ford√≠t√≥k‚Äù,
 * http://phpbb.hu
 *
 * $Id$
@@ -41,42 +41,42 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'PLUPLOAD_ADD_FILES'		=> 'F·jlok hozz·ad·sa', //bb31
-	'PLUPLOAD_ADD_FILES_TO_QUEUE'	=> 'Adjon f·jlokat a feltˆltÈsi sorhoz Ès kattintson az indÌt·s gombra.', //bb31
-	'PLUPLOAD_ALREADY_QUEUED'	=> '%s m·r a feltˆltÈsi sorban van.', //bb31
-	'PLUPLOAD_CLOSE'			=> 'Bez·r·s', //bb31
-	'PLUPLOAD_DRAG'				=> 'H˙zzon ide f·jlokat.', //bb31
-	'PLUPLOAD_DUPLICATE_ERROR'	=> 'F·jl kettızÈsi hiba.', //bb31 ? Duplicate file error
-	'PLUPLOAD_DRAG_TEXTAREA'	=> 'Hozz·adhat f·jlokat azok ¸zenet dobozba h˙z·s·val is.', //bb31 ?
-	'PLUPLOAD_ERR_INPUT'		=> 'Nem siker¸lt a bemeneti stream megnyit·sa.', //bb31
-	'PLUPLOAD_ERR_MOVE_UPLOADED'	=> 'Nem siker¸lt a feltˆltˆtt f·jl ·tmozgat·sa.', //bb31
-	'PLUPLOAD_ERR_OUTPUT'		=> 'Nem siker¸lt a kimeneti stream megnyit·sa.', //bb31
-	'PLUPLOAD_ERR_FILE_TOO_LARGE'	=> 'A f·jl t˙l nagy:', //bb31
-	'PLUPLOAD_ERR_FILE_COUNT'	=> 'F·jl mennyisÈg hiba.', //bb31 count error
-	'PLUPLOAD_ERR_FILE_INVALID_EXT'	=> '…rvÈnytelen f·jlkiterjesztÈs:', //bb31
-	'PLUPLOAD_ERR_RUNTIME_MEMORY'	=> 'Elfogyott a szabad memÛria.', //bb31
-	'PLUPLOAD_ERR_UPLOAD_URL'	=> 'A feltˆltÈs URL-je hib·s vagy nem lÈtezik.', //bb31
-	'PLUPLOAD_EXTENSION_ERROR'	=> 'F·jlkiterjesztÈs hiba.', //bb31
-	'PLUPLOAD_FILE'				=> 'F·jl: %s', //bb31
-	'PLUPLOAD_FILE_DETAILS'		=> 'F·jl: %s, mÈret: %d, maxim·lis f·jl mÈret: %d', //bb31 ?
-	'PLUPLOAD_FILENAME'			=> 'F·jlnÈv', //bb31
-	'PLUPLOAD_FILES_QUEUED'		=> '%d f·jl van a sorban', //bb31
-	'PLUPLOAD_GENERIC_ERROR'	=> '¡ltal·nos hiba.', //bb31
+	'PLUPLOAD_ADD_FILES'		=> 'F√°jlok hozz√°ad√°sa', //bb31
+	'PLUPLOAD_ADD_FILES_TO_QUEUE'	=> 'Adjon f√°jlokat a felt√∂lt√©si sorhoz √©s kattintson az ind√≠t√°s gombra.', //bb31
+	'PLUPLOAD_ALREADY_QUEUED'	=> '%s m√°r a felt√∂lt√©si sorban van.', //bb31
+	'PLUPLOAD_CLOSE'			=> 'Bez√°r√°s', //bb31
+	'PLUPLOAD_DRAG'				=> 'H√∫zzon ide f√°jlokat.', //bb31
+	'PLUPLOAD_DUPLICATE_ERROR'	=> 'F√°jl kett≈ëz√©si hiba.', //bb31 ? Duplicate file error
+	'PLUPLOAD_DRAG_TEXTAREA'	=> 'Hozz√°adhat f√°jlokat azok √ºzenet dobozba h√∫z√°s√°val is.', //bb31 ?
+	'PLUPLOAD_ERR_INPUT'		=> 'Nem siker√ºlt a bemeneti stream megnyit√°sa.', //bb31
+	'PLUPLOAD_ERR_MOVE_UPLOADED'	=> 'Nem siker√ºlt a felt√∂lt√∂tt f√°jl √°tmozgat√°sa.', //bb31
+	'PLUPLOAD_ERR_OUTPUT'		=> 'Nem siker√ºlt a kimeneti stream megnyit√°sa.', //bb31
+	'PLUPLOAD_ERR_FILE_TOO_LARGE'	=> 'A f√°jl t√∫l nagy:', //bb31
+	'PLUPLOAD_ERR_FILE_COUNT'	=> 'F√°jl mennyis√©g hiba.', //bb31 count error
+	'PLUPLOAD_ERR_FILE_INVALID_EXT'	=> '√ârv√©nytelen f√°jlkiterjeszt√©s:', //bb31
+	'PLUPLOAD_ERR_RUNTIME_MEMORY'	=> 'Elfogyott a szabad mem√≥ria.', //bb31
+	'PLUPLOAD_ERR_UPLOAD_URL'	=> 'A felt√∂lt√©s URL-je hib√°s vagy nem l√©tezik.', //bb31
+	'PLUPLOAD_EXTENSION_ERROR'	=> 'F√°jlkiterjeszt√©s hiba.', //bb31
+	'PLUPLOAD_FILE'				=> 'F√°jl: %s', //bb31
+	'PLUPLOAD_FILE_DETAILS'		=> 'F√°jl: %s, m√©ret: %d, maxim√°lis f√°jl m√©ret: %d', //bb31 ?
+	'PLUPLOAD_FILENAME'			=> 'F√°jln√©v', //bb31
+	'PLUPLOAD_FILES_QUEUED'		=> '%d f√°jl van a sorban', //bb31
+	'PLUPLOAD_GENERIC_ERROR'	=> '√Åltal√°nos hiba.', //bb31
 	'PLUPLOAD_HTTP_ERROR'		=> 'HTTP hiba.', //bb31
-	'PLUPLOAD_IMAGE_FORMAT'		=> 'A kÈp form·tuma hib·s vagy nem t·mogatott.', //bb31
-	'PLUPLOAD_INIT_ERROR'		=> 'Inicializ·ciÛs hiba.', //bb31
+	'PLUPLOAD_IMAGE_FORMAT'		=> 'A k√©p form√°tuma hib√°s vagy nem t√°mogatott.', //bb31
+	'PLUPLOAD_INIT_ERROR'		=> 'Inicializ√°ci√≥s hiba.', //bb31
 	'PLUPLOAD_IO_ERROR'			=> 'IO hiba.', //bb31
 	'PLUPLOAD_NOT_APPLICABLE'	=> 'N/A', //bb31
-	'PLUPLOAD_SECURITY_ERROR'	=> 'Biztons·gi error.', //bb31
-	'PLUPLOAD_SELECT_FILES'		=> 'V·lasszon f·jlokat', //bb31
-	'PLUPLOAD_SIZE'				=> 'MÈret', //bb31
-	'PLUPLOAD_SIZE_ERROR'		=> 'F·jlmÈret hiba', //bb31
-	'PLUPLOAD_STATUS'			=> '¡llapot', //bb31
-	'PLUPLOAD_START_UPLOAD'		=> 'FeltˆltÈs indÌt·sa', //bb31 ?
-	'PLUPLOAD_START_CURRENT_UPLOAD'	=> 'FeltˆltÈsi sor indÌt·sa', //bb31 ?
-	'PLUPLOAD_STOP_UPLOAD'		=> 'FeltˆltÈs le·llÌt·sa', //bb31 ?
-	'PLUPLOAD_STOP_CURRENT_UPLOAD'	=> 'Aktu·lis feltˆltÈs le·llÌt·sa', //bb31 ?
+	'PLUPLOAD_SECURITY_ERROR'	=> 'Biztons√°gi error.', //bb31
+	'PLUPLOAD_SELECT_FILES'		=> 'V√°lasszon f√°jlokat', //bb31
+	'PLUPLOAD_SIZE'				=> 'M√©ret', //bb31
+	'PLUPLOAD_SIZE_ERROR'		=> 'F√°jlm√©ret hiba', //bb31
+	'PLUPLOAD_STATUS'			=> '√Ållapot', //bb31
+	'PLUPLOAD_START_UPLOAD'		=> 'Felt√∂lt√©s ind√≠t√°sa', //bb31 ?
+	'PLUPLOAD_START_CURRENT_UPLOAD'	=> 'Felt√∂lt√©si sor ind√≠t√°sa', //bb31 ?
+	'PLUPLOAD_STOP_UPLOAD'		=> 'Felt√∂lt√©s le√°ll√≠t√°sa', //bb31 ?
+	'PLUPLOAD_STOP_CURRENT_UPLOAD'	=> 'Aktu√°lis felt√∂lt√©s le√°ll√≠t√°sa', //bb31 ?
 	// Note: This string is formatted independently by plupload and so does not
 	// use the same formatting rules as normal phpBB translation strings
-	'PLUPLOAD_UPLOADED'			=> '%d/%d f·jl feltˆltve', //bb31
+	'PLUPLOAD_UPLOADED'			=> '%d/%d f√°jl felt√∂ltve', //bb31
 ));
