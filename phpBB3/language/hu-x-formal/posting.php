@@ -75,13 +75,13 @@ $lang = array_merge($lang, array(
 	'CANNOT_POST_ANNOUNCE'		=> 'Nem küldhet közleményt.',
 	'CANNOT_POST_STICKY'		=> 'Nem küldhet kiemelt témát.',
 	'CHANGE_TOPIC_TO'			=> 'Téma típusának megváltoztatása', //? "Change topic type to" - topic type: téma típus??
-	'CHARS_POST_CONTAINS'		=> array( //bb31!
-		1	=> 'Your message contains %1$d character.',
-		2	=> 'Your message contains %1$d characters.',
+	'CHARS_POST_CONTAINS'		=> array(
+		1	=> 'Üzenete %1$d karaktert tartalmaz.', //bb31
+		2	=> 'Üzenete %1$d karaktert tartalmaz.', //bb31
 	),
-	'CHARS_SIG_CONTAINS'		=> array( //bb31!
-		1	=> 'Your signature contains %1$d character.',
-		2	=> 'Your signature contains %1$d characters.',
+	'CHARS_SIG_CONTAINS'		=> array(
+		1	=> 'Aláírása %1$d karaktert tartalmaz.', //bb31
+		2	=> 'Aláírása %1$d karaktert tartalmaz.', //bb31
 	),
 	'CLOSE_TAGS'				=> 'Címkék lezárása', //? "Close tags"
 	'CURRENT_TOPIC'				=> 'Jelenlegi téma', //? aktuális?
@@ -90,20 +90,20 @@ $lang = array_merge($lang, array(
 	'DELETE_MESSAGE'			=> 'Üzenet törlése',
 	'DELETE_MESSAGE_CONFIRM'	=> 'Biztosan törölni akarja ezt az üzenetet?',
 	'DELETE_OWN_POSTS'			=> 'Csak a saját hozzászólásait törölheti.',
-	'DELETE_PERMANENTLY'		=> 'Delete permanently', //bb31!
+	'DELETE_PERMANENTLY'		=> 'Végleges törlés', //bb31
 	'DELETE_POST_CONFIRM'		=> 'Biztosan törölni akarja ezt a hozzászólást?',
-	'DELETE_POST_PERMANENTLY_CONFIRM'	=> 'Are you sure you want to <strong>permanently</strong> delete this post?', //bb31!
-	'DELETE_POST_PERMANENTLY'	=> 'Permanently delete this post so it can not be recovered', //bb31!
-	'DELETE_POSTS_CONFIRM'		=> 'Are you sure you want to delete these posts?', //bb31!
-	'DELETE_POSTS_PERMANENTLY_CONFIRM'	=> 'Are you sure you want to <strong>permanently</strong> delete these posts?', //bb31!
-	'DELETE_REASON'				=> 'Reason of deletion', //bb31!
-	'DELETE_REASON_EXPLAIN'		=> 'The specified reason for deletion will be visible to moderators.', //bb31!
-	'DELETE_POST_WARN'			=> 'Delete this post', //bb31!
-	'DELETE_TOPIC_CONFIRM'		=> 'Are you sure you want to delete this topic?', //bb31!
-	'DELETE_TOPIC_PERMANENTLY'	=> 'Permanently delete this topic so it can not be recovered', //bb31!
-	'DELETE_TOPIC_PERMANENTLY_CONFIRM'	=> 'Are you sure you want to <strong>permanently</strong> delete this topic?', //bb31!
-	'DELETE_TOPICS_CONFIRM'		=> 'Are you sure you want to delete these topics?', //bb31!
-	'DELETE_TOPICS_PERMANENTLY_CONFIRM'	=> 'Are you sure you want to <strong>permanently</strong> delete these topics?', //bb31!
+	'DELETE_POST_PERMANENTLY_CONFIRM'	=> 'Biztosan <strong>véglegesen</strong> törölni akarja ezt a hozzászólást?', //bb31
+	'DELETE_POST_PERMANENTLY'	=> 'Hozzászólás végleges törlése, így az nem visszaállítható', //bb31
+	'DELETE_POSTS_CONFIRM'		=> 'Biztosan törölni akarja ezeket a hozzászólásokat?', //bb31
+	'DELETE_POSTS_PERMANENTLY_CONFIRM'	=> 'Biztosan <strong>véglegesen</strong> törölni akarja ezeket a hozzászólásokat?', //bb31
+	'DELETE_REASON'				=> 'Törlés indoka', //bb31
+	'DELETE_REASON_EXPLAIN'		=> 'A törlés indoka látható lesz a moderátoroknak.', //bb31
+	'DELETE_POST_WARN'			=> 'Hozzászólás törlése', //bb31
+	'DELETE_TOPIC_CONFIRM'		=> 'Biztosan törölni akarja ezt a témát?', //bb31
+	'DELETE_TOPIC_PERMANENTLY'	=> 'Téma végleges törlése, így az nem visszaállítható', //bb31
+	'DELETE_TOPIC_PERMANENTLY_CONFIRM'	=> 'Biztosan <strong>véglegesen</strong> törölni akarja ezt a témát?', //bb31
+	'DELETE_TOPICS_CONFIRM'		=> 'Biztosan törölni akarja ezeket a témákat?', //bb31
+	'DELETE_TOPICS_PERMANENTLY_CONFIRM'	=> 'Biztosan <strong>véglegesen</strong> törölni akarja ezeket a témákat?', //bb31
 	'DISABLE_BBCODE'			=> 'BBCode kikapcsolása',
 	'DISABLE_MAGIC_URL'			=> 'Webcímek automatikus linkké alakításának kikapcsolása', //? "Do not automatically parse URLs" 'Automatikus URL-feldolgozás kikapcsolása' webcímek?
 	'DISABLE_SMILIES'			=> 'Emotikonok kikapcsolása',
@@ -226,9 +226,9 @@ $lang = array_merge($lang, array(
 		1	=> 'Legfeljebb %1$d idézetet ágyazhat egymásba.',
 		2	=> 'Legfeljebb %1$d idézetet ágyazhat egymásba.',
 	),
-	'QUOTE_NO_NESTING'			=> 'You may not embed quotes within each other.', //bb31!
+	'QUOTE_NO_NESTING'			=> 'Nem ágyazhat idézeteket egymásba.', //bb31
 
-	'REMOTE_UPLOAD_TIMEOUT'		=> 'The specified file could not be uploaded because the request timed out.', //bb31!
+	'REMOTE_UPLOAD_TIMEOUT'		=> 'A megadott fájl feltöltése időtúllépés miatt nem sikerült.', //bb31
 
 	'SAVE'						=> 'Elmentés',
 	'SAVE_DATE'					=> 'Elmentve', //? "Saved at" 'Elmentés időpontja'
@@ -244,8 +244,8 @@ $lang = array_merge($lang, array(
 
 	'TOO_FEW_CHARS'				=> 'Az üzenet túl rövid.', //? "Your message contains too few characters."
 	'TOO_FEW_CHARS_LIMIT'		=> array(
-		1	=> 'Legalább %1$d karakter hosszúnak kell lennie.', //bb31! ? You need to enter at least %1$d character.
-		2	=> 'Legalább %1$d karakter hosszúnak kell lennie.',
+		1	=> 'Legalább %1$d karaktert kell megadnia.', //bb31
+		2	=> 'Legalább %1$d karaktert kell megadnia.', //bb31
 	),
 	'TOO_FEW_POLL_OPTIONS'		=> 'Legalább két választási lehetőséget meg kell adnia.',
 	'TOO_MANY_ATTACHMENTS'		=> 'Nem lehet újabb csatolmányt hozzáadni, %d a maximum.', //?
@@ -264,8 +264,8 @@ $lang = array_merge($lang, array(
 
 	'UNAUTHORISED_BBCODE'		=> 'Bizonyos BBCode-okat nem használhatsz: %s:',
 	'UNGLOBALISE_EXPLAIN'		=> 'Ahhoz, hogy a témát általános közleményből sima témává minősítse vissza, ki kell választania egy fórumot, amelyben a téma meg fog jelenni.', //?
-	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> 'Your message contains the following unsupported characters:<br />%s', //bb31!
-	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> 'Your subject contains the following unsupported characters:<br />%s', //bb31!
+	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> 'Az üzenete szövege a következő nem támogatott karaktereket tartalmazza:<br />%s', //bb31
+	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> 'Az üzenete tárgya a következő nem támogatott karaktereket tartalmazza:<br />%s', //bb31
 	'UPDATE_COMMENT'			=> 'Magyarázat frissítése',
 	'URL_INVALID'				=> 'A megadott URL hibás.',
 	'URL_NOT_FOUND'				=> 'A megadott állomány nem található.',
