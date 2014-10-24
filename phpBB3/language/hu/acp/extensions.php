@@ -46,7 +46,7 @@ $lang = array_merge($lang, array(
 	'EXTENSIONS_ADMIN'			=> 'Kiterjesztés kezelő', //bb31
 	'EXTENSIONS_EXPLAIN'		=> 'A kiterjesztés kezelővel a phpBB fórumod kiterjesztéseit kezelheted, illetve kiterjesztésekkel kapcsolatos információkat tekinthetsz meg.', //bb31 ?
 	'EXTENSION_INVALID_LIST'	=> 'A “%s” kiterjesztés érvénytelen.<br />%s<br /><br />', //bb31
-	'EXTENSION_NOT_AVAILABLE'	=> 'A kiválasztott kiterjesztés nem telepíthető erre a fórumra, kérjük ellenőrizd a támogatott phpBB és PHP verzióokat a részletek oldalon.', //bb31
+	'EXTENSION_NOT_AVAILABLE'	=> 'A kiválasztott kiterjesztés nem telepíthető erre a fórumra, kérjük ellenőrizd a támogatott phpBB és PHP verziókat a részletek oldalon.', //bb31
 	'EXTENSION_DIR_INVALID'		=> 'A kiválasztott kiterjesztés könyvtárszerkezete hibás, ezért a kiterjesztés nem engedélyezhető.', //bb31
 	'EXTENSION_NOT_ENABLEABLE'	=> 'A kiválasztott kiterjesztés nem engedélyezhető. Kérjük, ellenőrizd a kiterjesztés követelményeit.', //bb31
 
