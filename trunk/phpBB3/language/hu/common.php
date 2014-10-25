@@ -383,7 +383,7 @@ $lang = array_merge($lang, array(
 	'LOGOUT_USER'						=> 'Kilépés [ %s ]',
 	'LOG_ME_IN'							=> 'Emlékezz rám', //bb31
 
-	'MAIN'					=> 'Általános', //bb31?
+	'MAIN'					=> 'Általános', //bb31 ?
 	'MARK'					=> 'Kijelölés',
 	'MARK_ALL'				=> 'Összes kijelölése',
 	'MARK_ALL_READ'			=> 'Összes megjelölése olvasottként', //bb31
