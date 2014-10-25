@@ -1,19 +1,19 @@
-Subject: Topic reply notification - "{TOPIC_TITLE}"
+Subject: Hozzászólás idézési értesítés - "{TOPIC_TITLE}"
 
-Hello {USERNAME},//bb31!
+Kedves {USERNAME}!
 
-You are receiving this notification because "{AUTHOR_NAME}" quoted you in the topic "{TOPIC_TITLE}" at "{SITENAME}". You can use the following link to view the reply made.
+Ezt az e-mailt azért kapod, mert a "{SITENAME}" oldalon a "{TOPIC_TITLE}" témában "{AUTHOR_NAME}" idézett téged. A következő linkre kattintva eljuthatsz a hozzászólásához.
 
-If you want to view the quoted post, click the following link:
+Amennyiben meg szeretnéd tekinteni a hozzászólást, kattints a következő linkre:
 {U_VIEW_POST}
 
-If you want to view the topic, click the following link:
+Amennyiben meg szeretnéd tekinteni a témát, kattints a következő linkre:
 {U_TOPIC}
 
-If you want to view the forum, click the following link:
+Amennyiben meg szeretnéd tekinteni a fórumot, kattints a következő linkre:
 {U_FORUM}
 
-If you no longer wish to receive updates about replies quoting you, please update your notification settings here:
+Amennyiben a továbbiakban nem kívánsz értesítést kapni arról, ha egy hozzászólásban idéznek, frissítsd az értesítési beállításokat a következő linken:
 
 {U_NOTIFICATION_SETTINGS}
 

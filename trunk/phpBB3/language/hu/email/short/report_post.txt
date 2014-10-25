@@ -1,13 +1,13 @@
-Subject: Post report - "{TOPIC_TITLE}"
+Subject: Hozzászólás jelentése - "{TOPIC_TITLE}"
 
-Hello {USERNAME},//bb31!
+Kedves {USERNAME}!
 
-You are receiving this notification because the post "{POST_SUBJECT}" at "{SITENAME}" was reported.
+Ezt az e-mailt azért kapod, mert a "{SITENAME}" oldalon a "{SUBJECT}" hozzászólást jelentették.
 
-If you want to view the report, click the following link:
+Amennyiben meg szeretnéd tekinteni a jelentést, kattints a következő linkre:
 {U_VIEW_REPORT}
 
-If you want to view the post, click the following link:
+Amennyiben meg szeretnéd tekinteni a hozzászólást, kattints a következő linkre:
 {U_VIEW_POST}
 
 {EMAIL_SIG}

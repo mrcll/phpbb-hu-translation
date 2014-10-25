@@ -1,20 +1,19 @@
-Subject: Topic reply notification - "{TOPIC_TITLE}"
+Subject: Témafigyelés értesítés - "{FORUM_NAME}"
 
-Hello {USERNAME},//bb31!
+Kedves {USERNAME}!
 
-You are receiving this notification because you are watching the topic "{TOPIC_TITLE}" at "{SITENAME}". This topic has received a reply<!-- IF AUTHOR_NAME --> by {AUTHOR_NAME}<!-- ENDIF --> since your last visit. You can use the following link to view the replies made, no more notifications will be sent until you visit the topic.
+Ezt az e-mailt ön azért kapja, mert a "{SITENAME}" oldalon a "{TOPIC_TITLE}" téma figyelését kérte. A témába a legutóbbi látogatása óta új hozzászólás érkezett<!-- IF AUTHOR_NAME -->, melynek szerzője "{AUTHOR_NAME}"<!-- ENDIF -->. Több értesítést nem fog kapni, amíg meg nem tekinti a témát.
 
-If you want to view the newest post made since your last visit, click the following link:
+Az utolsó látogatás óta érkezett legfrissebb hozzászólás megtekintéséhez kattintson a következő linkre:
 {U_NEWEST_POST}
 
-If you want to view the topic, click the following link:
+A téma megtekintéséhez kattintson a következő linkre:
 {U_TOPIC}
 
-If you want to view the forum, click the following link:
+A fórum megtekintéséhez kattintson a következő linkre:
 {U_FORUM}
 
-If you no longer wish to watch this topic you can either click the "Unsubscribe topic" link found at the bottom of the topic above, or by clicking the following link:
-
+Amennyiben a továbbiakban nem kívánja figyelni a témát, kattintson a "Leiratkozás a témáról" linkre, melyet a fenti oldalon talál, vagy egyszerűen kattintson a következő linkre:
 {U_STOP_WATCHING_TOPIC}
 
 {EMAIL_SIG}

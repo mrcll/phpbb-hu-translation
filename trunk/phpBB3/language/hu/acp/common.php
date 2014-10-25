@@ -90,7 +90,7 @@ $lang = array_merge($lang, array(
 	'ACP_EMAIL_SETTINGS'		=> 'E-mail beállítások',
 	'ACP_EXTENSION_GROUPS'		=> 'Csatolmány kiterjesztéscsoportok kezelése', //bb31
 	'ACP_EXTENSION_MANAGEMENT'	=> 'Kiterjesztések kezelése', //bb31
-	'ACP_EXTENSIONS'			=> 'Kiterjesztések kezelése', //bb31
+	'ACP_EXTENSIONS'			=> 'Kiterjesztések', //bb31
 
 	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Fórum alapú jogosultságok', //?? "Forum based permissions" a jogosultságokhoz ki kell találni egy terminológiát
 	'ACP_FORUM_LOGS'				=> 'Fórum naplók',

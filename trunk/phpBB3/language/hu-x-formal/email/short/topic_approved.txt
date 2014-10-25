@@ -1,10 +1,10 @@
-Subject: Topic approved - "{TOPIC_TITLE}"
+Subject: Téma jóváhagyva - "{TOPIC_TITLE}"
 
-Hello {USERNAME},//bb31!
+Kedves {USERNAME}!
 
-You are receiving this notification because your topic "{TOPIC_TITLE}" at "{SITENAME}" was approved by a moderator or administrator.
+Ezt az üzenetet ön azért kapja, mert a "{SITENAME}" oldalon az ön által nyitott "{TOPIC_TITLE} témát jóváhagyta egy moderátor vagy egy adminisztrátor.
 
-If you want to view the topic, click the following link:
+A témát megtekintheti a következő linkre kattintva:
 {U_VIEW_TOPIC}
 
 {EMAIL_SIG}

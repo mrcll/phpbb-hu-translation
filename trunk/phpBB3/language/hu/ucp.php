@@ -333,7 +333,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_METHOD_EMAIL'							=> 'E-mail', //bb31
 	'NOTIFICATION_METHOD_JABBER'						=> 'Jabber', //bb31
 	'NOTIFICATION_TYPE'									=> 'Értesítés típusa', //bb31
-	'NOTIFICATION_TYPE_BOOKMARK'						=> 'Valaki válaszol egy témára, amit kedvencnek jelöltél', //bb31?
+	'NOTIFICATION_TYPE_BOOKMARK'						=> 'Valaki válaszol egy témában, amit kedvencnek jelöltél', //bb31?
 	'NOTIFICATION_TYPE_GROUP_REQUEST'					=> 'Valaki csatlakozni szeretne egy csoporthoz, ahol vezető vagy', //bb31?
 	'NOTIFICATION_TYPE_IN_MODERATION_QUEUE'				=> 'Egy hozzászólás vagy téma elfogadásra vár', //bb31?
 	'NOTIFICATION_TYPE_MODERATION_QUEUE'				=> 'A témád/hozzászólásod elfogadta egy moderátor', //bb31?
@@ -531,7 +531,7 @@ $lang = array_merge($lang, array(
 	'UCP_NOTIFICATION_LIST'				=> 'Értesítések kezelése', //bb31
 	'UCP_NOTIFICATION_LIST_EXPLAIN'		=> 'Itt megnézheted az összes régi értesítést.', //bb31
 	'UCP_NOTIFICATION_OPTIONS'			=> 'Értesítési beállítások módosítása', //bb31
-	'UCP_NOTIFICATION_OPTIONS_EXPLAIN'	=> 'Itt beállíthatod a fórum által használandó értesítési módot.', //bb31? preferred
+	'UCP_NOTIFICATION_OPTIONS_EXPLAIN'	=> 'Itt beállíthatod a fórum által használandó értesítési módokat.', //bb31? preferred
 
 	'UCP_PREFS'					=> 'Fórum beállítások',
 	'UCP_PREFS_PERSONAL'		=> 'Általános beállítások szerkesztése', //? kell a szerkesztése?? - és a beállítások?

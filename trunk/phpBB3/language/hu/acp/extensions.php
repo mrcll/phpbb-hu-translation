@@ -77,7 +77,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_UPDATE_HEADLINE'	=> 'Kiterjesztés frissítése', //bb31
 	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
 			<li>Tiltsd le a kiterjesztést</li>
-			<li>Töröld el a kiterjesztés állományait a fájlrendszerből</li>
+			<li>Töröld a kiterjesztés állományait a fájlrendszerből</li>
 			<li>Töltsd fel az új állományokat</li>
 			<li>Engedélyezd a kiterjesztést</li>
 		</ol>', //bb31

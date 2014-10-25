@@ -1,19 +1,18 @@
-Subject: Topic reply notification - "{TOPIC_TITLE}"
+Subject: Témafigyelés értesítés - "{TOPIC_TITLE}"
 
-Hello {USERNAME},//bb31!
+Kedves {USERNAME}!
 
-You are receiving this notification because a topic you bookmarked, "{TOPIC_TITLE}" at "{SITENAME}", has received a reply since your last visit. You can use the following link to view the replies made, no more notifications will be sent until you visit the topic.
+Ön ezt az e-mailt azért kapja, mert a "{SITENAME}" oldalon a "{TOPIC_TITLE}" témát kedvencnek jelölte. A témába a legutóbbi látogatása óta új hozzászólás érkezett. A következő linkre kattintva eljuthat a legutóbbi olvasatlan válaszhoz, mindazonáltal újabb értesítést nem fog kapni, míg meg nem látogatja a témát.
 
-If you want to view the newest post made since your last visit, click the following link:
 {U_NEWEST_POST}
 
-If you want to view the topic, click the following link:
+A téma megtekintéséhez kattintson a következő linkre:
 {U_TOPIC}
 
-If you want to view the forum, click the following link:
+A fórum megtekintéséhez kattintson a következő linkre:
 {U_FORUM}
 
-If you no longer wish to receive updates about replies to bookmarks, please update your notification settings here:
+Amennyiben a továbbiakban nem kíván értesítést kapni a kedvencnek jelölt témákba érkezett hozzászólásokról, frissítse az értesítési beállításokat a következő linken:
 
 {U_NOTIFICATION_SETTINGS}
 
