@@ -1,13 +1,13 @@
-Subject: Post moderation notification - "{TOPIC_TITLE}"
+Subject: Hozzászólás moderációs értesítés - "{TOPIC_TITLE}"
 
-Hello {USERNAME},//bb31!
+Kedves {USERNAME}!
 
-You are receiving this notification because the post "{POST_SUBJECT}" at "{SITENAME}" needs approval.
+Ezt az e-mailt azért kapja, mert a "{SITENAME}" oldalon a "{POST_SUBJECT}" hozzászólás jóváhagyásra vár.
 
-If you want to view the post, click the following link:
+Amennyiben meg szeretné tekinteni a hozzászólást, kattintson a következő linkre:
 {U_VIEW_POST}
 
-If you want to view the topic, click the following link:
-{U_TOPIC}
+Amennyiben meg szeretné tekinteni a témát, kattintson a következő linkre:
+{U_VIEW_TOPIC}
 
 {EMAIL_SIG}

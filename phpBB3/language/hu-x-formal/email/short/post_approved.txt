@@ -1,13 +1,13 @@
-Subject: Post approved - "{POST_SUBJECT}"
+Subject: A hozzászólása jóváhagyásra került - "{POST_SUBJECT}"
 
-Hello {USERNAME},//bb31!
+Kedves {USERNAME}!
 
-You are receiving this notification because your post "{POST_SUBJECT}" at "{SITENAME}" was approved by a moderator or administrator.
+Ön ezt az üzenetet azért kapja, mert a "{POST_SUBJECT}" témájú hozzászólása a "{SITENAME}" oldalon jóváhagyásra került egy adminisztrátor vagy egy moderátor által.
 
-If you want to view the post, click the following link:
+Amennyiben meg szeretné tekinteni a hozzászólást, kattintson a következő linkre:
 {U_VIEW_POST}
 
-If you want to view the topic, click the following link:
+Amennyiben meg szeretné tekinteni a témát, melyhez hozzászólt, kattintson a következő linkre:
 {U_VIEW_TOPIC}
 
 {EMAIL_SIG}

@@ -1,15 +1,14 @@
-Subject: New private message has arrived
+Subject: Új privát üzenete érkezett - "{FORUM_NAME}"
 
-Hello {USERNAME},//bb31!
+Kedves {USERNAME}!
 
-You have received a new private message from "{AUTHOR_NAME}" to your account on "{SITENAME}" with the following subject:
-
+Ön a "{SITENAME}" oldalon új privát üzenetet kapott, melynek feladója "{AUTHOR_NAME}". Az üzenet témája:
 {SUBJECT}
 
-You can view your new message by clicking on the following link:
+A következő linkre kattintva tekintheti meg az érkezett üzenetet:
 
 {U_VIEW_MESSAGE}
 
-You have requested that you be notified on this event, remember that you can always choose not to be notified of new messages by changing the appropriate setting in your profile.
+Ezt az e-mailt azért kapja, mert beállította, hogy privát üzenet érkezéséről értesülni szeretne. Ne felejtse el, hogy bármikor kikapcsolhatja az ilyen értesítéseket a felhasználói vezérlőpultban.
 
 {EMAIL_SIG}
