@@ -942,6 +942,7 @@ $lang = array_merge($lang, array(
 		'UTC_OFFSET'			=> 'UTC%1$s', //bb31
 		'UTC_OFFSET_CURRENT'	=> 'UTC%1$s - %2$s', //bb31
 
+		//bb31
 		'Etc/GMT-12'	=> 'UTC+12',
 		'Etc/GMT-11'	=> 'UTC+11',
 		'Etc/GMT-10'	=> 'UTC+10',
@@ -967,7 +968,8 @@ $lang = array_merge($lang, array(
 		'Etc/GMT+11'	=> 'UTC-11',
 		'Etc/GMT+12'	=> 'UTC-12',
 
-		'Africa/Abidjan'	=> 'Africa/Abidjan', //bb31 ?
+		//bb31
+		'Africa/Abidjan'	=> 'Africa/Abidjan',
 		'Africa/Accra'		=> 'Africa/Accra',
 		'Africa/Addis_Ababa'	=> 'Africa/Addis Ababa',
 		'Africa/Algiers'	=> 'Africa/Algiers',
