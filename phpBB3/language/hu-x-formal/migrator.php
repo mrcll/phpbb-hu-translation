@@ -47,7 +47,7 @@ $lang = array_merge($lang, array(
 	'MIGRATION_DATA_DONE'				=> 'Telepített adat: %1$s; Idő: %2$.2f másodperc', //bb31 ? Installed Data
 	'MIGRATION_DATA_IN_PROGRESS'		=> 'Adat telepítése: %1$s; Idő: %2$.2f másodperc', //bb31 ? Installing Data
 	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'A migráció már végre lett hajtva (kihagyva): %s', //bb31
-	'MIGRATION_EXCEPTION_ERROR'			=> 'Hiba történt a kérés végrehajtása során és a feldolgozás megszakadt. A hiba bekövetkezése előtti változtatásokat megpróbáltuk visszaállítani. Kérjük, ellenőrizd a fórum működőképességét.', //bb31
+	'MIGRATION_EXCEPTION_ERROR'			=> 'Hiba történt a kérés végrehajtása során és a feldolgozás megszakadt. A hiba bekövetkezése előtti változtatásokat megpróbáltuk visszaállítani. Kérjük, lépj be a fórumon, és ellenőrizd, hogy minden rendesen működik-e.', //bb31
 	'MIGRATION_NOT_FULFILLABLE'			=> 'A "%1$s" migráció nem hajtható végre, mert hiányzik a "%2$s" migráció.', //bb31
 	'MIGRATION_SCHEMA_DONE'				=> 'Telepített séma: %1$s; Idő: %2$.2f másodperc', //bb31
 
