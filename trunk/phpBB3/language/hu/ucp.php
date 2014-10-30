@@ -187,7 +187,6 @@ $lang = array_merge($lang, array(
 
 	'EDIT_DRAFT_EXPLAIN'		=> 'Itt szerkesztheted a piszkozatodat. A piszkozatokhoz nem kapcsolható csatolmány, illetve szavazás.', //? "Here you are able to edit your draft. Drafts do not contain attachment and poll information." - ' A piszkozatok nem tartalmaznak csatolmányokat, illetve szavazási információkat.'
 	'EMAIL_BANNED_EMAIL'		=> 'A megadott e-mail cím használata nem engedélyezett.',
-	'EMAIL_INVALID_EMAIL'		=> 'A megadott e-mail cím hibás.',
 	'EMAIL_REMIND'				=> 'Az azonosítódhoz tartozó e-mail cím. Ha nem változtattad meg a felhasználó vezérlőpultban, akkor ez az, amit a regisztrációkor megadtál.',
 	'EMAIL_TAKEN_EMAIL'			=> 'A megadott e-mail cím már használatban van.', //? "is already in use" - 'már használja valaki' - valaki..., valószínűleg ő maga
 	'EMPTY_DRAFT'				=> 'Az üzenet nem lehet üres.',

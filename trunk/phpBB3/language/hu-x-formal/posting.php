@@ -253,9 +253,6 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_CHARS_LIMIT'		=> array(
 		2	=> 'A megengedett hossz %1$d karakter.',
 	),
-	'TOO_MANY_CHARS_SIG'		=> array(
-		2	=> 'Az aláírása %1$d karaktert tartalmaz. Legfeljebb %2$d karakter hosszú lehet.',
-	),
 	'TOO_MANY_POLL_OPTIONS'		=> 'Túl sok választási lehetőséget adott meg.',
 	'TOO_MANY_SMILIES'			=> 'Az üzenet túl sok emotikont tartalmaz. Legfeljebb %d használható.',
 	'TOO_MANY_URLS'				=> 'Az üzenet túl sok linket tartalmaz. Legfeljebb %d lehet benne.', //? link =? url

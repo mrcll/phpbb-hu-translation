@@ -119,7 +119,7 @@ $lang = array_merge($lang, array(
 	'VIEW_PREVIOUS_TOPIC'	=> 'Előző téma',
 	'VIEW_RESULTS'			=> 'Eredmény megtekintése',
 	'VIEW_TOPIC_POSTS'		=> array(
-		1	=> '%d post',
+		1	=> '%d hozzászólás',
 		2	=> '%d hozzászólás',
 	),
 	'VIEW_UNREAD_POST'		=> 'Első olvasatlan hozzászólás',

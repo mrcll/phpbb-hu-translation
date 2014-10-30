@@ -48,10 +48,6 @@ $lang = array_merge($lang, array(
 	'INSTALLED_LANGUAGE_PACKS'	=> 'Telepített nyelvi csomagok',
 
 	'LANGUAGE_DETAILS_UPDATED'			=> 'A nyelvi adatok sikeresen frissítésre kerültek.',
-	'LANGUAGE_ENTRIES'					=> 'Nyelvi elemek', //? 'Nyelvi bejegyzések'
-	'LANGUAGE_ENTRIES_EXPLAIN'			=> 'Itt megváltoztathatod a jelenlegi nyelvi csomag bejegyzéseket vagy a még nem lefordítottakat.<br /><strong>Megjegyzés:</strong> Miután módosítottad a nyelvi állományt, a változtatások egy külön mappában kerülnek majd tárolásra, ahonnan letöltheted a csomagot. Amíg az eredeti nyelvi állományokat nem helyettesíted az újakkal (azzal, hogy feltöltöd a tárhelyedre), a változtatások a felhasználóid számára nem lesznek érzékelhetők.',
-	'LANGUAGE_FILES'					=> 'Nyelvi állományok',
-	'LANGUAGE_KEY'						=> 'Nyelvi kulcs',
 	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> 'Ez a nyelvi csomag már telepítve van.',
 	'LANGUAGE_PACK_DELETED'				=> 'A “%s” nyelvi csomag sikeresen eltávolításra került. Az ezt a nyelvet használó felhasználók nyelve visszaállításra került a fórum alapértelmezett nyelvére.',
 	'LANGUAGE_PACK_DETAILS'				=> 'Nyelvi csomag adatok',
@@ -68,7 +64,7 @@ $lang = array_merge($lang, array(
 	'LANG_ISO_CODE'						=> 'ISO kód',
 	'LANG_LOCAL_NAME'					=> 'Lokalizált név',
 
-	'MISSING_LANGUAGE_FILES'		=> 'Hiányzó nyelvi állományok',
+	'MISSING_LANG_FILES'		=> 'Hiányzó nyelvi állományok',
 	'MISSING_LANG_VARIABLES'	=> 'Hiányzó nyelvi változók',
 
 	'NO_FILE_SELECTED'				=> 'Nem adtál meg nyelvi állományt.',
