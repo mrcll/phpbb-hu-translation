@@ -171,7 +171,7 @@ $lang = array_merge($lang, array(
 	'CONNECTION_FAILED'		=> 'Sikertelen kapcsolódási kísérlet',
 	'CONNECTION_SUCCESS'	=> 'Sikerült csatlakozni!',
 	'CONTACT'				=> 'Kapcsolat', //bb31
-	'CONTACT_USER'			=> 'Kapcsolat %s', //bb31 ? contact
+	'CONTACT_USER'			=> 'Kapcsolat felvétele %s felhasználóval', //bb31
 	'CONTACT_US'			=> 'Kapcsolat', //bb31 ? contact us
 	'COOKIES_DELETED'		=> 'A fórum sütijei törlésre kerültek.',
 	'CURRENT_TIME'			=> 'Pontos idő: %s',
@@ -842,8 +842,6 @@ $lang = array_merge($lang, array(
 		1	=> 'az elmúlt %d percben aktív felhasználók alapján', //bb31
 		2	=> 'az elmúlt %d percben aktív felhasználók alapján',
 	),
-	'VIEW_ONLINE_TIME'			=> 'Az elmúlt %d percben aktív felhasználók alapján.',
-	'VIEW_ONLINE_TIMES'			=> 'Az elmúlt %d percben aktív felhasználók alapján.',
 	'VIEW_TOPIC'				=> 'Téma megtekintése',
 	'VIEW_TOPIC_ANNOUNCEMENT'	=> 'Közlemény: ',
 	'VIEW_TOPIC_GLOBAL'			=> 'Általános közlemény: ',

@@ -44,12 +44,16 @@ $lang = array_merge($lang, array(
 
 	'GROUP_NOT_EXIST'					=> 'A "%s" csoport nem létezik.', //bb31
 
+	'MIGRATION_APPLY_DEPENDENCIES'		=> '%s függőségeinek alkalmazása.', //bb31 ? apply
 	'MIGRATION_DATA_DONE'				=> 'Telepített adat: %1$s; Idő: %2$.2f másodperc', //bb31 ? Installed Data
 	'MIGRATION_DATA_IN_PROGRESS'		=> 'Adat telepítése: %1$s; Idő: %2$.2f másodperc', //bb31 ? Installing Data
+	'MIGRATION_DATA_RUNNING'			=> 'Adat telepítése: %s.', //bb31
 	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'A migráció már végre lett hajtva (kihagyva): %s', //bb31
 	'MIGRATION_EXCEPTION_ERROR'			=> 'Hiba történt a kérés végrehajtása során és a feldolgozás megszakadt. A hiba bekövetkezése előtti változtatásokat megpróbáltuk visszaállítani. Kérjük, lépj be a fórumon, és ellenőrizd, hogy minden rendesen működik-e.', //bb31
 	'MIGRATION_NOT_FULFILLABLE'			=> 'A "%1$s" migráció nem hajtható végre, mert hiányzik a "%2$s" migráció.', //bb31
+	'MIGRATION_NOT_VALID'				=> '%s egy érvénytelen migráció.', //bb31
 	'MIGRATION_SCHEMA_DONE'				=> 'Telepített séma: %1$s; Idő: %2$.2f másodperc', //bb31
+	'MIGRATION_SCHEMA_RUNNING'			=> 'Séma telepítése: %s.', //bb31
 
 	'MODULE_ERROR'						=> 'Hiba történt a modul létrehozása közben: %s', //bb31 ?
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Szükséges modul információs állomány nem létezik: %2$s', //bb31
