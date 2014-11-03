@@ -119,9 +119,8 @@ $lang = array_merge($lang, array(
 		2	=> 'Az indexelés aktuális sebessége körülbelül %1$.1f hozzászólás per másodperc.<br />Indexelés folyamatban…', //bb31
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
-		2	=> 'A %2$d azonosítóig terjedő hozzászólások eltávolításra kerültek a keresési indexből.<br />Törlés folyamatban…', //bb31
+		2	=> 'A %2$d azonosítóig terjedő hozzászólások el lettek távolítva a keresőindexből.<br />Törlés folyamatban…', //bb31
 	),
-	'SEARCH_INDEX_DELETE_REDIRECT'			=> 'A %1$d azonosítóig terjedő hozzászólások el lettek távolítva a keresőindexből.<br />Törlés',
 	'SEARCH_INDEX_CREATED'					=> 'A fórum adatbázisában lévő összes hozzászólás sikeresen indexelésre került.',
 	'SEARCH_INDEX_REMOVED'					=> 'A modul keresőindexe sikeresen törlésre került.',
 	'SEARCH_INTERVAL'						=> 'Felhasználói keresési időköz',
