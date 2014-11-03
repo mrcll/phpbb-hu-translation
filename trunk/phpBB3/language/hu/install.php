@@ -549,7 +549,7 @@ $lang = array_merge($lang, array(
 		<ul style="margin-left: 20px; font-size: 1.1em;">
 			<li>Menj a <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com letöltések oldalára</a>, és töltsd le a megfelelő automatikus frissítő csomagot.<br /><br /></li>
 			<li>Csomagold ki a csomagot.<br /><br /></li>
-			<li>A kicsomagolt csomag könyvtárait töltsd fel a phpBB-d gyökérkönyvtárába (ahol a config.php található).<br /><br /></li>
+			<li>A kicsomagolt csomag install és vendor könyvtárait töltsd fel a phpBB-d gyökérkönyvtárába (ahol a config.php található).<br /><br /></li>
 		</ul>
 
 		<p>Miután feltöltötted, a normál felhasználók nem tudják majd elérni a fórumot az install könyvtár létezése miatt.<br /><br />
