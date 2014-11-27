@@ -51,12 +51,12 @@ $lang = array_merge($lang, array(
 
 	'BEFORE'				=> 'Korábban mint', //?
 
-	'CC_EMAIL'				=> 'Másolat küldése önmagának',
+	'CC_SENDER'				=> 'Másolat küldése önmagának',
 	'CONTACT_ADMIN'			=> 'Fórum adminisztrátor értesítése', //bb31 ? Contact a Board Administrator
 
 	'DEST_LANG'				=> 'Nyelv',
 	'DEST_LANG_EXPLAIN'		=> 'Válasszon ki egy az üzenet címzettjének megfelelő nyelvet (ha elérhető).',
-	
+
 	'EDIT_PROFILE'			=> 'Profil szerkesztése', //bb31
 
 	'EMAIL_BODY_EXPLAIN'	=> 'Az üzenet sima szövegként kerül elküldésre, ne használjon HTML-t vagy BBCode-ot. Az üzenet válaszcíme az ön e-mail címe lesz.',

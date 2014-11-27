@@ -77,6 +77,7 @@ $lang = array_merge($lang, array(
 	'STYLE_INSTALLED_RETURN_INSTALLED_STYLES'	=> 'Vissza a telepített megjelenésekhez', //bb31 ? megjelenések listájához
 	'STYLE_INSTALLED_RETURN_UNINSTALLED_STYLES'	=> 'További megjelenések telepítése', //bb31
 	'STYLE_NAME'				=> 'Megjelenés neve',
+	'STYLE_NAME_RESERVED'		=> 'A "%s" megjelenés nem telepíthető, mert a neve fenntartott szót tartalmaz.', //bb31 ? name reserved
 	'STYLE_NOT_INSTALLED'		=> '"%s" megjelenés nincs telepítve.', //bb31 ? style
 	'STYLE_PATH'				=> 'Megjelenés elérési útja', //bb31
 	'STYLE_UNINSTALL'			=> 'Eltávolítás', //bb31

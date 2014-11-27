@@ -225,7 +225,8 @@ $lang = array_merge($lang, array(
 	'ACP_REGISTER_SETTINGS_EXPLAIN'		=> 'Itt a regisztrációval és a profillal kapcsolatos beállításokat adhatsz meg.',
 
 	'ACC_ACTIVATION'				=> 'Azonosító aktiválása',
-	'ACC_ACTIVATION_EXPLAIN'		=> 'Ez dönti el, hogy a felhasználók azonnal hozzáférnek-e a fórumhoz, vagy megerősítés szükséges. A regisztrálás lehetőségét teljesen ki is kapcsolhatod. A felhasználói vagy adminisztrátori aktiválás használatához a fórum e-mail küldés funkciójának engedélyezve kell lennie.',
+	'ACC_ACTIVATION_EXPLAIN'		=> 'Ez dönti el, hogy a felhasználók azonnal hozzáférnek-e a fórumhoz, vagy megerősítés szükséges. A regisztrálás lehetőségét teljesen ki is kapcsolhatod. <em>A felhasználói vagy adminisztrátori aktiválás használatához a fórum e-mail küldés funkciójának engedélyezve kell lennie.</em>', //bb31
+	'ACC_ACTIVATION_WARNING'		=> 'Kérjük, vedd figyelembe, hogy a jelnleg kiválasztott azonosító aktiválási módhoz az e-mail küldésnek engedélyezve kell lennie, egyébként a regisztrálás lehetősége le lesz tiltva. Javasoljuk, hogy válassz másik aktiválási módot vagy engedélyezd újra az e-mail küldést.', //bb31
 	'NEW_MEMBER_POST_LIMIT'			=> 'Új tag hozzászólás határ',
 	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> 'Az új tagok az <em>Újonnan regisztrált felhasználók</em> csoportba kerülnek, amíg el nem érik az itt megadott hozzászólásszámot. Ennek a csoportnak a segítségével például meggátolhatod számukra privát üzenetek küldését, vagy moderátori jóváhagyáshoz kötheted a hozzászólásaikat. <strong>A 0 érték kikapcsolja ezt a funkciót.</strong>',
 	'NEW_MEMBER_GROUP_DEFAULT'		=> 'Újonnan regisztrált felhasználók csoport elsődlegessé tétele',
@@ -568,7 +569,7 @@ $lang = array_merge($lang, array(
 	'EMAIL_SIG'						=> 'E-mail aláírás',
 	'EMAIL_SIG_EXPLAIN'				=> 'Ez a szöveg hozzáfűzésre kerül az összes fórum által küldött e-mailhez.',
 	'ENABLE_EMAIL'					=> 'Fórum e-mail küldés bekapcsolása',
-	'ENABLE_EMAIL_EXPLAIN'			=> 'Ha ki van kapcsolva, a fórum egyáltalán nem fog e-mailt küldeni. <em>Kérjük, vedd figyelembe, hogy ebben az esetben a „felhasználói”, ill. „adminisztrátori” azonosító aktiválási mód nem működik. Ha jelenleg ezen aktivális módok egyikét használod, és nemre állítod ezt a beállítást, az új regisztrációkat semmilyen módon nem kell majd megerősíteni.</em>',
+	'ENABLE_EMAIL_EXPLAIN'			=> 'Ha ki van kapcsolva, a fórum egyáltalán nem fog e-mailt küldeni. <em>Kérjük, vedd figyelembe, hogy ebben az esetben a „felhasználói”, ill. „adminisztrátori” azonosító aktiválási mód nem működik. Ha jelenleg ezen aktivális módok egyikét használod, és nemre állítod ezt a beállítást, az letiltja a regisztrálás lehetőségét.</em>', //bb31
 	'SMTP_AUTH_METHOD'				=> 'SMTP azonosítási mód',
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Csak akkor van használva, ha egy felhasználónév/jelszó páros meg van adva. Ha nem vagy biztos benne, melyik módot használd, kérdezd meg a szolgáltatódat.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',
@@ -584,7 +585,7 @@ $lang = array_merge($lang, array(
 	'SMTP_SETTINGS'					=> 'SMTP beállítások',
 	'SMTP_USERNAME'					=> 'SMTP felhasználónév',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Csak akkor adj meg felhasználónevet, ha a használt SMTP szerver megköveteli.',
-	'USE_SMTP'						=> 'SMPT használata e-mail küldésére',
+	'USE_SMTP'						=> 'SMTP használata e-mail küldésére',
 	'USE_SMTP_EXPLAIN'				=> 'Állítsd igenre, ha a helyi mail függvény helyett egy meghatározott szerveren keresztül szeretnéd az e-maileket kiküldeni.',
 ));
 
