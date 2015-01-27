@@ -11,7 +11,7 @@
 * Magyar fordítás (c) 2007-2014 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
-* $Id: board.php 268 2014-10-23 13:11:35Z marcee $
+* $Id$
 */
 
 /**
@@ -226,7 +226,7 @@ $lang = array_merge($lang, array(
 
 	'ACC_ACTIVATION'				=> 'Azonosító aktiválása',
 	'ACC_ACTIVATION_EXPLAIN'		=> 'Ez dönti el, hogy a felhasználók azonnal hozzáférnek-e a fórumhoz, vagy megerősítés szükséges. A regisztrálás lehetőségét teljesen ki is kapcsolhatod. <em>A felhasználói vagy adminisztrátori aktiválás használatához a fórum e-mail küldés funkciójának engedélyezve kell lennie.</em>', //bb31
-	'ACC_ACTIVATION_WARNING'		=> 'Kérjük, vedd figyelembe, hogy a jelnleg kiválasztott azonosító aktiválási módhoz az e-mail küldésnek engedélyezve kell lennie, egyébként a regisztrálás lehetősége le lesz tiltva. Javasoljuk, hogy válassz másik aktiválási módot vagy engedélyezd újra az e-mail küldést.', //bb31
+	'ACC_ACTIVATION_WARNING'		=> 'Kérjük, vedd figyelembe, hogy a jelenleg kiválasztott azonosító aktiválási módhoz az e-mail küldésnek engedélyezve kell lennie, egyébként a regisztrálás lehetősége le lesz tiltva. Javasoljuk, hogy válassz másik aktiválási módot vagy engedélyezd újra az e-mail küldést.', //bb31
 	'NEW_MEMBER_POST_LIMIT'			=> 'Új tag hozzászólás határ',
 	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> 'Az új tagok az <em>Újonnan regisztrált felhasználók</em> csoportba kerülnek, amíg el nem érik az itt megadott hozzászólásszámot. Ennek a csoportnak a segítségével például meggátolhatod számukra privát üzenetek küldését, vagy moderátori jóváhagyáshoz kötheted a hozzászólásaikat. <strong>A 0 érték kikapcsolja ezt a funkciót.</strong>',
 	'NEW_MEMBER_GROUP_DEFAULT'		=> 'Újonnan regisztrált felhasználók csoport elsődlegessé tétele',
