@@ -266,7 +266,7 @@ $lang = array_merge($lang, array(
 	'MOVE_DELETED_MESSAGES_TO'		=> 'Töröltmappabeli üzenetek áthelyezése',
 	'MOVE_DOWN'						=> 'Lejjebb', //? "Move down"
 	'MOVE_MARKED_TO_FOLDER'			=> 'Kijelöltek áthelyezése: %s', //?
-	'MOVE_PM_ERROR'					=> 'Hiba lépett fel az üzenetek áthelyezése közben, csak a %1d és a %2d közötti üzeneteket sikerült áthelyezni.',
+	'MOVE_PM_ERROR'					=> 'Hiba lépett fel az üzenetek áthelyezése közben, csak a %1$d és a %2$d közötti üzeneteket sikerült áthelyezni.',
 	'MOVE_TO_FOLDER'				=> 'Áthelyezés', //? "Move to folder"
 	'MOVE_UP'						=> 'Feljebb',
 

@@ -14,7 +14,6 @@ A fórum megtekintéséhez kattintson a következő linkre:
 {U_FORUM}
 
 Amennyiben a továbbiakban nem kívánja figyelni a témát, kattintson a "Leiratkozás a témáról" linkre, melyet a fenti oldalon talál, vagy egyszerűen kattintson a következő linkre:
-
 {U_STOP_WATCHING_TOPIC}
 
 {EMAIL_SIG}

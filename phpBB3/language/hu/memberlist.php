@@ -110,12 +110,12 @@ $lang = array_merge($lang, array(
 	'OTHER'					=> 'Más',
 
 	'POST_IP'				=> 'IP/domain, melyről írt', //??
-	
+
 	'REAL_NAME'				=> 'Címzett neve',
 	'RECIPIENT'				=> 'Címzett',
 	'REMOVE_FOE'			=> 'Törlés az ellenségek közül',
 	'REMOVE_FRIEND'			=> 'Törlés a barátok közül',
-	
+
 	'SELECT_MARKED'			=> 'Kijelöltek kiválasztása',
 	'SELECT_SORT_METHOD'	=> 'Rendezés',
 	'SEND_AIM_MESSAGE'		=> 'AIM üzenet küldése',
@@ -139,6 +139,7 @@ $lang = array_merge($lang, array(
 	),
 	'USER_ONLINE'			=> 'Online',
 	'USER_PRESENCE'			=> 'Jelenlét a fórumban',
+	'USERS_PER_PAGE'		=> 'Oldalankénti felhasználók száma',
 
 	'VIEWING_PROFILE'		=> 'Profil megtekintése: %s',
 	'VISITED'				=> 'Utolsó látogatás',

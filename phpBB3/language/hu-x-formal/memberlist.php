@@ -139,6 +139,7 @@ $lang = array_merge($lang, array(
 	),
 	'USER_ONLINE'			=> 'Online',
 	'USER_PRESENCE'			=> 'Jelenlét a fórumban',
+	'USERS_PER_PAGE'		=> 'Oldalankénti felhasználók száma',
 
 	'VIEWING_PROFILE'		=> 'Profil megtekintése: %s',
 	'VISITED'				=> 'Utolsó látogatás',

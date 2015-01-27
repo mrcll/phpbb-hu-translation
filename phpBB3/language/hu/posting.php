@@ -1,12 +1,12 @@
 <?php
-/** 
+/**
 *
 * posting [Hungarian]
 *
 * @package language
 * @version $Id$
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * Original copyright: (c) 2005 phpBB Group
 *
 */
@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_A_HELP'				=> 'Beszúrt csatolmány: [attachment=]állománynév.kiterj[/attachment]', //? 'Hozzászólásba beszúrt csatolmány' "Inline uploaded attachment"
 	'BBCODE_B_HELP'				=> 'Félkövér: [b]szöveg[/b]',
 	'BBCODE_C_HELP'				=> 'Kód: [code]kód[/code]',
-	'BBCODE_D_HELP'				=> 'Flash: [flash=szélesség,magasság]http://url[/flash]',	
+	'BBCODE_D_HELP'				=> 'Flash: [flash=szélesség,magasság]http://url[/flash]',
 	'BBCODE_F_HELP'				=> 'Betűméret: [size=85]kicsi szöveg[/size]',
 	'BBCODE_IS_OFF'				=> '%sBBCode%s <em>kikapcsolva</em>',
 	'BBCODE_IS_ON'				=> '%sBBCode%s <em>bekapcsolva</em>',
@@ -179,6 +179,8 @@ $lang = array_merge($lang, array(
 
 	'QUOTE_DEPTH_EXCEEDED'		=> 'Legfeljebb %1$d idézetet ágyazhatsz egymásba.',
 
+	'REMOTE_UPLOAD_TIMEOUT'		=> 'A megadott fájl feltöltése időtúllépés miatt nem sikerült.',
+
 	'SAVE'						=> 'Elmentés',
 	'SAVE_DATE'					=> 'Elmentve', //? "Saved at" 'Elmentés időpontja'
 	'SAVE_DRAFT'				=> 'Piszkozat elmentése',
@@ -220,7 +222,7 @@ $lang = array_merge($lang, array(
 	'VIEW_MESSAGE'				=> '%sElküldött üzenet megtekintése%s',
 	'VIEW_PRIVATE_MESSAGE'		=> '%sElküldött privát üzenet megtekintése%s',
 
-	'WRONG_FILESIZE'			=> 'Az állomány túl nagy, a maximum megengedett méret %1d %2s.',
+	'WRONG_FILESIZE'			=> 'Az állomány túl nagy, a maximum megengedett méret %1$d %2$s.',
 	'WRONG_SIZE'				=> 'A képnek legalább %1$d pixel szélesnek és %2$d pixel magasnak kell lennie, valamint legfeljebb %3$d pixel széles és %4$d pixel magas lehet. A megadott kép %5$d pixel széles, és %6$d pixel magas.',
 ));
 

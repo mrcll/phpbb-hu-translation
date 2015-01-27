@@ -6,7 +6,7 @@
 * @package language
 * @version $Id$
 * @copyright (c) 2007 „Magyar phpBB Közösség fordítók”
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * Original copyright: (c) 2005 phpBB Group
 *
 */
@@ -44,7 +44,6 @@ $lang = array_merge($lang, array(
 	'BAN_SUCCESSFUL'		=> 'A kitiltás sikeresen megadásra került.', //?
 
 	'CANNOT_BAN_ANONYMOUS'			=> 'Nem tilthatod ki a vendég felhasználót. A vendég felhasználó jogosultságai a Jogosultságok fül alatt módosíthatók.',
-
 	'CANNOT_BAN_FOUNDER'			=> 'Alapítói azonosítót nem tudsz kitiltani.',
 	'CANNOT_BAN_YOURSELF'			=> 'Nem tudod kitiltani saját magadat.',
 	'CANNOT_DEACTIVATE_BOT'			=> 'Robot azonosítókat nem tudsz deaktiválni. Helyette deaktiváld a robotot a robotok oldalon.',
@@ -54,6 +53,7 @@ $lang = array_merge($lang, array(
 	'CANNOT_FORCE_REACT_FOUNDER'	=> 'Alapítói azonosítókat nem tudsz újraaktivációra kötelezni.',
 	'CANNOT_FORCE_REACT_YOURSELF'	=> 'A saját azonosítód nem tudod újraaktivációra kötelezni.',
 	'CANNOT_REMOVE_ANONYMOUS'		=> 'A vendég felhasználói azonosítót nem tudod eltávolítani.',
+	'CANNOT_REMOVE_FOUNDER'			=> 'Alapítói azonosítót nem tudsz eltávolítani.',
 	'CANNOT_REMOVE_YOURSELF'		=> 'A saját azonosítód nem tudod eltávolítani.',
 	'CANNOT_SET_FOUNDER_IGNORED'	=> 'Mellőzött felhasználókat nem tudsz alapítóvá előléptetni.',
 	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'Aktiválnod kell a felhasználókat, mielőtt előléptethetnéd őket alapítóvá, csak aktivált felhasználókat lehet előléptetni.',
