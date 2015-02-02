@@ -74,6 +74,7 @@ $lang = array_merge($lang, array(
 	'NO_RECENT_SEARCHES'	=> 'Nem történt keresés a közelmúltban.',
 	'NO_SEARCH'				=> 'Sajnos számodra nem engedélyezett a kereső használata.',
 	'NO_SEARCH_RESULTS'		=> 'Nincs a keresési feltételeknek megfelelő találat.', //? "No suitable matches were found."
+	'NO_SEARCH_LOAD'		=> 'Sajnos a kereső a szerver terheltsége miatt jelenleg nem használható. Kérjük, próbálkozz később.', //bb31
 	'NO_SEARCH_TIME'		=> array(
 		1	=> 'Most nem használhatod a keresőt. Kérjük, próbálkozz újra %d másodperc múlva.',
 		2	=> 'Most nem használhatod a keresőt. Kérjük, próbálkozz újra %d másodperc múlva.',

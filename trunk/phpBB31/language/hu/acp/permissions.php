@@ -57,7 +57,7 @@ $lang = array_merge($lang, array(
 
 		<br />
 
-		<p>További információért a phpBB3 jogosultságkezeléséről és beállításáról lásd az angol <a href="https://www.phpbb.com/support/documentation/3.0/quickstart/quick_permissions.html">gyorstalpaló 1.5-ös fejezetét</a>.</p>
+		<p>További információért a phpBB3 jogosultságkezeléséről és beállításáról lásd az angol <a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/permissions/">gyorstalpaló Setting permissions fejezetét</a>.</p>
 	', //? további "honosítás"/lokalizáció...
 
 	'ACL_NEVER'				=> 'Soha',
