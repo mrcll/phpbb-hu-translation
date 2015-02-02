@@ -564,6 +564,7 @@ $lang = array_merge($lang, array(
 	'LOG_LOCK_POST'				=> '<strong>Hozzászólás lezárása</strong><br />» %s',
 	'LOG_MERGE'					=> '<strong>Hozzászólások áthelyezése</strong> másik témába:<br />» %s',
 	'LOG_MOVE'					=> '<strong>Téma áthelyezése</strong><br />» %1$s fórumból %2$s fórumba',
+	'LOG_MOVED_TOPIC'			=> '<strong>Téma áthelyezése</strong><br />» %s', //bb31
 	'LOG_PM_REPORT_CLOSED'		=> '<strong>PÜ jelentés lezárása</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'		=> '<strong>PÜ jelentés törlése</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>Hozzászólás jóváhagyása</strong><br />» %s',

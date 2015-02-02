@@ -87,7 +87,7 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_SPHINX_WRONG_DATABASE'		=> 'A Sphinx kereső csak MySQL és PostgreSQL adatbázisokkal használható.', //bb31
 	'FULLTEXT_SPHINX_CONFIG_FILE'			=> 'Sphinx konfigurációs állomány', //bb31
 	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'A sphinx konfigurációs állomány tartalma. Ezeket az adatokat be kell másolni a sphinx által használt sphinx.conf állományba. Cseréld le a [dbuser] és [dbpassword] helykitöltőket az adatbázis kapcsolódási adataiddal.', //bb31
-	'FULLTEXT_SPHINX_NO_CONFIG_DATA'		=> 'A sphinx adat és beállítás könyvtárainak elérési útjai nem lettek megadva. Kérjük, add meg őket a konfigurációs állomány generálásához.', //bb31
+	'FULLTEXT_SPHINX_NO_CONFIG_DATA'		=> 'A sphinx adat könyvtárának elérési útja nem lett megadva. Kérjük, add meg és mentsd el a beállításokat a konfigurációs állomány generálásához.', //bb31
 
 	'GENERAL_SEARCH_SETTINGS'				=> 'Általános kereső beállítások',
 	'GO_TO_SEARCH_INDEX'					=> 'Tovább a keresőindex oldalra',
