@@ -130,8 +130,8 @@ $lang = array_merge($lang, array(
 	'BOARD_UNAVAILABLE'		=> 'A fórum ideiglenesen nem elérhető, kérünk, próbálkozz újra pár perc múlva.',
 	'BROWSING_FORUM'		=> 'Jelenlévő fórumuzók: %1$s',
 	'BROWSING_FORUM_GUESTS'	=> array(
-		1	=> 'Jelenlévő fórumozók: %1$s valamint %2$d vendég',
-		2	=> 'Jelenlévő fórumozók: %1$s valamint %2$d vendég',
+		1	=> 'Jelenlévő fórumozók: %2$s valamint %1$d vendég',
+		2	=> 'Jelenlévő fórumozók: %2$s valamint %1$d vendég',
 	),
 	'BUTTON_EDIT'			=> 'Szerkesztés', //bb31
 	'BUTTON_FORUM_LOCKED'	=> 'Lezárt', //bb31
