@@ -50,6 +50,6 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_PRIVATE'				=> 'Privát reCaptcha kulcs',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'A privát reCaptcha kulcsod. Kulcs a <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> oldalon kérhető.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'A robotok általi automatikus űrlapküldések megakadályozása érdekében be kell írnod a képen látható mindkét szót az alatta lévő szövegmezőbe.',
+	'RECAPTCHA_EXPLAIN'				=> 'A robotok általi automatikus űrlapküldések megakadályozása érdekében be kell írnod a képen látható szöveget az alatta lévő mezőbe.', //bb31
 	'RECAPTCHA_SOCKET_ERROR'		=> 'Hiba történt a RECAPTCHA szolgáltatáshoz való kapcsolódás közben: nem sikerült megnyitni a socketet. Próbáld meg később.', //bb31
 ));
