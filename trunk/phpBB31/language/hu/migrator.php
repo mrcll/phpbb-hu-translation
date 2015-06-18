@@ -55,6 +55,14 @@ $lang = array_merge($lang, array(
 	'MIGRATION_SCHEMA_DONE'				=> 'Telepített séma: %1$s; Idő: %2$.2f másodperc', //bb31
 	'MIGRATION_SCHEMA_RUNNING'			=> 'Séma telepítése: %s.', //bb31
 
+	// Az angol fordítások szándékosan maradtak benne, hogy megkönnyítsék a hibakeresést
+	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'A migráció érvénytelen. Egy IF kifejezésnek hiányzik a feltétele. [An if statement helper is missing a condition.]', //bb31 ?
+	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'A migráció érvénytelen. Egy IF kifejezésnek hiányzik egy érvényes migrációs lépés hívása. [An if statement helper is missing a valid call to a migration step.]', //bb31 ?
+	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'	=> 'A migráció érvénytelen. Egy egyéni meghívható függvény nem hívható meg. [A custom callable function could not be called.]', //bb31 ?
+	'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'			=> 'A migráció érvénytelen. Ismeretlen migrációs típus. [An unknown migration tool type was encountered.]', //bb31 ?
+	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'			=> 'A migráció érvénytelen. Nem meghatározott migráció. [An undefined migration tool was encountered.]', //bb31 ?
+	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'A migráció érvénytelen. Nem meghatározott metódus. [An undefined migration tool method was encountered.]', //bb31 ?
+
 	'MODULE_ERROR'						=> 'Hiba történt a modul létrehozása közben: %s', //bb31 ?
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Szükséges modul információs állomány nem létezik: %2$s', //bb31
 	'MODULE_NOT_EXIST'					=> 'Szükséges modul nem létezik: %s', //bb31

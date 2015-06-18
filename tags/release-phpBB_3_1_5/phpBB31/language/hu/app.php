@@ -38,18 +38,14 @@ if (empty($lang) || !is_array($lang))
 // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+//
+// Some characters you may want to copy&paste:
+// ’ » “ ” …
+//
 
 $lang = array_merge($lang, array(
-	'RECAPTCHA_LANG'				=> 'hu',
-	'RECAPTCHA_NOT_AVAILABLE'		=> 'A reCaptcha használatához, létre kell hoznod egy azonosítót a <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> oldalon.',
-	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
-	'RECAPTCHA_INCORRECT'			=> 'A megadott vizuális megerősítő kód hibás.',
-
-	'RECAPTCHA_PUBLIC'				=> 'Publikus reCaptcha kulcs',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'A publikus reCaptcha kulcsod. Kulcs a <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> oldalon kérhető.',
-	'RECAPTCHA_PRIVATE'				=> 'Privát reCaptcha kulcs',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'A privát reCaptcha kulcsod. Kulcs a <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> oldalon kérhető.',
-
-	'RECAPTCHA_EXPLAIN'				=> 'A robotok általi automatikus űrlapküldések megakadályozása érdekében be kell írnod a képen látható szöveget az alatta lévő mezőbe.', //bb31
-	'RECAPTCHA_SOCKET_ERROR'		=> 'Hiba történt a RECAPTCHA szolgáltatáshoz való kapcsolódás közben: nem sikerült megnyitni a socketet. Próbáld meg később.', //bb31
+	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> 'Hiányzik a #%1$s változó értéke: <strong>%3$s</strong> a <strong>%2$s</strong> osztályban', //bb31 ?
+	'CONTROLLER_NOT_SPECIFIED'			=> 'Nincs controller megadva.', //bb31
+	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'A controller metódusa nincs megadva.', //bb31
+	'CONTROLLER_SERVICE_UNDEFINED'		=> 'A "<strong>%s</strong>" controller service bejegyzése hiányzik a ./config/services.yml állományból.', //bb31
 ));
