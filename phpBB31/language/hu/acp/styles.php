@@ -87,4 +87,5 @@ $lang = array_merge($lang, array(
 
 	'UNINSTALL_DEFAULT'		=> 'Nem távolíthatod el az alapértelmezett megjelenést.', //bb31
 
+	'BROWSE_STYLES_DATABASE'	=> 'A phpBB.com megjelenés adatbázisának böngészése', //bb31
 ));

@@ -74,6 +74,12 @@ $lang = array_merge($lang, array(
 	'EXTENSION_NAME'			=> 'Kiterjesztés neve', //bb31
 	'EXTENSION_ACTIONS'			=> 'Műveletek', //bb31
 	'EXTENSION_OPTIONS'			=> 'Beállítások', //bb31
+	'EXTENSION_INSTALL_HEADLINE'=> 'Kiterjesztés telepítése', //bb31
+	'EXTENSION_INSTALL_EXPLAIN'	=> '<ol>
+			<li>Tölts le egy kiterjesztést a phpBB.com kiterjesztés adatbázisából</li>
+			<li>Csomagold ki a letöltött fájlt és másold fel a fórumod <samp>ext/</samp> könyvtárába</li>
+			<li>Engedélyezd a kiterjesztést</li>
+		</ol>', //bb31
 	'EXTENSION_UPDATE_HEADLINE'	=> 'Kiterjesztés frissítése', //bb31
 	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
 			<li>Tiltsd le a kiterjesztést</li>
@@ -124,6 +130,8 @@ $lang = array_merge($lang, array(
 	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Összes verzió újraellenőrzése', //bb31
 	'FORCE_UNSTABLE'					=> 'Mindig ellenőrizze a nem stabil verziókat is', //bb31
 	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Verzió ellenőrzés beállításai', //bb31
+
+	'BROWSE_EXTENSIONS_DATABASE'		=> 'A phpBB.com kiterjesztés adatbázisának böngészése', //bb31
 
 	'META_FIELD_NOT_SET'	=> 'A szükséges %s információ nem lett megadva.', //bb31 ? meta field
 	'META_FIELD_INVALID'	=> '%s információ érvénytelen.', //bb31

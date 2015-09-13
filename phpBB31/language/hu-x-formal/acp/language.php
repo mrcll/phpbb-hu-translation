@@ -76,4 +76,6 @@ $lang = array_merge($lang, array(
 	'THOSE_MISSING_LANG_VARIABLES'		=> 'A következő nyelvi változók hiányoznak a “%s” nyelvi csomagból:',
 
 	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Telepítetlen nyelvi csomagok.',
+
+	'BROWSE_LANGUAGE_PACKS_DATABASE'	=> 'A phpBB.com nyelvi csomag adatbázisának böngészése', //bb31
 ));
