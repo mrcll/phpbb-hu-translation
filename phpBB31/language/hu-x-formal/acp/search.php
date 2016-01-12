@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2015 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2016 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -113,10 +113,10 @@ $lang = array_merge($lang, array(
 	'SEARCH_GUEST_INTERVAL'					=> 'Vendég keresési flood időköz',
 	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'A vendégeknek két keresés között ennyi másodpercet kell várniuk. Ha egy felhasználó végez egy keresést, az összes többinek várnia kell az időköz leteltéig.',
 	'SEARCH_INDEX_CREATE_REDIRECT'			=> array(
-		2	=> 'A %1$d azonosítóig terjedő hozzászólások lettek eddig indexelve, ebből %2$d ebben a lépésben.<br />Az indexelés jelenlegi sebessége körülbelül %3$.1f hozzászólás per másodperc.<br />Indexelés folyamatban…',
+		2	=> 'A %2$d azonosítóig terjedő hozzászólások lettek eddig indexelve, ebből %1$d ebben a lépésben.<br />',
 	),
 	'SEARCH_INDEX_CREATE_REDIRECT_RATE'		=> array(
-		2	=> 'Az indexelés aktuális sebessége körülbelül %1$.1f hozzászólás per másodperc.<br />Indexelés folyamatban…', //bb31
+		2	=> 'Az indexelés aktuális sebessége körülbelül %1$.1f hozzászólás másodpercenként.<br />Indexelés folyamatban…', //bb31
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
 		2	=> 'A %2$d azonosítóig terjedő hozzászólások el lettek távolítva a keresőindexből.<br />Törlés folyamatban…', //bb31
