@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2015 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2016 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -341,7 +341,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE_QUOTE'							=> 'Valaki idéz egy hozzászólásban', //bb31 ?
 	'NOTIFICATION_TYPE_REPORT'							=> 'Valaki jelent egy hozzászólást', //bb31 ?
 	'NOTIFICATION_TYPE_TOPIC'							=> 'Valaki létrehoz egy témát egy fórumban, amire feliratkoztál', //bb31 ?
-	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Újonnan regisztrált felhasználó aktiválásra vár', //bb31 ?
+	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Felhasználó aktiválásra vár', //bb31 ?
 
 	'NOTIFY_METHOD'					=> 'Értesítés módja',
 	'NOTIFY_METHOD_BOTH'			=> 'Mindkettő',

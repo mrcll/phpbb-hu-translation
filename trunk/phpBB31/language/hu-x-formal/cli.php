@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2015 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2016 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -39,13 +39,13 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'CLI_CONFIG_CANNOT_CACHED'			=> 'Állítsa be ezt az opciót, ha a konfigurációs beállítás olyan gyakorisággal változik, hogy nem lehet hatékonyan gyorsítótárazni.', //bb31
-	'CLI_CONFIG_CURRENT'				=> 'Aktuális konfigurációs érték, használja a 0-t és 1-et logikai értékek megadásához.', //bb31
+	'CLI_CONFIG_CANNOT_CACHED'			=> 'Állítsd be ezt az opciót, ha a konfigurációs beállítás olyan gyakorisággal változik, hogy nem lehet hatékonyan gyorsítótárazni.', //bb31
+	'CLI_CONFIG_CURRENT'				=> 'Aktuális konfigurációs érték, használd a 0-t és 1-et logikai értékek megadásához.', //bb31
 	'CLI_CONFIG_DELETE_SUCCESS'			=> '%s beállítás sikeresen törölve.', //bb31
-	'CLI_CONFIG_NEW'					=> 'Új beállítási érték, használja a 0-t és 1-et logikai értékek megadásához.', //bb31
+	'CLI_CONFIG_NEW'					=> 'Új beállítási érték, használd a 0-t és 1-et logikai értékek megadásához.', //bb31
 	'CLI_CONFIG_NOT_EXISTS'				=> '%s beállítás nem létezik', //bb31
 	'CLI_CONFIG_OPTION_NAME'			=> 'A beállítás neve', //bb31
-	'CLI_CONFIG_PRINT_WITHOUT_NEWLINE'	=> 'Állítsa be ezt, hogy az érték sortörés nélkül kerüljün kiírásra.', //bb31
+	'CLI_CONFIG_PRINT_WITHOUT_NEWLINE'	=> 'Állítsd be ezt, hogy az érték sortörés nélkül kerüljün kiírásra.', //bb31
 	'CLI_CONFIG_INCREMENT_BY'			=> 'Növelendő beállítási érték', //bb31
 	'CLI_CONFIG_INCREMENT_SUCCESS'		=> '%s beállítási érték sikeresen megnövelve', //bb31
 	'CLI_CONFIG_SET_FAILURE'			=> '%s értéket nem lehet beállítani', //bb31
@@ -60,7 +60,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Engedélyez egy meghatározott kiterjesztést.', //bb31
 	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'Megkeresi azokat a migration-öket, amik nem függenek tőle.', //bb31 ?
 	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Konfigurációs beállítás értékét kéri le', //bb31
-	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Megnöveli egy konfigurációs beállítás értékét', //bb31
+	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Megnöveli egy egész számot tartalmazó konfigurációs beállítás értékét', //bb31
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Kilistázza az adatbázisban és a fájlrendszerben lévő összes kiterjesztést.', //bb31
 	'CLI_DESCRIPTION_OPTION_SAFE_MODE'			=> 'Futtatás csökkentett módban (kiterjesztések nélkül).', //bb31
 	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Shell indítása.', //bb31
@@ -82,4 +82,9 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_ENABLED'			=> 'Engedélyezett', //bb31
 
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Az összes e-mail hash sikeresen újraszámításra került.', //bb31
+));
+
+// Additional help for commands.
+$lang = array_merge($lang, array(
+	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Csak az adott cron task futtatásához opcionálisan megadhatsz egy cron task nevet.', // ?
 ));
