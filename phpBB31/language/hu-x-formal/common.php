@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2015 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2016 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -330,6 +330,7 @@ $lang = array_merge($lang, array(
 	'IMAGE_FILETYPE_INVALID'	=> 'A %d kiterjesztésű %s MIME típusú kép nem támogatott.',
 	'IMAGE_FILETYPE_MISMATCH'	=> 'Nem stimmel a kép kiterjesztése: %1$s helyett %2$s.',
 	'IN'						=> 'Fórum:',
+	'INACTIVE'					=> 'Inaktív',
 	'INDEX'						=> 'Fórum kezdőlap megtekintése',
 	'INFORMATION'				=> 'Információ',
 	'INSECURE_REDIRECT'			=> 'Átirányítási kísérlet egy potenciálisan nem biztonságos URL-re.', //bb31 ?
@@ -468,7 +469,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_DISAPPROVED'	=> '<strong>Téma elutasítása</strong>:', //bb31
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '<strong>Téma elfogadási kérelem</strong> %1$s-tól:', //bb31
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'A "%s" értesítési típus hiányzik a fájlrendszerből.', //bb31
-	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '“%1$s” újonnan regisztrált tag <strong>aktiválása szükséges</strong>', //bb31 ?
+	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '“%1$s” újonnan regisztrált vagy deaktivált tag <strong>aktiválása szükséges</strong>', //bb31 ?
 	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'egyéb', //bb31
 	'NOTIFICATION_X_OTHERS'				=> array(
