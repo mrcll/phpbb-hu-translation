@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2015 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2016 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -47,5 +47,5 @@ $lang = array_merge($lang, array(
 	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> 'Hiányzik a #%1$s változó értéke: <strong>%3$s</strong> a <strong>%2$s</strong> osztályban', //bb31 ?
 	'CONTROLLER_NOT_SPECIFIED'			=> 'Nincs controller megadva.', //bb31
 	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'A controller metódusa nincs megadva.', //bb31
-	'CONTROLLER_SERVICE_UNDEFINED'		=> 'A "<strong>%s</strong>" controller service bejegyzése hiányzik a ./config/services.yml állományból.', //bb31
+	'CONTROLLER_SERVICE_UNDEFINED'		=> 'A “<strong>%s</strong>” controller service bejegyzése hiányzik a ./config/services.yml állományból.', //bb31
 ));
