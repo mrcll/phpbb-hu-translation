@@ -1,0 +1,13 @@
+Subject: Hozzászólás moderációs értesítés - "{TOPIC_TITLE}"
+
+Kedves {USERNAME}!
+
+Ezt az e-mailt azért kapja, mert a "{SITENAME}" oldalon a "{POST_SUBJECT}" hozzászólás jóváhagyásra vár.
+
+Amennyiben meg szeretné tekinteni a hozzászólást, kattintson a következő linkre:
+{U_VIEW_POST}
+
+Amennyiben meg szeretné tekinteni a témát, kattintson a következő linkre:
+{U_VIEW_TOPIC}
+
+{EMAIL_SIG}
