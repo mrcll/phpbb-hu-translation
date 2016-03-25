@@ -1,0 +1,14 @@
+{
+  "name": "phpbb-hu/phpbb-hu-translation",
+  "description": "phpBB magyar fordítása",
+  "type": "phpbb-language",
+  "homepage": "http://phpbb.hu",
+  "keywords": ["magyar", "hungarian", "language", "locale", "localisation", "localization", "translate", "translation"],
+  "license": "GPL-2.0",
+  "require": {
+    "php": ">=5.3"
+  },
+  "require-dev": {
+    "phpbb/translation-validator": "1.3.*"
+  }
+}
