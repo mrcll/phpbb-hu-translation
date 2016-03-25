@@ -3,7 +3,7 @@ A következő e-mailt a "{SITENAME}" fórum egyik adminisztrátora küldte önne
 
 {CONTACT_EMAIL}
 
-Idézze ezt az e-mailt (különösen ügyelve a fejlécre). 
+Idézze ezt az e-mailt (különösen ügyelve a fejlécre).
 
 Az önnek szóló e-mail a következő:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

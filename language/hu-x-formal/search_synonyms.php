@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2015 „Magyar phpBB Közösség fordítók”,
+* Magyar fordï¿½tï¿½s (c) 2007-2015 ï¿½Magyar phpBB Kï¿½zï¿½ssï¿½g fordï¿½tï¿½kï¿½,
 * http://phpbb.hu
 *
 * $Id$
