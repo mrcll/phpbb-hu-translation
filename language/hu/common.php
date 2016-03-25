@@ -222,7 +222,7 @@ $lang = array_merge($lang, array(
 	'EXPAND_VIEW'						=> 'Kinyitás',
 	'EXTENSION'							=> 'Kiterjesztés',
 	'EXTENSION_DISABLED'				=> 'A <strong>%s</strong> kiterjesztés nincs engedélyezve.',
-	'EXTENSION_DISABLED_AFTER_POSTING'	=> 'A <b>%s</b> kiterjesztés deaktiválva lett, ezért a csatolmány nem kerül megjelenítésre.',
+	'EXTENSION_DISABLED_AFTER_POSTING'	=> 'A <strong>%s</strong> kiterjesztés deaktiválva lett, ezért a csatolmány nem kerül megjelenítésre.',
 	'EXTENSION_DOES_NOT_EXIST'			=> 'A <strong>%s</strong> kiterjesztés nem létezik.',
 
 	'FACEBOOK'				=> 'Facebook',
@@ -339,7 +339,7 @@ $lang = array_merge($lang, array(
 	'INVALID_EMAIL_LOG'			=> 'A <strong>%s</strong> feltehetőleg egy nem létező e-mail cím.',
 	'INVALID_PLURAL_RULE'		=> 'A megadott többes szám azonosító érvénytelen. Csak egész szám lehet 0 és 15 között.',
 	'IP'						=> 'IP-cím',
-	'IP_BLACKLISTED'			=> 'Az IP-címed tiltólistára került, ezért a hozzáférésed a fórumhoz blokkoltuk. További információ: <a href="%2$s">%2$s</a>.',
+	'IP_BLACKLISTED'			=> 'Az IP-címed (%1$s) tiltólistára került, ezért a hozzáférésed a fórumhoz blokkoltuk. További információ: <a href="%2$s">%2$s</a>.',
 
 	'JABBER'				=> 'Jabber',
 	'JOINED'				=> 'Csatlakozott',

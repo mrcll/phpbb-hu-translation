@@ -44,7 +44,7 @@ $lang = array_merge($lang, array(
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|Y.m.d.|',
 	'DATETIME_FORMAT'	=> '|Y.m.d., H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled) //bb31
-	'USER_LANG'			=> 'hu',
+	'USER_LANG'			=> 'hu-x-formal',
 
 	// You can define different rules for the determination of plural forms here.
 	// See http://wiki.phpbb.com/Plural_Rules for more information
@@ -107,7 +107,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_NO_SIZE'				=> 'Nem sikerült meghatározni a belinkelt avatar szélességét és magasságát, kérjük, adja meg kézzel.',
 	'AVATAR_PARTIAL_UPLOAD'			=> 'Az avatart csak részben sikerült feltölteni.',
 	'AVATAR_PHP_SIZE_NA'			=> 'Az avatar állomány mérete túl nagy.<br />Nem sikerült megállapítani a PHP php.ini-jében meghatározott maximális méretet.',
-	'AVATAR_PHP_SIZE_OVERRUN'		=> 'Az avatar állomány mérete túl nagy, a maximum feltölthető méret %d MB.<br />Kérjük, vegye figyelembe, hogy ez a php.ini-ben van meghatározva, ezért nem írható felül.',
+	'AVATAR_PHP_SIZE_OVERRUN'		=> 'Az avatar állomány mérete túl nagy, a maximum feltölthető méret %1$d %2$s.<br />Kérjük, vegye figyelembe, hogy ez a php.ini-ben van meghatározva, ezért nem írható felül.',
 	'AVATAR_REMOTE_UPLOAD_TIMEOUT'		=> 'Az avatar állomány feltöltése időtúllépés miatt megszakadt.',
 	'AVATAR_URL_INVALID'			=> 'A megadott URL hibás.',
 	'AVATAR_URL_NOT_FOUND'			=> 'A megadott állomány nem található.',
@@ -222,7 +222,7 @@ $lang = array_merge($lang, array(
 	'EXPAND_VIEW'						=> 'Kinyitás',
 	'EXTENSION'							=> 'Kiterjesztés',
 	'EXTENSION_DISABLED'				=> 'A <strong>%s</strong> kiterjesztés nincs engedélyezve.',
-	'EXTENSION_DISABLED_AFTER_POSTING'	=> 'A <b>%s</b> kiterjesztés deaktiválva lett, ezért a csatolmány nem kerül megjelenítésre.',
+	'EXTENSION_DISABLED_AFTER_POSTING'	=> 'A <strong>%s</strong> kiterjesztés deaktiválva lett, ezért a csatolmány nem kerül megjelenítésre.',
 	'EXTENSION_DOES_NOT_EXIST'			=> 'A <strong>%s</strong> kiterjesztés nem létezik.',
 
 	'FACEBOOK'				=> 'Facebook',
@@ -339,7 +339,7 @@ $lang = array_merge($lang, array(
 	'INVALID_EMAIL_LOG'			=> 'A <strong>%s</strong> feltehetőleg egy nem létező e-mail cím.',
 	'INVALID_PLURAL_RULE'		=> 'A megadott többes szám azonosító érvénytelen. Csak egész szám lehet 0 és 15 között.',
 	'IP'						=> 'IP-cím',
-	'IP_BLACKLISTED'			=> 'Az IP-címe tiltólistára került, ezért a hozzáférését a fórumhoz blokkoltuk. További információ: <a href="%2$s">%2$s</a>.',
+	'IP_BLACKLISTED'			=> 'Az IP-címe (%1$s) tiltólistára került, ezért a hozzáférését a fórumhoz blokkoltuk. További információ: <a href="%2$s">%2$s</a>.',
 
 	'JABBER'				=> 'Jabber',
 	'JOINED'				=> 'Csatlakozott',

@@ -8,11 +8,16 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar ford�t�s (c) 2007-2015 �Magyar phpBB K�z�ss�g ford�t�k�,
+* Magyar fordítás (c) 2007-2015 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
 */
+
+if (!defined('IN_PHPBB'))
+{
+    exit;
+}
 
 $synonyms = array(
 );

@@ -1,4 +1,4 @@
-Subject: Új privát üzenete érkezett - "{FORUM_NAME}"
+Subject: Új privát üzenete érkezett
 
 Kedves {USERNAME}!
 
