@@ -41,7 +41,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_GROUPS_MANAGE_EXPLAIN'		=> 'Az oldal e részén a csoportokat tudod adminisztrálni. Létrehozhatsz újakat, valamint törölheted és szerkesztheted a már meglévőket. Ezen túl csoportvezetőket jelölhetsz ki, megadhatod, a csoportok státusza nyitott/rejtett/zárt legyen, vagy módosíthatod a csoportok nevét és leírását.',
-	'ADD_GROUP_CATEGORY'			=> 'Kategória hozzáadása', //bb31
+	'ADD_GROUP_CATEGORY'			=> 'Kategória hozzáadása',
 	'ADD_USERS'						=> 'Felhasználók felvétele',
 	'ADD_USERS_EXPLAIN'				=> 'Itt fel tudsz venni új felhasználókat a csoportba. Megadhatod azt is, hogy a felhasználóknak ez legyen az új elsődleges csoportjuk. Továbbá csoportvezetőkké is teheted őket. Kérjük, minden felhasználónevet külön sorba írj.',
 
@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 	'GROUP_APPROVED'				=> 'Jóváhagyott tagok',
 	'GROUP_AVATAR'					=> 'Csoport avatar',
 	'GROUP_AVATAR_EXPLAIN'			=> 'Ez a kép kerül megjelenítésre a csoport vezérlőpultban.',
-	'GROUP_CATEGORY_NAME'			=> 'Kategória neve', //bb31
+	'GROUP_CATEGORY_NAME'			=> 'Kategória neve',
 	'GROUP_CLOSED'					=> 'Zárt',
 	'GROUP_COLOR'					=> 'Csoportszín',
 	'GROUP_COLOR_EXPLAIN'			=> 'Ebben a színben fog megjelenni a tagok felhasználóneve, az alapértelmezett felhasználói érték használatához hagyd üresen.',
@@ -105,8 +105,8 @@ $lang = array_merge($lang, array(
 	'GROUP_SETTINGS_SAVE'			=> 'Csoportra kiterjedő beállítások',
 	'GROUP_SKIP_AUTH'				=> 'Csoportvezető felmentése a csoport jogosultságok alól', //? felmentés
 	'GROUP_SKIP_AUTH_EXPLAIN'		=> 'Ha be van kapcsolva, a csoportvezetőre nem vonatkoznak a csoportra beállított jogosultságok.',
-	'GROUP_SPECIAL'					=> 'Előre meghatározott', //bb31
-	'GROUP_TEAMPAGE'				=> 'Csoport megjelenítése a csapat oldalon', //bb31
+	'GROUP_SPECIAL'					=> 'Előre meghatározott',
+	'GROUP_TEAMPAGE'				=> 'Csoport megjelenítése a csapat oldalon',
 	'GROUP_TYPE'					=> 'Csoport típusa',
 	'GROUP_TYPE_EXPLAIN'			=> 'Ez határozza meg melyik felhasználók láthatják a csoportot vagy csatlakozhatnak hozzá.',
 	'GROUP_UPDATED'					=> 'A csoport beállítások sikeresen frissítésre kerültek.',
@@ -115,37 +115,37 @@ $lang = array_merge($lang, array(
 	'GROUP_USERS_EXIST'				=> 'A kiválasztott felhasználók már tagok.',
 	'GROUP_USERS_REMOVE'			=> 'A felhasználók eltávolításra kerültek a csoportból, valamint az alapértelmezett dolgok is sikeresen beállításra kerültek.',
 
-	'LEGEND_EXPLAIN'				=> 'Ezek a csoportok kerülnek megjelenítésre a ki van itt részben:', //bb31 ?
-	'LEGEND_SETTINGS'				=> 'Ki van itt beállítások', //bb31 ? Legend settings
-	'LEGEND_SORT_GROUPNAME'			=> 'Csoportok rendezése név szerint', //bb31
-	'LEGEND_SORT_GROUPNAME_EXPLAIN'	=> 'Ha engedélyezve van, a lenti sorrend nem lesz figyelembe véve.', //bb31
+	'LEGEND_EXPLAIN'				=> 'Ezek a csoportok kerülnek megjelenítésre a ki van itt részben:', //?
+	'LEGEND_SETTINGS'				=> 'Ki van itt beállítások', //? Legend settings
+	'LEGEND_SORT_GROUPNAME'			=> 'Csoportok rendezése név szerint',
+	'LEGEND_SORT_GROUPNAME_EXPLAIN'	=> 'Ha engedélyezve van, a lenti sorrend nem lesz figyelembe véve.',
 
-	'MANAGE_LEGEND'			=> 'Csoport ki van itt beállításainak kezelése', //bb31 ? Manage group legend
-	'MANAGE_TEAMPAGE'		=> 'Csapat oldal kezelése', //bb31 ? Manage teampage
+	'MANAGE_LEGEND'			=> 'Csoport ki van itt beállításainak kezelése', //? Manage group legend
+	'MANAGE_TEAMPAGE'		=> 'Csapat oldal kezelése', //? Manage teampage
 
 	'MAKE_DEFAULT_FOR_ALL'	=> 'Elsődleges csoporttá tétel minden tagnak',
 	'MEMBERS'				=> 'Tagok',
 
 	'NO_GROUP'					=> 'Nem adtál meg csoportot.',
-	'NO_GROUPS_ADDED'			=> 'Még nem adtál hozzá csoportot.', //bb31
+	'NO_GROUPS_ADDED'			=> 'Még nem adtál hozzá csoportot.',
 	'NO_GROUPS_CREATED'			=> 'Még nem lett létrehozva csoport.',
 	'NO_PERMISSIONS'			=> 'Ne másolja a jogosultságokat',
 	'NO_USERS'					=> 'Nem adtál meg egy felhasználót se.',
 	'NO_USERS_ADDED'			=> 'Nem került felhasználó hozzáadásra a csoporthoz.',
 	'NO_VALID_USERS'			=> 'Nem adtál meg felhasználót, akin elvégezhető lenne ez a művelet.',
 
-	'SELECT_GROUP'				=> 'Válassz csoportot', //bb31
+	'SELECT_GROUP'				=> 'Válassz csoportot',
 	'SPECIAL_GROUPS'			=> 'Előre meghatározott csoportok', //?!
 	'SPECIAL_GROUPS_EXPLAIN'	=> 'Az előre meghatározott csoportok speciális csoportok, melyeket nem lehet törölni vagy közvetlenül módosítani. Mindazonáltal felhasználókat fel tudsz venni beléjük és néhány alap beállítást is megváltoztathatsz.',
 
-	'TEAMPAGE'					=> 'Csapat oldal', //bb31
-	'TEAMPAGE_DISP_ALL'			=> 'Minden csoporttagság', //bb31
-	'TEAMPAGE_DISP_DEFAULT'		=> 'Felhasználó alapértelmezett csoportja', //bb31
-	'TEAMPAGE_DISP_FIRST'		=> 'Első csoporttagság', //bb31
-	'TEAMPAGE_EXPLAIN'			=> 'Ezek a csoportok kerülnek megjelenítésre a csapat oldalon:', //bb31 ?
-	'TEAMPAGE_FORUMS'			=> 'Moderált fórumok megjelenítése', //bb31
-	'TEAMPAGE_FORUMS_EXPLAIN'	=> 'Ha igenre van állítva, a moderátorok nevénél fel lesznek sorolva azok a fórumok, ahol moderátori jogokkal rendelkeznek. Ez nagyobb fórumoknál teljesítmény igényes lehet.', //bb31
-	'TEAMPAGE_MEMBERSHIPS'		=> 'Felhasználók tagságának megjelenítése', //bb31 ? Display user memberships
+	'TEAMPAGE'					=> 'Csapat oldal',
+	'TEAMPAGE_DISP_ALL'			=> 'Minden csoporttagság',
+	'TEAMPAGE_DISP_DEFAULT'		=> 'Felhasználó alapértelmezett csoportja',
+	'TEAMPAGE_DISP_FIRST'		=> 'Első csoporttagság',
+	'TEAMPAGE_EXPLAIN'			=> 'Ezek a csoportok kerülnek megjelenítésre a csapat oldalon:', //?
+	'TEAMPAGE_FORUMS'			=> 'Moderált fórumok megjelenítése',
+	'TEAMPAGE_FORUMS_EXPLAIN'	=> 'Ha igenre van állítva, a moderátorok nevénél fel lesznek sorolva azok a fórumok, ahol moderátori jogokkal rendelkeznek. Ez nagyobb fórumoknál teljesítmény igényes lehet.',
+	'TEAMPAGE_MEMBERSHIPS'		=> 'Felhasználók tagságának megjelenítése', //? Display user memberships
 	'TEAMPAGE_SETTINGS'			=> 'Csapat oldal beállítások',	//bb31
 	'TOTAL_MEMBERS'				=> 'Tagok',
 

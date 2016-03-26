@@ -41,9 +41,9 @@ if (empty($lang) || !is_array($lang))
 
 // User pruning
 $lang = array_merge($lang, array(
-	'ACP_PRUNE_USERS_EXPLAIN'	=> 'Itt törölhetsz (vagy deaktiválhatsz) felhasználókat a fórumodról. Az azonosítók több különböző módon szűrhetők: hozzászólásszám, legutolsó aktivitás stb. alapján. Minden feltétel kombinálható, tehát például törölheteted csak azokat a felhasználókat, akik 2002-01-01 előtt voltak utoljára aktívak, és kevesebb mint 10 hozzászólásszal rendelkeznek. Adj meg * karaktert szöveges mezők joker karakterének. Feltételek helyett beírhatsz közvetlenül felhasználóneveket a szövegmezőbe, mindegyiket külön sorba. Vigyázz ezzel a funkcióval! Ha töröltél egy felhasználót, később nem lehet visszaállítani.', //bb31 ? Use * as a wildcard for text fields.
+	'ACP_PRUNE_USERS_EXPLAIN'	=> 'Itt törölhetsz (vagy deaktiválhatsz) felhasználókat a fórumodról. Az azonosítók több különböző módon szűrhetők: hozzászólásszám, legutolsó aktivitás stb. alapján. Minden feltétel kombinálható, tehát például törölheteted csak azokat a felhasználókat, akik 2002-01-01 előtt voltak utoljára aktívak, és kevesebb mint 10 hozzászólásszal rendelkeznek. Adj meg * karaktert szöveges mezők joker karakterének. Feltételek helyett beírhatsz közvetlenül felhasználóneveket a szövegmezőbe, mindegyiket külön sorba. Vigyázz ezzel a funkcióval! Ha töröltél egy felhasználót, később nem lehet visszaállítani.', //? Use * as a wildcard for text fields.
 
-	'CRITERIA'				=> 'Feltétel', //bb31
+	'CRITERIA'				=> 'Feltétel',
 
 	'DEACTIVATE_DELETE'			=> 'Deaktiválás vagy törlés',
 	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Válaszd ki, hogy deaktiválni vagy törölni szeretnéd teljesen a felhasználókat. Kérjük, vedd figyelmbe, hogy nincs mód a visszaállításra!',
@@ -51,16 +51,16 @@ $lang = array_merge($lang, array(
 	'DELETE_USER_POSTS'			=> 'Megtisztított felhasználók hozzászólásainak törlése', //?! félreérthető!
 	'DELETE_USER_POSTS_EXPLAIN' => 'A törölt felhasználók hozzászólásai törölve legyenek-e. Nincs hatása ha a felhasználók deaktiválásra kerülnek.',
 
-	'JOINED_EXPLAIN'			=> 'Adj meg egy dátumot <kbd>ÉÉÉÉ-HH-NN</kbd> formátumban. Add meg mindkét mezőt egy időszak megadásához, vagy hagyd üresen az egyiket nyitott intervallumhoz.', //bb31 ?
+	'JOINED_EXPLAIN'			=> 'Adj meg egy dátumot <kbd>ÉÉÉÉ-HH-NN</kbd> formátumban. Add meg mindkét mezőt egy időszak megadásához, vagy hagyd üresen az egyiket nyitott intervallumhoz.', //?
 
 	'LAST_ACTIVE_EXPLAIN'		=> 'Adj meg egy dátumot <kbd>ÉÉÉÉ-HH-NN</kbd> formátumban. Ha <kbd>0000-00-00</kbd>-t adsz meg, a soha be nem lépett felhasználók kerülnek törlésre – ebben az esetben a korábban/későbben feltétel nem lesz figyelembe véve.',
 
-	'POSTS_ON_QUEUE'			=> 'Engedélyezésre váró hozzászólások', //bb31
-	'PRUNE_USERS_GROUP_EXPLAIN'	=> 'Csak a kiválasztott csoport tagjai', //bb31 ?
-	'PRUNE_USERS_GROUP_NONE'	=> 'Minden csoport', //bb31
+	'POSTS_ON_QUEUE'			=> 'Engedélyezésre váró hozzászólások',
+	'PRUNE_USERS_GROUP_EXPLAIN'	=> 'Csak a kiválasztott csoport tagjai', //?
+	'PRUNE_USERS_GROUP_NONE'	=> 'Minden csoport',
 
 	'PRUNE_USERS_LIST'				=> 'Megtisztítandó felhasználók', //? ua mint feljebb
-	'PRUNE_USERS_LIST_DELETE'		=> 'A felhasználók megtisztításához jelenleg megadott feltételekkel a következő azonosítók lesznek eltávolítva. A listáról felhasználókat hagyhatsz ki, ha kiveszed a felhasználónevük mellett lévő pipát.', //bb31
+	'PRUNE_USERS_LIST_DELETE'		=> 'A felhasználók megtisztításához jelenleg megadott feltételekkel a következő azonosítók lesznek eltávolítva. A listáról felhasználókat hagyhatsz ki, ha kiveszed a felhasználónevük mellett lévő pipát.',
 	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'A felhasználók megtisztításához jelenleg megadott feltételekkel a következő azonosítók lesznek deaktiválva.',
 
 	'SELECT_USERS_EXPLAIN'		=> 'Itt konkrét felhasználóneveket adj meg. Ha kitöltöd, ezek lesznek használva a fentebbi feltételektől függetlenül. Alapítókat nem lehet törölni.',

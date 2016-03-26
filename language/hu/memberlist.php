@@ -52,12 +52,12 @@ $lang = array_merge($lang, array(
 	'BEFORE'				=> 'Korábban mint', //?
 
 	'CC_SENDER'				=> 'Másolat küldése magadnak',
-	'CONTACT_ADMIN'			=> 'Fórum adminisztrátor értesítése', //bb31 ? Contact a Board Administrator
+	'CONTACT_ADMIN'			=> 'Fórum adminisztrátor értesítése', //? Contact a Board Administrator
 
 	'DEST_LANG'				=> 'Nyelv',
 	'DEST_LANG_EXPLAIN'		=> 'Válassz ki egy az üzenet címzettjének megfelelő nyelvet (ha elérhető).',
 
-	'EDIT_PROFILE'			=> 'Profil szerkesztése', //bb31
+	'EDIT_PROFILE'			=> 'Profil szerkesztése',
 
 	'EMAIL_BODY_EXPLAIN'	=> 'Az üzenet sima szövegként kerül elküldésre, ne használj HTML-t vagy BBCode-ot. Az üzenet válaszcíme a te e-mail címed lesz.',
 	'EMAIL_DISABLED'		=> 'Sajnáljuk, de az e-mail küldéssel kapcsolatos funkciók kikapcsolásra kerültek.', //?
@@ -67,8 +67,8 @@ $lang = array_merge($lang, array(
 	'EMPTY_MESSAGE_EMAIL'	=> 'Nem küldhetsz üres üzenetet.',
  	'EMPTY_MESSAGE_IM'		=> 'Nem küldhetsz üres üzenetet.',
 	'EMPTY_NAME_EMAIL'		=> 'Meg kell adnod a címzett valódi nevét.',
-	'EMPTY_SENDER_EMAIL'	=> 'Érvényes e-mail címet kell megadnod.', //bb31
-	'EMPTY_SENDER_NAME'		=> 'Meg kell adnod az e-mail feladóját.', //bb31
+	'EMPTY_SENDER_EMAIL'	=> 'Érvényes e-mail címet kell megadnod.',
+	'EMPTY_SENDER_NAME'		=> 'Meg kell adnod az e-mail feladóját.',
 	'EMPTY_SUBJECT_EMAIL'	=> 'Meg kell adnod az e-mail témáját.',
 	'EQUAL_TO'				=> 'Annyi mint', //?
 
@@ -107,8 +107,8 @@ $lang = array_merge($lang, array(
 	'MANAGE_GROUP'			=> 'Csoport kezelése',
 	'MORE_THAN'				=> 'Több mint',
 
-	'NO_CONTACT_FORM'		=> 'A kapcsolat űrlap le lett tiltva.', //bb31
-	'NO_CONTACT_PAGE'		=> 'A kapcsolat oldal le lett tiltva.', //bb31
+	'NO_CONTACT_FORM'		=> 'A kapcsolat űrlap le lett tiltva.',
+	'NO_CONTACT_PAGE'		=> 'A kapcsolat oldal le lett tiltva.',
 
 	'NO_EMAIL'				=> 'Nem küldhetsz e-mailt ennek a felhasználónak.',
 	'NO_VIEW_USERS'			=> 'Nincs jogosultságod a taglista vagy a felhasználók profiljainak megtekintéséhez.',
@@ -125,8 +125,8 @@ $lang = array_merge($lang, array(
 
 	'SELECT_MARKED'			=> 'Kijelöltek kiválasztása',
 	'SELECT_SORT_METHOD'	=> 'Rendezés',
-	'SENDER_EMAIL_ADDRESS'	=> 'E-mail címed', //bb31
-	'SENDER_NAME'			=> 'Neved', //bb31
+	'SENDER_EMAIL_ADDRESS'	=> 'E-mail címed',
+	'SENDER_NAME'			=> 'Neved',
 	'SEND_ICQ_MESSAGE'		=> 'ICQ üzenet küldése',
 	'SEND_IM'				=> 'Azonnali üzenetküldés', //?
 	'SEND_JABBER_MESSAGE'	=> 'Jabber üzenet küldése',
@@ -147,12 +147,12 @@ $lang = array_merge($lang, array(
 	),
 	'USER_ONLINE'			=> 'Online',
 	'USER_PRESENCE'			=> 'Jelenlét a fórumban',
-	'USERS_PER_PAGE'		=> 'Oldalankénti felhasználók száma', //bb31 ? Users per page
+	'USERS_PER_PAGE'		=> 'Oldalankénti felhasználók száma', //? Users per page
 
 	'VIEWING_PROFILE'		=> 'Profil megtekintése: %s',
-	'VIEW_FACEBOOK_PROFILE'	=> 'Facebook profil megtekintése', //bb31
-	'VIEW_SKYPE_PROFILE'	=> 'Skype profil megtekintése', //bb31 ? adatlap?
-	'VIEW_TWITTER_PROFILE'	=> 'Twitter profil megtekintése', //bb31
-	'VIEW_YOUTUBE_CHANNEL'	=> 'YouTube csatorna megtekintése', //bb31
-	'VIEW_GOOGLEPLUS_PROFILE' => 'Google+ profil megtekintése', //bb31
+	'VIEW_FACEBOOK_PROFILE'	=> 'Facebook profil megtekintése',
+	'VIEW_SKYPE_PROFILE'	=> 'Skype profil megtekintése', //? adatlap?
+	'VIEW_TWITTER_PROFILE'	=> 'Twitter profil megtekintése',
+	'VIEW_YOUTUBE_CHANNEL'	=> 'YouTube csatorna megtekintése',
+	'VIEW_GOOGLEPLUS_PROFILE' => 'Google+ profil megtekintése',
 ));

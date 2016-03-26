@@ -50,6 +50,6 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_PRIVATE'				=> 'Privát reCaptcha kulcs',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'A privát reCaptcha kulcsa. Kulcs a <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> oldalon kérhető.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'A robotok általi automatikus űrlapküldések megakadályozása érdekében be kell írnia a képen látható szöveget az alatta lévő mezőbe.', //bb31
-	'RECAPTCHA_SOCKET_ERROR'		=> 'There was a problem conneHiba történt a RECAPTCHA szolgáltatáshoz való kapcsolódás közben: nem sikerült megnyitni a socketet. Próbálja meg később.', //bb31
+	'RECAPTCHA_EXPLAIN'				=> 'A robotok általi automatikus űrlapküldések megakadályozása érdekében be kell írnia a képen látható szöveget az alatta lévő mezőbe.',
+	'RECAPTCHA_SOCKET_ERROR'		=> 'There was a problem conneHiba történt a RECAPTCHA szolgáltatáshoz való kapcsolódás közben: nem sikerült megnyitni a socketet. Próbálja meg később.',
 ));

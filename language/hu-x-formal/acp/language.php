@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'ACP_FILES'						=> 'Adminisztrátori nyelvi állományok',
 	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Itt a nyelvi csomagokat telepítheted, illetve törölheted. Az alapértelmezett nyelvi csomag egy csillaggal (*) van megjelölve.',
 
-	'DELETE_LANGUAGE_CONFIRM'		=> 'Biztosan törölni szeretnéd a “%s” nyelvet?', //bb31
+	'DELETE_LANGUAGE_CONFIRM'		=> 'Biztosan törölni szeretnéd a “%s” nyelvet?',
 
 	'INSTALLED_LANGUAGE_PACKS'	=> 'Telepített nyelvi csomagok',
 
@@ -77,5 +77,5 @@ $lang = array_merge($lang, array(
 
 	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Telepítetlen nyelvi csomagok.',
 
-	'BROWSE_LANGUAGE_PACKS_DATABASE'	=> 'A phpBB.com nyelvi csomag adatbázisának böngészése', //bb31
+	'BROWSE_LANGUAGE_PACKS_DATABASE'	=> 'A phpBB.com nyelvi csomag adatbázisának böngészése',
 ));

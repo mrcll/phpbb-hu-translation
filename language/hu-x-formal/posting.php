@@ -76,12 +76,12 @@ $lang = array_merge($lang, array(
 	'CANNOT_POST_STICKY'		=> 'Nem küldhet kiemelt témát.',
 	'CHANGE_TOPIC_TO'			=> 'Téma típusának megváltoztatása', //? "Change topic type to" - topic type: téma típus??
 	'CHARS_POST_CONTAINS'		=> array(
-		1	=> 'Üzenete %1$d karaktert tartalmaz.', //bb31
-		2	=> 'Üzenete %1$d karaktert tartalmaz.', //bb31
+		1	=> 'Üzenete %1$d karaktert tartalmaz.',
+		2	=> 'Üzenete %1$d karaktert tartalmaz.',
 	),
 	'CHARS_SIG_CONTAINS'		=> array(
-		1	=> 'Aláírása %1$d karaktert tartalmaz.', //bb31
-		2	=> 'Aláírása %1$d karaktert tartalmaz.', //bb31
+		1	=> 'Aláírása %1$d karaktert tartalmaz.',
+		2	=> 'Aláírása %1$d karaktert tartalmaz.',
 	),
 	'CLOSE_TAGS'				=> 'Címkék lezárása', //? "Close tags"
 	'CURRENT_TOPIC'				=> 'Jelenlegi téma', //? aktuális?
@@ -90,20 +90,20 @@ $lang = array_merge($lang, array(
 	'DELETE_MESSAGE'			=> 'Üzenet törlése',
 	'DELETE_MESSAGE_CONFIRM'	=> 'Biztosan törölni akarja ezt az üzenetet?',
 	'DELETE_OWN_POSTS'			=> 'Csak a saját hozzászólásait törölheti.',
-	'DELETE_PERMANENTLY'		=> 'Végleges törlés', //bb31
+	'DELETE_PERMANENTLY'		=> 'Végleges törlés',
 	'DELETE_POST_CONFIRM'		=> 'Biztosan törölni akarja ezt a hozzászólást?',
-	'DELETE_POST_PERMANENTLY_CONFIRM'	=> 'Biztosan <strong>véglegesen</strong> törölni akarja ezt a hozzászólást?', //bb31
-	'DELETE_POST_PERMANENTLY'	=> 'Hozzászólás végleges törlése, így az nem lesz visszaállítható', //bb31
-	'DELETE_POSTS_CONFIRM'		=> 'Biztosan törölni akarja ezeket a hozzászólásokat?', //bb31
-	'DELETE_POSTS_PERMANENTLY_CONFIRM'	=> 'Biztosan <strong>véglegesen</strong> törölni akarja ezeket a hozzászólásokat?', //bb31
-	'DELETE_REASON'				=> 'Törlés indoka', //bb31
-	'DELETE_REASON_EXPLAIN'		=> 'A törlés indoka látható lesz a moderátoroknak.', //bb31
-	'DELETE_POST_WARN'			=> 'Hozzászólás törlése', //bb31
-	'DELETE_TOPIC_CONFIRM'		=> 'Biztosan törölni akarja ezt a témát?', //bb31
-	'DELETE_TOPIC_PERMANENTLY'	=> 'Téma végleges törlése, így az nem visszaállítható', //bb31
-	'DELETE_TOPIC_PERMANENTLY_CONFIRM'	=> 'Biztosan <strong>véglegesen</strong> törölni akarja ezt a témát?', //bb31
-	'DELETE_TOPICS_CONFIRM'		=> 'Biztosan törölni akarja ezeket a témákat?', //bb31
-	'DELETE_TOPICS_PERMANENTLY_CONFIRM'	=> 'Biztosan <strong>véglegesen</strong> törölni akarja ezeket a témákat?', //bb31
+	'DELETE_POST_PERMANENTLY_CONFIRM'	=> 'Biztosan <strong>véglegesen</strong> törölni akarja ezt a hozzászólást?',
+	'DELETE_POST_PERMANENTLY'	=> 'Hozzászólás végleges törlése, így az nem lesz visszaállítható',
+	'DELETE_POSTS_CONFIRM'		=> 'Biztosan törölni akarja ezeket a hozzászólásokat?',
+	'DELETE_POSTS_PERMANENTLY_CONFIRM'	=> 'Biztosan <strong>véglegesen</strong> törölni akarja ezeket a hozzászólásokat?',
+	'DELETE_REASON'				=> 'Törlés indoka',
+	'DELETE_REASON_EXPLAIN'		=> 'A törlés indoka látható lesz a moderátoroknak.',
+	'DELETE_POST_WARN'			=> 'Hozzászólás törlése',
+	'DELETE_TOPIC_CONFIRM'		=> 'Biztosan törölni akarja ezt a témát?',
+	'DELETE_TOPIC_PERMANENTLY'	=> 'Téma végleges törlése, így az nem visszaállítható',
+	'DELETE_TOPIC_PERMANENTLY_CONFIRM'	=> 'Biztosan <strong>véglegesen</strong> törölni akarja ezt a témát?',
+	'DELETE_TOPICS_CONFIRM'		=> 'Biztosan törölni akarja ezeket a témákat?',
+	'DELETE_TOPICS_PERMANENTLY_CONFIRM'	=> 'Biztosan <strong>véglegesen</strong> törölni akarja ezeket a témákat?',
 	'DISABLE_BBCODE'			=> 'BBCode kikapcsolása',
 	'DISABLE_MAGIC_URL'			=> 'Webcímek automatikus linkké alakításának kikapcsolása', //? "Do not automatically parse URLs" 'Automatikus URL-feldolgozás kikapcsolása' webcímek?
 	'DISABLE_SMILIES'			=> 'Emotikonok kikapcsolása',
@@ -226,9 +226,9 @@ $lang = array_merge($lang, array(
 		1	=> 'Legfeljebb %1$d idézetet ágyazhat egymásba.',
 		2	=> 'Legfeljebb %1$d idézetet ágyazhat egymásba.',
 	),
-	'QUOTE_NO_NESTING'			=> 'Nem ágyazhat idézeteket egymásba.', //bb31
+	'QUOTE_NO_NESTING'			=> 'Nem ágyazhat idézeteket egymásba.',
 
-	'REMOTE_UPLOAD_TIMEOUT'		=> 'A megadott fájl feltöltése időtúllépés miatt nem sikerült.', //bb31
+	'REMOTE_UPLOAD_TIMEOUT'		=> 'A megadott fájl feltöltése időtúllépés miatt nem sikerült.',
 
 	'SAVE'						=> 'Elmentés',
 	'SAVE_DATE'					=> 'Elmentve', //? "Saved at" 'Elmentés időpontja'
@@ -244,8 +244,8 @@ $lang = array_merge($lang, array(
 
 	'TOO_FEW_CHARS'				=> 'Az üzenet túl rövid.', //? "Your message contains too few characters."
 	'TOO_FEW_CHARS_LIMIT'		=> array(
-		1	=> 'Legalább %1$d karaktert kell megadnia.', //bb31
-		2	=> 'Legalább %1$d karaktert kell megadnia.', //bb31
+		1	=> 'Legalább %1$d karaktert kell megadnia.',
+		2	=> 'Legalább %1$d karaktert kell megadnia.',
 	),
 	'TOO_FEW_POLL_OPTIONS'		=> 'Legalább két választási lehetőséget meg kell adnia.',
 	'TOO_MANY_ATTACHMENTS'		=> 'Nem lehet újabb csatolmányt hozzáadni, %d a maximum.', //?
@@ -261,8 +261,8 @@ $lang = array_merge($lang, array(
 
 	'UNAUTHORISED_BBCODE'		=> 'Bizonyos BBCode-okat nem használhatsz: %s:',
 	'UNGLOBALISE_EXPLAIN'		=> 'Ahhoz, hogy a témát általános közleményből sima témává minősítse vissza, ki kell választania egy fórumot, amelyben a téma meg fog jelenni.', //?
-	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> 'Az üzenete szövege a következő nem támogatott karaktereket tartalmazza:<br />%s', //bb31
-	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> 'Az üzenete tárgya a következő nem támogatott karaktereket tartalmazza:<br />%s', //bb31
+	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> 'Az üzenete szövege a következő nem támogatott karaktereket tartalmazza:<br />%s',
+	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> 'Az üzenete tárgya a következő nem támogatott karaktereket tartalmazza:<br />%s',
 	'UPDATE_COMMENT'			=> 'Magyarázat frissítése',
 	'URL_INVALID'				=> 'A megadott URL hibás.',
 	'URL_NOT_FOUND'				=> 'A megadott állomány nem található.',

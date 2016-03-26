@@ -42,11 +42,11 @@ if (empty($lang) || !is_array($lang))
 // Custom profile fields
 $lang = array_merge($lang, array(
 	'ADDED_PROFILE_FIELD'	=> 'Az egyedi profil mező sikeresen létrehozásra került.',
-	'ALPHA_DOTS'			=> 'Alfanumerikus és pont', //bb31
+	'ALPHA_DOTS'			=> 'Alfanumerikus és pont',
 	'ALPHA_ONLY'			=> 'Csak alfanumerikus',
 	'ALPHA_SPACERS'			=> 'Alfanumerikus és térköz',
-	'ALPHA_UNDERSCORE'		=> 'Alfanumerikus és aláhúzás', //bb31
-	'ALPHA_PUNCTUATION'		=> 'Alfanumerikus és betűvel kezdődő vessző, pont, aláhúzás vagy kötőjel', //bb31
+	'ALPHA_UNDERSCORE'		=> 'Alfanumerikus és aláhúzás',
+	'ALPHA_PUNCTUATION'		=> 'Alfanumerikus és betűvel kezdődő vessző, pont, aláhúzás vagy kötőjel',
 	'ALWAYS_TODAY'			=> 'Mindig a jelenlegi dátum',
 
 	'BOOL_ENTRIES_EXPLAIN'	=> 'Itt add meg a választási lehetőségeket.',
@@ -73,10 +73,10 @@ $lang = array_merge($lang, array(
 	'DISPLAY_AT_PROFILE_EXPLAIN'	=> 'A felhasználó a profil mező értékét a felhasználói vezérlőpultban módosíthatja.',
 	'DISPLAY_AT_REGISTER'			=> 'Megjelenítés regisztrációkor',
 	'DISPLAY_AT_REGISTER_EXPLAIN'	=> 'Ha ez be van állítva, a mező megjelenítésre kerül a regisztrációkor.',
-	'DISPLAY_ON_MEMBERLIST'			=> 'Megjelenítés a taglistán', //bb31
-	'DISPLAY_ON_MEMBERLIST_EXPLAIN'	=> 'Ha ez be van álíltva, a mező megjelenítésre kerül a taglisban.', //bb31
-	'DISPLAY_ON_PM'					=> 'Megjelenítés a privát üzenetek olvasása oldalon', //bb31
-	'DISPLAY_ON_PM_EXPLAIN'			=> 'Ha ez be van állítva, a mező megjelenítésre kerül a privát üzeneteknél megjelenített mini profilban.', //bb31
+	'DISPLAY_ON_MEMBERLIST'			=> 'Megjelenítés a taglistán',
+	'DISPLAY_ON_MEMBERLIST_EXPLAIN'	=> 'Ha ez be van álíltva, a mező megjelenítésre kerül a taglisban.',
+	'DISPLAY_ON_PM'					=> 'Megjelenítés a privát üzenetek olvasása oldalon',
+	'DISPLAY_ON_PM_EXPLAIN'			=> 'Ha ez be van állítva, a mező megjelenítésre kerül a privát üzeneteknél megjelenített mini profilban.',
 	'DISPLAY_ON_VT'					=> 'Megjelenítés a témákban',
 	'DISPLAY_ON_VT_EXPLAIN'			=> 'Ha ez be van állítva, a mező megjelenítésre kerül a témákban, a hozzászólások melletti mini profilban.',
 	'DISPLAY_PROFILE_FIELD'			=> 'Profil mező nyilvános megjelenítése',
@@ -90,8 +90,8 @@ $lang = array_merge($lang, array(
 	'EVERYTHING_OK'					=> 'Minden rendben',
 
 	'FIELD_BOOL'				=> 'Logikai (igen/nem)',
-	'FIELD_CONTACT_DESC'		=> 'kapcsolat leírás', //bb31 ?
-	'FIELD_CONTACT_URL'			=> 'kapcsolat hivatkozás', //bb31 ?
+	'FIELD_CONTACT_DESC'		=> 'kapcsolat leírás', //?
+	'FIELD_CONTACT_URL'			=> 'kapcsolat hivatkozás', //?
 	'FIELD_DATE'				=> 'Dátum',
 	'FIELD_DESCRIPTION'			=> 'Mező leírása',
 	'FIELD_DESCRIPTION_EXPLAIN'	=> 'A felhasználónak megjelenő leírás a mezőről.',
@@ -101,15 +101,15 @@ $lang = array_merge($lang, array(
 	'FIELD_IDENT_ALREADY_EXIST'	=> 'A kiválasztott mezőazonosító már létezik. Kérünk, válassz másikat.',
 	'FIELD_IDENT_EXPLAIN'		=> 'A mezőazonosító a profil mező azonosítására való az adatbázisban és a sablonokban.',
 	'FIELD_INT'					=> 'Szám',
-	'FIELD_IS_CONTACT'			=> 'Mező megjelenítése kapcsolati mezőként', //bb31 ?
-	'FIELD_IS_CONTACT_EXPLAIN'	=> 'A kapcsolati mezők megjelenítésre kerülnek a felhasználói profil kapcsolat részében, és megjelennek a hozzászólások és privát üzenetek melletti mini profilokban is. A <samp>%s</samp> a felhasználó által megadott értékre lesz lecserélve.', //bb31 ? displayed differently; placeholder variable which will be replaced by a value provided by the user
+	'FIELD_IS_CONTACT'			=> 'Mező megjelenítése kapcsolati mezőként', //?
+	'FIELD_IS_CONTACT_EXPLAIN'	=> 'A kapcsolati mezők megjelenítésre kerülnek a felhasználói profil kapcsolat részében, és megjelennek a hozzászólások és privát üzenetek melletti mini profilokban is. A <samp>%s</samp> a felhasználó által megadott értékre lesz lecserélve.', //? displayed differently; placeholder variable which will be replaced by a value provided by the user
 	'FIELD_LENGTH'				=> 'Űrlap mező hossza',
 	'FIELD_NOT_FOUND'			=> 'A profil mező nem található.',
 	'FIELD_STRING'				=> 'Sima szövegmező', //?
 	'FIELD_TEXT'				=> 'Szövegdoboz',
 	'FIELD_TYPE'				=> 'Mező típusa',
 	'FIELD_TYPE_EXPLAIN'		=> 'A mező típusát később nem tudod megváltoztatni.',
-	'FIELD_URL'					=> 'URL (Link)', //bb31
+	'FIELD_URL'					=> 'URL (Link)',
 	'FIELD_VALIDATION'			=> 'Érvényesítés feltétel',
 	'FIRST_OPTION'				=> 'Első lehetőség',
 
@@ -122,11 +122,11 @@ $lang = array_merge($lang, array(
 
 	'LANG_SPECIFIC_OPTIONS'		=> 'Nyelvspecifikus beállítások [<strong>%s</strong>]',
 
-	'LETTER_NUM_DOTS'			=> 'Betűk, számok és pont', //bb31 dots (period)
-	'LETTER_NUM_ONLY'			=> 'Betűk és számok', //bb31
-	'LETTER_NUM_PUNCTUATION'	=> 'Betűvel kezdődő betűk, számok, vessző, pont, aláhúzás és kötőjel', //bb31 ?
-	'LETTER_NUM_SPACERS'		=> 'Betűk, számok és szóköz', //bb31 spacers
-	'LETTER_NUM_UNDERSCORE'		=> 'Betűk, számok és aláhúzás', //bb31
+	'LETTER_NUM_DOTS'			=> 'Betűk, számok és pont', // dots (period)
+	'LETTER_NUM_ONLY'			=> 'Betűk és számok',
+	'LETTER_NUM_PUNCTUATION'	=> 'Betűvel kezdődő betűk, számok, vessző, pont, aláhúzás és kötőjel', //?
+	'LETTER_NUM_SPACERS'		=> 'Betűk, számok és szóköz', // spacers
+	'LETTER_NUM_UNDERSCORE'		=> 'Betűk, számok és aláhúzás',
 
 	'MAX_FIELD_CHARS'		=> 'Maximum karakterszám',
 	'MAX_FIELD_NUMBER'		=> 'Legnagyobb megengedett szám',

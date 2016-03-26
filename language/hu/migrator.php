@@ -40,34 +40,34 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'CONFIG_NOT_EXIST'					=> 'A "%s" konfigurációs beállítás nem létezik.', //bb31
+	'CONFIG_NOT_EXIST'					=> 'A "%s" konfigurációs beállítás nem létezik.',
 
-	'GROUP_NOT_EXIST'					=> 'A "%s" csoport nem létezik.', //bb31
+	'GROUP_NOT_EXIST'					=> 'A "%s" csoport nem létezik.',
 
-	'MIGRATION_APPLY_DEPENDENCIES'		=> '%s függőségeinek alkalmazása.', //bb31 ? apply
-	'MIGRATION_DATA_DONE'				=> 'Telepített adat: %1$s; Idő: %2$.2f másodperc', //bb31 ? Installed Data
-	'MIGRATION_DATA_IN_PROGRESS'		=> 'Adat telepítése: %1$s; Idő: %2$.2f másodperc', //bb31 ? Installing Data
-	'MIGRATION_DATA_RUNNING'			=> 'Adat telepítése: %s.', //bb31
-	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'A migráció már végre lett hajtva (kihagyva): %s', //bb31
-	'MIGRATION_EXCEPTION_ERROR'			=> 'Hiba történt a kérés végrehajtása során és a feldolgozás megszakadt. A hiba bekövetkezése előtti állapotot megpróbáltuk visszaállítani. Kérjük, lépj be a fórumba, és ellenőrizd, hogy minden rendesen működik-e.', //bb31
-	'MIGRATION_NOT_FULFILLABLE'			=> 'A "%1$s" migráció nem hajtható végre, mert hiányzik a "%2$s" migráció.', //bb31
-	'MIGRATION_NOT_VALID'				=> '%s egy érvénytelen migráció.', //bb31
-	'MIGRATION_SCHEMA_DONE'				=> 'Telepített séma: %1$s; Idő: %2$.2f másodperc', //bb31
-	'MIGRATION_SCHEMA_RUNNING'			=> 'Séma telepítése: %s.', //bb31
+	'MIGRATION_APPLY_DEPENDENCIES'		=> '%s függőségeinek alkalmazása.', //? apply
+	'MIGRATION_DATA_DONE'				=> 'Telepített adat: %1$s; Idő: %2$.2f másodperc', //? Installed Data
+	'MIGRATION_DATA_IN_PROGRESS'		=> 'Adat telepítése: %1$s; Idő: %2$.2f másodperc', //? Installing Data
+	'MIGRATION_DATA_RUNNING'			=> 'Adat telepítése: %s.',
+	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'A migráció már végre lett hajtva (kihagyva): %s',
+	'MIGRATION_EXCEPTION_ERROR'			=> 'Hiba történt a kérés végrehajtása során és a feldolgozás megszakadt. A hiba bekövetkezése előtti állapotot megpróbáltuk visszaállítani. Kérjük, lépj be a fórumba, és ellenőrizd, hogy minden rendesen működik-e.',
+	'MIGRATION_NOT_FULFILLABLE'			=> 'A "%1$s" migráció nem hajtható végre, mert hiányzik a "%2$s" migráció.',
+	'MIGRATION_NOT_VALID'				=> '%s egy érvénytelen migráció.',
+	'MIGRATION_SCHEMA_DONE'				=> 'Telepített séma: %1$s; Idő: %2$.2f másodperc',
+	'MIGRATION_SCHEMA_RUNNING'			=> 'Séma telepítése: %s.',
 
 	// Az angol fordítások szándékosan maradtak benne, hogy megkönnyítsék a hibakeresést
-	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'A migráció érvénytelen. Egy IF kifejezésnek hiányzik a feltétele. [An if statement helper is missing a condition.]', //bb31 ?
-	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'A migráció érvénytelen. Egy IF kifejezésnek hiányzik egy érvényes migrációs lépés hívása. [An if statement helper is missing a valid call to a migration step.]', //bb31 ?
-	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'	=> 'A migráció érvénytelen. Egy egyéni meghívható függvény nem hívható meg. [A custom callable function could not be called.]', //bb31 ?
-	'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'			=> 'A migráció érvénytelen. Ismeretlen migrációs típus. [An unknown migration tool type was encountered.]', //bb31 ?
-	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'			=> 'A migráció érvénytelen. Nem meghatározott migráció. [An undefined migration tool was encountered.]', //bb31 ?
-	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'A migráció érvénytelen. Nem meghatározott metódus. [An undefined migration tool method was encountered.]', //bb31 ?
+	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'A migráció érvénytelen. Egy IF kifejezésnek hiányzik a feltétele. [An if statement helper is missing a condition.]', //?
+	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'A migráció érvénytelen. Egy IF kifejezésnek hiányzik egy érvényes migrációs lépés hívása. [An if statement helper is missing a valid call to a migration step.]', //?
+	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'	=> 'A migráció érvénytelen. Egy egyéni meghívható függvény nem hívható meg. [A custom callable function could not be called.]', //?
+	'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'			=> 'A migráció érvénytelen. Ismeretlen migrációs típus. [An unknown migration tool type was encountered.]', //?
+	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'			=> 'A migráció érvénytelen. Nem meghatározott migráció. [An undefined migration tool was encountered.]', //?
+	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'A migráció érvénytelen. Nem meghatározott metódus. [An undefined migration tool method was encountered.]', //?
 
-	'MODULE_ERROR'						=> 'Hiba történt a modul létrehozása közben: %s', //bb31 ?
-	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Szükséges modul információs állomány nem létezik: %2$s', //bb31
-	'MODULE_NOT_EXIST'					=> 'Szükséges modul nem létezik: %s', //bb31
+	'MODULE_ERROR'						=> 'Hiba történt a modul létrehozása közben: %s', //?
+	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Szükséges modul információs állomány nem létezik: %2$s',
+	'MODULE_NOT_EXIST'					=> 'Szükséges modul nem létezik: %s',
 
-	'PERMISSION_NOT_EXIST'				=> 'A "%s" jogosultság beállítás nem létezik.', //bb31
+	'PERMISSION_NOT_EXIST'				=> 'A "%s" jogosultság beállítás nem létezik.',
 
-	'ROLE_NOT_EXIST'					=> 'A "%s" jogosultság szerep nem létezik.', //bb31
+	'ROLE_NOT_EXIST'					=> 'A "%s" jogosultság szerep nem létezik.',
 ));

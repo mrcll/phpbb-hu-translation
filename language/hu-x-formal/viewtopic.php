@@ -40,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'APPROVE'								=> 'Jóváhagyás', //bb31 ?
+	'APPROVE'								=> 'Jóváhagyás', //?
 	'ATTACHMENT'						=> 'Csatolmány',
 	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'A csatolmány funkciók nem elérhetők.', //? ki lettek kapcsolva
 
@@ -55,20 +55,20 @@ $lang = array_merge($lang, array(
 	'CODE'					=> 'Kód',
 
 	'DELETE_TOPIC'			=> 'Téma törlése',
-	'DELETED_INFORMATION'	=> '%1$s törölte %2$s-kor', //bb31
-	'DISAPPROVE'					=> 'Elutasítás', //bb31 ?
+	'DELETED_INFORMATION'	=> '%1$s törölte %2$s-kor',
+	'DISAPPROVE'					=> 'Elutasítás', //?
 	'DOWNLOAD_NOTICE'		=> 'Nincs meg a kellő jogosultsága a hozzászóláshoz csatolt állományok megtekintéséhez.',
 
 	'EDITED_TIMES_TOTAL'	=> array(
 		1	=> 'A hozzászólást %1$d alkalommal szerkesztették, utoljára %2$s %3$s-kor.', //? 'Utoljára %1$s szerkesztette %2$s-kor; szerkesztések száma: %3$d.'
 		2	=> 'A hozzászólást %1$d alkalommal szerkesztették, utoljára %2$s %3$s-kor.',
 	),
-	'EMAIL_TOPIC'			=> 'Barát értesítése e-mailben', //bb31 ? email friend -> email topic
+	'EMAIL_TOPIC'			=> 'Barát értesítése e-mailben', //? email friend -> email topic
 	'ERROR_NO_ATTACHMENT'	=> 'A csatolmány már nem létezik.',
 
 	'FILE_NOT_FOUND_404'	=> 'A <strong>%s</strong> fájl nem létezik.',
 	'FORK_TOPIC'			=> 'Téma másolása',
-	'FULL_EDITOR'			=> 'Teljes szerkesztő &amp; Előnézet', //bb31
+	'FULL_EDITOR'			=> 'Teljes szerkesztő &amp; Előnézet',
 
 	'LINKAGE_FORBIDDEN'		=> 'Ön nem jogosult az oldalt megtekinteni, letölteni róla vagy linkelni rá.', //? fogalmam sincs...
 	'LOGIN_NOTIFY_TOPIC'	=> 'Ön értesítve lett erről a témáról. Lépjen be, hogy megtekinthesse.',
@@ -95,7 +95,7 @@ $lang = array_merge($lang, array(
 	'POLL_ENDED_AT'			=> 'A szavazás %s-kor befejeződött.',
 	'POLL_RUN_TILL'			=> 'A szavazás %s-ig van érvényben.',
 	'POLL_VOTED_OPTION'		=> 'Erre a lehetőségre szavazott',
-	'POST_DELETED_RESTORE'	=> 'A hozzászólás törölve lett, azonban később visszaállítható.', //bb31
+	'POST_DELETED_RESTORE'	=> 'A hozzászólás törölve lett, azonban később visszaállítható.',
 	'PRINT_TOPIC'			=> 'Nyomtatóbarát verzió',
 
 	'QUICK_MOD'				=> 'Gyors moderátori eszközök', //??
@@ -103,13 +103,13 @@ $lang = array_merge($lang, array(
 	'QUOTE'					=> 'Idézet',
 
 	'REPLY_TO_TOPIC'		=> 'Hozzászólás a témához',
-	'RESTORE'				=> 'Visszaállítás', //bb31
-	'RESTORE_TOPIC'			=> 'Téma visszaállítása', //bb31
+	'RESTORE'				=> 'Visszaállítás',
+	'RESTORE_TOPIC'			=> 'Téma visszaállítása',
 	'RETURN_POST'			=> '%sVissza a hozzászóláshoz%s',
 
 	'SUBMIT_VOTE'			=> 'Szavazat elküldése', //? szavazás?
 
-	'TOPIC_TOOLS'			=> 'Téma eszközök', //bb31 ? topic tools
+	'TOPIC_TOOLS'			=> 'Téma eszközök', //? topic tools
 	'TOTAL_VOTES'			=> 'Szavazatok száma',
 
 	'UNLOCK_TOPIC'			=> 'Téma megnyitása',

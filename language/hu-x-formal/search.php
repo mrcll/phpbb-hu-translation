@@ -74,7 +74,7 @@ $lang = array_merge($lang, array(
 	'NO_RECENT_SEARCHES'	=> 'Nem történt keresés a közelmúltban.',
 	'NO_SEARCH'				=> 'Sajnos az ön számára nem engedélyezett a kereső használata.',
 	'NO_SEARCH_RESULTS'		=> 'Nincs a keresési feltételeknek megfelelő találat.', //? "No suitable matches were found."
-	'NO_SEARCH_LOAD'		=> 'Sajnos a kereső a szerver terheltsége miatt jelenleg nem használható. Kérjük, próbálkozz később.', //bb31
+	'NO_SEARCH_LOAD'		=> 'Sajnos a kereső a szerver terheltsége miatt jelenleg nem használható. Kérjük, próbálkozz később.',
 	'NO_SEARCH_TIME'		=> array(
 		1	=> 'Most nem használhatja a keresőt. Kérjük, próbálkozzon újra %d másodperc múlva.',
 		2	=> 'Most nem használhatja a keresőt. Kérjük, próbálkozzon újra %d másodperc múlva.',
@@ -84,13 +84,13 @@ $lang = array_merge($lang, array(
 	'WORDS_IN_NO_POST'		=> 'Nincs találat, mivel a <strong>%s</strong> szavakat nem tartalmazza egy hozzászólás sem.',
 
 	'POST_CHARACTERS'		=> 'karakterének megjelenítése',
-	'PHRASE_SEARCH_DISABLED'	=> 'A pontos kifejezés alapján történő keresés ezen a fórumon nem támogatott.', //bb31
+	'PHRASE_SEARCH_DISABLED'	=> 'A pontos kifejezés alapján történő keresés ezen a fórumon nem támogatott.',
 
 	'RECENT_SEARCHES'		=> 'Legutóbbi keresések',
 	'RESULT_DAYS'			=> 'Időintervallum', //?
 	'RESULT_SORT'			=> 'Találatok rendezése',
 	'RETURN_FIRST'			=> 'Hozzászólások első',
-	'GO_TO_SEARCH_ADV'	=> 'Ugrás a részletes kereséshez', //bb31
+	'GO_TO_SEARCH_ADV'	=> 'Ugrás a részletes kereséshez',
 
 	'SEARCHED_FOR'				=> 'Keresett kifejezés', //?
 	'SEARCHED_TOPIC'			=> 'Keresett téma',
@@ -117,8 +117,8 @@ $lang = array_merge($lang, array(
 	'SORT_FORUM'				=> 'Fórum',
 	'SORT_POST_SUBJECT'			=> 'Hozzászólás témája',
 	'SORT_TIME'					=> 'Elküldés időpontja',
-	'SPHINX_SEARCH_FAILED'		=> 'Hiba történt a keresés közben: %s', //bb31
-	'SPHINX_SEARCH_FAILED_LOG'	=> 'Sajnáljuk, a keresést nem lehetett elvégezni. További információk kerültek rögzítésre a hibanaplóban.', //bb31
+	'SPHINX_SEARCH_FAILED'		=> 'Hiba történt a keresés közben: %s',
+	'SPHINX_SEARCH_FAILED_LOG'	=> 'Sajnáljuk, a keresést nem lehetett elvégezni. További információk kerültek rögzítésre a hibanaplóban.',
 
 	'TOO_FEW_AUTHOR_CHARS'	=> array(
 		1	=> 'A szerző nevéből legalább %d karaktert meg kell adnia.',

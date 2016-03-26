@@ -39,49 +39,49 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'CLI_CONFIG_CANNOT_CACHED'			=> 'Állítsd be ezt az opciót, ha a konfigurációs beállítás olyan gyakorisággal változik, hogy nem lehet hatékonyan gyorsítótárazni.', //bb31
-	'CLI_CONFIG_CURRENT'				=> 'Aktuális konfigurációs érték, használd a 0-t és 1-et logikai értékek megadásához.', //bb31
-	'CLI_CONFIG_DELETE_SUCCESS'			=> '%s beállítás sikeresen törölve.', //bb31
-	'CLI_CONFIG_NEW'					=> 'Új beállítási érték, használd a 0-t és 1-et logikai értékek megadásához.', //bb31
-	'CLI_CONFIG_NOT_EXISTS'				=> '%s beállítás nem létezik', //bb31
-	'CLI_CONFIG_OPTION_NAME'			=> 'A beállítás neve', //bb31
-	'CLI_CONFIG_PRINT_WITHOUT_NEWLINE'	=> 'Állítsd be ezt, hogy az érték sortörés nélkül kerüljün kiírásra.', //bb31
-	'CLI_CONFIG_INCREMENT_BY'			=> 'Növelendő beállítási érték', //bb31
-	'CLI_CONFIG_INCREMENT_SUCCESS'		=> '%s beállítási érték sikeresen megnövelve', //bb31
-	'CLI_CONFIG_SET_FAILURE'			=> '%s értéket nem lehet beállítani', //bb31
-	'CLI_CONFIG_SET_SUCCESS'			=> '%s érték sikeresen beállítva', //bb31
+	'CLI_CONFIG_CANNOT_CACHED'			=> 'Állítsd be ezt az opciót, ha a konfigurációs beállítás olyan gyakorisággal változik, hogy nem lehet hatékonyan gyorsítótárazni.',
+	'CLI_CONFIG_CURRENT'				=> 'Aktuális konfigurációs érték, használd a 0-t és 1-et logikai értékek megadásához.',
+	'CLI_CONFIG_DELETE_SUCCESS'			=> '%s beállítás sikeresen törölve.',
+	'CLI_CONFIG_NEW'					=> 'Új beállítási érték, használd a 0-t és 1-et logikai értékek megadásához.',
+	'CLI_CONFIG_NOT_EXISTS'				=> '%s beállítás nem létezik',
+	'CLI_CONFIG_OPTION_NAME'			=> 'A beállítás neve',
+	'CLI_CONFIG_PRINT_WITHOUT_NEWLINE'	=> 'Állítsd be ezt, hogy az érték sortörés nélkül kerüljün kiírásra.',
+	'CLI_CONFIG_INCREMENT_BY'			=> 'Növelendő beállítási érték',
+	'CLI_CONFIG_INCREMENT_SUCCESS'		=> '%s beállítási érték sikeresen megnövelve',
+	'CLI_CONFIG_SET_FAILURE'			=> '%s értéket nem lehet beállítani',
+	'CLI_CONFIG_SET_SUCCESS'			=> '%s érték sikeresen beállítva',
 
-	'CLI_DESCRIPTION_CRON_LIST'					=> 'Kilistázza a befejezett és még nem befejezett cron jobokat.', //bb31
-	'CLI_DESCRIPTION_CRON_RUN'					=> 'Lefuttatja az összes elkészült cron jobot.', //bb31
-	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'		=> 'Futtatandó feladat neve', //bb31
-	'CLI_DESCRIPTION_DB_MIGRATE'				=> 'Adatbázis frissítése migration-ökkel.', //bb31 ?
-	'CLI_DESCRIPTION_DELETE_CONFIG'				=> 'Töröl egy konfigurációs opciót', //bb31
-	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'Letilt egy megadott kiterjesztést.', //bb31
-	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Engedélyez egy meghatározott kiterjesztést.', //bb31
-	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'Megkeresi azokat a migration-öket, amik nem függenek tőle.', //bb31 ?
-	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Konfigurációs beállítás értékét kéri le', //bb31
-	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Megnöveli egy egész számot tartalmazó konfigurációs beállítás értékét', //bb31
-	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Kilistázza az adatbázisban és a fájlrendszerben lévő összes kiterjesztést.', //bb31
-	'CLI_DESCRIPTION_OPTION_SAFE_MODE'			=> 'Futtatás csökkentett módban (kiterjesztések nélkül).', //bb31
-	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Shell indítása.', //bb31
-	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Törli a megadott kiterjesztés adatait.', //bb31 ? purge extension
-	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Újraszámítja a users tábla user_email_hash oszlopát.', //bb31
-	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Csak akkor állítja be a konfigurációs beállítás értékét, ha annak eredeti értéke megegyezik az aktuális értékkel.', //bb31 ?
-	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Beállítja egy opció értékét', //bb31
+	'CLI_DESCRIPTION_CRON_LIST'					=> 'Kilistázza a befejezett és még nem befejezett cron jobokat.',
+	'CLI_DESCRIPTION_CRON_RUN'					=> 'Lefuttatja az összes elkészült cron jobot.',
+	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'		=> 'Futtatandó feladat neve',
+	'CLI_DESCRIPTION_DB_MIGRATE'				=> 'Adatbázis frissítése migration-ökkel.', //?
+	'CLI_DESCRIPTION_DELETE_CONFIG'				=> 'Töröl egy konfigurációs opciót',
+	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'Letilt egy megadott kiterjesztést.',
+	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Engedélyez egy meghatározott kiterjesztést.',
+	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'Megkeresi azokat a migration-öket, amik nem függenek tőle.', //?
+	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Konfigurációs beállítás értékét kéri le',
+	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Megnöveli egy egész számot tartalmazó konfigurációs beállítás értékét',
+	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Kilistázza az adatbázisban és a fájlrendszerben lévő összes kiterjesztést.',
+	'CLI_DESCRIPTION_OPTION_SAFE_MODE'			=> 'Futtatás csökkentett módban (kiterjesztések nélkül).',
+	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Shell indítása.',
+	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Törli a megadott kiterjesztés adatait.', //? purge extension
+	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Újraszámítja a users tábla user_email_hash oszlopát.',
+	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Csak akkor állítja be a konfigurációs beállítás értékét, ha annak eredeti értéke megegyezik az aktuális értékkel.', //?
+	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Beállítja egy opció értékét',
 
-	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Nem lehet letiltani a %s kiterjesztést', //bb31
-	'CLI_EXTENSION_DISABLE_SUCCESS'		=> '%s kiterjesztés sikeresen letiltva', //bb31
-	'CLI_EXTENSION_ENABLE_FAILURE'		=> 'Nem lehet engedélyezni a %s kiterjesztést', //bb31
-	'CLI_EXTENSION_ENABLE_SUCCESS'		=> '%s kiterjesztés sikeresen engedélyezve', //bb31
-	'CLI_EXTENSION_NAME'				=> 'Kiterjesztés neve', //bb31
-	'CLI_EXTENSION_PURGE_FAILURE'		=> 'Nem lehet törölni a %s kiterjesztés adatait', //bb31
-	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'A %s kiterjesztés adatai sikeresen törlésre kerültek', //bb31
-	'CLI_EXTENSION_NOT_FOUND'			=> 'Nem találhatóak kiterjesztések.', //bb31
-	'CLI_EXTENSIONS_AVAILABLE'			=> 'Elérhető', //bb31
-	'CLI_EXTENSIONS_DISABLED'			=> 'Letiltott', //bb31
-	'CLI_EXTENSIONS_ENABLED'			=> 'Engedélyezett', //bb31
+	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Nem lehet letiltani a %s kiterjesztést',
+	'CLI_EXTENSION_DISABLE_SUCCESS'		=> '%s kiterjesztés sikeresen letiltva',
+	'CLI_EXTENSION_ENABLE_FAILURE'		=> 'Nem lehet engedélyezni a %s kiterjesztést',
+	'CLI_EXTENSION_ENABLE_SUCCESS'		=> '%s kiterjesztés sikeresen engedélyezve',
+	'CLI_EXTENSION_NAME'				=> 'Kiterjesztés neve',
+	'CLI_EXTENSION_PURGE_FAILURE'		=> 'Nem lehet törölni a %s kiterjesztés adatait',
+	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'A %s kiterjesztés adatai sikeresen törlésre kerültek',
+	'CLI_EXTENSION_NOT_FOUND'			=> 'Nem találhatóak kiterjesztések.',
+	'CLI_EXTENSIONS_AVAILABLE'			=> 'Elérhető',
+	'CLI_EXTENSIONS_DISABLED'			=> 'Letiltott',
+	'CLI_EXTENSIONS_ENABLED'			=> 'Engedélyezett',
 
-	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Az összes e-mail hash sikeresen újraszámításra került.', //bb31
+	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Az összes e-mail hash sikeresen újraszámításra került.',
 ));
 
 // Additional help for commands.

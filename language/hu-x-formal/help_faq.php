@@ -103,8 +103,8 @@ $help = array(
 		1 => 'A hozzászólások megtekintésénél a felhasználónév mellett két kép szerepelhet. Az egyik általában a rangodhoz kapcsolódik (ezek általában csillagok vagy más elemek formájában kerülnek megjelenítésre, a számuk mutatja mennyi hozzászólást küldtél eddig a fórumon, vagy hogy milyen státuszod van). A másik – általában egy nagyobb kép – az avatar, mely a legtöbb felhasználónak egyedi és személyes. A fórum adminisztrátorától függ, hogy engedélyezett-e az avatarok használata, illetve milyen módot lehet megadni ezt a képet. Ha nem tudsz avatart beállítani, lépj kapcsolatba egy adminisztrátorral, és tájékozódj nála az okokról.'
 	),
 	array(
-		0 => 'Hogyan tudok avatart megjeleníteni?', //bb31
-		1 => 'A felhasználói vezérlőpult “Profil” menüpontjában adhat meg avatart a következő módokon: Gravatar szolgáltatás használatával, avatar galériából történő választással, külső URL megadásával és feltöltéssel. A fórum adminisztrátorától függ, hogy engedélyezett-e az avatarok használta, illetve milyen módon lehet megadni ezt a képet. Ha nem tud avatart beállítani, lépjen kapcsolatba egy adminisztrátorral, és tájékozódjon nála az okokról.', //bb31
+		0 => 'Hogyan tudok avatart megjeleníteni?',
+		1 => 'A felhasználói vezérlőpult “Profil” menüpontjában adhat meg avatart a következő módokon: Gravatar szolgáltatás használatával, avatar galériából történő választással, külső URL megadásával és feltöltéssel. A fórum adminisztrátorától függ, hogy engedélyezett-e az avatarok használta, illetve milyen módon lehet megadni ezt a képet. Ha nem tud avatart beállítani, lépjen kapcsolatba egy adminisztrátorral, és tájékozódjon nála az okokról.',
 	),
 	array(
 		0 => 'Mi az a rang, hogyan tudom megváltoztatni a rangomat?',
@@ -308,16 +308,16 @@ $help = array(
 		1 => 'Feliratkozások és kedvencek'
 	),
 	array(
-		0 => 'Mi a különbség a kedvencekbe tétel és a feliratkozás között?', //bb31
+		0 => 'Mi a különbség a kedvencekbe tétel és a feliratkozás között?',
 		1 => 'A phpBB 3.0 kedvencek funkciója hasonlóan működött a böngészőjéhez. Nem került értesítésre, ha frissült a tartalom. A phpBB 3.1-ben viszont a kedvencekbe tétel a feliratkozáshoz hasonlít. Értesítésre kerülhet, ha a téma frissül. Feliratkozáskor, ezzel ellentétben, értesítésre kerül, amikor a téma vagy a fórum frissül. Az értesítési beállítások testreszabhatóak a felhasználói vezérlőpult „Fórum beállítások” menüpontjában.' //bb31
 	),
 	array(
-		0 => 'Hogyan tudok kedvencekbe tenni vagy feliratkozni egy témára?', //bb31
+		0 => 'Hogyan tudok kedvencekbe tenni vagy feliratkozni egy témára?',
 		1 => 'Kedvencekbe tehet vagy feliratkozhat egy témára a “Téma eszközök” menüpont megfelelő hivatkozására kattintva, ami általában a téma tetején és alján helyezkedik el.<br />A témára úgy is feliratkozhat, ha a “Értesítést kérek új válasz érkezésekor” opció bejelölésével küld új hozzászólást.' //bb31
 	),
 	array(
-		0 => 'Hogyan tudok feliratkozni egy fórumra?', //bb31
-		1 => 'Egy fórumra úgy tud feliratkozni, hogy a fórum oldalán alul a „Feliratkozás a fórumra” linkre kattint.', //bb31
+		0 => 'Hogyan tudok feliratkozni egy fórumra?',
+		1 => 'Egy fórumra úgy tud feliratkozni, hogy a fórum oldalán alul a „Feliratkozás a fórumra” linkre kattint.',
 	),
 	array(
 		0 => 'Hogyan tudok leiratkozni?',
@@ -356,7 +356,7 @@ $help = array(
 		1 => 'Sértő, illetve illegális tartalmak kapcsán az „A csapat” oldalon felsorolt adminisztrátorok közül kell egyet felkeresni. Ha nem kap választ, akkor a domain tulajdonosát (ezt kiderítheti egy ún. <a href="http://www.google.hu/search?q=whois&amp;meta=lr%3Dlang_hu">„whois  kereséssel”</a>). Ha a fórum egy ingyenes tárhelyen található, akkor azt a szolgáltatót értesítse. Kérjük, vegye figyelembe, hogy a phpBB Limited-nak és a Magyar phpBB Közösségnek semmilyen köze, hozzáférése vagy beleszólása nincs a fórumon olvasható tartalomhoz, ezért nem tehető semmilyen módon felelőssé amiatt, hogy ki mire használja ezt a fórumot.' // ez se "ugyanaz", mint az angol (~jogi szöveg ez is, az is :)
 	),
 	array(
-		0 => 'Hogyan vehetem fel a kapcsolatot a fórum adminisztrátorával?', //bb31
-		1 => 'A fórum minden felhasználója igénybe veheti a “Kapcsolat oldalt”, ha azt a fórum adminisztrátora engedélyezte.<br />A fórumtagok használhatják “A csapat” linket is.', //bb31 ?
+		0 => 'Hogyan vehetem fel a kapcsolatot a fórum adminisztrátorával?',
+		1 => 'A fórum minden felhasználója igénybe veheti a “Kapcsolat oldalt”, ha azt a fórum adminisztrátora engedélyezte.<br />A fórumtagok használhatják “A csapat” linket is.', //?
 	),
 );
