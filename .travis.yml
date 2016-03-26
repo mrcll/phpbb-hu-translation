@@ -17,8 +17,8 @@ matrix:
 
 env:
   global:
-    - PHPBB_BRANCH="3.1.x"
-    - PHPBB_VERSION="3.1"
+    - PHPBB_BRANCH="3.2.x"
+    - PHPBB_VERSION="3.2"
     - LANGUAGE_ISO="hu"
 
 sudo: false
