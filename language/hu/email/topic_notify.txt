@@ -1,4 +1,4 @@
-Subject: Témafigyelés értesítés - "{FORUM_NAME}"
+Subject: Témafigyelés értesítés - "{TOPIC_TITLE}"
 
 Kedves {USERNAME}!
 

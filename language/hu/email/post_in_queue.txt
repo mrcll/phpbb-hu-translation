@@ -8,6 +8,6 @@ Amennyiben meg szeretnéd tekinteni a hozzászólást, kattints a következő li
 {U_VIEW_POST}
 
 Amennyiben meg szeretnéd tekinteni a témát, kattints a következő linkre:
-{U_VIEW_TOPIC}
+{U_TOPIC}
 
 {EMAIL_SIG}

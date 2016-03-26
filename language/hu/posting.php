@@ -278,5 +278,5 @@ $lang = array_merge($lang, array(
 	'VIEW_PRIVATE_MESSAGE'		=> '%sElküldött privát üzenet megtekintése%s',
 
 	'WRONG_FILESIZE'			=> 'Az állomány túl nagy, a maximum megengedett méret %1$d %2$s.',
-	'WRONG_SIZE'				=> 'A képnek legalább %1$d szélesnek és %2$d magasnak kell lennie, valamint legfeljebb %3$d széles és %4$d magas lehet. A megadott kép %5$d széles, és %6$d magas.',
+	'WRONG_SIZE'				=> 'A képnek legalább %1$s szélesnek és %2$s magasnak kell lennie, valamint legfeljebb %3$s széles és %4$s magas lehet. A megadott kép %5$s széles, és %6$s magas.',
 ));

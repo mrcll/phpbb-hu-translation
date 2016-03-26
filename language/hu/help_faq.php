@@ -176,7 +176,7 @@ $help = array(
 	),
 	array(
 		0 => 'Mi az a BBCode?',
-		1 => 'A BBCode a HTML nyelv egy speciális változata, mely nagy teret enged egy szövegrészlet megformázásához. A BBCode használatának engedélyezése az adminisztrátortól függ, de neked is lehetőséged van ki- vagy bekapcsolni a hozzászólásaidnál. A BBCode hasonló felépítésű, mint a HTML, kivéve hogy a címkék nem kacsacsőrök között („<” , ill. „>”), hanem szögletes zárójelben („[”, ill. „]”) vannak. További információért lásd a BBCode útmutatót, melyet a hozzászólásküldő oldalról érhetsz el.'
+		1 => 'A BBCode a HTML nyelv egy speciális változata, mely nagy teret enged egy szövegrészlet megformázásához. A BBCode használatának engedélyezése az adminisztrátortól függ, de neked is lehetőséged van ki- vagy bekapcsolni a hozzászólásaidnál. A BBCode hasonló felépítésű, mint a HTML, kivéve hogy a címkék nem kacsacsőrök között („&lt;” , ill. „&gt;”), hanem szögletes zárójelben („[”, ill. „]”) vannak. További információért lásd a BBCode útmutatót, melyet a hozzászólásküldő oldalról érhetsz el.'
 	),
 	array(
 		0 => 'Használhatok HTML-t?',

@@ -90,7 +90,6 @@ $lang = array_merge($lang, array(
 	'ATTACHMENTS_EXPLAIN'			=> 'Az alábbi lista a fórumon a hozzászólásaidhoz csatolt állományokat tartalmazza.',
 	'ATTACHMENTS_DELETED'			=> 'A csatolmányok sikeresen törlésre kerültek.', //? sikeresen törlésrere kerültek??
 	'AUTOLOGIN_SESSION_KEYS_DELETED'=> 'A kiválasztott "Emlékezz rám" munkamenet bejegyzések sikeresen törlésre kerültek.',
-	'ATTACHMENTS_DELETED'			=> 'A csatolmányok sikeresen törlésre kerültek.', //? sikeresen törlésrere kerültek??
 	'ATTACHMENT_DELETED'			=> 'A csatolmány sikeresen törlésre került.', //? sikeresen törlésre kerültek??
 	'AVATAR_CATEGORY'				=> 'Kategória',
 	'AVATAR_DRIVER_GRAVATAR_TITLE'	=> 'Gravatar',
@@ -101,7 +100,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_DRIVER_REMOTE_EXPLAIN'	=> 'Linkelés az oldalon kívüli helyről.',
 	'AVATAR_DRIVER_UPLOAD_TITLE'	=> 'Avatar feltöltése',
 	'AVATAR_DRIVER_UPLOAD_EXPLAIN'	=> 'Saját avatar képed feltöltése számítógépről.',
-	'AVATAR_EXPLAIN'				=> 'Maximális méret: szélesség %1$d, magasság %2$d, állomány mérete %3$.2f KiB.',
+	'AVATAR_EXPLAIN'				=> 'Maximális méret: szélesség %1$s, magasság %2$s, állomány mérete %3$.2f KiB.',
 	'AVATAR_FEATURES_DISABLED'		=> 'Az avatarok funkció jelenleg ki van kapcsolva.',
 	'AVATAR_GALLERY'				=> 'Helyi galéria', //?
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'Nem sikerült feltölteni az avatart a következő helyre: %s.',
@@ -239,8 +238,8 @@ $lang = array_merge($lang, array(
 	'FOLDER_RENAMED'			=> 'A mappa sikeresen átnevezésre került.',
 	'FOLDER_REMOVED'			=> 'A mappa sikeresen törlésre került.',
 	'FOLDER_STATUS_MSG'			=> array(
-		1	=> 'A mappa %3$d%%-a telt meg (%2$d / %1$d üzenet).',
-		2	=> 'A mappa %3$d%%-a telt meg (%2$d / %1$d üzenet).',
+		1	=> 'A mappa %3$d%%-a telt meg (%2$d / %1$s üzenet).',
+		2	=> 'A mappa %3$d%%-a telt meg (%2$d / %1$s üzenet).',
 	),
 	'FORWARD_PM'				=> 'PÜ továbbítása',
 	'FORCE_PASSWORD_EXPLAIN'	=> 'Mielőtt továbbléphetnél a fórumon, meg kell változtatnod a jelszavad.',
@@ -311,8 +310,8 @@ $lang = array_merge($lang, array(
 	'MOVE_DOWN'						=> 'Lejjebb', //? "Move down"
 	'MOVE_MARKED_TO_FOLDER'			=> 'Kijelöltek áthelyezése: %s', //?
 	'MOVE_PM_ERROR'					=> array(
-		1	=> 'Hiba lépett fel az üzenetek áthelyezése közben, a %1d üzenetből csak %2d darabot sikerült áthelyezni.', // 'An error occurred while moving the messages to the new folder, only %2$d out of %1$s was moved.'
-		2	=> 'Hiba lépett fel az üzenetek áthelyezése közben, a %1d üzenetből csak %2d darabot sikerült áthelyezni.',
+		1	=> 'Hiba lépett fel az üzenetek áthelyezése közben, a %1$s üzenetből csak %2$d darabot sikerült áthelyezni.', // 'An error occurred while moving the messages to the new folder, only %2$d out of %1$s was moved.'
+		2	=> 'Hiba lépett fel az üzenetek áthelyezése közben, a %1$s üzenetből csak %2$d darabot sikerült áthelyezni.',
 	),
 	'MOVE_TO_FOLDER'				=> 'Áthelyezés', //? "Move to folder"
 	'MOVE_UP'						=> 'Feljebb',
@@ -405,10 +404,10 @@ $lang = array_merge($lang, array(
 	'NO_WATCHED_SELECTED'		=> 'Nem választottál ki egy témát vagy fórumot se, melyre fel vagy iratkozva.',
 	'NO_WATCHED_TOPICS'			=> 'Nem iratkoztál fel egy témára se.',
 
-	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'A jelszó hosszának %1$d és %2$d között kell lennie, szerepelnie kell benne kis- és nagybetűknek egyaránt, valamint tartalmaznia kell számokat.',
-	'PASS_TYPE_ANY_EXPLAIN'		=> 'A hosszának %1$d és %2$d között kell lennie.', //?
-	'PASS_TYPE_CASE_EXPLAIN'	=> 'A jelszó hosszának %1$d és %2$d között kell lennie, valamint szerepelnie kell benne kis- és nagybetűknek egyaránt.',
-	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'A jelszó hosszának %1$d és %2$d között kell lennie, szerepelnie kell benne kis- és nagybetűknek egyaránt, valamint tartalmaznia kell számokat és speciális karaktereket is.', //? symbols = speciális karakterek? gondolom...
+	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'A jelszó hosszának %1$s és %2$s között kell lennie, szerepelnie kell benne kis- és nagybetűknek egyaránt, valamint tartalmaznia kell számokat.',
+	'PASS_TYPE_ANY_EXPLAIN'		=> 'A hosszának %1$s és %2$s között kell lennie.', //?
+	'PASS_TYPE_CASE_EXPLAIN'	=> 'A jelszó hosszának %1$s és %2$s között kell lennie, valamint szerepelnie kell benne kis- és nagybetűknek egyaránt.',
+	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'A jelszó hosszának %1$s és %2$s között kell lennie, szerepelnie kell benne kis- és nagybetűknek egyaránt, valamint tartalmaznia kell számokat és speciális karaktereket is.', //? symbols = speciális karakterek? gondolom...
 	'PASSWORD'					=> 'Jelszó',
 	'PASSWORD_ACTIVATED'		=> 'Az új jelszavad aktiválásra került.',
 	'PASSWORD_UPDATED'			=> 'Az új jelszavad elküldésre került az e-mail címedre.',

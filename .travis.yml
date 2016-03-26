@@ -1,0 +1,52 @@
+#
+# This file is based on the .travis.yml from maelsoucaze/phpbb-language-fr
+#
+language: php
+
+php:
+  - 5.3.3
+  - 5.4
+  - 5.5
+  - 5.6
+  - 7.0
+
+matrix:
+  allow_failures:
+    - php: 7.0
+  fast_finish: true
+
+env:
+  global:
+    - PHPBB_BRANCH="3.1.x"
+    - PHPBB_VERSION="3.1"
+    - LANGUAGE_ISO="hu"
+
+sudo: false
+
+install:
+  - mkdir -p $PHPBB_VERSION/$LANGUAGE_ISO
+  - mkdir -p $PHPBB_VERSION/${LANGUAGE_ISO}_x_formal
+  - mkdir -p $PHPBB_VERSION/en/language
+  - mkdir -p $PHPBB_VERSION/en/styles/prosilver/theme
+  - cp LICENSE language/$LANGUAGE_ISO
+  - cp LICENSE language/${LANGUAGE_ISO}_x_formal
+  - cp -R language $PHPBB_VERSION/$LANGUAGE_ISO
+  - rm -R $PHPBB_VERSION/$LANGUAGE_ISO/language/${LANGUAGE_ISO}_x_formal
+  - mv language $PHPBB_VERSION/${LANGUAGE_ISO}_x_formal
+  - rm -R $PHPBB_VERSION/${LANGUAGE_ISO}_x_formal/language/$LANGUAGE_ISO
+  - cp -R styles $PHPBB_VERSION/$LANGUAGE_ISO
+  - rm -R $PHPBB_VERSION/$LANGUAGE_ISO/styles/prosilver/theme/${LANGUAGE_ISO}_x_formal
+  - mv styles $PHPBB_VERSION/${LANGUAGE_ISO}_x_formal
+  - rm -R $PHPBB_VERSION/${LANGUAGE_ISO}_x_formal/styles/prosilver/theme/$LANGUAGE_ISO
+  - git clone "https://github.com/phpbb/phpbb.git" --branch=$PHPBB_BRANCH
+  - cd phpbb && git fetch --tags && export LATEST_TAG=$(git describe --abbrev=0) && git checkout $LATEST_TAG && cd ..
+  - mv phpbb/phpBB/language/en $PHPBB_VERSION/en/language
+  - mv phpbb/phpBB/styles/prosilver/theme/en $PHPBB_VERSION/en/styles/prosilver/theme
+  - composer install --no-interaction --prefer-source
+
+script:
+  - php vendor/bin/PhpbbTranslationValidator.php validate --phpbb-version=$PHPBB_VERSION $LANGUAGE_ISO --display-notices
+  - php vendor/bin/PhpbbTranslationValidator.php validate --phpbb-version=$PHPBB_VERSION ${LANGUAGE_ISO}_x_formal --display-notices
+
+notifications:
+  email: false
