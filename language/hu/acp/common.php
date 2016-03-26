@@ -556,9 +556,9 @@ $lang = array_merge($lang, array(
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Téma jóváhagyása</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>Téma előreugrasztása</strong><br />» %s',
-	'LOG_DELETE_POST'			=> '<strong>“%2$s” által írt “%1$s” hozzászólás törlése a következő indokkal</strong><br />» %3$s', '<strong>Hozzászólás törlése</strong><br />» %s',
+	'LOG_DELETE_POST'			=> '<strong>“%2$s” által írt “%1$s” hozzászólás törlése a következő indokkal</strong><br />» %3$s', // '<strong>Hozzászólás törlése</strong><br />» %s',
 	'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Árnyék téma törlése</strong><br />» %s',
-	'LOG_DELETE_TOPIC'			=> '<strong>“%2$s” által írt “%1$s” téma törlése a következő indokkal</strong><br />» %3$s', '<strong>Téma törlése</strong><br />» %s',
+	'LOG_DELETE_TOPIC'			=> '<strong>“%2$s” által írt “%1$s” téma törlése a következő indokkal</strong><br />» %3$s', // '<strong>Téma törlése</strong><br />» %s',
 	'LOG_FORK'					=> '<strong>Téma másolása</strong><br />» %s',
 	'LOG_LOCK'					=> '<strong>Téma lezárása</strong><br />» %s',
 	'LOG_LOCK_POST'				=> '<strong>Hozzászólás lezárása</strong><br />» %s',
