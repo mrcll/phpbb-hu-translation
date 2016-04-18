@@ -673,7 +673,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_POSTS_BY'			=> 'Hozzászólások keresése:',
 	'SEARCH_SELF'				=> 'Saját hozzászólásaim',
 	'SEARCH_TOPIC'				=> 'Keresés a témában…',
-	'SEARCH_UNANSWERED'			=> 'Megválaszolatlan hozzászólások',
+	'SEARCH_UNANSWERED'			=> 'Megválaszolatlan témák',
 	'SEARCH_UNREAD'				=> 'Olvasatlan hozzászólások megtekintése',
 	'SEARCH_USER_POSTS'			=> 'Felhasználó hozzászólásainak megtekintése',
 	'SECONDS'					=> 'másodperc',
@@ -815,7 +815,7 @@ $lang = array_merge($lang, array(
 	),
 	'USERS'					=> 'Felhasználók',
 	'USE_PERMISSIONS'		=> 'Felhasználó jogosultságainak kipróbálása',
-	'USER_NEW_PERMISSION_DISALLOWED'	=> 'Sajnáljuk, de nincs jogosultságod ezen funkció használatához. Még csak most regisztrálhattál, lehet hogy több aktivitást kell felmutatnod, hogy használhasd ezt a funkciót.',
+	'USER_NEW_PERMISSION_DISALLOWED'	=> 'Sajnáljuk, de nincs jogosultságod ezen funkció használatához. Még csak most regisztrálhattál, lehet hogy több aktivitást kell felmutatnod a fórumon zajló társalgásban, hogy használhasd ezt a funkciót.', // ?
 
 	'VARIANT_DATE_SEPARATOR'	=> ' / ',	// Used in date format dropdown, eg: "Today, 13:37 / 01 Jan 2007, 13:37" ... to join a relative date with calendar date
 	'VIEWED'					=> 'Megtekintve',

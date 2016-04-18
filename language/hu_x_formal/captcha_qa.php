@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2015 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2016 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -43,6 +43,7 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_QA'				=> 'Kérdés és válasz',
 	'CONFIRM_QUESTION_EXPLAIN'	=> 'A kérdés a robotok általi automatikus űrlapküldés megakadályozását szolgálja.',
 	'CONFIRM_QUESTION_WRONG'	=> 'Hibás választ adott meg a kérdésre.',
+	'CONFIRM_QUESTION_MISSING'	=> 'A captcha kérdéseket nem sikerült lekérni. Kérjük, vedd fel a kapcsolatot a fórum adminisztrátorával.',
 
 	'QUESTION_ANSWERS'			=> 'Válaszok',
 	'ANSWERS_EXPLAIN'			=> 'Add meg az elfogadható válaszokat, mindegyiket külön sorba.',
@@ -63,5 +64,4 @@ $lang = array_merge($lang, array(
 
 	'QA_ERROR_MSG'				=> 'Kérünk, töltsd ki az összes mezőt, és adj meg legalább egy választ.',
 	'QA_LAST_QUESTION'			=> 'Nem törölheted az összes kérdést, amíg a bővítmény aktív.',
-
 ));
