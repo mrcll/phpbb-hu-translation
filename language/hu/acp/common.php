@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2015 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2016 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -600,6 +600,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_ERROR_JABBER'		=> '<strong>Jabber hiba</strong><br />» %s',
 	'LOG_ERROR_EMAIL'		=> '<strong>E-mail hiba</strong><br />» %s',
+	'LOG_ERROR_CAPTCHA'		=> '<strong>CAPTCHA hiba</strong><br />» %s',
 
 	'LOG_FORUM_ADD'							=> '<strong>Új fórum létrehozása</strong><br />» %s',
 	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>Fórum jogosultságok másolása</strong> a %1$s fórumból<br />» %2$s',

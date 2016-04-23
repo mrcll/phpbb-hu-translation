@@ -8,10 +8,10 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2015 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2016 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
-* $Id: common.php 271 2014-10-24 16:03:05Z marcee $
+* $Id$
 */
 
 /**
@@ -581,7 +581,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_TOPIC_APPROVED'		=> '<strong>Téma jóváhagyása</strong><br />» %s',
 	'LOG_TOPIC_RESTORED'		=> '<strong>Téma visszaállítása</strong><br />» %s',
-	'LOG_TOPIC_DISAPPROVED'		=> '<strong>“%3$s” által írt „%1$s” téma elutasításra került</strong><br />ok: %2$s',
+	'LOG_TOPIC_DISAPPROVED'		=> '<strong>„%3$s” által nyitott „%1$s” téma elutasítása</strong><br />ok: %2$s',
 	'LOG_TOPIC_RESYNC'			=> '<strong>Téma újraszinkronizálása</strong><br />» %s', //?
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>Téma típusának megváltoztatása</strong><br />» %s',
 	'LOG_UNLOCK'				=> '<strong>Téma megnyitása</strong><br />» %s',
@@ -600,6 +600,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_ERROR_JABBER'		=> '<strong>Jabber hiba</strong><br />» %s',
 	'LOG_ERROR_EMAIL'		=> '<strong>E-mail hiba</strong><br />» %s',
+	'LOG_ERROR_CAPTCHA'		=> '<strong>CAPTCHA hiba</strong><br />» %s',
 
 	'LOG_FORUM_ADD'							=> '<strong>Új fórum létrehozása</strong><br />» %s',
 	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>Fórum jogosultságok másolása</strong> a %1$s fórumból<br />» %2$s',
