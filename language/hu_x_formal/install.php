@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2015 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2016 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -47,7 +47,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_TEST'				=> 'Adminisztrátor adatok ellenőrzése',
 	'ADMIN_USERNAME'			=> 'Adminisztrátor felhasználónév',
 	'ADMIN_USERNAME_EXPLAIN'	=> '3 és 20 karakter közötti felhasználónevet adj meg.',
-	'APP_MAGICK'				=> 'Imagemagick támogatás [ csatolmányok ]',
+	'APP_MAGICK'				=> 'ImageMagick támogatás [ csatolmányok ]',
 	'AUTHOR_NOTES'				=> 'Készítő megjegyzései<br />» %s',
 	'AVAILABLE'					=> 'Elérhető',
 	'AVAILABLE_CONVERTORS'		=> 'Elérhető konvertálók', //? elérhető
@@ -283,7 +283,7 @@ $lang = array_merge($lang, array(
 	'NOT_UNDERSTAND'			=> 'Nem sikerült értelmezni: %s #%d, %s tábla („%s”).',
 	'NO_CONVERTORS'				=> 'Nincs elérhető konvertáló.', //? "No convertors are available for use" használható
 	'NO_CONVERT_SPECIFIED'		=> 'Nem került konvertáló kiválasztásra.', //? "No convertor specified"
-	'NO_LOCATION'				=> 'Nem sikerült meghatározni a helyét. Ha tudod, hogy az Imagemagick telepítve van, később megadhatod az elérési helyét az adminisztrátori vezérlőpultban.', //? elérési hely stb.
+	'NO_LOCATION'				=> 'Nem sikerült meghatározni a helyét. Ha tudod, hogy az ImageMagick telepítve van, később megadhatod az elérési helyét az adminisztrátori vezérlőpultban.', //? elérési hely stb.
 	'NO_TABLES_FOUND'			=> 'Nem találhatók adatbázistáblák.',
 	'OVERVIEW_BODY'				=> 'Üdvözlünk a phpBB3-ban!<br /><br />A phpBB® a legelterjedtebb nyílt forrású fórumrendszer a világon. A phpBB3 a 2000-ben kezdődött fejlesztés legfrissebb eleme, mely az elődeihez hasonlóan funkciógazdag, felhasználóbarát és teljes mértékben támogatott a phpBB Team által. A phpBB3 nagyot lép előre a phpBB2-t népszerűvé tevő területeken, számos általánosan kívánt funkciót tesz elérhetővé, melyek a korábbi verziókban nem voltak jelen. Reméljük, meghaladja várakozásaidat.<br /><br />Ez a telepítőrendszer végig fog vezetni a phpBB3 telepítésén, a phpBB3 legújabb verziójára való frissítésén, valamint más fórumrendszer phpBB3-ra való konvertálásán (beleértve a phpBB2-t). További információért, bátorítunk, hogy olvasd el az (angol nyelvű) <a href="../docs/INSTALL.html">telepítési útmutatót</a>.<br /><br />A phpBB3 licencének megtekintéséhez, a támogatás elérésének helyéhez, ill. a phpBB Team ehhez való hozzáállásának megismeréséhez, válaszd ki a megfelelő elemet az oldalsó menüből. A folytatáshoz, kérjük, válaszd ki fentebb a megfelelő fület.', //? átnézendő
 
@@ -301,10 +301,10 @@ $lang = array_merge($lang, array(
 	'PHP_REGISTER_GLOBALS_EXPLAIN'	=> 'A phpBB akkor is működni fog, ha ez a beállítás be van kapcsolva, azonban biztonsági szempontból ajánlott a kikapcsolása.',
 	'PHP_SAFE_MODE'					=> 'Biztonságos mód', //? ennek ez a magyar fordítása?
 	'PHP_SETTINGS'					=> 'PHP verzió és beállítások',
-	'PHP_SETTINGS_EXPLAIN'			=> '<strong>Szükséges</strong> – A phpBB telepítéséhez legalább 5.3.3-as verziójú PHP-val kell rendelkezned. Ha alább megjelenik a <var>biztonságos mód</var> felirat, akkor a PHP ebben a módban fut. Ez korlátozásokkal jár a távoli adminisztráció és ehhez hasonló funkciók terén.', //? Szükséges a szöveg elején... távoli adminisztráció...
+	'PHP_SETTINGS_EXPLAIN'			=> '<strong>Szükséges</strong> – A phpBB telepítéséhez legalább 5.3.3-as verziójú PHP-val kell rendelkezned (a PHP 7-es verziója nem támogatott). Ha alább megjelenik a <var>biztonságos mód</var> felirat, akkor a PHP ebben a módban fut. Ez korlátozásokkal jár a távoli adminisztráció és ehhez hasonló funkciók terén.', //? Szükséges a szöveg elején... távoli adminisztráció...
 	'PHP_URL_FOPEN_SUPPORT'			=> '<var>allow_url_fopen</var> PHP beállítás bekapcsolva',
 	'PHP_URL_FOPEN_SUPPORT_EXPLAIN'	=> '<strong>Opcionális</strong> – Ez a beállítás opcionális, bár a phpBB néhány funkciója, mint például a külső avatarok, nem fog rendesen működni nélküle.',
-	'PHP_VERSION_REQD'				=> 'PHP verzió ≥ 5.3.3',
+	'PHP_VERSION_REQD'				=> 'PHP verzió ≥ 5.3.3, < 7.0.0-dev',
 	'POST_ID'						=> 'Hozzászólás azonosító', //? ID?
 	'PREFIX_FOUND'					=> 'Az adatbázistábláid azt mutatják, hogy van már egy telepített phpBB-d, melynek a tábla előtagja <strong>%s</strong>.',
 	'PREPROCESS_STEP'				=> 'Függvények/parancsok előfeldolgozásának végrehajtása', //? " Executing pre-processing functions/queries"
@@ -402,6 +402,7 @@ $lang = array_merge($lang, array(
 	'DATABASE_UPDATE_CONTINUE'			=> 'Adatbázis frissítésének folytatása',
 	'DATABASE_UPDATE_INFO_OLD'			=> 'Az install könyvtárban található adatbázis-frissítő állomány nem a legújabb. Kérünk, győződj meg róla, hogy a jó verzióját töltötted fel az állománynak.', //? "The database update file within the install directory is outdated. Please make sure you uploaded the correct version of the file."
 	'DATABASE_UPDATE_NOT_COMPLETED'		=> 'Az adatbázis frissítése még nem fejeződött be.',
+	'DATABASE_VERSION'					=> 'Adatbázis verzió',
 	'DELETE_USER_REMOVE'				=> 'Felhasználó törlése és hozzászólásainak eltávolítása',
 	'DELETE_USER_RETAIN'				=> 'Felhasználó törlése de hozzászólásainak megtartása',
 	'DESTINATION'						=> 'Célállomány',
@@ -441,6 +442,7 @@ $lang = array_merge($lang, array(
 	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'A következő állományok nem lettek módosítva, megegyeznek a phpBB azon verziójú állományaival, melyről frissíteni szeretnél.',
 	'FILES_UP_TO_DATE'				=> 'Már frissített állományok',
 	'FILES_UP_TO_DATE_EXPLAIN'		=> 'A következő állományok már a legújabb verziójúak, ezért nem kell frissíteni őket.',
+	'FILES_VERSION'					=> 'Állományok verziója', //? Files version
 	'FTP_SETTINGS'					=> 'FTP beállítások',
 	'FTP_UPDATE_METHOD'				=> 'FTP feltöltés',
 
@@ -488,6 +490,7 @@ $lang = array_merge($lang, array(
 	'OLD_UPDATE_FILES'		=> 'A frissítő állományok elavultak. A phpBB %1$s verzióról %2$s verzióra való frissítésre szolgálnak, de a phpBB legújabb verziója a %3$s.',
 
  	'PACKAGE_UPDATES_TO'				=> 'A jelenlegi csomag a következő verzióra frissít',
+	'PACKAGE_VERSION'					=> 'Telepített csomag verziója', //? Package version installed
 	'PERFORM_DATABASE_UPDATE'			=> 'Adatbázis-frissítés végrehajtása',
 	'PERFORM_DATABASE_UPDATE_EXPLAIN'	=> 'Alább találsz egy linket az adatbázis-frissítő szkriptre. Az adatbázis-frissítés eltarthat egy ideig, tehát kérjük, ne állítsd le a szkript futattását, akkor se, ha az megakadni látszik. Miután elvégezted az adatbázis-frissítést, zárd be az ablakot, és folytasd a frissítés folyamatát.',
 	'PREVIOUS_VERSION'					=> 'Előző verzió',
@@ -532,6 +535,11 @@ $lang = array_merge($lang, array(
 	'UPDATE_DATABASE_SCHEMA'		=> 'Adatbázis-szerkezet frissítése',
 	'UPDATE_FILES'					=> 'Állományok frissítése',
 	'UPDATE_FILES_NOTICE'			=> 'Kérünk, győződj meg róla, hogy a phpBB állományait is frissítetted, ez az állomány csak az adatbázist frissíti.',
+	'UPDATE_INCOMPLETE'				=> 'A telepített phpBB nem lett megfelelően frissítve.',
+	'UPDATE_INCOMPLETE_MORE'		=> 'Kérünk, olvasd el a lenti információkat a probléma javításához.',
+	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Részleges frissítés</h1>
+
+		<p>Észrevettük, hogy a phpBB legutóbbi frissítése nem fejeződött be. Nyisd meg az <a href="%1$s" title="%1$s">adatbázist frissítő szkriptet</a> és futtasd le. Ha hiányozna, akkor <a href="https://www.phpbb.com/downloads/" title="phpBB letöltések">tölsd le a megfelelő verziót</a>, tölsd fel a phpBB telepítésed "install" köynvtárába (ahol a config.php fájl van) és <a href="%1$s" title="%1$s">futtasd le az adatbázis frissítőt</a>.</p>',
 	'UPDATE_INSTALLATION'			=> 'A phpBB frissítése',
 	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Itt frissítheted a phpBB-d a legújabb verzióra.<br />A frissítés folyamata során minden állomány ellenőrzésre kerül. A tényleges frissítés előtt minden különbséget átnézhetsz.<br /><br />Maga az állományok frissítése két módon végezhető el.</p><h2>Kézi frissítés</h2><p>Ezen frissítési mód használatakor csak a saját megváltozott állományaidat töltöd le, így meggyőződhetsz róla, hogy nem vesztesz el semmilyen módosítást, amit csinálhattál. Miután letöltötted ezt a csomagot, a benne lévő állományokat fel kell töltened a phpBB-d gyökérkönyvtárába, a megfelelő helyükre. Ezután mégegyszer összevetheted az állományokat, hogy leellenőrizd, a megfelelő helyre töltötted fel őket.</p><h2>Automatikus frissítés FTP-vel</h2><p>Ez a frissítési mód hasonló az előbbihez, azonban ennél nem kell saját magadnak letöltened, majd feltöltened a megváltozott állományokat – ezt megteszi a phpBB. Ezen mód használatához ismerned kell az FTP-belépéshez szükséges dolgokat, mivel egy űrlapon meg kell adnod ezeket. Miután ezt befejezted, át leszel irányítva az állományok összevetéséhez, hogy meggyőződhess, minden sikeresen frissítésre került.<br /><br />', //?
 	'UPDATE_INSTRUCTIONS'			=> '

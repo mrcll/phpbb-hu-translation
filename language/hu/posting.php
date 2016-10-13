@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2015 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2016 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -92,15 +92,21 @@ $lang = array_merge($lang, array(
 	'DELETE_OWN_POSTS'			=> 'Csak a saját hozzászólásaidat törölheted.',
 	'DELETE_PERMANENTLY'		=> 'Végleges törlés',
 	'DELETE_POST_CONFIRM'		=> 'Biztosan törölni akarod ezt a hozzászólást?',
-	'DELETE_POST_PERMANENTLY_CONFIRM'	=> 'Biztosan <strong>véglegesen</strong> törölni akarod ezt a hozzászólást?',
-	'DELETE_POST_PERMANENTLY'	=> 'Hozzászólás végleges törlése, így az nem lesz visszaállítható',
+	'DELETE_POST_PERMANENTLY_CONFIRM'	=> 'Biztosan <strong>véglegesen</strong> törölni akarod ezt a hozzászólást?',	
+	'DELETE_POST_PERMANENTLY'	=> array(
+		1	=> 'Hozzászólás végleges törlése, így az nem lesz visszaállítható',
+		2	=> '%1$d hozzászólás végleges törlése, így azok nem lesznek visszaállíthatóak',
+	),
 	'DELETE_POSTS_CONFIRM'		=> 'Biztosan törölni akarod ezeket a hozzászólásokat?',
 	'DELETE_POSTS_PERMANENTLY_CONFIRM'	=> 'Biztosan <strong>véglegesen</strong> törölni akarod ezeket a hozzászólásokat?',
 	'DELETE_REASON'				=> 'Törlés indoka',
 	'DELETE_REASON_EXPLAIN'		=> 'A törlés indoka látható lesz a moderátoroknak.',
 	'DELETE_POST_WARN'			=> 'Hozzászólás törlése',
-	'DELETE_TOPIC_CONFIRM'		=> 'Biztosan törölni akarod ezt a témát?',
-	'DELETE_TOPIC_PERMANENTLY'	=> 'Téma végleges törlése, így az nem visszaállítható',
+	'DELETE_TOPIC_CONFIRM'		=> 'Biztosan törölni akarod ezt a témát?',	
+	'DELETE_TOPIC_PERMANENTLY'	=> array(
+		1	=> 'Téma végleges törlése, így az nem lesz visszaállítható',
+		2	=> '%1$d téma végleges törlése, így azok nem lesznek visszaállíthatóak',
+	),
 	'DELETE_TOPIC_PERMANENTLY_CONFIRM'	=> 'Biztosan <strong>véglegesen</strong> törölni akarod ezt a témát?',
 	'DELETE_TOPICS_CONFIRM'		=> 'Biztosan törölni akarod ezeket a témákat?',
 	'DELETE_TOPICS_PERMANENTLY_CONFIRM'	=> 'Biztosan <strong>véglegesen</strong> törölni akarod ezeket a témákat?',
