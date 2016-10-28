@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2015 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2016 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -53,6 +53,7 @@ $lang = array_merge($lang, array(
 	'MIGRATION_NOT_FULFILLABLE'			=> 'A "%1$s" migráció nem hajtható végre, mert hiányzik a "%2$s" migráció.',
 	'MIGRATION_NOT_VALID'				=> '%s egy érvénytelen migráció.',
 	'MIGRATION_SCHEMA_DONE'				=> 'Telepített séma: %1$s; Idő: %2$.2f másodperc',
+	'MIGRATION_SCHEMA_IN_PROGRESS'		=> 'Séma telepítése: %1$s; Idő: %2$.2f másodperc',
 	'MIGRATION_SCHEMA_RUNNING'			=> 'Séma telepítése: %s.',
 
 	// Az angol fordítások szándékosan maradtak benne, hogy megkönnyítsék a hibakeresést
@@ -64,9 +65,12 @@ $lang = array_merge($lang, array(
 	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'A migráció érvénytelen. Nem meghatározott metódus. [An undefined migration tool method was encountered.]', //?
 
 	'MODULE_ERROR'						=> 'Hiba történt a modul létrehozása közben: %s', //?
+	'MODULE_EXISTS'						=> 'A következő modul már létezik: %s',
+	'MODULE_EXIST_MULTIPLE'				=> 'Több modul is létezik a szülő modul langname-jével: %s. Próbáld meg használni a before/after key-eket a modul elhelyezésének egyértelműbbé tételére.', //? Several modules with the given parent module langname already exist: %s. Try using before/after keys to clarify the module placement.
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Szükséges modul információs állomány nem létezik: %2$s',
 	'MODULE_NOT_EXIST'					=> 'Szükséges modul nem létezik: %s',
 
+	'PARENT_MODULE_FIND_ERROR'			=> 'Nem sikerült megállapítani a szülő modul azonosítóját: %s', //? parent module identifier
 	'PERMISSION_NOT_EXIST'				=> 'A "%s" jogosultság beállítás nem létezik.',
 
 	'ROLE_NOT_EXIST'					=> 'A "%s" jogosultság szerep nem létezik.',

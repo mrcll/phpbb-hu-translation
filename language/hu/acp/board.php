@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2015 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2016 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -582,6 +582,7 @@ $lang = array_merge($lang, array(
 	'SMTP_PORT'						=> 'SMTP szerver port',
 	'SMTP_PORT_EXPLAIN'				=> 'Csak akkor változtasd meg, ha tudod, hogy az SMTP szerver más porton van.',
 	'SMTP_SERVER'					=> 'SMTP szerver cím',
+	'SMTP_SERVER_EXPLAIN'			=> 'Meg kell adnod a használt protokollt is. Ha SSL-t használsz, akkor "ssl://your.mailserver.com" formában add meg.',
 	'SMTP_SETTINGS'					=> 'SMTP beállítások',
 	'SMTP_USERNAME'					=> 'SMTP felhasználónév',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Csak akkor adj meg felhasználónevet, ha a használt SMTP szerver megköveteli.',
