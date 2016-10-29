@@ -228,12 +228,26 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'Vissza',
 
+	'CANNOT_CHANGE_FILE_GROUP'	=> 'Nem sikerült módosítani fájl tulajdonos csoportját',
+	'CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'Nem sikerült módosítani fájl jogosultságait',
+	'CANNOT_COPY_FILES'		=> 'Nem sikerült a fájlok másolása',
+	'CANNOT_CREATE_SYMLINK'	=> 'Nem sikerült szimbolikus linket létrehozni',
+	'CANNOT_DELETE_FILES'	=> 'Nem sikerült a fájlok törlése',
+	'CANNOT_DUMP_FILE'		=> 'Nem sikerült a fájl kiírása',
+	'CANNOT_MIRROR_DIRECTORY'	=> 'Nem sikerült a könyvtár tükrözése',
+	'CANNOT_RENAME_FILE'	=> 'Nem sikerült a fájl átnevezése',
+	'CANNOT_TOUCH_FILES'	=> 'Nem sikerült meghatározni, hogy a file létezik-e',
+
+	'CONTAINER_EXCEPTION' => 'A phpBB hibát észlelt a konténer építése közben egy telepített kiegészítő miatt, ezért az összes kiegészítő átmenetileg letiltásra került. Próbáld meg üríteni a gyorsítótárat. Minden kiegészítő újra engedélyezésre kerül, amint a konténer sikeresen létrejön. Ha a hiba ezek után is fennállna, segítségért keresd fel a <a href="http://phpbb.hu/forum">Magyar phpBB közösség fórumát</a>.',
+	'EXCEPTION' => 'Rendszer kivétel',
+
 	'COLOUR_SWATCH'			=> 'Webbiztos színválasztó',
 	'CONFIG_UPDATED'		=> 'A konfiguráció sikeresen frissítésre került.', //?
 	'CRON_LOCK_ERROR'		=> 'Nem sikerült a cron lock megszerzése.', //? Could not obtain cron lock
 	'CRON_NO_SUCH_TASK'		=> '“%s” ütemezett feladat nem található.',
 	'CRON_NO_TASK'			=> 'Nincs futtatandó ütemezett feladat.',
 	'CRON_NO_TASKS'			=> 'Nem található ütemezett feladat.',
+	'CURRENT_VERSION'		=> 'Jelenlegi verzió',
 
 	'DEACTIVATE'				=> 'Deaktiválás',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'A megadott „%s” elérési út nem létezik.',
@@ -259,6 +273,7 @@ $lang = array_merge($lang, array(
 	'IP'					=> 'Felhasználó IP-je',
 	'IP_HOSTNAME'			=> 'IP-címek vagy hosztnevek', //? egyesszám?
 
+	'LATEST_VERSION'		=> 'Legfrissebb verzió',
 	'LOAD_NOTIFICATIONS'			=> 'Értesítések megjelenítése',
 	'LOAD_NOTIFICATIONS_EXPLAIN'	=> 'Értesítések megjelenítése minden oldalon (általában a fejlécben).',
 	'LOGGED_IN_AS'			=> 'Bejelentkezve:', //? "You are logged in as:" 'Bejelentkeztél, mint', 'Be vagy lépve, mint', 'Bejelentkezve, mint'
@@ -291,8 +306,10 @@ $lang = array_merge($lang, array(
 	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Jelenleg %1$s jogosultságaival rendelkezel. A fórumot ezen felhasználó jogosultságaival böngészheted, viszont nem férhetsz hozzá az adminisztrációs vezérlőpulthoz, mivel adminisztrátori jogosultságok nem kerültek átruházásra. <a href="%2$s"><strong>Bármikor visszatérhetsz a saját jogosultságaidhoz.</strong></a>',
 	'PROCEED_TO_ACP'					=> '%sTovább az AVP-hoz%s',
 
-	'REMIND'							=> 'Emlékeztetés',
-	'RESYNC'							=> 'Újraszinkronizálás',
+	'RELEASE_ANNOUNCEMENT'	=> 'Bejelentés',
+	'REMIND'				=> 'Emlékeztetés',
+	'REPARSE_LOCK_ERROR'	=> 'Az újraformázó folyamat már fut egy másik folyamatból.',
+	'RESYNC'				=> 'Újraszinkronizálás',
 	'RUNNING_TASK'			=> 'Futó feladat: %s.',
 
 	'SELECT_ANONYMOUS'		=> 'Vendég felhasználó kiválasztása',
@@ -423,6 +440,11 @@ $lang = array_merge($lang, array(
 	'VALUE'						=> 'Érték',
 	'VERSIONCHECK_FAIL'			=> 'Nem sikerült lekérni a legújabb verzióval kapcsolatos információkat.',
 	'VERSIONCHECK_FORCE_UPDATE'	=> 'Verzió ellenőrzése újra',
+	'VERSION_CHECK'				=> 'Verzió ellenőrzése',
+	'VERSION_CHECK_EXPLAIN'		=> 'Ellenőrizd, hogy a phpBB verziód az elérhető legfrissebb-e.',
+	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'A phpBB verziódhoz újabb frissítések érhetőek el.<br />A lentebbi linken az újabb verzió bejelentését és a frissítéshez szükséges instrukciókat találod.',
+	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'A phpBB verziódhoz újabb frissítések érhetőek el.',
+	'VERSION_UP_TO_DATE_ACP'	=> 'A phpBB verziód a jelenleg elérhető legfrissebb verzió, jelenleg nincsenek telepíthető frissítések.',
 	'VIEW_ADMIN_LOG'			=> 'Adminisztrátori napló megtekintése',
 	'VIEW_INACTIVE_USERS'		=> 'Inaktív felhasználók megtekintése',
 

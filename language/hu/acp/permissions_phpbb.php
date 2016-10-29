@@ -121,8 +121,9 @@ $lang = array_merge($lang, array(
 	'ACL_F_REPORT'		=> 'Jelenthet hozzászólást',
 
 	'ACL_F_POST'		=> 'Nyithat új témát',
-	'ACL_F_STICKY'		=> 'Küldhet kiemelt témát',
-	'ACL_F_ANNOUNCE'	=> 'Küldhet közleményt',
+	'ACL_F_STICKY'		=> 'Nyithat kiemelt témát',
+	'ACL_F_ANNOUNCE'	=> 'Írhat közleményt',
+	'ACL_F_ANNOUNCE_GLOBAL'	=> 'Írhat globális közleményt',
 	'ACL_F_REPLY'		=> 'Válaszolhat a témákban',
 	'ACL_F_EDIT'		=> 'Szerkesztheti saját hozzászólásait',
 	'ACL_F_DELETE'		=> 'Véglegesen törölheti saját hozzászólásait',

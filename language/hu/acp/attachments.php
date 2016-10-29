@@ -108,9 +108,6 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_FLASH_FILES'			=> 'Flash állományok',
 	'EXT_GROUP_IMAGES'				=> 'Képek',
 	'EXT_GROUP_PLAIN_TEXT'			=> 'Sima szöveg',
-	'EXT_GROUP_QUICKTIME_MEDIA'		=> 'Quicktime média',
-	'EXT_GROUP_REAL_MEDIA'			=> 'Real média',
-	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Windows média',
 
 	'GO_TO_EXTENSIONS'		=> 'Ugrás a kiterjesztések kezeléséhez',
 	'GROUP_NAME'			=> 'Csoport neve',
@@ -120,7 +117,7 @@ $lang = array_merge($lang, array(
 
 	'IMAGE_LINK_SIZE'			=> 'Linkkép méret', //? "Image link dimensions"
 	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Ha a csatolt kép ennél nagyobb, akkor csak egy link lesz megjelenítve hozzá, ahelyett, hogy közvetlenül szerepelne a hozzászólásban. A funkció kikapcsolásához állítsd mindkét értéket 0-ra.',
-	'IMAGICK_PATH'				=> 'ImageMagick elérési útvonal',
+	'IMAGICK_PATH'				=> 'Imagemagick elérési útvonal',
 	'IMAGICK_PATH_EXPLAIN'		=> 'Teljes elérési útvonal az imagemagick konvertáló alkalmazáshoz, pl. <samp>/usr/bin/</samp>.',
 
 	'MAX_ATTACHMENTS'				=> 'Maximum csatolható állományok száma hozzászólásonként',
@@ -156,7 +153,7 @@ $lang = array_merge($lang, array(
 	'REMOVE_DISALLOWED_IPS'		=> '<em>Nem engedélyezett</em> IP-k/hosztnevek eltávolítása vagy kizárásuk megszüntetése',
 	'RESYNC_FILES_STATS_CONFIRM'	=> 'Újra szeretnéd szinkronizálni a csatolmányok statisztikáját?',
 
-	'SEARCH_IMAGICK'				=> 'ImageMagick keresése',
+	'SEARCH_IMAGICK'				=> 'Imagemagick keresése',
 	'SECURE_ALLOW_DENY'				=> 'Engedélyezettek/tiltottak listája',
 	'SECURE_ALLOW_DENY_EXPLAIN'		=> 'Hogyan viselkedjen az engedélyezettek/tiltottak listája, ha be van kapcsolva a biztonságos letöltések funkció. Ha engedélyezettekre van állítva, akkor ún. <strong>fehérlistaként</strong> fog működni (csak azok tölthetnek le, akik szerepelnek a listában), ha tiltottakra, <strong>feketelistaként</strong>.',
 	'SECURE_DOWNLOADS'				=> 'Biztonságos letöltések bekapcsolása',

@@ -43,13 +43,13 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_LANG'				=> 'hu',
 	'RECAPTCHA_NOT_AVAILABLE'		=> 'A reCaptcha használatához, létre kell hoznod egy azonosítót a <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> oldalon.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
-	'RECAPTCHA_INCORRECT'			=> 'A megadott vizuális megerősítő kód hibás.',
+	'RECAPTCHA_INCORRECT'			=> 'Hibás megoldást adtál a CAPCTHCA-ra',
+	'RECAPTCHA_NOSCRIPT'			=> 'Engedélyezd a JavaScript-et a böngésződben a CAPCTHCA megjelenítéséhez.',
 
 	'RECAPTCHA_PUBLIC'				=> 'Publikus reCaptcha kulcs',
 	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'A publikus reCaptcha kulcsod. Kulcs a <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> oldalon kérhető.',
 	'RECAPTCHA_PRIVATE'				=> 'Privát reCaptcha kulcs',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'A privát reCaptcha kulcsod. Kulcs a <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> oldalon kérhető.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'A robotok általi automatikus űrlapküldések megakadályozása érdekében be kell írnod a képen látható szöveget az alatta lévő mezőbe.',
-	'RECAPTCHA_SOCKET_ERROR'		=> 'Hiba történt a RECAPTCHA szolgáltatáshoz való kapcsolódás közben: nem sikerült megnyitni a socketet. Próbáld meg később.',
+	'RECAPTCHA_EXPLAIN'				=> 'Az automatikusan generált kérések megakadályozása érdekében arra kérünk, hogy old meg az alábbi CAPTCHA-t.',
 ));
