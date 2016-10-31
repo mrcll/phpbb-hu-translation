@@ -73,9 +73,6 @@ $lang = array_merge($lang, array(
 
 	'CAT_FLASH_FILES'			=> 'Flash állományok',
 	'CAT_IMAGES'				=> 'Képek',
-	'CAT_QUICKTIME_FILES'		=> 'Quicktime média állományok',
-	'CAT_RM_FILES'				=> 'RealMedia média állományok',
-	'CAT_WM_FILES'				=> 'Windows Media média állományok',
 	'CHECK_CONTENT'				=> 'Csatolt állományok ellenőrzése',
 	'CHECK_CONTENT_EXPLAIN'		=> 'Néhány böngésző rávehető, hogy a feltöltött állományokhoz helytelen MIME típust állapítson meg. Ezzel a beállítással az ennek okozására hajlamos állományok visszautasításra kerülnek.',
 	'CREATE_GROUP'				=> 'Új csoport létrehozása',
