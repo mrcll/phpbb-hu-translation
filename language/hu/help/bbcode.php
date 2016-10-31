@@ -1,6 +1,5 @@
 <?php
 /**
- *
  * This file is part of the phpBB Forum Software package.
  *
  * @copyright (c) phpBB Limited <https://www.phpbb.com>
@@ -9,6 +8,10 @@
  * For full copyright and license information, please see
  * the docs/CREDITS.txt file.
  *
+ * Magyar fordítás (c) 2007-2016 „Magyar phpBB Közösség fordítók”,
+ * http://phpbb.hu
+ *
+ * $Id$
  */
 
 /**
