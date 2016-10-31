@@ -138,6 +138,7 @@ $lang = array_merge($lang, array(
 	'LOCK_TOPICS_CONFIRM'		=> 'Biztosan le akarja zárni az összes kiválasztott témát?',
 	'LOGS_CURRENT_TOPIC'		=> 'Téma napló bejegyzéseinek megtekintése:', //? "Currently viewing logs of"
 	'LOGIN_EXPLAIN_MCP'			=> 'A fórum moderálásához be kell jelentkeznie.',
+	'LOGVIEW_VIEWPOST'			=> 'Hozzászólások megtekintése',
 	'LOGVIEW_VIEWTOPIC'			=> 'Téma megtekintése',
 	'LOGVIEW_VIEWLOGS'			=> 'Téma naplójának megtekintése', //?
 	'LOGVIEW_VIEWFORUM'			=> 'Fórum megtekintése',
