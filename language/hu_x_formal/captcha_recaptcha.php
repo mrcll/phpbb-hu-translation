@@ -44,12 +44,12 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_NOT_AVAILABLE'		=> 'A reCaptcha használatához, létre kell hoznia egy azonosítót a <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> oldalon.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
 	'RECAPTCHA_INCORRECT'			=> 'A megadott megoldás hibás volt.',
-	'RECAPTCHA_NOSCRIPT'			=> 'Kérjük, engedélyezze a JavaScript-et a böngészőjében a CAPTCHA betöltéséhez.',
+	'RECAPTCHA_NOSCRIPT'			=> 'A feladat betöltéséhez kérjük, engedélyezze böngészőjében a JavaScript futtatását.',
 
 	'RECAPTCHA_PUBLIC'				=> 'Publikus reCaptcha kulcs',
 	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'A publikus reCaptcha kulcsa. Kulcs a <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> oldalon kérhető.',
 	'RECAPTCHA_PRIVATE'				=> 'Privát reCaptcha kulcs',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'A privát reCaptcha kulcsa. Kulcs a <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> oldalon kérhető.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'A robotok általi automatikus űrlapküldések megakadályozása érdekében kérjük, oldja meg a következő feladatot.',
+	'RECAPTCHA_EXPLAIN'				=> 'A robotok általi automatikus űrlapküldések megakadályozása érdekében meg kell oldania a következő feladatot.',
 ));

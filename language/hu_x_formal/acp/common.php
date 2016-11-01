@@ -236,9 +236,9 @@ $lang = array_merge($lang, array(
 	'CANNOT_DUMP_FILE'		=> 'Nem sikerült a fájl kiírása',
 	'CANNOT_MIRROR_DIRECTORY'	=> 'Nem sikerült a könyvtár tükrözése',
 	'CANNOT_RENAME_FILE'	=> 'Nem sikerült a fájl átnevezése',
-	'CANNOT_TOUCH_FILES'	=> 'Nem sikerült meghatározni, hogy a file létezik-e',
+	'CANNOT_TOUCH_FILES'	=> 'Nem sikerült meghatározni, hogy a fájl létezik-e',
 
-	'CONTAINER_EXCEPTION' => 'A phpBB hibát észlelt a konténer építése közben egy telepített kiegészítő miatt, ezért az összes kiegészítő átmenetileg letiltásra került. Próbáld meg üríteni a gyorsítótárat. Minden kiegészítő újra engedélyezésre kerül, amint a konténer sikeresen létrejön. Ha a hiba ezek után is fennállna, segítségért keresd fel a <a href="http://phpbb.hu/forum">Magyar phpBB közösség fórumát</a>.',
+	'CONTAINER_EXCEPTION' => 'A phpBB a konténer létrehozása közben hibát észlelt, aminek oka egy telepített kiterjesztés. Emiatt az összes kiterjesztés ideiglenesen letiltásra került. Próbáld meg törölni a fórum gyorsítótárat. A hiba kijavítása után az összes kiterjesztés automatikusan újra engedélyezésre kerül. Ha a hiba továbbra is fennáll, segítségért látogasd meg a <a href="https://www.phpbb.com/support">phpBB.com</a> oldalát.',
 	'EXCEPTION' => 'Rendszer kivétel',
 
 	'COLOUR_SWATCH'			=> 'Webbiztos színválasztó',
@@ -440,8 +440,8 @@ $lang = array_merge($lang, array(
 	'VALUE'						=> 'Érték',
 	'VERSIONCHECK_FAIL'			=> 'Nem sikerült lekérni a legújabb verzióval kapcsolatos információkat.',
 	'VERSIONCHECK_FORCE_UPDATE'	=> 'Verzió ellenőrzése újra',
-	'VERSION_CHECK'				=> 'Verzió ellenőrzése',
-	'VERSION_CHECK_EXPLAIN'		=> 'Ellenőrizd, hogy a phpBB verziód az elérhető legfrissebb-e.',
+	'VERSION_CHECK'				=> 'Verzió ellenőrzés',
+	'VERSION_CHECK_EXPLAIN'		=> 'Ellenőrzi, hogy a phpBB verziója naprakész-e.',
 	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'A phpBB verziódhoz újabb frissítések érhetőek el.<br />A lentebbi linken az újabb verzió bejelentését és a frissítéshez szükséges instrukciókat találod.',
 	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'A phpBB verziódhoz újabb frissítések érhetőek el.',
 	'VERSION_UP_TO_DATE_ACP'	=> 'A phpBB verziód a jelenleg elérhető legfrissebb verzió, jelenleg nincsenek telepíthető frissítések.',

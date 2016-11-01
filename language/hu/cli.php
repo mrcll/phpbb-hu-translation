@@ -82,9 +82,9 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Csak akkor állítja be a konfigurációs beállítás értékét, ha annak eredeti értéke megegyezik az aktuális értékkel.', //?
 	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Beállítja egy opció értékét',
 
-	'CLI_DESCRIPTION_THUMBNAIL_DELETE'		=> 'Az összes kicsinyített kép törlése.',
-	'CLI_DESCRIPTION_THUMBNAIL_GENERATE'	=> 'Az összes hiányzó kicsinyített kép elkészítése.',
-	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'	=> 'Az össes kicsinyített kép újragenerálása.',
+	'CLI_DESCRIPTION_THUMBNAIL_DELETE'		=> 'Bélyegképek törlése.', // thumbnail
+	'CLI_DESCRIPTION_THUMBNAIL_GENERATE'	=> 'Hiányzó bélyegképek generálása.',
+	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'	=> 'Összes bélyegkép újragenerálása.',
 
 	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Felhasználói fiók aktiválása (vagy deaktiválása).',
 	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Felhasználói fiókhoz tartozó felhasználó név.',
@@ -127,16 +127,16 @@ $lang = array_merge($lang, array(
 
 	// In all the case %1$s is the logical name of the file and %2$s the real name on the filesystem
 	// eg: big_image.png (2_a51529ae7932008cf8454a95af84cacd) generated.
-	'CLI_THUMBNAIL_DELETED'		=> '%1$s (%2$s) törlésre került.',
-	'CLI_THUMBNAIL_DELETING'	=> 'Kicsinyített képek törlése',
-	'CLI_THUMBNAIL_SKIPPED'		=> '%1$s (%2$s) átugorva.',
-	'CLI_THUMBNAIL_GENERATED'	=> '%1$s (%2$s) elkészítve.',
-	'CLI_THUMBNAIL_GENERATING'	=> 'Kicsinyített elölnézeti képek készítése',
-	'CLI_THUMBNAIL_GENERATING_DONE'	=> 'Minden elölnézeti kép elkészítése megtörtént.',
-	'CLI_THUMBNAIL_DELETING_DONE'	=> 'Minden elölnézeti kép törlésre került.',
+	'CLI_THUMBNAIL_DELETED'		=> '%1$s (%2$s) törölve.',
+	'CLI_THUMBNAIL_DELETING'	=> 'Bélyegképek törlése',
+	'CLI_THUMBNAIL_SKIPPED'		=> '%1$s (%2$s) kihagyva.',
+	'CLI_THUMBNAIL_GENERATED'	=> '%1$s (%2$s) generálva.', // ? generated
+	'CLI_THUMBNAIL_GENERATING'	=> 'Bélyegképek generálása',
+	'CLI_THUMBNAIL_GENERATING_DONE'	=> 'Az összes bélyegkép újragenerálásra került.',
+	'CLI_THUMBNAIL_DELETING_DONE'	=> 'Az összes bélyegkép törlésre került.',
 
-	'CLI_THUMBNAIL_NOTHING_TO_GENERATE'	=> 'Nem lehetett elölnézeti képeket generálni (nincs miből).',
-	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'Nem lehetett az elölnézeti képeket törölni (nincs mit).',
+	'CLI_THUMBNAIL_NOTHING_TO_GENERATE'	=> 'Nincsenek generálandó bélyegképek.', // No thumbnails to generate.
+	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'Nincsenek törlendő bélyegképek.', // No thumbnails to delete.
 
 	'CLI_USER_ADD_SUCCESS'		=> 'A felhasználói fiók (%s) létrehozása sikeresen megtörtént.',
 	'CLI_USER_DELETE_CONFIRM'	=> 'Biztos vagy benne hogy törlöd ‘%s’ felhasználói fiókját? [y/N]',

@@ -547,8 +547,8 @@ $lang = array_merge($lang, array(
 	'REFERRER_VALID_EXPLAIN'		=> 'Ha be van kapcsolva, a POST kérések hivatkozó oldalainak címe (referer) összevetésre kerül a hoszt/szkript elérési út beállításokkal. Ez gondot okozhat egyszerre több domaint vagy külső bejelentkező oldalt használó fórumoknál.',
 	'TPL_ALLOW_PHP'					=> 'Php engedélyezése sablonokban',
 	'TPL_ALLOW_PHP_EXPLAIN'			=> 'Ha be van kapcsolva a beállítás, akkor a sablonokban a <code>PHP</code> és az <code>INCLUDEPHP</code> címkék is értelmezésre kerülnek.',
-	'UPLOAD_CERT_VALID'             => 'Tanusítvány ellenőrzése feltöltéseknél',
-	'UPLOAD_CERT_VALID_EXPLAIN'		=> 'Ha engedélyezed ezt az opciót, a külső weboldalak tanusítványai ellenörzésre kerülnek fájlok feltöltése esetén. A helyes működéshez, a CA modul beállítása szükséges a php.ini fájlban vagy az <samp>openssl.cafile</samp> vagy a <samp>curl.cainfo</samp> mezők megadásával.',
+	'UPLOAD_CERT_VALID'             => 'Külső feltöltés tanúsítványának ellenőrzése',
+	'UPLOAD_CERT_VALID_EXPLAIN'		=> 'Ha be van kapcsolva, akkor a külső feltöltések tanúsítványa ellenőrizve lesz. Ehhez szükséges, hogy a CA bundle meg legyen adva a php.ini <samp>openssl.cafile</samp> vagy <samp>curl.cainfo</samp> beállításában.',
 ));
 
 // Email Settings
@@ -590,7 +590,7 @@ $lang = array_merge($lang, array(
 	'SMTP_SETTINGS'					=> 'SMTP beállítások',
 	'SMTP_USERNAME'					=> 'SMTP felhasználónév',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Csak akkor adj meg felhasználónevet, ha a használt SMTP szerver megköveteli.',
-	'TEST_EMAIL_SENT'				=> 'A teszt e-mail-t elküldtük.<br />Amennyiben az e-mail nem érkezik meg, ellenőrizd a megadott beállításokat. Amennyiben segítségre lenne szükséged, látogass el a <a href="http://phpbb.hu/forum">Magyar phpBB közösség fórumára</a>',
+	'TEST_EMAIL_SENT'				=> 'A teszt e-mail kiküldésre került.<br />Ha nem érkezik meg, kérjük, ellenőrizd az e-mail küldési beállításokat.<br /><br />Ha segítségre van szükséged, kérjük, látogasd meg a <a href="https://www.phpbb.com/community/">phpBB angol nyelvű támogatási fórumát</a>.',
 	'USE_SMTP'						=> 'SMTP használata e-mail küldésére',
 	'USE_SMTP_EXPLAIN'				=> 'Állítsd igenre, ha a helyi mail függvény helyett egy meghatározott szerveren keresztül szeretnéd az e-maileket kiküldeni.',
 ));
