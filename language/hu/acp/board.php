@@ -77,8 +77,8 @@ $lang = array_merge($lang, array(
 
 	// Nem lenne jobb a bekapcsolás jobb az engedélyezés helyett?
 	'ALLOW_ATTACHMENTS'			=> 'Csatolmányok engedélyezése',
- 	'ALLOW_BIRTHDAYS'			=> 'Születésnapok engedélyezése',
- 	'ALLOW_BIRTHDAYS_EXPLAIN'	=> 'A születésnapok megadási és a profilban való megjelenési lehetőségének engedélyezése. Kérjük, vedd figyelembe, hogy a születésnaposok főoldalon való megjelenítését a terhelés beállításoknál tudod be- ill. kikapcsolni.',
+	'ALLOW_BIRTHDAYS'			=> 'Születésnapok engedélyezése',
+	'ALLOW_BIRTHDAYS_EXPLAIN'	=> 'A születésnapok megadási és a profilban való megjelenési lehetőségének engedélyezése. Kérjük, vedd figyelembe, hogy a születésnaposok főoldalon való megjelenítését a terhelés beállításoknál tudod be- ill. kikapcsolni.',
 	'ALLOW_BOOKMARKS'			=> 'Kedvencek engedélyezése',
 	'ALLOW_BOOKMARKS_EXPLAIN'	=> 'A felhasználó eltárolhatja a kedvenc témáit.',
 	'ALLOW_BBCODE'				=> 'BBCode engedélyezése',
@@ -103,6 +103,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_TOPIC_NOTIFY'		=> 'Témákra való feliratkozás engedélyezése',
 	'BOARD_PM'					=> 'Privát üzenetek bekapcsolása',
 	'BOARD_PM_EXPLAIN'			=> 'A privát üzenetküldő rendszer bekapcsolása az összes felhasználó számára.',
+	'ALLOW_BOARD_NOTIFICATIONS' => 'Értesítések engedélyezése',
 ));
 
 // Avatar Settings
@@ -328,9 +329,9 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_GD_Y_GRID_EXPLAIN'				=> 'A kisebb értékek nehezebben olvashatóvá teszik a képet. A 0 kikapcsolja az y-tengelyi zajosítást.',
 	'CAPTCHA_GD_WAVE'						=> 'Hullámtorzítás',
 	'CAPTCHA_GD_WAVE_EXPLAIN'				=> 'Ez a beállítás hullámszerűen eltorzítja a képet.',
- 	'CAPTCHA_GD_3D_NOISE'					=> '3D zajosítás',
+	'CAPTCHA_GD_3D_NOISE'					=> '3D zajosítás',
 	'CAPTCHA_GD_3D_NOISE_EXPLAIN'			=> 'A betűk fölé plusz 3D-s objektumok kerülnek.',
- 	'CAPTCHA_GD_FONTS'						=> 'Különböző betűtípusok használata',
+	'CAPTCHA_GD_FONTS'						=> 'Különböző betűtípusok használata',
 	'CAPTCHA_GD_FONTS_EXPLAIN'				=> 'Itt megadhatod, mennyi különbőző betűforma legyen használva. Használhatod csak az alap formákat, vagy bevezethetsz módosított betűket, illetve a kisbetűket is beállíthatod.', //?
 	'CAPTCHA_FONT_DEFAULT'					=> 'Alap',
 	'CAPTCHA_FONT_NEW'						=> 'Új formák',
@@ -409,7 +410,7 @@ $lang = array_merge($lang, array(
 	'YES_ANON_READ_MARKING'			=> 'Olvasottságmegjelölés engedélyezése vendégeknek',
 	'YES_ANON_READ_MARKING_EXPLAIN'	=> 'A vendégeknek is eltárolja az olvasott témákat/fórumokat. Kikapcsolt állapotban a vendégeknek minden hozzászólás olvasott.',
 	'YES_BIRTHDAYS'					=> 'Születésnaposok kiírásának bekapcsolása',
- 	'YES_BIRTHDAYS_EXPLAIN'			=> 'Ha ki van kapcsolva, nem jelenik meg a kezdőoldalon a születésnaposok listája. A beállítás érvényesüléséhez a születésnaposok funkciónak is bekapcsolva kell lennie.',
+	'YES_BIRTHDAYS_EXPLAIN'			=> 'Ha ki van kapcsolva, nem jelenik meg a kezdőoldalon a születésnaposok listája. A beállítás érvényesüléséhez a születésnaposok funkciónak is bekapcsolva kell lennie.',
 	'YES_JUMPBOX'					=> 'Fórum ugrás doboz bekapcsolása',
 	'YES_MODERATORS'				=> 'Moderátorok megjelenítésének bekapcsolása',
 	'YES_ONLINE'					=> 'Jelenlévő felhasználók felsorolásának bekapcsolása',
@@ -542,15 +543,17 @@ $lang = array_merge($lang, array(
 	'PASS_TYPE_SYMBOL'				=> 'Tartalmaznia kell szimbólumokat',
 	'REF_HOST'						=> 'Csak hoszt ellenőrzése',
 	'REF_PATH'						=> 'Elérési út ellenőrzése is',
-	'REFERRER_VALID'					=> 'Hivatkozó oldal (referer) ellenőrzése',
-	'REFERRER_VALID_EXPLAIN'			=> 'Ha be van kapcsolva, a POST kérések hivatkozó oldalainak címe (referer) összevetésre kerül a hoszt/szkript elérési út beállításokkal. Ez gondot okozhat egyszerre több domaint vagy külső bejelentkező oldalt használó fórumoknál.',
+	'REFERRER_VALID'				=> 'Hivatkozó oldal (referer) ellenőrzése',
+	'REFERRER_VALID_EXPLAIN'		=> 'Ha be van kapcsolva, a POST kérések hivatkozó oldalainak címe (referer) összevetésre kerül a hoszt/szkript elérési út beállításokkal. Ez gondot okozhat egyszerre több domaint vagy külső bejelentkező oldalt használó fórumoknál.',
 	'TPL_ALLOW_PHP'					=> 'Php engedélyezése sablonokban',
 	'TPL_ALLOW_PHP_EXPLAIN'			=> 'Ha be van kapcsolva a beállítás, akkor a sablonokban a <code>PHP</code> és az <code>INCLUDEPHP</code> címkék is értelmezésre kerülnek.',
+	'UPLOAD_CERT_VALID'             => 'Külső feltöltés tanúsítványának ellenőrzése',
+	'UPLOAD_CERT_VALID_EXPLAIN'		=> 'Ha be van kapcsolva, akkor a külső feltöltések tanúsítványa ellenőrizve lesz. Ehhez szükséges, hogy a CA bundle meg legyen adva a php.ini <samp>openssl.cafile</samp> vagy <samp>curl.cainfo</samp> beállításában.',
 ));
 
 // Email Settings
 $lang = array_merge($lang, array(
- 	'ACP_EMAIL_SETTINGS_EXPLAIN'	=> 'Az alábbi információkat használja a fórum e-mailek küldésekor. Kérünk, győződj meg róla, hogy az e-mail cím, amit megadsz, helyes, mivel minden nem kézbesíthető levél erre a címre fog menni. Ha a tárhelyszolgáltatód nem biztosítja a natív (PHP alapú) e-mail küldést, használhatsz helyette SMTP-t. Ehhez szükség van egy megfelelő szerver címére (ha szükséges, kérdezd meg a szolgáltatód). Ha (és csak ha) a szerver megköveteli az azonosítást, add meg a szükséges felhasználónevet, jelszót és azonosítási módot.',
+	'ACP_EMAIL_SETTINGS_EXPLAIN'	=> 'Az alábbi információkat használja a fórum e-mailek küldésekor. Kérünk, győződj meg róla, hogy az e-mail cím, amit megadsz, helyes, mivel minden nem kézbesíthető levél erre a címre fog menni. Ha a tárhelyszolgáltatód nem biztosítja a natív (PHP alapú) e-mail küldést, használhatsz helyette SMTP-t. Ehhez szükség van egy megfelelő szerver címére (ha szükséges, kérdezd meg a szolgáltatód). Ha (és csak ha) a szerver megköveteli az azonosítást, add meg a szükséges felhasználónevet, jelszót és azonosítási módot.',
 
 	'ADMIN_EMAIL'					=> 'Visszaküldési e-mail cím',
 	'ADMIN_EMAIL_EXPLAIN'			=> 'Ez a technikai kapcsolat cím, például ide vannak irányítva a nem kézbesíthető levelek. Mindig ez a cím kerül megadásra a levelek <samp>Return-Path</samp> (visszaküldési útvonal) és <samp>Sender</samp> (küldő) fejlécének.',
@@ -565,11 +568,13 @@ $lang = array_merge($lang, array(
 	'EMAIL_FUNCTION_NAME'			=> 'E-mail függvény neve',
 	'EMAIL_FUNCTION_NAME_EXPLAIN'	=> 'A függvény neve, amivel e-mailt lehet küldeni PHP-n keresztül.',
 	'EMAIL_PACKAGE_SIZE'			=> 'E-mail csomag mérete',
- 	'EMAIL_PACKAGE_SIZE_EXPLAIN'	=> 'Legfeljebb ennyi e-mail kerül kiküldésre egy csomagban. Ez a beállítás a belső várakozási sorra vonatkozik. Ha problémák lépnének föl nem megérkező értesítő e-mailekkel kapcsolatban, állítsd ezt az értéket 0-ra.',
+	'EMAIL_PACKAGE_SIZE_EXPLAIN'	=> 'Legfeljebb ennyi e-mail kerül kiküldésre egy csomagban. Ez a beállítás a belső várakozási sorra vonatkozik. Ha problémák lépnének föl nem megérkező értesítő e-mailekkel kapcsolatban, állítsd ezt az értéket 0-ra.',
 	'EMAIL_SIG'						=> 'E-mail aláírás',
 	'EMAIL_SIG_EXPLAIN'				=> 'Ez a szöveg hozzáfűzésre kerül az összes fórum által küldött e-mailhez.',
 	'ENABLE_EMAIL'					=> 'Fórum e-mail küldés bekapcsolása',
 	'ENABLE_EMAIL_EXPLAIN'			=> 'Ha ki van kapcsolva, a fórum egyáltalán nem fog e-mailt küldeni. <em>Kérjük, vedd figyelembe, hogy ebben az esetben a „felhasználói”, ill. „adminisztrátori” azonosító aktiválási mód nem működik. Ha jelenleg ezen aktivális módok egyikét használod, és nemre állítod ezt a beállítást, az letiltja a regisztrálás lehetőségét.</em>',
+	'SEND_TEST_EMAIL'				=> 'Teszt e-mail küldése',
+	'SEND_TEST_EMAIL_EXPLAIN'		=> 'Egy teszt e-mailt küldhetsz a felhasználói fiókodban megadott e-mail címre.',
 	'SMTP_AUTH_METHOD'				=> 'SMTP azonosítási mód',
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Csak akkor van használva, ha egy felhasználónév/jelszó páros meg van adva. Ha nem vagy biztos benne, melyik módot használd, kérdezd meg a szolgáltatódat.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',
@@ -582,10 +587,10 @@ $lang = array_merge($lang, array(
 	'SMTP_PORT'						=> 'SMTP szerver port',
 	'SMTP_PORT_EXPLAIN'				=> 'Csak akkor változtasd meg, ha tudod, hogy az SMTP szerver más porton van.',
 	'SMTP_SERVER'					=> 'SMTP szerver cím',
-	'SMTP_SERVER_EXPLAIN'			=> 'Meg kell adnod a használt protokollt is. Ha SSL-t használsz, akkor "ssl://your.mailserver.com" formában add meg.',
 	'SMTP_SETTINGS'					=> 'SMTP beállítások',
 	'SMTP_USERNAME'					=> 'SMTP felhasználónév',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Csak akkor adj meg felhasználónevet, ha a használt SMTP szerver megköveteli.',
+	'TEST_EMAIL_SENT'				=> 'A teszt e-mail kiküldésre került.<br />Ha nem érkezik meg, kérjük, ellenőrizd az e-mail küldési beállításokat.<br /><br />Ha segítségre van szükséged, kérjük, látogasd meg a <a href="https://www.phpbb.com/community/">phpBB angol nyelvű támogatási fórumát</a>.',
 	'USE_SMTP'						=> 'SMTP használata e-mail küldésére',
 	'USE_SMTP_EXPLAIN'				=> 'Állítsd igenre, ha a helyi mail függvény helyett egy meghatározott szerveren keresztül szeretnéd az e-maileket kiküldeni.',
 ));

@@ -54,7 +54,9 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_CRON_LIST'					=> 'Kilistázza a befejezett és még nem befejezett cron jobokat.',
 	'CLI_DESCRIPTION_CRON_RUN'					=> 'Lefuttatja az összes elkészült cron jobot.',
 	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'		=> 'Futtatandó feladat neve',
-	'CLI_DESCRIPTION_DB_MIGRATE'				=> 'Adatbázis frissítése migration-ökkel.', //?
+	'CLI_DESCRIPTION_DB_LIST'					=> 'Az összes telepített vagy elérhető adatbázis frissítés listázása.',
+	'CLI_DESCRIPTION_DB_MIGRATE'				=> 'Adatbázis frissítések futtatása.',
+	'CLI_DESCRIPTION_DB_REVERT'					=> 'Adatbázis frissítés visszaállítása a korábbi állapotba.',
 	'CLI_DESCRIPTION_DELETE_CONFIG'				=> 'Töröl egy konfigurációs opciót',
 	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'Letilt egy megadott kiterjesztést.',
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Engedélyez egy meghatározott kiterjesztést.',
@@ -62,12 +64,42 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Konfigurációs beállítás értékét kéri le',
 	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Megnöveli egy egész számot tartalmazó konfigurációs beállítás értékét',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Kilistázza az adatbázisban és a fájlrendszerben lévő összes kiterjesztést.',
+
+	'CLI_DESCRIPTION_OPTION_ENV'				=> 'A futtatási környezet neve.',
 	'CLI_DESCRIPTION_OPTION_SAFE_MODE'			=> 'Futtatás csökkentett módban (kiterjesztések nélkül).',
 	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Shell indítása.',
+
 	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Törli a megadott kiterjesztés adatait.', //? purge extension
+	'CLI_DESCRIPTION_REPARSER_LIST'				=> 'Az újraformázható szöveg típusok listázása.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE'			=> 'Újraformázza a tárolt szövegeket a jelenlegi text_formatter szolgáltatással.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'	=> 'Az újraformázandó szöveg típusa. Hagyd üresen, ha mindent újra szeretnél formázni.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Ne mentsen el semmit, csak mutassa meg mi lenne az eredmény',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'A legkissebb bejegyzés azonosító a folyamatban',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'A legnagyobb bejegyzés azonosító a folyamatban',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'A folyamatonként feldolgozandó bejegyzések számának megbecslése',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'Az újraformázás folytatása onnan, ahol az utolsó folyamat abbahagyta',
 	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Újraszámítja a users tábla user_email_hash oszlopát.',
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Csak akkor állítja be a konfigurációs beállítás értékét, ha annak eredeti értéke megegyezik az aktuális értékkel.', //?
 	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Beállítja egy opció értékét',
+
+	'CLI_DESCRIPTION_THUMBNAIL_DELETE'		=> 'Bélyegképek törlése.', // thumbnail
+	'CLI_DESCRIPTION_THUMBNAIL_GENERATE'	=> 'Hiányzó bélyegképek generálása.',
+	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'	=> 'Összes bélyegkép újragenerálása.',
+
+	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Felhasználói fiók aktiválása (vagy deaktiválása).',
+	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Felhasználói fiókhoz tartozó felhasználó név.',
+	'CLI_DESCRIPTION_USER_ACTIVATE_DEACTIVATE'	=> 'Felhasználási fiók deaktiválása',
+	'CLI_DESCRIPTION_USER_ACTIVATE_ACTIVE'		=> 'A felhasználói fiók már aktiválva van.',
+	'CLI_DESCRIPTION_USER_ACTIVATE_INACTIVE'	=> 'A felhasználói fiók már deaktiválva van.',
+	'CLI_DESCRIPTION_USER_ADD'					=> 'Új felhasználói fiók létrehozása.',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_USERNAME'	=> 'Az új felhasználó felhasználó neve',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_PASSWORD'	=> 'Az új felhasználó jelszava',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_EMAIL'		=> 'Az új felhasználó e-mail címe',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> 'Az új felhasználónak aktivációs e-mail küldése (alapértelmezés szerint nem kap e-mail-t)',
+	'CLI_DESCRIPTION_USER_DELETE'				=> 'Felhasználói fiók törlése.',
+	'CLI_DESCRIPTION_USER_DELETE_USERNAME'		=> 'A törlendő felhasználói fiókhoz tartozó felhasználó név',
+	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> 'A felhasználó összes hozzászólásának törlése. Az opció használata nélkül a hozzászólások nem kerülnek törlésre.',
+	'CLI_DESCRIPTION_USER_RECLEAN'				=> 'Felhasználói nevek tisztítása.',
 
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Nem lehet letiltani a %s kiterjesztést',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> '%s kiterjesztés sikeresen letiltva',
@@ -82,9 +114,47 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_ENABLED'			=> 'Engedélyezett',
 
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Az összes e-mail hash sikeresen újraszámításra került.',
+
+	'CLI_MIGRATION_NAME'					=> 'Adatbázis migráció neve, a teljes namespace-el együtt (használj perjeleket visszaperjelek helyett, a problémák elkerülése érdekében).',
+	'CLI_MIGRATIONS_AVAILABLE'				=> 'Elérhető adatbázis migrációk',
+	'CLI_MIGRATIONS_INSTALLED'				=> 'Telepített adatbázis migrációk',
+	'CLI_MIGRATIONS_ONLY_AVAILABLE'		    => 'Csak az elérhető (nem telepített) adatbázis migrációk mutatása',
+	'CLI_MIGRATIONS_EMPTY'                  => 'Nincsenek adatbázis migrációk.',
+
+	'CLI_REPARSER_REPARSE_REPARSING'		=> 'Újraformázás: %1$s (%2$d-tól %3$d-ig)',
+	'CLI_REPARSER_REPARSE_REPARSING_START'	=> 'Újraformázás %s...',
+	'CLI_REPARSER_REPARSE_SUCCESS'			=> 'Az újraformázás sikeresen megtörtént',
+
+	// In all the case %1$s is the logical name of the file and %2$s the real name on the filesystem
+	// eg: big_image.png (2_a51529ae7932008cf8454a95af84cacd) generated.
+	'CLI_THUMBNAIL_DELETED'		=> '%1$s (%2$s) törölve.',
+	'CLI_THUMBNAIL_DELETING'	=> 'Bélyegképek törlése',
+	'CLI_THUMBNAIL_SKIPPED'		=> '%1$s (%2$s) kihagyva.',
+	'CLI_THUMBNAIL_GENERATED'	=> '%1$s (%2$s) generálva.', // ? generated
+	'CLI_THUMBNAIL_GENERATING'	=> 'Bélyegképek generálása',
+	'CLI_THUMBNAIL_GENERATING_DONE'	=> 'Az összes bélyegkép újragenerálásra került.',
+	'CLI_THUMBNAIL_DELETING_DONE'	=> 'Az összes bélyegkép törlésre került.',
+
+	'CLI_THUMBNAIL_NOTHING_TO_GENERATE'	=> 'Nincsenek generálandó bélyegképek.', // No thumbnails to generate.
+	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'Nincsenek törlendő bélyegképek.', // No thumbnails to delete.
+
+	'CLI_USER_ADD_SUCCESS'		=> 'A felhasználói fiók (%s) létrehozása sikeresen megtörtént.',
+	'CLI_USER_DELETE_CONFIRM'	=> 'Biztos vagy benne hogy törlöd ‘%s’ felhasználói fiókját? [y/N]',
+	'CLI_USER_RECLEAN_START'	=> 'Felhasználói nevek tisztítása',
+	'CLI_USER_RECLEAN_DONE'		=> [
+			0	=> 'A tisztítás sikeresen befejeződött. Egy felhasználó nevet sem kellett megtisztítani.',
+			1	=> 'A tisztítás sikeresen befejeződött. %d felhasználó név került megtisztításra.',
+			2	=> 'A tisztítás sikeresen befejeződött. %d felhasználó név került megtisztításra.',
+		],
 ));
 
 // Additional help for commands.
 $lang = array_merge($lang, array(
-	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Csak az adott cron task futtatásához opcionálisan megadhatsz egy cron task nevet.', // ?
+	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Csak az adott cron task futtatásához opcionálisan megadhatsz egy cron task nevet.',
+	'CLI_HELP_USER_ACTIVATE'	=> 'Aktivál egy felhasználói fiókat vagy deaktiválja azt, ha a <info>--deactivate</info> opcióval kerül futtatásra. 
+Ha szeretnél aktivációs e-mailt küldeni a felhasználónak, akkor használd a <info>--send-email</info> opciót.',
+	'CLI_HELP_USER_ADD'			=> 'A <info>%command.name%</info> parancsal új felhasználót lehet létrehozni:
+Ha nem adsz meg opciókat, akkor a futás során kell ezen információkat megadni.
+Ha szeretnél aktivációs e-mailt küldeni a felhasználónak, akkor használd a <info>--send-email</info> opciót.',
+	'CLI_HELP_USER_RECLEAN'		=> 'A felhasználói nevek tisztítása ellenőrzi az összes tárolt felhasználói nevet és megtisztítja őket amennyiben ez szükséges. A tisztított felhasználói név érzéketlen a kis- és nagybetűkre, NFC normalizált és ASCII formátumú.',
 ));

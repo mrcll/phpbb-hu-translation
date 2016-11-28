@@ -86,7 +86,7 @@ $lang = array_merge($lang, array(
 	'GROUP_MEMBERS'					=> 'Csoporttagok',
 	'GROUP_MEMBERS_EXPLAIN'			=> 'Ez egy teljes lista a csoport összes tagjáról. Külön részben tartalmazza a vezetőket, a függő és a már tag felhasználókat. Itt részletekbe menően beállíthatod, hogy ki rendelkezik csoporttagsággal, illetve, hogy kinek mi a szerepe. Egy vezető eltávolításához, de ugyanakkor a csoportban tartásához használd a törlés helyett a visszaléptetés funkciót. Egy tag vezetővé tételéhez hasonlóan az előléptetést vedd igénybe.',
 	'GROUP_MESSAGE_LIMIT'			=> 'Csoport privát üzenet korlát mappánként',
-	'GROUP_MESSAGE_LIMIT_EXPLAIN'	=> 'Ez a beállítás felülírja a felhasználónkénti mappa-üzenetkorlátot. 0 érték esetén a felhasználói alapértelmezett korlát kerül használatra.', //?
+	'GROUP_MESSAGE_LIMIT_EXPLAIN'	=> 'Ez a beállítás felülírja a felhasználónkénti mappa-üzenetkorlátot. Az érték megállapításakor a felhasználó összes csoportja figyelembe vételre kerül.<br />A 0 érték esetén a csoport összes felhasználójánál a fórum szintű alapértelmezett korlát kerül használatra.', //?
 	'GROUP_MODS_ADDED'				=> 'Az új csoportvezetők sikeresen felvételre kerültek.',
 	'GROUP_MODS_DEMOTED'			=> 'A csoportvezetők sikeresen visszaléptetésre kerültek.',
 	'GROUP_MODS_PROMOTED'			=> 'A csoportvezetők sikeresen előléptetésre kerültek.',
@@ -95,7 +95,7 @@ $lang = array_merge($lang, array(
 	'GROUP_OPEN'					=> 'Nyitott',
 	'GROUP_PENDING'					=> 'Függő tagok',
 	'GROUP_MAX_RECIPIENTS'			=> 'Engedélyezett címzettek száma privát üzenetenként',
-	'GROUP_MAX_RECIPIENTS_EXPLAIN'	=> 'Legfeljebb ennyi címzettje lehet egy privát üzenetnek. 0 értéknél a fórum általános, központi beállítása kerül használatra.',
+	'GROUP_MAX_RECIPIENTS_EXPLAIN'	=> 'Legfeljebb ennyi címzettje lehet egy privát üzenetnek. Az érték megállapításakor a felhasználó összes csoportja figyelembe vételre kerül.<br />A 0 érték esetén a csoport összes felhasználójánál a fórum szintű alapértelmezett korlát kerül használatra.',
 	'GROUP_OPTIONS_SAVE'			=> 'Csoportra kiterjedő beállítások',
 	'GROUP_PROMOTE'					=> 'Előléptetés csoportvezetőnek',
 	'GROUP_RANK'					=> 'Csoport rang',
@@ -133,6 +133,8 @@ $lang = array_merge($lang, array(
 	'NO_USERS'					=> 'Nem adtál meg egy felhasználót se.',
 	'NO_USERS_ADDED'			=> 'Nem került felhasználó hozzáadásra a csoporthoz.',
 	'NO_VALID_USERS'			=> 'Nem adtál meg felhasználót, akin elvégezhető lenne ez a művelet.',
+
+	'PENDING_MEMBERS'			=> 'Tagfelvételi kérelmek',
 
 	'SELECT_GROUP'				=> 'Válassz csoportot',
 	'SPECIAL_GROUPS'			=> 'Előre meghatározott csoportok', //?!

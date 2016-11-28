@@ -92,21 +92,15 @@ $lang = array_merge($lang, array(
 	'DELETE_OWN_POSTS'			=> 'Csak a saját hozzászólásaidat törölheted.',
 	'DELETE_PERMANENTLY'		=> 'Végleges törlés',
 	'DELETE_POST_CONFIRM'		=> 'Biztosan törölni akarod ezt a hozzászólást?',
-	'DELETE_POST_PERMANENTLY_CONFIRM'	=> 'Biztosan <strong>véglegesen</strong> törölni akarod ezt a hozzászólást?',	
-	'DELETE_POST_PERMANENTLY'	=> array(
-		1	=> 'Hozzászólás végleges törlése, így az nem lesz visszaállítható',
-		2	=> '%1$d hozzászólás végleges törlése, így azok nem lesznek visszaállíthatóak',
-	),
+	'DELETE_POST_PERMANENTLY_CONFIRM'	=> 'Biztosan <strong>véglegesen</strong> törölni akarod ezt a hozzászólást?',
+	'DELETE_POST_PERMANENTLY'	=> 'Hozzászólás végleges törlése, így az nem lesz visszaállítható',
 	'DELETE_POSTS_CONFIRM'		=> 'Biztosan törölni akarod ezeket a hozzászólásokat?',
 	'DELETE_POSTS_PERMANENTLY_CONFIRM'	=> 'Biztosan <strong>véglegesen</strong> törölni akarod ezeket a hozzászólásokat?',
 	'DELETE_REASON'				=> 'Törlés indoka',
 	'DELETE_REASON_EXPLAIN'		=> 'A törlés indoka látható lesz a moderátoroknak.',
 	'DELETE_POST_WARN'			=> 'Hozzászólás törlése',
-	'DELETE_TOPIC_CONFIRM'		=> 'Biztosan törölni akarod ezt a témát?',	
-	'DELETE_TOPIC_PERMANENTLY'	=> array(
-		1	=> 'Téma végleges törlése, így az nem lesz visszaállítható',
-		2	=> '%1$d téma végleges törlése, így azok nem lesznek visszaállíthatóak',
-	),
+	'DELETE_TOPIC_CONFIRM'		=> 'Biztosan törölni akarod ezt a témát?',
+	'DELETE_TOPIC_PERMANENTLY'	=> 'Téma végleges törlése, így az nem visszaállítható',
 	'DELETE_TOPIC_PERMANENTLY_CONFIRM'	=> 'Biztosan <strong>véglegesen</strong> törölni akarod ezt a témát?',
 	'DELETE_TOPICS_CONFIRM'		=> 'Biztosan törölni akarod ezeket a témákat?',
 	'DELETE_TOPICS_PERMANENTLY_CONFIRM'	=> 'Biztosan <strong>véglegesen</strong> törölni akarod ezeket a témákat?',
@@ -185,8 +179,10 @@ $lang = array_merge($lang, array(
 	'NO_POLL_TITLE'				=> 'Meg kell adnod a szavazás kérdését.',
 	'NO_POST'					=> 'A kért hozzászólás nem létezik.', //? kért?
 	'NO_POST_MODE'				=> 'Nincs hozzászólástípus kiválasztva.',  //?
+	'NO_TEMP_DIR'				=> 'A feltöltésekhez használt átmeneti könyvtár nem létezik, vagy nem írható.',
 
 	'PARTIAL_UPLOAD'			=> 'A feltöltött állomány csak részben került feltöltésre.',
+	'PHP_UPLOAD_STOPPED'		=> 'Egy PHP kiegészítő leállított a fájl feltöltését.',
 	'PHP_SIZE_NA'				=> 'A csatolmány mérete túl nagy.<br />Nem sikerült megállapítani a PHP php.ini-jében meghatározott maximális méretet.', //?
 	'PHP_SIZE_OVERRUN'			=> 'A csatolmány mérete túl nagy. A maximálisan feltölthető méret %1$d %2$s.<br />Kérjük, vedd figyelembe, hogy ez a php.ini-ben van meghatározva, ezért nem írható felül.',
 	'PLACE_INLINE'				=> 'Beszúrás a hozzászólásba',

@@ -11,7 +11,7 @@
 * Magyar fordítás (c) 2007-2015 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
-* $Id: forums.php 257 2014-07-14 20:22:52Z marcee $
+* $Id$
 */
 
 /**
