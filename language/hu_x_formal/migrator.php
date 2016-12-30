@@ -74,11 +74,11 @@ $lang = array_merge($lang, array(
 
 	'MODULE_ERROR'						=> 'Hiba történt a modul létrehozása közben: %s', //?
 	'MODULE_EXISTS'						=> 'A következő modul már létezik: %s',
-	'MODULE_EXIST_MULTIPLE'				=> 'Több modul is létezik a megadott szülő modul nyelvével: %s. Próbáld meg before/after kulcsokkal meghatározni a modulok sorrendjét. [Several modules with the given parent module langname already exist: %s. Try using before/after keys to clarify the module placement.]',
+	'MODULE_EXIST_MULTIPLE'				=> 'Több modul is létezik a megadott szülő modul nyelvével: %s. Próbáld meg before/after kulcsokkal meghatározni a modulok sorrendjét. [Several modules with the given parent module langname already exist. Try using before/after keys to clarify the module placement.]',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Szükséges modul információs állomány nem létezik: %2$s',
 	'MODULE_NOT_EXIST'					=> 'Szükséges modul nem létezik: %s',
 
-	'PARENT_MODULE_FIND_ERROR'			=> 'Nem sikerült meghatározni a szülő modul azonosítóját: %s. [Unable to determine the parent module identifier: %s]',
+	'PARENT_MODULE_FIND_ERROR'			=> 'Nem sikerült meghatározni a szülő modul azonosítóját: %s. [Unable to determine the parent module identifier]',
 	'PERMISSION_NOT_EXIST'				=> 'A "%s" jogosultság beállítás nem létezik.',
 
 	'ROLE_NOT_EXIST'					=> 'A "%s" jogosultság szerep nem létezik.',
