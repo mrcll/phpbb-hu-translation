@@ -111,6 +111,8 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_PERMISSIONS'		=> 'Csoport jogosultságai',
 	'ACP_GROUPS_POSITION'			=> 'Csoport helyének kezelése', //?
 
+	'ACP_HELP_PHPBB'			=> 'Segítsd a phpBB-t', //? "Help support phpBB"
+
 	'ACP_ICONS'					=> 'Téma ikonok',
 	'ACP_ICONS_SMILIES'			=> 'Téma ikonok/emotikonok',
 	'ACP_INACTIVE_USERS'		=> 'Inaktív felhasználók',
@@ -170,7 +172,6 @@ $lang = array_merge($lang, array(
 	'ACP_SEARCH_SETTINGS'		=> 'Kereső beállítások',
 
 	'ACP_SECURITY_SETTINGS'		=> 'Biztonsági beállítások',
-	'ACP_SEND_STATISTICS'		=> 'Statisztikai adatok küldése',
 	'ACP_SERVER_CONFIGURATION'	=> 'Szerver konfiguráció', //?
 	'ACP_SERVER_SETTINGS'		=> 'Szerver beállítások',
 	'ACP_SIGNATURE_SETTINGS'	=> 'Aláírás beállítások',
@@ -330,6 +331,10 @@ $lang = array_merge($lang, array(
 	'USERNAMES_EXPLAIN'		=> 'Minden felhasználónevet külön sorba írj.',
 	'USER_CONTROL_PANEL'	=> 'Felhasználói vezérlőpult',
 
+	'UPDATE_NEEDED'			=> 'A fórum nem naprakész.',
+	'UPDATE_NOT_NEEDED'		=> 'A fórum naprakész.',
+	'UPDATES_AVAILABLE'		=> 'Elérhető frissítések:',
+
 	'WARNING'				=> 'Figyelmeztetés',
 ));
 
@@ -478,16 +483,18 @@ $lang = array_merge($lang, array(
 	'USER_IS_INACTIVE'		=> 'A felhasználó inaktív.',
 ));
 
-// Send statistics page
+// Segítsd a phpBB-t
 $lang = array_merge($lang, array(
 	'EXPLAIN_SEND_STATISTICS'	=> 'Kérünk, küldj információt a phpBB részére a szerveredről és a fórumod beállításairól statisztikai elemzés céljára. Minden adat, ami azonosíthatna téged, eltávolításra került – az adatok teljesen <strong>névtelenek</strong>. Az itt gyűjtött információra alapozva hozunk döntéseket a jövőbeli phpBB verziókról. A statisztikákat nyilvánosan elérhetővé tesszük. Az adatokat ezen felül még megosztjuk a PHP projekttel, amely egy programozási nyelv, amiben a phpBB íródott.', //? '..., azon programozási nyelv fejlesztőivel, amiben a phpBB íródott.'
 	'EXPLAIN_SHOW_STATISTICS'	=> 'Az alábbi gomb segítségével áttekintheted az összes elküldésre kerülő változót.',
 	'DONT_SEND_STATISTICS'		=> 'Amennyiben nem kívánsz statisztikai adatokat küldeni, térj vissza az AVP kezdőlapjára.',
 	'GO_ACP_MAIN'				=> 'Visszatérés az AVP kezdőldalra',
 	'HIDE_STATISTICS'			=> 'Adatok elrejtése',
-	'SEND_STATISTICS'			=> 'Statisztikai adatok küldése',
+	'SEND_STATISTICS'			=> 'Statisztika küldése',
+	'SEND_STATISTICS_LONG'		=> 'Statisztikai adatok küldése',
 	'SHOW_STATISTICS'			=> 'Adatok megjelenítése',
 	'THANKS_SEND_STATISTICS'	=> 'Köszönjük, hogy segítettél az adatgyűjtésben!',
+	'FAIL_SEND_STATISTICS'		=> 'A phpBB nem tudta elküldeni a statisztikai adatokat',
 ));
 
 // Log Entries
@@ -822,4 +829,5 @@ $lang = array_merge($lang, array(
 	'LOG_EXT_ENABLE'	=> '<strong>Kiterjesztés engedélyezése</strong><br />» %s',
 	'LOG_EXT_DISABLE'	=> '<strong>Kiterjesztés tiltása</strong><br />» %s',
 	'LOG_EXT_PURGE'		=> '<strong>Kiterjezstés adatainak törlése</strong><br />» %s',
+	'LOG_EXT_UPDATE'	=> '<strong>Kiterjesztés frissítve</strong><br />» %s',
 ));

@@ -74,7 +74,6 @@ $lang = array_merge($lang, array(
 	<ul>
 		<li>MySQL 3.23 vagy újabb (MySQLi is támogatott)</li>
 		<li>PostgreSQL 8.3+</li>
-		<li>SQLite 2.8.2+</li>
 		<li>SQLite 3.6.15+</li>
 		<li>MS SQL Server 2000 vagy újabb (közvetlenül ODBC-n keresztül)</li>
 		<li>MS SQL Server 2005 vagy újabb (natív)</li>
@@ -115,6 +114,8 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT_EXPLAIN'			=> 'phpBB nem fog működni, amennyiben a PHP telepítésedben nem érhető el a UTF-8 támogatás PCRE kiegészítőben.',
 	'PHP_JSON_SUPPORT'					=> 'PHP JSON támogatás',
 	'PHP_JSON_SUPPORT_EXPLAIN'			=> 'phpBB helyes működéséhez a PHP JSON kiegészítésnek telepítve kell lennie.',
+	'PHP_XML_SUPPORT'					=> 'PHP XML/DOM támogatás',
+	'PHP_XML_SUPPORT_EXPLAIN'			=> 'phpBB helyes működéséhez a PHP XML/DOM kiegészítésnek telepítve kell lennie.',
 	'PHP_SUPPORTED_DB'					=> 'Támogatott Adatbázisok',
 	'PHP_SUPPORTED_DB_EXPLAIN'			=> 'Legalább egy támogatott adatbázis típusnak támogatottnak kell lennie a telepített PHP verzióban. Ha egyik adatbázis típus sem jelenik meg támogatottként, lépj kapcsolatba a tárhely szolgáltatóddal, vagy tanulmányozd a releváns PHP dokumentációt.',
 
@@ -180,18 +181,17 @@ $lang = array_merge($lang, array(
 	'DB_PASSWORD'			=> 'Adatbázis jelszó',
 	'DB_NAME'				=> 'Adatbázis név',
 	'DB_USERNAME'			=> 'Adatbázis felhasználó név',
+	'DATABASE_VERSION'		=> 'Adatbázis verzió',
 	'TABLE_PREFIX'			=> 'Adatbázis táblák előtagja',
 	'TABLE_PREFIX_EXPLAIN'	=> 'Az adatbázis tábla előtagnak egy betűvel kell kezdődnie, és csak betűket, számokat és alulvonást tartalmazhat.',
 
 	// Database options
-	'DB_OPTION_MSSQL'		=> 'MSSQL Szerver 2000+',
 	'DB_OPTION_MSSQL_ODBC'	=> 'MSSQL Szerver 2000+ ODBC-n keresztül',
 	'DB_OPTION_MSSQLNATIVE'	=> 'MSSQL Szerver 2005+ [ natív ]',
 	'DB_OPTION_MYSQL'		=> 'MySQL',
 	'DB_OPTION_MYSQLI'		=> 'MySQL MySQLi kiterjesztéssel',
 	'DB_OPTION_ORACLE'		=> 'Oracle',
 	'DB_OPTION_POSTGRES'	=> 'PostgreSQL',
-	'DB_OPTION_SQLITE'		=> 'SQLite 2',
 	'DB_OPTION_SQLITE3'		=> 'SQLite 3',
 
 	// Errors
@@ -204,7 +204,6 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_ERROR'			=> 'A hibaüzenet nem elérhető.',
 	'INST_ERR_PREFIX'				=> 'A megadott adatbázis előtagú táblák már léteznek, válassz egy másikat.',
 	'INST_ERR_DB_NO_MYSQLI'			=> 'A telepített MySQL adatbázis verziója nem kompatibilis a választott “MySQL MySQLi kiterjesztéssel” opcióval. Kérünk, használd a “MySQL” opciót.',
-	'INST_ERR_DB_NO_SQLITE'			=> 'A telepített SQLite kiegészítő túl régi, frissíts legalább 2.8.2-re.',
 	'INST_ERR_DB_NO_SQLITE3'		=> 'A telepített SQLite kiegészítő túl régi, frissíts legalább 3.6.15-re.',
 	'INST_ERR_DB_NO_ORACLE'			=> 'A telepített Oracle verzió megköveteli, hogy <var>NLS_CHARACTERSET</var> beállítást <var>UTF8</var>-ra állítsd. Vagy frissítsd az adatbázis szervert 9.2+ verzióra, vagy alkalmazd az előbbi beállítást.',
 	'INST_ERR_DB_NO_POSTGRES'		=> 'A megadott adatbázis nem <var>UNICODE</var> vagy <var>UTF8</var> karakterkódolással lett létrehozva. Válassz egy olyan adatbázist, ami <var>UNICODE</var> vagy <var>UTF8</var> karakterkódolást használ.',
@@ -214,6 +213,14 @@ $lang = array_merge($lang, array(
 	// Email data
 	//
 	'EMAIL_CONFIG'	=> 'E-mail beállítások',
+
+	// Package info
+	'PACKAGE_VERSION'					=> 'Telepített csomag verziója',
+	'UPDATE_INCOMPLETE'				=> 'A phpBB telepítésed nem lett megfelelően frissítve.',
+	'UPDATE_INCOMPLETE_MORE'		=> 'Kérjük, olvasd el a lent található információkat a hiba javításához.',
+	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Hiányos frissítés</h1>
+
+		<p>Észleltük, hogy a phpBB legutóbbi frissítése nem fejeződött be. Nyisd meg az <a href="%1$s" title="%1$s">adatbázis frissítőt</a>, bizonyosodj meg róla, hogy <em>Az adatbázis frissítése</em> van kiválasztva és kattints az <strong>Elküld</strong> gombra. Ne felejtsd el törölni az "install" könyvtárat az adatbázis frissítésének befejezése után.</p>',
 
 	//
 	// Server data
@@ -296,6 +303,7 @@ $lang = array_merge($lang, array(
 	'TASK_ADD_MODULES'		=> 'Modulok telepítése',
 
 	// Install finish tasks
+	'TASK_INSTALL_EXTENSIONS'	=> 'Becsomagolt kiterjesztések telepítése', //? "Installing packaged extensions"
 	'TASK_NOTIFY_USER'			=> 'Értesítő e-mail kiküldése',
 	'TASK_POPULATE_MIGRATIONS'	=> 'Adatbázis migrációk regisztrálása',
 
@@ -434,6 +442,7 @@ $lang = array_merge($lang, array(
 	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'A következő állományok nem lettek módosítva, megegyeznek a phpBB azon verziójú állományaival, melyről frissíteni szeretnél.',
 	'FILES_UP_TO_DATE'				=> 'Már frissített fájlok',
 	'FILES_UP_TO_DATE_EXPLAIN'		=> 'A következő állományok már a legújabb verziójúak, ezért nem kell frissíteni őket.',
+	'FILES_VERSION'					=> 'Állományok verziója',
 	'TOGGLE_DISPLAY'				=> 'Állományok listájának megjelenítése/elrejtése',
 
 	// File updater
@@ -449,6 +458,8 @@ $lang = array_merge($lang, array(
 // Update database
 $lang = array_merge($lang, array(
 	'STAGE_UPDATE_DATABASE'		=> 'Adatbázis frissítése',
+
+	'TASK_UPDATE_EXTENSIONS'	=> 'Kiterjesztések frissítése',
 
 	'INLINE_UPDATE_SUCCESSFUL'		=> 'Az adatbázis frissítése sikeresen befejeződött.',
 ));

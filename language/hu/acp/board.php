@@ -587,6 +587,7 @@ $lang = array_merge($lang, array(
 	'SMTP_PORT'						=> 'SMTP szerver port',
 	'SMTP_PORT_EXPLAIN'				=> 'Csak akkor változtasd meg, ha tudod, hogy az SMTP szerver más porton van.',
 	'SMTP_SERVER'					=> 'SMTP szerver cím',
+	'SMTP_SERVER_EXPLAIN'			=> 'Meg kell adnod a protokollt, amit a szerver használ. SSL használata esetén az "ssl://levelezo.szervered.com" formátumot kell használnod.',
 	'SMTP_SETTINGS'					=> 'SMTP beállítások',
 	'SMTP_USERNAME'					=> 'SMTP felhasználónév',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Csak akkor adj meg felhasználónevet, ha a használt SMTP szerver megköveteli.',

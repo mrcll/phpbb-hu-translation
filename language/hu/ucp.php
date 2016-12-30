@@ -101,6 +101,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_DRIVER_UPLOAD_TITLE'	=> 'Avatar feltöltése',
 	'AVATAR_DRIVER_UPLOAD_EXPLAIN'	=> 'Saját avatar képed feltöltése számítógépről.',
 	'AVATAR_EXPLAIN'				=> 'Maximális méret: szélesség %1$s, magasság %2$s, állomány mérete %3$.2f KiB.',
+	'AVATAR_EXPLAIN_NO_FILESIZE'	=> 'Maximális méret; szélesség: %1$s, magasság: %2$s.',
 	'AVATAR_FEATURES_DISABLED'		=> 'Az avatarok funkció jelenleg ki van kapcsolva.',
 	'AVATAR_GALLERY'				=> 'Helyi galéria', //?
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'Nem sikerült feltölteni az avatart a következő helyre: %s.',

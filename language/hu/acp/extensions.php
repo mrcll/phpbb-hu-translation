@@ -49,6 +49,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_NOT_AVAILABLE'	=> 'A kiválasztott kiterjesztés nem telepíthető erre a fórumra, kérjük ellenőrizd a támogatott phpBB és PHP verziókat a részletek oldalon.',
 	'EXTENSION_DIR_INVALID'		=> 'A kiválasztott kiterjesztés könyvtárszerkezete hibás, ezért a kiterjesztés nem engedélyezhető.',
 	'EXTENSION_NOT_ENABLEABLE'	=> 'A kiválasztott kiterjesztés nem engedélyezhető. Kérjük, ellenőrizd a kiterjesztés követelményeit.',
+	'EXTENSION_NOT_INSTALLED'	=> 'A %s kiterjesztés nem elérhető. Kérjük, ellenőrizd, hogy a kiterjesztés megfelelően került telepítésre.',
 
 	'DETAILS'				=> 'Részletek',
 

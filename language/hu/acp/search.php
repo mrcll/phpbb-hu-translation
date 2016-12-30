@@ -57,7 +57,7 @@ $lang = array_merge($lang, array(
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'A keresőmodul jelenleg megtisztítja az indexét. Ez eltarthat néhány percig.',
 
 	'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE'	=> 'A MySQL fulltext modul csak MySQL4-gyel vagy újabbal használható.',
-	'FULLTEXT_MYSQL_NOT_SUPPORTED'				=> 'A MySQL fulltext index csak MyISAM vagy InnoDB táblákkal használható. InnoDB típusú táblák használata esetén legalább 5.6.4-as verziószámú MySQL szükséges.',
+	'FULLTEXT_MYSQL_NOT_SUPPORTED'				=> 'A MySQL fulltext index csak MyISAM vagy InnoDB táblákkal használható. InnoDB típusú táblák használata esetén legalább 5.6.8-as verziószámú MySQL szükséges.',
 	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> 'Indexelt hozzászólások száma',
 	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'	=> 'Legalább ennyi karakterből álló szavak kerülnek indexelésre. Ez a beállítás csak a MySQL konfigurációban történő változtatással módosítható, amit lehet, hogy csak a szolgáltatód tud megtenni.',
 	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'	=> 'Legfeljebb ennyi karakterből álló szavak kerülnek indexelésre. Ez a beállítás csak a MySQL konfigurációban történő változtatással módosítható, amit lehet, hogy csak a szolgáltatód tud megtenni.',

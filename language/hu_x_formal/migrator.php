@@ -54,12 +54,14 @@ $lang = array_merge($lang, array(
 	'MIGRATION_NOT_INSTALLED'			=> 'A(z) "%s" migráció nincs telepítve.',
 	'MIGRATION_NOT_VALID'				=> '%s egy érvénytelen migráció.',
 	'MIGRATION_SCHEMA_DONE'				=> 'Telepített séma: %1$s; Idő: %2$.2f másodperc',
+	'MIGRATION_SCHEMA_IN_PROGRESS'		=> 'Séma telepítése: %1$s; Idő: %2$.2f másodperc',
 	'MIGRATION_SCHEMA_RUNNING'			=> 'Séma telepítése: %s.',
 
 	'MIGRATION_REVERT_DATA_DONE'		=> 'Adatok visszaállítva: %1$s; Idő: %2$.2f másodperc',
 	'MIGRATION_REVERT_DATA_IN_PROGRESS'	=> 'Adatok visszaállítása: %1$s; Idő: %2$.2f másodperc',
 	'MIGRATION_REVERT_DATA_RUNNING'		=> 'Adatok visszaállítása: %s.',
 	'MIGRATION_REVERT_SCHEMA_DONE'		=> 'Adatbázis Schema visszaállítva: %1$s; Idő: %2$.2f másodperc',
+	'MIGRATION_REVERT_SCHEMA_IN_PROGRESS'	=> 'Adatbázis séma visszaállítása: %1$s; Idő: %2$.2f másodperc',
 	'MIGRATION_REVERT_SCHEMA_RUNNING'	=> 'Adatbázis Schema visszaállítása: %s.',
 
 	// Az angol fordítások szándékosan maradtak benne, hogy megkönnyítsék a hibakeresést
@@ -71,9 +73,12 @@ $lang = array_merge($lang, array(
 	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'A migráció érvénytelen. Nem meghatározott metódus. [An undefined migration tool method was encountered.]', //?
 
 	'MODULE_ERROR'						=> 'Hiba történt a modul létrehozása közben: %s', //?
+	'MODULE_EXISTS'						=> 'A következő modul már létezik: %s',
+	'MODULE_EXIST_MULTIPLE'				=> 'Több modul is létezik a megadott szülő modul nyelvével: %s. Próbáld meg before/after kulcsokkal meghatározni a modulok sorrendjét. [Several modules with the given parent module langname already exist: %s. Try using before/after keys to clarify the module placement.]',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Szükséges modul információs állomány nem létezik: %2$s',
 	'MODULE_NOT_EXIST'					=> 'Szükséges modul nem létezik: %s',
 
+	'PARENT_MODULE_FIND_ERROR'			=> 'Nem sikerült meghatározni a szülő modul azonosítóját: %s. [Unable to determine the parent module identifier: %s]',
 	'PERMISSION_NOT_EXIST'				=> 'A "%s" jogosultság beállítás nem létezik.',
 
 	'ROLE_NOT_EXIST'					=> 'A "%s" jogosultság szerep nem létezik.',

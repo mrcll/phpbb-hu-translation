@@ -70,21 +70,31 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Shell indítása.',
 
 	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Törli a megadott kiterjesztés adatait.', //? purge extension
-	'CLI_DESCRIPTION_REPARSER_LIST'				=> 'Az újraformázható szöveg típusok listázása.',
-	'CLI_DESCRIPTION_REPARSER_REPARSE'			=> 'Újraformázza a tárolt szövegeket a jelenlegi text_formatter szolgáltatással.',
-	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'	=> 'Az újraformázandó szöveg típusa. Hagyd üresen, ha mindent újra szeretnél formázni.',
+
+	'CLI_DESCRIPTION_REPARSER_LIST'						=> 'Az újraformázható szöveg típusok listázása.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE'					=> 'Újraformázza a tárolt szövegeket a jelenlegi text_formatter szolgáltatással.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'			=> 'Az újraformázandó szöveg típusa. Hagyd üresen, ha mindent újra szeretnél formázni.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Ne mentsen el semmit, csak mutassa meg mi lenne az eredmény',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'A legkissebb bejegyzés azonosító a folyamatban',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'A legnagyobb bejegyzés azonosító a folyamatban',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'A folyamatonként feldolgozandó bejegyzések számának megbecslése',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'Az újraformázás folytatása onnan, ahol az utolsó folyamat abbahagyta',
-	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Újraszámítja a users tábla user_email_hash oszlopát.',
-	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Csak akkor állítja be a konfigurációs beállítás értékét, ha annak eredeti értéke megegyezik az aktuális értékkel.', //?
-	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Beállítja egy opció értékét',
 
-	'CLI_DESCRIPTION_THUMBNAIL_DELETE'		=> 'Bélyegképek törlése.', // thumbnail
-	'CLI_DESCRIPTION_THUMBNAIL_GENERATE'	=> 'Hiányzó bélyegképek generálása.',
-	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'	=> 'Összes bélyegkép újragenerálása.',
+	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'			=> 'Újraszámítja a users tábla user_email_hash oszlopát.',
+
+	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'					=> 'Csak akkor állítja be a konfigurációs beállítás értékét, ha annak eredeti értéke megegyezik az aktuális értékkel.', //?
+	'CLI_DESCRIPTION_SET_CONFIG'						=> 'Beállítja egy opció értékét',
+
+	'CLI_DESCRIPTION_THUMBNAIL_DELETE'					=> 'Bélyegképek törlése.', // thumbnail
+	'CLI_DESCRIPTION_THUMBNAIL_GENERATE'				=> 'Hiányzó bélyegképek generálása.',
+	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'				=> 'Összes bélyegkép újragenerálása.',
+
+	'CLI_DESCRIPTION_UPDATE_CHECK'					=> 'Ellenőrzi, hogy a fórum naprakész.',
+	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'		=> 'Ellenőrizendő kiterjesztés neve (ha az összes, jelöld be az összes kiterjesztést)',
+	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Ellenőrző parancs futtatása gyorsítótárral.', //? "Run check command with cache."
+	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Parancs futtatása megadva, hogy csak a stabil vagy fejlesztői verziókat ellenőrizze.', //? "Run command choosing to check only stable or unstable versions."
+
+	'CLI_ERROR_INVALID_STABILITY' => '"%s" érvénytelen fejlesztési verzió.', //? ""%s" is not a valid stability."
 
 	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Felhasználói fiók aktiválása (vagy deaktiválása).',
 	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Felhasználói fiókhoz tartozó felhasználó név.',
@@ -108,6 +118,8 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSION_NAME'				=> 'Kiterjesztés neve',
 	'CLI_EXTENSION_PURGE_FAILURE'		=> 'Nem lehet törölni a %s kiterjesztés adatait',
 	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'A %s kiterjesztés adatai sikeresen törlésre kerültek',
+	'CLI_EXTENSION_UPDATE_FAILURE'		=> '%s kiterjesztést nem sikerült frissíteni',
+	'CLI_EXTENSION_UPDATE_SUCCESS'		=> '%s kiterjesztés sikeresen frissítve lett',
 	'CLI_EXTENSION_NOT_FOUND'			=> 'Nem találhatóak kiterjesztések.',
 	'CLI_EXTENSIONS_AVAILABLE'			=> 'Elérhető',
 	'CLI_EXTENSIONS_DISABLED'			=> 'Letiltott',
@@ -151,7 +163,7 @@ $lang = array_merge($lang, array(
 // Additional help for commands.
 $lang = array_merge($lang, array(
 	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Csak az adott cron task futtatásához opcionálisan megadhatsz egy cron task nevet.',
-	'CLI_HELP_USER_ACTIVATE'	=> 'Aktivál egy felhasználói fiókat vagy deaktiválja azt, ha a <info>--deactivate</info> opcióval kerül futtatásra. 
+	'CLI_HELP_USER_ACTIVATE'	=> 'Aktivál egy felhasználói fiókat vagy deaktiválja azt, ha a <info>--deactivate</info> opcióval kerül futtatásra.
 Ha szeretnél aktivációs e-mailt küldeni a felhasználónak, akkor használd a <info>--send-email</info> opciót.',
 	'CLI_HELP_USER_ADD'			=> 'A <info>%command.name%</info> parancsal új felhasználót lehet létrehozni:
 Ha nem adsz meg opciókat, akkor a futás során kell ezen információkat megadni.
