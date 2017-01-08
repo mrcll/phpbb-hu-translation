@@ -177,6 +177,9 @@ $lang = array_merge($lang, array(
 	'CONTACT'				=> 'Kapcsolat',
 	'CONTACT_USER'			=> 'Kapcsolat felvétele %s felhasználóval',
 	'CONTACT_US'			=> 'Kapcsolat', //? contact us
+	'COOKIE_CONSENT_INFO'	=> 'Tudjon meg többet',
+	'COOKIE_CONSENT_MSG'	=> 'Ez a weboldal sütiket használ, hogy a legjobb felhasználói élményt nyújthassa.', //? "This website uses cookies to ensure you get the best experience on our website."
+	'COOKIE_CONSENT_OK'		=> 'Értettem!',
 	'COOKIES_DELETED'		=> 'A fórum sütijei törlésre kerültek.',
 	'CURRENT_TIME'			=> 'Pontos idő: %s',
 
@@ -341,6 +344,7 @@ $lang = array_merge($lang, array(
 	'INTERESTS'					=> 'Érdeklődési kör',
 	'INVALID_DIGEST_CHALLENGE'	=> 'Hibás feltárási kérés',
 	'INVALID_EMAIL_LOG'			=> 'A <strong>%s</strong> feltehetőleg egy nem létező e-mail cím.',
+	'INVALID_FEED_ATTACHMENTS'	=> 'A kiválasztott csatorna érvénytelen csatolmányokat próbált meg letölteni.', //? "The selected feed tried fetching attachments with invalid constraints."
 	'INVALID_PLURAL_RULE'		=> 'A megadott többes szám azonosító érvénytelen. Csak egész szám lehet 0 és 15 között.',
 	'IP'						=> 'IP-cím',
 	'IP_BLACKLISTED'			=> 'Az IP-címe (%1$s) tiltólistára került, ezért a hozzáférését a fórumhoz blokkoltuk. További információ: <a href="%2$s">%2$s</a>.',

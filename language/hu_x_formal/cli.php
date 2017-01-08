@@ -72,6 +72,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Törli a megadott kiterjesztés adatait.', //? purge extension
 
 	'CLI_DESCRIPTION_REPARSER_LIST'						=> 'Az újraformázható szöveg típusok listázása.',
+	'CLI_DESCRIPTION_REPARSER_AVAILABLE'				=> 'Elérhető újraformázók:',//? "Available reparsers"
 	'CLI_DESCRIPTION_REPARSER_REPARSE'					=> 'Újraformázza a tárolt szövegeket a jelenlegi text_formatter szolgáltatással.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'			=> 'Az újraformázandó szöveg típusa. Hagyd üresen, ha mindent újra szeretnél formázni.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Ne mentsen el semmit, csak mutassa meg mi lenne az eredmény',

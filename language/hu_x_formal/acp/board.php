@@ -362,6 +362,8 @@ $lang = array_merge($lang, array(
 
 	'COOKIE_DOMAIN'				=> 'Süti domain',
 	'COOKIE_NAME'				=> 'Süti név',
+	'COOKIE_NOTICE'				=> 'Süti használati figyelmeztetés',
+	'COOKIE_NOTICE_EXPLAIN'		=> 'Ha engedélyezed, a látogatóidnak egy süti használati figyelmeztetés kerül megjelenítésre a fórumod felkeresésekor. Erre jogi okokból lehet szükség a fórumod tartalmától és az engedélyezett kiterjesztésektől függően.', //? "If enabled a cookie notice will be displayed to users when visiting your board. This might be required by law depending on the content of your board and enabled extensions."
 	'COOKIE_PATH'				=> 'Süti elérési út',
 	'COOKIE_SECURE'				=> 'Süti biztonság',
 	'COOKIE_SECURE_EXPLAIN'		=> 'Ha a szervered SSL-en fut, kapcsold be, egyébként hagyd kikapcsolva. Ha be van állítva, de nincs SSL, az átirányítások során szerver hibák fognak fellépni.',
