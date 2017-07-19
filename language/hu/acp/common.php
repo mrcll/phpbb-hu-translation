@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2016 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2017 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -398,7 +398,8 @@ $lang = array_merge($lang, array(
 	'NUMBER_USERS'		=> 'Felhasználók száma',
 	'NUMBER_ORPHAN'		=> 'Árva csatolmányok száma',
 
-	'PHP_VERSION_OLD'	=> 'A szerveren lévő PHP verziót a jövőbeli phpBB kiadások már nem fogják támogatni. %sRészletek%s',
+	'PHP_VERSION'		=> 'PHP verzió',
+	'PHP_VERSION_OLD'	=> 'A szerveren lévő PHP verziót (%1$s) a jövőbeli phpBB kiadások már nem fogják támogatni. A szükséges minimális PHP verzió %s$s. %3$sRészletek%4$s',
 
 	'POSTS_PER_DAY'		=> 'Hozzászólások száma naponta',
 
@@ -447,6 +448,9 @@ $lang = array_merge($lang, array(
 	'VERSIONCHECK_FORCE_UPDATE'	=> 'Verzió ellenőrzése újra',
 	'VERSION_CHECK'				=> 'Verzió ellenőrzés',
 	'VERSION_CHECK_EXPLAIN'		=> 'Ellenőrzi, hogy a phpBB verziója naprakész-e.',
+	'VERSIONCHECK_INVALID_ENTRY'	=> 'A legújabb verzióval kapcsolatos információk nem támogatott bejegyzést tartalmaznak.',
+	'VERSIONCHECK_INVALID_URL'		=> 'A legújabb verzióval kapcsolatos információk érvénytelen URL-t tartalmaznak.',
+	'VERSIONCHECK_INVALID_VERSION'	=> 'A legújabb verzióval kapcsolatos információk érvénytelen verziószámot tartalmaz.',
 	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'A phpBB verziódhoz újabb frissítések érhetőek el.<br />A lentebbi linken az újabb verzió bejelentését és a frissítéshez szükséges instrukciókat találod.',
 	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'A phpBB verziódhoz újabb frissítések érhetőek el.',
 	'VERSION_UP_TO_DATE_ACP'	=> 'A phpBB verziód a jelenleg elérhető legfrissebb verzió, jelenleg nincsenek telepíthető frissítések.',

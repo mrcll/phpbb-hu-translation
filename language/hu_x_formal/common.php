@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2016 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2017 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -180,6 +180,7 @@ $lang = array_merge($lang, array(
 	'COOKIE_CONSENT_INFO'	=> 'Tudjon meg többet',
 	'COOKIE_CONSENT_MSG'	=> 'Ez a weboldal sütiket használ, hogy a legjobb felhasználói élményt nyújthassa.', //? "This website uses cookies to ensure you get the best experience on our website."
 	'COOKIE_CONSENT_OK'		=> 'Értettem!',
+	'COOKIE_CONSENT_HREF'	=> 'http://cookiesandyou.com',
 	'COOKIES_DELETED'		=> 'A fórum sütijei törlésre kerültek.',
 	'CURRENT_TIME'			=> 'Pontos idő: %s',
 

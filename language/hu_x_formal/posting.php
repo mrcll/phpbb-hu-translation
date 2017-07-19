@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2016 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2017 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -245,9 +245,9 @@ $lang = array_merge($lang, array(
 	'SMILIES'					=> 'Emotikonok',
 	'SMILIES_ARE_OFF'			=> 'Emotikonok <em>kikapcsolva</em>',
 	'SMILIES_ARE_ON'			=> 'Emotikonok <em>bekapcsolva</em>',
-	'STICKY_ANNOUNCE_TIME_LIMIT'=> 'Ennyi ideig lesz kiemelt/közlemény a téma.',
+	'STICKY_ANNOUNCE_TIME_LIMIT'=> 'Ennyi ideig lesz kiemelt/közlemény/globális a téma.',
 	'STICK_TOPIC_FOR'			=> 'Kiemelés időtartama', //? "Stick topic for"
-	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Adjon meg 0-t, hogy a téma mindig kiemelt/közlemény maradjon. Kérjük, vegye figyelembe, hogy az idő a hozzászólás elküldésétől számítódik.',
+	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Adjon meg 0-t, hogy a téma mindig kiemelt/közlemény/globális maradjon. Kérjük, vegye figyelembe, hogy az idő a hozzászólás elküldésétől számítódik.',
 	'STYLES_TIP'				=> 'Tipp: a formázások gyorsan alkalmazhatók a kiválasztott szövegen.',
 
 	'TOO_FEW_CHARS'				=> 'Az üzenet túl rövid.', //? "Your message contains too few characters."

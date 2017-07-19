@@ -61,6 +61,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'Letilt egy megadott kiterjesztést.',
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Engedélyez egy meghatározott kiterjesztést.',
 	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'Megkeresi azokat a migration-öket, amik nem függenek tőle.', //?
+	'CLI_DESCRIPTION_FIX_LEFT_RIGHT_IDS'		=> 'A fórum és modulok faszerkezetének megjavítása.', //?
 	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Konfigurációs beállítás értékét kéri le',
 	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Megnöveli egy egész számot tartalmazó konfigurációs beállítás értékét',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Kilistázza az adatbázisban és a fájlrendszerben lévő összes kiterjesztést.',
@@ -94,8 +95,10 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'		=> 'Ellenőrizendő kiterjesztés neve (ha az összes, jelöld be az összes kiterjesztést)',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Ellenőrző parancs futtatása gyorsítótárral.', //? "Run check command with cache."
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Parancs futtatása megadva, hogy csak a stabil vagy fejlesztői verziókat ellenőrizze.', //? "Run command choosing to check only stable or unstable versions."
+	
+	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'Régebbi, elavult jelszó hash-ek frissítése, hogy bcrypt használatával legyenek hashelve.', //? Updates outdated password hashes to be hashed with bcrypt.
 
-	'CLI_ERROR_INVALID_STABILITY' => '"%s" érvénytelen fejlesztési verzió.', //? ""%s" is not a valid stability."
+	'CLI_ERROR_INVALID_STABILITY' => '"%s"-nek "stable"-nek vagy "unstable"-nek kell lennie.',
 
 	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Felhasználói fiók aktiválása (vagy deaktiválása).',
 	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Felhasználói fiókhoz tartozó felhasználó név.',
@@ -114,8 +117,10 @@ $lang = array_merge($lang, array(
 
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Nem lehet letiltani a %s kiterjesztést',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> '%s kiterjesztés sikeresen letiltva',
+	'CLI_EXTENSION_DISABLED'			=> '%s kiterjesztés nincs engedélyezve',
 	'CLI_EXTENSION_ENABLE_FAILURE'		=> 'Nem lehet engedélyezni a %s kiterjesztést',
 	'CLI_EXTENSION_ENABLE_SUCCESS'		=> '%s kiterjesztés sikeresen engedélyezve',
+	'CLI_EXTENSION_ENABLED'				=> '%s kiterjesztés már engedélyezve van',
 	'CLI_EXTENSION_NAME'				=> 'Kiterjesztés neve',
 	'CLI_EXTENSION_PURGE_FAILURE'		=> 'Nem lehet törölni a %s kiterjesztés adatait',
 	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'A %s kiterjesztés adatai sikeresen törlésre kerültek',
@@ -126,7 +131,9 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_DISABLED'			=> 'Letiltott',
 	'CLI_EXTENSIONS_ENABLED'			=> 'Engedélyezett',
 
+	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'A fórumok és modulok faszerkezete sikeresen javításra került.',
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Az összes e-mail hash sikeresen újraszámításra került.',
+	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'A régebbi, elavult jelszó hash-ek sikeresen bcrypt-re lettek frissítve.',
 
 	'CLI_MIGRATION_NAME'					=> 'Adatbázis migráció neve, a teljes namespace-el együtt (használj perjeleket visszaperjelek helyett, a problémák elkerülése érdekében).',
 	'CLI_MIGRATIONS_AVAILABLE'				=> 'Elérhető adatbázis migrációk',

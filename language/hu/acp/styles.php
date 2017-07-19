@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2015 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2017 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -84,6 +84,7 @@ $lang = array_merge($lang, array(
 	'STYLE_UNINSTALL_DEPENDENT'	=> 'A "%s" megjelenés nem távolítható el, amíg van rá épülő megjelenés telepítve.',
 	'STYLE_UNINSTALLED'			=> '"%s" megjelenés sikeresen eltávolításra került.',
 	'STYLE_USED_BY'				=> 'Használók száma (robotok beleértve)',
+	'STYLE_VERSION'				=> 'Megjelenés verziója',
 
 	'UNINSTALL_DEFAULT'		=> 'Nem távolíthatod el az alapértelmezett megjelenést.',
 

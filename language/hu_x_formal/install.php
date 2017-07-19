@@ -8,7 +8,7 @@
  * For full copyright and license information, please see
  * the docs/CREDITS.txt file.
  *
- * Magyar fordítás (c) 2007-2016 „Magyar phpBB Közösség fordítók”,
+ * Magyar fordítás (c) 2007-2017 „Magyar phpBB Közösség fordítók”,
  * http://phpbb.hu
  *
  * $Id$
@@ -85,7 +85,7 @@ $lang = array_merge($lang, array(
     'ACP_LINK'	=> 'Tovább <a href="%1$s">az AVP-re</a>',
 
     'INSTALL_PHPBB_INSTALLED'		=> 'phpBB már telepítve van.',
-    'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB még nincs telepítve.'
+    'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB még nincs telepítve.',
 ));
 
 // Requirements translation
@@ -121,7 +121,7 @@ $lang = array_merge($lang, array(
 
     'RETEST_REQUIREMENTS'	=> 'Követelmények ellenőrzése mégegyszer',
 
-    'STAGE_REQUIREMENTS'	=> 'Követelmények ellenőrzése'
+    'STAGE_REQUIREMENTS'	=> 'Követelmények ellenőrzése',
 ));
 
 // General error messages
@@ -201,6 +201,7 @@ $lang = array_merge($lang, array(
     'INST_ERR_DB_NO_NAME'			=> 'Nem adtad meg az adatbázis nevét.',
     'INST_ERR_DB_FORUM_PATH'		=> 'A megadott adatbázis fájl a fórum fájlok között található. Biztonsági szempontok miatt javasoljuk, hogy tartsd az adatbázis fájlt egy olyan könyvtárban, ami nem elérhető az internetről.',
     'INST_ERR_DB_CONNECT'			=> 'Nem sikerült csatlakozni az adatbázishoz. A hiba üzenetet alább láthatod.',
+	'INST_ERR_DB_NO_WRITABLE'		=> 'Az adatbázisnak és az azt tartalmazó könyvtárnak is írhatónak kell lennie.',
     'INST_ERR_DB_NO_ERROR'			=> 'A hibaüzenet nem elérhető.',
     'INST_ERR_PREFIX'				=> 'A megadott adatbázis előtagú táblák már léteznek, válassz egy másikat.',
     'INST_ERR_DB_NO_MYSQLI'			=> 'A telepített MySQL adatbázis verziója nem kompatibilis a választott “MySQL MySQLi kiterjesztéssel” opcióval. Kérünk, használd a “MySQL” opciót.',
@@ -226,6 +227,7 @@ $lang = array_merge($lang, array(
     // Server data
     //
     // Form labels
+	'UPGRADE_INSTRUCTIONS'			=> 'Egy új <strong>%1$s</strong> verzió érhető el. Kérjük, olvasd el az angol nyelvű <a href="%2$s" title="%2$s"><strong>kiadási közleményt</strong></a>, hogy megismerd az újdonságokat és a frissítés menetét.',
     'SERVER_CONFIG'				=> 'Szerver beállítások',
     'SCRIPT_PATH'				=> 'Elérési útvonal',
     'SCRIPT_PATH_EXPLAIN'		=> 'A phpBB domain névhez viszonyított relatív elérési útja, pl. <samp>/phpBB3</samp>.',
@@ -301,6 +303,7 @@ $lang = array_merge($lang, array(
     'TASK_ADD_BOTS'			=> 'Robotok regisztrálása',
     'TASK_ADD_LANGUAGES'	=> 'Elérhető nyelvek telepítése',
     'TASK_ADD_MODULES'		=> 'Modulok telepítése',
+	'TASK_CREATE_SEARCH_INDEX'	=> 'Kereső index létrehozása',
 
     // Install finish tasks
 	'TASK_INSTALL_EXTENSIONS'	=> 'Becsomagolt kiterjesztések telepítése', //? "Installing packaged extensions"

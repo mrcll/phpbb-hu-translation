@@ -8,7 +8,7 @@
  * For full copyright and license information, please see
  * the docs/CREDITS.txt file.
  *
- * Magyar fordítás (c) 2007-2016 „Magyar phpBB Közösség fordítók”,
+ * Magyar fordítás (c) 2007-2017 „Magyar phpBB Közösség fordítók”,
  * http://phpbb.hu
  *
  * $Id$
@@ -55,7 +55,7 @@ $lang = array_merge($lang, array(
 	'HELP_BBCODE_OTHERS_CUSTOM_ANSWER'	=> 'Ha ön adminisztrátor a fórumon, és megvan a megfelelő jogosultsága, az adminisztrátori vezérlőpult „Egyéni BBCode”-ok részén tud felvenni saját BBCode-okat.',
 	'HELP_BBCODE_OTHERS_CUSTOM_QUESTION'	=> 'Készíthetek saját címkéket?',
 
-	'HELP_BBCODE_QUOTES_CODE_ANSWER'	=> 'Ha egy kódrészletet vagy bármilyen fix szélességet igénylő szöveget szeretne beilleszteni (például Courier betűtípussal), zárja körül a szöveget <strong>[code][/code]</strong> címkékkel. Például:<br /><br /><strong>[code]</strong>echo &quot;Ez valami kód.&quot;;<strong>[/code]</strong><br /><br /><strong>[code][/code]</strong> címkén belül nem használható más formázás, mivel ezeken belül szereplő más címkék nem kerülnek értelmezésre. Ha PHP kódot illeszt be, használja a <strong>[code=php][/code]</strong> címkét a szintaxiskiemeléshez, hogy a kód könnyebben olvasható legyen.',
+	'HELP_BBCODE_QUOTES_CODE_ANSWER'	=> 'Ha egy kódrészletet vagy bármilyen fix szélességet igénylő szöveget szeretne beilleszteni (például Courier betűtípussal), zárja körül a szöveget <strong>[code][/code]</strong> címkékkel. Például:<br /><br /><strong>[code]</strong>echo &quot;Ez valami kód.&quot;;<strong>[/code]</strong><br /><br /><strong>[code][/code]</strong> címkén belül nem használható más formázás, mivel ezeken belül szereplő más címkék nem kerülnek értelmezésre.',
 	'HELP_BBCODE_QUOTES_CODE_QUESTION'	=> 'Kódok és fix szélességet igénylő szövegek',
 	'HELP_BBCODE_QUOTES_TEXT_ANSWER'	=> 'Két módon lehet idézni: megadva az idézet forrását, vagy nem.<ul><li>Ha egy hozzászólás mellett lévő „Idézés” gombra kattintva válaszol, akkor a hozzászólás szövege automatikusan hozzáadódik az üzenethez <strong>[quote=""][/quote]</strong> címkékbe zárva. Ezen módot használva megjelölheti az idézés forrását: egy felhasználót, egy webcímet vagy bármi mást. Ha például Kovács úrtól szeretne idézni, a következőt írja:<br /><br /><strong>[quote="Kovács úr"]</strong>Ide jön a Kovács úr által írt szöveg.<strong>[/quote]</strong><br /><br />A beírt szöveg elé automatikusan odakerül, hogy „Kovács úr írta”. Ne felejtse el, hogy <strong>kötelező</strong> idézőjelbe tenni a forrás megnevezését, ez nem tetszőleges.</li><li>A másik móddal csak simán idézni lehet egy szöveget, a forrás megadása nélkül. Ehhez foglalja be a szöveget <strong>[quote][/quote]</strong> címkékbe. Az üzenet megtekintésénél láthatja, hogy csak egy sima „Idézet” felirat került a szöveg elé.</li></ul>',
 	'HELP_BBCODE_QUOTES_TEXT_QUESTION'	=> 'Idézés',

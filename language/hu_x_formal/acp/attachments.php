@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2016 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2017 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -122,7 +122,7 @@ $lang = array_merge($lang, array(
 	'MAX_EXTGROUP_FILESIZE'			=> 'Maximum állományméret',
 	'MAX_IMAGE_SIZE'				=> 'Maximum képméret',
 	'MAX_IMAGE_SIZE_EXPLAIN'		=> 'Legfeljebb ekkorák lehetnek a kép csatolmányok. Az ellenőrzés kikapcsolásához állítsd mindkét értéket 0-ra.',
-	'MAX_THUMB_WIDTH'				=> 'Maximum kiskép szélesség pixelben',
+	'MAX_THUMB_WIDTH'				=> 'Maximum kiskép szélesség/magasság pixelben',
 	'MAX_THUMB_WIDTH_EXPLAIN'		=> 'A generált kiskép nem fogja túllépni az itt megadott szélességet.',
 	'MIN_THUMB_FILESIZE'			=> 'Minimum kiskép állományméret',
 	'MIN_THUMB_FILESIZE_EXPLAIN'	=> 'Ennél kisebb képeknél nem lesz kiskép készítve.',
