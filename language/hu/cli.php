@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2016 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2017 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -59,6 +59,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'Letilt egy megadott kiterjesztést.',
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Engedélyez egy meghatározott kiterjesztést.',
 	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'Megkeresi azokat a migration-öket, amik nem függenek tőle.', //?
+	'CLI_DESCRIPTION_FIX_LEFT_RIGHT_IDS'		=> 'A fórum és modulok faszerkezetének megjavítása.', //?
 	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Konfigurációs beállítás értékét kéri le',
 	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Megnöveli egy egész számot tartalmazó konfigurációs beállítás értékét',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Kilistázza az adatbázisban és a fájlrendszerben lévő összes kiterjesztést.',
@@ -68,6 +69,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Újraszámítja a users tábla user_email_hash oszlopát.',
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Csak akkor állítja be a konfigurációs beállítás értékét, ha annak eredeti értéke megegyezik az aktuális értékkel.', //?
 	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Beállítja egy opció értékét',
+	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'Régebbi, elavult jelszó hash-ek frissítése, hogy bcrypt használatával legyenek hashelve.', //? Updates outdated password hashes to be hashed with bcrypt.
 
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Nem lehet letiltani a %s kiterjesztést',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> '%s kiterjesztés sikeresen letiltva',
@@ -81,7 +83,9 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_DISABLED'			=> 'Letiltott',
 	'CLI_EXTENSIONS_ENABLED'			=> 'Engedélyezett',
 
+	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'A fórumok és modulok faszerkezete sikeresen javításra került.',
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Az összes e-mail hash sikeresen újraszámításra került.',
+	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'A régebbi, elavult jelszó hash-ek sikeresen bcrypt-re lettek frissítve.',
 ));
 
 // Additional help for commands.

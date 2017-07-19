@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2016 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2017 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -376,7 +376,7 @@ $lang = array_merge($lang, array(
 	'NUMBER_USERS'		=> 'Felhasználók száma',
 	'NUMBER_ORPHAN'		=> 'Árva csatolmányok száma',
 
-	'PHP_VERSION_OLD'	=> 'A szerveren lévő PHP verziót a jövőbeli phpBB kiadások már nem fogják támogatni. %sRészletek%s',
+	'PHP_VERSION_OLD'	=> 'A szerveren lévő PHP verziót (%1$s) a jövőbeli phpBB kiadások már nem fogják támogatni. A szükséges minimális PHP verzió %s$s. %3$sRészletek%4$s',
 
 	'POSTS_PER_DAY'		=> 'Hozzászólások száma naponta',
 
@@ -423,6 +423,9 @@ $lang = array_merge($lang, array(
 	'VALUE'						=> 'Érték',
 	'VERSIONCHECK_FAIL'			=> 'Nem sikerült lekérni a legújabb verzióval kapcsolatos információkat.',
 	'VERSIONCHECK_FORCE_UPDATE'	=> 'Verzió ellenőrzése újra',
+	'VERSIONCHECK_INVALID_ENTRY'	=> 'A legújabb verzióval kapcsolatos információk nem támogatott bejegyzést tartalmaznak.',
+	'VERSIONCHECK_INVALID_URL'		=> 'A legújabb verzióval kapcsolatos információk érvénytelen URL-t tartalmaznak.',
+	'VERSIONCHECK_INVALID_VERSION'	=> 'A legújabb verzióval kapcsolatos információk érvénytelen verziószámot tartalmaz.',	
 	'VIEW_ADMIN_LOG'			=> 'Adminisztrátori napló megtekintése',
 	'VIEW_INACTIVE_USERS'		=> 'Inaktív felhasználók megtekintése',
 

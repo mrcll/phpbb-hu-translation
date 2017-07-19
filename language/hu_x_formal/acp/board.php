@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2016 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2017 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -357,11 +357,14 @@ $lang = array_merge($lang, array(
 
 // Cookie Settings
 $lang = array_merge($lang, array(
-	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Ezek a beállítások határozzák meg, hogy a felhasználóid böngészőjének milyen sütik kerülnek elküldésre. A legtöbb esetben az alapbeállítások megfelelőek. Ha mégis meg kell változtatnod egy beállítást, tedd figyelemmel, mivel a nem helyes beállítások következtében előfordulhat, hogy a felhasználók nem tudnak majd belépni.',
+	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Ezek a beállítások határozzák meg, hogy a felhasználóid böngészőjének milyen sütik kerülnek elküldésre. A legtöbb esetben az alapbeállítások megfelelőek. Ha mégis meg kell változtatnod egy beállítást, tedd figyelemmel, mivel a nem helyes beállítások következtében előfordulhat, hogy a felhasználók nem tudnak majd belépni. Ha a felhasználóknak problémái vannak a fórumon való bejelentkezve maradással, akkor látogasd meg az angol nyelvű <b><a href="https://www.phpbb.com/support/go/cookie-settings/">phpBB.com Knowledge Base - Fixing incorrect cookie settings</a></b> oldalt.',
 
 	'COOKIE_DOMAIN'				=> 'Süti domain',
+	'COOKIE_DOMAIN_EXPLAIN'		=> 'A legtöbb esetben a süti domaint nem kell megadni. Hagyd üresen, ha nem vagy biztos az értékében.<br /><br /> Abban az esetben, ha a fórum integrálva van weboldallal vagy más programmal, esetleg több domain névről is elérhető, akkor a következőket kell tenned a megadandó érték eldöntésére. Ha van például egy <i>example.com</i> és egy <i>forums.example.com</i> címed, vagy <i>forums.example.com</i> és <i>blog.example.com</i>, akkor távolítsd el a címek elején lévő aldomaineket addig, amíg meg nem kapod a közös domain nevet, ami ebben az esetben <i>example.com</i>. Most tegyél egy pontot a domain elé és add meg a .example.com címet (figyelj a cím elején lévő pontra).',
 	'COOKIE_NAME'				=> 'Süti név',
+	'COOKIE_NAME_EXPLAIN'		=> 'Ez bármi lehet, amit szeretnél, legyen egyedi. Ha a süti beállítások változnak, a süti nevét is módosítani kell.',
 	'COOKIE_PATH'				=> 'Süti elérési út',
+	'COOKIE_PATH_EXPLAIN'		=> 'Ez mindig egy perjel, attól függetlenül, hogy mi a fórum URL címe.',
 	'COOKIE_SECURE'				=> 'Süti biztonság',
 	'COOKIE_SECURE_EXPLAIN'		=> 'Ha a szervered SSL-en fut, kapcsold be, egyébként hagyd kikapcsolva. Ha be van állítva, de nincs SSL, az átirányítások során szerver hibák fognak fellépni.',
 	'ONLINE_LENGTH'				=> 'Ki van itt megjelenési időtartam',
@@ -570,6 +573,8 @@ $lang = array_merge($lang, array(
 	'EMAIL_SIG_EXPLAIN'				=> 'Ez a szöveg hozzáfűzésre kerül az összes fórum által küldött e-mailhez.',
 	'ENABLE_EMAIL'					=> 'Fórum e-mail küldés bekapcsolása',
 	'ENABLE_EMAIL_EXPLAIN'			=> 'Ha ki van kapcsolva, a fórum egyáltalán nem fog e-mailt küldeni. <em>Kérjük, vedd figyelembe, hogy ebben az esetben a „felhasználói”, ill. „adminisztrátori” azonosító aktiválási mód nem működik. Ha jelenleg ezen aktivális módok egyikét használod, és nemre állítod ezt a beállítást, az letiltja a regisztrálás lehetőségét.</em>',
+	'SMTP_ALLOW_SELF_SIGNED'		=> 'Önaláírt SSL tanúsítványok engedélyezése',
+	'SMTP_ALLOW_SELF_SIGNED_EXPLAIN'=> 'Csatlakozás engedélyezése önaláírt (self-signed) tanúsítvánnyal rendelkező SMTP szerverekhez. <em><strong>Figyelmeztetés:</strong> Az önaláírt tanúsítványok használatának engedélyezése biztonsági következményekkel járhat.</em>',
 	'SMTP_AUTH_METHOD'				=> 'SMTP azonosítási mód',
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Csak akkor van használva, ha egy felhasználónév/jelszó páros meg van adva. Ha nem vagy biztos benne, melyik módot használd, kérdezd meg a szolgáltatódat.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',
@@ -586,6 +591,10 @@ $lang = array_merge($lang, array(
 	'SMTP_SETTINGS'					=> 'SMTP beállítások',
 	'SMTP_USERNAME'					=> 'SMTP felhasználónév',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Csak akkor adj meg felhasználónevet, ha a használt SMTP szerver megköveteli.',
+	'SMTP_VERIFY_PEER'				=> 'SSL tanúsítvány ellenőrzése',
+	'SMTP_VERIFY_PEER_EXPLAIN'		=> 'Az SMTP szerver által használt tanúsítvány ellenőrzésének megkövetelése. <em><strong>Figyelmeztetés:</strong> Az ellenőrizetlen SSL tanúsítvánnyal rendelkező szerverekhez való kapcsolódás biztonsági következményekkel járhat.</em>',
+	'SMTP_VERIFY_PEER_NAME'			=> 'SMTP szervernév ellenőrzése',
+	'SMTP_VERIFY_PEER_NAME_EXPLAIN'	=> 'Az SMTP szerver által használt gépnév ellenőrzésének megkövetelése SSL / TLS kapcsolatok használatakor.<em><strong>Figyelmeztetés:</strong> Az ellenőrizetlen SSL tanúsítvánnyal rendelkező szerverekhez való kapcsolódás biztonsági következményekkel járhat.</em>',
 	'USE_SMTP'						=> 'SMTP használata e-mail küldésére',
 	'USE_SMTP_EXPLAIN'				=> 'Állítsd igenre, ha a helyi mail függvény helyett egy meghatározott szerveren keresztül szeretnéd az e-maileket kiküldeni.',
 ));
@@ -594,6 +603,8 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_JABBER_SETTINGS_EXPLAIN'	=> 'Itt bekapcsolhatod, illetve szabályozhatod a Jabber használatát azonnali üzenetküldésre és az értesítésekhez. A Jabber egy nyílt protokoll, így bárki által elérhető. Néhány Jabber szerver lehetővé teszi, hogy más hálózaton lévő felhasználókat is elérj. Nem minden szerver teremt lehetőséget erre, és a protokollban történő változások is megakadályozhatják ezt. Kérünk, győződj meg róla, hogy egy már létező azonosító adatait adod meg, mivel a phpBB további ellenőrzés nélkül fogja használni ezeket.',
 
+	'JAB_ALLOW_SELF_SIGNED'			=> 'Önaláírt SSL tanúsítványok engedélyezése',
+	'JAB_ALLOW_SELF_SIGNED_EXPLAIN'	=> 'Önaláírt (self-signed) tanúsítvánnyal rendelkező Jabber szerverhez való kapcsolódás engedélyezése. <em><strong>Figyelmeztetés:</strong> Az önaláírt tanúsítványok használatának engedélyezése biztonsági következményekkel járhat.</em>',
 	'JAB_ENABLE'				=> 'Jabber bekapcsolása',
 	'JAB_ENABLE_EXPLAIN'		=> 'A Jabber üzenet- és értesítőküldés bekapcsolása.',
 	'JAB_GTALK_NOTE'			=> 'Kérjük, vedd figyelembe, hogy a GTalk nem fog működni, mivel a <samp>dns_get_record</samp> függvény nem található. Ez a függvény PHP4-ben nem elérhető, illetve nincs implementálva Windows rendszereken. Jelenleg BSD alapú rendszereken sem működik, beleértve a Mac OS-t is.',
@@ -610,4 +621,8 @@ $lang = array_merge($lang, array(
 	'JAB_USE_SSL_EXPLAIN'		=> 'Ha be van kapcsolva, egy biztonságos kapcsolat kerül kiépítésre. A Jabber portja 5223-ra lesz módosítva, ha az 5222-es port volt megadva.',
 	'JAB_USERNAME'				=> 'Jabber felhasználónév vagy JID',
 	'JAB_USERNAME_EXPLAIN'		=> 'Adj meg egy regisztrált felhasználónevet vagy egy valós JID-t. A felhasználónév létezése nem kerül ellenőrzésre. Ha csak egy felhasználónevet adsz meg, a JID a felhasználónév és a fent megadott szerver lesz. Ha nem ezt szeretnéd, adj meg egy helyes JID-t, pl. felhasznalo@jabber.org.',
+	'JAB_VERIFY_PEER'				=> 'SSL tanúsítvány ellenőrzése',
+	'JAB_VERIFY_PEER_EXPLAIN'		=> 'A Jabber szerver által használt tanúsítvány ellenőrzésének megkövetelése. <em><strong>Figyelmeztetés:</strong> Az ellenőrizetlen SSL tanúsítvánnyal rendelkező szerverekhez való kapcsolódás biztonsági következményekkel járhat.</em>',
+	'JAB_VERIFY_PEER_NAME'			=> 'Jabber szervernév ellenőrzése',
+	'JAB_VERIFY_PEER_NAME_EXPLAIN'	=> 'A Jabber szerver által használt gépnév ellenőrzésének megkövetelése SSL / TLS kapcsolatok használatakor.<em><strong>Figyelmeztetés:</strong> Az ellenőrizetlen SSL tanúsítvánnyal rendelkező szerverekhez való kapcsolódás biztonsági következményekkel járhat.</em>',
 ));

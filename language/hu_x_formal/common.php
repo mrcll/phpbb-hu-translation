@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2016 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2017 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -337,6 +337,7 @@ $lang = array_merge($lang, array(
 	'INTERESTS'					=> 'Érdeklődési kör',
 	'INVALID_DIGEST_CHALLENGE'	=> 'Hibás feltárási kérés',
 	'INVALID_EMAIL_LOG'			=> 'A <strong>%s</strong> feltehetőleg egy nem létező e-mail cím.',
+	'INVALID_FEED_ATTACHMENTS'	=> 'A kiválasztott hírcsatorna megpróbált letölteni egy ellenőrzési feltételeknek nem megfelelő csatolmányt.', //? The selected feed tried fetching attachments with invalid constraints.
 	'INVALID_PLURAL_RULE'		=> 'A megadott többes szám azonosító érvénytelen. Csak egész szám lehet 0 és 15 között.',
 	'IP'						=> 'IP-cím',
 	'IP_BLACKLISTED'			=> 'Az IP-címe (%1$s) tiltólistára került, ezért a hozzáférését a fórumhoz blokkoltuk. További információ: <a href="%2$s">%2$s</a>.',

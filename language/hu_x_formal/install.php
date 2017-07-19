@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2016 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2017 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -575,6 +575,7 @@ $lang = array_merge($lang, array(
 	'UPDATING_DATA'					=> 'Adatok frissítése',
 	'UPDATING_TO_LATEST_STABLE'		=> 'Adatbázis frissítése az utolsó stabil kiadásra',
 	'UPDATED_VERSION'				=> 'Frissített verzió', //?
+	'UPGRADE_INSTRUCTIONS'			=> 'Egy új <strong>%1$s</strong> verzió érhető el. Kérjük, olvasd el az angol nyelvű <a href="%2$s" title="%2$s"><strong>kiadási közleményt</strong></a>, hogy megismerd az újdonságokat és a frissítés menetét.',
 	'UPLOAD_METHOD'					=> 'Feltöltési mód',
 
 	'UPDATE_DB_SUCCESS'				=> 'Sikeres adatbázis-frissítés',
