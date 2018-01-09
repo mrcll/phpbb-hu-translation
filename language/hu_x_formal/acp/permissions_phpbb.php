@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2016 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2018 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -110,6 +110,7 @@ $lang = array_merge($lang, array(
 // Forum Permissions
 $lang = array_merge($lang, array(
 	'ACL_F_LIST'		=> 'Láthatja a fórumot',
+	'ACL_F_LIST_TOPICS' => 'Láthatja a témákat',
 	'ACL_F_READ'		=> 'Olvashatja a fórumot', //?
 	'ACL_F_SEARCH'		=> 'Kereshet a fórumban',
 	'ACL_F_SUBSCRIBE'	=> 'Feliratkozhat a fórumra',

@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2016 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2018 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -95,7 +95,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'		=> 'Ellenőrizendő kiterjesztés neve (ha az összes, jelöld be az összes kiterjesztést)',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Ellenőrző parancs futtatása gyorsítótárral.', //? "Run check command with cache."
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Parancs futtatása megadva, hogy csak a stabil vagy fejlesztői verziókat ellenőrizze.', //? "Run command choosing to check only stable or unstable versions."
-	
+
 	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'Régebbi, elavult jelszó hash-ek frissítése, hogy bcrypt használatával legyenek hashelve.', //? Updates outdated password hashes to be hashed with bcrypt.
 
 	'CLI_ERROR_INVALID_STABILITY' => '"%s"-nek "stable"-nek vagy "unstable"-nek kell lennie.',
@@ -121,12 +121,14 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSION_ENABLE_FAILURE'		=> 'Nem lehet engedélyezni a %s kiterjesztést',
 	'CLI_EXTENSION_ENABLE_SUCCESS'		=> '%s kiterjesztés sikeresen engedélyezve',
 	'CLI_EXTENSION_ENABLED'				=> '%s kiterjesztés már engedélyezve van',
+	'CLI_EXTENSION_NOT_EXIST'			=> '%s kiterjesztés nem létezik',
 	'CLI_EXTENSION_NAME'				=> 'Kiterjesztés neve',
 	'CLI_EXTENSION_PURGE_FAILURE'		=> 'Nem lehet törölni a %s kiterjesztés adatait',
 	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'A %s kiterjesztés adatai sikeresen törlésre kerültek',
 	'CLI_EXTENSION_UPDATE_FAILURE'		=> '%s kiterjesztést nem sikerült frissíteni',
 	'CLI_EXTENSION_UPDATE_SUCCESS'		=> '%s kiterjesztés sikeresen frissítve lett',
 	'CLI_EXTENSION_NOT_FOUND'			=> 'Nem találhatóak kiterjesztések.',
+	'CLI_EXTENSION_NOT_ENABLEABLE'		=> '%s kiterjesztés nem engedélyezhető.',
 	'CLI_EXTENSIONS_AVAILABLE'			=> 'Elérhető',
 	'CLI_EXTENSIONS_DISABLED'			=> 'Letiltott',
 	'CLI_EXTENSIONS_ENABLED'			=> 'Engedélyezett',

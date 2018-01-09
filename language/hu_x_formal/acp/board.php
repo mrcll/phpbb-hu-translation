@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2017 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2018 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -369,7 +369,7 @@ $lang = array_merge($lang, array(
 	'COOKIE_NOTICE'				=> 'Süti használati figyelmeztetés',
 	'COOKIE_NOTICE_EXPLAIN'		=> 'Ha engedélyezed, a látogatóidnak egy süti használati figyelmeztetés kerül megjelenítésre a fórumod felkeresésekor. Erre jogi okokból lehet szükség a fórumod tartalmától és az engedélyezett kiterjesztésektől függően.', //? "If enabled a cookie notice will be displayed to users when visiting your board. This might be required by law depending on the content of your board and enabled extensions."
 	'COOKIE_PATH'				=> 'Süti elérési út',
-	'COOKIE_PATH_EXPLAIN'		=> 'Ez mindig egy perjel, attól függetlenül, hogy mi a fórum URL címe.',
+	'COOKIE_PATH_EXPLAIN'		=> 'Ez általában ugyanaz lesz, mint a fórum elérési útja vagy egy perjel, ha a sütit az egész domainen elérhetővé szeretnéd tenni.', // ? script path
 	'COOKIE_SECURE'				=> 'Süti biztonság',
 	'COOKIE_SECURE_EXPLAIN'		=> 'Ha a szervered SSL-en fut, kapcsold be, egyébként hagyd kikapcsolva. Ha be van állítva, de nincs SSL, az átirányítások során szerver hibák fognak fellépni.',
 	'ONLINE_LENGTH'				=> 'Ki van itt megjelenési időtartam',
@@ -383,7 +383,7 @@ $lang = array_merge($lang, array(
 	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Itt be- vagy kikapcsolhatod a fórum kapcsolat oldalát, valamint megadhatsz egy az oldalon megjelenő üzenetet.',
 
 	'CONTACT_US_ENABLE'				=> 'Kapcsolat oldal engedélyezése',
-	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Ezen az oldalon a felhasználók e-mailt küldhetnek a fórum adminisztrátorainak',
+	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Ezen az oldalon a felhasználók e-mailt küldhetnek a fórum adminisztrátorainak. Kérjük, vedd figyelembe, hogy a fórum e-mail küldésnek bekapcsolva kell lennie az Általános > Kommunikáció a kliensekkel > E-mail beállítások pontban.',
 
 	'CONTACT_US_INFO'				=> 'Kapcsolati információk',
 	'CONTACT_US_INFO_EXPLAIN'		=> 'Ez az üzenet lesz megjelenítve a kapcsolat oldalon.',
@@ -564,8 +564,8 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_EMAIL_SETTINGS_EXPLAIN'	=> 'Az alábbi információkat használja a fórum e-mailek küldésekor. Kérünk, győződj meg róla, hogy az e-mail cím, amit megadsz, helyes, mivel minden nem kézbesíthető levél erre a címre fog menni. Ha a tárhelyszolgáltatód nem biztosítja a natív (PHP alapú) e-mail küldést, használhatsz helyette SMTP-t. Ehhez szükség van egy megfelelő szerver címére (ha szükséges, kérdezd meg a szolgáltatód). Ha (és csak ha) a szerver megköveteli az azonosítást, add meg a szükséges felhasználónevet, jelszót és azonosítási módot.',
 
-	'ADMIN_EMAIL'					=> 'Visszaküldési e-mail cím',
-	'ADMIN_EMAIL_EXPLAIN'			=> 'Ez a technikai kapcsolat cím, például ide vannak irányítva a nem kézbesíthető levelek. Mindig ez a cím kerül megadásra a levelek <samp>Return-Path</samp> (visszaküldési útvonal) és <samp>Sender</samp> (küldő) fejlécének.',
+	'ADMIN_EMAIL'					=> 'Feladó e-mail cím',
+	'ADMIN_EMAIL_EXPLAIN'			=> 'Ez a technikai kapcsolat cím. Mindig ez a cím kerül megadásra a levelek <samp>Sender</samp> (küldő) fejlécének.',
 	'BOARD_EMAIL_FORM'				=> 'Felhasználói levélküldés a fórumon keresztül',
 	'BOARD_EMAIL_FORM_EXPLAIN'		=> 'Ahelyett, hogy a felhasználók e-mail címe megjelenítésre kerülne, a felhasználók a fórumon keresztül küldhetnek egymásnak e-mailt.',
 	'BOARD_HIDE_EMAILS'				=> 'E-mail címek elrejtése',
@@ -574,8 +574,8 @@ $lang = array_merge($lang, array(
 	'CONTACT_EMAIL_EXPLAIN'			=> 'Ez az e-mail cím kerül megadásra, ha szükség van bármilyen kapcsolatbalépési lehetőségre, pl. spam, hibaüzenet stb. Mindig ez a cím kerül megadásra a levelek <samp>From</samp> (feladó) és <samp>Reply-To</samp> (válaszcím) fejlécének.',
 	'CONTACT_EMAIL_NAME'			=> 'Kapcsolat név',
 	'CONTACT_EMAIL_NAME_EXPLAIN'	=> 'Ez az a kapcsolati név, amit az e-mailek címzettjei látni fognak. Ha nem szeretnél nevet megadni, hagyd üresen.',
-	'EMAIL_FUNCTION_NAME'			=> 'E-mail függvény neve',
-	'EMAIL_FUNCTION_NAME_EXPLAIN'	=> 'A függvény neve, amivel e-mailt lehet küldeni PHP-n keresztül.',
+	'EMAIL_FORCE_SENDER'			=> 'Force from email address',
+	'EMAIL_FORCE_SENDER_EXPLAIN'	=> 'Beállítja a <samp>Return-Path</samp> (visszaküldési útvonal) értékének a feladó e-mail címet a szerver helyi felhasználója és hosztneve helyett. Ez a beállítás nincs figyelembe véve SMTP használatakor.<br><em><strong>Figyelmeztetés:</strong> A beállítás használatához szükséges, hogy a felhasználó, akinek a nevében a webszerver fut a megbízható felhasználók között szerepeljen a sendmail parancs beállításaiban.</em>', // ? This will set the <samp>Return-Path</samp> to the from email address instead of using the local user and hostname of the server. This setting does not apply when using SMTP.<br><em><strong>Warning:</strong> Requires the user that the webserver runs as to be added as trusted user to the sendmail configuration.</em>
 	'EMAIL_PACKAGE_SIZE'			=> 'E-mail csomag mérete',
 	'EMAIL_PACKAGE_SIZE_EXPLAIN'	=> 'Legfeljebb ennyi e-mail kerül kiküldésre egy csomagban. Ez a beállítás a belső várakozási sorra vonatkozik. Ha problémák lépnének föl nem megérkező értesítő e-mailekkel kapcsolatban, állítsd ezt az értéket 0-ra.',
 	'EMAIL_SIG'						=> 'E-mail aláírás',
@@ -585,14 +585,14 @@ $lang = array_merge($lang, array(
 	'SEND_TEST_EMAIL'				=> 'Teszt e-mail küldése',
 	'SEND_TEST_EMAIL_EXPLAIN'		=> 'Egy teszt e-mailt küldhetsz a felhasználói fiókodban megadott e-mail címre.',
 	'SMTP_ALLOW_SELF_SIGNED'		=> 'Önaláírt SSL tanúsítványok engedélyezése',
-	'SMTP_ALLOW_SELF_SIGNED_EXPLAIN'=> 'Csatlakozás engedélyezése önaláírt (self-signed) tanúsítvánnyal rendelkező SMTP szerverekhez. <em><strong>Figyelmeztetés:</strong> Az önaláírt tanúsítványok használatának engedélyezése biztonsági következményekkel járhat.</em>',
+	'SMTP_ALLOW_SELF_SIGNED_EXPLAIN'=> 'Csatlakozás engedélyezése önaláírt (self-signed) tanúsítvánnyal rendelkező SMTP szerverekhez. <br><em><strong>Figyelmeztetés:</strong> Az önaláírt tanúsítványok használatának engedélyezése biztonsági következményekkel járhat.</em>',
 	'SMTP_AUTH_METHOD'				=> 'SMTP azonosítási mód',
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Csak akkor van használva, ha egy felhasználónév/jelszó páros meg van adva. Ha nem vagy biztos benne, melyik módot használd, kérdezd meg a szolgáltatódat.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',
 	'SMTP_DIGEST_MD5'				=> 'DIGEST-MD5',
 	'SMTP_LOGIN'					=> 'LOGIN',
 	'SMTP_PASSWORD'					=> 'SMTP jelszó',
-	'SMTP_PASSWORD_EXPLAIN'			=> 'Csak akkor adj meg jelszót, ha a használt SMTP szerver megköveteli.<br /><em><strong>Figyelmeztetés:</strong> Ez a jelszó az adatbázisban sima szövegként kerül tárolásra, így bárki által hozzáférhető, aki hozzáfér az adatbázishoz vagy látja ezt a beállítás oldalt.</em>',
+	'SMTP_PASSWORD_EXPLAIN'			=> 'Csak akkor adj meg jelszót, ha a használt SMTP szerver megköveteli.<br><em><strong>Figyelmeztetés:</strong> Ez a jelszó az adatbázisban sima szövegként kerül tárolásra, így bárki által hozzáférhető, aki hozzáfér az adatbázishoz vagy látja ezt a beállítás oldalt.</em>',
 	'SMTP_PLAIN'					=> 'PLAIN',
 	'SMTP_POP_BEFORE_SMTP'			=> 'POP-BEFORE-SMTP',
 	'SMTP_PORT'						=> 'SMTP szerver port',
@@ -603,10 +603,10 @@ $lang = array_merge($lang, array(
 	'SMTP_USERNAME'					=> 'SMTP felhasználónév',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Csak akkor adj meg felhasználónevet, ha a használt SMTP szerver megköveteli.',
 	'SMTP_VERIFY_PEER'				=> 'SSL tanúsítvány ellenőrzése',
-	'SMTP_VERIFY_PEER_EXPLAIN'		=> 'Az SMTP szerver által használt tanúsítvány ellenőrzésének megkövetelése. <em><strong>Figyelmeztetés:</strong> Az ellenőrizetlen SSL tanúsítvánnyal rendelkező szerverekhez való kapcsolódás biztonsági következményekkel járhat.</em>',
+	'SMTP_VERIFY_PEER_EXPLAIN'		=> 'Az SMTP szerver által használt tanúsítvány ellenőrzésének megkövetelése. <br><em><strong>Figyelmeztetés:</strong> Az ellenőrizetlen SSL tanúsítvánnyal rendelkező szerverekhez való kapcsolódás biztonsági következményekkel járhat.</em>',
 	'SMTP_VERIFY_PEER_NAME'			=> 'SMTP szervernév ellenőrzése',
-	'SMTP_VERIFY_PEER_NAME_EXPLAIN'	=> 'Az SMTP szerver által használt gépnév ellenőrzésének megkövetelése SSL / TLS kapcsolatok használatakor.<em><strong>Figyelmeztetés:</strong> Az ellenőrizetlen SSL tanúsítvánnyal rendelkező szerverekhez való kapcsolódás biztonsági következményekkel járhat.</em>',
-	'TEST_EMAIL_SENT'				=> 'A teszt e-mail kiküldésre került.<br />Ha nem érkezik meg, kérjük, ellenőrizd az e-mail küldési beállításokat.<br /><br />Ha segítségre van szükséged, kérjük, látogasd meg a <a href="https://www.phpbb.com/community/">phpBB angol nyelvű támogatási fórumát</a>.',
+	'SMTP_VERIFY_PEER_NAME_EXPLAIN'	=> 'Az SMTP szerver által használt gépnév ellenőrzésének megkövetelése SSL / TLS kapcsolatok használatakor.<br><em><strong>Figyelmeztetés:</strong> Az ellenőrizetlen SSL tanúsítvánnyal rendelkező szerverekhez való kapcsolódás biztonsági következményekkel járhat.</em>',
+	'TEST_EMAIL_SENT'				=> 'A teszt e-mail kiküldésre került.<br>Ha nem érkezik meg, kérjük, ellenőrizd az e-mail küldési beállításokat.<br><br>Ha segítségre van szükséged, kérjük, látogasd meg a <a href="https://www.phpbb.com/community/">phpBB angol nyelvű támogatási fórumát</a>.',
 	'USE_SMTP'						=> 'SMTP használata e-mail küldésére',
 	'USE_SMTP_EXPLAIN'				=> 'Állítsd igenre, ha a helyi mail függvény helyett egy meghatározott szerveren keresztül szeretnéd az e-maileket kiküldeni.',
 ));
@@ -616,7 +616,7 @@ $lang = array_merge($lang, array(
 	'ACP_JABBER_SETTINGS_EXPLAIN'	=> 'Itt bekapcsolhatod, illetve szabályozhatod a Jabber használatát azonnali üzenetküldésre és az értesítésekhez. A Jabber egy nyílt protokoll, így bárki által elérhető. Néhány Jabber szerver lehetővé teszi, hogy más hálózaton lévő felhasználókat is elérj. Nem minden szerver teremt lehetőséget erre, és a protokollban történő változások is megakadályozhatják ezt. Kérünk, győződj meg róla, hogy egy már létező azonosító adatait adod meg, mivel a phpBB további ellenőrzés nélkül fogja használni ezeket.',
 
 	'JAB_ALLOW_SELF_SIGNED'			=> 'Önaláírt SSL tanúsítványok engedélyezése',
-	'JAB_ALLOW_SELF_SIGNED_EXPLAIN'	=> 'Önaláírt (self-signed) tanúsítvánnyal rendelkező Jabber szerverhez való kapcsolódás engedélyezése. <em><strong>Figyelmeztetés:</strong> Az önaláírt tanúsítványok használatának engedélyezése biztonsági következményekkel járhat.</em>',
+	'JAB_ALLOW_SELF_SIGNED_EXPLAIN'	=> 'Önaláírt (self-signed) tanúsítvánnyal rendelkező Jabber szerverhez való kapcsolódás engedélyezése. <br><em><strong>Figyelmeztetés:</strong> Az önaláírt tanúsítványok használatának engedélyezése biztonsági következményekkel járhat.</em>',
 	'JAB_ENABLE'				=> 'Jabber bekapcsolása',
 	'JAB_ENABLE_EXPLAIN'		=> 'A Jabber üzenet- és értesítőküldés bekapcsolása.',
 	'JAB_GTALK_NOTE'			=> 'Kérjük, vedd figyelembe, hogy a GTalk nem fog működni, mivel a <samp>dns_get_record</samp> függvény nem található. Ez a függvény PHP4-ben nem elérhető, illetve nincs implementálva Windows rendszereken. Jelenleg BSD alapú rendszereken sem működik, beleértve a Mac OS-t is.',
@@ -634,7 +634,7 @@ $lang = array_merge($lang, array(
 	'JAB_USERNAME'				=> 'Jabber felhasználónév vagy JID',
 	'JAB_USERNAME_EXPLAIN'		=> 'Adj meg egy regisztrált felhasználónevet vagy egy valós JID-t. A felhasználónév létezése nem kerül ellenőrzésre. Ha csak egy felhasználónevet adsz meg, a JID a felhasználónév és a fent megadott szerver lesz. Ha nem ezt szeretnéd, adj meg egy helyes JID-t, pl. felhasznalo@jabber.org.',
 	'JAB_VERIFY_PEER'				=> 'SSL tanúsítvány ellenőrzése',
-	'JAB_VERIFY_PEER_EXPLAIN'		=> 'A Jabber szerver által használt tanúsítvány ellenőrzésének megkövetelése. <em><strong>Figyelmeztetés:</strong> Az ellenőrizetlen SSL tanúsítvánnyal rendelkező szerverekhez való kapcsolódás biztonsági következményekkel járhat.</em>',
+	'JAB_VERIFY_PEER_EXPLAIN'		=> 'A Jabber szerver által használt tanúsítvány ellenőrzésének megkövetelése. <br><em><strong>Figyelmeztetés:</strong> Az ellenőrizetlen SSL tanúsítvánnyal rendelkező szerverekhez való kapcsolódás biztonsági következményekkel járhat.</em>',
 	'JAB_VERIFY_PEER_NAME'			=> 'Jabber szervernév ellenőrzése',
-	'JAB_VERIFY_PEER_NAME_EXPLAIN'	=> 'A Jabber szerver által használt gépnév ellenőrzésének megkövetelése SSL / TLS kapcsolatok használatakor.<em><strong>Figyelmeztetés:</strong> Az ellenőrizetlen SSL tanúsítvánnyal rendelkező szerverekhez való kapcsolódás biztonsági következményekkel járhat.</em>',	
+	'JAB_VERIFY_PEER_NAME_EXPLAIN'	=> 'A Jabber szerver által használt gépnév ellenőrzésének megkövetelése SSL / TLS kapcsolatok használatakor.<br><em><strong>Figyelmeztetés:</strong> Az ellenőrizetlen SSL tanúsítvánnyal rendelkező szerverekhez való kapcsolódás biztonsági következményekkel járhat.</em>',
 ));

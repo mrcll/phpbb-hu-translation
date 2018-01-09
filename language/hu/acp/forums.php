@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2015 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2018 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -90,7 +90,7 @@ $lang = array_merge($lang, array(
 	'FORUM_DELETE_EXPLAIN'				=> 'Az alábbi űrlap segítségével törölheted a fórumot. Ha a fórumba lehetett hozzászólást küldeni, megválaszthatod, hogy mit szeretnél csinálni a benne lévő témákkal (vagy fórumokkal).',
 	'FORUM_DELETED'						=> 'A fórum sikeresen törlésre került.',
 	'FORUM_DESC'						=> 'Leírás',
-	'FORUM_DESC_EXPLAIN'				=> 'A HTML kódok sima szövegként lesznek megjelenítve.',
+	'FORUM_DESC_EXPLAIN'				=> 'A HTML kódok sima szövegként lesznek megjelenítve. Ha a kiválasztott fórum típusa kategória, a leírás nincs használatban.', // ? If the selected forum type is a category the description is not used.
 	'FORUM_EDIT_EXPLAIN'				=> 'Az alábbi űrlap segítségével testreszabhatod a fórumot. Kérjük, vedd figyelembe, hogy a moderációs és hozzászólás-számlálási beállítások minden felhasználónak vagy csoportnak egyedileg állíthatók be a jogosultságok használatával.',
 	'FORUM_IMAGE'						=> 'Fórum kép',
 	'FORUM_IMAGE_EXPLAIN'				=> 'A fórumhoz társított kiegészítő kép relatív elérési útja, a phpBB gyökérkönyvtárától viszonyítva.',

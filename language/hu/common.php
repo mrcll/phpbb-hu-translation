@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2017 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2018 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -47,7 +47,7 @@ $lang = array_merge($lang, array(
 	'USER_LANG'			=> 'hu',
 
 	// You can define different rules for the determination of plural forms here.
-	// See http://wiki.phpbb.com/Plural_Rules for more information
+	// See https://area51.phpbb.com/docs/dev/32x/language/plurals.html for more information
 	// or ask the translation manager for help.
 	'PLURAL_RULE'		=> 2,
 
@@ -555,6 +555,7 @@ $lang = array_merge($lang, array(
 	),
 	'OPTIONS'					=> 'Opciók',
 
+	'PAGE_NOT_FOUND'		=> 'A kért oldal nem található.',
 	'PAGE_OF'				=> 'Oldal: <strong>%1$d</strong> / <strong>%2$d</strong>',
 	'PAGE_TITLE_NUMBER'		=> '%s. oldal',
 	'PASSWORD'				=> 'Jelszó',

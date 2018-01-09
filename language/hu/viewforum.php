@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2015 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2018 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -56,7 +56,8 @@ $lang = array_merge($lang, array(
 	'NEW_POSTS_LOCKED'		=> 'Új hozzászólások [ lezárt ]',	// Not used anymore
 	'NO_NEW_POSTS_HOT'		=> 'Nincs új hozzászólás [ népszerű ]',	// Not used anymore
 	'NO_NEW_POSTS_LOCKED'	=> 'Nincs új hozzászólás [ lezárt ]',	// Not used anymore
-	'NO_READ_ACCESS'		=> 'Nincs meg a kellő jogosultságod a fórumbeli témák olvasásához.',
+	'NO_READ_ACCESS'		=> 'Nincs meg a kellő jogosultságod a fórumbeli témák megtekintéséhez vagy olvasásához.', // ? view or read
+	'NO_FORUMS_IN_CATEGORY'	=> 'Ez a kategória nem tartalmaz fórumokat.',
 	'NO_UNREAD_POSTS_HOT'		=> 'Nincs olvasatlan hozzászólás [ népszerű ]',
 	'NO_UNREAD_POSTS_LOCKED'	=> 'Nincs olvasatlan hozzászólás [ lezárt ]',
 
