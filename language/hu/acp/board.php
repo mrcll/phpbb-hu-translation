@@ -360,7 +360,7 @@ $lang = array_merge($lang, array(
 
 // Cookie Settings
 $lang = array_merge($lang, array(
-	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Ezek a beállítások határozzák meg, hogy a felhasználóid böngészőjének milyen sütik kerülnek elküldésre. A legtöbb esetben az alapbeállítások megfelelőek. Ha mégis meg kell változtatnod egy beállítást, tedd figyelemmel, mivel a nem helyes beállítások következtében előfordulhat, hogy a felhasználók nem tudnak majd belépni. Ha a felhasználóknak problémái vannak a fórumon való bejelentkezve maradással, akkor látogasd meg az angol nyelvű <b><a href="https://www.phpbb.com/support/go/cookie-settings/">phpBB.com Knowledge Base - Fixing incorrect cookie settings</a></b> oldalt.',
+	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Ezek a beállítások határozzák meg, hogy a felhasználóid böngészőjének milyen sütik kerülnek elküldésre. A legtöbb esetben az alapbeállítások megfelelőek. Ha mégis meg kell változtatnod egy beállítást, tedd figyelemmel, mivel a nem helyes beállítások következtében előfordulhat, hogy a felhasználók nem tudnak majd belépni. Ha a felhasználóknak problémái vannak a fórumon való bejelentkezve maradással, akkor látogasd meg az angol nyelvű <strong><a href="https://www.phpbb.com/support/go/cookie-settings/">phpBB.com Knowledge Base - Fixing incorrect cookie settings</a></strong> oldalt.',
 
 	'COOKIE_DOMAIN'				=> 'Süti domain',
 	'COOKIE_DOMAIN_EXPLAIN'		=> 'A legtöbb esetben a süti domaint nem kell megadni. Hagyd üresen, ha nem vagy biztos az értékében.<br /><br /> Abban az esetben, ha a fórum integrálva van weboldallal vagy más programmal, esetleg több domain névről is elérhető, akkor a következőket kell tenned a megadandó érték eldöntésére. Ha van például egy <i>example.com</i> és egy <i>forums.example.com</i> címed, vagy <i>forums.example.com</i> és <i>blog.example.com</i>, akkor távolítsd el a címek elején lévő aldomaineket addig, amíg meg nem kapod a közös domain nevet, ami ebben az esetben <i>example.com</i>. Most tegyél egy pontot a domain elé és add meg a .example.com címet (figyelj a cím elején lévő pontra).',
@@ -416,6 +416,8 @@ $lang = array_merge($lang, array(
 	'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN' => 'Az olvasási értesítések automatikus törlése előtti napok száma. Állítsd 0-ra az automatikus törlés megszüntetéséhez.',
 	'RECOMPILE_STYLES'				=> 'Elévült megjelenés komponensek újrafeldolgozása',
 	'RECOMPILE_STYLES_EXPLAIN'		=> 'Megnézi, hogy frissült-e az adott megjelenés komponens, és ha igen, újra feldolgozza.',
+	'YES_ACCURATE_PM_BUTTON'			=> 'Jogosultságfüggő PÜ gomb a fórum témák oldalain', // ? Enable permission specific PM button in topic pages
+	'YES_ACCURATE_PM_BUTTON_EXPLAIN'	=> 'Ha engedélyezve van, csak azoknak a felhasználóknak a hozzászólás melletti mini profiljában jelenik meg a privát üzenet küldése gomb, akiknek joguk van privát üzenetek olvasására.', // ? If this setting is enabled, only post profiles of users who are permitted to read private messages will have a private message button.
 	'YES_ANON_READ_MARKING'			=> 'Olvasottságmegjelölés engedélyezése vendégeknek',
 	'YES_ANON_READ_MARKING_EXPLAIN'	=> 'A vendégeknek is eltárolja az olvasott témákat/fórumokat. Kikapcsolt állapotban a vendégeknek minden hozzászólás olvasott.',
 	'YES_BIRTHDAYS'					=> 'Születésnaposok kiírásának bekapcsolása',
@@ -597,7 +599,7 @@ $lang = array_merge($lang, array(
 	'SMTP_POP_BEFORE_SMTP'			=> 'POP-BEFORE-SMTP',
 	'SMTP_PORT'						=> 'SMTP szerver port',
 	'SMTP_PORT_EXPLAIN'				=> 'Csak akkor változtasd meg, ha tudod, hogy az SMTP szerver más porton van.',
-	'SMTP_SERVER'					=> 'SMTP szerver cím',
+	'SMTP_SERVER'					=> 'SMTP szerver cím és protokoll',
 	'SMTP_SERVER_EXPLAIN'			=> 'Meg kell adnod a protokollt, amit a szerver használ. SSL használata esetén az "ssl://levelezo.szervered.com" formátumot kell használnod.',
 	'SMTP_SETTINGS'					=> 'SMTP beállítások',
 	'SMTP_USERNAME'					=> 'SMTP felhasználónév',

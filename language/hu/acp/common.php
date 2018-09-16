@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2017 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2018 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -558,6 +558,7 @@ $lang = array_merge($lang, array(
 	'LOG_BBCODE_ADD'		=> '<strong>Új BBCode címke felvétele</strong><br />» %s',
 	'LOG_BBCODE_EDIT'		=> '<strong>BBCode címke szerkesztése</strong><br />» %s',
 	'LOG_BBCODE_DELETE'		=> '<strong>BBCode címke törlése</strong><br />» %s',
+	'LOG_BBCODE_CONFIGURATION_ERROR'	=> '<strong>Hiba történt a BBCode konfigurálása közben</strong>: %1$s<br />» %2$s', // ? Error while configuring BBCode
 
 	'LOG_BOT_ADDED'		=> '<strong>Új robot felvétele</strong><br />» %s',
 	'LOG_BOT_DELETE'	=> '<strong>Robot törlése</strong><br />» %s',

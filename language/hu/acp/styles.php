@@ -83,6 +83,7 @@ $lang = array_merge($lang, array(
 	'STYLE_UNINSTALL'			=> 'Eltávolítás',
 	'STYLE_UNINSTALL_DEPENDENT'	=> 'A "%s" megjelenés nem távolítható el, amíg van rá épülő megjelenés telepítve.',
 	'STYLE_UNINSTALLED'			=> '"%s" megjelenés sikeresen eltávolításra került.',
+	'STYLE_PHPBB_VERSION'		=> 'phpBB verziója', // ? phpBB Version
 	'STYLE_USED_BY'				=> 'Használók száma (robotok beleértve)',
 	'STYLE_VERSION'				=> 'Megjelenés verziója',
 

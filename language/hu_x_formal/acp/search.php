@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2016 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2018 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -119,7 +119,10 @@ $lang = array_merge($lang, array(
 		2	=> 'Az indexelés aktuális sebessége körülbelül %1$.1f hozzászólás másodpercenként.<br />Indexelés folyamatban…',
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
-		2	=> 'A %2$d azonosítóig terjedő hozzászólások el lettek távolítva a keresőindexből.<br />Törlés folyamatban…',
+		2	=> 'A %2$d azonosítóig terjedő hozzászólások el lettek távolítva a keresőindexből, ebből %1$d ebben a lépésben.<br />',
+	),
+	'SEARCH_INDEX_DELETE_REDIRECT_RATE'		=> array(
+		2	=> 'A törlés aktuális sebessége körülbelül %1$.1f hozzászólás másodpercenként.<br />Törlés folyamatban…',
 	),
 	'SEARCH_INDEX_CREATED'					=> 'A fórum adatbázisában lévő összes hozzászólás sikeresen indexelésre került.',
 	'SEARCH_INDEX_REMOVED'					=> 'A modul keresőindexe sikeresen törlésre került.',

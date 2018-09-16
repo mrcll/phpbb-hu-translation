@@ -8,7 +8,7 @@
  * For full copyright and license information, please see
  * the docs/CREDITS.txt file.
  *
- * Magyar fordítás (c) 2007-2017 „Magyar phpBB Közösség fordítók”,
+ * Magyar fordítás (c) 2007-2018 „Magyar phpBB Közösség fordítók”,
  * http://phpbb.hu
  *
  * $Id$
@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 
     // Support page
     'SUPPORT_TITLE'		=> 'Támogatás',
-    'SUPPORT_BODY'		=> 'A phpBB3 aktuális stabil kiadásához teljes támogatás elérhető, térítésmentesen. Ez magában foglalja az alábbiakat:</p><ul><li>telepítés,</li><li>konfiguráció,</li><li>technikai kérdések,</li><li>a szoftverben lévő lehetséges hibákkal kapcsolatos problémák,</li><li>frissítés a Release Candidate (RC) verziókról a legfrissebb stabil verzióra,</li><li>konvertálás phpBB 2.0.x-ről phpBB3-ra,</li><li>konvertálás más fórumszoftverről phpBB3-ra (ezzel kapcsolatban lásd a <a href="https://www.phpbb.com/community/viewforum.php?f=486">Konvertálók fórumot</a>)</li></ul><p>A phpBB3 még béta verzióját futtató felhasználóinknak tanácsoljuk, hogy a jelenlegi fórumukat cseréljék le egy friss telepítésűre a legújabb verzióból.</p><h2>Kiterjesztések, megjelenések</h2><p>A kiterjesztésekkel kapcsolatos ügyekkel, kérünk, a megfelelő, <a href="https://www.phpbb.com/community/viewforum.php?f=451">Kiterjesztések fórumba</a> írj.<br />A megjelenésekkel kapcsolatban kérünk, szintén fordulj az ezeknek megfelelő, <a href="https://www.phpbb.com/community/viewforum.php?f=471">Megjelenések fórumba</a>.<br /><br />Ha a kérdésed egy bizonyos csomagra irányul, kérünk, közvetlenül a csomaggal foglalkozó témába küldd a hozzászólásod.</p><h2>Támogatás elérhetősége</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">A phpBB üdvözlő csomag</a><br /><a href="https://www.phpbb.com/support/">Támogatás részleg</a><br /><a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/">Gyorstalpaló</a><br /><br />Hogy mindig azonnal értesülj a phpBB frissítéseiről, <a href="https://www.phpbb.com/support/">iratkozz fel a hírlevelünkre</a>.</p><h2>Saját nyelvű támogatás</h2><p>A phpBB.com angol nyelvű támogatása mellett a <a href="https://www.phpbb.com/support/intl/">nemzetközi phpBB oldalak</a> is örömmel állnak rendelkezésre. Ez a magyar nyelv esetében a <a href="http://phpbb.hu/">Magyar phpBB Közösség</a> oldalát jelenti. Ezeken a webhelyeken főképp az alap phpBB-hez nyújtanak támogatást, kiterjesztésekhez, megjelenésekhez többnyire csak részlegesen, nem minden esetben lehet segítséget kapni. Amennyiben az adott oldalon nem foglalkoznak az adott bővítménnyel, keresd fel a phpBB.com megfelelő fórumtémáját.<br /><br />',
+    'SUPPORT_BODY'		=> 'A phpBB3 aktuális stabil kiadásához teljes támogatás elérhető, térítésmentesen. Ez magában foglalja az alábbiakat:</p><ul><li>telepítés,</li><li>konfiguráció,</li><li>technikai kérdések,</li><li>a szoftverben lévő lehetséges hibákkal kapcsolatos problémák,</li><li>frissítés a Release Candidate (RC) verziókról a legfrissebb stabil verzióra,</li><li>konvertálás phpBB 2.0.x-ről phpBB3-ra,</li><li>konvertálás más fórumszoftverről phpBB3-ra (ezzel kapcsolatban lásd a <a href="https://www.phpbb.com/community/viewforum.php?f=486">Konvertálók fórumot</a>)</li></ul><p>A phpBB3 még béta verzióját futtató felhasználóinknak tanácsoljuk, hogy a jelenlegi fórumukat cseréljék le egy friss telepítésűre a legújabb verzióból.</p><h2>Kiterjesztések, megjelenések</h2><p>A kiterjesztésekkel kapcsolatos ügyekkel, kérünk, a megfelelő, <a href="https://www.phpbb.com/community/viewforum.php?f=451">Kiterjesztések fórumba</a> írj.<br />A megjelenésekkel kapcsolatban kérünk, szintén fordulj az ezeknek megfelelő, <a href="https://www.phpbb.com/community/viewforum.php?f=471">Megjelenések fórumba</a>.<br /><br />Ha a kérdésed egy bizonyos csomagra irányul, kérünk, közvetlenül a csomaggal foglalkozó témába küldd a hozzászólásod.</p><h2>Támogatás elérhetősége</h2><p><a href="https://www.phpbb.com/support/">Támogatás részleg</a><br /><a href="https://www.phpbb.com/support/docs/en/3.2/ug/quickstart/">Gyorstalpaló</a><br /><br />Hogy mindig azonnal értesülj a phpBB frissítéseiről, kövesd a phpBB-t <a href="https://www.twitter.com/phpbb/">Twitter</a>-en és <a href="https://www.facebook.com/phpbb/">Facebook</a>-on.</p><h2>Saját nyelvű támogatás</h2><p>A phpBB.com angol nyelvű támogatása mellett a <a href="https://www.phpbb.com/support/intl/">nemzetközi phpBB oldalak</a> is örömmel állnak rendelkezésre. Ez a magyar nyelv esetében a <a href="http://phpbb.hu/">Magyar phpBB Közösség</a> oldalát jelenti. Ezeken a webhelyeken főképp az alap phpBB-hez nyújtanak támogatást, kiterjesztésekhez, megjelenésekhez többnyire csak részlegesen, nem minden esetben lehet segítséget kapni. Amennyiben az adott oldalon nem foglalkoznak az adott bővítménnyel, keresd fel a phpBB.com megfelelő fórumtémáját.<br /><br />',
 
     // License
     'LICENSE_TITLE'		=> 'General Public License (GNU Általános Nyilvános Licenc)',
@@ -150,6 +150,7 @@ $lang = array_merge($lang, array(
     'ADMIN_USERNAME_EXPLAIN'	=> 'Az adminisztrátor felhasználó nevének hosszának 3 és 20 karakter között kell lennie.',
 
     // Errors
+	'INST_ERR_DB'					=> 'Adatbázis telepítési hiba', // ? Database installation error
     'INST_ERR_EMAIL_INVALID'		=> 'A megadott e-mail cím hibás.',
     'INST_ERR_PASSWORD_MISMATCH'	=> 'A megadott jelszavak nem azonosoak.',
     'INST_ERR_PASSWORD_TOO_LONG'	=> 'A megadott jelszó túl hosszú. A jelszó legfeljebb 30 karakter hosszú lehet.',
@@ -355,10 +356,34 @@ $lang = array_merge($lang, array(
 		<p>A frissítés folytatása előtt, kérjük, olvasd el a legfrissebb verziót bejelentő közleményt, mivel hasznos információkat tartalmazhat. Mindenképp szerepel benne a változások listája és közvetlen link az új verzió letöltésére.</p>
 
 		<br />
+		
+		<h1>Frissítés módja a telepítő csomag használatával</h1>
+
+		<p>A javasolt frissítési mód a teljes telepítő csomag használata. Azonban, ha a phpBB alap fájljai is módosításra kerültek, úgy a módosítások megtartása érdekében az automatikus frissítő csomag használata javasolt. A telepített phpBB az INSTALL.html-ben felsorolt egyéb módszerekkel is frissíthető. A phpBB3 telepítő csomaggal történő frissítése a következő lépésekből áll:</p>
+
+		<ol style="margin-left: 20px; font-size: 1.1em;">
+			<li><strong class="error">Készíts biztonsági mentést a fórum fájljairól és adatbázisáról.</strong></li>
+			<li>Menj a <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com letöltések oldalára</a>, és töltsd le a legújabb "Full Package" csomagot.</li>
+			<li>Csomagold ki a telepítő csomagot.</li>
+			<li>Távolítsd el (töröld) a <code class="inline">config.php</code> fájlt, és az <code class="inline">/images</code>, <code class="inline">/store</code> és <code class="inline">/files</code> könyvtárakat <em>a kicsomagolt telepítőből</em> (ne az oldaladról).</li>
+			<li>Menj az Adminisztrátori vezérlőpult, Fórum beállítások pontjába és ellenőrizd, hogy a prosilver az alapértelmezett megjelenés. Ha más lenne, állítsd át prosilver megjelenésre.</li>
+			<li>Töröld a <code class="inline">/vendor</code> és <code class="inline">/cache</code> könyvtárakat a szerveren a fórum gyökérkönyvtárából.</li>
+			<li>FTP-n vagy SSH-n keresztül töltsd fel a telepítő csomag megmaradt fájljait és könyvtárait (a phpBB3 könyvtár tartalmát) a szerveren a fórum gyökérkönyvtárába. (Megjegyzés: Figyelj rá, hogy ne töröld a fórumon használt kiterjesztéseket az <code class="inline">/ext</code> könyvtár feltöltésekor.)</li>
+			<li><strong><a href="%1$s" title="%1$s">Indítsd el a frissítési folyamatot az install könyvtár böngészőből való megnyitásával</a>.</strong></li>
+			<li>Válaszd ki a használandó nyelvet a jobb felső sarokban.</li>
+			<li>Kövesd a Frissítés fül lépéseit az adatbázis frissítésére.</li>
+			<li>FTP-n vagy SSH-n keresztül töröld az <code class="inline">/install</code> könyvtárat a fórumod gyökérkönyvtárából.<br><br></li>
+		</ol>
+		
+		<p>Ezzel lett egy új, naprakész fórumod, ami tartalmazza az összes felhasználót és hozzászólást. További feladatok:</p>
+		<ul style="margin-left: 20px; font-size: 1.1em;">
+			<li>Használatban lévő nyelvi csomagok frissítése</li>
+			<li>Használatban lévő megjelenések frissítése<br><br></li>
+		</ul>
 
 		<h1>Frissítés módja az automatikus frissítő csomag használatával</h1>
 
-		<p>Az itt részletezett javasolt frissítési mód az automatikus frissítő csomag használatát feltételezi. A phpBB-det az INSTALL.html-ben leírt módokon is frissítheted. A phpBB3 automatikusan történő frissítése a következő lépésekből áll:</p>
+		<p>Az itt részletezett javasolt frissítési mód az automatikus frissítő csomag használatát feltételezi. Ez csak abban az esetben javasolt, ha a phpBB alap fájljai is szerkesztésre kerültek. A phpBB-det az INSTALL.html-ben leírt módokon is frissítheted. A phpBB3 automatikusan történő frissítése a következő lépésekből áll:</p>
 
 		<ul style="margin-left: 20px; font-size: 1.1em;">
 			<li>Menj a <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com letöltések oldalára</a>, és töltsd le a megfelelő automatikus frissítő csomagot.<br /><br /></li>

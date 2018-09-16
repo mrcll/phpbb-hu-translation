@@ -8,7 +8,7 @@
  * For full copyright and license information, please see
  * the docs/CREDITS.txt file.
  *
- * Magyar fordítás (c) 2007-2016 „Magyar phpBB Közösség fordítók”,
+ * Magyar fordítás (c) 2007-2018 „Magyar phpBB Közösség fordítók”,
  * http://phpbb.hu
  *
  * $Id$
@@ -115,7 +115,7 @@ $lang = array_merge($lang, array(
 	'HELP_FAQ_LOGIN_COPPA_ANSWER'	=> 'A COPPA, vagyis az 1998-as „Child Online Privacy and Protection Act” (gyerekek online adatvédelméről intézkedő törvény) egy egyesült államokbeli törvény, mely megköveteli a honlapoktól, hogy írásos szülői vagy gondviselői beleegyezéssel rendelkezzenek 13 éven aluli személyektől való adatgyűjtéshez. Ez a törvény csak az Amerikai Egyesült Államokban lévő szervereken működő fórumokra érvényes, tehát Magyarországon nem. Ha nem vagy biztos benne, hogy ez a törvény vonatkozik-e rád vagy a fórumra, melyre regisztrálsz, kérj jogi segítséget. Kérjük, tartsd szem előtt, hogy a phpBB Limited nem tud jogi tanácsot adni, és az alább leírtakon kívül semmilyen aggály esetén sem hozzájuk kell fordulni.',
 	'HELP_FAQ_LOGIN_COPPA_QUESTION'	=> 'Mi az a COPPA?',
 	'HELP_FAQ_LOGIN_DELETE_COOKIES_ANSWER'	=> 'Ez a funkció törli az összes phpBB3 által küldött sütit. A sütik feladata az azonosítás, illetve a beléptetés, valamint – ha a fórum tulajdonosa beállította – a hozzászólások olvasottságának követése és ehhez hasonló funkciók. Ha problémáid vannak a belépéssel vagy a kilépéssel, a sütik törlése segíthet.',
-	'HELP_FAQ_LOGIN_DELETE_COOKIES_QUESTION'	=> 'Mit csinál a „Fórum sütik törlése”?',
+	'HELP_FAQ_LOGIN_DELETE_COOKIES_QUESTION'	=> 'Mit csinál a „Sütik törlése”?',
 	'HELP_FAQ_LOGIN_LOST_PASSWORD_ANSWER'	=> 'Semmi pánik! A jelszavad ugyan nem lehet utólag kideríteni, de lehetőséged van új készítésére. Ehhez menj a belépés oldalra, majd kattints az <em>Elfelejtettem a jelszavam</em> linkre. Kövesd az utasításokat, és rövid időn belül újra be kell tudnod lépned.',
 	'HELP_FAQ_LOGIN_LOST_PASSWORD_QUESTION'	=> 'Elfelejtettem a jelszavamat!',
 	'HELP_FAQ_LOGIN_REGISTER_ANSWER'	=> 'A regisztráció nem feltétlenül kötelező, a fórum adminisztrátorán múlik, hogy megköveteli-e hozzászólások küldéséhez. Mindemellett a regisztrációval plusz lehetőségek is elérhetővé válnak a számodra, mint például avatar használata, privát üzenetek, illetve e-mailek küldése, csatlakozás csoportokhoz stb. A regisztráció csupán néhány másodpercet vesz igénybe, így javasoljuk, hogy éljél vele.',
