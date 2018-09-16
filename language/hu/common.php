@@ -607,7 +607,7 @@ $lang = array_merge($lang, array(
 	'PREVIOUS'				=> 'Előző',		// Used in pagination
  	'PREVIOUS_STEP'			=> 'Vissza',
 	'PRIVACY'				=> 'Adatvédelmi nyilatkozat',
-	'PRIVACY_LINK'			=> 'Adatvédelem',
+	'PRIVACY_LINK'			=> 'Adatvédelmi nyilatkozat', // ? Privacy
 	'PRIVATE_MESSAGE'		=> 'Privát üzenet',
 	'PRIVATE_MESSAGES'		=> 'Privát üzenetek',
 	'PRIVATE_MESSAGING'		=> 'privát üzenet',
@@ -732,7 +732,7 @@ $lang = array_merge($lang, array(
 	'SUBMIT'					=> 'Elküld',
 
 	'TB'				=> 'TB',
-	'TERMS_LINK'		=> 'Feltételek', // ? Terms
+	'TERMS_LINK'		=> 'Használati feltételek', // ? Terms
 	'TERMS_USE'			=> 'Használati feltételek',
 	'TEST_CONNECTION'	=> 'Kapcsolat tesztelése',
 	'THE_TEAM'			=> 'A csapat',
