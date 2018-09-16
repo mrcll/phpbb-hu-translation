@@ -372,13 +372,13 @@ $lang = array_merge($lang, array(
 			<li><strong><a href="%1$s" title="%1$s">Indítsd el a frissítési folyamatot az install könyvtár böngészőből való megnyitásával</a>.</strong></li>
 			<li>Válaszd ki a használandó nyelvet a jobb felső sarokban.</li>
 			<li>Kövesd a Frissítés fül lépéseit az adatbázis frissítésére.</li>
-			<li>FTP-n vagy SSH-n keresztül töröld az <code class="inline">/install</code> könyvtárat a fórumod gyökérkönyvtárából.<br><br></li>
+			<li>FTP-n vagy SSH-n keresztül töröld az <code class="inline">/install</code> könyvtárat a fórumod gyökérkönyvtárából.<br /><br /></li>
 		</ol>
 		
 		<p>Ezzel lett egy új, naprakész fórumod, ami tartalmazza az összes felhasználót és hozzászólást. További feladatok:</p>
 		<ul style="margin-left: 20px; font-size: 1.1em;">
 			<li>Használatban lévő nyelvi csomagok frissítése</li>
-			<li>Használatban lévő megjelenések frissítése<br><br></li>
+			<li>Használatban lévő megjelenések frissítése<br /><br /></li>
 		</ul>
 
 		<h1>Frissítés módja az automatikus frissítő csomag használatával</h1>
