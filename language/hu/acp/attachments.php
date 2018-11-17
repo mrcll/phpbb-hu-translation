@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2017 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2018 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -114,8 +114,6 @@ $lang = array_merge($lang, array(
 
 	'IMAGE_LINK_SIZE'			=> 'Linkkép méret', //? "Image link dimensions"
 	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Ha a csatolt kép ennél nagyobb, akkor csak egy link lesz megjelenítve hozzá, ahelyett, hogy közvetlenül szerepelne a hozzászólásban. A funkció kikapcsolásához állítsd mindkét értéket 0-ra.',
-	'IMAGICK_PATH'				=> 'ImageMagick elérési útvonal',
-	'IMAGICK_PATH_EXPLAIN'		=> 'Teljes elérési útvonal az imagemagick konvertáló alkalmazáshoz, pl. <samp>/usr/bin/</samp>.',
 
 	'MAX_ATTACHMENTS'				=> 'Maximum csatolható állományok száma hozzászólásonként',
 	'MAX_ATTACHMENTS_PM'			=> 'Maximum csatolható állományok száma privát üzenetenként',
@@ -138,7 +136,6 @@ $lang = array_merge($lang, array(
 	'NO_EXT_GROUP_SPECIFIED'	=> 'Nem lett megadva kiterjesztéscsoport.',
 	'NO_FILE_CAT'				=> 'Nincs',
 	'NO_IMAGE'					=> 'Nincs kép',
-	'NO_THUMBNAIL_SUPPORT'		=> 'A kisképek készítéséhez szükséges függőségek nem elérhetők. A funkció működéséhez vagy elérhetőnek kell lennie a GD kiterjesztésnek, vagy kell lennie egy imagemagick alkalmazásnak. Egyik sem található.',
 	'NO_UPLOAD_DIR'				=> 'A megadott feltöltési könyvtár nem létezik.',
 	'NO_WRITE_UPLOAD'			=> 'A megadott feltöltési könyvtár nem írható. Kérjük, módosítsd a könyvtár jogosultságait, hogy a webszerver tudjon írni bele.',
 
@@ -150,7 +147,6 @@ $lang = array_merge($lang, array(
 	'REMOVE_DISALLOWED_IPS'		=> '<em>Nem engedélyezett</em> IP-k/hosztnevek eltávolítása vagy kizárásuk megszüntetése',
 	'RESYNC_FILES_STATS_CONFIRM'	=> 'Újra szeretnéd szinkronizálni a csatolmányok statisztikáját?',
 
-	'SEARCH_IMAGICK'				=> 'ImageMagick keresése',
 	'SECURE_ALLOW_DENY'				=> 'Engedélyezettek/tiltottak listája',
 	'SECURE_ALLOW_DENY_EXPLAIN'		=> 'Hogyan viselkedjen az engedélyezettek/tiltottak listája, ha be van kapcsolva a biztonságos letöltések funkció. Ha engedélyezettekre van állítva, akkor ún. <strong>fehérlistaként</strong> fog működni (csak azok tölthetnek le, akik szerepelnek a listában), ha tiltottakra, <strong>feketelistaként</strong>.',
 	'SECURE_DOWNLOADS'				=> 'Biztonságos letöltések bekapcsolása',

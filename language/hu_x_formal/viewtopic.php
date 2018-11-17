@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2015 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2018 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -91,6 +91,7 @@ $lang = array_merge($lang, array(
 	'NO_UNREAD_POSTS'		=> 'Nincs új olvasatlan hozzászólás a témában.',
 	'NO_VOTE_OPTION'		=> 'A szavazáshoz meg kell adnia egy választási lehetőséget.',
 	'NO_VOTES'				=> '0 szavazat', //? 'Nincs szavazat'
+	'NO_AUTH_PRINT_TOPIC'	=> 'Nincs joga a téma nyomtatására.',
 
 	'POLL_ENDED_AT'			=> 'A szavazás %s-kor befejeződött.',
 	'POLL_RUN_TILL'			=> 'A szavazás %s-ig van érvényben.',

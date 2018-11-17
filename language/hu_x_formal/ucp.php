@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2016 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2018 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -374,10 +374,10 @@ $lang = array_merge($lang, array(
 	'NO_AUTH_EDIT_MESSAGE'			=> 'Nincs jogosultsága privát üzenetet szerkeszteni.',
 	'NO_AUTH_FORWARD_MESSAGE'		=> 'Nincs jogosultsága privát üzenetet továbbítani.',
 	'NO_AUTH_GROUP_MESSAGE'			=> 'Nincs jogosultsága privát üzenet küldeni csoportok részére.',
-	'NO_AUTH_PASSWORD_REMINDER'		=> 'Nincs jogosultsága új jelszót kérni.',
 	'NO_AUTH_PROFILEINFO'			=> 'Nincs jogosultsága a profil adatai megváltoztatására.',
 	'NO_AUTH_READ_HOLD_MESSAGE'		=> 'Nincs jogosultsága visszatartott privát üzenetet olvasni.',
 	'NO_AUTH_READ_MESSAGE'			=> 'Nincs jogosultsága privát üzenetek megtekintéséhez.',
+	'NO_AUTH_PRINT_MESSAGE'			=> 'Nincs jogosultsága privát üzenetek nyomtatásához.',
 	'NO_AUTH_READ_REMOVED_MESSAGE'	=> 'Ezt az üzenetet nem tudja elolvasni, mivel a küldője törölte.',
 	'NO_AUTH_SEND_MESSAGE'			=> 'Nincs jogosultsága privát üzenetet küldeni.',
 	'NO_AUTH_SIGNATURE'				=> 'Nincs jogosultsága aláírás megadásához.',
@@ -386,7 +386,8 @@ $lang = array_merge($lang, array(
 	'NO_BOOKMARKS'				=> 'Nincs kedvenced.',
 	'NO_BOOKMARKS_SELECTED'		=> 'Nem választottál ki egy kedvencet sem.',
  	'NO_EDIT_READ_MESSAGE'		=> 'A privát üzenetet nem lehet szerkeszteni, mivel már elolvasásra került.',
-	'NO_EMAIL_USER'				=> 'Nem található a megadott e-mail címhez és felhasználónévhez tartozó azonosító.',
+	'NO_EMAIL_USER'				=> 'Nem található a megadott e-mail címhez és felhasználónévhez tartozó azonosító.',	
+	'EMAIL_NOT_UNIQUE'			=> 'A megadott e-mail cím több felhasználónál is szerepel. Meg kell adnia a felhasználónevet is.',
 	'NO_FOES'					=> 'Jelenleg üres a haragosai listája.', //? "No foes currently defined" - ide valami az eredetire jobban hasonlító szöveg kéne
 	'NO_FRIENDS'				=> 'Jelenleg üres a barátai listája.',
 	'NO_FRIENDS_OFFLINE'		=> 'Nincs offline barátja.',
@@ -412,7 +413,7 @@ $lang = array_merge($lang, array(
 	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'A jelszó hosszának %1$s és %2$s között kell lennie, szerepelnie kell benne kis- és nagybetűknek egyaránt, valamint tartalmaznia kell számokat és speciális karaktereket is.', //? symbols = speciális karakterek? gondolom...
 	'PASSWORD'					=> 'Jelszó',
 	'PASSWORD_ACTIVATED'		=> 'Az új jelszava aktiválásra került.',
-	'PASSWORD_UPDATED'			=> 'Az új jelszava elküldésre került az e-mail címére.',
+	'PASSWORD_UPDATED_IF_EXISTED'	=> 'Ha a felhasználó létezik, az új jelszó elküldésre került az e-mail címére. Ha nem kapja meg az e-mailt, annak oka lehet, hogy a felhasználó tiltva van, nincs aktiválva vagy nincs joga a jelszava megváltoztatására. Ezekben az esetekben vegye fel a kapcsolatot a fórum adminisztrátorával. Valamint ellenőrizze, hogy az e-mail nem került-e a levélszemétbe.', //? If your account exists, a new password was sent to your registered email address. If you do not receive an email, it may be because you are banned, your account is not activated, or you are not allowed to change your password. Contact admin if any of those reasons apply. Also, check your spam filter.
 	'PERMISSIONS_RESTORED'		=> 'Az eredeti jogosultságok sikeresen visszaállításra kerültek.', //? eredeti?
 	'PERMISSIONS_TRANSFERRED'	=> '<strong>%s</strong> jogosultságai sikeresen átadásra kerültek, most a felhasználó jogosultságaival böngészheti a fórumot.<br />Kérjük, vegye figyelembe, hogy az adminisztrátori jogosultságok nem kerültek átadásra. Az eredeti jogosultságait bármikor visszaállíthatja.', //? "Successfully transferred permissions from <strong>%s</strong>, you are now able to browse the forum with the users permissions." - hát ez nagyon nem sikerült
 	'PM_DISABLED'				=> 'A privát üzenet részleg ki lett kapcsolva ezen a fórumon.', //?

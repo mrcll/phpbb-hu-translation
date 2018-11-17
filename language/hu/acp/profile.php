@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2015 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2018 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -164,8 +164,8 @@ $lang = array_merge($lang, array(
 	'STEP_2_EXPLAIN_EDIT'			=> 'Itt néhány általános beállítást adhatsz meg.<br /><strong>Kérjük, vedd figyelembe, hogy a profil mezőn végrehajtott változtatások nem lesznek hatással a felhasználók által már kitöltött mezőkre.</strong>',
 	'STEP_2_TITLE_CREATE'			=> 'Mezőtípus-specifikus beállítások',
 	'STEP_2_TITLE_EDIT'				=> 'Mezőtípus-specifikus beállítások',
-	'STEP_3_EXPLAIN_CREATE'			=> 'Mivel a fórumon több nyelv is telepítve van, a fennmaradó nyelvi elemeket is meg kell adnod. A profil mező csak az alapértelmezett nyelvvel is működni fog, a fennmaradó nyelvi elemeket később is kitöltheted.',
-	'STEP_3_EXPLAIN_EDIT'			=> 'Mivel a fórumon több nyelv is telepítve van, most megváltoztathatod a többi nyelvi elemet is. A profil mező csak az alapértelmezett nyelvvel is működni fog.',
+	'STEP_3_EXPLAIN_CREATE'			=> 'Mivel a fórumon több nyelv is telepítve van, a fennmaradó nyelvi elemeket is meg kell adnod. Ha nem adod meg, akkor az alapértelmezett nyelv beállítása lesz használva, a fennmaradó nyelvi elemeket később is kitöltheted.',
+	'STEP_3_EXPLAIN_EDIT'			=> 'Mivel a fórumon több nyelv is telepítve van, most megváltoztathatod a többi nyelvi elemet is. Ha nem adod meg, akkor az alapértelmezett nyelv beállítása lesz használva.',
 	'STEP_3_TITLE_CREATE'			=> 'Fennmaradó nyelvi meghatározások',
 	'STEP_3_TITLE_EDIT'				=> 'Nyelvi meghatározások',
 	'STRING_DEFAULT_VALUE_EXPLAIN'	=> 'Ez az érték fog alapból megjelenni. Hagyd üresen, ha azt szeretnéd, hogy a mező alapból üres legyen.',

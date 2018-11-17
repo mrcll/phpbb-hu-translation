@@ -61,7 +61,6 @@ $lang = array_merge($lang, array(
 
 	'ACCOUNT_ALREADY_ACTIVATED'		=> 'Az azonosítóját már aktiváltuk.',
 	'ACCOUNT_DEACTIVATED'			=> 'Az azonosítója kézzel deaktiválásra került, csak egy adminisztrátor tudja újraaktiválni.',
-	'ACCOUNT_NOT_ACTIVATED'			=> 'Az azonosítóját még nem aktiváltuk.',
 	'ACP'							=> 'Adminisztrátori vezérlőpult',
 	'ACP_SHORT'						=> 'AVP',
 	'ACTIVE'						=> 'aktív',

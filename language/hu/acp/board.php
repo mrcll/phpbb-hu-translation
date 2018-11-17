@@ -383,7 +383,7 @@ $lang = array_merge($lang, array(
 	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Itt be- vagy kikapcsolhatod a fórum kapcsolat oldalát, valamint megadhatsz egy az oldalon megjelenő üzenetet.',
 
 	'CONTACT_US_ENABLE'				=> 'Kapcsolat oldal engedélyezése',
-	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Ezen az oldalon a felhasználók e-mailt küldhetnek a fórum adminisztrátorainak. Kérjük, vedd figyelembe, hogy a fórum e-mail küldésnek bekapcsolva kell lennie az Általános > Kommunikáció a kliensekkel > E-mail beállítások pontban.',
+	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Ezen az oldalon a felhasználók e-mailt küldhetnek a fórum adminisztrátorainak. Kérjük, vedd figyelembe, hogy a fórum e-mail küldésnek bekapcsolva kell lennie az Általános &gt; Kommunikáció a kliensekkel &gt; E-mail beállítások pontban.',
 
 	'CONTACT_US_INFO'				=> 'Kapcsolati információk',
 	'CONTACT_US_INFO_EXPLAIN'		=> 'Ez az üzenet lesz megjelenítve a kapcsolat oldalon.',

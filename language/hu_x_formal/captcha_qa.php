@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2016 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2018 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 	'ANSWER'					=> 'Válasz',
 	'EDIT_QUESTION'				=> 'Kérdés szerkesztése',
 	'QUESTIONS'					=> 'Kérdések',
-	'QUESTIONS_EXPLAIN'			=> 'Minden űrlapnál – ahol bekapcsoltad a kérdés és válasz bővítményt – feltevésre kerül a felhasználóknak az alábbi kérdések egyike. A bővítmény használatához legalább egy kérdésnek léteznie kell az alapértelmezett nyelven. A kérdéseknek egyszerűen megválaszolhatónak kell lenniük a fórumod közönségének, de vigyázni kell rá, hogy nehogy egy robot is megtalálhassa a választ egy Google™ keresést végezve. A legjobb eredményt egy nagy és gyakran változtatott kérdéskészlet hozza. Ha a kérdésed megköveteli a nagybetűk következetes használatát és a helyes központozást, kapcsold be a szigorú ellenőrzést.',
+	'QUESTIONS_EXPLAIN'			=> 'Minden űrlapnál – ahol bekapcsoltad a kérdés és válasz bővítményt – feltevésre kerül a felhasználóknak az alábbi kérdések egyike. A bővítmény használatához legalább egy kérdésnek léteznie kell az alapértelmezett nyelven. A kérdéseknek egyszerűen megválaszolhatónak kell lenniük a fórumod közönségének, de vigyázni kell rá, hogy nehogy egy robot is megtalálhassa a választ egy Google™ keresést végezve. Csak egy megfelelő kérdés megadása szükséges, amelyet kéretlen regisztrációk érkezésekor szükséges megváltoztatni. Ha a kérdésed megköveteli a nagybetűk következetes használatát és a helyes központozást, kapcsold be a szigorú ellenőrzést.',
 	'QUESTION_DELETED'			=> 'A kérdés törlésre került.',
 	'QUESTION_LANG'				=> 'Nyelv',
 	'QUESTION_LANG_EXPLAIN'		=> 'A nyelv, amelyen a kérdés és a válaszai íródnak.',

@@ -1,10 +1,15 @@
 Subject: Fórumfigyelés értesítés - "{FORUM_NAME}"
+List-Unsubscribe: <{U_STOP_WATCHING_FORUM}>
 
 Kedves {USERNAME}!
 
 Ezt az e-mailt ön azért kapja, mert a "{SITENAME}" oldalon a "{FORUM_NAME}" fórum figyelését kérte. Ebbe a fórumba, legutóbbi látogatása óta új témát nyitottak, melynek címe: "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME != '' -->, szerzője: "{AUTHOR_NAME}"<!-- ENDIF -->. A következő linkre kattintva eljuthat a fórumhoz, mindazonáltal újabb értesítést nem fog kapni, míg meg nem látogatja a fórumot.
 
 {U_FORUM}
+
+A következő linkre kattintva közvetlenül eljuthat a témához:
+
+{U_TOPIC}
 
 Amennyiben a továbbiakban nem kívánja figyelni a fórumot, kattintson a "Leiratkozás a fórumról" linkre, melyet a fenti oldalon talál, vagy egyszerűen kattintson a következő linkre:
 
