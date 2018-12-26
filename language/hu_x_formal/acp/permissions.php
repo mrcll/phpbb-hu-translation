@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2015 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2018 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -57,7 +57,7 @@ $lang = array_merge($lang, array(
 
 		<br />
 
-		<p>További információért a phpBB3 jogosultságkezeléséről és beállításáról lásd az angol <a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/permissions/">gyorstalpaló Setting permissions fejezetét</a>.</p>
+		<p>További információért a phpBB3 jogosultságkezeléséről és beállításáról lásd az angol <a href="https://www.phpbb.com/support/docs/en/3.2/ug/quickstart/permissions/">gyorstalpaló Setting permissions fejezetét</a>.</p>
 	', //? további "honosítás"/lokalizáció...
 
 	'ACL_NEVER'				=> 'Soha',
