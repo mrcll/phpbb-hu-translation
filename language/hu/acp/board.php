@@ -115,9 +115,9 @@ $lang = array_merge($lang, array(
 	'ALLOW_GRAVATAR'				=> 'Gravatar avatarok engedélyezése',
 	'ALLOW_LOCAL'					=> 'Avatar galéria bekapcsolása',
 	'ALLOW_REMOTE'					=> 'Külső avatarok engedélyezése',
-	'ALLOW_REMOTE_EXPLAIN'			=> 'Olyan avatarok, melyek egy másik weboldalról vannak linkelve.',
+	'ALLOW_REMOTE_EXPLAIN'			=> 'Olyan avatarok, melyek egy másik weboldalról vannak linkelve.<br><em><strong class="error">Figyelmeztetés:</strong> Ennek a funkciónak az engedélyezésével a felhasználók ellenőrizni tudják bizonyos, csak a webszerver helyi hálózatból elérhető fájlok és szolgáltatások létezését.</em>', // ? Enabling this feature might allow users to check for the existence of files and services that are only accessible on the local network
 	'ALLOW_REMOTE_UPLOAD'			=> 'Avatar feltöltésének engedélyezése külső helyről',
-	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Lehetővé teszi avatar feltöltését egy másik weboldalról.',
+	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Lehetővé teszi avatar feltöltését egy másik weboldalról.<br><em><strong class="error">Figyelmeztetés:</strong> Ennek a funkciónak az engedélyezésével a felhasználók ellenőrizni tudják bizonyos, csak a webszerver helyi hálózatból elérhető fájlok és szolgáltatások létezését.</em>',
 	'ALLOW_UPLOAD'					=> 'Avatarfeltöltés engedélyezése',
 	'AVATAR_GALLERY_PATH'			=> 'Avatar galéria elérési út',
 	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'A phpBB-d gyökérkönyvtárától viszonyított elérési út az előre feltöltött képekhez, pl. <samp>images/avatars/gallery</samp>.<br />Az elérési útban található dupla pontok (<samp>../</samp>) biztonsági okokból eltávolításra kerülnek.',

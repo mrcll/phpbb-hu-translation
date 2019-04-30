@@ -114,6 +114,7 @@ $lang = array_merge($lang, array(
 	'GROUP_USERS_ADDED'				=> 'Az új felhasználók sikeresen felvételre kerültek a csoportba.',
 	'GROUP_USERS_EXIST'				=> 'A kiválasztott felhasználók már tagok.',
 	'GROUP_USERS_REMOVE'			=> 'A felhasználók eltávolításra kerültek a csoportból, valamint az alapértelmezett dolgok is sikeresen beállításra kerültek.',
+	'GROUP_USERS_INVALID'			=> 'Nem kerültek új felhasználók felvételre a csoportba, mert a következő felhasználónevek nem léteznek: %s', //? No users were added to the group as the following usernames do not exist: %s
 
 	'LEGEND_EXPLAIN'				=> 'Ezek a csoportok kerülnek megjelenítésre a ki van itt részben:', //?
 	'LEGEND_SETTINGS'				=> 'Ki van itt beállítások', //? Legend settings

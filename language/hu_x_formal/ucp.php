@@ -273,6 +273,7 @@ $lang = array_merge($lang, array(
 	'IMPORTANT_NEWS'			=> 'Fontos közlemények',
 	'INVALID_USER_BIRTHDAY'		=> 'A megadott születésnap nem érvényes dátum.',
 	'INVALID_CHARS_USERNAME'	=> 'A felhasználónév nem engedélyezett karaktereket tartalmaz.',
+	'INVALID_EMOJIS_USERNAME'	=> 'A felhasználónév nem engedélyezett karaktereket tartalmaz (Emoji).',
 	'INVALID_CHARS_NEW_PASSWORD'=> 'A jelszó nem tartalmazza a szükséges karaktereket.',
 	'ITEMS_REQUIRED'			=> 'A *-gal megjelölt mezők kitöltése kötelező.',
 
@@ -302,6 +303,7 @@ $lang = array_merge($lang, array(
 	'MESSAGE_DELETED'				=> 'Az üzenet sikeresen törlésre került',
 	'MESSAGE_EDITED'				=> 'Az üzenet szerkesztésre került',
 	'MESSAGE_HISTORY'				=> 'Kapcsolódó üzenetek',
+	'MESSAGE_REPORTED_MESSAGE'		=> 'Jelentett üzenet', //? Reported message
 	'MESSAGE_REMOVED_FROM_OUTBOX'	=> 'Ezt az üzenetet a feladója törölte.',
 	'MESSAGE_SENT_ON'				=> 'Dátum:', //?
 	'MESSAGE_STORED'				=> 'Az üzenet sikeresen elküldésre került.',

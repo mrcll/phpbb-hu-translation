@@ -41,11 +41,12 @@ if (empty($lang) || !is_array($lang))
 
 // Database Backup/Restore
 $lang = array_merge($lang, array(
-	'ACP_BACKUP_EXPLAIN'	=> 'Itt a phpBB-vel kapcsolatos adatokat tudod kimenteni. A létrejövő csomagot tetszőlegesen eltárolhatod a <samp>store/</samp> könyvtárban vagy közvetlenül letöltheted. A szerver konfigurációdtól függően az állományt különböző módokon tömörítheted.',
+	'ACP_BACKUP_EXPLAIN'	=> 'Itt a phpBB-vel kapcsolatos adatokat tudod kimenteni. A létrejövő csomag a <samp>store/</samp> könyvtárban kerül eltárolásra. A szerver konfigurációdtól függően az állományt különböző módokon tömörítheted.',
 	'ACP_RESTORE_EXPLAIN'	=> 'Ez a funkció a phpBB összes tábláját visszaállítja egy elmentett állományból. Ha a szervered támogatja, használható gzip-pel vagy bzip2-vel tömörített szöveges állomány, ezek automatikusan kitömörítésre kerülnek. <strong>FIGYELEM:</strong> Ezzel felülírásra kerül minden jelenlegi adat. Mivel a visszaállítás eltarthat egy ideig, kérünk, ne menj el erről az oldalról, amíg be nem fejeződik. A kimentések tárolási helye a <samp>store/</samp> könyvtár, az itt lévő állományokról a phpBB feltételezi, hogy a kimentés funkciójával készültek. A beépítettől eltérő rendszerrel készített mentés visszaállíthatósága nem garantált!',
 
 	'BACKUP_DELETE'		=> 'A kimentés állomány sikeresen törlésre került.',
 	'BACKUP_INVALID'	=> 'A kiválasztott kimentés állomány érvénytelen.',
+	'BACKUP_NOT_SUPPORTED'	=> 'A kiválasztott kimentés állomány nem támogatott',
 	'BACKUP_OPTIONS'	=> 'Kimentés beállítások',
 	'BACKUP_SUCCESS'	=> 'A kimentés állomány sikeresen létrehozásra került.',
 	'BACKUP_TYPE'		=> 'Kimentés típusa',

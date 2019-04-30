@@ -1,4 +1,4 @@
-Subject: Privát üzenet jelentése - "{TOPIC_TITLE}"
+Subject: Privát üzenet jelentése - "{SUBJECT}"
 
 Kedves {USERNAME}!
 

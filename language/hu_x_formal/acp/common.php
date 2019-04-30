@@ -328,6 +328,7 @@ $lang = array_merge($lang, array(
 	'TOTAL_SIZE'			=> 'Teljes méret',
 
 	'UCP'					=> 'Felhasználói vezérlőpult',
+	'URL_INVALID'			=> 'A “%1$s” beállításhoz megadott URL érvénytelen.',
 	'USERNAMES_EXPLAIN'		=> 'Minden felhasználónevet külön sorba írj.',
 	'USER_CONTROL_PANEL'	=> 'Felhasználói vezérlőpult',
 

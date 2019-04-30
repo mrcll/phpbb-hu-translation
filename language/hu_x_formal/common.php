@@ -780,6 +780,10 @@ $lang = array_merge($lang, array(
 	'TOPIC_REVIEW'		=> 'Téma áttekintése',
 	'TOPIC_TITLE'		=> 'Téma címe',
 	'TOPIC_UNAPPROVED'	=> 'Jóvá nem hagyott téma',
+	'TOPIC_UNAPPROVED_FORUM'	=> array(
+		1	=> 'Jóváhagyásra váró téma',
+		2	=> 'Jóváhagyásra váró témák',
+	),
 	'TOPIC_DELETED'		=> 'Téma törölve',
 	'TOTAL_ATTACHMENTS'	=> 'Csatolmány(ok)',
 	'TOTAL_LOGS'		=> array(

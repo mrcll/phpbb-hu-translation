@@ -148,6 +148,7 @@ $lang = array_merge($lang, array(
 	'LOAD_DRAFT_EXPLAIN'		=> 'Itt kiválaszthatod, hogy melyik piszkozatot szeretnéd folytatni. A jelenlegi hozzászólásod elvetésre, a tartalma törlésre kerül. A piszkozataidat a felhasználói vezérlőpultban tudod megtekinteni, szerkeszteni, illetve törölni.',
 	'LOGIN_EXPLAIN_BUMP'		=> 'Egy téma előreugrasztásához be kell jelentkezned ebben a fórumban.', //? egy?; szórend
 	'LOGIN_EXPLAIN_DELETE'		=> 'Egy hozzászólás törléséhez be kell jelentkezned ebben a fórumban.',
+	'LOGIN_EXPLAIN_SOFT_DELETE'	=> 'Egy hozzászólás visszaállítható törléséhez be kell jelentkezned ebben a fórumban.',
 	'LOGIN_EXPLAIN_POST'		=> 'Új téma küldéséhez be kell jelentkezned ebben a fórumban.',
 	'LOGIN_EXPLAIN_QUOTE'		=> 'Egy hozzászólás idézéséhez be kell jelentkezned ebben a fórumban.',
 	'LOGIN_EXPLAIN_REPLY'		=> 'Hozzászólás küldéséhez be kell jelentkezned ebben a fórumban.',
