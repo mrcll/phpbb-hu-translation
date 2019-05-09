@@ -387,7 +387,7 @@ $lang = array_merge($lang, array(
 
 	'CONTACT_US_INFO'				=> 'Kapcsolati információk',
 	'CONTACT_US_INFO_EXPLAIN'		=> 'Ez az üzenet lesz megjelenítve a kapcsolat oldalon.',
-	'CONTACT_US_INFO_PREVIEW'		=> 'Kapcsolati információük - Előnézet',
+	'CONTACT_US_INFO_PREVIEW'		=> 'Kapcsolati információk - Előnézet',
 	'CONTACT_US_INFO_UPDATED'		=> 'A kapcsolati információk sikeresen frissítésre kerültek.',
 ));
 
