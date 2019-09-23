@@ -24,7 +24,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -40,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_STYLES_EXPLAIN'	=> 'Itt a fórumon elérhető megjelenéseket tudod kezelni. A megjelenéseket módosíthatod, törölheted, deaktiválhatod, újraaktiválhatod, vagy telepíthetsz újakat is. Az előnézet funkció segítségével azt is megnézheted, hogy egy megjelenés hogyan fog kinézni. Minden megjelenés mellett megjelenik, hányan használják, azonban ebben az értékben nem jelentkezik a felhasználói sablon felülírás hatása.', //?
+	'ACP_STYLES_EXPLAIN'	=> 'Itt a fórumon elérhető megjelenéseket tudod kezelni.<br>Kérjük, vedd figyelembe, hogy a “<strong>prosilver</strong>”-t nem tudod eltávolítani, mivel az a phpBB alapértelmezettje és más megjelenések szülője is.', //?
 
 	'CANNOT_BE_INSTALLED'			=> 'Nem telepíthető',
 	'CONFIRM_UNINSTALL_STYLES'		=> 'Biztosan el szeretnéd távolítani a kiválasztott stílust?', //? styles
@@ -55,7 +55,7 @@ $lang = array_merge($lang, array(
 	'INHERITING_FROM'			=> 'Öröklés',
 	'INSTALL_STYLE'				=> 'Megjelenés telepítése',
 	'INSTALL_STYLES'				=> 'Megjelenések telepítése',
-	'INSTALL_STYLES_EXPLAIN'		=> 'Itt telepíteni tudod az új stílust.<br /><br />Ha nem találod a lent lévő listában, akkor ellenőrizd, hogy már telepítésre került-e. Ha nincs telepítve, nézd meg, hogy megfelelően került-e feltöltésre.', //? style
+	'INSTALL_STYLES_EXPLAIN'		=> 'Itt telepíteni tudod az új stílust.<br>Ha nem találod a lent lévő listában, akkor ellenőrizd, hogy már telepítésre került-e. Ha nincs telepítve, nézd meg, hogy megfelelően került-e feltöltésre.', //? style
 	'INVALID_STYLE_ID'			=> 'Érvénytelen stílus azonosító.',
 
 	'NO_MATCHING_STYLES_FOUND'	=> 'Nincs a feltételeknek megfelelő megjelenés.',
@@ -87,6 +87,7 @@ $lang = array_merge($lang, array(
 	'STYLE_USED_BY'				=> 'Használók száma (robotok beleértve)',
 	'STYLE_VERSION'				=> 'Megjelenés verziója',
 
+	'UNINSTALL_PROSILVER'		=> 'Nem távolíthatod el a “prosilver” megjelenést.',
 	'UNINSTALL_DEFAULT'		=> 'Nem távolíthatod el az alapértelmezett megjelenést.',
 
 	'BROWSE_STYLES_DATABASE'	=> 'A phpBB.com megjelenés adatbázisának böngészése',

@@ -90,6 +90,7 @@ $lang = array_merge($lang, array(
 	'ATTACHMENTS_EXPLAIN'			=> 'Az alábbi lista a fórumon a hozzászólásaihoz csatolt állományokat tartalmazza.',
 	'ATTACHMENTS_DELETED'			=> 'A csatolmányok sikeresen törlésre kerültek.', //? sikeresen törlésrere kerültek??
 	'ATTACHMENT_DELETED'			=> 'A csatolmány sikeresen törlésre került.', //? sikeresen törlésre kerültek??
+	'ATTACHMENT_LOCKED'				=> 'A csatolmány nem törölhető, mert lezárt témában van.', //? This topic is locked, you cannot delete the attachment
 	'AUTOLOGIN_SESSION_KEYS_DELETED'=> 'A kiválasztott "Emlékezz rám" munkamenet bejegyzések sikeresen törlésre kerültek.',
 	'AVATAR_CATEGORY'				=> 'Kategória',
 	'AVATAR_DRIVER_GRAVATAR_TITLE'	=> 'Gravatar',
@@ -116,7 +117,7 @@ $lang = array_merge($lang, array(
 	'BIRTHDAY'					=> 'Születésnap',
 	'BIRTHDAY_EXPLAIN'			=> 'Ha megadja a születési évét, a születésnapjakor látszani fog a kora is.',
 	'BOARD_DATE_FORMAT'			=> 'Dátum formátum',
-	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'A formátum megegyezik a PHP <a href="http://www.php-blog.hu/php-magyar-kezikonyv/function.date.html">date()</a> függvényéjével.', //? fogalmazás
+	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'A formátum megegyezik a PHP <a href="https://secure.php.net/manual/function.date.php">date()</a> függvényéjével.', //? fogalmazás
 	'BOARD_LANGUAGE'			=> 'Nyelv',
 	'BOARD_STYLE'				=> 'Megjelenés',
 	'BOARD_TIMEZONE'			=> 'Időzóna',

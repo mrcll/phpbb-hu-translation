@@ -114,7 +114,7 @@ $lang = array_merge($lang, array(
 	'FIRST_OPTION'				=> 'Első lehetőség',
 
 	'HIDE_PROFILE_FIELD'			=> 'Profil mező elrejtése',
-	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'A profil mező elrejtése az adott felhasználón, az adminisztrátoron és a moderátorokon kívül mindenki számára. Ha a megjelenítés a felhasználói vezérlőpultban beállítás nemre van állítva, a felhasználó nem láthatja és nem is változtathatja meg a mező értékét, ez esetben az értékét csak egy adminisztrátor módosíthatja.',
+	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'A profil mező elrejtése az adminisztrátoron és a moderátorokon kívül mindenki számára. Ha a megjelenítés a felhasználói vezérlőpultban beállítás nemre van állítva, a felhasználó nem láthatja és nem is változtathatja meg a mező értékét, ez esetben az értékét csak egy adminisztrátor módosíthatja.',
 
 	'INVALID_CHARS_FIELD_IDENT'	=> 'A mezőazonosító csak latin kisbetűket (a-z) és alulvonást (_) tartalmazhat.',
 	'INVALID_FIELD_IDENT_LEN'	=> 'A mezőazonosító csak 17 karakter hosszú lehet.',

@@ -7,7 +7,7 @@ A "{USERNAME}" nevű azonosító deaktiválásra került, vagy újonnan létre l
 A következő linkre kattintva a felhasználó profiljához jutsz:
 {U_USER_DETAILS}
 
-A következő linkkel tudod aktiválni az azonosítót:
+A következő linkkel tudod azonnal aktiválni az azonosítót:
 {U_ACTIVATE}
 
 {EMAIL_SIG}

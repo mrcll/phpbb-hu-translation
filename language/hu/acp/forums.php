@@ -100,6 +100,7 @@ $lang = array_merge($lang, array(
 	'FORUM_LINK_TRACK_EXPLAIN'			=> 'Számolja hányszor kattintottak a linkre.',
 	'FORUM_NAME'						=> 'Fórum neve',
 	'FORUM_NAME_EMPTY'					=> 'Nevet kell adnod a fórumnak.',
+	'FORUM_NAME_EMOJI'					=> 'A megadott fórum név érvénytelen.<br>A következő nem támogatott karaktereket tartalmazza:<br>%s',
 	'FORUM_PARENT'						=> 'Szülő fórum',
 	'FORUM_PASSWORD'					=> 'Fórum jelszó',
 	'FORUM_PASSWORD_CONFIRM'			=> 'Fórum jelszó megerősítés',
