@@ -59,7 +59,6 @@ $lang = array_merge($lang, array(
 
 	'BBCODE_INVALID_TAG_NAME'	=> 'A megadott BBCode címkenév már létezik.',
 	'BBCODE_INVALID'			=> 'A BBCode-od formátuma nem helyes.', //? "Your BBCode is constructed in an invalid form."
-	'BBCODE_OPEN_ENDED_TAG'		=> 'Az egyedi BBCode-odnak tartalmaznia kell egy nyitó és egy lezáró címkét is.',
 	'BBCODE_TAG'				=> 'Címke',
 	'BBCODE_TAG_TOO_LONG'		=> 'A megadott címkenév túl hosszú.',
 	'BBCODE_TAG_DEF_TOO_LONG'	=> 'A megadott címke meghatározás túl hosszú, kérjük, rövidítsd le.',
@@ -81,13 +80,13 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_BBCODES'		=> 'Nem tudsz több BBCode-ot készíteni. Kérünk, törölj egy vagy több BBCode-ot, és próbálkozz újra.',
 
 	'tokens'	=>	array(
-		'TEXT'			=> 'Bármilyen szöveg beleértve a külföldi karaktereket, számokat stb. Ezt a jelölőt ne használd HTML címkében, használd helyette az IDENTIFIER, INTTEXT vagy SIMPLETEXT jelölők egyikét.',
+		'TEXT'			=> 'Bármilyen szöveg beleértve a külföldi karaktereket, számokat stb.',
 		'SIMPLETEXT'	=> 'A latin ábécé betűje (A-Z), szám, szóköz, vessző, pont, mínusz jel, plusz jel, kötőjel és alulvonás.',
 		'INTTEXT'		=> 'Unicode betű, szám, szóköz, vessző, pont, mínusz jel, plusz jel, kötőjel, alulvonás és térközök.',
 		'IDENTIFIER'	=> 'A latin ábécé betúje (A-Z), szám, kötőjel és alulvonás.',
 		'NUMBER'		=> 'Bármilyen szám.',
 		'EMAIL'			=> 'Egy érvényes e-mail cím.',
-		'URL'			=> 'Egy érvényes URL, mely bármilyen protokollt használhat (http, ftp, stb., nem használható fel javascript támadásokhoz). Ha nincs protokoll megadva, a szöveg elé „http://” kerül elhelyezésre.',
+		'URL'			=> 'Egy érvényes URL, mely bármilyen engedélyezett protokollt használhat (http, ftp, stb., nem használható fel javascript támadásokhoz). Ha nincs protokoll megadva, a szöveg elé „http://” kerül elhelyezésre.',
 		'LOCAL_URL'		=> 'Egy helyi URL. Az URL-nek a téma oldaltól kell lennie viszonyítva, valamint nem tartalmazhat szervernevet, illetve protokollt, a link kezdete “%s” lesz.',
 		'RELATIVE_URL'	=> 'Egy relatív URL. Egy URL részlet megfeleltetésére használhatod, de légy elővigyázatos: a teljes URL egy érvényes relatív URL. Ha a fórumod relatív URL-jét szeretnéd használni, akkor helyette a LOCAL_URL jelölőt használd.', //? You can use this to match parts of a URL, but be careful: a full URL is a valid relative URL.
 		'COLOR'			=> 'Egy HTML szín, lehet a <samp>#FF1234</samp> numerikus formában, vagy lehet egy <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS szín kulcsszó</a>, mint például a <samp>fuchsia</samp> vagy az <samp>InactiveBorder</samp>.'

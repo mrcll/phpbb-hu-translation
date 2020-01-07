@@ -82,6 +82,7 @@ $lang = array_merge($lang, array(
 	'ACL_U_SAVEDRAFTS'	=> 'Elmenthet piszkozatokat',
 	'ACL_U_CHGCENSORS'	=> 'Kikapcsolhatja a szócenzúrát',
 	'ACL_U_SIG'			=> 'Használhat aláírást',
+	'ACL_U_EMOJI'		=> 'Használhat emojit és speciális karaktereket a téma címében', //? rich text charachters
 
 	'ACL_U_SENDPM'		=> 'Küldhet privát üzenetet',
 	'ACL_U_MASSPM'		=> 'Küldhet privát üzenetet egyszerre több felhasználónak',
