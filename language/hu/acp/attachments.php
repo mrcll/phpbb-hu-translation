@@ -71,7 +71,6 @@ $lang = array_merge($lang, array(
 	'ATTACH_QUOTA_EXPLAIN'				=> 'Az egész fórumon a csatolmányok legfeljebb ekkora helyet foglalhatnak el összesen. A 0 érték kikapcsolja a korlátozást.', //?
 	'ATTACH_TO_POST'					=> 'Állomány csatolása hozzászóláshoz', //?
 
-	'CAT_FLASH_FILES'			=> 'Flash állományok',
 	'CAT_IMAGES'				=> 'Képek',
 	'CHECK_CONTENT'				=> 'Csatolt állományok ellenőrzése',
 	'CHECK_CONTENT_EXPLAIN'		=> 'Néhány böngésző rávehető, hogy a feltöltött állományokhoz helytelen MIME típust állapítson meg. Ezzel a beállítással az ennek okozására hajlamos állományok visszautasításra kerülnek.',
@@ -102,7 +101,6 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_ARCHIVES'			=> 'Archívumok',
 	'EXT_GROUP_DOCUMENTS'			=> 'Dokumentumok',
 	'EXT_GROUP_DOWNLOADABLE_FILES'	=> 'Letölthető állományok',
-	'EXT_GROUP_FLASH_FILES'			=> 'Flash állományok',
 	'EXT_GROUP_IMAGES'				=> 'Képek',
 	'EXT_GROUP_PLAIN_TEXT'			=> 'Sima szöveg',
 

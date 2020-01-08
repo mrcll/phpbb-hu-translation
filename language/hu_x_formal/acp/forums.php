@@ -132,6 +132,8 @@ $lang = array_merge($lang, array(
 	'GENERAL_FORUM_SETTINGS'	=> 'Általános fórum beállítások',
 
 	'LINK'						=> 'Link',
+	'LIMIT_SUBFORUMS'			=> 'Csak közvetlen gyerek-alfórumok felsorolása', //? Limit legend to direct child-subforums
+	'LIMIT_SUBFORUMS_EXPLAIN'	=> 'A szülő fórum magyarázatában csak a közvetlen (gyerek) alfórumokat jeleníti meg. Kikapcsolásakor az összes olyan alfórumot (és azok alfórumait) megjeleníti, ahol az „Alfórumok megjelenítése a magyarázatban” beállítása igenre van állítva.', //? Limits the subforums to be displayed to subforums that are direct descendants (children) of the current forum. Disabling this will display all subforums with the “List subforums in legend” option enabled, regardless of depth.
 	'LIST_INDEX'				=> 'Alfórumok felsorolása a szülő fórum magyarázatában',
 	'LIST_INDEX_EXPLAIN'		=> 'A fórum megjelenítése linkként a kezdőlapon és a többi helyen a szülő fórumának leírásában, ha a szülő fórum „Alfórumok megjelenítése a magyarázatban” beállítása igenre van állítva.',
 	'LIST_SUBFORUMS'			=> 'Alfórumok megjelenítése a magyarázatban',

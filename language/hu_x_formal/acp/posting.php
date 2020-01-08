@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 	'ACP_BBCODES_EXPLAIN'		=> 'A BBCode a HTML nyelv egy speciális változata, mely nagy teret enged egy szövegrészlet megformázásához. Ezen az oldalon felvehetsz, törölheted és szerkesztehted az egyedi BBCode-okat.',
 	'ADD_BBCODE'				=> 'Új BBCode felvétele',
 
-	'BBCODE_DANGER'				=> 'A felvenni kívánt BBCode {TEXT} jelölőt tartalmaz egy HTML attribútumon belül. Ez egy potenciális XSS biztonsági rés, használd inkább a kevésbé megengedő {SIMPLETEXT} vagy {INTTEXT} típusokat. Csak akkor lépj tovább, ha tisztában vagy a veszélyekkel, és a {TEXT} jelölő használatát elkerülhetetlennek tartod.',
+	'BBCODE_DANGER'				=> 'A felvenni kívánt BBCode nem tűnik biztonságosnak. Ha a BBCode a {TEXT} jelölőt olyan környezetben használja, ahol az potenciális biztonsági rést jelenthet, akkor használj inkább helyette kevésbé megengedő jelölő típusokat. Csak akkor lépj tovább, ha tisztában vagy a veszélyekkel, és a {TEXT} jelölő használatát elkerülhetetlennek tartod.',
 	'BBCODE_DANGER_PROCEED'		=> 'Tisztában vagyok a veszélyekkel', // 'Proceed',
 
 	'BBCODE_ADDED'				=> 'A BBCode sikeresen felvételre került.',
@@ -59,6 +59,7 @@ $lang = array_merge($lang, array(
 
 	'BBCODE_INVALID_TAG_NAME'	=> 'A megadott BBCode címkenév már létezik.',
 	'BBCODE_INVALID'			=> 'A BBCode-od formátuma nem helyes.', //? "Your BBCode is constructed in an invalid form."
+	'BBCODE_INVALID_TEMPLATE'	=> 'A BBCode-od sablonja nem helyes.',
 	'BBCODE_TAG'				=> 'Címke',
 	'BBCODE_TAG_TOO_LONG'		=> 'A megadott címkenév túl hosszú.',
 	'BBCODE_TAG_DEF_TOO_LONG'	=> 'A megadott címke meghatározás túl hosszú, kérjük, rövidítsd le.',

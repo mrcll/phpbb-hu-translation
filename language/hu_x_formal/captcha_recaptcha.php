@@ -46,10 +46,10 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_INCORRECT'			=> 'A megadott megoldás hibás volt.',
 	'RECAPTCHA_NOSCRIPT'			=> 'A feladat betöltéséhez kérjük, engedélyezze böngészőjében a JavaScript futtatását.',
 
-	'RECAPTCHA_PUBLIC'				=> 'Publikus reCaptcha kulcs',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'A publikus reCaptcha kulcsa. Kulcs a <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> oldalon kérhető.',
-	'RECAPTCHA_PRIVATE'				=> 'Privát reCaptcha kulcs',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'A privát reCaptcha kulcsa. Kulcs a <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> oldalon kérhető.',
+	'RECAPTCHA_PUBLIC'				=> 'Oldal kulcsa',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Az oldala reCaptcha kulcsa. Kulcs a <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> oldalon kérhető. Kérjük, a reCAPTCHA v2 &gt; Invisible reCAPTCHA badge típust használja.',
+	'RECAPTCHA_PRIVATE'				=> 'Titkos kulcs',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'A privát reCaptcha kulcsa. Kulcs a <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> oldalon kérhető. Kérjük, a reCAPTCHA v2 &gt; Invisible reCAPTCHA badge típust használja.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'A robotok általi automatikus űrlapküldések megakadályozása érdekében meg kell oldania a következő feladatot.',
+	'RECAPTCHA_INVISIBLE'				=> 'Ez a CAPTCHA nem látható. Ahhoz, hogy ellenőrizni tudja a működését, egy kis ikon jelenik meg az oldal jobb alsó sarkában.',
 ));

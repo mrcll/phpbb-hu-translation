@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 
 	// Support page
 	'SUPPORT_TITLE'		=> 'Támogatás',
-	'SUPPORT_BODY'		=> 'A phpBB3 aktuális stabil kiadásához teljes támogatás elérhető, térítésmentesen. Ez magában foglalja az alábbiakat:</p><ul><li>telepítés,</li><li>konfiguráció,</li><li>technikai kérdések,</li><li>a szoftverben lévő lehetséges hibákkal kapcsolatos problémák,</li><li>frissítés a Release Candidate (RC) verziókról a legfrissebb stabil verzióra,</li><li>konvertálás phpBB 2.0.x-ről phpBB3-ra,</li><li>konvertálás más fórumszoftverről phpBB3-ra (ezzel kapcsolatban lásd a <a href="https://www.phpbb.com/community/viewforum.php?f=486">Konvertálók fórumot</a>)</li></ul><p>A phpBB3 még béta verzióját futtató felhasználóinknak tanácsoljuk, hogy a jelenlegi fórumukat cseréljék le egy friss telepítésűre a legújabb verzióból.</p><h2>Kiterjesztések, megjelenések</h2><p>A kiterjesztésekkel kapcsolatos ügyekkel, kérünk, a megfelelő, <a href="https://www.phpbb.com/community/viewforum.php?f=451">Kiterjesztések fórumba</a> írj.<br />A megjelenésekkel kapcsolatban kérünk, szintén fordulj az ezeknek megfelelő, <a href="https://www.phpbb.com/community/viewforum.php?f=471">Megjelenések fórumba</a>.<br /><br />Ha a kérdésed egy bizonyos csomagra irányul, kérünk, közvetlenül a csomaggal foglalkozó témába küldd a hozzászólásod.</p><h2>Támogatás elérhetősége</h2><p><a href="https://www.phpbb.com/support/">Támogatás részleg</a><br /><a href="https://www.phpbb.com/support/docs/en/3.2/ug/quickstart/">Gyorstalpaló</a><br /><br />Hogy mindig azonnal értesülj a phpBB frissítéseiről, kövesd a phpBB-t <a href="https://www.twitter.com/phpbb/">Twitter</a>-en és <a href="https://www.facebook.com/phpbb/">Facebook</a>-on.</p><h2>Saját nyelvű támogatás</h2><p>A phpBB.com angol nyelvű támogatása mellett a <a href="https://www.phpbb.com/support/intl/">nemzetközi phpBB oldalak</a> is örömmel állnak rendelkezésre. Ez a magyar nyelv esetében a <a href="http://phpbb.hu/">Magyar phpBB Közösség</a> oldalát jelenti. Ezeken a webhelyeken főképp az alap phpBB-hez nyújtanak támogatást, kiterjesztésekhez, megjelenésekhez többnyire csak részlegesen, nem minden esetben lehet segítséget kapni. Amennyiben az adott oldalon nem foglalkoznak az adott bővítménnyel, keresd fel a phpBB.com megfelelő fórumtémáját.<br /><br />',
+	'SUPPORT_BODY'		=> 'A phpBB3 aktuális stabil kiadásához teljes támogatás elérhető, térítésmentesen. Ez magában foglalja az alábbiakat:</p><ul><li>telepítés,</li><li>konfiguráció,</li><li>technikai kérdések,</li><li>a szoftverben lévő lehetséges hibákkal kapcsolatos problémák,</li><li>frissítés a Release Candidate (RC) verziókról a legfrissebb stabil verzióra,</li><li>konvertálás phpBB 2.0.x-ről phpBB3-ra,</li><li>konvertálás más fórumszoftverről phpBB3-ra (ezzel kapcsolatban lásd a <a href="https://www.phpbb.com/community/viewforum.php?f=486">Konvertálók fórumot</a>)</li></ul><p>A phpBB3 még béta verzióját futtató felhasználóinknak tanácsoljuk, hogy a jelenlegi fórumukat cseréljék le egy friss telepítésűre a legújabb verzióból.</p><h2>Kiterjesztések, megjelenések</h2><p>A kiterjesztésekkel kapcsolatos ügyekkel, kérünk, a megfelelő, <a href="https://www.phpbb.com/community/viewforum.php?f=451">Kiterjesztések fórumba</a> írj.<br />A megjelenésekkel kapcsolatban kérünk, szintén fordulj az ezeknek megfelelő, <a href="https://www.phpbb.com/community/viewforum.php?f=471">Megjelenések fórumba</a>.<br /><br />Ha a kérdésed egy bizonyos csomagra irányul, kérünk, közvetlenül a csomaggal foglalkozó témába küldd a hozzászólásod.</p><h2>Támogatás elérhetősége</h2><p><a href="https://www.phpbb.com/support/">Támogatás részleg</a><br /><a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/">Gyorstalpaló</a><br /><br />Hogy mindig azonnal értesülj a phpBB frissítéseiről, kövesd a phpBB-t <a href="https://www.twitter.com/phpbb/">Twitter</a>-en és <a href="https://www.facebook.com/phpbb/">Facebook</a>-on.</p><h2>Saját nyelvű támogatás</h2><p>A phpBB.com angol nyelvű támogatása mellett a <a href="https://www.phpbb.com/support/intl/">nemzetközi phpBB oldalak</a> is örömmel állnak rendelkezésre. Ez a magyar nyelv esetében a <a href="http://phpbb.hu/">Magyar phpBB Közösség</a> oldalát jelenti. Ezeken a webhelyeken főképp az alap phpBB-hez nyújtanak támogatást, kiterjesztésekhez, megjelenésekhez többnyire csak részlegesen, nem minden esetben lehet segítséget kapni. Amennyiben az adott oldalon nem foglalkoznak az adott bővítménnyel, keresd fel a phpBB.com megfelelő fórumtémáját.<br /><br />',
 
 	// License
 	'LICENSE_TITLE'		=> 'General Public License (GNU Általános Nyilvános Licenc)',
@@ -72,7 +72,7 @@ $lang = array_merge($lang, array(
 
 	<p>A phpBB3 a következő adatbázisrendszereket támogatja:</p>
 	<ul>
-		<li>MySQL 3.23 vagy újabb (MySQLi is támogatott)</li>
+		<li>MySQL 4.1.3 vagy újabb (MySQLi szükséges)</li>
 		<li>PostgreSQL 8.3+</li>
 		<li>SQLite 3.6.15+</li>
 		<li>MS SQL Server 2000 vagy újabb (közvetlenül ODBC-n keresztül)</li>
@@ -107,7 +107,7 @@ $lang = array_merge($lang, array(
 
 	// Server requirements
 	'PHP_VERSION_REQD'					=> 'PHP verzió',
-	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB telepítéséhez 5.4.0 vagy nagyobb PHP verzió szükséges.',
+	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB telepítéséhez 7.1.3 vagy nagyobb PHP verzió szükséges.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'getimagesize() PHP függvény',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> 'phpBB helyes működéséhez a getimagesize PHP függvény elérhetősége szükséges.',
 	'PCRE_UTF_SUPPORT'					=> 'PCRE UTF-8 támogatás',
@@ -189,7 +189,6 @@ $lang = array_merge($lang, array(
 	// Database options
 	'DB_OPTION_MSSQL_ODBC'	=> 'MSSQL Szerver 2000+ ODBC-n keresztül',
 	'DB_OPTION_MSSQLNATIVE'	=> 'MSSQL Szerver 2005+ [ natív ]',
-	'DB_OPTION_MYSQL'		=> 'MySQL',
 	'DB_OPTION_MYSQLI'		=> 'MySQL MySQLi kiterjesztéssel',
 	'DB_OPTION_ORACLE'		=> 'Oracle',
 	'DB_OPTION_POSTGRES'	=> 'PostgreSQL',
@@ -568,7 +567,7 @@ $lang = array_merge($lang, array(
 
 	// Finish conversion
 	'CONVERT_COMPLETE'			=> 'Konvertálás befejeződött',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'Sikeresen konvertáltad a fórumod phpBB 3.2-re. Most bejelentkezhetsz és <a href="../">használhatod a fórumod</a>. Kérünk, ellenőrizd, hogy minden beállítás helyesen megtörtént, mielőtt aktiválnád a fórumod az install könyvtár törlésével. Ha segítségre lenne szükséged, olvasd el az online <a href="https://www.phpbb.com/support/docs/en/3.2/ug/">dokumentációt</a> vagy tedd fel kérdésed a <a href="https://www.phpbb.com/community/viewforum.php?f=466">fórumban</a>.',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'Sikeresen konvertáltad a fórumod phpBB 3.3-ra. Most bejelentkezhetsz és <a href="../">használhatod a fórumod</a>. Kérünk, ellenőrizd, hogy minden beállítás helyesen megtörtént, mielőtt aktiválnád a fórumod az install könyvtár törlésével. Ha segítségre lenne szükséged, olvasd el az online <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">dokumentációt</a> vagy tedd fel kérdésed a <a href="https://www.phpbb.com/community/viewforum.php?f=661">fórumban</a>.',
 
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'A régi fórumon engedélyezve volt az FTP-n keresztüli csatolmányfeltöltés. Kérjük, kapcsold ki az FTP feltöltést, bizonyosodj meg róla, hogy helyes feltöltési könyvtár került megadásra, majd másold át az összes csatolmány állományt az új, webről is elérhető könyvtárba. Ha végeztél ezzel, indítsd újra a konvertálót.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'Nincs elérhető konfigurációs információ a konvertáláshoz.',

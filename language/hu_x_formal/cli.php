@@ -82,8 +82,6 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'A folyamatonként feldolgozandó bejegyzések számának megbecslése',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'Az újraformázás folytatása onnan, ahol az utolsó folyamat abbahagyta',
 
-	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'			=> 'Újraszámítja a users tábla user_email_hash oszlopát.',
-
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'					=> 'Csak akkor állítja be a konfigurációs beállítás értékét, ha annak eredeti értéke megegyezik az aktuális értékkel.', //?
 	'CLI_DESCRIPTION_SET_CONFIG'						=> 'Beállítja egy opció értékét',
 
@@ -134,7 +132,6 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_ENABLED'			=> 'Engedélyezett',
 
 	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'A fórumok és modulok faszerkezete sikeresen javításra került.',
-	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Az összes e-mail hash sikeresen újraszámításra került.',
 	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'A régebbi, elavult jelszó hash-ek sikeresen bcrypt-re lettek frissítve.',
 
 	'CLI_MIGRATION_NAME'					=> 'Adatbázis migráció neve, a teljes namespace-el együtt (használj perjeleket visszaperjelek helyett, a problémák elkerülése érdekében).',

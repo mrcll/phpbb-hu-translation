@@ -1,0 +1,13 @@
+Subject: Felhasználói jelszó visszaállítása
+
+Kedves {USERNAME}!
+
+Ezt az üzenetet ön azért kapja, mert a jelszó visszaállítását kérte a "{SITENAME}" oldalon levő azonosítójához.
+
+A jelszó visszaállításához kattintson az alábbi linkre:
+
+{U_RESET_PASSWORD}
+
+Ha nem ön kérte ezt az üzenetet, úgy hagyja figyelmen kívül. Amennyiben továbbra is hasonlókat kap, vegye fel a kapcsolatot az oldal adminisztrátorával.
+
+{EMAIL_SIG}

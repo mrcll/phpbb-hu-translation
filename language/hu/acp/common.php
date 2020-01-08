@@ -229,16 +229,6 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'Vissza',
 
-	'CANNOT_CHANGE_FILE_GROUP'	=> 'Nem sikerült módosítani fájl tulajdonos csoportját',
-	'CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'Nem sikerült módosítani fájl jogosultságait',
-	'CANNOT_COPY_FILES'		=> 'Nem sikerült a fájlok másolása',
-	'CANNOT_CREATE_SYMLINK'	=> 'Nem sikerült szimbolikus linket létrehozni',
-	'CANNOT_DELETE_FILES'	=> 'Nem sikerült a fájlok törlése',
-	'CANNOT_DUMP_FILE'		=> 'Nem sikerült a fájl kiírása',
-	'CANNOT_MIRROR_DIRECTORY'	=> 'Nem sikerült a könyvtár tükrözése',
-	'CANNOT_RENAME_FILE'	=> 'Nem sikerült a fájl átnevezése',
-	'CANNOT_TOUCH_FILES'	=> 'Nem sikerült meghatározni, hogy a fájl létezik-e',
-
 	'CONTAINER_EXCEPTION' => 'A phpBB a konténer létrehozása közben hibát észlelt, aminek oka egy telepített kiterjesztés. Emiatt az összes kiterjesztés ideiglenesen letiltásra került. Próbáld meg törölni a fórum gyorsítótárat. A hiba kijavítása után az összes kiterjesztés automatikusan újra engedélyezésre kerül. Ha a hiba továbbra is fennáll, segítségért látogasd meg a <a href="https://www.phpbb.com/support">phpBB.com</a> oldalát.',
 	'EXCEPTION' => 'Rendszer kivétel',
 
@@ -376,7 +366,7 @@ $lang = array_merge($lang, array(
 	'DATABASE_SERVER_INFO'	=> 'Adatbázisszerver',
 	'DATABASE_SIZE'			=> 'Adatbázis mérete',
 
-	// Enviroment configuration checks, mbstring related
+	// Environment configuration checks, mbstring related
 	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'A függvény felüldefiniálás nincs megfelelően konfigurálva', //?
 	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> 'A <var>mbstring.func_overload</var> értékének 0-nak vagy 4-nek kell lennie. Az aktuális értékét a <samp>PHP információ</samp> oldalon tudod ellenőrizni.',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'A transzparens karakterkódolás nincs megfelelően konfigurálva',

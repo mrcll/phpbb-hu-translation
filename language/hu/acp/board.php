@@ -55,6 +55,8 @@ $lang = array_merge($lang, array(
 	'DISABLE_BOARD_EXPLAIN'			=> 'Ennek igenre állításával a fórum nem lesz elérhető azon felhasználók számára, akik nem adminisztrátorok vagy moderátorok. Egy rövid üzenetet is megadhatsz (legfeljebb 255 karakter), mely meg fog jelenni a felhasználóknak.',
 	'DISPLAY_LAST_SUBJECT'			=> 'Utolsó hozzászólás témájának megjelenítése a fórumok listáján',
 	'DISPLAY_LAST_SUBJECT_EXPLAIN'	=> 'Az utoljára beküldött hozzászólás témája megjelenítésre kerül a fórumok listáján egy a hozzászólásra mutató hivatkozással. Azok a hozzászólások, amelyek jelszóval védett vagy olyan fórumokban keletkeztek, amelyekre a felhasználónak nincs jogosultsága nem kerülnek megjelenítésre.',
+	'DISPLAY_UNAPPROVED_POSTS'		=> 'Nem jóváhagyott hozzászólások megjelenítése a szerzőnek',
+	'DISPLAY_UNAPPROVED_POSTS_EXPLAIN'	=> 'A hozzászólás írója láthatja a még nem jóváhagyott hozzászólásait. Nem vonatkozik a vendégek által írt hozzászólásokra.',
 	'GUEST_STYLE'					=> 'Vendég megjelenés',
 	'GUEST_STYLE_EXPLAIN'			=> 'A vendégek által használt megjelenés.', //? használt?
 	'OVERRIDE_STYLE'				=> 'Felhasználó megjelenésének felülírása',
@@ -449,7 +451,7 @@ $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth',
 	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Secret',
 
-	'APACHE_SETUP_BEFORE_USE'	=> 'Az apache azonosítást előbb kell beállítanod, mint hogy a phpBB-t erre az azonosítási módra állítanád. Ne felejtesd el, hogy az apache azonosításhoz használt felhasználónévnek meg kell egyeznie a phpBB-beli felhasználónévvel. Az apache azonosítás csak mod_php-vel használható (CGI verzióval nem), és a safe_mode-nak kikapcsolva kell lennie.',
+	'APACHE_SETUP_BEFORE_USE'	=> 'Az apache azonosítást előbb kell beállítanod, mint hogy a phpBB-t erre az azonosítási módra állítanád. Ne felejtesd el, hogy az apache azonosításhoz használt felhasználónévnek meg kell egyeznie a phpBB-beli felhasználónévvel. Az apache azonosítás csak mod_php-vel használható (CGI verzióval nem).',
 
 	'LDAP'							=> 'LDAP',
 	'LDAP_DN'						=> 'LDAP base <var>dn</var>',

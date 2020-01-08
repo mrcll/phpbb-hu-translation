@@ -41,15 +41,15 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'RECAPTCHA_LANG'				=> 'hu', // Find the language/country code on https://developers.google.com/recaptcha/docs/language - If no code exists for your language you can use "en" or leave the string empty
-	'RECAPTCHA_NOT_AVAILABLE'		=> 'A reCaptcha használatához, létre kell hoznod egy azonosítót a <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> oldalon.',
+	'RECAPTCHA_NOT_AVAILABLE'		=> 'A reCaptcha használatához létre kell hoznod egy azonosítót a <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> oldalon.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
 	'RECAPTCHA_INCORRECT'			=> 'A megadott válasz hibás.',
 	'RECAPTCHA_NOSCRIPT'			=> 'A feladat betöltéséhez kérjük, engedélyezd böngésződben a JavaScript futtatását.',
 
-	'RECAPTCHA_PUBLIC'				=> 'Publikus reCaptcha kulcs',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'A publikus reCaptcha kulcsod. Kulcs a <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> oldalon kérhető.',
-	'RECAPTCHA_PRIVATE'				=> 'Privát reCaptcha kulcs',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'A privát reCaptcha kulcsod. Kulcs a <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> oldalon kérhető.',
+	'RECAPTCHA_PUBLIC'				=> 'Oldal kulcsa',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Az oldalad reCaptcha kulcsa. Kulcs a <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> oldalon kérhető. Kérjük, a reCAPTCHA v2 &gt; Invisible reCAPTCHA badge típust használd.',
+	'RECAPTCHA_PRIVATE'				=> 'Titkos kulcs',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'A privát reCaptcha kulcsod. Kulcs a <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> oldalon kérhető. Kérjük, a reCAPTCHA v2 &gt; Invisible reCAPTCHA badge típust használd.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'A robotok általi automatikus űrlapküldések megakadályozása érdekében meg kell oldanod a következő feladatot.',
+	'RECAPTCHA_INVISIBLE'				=> 'Ez a CAPTCHA nem látható. Ahhoz, hogy ellenőrizni tudd a működését, egy kis ikon jelenik meg az oldal jobb alsó sarkában.',
 ));

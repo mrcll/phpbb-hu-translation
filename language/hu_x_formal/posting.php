@@ -270,7 +270,6 @@ $lang = array_merge($lang, array(
 	'TOPIC_BUMPED'				=> 'A téma sikeresen előugrasztásra került.',
 
 	'UNAUTHORISED_BBCODE'		=> 'Bizonyos BBCode-okat nem használhatsz: %s:',
-	'UNGLOBALISE_EXPLAIN'		=> 'Ahhoz, hogy a témát általános közleményből sima témává minősítse vissza, ki kell választania egy fórumot, amelyben a téma meg fog jelenni.', //?
 	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> 'Az üzenete szövege a következő nem támogatott karaktereket tartalmazza:<br />%s',
 	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> 'Az üzenete tárgya a következő nem támogatott karaktereket tartalmazza:<br />%s',
 	'UPDATE_COMMENT'			=> 'Magyarázat frissítése',
