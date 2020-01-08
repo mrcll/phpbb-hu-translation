@@ -6,7 +6,7 @@
  * @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
- * Magyar fordítás (c) 2007-2017 „Magyar phpBB Közösség fordítók”,
+ * Magyar fordítás (c) 2007-2020 „Magyar phpBB Közösség fordítók”,
  * http://phpbb.hu
  *
  * $Id$
