@@ -106,14 +106,18 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_IMAGES'				=> 'Képek',
 	'EXT_GROUP_PLAIN_TEXT'			=> 'Sima szöveg',
 
-	'GO_TO_EXTENSIONS'		=> 'Ugrás a kiterjesztések kezeléséhez',
-	'GROUP_NAME'			=> 'Csoport neve',
-
 	'FILES_GONE'			=> 'Néhány törlésre kiválasztott csatolmány nem létezik. Ezek lehet, hogy már korábban törölve lettek. A létezők törölve lettek.',
 	'FILES_STATS_WRONG'		=> 'A csatolmány statisztikád pontatlan lehet, ezért újraszinkronizálásra lehet szükség. Jelenlegi értékek: csatolmányok száma = %1$d, csatolmányok összes mérete = %2$s.<br />%3$sKattints ide%4$s az újraszinkronizáláshoz.',
 
+	'GO_TO_EXTENSIONS'		=> 'Ugrás a kiterjesztések kezeléséhez',
+	'GROUP_NAME'			=> 'Csoport neve',
+
 	'IMAGE_LINK_SIZE'			=> 'Linkkép méret', //? "Image link dimensions"
 	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Ha a csatolt kép ennél nagyobb, akkor csak egy link lesz megjelenítve hozzá, ahelyett, hogy közvetlenül szerepelne a hozzászólásban. A funkció kikapcsolásához állítsd mindkét értéket 0-ra.',
+	'IMAGE_QUALITY'				=> 'A feltöltött kép típusú csatolmányok minősége (csak JPEG képek)', //? Quality of uploaded image attachments (JPEG only)
+	'IMAGE_QUALITY_EXPLAIN'		=> 'Adj meg egy értéket 50% (kisebb fájlméret) és 90% (magasabb minőség) között. A 90%-nál nagyobb minőség növeli a fájl méretét, ezért nem engedélyezett. Ez a beállítás csak akkor jut érvényre, ha a legnagyobb megengedett képméret 0px-től eltérő értékre van beállítva.', //? Setting only applies if maximum image dimensions are set to a value other than 0px by 0px.
+	'IMAGE_STRIP_METADATA'		=> 'Kép metaadatok eltávolítása (csak JPEG képek)',
+	'IMAGE_STRIP_METADATA_EXPLAIN'	=> 'Exif metaadatok eltávolítása, úgy mint szerző, GPS koordináták vagy a kamera adatai. Ez a beállítás csak akkor jut érvényre, ha a legnagyobb megengedett képméret 0px-től eltérő értékre van beállítva.',
 
 	'MAX_ATTACHMENTS'				=> 'Maximum csatolható állományok száma hozzászólásonként',
 	'MAX_ATTACHMENTS_PM'			=> 'Maximum csatolható állományok száma privát üzenetenként',
@@ -132,6 +136,8 @@ $lang = array_merge($lang, array(
 	'NOT_ASSIGNED'				=> 'Nincs hozzárendelve',
 	'NO_ATTACHMENTS'			=> 'Ehhez az időszakhoz nem található csatolmány.',
 	'NO_EXT_GROUP'				=> 'Nincs',
+	'NO_EXT_GROUP_ALLOWED_PM'	=> 'Nincs <a href="%s">engedélyezett kiterjesztéscsoport</a> a privát üzenetekhez.',
+	'NO_EXT_GROUP_ALLOWED_POST'	=> 'Nincs <a href="%s">engedélyezett kiterjesztéscsoport</a> a hozzászólásokhoz.',
 	'NO_EXT_GROUP_NAME'			=> 'A csoport neve nem lett megadva.',
 	'NO_EXT_GROUP_SPECIFIED'	=> 'Nem lett megadva kiterjesztéscsoport.',
 	'NO_FILE_CAT'				=> 'Nincs',
