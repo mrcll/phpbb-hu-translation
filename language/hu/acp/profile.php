@@ -96,7 +96,6 @@ $lang = array_merge($lang, array(
 	'FIELD_DESCRIPTION'			=> 'Mező leírása',
 	'FIELD_DESCRIPTION_EXPLAIN'	=> 'A felhasználónak megjelenő leírás a mezőről.',
 	'FIELD_DROPDOWN'			=> 'Lenyíló lista', //? lista
-	'FIELD_GOOGLEPLUS'			=> 'Google+',
 	'FIELD_IDENT'				=> 'Mezőazonosító',
 	'FIELD_IDENT_ALREADY_EXIST'	=> 'A kiválasztott mezőazonosító már létezik. Kérünk, válassz másikat.',
 	'FIELD_IDENT_EXPLAIN'		=> 'A mezőazonosító a profil mező azonosítására való az adatbázisban és a sablonokban.',

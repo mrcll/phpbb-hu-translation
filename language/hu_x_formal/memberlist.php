@@ -154,5 +154,4 @@ $lang = array_merge($lang, array(
 	'VIEW_SKYPE_PROFILE'	=> 'Skype profil megtekintése', //? adatlap?
 	'VIEW_TWITTER_PROFILE'	=> 'Twitter profil megtekintése',
 	'VIEW_YOUTUBE_CHANNEL'	=> 'YouTube csatorna megtekintése',
-	'VIEW_GOOGLEPLUS_PROFILE' => 'Google+ profil megtekintése',
 ));

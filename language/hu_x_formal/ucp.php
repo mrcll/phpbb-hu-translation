@@ -180,7 +180,6 @@ $lang = array_merge($lang, array(
 	'DEMOTE_SELECTED'			=> 'Lemondás a csoportvezetőségről', //? visszalépés...
 	'DISABLE_CENSORS'			=> 'Szavak cenzúrázása',
 	'DISPLAY_GALLERY'			=> 'Galéria megjelenítése',
-	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'A megadott e-mail domainhez nem tartozik érvényes MX bejegyzés.', //? érvényes? "valid" - valós, létező?
 	'DOWNLOADS'					=> 'Letöltések száma', //? remélem csak ilyen értelemben használják...
 	'DRAFTS_DELETED'			=> 'Az összes piszkozat sikeresen törlésre került.',
 	'DRAFTS_EXPLAIN'			=> 'Itt megtekintheti, szerkesztheti és törölheti az elmentett piszkozatait.',

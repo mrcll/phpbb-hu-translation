@@ -167,6 +167,7 @@ $lang = array_merge($lang, array(
 	),
 	'COLLAPSE_VIEW'			=> 'Összecsukás', //? erre is kéne...
 	'CLOSE_WINDOW'			=> 'Ablak bezárása',
+	'CODE'					=> 'Kód',
 	'COLOUR_SWATCH'			=> 'Szín kiválasztása',
 	'COLON'					=> ':',
 	'COMMA_SEPARATOR'		=> ', ', // Comma used to join lists into a single string, use localised comma if appropriate, eg: Ideographic or Arabic
@@ -204,6 +205,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_MESSAGES'		=> 'Üzenetek megtekintése',
 	'DISPLAY_POSTS'			=> 'Hozzászólások megjelenítése',
 	'DISPLAY_TOPICS'		=> 'Témák megjelenítése',
+	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'A megadott e-mail domainhez nem tartozik érvényes MX bejegyzés.', //? érvényes? "valid" - valós, létező?
 	'DOWNLOADED'			=> 'Letöltve',
 	'DOWNLOADING_FILE'		=> 'Állomány letöltése',
 	'DOWNLOAD_COUNTS'		=> array(
@@ -308,7 +310,6 @@ $lang = array_merge($lang, array(
 	'GB'						=> 'GB',
 	'GIB'						=> 'GiB',
 	'GO'						=> 'Mehet',
-	'GOOGLEPLUS'				=> 'Google+',
 	'GOTO_FIRST_POST'			=> 'Ugrás az első hozzászólásra',
 	'GOTO_LAST_POST'			=> 'Ugrás az utolsó hozzászólásra',
 	'GOTO_PAGE'					=> 'Oldal',
@@ -617,6 +618,9 @@ $lang = array_merge($lang, array(
 	'POST_UNAPPROVED_EXPLAIN'	=> 'A hozzászólás nem jelenik meg más felhasználóknak, amíg azt nem hagyja jóvá egy moderátor.',
 	'POSTS_UNAPPROVED_FORUM'=> 'Ebben a fórumban még legalább egy hozzászólás nem került jóváhagyásra.', // ? szórend
 	'POWERED_BY'			=> 'Powered by %s',
+
+	'QUOTE'					=> 'Idézet',
+
 	'PREVIEW'				=> 'Előnézet',
 	'PREVIOUS'				=> 'Előző',		// Used in pagination
  	'PREVIOUS_STEP'			=> 'Vissza',

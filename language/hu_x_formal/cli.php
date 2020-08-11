@@ -39,6 +39,8 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
+	'CLI_APCU_CACHE_NOTICE'				=> 'APCu cache-t törölni kell az Adminisztrátori vezérlőpultban.',
+
 	'CLI_CONFIG_CANNOT_CACHED'			=> 'Állítsd be ezt az opciót, ha a konfigurációs beállítás olyan gyakorisággal változik, hogy nem lehet hatékonyan gyorsítótárazni.',
 	'CLI_CONFIG_CURRENT'				=> 'Aktuális konfigurációs érték, használd a 0-t és 1-et logikai értékek megadásához.',
 	'CLI_CONFIG_DELETE_SUCCESS'			=> '%s beállítás sikeresen törölve.',

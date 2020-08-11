@@ -52,6 +52,8 @@ $lang = array_merge($lang, array(
 	'CONTINUE_INDEXING_EXPLAIN'				=> 'Egy indexelési folyamat el lett indítva. Hogy hozzáférj a keresőindex oldalhoz, először azt be kell fejezned, vagy törölnöd kell.',
 	'CREATE_INDEX'							=> 'Index létrehozása',
 
+	'DEFAULT_SEARCH_RETURN_CHARS'			=> 'Visszaadott karakterek száma', //? Default number of returned characters
+	'DEFAULT_SEARCH_RETURN_CHARS_EXPLAIN'	=> 'Az alapértelmezett karakterszám, amit a keresés visszaad. 0 érték esetén a teljes hozzászólást visszaadja.', //? The default number of characters that will be returned while searching. A value of 0 will return the entire post.
 	'DELETE_INDEX'							=> 'Index törlése',
 	'DELETING_INDEX_IN_PROGRESS'			=> 'Index törlése folyamatban',
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'A keresőmodul jelenleg megtisztítja az indexét. Ez eltarthat néhány percig.',

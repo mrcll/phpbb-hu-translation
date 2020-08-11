@@ -52,8 +52,6 @@ $lang = array_merge($lang, array(
 	'BUMPED_BY'				=> 'Utoljára %1$s ugrasztotta előre %2$s-kor.', //? bump - na ennek ki tud egy magyar megfelelőt?
 	'BUMP_TOPIC'			=> 'Előreugrasztás', //? 'Téma előreugrasztása'
 
-	'CODE'					=> 'Kód',
-
 	'DELETE_TOPIC'			=> 'Téma törlése',
 	'DELETED_INFORMATION'	=> '%1$s törölte %2$s-kor',
 	'DISAPPROVE'					=> 'Elutasítás', //?
@@ -101,7 +99,6 @@ $lang = array_merge($lang, array(
 
 	'QUICK_MOD'				=> 'Gyors moderátori eszközök', //??
 	'QUICKREPLY'			=> 'Gyors válasz',
-	'QUOTE'					=> 'Idézet',
 
 	'REPLY_TO_TOPIC'		=> 'Hozzászólás a témához',
 	'RESTORE'				=> 'Visszaállítás',
