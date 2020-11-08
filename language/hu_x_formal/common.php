@@ -47,7 +47,7 @@ $lang = array_merge($lang, array(
 	'USER_LANG'			=> 'hu-x-formal',
 
 	// You can define different rules for the determination of plural forms here.
-	// See https://area51.phpbb.com/docs/dev/32x/language/plurals.html for more information
+	// See https://area51.phpbb.com/docs/dev/3.3.x/language/plurals.html for more information
 	// or ask the translation manager for help.
 	'PLURAL_RULE'		=> 2,
 
@@ -109,6 +109,8 @@ $lang = array_merge($lang, array(
 	'AVATAR_NOT_UPLOADED'			=> 'Nem sikerült feltölteni az avatart.',
 	'AVATAR_NO_TEMP_DIR'			=> 'A felöltéshez használt átmeneti könyvtár nem található vagy nem írható.',
 	'AVATAR_NO_SIZE'				=> 'Nem sikerült meghatározni a belinkelt avatar szélességét és magasságát, kérjük, adja meg kézzel.',
+	'AVATAR_NO_UPLOAD_DIR'			=> 'Az avatar állományok tárolására szolgáló könyvtár elérési útvonala nem létezik vagy nem írható.',
+	'AVATAR_NO_UPLOAD_PATH'			=> 'Az avatarok feltöltése engedélyezett, de az állományok tárolására szolgáló könyvtár elérési útvonala nincs beállítva.',
 	'AVATAR_PARTIAL_UPLOAD'			=> 'Az avatart csak részben sikerült feltölteni.',
 	'AVATAR_PHP_SIZE_NA'			=> 'Az avatar állomány mérete túl nagy.<br />Nem sikerült megállapítani a PHP php.ini-jében meghatározott maximális méretet.',
 	'AVATAR_PHP_SIZE_OVERRUN'		=> 'Az avatar állomány mérete túl nagy, a maximum feltölthető méret %1$d %2$s.<br />Kérjük, vegye figyelembe, hogy ez a php.ini-ben van meghatározva, ezért nem írható felül.',
@@ -489,6 +491,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_REFERENCE'			=> '"%1$s"',
 	'NOTIFICATION_REASON'				=> '<em>Indoklás:</em> %1$s.',
 	'NOTIFICATION_REPORT_PM'			=> '%1$s <strong>jelentette a privát üzenetet</strong>:', //?
+	'NOTIFICATION_REPORT_PM_CLOSED'		=> '<strong>Privát üzenet jelentés lezárásra került</strong> %1$s által:', // ?
 	'NOTIFICATION_REPORT_POST'			=> '%1$s <strong>jelentette a hozzászólást</strong>', //?
 	'NOTIFICATION_REPORT_CLOSED'		=> '%1$s <strong>lezárta a jelentést</strong>:',
 	'NOTIFICATION_TOPIC'				=> '%1$s <strong>létrehozott egy új témát</strong>:',

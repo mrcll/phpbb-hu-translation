@@ -154,6 +154,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_QUOTE'		=> 'Egy hozzászólás idézéséhez be kell jelentkeznie ebben a fórumban.',
 	'LOGIN_EXPLAIN_REPLY'		=> 'Hozzászólás küldéséhez be kell jelentkeznie ebben a fórumban.',
 
+	'MAX_ATTACHMENT_FILESIZE'	=> 'Maximum fájlméret csatolmányonként: %s.', //? Maximum filesize per attachment: %s.
 	'MAX_FONT_SIZE_EXCEEDED'	=> 'Legfeljebb %d nagyságú betűket használhat.',
 	'MAX_FLASH_HEIGHT_EXCEEDED'	=> array(
 		1	=> 'Legfeljebb %d pixel magas flasht animációt illeszthetsz be a hozzászólásodba.', //? 'A hozzászólásod legfeljebb %$1d pixel magas flasht tartalmazhat.' vagy 'Nem küldhetsz %$1d pixelnél magasabb flasht.'

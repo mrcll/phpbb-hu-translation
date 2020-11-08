@@ -114,6 +114,8 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT_EXPLAIN'			=> 'phpBB nem fog működni, amennyiben a PHP telepítésedben nem érhető el a UTF-8 támogatás PCRE kiegészítőben.',
 	'PHP_JSON_SUPPORT'					=> 'PHP JSON támogatás',
 	'PHP_JSON_SUPPORT_EXPLAIN'			=> 'phpBB helyes működéséhez a PHP JSON kiegészítésnek telepítve kell lennie.',
+	'PHP_MBSTRING_SUPPORT'				=> 'PHP mbstring támogatás',
+	'PHP_MBSTRING_SUPPORT_EXPLAIN'		=> 'phpBB helyes működéséhez a PHP mbstring kiegészítésnek telepítve kell lennie.',
 	'PHP_XML_SUPPORT'					=> 'PHP XML/DOM támogatás',
 	'PHP_XML_SUPPORT_EXPLAIN'			=> 'phpBB helyes működéséhez a PHP XML/DOM kiegészítésnek telepítve kell lennie.',
 	'PHP_SUPPORTED_DB'					=> 'Támogatott Adatbázisok',
@@ -239,7 +241,7 @@ $lang = array_merge($lang, array(
 	'CONFIG_SITE_DESC'				=> 'Rövid leírás a fórumodról.',
 	'CONFIG_SITENAME'				=> 'domained.hu',
 
-	'DEFAULT_INSTALL_POST'			=> 'Ez egy példa hozzászólás a frissen telepített phpBB3-madban. Úgy néz ki, minden működik. Ha gondolod, törölheted ezt a hozzászólást, és folytathatod a fórumod felállítását. A telepítés alatt az első kategóriádhoz és az első fórumodhoz hozzárendelésre került egy jól használható jogosultságkészlet az előre meghatározott csoportok számára (adminisztrátorok, robotok, globális moderátorok, vendégek, regisztrált felhasználók és regisztrált COPPA felhasználók). Ha úgy döntesz, törlöd az első kategóriád és az első fórumod, az új fórumok, ill. kategóriák felvételénél ne felejts el jogosultságokat hozzárendelni a fentebb említett csoportoknak. Ajánlott ezt a kezdeti kategóriát és fórumot átnevezni, majd később az új kategóriák, fórumok létrehozásánál a jogosultságokat ezekről másolni át. Sok sikert a fórumodhoz!',
+	'DEFAULT_INSTALL_POST'			=> '<t>Ez egy példa hozzászólás a frissen telepített phpBB3-madban. Úgy néz ki, minden működik. Ha gondolod, törölheted ezt a hozzászólást, és folytathatod a fórumod felállítását. A telepítés alatt az első kategóriádhoz és az első fórumodhoz hozzárendelésre került egy jól használható jogosultságkészlet az előre meghatározott csoportok számára (adminisztrátorok, robotok, globális moderátorok, vendégek, regisztrált felhasználók és regisztrált COPPA felhasználók). Ha úgy döntesz, törlöd az első kategóriád és az első fórumod, az új fórumok, ill. kategóriák felvételénél ne felejts el jogosultságokat hozzárendelni a fentebb említett csoportoknak. Ajánlott ezt a kezdeti kategóriát és fórumot átnevezni, majd később az új kategóriák, fórumok létrehozásánál a jogosultságokat ezekről másolni át. Sok sikert a fórumodhoz!</t>',
 
 	'FORUMS_FIRST_CATEGORY'			=> 'Az első kategóriád',
 	'FORUMS_TEST_FORUM_DESC'		=> 'Az első fórumod leírása.',

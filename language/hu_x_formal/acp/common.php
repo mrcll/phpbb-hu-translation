@@ -238,6 +238,7 @@ $lang = array_merge($lang, array(
 	'CRON_NO_SUCH_TASK'		=> '“%s” ütemezett feladat nem található.',
 	'CRON_NO_TASK'			=> 'Nincs futtatandó ütemezett feladat.',
 	'CRON_NO_TASKS'			=> 'Nem található ütemezett feladat.',
+	'CSV_INVALID'			=> 'A megadott “%1$s” vesszővel elválasztott beállítások érvénytelenek. Az értékek csak vesszővel lehetnek elválasztva, és nem tartalmazhatnak semmilyen bevezető vagy sorvégi elválasztó karaktert.', //? The provided comma-separated setting “%1$s” is invalid. The values should be delimited by comma only, it should not contain any leading or trailing delimiters.
 	'CURRENT_VERSION'		=> 'Jelenlegi verzió',
 
 	'DEACTIVATE'				=> 'Deaktiválás',
@@ -319,6 +320,7 @@ $lang = array_merge($lang, array(
 
 	'UCP'					=> 'Felhasználói vezérlőpult',
 	'URL_INVALID'			=> 'A “%1$s” beállításhoz megadott URL érvénytelen.',
+	'URL_SCHEME_INVALID'	=> 'A megadott “%2$s” séma a “%1$s” vesszővel elválasztott beállításokban érvénytelen. A sémának latin karakterrel kell kezdődnie, amit alfanumerikus karakterek, kötőjelek vagy pontok követnek.', //? The provided scheme “%2$s” in comma-separated setting “%1$s” is invalid. Scheme should start with a latin character followed by alphanumeric characters, hyphens or dots.
 	'USERNAMES_EXPLAIN'		=> 'Minden felhasználónevet külön sorba írj.',
 	'USER_CONTROL_PANEL'	=> 'Felhasználói vezérlőpult',
 

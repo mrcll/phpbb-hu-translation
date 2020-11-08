@@ -41,19 +41,19 @@ if (empty($lang) || !is_array($lang))
 
 // Privacy policy and T&C
 $lang = array_merge($lang, array(
-	'TERMS_OF_USE_CONTENT'	=> 'Azzal, hogy használja a „%1$s” fórumot (a továbbiakban „mi”, „a fórum”, „%1$s”, „%2$s”) elfogadja, hogy betartja az alábbi feltételeket. Ha nem fogadja el, kérjük ne használja, illetve ne is keresse fel a fórumot. A feltételeket bármikor megváltoztathatjuk, és habár a lehető legtöbbet megtesszük, hogy értesítsük a változásról, érdemes rendszeresen áttekinteni ezt az oldalt, mivel a fórum használati feltételeinek megváltoztatása utáni további használatával ön beleegyez az új feltételek betartásába.<br />
-	<br />
-	A fórumot a phpBB hajtja, mely egy a „<a href="http://opensource.org/licenses/gpl-2.0.php">GNU General Public License v2</a>” (a továbbiakban „GPL”) licenc alatt kiadott fórumszoftver, és a <a href="https://www.phpbb.com/">www.phpbb.com</a>, valamint magyarul a <a href="http://phpbb.hu/">phpbb.hu</a> weboldalról tölthető le. A phpBB csak lehetőséget nyújt az internet alapú kommunikációra; a phpBB Limited nem felelős azért, hogy milyen tartalmakat, illetve magatartást engedélyezünk. További információért a phpBB-ről, kérjük, látogassa meg a <a href="https://www.phpbb.com/">https://www.phpbb.com/</a> weboldalt.<br />
-	<br />
+	'TERMS_OF_USE_CONTENT'	=> 'Azzal, hogy használja a „%1$s” fórumot (a továbbiakban „mi”, „a fórum”, „%1$s”, „%2$s”) elfogadja, hogy betartja az alábbi feltételeket. Ha nem fogadja el, kérjük ne használja, illetve ne is keresse fel a fórumot. A feltételeket bármikor megváltoztathatjuk, és habár a lehető legtöbbet megtesszük, hogy értesítsük a változásról, érdemes rendszeresen áttekinteni ezt az oldalt, mivel a fórum használati feltételeinek megváltoztatása utáni további használatával ön beleegyez az új feltételek betartásába.
+	<br><br>
+	A fórumot a phpBB hajtja, mely egy a „<a href="http://opensource.org/licenses/gpl-2.0.php">GNU General Public License v2</a>” (a továbbiakban „GPL”) licenc alatt kiadott fórumszoftver, és a <a href="https://www.phpbb.com/">www.phpbb.com</a>, valamint magyarul a <a href="http://phpbb.hu/">phpbb.hu</a> weboldalról tölthető le. A phpBB csak lehetőséget nyújt az internet alapú kommunikációra; a phpBB Limited nem felelős azért, hogy milyen tartalmakat, illetve magatartást engedélyezünk. További információért a phpBB-ről, kérjük, látogassa meg a <a href="https://www.phpbb.com/">https://www.phpbb.com/</a> weboldalt.
+	<br><br>
 	Ön beleegyez, hogy nem küld semmilyen sértegető, obszcén, vulgáris, rágalmazó, gyűlöletkeltő, támadó, közízlést sértő vagy bármely más olyan tartalmat, mely sérti a hazájában, a fórumot kiszolgáló szerver országában érvényben lévő vagy a nemzetközi törvényeket. A fentiek megsértése azonnali és végleges kitiltáshoz vezethet az internetszolgáltatója értesítésével együtt, ha ezt szükségesnek tartjuk. A feltételek betartatásának érdekében az összes hozzászóláshoz tartozó IP-címet tároljuk. Ön elfogadja, hogy a fórum fenntartóinak jogukban áll eltávolítani, szerkeszteni a hozzászólásait vagy lezárni az ön által nyitott témákat, amennyiben úgy ítélik meg, hogy ez szükséges. Mint felhasználó, elfogadja, hogy bármely adat, melyet megad, tárolásra kerül a fórum adatbázisában. Ezek az információk a beleegyezése nélkül semmilyen módon nem kerülnek átadásra egy harmadik félnek, de a fórum fenntartói nem tudnak felelősséget vállalni az adatokért egy esetleges „hackertámadás” esetén.
 	',
 
 	'PRIVACY_POLICY'		=> 'Ezen nyilatkozat írja le, hogy a phpBB és a „%1$s” fórum (a továbbiakban „mi”, „a fórum”, „%1$s”, „%2$s”) üzemeltetői hogyan kezelik a fórum használata közben keletkező információkat.
-	<br />
+	<br><br>
 	Ezen információk két módon jönnek létre. Egyrészt automatikusan: azzal, hogy felkeresi a fórumot, a phpBB ún. sütiket hoz létre (kis szöveges állományok, melyeket a böngészője letölt az ideiglenes állományok könyvtárába). Ezen sütik olyan fontos adatokat tartalmaznak, melyek a fórum használatához feltétlenül szükségesek. Ilyen információt tárol az első két süti: a felhasználói azonosítót, illetve egy névtelen munkamenet azonosítót, amit a rendszer a böngészőjéhez rendel. A harmadik süti akkor jön létre, amikor a fórumot böngészi – ebben kerül tárolásra melyik témákat olvasta, így javítva a felhasználói élményt. A „%1$s” oldal böngészése során a phpBB-n kívül más szoftverek is létrehozhatnak sütiket, ezeket azonban nem tárgyalja ez a dokumentum, ugyanis csak a phpBB által létrehozott oldalakkal foglalkozik.
-	<br />
+	<br><br>
 	A másik mód, ami tárolásra kerülő információt generál, az maga az interakció: például ha ön vendégként vagy regisztrált tagként hozzászólást ír vagy regisztrál. Ez utóbbi folyamat során meg kell adnia egy egyedien azonosítható nevet („a felhasználói nevét”), egy – a belépéshez használt – személyes jelszót („a jelszavát”), illetve egy valós e-mail címet („az e-mail címét”). Az ön által létrehozott azonosítót azon ország adatvédelmi törvényei védelmezik, melyben a fórum szervere található. A regisztráció során megadott egyéb adatok kötelezősége az adott fórum adminisztrátorainak döntésétől függ. Lehetősége van rá, hogy megválassza, milyen információk jelenjenek meg önről nyilvánosan a profiljában. Ezen felül ki-, illetve bekapcsolhatja az ön számára küldött automatikus leveleket.
-	<br />
+	<br><br>
 	A jelszavát biztonságosan, egyirányúan kódolva tároljuk. Javasoljuk, hogy teljesen egyedi jelszavat használjon! Ezen jelszóval férhet hozzá a fórumos azonosítójához, így kérjük, gondosan kezelje. Semmilyen körülmények közt ne adja ki harmadik személynek, még ha az az oldal üzemeltetője is, vagy ha a phpBB-vel kapcsolatban kérik! Amennyiben elfelejti a jelszavát, használja az „Elfelejtettem a jelszavam” funkciót. A rendszer kérni fogja a felhasználónevét és az e-mail címét, majd generálni fog egy új jelszót, így újra használhatja az azonosítóját.
 	',
 ));
@@ -337,12 +337,16 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE'									=> 'Értesítés típusa',
 	'NOTIFICATION_TYPE_BOOKMARK'						=> 'Valaki válaszol egy témában, amit kedvencnek jelölt', //?
 	'NOTIFICATION_TYPE_GROUP_REQUEST'					=> 'Valaki csatlakozni szeretne egy csoporthoz, ahol vezető', //?
+	'NOTIFICATION_TYPE_FORUM'							=> 'Valaki válaszol egy fórumban, amire feliratkozott',
 	'NOTIFICATION_TYPE_IN_MODERATION_QUEUE'				=> 'Egy hozzászólás vagy téma elfogadásra vár', //?
 	'NOTIFICATION_TYPE_MODERATION_QUEUE'				=> 'A témáját/hozzászólását elfogadta egy moderátor', //?
 	'NOTIFICATION_TYPE_PM'								=> 'Valaki privát üzenetet küld Önnek', //?
 	'NOTIFICATION_TYPE_POST'							=> 'Valaki válaszol egy témában, amire feliratkozott', //?
 	'NOTIFICATION_TYPE_QUOTE'							=> 'Valaki idézi egy hozzászólásban', //?
 	'NOTIFICATION_TYPE_REPORT'							=> 'Valaki jelent egy hozzászólást', //?
+	'NOTIFICATION_TYPE_REPORT_CLOSED'					=> 'Egy moderátor lezárja a hozzászólás jelentését', //? Your report on a post is closed by a moderator
+	'NOTIFICATION_TYPE_REPORT_PM'						=> 'Valaki jelent egy privát üzenetet',
+	'NOTIFICATION_TYPE_REPORT_PM_CLOSED'				=> 'Egy moderátor lezárja a privát üzenet jelentését', //? Your report on a private message is closed by a moderator
 	'NOTIFICATION_TYPE_TOPIC'							=> 'Valaki létrehoz egy témát egy fórumban, amire feliratkozott', //?
 	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Felhasználó aktiválásra vár', //?
 
