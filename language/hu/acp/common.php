@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2020 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2021 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -374,9 +374,11 @@ $lang = array_merge($lang, array(
 	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'A transzparens karakterkódolás nincs megfelelően konfigurálva',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> 'A <var>mbstring.encoding_translation</var> értékének 0-nak kell lennie. Az aktuális értékét a <samp>PHP információ</samp> oldalon tudod ellenőrizni.',
 	'ERROR_MBSTRING_HTTP_INPUT'						=> 'A HTTP bemeneti karakter konverzió nincs megfelelően konfigurálva',
-	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> 'A <var>mbstring.http_input</var> értékének <samp>pass</samp>-nak kell lennie. Az aktuális értékét a <samp>PHP információ</samp> oldalon tudod ellenőrizni.',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> 'A <var>mbstring.http_input</var> értékének üresnek kell lennie. Az aktuális értékét a <samp>PHP információ</samp> oldalon tudod ellenőrizni.',
 	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'A HTTP kimeneti karakter konverzió nincs megfelelően konfigurálva',
-	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> 'A <var>mbstring.http_output</var> értékének <samp>pass</samp>-nak kell lennie. Az aktuális értékét a <samp>PHP információ</samp> oldalon tudod ellenőrizni.',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> 'A <var>mbstring.http_output</var> értékének üresnek kell lennie. Az aktuális értékét a <samp>PHP információ</samp> oldalon tudod ellenőrizni.',
+	'ERROR_DEFAULT_CHARSET'							=> 'Az alapértelmezett karakterkódolás nincs megfelelően konfigurálva',
+	'ERROR_DEFAULT_CHARSET_EXPLAIN'					=> 'A <var>default_charset</var> értékének <samp>UTF-8</samp>-nak kell lennie. Az aktuális értékét a <samp>PHP információ</samp> oldalon tudod ellenőrizni.',
 
 	'FILES_PER_DAY'		=> 'Csatolmányok száma naponta',
 	'FORUM_STATS'		=> 'Fórum statisztika',

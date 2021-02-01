@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2020 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2021 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -24,7 +24,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	// Find the language/country code on https://developers.google.com/recaptcha/docs/language
 	// If no code exists for your language you can use "en" or leave the string empty
 	'RECAPTCHA_LANG'				=> 'hu', // en-GB
@@ -75,5 +75,6 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_V3_THRESHOLD_REGISTER'			=> 'Regisztrálási határérték', // Register threshold
 	'RECAPTCHA_V3_THRESHOLD_REPORT'				=> 'Jelentési határérték', // Report threshold
 	'RECAPTCHA_V3_THRESHOLDS'					=> 'Határértékek',
-	'RECAPTCHA_V3_THRESHOLDS_EXPLAIN'			=> 'A reCAPTCHA v3 egy pontszámot ad vissza az ellenőrzés eredményeként (<samp>1.0</samp> nagy valószínűséggel egy megfelelő interakció, míg <samp>0.0</samp> nagy valószínűséggel egy bot). Itt tudod megadni az egyes műveletek elvégzéséhez szükséges minimum pontszámot.', // reCAPTCHA v3 returns a score (<samp>1.0</samp> is very likely a good interaction, <samp>0.0</samp> is very likely a bot). Here you can set the minimum score per action.	
-));
+	'RECAPTCHA_V3_THRESHOLDS_EXPLAIN'			=> 'A reCAPTCHA v3 egy pontszámot ad vissza az ellenőrzés eredményeként (<samp>1.0</samp> nagy valószínűséggel egy megfelelő interakció, míg <samp>0.0</samp> nagy valószínűséggel egy bot). Itt tudod megadni az egyes műveletek elvégzéséhez szükséges minimum pontszámot.', // reCAPTCHA v3 returns a score (<samp>1.0</samp> is very likely a good interaction, <samp>0.0</samp> is very likely a bot). Here you can set the minimum score per action.
+	'EMPTY_RECAPTCHA_V3_REQUEST_METHOD'			=> 'A reCAPTCHA v3-nak tudnia kell, hogy melyik elérhető módon szeretnéd ellenőrizni a kérést.', //? reCAPTCHA v3 requires to know which available method you want to use when verifying the request.
+]);
