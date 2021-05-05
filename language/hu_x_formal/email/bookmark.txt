@@ -1,9 +1,10 @@
-Subject: Témafigyelés értesítés - "{TOPIC_TITLE}"
+Subject: "{TOPIC_TITLE}" témába válasz érkezett
 
 Kedves {USERNAME}!
 
-Ön ezt az e-mailt azért kapja, mert a "{SITENAME}" oldalon a "{TOPIC_TITLE}" témát kedvencnek jelölte. A témába a legutóbbi látogatása óta új hozzászólás érkezett. A következő linkre kattintva eljuthat a legutóbbi olvasatlan válaszhoz, mindazonáltal újabb értesítést nem fog kapni, míg meg nem látogatja a témát.
+A kedvencnek jelölt "{TOPIC_TITLE}" témába az utolsó látogatása óta új válasz érkezett a "{SITENAME}" oldalon. Újabb értesítést nem fog kapni, míg meg nem látogatja a témát.
 
+A következő linkre kattintva eljuthat a legutóbbi olvasatlan válaszhoz:
 {U_NEWEST_POST}
 
 A téma megtekintéséhez kattintson a következő linkre:
@@ -13,7 +14,6 @@ A fórum megtekintéséhez kattintson a következő linkre:
 {U_FORUM}
 
 Amennyiben a továbbiakban nem kíván értesítést kapni a kedvencnek jelölt témákba érkezett hozzászólásokról, frissítse az értesítési beállításokat a következő linken:
-
 {U_NOTIFICATION_SETTINGS}
 
 {EMAIL_SIG}

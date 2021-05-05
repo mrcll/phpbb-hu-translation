@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2020 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2021 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -94,6 +94,7 @@ $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_ENTRY'				=> 'Érvénytelen adatbázis bejegyzés.',
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_SERVICE_TYPE'		=> 'Érvénytelen OAuth szolgáltatás típus.',
 	'AUTH_PROVIDER_OAUTH_ERROR_REQUEST'						=> 'Hiba történt az OAuth kérés feldolgozása közben.',
+	'AUTH_PROVIDER_OAUTH_RETURN_ERROR'						=> 'A külső szolgáltatás hibás értéket adott vissza, emiatt a kérésedet nem sikerült feldolgozni.', //? The external service returned a wrong value therefore your request can not be processed.
 	'AUTH_PROVIDER_OAUTH_ERROR_SERVICE_NOT_CREATED'			=> 'OAuth szolgáltatás nem lett létrehozva',
 	'AUTH_PROVIDER_OAUTH_SERVICE_BITLY'						=> 'Bitly',
 	'AUTH_PROVIDER_OAUTH_SERVICE_FACEBOOK'					=> 'Facebook',

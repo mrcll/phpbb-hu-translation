@@ -1,8 +1,8 @@
-Subject: Hozzászólás moderációs értesítés - "{TOPIC_TITLE}"
+Subject: Hozzászólás jóváhagyásra vár - "{TOPIC_TITLE}"
 
 Kedves {USERNAME}!
 
-Ezt az e-mailt azért kapod, mert a "{SITENAME}" oldalon a "{POST_SUBJECT}" hozzászólás jóváhagyásra vár.
+A "{SITENAME}" oldalon a "{POST_SUBJECT}" hozzászólás jóváhagyásra vár.
 
 Amennyiben meg szeretnéd tekinteni a hozzászólást, kattints a következő linkre:
 {U_VIEW_POST}

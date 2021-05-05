@@ -51,6 +51,7 @@ $lang = array_merge($lang, [
 	'RECAPTCHA_NOSCRIPT'			=> 'A feladat betöltéséhez kérjük, engedélyezd böngésződben a JavaScript futtatását.',
 	'RECAPTCHA_NOT_AVAILABLE'		=> 'A reCaptcha használatához létre kell hoznod egy azonosítót a <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> oldalon.',
 	'RECAPTCHA_INVISIBLE'			=> 'Ez a CAPTCHA nem látható. Ahhoz, hogy ellenőrizni tudd a működését, egy kis ikon jelenik meg az oldal jobb alsó sarkában.',
+	'RECAPTCHA_V3_LOGIN_ERROR_ATTEMPTS'	=> 'Elérted az engedélyezett bejelentkezési kísérletek számát.<br>A felhasználóneveden és jelszavadon túl a nem látható reCAPTCHA v3 is felhasználásra kerül a munkameneted azonosításához.', //? You have exceeded the maximum number of login attempts allowed.<br>In addition to your username and password the invisible reCAPTCHA v3 will be used to authenticate your session.
 
 	'RECAPTCHA_PUBLIC'				=> 'Oldal kulcsa',
 	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Az oldalad reCAPTCHA kulcsa. Kulcs a <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> oldalon kérhető. Kérjük, a reCAPTCHA v2 &gt; Invisible reCAPTCHA badge típust használd.',

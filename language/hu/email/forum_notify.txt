@@ -1,10 +1,9 @@
-Subject: Fórumfigyelés értesítés - "{FORUM_NAME}"
+Subject: "{FORUM_NAME}" fórumba válasz érkezett
 List-Unsubscribe: <{U_STOP_WATCHING_FORUM}>
 
 Kedves {USERNAME}!
 
-Ezt az e-mailt azért kapod, mert a "{SITENAME}" oldalon, a "{FORUM_NAME}" fórum figyelését kérted. Ebbe a fórumba, legutóbbi látogatásod óta, új hozzászólás érkezett a "{TOPIC_TITLE}" témába<!-- IF AUTHOR_NAME != '' -->, melynek szerzője "{AUTHOR_NAME}"<!-- ENDIF -->. A következő linkre kattintva eljuthatsz a legutóbbi olvasatlan válaszhoz, mindazonáltal újabb értesítést nem fogsz kapni, míg meg nem látogatod a fórumot.
-
+A "{SITENAME}" oldalon a "{FORUM_NAME}" fórum "{TOPIC_TITLE}" témájába a legutóbbi látogatásod óta új hozzászólás érkezett<!-- IF AUTHOR_NAME != '' -->, melynek szerzője "{AUTHOR_NAME}"<!-- ENDIF -->. Több értesítést nem fogsz kapni, amíg meg nem tekinted a témát.
 {U_NEWEST_POST}
 
 A téma megtekintéséhez kattints a következő linkre:
@@ -13,8 +12,7 @@ A téma megtekintéséhez kattints a következő linkre:
 A fórum megtekintéséhez kattints a következő linkre:
 {U_FORUM}
 
-Amennyiben a továbbiakban nem kívánod figyelni a fórumot, kattints a "Leiratkozás a fórumról" linkre, melyet a fenti oldalon találsz, vagy egyszerűen kattints a következő linkre:
-
+Amennyiben a továbbiakban nem kívánod figyelni a fórumot, kattints a következő linkre:
 {U_STOP_WATCHING_FORUM}
 
 {EMAIL_SIG}
