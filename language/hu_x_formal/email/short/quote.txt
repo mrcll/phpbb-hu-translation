@@ -1,20 +1,13 @@
-Subject: Hozzászólás idézési értesítés - "{TOPIC_TITLE}"
+Subject: "{TOPIC_TITLE}" témában idézték a hozzászólását
 
 Kedves {USERNAME}!
 
-Ezt az e-mailt azért kapja, mert a "{SITENAME}" oldalon a "{TOPIC_TITLE}" témában "{AUTHOR_NAME}" idézte Önt. A következő linkre kattintva eljuthat a hozzászólásához.
+A "{SITENAME}" oldalon a "{TOPIC_TITLE}" témában "{AUTHOR_NAME}" idézte Önt.
 
 Amennyiben meg szeretné tekinteni a hozzászólást, kattintson a következő linkre:
 {U_VIEW_POST}
 
-Amennyiben meg szeretné tekinteni a témát, kattintson a következő linkre:
-{U_TOPIC}
-
-Amennyiben meg szeretné tekinteni a fórumot, kattintson a következő linkre:
-{U_FORUM}
-
 Amennyiben a továbbiakban nem kíván értesítést kapni arról, ha egy hozzászólásban idézik, frissítse az értesítési beállításokat a következő linken:
-
 {U_NOTIFICATION_SETTINGS}
 
 {EMAIL_SIG}

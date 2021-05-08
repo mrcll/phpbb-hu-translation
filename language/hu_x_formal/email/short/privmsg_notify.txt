@@ -1,8 +1,8 @@
-Subject: Új privát üzenete érkezett
+Subject: Új privát üzenet
 
 Kedves {USERNAME}!
 
-Ön a "{SITENAME}" oldalon új privát üzenetet kapott, melynek feladója "{AUTHOR_NAME}". Az üzenet témája:
+A "{SITENAME}" oldalon új privát üzenet érkezett, melynek feladója "{AUTHOR_NAME}". Az üzenet témája:
 {SUBJECT}
 
 A következő linkre kattintva tekintheti meg az érkezett üzenetet:

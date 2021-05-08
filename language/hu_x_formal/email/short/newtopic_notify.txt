@@ -1,13 +1,11 @@
-Subject: Fórumfigyelés értesítés - "{FORUM_NAME}"
+Subject: "{FORUM_NAME}" fórumba új téma érkezett
 
 Kedves {USERNAME}!
 
-Ezt az e-mailt ön azért kapja, mert a "{SITENAME}" oldalon a "{FORUM_NAME}" fórum figyelését kérte. Ebbe a fórumba, legutóbbi látogatása óta új témát nyitottak, melynek címe: "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME != '' -->, szerzője: "{AUTHOR_NAME}"<!-- ENDIF -->. A következő linkre kattintva eljuthat a fórumhoz, mindazonáltal újabb értesítést nem fog kapni, míg meg nem látogatja a fórumot.
-
+A "{SITENAME}" oldalon a "{FORUM_NAME}" fórumba a legutóbbi látogatása óta új téma érkezett "{TOPIC_TITLE}" címmel<!-- IF AUTHOR_NAME != '' -->, melynek szerzője "{AUTHOR_NAME}"<!-- ENDIF -->. Több értesítést nem fog kapni, amíg meg nem tekinti a fórumot.
 {U_FORUM}
 
-Amennyiben a továbbiakban nem kívánja figyelni a fórumot, kattintson a "Leiratkozás a fórumról" linkre, melyet a fenti oldalon talál, vagy egyszerűen kattintson a következő linkre:
-
+Amennyiben a továbbiakban nem kívánja figyelni a fórumot, kattintson a következő linkre:
 {U_STOP_WATCHING_FORUM}
 
 {EMAIL_SIG}
