@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2020 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2021 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -73,7 +73,6 @@ $lang = array_merge($lang, array(
 	'START_RESTORE'			=> 'Visszaállítás elkezdése',
 	'STORE_AND_DOWNLOAD'	=> 'Eltárolás és letöltés',
 	'STORE_LOCAL'			=> 'Állomány eltárolása helyben',
-	'STRUCTURE_ONLY'		=> 'Csak szerkezet',
 
 	'TABLE_SELECT'		=> 'Táblák kiválasztása',
 	'TABLE_SELECT_ERROR'=> 'Legalább egy táblát ki kell választanod.',
