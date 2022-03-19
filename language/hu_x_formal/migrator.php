@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2020 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2022 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -81,5 +81,6 @@ $lang = array_merge($lang, array(
 	'PARENT_MODULE_FIND_ERROR'			=> 'Nem sikerült meghatározni a szülő modul azonosítóját: %s. [Unable to determine the parent module identifier]',
 	'PERMISSION_NOT_EXIST'				=> 'A "%s" jogosultság beállítás nem létezik.',
 
+	'ROLE_ASSIGNED_NOT_EXIST'			=> 'A "%1$s" csoporthoz rendelt jogosultság szerep nem létezik. Jogosultság szerep azonosítója: "%2$s"',
 	'ROLE_NOT_EXIST'					=> 'A "%s" jogosultság szerep nem létezik.',
 ));

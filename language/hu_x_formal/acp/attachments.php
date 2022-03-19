@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2020 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2022 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -173,4 +173,5 @@ $lang = array_merge($lang, array(
 	'UPLOAD_DIR_EXPLAIN'			=> 'A csatolmányok tárolási helye. Kérjük, vedd figyelembe, hogy ha megváltoztatod ezt a könyvtárat, miközben már vannak feltöltött csatolmányok, ezeket az állományokat kézzel kell átmásolnod az új helyre.',
 	'UPLOAD_ICON'					=> 'Feltöltési ikon',
 	'UPLOAD_NOT_DIR'				=> 'A megadott feltöltési hely úgy tűnik, nem könyvtár.',
+	'UPLOAD_POST_NOT_EXIST'			=> '“%1$s” állomány nem tölthető fel a %2$d azonosítójú hozzászóláshoz, mert az nem létezik.',
 ));

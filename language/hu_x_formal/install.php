@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2020 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2022 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -349,7 +349,7 @@ $lang = array_merge($lang, array(
 // Common updater messages
 $lang = array_merge($lang, array(
 	'UPDATE_INSTALLATION'			=> 'phpBB frissítése',
-	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Itt frissítheted a phpBB-d a legújabb verzióra.<br />A frissítés folyamata során minden állomány ellenőrzésre kerül. A tényleges frissítés előtt minden különbséget átnézhetsz.<br /><br />Maga az állományok frissítése két módon végezhető el.</p><h2>Kézi frissítés</h2><p>Ezen frissítési mód használatakor csak a saját megváltozott állományaidat töltöd le, így meggyőződhetsz róla, hogy nem vesztesz el semmilyen módosítást, amit csinálhattál. Miután letöltötted ezt a csomagot, a benne lévő állományokat fel kell töltened a phpBB-d gyökérkönyvtárába, a megfelelő helyükre. Ezután mégegyszer összevetheted az állományokat, hogy leellenőrizd, a megfelelő helyre töltötted fel őket.</p><h2>Automatikus frissítés FTP-vel</h2><p>Ez a frissítési mód hasonló az előbbihez, azonban ennél nem kell saját magadnak letöltened, majd feltöltened a megváltozott állományokat – ezt megteszi a phpBB. Ezen mód használatához ismerned kell az FTP-belépéshez szükséges dolgokat, mivel egy űrlapon meg kell adnod ezeket. Miután ezt befejezted, át leszel irányítva az állományok összevetéséhez, hogy meggyőződhess, minden sikeresen frissítésre került.<br /><br />',
+	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Itt frissítheted a phpBB-d a legújabb verzióra.<br />A frissítés folyamata során minden állomány ellenőrzésre kerül. A tényleges frissítés előtt minden különbséget átnézhetsz.<br /><br />Maga az állományok frissítése két módon végezhető el.</p><h2>Kézi frissítés</h2><p>Ezen frissítési mód használatakor csak a saját megváltozott állományaidat töltöd le, így meggyőződhetsz róla, hogy nem vesztesz el semmilyen módosítást, amit csinálhattál. Miután letöltötted ezt a csomagot, a benne lévő állományokat fel kell töltened a phpBB-d gyökérkönyvtárába, a megfelelő helyükre. Ezután mégegyszer összevetheted az állományokat, hogy leellenőrizd, a megfelelő helyre töltötted fel őket.</p><h2>Haladó frissítés FTP-vel</h2><p>Ez a frissítési mód hasonló az előbbihez, azonban ennél nem kell saját magadnak letöltened, majd feltöltened a megváltozott állományokat – ezt megteszi a phpBB. Ezen mód használatához ismerned kell az FTP-belépéshez szükséges dolgokat, mivel egy űrlapon meg kell adnod ezeket. Miután ezt befejezted, át leszel irányítva az állományok összevetéséhez, hogy meggyőződhess, minden sikeresen frissítésre került.<br /><br />', //? Advanced Update with FTP
 	'UPDATE_INSTRUCTIONS'			=> '
 
 		<h1>Verziómegjelenési közlemény</h1>
@@ -360,7 +360,7 @@ $lang = array_merge($lang, array(
 		
 		<h1>Frissítés módja a telepítő csomag használatával</h1>
 
-		<p>A javasolt frissítési mód a teljes telepítő csomag használata. Azonban, ha a phpBB alap fájljai is módosításra kerültek, úgy a módosítások megtartása érdekében az automatikus frissítő csomag használata javasolt. A telepített phpBB az INSTALL.html-ben felsorolt egyéb módszerekkel is frissíthető. A phpBB3 telepítő csomaggal történő frissítése a következő lépésekből áll:</p>
+		<p>A javasolt frissítési mód a teljes telepítő csomag használata. Azonban, ha a phpBB alap fájljai is módosításra kerültek, úgy a módosítások megtartása érdekében a phpBB üzemeltetésében jártas felhasználóknak a haladó frissítő csomag használata is javasolt. A telepített phpBB az INSTALL.html-ben felsorolt egyéb módszerekkel is frissíthető. A phpBB3 telepítő csomaggal történő frissítése a következő lépésekből áll:</p>
 
 		<ol style="margin-left: 20px; font-size: 1.1em;">
 			<li><strong class="error">Készíts biztonsági mentést a fórum fájljairól és adatbázisáról.</strong></li>
@@ -382,12 +382,12 @@ $lang = array_merge($lang, array(
 			<li>Használatban lévő megjelenések frissítése<br /><br /></li>
 		</ul>
 
-		<h1>Frissítés módja az automatikus frissítő csomag használatával</h1>
+		<h1>Frissítés módja a haladó frissítő csomag használatával</h1>
 
-		<p>Az itt részletezett javasolt frissítési mód az automatikus frissítő csomag használatát feltételezi. Ez csak abban az esetben javasolt, ha a phpBB alap fájljai is szerkesztésre kerültek. A phpBB-det az INSTALL.html-ben leírt módokon is frissítheted. A phpBB3 automatikusan történő frissítése a következő lépésekből áll:</p>
+		<p>Az itt részletezett javasolt frissítési mód a haladó frissítő csomag használatát feltételezi. Ez csak abban az esetben javasolt, ha a phpBB alap fájljai is szerkesztésre kerültek. A phpBB-det az INSTALL.html-ben leírt módokon is frissítheted. A phpBB3 automatikusan történő frissítése a következő lépésekből áll:</p>
 
 		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li>Menj a <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com letöltések oldalára</a>, és töltsd le a megfelelő automatikus frissítő csomagot.<br /><br /></li>
+			<li>Menj a <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com letöltések oldalára</a>, és töltsd le a megfelelő haladó frissítő csomagot.<br /><br /></li>
 			<li>Csomagold ki a csomagot.<br /><br /></li>
 			<li>A kicsomagolt csomag install és vendor könyvtárait töltsd fel a phpBB-d gyökérkönyvtárába (ahol a config.php található).<br /><br /></li>
 		</ul>
@@ -397,7 +397,7 @@ $lang = array_merge($lang, array(
 		<br />
 		Ez után a rendszer végigvezet a frissítés folyamatán. A frissítés végeztével meg fog jelenni egy értesítő üzenet.
 		</p>
-	',
+	', //? Advanced Update
 ));
 
 // Updater forms
