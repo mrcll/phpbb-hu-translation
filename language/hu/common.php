@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2021 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2022 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -432,6 +432,7 @@ $lang = array_merge($lang, array(
 	'MESSAGE'				=> 'Üzenet',
 	'MESSAGES'				=> 'üzenet',
 	'MESSAGES_COUNT'		=> array(
+		0	=> 'korlátlan számú üzenet',
 		1	=> '%d üzenet',
 		2	=> '%d üzenet',
 	),
@@ -601,7 +602,7 @@ $lang = array_merge($lang, array(
 	'POSTS_UNAPPROVED'		=> 'Jóvá nem hagyott hozzászólás(ok)',
 	'POST_BY_AUTHOR'		=> 'Szerző:',
 	'POST_BY_FOE'			=> 'Ezt a hozzászólást <strong>%1$s</strong> küldte, aki jelenleg a tiltólistádon van.',
-	'POST_DISPLAY'			=> '%1$sHozzászólás megjelenítése%2$s.',
+	'POST_DISPLAY'			=> 'Hozzászólás megjelenítése',
 	'POST_DAY'				=> 'Naponta %.2f hozzászólás',
 	'POST_DELETED_ACTION'	=> 'Törölt hozzászólás:',
 	'POST_DELETED'			=> 'A hozzászólás törlésre került.', // ? Ez a hozzászólás?
