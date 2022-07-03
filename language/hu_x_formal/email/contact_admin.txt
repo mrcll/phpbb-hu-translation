@@ -1,7 +1,7 @@
 
 Kedves {TO_USERNAME}!
 
-Azt az e-mailt a "{SITENAME}" fórum kapcsolat oldalán keresztül küldték Önnek.
+Ez az e-mail a "{SITENAME}" fórum kapcsolat oldalán keresztül érkezett Önnek.
 
 <!-- IF S_IS_REGISTERED -->
 Az üzenetet a fórum egyik felhasználója küldte.
