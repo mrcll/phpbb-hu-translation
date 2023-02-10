@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2022 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2023 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -677,6 +677,10 @@ $lang = array_merge($lang, array(
 	'RETURN_TOPIC'				=> '%sVissza a legutóbb látogatott témához%s',
 	'RETURN_TO'					=> 'Vissza: “%s”',
 	'RETURN_TO_INDEX'			=> 'Vissza a fórum kezdőlapra', //b31
+
+	'ROUTE_NOT_FOUND'				=> 'A kért “%s” elérési út nem található.', //?
+	'ROUTE_INVALID_MISSING_PARAMS'	=> 'Érvénytelen vagy hiányzó paraméterek kerültek megadásra a(z) “%s” elérési úthoz.', //?
+
 	'FEED'						=> 'Csatorna',
 	'FEED_NEWS'					=> 'Hírek',
 	'FEED_TOPICS_ACTIVE'		=> 'Aktív témák',

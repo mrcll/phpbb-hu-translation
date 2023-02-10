@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2021 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2023 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -744,6 +744,10 @@ $lang = array_merge($lang, array(
 	'LOG_SEARCH_INDEX_CREATED'	=> '<strong>Keresőindex létrehozása</strong><br />» %s',
 	'LOG_SEARCH_INDEX_REMOVED'	=> '<strong>Keresőindex törlése</strong><br />» %s',
 	'LOG_SPHINX_ERROR'			=> '<strong>Sphinx hiba</strong><br />» %s',
+
+	'LOG_SPAMHAUS_OPEN_RESOLVER'		=> 'Spamhaus nem engedélyezi az open resolver használatával történő lekérdezéseket. A feketelista ellenőrzés kikapcsolásra került. További információért látogasd meg a https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/ oldalt.', //?
+	'LOG_SPAMHAUS_VOLUME_LIMIT'			=> 'Spamhaus lekérdezési limitje elérésre került. A feketelista ellenőrzés kikapcsolásra került. További információért látogasd meg a https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/ oldalt.', //?
+
 	'LOG_STYLE_ADD'				=> '<strong>Új megjelenés felvétele</strong><br />» %s',
 	'LOG_STYLE_DELETE'			=> '<strong>Megjelenés törlése</strong><br />» %s',
 	'LOG_STYLE_EDIT_DETAILS'	=> '<strong>Megjelenés szerkesztése</strong><br />» %s',

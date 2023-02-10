@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2020 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2023 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -398,7 +398,7 @@ $lang = array_merge($lang, array(
 	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'Itt be- vagy kikapcsolhatod a fórum bizonyos funkcióit a jobb teljesítmény érdekében. A legtöbb szerveren nincs szükség semmilyen funkció kikapcsolására. Azonban egyes rendszereken vagy másokkal megosztott tárhelyszolgáltatás esetében előnyös lehet kikapcsolni néhány igazából nem használt lehetőséget. Emellett korlátokat is meghatározhatsz a rendszer terhelésére vagy az aktív munkamenetek számára, melyek fölött a fórum automatikusan szünetelni fog.',
 
 	'ALLOW_CDN'						=> 'Külső CDN használata',
-	'ALLOW_CDN_EXPLAIN'				=> 'Ha ez a beállítás engedélyezve van, akkor bizonyos fájlok harmadik fél által üzemeltetett Content Delivery Network-ről kerülnek kiszolgálásra a szervered helyett. Ez csökkenti a szerver által igényelt sávszélességet, azonban adatvédelmi aggályokat vethet fel. Az alap phpBB telepítésben a “jQuery” függvénykönyvtár és az “Open Sans” betűtípus kerül kiszolgálásra a Google Content Delivery Network-ről.',	//?
+	'ALLOW_CDN_EXPLAIN'				=> 'Ha ez a beállítás engedélyezve van, akkor bizonyos fájlok harmadik fél által üzemeltetett Content Delivery Network-ről kerülnek kiszolgálásra a szervered helyett. Ez csökkenti a szerver által használt sávszélességet, azonban adatvédelmi aggályokat vethet fel. Az alap phpBB telepítésben a “jQuery” függvénykönyvtár és az “Open Sans” betűtípus kerül kiszolgálásra a Google Content Delivery Network-ről. Ugyanez érvényes a “Font Awesome” betűtípusra is, amit a phpBB és egyes kiterjesztései használnak ikonok megjelenítésére.', //?
 	'ALLOW_LIVE_SEARCHES'			=> 'Azonnali keresési találatok engedélyezése',
 	'ALLOW_LIVE_SEARCHES_EXPLAIN'	=> 'Ha ez a beállítás engedélyezve van, akkor a felhasználó a fórum bizonyos mezőiben gépelés közben keresési találatokat kap.', //?
 	'CUSTOM_PROFILE_FIELDS'			=> 'Egyedi profil mezők',
