@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2020 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2023 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -55,7 +55,7 @@ $lang = array_merge($lang, array(
 	'DEFAULT_SEARCH_RETURN_CHARS'			=> 'Visszaadott karakterek száma', //? Default number of returned characters
 	'DEFAULT_SEARCH_RETURN_CHARS_EXPLAIN'	=> 'Az alapértelmezett karakterszám, amit a keresés visszaad. 0 érték esetén a teljes hozzászólást visszaadja.', //? The default number of characters that will be returned while searching. A value of 0 will return the entire post.
 	'DELETE_INDEX'							=> 'Index törlése',
-	'DELETING_INDEX_IN_PROGRESS'			=> 'Index törlése folyamatban',
+	'DELETING_INDEX_IN_PROGRESS'			=> 'Index törlése folyamatban…',
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'A keresőmodul jelenleg megtisztítja az indexét. Ez eltarthat néhány percig.',
 
 	'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE'	=> 'A MySQL fulltext modul csak MySQL4-gyel vagy újabbal használható.',
@@ -95,7 +95,7 @@ $lang = array_merge($lang, array(
 	'GO_TO_SEARCH_INDEX'					=> 'Tovább a keresőindex oldalra',
 
 	'INDEX_STATS'							=> 'Index statisztikák',
-	'INDEXING_IN_PROGRESS'					=> 'Indexelés folyamatban',
+	'INDEXING_IN_PROGRESS'					=> 'Indexelés folyamatban…',
 	'INDEXING_IN_PROGRESS_EXPLAIN'			=> 'A keresőmodul éppen indexeli a fórum összes hozzászólását. Ez a fórum nagyságától függően néhány percig, de akár néhány óráig is eltarthat.',
 
 	'LIMIT_SEARCH_LOAD'						=> 'Kereső oldal rendszerterhelés korlát',
@@ -115,18 +115,19 @@ $lang = array_merge($lang, array(
 	'SEARCH_GUEST_INTERVAL'					=> 'Vendég keresési flood időköz',
 	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'A vendégeknek két keresés között ennyi másodpercet kell várniuk. Ha egy felhasználó végez egy keresést, az összes többinek várnia kell az időköz leteltéig.',
 	'SEARCH_INDEX_CREATE_REDIRECT'			=> array(
-		2	=> 'A %2$d azonosítóig terjedő hozzászólások lettek eddig indexelve, ebből %1$d ebben a lépésben.<br />',
+		2	=> 'A %2$d azonosítóig terjedő hozzászólások lettek eddig indexelve, ebből %1$d ebben a lépésben.',
 	),
 	'SEARCH_INDEX_CREATE_REDIRECT_RATE'		=> array(
-		2	=> 'Az indexelés aktuális sebessége körülbelül %1$.1f hozzászólás másodpercenként.<br />Indexelés folyamatban…',
+		2	=> 'Az indexelés aktuális sebessége körülbelül %1$.1f hozzászólás másodpercenként.',
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
-		2	=> 'A %2$d azonosítóig terjedő hozzászólások el lettek távolítva a keresőindexből, ebből %1$d ebben a lépésben.<br />',
+		2	=> 'A %2$d azonosítóig terjedő hozzászólások el lettek távolítva a keresőindexből, ebből %1$d ebben a lépésben.',
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT_RATE'		=> array(
-		2	=> 'A törlés aktuális sebessége körülbelül %1$.1f hozzászólás másodpercenként.<br />Törlés folyamatban…',
+		2	=> 'A törlés aktuális sebessége körülbelül %1$.1f hozzászólás másodpercenként.',
 	),
 	'SEARCH_INDEX_CREATED'					=> 'A fórum adatbázisában lévő összes hozzászólás sikeresen indexelésre került.',
+	'SEARCH_INDEX_PROGRESS'					=> 'Elkészült: %1$d | Függőben: %2$d | Összesen: %3$d',
 	'SEARCH_INDEX_REMOVED'					=> 'A modul keresőindexe sikeresen törlésre került.',
 	'SEARCH_INTERVAL'						=> 'Felhasználói keresési időköz',
 	'SEARCH_INTERVAL_EXPLAIN'				=> 'A felhasználóknak két keresés között ennyi másodpercet kell várniuk. Ez az időköz az egyes  felhasználóknál külön-külön kerül ellenőrzésre.', //? 'Ez az időköz az egyes  felhasználókra külön-külön vonatkozik'

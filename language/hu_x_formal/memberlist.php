@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2020 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2023 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -153,5 +153,5 @@ $lang = array_merge($lang, array(
 	'VIEW_FACEBOOK_PROFILE'	=> 'Facebook profil megtekintése',
 	'VIEW_SKYPE_PROFILE'	=> 'Skype profil megtekintése', //? adatlap?
 	'VIEW_TWITTER_PROFILE'	=> 'Twitter profil megtekintése',
-	'VIEW_YOUTUBE_CHANNEL'	=> 'YouTube csatorna megtekintése',
+	'VIEW_YOUTUBE_PROFILE'	=> 'YouTube profil megtekintése',
 ));

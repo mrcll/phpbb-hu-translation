@@ -168,6 +168,11 @@ $lang = array_merge($lang, array(
 		1	=> '%d karakter',
 		2	=> '%d karakter',
 	),
+	// Special version to be used when describing ranges e.g. "min x characters and max y characters"
+	'CHARACTERS_XY'			=> array(
+		1	=> '%d karakter',
+		2	=> '%d karakter',
+	),
 	'COLLAPSE_VIEW'			=> 'Összecsukás', //? erre is kéne...
 	'CLOSE_WINDOW'			=> 'Ablak bezárása',
 	'CODE'					=> 'Kód',

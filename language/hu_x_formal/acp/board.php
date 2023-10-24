@@ -47,7 +47,7 @@ $lang = array_merge($lang, array(
 	'BOARD_STYLE'					=> 'Fórum megjelenés',
 	'CUSTOM_DATEFORMAT'				=> 'Egyéni…',
 	'DEFAULT_DATE_FORMAT'			=> 'Dátum formátum',
-	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'A formátum megegyezik a PHP <code><a href="https://secure.php.net/manual/function.date.php">date()</a></code> függvényével.',
+	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'A formátum megegyezik a PHP <a href="https://www.php.net/manual/datetime.format.php">date() függvényével</a>.',
 	'DEFAULT_LANGUAGE'				=> 'Alapértelmezett nyelv',
 	'DEFAULT_STYLE'					=> 'Alapértelmezett megjelenés',
 	'DEFAULT_STYLE_EXPLAIN'			=> 'Az új felhasználók megjelenése.',

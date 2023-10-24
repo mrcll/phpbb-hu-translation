@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2020 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2023 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -117,7 +117,7 @@ $lang = array_merge($lang, array(
 	'BIRTHDAY'					=> 'Születésnap',
 	'BIRTHDAY_EXPLAIN'			=> 'Ha megadja a születési évét, a születésnapjakor látszani fog a kora is.',
 	'BOARD_DATE_FORMAT'			=> 'Dátum formátum',
-	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'A formátum megegyezik a PHP <a href="https://secure.php.net/manual/function.date.php">date()</a> függvényéjével.', //? fogalmazás
+	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'A formátum megegyezik a PHP <a href="https://www.php.net/manual/datetime.format.php">date() függvényével</a>.',
 	'BOARD_LANGUAGE'			=> 'Nyelv',
 	'BOARD_STYLE'				=> 'Megjelenés',
 	'BOARD_TIMEZONE'			=> 'Időzóna',

@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2022 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2023 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 
 	// Introduction page
 	'INTRODUCTION_TITLE'	=> 'Bevezető',
-	'INTRODUCTION_BODY'		=> 'Üdvözlünk a phpBB3-ban!<br /><br />A phpBB® a legelterjedtebb nyílt forrású fórumrendszer a világon. A phpBB3 a 2000-ben kezdődött fejlesztés legfrissebb eleme, mely az elődeihez hasonlóan funkciógazdag, felhasználóbarát és teljes mértékben támogatott a phpBB Team által. A phpBB3 nagyot lép előre a phpBB2-t népszerűvé tevő területeken, számos általánosan kívánt funkciót tesz elérhetővé, melyek a korábbi verziókban nem voltak jelen. Reméljük, meghaladja várakozásaidat.<br /><br />Ez a telepítőrendszer végig fog vezetni a phpBB3 telepítésén, a phpBB3 legújabb verziójára való frissítésén, valamint más fórumrendszer phpBB3-ra való konvertálásán (beleértve a phpBB2-t). További információért, bátorítunk, hogy olvasd el az (angol nyelvű) <a href="../docs/INSTALL.html">telepítési útmutatót</a>.<br /><br />A phpBB3 licencének megtekintéséhez, a támogatás elérésének helyéhez, ill. a phpBB Team ehhez való hozzáállásának megismeréséhez, válaszd ki a megfelelő elemet az oldalsó menüből. A folytatáshoz, kérjük, válaszd ki fentebb a megfelelő fület.',
+	'INTRODUCTION_BODY'		=> 'Üdvözlünk a phpBB3-ban!<br /><br />A phpBB® a legelterjedtebb nyílt forrású fórumrendszer a világon. A phpBB3 a 2000-ben kezdődött fejlesztés legfrissebb eleme, mely az elődeihez hasonlóan funkciógazdag, felhasználóbarát és teljes mértékben támogatott a phpBB Team által. A phpBB3 nagyot lép előre a phpBB2-t népszerűvé tevő területeken, számos általánosan kívánt funkciót tesz elérhetővé, melyek a korábbi verziókban nem voltak jelen. Reméljük, meghaladja várakozásaidat.<br /><br />Ez a telepítőrendszer végig fog vezetni a phpBB3 telepítésén, a phpBB3 legújabb verziójára való frissítésén, valamint más fórumrendszer phpBB3-ra való konvertálásán (beleértve a phpBB2-t). További információért, bátorítunk, hogy olvasd el az (angol nyelvű) <a href="%1$s">telepítési útmutatót</a>.<br /><br />A phpBB3 licencének megtekintéséhez, a támogatás elérésének helyéhez, ill. a phpBB Team ehhez való hozzáállásának megismeréséhez, válaszd ki a megfelelő elemet az oldalsó menüből. A folytatáshoz, kérjük, válaszd ki fentebb a megfelelő fület.',
 
 	// Support page
 	'SUPPORT_TITLE'		=> 'Támogatás',
@@ -107,7 +107,7 @@ $lang = array_merge($lang, array(
 
 	// Server requirements
 	'PHP_VERSION_REQD'					=> 'PHP verzió',
-	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB telepítéséhez 7.1.3 vagy nagyobb PHP verzió szükséges.',
+	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB telepítéséhez 7.2.0 vagy nagyobb PHP verzió szükséges.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'getimagesize() PHP függvény',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> 'phpBB helyes működéséhez a getimagesize PHP függvény elérhetősége szükséges.',
 	'PCRE_UTF_SUPPORT'					=> 'PCRE UTF-8 támogatás',
@@ -511,10 +511,12 @@ $lang = array_merge($lang, array(
 	'CHECK_TABLE_PREFIX'		=> 'Kérjük, ellenőrizd az adatbázis-előtagot, és próbálkozz újra.',
 
 	// Conversion in progress
+	'CATEGORY'					=> 'Kategória',
 	'CONTINUE_CONVERT'			=> 'Konvertálás folytatása',
 	'CONTINUE_CONVERT_BODY'		=> 'A phpBB talált egy korábbi, nem befejezett konverziót. Választhatsz, hogy ezt folytatod, vagy egy újat kezdesz.',
 	'CONVERT_NEW_CONVERSION'	=> 'Új konvertálás',
 	'CONTINUE_OLD_CONVERSION'	=> 'Korábban megkezdett konverzió folytatása',
+	'POST_ID'					=> 'Hozzászólás azonosító',
 
 	// Start conversion
 	'SUB_INTRO'					=> 'Bevezető',
@@ -571,6 +573,10 @@ $lang = array_merge($lang, array(
 	'CONVERT_COMPLETE'			=> 'Konvertálás befejeződött',
 	'CONVERT_COMPLETE_EXPLAIN'	=> 'Sikeresen konvertáltad a fórumod phpBB 3.3-ra. Most bejelentkezhetsz és <a href="../">használhatod a fórumod</a>. Kérünk, ellenőrizd, hogy minden beállítás helyesen megtörtént, mielőtt aktiválnád a fórumod az install könyvtár törlésével. Ha segítségre lenne szükséged, olvasd el az online <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">dokumentációt</a> vagy tedd fel kérdésed a <a href="https://www.phpbb.com/community/viewforum.php?f=661">fórumban</a>.',
 
+	'COLLIDING_CLEAN_USERNAME'			=> '<strong>%s</strong> az egyszerűsített felhasználóneve:',
+	'COLLIDING_USER'					=> '» felhasználó azonosító: <strong>%d</strong> felhasználónév: <strong>%s</strong> (%d hozzászólás)',
+	'COLLIDING_USERNAMES_FOUND'			=> 'Ütköző felhasználóneveket találtunk a régi fórumon. A konvertálás befejezéséhez kérjük töröld vagy nevezd át ezeket a felhasználókat, hogy a régi fórumon minden egyszerűsített felhasználónévhez csak egy felhasználó tartozzon.',
+	'CONV_ERR_FATAL'					=> 'Végzetes konvertálási hiba',
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'A régi fórumon engedélyezve volt az FTP-n keresztüli csatolmányfeltöltés. Kérjük, kapcsold ki az FTP feltöltést, bizonyosodj meg róla, hogy helyes feltöltési könyvtár került megadásra, majd másold át az összes csatolmány állományt az új, webről is elérhető könyvtárba. Ha végeztél ezzel, indítsd újra a konvertálót.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'Nincs elérhető konfigurációs információ a konvertáláshoz.',
 	'CONV_ERROR_FORUM_ACCESS'			=> 'Nem sikerült lekérdezni a fórum hozzáférési jogosultságokat.',
