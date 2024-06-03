@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2023 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2024 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -505,7 +505,7 @@ $lang = array_merge($lang, array(
 	'SMILIES_PATH_EXPLAIN'		=> 'A phpBB-d gyökérkönyvtárától viszonyított elérési út, pl. <samp>images/smilies</samp>.',
 	'UPLOAD_ICONS_PATH'			=> 'Kiterjesztéscsoport ikonok elérési útja',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'A phpBB-d gyökérkönyvtárától viszonyított elérési út, pl. <samp>images/upload_icons</samp>.',
-	'USE_SYSTEM_CRON'		=> 'Ismétlődő feladtok futtatása a rendszer cron-ból',
+	'USE_SYSTEM_CRON'		=> 'Ismétlődő feladatok futtatása a rendszer cron-ból',
 	'USE_SYSTEM_CRON_EXPLAIN'		=> 'Ha ki van kapcsolva, a phpBB gondoskodik az ismétlődő feladatok rendszeres futtatásáról. Ha be van kapcsolva, a phpBB nem fog egy feladatot sem ütemezetten futtatni. Ekkor egy rendszer adminisztrátornak kell a <code>bin/phpbbcli.php cron:run</code> utasítást a rendszer feladatütemező eszközében rendszeres futtatásra beállítania (pl. minden 5 percben).',
 ));
 
@@ -514,10 +514,10 @@ $lang = array_merge($lang, array(
 	'ACP_SECURITY_SETTINGS_EXPLAIN'		=> 'Itt a munkamenetekkel és a belépéssel kapcsolatos beállításokat tudsz megadni.',
 
 	'ALL'							=> 'Teljes',
-	'ALLOW_AUTOLOGIN'				=> 'Tartós bejelentkezés bejelentkezés engedélyezése',
-	'ALLOW_AUTOLOGIN_EXPLAIN'		=> 'A felhasználók használhatják-e az automatikus bejelentkezést.', //?megjelenjen-e a "Tartós bejelentkezés" opció a fórum meglátogatásakor.'
-	'ALLOW_PASSWORD_RESET'			=> 'Jelszó helyreállítás engedélyezése ("Elfelejtett jelszó")',
-	'ALLOW_PASSWORD_RESET_EXPLAIN'	=> 'A felhasználóknak megjelenjen-e az "Elfelejtett jelszó" hivatkozás. Külső felhasználó azonosítási rendszer használatakor érdemes lehet letiltanod ezt a funkciót.',
+	'ALLOW_AUTOLOGIN'				=> '“Emlékezz rám” bejelentkezés engedélyezése',
+	'ALLOW_AUTOLOGIN_EXPLAIN'		=> 'Ha be van kapcsolva, akkor bejelentkezéskor engedélyezi a felhasználók számára az “Emlékezz rám” opció használatát, valamint ha a felhasználói azonosító aktiválása nincs beállításon van, akkor a felhasználót a regisztráció végén automatikusan belépteti a fórumra.',
+	'ALLOW_PASSWORD_RESET'			=> '“Elfelejtettem a jelszavam” helyreállítás engedélyezése',
+	'ALLOW_PASSWORD_RESET_EXPLAIN'	=> 'Ha be van kapcsolva, akkor a felhasználóknak engedélyezi az “Elfelejtettem a jelszavam” funkció használatát. Külső felhasználó azonosítási rendszer használatakor érdemes lehet letiltanod ezt a funkciót.',
 	'AUTOLOGIN_LENGTH'				=> '“Emlékezz rám” bejelentkezési kulcs lejárati hossza',
 	'AUTOLOGIN_LENGTH_EXPLAIN'		=> 'Ennyi nap elteltével törlésre kerülnek a “Emlékezz rám” bejelentkezési kulcsok. A 0 kikapcsolja ezt.',
 	'BROWSER_VALID'					=> 'Böngésző ellenőrzése', //?
