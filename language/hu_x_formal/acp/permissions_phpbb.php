@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2020 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2024 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -172,9 +172,9 @@ $lang = array_merge($lang, array(
 	'ACL_M_MERGE'	=> 'Összevonhat témákat',
 
 	'ACL_M_INFO'	=> 'Megtekintheti a hozzászólás adatokat',
-	'ACL_M_WARN'	=> 'Adhat figyelmeztetést<br /><em>Ez a jogosultság csak globálisan adható. Nem fórum alapú.</em>', // This moderator setting is only global (and not local)
-	'ACL_M_PM_REPORT'	=> 'Lezárthatja és törölheti privát üzenetek jelentéseit.<br /><em>Ez a jogosultság csak globálisan adható. Nem fórum alapú.</em>', // This moderator setting is only global (and not local)
-	'ACL_M_BAN'		=> 'Kezelheti a kitiltásokat<br /><em>Ez a jogosultság csak globálisan adható. Nem fórum alapú.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_WARN'	=> 'Adhat figyelmeztetést',
+	'ACL_M_PM_REPORT'	=> 'Lezárthatja és törölheti privát üzenetek jelentéseit',
+	'ACL_M_BAN'		=> 'Kezelheti a kitiltásokat',
 ));
 
 // Admin Permissions

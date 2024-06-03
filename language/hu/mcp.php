@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2020 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2024 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -262,7 +262,7 @@ $lang = array_merge($lang, array(
 	'ONLY_TOPIC'			=> 'Csak a „%s” téma', //? témából stb.? (Moderálandóknál)
 	'OTHER_USERS'			=> 'Más erről az IP-ről hozzászóló felhasználók',
 
-	'QUICKMOD_ACTION_NOT_ALLOWED' => "%s nem engedélyezett, mint quickmod", //?
+	'QUICKMOD_ACTION_NOT_ALLOWED' => '%s nem engedélyezett, mint quickmod', //?
 
 	'PM_REPORT_CLOSED_SUCCESS'	=> 'A kiválasztott PÜ jelentés sikeresen lezárásra került.',
 	'PM_REPORT_DELETED_SUCCESS'	=> 'A kiválasztott PÜ jelentés sikeresen törlésre került.',
