@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2020 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2024 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -90,7 +90,21 @@ $lang = array_merge($lang, array(
 		'URL'			=> 'Egy érvényes URL, mely bármilyen engedélyezett protokollt használhat (http, ftp, stb., nem használható fel javascript támadásokhoz). Ha nincs protokoll megadva, a szöveg elé „http://” kerül elhelyezésre.',
 		'LOCAL_URL'		=> 'Egy helyi URL. Az URL-nek a téma oldaltól kell lennie viszonyítva, valamint nem tartalmazhat szervernevet, illetve protokollt, a link kezdete “%s” lesz.',
 		'RELATIVE_URL'	=> 'Egy relatív URL. Egy URL részlet megfeleltetésére használhatod, de légy elővigyázatos: a teljes URL egy érvényes relatív URL. Ha a fórumod relatív URL-jét szeretnéd használni, akkor helyette a LOCAL_URL jelölőt használd.', //? You can use this to match parts of a URL, but be careful: a full URL is a valid relative URL.
-		'COLOR'			=> 'Egy HTML szín, lehet a <samp>#FF1234</samp> numerikus formában, vagy lehet egy <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS szín kulcsszó</a>, mint például a <samp>fuchsia</samp> vagy az <samp>InactiveBorder</samp>.'
+		'COLOR'			=> 'Egy HTML szín, lehet a <samp>#FF1234</samp> numerikus formában, vagy lehet egy <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS szín kulcsszó</a>, mint például a <samp>fuchsia</samp> vagy az <samp>InactiveBorder</samp>.',
+		'ALNUM'			=> 'A latin abécé betűje (A-Z) és szám.',
+		'CHOICE'		=> 'Felsorolásból kiválasztott érték, pl. <samp>{CHOICE=pikk,kőr,káró,treff}</samp>. Az értékek alapértelmezés szerint nem különböztetik meg a kis- és nagybetűket, de a <samp>caseSensitive</samp> opció megadásával figyelembe lehet azokat venni: <samp>{CHOICE=pikk,kőr,káró,treff;caseSensitive}</samp>',
+		'FLOAT'			=> 'Egy tizedes szám, pl. <samp>0.5</samp>.',
+		'HASHMAP'		=> 'Karakterláncokat képez le a helyettesítő értékeikre <samp>{HASHMAP=ertek1:csere1,ertek2:csere2}</samp> alakban. Kis- és nagybetű érzékeny. Alapértelmezés szerint megőrzi az ismeretlen értékeket.',
+		'INT'			=> 'Egy egész szám, pl. <samp>2</samp>.',
+		'IP'			=> 'Egy érvényes IPv4 vagy IPv6 cím.',
+		'IPPORT'		=> 'Egy érvényes IPv4 vagy IPv6 cím portszámmal együtt.',
+		'IPV4'			=> 'Egy érvényes IPv4 cím.',
+		'IPV6'			=> 'Egy érvényes IPv6 cím.',
+		'MAP'			=> 'Karakterláncokat képez le a helyettesítő értékeikre <samp>{MAP=ertek1:csere1,ertek2:csere2}</samp> alakban. Nem érzékeny a kis- és nagybetű különbségre. Alapértelmezés szerint megőrzi az ismeretlen értékeket.',
+		'RANGE'			=> 'Egy egész szám a megadott tartományban, pl. <samp>{RANGE=-10,42}</samp>.',
+		'REGEXP'		=> 'Ellenőrzi az értékét egy megadott regexp kifejezés alapján, pl. <samp>{REGEXP=/^foo\w+bar$/}</samp>.',
+		'TIMESTAMP'		=> 'Egy időbélyeg, úgy mint <samp>1h30m10s</samp>, ami másodpercekké kerül átváltásra. Számot is elfogad.',
+		'UINT'			=> 'Egy előjel nélküli egész szám. Hasonló, mint az <samp>{INT}</samp>, de nem fogad el 0-nál kisebb számot.',
 	),
 ));
 

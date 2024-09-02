@@ -9,7 +9,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2020 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2024 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -112,6 +112,8 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> 'Az új felhasználónak aktivációs e-mail küldése (alapértelmezés szerint nem kap e-mail-t)',
 	'CLI_DESCRIPTION_USER_DELETE'				=> 'Felhasználói fiók törlése.',
 	'CLI_DESCRIPTION_USER_DELETE_USERNAME'		=> 'A törlendő felhasználói fiókhoz tartozó felhasználó név',
+	'CLI_DESCRIPTION_USER_DELETE_ID'			=> 'Felhasználói fiók törlése felhasználói azonosító alapján.',
+	'CLI_DESCRIPTION_USER_DELETE_ID_OPTION_ID'	=> 'A törlendő felhasználói fiókok felhasználói azonosítói',
 	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> 'A felhasználó összes hozzászólásának törlése. Az opció használata nélkül a hozzászólások nem kerülnek törlésre.',
 	'CLI_DESCRIPTION_USER_RECLEAN'				=> 'Felhasználói nevek tisztítása.',
 
@@ -159,10 +161,14 @@ $lang = array_merge($lang, array(
 	'CLI_THUMBNAIL_NOTHING_TO_GENERATE'	=> 'Nincsenek generálandó bélyegképek.', // No thumbnails to generate.
 	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'Nincsenek törlendő bélyegképek.', // No thumbnails to delete.
 
-	'CLI_USER_ADD_SUCCESS'		=> 'A felhasználói fiók (%s) létrehozása sikeresen megtörtént.',
-	'CLI_USER_DELETE_CONFIRM'	=> 'Biztos vagy benne hogy törlöd ‘%s’ felhasználói fiókját? [y/N]',
-	'CLI_USER_RECLEAN_START'	=> 'Felhasználói nevek tisztítása',
-	'CLI_USER_RECLEAN_DONE'		=> [
+	'CLI_USER_ADD_SUCCESS'			=> 'A felhasználói fiók (%s) létrehozása sikeresen megtörtént.',
+	'CLI_USER_DELETE_CONFIRM'		=> 'Biztos vagy benne, hogy törlöd ‘%s’ felhasználói fiókját?',
+	'CLI_USER_DELETE_ID_CONFIRM'	=> 'Biztos vagy benne, hogy törlöd ‘%s’ felhasználói azonosítókat? [y/N]',
+	'CLI_USER_DELETE_ID_SUCCESS'	=> 'Felhasználói azonosítók sikeresen törölve.',
+	'CLI_USER_DELETE_ID_START'		=> 'Felhasználók törlése azonosító alapján',
+	'CLI_USER_DELETE_NONE'			=> 'Nem történt azonosító alapján felhasználó törlés.',	
+	'CLI_USER_RECLEAN_START'		=> 'Felhasználói nevek tisztítása',
+	'CLI_USER_RECLEAN_DONE'			=> [
 			0	=> 'A tisztítás sikeresen befejeződött. Egy felhasználó nevet sem kellett megtisztítani.',
 			1	=> 'A tisztítás sikeresen befejeződött. %d felhasználó név került megtisztításra.',
 			2	=> 'A tisztítás sikeresen befejeződött. %d felhasználó név került megtisztításra.',
