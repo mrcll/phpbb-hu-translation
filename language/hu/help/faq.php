@@ -8,7 +8,7 @@
  * For full copyright and license information, please see
  * the docs/CREDITS.txt file.
  *
- * Magyar fordítás (c) 2007-2020 „Magyar phpBB Közösség fordítók”,
+ * Magyar fordítás (c) 2007-2024 „Magyar phpBB Közösség fordítók”,
  * http://phpbb.hu
  *
  * $Id$
@@ -161,7 +161,7 @@ $lang = array_merge($lang, array(
 	'HELP_FAQ_SEARCH_BLANK_QUESTION'	=> 'A keresésem miért ad vissza üres oldalt!?',
 	'HELP_FAQ_SEARCH_FORUM_ANSWER'	=> 'Írd be a keresendő kifejezést közvetlenül a keresődobozba, mely rendelkezésre áll a fórum kezdőlapon, egy fórumban vagy egy témában. A részletes keresést a „Részletes keresés” linkre kattintva tudod elérni, mely a fórum összes oldalán elérhető. Ennek a helye a használt megjelenéstől függ.',
 	'HELP_FAQ_SEARCH_FORUM_QUESTION'	=> 'Hogyan kereshetek egy fórumban?',
-	'HELP_FAQ_SEARCH_MEMBERS_ANSWER'	=> 'Menj a „Taglista” oldalra, és kattints a „Felhasználó keresése” linkre.',
+	'HELP_FAQ_SEARCH_MEMBERS_ANSWER'	=> 'Menj a taglistára, és kattints a „Felhasználó keresése” linkre.',
 	'HELP_FAQ_SEARCH_MEMBERS_QUESTION'	=> 'Hogyan kereshetek a tagok között?',
 	'HELP_FAQ_SEARCH_NO_RESULT_ANSWER'	=> 'Valószínűleg a keresés túl általános volt, és sok gyakori szót tartalmazhatott, melyeket a phpBB3 nem indexel. Próbálj meg egy jobban körülhatárolt kifejezést megadni, és használd ki a részletes keresés lehetőségeit.',
 	'HELP_FAQ_SEARCH_NO_RESULT_QUESTION'	=> 'Miért nem ad vissza találatot a keresésem?',

@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2020 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2024 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -53,8 +53,9 @@ $lang = array_merge($lang, array(
 
 	'DETAILS'				=> 'Részletek',
 
-	'EXTENSIONS_DISABLED'	=> 'Letiltott kiterjesztések',
-	'EXTENSIONS_ENABLED'	=> 'Engedélyezett kiterjesztések',
+	'EXTENSIONS_NOT_INSTALLED'	=> 'Nem telepített kiterjesztések',
+	'EXTENSIONS_DISABLED'		=> 'Letiltott kiterjesztések',
+	'EXTENSIONS_ENABLED'		=> 'Engedélyezett kiterjesztések',
 
 	'EXTENSION_DELETE_DATA'	=> 'Adatok törlése',
 	'EXTENSION_DISABLE'		=> 'Letiltás',

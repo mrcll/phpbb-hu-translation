@@ -79,6 +79,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_REPARSER_REPARSE'					=> 'Újraformázza a tárolt szövegeket a jelenlegi text_formatter szolgáltatással.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'			=> 'Az újraformázandó szöveg típusa. Hagyd üresen, ha mindent újra szeretnél formázni.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Ne mentsen el semmit, csak mutassa meg mi lenne az eredmény',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_FORCE_BBCODE'	=> 'Kivétel nélkül az összes BBCode újraformázása. Kérjük, vedd figyelembe, hogy a korábban letiltott BBCode-ok is újrafeldolgozásra, engedélyezésre és megjelenítésre kerülnek.', //? Re-parse all BBCodes without exception. Note that any previously disabled BBCodes will be reprocessed, enabled, and fully rendered.
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'A legkissebb bejegyzés azonosító a folyamatban',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'A legnagyobb bejegyzés azonosító a folyamatban',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'A folyamatonként feldolgozandó bejegyzések számának megbecslése',

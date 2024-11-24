@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2020 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2024 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -115,6 +115,7 @@ $lang = array_merge($lang, array(
 	'VIEW_INFO'				=> 'Hozzászólás adatai',
 	'VIEW_NEXT_TOPIC'		=> 'Következő téma',
 	'VIEW_PREVIOUS_TOPIC'	=> 'Előző téma',
+	'VIEW_QUOTED_POST'		=> 'Idézett hozzászólás megtekintése',
 	'VIEW_RESULTS'			=> 'Eredmény megtekintése',
 	'VIEW_TOPIC_POSTS'		=> array(
 		1	=> '%d hozzászólás',
